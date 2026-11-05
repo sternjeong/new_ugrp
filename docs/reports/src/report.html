@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>3분커리 추천 엔진 실험 종합 보고서</title><link rel="stylesheet" href="style.css"></head>
+<body>
+
+<div class="cover">
+  <div class="kicker">3분커리 · UGRP · 엔진 실험 보고서</div>
+  <span class="h1c" style="display:block;font-size:30pt;line-height:1.25;font-weight:700;margin-bottom:8mm;">추천 엔진 실험 종합 보고서</span>
+  <div class="sub">가설 · 실험 설계 · 결과 · 기각 · 결론<br>연구실 검색, 연관 과목, 이유 문장, 질의 해석</div>
+  <table>
+    <tr><td>대상 독자</td><td>팀 엔지니어 (회의 자료)</td></tr>
+    <tr><td>기준일</td><td>2026-10-11</td></tr>
+    <tr><td>범위</td><td>저장소 <b>experiments/</b>의 실험 5건 (bge-m3 매칭, 이유 문장 엔진, 블라인드 A/B 평가, 질의 해석 v1·v2)</td></tr>
+    <tr><td>서비스 상태</td><td>앱(<span class="mono">python3 -m curri</span>)은 제품 흐름을 보여주는 골격이며, 엔진은 아직 탑재하지 않았다</td></tr>
+    <tr><td>주의</td><td>모든 채점은 Claude 한 모델의 판단이다. 사람 평가는 아직 없다 (10장)</td></tr>
+  </table>
+</div>
+
+<h1 class="first">1. 한 페이지 요약</h1>
+
+<p>3분커리는 학부생이 관심을 입력하면 연구실을 찾아 주고, 연구실을 열면 연관 과목과 "왜 이 과목인가" 문장을 보여 주며, 마지막에 연구 가이드를 제안한다. 현재 앱은 이 흐름의 골격이고 추천은 개념 사전(70개)과 규칙 점수로 돌아간다. 이 보고서는 그 규칙 엔진을 <b>어디에 어떤 엔진으로 바꿀지</b>를 실험으로 가려낸 기록이다.</p>
+
+<table>
+<tr><th style="width:21%">엔진 슬롯 (화면)</th><th style="width:30%">실험 결론</th><th style="width:36%">근거</th><th>상태</th></tr>
+<tr><td><b>③ 연관 과목 목록</b><br>연구실 상세</td><td>임베딩(bge-m3) + 규칙 가산 + 재순위(bge-reranker-v2-m3). 사전 계산</td><td>상위 3개 무관 비율 22% → 7%, 평균 관련도 1.25 → 1.50. 상위에서만 신뢰 가능, 순위 기준으로 개수 결정</td><td><span class="tag t-mid">조건부 채택</span></td></tr>
+<tr><td><b>④ 과목별 이유 문장</b><br>연구실 상세</td><td>연결은 템플릿, LLM은 과목 내용 명사구만, NLI 검사. 사전 계산</td><td>근거 없는 내용 44/60 → 4/60(M7) → 2/60(M8). A/B에서 구체성 1.3 → 3.2</td><td><span class="tag t-mid">조건부 채택</span><br><span class="small">정확성 회복 필요</span></td></tr>
+<tr><td><b>① 관심 → 연구실 검색</b><br>홈 → 목록</td><td>질의 해석(좋아함/싫어함 분리, 구절 보존) + 사전 검색 + 임베딩 순위 융합. 불확실하면 Gemini 라우터</td><td>시험 질의 성공률 0.62 → 0.81(보정 지표), 조용한 실패 26 → 9건 /68. 임베딩 단독은 오히려 열세</td><td><span class="tag t-mid">조건부 채택</span><br><span class="small">독립 질의로 재검증 필요</span></td></tr>
+<tr><td><b>② 카드의 "왜 이 연구실인가"</b></td><td>미실험. 이유 문장 엔진의 분업 구조 재사용 예정</td><td>—</td><td><span class="tag t-open">미실험</span></td></tr>
+<tr><td><b>⑤ 연구 가이드</b></td><td>미실험. 논문 카드 사전 추출 + 템플릿 조합 설계안만 있음</td><td>논문 데이터가 최근 3개년 기준으로 모여야 함</td><td><span class="tag t-open">미실험</span></td></tr>
+</table>
+
+<div class="box"><b class="t">핵심 메시지 다섯 가지</b>
+<ol>
+<li><b>임베딩만으로 교체하면 손해다.</b> 사전 검색(현재 앱)이 있는 단어에서는 더 정확하다. 임베딩은 사전에 없는 표현을 보완하는 용도로 섞을 때 가치가 있다.</li>
+<li><b>LLM은 "해석"과 "추출"만 시킨다.</b> 연결·제안·설명을 LLM이 쓰게 하면 환각이 27~73% 나왔다. 역할을 나누자 4건(6.7%)으로 줄었다.</li>
+<li><b>가장 큰 개선은 모델이 아니라 구조에서 나왔다.</b> 부정 질의에서 싫은 주제 혼입이 75% → 8~17%로 줄어든 것은 "싫다고 한 구절을 질의에서 빼는" 규칙 때문이다.</li>
+<li><b>순위 신호는 위쪽에서만 믿을 수 있다.</b> 모든 방법에서 6위 이후는 대부분 잡음이다. 목록 길이는 점수 기준점이 아니라 순위로 정한다.</li>
+<li><b>가장 큰 리스크는 평가 자체다.</b> 채점자, 질의 작성자, 파이프라인 설계자가 모두 같은 Claude 계열이다. 서비스 반영 전에 사람 검증을 받아야 한다.</li>
+</ol></div>
+
+<h2>회의에서 결정이 필요한 사항</h2>
+<ol>
+<li>서버에 임베딩 모델(torch)을 올릴 것인가. 질의 임베딩은 CPU 약 220 ms. 현재 서버는 표준 라이브러리만 쓴다.</li>
+<li>Gemini 라우터의 호출 비율 목표(현재 시험에서 13%), 비용 상한, 시간 제한과 실패 시 후퇴 규칙.</li>
+<li>이유 문장의 정확성 기준: 전문용어 사전 구축 범위, 사람 검수 표본 크기.</li>
+<li>논문 데이터 요구사항: 최근 3개년 전체, 앱 연구실 ID 매핑, 앱 교수 중 논문 0편인 5명 보완.</li>
+<li>사람 평가 일정(학부생 몇 명이 어떤 패킷을 볼 것인가).</li>
+</ol>
+
+<h1>2. 서비스 구조와 엔진이 들어갈 자리</h1>
+
+<h2>2.1 현재 앱</h2>
+<p>Python 표준 라이브러리 HTTP 서버(<code>curri/server.py</code>)와 SQLite, 정적 프런트엔드(<code>curri/static/app.js</code>)로 구성된다. 추천은 <code>ProfileCatalog</code>(<code>curri/profile_catalog.py</code>)가 맡는다. 외부 패키지·API 키·LLM 호출이 없다. 데이터는 <code>data/</code>에 있다.</p>
+
+<table>
+<tr><th>데이터</th><th class="n">건수</th><th>비고</th></tr>
+<tr><td>lab_profiles.jsonl</td><td class="n">58</td><td>공동 홈페이지 묶음 후보 단위. ok 51 / thin 5 / insufficient 2. <b>전부 review_status = draft</b></td></tr>
+<tr><td>courses.jsonl / course_profiles.jsonl</td><td class="n">419</td><td>복합 코드(예: CITE441/EECE423)가 있어 독립 과목 수와 같지 않음</td></tr>
+<tr><td>concepts.json</td><td class="n">70</td><td>개념 사전. keywords(과목 본문 매칭), query_keywords(학생 관심 문장 해석)</td></tr>
+<tr><td>goldset.jsonl</td><td class="n">25</td><td>기대 연구실을 담은 평가 초안 (draft)</td></tr>
+</table>
+<p class="small">범위: 컴퓨터공학·전자전기·IT융합·반도체공학 4개 학과. 검색이 POSTECH 전체 연구실을 제공하는 것이 아니다.</p>
+
+<h2>2.2 엔진 슬롯 다섯 곳</h2>
+<table>
+<tr><th style="width:5%">#</th><th style="width:22%">화면 위치</th><th style="width:25%">현재 구현</th><th style="width:25%">입력 의존성</th><th>실행 시점</th></tr>
+<tr><td>①</td><td>홈의 관심 입력 → 연구실 목록 순서</td><td><code>search()</code>: 70개 개념 키워드 매칭, 낱말 후퇴</td><td>사용자 입력</td><td>온라인</td></tr>
+<tr><td>②</td><td>카드의 "어떤 내용을 보고 연결했나요?"</td><td><code>search()</code>의 reason·evidence. "~관련 내용을 확인했습니다" + 영어 원문. 같은 원문 중복 노출 결함</td><td>사용자 입력</td><td>온라인(또는 사전 계산 + 선택)</td></tr>
+<tr><td>③</td><td>상세의 연관 과목 목록</td><td><code>detail()</code>의 courses: 연구실 core 개념과 과목 태그의 겹침</td><td>연구실만</td><td><b>사전 계산 가능</b></td></tr>
+<tr><td>④</td><td>과목마다 붙는 reason 문장</td><td>개념 템플릿(M1): "제어 지식을 연결해볼 수 있습니다"</td><td>연구실×과목만</td><td><b>사전 계산 가능</b></td></tr>
+<tr><td>⑤</td><td>연구 가이드</td><td><code>guide()</code>: 개념 최대 3개에 고정 단계 템플릿</td><td>질의 + 연구실 + 수강 과목</td><td>온라인(또는 사전 추출 + 조합)</td></tr>
+</table>
+<div class="box"><b class="t">설계 원칙: 입력이 연구실과 과목뿐이면 사전 계산한다</b>
+<p>③④는 입력이 고정이므로 GPU에서 한 번 계산해 JSON으로 두고 서버는 읽기만 한다. 서버 구조(표준 라이브러리)를 바꾸지 않고, <code>--engine</code> 옵션으로 켜고 끄며 A/B를 비교할 수 있다. ①②⑤는 사용자 입력이 들어가므로 온라인 계산이 필요하고, 이것이 서버에 임베딩을 올릴지 여부의 쟁점이다.</p></div>
+
+<h1>3. 실험 지도</h1>
+<table>
+<tr><th style="width:4%">#</th><th style="width:21%">실험</th><th style="width:9%">슬롯</th><th style="width:13%">기간</th><th>핵심 질문</th><th style="width:19%">경로</th></tr>
+<tr><td>E1</td><td>bge-m3 연구실↔과목 매칭 (v2~v4)</td><td>③</td><td>10-08 ~ 10-09</td><td>임베딩·규칙·재순위의 어떤 조합이 연관 과목을 가장 잘 고르는가</td><td><span class="mono">experiments/bge_m3/</span></td></tr>
+<tr><td>E2</td><td>이유 문장 엔진 (v1~v3)</td><td>④</td><td>10-09 ~ 10-11</td><td>환각 없이 구체적이고 자연스러운 "왜 이 과목인가" 문장을 어떻게 만드는가</td><td><span class="mono">experiments/reason_engine/</span></td></tr>
+<tr><td>E3</td><td>블라인드 A/B 사용자 평가</td><td>③④</td><td>10-11</td><td>E1·E2를 합친 엔진이 현재 앱보다 나은가</td><td><span class="mono">experiments/ab_test/</span></td></tr>
+<tr><td>E4</td><td>질의 해석 v1</td><td>①</td><td>10-11</td><td>부정·복합 용어·다른 표현을 임베딩이 다룰 수 있는가, 해석 단계가 필요한가</td><td><span class="mono">experiments/query_understanding/V1</span></td></tr>
+<tr><td>E5</td><td>파이프라인 대조 v2</td><td>①②</td><td>10-11</td><td>의도 분기·해석·융합·라우팅을 갖춘 제안 파이프라인이 현재 파이프라인보다 우월한가</td><td><span class="mono">experiments/query_understanding/V2</span></td></tr>
+</table>
+
+<h2>3.1 공통 방법</h2>
+<ul>
+<li><b>GPU:</b> Kaggle T4. <code>gpuhub submit &lt;노트북&gt;</code>이 노트북 메타데이터의 <code>gpuhub.inputs</code> 파일을 비공개 데이터셋으로 올려 연결하고 <code>gpuhub sync</code>로 결과를 회수한다. 해석·평가는 로컬에서 한다.</li>
+<li><b>정답 없는 평가:</b> 사람 정답이 없어서 (a) 정답 없이 계산하는 자동 지표, (b) 버전 정보를 숨긴 채 Claude Code가 매기는 0~2점 블라인드 채점, (c) 규칙 엔진의 "은(silver) 정답"을 병행했다. 채점은 이미 채점한 쌍을 재사용하고 새로 나온 쌍만 추가 채점한다.</li>
+<li><b>채점 기준(과목 관련도):</b> 2 = 연구 주제에 직접 필요한 지식·방법, 1 = 기초이거나 부분적 관련, 0 = 무관 또는 같은 단어의 다른 뜻.</li>
+<li><b>기록:</b> 각 실험 폴더의 README에 설정·결과·한계를 남겼고, 점수 파일과 순위 파일을 보존했다.</li>
+</ul>
+
+<h1>4. E1. bge-m3 연구실↔과목 매칭</h1>
+
+<h2>4.1 문제와 기준 방식</h2>
+<p>연구실 상세의 연관 과목은 개념 태그가 겹치는 과목이다. 이를 의미 유사도로 대체할 수 있는지 시험했다. 기준(A)은 <b>v1 방식</b>: 연구실의 주제 문장과 과목의 설명·학습목표·강의계획 줄을 같은 다국어 임베딩 모델(BAAI/bge-m3)로 벡터화하고, 주제×조각 코사인 유사도에서 과목별 상위 3개 평균과 여러 주제 가산으로 연구실×과목 점수를 만든다.</p>
+<p>v1 점수의 문제는 자동 지표로 드러났다(아래 표의 A열): 한 과목이 상위 10개에 든 연구실이 29/56(허브 과목), 한 주제가 목록을 독차지한 연구실 18곳, 근거로 쓴 조각이 35자 미만인 비율 31%, 같은 과목이 두 번 나온 중복 28건.</p>
+
+<h2>4.2 버전 정의</h2>
+<table>
+<tr><th style="width:7%">버전</th><th>내용</th><th style="width:10%">실험</th></tr>
+<tr><td>A</td><td>v1 방식 (기준)</td><td>v2~v4</td></tr>
+<tr><td>B</td><td>A + 조각 정리: 30자 미만·의미 없는 줄 제거, 강의계획은 3줄씩 묶음</td><td>v2</td></tr>
+<tr><td>C</td><td>B + 허브 보정: 모든 연구실과 두루 가까운 과목을 감점(λ=0.7)</td><td>v2</td></tr>
+<tr><td>D</td><td>C + 주제 분산·교차개설 중복 제거: 같은 주제에서 하나 더 뽑을 때마다 감점(γ=0.03)</td><td>v2</td></tr>
+<tr><td>E</td><td>D + 규칙 엔진 개념 일치 가산점(β=0.04, 제목 일치 시 전체·본문만 일치 시 절반)</td><td>v2·v3</td></tr>
+<tr><td>F</td><td>허브 보정 λ=0.3, 주제당 최소 1개 보장, β=0.04</td><td>v3</td></tr>
+<tr><td>G</td><td>F + 규칙 비중 2배(β=0.08)</td><td>v3</td></tr>
+<tr><td>H</td><td>임베딩 + 규칙만(λ=0, 분산 없음, β=0.08) = 단순 하이브리드</td><td>v3·v4</td></tr>
+<tr><td>R1</td><td>H 후보 30개를 재순위 모델(bge-reranker-v2-m3)의 점수로만 재정렬</td><td>v4</td></tr>
+<tr><td>R2</td><td>R1 + 규칙 가산점(재순위 점수 + 0.08 × 규칙)</td><td>v4</td></tr>
+</table>
+<p class="small">재순위 모델은 주제 문장과 과목 설명을 한 쌍으로 함께 읽어 관련도(0~1)를 낸다. 임베딩은 두 문장을 따로 벡터로 바꿔 비교하므로 비용은 낮지만 정밀도가 낮다.</p>
+
+<h2>4.3 가설과 판정</h2>
+<table>
+<tr><th style="width:6%">ID</th><th style="width:34%">가설</th><th>관찰</th><th style="width:12%">판정</th></tr>
+<tr><td>H1.1</td><td>조각 정리(B)가 짧은 근거를 없애고 관련도를 해치지 않는다</td><td>짧은 근거 31% → 0%, 중복 28 → 33, 평균 관련도 0.88 → 0.89 (동일)</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H1.2</td><td>허브 보정(C)이 허브를 줄이면서 관련도를 유지한다</td><td>허브 20 → 10/56. 그러나 평균 0.89 → 0.82, 0점 40% → 45%, nDCG 0.85 → 0.83</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H1.3</td><td>주제 분산·중복 제거(D)가 목록 품질을 올린다</td><td>독점 28 → 0, 중복 32 → 0 이지만 평균 0.76, 0점 48%, nDCG 0.79로 최저</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H1.4</td><td>규칙 가산(E)이 D의 손실을 회복한다</td><td>평균 0.76 → 0.87, 0점 48% → 40%. 단 β=0.04는 A(0.88) 수준에 머묾</td><td><span class="tag t-mid">부분 채택</span></td></tr>
+<tr><td>H1.5</td><td>보정·분산을 줄이고 규칙 비중을 올리면 A를 넘는다</td><td>G·H: 평균 1.05, 0점 28% (A는 0.88 / 40%)</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H1.6</td><td>허브 보정·주제 분산이 필요하다</td><td>G(보정·분산 있음)와 H(없음)가 평균 1.05 / 1.05, 0점 28% / 28%로 같음 → 단순한 H로 충분</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H1.7</td><td>상대 컷오프로 개수를 줄이면 정확도가 오른다</td><td>0점 18~19%로 개선. 하지만 개수 평균 약 4개, 회수율 65% → 29%</td><td><span class="tag t-mid">조건부</span><br><span class="small">정밀도-회수율 교환</span></td></tr>
+<tr><td>H1.8</td><td>재순위가 상위 정확도를 올린다</td><td>상위 3: 평균 1.43 → 1.50, 0점 13% → 7% (H→R1). 상위 5: 1.23 → 1.30, 23% → 15%</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H1.9</td><td>재순위 점수에 절대 기준점(0.5) 컷오프를 걸 수 있다</td><td>점수 중앙값 0.002, 90%가 0.05 이하. 0.5를 넘는 과목이 드물어 컷오프가 "최소 3개"로 동작</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H1.10</td><td>재순위에 규칙을 더하면(R2) 10개 전체도 좋아진다</td><td>R2 vs R1: 상위 5 1.35 vs 1.30, 10개 1.05/26% vs 1.00/30%. 차이가 작음</td><td><span class="tag t-mid">약한 채택</span></td></tr>
+</table>
+
+<h2>4.4 결과</h2>
+<div class="fig"><img src="img/bge_v2v3.png"><div class="cap">그림 1. v2~v3: 평균 관련도(Claude 0~2점 블라인드 채점). v2에서는 어떤 보정도 A를 넘지 못했고, v3에서 규칙 가산점을 올린 G·H가 처음으로 개선됐다. 연구실 20곳, v3는 395쌍.</div></div>
+<div class="fig"><img src="img/bge_v4.png"><div class="cap">그림 2. v4: H 후보 30개를 재순위한 결과. 재순위는 상위 3~5개의 정확도를 가장 크게 올렸고 10개 전체로는 H와 비슷하다. 새로 나온 73쌍을 추가 채점.</div></div>
+
+<h3>v2 자동 지표 (정답 없이)</h3>
+<table>
+<tr><th>지표</th><th class="n">A</th><th class="n">B</th><th class="n">C</th><th class="n">D</th><th class="n">E</th></tr>
+<tr><td>최대 허브 (한 과목이 상위 10에 든 연구실 수 / 56)</td><td class="n">29</td><td class="n">20</td><td class="n">10</td><td class="n">9</td><td class="n">13</td></tr>
+<tr><td>한 주제 독점 연구실</td><td class="n">18</td><td class="n">24</td><td class="n">28</td><td class="n">0</td><td class="n">0</td></tr>
+<tr><td>짧은 근거 비율</td><td class="n">31%</td><td class="n">0%</td><td class="n">0%</td><td class="n">1%</td><td class="n">1%</td></tr>
+<tr><td>중복</td><td class="n">28</td><td class="n">33</td><td class="n">32</td><td class="n">0</td><td class="n">0</td></tr>
+<tr><td>은정답 재현율</td><td class="n">0.56</td><td class="n">0.52</td><td class="n">0.51</td><td class="n">0.48</td><td class="n">0.73</td></tr>
+<tr><td>평균 관련도 (0~2) / 0점 비율</td><td class="n">0.88 / 40%</td><td class="n">0.89 / 40%</td><td class="n">0.82 / 45%</td><td class="n">0.76 / 48%</td><td class="n">0.87 / 40%</td></tr>
+</table>
+<div class="box warn"><b class="t">교훈: 자동 지표가 좋아져도 관련도는 오르지 않았다</b>
+<p>허브·독점·중복 지표는 크게 개선됐지만 사람이 느끼는 관련도는 같거나 낮아졌다. 이런 "목록을 고르게 만드는" 교정은 관련 과목이 적은 연구실(안성수·한해욱·유환조)에서 억지로 10개를 채우는 문제를 해결하지 못한다. 모든 버전에서 상위 10개의 약 40%가 무관했고, 1~3위 평균은 1.0~1.55점, 6위 이후는 0.4~0.7점이었다.</p></div>
+
+<h2>4.5 결론</h2>
+<ul>
+<li><b>채택:</b> R2(임베딩 + 규칙 가산 + 재순위). 허브 보정·주제 분산은 쓰지 않는다.</li>
+<li><b>목록 길이:</b> 절대 점수 컷오프는 쓰지 않고 <b>순위 기준</b>으로 정한다(예: 상위 3~5개를 "핵심 연관", 나머지를 "더 보기"). UI 변경이 필요하다.</li>
+<li><b>남은 일:</b> 연구실 12~20곳에서 58곳 전체로 확대, 교차개설 과목 중복 처리, 복합 과목 코드, 사람 표본 검증.</li>
+<li><b>한계:</b> 채점은 Claude Code 한 명의 판단이며 상대 비교로만 쓴다. 연구실 20곳은 작다.</li>
+</ul>
+
+<h1>5. E2. 이유 문장 엔진</h1>
+
+<h2>5.1 문제와 구조</h2>
+<p>연구실 상세의 과목마다 "왜 이 과목인가" 문장이 붙는다. 현재 문장(M1)은 개념 템플릿이라 모호하다("제어 지식을 연결해볼 수 있습니다"). 연구실×과목 쌍(E1의 R2 순위)을 입력으로 세 단계를 거친다.</p>
+<pre>(연구실, 과목) 쌍   ← E1의 R2 순위
+  ① 근거 선택: 연구실 주제 문장 × 과목 문장 중 가장 잘 맞는 한 쌍 (bge-reranker-v2-m3)
+       품질 기준: 시험·과제·"Introduction" 같은 일반 문장 제외
+  ② 문장 생성: M1~M8 (방법 비교)
+  ③ 검증: 근거 밖 단어 비율, 과장 표현, 깨진 글자, (v3) NLI 함의</pre>
+<p>입력 데이터(연구실 주제·과목 근거)가 바뀌어도 ①③은 그대로 쓰고 ②만 교체해 비교할 수 있게 설계했다. 평가: 연구실 12곳 × 상위 5개 = 60쌍, 채점 항목 faithful(0/1)과 specific·fluent·useful(1~3).</p>
+
+<h2>5.2 방법 정의</h2>
+<table>
+<tr><th style="width:8%">방법</th><th>설명</th><th style="width:9%">버전</th></tr>
+<tr><td>M1</td><td>개념 템플릿(현재 앱 방식)</td><td>v1</td></tr>
+<tr><td>M2</td><td>근거 인용: "이 연구실의 '주제' 연구와 연결돼요. 이 과목의 과목 설명에서 "원문 문장"를 다뤄요."</td><td>v1~v3</td></tr>
+<tr><td>M3</td><td>키워드 템플릿: 근거에서 주제와 가까운 구절 2개</td><td>v1</td></tr>
+<tr><td>M4 / M4b</td><td>로컬 LLM(Qwen2.5-7B-Instruct 4비트, nf4) 자유 생성 / 프롬프트·깨짐 표시 개선판</td><td>v1 / v2·v3</td></tr>
+<tr><td>M5 / M5b</td><td>M4 + 검증, 실패 시 M2로 대체. 검증은 근거 밖 단어 비율 기준 / 깨진 글자·과장 표현 포함</td><td>v1 / v2·v3</td></tr>
+<tr><td>M2k</td><td>영어 근거를 한국어로 번역해 인용</td><td>v2</td></tr>
+<tr><td>M6</td><td>M4b + 재순위 모델의 "생성 문장↔근거" 일치도 검사</td><td>v2</td></tr>
+<tr><td><b>M7</b></td><td>연결은 템플릿, LLM은 <b>과목이 가르치는 내용을 짧은 한국어 명사구로 옮기는 일만</b> (예: "PID Control" → "PID 제어")</td><td>v3</td></tr>
+<tr><td><b>M8</b></td><td>M7 + 다국어 NLI(mDeBERTa-v3-xnli)로 "이 수업은 {명사구}를 다룬다"가 근거에서 도출되는지 검사, 실패 시 M2</td><td>v3</td></tr>
+</table>
+
+<h2>5.3 가설과 판정</h2>
+<table>
+<tr><th style="width:6%">ID</th><th style="width:33%">가설</th><th>관찰</th><th style="width:12%">판정</th></tr>
+<tr><td>H2.1</td><td>LLM 생성(M4)이 템플릿·인용보다 자연스럽고 도움이 된다</td><td>자연 2.73, 도움 1.90 (M2는 1.88 / 1.65). 그러나 27%(16/60)가 근거에 없는 내용: absorption→adsorption, 연구실 프로젝트 언급, 깨진 토큰("제어_technologies", "enrich。")</td><td><span class="tag t-mid">부분</span></td></tr>
+<tr><td>H2.2</td><td>검증(M5)으로 환각을 제거할 수 있다</td><td>지어낸 16건 중 15건을 걸렀으나 83%를 M2로 대체. 영어 근거를 한국어로 바꾼 정상 문장도 "근거 밖 단어"로 판정</td><td><span class="tag t-mid">부분</span></td></tr>
+<tr><td>H2.3</td><td>프롬프트 개선(M4b)이 환각을 줄인다</td><td>부정확 27%로 v1과 같음. 대부분 "시뮬레이션 기법 → 포논 연구의 중요한 도구" 같은 <b>연결 주장</b></td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H2.4</td><td>재순위 일치도(M6)로 정확성을 판정할 수 있다</td><td>정확한 문장 중앙값 0.975, 부정확 0.919로 거의 구분 안 됨. 부정확 14건 중 8건만 걸렀고 정확한 14건을 잘못 대체</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H2.5</td><td>단어 비교 검사(M5b)를 개선하면 쓸 만하다</td><td>부정확 14건 중 13건을 걸렀으나 정확한 37건 중 19건도 대체(대체율 83% → 63%)</td><td><span class="tag t-mid">부분</span></td></tr>
+<tr><td>H2.6</td><td>영어 근거를 한국어로 번역(M2k)하면 읽기 좋아진다</td><td>새 오류: "Deep learning"→"Depth Learning", "NN"→"나이브 베이지안", "poly-phase"→"폴파이". 정확 1.00 → 0.94</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H2.7</td><td>재순위 점수 하위 15%는 근거가 부실하므로 문장을 생략한다</td><td>생략 9건 중 4건이 잘못(신호 및 시스템 ↔ 레이더 신호처리 등)</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H2.8</td><td>깨진 글자 검사가 효과가 있다</td><td>M5b·M6에서 깨짐 0건</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H2.9</td><td>LLM에게 연결을 맡기지 않고 명사구만 시키면(M7) 환각이 줄고 자연스러움은 유지된다</td><td>부정확 44/60(M4b) → 4/60. 자연 2.60(M4b 2.70), 도움 1.63으로 5개 방법 중 최고</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H2.10</td><td>NLI 검사(M8)가 단어 비교보다 덜 과잉 대체한다</td><td>M7 문장 16건(27%)만 M2로 대체(단어 비교 63%). 부정확 4건 중 2건을 걸러 정확 0.97</td><td><span class="tag t-ok">채택</span></td></tr>
+</table>
+
+<h2>5.4 v3 결과</h2>
+<div class="fig"><img src="img/reason_v3.png"><div class="cap">그림 3. v3 결과(60쌍, 180문장). 연결을 템플릿이 맡는 M7은 환각이 거의 없고 자연스러움은 LLM 자유 생성에 근접한다.</div></div>
+<table>
+<tr><th>방법</th><th class="n">정확(0~1)</th><th class="n">구체(1~3)</th><th class="n">자연(1~3)</th><th class="n">도움(1~3)</th><th class="n">부정확</th><th class="n">근거 밖 단어</th><th class="n">깨진 글자</th></tr>
+<tr><td>M2 영어 근거 인용</td><td class="n">1.00</td><td class="n">1.68</td><td class="n">1.88</td><td class="n">1.45</td><td class="n">0/60</td><td class="n">11.4%</td><td class="n">-</td></tr>
+<tr><td>M4b LLM 자유 생성</td><td class="n">0.27</td><td class="n">1.73</td><td class="n">2.70</td><td class="n">1.47</td><td class="n">44/60</td><td class="n">40.1%</td><td class="n">6</td></tr>
+<tr><td>M5b LLM + 단어 비교</td><td class="n">0.78</td><td class="n">1.70</td><td class="n">2.15</td><td class="n">1.48</td><td class="n">13/60</td><td class="n">17.5%</td><td class="n">19</td></tr>
+<tr><td><b>M7 템플릿 + LLM 명사구</b></td><td class="n">0.93</td><td class="n">1.78</td><td class="n">2.60</td><td class="n">1.63</td><td class="n">4/60</td><td class="n">0.0%</td><td class="n">0</td></tr>
+<tr><td><b>M8 M7 + NLI</b></td><td class="n">0.97</td><td class="n">1.77</td><td class="n">2.43</td><td class="n">1.58</td><td class="n">2/60</td><td class="n">3.6%</td><td class="n">8</td></tr>
+</table>
+<div class="box warn"><b class="t">채점 기준이 v2와 v3에서 달랐다</b>
+<p>v3 채점은 "직접 적용된다·필수적이다·핵심이다"처럼 근거에 없는 연결 주장을 문장 속 과목 내용이 맞아도 faithful 0으로 매겼다. 그래서 M4b의 정확도가 v2의 0.73에서 v3의 0.27로 달라졌다. <b>v3 수치는 같은 표 안의 방법끼리만 비교한다.</b> 방법마다 문장 형태가 달라 완전한 블라인드도 아니다.</p></div>
+
+<h2>5.5 결론과 남은 문제</h2>
+<ul>
+<li><b>채택:</b> M8(템플릿 연결 + LLM 명사구 + NLI 검사)을 사전 계산. 원리는 "LLM에게 연결을 설명시키면 지어낸다 → 연결은 템플릿, LLM은 추출·번역만".</li>
+<li><b>M7의 부정확 4건은 연결 주장이 아니라 번역 오류</b>: solid crystals → "정상 결정체", carrier → "매개체"(2건), polarization → "극화", 그리고 명사구가 비어 "이 과목에서 을(를) 배워요"가 나온 1건. 전문용어 사전과 빈 명사구 처리가 필요하다.</li>
+<li>조사 처리("을(를)", "작동 1을(를)").</li>
+<li>근거가 "Control Systems"·"Optimization"처럼 제목뿐인 쌍은 어떤 방법도 구체적이지 못했다(구체 1.7~1.8). 연관성이 약한 쌍(소재구조론 ↔ 단백질 구조 예측)에도 템플릿은 똑같이 "이어져요"라고 말한다 → 연관 강도에 따라 문구를 바꾸거나 생략해야 한다.</li>
+<li>NLI 대체로 영어가 섞여 깨진 글자 지표가 8건으로 늘었다.</li>
+</ul>
+
+<h1>6. E3. 블라인드 A/B 사용자 평가</h1>
+
+<h2>6.1 설계</h2>
+<table>
+<tr><th style="width:22%">항목</th><th>내용</th></tr>
+<tr><td>목적</td><td>E1(R2 순위)과 E2(M8 문장)를 합친 엔진(B)이 현재 앱(A)보다 나은지 평가</td></tr>
+<tr><td>A / B</td><td>A = 앱 <code>ProfileCatalog.detail()</code>의 상위 5개 과목과 이유 문장. B = bge-m3 R2 상위 5개 + M8 이유 문장</td></tr>
+<tr><td>범위</td><td>B 결과가 이미 계산된 연구실 12곳. 새 GPU 실행 없이 기존 산출물 재사용</td></tr>
+<tr><td>평가자</td><td>5개 페르소나(전자과 2, 컴공 3)를 Claude가 한 명씩 연기. 페르소나마다 연구실 4곳, 총 20건. luna 모델은 이 환경에서 호출할 수 없어 대체</td></tr>
+<tr><td>블라인드</td><td>A/B를 X/Y로 숨기고 건마다 순서를 무작위로 섞음. 대응표는 채점 후에 열었음</td></tr>
+<tr><td>평가 항목(5개)</td><td>1 상위 과목 적합성 · 2 무관 과목 없음 · 6 이유 문장 사실 정확성 · 7 구체성 · 8 납득도 (1~5점)</td></tr>
+</table>
+
+<h2>6.2 결과</h2>
+<div class="fig"><img src="img/ab.png"><div class="cap">그림 4. 20건 평균. B가 4개 항목에서 앞서고, 사실 정확성만 A가 높다. 연구실 단위 합계 점수로 B 18건, A 1건, 동점 1건.</div></div>
+<table>
+<tr><th>항목</th><th class="n">A 현재 앱</th><th class="n">B 새 엔진</th></tr>
+<tr><td>1 상위 과목 적합성</td><td class="n">3.50</td><td class="n"><b>3.95</b></td></tr>
+<tr><td>2 무관 과목 없음</td><td class="n">3.35</td><td class="n"><b>3.50</b></td></tr>
+<tr><td>6 사실 정확성</td><td class="n"><b>3.75</b></td><td class="n">3.10</td></tr>
+<tr><td>7 구체성</td><td class="n">1.30</td><td class="n"><b>3.15</b></td></tr>
+<tr><td>8 납득도</td><td class="n">1.95</td><td class="n"><b>2.90</b></td></tr>
+<tr><td>전체 평균</td><td class="n">2.77</td><td class="n"><b>3.32</b></td></tr>
+</table>
+
+<h3>사례</h3>
+<ul>
+<li><b>안성수(단백질·결정 구조 AI)</b>: A는 바이오의료 소재 등 소재 과목 5개에 같은 문장을 붙였다. B는 생화학Ⅰ(단백질의 구성과 구조), 현대생명과학실험(Protein Biochemistry), 소재구조론 순으로 올렸다. 매칭 2.0 → 4.0 수준.</li>
+<li><b>김형함(초음파)</b>: B가 더 나쁜 경우. 현대생명과학실험에 "bacterial transformation"이 붙고 생체시스템 문장은 "연구 참여 A-D을(를) 배워요"로 깨졌다. 이 사례에서 B는 정확성·납득도가 A보다 낮았다.</li>
+<li><b>김상우(산업 지능제어)</b>: 컴퓨터비전 주제에 전력선 강의 내용이 붙은 주제 선택 오류. 정확성 2점.</li>
+<li><b>한욱신(데이터베이스)</b>: A가 직접 관련된 DB 과목(교차개설 3개)을 더 잘 골랐다. B는 회귀분석 같은 약한 과목을 포함했다.</li>
+</ul>
+
+<h2>6.3 판정과 한계</h2>
+<table>
+<tr><th style="width:6%">ID</th><th style="width:33%">가설</th><th>관찰</th><th style="width:12%">판정</th></tr>
+<tr><td>H3.1</td><td>B가 A보다 매칭과 이유 문장 품질이 높다</td><td>5개 항목 중 4개 우위. 정확성은 하락(3.75 → 3.10)</td><td><span class="tag t-mid">부분 채택</span></td></tr>
+</table>
+<ul>
+<li><b>정확성 하락이 의미하는 것:</b> A의 문장은 모호해서 틀릴 일이 적고, B는 구체적이라 틀리면 눈에 띈다. 구체성을 얻은 대가가 정확성이므로, 정확성을 A 수준으로 회복하기 전에는 서비스에 반영하지 않는다.</li>
+<li><b>독립성 없음:</b> 한 모델이 5명을 연기했고, 만든 쪽과 채점하는 쪽이 같은 계열이다.</li>
+<li><b>블라인드 불완전:</b> 문장 형태로 A/B가 드러났다. 채점 중 추정한 매핑이 20건 모두 실제와 일치했다.</li>
+<li>범위: 연구실 12곳, 과목 5개. 페르소나의 관심사는 A·B 화면에 반영되지 않고 연구실↔과목 매칭 자체만 평가했다.</li>
+</ul>
+
+<h1>7. E4. 질의 해석 v1 (슬롯 ①)</h1>
+
+<h2>7.1 문제</h2>
+<p>사용자가 "나는 로봇은 싫은데 컴퓨터 아키텍처는 좋아요"라고 입력했다고 하자. 현재 앱은 개념 사전으로 <code>robotics</code>만 잡고(아키텍처는 사전에 없음) <b>로봇 연구실 4곳이 상위에 나온다</b>(정반대 결과). 문장 전체를 임베딩해도 "로봇 싫다"는 로봇 쪽 벡터가 된다. 또 "컴퓨터 아키텍처"가 "컴퓨터"로 쪼개지면 엉뚱한 연구실이 나온다.</p>
+
+<h2>7.2 방법</h2>
+<table>
+<tr><th style="width:8%">방법</th><th style="width:40%">질의 처리</th><th>검색</th></tr>
+<tr><td>A</td><td>개념 사전 키워드 (현재 앱)</td><td>규칙 점수</td></tr>
+<tr><td>B</td><td>없음, 문장 전체</td><td>bge-m3 임베딩, 연구실 문서 중 최대 유사도</td></tr>
+<tr><td>C</td><td>규칙으로 좋아함/싫어함 분리, 구절 유지</td><td>구절별 임베딩. 점수 = 좋아함 평균 z − λ·싫어함 최대 z</td></tr>
+<tr><td>D</td><td>Qwen2.5-7B가 JSON으로 분리 (구절 그대로)</td><td>C와 같음</td></tr>
+</table>
+<p>연구실 문서: 0 = 프로필(요약 + 주제 라벨 + 원문 인용, 359개), 1 = 0 + 앱 교수의 대표 논문 제목·초록 500자(873개). λ ∈ {0, 0.5, 1, 2}. 질의는 39개(단순 6, 다른 표현 8, 부정 8, 복합 용어 7, 다중 관심 6, 약한 부정 4)이며, 정답은 연구실 프로필의 primary 주제 개념으로 정의했다.</p>
+
+<h2>7.3 가설과 판정</h2>
+<table>
+<tr><th style="width:6%">ID</th><th style="width:34%">가설</th><th>관찰</th><th style="width:12%">판정</th></tr>
+<tr><td>H4.1</td><td>임베딩 단독이 키워드 사전을 대체할 수 있다</td><td>전체 P@5: B 0.47 / A 0.69. 단순 질의 0.53 vs 1.00(단, 정답이 사전 개념 기준이라 A에 유리)</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H4.2</td><td>문장 임베딩은 부정 질의에서 싫은 주제를 걸러 내지 못한다</td><td>B의 싫은 주제 혼입 75%(A와 같음)</td><td><span class="tag t-ok">지지</span></td></tr>
+<tr><td>H4.3</td><td>좋아함/싫어함 분리가 부정 처리를 해결한다</td><td>혼입 75% → 8%(C) ~ 17%. 사전 검색에 해석만 붙여도 17%(임베딩 불필요)</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H4.4</td><td>싫어함 감점(λ)이 추가 효과가 있다</td><td>λ=0 → 1: 혼입 17% → 8%. 효과는 있으나 작음. 주효과는 "싫은 구절을 질의에서 빼는 것"</td><td><span class="tag t-mid">약함</span></td></tr>
+<tr><td>H4.5</td><td>LLM 해석이 규칙 해석보다 낫다</td><td>둘 다 P@5 0.66. LLM 형식 실패 2건 제외(37건)해도 같음. 질의당 0.9초(T4)</td><td><span class="tag t-no">기각</span><br><span class="small">현 데이터에서</span></td></tr>
+<tr><td>H4.6</td><td>대표 논문을 문서에 넣으면 검색이 좋아진다</td><td>+0.00~0.04, 복합 용어·부정에서는 오히려 낮아짐. 대표 논문(51개 연구실)이며 최근 3개년 아님</td><td><span class="tag t-no">기각</span></td></tr>
+<tr><td>H4.7</td><td>사전 + 해석 + 임베딩 순위 융합이 가장 좋다</td><td>P@5 0.84(A 0.69), 부정 혼입 8%. <b>같은 39개 질의에서 사후에 확인</b>한 탐색적 결과</td><td><span class="tag t-mid">탐색적 채택</span></td></tr>
+</table>
+
+<div class="fig"><img src="img/qu_v1.png"><div class="cap">그림 5. v1 (개발 질의 39개). 임베딩 단독(B)은 현재 앱(A)보다 낮고, 해석을 붙이면 부정 혼입이 크게 줄며, 사전·해석·임베딩을 융합하면 모든 유형에서 A 이상이다.</div></div>
+
+<h2>7.4 비용과 한계</h2>
+<ul>
+<li><b>시간:</b> 질의 하나의 CPU 임베딩 약 220 ms(Kaggle CPU). LLM 해석 질의당 약 0.9초(T4, 4비트). 서버에서 LLM 해석은 GPU나 외부 API가 필요하므로 규칙 해석을 우선한다.</li>
+<li><b>순환 정답:</b> 정답이 개념 사전과 같은 개념 체계라 A에 유리하다. 임베딩 방법의 능력은 과소평가됐을 수 있다.</li>
+<li><b>규칙 해석기를 같은 39개 질의로 다듬었다.</b> 규칙 ≈ LLM이라는 결과를 자유 서술 문장으로 일반화할 수 없다. E5에서 이 약점을 시험 세트로 점검했다.</li>
+<li>LLM의 JSON "실패 2건"은 모델이 JSON 객체 둘을 이어 출력한 형식 문제였다(해당 질의는 문장 전체로 후퇴).</li>
+</ul>
+
+<h1>8. E5. 파이프라인 대조 v2 (슬롯 ①②)</h1>
+
+<h2>8.1 제안 파이프라인</h2>
+<pre>입력
+ → L0 정규화      동의어(아키텍처→컴퓨터 구조, 챗GPT→언어모델 등)
+ → L1 의도 분기   검색 / 너무 넓음 / 진로 고민 / 범위 밖 / 무의미
+ → L2 해석        좋아함·싫어함 분리, 구절 보존, 우선순위·대조 표현은 "불확실" 표시
+ → L3 검색        사전 검색(해석 반영) + 임베딩 검색 → RRF 순위 융합
+ → L4 확신도 검사 확실 → 결과 / 불확실 → 라우터(Gemini)를 호출한 것으로 기록하고 끝</pre>
+<p><b>라우팅 사유(L4):</b> 좋아함이 비었음, 부정 표현이 있는데 싫어함을 못 뽑음, 우선순위·대조 표현("~도 좋지만", "더 끌려요", "이미 해봐서"), 70자 초과, 사전에도 임베딩에도 안 맞는 구절, 전체 질의의 검색 유사도 낮음(개발 질의 10퍼센타일 임계: 구절 0.529, 질의 0.539). 라우터의 결과는 튜닝할 수 없으므로 <b>"호출했다"는 사실로 끝</b>내고 호출 비율과 조용한 실패만 평가한다.</p>
+
+<h2>8.2 실험 통제</h2>
+<ul>
+<li><b>사전 등록:</b> 개발용 39개(E4와 같은 질의)로 임계값을 정하고 파이프라인 코드를 얼린 뒤(<code>FROZEN_BEFORE_TEST.sha256</code>), 독립 시험용 질의 90개(검색 68 + 비검색 22: 너무 넓음 6, 진로 고민 6, 범위 밖 6, 무의미 4)를 작성하고 <b>한 번만</b> 실행했다. 결과를 본 뒤 코드를 고치지 않았다.</li>
+<li><b>대조군:</b> A = 현재 앱 <code>search(질의 전체)</code>, 사전+해석(임베딩 없음), 제안(라우팅 무시), 제안(라우팅 포함).</li>
+<li><b>성공의 정의(사전 지표):</b> 상위 5개 중 정답 3곳 이상, 다중 관심은 모든 관심에서 최소 1곳, 싫은 주제 혼입 없음.</li>
+<li><b>보정 지표(사후 추가):</b> 정답 연구실이 1~2곳뿐인 질의(추천시스템 1곳 등)는 3곳 이상이 불가능하므로 그만큼만 찾으면 성공. <b>결과를 본 뒤 추가한 보정이며 A와 P 모두에 같이 적용했다.</b></li>
+<li><b>GPU:</b> Kaggle T4 4.58분(구절 282개 임베딩). 해석·라우팅·평가는 로컬.</li>
+</ul>
+
+<h2>8.3 결과 (시험용, 검색 질의 68개)</h2>
+<div class="fig"><img src="img/qu_v2.png"><div class="cap">그림 6. v2 시험용 결과. 제안 성공률은 라우팅을 무시한 값이며, 라우팅을 실패~성공으로 가정한 구간은 아래 표에 있다.</div></div>
+<table>
+<tr><th>지표</th><th class="n">A 현재 앱</th><th class="n">제안 파이프라인</th></tr>
+<tr><td>성공률 (사전 지표)</td><td class="n">0.51</td><td class="n">0.62 ~ 0.75</td></tr>
+<tr><td>성공률 (보정 지표)</td><td class="n">0.62</td><td class="n">0.74 ~ 0.87</td></tr>
+<tr><td>조용한 실패 (틀렸는데 표시 없음, 보정)</td><td class="n">26 / 68</td><td class="n">9 / 68</td></tr>
+<tr><td>질의별 승패 (보정)</td><td class="n">4</td><td class="n">17 (동률 47)</td></tr>
+<tr><td>성공률 차이 P−A, 95% 구간 (보정, 질의 부트스트랩)</td><td class="n" colspan="2">+0.07 ~ +0.32</td></tr>
+<tr><td>싫은 주제 혼입 (부정 질의)</td><td class="n">85%</td><td class="n">사전+해석 8%, 제안 23%</td></tr>
+<tr><td>라우팅 (Gemini 호출)</td><td class="n">—</td><td class="n">13% (9/68)</td></tr>
+</table>
+<p class="small">성공률 범위: 하한은 라우팅된 질의를 전부 실패로, 상한은 전부 성공으로 본 값.</p>
+
+<h3>유형별 성공률 (사전 지표, A → 제안이 직접 답한 질의만)</h3>
+<table>
+<tr><th>유형</th><th class="n">부정</th><th class="n">다중 관심</th><th class="n">다른 표현</th><th class="n">목적·문제</th><th class="n">복합 용어</th><th class="n">단순</th><th class="n">수업 기반</th></tr>
+<tr><td>A</td><td class="n">0.10</td><td class="n">0.62</td><td class="n">0.42</td><td class="n">0.38</td><td class="n">0.88</td><td class="n">0.62</td><td class="n">0.50</td></tr>
+<tr><td>제안</td><td class="n">0.67</td><td class="n">0.88</td><td class="n">0.67</td><td class="n">0.57</td><td class="n">1.00</td><td class="n">0.62</td><td class="n">0.50</td></tr>
+</table>
+
+<h3>검색이 아닌 질의 (22개)</h3>
+<table>
+<tr><th>의도</th><th class="n">개수</th><th>A: 결과를 보여줌(오답)</th><th>제안: 정답 / 라우팅 / 오답</th></tr>
+<tr><td>진로 고민</td><td class="n">6</td><td>3</td><td>6 / 0 / 0</td></tr>
+<tr><td>범위 밖</td><td class="n">6</td><td>4</td><td>4 / 1 / 1 ("임상 진료랑 환자 치료 연구")</td></tr>
+<tr><td>너무 넓음</td><td class="n">6</td><td>1</td><td>4 / 2 / 0</td></tr>
+<tr><td>무의미</td><td class="n">4</td><td>0</td><td>3 / 1("asdf") / 0</td></tr>
+</table>
+<p class="small">A는 결과를 내지 않으면 "정답"으로 쳤다(관대한 기준). "컴퓨터가 좋아요"처럼 사전에 안 걸려 빈 결과를 낸 경우도 정답에 포함된다.</p>
+
+<h2>8.4 가설과 판정</h2>
+<table>
+<tr><th style="width:6%">ID</th><th style="width:34%">가설</th><th>관찰</th><th style="width:12%">판정</th></tr>
+<tr><td>H5.1</td><td>제안 파이프라인이 현재보다 성공률이 높다</td><td>0.62 → 0.81(보정), 구간 +0.07~+0.32</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H5.2</td><td>라우팅 신호가 틀릴 질의를 잡는다</td><td>13%를 라우팅. 우선순위 표현·애매한 구어·범위 밖·무의미 입력을 포착. 조용한 실패 26 → 9. 단 일부 실패는 신호로 못 잡음(아래)</td><td><span class="tag t-mid">부분 채택</span></td></tr>
+<tr><td>H5.3</td><td>의도 분기가 비검색 질의를 올바로 처리한다</td><td>진로 6/6. 범위 밖 1건 누락(사전에 없는 말), 너무 넓음 2건·무의미 1건은 라우팅</td><td><span class="tag t-ok">채택</span></td></tr>
+<tr><td>H5.4</td><td>임베딩 융합이 사전+해석에 더해 개선한다</td><td>성공률은 0.74 → 0.81(보정)이나 부정 질의 혼입은 8% → 23%로 오히려 증가. 임베딩이 싫은 주제의 연구실을 끌어올리는 경우가 있음</td><td><span class="tag t-mid">혼재</span></td></tr>
+</table>
+
+<h2>8.5 남은 실패 (시험 결과를 보고 확인한 것, 코드는 고치지 않음)</h2>
+<ol>
+<li><b>구절 분리 오류:</b> 'A이나 B' 규칙이 긴 구절을 쪼갠다. "AI가 그림이나 사진을 만들어내는 기술" → "AI가 그림" / "사진을 만들어내는 기술", "몸에 붙이는 센서로 심박이나 수면을 재는 연구".</li>
+<li><b>표현 사전 부족:</b> "지겹다"(t21), "배워봤고"(t34)가 부정·우선순위 표지에 없어 라우팅도 안 되고 틀렸다. "너무 어려워서 별로고 암호가"처럼 부정이 이어지면 구절이 오염된다(t25).</li>
+<li><b>조사·서술어 잔여:</b> "자율주행차 사고를 줄이는 기술"에서 사전이 절반만 반응한다.</li>
+<li><b>범위 밖 사전 누락:</b> "임상 진료" 같은 말은 사전에도 없고 임베딩 유사도도 임계 이상이라 검색으로 처리됐다.</li>
+<li><b>정답이 적은 질의</b>(추천시스템 1곳, 전자기학 등)는 평가 자체가 어렵다.</li>
+</ol>
+
+<h1>9. 기각된 가설 총정리</h1>
+<p>"무엇을 해봤고 왜 접었는가"를 한곳에 모았다. 같은 시도를 반복하지 않기 위한 목록이다.</p>
+<table>
+<tr><th style="width:5%">실험</th><th style="width:30%">시도</th><th>기각 근거</th><th style="width:25%">대신 택한 것</th></tr>
+<tr><td>E1</td><td>허브 보정(λ)으로 두루 가까운 과목 감점</td><td>허브 지표만 좋아지고 관련도 0.89 → 0.82</td><td>규칙 가산 + 재순위</td></tr>
+<tr><td>E1</td><td>주제 분산·중복 제거 강제</td><td>독점·중복은 0이 됐으나 관련도 최저(0.76). 관련 과목이 적은 연구실에서 억지로 채움</td><td>순위 기준 목록 길이</td></tr>
+<tr><td>E1</td><td>재순위 점수의 절대 기준점 컷오프</td><td>점수 중앙값 0.002, 90%가 0.05 이하</td><td>순위 기반(상위 3~5)</td></tr>
+<tr><td>E1</td><td>상대 컷오프로 4개만 표시</td><td>정확도는 오르나 회수율 65% → 29%</td><td>"핵심 연관" + "더 보기"</td></tr>
+<tr><td>E2</td><td>LLM 자유 생성 문장</td><td>환각 27%(v1·v2), v3 기준 44/60</td><td>템플릿 + 명사구</td></tr>
+<tr><td>E2</td><td>프롬프트 개선으로 환각 억제</td><td>v1과 같은 27%. 환각은 "연결 주장"</td><td>역할 분리</td></tr>
+<tr><td>E2</td><td>재순위 일치도로 정확성 검사</td><td>정확 0.975 / 부정확 0.919, 구분 불가</td><td>다국어 NLI</td></tr>
+<tr><td>E2</td><td>단어 비교 검사</td><td>63~83%를 과잉 대체(영어→한국어 환언을 오판)</td><td>NLI(27% 대체)</td></tr>
+<tr><td>E2</td><td>영어 근거 한국어 번역 인용</td><td>번역이 새 오류 생성(Depth Learning 등)</td><td>영어 인용 + 명사구만 번역, 용어 사전</td></tr>
+<tr><td>E2</td><td>재순위 점수 하위 15% 문장 생략</td><td>9건 중 4건 오판</td><td>정보성 있는 근거가 없을 때만 생략</td></tr>
+<tr><td>E4</td><td>임베딩 단독 검색</td><td>P@5 0.47 &lt; 0.69, 부정 혼입 75%</td><td>사전 + 해석 + 임베딩 융합</td></tr>
+<tr><td>E4</td><td>LLM 질의 해석(현 단계)</td><td>규칙과 동일, GPU·API 필요</td><td>규칙 해석 + 불확실 시 Gemini</td></tr>
+<tr><td>E4</td><td>대표 논문 문서 추가</td><td>+0.00~0.04, 최근 3개년 아님</td><td>최근 3개년 논문 확보 후 재실험</td></tr>
+</table>
+
+<h1>10. 타당성 위협과 한계</h1>
+<table>
+<tr><th style="width:22%">위협</th><th>내용</th><th style="width:30%">완화·계획</th></tr>
+<tr><td>채점자 독립성</td><td>채점(Claude), 질의 작성(Claude), 파이프라인 설계(Claude)가 같은 계열. 5명의 페르소나도 한 모델이 연기</td><td>사람 평가. 학부생 몇 명이 같은 블라인드 패킷을 채점</td></tr>
+<tr><td>순환 정답</td><td>E4·E5 정답이 개념 사전과 같은 개념 체계라 사전 검색에 유리</td><td>설문 자유 서술·팀원이 쓴 질의로 독립 세트 구성, 정답 연구실을 사람이 지정</td></tr>
+<tr><td>작은 표본</td><td>연구실 12~20곳, 질의 39+90개</td><td>58곳 전체와 질의 확대</td></tr>
+<tr><td>기준 변경</td><td>E2 v3 채점 기준이 v2와 다름. E5 보정 지표는 결과를 본 뒤 추가</td><td>변경 사실과 양쪽 수치를 모두 기록</td></tr>
+<tr><td>블라인드 불완전</td><td>방법마다 문장 형태가 달라 A/B가 드러남(E3: 20건 전부 추정 일치)</td><td>문장 형태 정규화 또는 사람이 한 가지 형식으로 평가</td></tr>
+<tr><td>사후 분석 과적합</td><td>E4의 융합·E5의 보정 지표는 같은 데이터에서 사후 확인</td><td>독립 세트에서 사전 등록 후 재평가</td></tr>
+<tr><td>데이터 신뢰도</td><td>프로필 58개 전부 draft, 연구 소개가 비어 있는 연구실 존재, 논문 데이터는 대표 10편(최근 3개년이 아님)</td><td>팀원의 최근 3개년 논문 수집 + ID 매핑</td></tr>
+</table>
+
+<h2>10.1 팀원 논문 카탈로그에 대한 점검</h2>
+<p>팀원이 만든 카탈로그 페이지(POSTECH Lab Catalog v2, 지도교수 365건, 대표 논문 2,449편, 초록 86%)를 분석했다. 품질은 좋지만 가이드(슬롯 ⑤)에는 부족하다.</p>
+<ul>
+<li>2023년 이후 논문은 1,079편(44%). 교수당 보통 2~5편이며 3명은 0편, 23명은 1편이다. 선정이 인용 중심(FWCI 50% + 최근 인용 30% + 교신 20%)이라 최근 논문이 밀린다.</li>
+<li>앱 <code>lab_id</code>가 없고 교수 이름이 기준이다. 앱 교수 60명은 이름으로 모두 찾았고, 동명이인은 앱 교수 중 김정훈 한 명이며 학과·영문 이름으로 구분된다.</li>
+<li>앱 교수 중 논문 0편: 안성수·한해욱·이근배·박상돈·성효진. 안성수는 연구 소개도 없어 논문이 가장 필요한 연구실이다.</li>
+<li>같은 DOI가 여러 교수에게 붙은 경우 87건(공동 연구일 수 있음). 공개 코드·데이터 링크 필드는 없다(재현 활동 제안에만 필요, 선택 사항).</li>
+</ul>
+
+<h1>11. 비용과 재현</h1>
+<h2>11.1 GPU 사용 (Kaggle T4)</h2>
+<table>
+<tr><th>실행</th><th class="n">시간</th><th>내용</th></tr>
+<tr><td>reason-engine-v3</td><td class="n">7.15분</td><td>이유 문장 M2~M8, 60쌍</td></tr>
+<tr><td>query-understanding-v1</td><td class="n">4.87분</td><td>임베딩 + Qwen 해석, 질의 39개</td></tr>
+<tr><td>query-understanding-v2</td><td class="n">4.58분</td><td>구절 282개 임베딩</td></tr>
+<tr><td>합계 (Kaggle 기록 기준)</td><td class="n">약 16.6분 (0.28시간)</td><td>bge-m3 v2~v4는 Colab 실행이라 시간이 기록에 없음</td></tr>
+</table>
+<p>시중 T4 클라우드 요금(조사 기준 시간당 약 $0.35~0.63)으로 환산하면 위 합계는 약 $0.10~0.17이다. A/B 평가 5명 구간은 새 GPU 실행이 없었다. 요금은 집계 사이트 기준이므로 결제 전에 업체 요금표를 확인한다.</p>
+
+<h2>11.2 재현 명령 (저장소 루트)</h2>
+<pre># GPU 실험 제출 (노트북 메타데이터의 gpuhub.inputs 파일이 비공개 데이터셋으로 연결됨)
+gpuhub submit experiments/query_understanding/query_understanding_v2.ipynb
+gpuhub sync                         # 상태 갱신, 완료된 결과 회수
+
+# 로컬 평가
+python3 -I experiments/query_understanding/phase1.py                         # L0~L2, 구절 목록 생성
+python3 -I experiments/query_understanding/phase2.py experiments/query_understanding/V2/sims_v2.json
+python3 -I experiments/query_understanding/analyze_v2.py                     # 보정 지표, 부트스트랩
+python3 experiments/query_understanding/evaluate.py &lt;ranks_v1.json&gt;          # v1 지표 (A 포함)</pre>
+
+<h1>12. 서비스 탑재 로드맵</h1>
+<table>
+<tr><th style="width:5%">순서</th><th style="width:31%">작업</th><th>선행 조건</th><th style="width:18%">예상 영향</th></tr>
+<tr><td>1</td><td>카드의 같은 원문 중복 노출 제거(슬롯 ②)</td><td>없음. 코드만 수정</td><td>작은 결함 수정, 위험 없음</td></tr>
+<tr><td>2</td><td>규칙 질의 해석을 <code>search()</code> 앞에 추가(L0~L2) + 의도 분기(진로·범위 밖·너무 넓음)</td><td>E5의 남은 실패 1~4 개선 + 독립 질의 재평가</td><td>부정 혼입·잘못된 결과 대폭 감소</td></tr>
+<tr><td>3</td><td>R2 순위와 M8 문장 사전 계산 JSON + <code>--engine</code> 옵션(슬롯 ③④)</td><td>용어 사전, 빈 명사구·조사 처리, 58곳 확대, 정확성 회복, 사람 표본 검증</td><td>구체성·적합성 개선</td></tr>
+<tr><td>4</td><td>임베딩 보조 검색 + RRF + L4 라우팅(슬롯 ①)</td><td>서버에 임베딩 허용 여부 결정, Gemini 연동 정책</td><td>다른 표현 질의 성공률</td></tr>
+<tr><td>5</td><td>연구 가이드(슬롯 ⑤): 논문 카드 사전 추출 + 템플릿 조합</td><td>최근 3개년 논문 + ID 매핑, 카드 추출 정확성 실험</td><td>가이드의 사실성</td></tr>
+</table>
+
+<h2>12.1 아직 하지 않은 실험</h2>
+<ul>
+<li><b>카드 추출 정확성(⑤의 선행):</b> 논문 초록에서 문제·방법·결과·필요한 지식을 인용 기반으로 추출했을 때 칸별 정확성을 NLI 검사와 함께 채점.</li>
+<li><b>독립 질의 세트 재평가:</b> 수정한 해석기와 라우팅 신호를 새 질의로 한 번 더. 이번 시험 질의는 이미 결과를 봤으므로 재사용하지 않는다.</li>
+<li><b>라우터 연동 후 실제 호출 비율·지연·비용 측정.</b></li>
+<li><b>사람 평가:</b> 학부생이 A/B 패킷과 질의 결과를 블라인드로 평가.</li>
+</ul>
+
+<h1>부록. 용어</h1>
+<table>
+<tr><th style="width:22%">용어</th><th>설명</th></tr>
+<tr><td>bge-m3</td><td>BAAI의 다국어 임베딩 모델. 문장을 벡터로 바꿔 코사인 유사도로 비교</td></tr>
+<tr><td>재순위(rerank)</td><td>후보 쌍을 한 입력으로 함께 읽는 크로스인코더(bge-reranker-v2-m3)로 관련도 0~1을 다시 매김. 정밀하지만 느려 후보 30개에만 적용</td></tr>
+<tr><td>허브(hub)</td><td>모든 연구실과 두루 가까워 여러 연구실의 상위에 반복해서 나오는 과목</td></tr>
+<tr><td>은(silver) 정답</td><td>사람 정답이 아니라 규칙 엔진에서 "과목 제목에 연구실 핵심 주제가 들어간" 확실한 연결</td></tr>
+<tr><td>RRF</td><td>Reciprocal Rank Fusion. 여러 순위의 1/(k+순위)를 합산해 하나로 융합 (여기서 k=10)</td></tr>
+<tr><td>P@5, nDCG@5</td><td>상위 5개 중 정답 비율, 순위를 고려한 정규화 누적이득</td></tr>
+<tr><td>NLI</td><td>자연어 추론. 근거 문장이 가설 문장을 함의하는지 판정(여기서는 다국어 mDeBERTa)</td></tr>
+<tr><td>조용한 실패</td><td>틀렸는데 라우팅·되묻기 같은 표시가 없어 사용자가 잘못된 결과를 그대로 받는 경우</td></tr>
+<tr><td>라우터</td><td>불확실한 질의를 외부 LLM(Gemini)이 해석하도록 넘기는 단계. 해석만 하고 검색·추천은 하지 않는다</td></tr>
+<tr><td>gpuhub</td><td>Kaggle GPU 노트북 제출·결과 회수 도구 (<span class="mono">tools/gpu</span>)</td></tr>
+</table>
+
+</body></html>

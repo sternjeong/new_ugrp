@@ -1,0 +1,407 @@
+{
+  "summary": {
+    "cases": 20,
+    "intent_correct": 15,
+    "negative_cases": 7,
+    "negative_extracted": 6,
+    "expected_nonsearch_with_results": 3,
+    "catalog_labs": 307,
+    "catalog_courses": 1151
+  },
+  "rows": [
+    {
+      "query": "로봇은 싫고 생체 신호 분석이 좋아요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": "로봇",
+      "negative_extracted": true,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "123c1d7a65bf3f76431a29bbad88eeeb",
+          "professor": "배영"
+        },
+        {
+          "lab_id": "240442b3eecec4c78bf1a0cb70dedd8e",
+          "professor": "양경철"
+        },
+        {
+          "lab_id": "7bdd625d5a73bc4567d09c77c088a478",
+          "professor": "정우성"
+        }
+      ]
+    },
+    {
+      "query": "반도체 소자보다 의료 로봇이 좋아요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": "반도체",
+      "negative_extracted": true,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "c55f3ac184b92d8a222a1dd536c7718e",
+          "professor": "임치현"
+        },
+        {
+          "lab_id": "937965033892745d797d9ea70473f6a7",
+          "professor": "김기훈"
+        },
+        {
+          "lab_id": "a4c93740ea4fea145a9ee1eafc8d3e85",
+          "professor": "김원종"
+        }
+      ]
+    },
+    {
+      "query": "배터리 소재의 수명과 열화를 연구하고 싶어요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 4,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "972ca939d654fbf945a78039e38af29b",
+          "professor": "권순호"
+        },
+        {
+          "lab_id": "1ac8c28030e98810deea0ad1921fd7d3",
+          "professor": "김원배"
+        },
+        {
+          "lab_id": "f6eab148298d59247c161e08e218e116",
+          "professor": "서동우"
+        }
+      ]
+    },
+    {
+      "query": "양자컴퓨터 연구를 하고 싶어요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 2,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "9696f4ab695c3ea4d975561822b6c1ad",
+          "professor": "신희득"
+        },
+        {
+          "lab_id": "2ac0c0282dded9689b48c236808ba193",
+          "professor": "이길호"
+        }
+      ]
+    },
+    {
+      "query": "의료 영상에서 종양을 찾고 싶어요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "c1111180290fc3a3f6ef78b9cfbe9b35",
+          "professor": "이승우"
+        },
+        {
+          "lab_id": "c55f3ac184b92d8a222a1dd536c7718e",
+          "professor": "임치현"
+        },
+        {
+          "lab_id": "937965033892745d797d9ea70473f6a7",
+          "professor": "김기훈"
+        }
+      ]
+    },
+    {
+      "query": "컴퓨터 구조가 재밌어요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "801d8483ec7fd757cf6199bf99e1c5aa",
+          "professor": "김희철"
+        },
+        {
+          "lab_id": "335967217d9237b4b019e7a4b1a6f4f3",
+          "professor": "김기현"
+        },
+        {
+          "lab_id": "3b3c5fe1e3c1a3aba26ffd66eb364790",
+          "professor": "김민성"
+        }
+      ]
+    },
+    {
+      "query": "로봇은 싫고 배터리가 좋아요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": "로봇",
+      "negative_extracted": true,
+      "result_count": 2,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "1ac8c28030e98810deea0ad1921fd7d3",
+          "professor": "김원배"
+        },
+        {
+          "lab_id": "cc1629b654bce21536b3c021d12dfddf",
+          "professor": "이기라"
+        }
+      ]
+    },
+    {
+      "query": "화학은 별로고 신약 개발이 궁금해요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": "화학",
+      "negative_extracted": true,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "c1111180290fc3a3f6ef78b9cfbe9b35",
+          "professor": "이승우"
+        },
+        {
+          "lab_id": "c55f3ac184b92d8a222a1dd536c7718e",
+          "professor": "임치현"
+        },
+        {
+          "lab_id": "972ca939d654fbf945a78039e38af29b",
+          "professor": "권순호"
+        }
+      ]
+    },
+    {
+      "query": "수강신청은 어떻게 하나요",
+      "expected_intent": "career",
+      "actual_intent": "search",
+      "intent_correct": false,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 4,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "ca582d6a0b812ba87c27f95338ba11dd",
+          "professor": "김종신"
+        },
+        {
+          "lab_id": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+          "professor": "박성우"
+        },
+        {
+          "lab_id": "186269114ee370a858eb614d6c483b08",
+          "professor": "유창현"
+        }
+      ]
+    },
+    {
+      "query": "대학원 지원 방법을 알려줘",
+      "expected_intent": "career",
+      "actual_intent": "search",
+      "intent_correct": false,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "c4770c1e9d12ac61199d6e738b54115d",
+          "professor": "고성안"
+        },
+        {
+          "lab_id": "3c97d90740df38121b37c4fb53a24966",
+          "professor": "고영명"
+        },
+        {
+          "lab_id": "972ca939d654fbf945a78039e38af29b",
+          "professor": "권순호"
+        }
+      ]
+    },
+    {
+      "query": "교수님께 메일을 어떻게 쓰나요",
+      "expected_intent": "career",
+      "actual_intent": "search",
+      "intent_correct": false,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 4,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "ca582d6a0b812ba87c27f95338ba11dd",
+          "professor": "김종신"
+        },
+        {
+          "lab_id": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+          "professor": "박성우"
+        },
+        {
+          "lab_id": "186269114ee370a858eb614d6c483b08",
+          "professor": "유창현"
+        }
+      ]
+    },
+    {
+      "query": "인공지능",
+      "expected_intent": "too_broad",
+      "actual_intent": "too_broad",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 0,
+      "mode": "none",
+      "top3": []
+    },
+    {
+      "query": "공학",
+      "expected_intent": "too_broad",
+      "actual_intent": "too_broad",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 0,
+      "mode": "none",
+      "top3": []
+    },
+    {
+      "query": "asdf",
+      "expected_intent": "nonsense",
+      "actual_intent": "search",
+      "intent_correct": false,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 0,
+      "mode": "dictionary",
+      "top3": []
+    },
+    {
+      "query": "ㅋㅋㅋㅋ",
+      "expected_intent": "nonsense",
+      "actual_intent": "need_likes",
+      "intent_correct": false,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 0,
+      "mode": "none",
+      "top3": []
+    },
+    {
+      "query": "기후 변화와 탄소 포집 연구",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "eeeef3347c5bcbce52bfcf9c92531736",
+          "professor": "민승기"
+        },
+        {
+          "lab_id": "a8cb0eda141ab875fe52fa52eab88340",
+          "professor": "감종훈"
+        },
+        {
+          "lab_id": "3c97d90740df38121b37c4fb53a24966",
+          "professor": "고영명"
+        }
+      ]
+    },
+    {
+      "query": "고분자 합성 연구를 하고 싶어요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": null,
+      "negative_extracted": null,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "81e7d48be2e4126739d27db2f002e383",
+          "professor": "박형규"
+        },
+        {
+          "lab_id": "71348edd001017b9579a1eb54375ad06",
+          "professor": "조문호"
+        },
+        {
+          "lab_id": "255034de0b267f94daea8fa61dbe1bef",
+          "professor": "김연수"
+        }
+      ]
+    },
+    {
+      "query": "전자회로는 싫고 뇌과학이 좋아요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": "전자회로",
+      "negative_extracted": true,
+      "result_count": 0,
+      "mode": "dictionary",
+      "top3": []
+    },
+    {
+      "query": "로봇을 좋아하지 않지만 뇌 신호 분석은 좋아요",
+      "expected_intent": "search",
+      "actual_intent": "search",
+      "intent_correct": true,
+      "negative_cue": "로봇",
+      "negative_extracted": false,
+      "result_count": 10,
+      "mode": "dictionary",
+      "top3": [
+        {
+          "lab_id": "123c1d7a65bf3f76431a29bbad88eeeb",
+          "professor": "배영"
+        },
+        {
+          "lab_id": "240442b3eecec4c78bf1a0cb70dedd8e",
+          "professor": "양경철"
+        },
+        {
+          "lab_id": "7bdd625d5a73bc4567d09c77c088a478",
+          "professor": "정우성"
+        }
+      ]
+    },
+    {
+      "query": "인공지능이 싫어요",
+      "expected_intent": "need_likes",
+      "actual_intent": "need_likes",
+      "intent_correct": true,
+      "negative_cue": "인공지능",
+      "negative_extracted": true,
+      "result_count": 0,
+      "mode": "none",
+      "top3": []
+    }
+  ]
+}

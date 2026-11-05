@@ -1,0 +1,1968 @@
+{
+  "packet_sha256": "54e7d08b1eb0043a69948c6df8c8b1a5ceac5ee5bc653d1be3728d6464389f01",
+  "judge": "B",
+  "ratings": [
+    {
+      "pair_id": "pair:c4dc6950862d74cd",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실은 SSD·CXL 메모리 관리와 저장장치 구조를 다루고, 과목은 OS의 메모리·파일/I/O 관리 및 SSD를 구체적으로 가르친다."
+    },
+    {
+      "pair_id": "pair:6a4e621a7f759962",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "단일세포·세포생물학 연구에 단백질, 핵산, 분광 등 기초 실험 원리가 폭넓게 도움 되지만, 연구의 핵심 분석법인 단일세포 오믹스는 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:fc6fe514a98f2d78",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "연구실은 ML 기반 센싱·예측을 하고 과목은 최적화·동적계획·네트워크 모델을 가르쳐 정량 모델링의 넓은 기초가 된다. AI/무선 센싱 자체를 가르치지는 않는다."
+    },
+    {
+      "pair_id": "pair:593fad60c71f7b6c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구 논문은 범주론의 Morita 이론이고 과목은 철학적 글쓰기와 학술 에세이로, 준비 연결이 없다."
+    },
+    {
+      "pair_id": "pair:7fd843d8746e00e2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "형광 프로브·발광 이미징 연구와 반도체의 광흡수·발광 및 전자물성은 기초 물리의 넓은 연결이 있으나, 생물학적 프로브/이미징 방법을 직접 준비시키지는 않는다."
+    },
+    {
+      "pair_id": "pair:37ddaa598b0bd8d3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구는 기계·재료의 변형, 박막 추진기 제조와 센서 계면을 다루며 과목은 일반 기계학습을 가르친다. 제시된 연구가 ML을 쓰는 근거는 없다."
+    },
+    {
+      "pair_id": "pair:c6056bcb6c8ec1e8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해양 거대조류의 탄소 제거량을 화학·생물학적 생산성 방법으로 측정하는 연구에 생물·생물물리 실험 원리가 넓게 도움 되나, 생태계/해양 분석은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:bec4adf24bcd2aa7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실 논문은 설명가능 ML, 신경망, operator learning을 직접 사용하고 과목은 분류·회귀·신경망·딥러닝 등 ML 방법을 가르친다."
+    },
+    {
+      "pair_id": "pair:78ac6769c9c8d51d",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구실은 유기촉매 합성과 비대칭 반응을 다루고 과목은 양자컴퓨팅·Qiskit을 다루며, 연구의 합성법을 준비시키는 근거가 없다."
+    },
+    {
+      "pair_id": "pair:8099cfa0bd9316c7",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "광학 프로브·바이오이미징 연구와 전자재료 논문 비평은 주제가 연결되지 않고, 과목은 특정 이미징/프로브 방법을 가르치지 않는다."
+    },
+    {
+      "pair_id": "pair:b8a37f0fbe79e8d7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실은 계산 이미징·편광·이벤트 기반 광학과 학습 기반 복원을 다루고, 과목은 영상 형성·역문제·편광·이벤트 센싱·학습 복원을 직접 가르친다."
+    },
+    {
+      "pair_id": "pair:69ac4bc4cbf8942c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "수소·금속수소화물과 부식 연구에 전해질, 이온 수송, 전극 계면의 기초가 폭넓게 연결되지만 과목은 주로 유기 에너지재료/배터리 전해질이다."
+    },
+    {
+      "pair_id": "pair:1f3cb8c5a83a7aa7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실은 장내 병원체, 미생물군, 염증을 연구하고 과목은 감염 방어, 병원체 인식, 면역 반응을 직접 다룬다."
+    },
+    {
+      "pair_id": "pair:48a0dcaaeec5237f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "연구실의 합성생물학·대사체·세포 기반 연구와 과목의 세포 신호, 에너지 항상성, 대사질환은 넓은 생물학 기초 연결이 있으나 주요 aptamer/세포 모사 방법은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:def2280a5aecb3bc",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포·재생 연구에 유전자 기능, 전사 조절, DNA 복제·수선 등 분자생물학 지식이 직접 준비 기반이 된다."
+    },
+    {
+      "pair_id": "pair:6fecbf0f3084a406",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구실은 금속 3D 프린팅·레이저 가공과 열전달을 다루지만 과목은 일반 ML 알고리즘이며, 연구에서 ML을 쓴다는 근거가 없다."
+    },
+    {
+      "pair_id": "pair:f6486a16dc8e8d4a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실의 PV/전력변환기 고장 감지와 제어 연구에 피드백 제어, 전달함수, Bode/Nyquist 설계 및 MATLAB 실험이 직접 준비된다."
+    },
+    {
+      "pair_id": "pair:f73ab82947f77065",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "수소 재료 연구와 과목의 수소·연료전지 및 에너지 시스템은 넓은 주제·기초 연결이 있으나 재료 특성/수소취성 분석은 직접 가르치지 않는다."
+    },
+    {
+      "pair_id": "pair:d6c5da259848193f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "연구실 논문 중 유기 레독스 흐름전지가 있고 과목은 배터리 전해질·이온수송·전극 계면을 다루지만, 연구실의 주요 단백질/분자 클러스터 질량분석에는 제한적 연결이다."
+    },
+    {
+      "pair_id": "pair:dbc974fe4ef58c11",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "기계공학 입문에서 기계공학의 문제 해결과 연구 분야를 소개해 넓은 기초 연결은 있으나 금속 적층제조·레이저 공정을 준비시키는 구체 내용은 없다."
+    },
+    {
+      "pair_id": "pair:48d30fafe9894d01",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "광학 프로브와 양자수송은 재료·광학 측면의 넓은 연결은 있으나, 이 과목은 저온 전기수송을 중심으로 하며 바이오프로브 연구를 직접 준비시키지 않는다."
+    },
+    {
+      "pair_id": "pair:d9be78b0826fba80",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유전자 회로·핵산 진단·단백질 생산의 합성생물학 연구와 단백질 구조/효소 설계 및 미생물 대사 모델링을 실습하는 과목이 직접 맞닿는다."
+    },
+    {
+      "pair_id": "pair:995100e88eb2c907",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "aptamer·단백질·세포 기반 바이오센서 연구에 DNA/단백질 칩, 형광, 막·약물전달, 나노바이오소자 내용을 직접 적용할 수 있다."
+    },
+    {
+      "pair_id": "pair:df7d5779ec857404",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "전기화학 촉매와 배터리·연료전지 연구에 배터리 전극/전해질 재료 설계와 평가법을 직접 준비시킨다."
+    },
+    {
+      "pair_id": "pair:9d56c5b98cbd3bf7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "레이저 금속 적층제조 연구에 열전도·응고·무차원 해석·수치 열전달 방법이 직접적인 기반이다."
+    },
+    {
+      "pair_id": "pair:8ade45e21cd17daa",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "연구실에 로봇 궤적 제어 연구가 있어 전력전자 과목의 기본 제어 내용이 일부 도움 되지만, 과목의 주축은 전력변환기다."
+    },
+    {
+      "pair_id": "pair:2454176d01019a4f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "블록체인 DApp의 사용자 관점 연구와 과학기술의 사회적 영향·참여를 다루는 STS 과목은 넓은 사회기술 맥락에서 연결된다."
+    },
+    {
+      "pair_id": "pair:56a1b79862bee4e1",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "SSD·CXL 저장시스템 연구에 DRAM/Flash 메모리 소자와 비휘발성 메모리의 원리·기술 과목이 직접적인 기반이다."
+    },
+    {
+      "pair_id": "pair:164bca8c21a15a6a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "대사공학·미생물 기반 합성생물학 연구와 합성회로·유전자 편집·미니멀셀·cell-free를 다루는 과목이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:a763b4c53364ca2a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실은 딥러닝 기반 무선센싱·분류를 하고 과목은 해당 ML 알고리즘을 이해하는 선형대수·확률·최적화·분류의 수학 기반을 직접 제공한다."
+    },
+    {
+      "pair_id": "pair:1fb05a72a74615eb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "블록체인 DApp의 사용자 경험 평가·설계 연구와 사회기술 문제를 사용자 중심으로 조사·설계하는 인터랙션 스튜디오가 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:866787c799d0c18d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "전력전자·전력망 연구에 전기전자 연구참여가 분야를 접할 기회는 주지만, 제어·변환·고장진단 지식을 가르친다는 내용은 없다."
+    },
+    {
+      "pair_id": "pair:6e7060853dd76e66",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "형광 프로브·바이오이미징 연구에 분광·현미경 등 재료분석 원리와 측정기기 내용이 직접 유용하다."
+    },
+    {
+      "pair_id": "pair:da184751a0293117",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "암/면역 연구에 세포배양, DNA/RNA, PCR, 단백질 분석 실습은 기초가 되지만 연구의 주요 ML·약물반응 예측을 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:a2e9475b35a18eb4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "PV·전력변환기 고장 및 제어 연구에 전력망, 재생에너지, 계통 운전·고장 분석 내용을 직접 적용할 수 있다."
+    },
+    {
+      "pair_id": "pair:f5e627b00675b1dd",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구는 사회행동·신경면역 기전이고 과목은 CAD, 레이저 절단, 3D 프린팅 등 디지털 제작 실습이다."
+    },
+    {
+      "pair_id": "pair:f6ccd83b74d50d51",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "운동론 PDE와 신경망 근사 연구에 선형대수·확률·최적화가 넓은 수학 기반이 되나, 해당 과목은 PDE/기체 운동론을 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:6a332aa121ef13ad",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "합성생물학·핵산 진단 연구에 화학생물학 도구, 구조생물학, 펩티도모방체 및 계산화학 내용이 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:4db10b1cd43d5421",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "합성생물학 실험에 반응속도, 전해질·이온 수송, 분광 등 물리화학 실험 기초가 일부 도움이 되지만 세포공학 기법은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:b71738e81bbca734",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "미생물 대사공학·합성생물학 연구에 효소 설계, E. coli 대사 모델링, 조효소 공학을 실습하는 과목이 직접 준비된다."
+    },
+    {
+      "pair_id": "pair:277cc787e1607a71",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "전력변환기와 제어·고장 연구에 스위칭 converter 모델링, PWM, 전압/전류 제어와 전력변환 회로 설계가 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:6d6752e4370f9bca",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "레이저 적층제조에 열역학적 물성과 열·에너지 전달 기초가 넓게 도움 되지만, 레이저 가공이나 용융/응고 공정은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:ea16ba40c812e652",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "수소 저장 재료·금속수소화물·수소취성 연구와 금속-수소 상호작용, 수소저장 및 in-situ 분석을 다루는 과목이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:da3b7e32e52fbce6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포와 피부 재생 연구에 줄기세포 증식·분화·성체줄기세포 및 재생을 다루는 발달생물학이 직접 준비된다."
+    },
+    {
+      "pair_id": "pair:b9d9d5979a9d92c0",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "블록체인 기술의 사용자 경험 연구와 과학기술의 대중 이해·공공소통을 다루는 과목은 기술 수용 맥락에서 부분적으로 연결된다."
+    },
+    {
+      "pair_id": "pair:bc63b15325974935",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "생명과학 연구참여 실습은 연구 설계·실험·해석을 폭넓게 경험시키지만, 해당 교수 연구실에 배정된다는 보장은 없다."
+    },
+    {
+      "pair_id": "pair:6a3ffad968c09400",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구는 OS·저장장치 시스템이고 과목은 증명 중심의 구성논리와 타입이론으로 준비 연결이 없다."
+    },
+    {
+      "pair_id": "pair:97a7d484b654b065",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "해양 거대조류 탄소 제거량의 화학·생물학적 측정 연구에 환경실험의 탄산계, 용존가스 분석, 분광·수질 분석법이 직접 맞닿는다."
+    },
+    {
+      "pair_id": "pair:8849aae8fc33872a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "기체 운동론·Boltzmann 방정식 연구와 에너지 전달 과목의 Boltzmann 방정식·산란·나노수송 주제가 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:45a64156981368e6",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "합성생물학 미생물 생산 연구와 생체재료·세포·조직공학은 넓은 생물공학 기반이 연결되나 미생물 대사공학을 직접 가르치지는 않는다."
+    },
+    {
+      "pair_id": "pair:3e89deacb6b7482e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "전기화학 촉매·배터리·연료전지 연구에 전극반응, 배터리·연료전지 재료 및 전기화학 시스템을 직접 다루는 과목이다."
+    },
+    {
+      "pair_id": "pair:8f5c4fdf6b28533d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거량 측정 연구와 환경 전기화학의 환경 시스템·분석법은 넓은 방법론 연결이 있으나 생태계 탄소 측정은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:249eaf8c8b4bfb4b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "미생물 대사공학·합성생물학 연구의 기초로 미생물 구조, 대사, 성장, 유전 및 분자 정보 흐름을 직접 가르친다."
+    },
+    {
+      "pair_id": "pair:ef1dcc5d3c190935",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "장내미생물·염증·비만 연구에 생화학의 대사, 세포 신호망, 단백질 및 생물물리적 분석 지식이 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:47786d1c1be863d3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "레이저 금속 적층제조 연구와 일반 기계학습 알고리즘 과목 사이에 준비 연결 근거가 없다."
+    },
+    {
+      "pair_id": "pair:1dc53417434ddcd0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "ML·신경망 연구방법을 활용하는 연구실에 분류, 회귀, 신경망·딥러닝을 가르치는 기계학습 과목이 직접 준비된다."
+    },
+    {
+      "pair_id": "pair:d82fab4affd645b5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "배터리·연료전지·전기화학 연구에 전극반응, 물질전달, 배터리·연료전지 및 전기화학 분석법이 직접 대응한다."
+    },
+    {
+      "pair_id": "pair:5132a41b1b7c521b",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "고분자·나노/바이오재료 연구와 칩·막·입자·약물전달을 다루는 나노바이오공학은 넓은 기반 연결이나 연구의 모든 재료/기법을 다루지는 않는다."
+    },
+    {
+      "pair_id": "pair:27bf29d4026acbcf",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "암·면역·유전 분석 연구에 유전학, 암 유전, 유전체 기법과 변이·유전자 작동의 기초가 직접 필요하다."
+    },
+    {
+      "pair_id": "pair:813b2f028e6fbeb7",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구실은 미생물 대사공학·합성생물학 중심이고 과목은 고체촉매·전기화학 에너지재료를 다뤄 준비 연결이 없다."
+    },
+    {
+      "pair_id": "pair:6e36916e3f52da8a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유기촉매·입체선택 합성 연구와 반응기전, 촉매반응, 유기붕소 화학을 다루는 유기합성 과목이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:a572ab7e1833d3d3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론·Morita 이론 연구에 선형대수·확률·최적화 중심의 AI 수학이 직접 준비 지식이 되지 않는다."
+    },
+    {
+      "pair_id": "pair:2bb1792973c90518",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "전력변환기·제어 연구와 컴퓨터공학 전공 분야 소개는 구체적 연구 주제나 방법이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:dcfea02bd2f291b2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단백질 구조·분자 클러스터 연구에 단백질 결정학, X선 회절, 구조결정·분석법이 직접 준비된다."
+    },
+    {
+      "pair_id": "pair:dc62854be41ab388",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 철학적 에세이·글쓰기 과목은 연구 준비 연결이 없다."
+    },
+    {
+      "pair_id": "pair:e773a36efdaab868",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "무선·음성 AI 연구에 AIoT, 음성/언어 AI 동향을 접하는 것은 넓게 도움 되지만 알고리즘·센싱 방법을 가르치지는 않는다."
+    },
+    {
+      "pair_id": "pair:a174f50b1be9b866",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유기촉매·비대칭 유기합성 연구에 반응 메커니즘, 촉매반응과 합성 방법을 다루는 고등유기화학이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:2cc98b00040dc3ed",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론의 monoid/Morita 이론과 선형 PDE 해석은 모두 수학이지만 필요한 이론과 준비 내용이 다르다."
+    },
+    {
+      "pair_id": "pair:4a4a805191392737",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "이온·분자 클러스터와 단백질 분석 연구에 이온교환, 분광·형광, 평형 및 기기분석 실험이 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:f9a591fa93481a10",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "인공세포·aptamer·고분자 바이오소재 연구에 나노제작·soft matter·특성분석 실습은 일부 연관되나 생체모사 분자/세포 방법은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:25e00f7ddfd26c3a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "연구실 연구는 기계·재료의 변형과 제조이고 과목은 ML 통계·알고리즘으로, 연구에서 ML 사용 근거가 없다."
+    },
+    {
+      "pair_id": "pair:f2d84a53e64e63a5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "계산 이미징·광학 연구와 시각지능의 영상 형성, 2D/3D 시각자료, 컴퓨터비전·학습 모델 내용이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:220d98d61da85913",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "연구실에 레독스 흐름전지 유기분자 연구가 있어 배터리 유기화학이 일부 직접 연결되지만, 다수 연구는 이온/단백질 클러스터 분석이다."
+    },
+    {
+      "pair_id": "pair:1f879860894d7362",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "드론·로봇 제어와 LiDAR 연구에 통신/네트워크 실습이 직접 준비 지식이라는 근거는 없다."
+    },
+    {
+      "pair_id": "pair:fc173816f9fd9207",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "드론·로봇 제어 연구에 쿼드로터 모델링, 항법, 제어, 센서 융합과 심층강화학습 실습이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:fd449349c4fd9c28",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "블록체인 앱의 사용자 중심 평가·설계 연구에 인터뷰, 사용자 조사, 페르소나, 프로토타이핑과 UX 평가를 직접 가르친다."
+    },
+    {
+      "pair_id": "pair:d82398f606c154b6",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "계산 이미징·광학/비전 연구와 운영체제의 프로세스·메모리·파일시스템 내용은 직접 연결되지 않는다."
+    },
+    {
+      "pair_id": "pair:a3f0d9ae054ec6c3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해양 생태계 연구에 환경 미생물·대사·생물공정 지식은 넓게 연결되나 오염처리 중심 과목이 탄소 제거 분석을 직접 다루지는 않는다."
+    },
+    {
+      "pair_id": "pair:a4a15195dbe62ea7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단일세포 RNA-seq·세포 상태 연구에 유전자 발현, 서열 비교, 단백질·RNA 정보학 알고리즘과 도구를 직접 적용할 수 있다."
+    },
+    {
+      "pair_id": "pair:c4ec40c6a6642dfb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "초저온 분자·BEC·강상관 기체 연구와 원자물리 과목의 레이저 냉각·트랩, BEC, 광격자·초저온 분자 주제가 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:ab0a3ab6a3da8754",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "합성생물학 연구와 유전자 회로, 합성 DNA, genome editing, cell-free를 직접 다루는 고급합성생물학 과목이 일치한다."
+    },
+    {
+      "pair_id": "pair:d4c9d54e28ab0848",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단일세포 RNA-seq 연구에 서열·유전자 발현 분석, 단백질·RNA 상호작용 및 생물정보 도구를 직접 활용할 수 있다."
+    },
+    {
+      "pair_id": "pair:22bceb87eeffaae7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "전기화학·배터리 연구에 전기화학 기초, 배터리 설계와 분석 방법을 직접 가르친다."
+    },
+    {
+      "pair_id": "pair:71792753e2aa80e7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "제어·고장감지 연구에 드론 제어·모델링·센서융합·심층학습은 방법론상 부분적으로 도움 되지만 응용 분야와 대상 시스템은 다르다."
+    },
+    {
+      "pair_id": "pair:1650216db6da4c98",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "초저온 분자·BEC 연구와 원자물리 과목의 AMO 기법, 레이저 냉각·트랩, BEC 및 초저온 분자 내용이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:aa55bb7968c06c95",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "미생물 대사공학 연구의 핵심 배경인 단백질, 대사, 세포신호와 생합성 내용을 고급생화학이 직접 다룬다."
+    },
+    {
+      "pair_id": "pair:4b0db78c3a7ea2c2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유기촉매·비대칭합성 논문과 반응 메커니즘·촉매반응의 유기화학 기초를 다루는 과목이 직접 대응한다."
+    },
+    {
+      "pair_id": "pair:5850ea571789dc5a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "드론·로봇 제어 연구에 컴퓨터공학 세부 분야를 소개하는 강의가 직접적인 제어·항법 준비를 제공하지 않는다."
+    },
+    {
+      "pair_id": "pair:859228100472d51c",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "미생물 대사공학·유전자 회로 연구와 합성생물학 회로, 유전자 편집, 미생물 시스템 설계 교육이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:199e541286b32a21",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "기계·재료 역학 연구에 일반 ML 알고리즘 과목이 도움이 된다는 직접 연구 근거가 제시되지 않았다."
+    },
+    {
+      "pair_id": "pair:b73e8552aed565a2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "유기합성 연구와 나노물질 합성·유기 나노재료는 재료 합성의 넓은 방법론 연결이 있으나 유기촉매 반응은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:2c5b0d716ae6913f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "형광 프로브·생체이미징 연구와 생명과학 발견 사례를 읽는 과목은 생명과학 맥락에서 넓게 연결되지만 연구 방법을 직접 준비시키지 않는다."
+    },
+    {
+      "pair_id": "pair:eb5c975fb76e061f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "기계·재료 역학 연구와 일반 ML 수업 사이에 직접적인 방법 사용 근거가 없다."
+    },
+    {
+      "pair_id": "pair:6c3c7b90f972b191",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론·Morita 이론 연구와 수치해석의 선형방정식·미분방정식 계산은 준비 관계가 명확하지 않다."
+    },
+    {
+      "pair_id": "pair:add90eaa181f25d9",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "수소저장 재료 연구에 양자 전자구조 계산과 재료 모델링은 보조적 방법론 연결이 있으나 이 연구실의 실험 재료 분석을 직접 가르치지는 않는다."
+    },
+    {
+      "pair_id": "pair:fc7217cf083c0744",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론의 monoid 이론과 수치 ODE/PDE·과학기계학습은 별도 수학 주제로 직접 준비 연결이 없다."
+    },
+    {
+      "pair_id": "pair:25b16335ca3e2351",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포·재생 연구와 미생물 구조·대사·감염 중심 과목은 직접 관련이 없다."
+    },
+    {
+      "pair_id": "pair:676a582b6f75aee5",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "초저온 양자기체 연구와 고체물리의 전자·양자 현상은 넓은 양자물리 배경으로 연결되나 초저온 원자/분자 기법은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:e86770a8720b4326",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "신경면역·염증 및 cytokine 연구에 선천/적응 면역, 병원체 인식과 면역반응 기초가 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:9afe20779c18f406",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "유기촉매 합성과 전기촉매 반응은 촉매·반응속도 기초를 공유하지만 전기화학 과목은 주로 전극·에너지 환경 촉매다."
+    },
+    {
+      "pair_id": "pair:893c088bfacf82c3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "연구실의 전력 제어·고장 감지와 과목의 쿼드콥터 제어 및 FPGA 실습은 일부 제어·구현 배경을 공유한다."
+    },
+    {
+      "pair_id": "pair:38d43bec1e84bd38",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경·사회행동 연구와 컴퓨터·사회 과목은 연구 방법이나 핵심 지식이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:80250be7b05756ed",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 데이터 엔지니어링 과목 사이에 직접적인 준비 내용이 보이지 않는다."
+    },
+    {
+      "pair_id": "pair:cdf467a6d52b15fb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "해조류 탄소 제거 연구에 기후·해양 탄소순환 과목의 해양 탄소 및 산성화 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:f4197de7af3a1ca4",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조와 열전달 연구에 유한요소·고체역학 지식이 일부 도움이 되지만 과목은 적층제조를 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:4f66a8af76dbd69f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 경험 연구와 데이터 프로젝트의 고객 접점 분석은 넓게 연결되나 사용자 중심 설계 방법은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:27636d0417151059",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경행동 연구와 인간환경 시스템의 게임이론·인구 동역학 사이에 직접적인 연구 준비 내용이 없다."
+    },
+    {
+      "pair_id": "pair:bce878d88df00d69",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "양자 재료 연구와 양자컴퓨팅 과목은 양자역학 기초를 공유하지만 나노광학·재료 측정은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:a0db7de48c126915",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "재료·역학 연구실과 기계학습 과목 간 직접적인 준비 연결이 제시되지 않는다."
+    },
+    {
+      "pair_id": "pair:ea079ee6e28d6fd9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거 연구에 해양 환경과 탄소·질소 순환 과목 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:6ad4d39d65a381f6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "양자재료 분광학 과목의 양자재료 광학·분광 및 측정 기법이 연구실의 나노광학·분광 연구와 직접 겹친다."
+    },
+    {
+      "pair_id": "pair:1ca4977fddd62e23",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단일세포 멀티오믹스 연구에 RNA-seq·scRNA-seq 분석 과목의 정렬, 정량 및 고급 분석 내용이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:a4aed9801ef3bcbb",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 중심 연구와 통신·AI 공학수학 및 기초 머신러닝 과목은 구체적 주제나 방법이 다르다."
+    },
+    {
+      "pair_id": "pair:ef9abfd0ce7f6196",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "SSD·메모리 시스템 연구에 DRAM·플래시 및 차세대 메모리 소자 과목이 직접적인 기술 배경을 제공한다."
+    },
+    {
+      "pair_id": "pair:51490c22cd964836",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "생체 형광 프로브·세포 이미징 연구와 고체 촉매·전기화학 과목은 직접적인 준비 관계가 뚜렷하지 않다."
+    },
+    {
+      "pair_id": "pair:02ee1fbbb5575760",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "암 면역치료 반응 예측 연구에 환자 유전체·임상 데이터, 바이오인포매틱스와 의료 AI 실습이 직접 맞닿는다."
+    },
+    {
+      "pair_id": "pair:517196ae2874d276",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "초저온 양자기체와 양자통신은 양자물리 기초를 공유하지만 과목은 통신·암호와 양자정보 응용에 초점을 둔다."
+    },
+    {
+      "pair_id": "pair:0ea5b5a91448a590",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "블록체인 서비스 사용자 경험 연구와 서비스 설계·품질 측정 과목의 설계 및 평가 내용이 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:f298a9919a90470d",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "계산영상·광학 연구와 운영체제 커널·시스템 소프트웨어 과목은 직접적인 준비 내용을 공유하지 않는다."
+    },
+    {
+      "pair_id": "pair:9c66c637f433c7ca",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "대사공학·합성생물학 연구와 생명과학 발견 사례는 같은 생명과학 분야를 다루지만 실험·공학 방법을 가르치지는 않는다."
+    },
+    {
+      "pair_id": "pair:1e1de75778dc8132",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "연구실의 신축성 이온 센서·전도성 필름과 유연 전자공학의 센서 및 신축성 소자 주제가 직접 겹친다."
+    },
+    {
+      "pair_id": "pair:0f47b27e1b50a426",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "질량분석·분자구조 연구에 일반화학의 결합·열역학·반응속도 기초가 일부 도움이 되나 과목의 주요 내용은 연구 분야와 다르다."
+    },
+    {
+      "pair_id": "pair:da9a1cc79e7fda2f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 데이터 수집·저장·파이프라인 과목 사이의 직접 준비 내용이 없다."
+    },
+    {
+      "pair_id": "pair:41b41bc72865355a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "압타머·인공세포·합성효소 연구에 생물공학의 효소, 유전공학, 세포 공장 및 분석 생명공학 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:3594ad27131d6897",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포 재생 연구에 유전자 분석, 세포생리와 조직 관찰을 포함한 생명과학 실험이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:c0699b16366c654f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조·레이저 가공 연구와 강화학습 알고리즘 과목은 직접적 방법이나 지식의 중첩이 없다."
+    },
+    {
+      "pair_id": "pair:98d46d0f79974d66",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "드론 제어 연구와 전력전자 변환기 제어는 제어 기초를 일부 공유하지만 LiDAR 항법·드론 제어를 직접 준비시키지는 않는다."
+    },
+    {
+      "pair_id": "pair:17c3fd7785e078a8",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "무선·음성 AI 연구에 글로벌 리더십 특강이 연구 기술이나 핵심 지식을 제공하지 않는다."
+    },
+    {
+      "pair_id": "pair:183c7c85ff6fb624",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "생체 형광 프로브 연구와 물리화학 실험은 측정·물질 특성 분석의 일반 실험 배경을 공유하지만 프로브·이미징 기법은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:dcd9cd00a286d280",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "PV 고장 검출·전력 변환기 연구에 전력시스템 제어 및 운영 과목의 전력망 제어·운영과 재생에너지 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:1b8ed943f8b7a9bd",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "수소 재료 연구와 신소재 연구참여는 분야가 직접 맞지만 과목 내용은 학생·연구실 합의에 맡겨져 구체적 준비 역량은 정해져 있지 않다."
+    },
+    {
+      "pair_id": "pair:0c0da2d7e6d4d80c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "대사공학·합성생물학 연구와 전자재료 논문 비평 과목은 주제 전문성이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:822aaee6ab753280",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "초저온 양자기체 연구에 통계역학의 평형·비평형, 수송 및 요동 이론이 직접적인 이론 기반을 제공한다."
+    },
+    {
+      "pair_id": "pair:9cb5f693864fceb4",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경내분비·사회행동 연구와 식물 병리학은 직접적인 주제나 방법을 공유하지 않는다."
+    },
+    {
+      "pair_id": "pair:9e558d294df53392",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물·염증 연구에 미생물 대사, 성장, 인간 공생 및 감염·병원성 과목 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:f6fa6340f9ef5f23",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "신경·사회행동과 인간환경 시스템의 행동·동역학 모델은 넓은 행동 분석 배경을 공유하나 생물학적 신경기전을 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:f98d41bcaad66c58",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "레이더 제스처 인식 등 음성·무선 AI 연구에 신경망 이론·계산·프로그래밍을 다루는 AI 과목이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:1ab348c7d338c48c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "드론 연구와 전기전자 연구참여는 분야상 연결되지만 수업의 구체 내용은 연구실 합의에 따라 달라진다."
+    },
+    {
+      "pair_id": "pair:999e431a715e40fb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "생체 형광 프로브·세포 연구에 생화학·생물물리 실험 전략, 단백질 정량 및 분광 기법이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:2d6f2b3e28ff8119",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 이산수학의 논리·관계·증명은 수학적 기초를 공유하지만 범주론 자체는 과목에 나타나지 않는다."
+    },
+    {
+      "pair_id": "pair:3029177c895cd9d1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "드론 센서·제어 연구와 회로 해석은 전기 시스템의 기초를 일부 제공하지만 LiDAR 항법·제어 방법을 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:b6a640fe69fdf851",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "유전 회로 설계의 생성 모델과 심층학습 과목은 신경망 기반 학습 방법을 공유하지만 과목은 NLP 응용에 한정된다."
+    },
+    {
+      "pair_id": "pair:f62fd6ddf9bfc85b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "드론 제어 연구에 로봇공학의 운동학·동역학, 강인·적응 제어 및 신경망 제어 내용이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:7c81cab4e7f1a783",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "배터리·전기화학 연구와 배터리 DFT 과목은 일부 관련되지만 제시된 연구는 주로 배기가스 촉매이며 DFT 과목은 배터리에 집중한다."
+    },
+    {
+      "pair_id": "pair:95701407809e0ff3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "유전자 발현·합성생물학 연구에 생화학 실험 전략과 핵산 정제 등 기초 실험이 일부 도움이 된다."
+    },
+    {
+      "pair_id": "pair:78dd232645075c9e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "고분자 코팅·광학 센서 연구와 유체역학의 미세유체·공학 응용이 넓게 연결되지만 코팅·계면 재료는 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:48ffc45e1c1bc07e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "전력변환기 고장 검출 연구에 통신 실험의 계측·신호 분석 기술이 일부 전용될 수 있으나 연구 주제와는 다르다."
+    },
+    {
+      "pair_id": "pair:2e85a086c3e225d3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "암 면역치료·유전체 분석 연구에 의생명과학 과목의 유전학, 면역학, 세포생물학 및 진단·치료 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:b20018c4bd6bfb67",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "무선·음성 AI 연구에 AI 윤리와 리더십 과목은 기술 연구 준비를 제공하지 않는다."
+    },
+    {
+      "pair_id": "pair:186fa18efb4dc724",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "기계학습 해석·예측 연구에 밀도추정, 분류, 회귀, 커널 및 딥러닝을 다루는 기계학습 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:6807baf27df0f779",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "기계학습 해석가능성 연구와 기계학습 과목의 통계적 학습, 분류·회귀·커널 및 신경망 내용이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:b0a2b53609180f22",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "압타머·RNA 기반 모방체 연구에 RNA 처리·기능, 유전자 편집 및 현대 분자·유전체 기법 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:d57403ad53ab5df0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "전기화학 촉매·배터리 연구에 전기화학 이론과 배터리·연료전지·전기촉매 응용을 가르치는 과목이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:bcebc486e201926d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해조류 탄소 제거 연구에 에너지 재료 분석 기법이 일부 측정 배경을 제공할 수 있지만 해양 생태·탄소순환은 과목의 초점이 아니다."
+    },
+    {
+      "pair_id": "pair:ff99b946458b946a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "기계학습 설명가능성 연구에 선형대수, 확률, 최적화와 회귀·차원축소를 다루는 수학 과목이 직접 기반이 된다."
+    },
+    {
+      "pair_id": "pair:afb16319312cb429",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물 연구에 세포·유전자·면역 및 소화 내용이 일부 관련되지만 과목은 생명과학 개론으로 전문 미생물학은 제한적이다."
+    },
+    {
+      "pair_id": "pair:1b9694b6aa3d5912",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "사회적 인지와 신경회로 연구에 뇌·행동 과목의 신경계 기능 및 뇌와 행동 상호작용이 직접 맞닿는다."
+    },
+    {
+      "pair_id": "pair:2fe086c19badb03c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "운동론적 PDE 연구와 시계열 예측·ARIMA 모델 과목 간 직접적인 방법 준비가 없다."
+    },
+    {
+      "pair_id": "pair:49ec29e255404915",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단일세포·줄기세포 연구에 유전자 분석, 세포 생리와 조직 관찰을 포함한 생명과학 실험 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:b124028eb63e6954",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "사회행동 연구와 인간중심 디자인의 행동 관찰·사용자 조사 방법은 일부 방법론을 공유하지만 동물 신경기전은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:b5888020b2cc0db2",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "계산영상·광학 연구와 컴퓨터 사회·소셜미디어 과목은 직접적인 연구 준비 내용이 없다."
+    },
+    {
+      "pair_id": "pair:8209eb91a7d88298",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "분자 구조·질량분석 연구에 물리화학 실험의 전도도·반응속도·열역학 측정이 일부 도움이 되지만 분석 장비는 다르다."
+    },
+    {
+      "pair_id": "pair:1e8142157652da2a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "드론 제어 연구에 로봇공학의 운동학, 최적화 및 강인 제어 이론이 직접적인 방법 배경을 제공한다."
+    },
+    {
+      "pair_id": "pair:6c88face36f4a538",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "PV 전력·고장 연구와 유연 전자공학은 센서·반도체·전자소자를 일부 공유하지만 전력변환·계통 제어는 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:dd28172cc79b7f67",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "수소 재료 연구에 신소재의 에너지·환경 재료, 구조·계산 재료 및 특성평가 동향을 소개하는 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:e855b6f6d0331751",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "초저온 원자·분자 연구와 고체물리 과목은 응집물질의 양자 기초를 공유하지만 과목 초점은 결정 내 전자 구조다."
+    },
+    {
+      "pair_id": "pair:476baff872a6b021",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "계산영상 연구에 영상처리, 신경망 기반 시각 인식 및 움직임 추정을 포함한 컴퓨터 비전 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:0e10b1191e53bcc8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "금속 수소화물 연구와 배터리 재료 화학은 에너지 재료 설계의 넓은 기초를 공유하지만 구체 재료 시스템은 다르다."
+    },
+    {
+      "pair_id": "pair:ac8ed35ef03df806",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 상미분방정식·동역학계 과목 사이에 직접적인 주제나 방법 연결이 없다."
+    },
+    {
+      "pair_id": "pair:ca3fb2e18ddd7860",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "형광 생체 프로브 연구와 열전달의 전도·대류·복사 분석은 연구 방법이나 대상이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:8fb6f10884e47ba8",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "미생물·합성생물학 연구에 화학공학 실험의 재조합 세포배양, 세균 배양·동정 및 PCR·시퀀싱 실습이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:d245af50b1546526",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "고분자·기능성 코팅 연구에 고분자·콜로이드·액정 및 계면 현상을 다루는 연성재료 과목이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:1992baafb3f0bf37",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "면역종양·암 치료 반응 연구와 생명과학 발견 과목의 암 면역치료·유전자 조절 사례가 직접 맞닿는다."
+    },
+    {
+      "pair_id": "pair:1033372a795eb815",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물 연구에 생명과학 연구참여 과목이 실험 경험을 제공하지만 구체적 실험실 배정과 주제는 확정되어 있지 않다."
+    },
+    {
+      "pair_id": "pair:22c1c63abc046a4f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물·대사질환 연구에 에너지 항상성, 비만·당뇨, 신호전달과 마이크로바이옴을 다루는 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:33c3c4780b602452",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "저장·메모리 시스템 연구와 DRAM·플래시 및 차세대 비휘발성 메모리 소자를 다루는 과목이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:b42c6e57f9a72316",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "촉매적 입체선택 유기합성 연구에 유기화합물 구조, 반응, 합성 및 입체화학 과목 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:28dd88c55b5bc9f6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "암 면역치료 반응 예측 연구에 기계학습 수학의 선형대수, 확률, 최적화 및 회귀 기초가 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:bcfb61f704c9df03",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "미생물·대사공학 연구에 핵산 정제, 단백질 분석과 생명공학 실험 전략 과목이 직접적인 실험 기반을 제공한다."
+    },
+    {
+      "pair_id": "pair:188273f4890ef8f0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유전 회로·합성생물학 연구에 생화학·분자생물학, 대사, 계산생물학 및 단백질공학 AI 내용을 다루는 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:5f9d7de4a935d5bc",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해조류 탄소 제거와 유기성 폐자원·바이오가스화는 바이오매스 활용을 일부 공유하지만 해양 탄소 제거 방법은 다르다."
+    },
+    {
+      "pair_id": "pair:7f5cc02be68c2b15",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "형광 생체 프로브 연구와 화학·재료 양자컴퓨팅 과목은 직접적인 실험·연구 방법이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:09004739c898a9e1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "운동론 PDE 연구와 수학 연구참여는 연구 주도 학습을 공유하지만 과목 주제는 지도교수와 합의 후 정해진다."
+    },
+    {
+      "pair_id": "pair:25cf3ddff02bd052",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 평가·설계 연구에 서비스 설계, 품질 측정 및 성능 개선 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:481c6584bd9a0634",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "압타머·핵산 생체모방 연구에 핵산의 구조·합성·분석, 분자진단과 나노바이오 응용을 다루는 과목이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:8da83291fe5dd475",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경내분비·사회행동 연구와 IT 시스템 통합 설계 과목은 직접적인 준비 내용을 공유하지 않는다."
+    },
+    {
+      "pair_id": "pair:45f7e9c16c078551",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조·레이저 재료 연구와 일반 기계학습 과목은 주제상 직접 관련이 제시되지 않는다."
+    },
+    {
+      "pair_id": "pair:d2fa93ea27f204f4",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "고분자 코팅·광학 센서 연구와 핵산 생체재료·나노바이오 과목은 다른 재료 체계와 방법을 다룬다."
+    },
+    {
+      "pair_id": "pair:7833333fbec44506",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "레이더 기반 제스처 인식 연구에 신경망 최적화, 가속과 하드웨어·소프트웨어 구현 과목이 직접 유용하다."
+    },
+    {
+      "pair_id": "pair:21a0f22f084c267f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "단일세포 연구와 생명과학 연구참여는 분야상 맞지만 실제 실험실 배정 및 구체 프로젝트는 확정되어 있지 않다."
+    },
+    {
+      "pair_id": "pair:e4afef5578992b6b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포 재생 연구와 줄기세포·발생생물학의 분화, 성체줄기세포 및 재생치료 내용이 직접 겹친다."
+    },
+    {
+      "pair_id": "pair:f231983a91d17ee0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유전 회로·생성형 프로모터 연구에 합성생물학 과목의 DNA 조립, 유전자 회로, 합성 시스템 설계 내용이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:badf7a91f4653212",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 계산이론은 논리적·형식적 수학 기반을 일부 공유하지만 과목은 계산 복잡도와 형식 모델에 초점을 둔다."
+    },
+    {
+      "pair_id": "pair:3c87d8aac508cbbe",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "줄기세포 연구에 세포 신호전달과 생물학적 조절 기초가 일부 관련되지만 과목은 대사 항상성·질환에 중점을 둔다."
+    },
+    {
+      "pair_id": "pair:6446a84bcc8fefa9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "금속 수소화물의 결정구조 연구에 결정 대칭·결정학 및 고체 재료의 물성 이해가 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:bb588c3ab8f48a23",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "전기화학 촉매 연구와 배터리 유기화학은 전기화학 환경의 반응 기초를 일부 공유하지만 과목은 유기 배터리 재료에 한정된다."
+    },
+    {
+      "pair_id": "pair:57d804ce3772a7dd",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "분자 구조·질량분석 연구에 단백질 구조 결정·분석과 효소 기능을 다루는 계산 합성생물학 과목이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:85389eda29dd9c71",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "기체 복사 전달의 운동론 PDE 연구에 푸리에 급수·변환의 기초가 해석 방법으로 직접 적용된다."
+    },
+    {
+      "pair_id": "pair:92dbbc8783747b89",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거 연구에 환경 시료 채취, 수자원 관측 및 분석 실습이 직접적인 현장·측정 준비를 제공한다."
+    },
+    {
+      "pair_id": "pair:e888abb513a317e9",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경행동 연구와 신소재공학 연구참여 과목의 MSE 연구 범위는 직접 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:cf461881d56ced54",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "저장·메모리 연구와 컴퓨터공학 분야 소개는 관련 연구 영역을 다루지만 개별 주제를 심화하거나 기술을 훈련하지 않는다."
+    },
+    {
+      "pair_id": "pair:4ecc8d5bc17d91fb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "메모리·스토리지 연구에 NAND 플래시 구조·동작과 저장시스템 최적화를 다루는 과목이 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:f2a3bb53ac4f9112",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "계산영상·광학 연구에 광전소자 모델링, 빛의 흡수·반사·투과 및 FDTD 실습이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:24935f438ed57262",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "양자재료·반도체 연구에 박막 성장, 표면 현상 및 반도체 박막의 측정·분석 기법이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:9af88c1d1a22fd2c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "복사 전달 운동론 PDE 연구와 미분기하 표면·곡률 이론은 구체적 방법이 다르다."
+    },
+    {
+      "pair_id": "pair:b7dd611cdd3219b7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조와 MEMS 미세가공은 재료·미세 공정 및 기계적 거동을 일부 공유하지만 공정 기술은 다르다."
+    },
+    {
+      "pair_id": "pair:77a7a24b8acc295b",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 비선형 PDE 과목은 추상 수학의 증명·구조적 도구를 일부 공유하지만 직접적 주제 중첩은 없다."
+    },
+    {
+      "pair_id": "pair:217ef7e1da4b7c7f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "계산영상·광학 연구에 광전소자 모델링, 광학 계산과 FDTD 기법이 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:dd1f2b216d9dce0a",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "대사공학·합성생물학 연구와 세포 신호전달·대사 조절은 생물학적 대사 기초를 공유하지만 실험 설계법은 다르다."
+    },
+    {
+      "pair_id": "pair:223ba05e1efcc8d8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "블록체인 서비스 디자인과 금융소비자·핀테크 과목은 금융 앱 사용 맥락에서 일부 맞닿지만 사용자 조사·경험 설계는 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:5cace3da7e89cae2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "분자·생체모방 연구에 화학생물학의 화학 도구, 구조생물학, 펩티도모방체와 생물학 문제 적용이 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:717d00b0a63732e6",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 수학 연구와 정보사회 학술 에세이 작성 과목은 직접적인 지식·방법이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:d95289edbf2ce0d8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "분자·이온 및 유기 배터리 연구와 무기화학은 결합·분자구조·촉매의 기초를 일부 공유하지만 연구 대상은 다르다."
+    },
+    {
+      "pair_id": "pair:31be2ce104cfbc62",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "암 면역치료 연구에 세포생물학·생화학·세포 신호 기초가 일부 도움이 되나 과목은 전공 입문 수준이다."
+    },
+    {
+      "pair_id": "pair:2640e173d4c9e51c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "신경행동 연구와 생명과학 연구참여는 실험 경험을 공유할 수 있지만 실제 연구 주제와 배정은 정해져 있지 않다."
+    },
+    {
+      "pair_id": "pair:2e1520727d070d58",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "단일세포 연구에 세포·분자생물학 기초가 일부 유용하지만 과목 설명은 일반 전공 핵심 개념에 머문다."
+    },
+    {
+      "pair_id": "pair:59f3e95e02d4620f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "형광 생체 프로브 연구에 세포배양, 단백질 분석, 분자생물학 및 재료 측정 실험이 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:8e762c1e07a37a4d",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거 연구의 핵심인 생물·환경 상호작용과 생태계 수준 분석이 환경생태학 과목과 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:cb36cff6a9d5f8e8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "신경행동 연구에 단백질·핵산 분석과 생물물리 실험 기초가 일부 활용될 수 있지만 신경행동 주제는 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:35046f7a2d43f27d",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "합성 프로모터·유전 회로 연구와 무기화학의 배위화학·촉매 주제는 직접적인 준비 관계가 없다."
+    },
+    {
+      "pair_id": "pair:bcbc8268036e7adf",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물·대사 연구에 세포·분자생물학과 생화학 기초가 일부 관련되지만 과목은 전공 입문 수준이다."
+    },
+    {
+      "pair_id": "pair:9b6cb96054e37ef4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "양자재료 나노광학 연구에 광학·분광 특성 및 측정 기법을 다루는 양자물질 분광학 과목이 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:71e1ade2db2a8bee",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "핵산·단백질 모방체 연구와 소재 디자인의 나노입자·광학·센서 제작은 재료 특성 분석에서 일부 연결된다."
+    },
+    {
+      "pair_id": "pair:774a44a92615df8e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "면역종양 연구에 병원체 방어와 유전학은 넓은 기초로 유용하지만 식물 병리학은 연구 대상이 다르다."
+    },
+    {
+      "pair_id": "pair:adde18a7c060f595",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "금속 수소화물 연구에 미세구조 분석, 현미경·조성 측정과 기계적 재료 시험을 포함한 신소재 실험이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:ad35852f09dc1d68",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거와 기후물리는 기후계·표면 에너지 균형의 맥락을 공유하지만 해양 생태와 CDR 측정은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:e8ae5fe9734d256a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경행동 연구와 IT 기반 설계 프로젝트는 직접적인 연구 지식이나 방법을 공유하지 않는다."
+    },
+    {
+      "pair_id": "pair:537949d1061864f3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "대사·합성생물학 연구와 물리화학 실험의 물질 특성·반응속도 측정은 일반 실험 기초를 일부 공유한다."
+    },
+    {
+      "pair_id": "pair:f43351ee852dfe8c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "동물 사회행동 연구와 인간환경 과목의 집단 의사결정·행동 모델은 넓은 행동 분석 배경을 공유한다."
+    },
+    {
+      "pair_id": "pair:c01467bb3ef0a601",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "드론 연구와 유연 전자공학의 센서·통신·전장 응용은 넓은 전자 시스템 배경에서 일부 관련된다."
+    },
+    {
+      "pair_id": "pair:8e39fc7d244f9371",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론 수학 연구와 계산이론은 형식적 논리·수학 기초를 일부 공유하지만 과목은 계산 복잡도 중심이다."
+    },
+    {
+      "pair_id": "pair:0f7c85a03f05c011",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "형광 생체 프로브 연구에 분석화학 실험의 분광법·형광분광 및 정량분석 기법이 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:1f308b8396791e5a",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "생체 프로브와 유연 전자공학의 센서 응용은 넓게 연결되지만 수업은 소재·전자소자에 초점을 둔다."
+    },
+    {
+      "pair_id": "pair:5053055b713e8567",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "운영체제·저장 시스템 연구에 커널, 메모리 관리와 파일시스템을 다루는 고급운영체제 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:011d55f4375ed6be",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론적 모노이드 연구와 대수학의 군·환·모듈은 대수 구조의 기초를 일부 공유하지만 범주론은 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:b142d8f9a87fc80a",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물·염증 연구와 식물 병리학은 병원체, 숙주 방어 및 질병 생물학을 넓게 공유하지만 대상 생물은 다르다."
+    },
+    {
+      "pair_id": "pair:73cfa0e709bca2b0",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 수학 연구참여는 주제 선택·지도 학습을 가능하게 하지만 실제 프로젝트가 특정되지 않았다."
+    },
+    {
+      "pair_id": "pair:6edbe2e6cdc0aae0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "형광 생체 프로브 연구에 화학수학의 통계·선형대수, 분광학 및 반응속도 분석 기초가 직접 도움이 된다."
+    },
+    {
+      "pair_id": "pair:d85ac85268317fc1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "촉매·전기화학 연구에 배터리 재료 X선 분광 분석이 일부 재료 특성평가 배경을 제공하지만 연구 대상은 다르다."
+    },
+    {
+      "pair_id": "pair:190205d038aa3ec8",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "기체 운동론 PDE 연구와 군·환·대수방정식 중심 과목은 직접 준비 내용이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:aab0db799c4592ef",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 경험 연구와 투자론의 자산가격·포트폴리오 이론은 직접적인 방법이나 연구내용이 다르다."
+    },
+    {
+      "pair_id": "pair:f4574af8d04568f3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포 연구와 세포면역 실험은 세포·동물 실험의 일부 기초를 공유하지만 과목 초점은 면역학이다."
+    },
+    {
+      "pair_id": "pair:bce3f8c162fd36bd",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "드론 연구에 통신·네트워크 실험의 무선 시스템 및 계측 경험이 일부 전용될 수 있지만 항법·제어와는 다르다."
+    },
+    {
+      "pair_id": "pair:5952bf842e55ebd6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "줄기세포 연구에 유전학, 세포생물학, 면역학 및 유전자 치료 내용을 포함한 의생명과학 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:edb2fff5fcbbf2e7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "계산영상 연구와 CSE 시각컴퓨팅·컴퓨터비전 소개는 분야 주제를 공유하지만 실제 방법 훈련은 제한적이다."
+    },
+    {
+      "pair_id": "pair:22a47d61fc4cf45e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단일세포·지방조직 연구에 세포면역학의 실험 방법과 동물 기반 세포 연구가 직접 유용하다."
+    },
+    {
+      "pair_id": "pair:5de3f2cd49a781c7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "분자 구조·질량분석 연구와 핵산 나노바이오 과목은 생체분자 구조와 기기 분석을 일부 공유하나 분자 대상은 다르다."
+    },
+    {
+      "pair_id": "pair:2722aea8748bd3f3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물 연구와 방사성폐기물 관리의 환경 미생물 작용·고정화 주제는 일부 미생물학적 배경을 공유한다."
+    },
+    {
+      "pair_id": "pair:66731ab7444e31cd",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거와 환경유기화학은 생물·화학적 변환과 환경 탄소 과정에서 일부 관련되나 생태계 탄소 제거는 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:fee337c980c5123a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "신경행동 연구와 전자회로·소자 기초 과목 사이에 직접적인 연구 준비 연결이 없다."
+    },
+    {
+      "pair_id": "pair:3aaec9cca525be7d",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 경험 연구와 일반 데이터과학 회귀·분류 과목은 직접적인 연구 내용이나 사용자 설계 방법이 겹치지 않는다."
+    },
+    {
+      "pair_id": "pair:7742073f68c70157",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조 연구와 세라믹 합성·구조 특성 분석 실험은 재료 제작·현미경 분석의 일부 방법을 공유한다."
+    },
+    {
+      "pair_id": "pair:d5b4537a4fddbf30",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "레이더 기반 AI 인식 연구에 자원 제약에서 모델을 효율화하는 ML 알고리즘·시스템 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:10f8e79857952f31",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "모낭 줄기세포 연구의 분자기전에 고급생화학의 단백질 구조·세포 신호·대사 조절 내용이 직접 유용하다."
+    },
+    {
+      "pair_id": "pair:e16166d5136bff15",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 시나리오 연구와 데이터 수집·저장 파이프라인 중심의 데이터엔지니어링은 직접 연결이 없다."
+    },
+    {
+      "pair_id": "pair:29303ddf72324abc",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "전력 고장검출 연구에 네트워크 실험의 계측·신호 분석 경험이 일부 전용될 수 있으나 전력 제어 내용은 없다."
+    },
+    {
+      "pair_id": "pair:e7cbc2db872f4f6d",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "레이더 제스처 인식의 딥러닝 연구에 신경망 최적화·가속 및 하드웨어·소프트웨어 구현 과목이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:51488fef0c9f23d1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "암 환자 AI 연구와 AI 윤리 과목은 편향·개인정보 등 적용 맥락을 공유하지만 기술적 모델링 준비는 제공하지 않는다."
+    },
+    {
+      "pair_id": "pair:e8855649a3120f85",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "무선·음성 AI 연구에 CNN·RNN 원리, 계산과 구현 및 컴퓨터 구조를 다루는 컴퓨테이셔널 인텔리전스 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:44105d00f1f5f8a2",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물·대사 연구와 혈액·호흡·생체 순환 유동을 다루는 생체유체 과목은 직접적인 주제 연결이 없다."
+    },
+    {
+      "pair_id": "pair:fc989cd377e46eec",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "대사공학·분자진단 연구에 화학생물학의 생물학 도구, 화학유전학 및 구조생물학 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:0b214d628f737580",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "신축성 전도성 필름 연구와 비정질 세라믹스의 전기·열 물성은 일부 재료 특성 배경을 공유하지만 재료 계는 다르다."
+    },
+    {
+      "pair_id": "pair:5d755520d1f92fda",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "초저온 분자 연구와 양자컴퓨팅 과목은 양자역학·상태 측정의 기반을 공유하지만 과목은 양자화학 계산에 중점을 둔다."
+    },
+    {
+      "pair_id": "pair:07159f70bf6217b7",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "압타머·인공세포 연구와 세라믹 설계·실험은 생체분자와 무기 재료로 대상 및 방법이 다르다."
+    },
+    {
+      "pair_id": "pair:0707c1dfd5f84382",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "기체 운동론 PDE 연구와 ODE·동역학계 과목은 미분방정식 해석 기초를 공유하지만 구체 모델·차수는 다르다."
+    },
+    {
+      "pair_id": "pair:9082ae02a0e9b56f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "유전 회로·프로모터 연구에 재조합 세포배양, 세균 배양·PCR 및 시퀀싱 분석 실험이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:02112e84767e6a90",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "초저온 원자·분자 연구에 원자 기체의 슈뢰딩거 해, 양자역학과 빛-물질 상호작용을 다루는 과목이 직접 기반이 된다."
+    },
+    {
+      "pair_id": "pair:37b5c458683b5f03",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "수소 재료 연구에 결정구조 설계, 회절·전자현미경 분석 및 재료 특성 측정을 포함한 소재 디자인 실습이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:7fa4665720e37db5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "압타머·단백질 모방체 연구에 핵산 정제, 단백질 분석과 분광 기법을 다루는 생화학·생물물리 실험이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:c49b493c1670ab0b",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "배터리·연료전지 연구와 전해질 이온 수송·전극 계면 과목은 관련되지만 제시 논문은 주로 배기가스 촉매를 다룬다."
+    },
+    {
+      "pair_id": "pair:fe23ce7c6d967de4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "레이더 기반 제스처 인식 연구에 기계학습 이론과 실제 AI 구현 실습 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:5c43d86200afb265",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "압타머·생체모방체 연구와 신소재 개론의 바이오·유기 소재 및 분석 주제는 넓게 연결되지만 구체 생체분자 기술은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:6a1f7e8d443ec8c5",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "줄기세포 연구에 세포·분자생물학 기초가 관련되지만 생명과학 전공 입문 과목은 줄기세포 재생을 직접 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:009ea00e42c09c08",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 중심 설계 연구에 품질 설계·개선, QFD 및 서비스 품질 방법이 직접 유용하다."
+    },
+    {
+      "pair_id": "pair:64c1b7689551af1b",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "무선·음성 AI 연구와 AI·데이터과학 개론은 핵심 분야를 공유하지만 깊이 있는 모델 구현 준비는 제한적이다."
+    },
+    {
+      "pair_id": "pair:40130f5478c76972",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "신축성 전도성 필름 연구에 재료의 탄성·소성 변형, 강도 및 인장·파괴 시험 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:b02fec4e0a980f14",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "초발수 코팅 연구와 미세유체의 계면·모세관 현상은 표면 물리 일부를 공유하지만 코팅 재료는 과목의 초점이 아니다."
+    },
+    {
+      "pair_id": "pair:245860e9bf48a4a2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "초저온 양자기체와 위상 재료 과목은 양자역학 기초를 공유하지만 과목은 고체의 밴드·위상 특성 중심이다."
+    },
+    {
+      "pair_id": "pair:2dcef799c33e23a9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "드론 제어 연구에 제어시스템 분석·주파수응답 및 피드백 제어기 설계를 다루는 과목이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:17fc238a62a29975",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 곡면의 미분기하·곡률 과목 사이에 직접적인 방법 연결이 없다."
+    },
+    {
+      "pair_id": "pair:4b157d015c7e0351",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "암 면역치료 반응 예측 연구에 의료 AI의 의료데이터, 분류·딥러닝 및 환자 데이터 이질성 내용을 포함한 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:7daff6caabdc1b62",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "기체 복사 전달 PDE 연구와 고급열전달의 에너지 방정식·수치해석은 수송 모델링을 일부 공유하지만 물리 과정은 다르다."
+    },
+    {
+      "pair_id": "pair:1acd55e7a3432c3b",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 설계 연구와 산업경영공학 일반 소개·영상 제작은 직접적인 준비 내용을 제공하지 않는다."
+    },
+    {
+      "pair_id": "pair:618ea9ebc32c10c2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조와 제강의 고온 물리화학·주조는 금속 가공 기초를 일부 공유하지만 공정은 다르다."
+    },
+    {
+      "pair_id": "pair:b9af338332fe9a38",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물 연구와 생명과학 발견 사례의 미생물·면역 주제는 넓게 관련되지만 구체 대사 연구 방법은 없다."
+    },
+    {
+      "pair_id": "pair:433ec651c8dcc59d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "형광 세포 프로브 연구와 반도체 재료 분석의 분광·현미경 원리는 일부 측정 배경을 제공하지만 생체 분석은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:8fe5510e943436eb",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "레이더 제스처 인식 연구와 VR 입력장치·지각 과목은 HCI 입력 맥락을 공유하지만 딥러닝 분류 방법은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:de917188fed5a1b3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "블록체인 사용자 평가 연구와 컴퓨터·사회 과목의 온라인 상호작용, 기술의 사회적 영향 및 더 나은 설계 주제가 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:2c30e90595d33449",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "생성형 딥러닝 프로모터 연구와 NLP 딥러닝은 신경망·생성 모델 방법을 일부 공유하지만 과목의 적용 영역은 언어다."
+    },
+    {
+      "pair_id": "pair:f27bc80d571dd771",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "장내 미생물·대사 연구에 미생물 구조·대사경로와 생명공학 조작을 다루는 환경생물 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:5e18deb12ff172f6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조 연구에 나노재료의 설계·제조·특성평가 및 상향식·하향식 가공 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:0bcc0555ab4df3a7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "생체 프로브 연구와 유연 전자공학의 센서·소자 응용은 넓게 닿지만 생체분자 검출법은 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:c28d5d8db6d72b99",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "드론 연구에 쿼드콥터 자세·위치 제어 및 자율비행 실습이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:7202ccbf83c226b7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "해양 탄소 제거와 환경공학 개론은 환경 문제 및 수·폐기물 관리의 맥락을 공유하지만 CDR 생태·측정법은 구체적이지 않다."
+    },
+    {
+      "pair_id": "pair:84d8d2785ab2dd34",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "금속 수소화물 연구에 고체 전해질 합성, 전자현미경 구조 해석 및 에너지 재료 특성평가 실습이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:8b99ee3952e42731",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "양자재료 나노광학과 계면 과목의 박막·전자광학 소자 및 표면 현상은 재료 맥락에서 일부 연결된다."
+    },
+    {
+      "pair_id": "pair:dc12c50624b682f6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "초저온 원자·분자의 양자기체 연구에 중성원자 플랫폼, 다체 양자 시뮬레이션과 양자역학 도구 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:c6af734056a7f978",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "세포·단백질 모방체 및 압타머 연구에 생체재료, 세포 상호작용, 조직 분석과 바이오제작 과목이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:8c060b40787e2851",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "면역종양 연구에 고급 생화학의 세포 신호, 단백질 상호작용·인산화 및 심층학습 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:50ace3588afa2905",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 화학수학은 선형대수·미분방정식 같은 수학 기초를 일부 공유하지만 과목은 화학 응용에 맞춰져 있다."
+    },
+    {
+      "pair_id": "pair:755a01322c3c2780",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "무선 AI 연구와 AI·데이터과학 개론은 분야와 핵심 이슈를 공유하지만 구체 모델 훈련은 제한적이다."
+    },
+    {
+      "pair_id": "pair:0a7f94428158823e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "드론 연구에 드론을 명시 사례로 포함하고 동적 시스템 피드백 제어 설계·구현을 다루는 과목이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:c10383a4e21153ee",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "유전 회로·분자진단 연구와 나노 공정·반도체 제조 과목은 직접적인 연구 대상이 다르다."
+    },
+    {
+      "pair_id": "pair:3879070e45463715",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "단일세포·줄기세포 연구에 생물화학공학의 유전체·조직공학·재생의학·계산생물학 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:5bf31dfa37ed9027",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "암 면역치료 반응 예측 연구에 AI 기초 이론·기계학습 방법과 구현 실습이 직접 준비가 된다."
+    },
+    {
+      "pair_id": "pair:95587b195bde6e7e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "신축성 전도 필름 연구와 신축 전자공학의 센서·유연 소자 제작 및 응용 주제가 직접 일치한다."
+    },
+    {
+      "pair_id": "pair:65e355b921944461",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "세포 하위집단 연구에 분자생물학의 유전자 기능, 전사 조절, 염색질 및 RNA 처리 내용이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:623ec4dbd80ab9c3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "드론 항법·제어 연구와 동적계획·강화학습의 순차 의사결정·최적화는 방법론을 일부 공유한다."
+    },
+    {
+      "pair_id": "pair:8c4464315dbf53c3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "수소 에너지 재료 연구에 에너지 재료의 분석 기법·특성평가와 성능 메커니즘 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:3e226ed42aab747f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "스토리지·메모리 시스템 연구에 DRAM·SRAM·플래시의 동작 원리 및 메모리 공정을 다루는 과목이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:faf3e52cf1ad23a2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "초저온 원자·분자 연구와 중성원자 플랫폼·다체 양자 시뮬레이션을 다루는 양자컴퓨팅 과목이 직접 연결된다."
+    },
+    {
+      "pair_id": "pair:9ca98cb02ba3bded",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "PV 고장 검출 연구에 전력변환기, PV·저장 응용회로 및 공진형 DC-DC 과목 내용이 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:c8217799a023f813",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "선택적 유기 촉매 합성과 화학생물학은 화학 도구·합성 기초를 일부 공유하지만 과목은 생물학 응용에 초점을 둔다."
+    },
+    {
+      "pair_id": "pair:dc4e18bbc5d531d7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "분자 구조·질량분석 연구에 단백질 구조, 정량·분광 및 생화학 실험 전략 과목이 직접 유용하다."
+    },
+    {
+      "pair_id": "pair:f2fa96847f10e52e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 염증·미생물 연구와 세포유전자 치료 동향은 생명과학·치료 맥락을 공유하지만 구체 미생물 방법은 없다."
+    },
+    {
+      "pair_id": "pair:23f1b1fab766d01a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "형광 생체 프로브 연구에 화학생물학의 화학 도구, 생물 문제 적용 및 연구 프로젝트 설계가 직접 맞는다."
+    },
+    {
+      "pair_id": "pair:c63a534c1d64384b",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 염증 연구와 세포면역 실험의 면역학·동물 실험은 일부 관련되지만 미생물 생태 연구 자체는 다루지 않는다."
+    },
+    {
+      "pair_id": "pair:445668ba9e73da1e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "촉매·전기화학 연구와 배터리 시스템의 재료 공정·에너지 저장 배경은 일부 관련되지만 촉매 반응은 다르다."
+    },
+    {
+      "pair_id": "pair:6b9a0472a444c2dc",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "운동론 PDE 연구와 시계열 분석은 시간에 따른 동역학 분석에서 넓은 수학적 맥락을 공유하지만 과목 방법은 다르다."
+    },
+    {
+      "pair_id": "pair:a3c180e0ee4b0c5e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "PV 시스템 고장 연구에 재생에너지와 전력생산 시스템을 다루는 에너지 시스템 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:c97c87cd2fffe8fb",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "범주론 연구와 데이터엔지니어링의 파이프라인·저장·LLM 시스템은 직접적인 수학 연구 준비가 아니다."
+    },
+    {
+      "pair_id": "pair:976e8d850c874cb9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "줄기세포 재생 연구에 단백질·핵산 정제, 분광 및 생명공학 실험 원리를 다루는 과목이 직접 관련된다."
+    },
+    {
+      "pair_id": "pair:f888af6ad4a9e2a8",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "금속 적층제조·레이저 공정 연구와 일반 기계학습 과목은 직접적인 주제·방법을 공유하지 않는다."
+    },
+    {
+      "pair_id": "pair:0d57d2ad843ea8f8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "면역종양 예측 연구에 단백질·핵산 분석의 실험 기초가 일부 도움이 되지만 수업은 생물물리 실험 중심이다."
+    },
+    {
+      "pair_id": "pair:56d358aeffcb8d44",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "장내 염증·미생물 연구에 생명공학 실험의 핵산 정제와 생물학적 분석 기초가 일부 유용하다."
+    },
+    {
+      "pair_id": "pair:e44ee438dfd4c559",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "전도성 신축 필름 연구와 슬래그·유리의 전기·열 물성은 재료 특성 맥락을 일부 공유하지만 재료 계는 다르다."
+    },
+    {
+      "pair_id": "pair:adc1a93c1ec9ea3f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "무선 AI 연구와 운영체제 시스템 소프트웨어는 AI 시스템 구현의 기반에서 일부 관련되지만 신경망·신호처리 방법은 다루지 않는다."
+    }
+  ]
+}

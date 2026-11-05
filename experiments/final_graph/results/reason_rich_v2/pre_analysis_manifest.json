@@ -1,0 +1,6 @@
+{
+  "status": "before_both_judges_complete_and_before_method_key_opened",
+  "analysis_script_sha256": "9930c254b10e0f4f19cb27235b89200306bdd73441507f36156a756f2cee9ceb",
+  "prereg_sha256": "b96cec17ae26f8797b6e187eaac4875172fa73a8b39efc453b7e8c96ab69870c",
+  "disclosure": "Judge B completed method-blind reason ratings and reported aggregate label distribution; Judge A has not begun reason ratings. No method-specific outcome inspected."
+}

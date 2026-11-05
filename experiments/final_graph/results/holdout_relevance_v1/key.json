@@ -1,0 +1,2780 @@
+{
+  "pair:1851b3911ec34b67": {
+    "b0_expanded": 1
+  },
+  "pair:f937d3ae1cb14085": {
+    "b0_expanded": 2
+  },
+  "pair:0f4f0b9f24d794e6": {
+    "b0_expanded": 3
+  },
+  "pair:12a32fe2c85cfc10": {
+    "b0_expanded": 4
+  },
+  "pair:1500cd69ab062504": {
+    "b0_expanded": 5
+  },
+  "pair:0c401e2435f0df6e": {
+    "b0_expanded": 1
+  },
+  "pair:d25bd9b21c832511": {
+    "b0_expanded": 3
+  },
+  "pair:37187401604540de": {
+    "b0_expanded": 4
+  },
+  "pair:561e9f5c80c97cc2": {
+    "b0_expanded": 5
+  },
+  "pair:50cc3049d09038c5": {
+    "b1": 4
+  },
+  "pair:c41f2f0012eaaaee": {
+    "b0_expanded": 2
+  },
+  "pair:63ed685918ffb88f": {
+    "b1": 3
+  },
+  "pair:cb58f4b13804e16e": {
+    "b1": 5
+  },
+  "pair:f6ba9d3f9f4c16e3": {
+    "b1": 1
+  },
+  "pair:d2779f837cbb0871": {
+    "b1": 2
+  },
+  "pair:33480606cafee00f": {
+    "b1": 1
+  },
+  "pair:c0c6c4958f4078dd": {
+    "b1": 5
+  },
+  "pair:e73911e300ee62d4": {
+    "b0_expanded": 1
+  },
+  "pair:fd1ee7a308c71433": {
+    "b0_expanded": 2
+  },
+  "pair:be3419c6391520b5": {
+    "b1": 2
+  },
+  "pair:de8b479dde38297d": {
+    "b1": 3
+  },
+  "pair:9688df88ceaac285": {
+    "b1": 4
+  },
+  "pair:1395f6bd55452e61": {
+    "b0_expanded": 3
+  },
+  "pair:996f98f1adfc77bc": {
+    "b0_expanded": 4
+  },
+  "pair:b9c5b3a4803ce0dc": {
+    "b0_expanded": 5
+  },
+  "pair:aec12b17624c914f": {
+    "b1": 5
+  },
+  "pair:4894ca8eb7331c9f": {
+    "b0_expanded": 3
+  },
+  "pair:012f26584e41e7e1": {
+    "b1": 2
+  },
+  "pair:442fadaa9b9f3a3b": {
+    "b0_expanded": 4
+  },
+  "pair:6411ae0512dd3e73": {
+    "b0_expanded": 1,
+    "b1": 1
+  },
+  "pair:b696d5832befba6f": {
+    "b0_expanded": 5
+  },
+  "pair:108da64d16e0ec9f": {
+    "b0_expanded": 2,
+    "b1": 3
+  },
+  "pair:013ddd2a0645d5cc": {
+    "b1": 4
+  },
+  "pair:5ac2acc757097b07": {
+    "b1": 5
+  },
+  "pair:083636dca50962c8": {
+    "b0_expanded": 1
+  },
+  "pair:319bbd984f1652e0": {
+    "b1": 4
+  },
+  "pair:1d21eb9f33485e8b": {
+    "b1": 3
+  },
+  "pair:65e2540f9941ad97": {
+    "b0_expanded": 2
+  },
+  "pair:89c6589fbf845328": {
+    "b0_expanded": 3,
+    "b1": 1
+  },
+  "pair:7fd54faf8cde930d": {
+    "b0_expanded": 4
+  },
+  "pair:335d95ddf38e59ca": {
+    "b0_expanded": 5,
+    "b1": 2
+  },
+  "pair:c10423ecafb015ce": {
+    "b1": 2
+  },
+  "pair:f7cee0878b627c3c": {
+    "b0_expanded": 1,
+    "b1": 3
+  },
+  "pair:0d0e96b924145e49": {
+    "b0_expanded": 2
+  },
+  "pair:a8214d7ea4250b92": {
+    "b0_expanded": 3,
+    "b1": 1
+  },
+  "pair:d8d0932943d3f81b": {
+    "b0_expanded": 4
+  },
+  "pair:4fbe7a841e793018": {
+    "b0_expanded": 5
+  },
+  "pair:7abf1a6663f50dc1": {
+    "b1": 4
+  },
+  "pair:04b124233eda4cf1": {
+    "b1": 5
+  },
+  "pair:1eb5a435be1fc363": {
+    "b0_expanded": 1
+  },
+  "pair:70932e996457c88e": {
+    "b0_expanded": 2
+  },
+  "pair:70828e5ae33aaa16": {
+    "b0_expanded": 3
+  },
+  "pair:e46f2258c3c9d127": {
+    "b0_expanded": 4
+  },
+  "pair:f984b23d01f0a822": {
+    "b0_expanded": 5
+  },
+  "pair:09d1fce696c7ae7d": {
+    "b0_expanded": 2
+  },
+  "pair:cad62a54573dda1b": {
+    "b0_expanded": 3
+  },
+  "pair:7f9eb4a6ffadfdec": {
+    "b0_expanded": 4
+  },
+  "pair:0872fb24dd13aa7b": {
+    "b0_expanded": 5
+  },
+  "pair:844be2963b976344": {
+    "b0_expanded": 1
+  },
+  "pair:f73879cd3714cb3c": {
+    "b0_expanded": 2
+  },
+  "pair:91bbf747fb01a75b": {
+    "b0_expanded": 3
+  },
+  "pair:7ccf0c3a56dcc2f2": {
+    "b0_expanded": 4
+  },
+  "pair:a836043dfc7057c5": {
+    "b0_expanded": 5
+  },
+  "pair:c9a971a5381dd644": {
+    "b0_expanded": 1
+  },
+  "pair:93e4f96645968a1b": {
+    "b0_expanded": 3
+  },
+  "pair:e4a2fa3f0ab96795": {
+    "b0_expanded": 1
+  },
+  "pair:9d8892a65d68f5f5": {
+    "b0_expanded": 4
+  },
+  "pair:445911780374a7b8": {
+    "b0_expanded": 5
+  },
+  "pair:579cee15f5f04d6c": {
+    "b0_expanded": 2
+  },
+  "pair:2453d265de9bc34b": {
+    "b0_expanded": 4
+  },
+  "pair:0a009afb524197d6": {
+    "b0_expanded": 5
+  },
+  "pair:0b9b0e566697b674": {
+    "b0_expanded": 1
+  },
+  "pair:2fcb076823ac29f6": {
+    "b0_expanded": 2
+  },
+  "pair:dc5677b59d790b58": {
+    "b0_expanded": 3
+  },
+  "pair:768f9507bd0af4be": {
+    "b0_expanded": 1
+  },
+  "pair:d90a1e3e829e1e8b": {
+    "b0_expanded": 2
+  },
+  "pair:8f1b320f65364d8b": {
+    "b0_expanded": 3
+  },
+  "pair:fc589438ed455b7f": {
+    "b0_expanded": 4
+  },
+  "pair:6937de633414894a": {
+    "b0_expanded": 5
+  },
+  "pair:0781d3ad603a79a9": {
+    "b0_expanded": 2,
+    "b1": 1
+  },
+  "pair:393b77f5abaefa70": {
+    "b0_expanded": 3,
+    "b1": 4
+  },
+  "pair:c865c067fd6bb048": {
+    "b0_expanded": 4
+  },
+  "pair:ced4ddd9e123cd92": {
+    "b1": 2
+  },
+  "pair:ed7b228d584ae935": {
+    "b0_expanded": 5,
+    "b1": 3
+  },
+  "pair:b4329355fe5fd1a6": {
+    "b0_expanded": 1,
+    "b1": 5
+  },
+  "pair:a5e4b8e57a0281e7": {
+    "b0_expanded": 2
+  },
+  "pair:4bd8c056285b8fbc": {
+    "b0_expanded": 3
+  },
+  "pair:f23770314f905e83": {
+    "b0_expanded": 4
+  },
+  "pair:7b95963a22ea2c82": {
+    "b0_expanded": 5
+  },
+  "pair:d4c3a5d62fbd10f5": {
+    "b0_expanded": 1
+  },
+  "pair:293c3cb2d599ef33": {
+    "b1": 2
+  },
+  "pair:3ac14d88c52ace4c": {
+    "b1": 3
+  },
+  "pair:ad43ecc0fea9c735": {
+    "b0_expanded": 1
+  },
+  "pair:663460af8454dadc": {
+    "b0_expanded": 2,
+    "b1": 1
+  },
+  "pair:7248f65f16270f6f": {
+    "b0_expanded": 3
+  },
+  "pair:1db02aa23044d985": {
+    "b0_expanded": 4
+  },
+  "pair:552169f271fb0aa3": {
+    "b0_expanded": 5
+  },
+  "pair:15a333fd16fb7fef": {
+    "b1": 4
+  },
+  "pair:d146a0ebeeec6f95": {
+    "b1": 5
+  },
+  "pair:6db49775a8eb15c1": {
+    "b0_expanded": 2
+  },
+  "pair:eeb4b0b2e2148dc3": {
+    "b0_expanded": 3
+  },
+  "pair:707c167f416d0fcc": {
+    "b0_expanded": 1
+  },
+  "pair:e88d88cbf1b82981": {
+    "b0_expanded": 4
+  },
+  "pair:511fcf8b33b773a9": {
+    "b0_expanded": 5
+  },
+  "pair:c09c2702381a0af4": {
+    "b0_expanded": 2
+  },
+  "pair:3357559fb35763c2": {
+    "b0_expanded": 3
+  },
+  "pair:fceb4b8b47c0510d": {
+    "b0_expanded": 4
+  },
+  "pair:e290416ec7fc269b": {
+    "b0_expanded": 5
+  },
+  "pair:9ad52d56acb961ed": {
+    "b0_expanded": 1
+  },
+  "pair:1e891730b2ab476e": {
+    "b0_expanded": 1
+  },
+  "pair:659dc19270092000": {
+    "b0_expanded": 3
+  },
+  "pair:5a6bdb5448ff339d": {
+    "b1": 1
+  },
+  "pair:01833992628e91fc": {
+    "b1": 5
+  },
+  "pair:d00c40cfdae1c1f0": {
+    "b0_expanded": 4
+  },
+  "pair:89da97741e4a378c": {
+    "b1": 2
+  },
+  "pair:d663508e573e070d": {
+    "b0_expanded": 2
+  },
+  "pair:fa50890a63f4a76d": {
+    "b0_expanded": 5
+  },
+  "pair:1f5f95e3f12e0bbe": {
+    "b1": 3
+  },
+  "pair:4392708c638538ae": {
+    "b1": 4
+  },
+  "pair:8f5b4350ea802fb3": {
+    "b0_expanded": 2
+  },
+  "pair:c3dd5f1716a64887": {
+    "b0_expanded": 3
+  },
+  "pair:0f28050fd9fa49bd": {
+    "b0_expanded": 1
+  },
+  "pair:539a8e421bce4978": {
+    "b0_expanded": 4
+  },
+  "pair:0166d26a5168ab0d": {
+    "b0_expanded": 5
+  },
+  "pair:00f6cbeeddab4bf7": {
+    "b0_expanded": 3
+  },
+  "pair:a5da9b0d3b2f084f": {
+    "b0_expanded": 4
+  },
+  "pair:9b3e0da180f1330c": {
+    "b0_expanded": 5
+  },
+  "pair:ab25d00d1b87ed97": {
+    "b0_expanded": 1
+  },
+  "pair:4d0b3ae20a9ce44c": {
+    "b0_expanded": 2
+  },
+  "pair:de898dbbb6ffa453": {
+    "b0_expanded": 1
+  },
+  "pair:07deeac7a41acf04": {
+    "b1": 1
+  },
+  "pair:ea369036434c095a": {
+    "b1": 2
+  },
+  "pair:a619c30f9ce211fd": {
+    "b0_expanded": 2
+  },
+  "pair:efeee8e3bae566c6": {
+    "b0_expanded": 3
+  },
+  "pair:b8fd4043911483c5": {
+    "b0_expanded": 4,
+    "b1": 5
+  },
+  "pair:a73637836a0c2be3": {
+    "b0_expanded": 5,
+    "b1": 4
+  },
+  "pair:d2f57494eabd0b26": {
+    "b1": 3
+  },
+  "pair:676f9a3ced3db8f0": {
+    "b1": 1
+  },
+  "pair:3d7408e80129a224": {
+    "b0_expanded": 1
+  },
+  "pair:76ad8f2122c5e584": {
+    "b0_expanded": 3
+  },
+  "pair:0d5c8fbf9eeaee76": {
+    "b0_expanded": 4
+  },
+  "pair:c79367857a56d2c2": {
+    "b1": 2
+  },
+  "pair:288d81ab24446656": {
+    "b1": 3
+  },
+  "pair:1fab2306a4b1ea0e": {
+    "b1": 4
+  },
+  "pair:30c0991affa68e13": {
+    "b0_expanded": 2
+  },
+  "pair:5aa0c91d1ec16611": {
+    "b1": 5
+  },
+  "pair:8e42447490e05d5b": {
+    "b0_expanded": 5
+  },
+  "pair:6e60a5ed490cdee3": {
+    "b0_expanded": 2
+  },
+  "pair:c6933f793980ba65": {
+    "b0_expanded": 3
+  },
+  "pair:bc93876c404e22bf": {
+    "b0_expanded": 4
+  },
+  "pair:b07ea784b04e8386": {
+    "b0_expanded": 1
+  },
+  "pair:2399984c268273cf": {
+    "b0_expanded": 5
+  },
+  "pair:de6722d5c8b24b29": {
+    "b0_expanded": 1
+  },
+  "pair:47827774959f68c9": {
+    "b0_expanded": 2
+  },
+  "pair:fec6f5ed1ec76479": {
+    "b0_expanded": 3
+  },
+  "pair:0af43c87778d0d65": {
+    "b0_expanded": 4
+  },
+  "pair:9a547f1e81709dfe": {
+    "b0_expanded": 5
+  },
+  "pair:a297ec58ce1398d8": {
+    "b0_expanded": 1
+  },
+  "pair:4550093f9ee5319e": {
+    "b0_expanded": 3
+  },
+  "pair:eac30d40edccc621": {
+    "b0_expanded": 2
+  },
+  "pair:592e6cace12d930d": {
+    "b0_expanded": 4
+  },
+  "pair:8f38cd42f0c1b67d": {
+    "b0_expanded": 5
+  },
+  "pair:0dee7b9679d819f7": {
+    "b0_expanded": 2
+  },
+  "pair:2eda9f8e7a6cf953": {
+    "b0_expanded": 3
+  },
+  "pair:adb1e2ffa24a8b4d": {
+    "b0_expanded": 4
+  },
+  "pair:14ab9e1409ec4c62": {
+    "b0_expanded": 1
+  },
+  "pair:f6a0e3a84b80f631": {
+    "b0_expanded": 5
+  },
+  "pair:cb8110792fbbc515": {
+    "b0_expanded": 5
+  },
+  "pair:6f5cc94a508aa8de": {
+    "b0_expanded": 2
+  },
+  "pair:838a2f72a5274a95": {
+    "b0_expanded": 1
+  },
+  "pair:f0d366dc28714dc2": {
+    "b0_expanded": 3
+  },
+  "pair:5ca981566778920b": {
+    "b0_expanded": 4
+  },
+  "pair:700774ea38541639": {
+    "b0_expanded": 1
+  },
+  "pair:b530d831b0cc02be": {
+    "b0_expanded": 5,
+    "b1": 1
+  },
+  "pair:746c1abc4fed1db0": {
+    "b0_expanded": 3,
+    "b1": 4
+  },
+  "pair:6b07c527e6b6bdb4": {
+    "b0_expanded": 2
+  },
+  "pair:3632757c83f9a008": {
+    "b1": 2
+  },
+  "pair:53888193a63cef17": {
+    "b1": 3
+  },
+  "pair:fbc961f14325ec06": {
+    "b1": 5
+  },
+  "pair:d3f18da6f339b0b3": {
+    "b0_expanded": 4
+  },
+  "pair:764a3d05b68976c0": {
+    "b0_expanded": 4
+  },
+  "pair:3927afa19ae67b85": {
+    "b0_expanded": 5
+  },
+  "pair:34e1a4e82cbb2839": {
+    "b0_expanded": 1
+  },
+  "pair:d7faded3d560bdae": {
+    "b0_expanded": 2
+  },
+  "pair:432cd08e8d4914a7": {
+    "b0_expanded": 3
+  },
+  "pair:82c2949fdef50c33": {
+    "b0_expanded": 5
+  },
+  "pair:000e492ab20d978a": {
+    "b1": 1
+  },
+  "pair:6f8ac9e31b3cca01": {
+    "b1": 2
+  },
+  "pair:88675b90c1c6cae8": {
+    "b1": 3
+  },
+  "pair:f1ef793017660f91": {
+    "b1": 4
+  },
+  "pair:9aaab2a55003d9f7": {
+    "b0_expanded": 1
+  },
+  "pair:80f26a0fa111934c": {
+    "b0_expanded": 3
+  },
+  "pair:2707a9e5ebad0cf6": {
+    "b1": 5
+  },
+  "pair:ca14b532af2aedd8": {
+    "b0_expanded": 2
+  },
+  "pair:5409996d33b04ba9": {
+    "b0_expanded": 4
+  },
+  "pair:a09869428fba7a58": {
+    "b0_expanded": 1
+  },
+  "pair:69edcc551278bcaa": {
+    "b0_expanded": 2
+  },
+  "pair:cd837b85883c5fde": {
+    "b0_expanded": 3
+  },
+  "pair:792a2e1a509e3ed7": {
+    "b0_expanded": 4
+  },
+  "pair:e4d3579a4466ddf4": {
+    "b0_expanded": 5
+  },
+  "pair:e15e83ed2927d565": {
+    "b0_expanded": 5
+  },
+  "pair:f824d9ebf112ed8d": {
+    "b0_expanded": 4
+  },
+  "pair:807d602f0ff0504f": {
+    "b0_expanded": 1
+  },
+  "pair:1b9cf457d3dc7856": {
+    "b0_expanded": 2
+  },
+  "pair:3ac7de9e761f7e86": {
+    "b0_expanded": 3
+  },
+  "pair:b1be5c96a48d1466": {
+    "b1": 2
+  },
+  "pair:b6f3ebe167ccc2d2": {
+    "b1": 5
+  },
+  "pair:88f2446080deafee": {
+    "b0_expanded": 3
+  },
+  "pair:c1ca7270de7a15c6": {
+    "b0_expanded": 4
+  },
+  "pair:54ccb4bf6ce73695": {
+    "b0_expanded": 1
+  },
+  "pair:30cf49edc82894e3": {
+    "b0_expanded": 5
+  },
+  "pair:316e7c6d71eb0820": {
+    "b1": 3
+  },
+  "pair:e89b02ba4897940f": {
+    "b1": 1
+  },
+  "pair:77b103f25dead226": {
+    "b0_expanded": 2,
+    "b1": 4
+  },
+  "pair:e25f974244b11461": {
+    "b0_expanded": 1
+  },
+  "pair:8a5a139c46376d37": {
+    "b0_expanded": 2
+  },
+  "pair:f48435989a8dad02": {
+    "b0_expanded": 3
+  },
+  "pair:5ae093ee338e89ba": {
+    "b0_expanded": 4
+  },
+  "pair:7fe57004716adce2": {
+    "b0_expanded": 5
+  },
+  "pair:76776738782b5e12": {
+    "b0_expanded": 4
+  },
+  "pair:9e58f44ad3fd95f3": {
+    "b0_expanded": 5
+  },
+  "pair:63d143ff8ab3fa76": {
+    "b0_expanded": 1
+  },
+  "pair:9d2156f62c8b149e": {
+    "b0_expanded": 2
+  },
+  "pair:7c007282557399f2": {
+    "b0_expanded": 3
+  },
+  "pair:08ed3b7a342340f5": {
+    "b0_expanded": 5
+  },
+  "pair:9ac61996e52f955b": {
+    "b0_expanded": 1
+  },
+  "pair:150e20737151cd6c": {
+    "b0_expanded": 2
+  },
+  "pair:ce159f48ea41eee9": {
+    "b0_expanded": 3
+  },
+  "pair:9147e845068a556e": {
+    "b0_expanded": 4
+  },
+  "pair:440d3f35aa31d32f": {
+    "b0_expanded": 4
+  },
+  "pair:b7a526bb60c48c4c": {
+    "b1": 1
+  },
+  "pair:56640f5fa5dabb41": {
+    "b1": 5
+  },
+  "pair:1f7300f34ef2b98c": {
+    "b0_expanded": 1
+  },
+  "pair:877da392fb2be774": {
+    "b0_expanded": 5
+  },
+  "pair:d452577e40696ef3": {
+    "b1": 2
+  },
+  "pair:b2ba58fdc944302b": {
+    "b1": 3
+  },
+  "pair:762fa19a56d74533": {
+    "b1": 4
+  },
+  "pair:9ba8ae7fdd6d46a0": {
+    "b0_expanded": 2
+  },
+  "pair:62a63f70e139ac90": {
+    "b0_expanded": 3
+  },
+  "pair:37cc8addcdc21a4f": {
+    "b0_expanded": 2
+  },
+  "pair:7f706c00b80cb65b": {
+    "b0_expanded": 3
+  },
+  "pair:b9b810e4c70c074d": {
+    "b0_expanded": 4
+  },
+  "pair:9bfb5d2907fa1d30": {
+    "b0_expanded": 1
+  },
+  "pair:4da40166b8a50b48": {
+    "b0_expanded": 5
+  },
+  "pair:19f02b620b1cab7d": {
+    "b0_expanded": 1
+  },
+  "pair:6518ed5a441c469b": {
+    "b0_expanded": 2
+  },
+  "pair:349211382cba9ab4": {
+    "b0_expanded": 3
+  },
+  "pair:dac827400b62d61e": {
+    "b0_expanded": 4
+  },
+  "pair:ddf144f16f5b17c2": {
+    "b0_expanded": 5
+  },
+  "pair:552f93acf51d2104": {
+    "b1": 5
+  },
+  "pair:147bd67c569e9f1a": {
+    "b1": 1
+  },
+  "pair:00e75fe9c77ce372": {
+    "b1": 2
+  },
+  "pair:2f935b0863440610": {
+    "b0_expanded": 2
+  },
+  "pair:2d218a7502fa7b71": {
+    "b0_expanded": 3
+  },
+  "pair:b709ea9f64372037": {
+    "b0_expanded": 4,
+    "b1": 3
+  },
+  "pair:fc90ae32151f8d1e": {
+    "b0_expanded": 1
+  },
+  "pair:1c45117f20f139f0": {
+    "b0_expanded": 5
+  },
+  "pair:1ebfde35924c2994": {
+    "b1": 4
+  },
+  "pair:278e0b194312113f": {
+    "b0_expanded": 3
+  },
+  "pair:718efc547a6614de": {
+    "b1": 5
+  },
+  "pair:e0426371ddf4f51b": {
+    "b0_expanded": 4
+  },
+  "pair:457185102d6c7486": {
+    "b0_expanded": 5
+  },
+  "pair:66830a0b53511954": {
+    "b0_expanded": 2
+  },
+  "pair:51e1f7eb3f7db366": {
+    "b1": 4
+  },
+  "pair:72935a8ba7ed92b2": {
+    "b1": 3
+  },
+  "pair:b099c1946c22cae7": {
+    "b0_expanded": 1
+  },
+  "pair:364719c46947db3e": {
+    "b1": 1
+  },
+  "pair:1d8f57337a8de9aa": {
+    "b1": 2
+  },
+  "pair:da5c18fee93eef54": {
+    "b0_expanded": 1
+  },
+  "pair:c57c0bf706da4936": {
+    "b1": 2
+  },
+  "pair:ec5c76c1b491fb02": {
+    "b1": 3
+  },
+  "pair:dadc157332141bf0": {
+    "b0_expanded": 2,
+    "b1": 1
+  },
+  "pair:db1e66e9b2664d5c": {
+    "b0_expanded": 3
+  },
+  "pair:83a79ace822178bf": {
+    "b0_expanded": 4
+  },
+  "pair:07d992c8ddb21c5e": {
+    "b0_expanded": 5
+  },
+  "pair:70d035a00edc3bc8": {
+    "b1": 4
+  },
+  "pair:f998b1839e3f8c9c": {
+    "b1": 5
+  },
+  "pair:132c00731356e04d": {
+    "b0_expanded": 1
+  },
+  "pair:fb32b41cace7640e": {
+    "b0_expanded": 2
+  },
+  "pair:6b78eca4e5356486": {
+    "b0_expanded": 3
+  },
+  "pair:475c334a367196e8": {
+    "b0_expanded": 4
+  },
+  "pair:52565f45f01353d6": {
+    "b0_expanded": 5
+  },
+  "pair:8425bae92a9b0991": {
+    "b0_expanded": 3
+  },
+  "pair:761d0ddb09cc462f": {
+    "b0_expanded": 1
+  },
+  "pair:cc8c63b9ccb659b2": {
+    "b0_expanded": 4
+  },
+  "pair:06486135d86f75f5": {
+    "b0_expanded": 5
+  },
+  "pair:0260d9e58ffe5bb5": {
+    "b0_expanded": 2
+  },
+  "pair:1589216bd9089afe": {
+    "b0_expanded": 1
+  },
+  "pair:c12f0527b74f8d3f": {
+    "b0_expanded": 4
+  },
+  "pair:cd46c09c0ba7c1b7": {
+    "b1": 4
+  },
+  "pair:920cf0d34e1ca0e4": {
+    "b1": 5
+  },
+  "pair:98f20a05fbdff7ec": {
+    "b0_expanded": 2
+  },
+  "pair:ac73ebf3a5d3fa13": {
+    "b0_expanded": 5,
+    "b1": 1
+  },
+  "pair:522b7cbfe9a5d67d": {
+    "b1": 2
+  },
+  "pair:916d911993c85064": {
+    "b0_expanded": 3
+  },
+  "pair:fddbb3388e5a41f9": {
+    "b1": 3
+  },
+  "pair:1f99903382e68048": {
+    "b0_expanded": 1
+  },
+  "pair:bf94e3b150e8227f": {
+    "b0_expanded": 2
+  },
+  "pair:ed2e164f897675de": {
+    "b0_expanded": 3,
+    "b1": 4
+  },
+  "pair:36709b8f472a7546": {
+    "b0_expanded": 4
+  },
+  "pair:52992bbd4950f8b9": {
+    "b0_expanded": 5
+  },
+  "pair:67e7d252f0794538": {
+    "b1": 1
+  },
+  "pair:541a32be29860502": {
+    "b1": 5
+  },
+  "pair:52640b033612fc7e": {
+    "b1": 2
+  },
+  "pair:fc82f2a5e55a894f": {
+    "b1": 3
+  },
+  "pair:1abc7d7f66dad418": {
+    "b0_expanded": 1
+  },
+  "pair:e7b11f5bf71eaa5f": {
+    "b0_expanded": 2
+  },
+  "pair:aa5774fbf15ed8e1": {
+    "b1": 4
+  },
+  "pair:aa7e7f16bca5a0bf": {
+    "b0_expanded": 5
+  },
+  "pair:b99f077d6601d43b": {
+    "b0_expanded": 3
+  },
+  "pair:78f86b489004b0e1": {
+    "b1": 1
+  },
+  "pair:c7859a7844634d5e": {
+    "b1": 5
+  },
+  "pair:92aef5310ad8da1a": {
+    "b1": 2
+  },
+  "pair:d1a52dff1268da70": {
+    "b0_expanded": 4
+  },
+  "pair:435e5ff7814d1dc7": {
+    "b1": 3
+  },
+  "pair:220696047f55040c": {
+    "b0_expanded": 1
+  },
+  "pair:773ceb15ba58c444": {
+    "b0_expanded": 2
+  },
+  "pair:7c9a22de6e301f6e": {
+    "b0_expanded": 3
+  },
+  "pair:62770131f3cce782": {
+    "b0_expanded": 4
+  },
+  "pair:60a56176193c854d": {
+    "b0_expanded": 5
+  },
+  "pair:e609b21f1f34f468": {
+    "b0_expanded": 1
+  },
+  "pair:052ff76a44aa9cd3": {
+    "b1": 4
+  },
+  "pair:ad04def4291fbe96": {
+    "b0_expanded": 2
+  },
+  "pair:0f88ff8e66cbc389": {
+    "b1": 1
+  },
+  "pair:eba6dd01810fa9c8": {
+    "b1": 5
+  },
+  "pair:2d29312f1d31b099": {
+    "b1": 2
+  },
+  "pair:2cb9f8ee77283e02": {
+    "b0_expanded": 3
+  },
+  "pair:109d2bc5d6a81c14": {
+    "b0_expanded": 4
+  },
+  "pair:eb955df41bd26df8": {
+    "b0_expanded": 5
+  },
+  "pair:d79f39d73c79d4a0": {
+    "b1": 3
+  },
+  "pair:7eec7cf2aa2efc85": {
+    "b0_expanded": 3
+  },
+  "pair:826a6f30d9bf4c1c": {
+    "b0_expanded": 4
+  },
+  "pair:d35027d33e45acd1": {
+    "b0_expanded": 5
+  },
+  "pair:ccfbfe62679b0293": {
+    "b1": 3
+  },
+  "pair:903e63f6913bb20e": {
+    "b1": 4
+  },
+  "pair:51f900741afaf75b": {
+    "b1": 5
+  },
+  "pair:fdcb9e5f865a76a8": {
+    "b1": 1
+  },
+  "pair:bceee93e9a3da29b": {
+    "b1": 2
+  },
+  "pair:f86684ca6098ace0": {
+    "b0_expanded": 1
+  },
+  "pair:372bb8fc29561aff": {
+    "b0_expanded": 2
+  },
+  "pair:127d462132e534ee": {
+    "b0_expanded": 1
+  },
+  "pair:bd712a9f26dac62e": {
+    "b0_expanded": 2
+  },
+  "pair:0d4b73a7723fb443": {
+    "b0_expanded": 3
+  },
+  "pair:b24764d7ec6f6009": {
+    "b0_expanded": 4
+  },
+  "pair:16e0e9c083486462": {
+    "b0_expanded": 5
+  },
+  "pair:cf7818985ff643ae": {
+    "b0_expanded": 1
+  },
+  "pair:19580aa18b7039b2": {
+    "b0_expanded": 2
+  },
+  "pair:d1cfcdec3e0016f8": {
+    "b0_expanded": 3
+  },
+  "pair:887ccdb93ae868cd": {
+    "b0_expanded": 4
+  },
+  "pair:c41d03927165f875": {
+    "b0_expanded": 5
+  },
+  "pair:a02034762657a796": {
+    "b1": 1
+  },
+  "pair:029db40aa96bebb5": {
+    "b0_expanded": 2
+  },
+  "pair:aae47bb704581859": {
+    "b1": 2
+  },
+  "pair:4a64956d1fb3a923": {
+    "b1": 3
+  },
+  "pair:07d66ecfdf3b8086": {
+    "b0_expanded": 1,
+    "b1": 1
+  },
+  "pair:489e748b05cea88c": {
+    "b0_expanded": 3
+  },
+  "pair:ed489ac3ee12d729": {
+    "b0_expanded": 4
+  },
+  "pair:bf3c9dbbdc7829b7": {
+    "b0_expanded": 5
+  },
+  "pair:978d2e6f60dad468": {
+    "b1": 4
+  },
+  "pair:ba6ce887ba7eb538": {
+    "b1": 5
+  },
+  "pair:99336b53a7d52410": {
+    "b0_expanded": 2
+  },
+  "pair:255b854612487276": {
+    "b1": 1
+  },
+  "pair:43d18d3cef45e454": {
+    "b0_expanded": 3,
+    "b1": 5
+  },
+  "pair:60bf772d7a776674": {
+    "b0_expanded": 4
+  },
+  "pair:c17d1baa2342e986": {
+    "b0_expanded": 5
+  },
+  "pair:4473b85177d49931": {
+    "b1": 2
+  },
+  "pair:3eb3a97296ed67a4": {
+    "b1": 3
+  },
+  "pair:4bab4c5f5907777d": {
+    "b0_expanded": 1
+  },
+  "pair:c38104dad3ee7db2": {
+    "b1": 4
+  },
+  "pair:7675f82fe1127128": {
+    "b0_expanded": 1
+  },
+  "pair:80bb39fefdb38aac": {
+    "b0_expanded": 2
+  },
+  "pair:00b41af96151fb7c": {
+    "b1": 1
+  },
+  "pair:794460a5c25151fb": {
+    "b0_expanded": 3,
+    "b1": 5
+  },
+  "pair:d91d19ec4c164bdc": {
+    "b0_expanded": 4
+  },
+  "pair:1992c36b55a09cfa": {
+    "b0_expanded": 5
+  },
+  "pair:13209aacb109f63d": {
+    "b1": 2
+  },
+  "pair:cc0a628e77d728bd": {
+    "b1": 3
+  },
+  "pair:bac8b1124a2787d1": {
+    "b1": 4
+  },
+  "pair:3c2ce09b5a70f3b3": {
+    "b0_expanded": 1
+  },
+  "pair:18a61e30836cad2e": {
+    "b0_expanded": 2
+  },
+  "pair:437ed697a54648fe": {
+    "b0_expanded": 3
+  },
+  "pair:675e7ff7e92b692c": {
+    "b0_expanded": 4
+  },
+  "pair:ffb2ec502dd68521": {
+    "b0_expanded": 5
+  },
+  "pair:1d49d8e43970ace5": {
+    "b0_expanded": 3
+  },
+  "pair:0380544e2e600f9d": {
+    "b0_expanded": 1
+  },
+  "pair:4c998f610ba17e80": {
+    "b0_expanded": 4
+  },
+  "pair:34d0ca34e5382e51": {
+    "b0_expanded": 5
+  },
+  "pair:149d8e65e14b0cc0": {
+    "b0_expanded": 2
+  },
+  "pair:39a2f84b4fd0219b": {
+    "b0_expanded": 1
+  },
+  "pair:c688c74909e2edf7": {
+    "b0_expanded": 3
+  },
+  "pair:f5c2fdc1c24a4c28": {
+    "b0_expanded": 4
+  },
+  "pair:4f1bf7f025c8c70c": {
+    "b0_expanded": 2
+  },
+  "pair:7eff4cc8b4efa77b": {
+    "b0_expanded": 5
+  },
+  "pair:82b0cc20b03dd8fe": {
+    "b0_expanded": 3
+  },
+  "pair:67cabeff2a339039": {
+    "b0_expanded": 4
+  },
+  "pair:f3f00a7ba7298705": {
+    "b0_expanded": 5
+  },
+  "pair:757d60bbf586443a": {
+    "b1": 1
+  },
+  "pair:1de08805a399fc1f": {
+    "b1": 2
+  },
+  "pair:c4ea64a512cd3ded": {
+    "b1": 3
+  },
+  "pair:ee1bcbe6902caed6": {
+    "b1": 4
+  },
+  "pair:ae9b59b838f89cae": {
+    "b0_expanded": 1
+  },
+  "pair:7baf1616a126b3ce": {
+    "b0_expanded": 2
+  },
+  "pair:ad79337d97182cdd": {
+    "b1": 5
+  },
+  "pair:06946ab9b2e7aed3": {
+    "b0_expanded": 2
+  },
+  "pair:4d7f9dc3e948b90a": {
+    "b0_expanded": 3
+  },
+  "pair:771a9927d4ed5639": {
+    "b0_expanded": 1
+  },
+  "pair:61465dc28deb454e": {
+    "b0_expanded": 4
+  },
+  "pair:8337c20a37ef8928": {
+    "b0_expanded": 5
+  },
+  "pair:34e88b080aa3603c": {
+    "b0_expanded": 2
+  },
+  "pair:759ee4c4324fe529": {
+    "b0_expanded": 1
+  },
+  "pair:c693c402207f9a1a": {
+    "b0_expanded": 3
+  },
+  "pair:6ba8cb2b7f8eb610": {
+    "b0_expanded": 4
+  },
+  "pair:2af29c64edc734f3": {
+    "b0_expanded": 5
+  },
+  "pair:e56deeb36558c0a3": {
+    "b0_expanded": 1
+  },
+  "pair:1735d9137fb154ce": {
+    "b0_expanded": 3
+  },
+  "pair:fbf679048353f0a4": {
+    "b1": 1
+  },
+  "pair:2fc3bef3e49fed74": {
+    "b1": 2
+  },
+  "pair:c8b9633c8a478015": {
+    "b1": 5
+  },
+  "pair:8aa556980d9d4226": {
+    "b1": 3
+  },
+  "pair:bb26570df21a75f7": {
+    "b1": 4
+  },
+  "pair:04d598c94f34a396": {
+    "b0_expanded": 4
+  },
+  "pair:e9786d3fe2caa6a5": {
+    "b0_expanded": 2
+  },
+  "pair:9f0b7b9b40cf4af3": {
+    "b0_expanded": 5
+  },
+  "pair:ea38b9364b075ca0": {
+    "b0_expanded": 5
+  },
+  "pair:3864ad557b06445d": {
+    "b0_expanded": 1
+  },
+  "pair:42c09e562127bb8a": {
+    "b1": 2
+  },
+  "pair:6618fba64a1a0392": {
+    "b1": 5
+  },
+  "pair:f5af9a08767d5d06": {
+    "b0_expanded": 2,
+    "b1": 1
+  },
+  "pair:93c2e2d33fb4b742": {
+    "b0_expanded": 3
+  },
+  "pair:65094b71b582ff4c": {
+    "b0_expanded": 4
+  },
+  "pair:b1803d6bd91c2c0d": {
+    "b1": 3
+  },
+  "pair:1849f567fd9d7223": {
+    "b1": 4
+  },
+  "pair:abe235ae7ce83eeb": {
+    "b0_expanded": 3
+  },
+  "pair:327287f600a5f7d3": {
+    "b0_expanded": 4
+  },
+  "pair:589604b36aca8d13": {
+    "b0_expanded": 5
+  },
+  "pair:e8a47efc0884de4b": {
+    "b0_expanded": 1
+  },
+  "pair:8c9ef4676ca7b254": {
+    "b0_expanded": 2
+  },
+  "pair:7203d7fbb70f72b1": {
+    "b0_expanded": 1
+  },
+  "pair:4f4b49ce4df353f9": {
+    "b0_expanded": 2
+  },
+  "pair:257e07301678c318": {
+    "b0_expanded": 3
+  },
+  "pair:a783551ca20cd90e": {
+    "b0_expanded": 4
+  },
+  "pair:840e2146f401e55f": {
+    "b0_expanded": 5
+  },
+  "pair:ab0f05c499d5ba6b": {
+    "b0_expanded": 1
+  },
+  "pair:0eac8c2610b3b228": {
+    "b0_expanded": 2,
+    "b1": 1
+  },
+  "pair:d7e58ee66fbe5d48": {
+    "b0_expanded": 3
+  },
+  "pair:1372137928aea2ab": {
+    "b0_expanded": 4,
+    "b1": 5
+  },
+  "pair:eb77e25e19beb4d0": {
+    "b0_expanded": 5
+  },
+  "pair:7950154ff4dd0842": {
+    "b1": 2
+  },
+  "pair:b20435f9611aae27": {
+    "b1": 3
+  },
+  "pair:f378ae6879017b9e": {
+    "b1": 4
+  },
+  "pair:e0185747add0f503": {
+    "b1": 2
+  },
+  "pair:ecded2f590f7d59e": {
+    "b1": 3
+  },
+  "pair:d1007371676cd675": {
+    "b0_expanded": 1,
+    "b1": 1
+  },
+  "pair:14035de6071cc7b2": {
+    "b0_expanded": 3
+  },
+  "pair:d1695f094384928a": {
+    "b0_expanded": 4
+  },
+  "pair:f5327b46e3bfd5ff": {
+    "b0_expanded": 5
+  },
+  "pair:bf28bdc164af8027": {
+    "b1": 4
+  },
+  "pair:9087c5e9e64d5686": {
+    "b0_expanded": 2,
+    "b1": 5
+  },
+  "pair:0e215c0a703db05e": {
+    "b0_expanded": 2
+  },
+  "pair:7a6a72638e496602": {
+    "b0_expanded": 1
+  },
+  "pair:0026116ba68cd05e": {
+    "b0_expanded": 3
+  },
+  "pair:555c72408dae357e": {
+    "b0_expanded": 5
+  },
+  "pair:737d69d000cbaa8e": {
+    "b0_expanded": 4
+  },
+  "pair:e23ee6bf21945517": {
+    "b0_expanded": 5
+  },
+  "pair:d2645b1a49f9a316": {
+    "b1": 2
+  },
+  "pair:dbb9e92b70e9683c": {
+    "b1": 3
+  },
+  "pair:6e77984ba7c8d47c": {
+    "b1": 4
+  },
+  "pair:46b977dc22c67a35": {
+    "b0_expanded": 3,
+    "b1": 5
+  },
+  "pair:b9965ac493933d37": {
+    "b0_expanded": 4
+  },
+  "pair:c8803053fdf8e2a7": {
+    "b0_expanded": 1
+  },
+  "pair:dbb98d848007303c": {
+    "b1": 1
+  },
+  "pair:576013cd29b1ebf7": {
+    "b0_expanded": 2
+  },
+  "pair:9863dfde9b2121d2": {
+    "b0_expanded": 1
+  },
+  "pair:831f063fb8443cf4": {
+    "b0_expanded": 2
+  },
+  "pair:970d36215ef3f5b4": {
+    "b0_expanded": 3
+  },
+  "pair:1c6a43f836eff1c2": {
+    "b0_expanded": 4
+  },
+  "pair:c1fe2f408e357c0a": {
+    "b0_expanded": 5
+  },
+  "pair:b75b2d37ab1fef16": {
+    "b0_expanded": 4
+  },
+  "pair:e92b2190be2103fb": {
+    "b0_expanded": 1
+  },
+  "pair:b72919826dcd1592": {
+    "b0_expanded": 5
+  },
+  "pair:73604ff3f34b1c0c": {
+    "b0_expanded": 2
+  },
+  "pair:55f09bfe9a3e0221": {
+    "b0_expanded": 3
+  },
+  "pair:921e545dec3a7ab5": {
+    "b0_expanded": 2
+  },
+  "pair:8ad1c1bea960fcee": {
+    "b1": 4
+  },
+  "pair:ff27ec4e36030e04": {
+    "b0_expanded": 3
+  },
+  "pair:e2a92938f32b0671": {
+    "b1": 5
+  },
+  "pair:900253c1d30a957d": {
+    "b0_expanded": 1,
+    "b1": 1
+  },
+  "pair:4f9852119915f95a": {
+    "b0_expanded": 4
+  },
+  "pair:0d4d35aae492a688": {
+    "b0_expanded": 5
+  },
+  "pair:895c309969963aa1": {
+    "b1": 2
+  },
+  "pair:775b257ccfc270c9": {
+    "b1": 3
+  },
+  "pair:77a0f243c0b8f78d": {
+    "b0_expanded": 1
+  },
+  "pair:7cd7d03486fd7f4c": {
+    "b0_expanded": 2
+  },
+  "pair:6719ba7405f57cce": {
+    "b0_expanded": 3
+  },
+  "pair:e099018610e3a456": {
+    "b0_expanded": 4
+  },
+  "pair:f7944120d3d7599e": {
+    "b0_expanded": 5
+  },
+  "pair:059649d783d0f3a6": {
+    "b0_expanded": 5
+  },
+  "pair:d3727f7895ab009c": {
+    "b0_expanded": 1
+  },
+  "pair:6d5590237639f58c": {
+    "b0_expanded": 2
+  },
+  "pair:f34692ff6ef14229": {
+    "b0_expanded": 3
+  },
+  "pair:067debbdfed3b532": {
+    "b0_expanded": 4
+  },
+  "pair:c5f04493b4a30e48": {
+    "b0_expanded": 3
+  },
+  "pair:e9048540e6936fbd": {
+    "b0_expanded": 1
+  },
+  "pair:4bc270f1cb4ebfac": {
+    "b0_expanded": 4
+  },
+  "pair:5665a6628e1b4104": {
+    "b0_expanded": 5
+  },
+  "pair:895c0ba1cb3982f9": {
+    "b0_expanded": 2
+  },
+  "pair:5b149c985c935c43": {
+    "b0_expanded": 4
+  },
+  "pair:efcdbff038b46660": {
+    "b0_expanded": 5
+  },
+  "pair:a4e28ec434401fc8": {
+    "b0_expanded": 1
+  },
+  "pair:0f43ff42d8884bc3": {
+    "b0_expanded": 2
+  },
+  "pair:2538dba88c70571b": {
+    "b0_expanded": 3
+  },
+  "pair:81468a7dd5f8049d": {
+    "b0_expanded": 1
+  },
+  "pair:685513953ec66089": {
+    "b0_expanded": 2
+  },
+  "pair:a094ce6c5e4673c0": {
+    "b0_expanded": 3
+  },
+  "pair:4e5783dea1a76b3f": {
+    "b0_expanded": 4
+  },
+  "pair:034e60068cc237fc": {
+    "b0_expanded": 5
+  },
+  "pair:3140c76ff693ff58": {
+    "b0_expanded": 2
+  },
+  "pair:88fe742eed1c656a": {
+    "b0_expanded": 3
+  },
+  "pair:11db28ede10fbf88": {
+    "b0_expanded": 4
+  },
+  "pair:0679f1c0bb8c7c80": {
+    "b0_expanded": 5
+  },
+  "pair:30b7e56292ebac94": {
+    "b0_expanded": 1
+  },
+  "pair:78a5d7bbe5f8e893": {
+    "b0_expanded": 1
+  },
+  "pair:8e45c42ab23ebb1a": {
+    "b0_expanded": 2
+  },
+  "pair:271676cdf1488449": {
+    "b0_expanded": 3
+  },
+  "pair:34bec640efc2ddcd": {
+    "b0_expanded": 4
+  },
+  "pair:aa82d4b6702a26ac": {
+    "b0_expanded": 5
+  },
+  "pair:733f72cddc33347e": {
+    "b1": 1
+  },
+  "pair:8cb9acf5c0a4f474": {
+    "b0_expanded": 1
+  },
+  "pair:34d4820d0c1c7f31": {
+    "b1": 2
+  },
+  "pair:a19c2ddae50255fb": {
+    "b1": 3
+  },
+  "pair:907b220d3b331065": {
+    "b0_expanded": 3
+  },
+  "pair:c7e3626618e24494": {
+    "b1": 4
+  },
+  "pair:512e1da09e796f37": {
+    "b1": 5
+  },
+  "pair:30090d2959f5ab60": {
+    "b0_expanded": 4
+  },
+  "pair:cea5048228a88812": {
+    "b0_expanded": 5
+  },
+  "pair:9458cb52edc0fc9f": {
+    "b0_expanded": 2
+  },
+  "pair:8908d1def5e64aaf": {
+    "b1": 2
+  },
+  "pair:785effa90d9f4da1": {
+    "b0_expanded": 1
+  },
+  "pair:39f538bd09e4cc0b": {
+    "b0_expanded": 2
+  },
+  "pair:cd67f0be6d037b33": {
+    "b0_expanded": 4
+  },
+  "pair:d1d306926d186de8": {
+    "b1": 3
+  },
+  "pair:7b6b6e79190091b4": {
+    "b1": 1
+  },
+  "pair:86a79dd8b0b3e8dd": {
+    "b1": 4
+  },
+  "pair:d8099a3b3ddae354": {
+    "b1": 5
+  },
+  "pair:9eae0cf0b22aab34": {
+    "b0_expanded": 5
+  },
+  "pair:988bf5507eee72c2": {
+    "b0_expanded": 3
+  },
+  "pair:f06d894426703110": {
+    "b0_expanded": 3
+  },
+  "pair:a46b2101d4228ab6": {
+    "b0_expanded": 4
+  },
+  "pair:8bd295c43e51fbc7": {
+    "b0_expanded": 1
+  },
+  "pair:4dedcf9f6de17c87": {
+    "b0_expanded": 2
+  },
+  "pair:34705b1bc3fcae8f": {
+    "b0_expanded": 5
+  },
+  "pair:53c930309c386fef": {
+    "b0_expanded": 5
+  },
+  "pair:628b2d616423fe72": {
+    "b0_expanded": 1
+  },
+  "pair:4600e97796a20f53": {
+    "b0_expanded": 2
+  },
+  "pair:99319ac434a4ae05": {
+    "b0_expanded": 3
+  },
+  "pair:c8a2e518c87cd968": {
+    "b0_expanded": 4
+  },
+  "pair:40b2802996ae2d00": {
+    "b0_expanded": 1
+  },
+  "pair:21b4da9f0fd624b3": {
+    "b0_expanded": 5
+  },
+  "pair:3d82b3c9c341ad33": {
+    "b0_expanded": 2
+  },
+  "pair:25c85335f6496934": {
+    "b0_expanded": 3
+  },
+  "pair:69de685173cd6642": {
+    "b0_expanded": 4
+  },
+  "pair:bd26b9e9c1c35c8d": {
+    "b0_expanded": 1,
+    "b1": 4
+  },
+  "pair:165d515dd94bcc23": {
+    "b1": 1
+  },
+  "pair:231198874a545385": {
+    "b1": 2
+  },
+  "pair:7f77739c705aa6cf": {
+    "b0_expanded": 2,
+    "b1": 5
+  },
+  "pair:a559432030802f4f": {
+    "b0_expanded": 3
+  },
+  "pair:1b6a5294d52da6ff": {
+    "b0_expanded": 4
+  },
+  "pair:bb8d2a5e868a4578": {
+    "b1": 3
+  },
+  "pair:3db303516260ae97": {
+    "b0_expanded": 5
+  },
+  "pair:747c384685dc0927": {
+    "b0_expanded": 2
+  },
+  "pair:56c8cba051be7139": {
+    "b0_expanded": 3
+  },
+  "pair:5581d9fdaad32131": {
+    "b0_expanded": 4
+  },
+  "pair:2eec2e54ac45ff96": {
+    "b0_expanded": 5
+  },
+  "pair:b8cfb851642b2e0b": {
+    "b0_expanded": 1
+  },
+  "pair:7a3c98db5db50b98": {
+    "b0_expanded": 4
+  },
+  "pair:e6fd6a844cde9cd0": {
+    "b0_expanded": 5
+  },
+  "pair:513287d44ad1d760": {
+    "b1": 1
+  },
+  "pair:d54bf2387cf05e38": {
+    "b0_expanded": 1
+  },
+  "pair:c373c428a8def199": {
+    "b1": 2
+  },
+  "pair:ac0f4a17fe85feb2": {
+    "b1": 3
+  },
+  "pair:05bf6c239da7bb98": {
+    "b1": 4
+  },
+  "pair:83e83892a6de27df": {
+    "b0_expanded": 2
+  },
+  "pair:fbdd7f4bc3dec7a1": {
+    "b0_expanded": 3
+  },
+  "pair:521b657ec92d6948": {
+    "b1": 5
+  },
+  "pair:c308baad887caf8a": {
+    "b1": 1
+  },
+  "pair:11e65a4f292ad890": {
+    "b0_expanded": 2
+  },
+  "pair:f51cd8dc2eea21fe": {
+    "b0_expanded": 3
+  },
+  "pair:c6bb942c2c639a83": {
+    "b0_expanded": 4
+  },
+  "pair:a5d8687fbd83353c": {
+    "b0_expanded": 5
+  },
+  "pair:b5ef2b8537959e4e": {
+    "b1": 5
+  },
+  "pair:afcd82db28de6914": {
+    "b1": 2
+  },
+  "pair:975aab533b835065": {
+    "b1": 3
+  },
+  "pair:eb74b9b49f4c664d": {
+    "b1": 4
+  },
+  "pair:a5e67fdba97910af": {
+    "b0_expanded": 1
+  },
+  "pair:955636789f54b7eb": {
+    "b0_expanded": 1
+  },
+  "pair:762bfe690a9a944a": {
+    "b0_expanded": 2
+  },
+  "pair:b3ce67912930a0fc": {
+    "b0_expanded": 3
+  },
+  "pair:7ccd8c192d2f965f": {
+    "b0_expanded": 4
+  },
+  "pair:bd3d93120c32b2ca": {
+    "b0_expanded": 5
+  },
+  "pair:4d1c06fe79733fc6": {
+    "b0_expanded": 2
+  },
+  "pair:b81e380be255ad6c": {
+    "b0_expanded": 5
+  },
+  "pair:06c4d8ddff682714": {
+    "b0_expanded": 1
+  },
+  "pair:06fd0b24f3dd9c21": {
+    "b0_expanded": 3
+  },
+  "pair:5499f314283b77ad": {
+    "b0_expanded": 4
+  },
+  "pair:bb3e846692898168": {
+    "b0_expanded": 1
+  },
+  "pair:06f3782dbd00e5ff": {
+    "b0_expanded": 2
+  },
+  "pair:fb5d0e58475189cb": {
+    "b0_expanded": 4
+  },
+  "pair:de225e0392398405": {
+    "b0_expanded": 5
+  },
+  "pair:b01ff847e1769228": {
+    "b1": 2
+  },
+  "pair:5d14cd596fdd8e3a": {
+    "b1": 3
+  },
+  "pair:ed0c1b194098dede": {
+    "b1": 4
+  },
+  "pair:d1a6dd2e80a1dffe": {
+    "b1": 5
+  },
+  "pair:6408a02d44b413e5": {
+    "b1": 1
+  },
+  "pair:14c494d8cd6882f8": {
+    "b0_expanded": 3
+  },
+  "pair:81cdfad76b6d2b53": {
+    "b0_expanded": 2
+  },
+  "pair:c448b7fe13df8a32": {
+    "b0_expanded": 3
+  },
+  "pair:587a669e03ef9bed": {
+    "b0_expanded": 4
+  },
+  "pair:117ea56f81196205": {
+    "b0_expanded": 5
+  },
+  "pair:b538c8be20e00e7f": {
+    "b0_expanded": 1
+  },
+  "pair:fbf3f858b87229b6": {
+    "b0_expanded": 3
+  },
+  "pair:590778f68a8c1b18": {
+    "b0_expanded": 4
+  },
+  "pair:a66baa5a7108792b": {
+    "b0_expanded": 1
+  },
+  "pair:e3b9d6aa8d58038a": {
+    "b1": 2
+  },
+  "pair:d4b870c894a4ed63": {
+    "b0_expanded": 2,
+    "b1": 3
+  },
+  "pair:961aa5a189930cd1": {
+    "b0_expanded": 5
+  },
+  "pair:fc6a2cd2914d52a2": {
+    "b1": 1
+  },
+  "pair:fdab0dc2c6e4a1b5": {
+    "b1": 4
+  },
+  "pair:81619ff0a80b31cc": {
+    "b1": 5
+  },
+  "pair:d0a9e96f5d7b1323": {
+    "b0_expanded": 3
+  },
+  "pair:bac004bc06c08ee9": {
+    "b0_expanded": 2
+  },
+  "pair:ae6b17f0d8a2c18f": {
+    "b0_expanded": 1
+  },
+  "pair:5c7e4a224168bf05": {
+    "b0_expanded": 4
+  },
+  "pair:2940f6e49e39d9a0": {
+    "b0_expanded": 5
+  },
+  "pair:54e012741f056ffe": {
+    "b0_expanded": 1
+  },
+  "pair:0f5bd854faf4966b": {
+    "b0_expanded": 2
+  },
+  "pair:56a71c9e89761984": {
+    "b0_expanded": 3
+  },
+  "pair:bcf62fbdb59ec9e1": {
+    "b0_expanded": 4
+  },
+  "pair:45a9f8a66059065a": {
+    "b0_expanded": 5
+  },
+  "pair:ca1dcfd69951a752": {
+    "b1": 4
+  },
+  "pair:ec140532a21a7fcd": {
+    "b0_expanded": 2
+  },
+  "pair:18f486cd2067e4fc": {
+    "b1": 5
+  },
+  "pair:2aa2bfd0aebc5d10": {
+    "b0_expanded": 3,
+    "b1": 1
+  },
+  "pair:0c390d30c8b1dbbc": {
+    "b0_expanded": 4
+  },
+  "pair:d4e29452e09bc0d3": {
+    "b0_expanded": 1
+  },
+  "pair:82a39316bcca6a5e": {
+    "b0_expanded": 5
+  },
+  "pair:66f77dc8587b66cd": {
+    "b1": 2
+  },
+  "pair:2fd73394b6b2dd61": {
+    "b1": 3
+  },
+  "pair:86e78292317b8362": {
+    "b0_expanded": 1,
+    "b1": 2
+  },
+  "pair:4f0e41bdecf9affa": {
+    "b0_expanded": 2
+  },
+  "pair:e91267f862ae5be1": {
+    "b0_expanded": 3
+  },
+  "pair:2d65d9e871106362": {
+    "b0_expanded": 4,
+    "b1": 1
+  },
+  "pair:d0bae45011294311": {
+    "b0_expanded": 5
+  },
+  "pair:8a702f1c20a6c473": {
+    "b0_expanded": 1
+  },
+  "pair:d6a75a8866f92a3d": {
+    "b0_expanded": 3
+  },
+  "pair:098bf8f422f90d49": {
+    "b0_expanded": 2
+  },
+  "pair:32f99934c8c8741f": {
+    "b0_expanded": 5
+  },
+  "pair:43ccedc97e57e71b": {
+    "b0_expanded": 4
+  },
+  "pair:c203d15dc00a5ec3": {
+    "b0_expanded": 1
+  },
+  "pair:62adc2e51a5ddd36": {
+    "b0_expanded": 2
+  },
+  "pair:495fe0f45f6f80da": {
+    "b0_expanded": 3
+  },
+  "pair:d1aef400d41bae25": {
+    "b0_expanded": 4
+  },
+  "pair:a3d1e007a01861a1": {
+    "b0_expanded": 5
+  },
+  "pair:79ed42197b56526a": {
+    "b0_expanded": 1
+  },
+  "pair:7155cfdd0e4eda42": {
+    "b0_expanded": 3
+  },
+  "pair:ba40e95e461ac703": {
+    "b0_expanded": 4
+  },
+  "pair:583cd722aa8b4ad4": {
+    "b0_expanded": 5
+  },
+  "pair:2496076e47c7a699": {
+    "b0_expanded": 2
+  },
+  "pair:435c80355aec8f6b": {
+    "b0_expanded": 2
+  },
+  "pair:43b5278932c152e4": {
+    "b1": 3
+  },
+  "pair:bfa986c52d3780e6": {
+    "b1": 4
+  },
+  "pair:92c6e7f28f9b72cb": {
+    "b0_expanded": 3
+  },
+  "pair:eb478f294a987b6e": {
+    "b0_expanded": 4
+  },
+  "pair:1d769ed7e22536c3": {
+    "b1": 5
+  },
+  "pair:7188963fd34d268f": {
+    "b1": 1
+  },
+  "pair:d35c6c90e03c12f8": {
+    "b1": 2
+  },
+  "pair:3df27eb7ea97b5c7": {
+    "b0_expanded": 5
+  },
+  "pair:31ba9819f9e1206c": {
+    "b0_expanded": 1
+  },
+  "pair:82e1c6975ea04f23": {
+    "b0_expanded": 1
+  },
+  "pair:a8788daae7f806ea": {
+    "b0_expanded": 5
+  },
+  "pair:b02c154b2e3a9ae8": {
+    "b0_expanded": 2
+  },
+  "pair:a8a3d433c6e6d74c": {
+    "b0_expanded": 3
+  },
+  "pair:f6f4c9d69a513096": {
+    "b0_expanded": 4
+  },
+  "pair:6c64478c6319ff03": {
+    "b0_expanded": 2
+  },
+  "pair:a5f4b5b8d00e2d33": {
+    "b0_expanded": 1
+  },
+  "pair:74e4002b468b1cd5": {
+    "b0_expanded": 3
+  },
+  "pair:e7f7c0bb4f2aac29": {
+    "b0_expanded": 4
+  },
+  "pair:c5665b55b61e79b8": {
+    "b0_expanded": 5
+  },
+  "pair:37fcb42b409323bb": {
+    "b0_expanded": 2
+  },
+  "pair:ac763380c4c875f7": {
+    "b0_expanded": 3
+  },
+  "pair:19d59f276bee694e": {
+    "b0_expanded": 4
+  },
+  "pair:e71b5c2139f7e176": {
+    "b0_expanded": 5
+  },
+  "pair:f456d324d587eeb7": {
+    "b0_expanded": 1
+  },
+  "pair:0fe96e25181cb490": {
+    "b0_expanded": 1
+  },
+  "pair:52d5952c165299e0": {
+    "b0_expanded": 2
+  },
+  "pair:863f8b9effd72bfd": {
+    "b0_expanded": 3
+  },
+  "pair:685cdc66eb6d9f7a": {
+    "b0_expanded": 4
+  },
+  "pair:3fa005ac6d5bb748": {
+    "b0_expanded": 5
+  },
+  "pair:0170c5242e3fe174": {
+    "b0_expanded": 3
+  },
+  "pair:a4cfe0a591924dea": {
+    "b0_expanded": 4
+  },
+  "pair:b0f779479e2537aa": {
+    "b0_expanded": 5
+  },
+  "pair:1945af73eef2b5f9": {
+    "b0_expanded": 1
+  },
+  "pair:39995403a3a48c7a": {
+    "b0_expanded": 2
+  },
+  "pair:43b8286f422595a8": {
+    "b0_expanded": 5,
+    "b1": 5
+  },
+  "pair:ce05bd66b3453455": {
+    "b1": 2
+  },
+  "pair:9f471f69e3fb6e29": {
+    "b0_expanded": 1
+  },
+  "pair:07146563559691e1": {
+    "b1": 3
+  },
+  "pair:a12942ebbeae83fc": {
+    "b0_expanded": 2
+  },
+  "pair:ddfe3f7919cc59fc": {
+    "b0_expanded": 3,
+    "b1": 1
+  },
+  "pair:723c13b69968e76d": {
+    "b0_expanded": 4
+  },
+  "pair:916d7eb05acf09cc": {
+    "b1": 4
+  },
+  "pair:74d93a1f08ce0e8f": {
+    "b0_expanded": 1
+  },
+  "pair:ba80f7de91d9bd78": {
+    "b0_expanded": 2
+  },
+  "pair:ba51015a01362eb1": {
+    "b0_expanded": 3
+  },
+  "pair:935a45d8f190075e": {
+    "b0_expanded": 4
+  },
+  "pair:1f84a1e285233170": {
+    "b0_expanded": 5
+  },
+  "pair:4c76b0d756a0ac7f": {
+    "b0_expanded": 4
+  },
+  "pair:7eb4cfb5a36290dd": {
+    "b0_expanded": 5
+  },
+  "pair:a3cc77968d9cb7ac": {
+    "b0_expanded": 1
+  },
+  "pair:227e7ba43e5c9d8d": {
+    "b0_expanded": 2
+  },
+  "pair:ca7ebd10a3166ec9": {
+    "b0_expanded": 3
+  },
+  "pair:d9d1f83901c7afb7": {
+    "b0_expanded": 1
+  },
+  "pair:b6b7ff625d1017cd": {
+    "b0_expanded": 2
+  },
+  "pair:4c1bd65827a05d65": {
+    "b0_expanded": 3
+  },
+  "pair:58087036831e48e3": {
+    "b0_expanded": 4
+  },
+  "pair:8fe6ed4475271464": {
+    "b0_expanded": 5
+  },
+  "pair:d3ae6f3bbc881dbe": {
+    "b0_expanded": 2
+  },
+  "pair:df40f94d4410298f": {
+    "b0_expanded": 3
+  },
+  "pair:41575c5b8d2b56e9": {
+    "b1": 4
+  },
+  "pair:eb2485e65da38f2b": {
+    "b0_expanded": 4
+  },
+  "pair:01a163e50f1610bb": {
+    "b0_expanded": 5
+  },
+  "pair:ec39b292f585ad61": {
+    "b1": 1
+  },
+  "pair:35b1699fa0cb026b": {
+    "b1": 5
+  },
+  "pair:e030e23f96813a62": {
+    "b1": 2
+  },
+  "pair:b0fcfcb0e1398894": {
+    "b0_expanded": 1
+  },
+  "pair:0a5eaabbf4edf661": {
+    "b1": 3
+  },
+  "pair:34aa643c010cacf0": {
+    "b0_expanded": 5
+  },
+  "pair:735bf2b96dff278f": {
+    "b0_expanded": 2
+  },
+  "pair:b0cfaaf65d2a5764": {
+    "b0_expanded": 3
+  },
+  "pair:9b6b71d381a8f833": {
+    "b0_expanded": 1
+  },
+  "pair:6b992a711b4e24c4": {
+    "b0_expanded": 4
+  },
+  "pair:c4ddaaf6292f1749": {
+    "b0_expanded": 1
+  },
+  "pair:83312a1b579ced1b": {
+    "b0_expanded": 4
+  },
+  "pair:006e89164082750a": {
+    "b0_expanded": 2
+  },
+  "pair:63b916d77e0be322": {
+    "b0_expanded": 5
+  },
+  "pair:c91c39cc890c3677": {
+    "b0_expanded": 3
+  },
+  "pair:09f1f003be128724": {
+    "b0_expanded": 1
+  },
+  "pair:56c7b2369de6203c": {
+    "b0_expanded": 2
+  },
+  "pair:640b1904a2cb31c1": {
+    "b0_expanded": 3
+  },
+  "pair:3f7c4bc786c8e914": {
+    "b0_expanded": 4
+  },
+  "pair:26bff58b453c62a1": {
+    "b0_expanded": 5
+  },
+  "pair:5643f32b22debe90": {
+    "b0_expanded": 3,
+    "b1": 4
+  },
+  "pair:d661d8bdab874e66": {
+    "b0_expanded": 4
+  },
+  "pair:ceb7297656853992": {
+    "b1": 1
+  },
+  "pair:e6fb86ed5b718422": {
+    "b1": 2
+  },
+  "pair:e8df2da5b9067f79": {
+    "b0_expanded": 5,
+    "b1": 5
+  },
+  "pair:e32b1597fdb2b2c2": {
+    "b0_expanded": 1
+  },
+  "pair:dd0695668a026998": {
+    "b0_expanded": 2
+  },
+  "pair:c3425ac9fff785e3": {
+    "b1": 3
+  },
+  "pair:8f9cfdc8f78e540c": {
+    "b0_expanded": 1,
+    "b1": 5
+  },
+  "pair:6862736162d474c7": {
+    "b0_expanded": 2
+  },
+  "pair:e972cd9cf6881cf8": {
+    "b0_expanded": 3,
+    "b1": 1
+  },
+  "pair:3815a9069511f109": {
+    "b0_expanded": 4
+  },
+  "pair:3d672cbc51de628b": {
+    "b0_expanded": 5
+  },
+  "pair:5738eea3d5341374": {
+    "b1": 2
+  },
+  "pair:35304cf4aa4d2d54": {
+    "b1": 3
+  },
+  "pair:1ebb27768b48953d": {
+    "b1": 4
+  },
+  "pair:90bfdc64c1592935": {
+    "b0_expanded": 5
+  },
+  "pair:31d979260842d193": {
+    "b1": 4
+  },
+  "pair:d0c58cf87a357ae3": {
+    "b1": 1
+  },
+  "pair:e9ad55e70a7423f5": {
+    "b1": 5
+  },
+  "pair:90f9594c722ab1ce": {
+    "b1": 2
+  },
+  "pair:15fc01c002412765": {
+    "b0_expanded": 2
+  },
+  "pair:eb1f132eac3f8d92": {
+    "b0_expanded": 1
+  },
+  "pair:b2c1ba9bdf8d2aca": {
+    "b0_expanded": 3
+  },
+  "pair:666858584e41f097": {
+    "b1": 3
+  },
+  "pair:2020ea70307e04ec": {
+    "b0_expanded": 4
+  },
+  "pair:dbe80ae507061f5b": {
+    "b0_expanded": 1
+  },
+  "pair:efa7b24ed5a1a2f6": {
+    "b0_expanded": 3
+  },
+  "pair:d2abf8995e7965a4": {
+    "b0_expanded": 4
+  },
+  "pair:7ac486c7dec9f773": {
+    "b0_expanded": 5
+  },
+  "pair:c769443f0cb09ed8": {
+    "b1": 3
+  },
+  "pair:e602d4e46d4f3810": {
+    "b1": 5
+  },
+  "pair:9b1bac2a184c45d1": {
+    "b0_expanded": 2
+  },
+  "pair:dffff25b31f06e5b": {
+    "b1": 1
+  },
+  "pair:3dc7b3c9a2f603c5": {
+    "b1": 4
+  },
+  "pair:ded766399dbbb5f6": {
+    "b1": 2
+  },
+  "pair:d7bc294b3f63560f": {
+    "b0_expanded": 1
+  },
+  "pair:a17f5b7191acbcf6": {
+    "b0_expanded": 2
+  },
+  "pair:5ea599111f841652": {
+    "b0_expanded": 3
+  },
+  "pair:057eb5db43a4e6df": {
+    "b0_expanded": 4
+  },
+  "pair:aa4165aa1c2c68f1": {
+    "b0_expanded": 5
+  },
+  "pair:1905619a79dcee3e": {
+    "b0_expanded": 1
+  },
+  "pair:55327b625a4c1381": {
+    "b0_expanded": 2
+  },
+  "pair:1974340beacc8a68": {
+    "b0_expanded": 3
+  },
+  "pair:5e5709b6e9647082": {
+    "b0_expanded": 4
+  },
+  "pair:881d5b561d31f291": {
+    "b0_expanded": 5
+  },
+  "pair:996f9a6b69592e45": {
+    "b0_expanded": 3
+  },
+  "pair:fd82fdd0f5cd61d2": {
+    "b0_expanded": 4
+  },
+  "pair:5cce8da5723cc22a": {
+    "b1": 1
+  },
+  "pair:2e1d427278acd2b0": {
+    "b0_expanded": 1
+  },
+  "pair:8898389c44d0a488": {
+    "b0_expanded": 5,
+    "b1": 2
+  },
+  "pair:9b740bb149a49cef": {
+    "b1": 3
+  },
+  "pair:19190d2fee53dce5": {
+    "b1": 4
+  },
+  "pair:6e2b75acfa116124": {
+    "b0_expanded": 2
+  },
+  "pair:e3dd2c985dc73a87": {
+    "b1": 5
+  },
+  "pair:09a3ac960e6e1152": {
+    "b0_expanded": 1
+  },
+  "pair:51fb82b9ff4eef08": {
+    "b1": 1
+  },
+  "pair:1dcec3af7ac7f563": {
+    "b1": 2
+  },
+  "pair:963d611af7c03395": {
+    "b0_expanded": 2
+  },
+  "pair:42da01eab1c5fa85": {
+    "b1": 3
+  },
+  "pair:947906e29a1ea4c4": {
+    "b1": 4
+  },
+  "pair:dfbe48dcc720f55b": {
+    "b1": 5
+  },
+  "pair:8bdd50c653570676": {
+    "b0_expanded": 4
+  },
+  "pair:f65fc43ce5865c3f": {
+    "b0_expanded": 5
+  },
+  "pair:40d0682bea25ef5c": {
+    "b0_expanded": 3
+  },
+  "pair:e68700cb878fb192": {
+    "b0_expanded": 1
+  },
+  "pair:973a0cd52d7ec74c": {
+    "b0_expanded": 2
+  },
+  "pair:43b420bdd77981cd": {
+    "b0_expanded": 3
+  },
+  "pair:8870b5475b7389a8": {
+    "b0_expanded": 4
+  },
+  "pair:54ac272225da7d80": {
+    "b0_expanded": 5
+  },
+  "pair:704c8cffeb2e8cc3": {
+    "b0_expanded": 3
+  },
+  "pair:21e9ed0760d74ab9": {
+    "b0_expanded": 4
+  },
+  "pair:158682e1b15ee72b": {
+    "b0_expanded": 5
+  },
+  "pair:66f1753f2b26d927": {
+    "b1": 1
+  },
+  "pair:e5ba87f9a2814852": {
+    "b0_expanded": 2
+  },
+  "pair:814db905f7c7b80c": {
+    "b1": 4
+  },
+  "pair:172b766260cb7f2d": {
+    "b0_expanded": 1
+  },
+  "pair:629b8e4697b03b8a": {
+    "b1": 2
+  },
+  "pair:56873d6a528405e1": {
+    "b1": 3
+  },
+  "pair:0c88119528b0ce9a": {
+    "b1": 5
+  },
+  "pair:0b63768cfd444450": {
+    "b1": 4
+  },
+  "pair:e833b44c7f113410": {
+    "b1": 2
+  },
+  "pair:9b118bad5f084ed6": {
+    "b0_expanded": 1
+  },
+  "pair:0c182aa8b8238e9b": {
+    "b0_expanded": 2
+  },
+  "pair:8fbe37d65ecc2472": {
+    "b0_expanded": 3
+  },
+  "pair:d5a361655d8c1124": {
+    "b0_expanded": 5
+  },
+  "pair:9c7e88debb2ea17d": {
+    "b1": 3
+  },
+  "pair:3536542c7e97135f": {
+    "b1": 5
+  },
+  "pair:ed5ca4f23572c8fd": {
+    "b1": 1
+  },
+  "pair:842a2173a7742c95": {
+    "b0_expanded": 4
+  },
+  "pair:28593a09b1117972": {
+    "b0_expanded": 1
+  },
+  "pair:1186145ea2f72e5f": {
+    "b0_expanded": 3
+  },
+  "pair:fb557caa2994ed6d": {
+    "b0_expanded": 2
+  },
+  "pair:6705277b026ce811": {
+    "b0_expanded": 4
+  },
+  "pair:e930b1b917076213": {
+    "b0_expanded": 5
+  },
+  "pair:9cd79d1121b1e81f": {
+    "b0_expanded": 1,
+    "b1": 2
+  },
+  "pair:26dbeba5e2560091": {
+    "b0_expanded": 2
+  },
+  "pair:b066690ace11b41b": {
+    "b0_expanded": 3,
+    "b1": 3
+  },
+  "pair:ed4e066b9e5a4661": {
+    "b1": 4
+  },
+  "pair:61913155fe8f1a23": {
+    "b0_expanded": 4
+  },
+  "pair:93dd5d3190ec773b": {
+    "b1": 5
+  },
+  "pair:2e24ead6f1ae1b50": {
+    "b0_expanded": 5
+  },
+  "pair:50015c2a2ab46503": {
+    "b1": 1
+  },
+  "pair:21038ec9541648ce": {
+    "b0_expanded": 1
+  },
+  "pair:bc55464e636534ef": {
+    "b0_expanded": 2
+  },
+  "pair:2f6f030489295a91": {
+    "b0_expanded": 3
+  },
+  "pair:67dc3573d80ab6c7": {
+    "b0_expanded": 4
+  },
+  "pair:5d659260099bff61": {
+    "b0_expanded": 5
+  },
+  "pair:a4fe46c96402f63a": {
+    "b1": 1
+  },
+  "pair:b1ed6a92354f1c1c": {
+    "b1": 2
+  },
+  "pair:a621e0a2901423e3": {
+    "b1": 3
+  },
+  "pair:4b5926a911e50104": {
+    "b0_expanded": 3
+  },
+  "pair:10082952432b3f8b": {
+    "b1": 4
+  },
+  "pair:40b40579ffd62837": {
+    "b0_expanded": 4
+  },
+  "pair:c1f67c0799f5b353": {
+    "b0_expanded": 5
+  },
+  "pair:25fdd74eba4040fb": {
+    "b0_expanded": 2
+  },
+  "pair:10a161533fd22591": {
+    "b0_expanded": 1
+  },
+  "pair:82ced751ed5d5eb2": {
+    "b1": 5
+  },
+  "pair:49b41c301dfdc31d": {
+    "b0_expanded": 4
+  },
+  "pair:a83b23f39cfcf467": {
+    "b0_expanded": 5,
+    "b1": 3
+  },
+  "pair:52ef049e23b1203d": {
+    "b0_expanded": 1
+  },
+  "pair:0f05660dbc1dec3d": {
+    "b0_expanded": 2
+  },
+  "pair:4d75060ca94f4a0a": {
+    "b1": 5
+  },
+  "pair:8277f32bcda9428e": {
+    "b0_expanded": 3
+  },
+  "pair:28f4f3de3e1eb667": {
+    "b1": 1
+  },
+  "pair:6cb866c5448ca2fb": {
+    "b1": 4
+  },
+  "pair:5ca1d8637069979f": {
+    "b1": 2
+  },
+  "pair:c01755291ac3aaf2": {
+    "b0_expanded": 1
+  },
+  "pair:966004392fa50c26": {
+    "b0_expanded": 2
+  },
+  "pair:945b4ad0c743349b": {
+    "b0_expanded": 3
+  },
+  "pair:71e45fa0515682ff": {
+    "b0_expanded": 4
+  },
+  "pair:80cbc3f592b06b59": {
+    "b0_expanded": 5
+  },
+  "pair:d6af040311255c8e": {
+    "b0_expanded": 1
+  },
+  "pair:c99af249bf0fb88b": {
+    "b0_expanded": 2
+  },
+  "pair:3a06aacd0259415d": {
+    "b0_expanded": 3
+  },
+  "pair:ad6d2b12a1b4cc01": {
+    "b0_expanded": 4
+  },
+  "pair:6f2213bf31967d87": {
+    "b0_expanded": 5
+  },
+  "pair:8765d358054a0937": {
+    "b0_expanded": 5
+  },
+  "pair:705a4006962c196e": {
+    "b0_expanded": 1
+  },
+  "pair:766060103c1b1ab4": {
+    "b0_expanded": 2
+  },
+  "pair:c27d146bbb27882f": {
+    "b0_expanded": 3
+  },
+  "pair:841e21ba4fa4f881": {
+    "b0_expanded": 4
+  },
+  "pair:445d0474eca384ee": {
+    "b0_expanded": 2,
+    "b1": 5
+  },
+  "pair:9299ae72025cfeb9": {
+    "b0_expanded": 3
+  },
+  "pair:46248a28b613683f": {
+    "b0_expanded": 4,
+    "b1": 1
+  },
+  "pair:1826a9292341fb15": {
+    "b0_expanded": 5
+  },
+  "pair:70cfe68868156dd1": {
+    "b1": 2
+  },
+  "pair:c51dfeb64ad5c6cf": {
+    "b0_expanded": 1
+  },
+  "pair:6c727633a6cf35b4": {
+    "b1": 3
+  },
+  "pair:228eb920566bfacc": {
+    "b1": 4
+  },
+  "pair:14f9d3f1eb6613ea": {
+    "b0_expanded": 5
+  },
+  "pair:5257024ff7ee3a3e": {
+    "b0_expanded": 1
+  },
+  "pair:ee640fcae22f21d6": {
+    "b0_expanded": 2
+  },
+  "pair:3ac4954a9dad5737": {
+    "b0_expanded": 3
+  },
+  "pair:061d13408f51a3f4": {
+    "b0_expanded": 4
+  },
+  "pair:c24f7f8053055f99": {
+    "b0_expanded": 2
+  },
+  "pair:53aa77b011c220ed": {
+    "b0_expanded": 1
+  },
+  "pair:aa78cb12cf4b88ad": {
+    "b0_expanded": 3
+  },
+  "pair:ad5ef583f2e6415e": {
+    "b0_expanded": 4
+  },
+  "pair:67a5fcaba232e38d": {
+    "b0_expanded": 5
+  }
+}

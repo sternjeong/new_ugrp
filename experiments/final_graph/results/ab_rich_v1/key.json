@@ -1,0 +1,137 @@
+{
+  "ab:ba7193fd840706a2": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:00b41af96151fb7c"
+  },
+  "ab:a0b08161bbb42c5d": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:0eac8c2610b3b228"
+  },
+  "ab:60a9caf2b1d0acbe": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:147bd67c569e9f1a"
+  },
+  "ab:3d3240ee0349e103": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:255b854612487276"
+  },
+  "ab:e7ac71e8bf42e753": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:2d65d9e871106362"
+  },
+  "ab:4c0848761100dd25": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:50015c2a2ab46503"
+  },
+  "ab:a165c3254fc5389b": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:513287d44ad1d760"
+  },
+  "ab:2173b8da9f17233b": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:51fb82b9ff4eef08"
+  },
+  "ab:eb99b7911abf25f1": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:5a6bdb5448ff339d"
+  },
+  "ab:915892c216e24cac": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:5cce8da5723cc22a"
+  },
+  "ab:b65ab4a2605ec4a0": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:6411ae0512dd3e73"
+  },
+  "ab:13ce94497041cbe6": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:663460af8454dadc"
+  },
+  "ab:48b491b139e719a9": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:66f1753f2b26d927"
+  },
+  "ab:163b7a0cc14fa58e": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:7188963fd34d268f"
+  },
+  "ab:e3b915272108ccfa": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:733f72cddc33347e"
+  },
+  "ab:e0008cdf9791fd7e": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:78f86b489004b0e1"
+  },
+  "ab:3a08ec4106bb4ccf": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:7b6b6e79190091b4"
+  },
+  "ab:900d64e1241de585": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:89c6589fbf845328"
+  },
+  "ab:2cea45a9e7a5167d": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:a02034762657a796"
+  },
+  "ab:5e339a512d4a345f": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:b530d831b0cc02be"
+  },
+  "ab:7d619a370657d8c7": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:b7a526bb60c48c4c"
+  },
+  "ab:f204d38dc3f4b943": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:c308baad887caf8a"
+  },
+  "ab:f78097dee63b13ca": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:e89b02ba4897940f"
+  },
+  "ab:d27e13c99291ca26": {
+    "left": "R1",
+    "right": "R0",
+    "pair_id": "pair:ed5ca4f23572c8fd"
+  },
+  "ab:31f10a6fbd20b3d0": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:f5af9a08767d5d06"
+  },
+  "ab:5c4dc83290cec230": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:fbf679048353f0a4"
+  },
+  "ab:ea4200308bd5febc": {
+    "left": "R0",
+    "right": "R1",
+    "pair_id": "pair:fdcb9e5f865a76a8"
+  }
+}

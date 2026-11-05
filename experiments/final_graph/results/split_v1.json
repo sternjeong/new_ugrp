@@ -1,0 +1,2444 @@
+{
+  "seed": 20261014,
+  "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+  "components": 280,
+  "component_counts": {
+    "unused": 190,
+    "test": 60,
+    "dev": 30
+  },
+  "row_counts": {
+    "unused": 247,
+    "test": 78,
+    "dev": 40
+  },
+  "departments": {
+    "기계공학과": {
+      "available": 16,
+      "test": 3,
+      "dev": 2
+    },
+    "물리학과": {
+      "available": 24,
+      "test": 4,
+      "dev": 2
+    },
+    "반도체공학과": {
+      "available": 6,
+      "test": 2,
+      "dev": 1
+    },
+    "산업경영공학과": {
+      "available": 19,
+      "test": 3,
+      "dev": 2
+    },
+    "생명과학과": {
+      "available": 20,
+      "test": 4,
+      "dev": 2
+    },
+    "수학과": {
+      "available": 20,
+      "test": 4,
+      "dev": 2
+    },
+    "신소재공학과": {
+      "available": 14,
+      "test": 3,
+      "dev": 2
+    },
+    "의공학과": {
+      "available": 9,
+      "test": 3,
+      "dev": 1
+    },
+    "의과학전공": {
+      "available": 2,
+      "test": 2,
+      "dev": 0
+    },
+    "인공지능대학원": {
+      "available": 15,
+      "test": 3,
+      "dev": 2
+    },
+    "인문사회과학부": {
+      "available": 11,
+      "test": 3,
+      "dev": 1
+    },
+    "전자전기공학과": {
+      "available": 35,
+      "test": 5,
+      "dev": 3
+    },
+    "첨단원자력공학부": {
+      "available": 9,
+      "test": 3,
+      "dev": 1
+    },
+    "첨단재료과학부": {
+      "available": 1,
+      "test": 1,
+      "dev": 0
+    },
+    "친환경소재대학원 배터리공학과": {
+      "available": 4,
+      "test": 2,
+      "dev": 1
+    },
+    "친환경소재대학원 친환경소재학과": {
+      "available": 8,
+      "test": 2,
+      "dev": 1
+    },
+    "컴퓨터공학과": {
+      "available": 23,
+      "test": 4,
+      "dev": 2
+    },
+    "화학공학과": {
+      "available": 18,
+      "test": 3,
+      "dev": 2
+    },
+    "화학과": {
+      "available": 14,
+      "test": 3,
+      "dev": 2
+    },
+    "환경공학부": {
+      "available": 12,
+      "test": 3,
+      "dev": 1
+    }
+  },
+  "assignments": [
+    {
+      "component_id": "component:00249c0b5a2c8492615a",
+      "advisor_ids": [
+        "255034de0b267f94daea8fa61dbe1bef",
+        "373fb625aca6568207be5d387796dfa2",
+        "ad505cb08e854896e57bd47b92850efd",
+        "b812e6346b5770c7ed8ebee2e604c589"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0113c589b7965b66b1dd",
+      "advisor_ids": [
+        "cc0b8c1255af89743b434a9a8edef471"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0316f4690be6c52512f3",
+      "advisor_ids": [
+        "242b80e78d0ebf34b7e88447b4be511d"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0348bda54f380dda5cfc",
+      "advisor_ids": [
+        "cc1d600a3f6a859f24fb5b91d04320d3"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:03dd3f63b5e92347c8a4",
+      "advisor_ids": [
+        "7c29325e40e0eb662e7629967b633a0a"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0493c205f679a23e3ad2",
+      "advisor_ids": [
+        "name:이근배"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:055b3114a9870ca21bcb",
+      "advisor_ids": [
+        "159e63d1befbc37139b2b5e1a1573f69"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:05dc77443109ca122734",
+      "advisor_ids": [
+        "04bf899ffd2d4bdafe3240d08c97899f"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:05e509f8441a731feba6",
+      "advisor_ids": [
+        "452ff8a514babe9a5da54bbcb5d24c32"
+      ],
+      "department_stratum": "물리학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:063de9e2b262ae083009",
+      "advisor_ids": [
+        "715a1142968969cc852f18f49a024d7d"
+      ],
+      "department_stratum": "의공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:072805af3249a94050f7",
+      "advisor_ids": [
+        "a03cbb75ef2410c17ff3bbee7cb0a455",
+        "f2967b2a18bfe887c3948c9cdaa19e9f"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0add42b9c55c955a12ec",
+      "advisor_ids": [
+        "e584c5fda2b5a7b646fbf64dea55f225",
+        "lab:sites.google.com/view/icsdlab"
+      ],
+      "department_stratum": "반도체공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:0bd067c974fd6eccfc04",
+      "advisor_ids": [
+        "lab:www.disu.ac.kr"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0ce50a7c52d6a7b9f230",
+      "advisor_ids": [
+        "lab:qopt.postech.ac.kr"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0d0296c4e768402a6a0e",
+      "advisor_ids": [
+        "f5d5875b5c523c59f197eb4a1b955321",
+        "fd02e4de7fb8f6a4cf14050de68bca2a"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:0dcd3b8ab3a5ea8c9bc1",
+      "advisor_ids": [
+        "fdf7c49c167de224cc78528fcfdcfbe8"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0e905486cd1f3baaf62c",
+      "advisor_ids": [
+        "00a2f37dcd22c6860346daa192299452"
+      ],
+      "department_stratum": "물리학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:0eedb0fc712fc2f9cd46",
+      "advisor_ids": [
+        "362518836bc8de853ab46d626b49e969"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:0f7138862d698a1a52e6",
+      "advisor_ids": [
+        "8b7abdfbebe2b7d0941be32a15739e90",
+        "fab2f0738d4022749d0bdc3d62f2c52a"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1002bbc8ce725cad9c7a",
+      "advisor_ids": [
+        "480bb8dec2750b8a828fa90daabe7bb4"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1011cea072971be3c4e2",
+      "advisor_ids": [
+        "3043b24cf494bc0ab566b38125401ccc",
+        "57060a1ca8292869afb633bb00ce7204"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:11148da4d23120052042",
+      "advisor_ids": [
+        "92f8e8cdf44ea24fa8ef01f7fdb7cc7f"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:138802612b4ace1cc653",
+      "advisor_ids": [
+        "2f7f390939a40327ca4ee9f4b8fa02d7"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:15ada2851e06b0cbc339",
+      "advisor_ids": [
+        "4991f96b4d883ab628a93c7a43e9a8e4",
+        "c34e2b4ba9291346e5527d8fc2379ffb"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:15f320978caa7bfe2505",
+      "advisor_ids": [
+        "83ce9f7fb2aee838302ceebb7e9a8845"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:175aba867306158d898b",
+      "advisor_ids": [
+        "7831e17ceaa2e98fd6f9e8b10f512140"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:18bdd689328a2aded862",
+      "advisor_ids": [
+        "a0077af62c6f63c9154fbfb3318181c1"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "test"
+    },
+    {
+      "component_id": "component:19a2633845b79c3e9672",
+      "advisor_ids": [
+        "lab:parkgroup.postech.ac.kr"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1a051ca33067d68bed8f",
+      "advisor_ids": [
+        "4e244bd053fe4ca49e1d5d52f21abfdc"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1cb6ec8fdbeed59e28f2",
+      "advisor_ids": [
+        "50705cf571ba48309476bb553c2356b8",
+        "b8974c5afcf836280e0cc027f4883b7d",
+        "d12e80aff84ef9dc0c0938fdbb05d8f7"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1d909dfde7996fd91715",
+      "advisor_ids": [
+        "e5c3fc5f5173e1479fd4e72edd9c0599"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1df123e7221c2a34c293",
+      "advisor_ids": [
+        "8de45719ab2b8fce6893b83f3aa3300b"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1ead037c8a6f54ace672",
+      "advisor_ids": [
+        "lab:i-lab.postech.ac.kr"
+      ],
+      "department_stratum": "의공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:1f77a5c037089add0cfd",
+      "advisor_ids": [
+        "lab:firm.postech.ac.kr"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:1fa8db68aa1c26bff904",
+      "advisor_ids": [
+        "78459b9623eba5320f5e35f2002375a9"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:21335b159b363a72257a",
+      "advisor_ids": [
+        "5a6db25479631b2084f1250f7d373391"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:21a8ee131629b67af7e7",
+      "advisor_ids": [
+        "4267bf754906d518d3be7196378a06c3"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:21b8420359e5e465c29c",
+      "advisor_ids": [
+        "lab:pheng.postech.ac.kr/eng/member/profile.php?id=3"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:233e3e05ececd5c892cc",
+      "advisor_ids": [
+        "lab:jhklab.weebly.com"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:253974c081d49d23ed80",
+      "advisor_ids": [
+        "6b6d785944d0b63e339c6ee33809e6bb",
+        "dca0e6345b09bf0340fc1f8c7b7f0417"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:2555bd72173ec3c7be83",
+      "advisor_ids": [
+        "8e3d7359b1fc03935e7015c5d01075b3"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:2610782b145027dd9dbd",
+      "advisor_ids": [
+        "lab:isds.postech.ac.kr"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:2666a07557f1f4fce998",
+      "advisor_ids": [
+        "lab:analog.postech.ac.kr"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:26d59cc12093a1c688ab",
+      "advisor_ids": [
+        "208923b6d6740630e6871ed2f50441a9"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:27af65112b46959cf712",
+      "advisor_ids": [
+        "800292c887b4b94b4e93979d95f14239"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:287875153d22360a3f20",
+      "advisor_ids": [
+        "a884b1d54c2547e8e5d55978297cbf47"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:28a901c16cfd2f7c2dd1",
+      "advisor_ids": [
+        "2bc8e818f9dc40322c04e121f5affad5"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:28a93eb17e23e4ba16e9",
+      "advisor_ids": [
+        "lab:sites.google.com/view/jaehunjung"
+      ],
+      "department_stratum": "의과학전공",
+      "split": "test"
+    },
+    {
+      "component_id": "component:29340c26fd77a9eff386",
+      "advisor_ids": [
+        "c174028db6bfa33551de1ecbf77feb6e"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:2a2619bf6fa8e7c963f9",
+      "advisor_ids": [
+        "e064ea8da3398b079defc8179040f838",
+        "f4c5dbf22bfa21aa4931aa7aa0faa830"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:2aa43f30605b6aa2e4b0",
+      "advisor_ids": [
+        "1143745d2465a8bef9876a8bbeb0b1be"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:2b5bbc725b5e0e9ce15d",
+      "advisor_ids": [
+        "lab:possport.postech.ac.kr/xe/main"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:2eac8fd77b827d72b60c",
+      "advisor_ids": [
+        "name:Seung Park"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:2f836e25937eabf4f8ba",
+      "advisor_ids": [
+        "7a7c467993216b7295462d37b1953ba9",
+        "8574a1da5bda264766c8cf4ecfd83694"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:3237ffbc0059cbbc80af",
+      "advisor_ids": [
+        "lab:plogistics.postech.ac.kr"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:328800a7a3801b3bfbd6",
+      "advisor_ids": [
+        "lab:sites.google.com/view/youngjinkim/home"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:33365fd8d4bff156eea6",
+      "advisor_ids": [
+        "296439a8f29e7e50e675c0fee25ab655"
+      ],
+      "department_stratum": "의공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:350b996795f557c8d6bb",
+      "advisor_ids": [
+        "lab:www.cjkimlab.postech.ac.kr"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:356071f3020a94c79e51",
+      "advisor_ids": [
+        "name:성효진"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:357375f118d2a442183f",
+      "advisor_ids": [
+        "37474cd82f4ae221f4dd773bd75d2771"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:36d4b7a48ec809125599",
+      "advisor_ids": [
+        "9c2741540c4286d26221b8f2701304f2"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:371a798475f58954cfec",
+      "advisor_ids": [
+        "70abd7783b52e6b717497551092700f7"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:376b300d4aa024621ca8",
+      "advisor_ids": [
+        "name:Sw Chung"
+      ],
+      "department_stratum": "반도체공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:37a14b10c4184c37461f",
+      "advisor_ids": [
+        "9df1028a57aaf356f41af2fa99a0a606"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:37fea002387afb14ba10",
+      "advisor_ids": [
+        "d70c4a6844cff7f924b9dcccee67c11b"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:3a161d4bae69c9e7c539",
+      "advisor_ids": [
+        "dfd0272d5b2f41688fbd0812344ec4b5"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:3aa809f27e0ed72d162f",
+      "advisor_ids": [
+        "name:조길원"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:3ac2e168dce97c22d81d",
+      "advisor_ids": [
+        "54847f8af8af755d701d642eb2889ce1"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:3b2a76ba04135d529107",
+      "advisor_ids": [
+        "0b9f3600cef7f0f180cb1838b22bad04"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:3d4a8a8e7414ced39696",
+      "advisor_ids": [
+        "lab:sites.google.com/view/aches-lab/home"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:3dc99e421235066d2190",
+      "advisor_ids": [
+        "913f3673099de6be55cf19a16b59522e"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:3e8d64962887ce43ffd2",
+      "advisor_ids": [
+        "29b6c1acd5aeb8b3635fafb6cf998a09",
+        "5be8ee6e811d1f31cb53ea777bb36148"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:401f57972a87db02a515",
+      "advisor_ids": [
+        "ac5babc34e4e3e5206b8cd23b74f3948"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:40f521b20022347a99f9",
+      "advisor_ids": [
+        "8fef185c8c9752d23ba2ac8b83b51ca4",
+        "c36bdd99f8ce66c4a4ab7258d257c8a8"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:41295e2957e95f63c8a5",
+      "advisor_ids": [
+        "f6eab148298d59247c161e08e218e116",
+        "lab:cml.postech.ac.kr/index.html"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4233227be91d4d5485ef",
+      "advisor_ids": [
+        "ba11daf52cb269136ee35ff559d1a99d",
+        "ccd3a21a7a4efd2d952fb45c2796c869"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4290cc67dc2f6c7b89b8",
+      "advisor_ids": [
+        "a868304f06c2b9b99fd2c99232e036da"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "test"
+    },
+    {
+      "component_id": "component:43d2d39a4f913beb9cab",
+      "advisor_ids": [
+        "b3983f02edcf344a30396594b9eb0fca"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:442f3386b60cff0f83fc",
+      "advisor_ids": [
+        "6842f7d1d8cb3fcb0a90d165ca486c0a"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4678aae63cbac3af8b9c",
+      "advisor_ids": [
+        "lab:femto1.postech.ac.kr"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:472b7b36b61648cd6bab",
+      "advisor_ids": [
+        "name:김대진"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:478e2f01f4a47e3c8250",
+      "advisor_ids": [
+        "lab:www.cslab.postech.ac.kr"
+      ],
+      "department_stratum": "반도체공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4a7d2162c4cc06f724fa",
+      "advisor_ids": [
+        "d178f8bb037de92f38e521ea0d0dae36"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4aad45c90ecd64926b56",
+      "advisor_ids": [
+        "33b3a5898d5ed71e56d62df9fd6e956a",
+        "a45028e4d02086882e8f135701fbedaa"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4aca74faa41a5faea305",
+      "advisor_ids": [
+        "ef2b65fbe4750e574fff67eceab7d2f3"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4b07c4231a5d76c75bdd",
+      "advisor_ids": [
+        "7c0d812e4d700c7e56af778d3a824e29"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:4c30e60300c1fc9020e7",
+      "advisor_ids": [
+        "lab:www.spark-postech.com"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4cfc45c64dbc0d5f83a8",
+      "advisor_ids": [
+        "lab:opt.postech.ac.kr"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:4db332d9c91740b0431e",
+      "advisor_ids": [
+        "81c7c0d97f02350ecb115624fc80c5d2",
+        "f4492b80c937a00d16f88950a62351c0"
+      ],
+      "department_stratum": "반도체공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:4fd9e8f6b0981a699c94",
+      "advisor_ids": [
+        "17561ed40e2d6fdd9c22eff252a224d3"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:515ef5690c7ec0914ff0",
+      "advisor_ids": [
+        "c55f3ac184b92d8a222a1dd536c7718e"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:519fc0473bcd855b7be6",
+      "advisor_ids": [
+        "8ad648173a74311bbdf5fd7872955c27",
+        "cd440bdd4e15a1ce3482a489f21f04ba"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:528e1dbec774c5909e6f",
+      "advisor_ids": [
+        "lab:andl.postech.ac.kr"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:53a025a325bd2260b995",
+      "advisor_ids": [
+        "3b006d6bada5c5abf7281fc08312bbae"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:53c499ff9672583f0e20",
+      "advisor_ids": [
+        "0e0e57ecc9ee50a999b2c99ed31dcf93",
+        "2c77df65db93c01c187c2dcc522e2d02",
+        "700a6fac11e8c86b953724e4774a8728"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:53c5790cf65489a5d048",
+      "advisor_ids": [
+        "lab:parklab.postech.ac.kr"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:53ee638a3bdf58d05269",
+      "advisor_ids": [
+        "f861170d3a401a9ed8b9b591854b2888"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:54bbcb234308fa11dcb9",
+      "advisor_ids": [
+        "f48dfb2c8fdd898e352b5feec266a40d"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:56278002aeb889b2f5d3",
+      "advisor_ids": [
+        "f9669f40ae5aba8c9c82eb4080558182"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:563fdeb5623aa71929d2",
+      "advisor_ids": [
+        "4ad952ffe572a3156f56802fc7647dbb"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:570d72a26f477a40f663",
+      "advisor_ids": [
+        "df4bd10ef0d157c94cc1d0af5af628d5"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:5772402fef366a489dda",
+      "advisor_ids": [
+        "1ae444a2f44d62ba86384b57194c85ef"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:57bcf3739f8da8aadf40",
+      "advisor_ids": [
+        "629ca3005e7550e2e8d2cc633f182a47"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:584400298e1d08511ad9",
+      "advisor_ids": [
+        "e3a8aed8c0f0fb63d1ec3aecddc8ebe1"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:58dd9565c8b4291b0ffb",
+      "advisor_ids": [
+        "eeeef3347c5bcbce52bfcf9c92531736"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5a8da7ea381b23067e8a",
+      "advisor_ids": [
+        "lab:ultrafast.postech.ac.kr"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5aa2499563606027e2eb",
+      "advisor_ids": [
+        "15e543040350f144149566679fe2bfc7"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:5c691247538cebda38ba",
+      "advisor_ids": [
+        "6cacc6370a18f07c0792abb36b37679f"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5c85ad5c4f948dc4f5e7",
+      "advisor_ids": [
+        "86fc88408c8d1893e56ce738dfd115a7"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5cbee6fed9dcc9cacd3f",
+      "advisor_ids": [
+        "lab:sema.postech.ac.kr"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5e88ccd0d41de5ae0a9d",
+      "advisor_ids": [
+        "33527f9836f4e646879fb56c0daecd95",
+        "name:Chang-Gon Jeong"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:5ea082c47453cc24dc09",
+      "advisor_ids": [
+        "name:박찬익"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5ebdaf6456980f030d47",
+      "advisor_ids": [
+        "e31d4bcbaa05eebde016e26cd1b7ea17"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5f01cf3dcb1ec2712a0d",
+      "advisor_ids": [
+        "f084dcb5042b262e11b36063619dbeaf"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:5ff1de5f45bebcf7019f",
+      "advisor_ids": [
+        "0a6ff7bc33b7ed4911d691f6ab0c5136"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:61bcd726c67f6c1b9906",
+      "advisor_ids": [
+        "a79d15cffa0894704db905e541a8363f"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:61e46892d1021994845c",
+      "advisor_ids": [
+        "f99a04f1c7ba3fe4f420c343e9c9a1ca"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:622bf708cdc7c35131f8",
+      "advisor_ids": [
+        "21bfa9ebed9025d7da92fdae6d81c5a0"
+      ],
+      "department_stratum": "화학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:639cf64df1372936e1d9",
+      "advisor_ids": [
+        "3b3c5fe1e3c1a3aba26ffd66eb364790"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:63a0488f963806c0df2a",
+      "advisor_ids": [
+        "7bdd625d5a73bc4567d09c77c088a478"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:63fb5efe198c2f17c19e",
+      "advisor_ids": [
+        "904a2fb1494123a4b9be99844f3d823c"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:64f291d9a5aeee315856",
+      "advisor_ids": [
+        "d24584a20a99a64f57a9eec4be893b96"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:65190740b05989de3805",
+      "advisor_ids": [
+        "lab:membrane.postech.ac.kr"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:664387d0974d4d82affb",
+      "advisor_ids": [
+        "123c1d7a65bf3f76431a29bbad88eeeb"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:682de63c7167c0411b5b",
+      "advisor_ids": [
+        "3d82b4a08725ae170fa61511a99b613d"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:68737c61bad110a4d6d1",
+      "advisor_ids": [
+        "967c529b18fde0ca165565b028340c30"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:687887af6e663403806c",
+      "advisor_ids": [
+        "b308f0521f94a234c1ff582231c722ab"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:694d435038978711931e",
+      "advisor_ids": [
+        "182ce9550b0ec5f1d065cbff549ce3eb",
+        "335967217d9237b4b019e7a4b1a6f4f3",
+        "4c994e2f02440d465318257356a4741c",
+        "lab:sites.google.com/site/bmoptics5/home"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:698059ca3a43d9899685",
+      "advisor_ids": [
+        "7c88bde56638bce57265ef84445e62c6"
+      ],
+      "department_stratum": "수학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:6b6b6214aa5d0438fe9f",
+      "advisor_ids": [
+        "18aa873d92c1aee6f3266b3f15cd49d5"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:6c2e7a66b9927fa305cb",
+      "advisor_ids": [
+        "801d8483ec7fd757cf6199bf99e1c5aa",
+        "bbb84aca00701a4b4d29c69ae6ff2a8a"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:6d72ab45e303e4077a5f",
+      "advisor_ids": [
+        "b9952d0611c5c0a4a350a434b644cf48",
+        "lab:sites.google.com/view/postech-isl"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:6e6dfc5b58aa13e85e07",
+      "advisor_ids": [
+        "cfb371b02971dcfe4c15bc09a01f6057"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:6f6843db08d5b16335df",
+      "advisor_ids": [
+        "4523ab01bf3bacfe42c50778873495b7"
+      ],
+      "department_stratum": "화학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:717d136a6a9aa45a9e9b",
+      "advisor_ids": [
+        "00a146f5c5267ed6caeb590edaa47fac"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:733dc4d562414d5c65bf",
+      "advisor_ids": [
+        "17010ed4b4f3cc2bbec3c6d2c5252945"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:768f55e84854f18efd7b",
+      "advisor_ids": [
+        "c083729fa52ba4adc51b03ca7251a645"
+      ],
+      "department_stratum": "물리학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:7926a13f91fe4e49a7b9",
+      "advisor_ids": [
+        "2cb62041f2042fee06f9fec52ac935ad"
+      ],
+      "department_stratum": "의공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:7a45fd1c4fa0edae3555",
+      "advisor_ids": [
+        "884a9749b730dbd52a38156208defe69"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:7bf44e5fc6058fbf14dc",
+      "advisor_ids": [
+        "lab:effl.notion.site"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:7ce04df457c2c90b00a0",
+      "advisor_ids": [
+        "lab:www.postechms.com"
+      ],
+      "department_stratum": "의공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:7d183b6ee58525a3f4a9",
+      "advisor_ids": [
+        "091f90e0fff752261f9f7570c053632a"
+      ],
+      "department_stratum": "화학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:7d5538e403596f6bf9d3",
+      "advisor_ids": [
+        "5ae5e95e6245f2e51b32f1805bc466cf",
+        "b30c08316784cceb807e5a7670575269"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:7def5551a465132a6b73",
+      "advisor_ids": [
+        "269027c5b93829258d2eef4d0a38f196"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:7f2174edfc2ce2882394",
+      "advisor_ids": [
+        "3cf13955f9df42105905a333b6204179",
+        "fde3d0b0ec143ddc8a0d9f6fba9c40c8"
+      ],
+      "department_stratum": "친환경소재대학원 배터리공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:8190dcd5e8051ab7bf60",
+      "advisor_ids": [
+        "186269114ee370a858eb614d6c483b08"
+      ],
+      "department_stratum": "의공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:83d0732d3dec2b0835e4",
+      "advisor_ids": [
+        "f372936f59308e64db6b1705c2085ba3"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:842fcf5e19ffb89d5aa2",
+      "advisor_ids": [
+        "437fc8d96e56428d5871fdeedc08b4dd"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:857fa2107d94ad6d302e",
+      "advisor_ids": [
+        "5830da08c1f40c9cff0b8804c57bef29",
+        "937965033892745d797d9ea70473f6a7"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:8649fe60f6cb5f1d0473",
+      "advisor_ids": [
+        "d2196f415985858dcd486e6170603e16"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:8969e72951cd66b5e9ff",
+      "advisor_ids": [
+        "61be35a942c7654bbed63bcdb44f3e70"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:8a63a13a99e2a964c63d",
+      "advisor_ids": [
+        "5fd10c8b473c70cb02ac7d60c72c2a39"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:8c42fe4b32a41e8265ef",
+      "advisor_ids": [
+        "543ee1b67121080f7ed4304b31bde36a"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:8c6668fde9ff6c597127",
+      "advisor_ids": [
+        "lab:am2.postech.ac.kr/index.php/professor"
+      ],
+      "department_stratum": "의과학전공",
+      "split": "test"
+    },
+    {
+      "component_id": "component:8f6a5bcd2035dc1b6665",
+      "advisor_ids": [
+        "b59a79cbe921942c5d3909da04708904"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:8fc382101ef23d8b91a2",
+      "advisor_ids": [
+        "bbb232e44fc51ffa9667b632efee3648"
+      ],
+      "department_stratum": "친환경소재대학원 배터리공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:907146fadc7440a94cdb",
+      "advisor_ids": [
+        "e8e9c9ec81986f8f38a8b1f430a52b9f"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:90806e26f110c3dd37ce",
+      "advisor_ids": [
+        "a32ceefae328d34c087687edfcb376c0"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9081c02972d67024ea27",
+      "advisor_ids": [
+        "c4770c1e9d12ac61199d6e738b54115d"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9128ffb3eb2a8cc7a577",
+      "advisor_ids": [
+        "154efd9c9f56018b6bd86a363d8d900f"
+      ],
+      "department_stratum": "수학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:91fa264680f300242b28",
+      "advisor_ids": [
+        "lab:compsec.postech.ac.kr"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:93234cf948676a62951d",
+      "advisor_ids": [
+        "name:안성수"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:95ed5ff64b5c03f21e23",
+      "advisor_ids": [
+        "lab:sites.google.com/site/dleepostech"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:97883a1af169a249d969",
+      "advisor_ids": [
+        "21e55c2d3e603c3d15b6c5538dbc0ed0"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:980c10fc97200f4da5b7",
+      "advisor_ids": [
+        "988399351b6bf6a86c4760b438cc6a99"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9820c36974666121ab7a",
+      "advisor_ids": [
+        "lab:anne.postech.ac.kr"
+      ],
+      "department_stratum": "의공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9cb1b5bd26231e90b697",
+      "advisor_ids": [
+        "d8d260d0955f816557ae98e50b287133"
+      ],
+      "department_stratum": "수학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:9e9e41c7cd70bcbf1dbb",
+      "advisor_ids": [
+        "3c97d90740df38121b37c4fb53a24966"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9ec2ae06794824a87c8b",
+      "advisor_ids": [
+        "1c6b261317c80e62c715d3aa2377e1ce"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9f1865b5e38285a3359b",
+      "advisor_ids": [
+        "59095330cef9138909ad7c37a95e7e55"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:9f5fe876c0add6b1528c",
+      "advisor_ids": [
+        "24c36e302e555d35cdf85521165d1ab9"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9f677a192b7ed0989a3b",
+      "advisor_ids": [
+        "name:Soo Y. Chang"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9f9415eea88ca1edf0a3",
+      "advisor_ids": [
+        "89a355028e05f37b704bf98340f6f769"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:9fc48c31d21013adb93c",
+      "advisor_ids": [
+        "4175cb53b8b76804974ca84a08632e6f"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9fef160c4d1fc92a74b1",
+      "advisor_ids": [
+        "name:김종"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+      "advisor_ids": [
+        "092088c19c65bcacefd6d9713f954a06",
+        "0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "0ee287568e5625227fa66d9143fd1a89",
+        "146fd8785d265b6864181fae6c7b50b7",
+        "1d4ec3b5e4294f3d43637a3689ede475",
+        "7e21ea71de8805264e1b2355ef104dee",
+        "86b6cc6dac0b7793853eff49fe69c0ee",
+        "b19c909a5a99b205393fba060354fabd",
+        "b3c9f2a39c5fb0200ee018c401cc39fb",
+        "c1e42f4dae5e42465ef090fda69e81f3"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a0cd2dc038cdbf5b2163",
+      "advisor_ids": [
+        "0338f11c96903a40633ed02cc9426f4f"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a0e280dbdbc4b2988e9f",
+      "advisor_ids": [
+        "59855345351d569dbbbbc668df19a512"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a2313ddd0bf8471d413a",
+      "advisor_ids": [
+        "a5c96b621480618492d6ab4d2e19a965"
+      ],
+      "department_stratum": "화학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:a24cbdc81509f47cf2be",
+      "advisor_ids": [
+        "953898cd997f22be7dced291ed7c848e",
+        "lab:eesl.postech.ac.kr:51276"
+      ],
+      "department_stratum": "반도체공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:a31f1c6a069c180c95f7",
+      "advisor_ids": [
+        "105e60613ee52555f42b1490acc10420"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a4918dc6c26a0843df98",
+      "advisor_ids": [
+        "e3554116e5076775c6dbc677a3a3eb8b"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a4f8142c75d342681e11",
+      "advisor_ids": [
+        "a8cb0eda141ab875fe52fa52eab88340"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a59753206be494c86c2d",
+      "advisor_ids": [
+        "34883ef052dfdf9f510f3edb263aeb4b"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:a77aac14809a7d7dc190",
+      "advisor_ids": [
+        "537bec3b2e35d774cf892c88ca3255cb"
+      ],
+      "department_stratum": "의공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:a81565f2c6fa1318fb1f",
+      "advisor_ids": [
+        "lab:sites.google.com/site/postechpolymer/home"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:a8e724ddecad70a6acd6",
+      "advisor_ids": [
+        "852b3d30f3ef3488e21f540f2bbeccea"
+      ],
+      "department_stratum": "수학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:aa58a3b82c38bc76a10e",
+      "advisor_ids": [
+        "4d32b3de303245ffc0951efccf1da2d5"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:aa599657470044b15c14",
+      "advisor_ids": [
+        "28a474665c4e83ffaea2a04b32c76017"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:ab8025ed6fdbed5b665e",
+      "advisor_ids": [
+        "5f98bc730b823c152bc3ad20680294bf"
+      ],
+      "department_stratum": "수학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:ad9190d388a294243110",
+      "advisor_ids": [
+        "1575f61cdbb426e1995d045f1996a3b6"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:af4c76ac6b6ce1d46f5e",
+      "advisor_ids": [
+        "032749fe44cb8a804902ff1aa9236d09"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:af75d24cd13f337a93ff",
+      "advisor_ids": [
+        "5222f40ea8b1b572af7d81cdcfdd2870"
+      ],
+      "department_stratum": "화학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:af7a92585b7f04272644",
+      "advisor_ids": [
+        "lab:mfm.postech.ac.kr"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:afe94c22a00d3adba207",
+      "advisor_ids": [
+        "lab:sites.google.com/view"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b071d9b648d864f842af",
+      "advisor_ids": [
+        "06a7992e0dd6d5dd019a67c9eb5a82cf",
+        "2ac0c0282dded9689b48c236808ba193",
+        "2d380f935fc3deb1650937ac60cf70a7",
+        "48ab3d77da069de620678d533d334880",
+        "499feb96e02a16c6360a1bb6c89b326e",
+        "4ca8ad7508926891e100437c7817f303",
+        "5fadaf538b1b61f0c8cb44687f67608d",
+        "71348edd001017b9579a1eb54375ad06",
+        "7b54cef564a233d179c3af95248a4f40",
+        "7e746d81c803067409011645d23fd0f1",
+        "946c050fc9fa8acaa8ce95b6dcc2144a",
+        "b5530a33695bde14489bda40c348531b",
+        "cca7b82b6abb2e60476e1c524a39770e",
+        "d06da72ee798f4ba4518f6fec27c1924",
+        "d914e9c6ec5c366b4347b5bb7cff8940",
+        "dbfe206e4e741d56dd4362b1259c6d1f"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b0c0bfe6e6d0ce9be6fa",
+      "advisor_ids": [
+        "0b1ebda3958e1fffb9236234b35021af"
+      ],
+      "department_stratum": "반도체공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b146477b8ae47c038701",
+      "advisor_ids": [
+        "fb2fac5a80ef2282b3e28bfef45b66ac"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b1514ad6481838c1be7f",
+      "advisor_ids": [
+        "240442b3eecec4c78bf1a0cb70dedd8e"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:b2067757e7a52662e2e3",
+      "advisor_ids": [
+        "554a685e4f5958e2476403f7d3e3633b"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:b2dfd9d01ccff4a543c6",
+      "advisor_ids": [
+        "eb842e7485c31dfa96029d1f659bf3b0"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b42215bdd363bbc3ea8e",
+      "advisor_ids": [
+        "484ada407cce53c151266995cec8e43b"
+      ],
+      "department_stratum": "물리학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:b5bac57441e99a1b8cd2",
+      "advisor_ids": [
+        "e291b6441c095e7ceb3d0ec36e3a38b6"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b5d19e1691bfee34f860",
+      "advisor_ids": [
+        "9cc5de834480380b39a9ba040ea333ed"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b6283e717b63e2c3ee85",
+      "advisor_ids": [
+        "5b4904a849d4cce159abc577f0b063a4"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b8061c56aa43a0e0d3ac",
+      "advisor_ids": [
+        "6e6098f39a29a429994ee9927724254d"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b8062d35dcedb5f7c067",
+      "advisor_ids": [
+        "17a219bdf39951c186a22b1b72692bb0",
+        "bd6528b8c777c23bf9cc24efa89579b1"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b95157e609b94045d440",
+      "advisor_ids": [
+        "1e0986de5992f7715872118d72e5356f"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:b951d345d551533ccbcb",
+      "advisor_ids": [
+        "4297d08f4b7dfe2755c6d814ac8ef632",
+        "a36563bc435cf11368744c6f77218529"
+      ],
+      "department_stratum": "화학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:ba330937dbf93c765f87",
+      "advisor_ids": [
+        "c7a6b2d266a4031eea305d16f9cb4c38"
+      ],
+      "department_stratum": "첨단재료과학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:bd7583b8d5ae68987bdd",
+      "advisor_ids": [
+        "aebe9a6ddab8c971ffecbd53eb58270e"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:be5e845556734b98e158",
+      "advisor_ids": [
+        "209a80e9e8e4205c5add535212b0a0ba"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:c1e3c56945ad99cad9b9",
+      "advisor_ids": [
+        "adf0ab4b14195342b91f258f17a6c087"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:c4094dfd86366fd2e898",
+      "advisor_ids": [
+        "52ae979e5a521ff22239a968c4281903"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:c47558abde2ea3e7a702",
+      "advisor_ids": [
+        "4c9c8ae6c2753608d1d0c9b19778d051"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:c59db3be748bbb863aff",
+      "advisor_ids": [
+        "2cd5dbaa3e7b7003ea45552abfd54cc6"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:c5aeaa09c5c135e635b5",
+      "advisor_ids": [
+        "ef49083053b3df4911a73fab1620e391"
+      ],
+      "department_stratum": "수학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:c8188ebe3a7e1ead5997",
+      "advisor_ids": [
+        "2ee4c28811b498945b87f5d3a4aaadf0"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:c8337f34b3e260b21946",
+      "advisor_ids": [
+        "32f83f4c1e699365d95f9d3ca955a3ee"
+      ],
+      "department_stratum": "수학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:c87b195477a7357c728a",
+      "advisor_ids": [
+        "bd50e21be3088f6bb6b690cf272c8d5a",
+        "c1111180290fc3a3f6ef78b9cfbe9b35",
+        "cc1629b654bce21536b3c021d12dfddf"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:c8ab2a50d368b2decccc",
+      "advisor_ids": [
+        "lab:changshinned.wixsite.com/nedl"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:ccb0cae2a4ca88f5750e",
+      "advisor_ids": [
+        "2153cf488ec5eafa147e9fdb76e31765",
+        "2eea86d1ead30fedc7b6912921bdf1b0",
+        "3f0f056e4fad5c7ff805253491ee03ff",
+        "558d09ffc6d39954834975a364d10013",
+        "66a27767c0f502b1ea8462004ebb21f7",
+        "6dda7a495187db5785ed7f2f11e30511",
+        "9791d5d87862c58a75052a9509f1c56d",
+        "a4c93740ea4fea145a9ee1eafc8d3e85",
+        "cd66c5491d166dd5690e0e9191a58145",
+        "d1f96c8ff42d822dcf0489d32e075877",
+        "e5c123f6913071fecdf558f7ee9cc4ca",
+        "e647186e20b50a963bbca9c030e31a1f",
+        "lab:chulhongkim.com",
+        "lab:www.chulhongkim.com"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:cd9074be0c74f7e41a8e",
+      "advisor_ids": [
+        "d794eff109e15491cfd73de56d033e3b"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:ce67217d41ad47a46ffb",
+      "advisor_ids": [
+        "62a096b8508acdab34ad790fe6e3ec86"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:ce98c7f56b1bb67bfec5",
+      "advisor_ids": [
+        "29e9926344ed3f65c2eb83ba824f0540"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:cf9d1018a21cf8d6d3b7",
+      "advisor_ids": [
+        "ce14ddfa72c13a81b7f8874e46c4ff7b"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:cfb91ea64fd00fe37370",
+      "advisor_ids": [
+        "lab:dpnm.postech.ac.kr"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d06adfe4c5ba14c51715",
+      "advisor_ids": [
+        "lab:nmaterials.postech.ac.kr"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d27b8736bf98c528921f",
+      "advisor_ids": [
+        "82f66a732f5b0cd33bb18370b079d6ba"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d2aaead8f7b28df2b234",
+      "advisor_ids": [
+        "2d8a05711c73101da3adb5114339a869"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d39c26b3bc34d85c9acf",
+      "advisor_ids": [
+        "46466de2356e17efde24000d5ea0db20"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d3a630557d9cf7c5dc74",
+      "advisor_ids": [
+        "f037b4e02b5c35c9f16c8d2732c074b4"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d40cc5b28192a2fd3f73",
+      "advisor_ids": [
+        "1c52ea91286390cb814c490f93ab0492"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:d4e061e857adc028b1c8",
+      "advisor_ids": [
+        "12eecc7d8bcdc47fda0b04b169c3a660",
+        "247c2d847af8f32337fb7de6ad268360",
+        "289b543fda82198b792e787643e74740",
+        "8defaf16156f18a548b41c58b006cc88"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:d7e3bfd32c706830ef5e",
+      "advisor_ids": [
+        "f92e9c5e032784c769136a0644be552c"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:d88c27f9bdfee041df6d",
+      "advisor_ids": [
+        "2f3366b15c7c160f55ef87fca51bf8c8"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:da0ae0a66c4cc1210bda",
+      "advisor_ids": [
+        "749a9f72399d0927583407259ca8bd7f"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:da0fd0bce19bf96944d7",
+      "advisor_ids": [
+        "89315275387a6abd10753adf25862997"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:da8592c8d581af123e69",
+      "advisor_ids": [
+        "7e4f2bebec89f3ea03a3fb6e0f8bbd36"
+      ],
+      "department_stratum": "물리학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:dcdf60371deba9ea50d3",
+      "advisor_ids": [
+        "e38229000b5001fe589061680c785785"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:de6d38a269d532de4b1f",
+      "advisor_ids": [
+        "69a14bca4d6c9bfd397ddd014cafb63c",
+        "8a89fd3c5bc81918486a8ef633c47d51"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e0820f481295863aa356",
+      "advisor_ids": [
+        "1bef128cdf09045b9dc8ab50733a08e2"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e1441938d6da9cf11bbb",
+      "advisor_ids": [
+        "00f52d3209da2832a33781de047e38ed"
+      ],
+      "department_stratum": "인공지능대학원",
+      "split": "test"
+    },
+    {
+      "component_id": "component:e160a0053c1a9d528a8e",
+      "advisor_ids": [
+        "lab:www.juhongpark.com"
+      ],
+      "department_stratum": "의공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:e33d70307ecbb5e6e834",
+      "advisor_ids": [
+        "e7305fdca54f5dcbc37b520ce8d41adf"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:e3b25d67797000ad02fd",
+      "advisor_ids": [
+        "19b352c9ef06346d69d36e9456cdff0d"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e4c1f767e03b579577d9",
+      "advisor_ids": [
+        "lab:hurlab.postech.ac.kr"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:e5f363459010bb343e28",
+      "advisor_ids": [
+        "820d6eb33837425aab1270d236524366"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e63db088b079db1bf686",
+      "advisor_ids": [
+        "6b79f8637dad5c7a27a9e0b5d2798e56",
+        "a02cc371fd9ee9e0d19b7208562a7a5d",
+        "bac613d80b091997629849fcf905e65c",
+        "c7cdff754981e682e5f71a4e7426e599"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:e8107b698cc40ae68d29",
+      "advisor_ids": [
+        "lab:mip.postech.ac.kr"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e8585f9f2f0380aa2e4b",
+      "advisor_ids": [
+        "lab:zeolites.postech.ac.kr"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:e88d1ed2b2a8df0047de",
+      "advisor_ids": [
+        "1ac8c28030e98810deea0ad1921fd7d3"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e8fff108da0ac801dc62",
+      "advisor_ids": [
+        "41cb478666b8dda0b4b2a751fa53ccb0"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e92f14709ef7fd9eb677",
+      "advisor_ids": [
+        "lab:hql.postech.ac.kr"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:e997a617046bf1449c67",
+      "advisor_ids": [
+        "0195e9ad12189938d2dc6f445aa53c1a"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:e9eb39cf5d2a3dd341eb",
+      "advisor_ids": [
+        "5f198105100143316777af8a3c5e6d4b"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:ea1ed1c2da46a07dede2",
+      "advisor_ids": [
+        "e361c364c0a48eb856377542256ad718"
+      ],
+      "department_stratum": "물리학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:ea8ac73dd4ef71fab1fc",
+      "advisor_ids": [
+        "ca582d6a0b812ba87c27f95338ba11dd"
+      ],
+      "department_stratum": "생명과학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:eadf7747e4ba8669566f",
+      "advisor_ids": [
+        "aa1cf9eed82e59584bfc0d4dd65c5364"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:eae82da5811b65ec9905",
+      "advisor_ids": [
+        "16adb6517049f41e1f01339f37891865"
+      ],
+      "department_stratum": "환경공학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:ed5f496cfaaba003aa04",
+      "advisor_ids": [
+        "lab:gistexel.com"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:eeb4f157d420c99d4b35",
+      "advisor_ids": [
+        "8296556464bdebca77b25830678fd37b"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:eec386c5cc39e07a9232",
+      "advisor_ids": [
+        "0a2eb55c6a036c893a340b7402e7da05"
+      ],
+      "department_stratum": "화학공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:ef0d23bcc35200382ffb",
+      "advisor_ids": [
+        "lab:quality2.postech.ac.kr"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:eff166b7423ad8e99128",
+      "advisor_ids": [
+        "lab:www.mleelab.com"
+      ],
+      "department_stratum": "친환경소재대학원 배터리공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:f44a813e5f53bf3add2d",
+      "advisor_ids": [
+        "38edcacabe08c12e260e1654b7b4e55e"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "dev"
+    },
+    {
+      "component_id": "component:f54f781aa1475519e9dc",
+      "advisor_ids": [
+        "972ca939d654fbf945a78039e38af29b"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:f5fa981cf8325e806fac",
+      "advisor_ids": [
+        "169b1b99d66151835a920cf0830a154e",
+        "81c1c810531f1c7da7a18f9809b6c448"
+      ],
+      "department_stratum": "신소재공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:f68c92fbf086bebb5a8b",
+      "advisor_ids": [
+        "81e7d48be2e4126739d27db2f002e383"
+      ],
+      "department_stratum": "기계공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:f85ff3396c8b4478b1ef",
+      "advisor_ids": [
+        "04a4270953e536b3d89b39189ea28f5a"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:f89153c26a415d80675e",
+      "advisor_ids": [
+        "b247094125c58d6a164c12f74277b33f",
+        "e9a460d2006f46bff940e54e8733b5b5"
+      ],
+      "department_stratum": "산업경영공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:f971dbab06f54f020f5f",
+      "advisor_ids": [
+        "c70973972fcfb5ab095e561d6fd81fe0"
+      ],
+      "department_stratum": "첨단원자력공학부",
+      "split": "test"
+    },
+    {
+      "component_id": "component:f9b00809019ba9b2993f",
+      "advisor_ids": [
+        "a0b09bd0d8be40c9663143589c83803e"
+      ],
+      "department_stratum": "친환경소재대학원 배터리공학과",
+      "split": "test"
+    },
+    {
+      "component_id": "component:fa781d432962acacb581",
+      "advisor_ids": [
+        "9696f4ab695c3ea4d975561822b6c1ad"
+      ],
+      "department_stratum": "물리학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:fb55544a9013f77d8227",
+      "advisor_ids": [
+        "554745a64ecd29c66377f62d19f49169"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:fb672f816c7455a3c8a7",
+      "advisor_ids": [
+        "1727629e51972773487fbf21044d3a6f"
+      ],
+      "department_stratum": "컴퓨터공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:fd807c032ed73fe2e1d6",
+      "advisor_ids": [
+        "6adff5a3efe38e59669333a47d29f2b6"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:fde50a97edaa73f4a914",
+      "advisor_ids": [
+        "6838c45a05cd625d0fb7e987fbcf7805"
+      ],
+      "department_stratum": "전자전기공학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:ff1c568a9c7cfa325de6",
+      "advisor_ids": [
+        "f5debb6e781d2d6656b184ddfbbe5e41",
+        "lab:sites.google.com/site/cslgiftpostech/home"
+      ],
+      "department_stratum": "친환경소재대학원 친환경소재학과",
+      "split": "unused"
+    },
+    {
+      "component_id": "component:ffa02496ee65aff9a4a1",
+      "advisor_ids": [
+        "70a61fac052c6b5ddcd0a4fa6afe342f",
+        "92d7e9607dd4b52271832307356acdf9"
+      ],
+      "department_stratum": "인문사회과학부",
+      "split": "unused"
+    }
+  ]
+}

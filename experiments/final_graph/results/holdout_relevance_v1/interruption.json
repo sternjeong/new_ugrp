@@ -1,0 +1,13 @@
+{
+  "status": "two_luna_usage_limit_interrupted",
+  "required_pairs": 910,
+  "saved_pairs_a": 292,
+  "saved_pairs_b": 228,
+  "structural_checks": "ordered_unique_valid",
+  "performance_conclusion": "withheld_until_both_complete",
+  "packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "files": {
+    "scores_a.jsonl": "15edec72e09314535a8e432bb7af1ad962e530869aec838b478a8df4ba6417b2",
+    "scores_b.jsonl": "bbaaf5d7f3f4f33928c9a442e26c2a43bbd0e8bade6c3ba18df2f5ea11f2e61a"
+  }
+}

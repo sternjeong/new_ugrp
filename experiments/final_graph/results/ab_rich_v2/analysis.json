@@ -1,0 +1,41 @@
+{
+  "status": "two_judge_paired_presentation_pilot",
+  "cards": 27,
+  "source_sha256": {
+    "packet": "2247aa07a6e184097927046f986e52a7189295c4ad5411b63b657b03f7d486af",
+    "key": "19ff5da7938a41d6bb5bf1cd05960d5954bd3e5a0f6c426eeff768d8a542b54f",
+    "script": "7baacf047d9945083293159233078fb0569627d4b33a1376470ed050d1875a18",
+    "scores_a": "9bf02d441cee094cb8d0e4bd257fa9f9dde33dab881279cee06299f3f08d2e29",
+    "scores_b": "fe3de8c3e10648391579d1a538875f88b11a1fedbabe3c5623592f5dab4e21e7"
+  },
+  "judge": {
+    "a": {
+      "choices": {
+        "R1": 20,
+        "neither": 2,
+        "R0": 5
+      },
+      "unsupported_claim_flags": {
+        "R1": 5,
+        "R0": 5
+      }
+    },
+    "b": {
+      "choices": {
+        "R1": 24,
+        "neither": 1,
+        "R0": 2
+      },
+      "unsupported_claim_flags": {
+        "R1": 4,
+        "R0": 4
+      }
+    }
+  },
+  "limitations": [
+    "same two Luna judges previously saw these reason sentences",
+    "format reveals the likely method despite positional blinding",
+    "not a real-student or top-five list A/B test"
+  ],
+  "exact_choice_agreement": 0.6666666666666666
+}

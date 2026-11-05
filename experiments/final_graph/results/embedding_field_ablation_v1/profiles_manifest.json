@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2"
+  },
+  "subset_sha256": "22c9d482a253ce6791c30b2f65bb08719680efe67e358a9974cb2754325405c0",
+  "packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "split_sha256": "0401950ccee0e2e716d608a787aace619f9c733693367de2307d6709eb3debf5",
+  "builder_sha256": "6240335cecd130ac7b9f2466a7c771fbc8802c43794af2c20a451b2450edb2f8",
+  "profiles_sha256": "7bdeeb0399cc052d0be780c94ca2c60a7da339c0dc2e5b036e51d85d9c0de62f",
+  "counts": {
+    "courses": 941,
+    "labs": 180
+  },
+  "chunk_counts": {
+    "labs": {
+      "core": 929,
+      "admin": 180
+    },
+    "courses": {
+      "core": 1882,
+      "admin": 941,
+      "learning_context": 920
+    }
+  }
+}

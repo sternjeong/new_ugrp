@@ -1,0 +1,1387 @@
+{
+ "gate": "rank<=8",
+ "main": {
+  "M0|n=5|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=5|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8826506047508086,
+   "ndcg10": 0.827854738101249,
+   "len": 10,
+   "zero": 0.239425,
+   "entrants_per_lab": 0.9369999999999999,
+   "entrant_zero_rate": 0.62059765208111
+  },
+  "M2|n=5|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8950945519423781,
+   "ndcg10": 0.7616891114355846,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=5|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8786759218802224,
+   "ndcg10": 0.7525938139336308,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=5|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8477990516094028,
+   "ndcg10": 0.7433790021383864,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=5|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8568283696439599,
+   "ndcg10": 0.7386748600386115,
+   "len": 7.24975,
+   "zero": 0.15579910714285714,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=5|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=5|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8716996965133044,
+   "ndcg10": 0.8210951605663638,
+   "len": 10,
+   "zero": 0.241675,
+   "entrants_per_lab": 0.828,
+   "entrant_zero_rate": 0.6092995169082126
+  },
+  "M2|n=5|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8826432379751334,
+   "ndcg10": 0.7570724752022154,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=5|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8668039249077063,
+   "ndcg10": 0.7482985469601124,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=5|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8400266770421174,
+   "ndcg10": 0.7399238324216749,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=5|noise=0.0|mal=0.1": {
+   "ndcg5": 0.850534355939982,
+   "ndcg10": 0.7363408760333863,
+   "len": 7.33225,
+   "zero": 0.16213839285714285,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=5|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=5|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8731048712021333,
+   "ndcg10": 0.820909640257629,
+   "len": 10,
+   "zero": 0.24255000000000002,
+   "entrants_per_lab": 0.8552500000000001,
+   "entrant_zero_rate": 0.6042092955276236
+  },
+  "M2|n=5|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8828866946991982,
+   "ndcg10": 0.7568737476736889,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=5|noise=0.2|mal=0.0": {
+   "ndcg5": 0.867845939650494,
+   "ndcg10": 0.7483780884684044,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=5|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8404292707883065,
+   "ndcg10": 0.7403337766777076,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=5|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8507526890551377,
+   "ndcg10": 0.7375631885189977,
+   "len": 7.37025,
+   "zero": 0.16465625,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=5|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=5|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8590495946314892,
+   "ndcg10": 0.8123856467189399,
+   "len": 10,
+   "zero": 0.24607500000000002,
+   "entrants_per_lab": 0.7535000000000001,
+   "entrant_zero_rate": 0.6045122760451227
+  },
+  "M2|n=5|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8677967411471249,
+   "ndcg10": 0.7499409789542207,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=5|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8568808375660081,
+   "ndcg10": 0.744006597261396,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=5|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8329585447550836,
+   "ndcg10": 0.7366985344510846,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=5|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8430658557078516,
+   "ndcg10": 0.734224149346903,
+   "len": 7.44525,
+   "zero": 0.17103125,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=5|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=5|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8570838169389934,
+   "ndcg10": 0.8106620888451457,
+   "len": 10,
+   "zero": 0.247425,
+   "entrants_per_lab": 0.7455,
+   "entrant_zero_rate": 0.5949027498323273
+  },
+  "M2|n=5|noise=0.4|mal=0.0": {
+   "ndcg5": 0.866003393848219,
+   "ndcg10": 0.7489965325813054,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=5|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8544092662779711,
+   "ndcg10": 0.7430863802227365,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=5|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8324611261962738,
+   "ndcg10": 0.7363118527331557,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=5|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8407514633402063,
+   "ndcg10": 0.7335792001871897,
+   "len": 7.51675,
+   "zero": 0.17766964285714285,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=5|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=5|noise=0.4|mal=0.1": {
+   "ndcg5": 0.844292668572145,
+   "ndcg10": 0.8023662816699655,
+   "len": 10,
+   "zero": 0.25120000000000003,
+   "entrants_per_lab": 0.66875,
+   "entrant_zero_rate": 0.5951401869158879
+  },
+  "M2|n=5|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8496121247043299,
+   "ndcg10": 0.7415974404170437,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=5|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8421464526635624,
+   "ndcg10": 0.7373278870921586,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=5|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8266088437367712,
+   "ndcg10": 0.7328781809782131,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=5|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8327163199496932,
+   "ndcg10": 0.7306701508049415,
+   "len": 7.598,
+   "zero": 0.18405357142857143,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=10|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=10|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8845406358631316,
+   "ndcg10": 0.8286724195384199,
+   "len": 10,
+   "zero": 0.237875,
+   "entrants_per_lab": 0.9157500000000001,
+   "entrant_zero_rate": 0.6008736008736009
+  },
+  "M2|n=10|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8991406066447126,
+   "ndcg10": 0.7624600354116693,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=10|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8844451288539431,
+   "ndcg10": 0.7541849689458354,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=10|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8599806250955214,
+   "ndcg10": 0.7478660879784419,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=10|noise=0.0|mal=0.0": {
+   "ndcg5": 0.870100775280864,
+   "ndcg10": 0.743079049288215,
+   "len": 7.23325,
+   "zero": 0.15311160714285713,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=10|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=10|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8748766676068606,
+   "ndcg10": 0.8225590120612766,
+   "len": 10,
+   "zero": 0.240725,
+   "entrants_per_lab": 0.77675,
+   "entrant_zero_rate": 0.5867396202124235
+  },
+  "M2|n=10|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8883301199759214,
+   "ndcg10": 0.7590005978659189,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=10|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8752687193220102,
+   "ndcg10": 0.7515915674516274,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=10|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8514332816165043,
+   "ndcg10": 0.7449469671679531,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=10|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8618563212162649,
+   "ndcg10": 0.7411463424933572,
+   "len": 7.33075,
+   "zero": 0.16050892857142857,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=10|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=10|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8766012362781243,
+   "ndcg10": 0.8228060342812764,
+   "len": 10,
+   "zero": 0.241425,
+   "entrants_per_lab": 0.77625,
+   "entrant_zero_rate": 0.5884057971014492
+  },
+  "M2|n=10|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8886790869220698,
+   "ndcg10": 0.7590516281002829,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=10|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8749803353661882,
+   "ndcg10": 0.751656435192547,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=10|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8528816781434292,
+   "ndcg10": 0.7453486197871797,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=10|noise=0.2|mal=0.0": {
+   "ndcg5": 0.861268482124075,
+   "ndcg10": 0.7417870889035854,
+   "len": 7.35975,
+   "zero": 0.16245833333333332,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=10|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=10|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8655102960385759,
+   "ndcg10": 0.8156895726997749,
+   "len": 10,
+   "zero": 0.244775,
+   "entrants_per_lab": 0.6487499999999999,
+   "entrant_zero_rate": 0.576878612716763
+  },
+  "M2|n=10|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8774072390932987,
+   "ndcg10": 0.7548544858875199,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=10|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8662387269494006,
+   "ndcg10": 0.748429808957283,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=10|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8455483807985159,
+   "ndcg10": 0.7420679875753624,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=10|noise=0.2|mal=0.1": {
+   "ndcg5": 0.854016271343366,
+   "ndcg10": 0.7401063146128778,
+   "len": 7.452,
+   "zero": 0.16863988095238094,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=10|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=10|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8641506529607854,
+   "ndcg10": 0.8141928658772997,
+   "len": 10,
+   "zero": 0.246675,
+   "entrants_per_lab": 0.63375,
+   "entrant_zero_rate": 0.5838264299802761
+  },
+  "M2|n=10|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8761535352381078,
+   "ndcg10": 0.7541203232188767,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=10|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8633095346925319,
+   "ndcg10": 0.7475999994888793,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=10|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8439853888708245,
+   "ndcg10": 0.7415994067789652,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=10|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8522149565258547,
+   "ndcg10": 0.7400544712209747,
+   "len": 7.5207500000000005,
+   "zero": 0.17441517857142858,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=10|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=10|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8525019662696562,
+   "ndcg10": 0.8079137954681822,
+   "len": 10,
+   "zero": 0.2485,
+   "entrants_per_lab": 0.5465,
+   "entrant_zero_rate": 0.5722781335773102
+  },
+  "M2|n=10|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8628898800701736,
+   "ndcg10": 0.7487388454065798,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=10|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8550273112187602,
+   "ndcg10": 0.7438654680510661,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=10|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8358355533082987,
+   "ndcg10": 0.7379471707328654,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=10|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8441472986162568,
+   "ndcg10": 0.7371903483609178,
+   "len": 7.5965,
+   "zero": 0.18060267857142856,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=20|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=20|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8847878200690227,
+   "ndcg10": 0.8288400508817014,
+   "len": 10,
+   "zero": 0.2378,
+   "entrants_per_lab": 0.9317500000000001,
+   "entrant_zero_rate": 0.6039710222699222
+  },
+  "M2|n=20|noise=0.0|mal=0.0": {
+   "ndcg5": 0.9000958300668578,
+   "ndcg10": 0.7627053263729624,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=20|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8860604629993962,
+   "ndcg10": 0.7546429105379593,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=20|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8729788689736646,
+   "ndcg10": 0.7516747294497031,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=20|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8786098068416252,
+   "ndcg10": 0.748026010228371,
+   "len": 7.382,
+   "zero": 0.16251785714285713,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=20|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=20|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8765053601671321,
+   "ndcg10": 0.8238857567231607,
+   "len": 10,
+   "zero": 0.2403,
+   "entrants_per_lab": 0.7819999999999999,
+   "entrant_zero_rate": 0.5875959079283888
+  },
+  "M2|n=20|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8899014681073842,
+   "ndcg10": 0.7599190459511151,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=20|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8775310007204505,
+   "ndcg10": 0.7524548621191073,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=20|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8634210828031488,
+   "ndcg10": 0.7488518921880496,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=20|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8692207380520882,
+   "ndcg10": 0.7464870526152841,
+   "len": 7.475,
+   "zero": 0.16891517857142857,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=20|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=20|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8775635570672271,
+   "ndcg10": 0.8237655887851474,
+   "len": 10,
+   "zero": 0.2411,
+   "entrants_per_lab": 0.78325,
+   "entrant_zero_rate": 0.5876157037982764
+  },
+  "M2|n=20|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8900214573674773,
+   "ndcg10": 0.7599214117230135,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=20|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8774137371607241,
+   "ndcg10": 0.7526830545614765,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=20|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8640785944036525,
+   "ndcg10": 0.7487268083543278,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=20|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8695079148791812,
+   "ndcg10": 0.7468172278688888,
+   "len": 7.50275,
+   "zero": 0.170875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=20|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=20|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8669358043522098,
+   "ndcg10": 0.8178213579653745,
+   "len": 10,
+   "zero": 0.24365,
+   "entrants_per_lab": 0.6487499999999999,
+   "entrant_zero_rate": 0.5699421965317919
+  },
+  "M2|n=20|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8789898536137641,
+   "ndcg10": 0.7562291929961811,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=20|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8685820479482247,
+   "ndcg10": 0.7500199813409413,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=20|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8562747284555403,
+   "ndcg10": 0.7460533394955394,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=20|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8610923974942085,
+   "ndcg10": 0.7447791856675541,
+   "len": 7.57,
+   "zero": 0.17590178571428572,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=20|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=20|noise=0.4|mal=0.0": {
+   "ndcg5": 0.865832745709495,
+   "ndcg10": 0.8168821384561584,
+   "len": 10,
+   "zero": 0.244175,
+   "entrants_per_lab": 0.623,
+   "entrant_zero_rate": 0.5585874799357946
+  },
+  "M2|n=20|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8774629156098188,
+   "ndcg10": 0.7554829397414428,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=20|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8670939785759302,
+   "ndcg10": 0.7494879525855704,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=20|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8541640830747536,
+   "ndcg10": 0.7456000711411556,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=20|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8598984416190112,
+   "ndcg10": 0.7448501518748257,
+   "len": 7.612,
+   "zero": 0.17919642857142856,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=20|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=20|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8551099844870533,
+   "ndcg10": 0.8103886664953842,
+   "len": 10,
+   "zero": 0.246625,
+   "entrants_per_lab": 0.51625,
+   "entrant_zero_rate": 0.5394673123486683
+  },
+  "M2|n=20|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8661269653963217,
+   "ndcg10": 0.750808316341125,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=20|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8589950594581924,
+   "ndcg10": 0.7468250553513927,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=20|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8468936879518724,
+   "ndcg10": 0.7427897130859992,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=20|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8517889859140158,
+   "ndcg10": 0.7427460374968735,
+   "len": 7.675,
+   "zero": 0.18486607142857142,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=40|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=40|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8855794971064279,
+   "ndcg10": 0.829035581127009,
+   "len": 10,
+   "zero": 0.23715,
+   "entrants_per_lab": 0.92125,
+   "entrant_zero_rate": 0.596472184531886
+  },
+  "M2|n=40|noise=0.0|mal=0.0": {
+   "ndcg5": 0.9019964770898262,
+   "ndcg10": 0.7628247314452665,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=40|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8888522900667241,
+   "ndcg10": 0.7550099587786742,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=40|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8815902863373215,
+   "ndcg10": 0.7535847992657573,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=40|noise=0.0|mal=0.0": {
+   "ndcg5": 0.8863618885943099,
+   "ndcg10": 0.7509073169676818,
+   "len": 7.463,
+   "zero": 0.16773214285714286,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=40|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=40|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8772033879615148,
+   "ndcg10": 0.8235761330181812,
+   "len": 10,
+   "zero": 0.24115,
+   "entrants_per_lab": 0.7555000000000001,
+   "entrant_zero_rate": 0.5810721376571806
+  },
+  "M2|n=40|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8925321514476985,
+   "ndcg10": 0.7607301276270739,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=40|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8801474862603348,
+   "ndcg10": 0.7532698815871353,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=40|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8717375830391552,
+   "ndcg10": 0.7511620492395685,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=40|noise=0.0|mal=0.1": {
+   "ndcg5": 0.8764883132125708,
+   "ndcg10": 0.7496179720814518,
+   "len": 7.55325,
+   "zero": 0.17454464285714286,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=40|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=40|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8778961303844641,
+   "ndcg10": 0.8242018430036698,
+   "len": 10,
+   "zero": 0.240325,
+   "entrants_per_lab": 0.7637499999999999,
+   "entrant_zero_rate": 0.5757774140752865
+  },
+  "M2|n=40|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8918665019676937,
+   "ndcg10": 0.7605747827336783,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=40|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8803146226842217,
+   "ndcg10": 0.7533186944511454,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=40|noise=0.2|mal=0.0": {
+   "ndcg5": 0.872150429440181,
+   "ndcg10": 0.7513663571750042,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=40|noise=0.2|mal=0.0": {
+   "ndcg5": 0.8765210731703691,
+   "ndcg10": 0.7502179263991906,
+   "len": 7.5815,
+   "zero": 0.17625446428571429,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=40|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=40|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8685173842145678,
+   "ndcg10": 0.8191095601524254,
+   "len": 10,
+   "zero": 0.24215,
+   "entrants_per_lab": 0.619,
+   "entrant_zero_rate": 0.5387722132471728
+  },
+  "M2|n=40|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8819419411266518,
+   "ndcg10": 0.757395438171118,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=40|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8704091071480887,
+   "ndcg10": 0.750829670071468,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=40|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8632094495845426,
+   "ndcg10": 0.7484069889761734,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=40|noise=0.2|mal=0.1": {
+   "ndcg5": 0.8681008973523351,
+   "ndcg10": 0.7478752937403228,
+   "len": 7.6225,
+   "zero": 0.17938392857142857,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=40|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=40|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8673584814682621,
+   "ndcg10": 0.8179707861326228,
+   "len": 10,
+   "zero": 0.2426,
+   "entrants_per_lab": 0.576,
+   "entrant_zero_rate": 0.5225694444444444
+  },
+  "M2|n=40|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8790587944373428,
+   "ndcg10": 0.756452462958131,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=40|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8682536407223443,
+   "ndcg10": 0.7501713563904979,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=40|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8605106038121308,
+   "ndcg10": 0.747740298296264,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=40|noise=0.4|mal=0.0": {
+   "ndcg5": 0.8659104728292223,
+   "ndcg10": 0.747311182892137,
+   "len": 7.6465,
+   "zero": 0.1813125,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M0|n=40|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8050325470927546,
+   "ndcg10": 0.7715421628435742,
+   "len": 10,
+   "zero": 0.265,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M1|n=40|noise=0.4|mal=0.1": {
+   "ndcg5": 0.855796152802684,
+   "ndcg10": 0.8110113532361639,
+   "len": 10,
+   "zero": 0.245675,
+   "entrants_per_lab": 0.46349999999999997,
+   "entrant_zero_rate": 0.5107874865156419
+  },
+  "M2|n=40|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8664797371422011,
+   "ndcg10": 0.7517139555124615,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M3|n=40|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8603629086354544,
+   "ndcg10": 0.7474968186761882,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M4|n=40|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8523293739992863,
+   "ndcg10": 0.7450585856373163,
+   "len": 8,
+   "zero": 0.21875,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  },
+  "M5|n=40|noise=0.4|mal=0.1": {
+   "ndcg5": 0.8581932866485594,
+   "ndcg10": 0.7450781581873019,
+   "len": 7.681,
+   "zero": 0.18476785714285715,
+   "entrants_per_lab": 0.0,
+   "entrant_zero_rate": null
+  }
+ },
+ "sensitivity_gate": {
+  "5": {
+   "M0|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8050325470927546,
+    "ndcg10": 0.7715421628435742,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M1|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.877492428137988,
+    "ndcg10": 0.8236791430656308,
+    "len": 10,
+    "zero": 0.24085,
+    "entrants_per_lab": 0.77625,
+    "entrant_zero_rate": 0.5832528180354267
+   },
+   "M2|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.850857267154096,
+    "ndcg10": 0.6372682374974749,
+    "len": 5,
+    "zero": 0.14,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M3|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8435922974205915,
+    "ndcg10": 0.6315018775273209,
+    "len": 5,
+    "zero": 0.14,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M4|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8425752391533856,
+    "ndcg10": 0.6307486389661362,
+    "len": 5,
+    "zero": 0.14,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M5|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8211072680299291,
+    "ndcg10": 0.6146960699915778,
+    "len": 4.319,
+    "zero": 0.0726,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M0|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8050325470927546,
+    "ndcg10": 0.7715421628435742,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M1|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8851318600724438,
+    "ndcg10": 0.8287558272531966,
+    "len": 10,
+    "zero": 0.23777500000000001,
+    "entrants_per_lab": 0.9225,
+    "entrant_zero_rate": 0.6008130081300813
+   },
+   "M2|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8512494733937632,
+    "ndcg10": 0.6375586603829786,
+    "len": 5,
+    "zero": 0.14,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M3|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8440548313004264,
+    "ndcg10": 0.631824724721515,
+    "len": 5,
+    "zero": 0.14,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M4|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8434807727496837,
+    "ndcg10": 0.6314147924662176,
+    "len": 5,
+    "zero": 0.14,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M5|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8154218279200128,
+    "ndcg10": 0.610305032624021,
+    "len": 4.20475,
+    "zero": 0.0677625,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   }
+  },
+  "10": {
+   "M0|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8050325470927546,
+    "ndcg10": 0.7715421628435742,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M1|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8769142212940877,
+    "ndcg10": 0.8239988730305627,
+    "len": 10,
+    "zero": 0.240725,
+    "entrants_per_lab": 0.7765,
+    "entrant_zero_rate": 0.5820991629104958
+   },
+   "M2|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8768976482879026,
+    "ndcg10": 0.8096682730352576,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M3|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8622546897904735,
+    "ndcg10": 0.8019233535749358,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M4|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8525466988037427,
+    "ndcg10": 0.7979718292637914,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M5|n=20|noise=0.2|mal=0.0": {
+    "ndcg5": 0.8563716720290641,
+    "ndcg10": 0.7990962273851079,
+    "len": 9.608,
+    "zero": 0.22821111111111111,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M0|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8050325470927546,
+    "ndcg10": 0.7715421628435742,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M1|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8849480451094751,
+    "ndcg10": 0.8289844953588469,
+    "len": 10,
+    "zero": 0.2378,
+    "entrants_per_lab": 0.9295,
+    "entrant_zero_rate": 0.6040882194728349
+   },
+   "M2|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.884552124507857,
+    "ndcg10": 0.8129750072938196,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M3|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8682436377504329,
+    "ndcg10": 0.8040622353122328,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M4|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8587572849023142,
+    "ndcg10": 0.800716632950756,
+    "len": 10,
+    "zero": 0.265,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   },
+   "M5|n=20|noise=0.0|mal=0.0": {
+    "ndcg5": 0.8631242131522358,
+    "ndcg10": 0.8022864929549648,
+    "len": 9.41875,
+    "zero": 0.21052222222222222,
+    "entrants_per_lab": 0.0,
+    "entrant_zero_rate": null
+   }
+  }
+ },
+ "targeted_rank11_enters": {
+  "M1": [
+   12,
+   12
+  ],
+  "M4": [
+   0,
+   12
+  ]
+ },
+ "criteria": {
+  "1_구조검사(관문 밖 유입 없음, M5 유입 0)": true,
+  "2_순진방식 유입 항목의 0점 비율(참고)": "M1 평균 58%, 관문 방식은 유입 0건",
+  "3_잡음0.2 nDCG@5가 M0 이상(M3 또는 M4, n>=10)": true,
+  "4_잡음0.4·악의0.1에서 M4가 M0보다 0.03 넘게 안 나쁨": true,
+  "5_관문 목록 3개 이상 연구실 >=90%": true
+ },
+ "c3_diffs": {
+  "10": {
+   "M3": 0.06994778827343362,
+   "M4": 0.047849131050674565
+  },
+  "20": {
+   "M3": 0.0723811900679695,
+   "M4": 0.05904604731089791
+  },
+  "40": {
+   "M3": 0.07528207559146705,
+   "M4": 0.06711788234742633
+  }
+ },
+ "worst_M4_minus_M0": 0.021576296644016613
+}

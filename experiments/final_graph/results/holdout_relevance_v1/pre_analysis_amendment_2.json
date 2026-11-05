@@ -1,0 +1,7 @@
+{
+  "status": "before_method_specific_analysis",
+  "revision": "clarify no backfill means preserve original rank positions for DCG",
+  "prereg_sha256": "5a996a5abd9f8e646d031b8a6e1c4d028c38ec7e4553a517e73e259d3d28f9a2",
+  "analysis_script_sha256": "1e7593b6644faec4e3712771895dde2b0f95890821b51cdde2943d4b0413b00e",
+  "disclosure": "Judge A completed labels and aggregate category counts known; Judge B incomplete; no method key or method-specific results inspected."
+}

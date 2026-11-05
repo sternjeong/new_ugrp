@@ -1,0 +1,31 @@
+{
+ "N_LABS": 12,
+ "TOP_K": 5,
+ "SEED": 7,
+ "LLM_ID": "Qwen/Qwen2.5-7B-Instruct",
+ "NLI_ID": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+ "NLI_MIN": 0.5,
+ "RERANKER": "BAAI/bge-reranker-v2-m3",
+ "PH_SHOTS": [
+  [
+   "PID Control",
+   "PID \uc81c\uc5b4"
+  ],
+  [
+   "Protein Composition and Structure",
+   "\ub2e8\ubc31\uc9c8\uc758 \uad6c\uc131\uacfc \uad6c\uc870"
+  ],
+  [
+   "Learning with multi-modal data (text and audio)",
+   "\ud14d\uc2a4\ud2b8\u00b7\uc624\ub514\uc624 \uba40\ud2f0\ubaa8\ub2ec \ub370\uc774\ud130 \ud559\uc2b5"
+  ],
+  [
+   "CV: Deep learning for visual recognition",
+   "\uc2dc\uac01 \uc778\uc2dd\uc744 \uc704\ud55c \ub525\ub7ec\ub2dd"
+  ],
+  [
+   "\ub370\uc774\ud130 \ubca0\uc774\uc2a4\uc758\uac01 \ubaa8\ub378, \uae30\uc220\ubc29\ubc95, \uc2e4\ud604\ubc29\ubc95\uc5d0 \ub300\ud558\uc5ec \ubc30\uc6b4\ub2e4.",
+   "\ub370\uc774\ud130\ubca0\uc774\uc2a4 \ubaa8\ub378\uacfc \uad6c\ud604 \ubc29\ubc95"
+  ]
+ ]
+}

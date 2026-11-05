@@ -1,0 +1,24 @@
+{
+  "sha256": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+    "docs/analysis/FINAL_DATASET_SCHEMA_V2_DECISION.md": "e60c7effa4e446ab7d47defdbba13c015dd42f8e4c416fd3b1ef357b33852359",
+    "experiments/final_graph/results/complete_subset_v1.json": "22c9d482a253ce6791c30b2f65bb08719680efe67e358a9974cb2754325405c0",
+    "experiments/final_graph/results/rich_split_v1.json": "0401950ccee0e2e716d608a787aace619f9c733693367de2307d6709eb3debf5",
+    "experiments/final_graph/results/staging_v2_validation.json": "a37bbc5414e42127bf5e11decc090c219f78a8216740d47a37339d3d3e0526eb",
+    "experiments/final_graph/results/holdout_relevance_v1/analysis.json": "5240a1c5c7658e7b79dc591ccde0a1d32489ead51537335833ccf7bf321371b8",
+    "experiments/final_graph/results/bge_top1_relevance_v1/analysis.json": "5db16e18da122ea56637cdbe05bed560b923adc721a02b8d24683dce48cfa65e",
+    "experiments/final_graph/results/bge_top5_extension_v1/analysis.json": "44ae2e2a372a29af6ea1a6af5fbf34fc546dfd46a11a3f462e27eab0f500d3c8",
+    "experiments/final_graph/results/bge_top5_extension_v1/label_agreement.json": "13a51b89a790e5790b4697f815f44689ec1c93c30dda65173feaf641f940f7e3",
+    "experiments/final_graph/results/bge_top5_extension_v1/duplicate_structure.json": "6d5cfe4faeffc56cf93a9906707733e6311e2d89e9aa2ce4b47b560a1c3f0540",
+    "experiments/final_graph/JUDGE_REVIEWS_2026-10-15.md": "522b35db6ebe5e7abd1216860fae952cd553c60621161022ee72e4322a43a954",
+    "experiments/final_graph/results/query_rich_v3/analysis.json": "dc0a2c2a0b20fb954ef0db91c2e107d72617445295c5634e45c33db30203e59e",
+    "experiments/final_graph/results/query_rich_v3/audit_addendum.json": "956ee094bb187349fa30353c81ce5d1f12a790f029160939a0c3674f5366c508",
+    "experiments/final_graph/results/reason_rich_v2/analysis.json": "d83eef39a5c4a833146458b9e0230db9fcc88e161a9410457d04853334586f63",
+    "experiments/final_graph/results/ab_rich_v2/analysis.json": "274ba520f5f3296fd4d730490aedd4f079dc896d71ba9c1320bf304d50874c6a",
+    "experiments/final_graph/results/feedback_rich_v3/analysis.json": "baba8a719e9fd6c84f245163f123529c25a0bce1c57e33575efbbbaab308afdd",
+    "reports/final_dataset_meeting_2026-10-15.md": "75003dce59bd017905f597488437ced620d84141e3c4ebf2ea8a538d8e7e0de8",
+    "reports/report.css": "240514cf08b00e18b2b83880d3d16e5fb3c8e7334f611ec6c9d7bd61adfd1c5b",
+    "reports/final_dataset_meeting_2026-10-15.pdf": "9de73f6be39b1eaf0bfc561e749a21771ccd3bf6b8de2c96670bcf63db5be8c0"
+  }
+}

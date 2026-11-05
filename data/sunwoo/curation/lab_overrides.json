@@ -1,0 +1,309 @@
+{
+ "1bef128cdf09045b9dc8ab50733a08e2": {
+  "name_en": "Computing for Embedded Lightweight Learning",
+  "acronym": "CELL",
+  "source": "https://cell.postech.ac.kr/",
+  "why": "사이트 첫 화면에 풀네임이 있다",
+  "decided": "2026-10-25"
+ },
+ "209a80e9e8e4205c5add535212b0a0ba": {
+  "name_en": "Bio-inspired Robotics and Design Laboratory",
+  "acronym": "BIRD Lab",
+  "source": "https://birdlab.postech.ac.kr",
+  "why": "사이트 첫 화면에 풀네임이 있다",
+  "decided": "2026-10-25",
+  "openalex_author_ids": [
+   "A5000420436"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 5편과 제목 대조(사례집 D-11): A5028265103(Jin Kon Kim, 523편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json"
+ },
+ "543ee1b67121080f7ed4304b31bde36a": {
+  "name_en": "Microbial Metabolite Signal Transduction",
+  "acronym": "MIMEst",
+  "alias": "Ara's Lab",
+  "source": "https://arakoh.wixsite.com/arakoh",
+  "why": "사이트에 'MIcrobial MEtabolite Signal Transduction / MIMEst (Ara's Lab)'로 있다. 약자를 보이려고 대문자로 쓴 글자만 보통 표기로 바꿨다(원래 표기는 raw)",
+  "decided": "2026-10-25"
+ },
+ "554a685e4f5958e2476403f7d3e3633b": {
+  "name_ko": "초음파공학연구실",
+  "name_en": "Ultrasound Research Group",
+  "acronym": null,
+  "alias": "Kim Lab",
+  "source": "http://ultrasound.postech.ac.kr/",
+  "why": "사이트 제목은 'KIM LAB(Ultrasound Research Group@POSTECH)'. Kim Lab은 약자가 아니라 별칭으로 둔다. 한글 이름은 POSTECH 랩큐멘터리 글(intro.source_url)에 있다",
+  "decided": "2026-10-25"
+ },
+ "59095330cef9138909ad7c37a95e7e55": {
+  "name_en": "Media Computing & Networking Lab",
+  "acronym": "MCNL",
+  "alias": "Hybrid P2P Blockchain Research Team",
+  "source": "http://mcnl.postech.ac.kr",
+  "why": "사이트 제목이 MCNL이고, Hybrid P2P Blockchain Research Team은 연구실 안의 팀 이름이다. 두 이름 모두 남긴다",
+  "decided": "2026-10-25"
+ },
+ "6b6d785944d0b63e339c6ee33809e6bb": {
+  "name_en": "Applied Mathematics and Machine Learning Laboratory",
+  "acronym": "AMsquare",
+  "alias": "AM2-LAB",
+  "source": "http://hjhwang.postech.ac.kr",
+  "why": "사이트에 'AM2-LAB / Applied Mathematics and Machine Learning Labatory'로 있다. Labatory는 철자 오류라 Laboratory로 썼다",
+  "decided": "2026-10-25"
+ },
+ "6e6098f39a29a429994ee9927724254d": {
+  "name_en": "Control Theory, Robotics, and Learning",
+  "acronym": "CTRL",
+  "source": "https://sites.google.com/view/postechctrl/ctrl",
+  "why": "사이트 첫 화면에 풀네임이 있다",
+  "decided": "2026-10-25"
+ },
+ "800292c887b4b94b4e93979d95f14239": {
+  "acronym": "SEOL",
+  "source": "https://smd-lab.com/",
+  "why": "사이트(제목 'SEOL - POSTECH GIFT')에 풀네임이 없어 약자 그대로 둔다",
+  "decided": "2026-10-25"
+ },
+ "9c2741540c4286d26221b8f2701304f2": {
+  "name_en": "Machine Learning Lab",
+  "acronym": "ML Lab",
+  "source": "http://ml.postech.ac.kr/",
+  "why": "사이트 제목이 'Machine Learning Lab @ Postech'이다",
+  "decided": "2026-10-25",
+  "openalex_author_ids": [
+   "A5014443062"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 20편과 제목 대조(사례집 D-11): A5140657858(Sangdon Park, 3편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json"
+ },
+ "a884b1d54c2547e8e5d55978297cbf47": {
+  "name_en": "Artificial Intelligence of Things Laboratory",
+  "acronym": "AIoT Laboratory",
+  "url": "https://aiot.postech.ac.kr/",
+  "source": "https://aiot.postech.ac.kr/",
+  "why": "사이트 첫 화면에 풀네임이 있다. 기록된 http 주소는 404가 나고 https 주소만 열린다(사례집 A-06)",
+  "decided": "2026-10-25"
+ },
+ "c7cdff754981e682e5f71a4e7426e599": {
+  "name_en": "Wave Arrays & Display Engineering Lab",
+  "acronym": "WADE Research Group",
+  "source": "https://sites.google.com/view/kimwooksung",
+  "why": "사이트 첫 화면에 풀네임이 있다",
+  "decided": "2026-10-25"
+ },
+ "d70c4a6844cff7f924b9dcccee67c11b": {
+  "name_en": "Surface Engineering Nuclear materials research group",
+  "acronym": "SEN Lab",
+  "source": "https://sites.google.com/view/sen-lab/home",
+  "why": "사이트 첫 화면에 'SEN Lab / Surface Engineering Nuclear materials research group'으로 있다. 표기 그대로 옮겼다",
+  "decided": "2026-10-25"
+ },
+ "df4bd10ef0d157c94cc1d0af5af628d5": {
+  "name_en": "Multimodal Orchestration of Artificial Intelligence Lab",
+  "acronym": "MOAI Lab",
+  "url": "https://moai-postech.github.io/",
+  "source": "https://moai-postech.github.io/",
+  "why": "기록된 연구실 링크(sites.google.com/view/lab-moai)는 세종대 김정현 교수의 같은 이름 연구실이다. 교수 개인 페이지(extra_links)가 가리키는 POSTECH 연구실 사이트로 바꾸고, 거기 있는 풀네임을 쓴다(사례집 A-16)",
+  "decided": "2026-10-25"
+ },
+ "f6eab148298d59247c161e08e218e116": {
+  "name_en": "Computational Metallurgy Laboratory in GIFT",
+  "alias": "Advanced Structural Alloy Laboratory in MSE",
+  "source": "http://cml.postech.ac.kr/",
+  "why": "사이트 첫 화면에 두 소속(친환경소재대학원·신소재공학과)의 연구실 이름이 함께 있다. 둘 다 남긴다",
+  "decided": "2026-10-25"
+ },
+ "092088c19c65bcacefd6d9713f954a06": {
+  "openalex_author_ids": [
+   "A5001055290",
+   "A5122310515"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 456편과 제목 대조(사례집 D-11): A5124065464(Young Tae Chang, 32편 중 목록 논문 1편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "0a6ff7bc33b7ed4911d691f6ab0c5136": {
+  "openalex_author_ids": [
+   "A5100324409"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 19편과 제목 대조(사례집 D-11): A5100324409(Sungwoo Park, 306편 중 목록 논문 14편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "0a808026bdf92ba0c4cc4c5bd2456eb6": {
+  "openalex_author_ids": [
+   "A5060796492"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 66편과 제목 대조(사례집 D-11): A5049535263(J. H. Seo, 3편 중 목록 논문 1편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "0ee287568e5625227fa66d9143fd1a89": {
+  "openalex_author_ids": [
+   "A5056837040",
+   "A5121839584"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 69편과 제목 대조(사례집 D-11): A5122919789(Hyomin Lee, 4편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "2ee4c28811b498945b87f5d3a4aaadf0": {
+  "openalex_author_ids": [
+   "A5113258710",
+   "A5013766529"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 9편과 제목 대조(사례집 D-11): A5013766529(Myunghoon Kang, 11편 중 목록 논문 6편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "2f3366b15c7c160f55ef87fca51bf8c8": {
+  "openalex_author_ids": [
+   "A5100440441"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 88편과 제목 대조(사례집 D-11): A5055588350(Young-Jin Kim, 1편 중 목록 논문 0편) 뺌, A5060994300(Y. T. Kim, 4편 중 목록 논문 0편) 뺌, A5103383244(Y. S. Kim, 8편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "3cf13955f9df42105905a333b6204179": {
+  "openalex_author_ids": [
+   "A5101557261"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 51편과 제목 대조(사례집 D-11): A5128627577(Minah Lee, 0편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "4523ab01bf3bacfe42c50778873495b7": {
+  "openalex_author_ids": [
+   "A5008477395"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 0편과 제목 대조(사례집 D-11): A5125916960(Heechan Kim, 0편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "57060a1ca8292869afb633bb00ce7204": {
+  "openalex_author_ids": [
+   "A5073968015"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 309편과 제목 대조(사례집 D-11): A5026999837(Byung Ju Lee, 152편 중 목록 논문 1편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "5830da08c1f40c9cff0b8804c57bef29": {
+  "openalex_author_ids": [
+   "A5128915809",
+   "A5004216860"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 89편과 제목 대조(사례집 D-11): A5004216860(Seok Kim, 32편 중 목록 논문 22편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "7e21ea71de8805264e1b2355ef104dee": {
+  "openalex_author_ids": [
+   "A5004413201"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 69편과 제목 대조(사례집 D-11): A5121322001(Seungsoo Oh, 0편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "8296556464bdebca77b25830678fd37b": {
+  "openalex_author_ids": [
+   "A5100342105"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 21편과 제목 대조(사례집 D-11): A5136565038(Sangmin Lee, 0편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "86b6cc6dac0b7793853eff49fe69c0ee": {
+  "openalex_author_ids": [
+   "A5100635271",
+   "A5143759395"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 65편과 제목 대조(사례집 D-11): A5033548621(J Kim, 8편 중 목록 논문 2편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "884a9749b730dbd52a38156208defe69": {
+  "openalex_author_ids": [
+   "A5034657214"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 44편과 제목 대조(사례집 D-11): A5000548729(Yoontae Lee, 0편 중 목록 논문 0편) 뺌, A5122532448(Yoontae Lee, 0편 중 목록 논문 0편) 뺌, A5034657214(Yoontae Lee, 76편 중 목록 논문 41편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "953898cd997f22be7dced291ed7c848e": {
+  "openalex_author_ids": [
+   "A5105983024",
+   "A5124429028"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 109편과 제목 대조(사례집 D-11): A5021015218(B. Y. Lee, 3편 중 목록 논문 1편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "9791d5d87862c58a75052a9509f1c56d": {
+  "openalex_author_ids": [
+   "A5109091214"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 62편과 제목 대조(사례집 D-11): A5048461457(Joo‐Yeon Yoo, 0편 중 목록 논문 0편) 뺌, A5109091214(Joo-Yeon Yoo, 75편 중 목록 논문 47편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "adf0ab4b14195342b91f258f17a6c087": {
+  "openalex_author_ids": [
+   "A5111927900",
+   "A5048224465"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 155편과 제목 대조(사례집 D-11): A5091790362(J. M. S. Park, 2편 중 목록 논문 0편) 뺌, A5048224465(Jae‐Hoon Park, 264편 중 목록 논문 98편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "c174028db6bfa33551de1ecbf77feb6e": {
+  "openalex_author_ids": [
+   "A5144188893"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 18편과 제목 대조(사례집 D-11): A5123543117(Dongil Shin, 0편 중 목록 논문 0편) 뺌, A5144188893(Dongil Shin, 39편 중 목록 논문 18편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "c36bdd99f8ce66c4a4ab7258d257c8a8": {
+  "openalex_author_ids": [
+   "A5100767722"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 40편과 제목 대조(사례집 D-11): A5113847058(Jun-Ho Kim, 37편 중 목록 논문 1편) 뺌, A5100767722(Jonghwan Kim, 36편 중 목록 논문 16편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "ca582d6a0b812ba87c27f95338ba11dd": {
+  "openalex_author_ids": [
+   "A5140049531",
+   "A5136683565"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 5편과 제목 대조(사례집 D-11): A5135134030(Jongshin Kim, 1편 중 목록 논문 0편) 뺌",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "cc1629b654bce21536b3c021d12dfddf": {
+  "openalex_author_ids": [
+   "A5121978804",
+   "A5003695234"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 232편과 제목 대조(사례집 D-11): A5003695234(Gi‐Ra Yi, 312편 중 목록 논문 224편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "cc1d600a3f6a859f24fb5b91d04320d3": {
+  "openalex_author_ids": [
+   "A5024062439"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 225편과 제목 대조(사례집 D-11): A5036365152(K. Lee, 2편 중 목록 논문 1편) 뺌, A5024062439(Kitack Lee, 260편 중 목록 논문 139편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ },
+ "f4492b80c937a00d16f88950a62351c0": {
+  "openalex_author_ids": [
+   "A5068961376"
+  ],
+  "openalex_why": "학교 연구자 검색 논문 목록 16편과 제목 대조(사례집 D-11): A5085510614(Jinhee Song, 7편 중 목록 논문 3편) 뺌, A5068961376(Jae Yong Song, 160편 중 목록 논문 12편) 더함",
+  "openalex_source": "data/curation/openalex_paper_match.json",
+  "decided": "2026-10-26"
+ }
+}

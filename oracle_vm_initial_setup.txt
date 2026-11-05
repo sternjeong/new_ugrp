@@ -1,0 +1,16 @@
+# Oracle Cloud Console에서 공인 IP 155.248.178.61인 인스턴스의 터미널을 연 뒤 실행하세요.
+# quant-vm / 공인 IP 138.2.11.196의 터미널에서는 실행하지 마세요.
+whoami
+hostname
+cat /etc/os-release | head -5
+ugrp_public_ip="$(curl -fsS --max-time 8 https://api.ipify.org)"
+printf '현재 서버 공인 IP: %s\n' "$ugrp_public_ip"
+
+if [ "$ugrp_public_ip" = '155.248.178.61' ]; then
+  mkdir -p ~/.ssh && chmod 700 ~/.ssh
+  printf '%s\n' 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEa3UtiPMZhlhrHLmrIoHMioku9aaqefB4Qc2GVeBksS ugrp-deploy-2026-11-02' >> ~/.ssh/authorized_keys
+  chmod 600 ~/.ssh/authorized_keys
+  echo '배포 대상 서버에 SSH 공개 키 등록 완료'
+else
+  echo '배포 대상 IP가 아니므로 공개 키를 등록하지 않았습니다.'
+fi

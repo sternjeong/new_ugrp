@@ -1,0 +1,212 @@
+{
+ "_about": "학과 이름 대응표(데이터 README X-04). 키는 연구실 데이터(data/labs.jsonl의 professor.departments)가 쓰는 이름이다. course_names는 과목 데이터(_dept)에 쓰인 다른 이름, former_names는 예전 이름, code_prefixes는 과목 데이터에서 그 단위 이름으로 열린 과목의 학수번호 앞 글자다(많은 순, 2026-10-26 과목 데이터에서 셈). kind: department(교수가 소속되는 학과·학부·대학원), major(교수가 본 학과와 함께 갖는 겸임 소속), program(교수가 따로 소속되지 않고 여러 학과 교수가 겸임으로 가르치는 과정). program 과목의 담당교수는 학과로 맞출 수 없어 이름으로만 잇는다(tools/build_courses.py).",
+ "units": {
+  "인문사회학부": {
+   "kind": "department",
+   "former_names": [
+    "인문사회과학부"
+   ],
+   "code_prefixes": [
+    "GEDU",
+    "SOSC",
+    "CMEF",
+    "CMST",
+    "HUMN",
+    "WISOSC",
+    "ARTS",
+    "WIHUMN",
+    "CMCC",
+    "HASS",
+    "WICMEF",
+    "CONF",
+    "WICONF",
+    "WICMST"
+   ],
+   "note": "공식 명칭(사례집 A-14)"
+  },
+  "전자전기공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "EECE",
+    "DISU",
+    "NGCN"
+   ]
+  },
+  "컴퓨터공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "CSED"
+   ]
+  },
+  "물리학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "PHYS"
+   ]
+  },
+  "화학공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "CHEB"
+   ]
+  },
+  "수학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "MATH"
+   ]
+  },
+  "기계공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "MECH"
+   ]
+  },
+  "신소재공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "AMSE"
+   ]
+  },
+  "산업경영공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "IMEN",
+    "ENTP"
+   ]
+  },
+  "생명과학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "LIFE"
+   ]
+  },
+  "화학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "CHEM"
+   ]
+  },
+  "인공지능대학원": {
+   "kind": "department",
+   "code_prefixes": [
+    "AIGS"
+   ]
+  },
+  "반도체공학과": {
+   "kind": "department",
+   "code_prefixes": [
+    "SEMI"
+   ],
+   "note": "반도체대학원과 다른 단위. 이 학과 과목의 상당수를 반도체대학원·전자전기공학과 교수가 가르친다"
+  },
+  "반도체대학원": {
+   "kind": "department",
+   "code_prefixes": [
+    "GSST"
+   ]
+  },
+  "첨단원자력공학부": {
+   "kind": "department",
+   "code_prefixes": [
+    "NUCE"
+   ]
+  },
+  "환경공학부": {
+   "kind": "department",
+   "code_prefixes": [
+    "EVSE"
+   ]
+  },
+  "첨단재료과학부": {
+   "kind": "department",
+   "code_prefixes": [
+    "ADMS"
+   ]
+  },
+  "의공학과": {
+   "kind": "department",
+   "former_names": [
+    "IT융합공학과"
+   ],
+   "code_prefixes": [
+    "CITE"
+   ],
+   "note": "2026년에 IT융합공학과에서 이름이 바뀌었다(사용자 확인, 2026-10-26). 두 이름의 과목이 같은 학수번호 앞 글자 CITE를 쓴다"
+  },
+  "친환경소재대학원 친환경소재학과": {
+   "kind": "department",
+   "course_names": [
+    "친환경소재학과"
+   ],
+   "code_prefixes": [
+    "GIFT"
+   ]
+  },
+  "친환경소재대학원 배터리공학과": {
+   "kind": "department",
+   "course_names": [
+    "배터리공학과"
+   ],
+   "code_prefixes": [
+    "BATT"
+   ]
+  },
+  "의과학전공": {
+   "kind": "major",
+   "note": "교수가 본 학과와 함께 갖는 소속으로만 나온다(생명과학과·화학과·의공학과 등). 과목 데이터에는 이 이름의 과목이 없다"
+  },
+  "합성생물학전공": {
+   "kind": "major",
+   "note": "교수가 본 학과와 함께 갖는 소속으로만 나온다. 융합대학원의 SYNB 과목과 관련이 있어 보이지만 확인하지 않았다"
+  },
+  "융합대학원": {
+   "kind": "program",
+   "code_prefixes": [
+    "PMSE",
+    "QIST",
+    "MSIP",
+    "IDSC",
+    "SDST",
+    "PSDS",
+    "PCFT",
+    "SYNB",
+    "AXGS"
+   ],
+   "note": "대학원에만 있는 명칭이고, 여러 학과 교수가 겸임으로 가르친다(사용자 확인, 2026-10-26). 학수번호 앞 글자로 과정 9개가 나뉜다"
+  },
+  "시스템생명공학부": {
+   "kind": "program",
+   "code_prefixes": [
+    "IBIO"
+   ],
+   "note": "연구실 데이터에 이 소속의 교수가 없고, 생명과학과·환경공학부·물리학과 등 교수가 가르친다. 단위의 성격은 확인 필요"
+  },
+  "교육혁신센터": {
+   "kind": "program",
+   "code_prefixes": [
+    "YSOC",
+    "ICEC",
+    "OFFC"
+   ]
+  },
+  "무은재학부": {
+   "kind": "program",
+   "code_prefixes": [
+    "MSUS"
+   ]
+  },
+  "포스텍-삼성전자 반도체 교육프로그램": {
+   "kind": "program",
+   "code_prefixes": [
+    "PSEP"
+   ]
+  },
+  "스포츠 AIX 융복합 대학원 프로그램": {
+   "kind": "program",
+   "code_prefixes": [
+    "SAIX"
+   ]
+  }
+ }
+}

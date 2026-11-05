@@ -1,0 +1,498 @@
+{
+  "analyzed_on": "2026-10-08",
+  "files": {
+    "lab_processed.jsonl": {
+      "records": 60,
+      "sha256": "a6f0aec0bde35d1e30983de04898fb81382e98b34c6539e12d5becb254798619",
+      "fields": {
+        "admission": {
+          "present": 60,
+          "nonempty": 10,
+          "types": {
+            "NoneType": 50,
+            "str": 10
+          },
+          "nonempty_string_chars": {
+            "min": 7,
+            "median": 946.5,
+            "max": 6142
+          }
+        },
+        "department": {
+          "present": 60,
+          "nonempty": 60,
+          "types": {
+            "str": 60
+          },
+          "nonempty_string_chars": {
+            "min": 14,
+            "median": 16.0,
+            "max": 25
+          }
+        },
+        "lab_url": {
+          "present": 60,
+          "nonempty": 60,
+          "types": {
+            "str": 60
+          },
+          "nonempty_string_chars": {
+            "min": 22,
+            "median": 27.0,
+            "max": 57
+          }
+        },
+        "name": {
+          "present": 60,
+          "nonempty": 60,
+          "types": {
+            "str": 60
+          },
+          "nonempty_string_chars": {
+            "min": 13,
+            "median": 18.0,
+            "max": 21
+          }
+        },
+        "publications": {
+          "present": 60,
+          "nonempty": 40,
+          "types": {
+            "NoneType": 20,
+            "str": 40
+          },
+          "nonempty_string_chars": {
+            "min": 59,
+            "median": 2931.5,
+            "max": 2999
+          }
+        },
+        "research_intro": {
+          "present": 60,
+          "nonempty": 57,
+          "types": {
+            "str": 57,
+            "NoneType": 3
+          },
+          "nonempty_string_chars": {
+            "min": 66,
+            "median": 1725,
+            "max": 66798
+          }
+        },
+        "source": {
+          "present": 60,
+          "nonempty": 60,
+          "types": {
+            "str": 60
+          },
+          "nonempty_string_chars": {
+            "min": 11,
+            "median": 11.0,
+            "max": 21
+          }
+        }
+      }
+    },
+    "UG_2026_curriculum_courses.jsonl": {
+      "records": 419,
+      "sha256": "b8c31a09754d2c87806789d6f4191fc92ceb9e90e0af1bec58cb021b884cc2b6",
+      "fields": {
+        "content": {
+          "present": 419,
+          "nonempty": 418,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 10,
+            "median": 161.0,
+            "max": 650
+          }
+        },
+        "course_code": {
+          "present": 419,
+          "nonempty": 419,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 7,
+            "median": 7,
+            "max": 23
+          }
+        },
+        "course_name_en": {
+          "present": 419,
+          "nonempty": 419,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 6,
+            "median": 28,
+            "max": 99
+          }
+        },
+        "course_name_kr": {
+          "present": 419,
+          "nonempty": 419,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 2,
+            "median": 7,
+            "max": 46
+          }
+        },
+        "course_objectives": {
+          "present": 419,
+          "nonempty": 408,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 1,
+            "median": 325.5,
+            "max": 2595
+          }
+        },
+        "course_plan": {
+          "present": 419,
+          "nonempty": 397,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 1,
+            "median": 504,
+            "max": 4260
+          }
+        },
+        "course_references": {
+          "present": 419,
+          "nonempty": 324,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 1,
+            "median": 144.5,
+            "max": 1385
+          }
+        },
+        "credit": {
+          "present": 419,
+          "nonempty": 419,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 4,
+            "median": 5,
+            "max": 19
+          }
+        },
+        "prerequisites": {
+          "present": 419,
+          "nonempty": 336,
+          "types": {
+            "str": 419
+          },
+          "nonempty_string_chars": {
+            "min": 1,
+            "median": 39.5,
+            "max": 865
+          }
+        },
+        "syllabus_matched_code": {
+          "present": 24,
+          "nonempty": 24,
+          "types": {
+            "NoneType": 395,
+            "str": 24
+          },
+          "nonempty_string_chars": {
+            "min": 7,
+            "median": 7.0,
+            "max": 8
+          }
+        },
+        "syllabus_source_id": {
+          "present": 419,
+          "nonempty": 419,
+          "types": {
+            "int": 418,
+            "str": 1
+          },
+          "nonempty_string_chars": {
+            "min": 11,
+            "median": 11,
+            "max": 11
+          }
+        }
+      }
+    }
+  },
+  "lab_analysis": {
+    "departments": {
+      "Computer Science": 26,
+      "Electrical Engineering": 27,
+      "IT Convergence": 6,
+      "Semiconductor Engineering": 1
+    },
+    "source_categories": {
+      "unclassified_fallback": 14,
+      "categorized": 46
+    },
+    "duplicate_homepage_urls": {
+      "http://mad.postech.ac.kr/": 2
+    },
+    "shorter_publications_than_app": [
+      {
+        "professor": "공병돈 (Byung-Don Kong)",
+        "input_chars": 2996,
+        "app_chars": 20874,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김욱성 (Wook Sung Kim)",
+        "input_chars": 2967,
+        "app_chars": 22681,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "백창기 (Chang Ki Baek)",
+        "input_chars": 2884,
+        "app_chars": 3909,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김상우 (Sang Woo Kim)",
+        "input_chars": 2999,
+        "app_chars": 31623,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "박부견 (Boogyeom Park)",
+        "input_chars": 2830,
+        "app_chars": 3572,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김용준 (Yongjune Kim)",
+        "input_chars": 2995,
+        "app_chars": 21616,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "이문주 (Moo Lee)",
+        "input_chars": 2927,
+        "app_chars": 9543,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "황인석 (Inseok Hwang)",
+        "input_chars": 2921,
+        "app_chars": 25850,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "최수석 (Soosung Choi)",
+        "input_chars": 2778,
+        "app_chars": 81745,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "이병훈 (Byung Hoon Lee)",
+        "input_chars": 2920,
+        "app_chars": 8094,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "전요셉 (Yoseb Jeon)",
+        "input_chars": 2959,
+        "app_chars": 14958,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "백승환 (Seunghwan Baek)",
+        "input_chars": 2995,
+        "app_chars": 13349,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "송황준 (Hwangjun Song)",
+        "input_chars": 2951,
+        "app_chars": 16531,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "한욱신 (Wook Shin Han)",
+        "input_chars": 2973,
+        "app_chars": 46113,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "한해욱 (Hae-Uk Han)",
+        "input_chars": 2874,
+        "app_chars": 16818,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김병섭 (Byungsub Kim)",
+        "input_chars": 2925,
+        "app_chars": 4589,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "오은진 (Eunjin Oh)",
+        "input_chars": 2958,
+        "app_chars": 4482,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "유환조 (Hwanjo Yu)",
+        "input_chars": 2993,
+        "app_chars": 40687,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김철홍 (Chul Hong Kim)",
+        "input_chars": 2951,
+        "app_chars": 82605,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김형함 (Hyungham Kim)",
+        "input_chars": 2908,
+        "app_chars": 3215,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "박성민 (Sung Min Park)",
+        "input_chars": 2952,
+        "app_chars": 31340,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "조민수 (Minsu Cho)",
+        "input_chars": 2977,
+        "app_chars": 27785,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "김광인 (Kwang In Kim)",
+        "input_chars": 2995,
+        "app_chars": 11542,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "안성수 (Sungsoo Ahn)",
+        "input_chars": 2960,
+        "app_chars": 13361,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "이근배 (Geun Bae Lee)",
+        "input_chars": 2936,
+        "app_chars": 121842,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "이승구 (Seung-Gu Lee)",
+        "input_chars": 2797,
+        "app_chars": 3600,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "이재호 (Jaeho Lee)",
+        "input_chars": 2980,
+        "app_chars": 8043,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "박상돈 (Sangdon Park)",
+        "input_chars": 2854,
+        "app_chars": 7502,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "박찬익 (Chan-Ik Park)",
+        "input_chars": 2947,
+        "app_chars": 42769,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "배경민 (Kyung-Min Bae)",
+        "input_chars": 2981,
+        "app_chars": 14600,
+        "normalized_prefix": true
+      },
+      {
+        "professor": "박은혁 (Eun Hyuk Park)",
+        "input_chars": 2996,
+        "app_chars": 11063,
+        "normalized_prefix": true
+      }
+    ]
+  },
+  "course_analysis": {
+    "primary_code_prefixes": {
+      "AMSE": 30,
+      "CHEB": 38,
+      "CHEM": 23,
+      "CITE": 22,
+      "CMEF": 16,
+      "CSED": 37,
+      "DISU": 14,
+      "EECE": 48,
+      "ENTP": 6,
+      "IMEN": 33,
+      "LIFE": 26,
+      "MATH": 36,
+      "MECH": 32,
+      "PHYS": 29,
+      "SEMI": 29
+    },
+    "compound_code_records": [
+      "CITE241/MECH361",
+      "CITE411/IMEN412/ENTP301",
+      "CITE421/CSED357",
+      "CITE441/EECE423",
+      "CITE451/MECH423",
+      "EECE100/DISU101",
+      "EECE231/DISU231",
+      "EECE361/DISU361",
+      "EECE412/DISU412",
+      "EECE419/DISU404",
+      "EECE434/DISU434",
+      "EECE442/NGCN301",
+      "EECE443/NGCN302",
+      "MATH301, 302",
+      "MATH311, 312",
+      "PHYS101, 102",
+      "PHYS101H, 102H",
+      "PHYS110, 111",
+      "PHYS250, 351",
+      "PHYS431, 432"
+    ],
+    "syllabus_matched_code_records": 24,
+    "non_integer_syllabus_source_ids": [
+      {
+        "course_code": "EECE419/DISU404",
+        "value": "raw:EECE419"
+      }
+    ],
+    "matches_app_fields": {
+      "content": 419,
+      "course_objectives": 419,
+      "prerequisites": 419,
+      "course_plan": 419,
+      "credit": 419,
+      "course_name_kr": 419,
+      "course_name_en": 419
+    }
+  }
+}

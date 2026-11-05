@@ -1,0 +1,2501 @@
+{
+ "q01": {
+  "raw": "강화학습에 관심 있어요",
+  "norm": "강화학습에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "강화학습"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "reinforcement_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "강화학습": [
+    "reinforcement_learning"
+   ]
+  }
+ },
+ "q02": {
+  "raw": "자연어처리 연구를 해보고 싶어요",
+  "norm": "자연어처리 연구를 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "자연어처리 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "자연어처리 연구": [
+    "nlp"
+   ]
+  }
+ },
+ "q03": {
+  "raw": "컴퓨터 비전이 재밌어요",
+  "norm": "컴퓨터 비전이 재밌어요",
+  "flags": [],
+  "likes": [
+   "컴퓨터 비전"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_vision"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터 비전": [
+    "computer_vision"
+   ]
+  }
+ },
+ "q04": {
+  "raw": "반도체 소자를 공부하고 싶어요",
+  "norm": "반도체 소자를 공부하고 싶어요",
+  "flags": [],
+  "likes": [
+   "반도체 소자"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "semiconductor_devices"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "반도체 소자": [
+    "semiconductor_devices"
+   ]
+  }
+ },
+ "q05": {
+  "raw": "보안과 해킹에 관심이 있어요",
+  "norm": "보안과 해킹에 관심이 있어요",
+  "flags": [],
+  "likes": [
+   "보안",
+   "해킹"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "system_security"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "보안": [
+    "system_security"
+   ],
+   "해킹": [
+    "system_security"
+   ]
+  }
+ },
+ "q06": {
+  "raw": "배터리 연구가 궁금해요",
+  "norm": "배터리 연구가 궁금해요",
+  "flags": [],
+  "likes": [
+   "배터리 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "battery_energy"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "배터리 연구": [
+    "battery_energy"
+   ]
+  }
+ },
+ "q07": {
+  "raw": "카메라로 찍은 영상에서 물체를 알아보는 기술이 궁금해요",
+  "norm": "카메라로 찍은 영상에서 물체를 알아보는 기술이 궁금해요",
+  "flags": [],
+  "likes": [
+   "카메라로 찍은 영상에서 물체를 알아보는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computational_imaging",
+   "computer_vision"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "카메라로 찍은 영상에서 물체를 알아보는 기술": [
+    "computational_imaging",
+    "computer_vision"
+   ]
+  }
+ },
+ "q08": {
+  "raw": "챗GPT 같은 대화형 AI가 어떻게 동작하는지 알고 싶어요",
+  "norm": "언어모델 같은 대화형 AI가 어떻게 동작하는지 알고 싶어요",
+  "flags": [],
+  "likes": [
+   "언어모델 같은 대화형 AI가 어떻게 동작하는지"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "machine_learning",
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "언어모델 같은 대화형 AI가 어떻게 동작하는지": [
+    "machine_learning",
+    "nlp"
+   ]
+  }
+ },
+ "q09": {
+  "raw": "스마트폰이나 시계로 사람의 건강 상태를 재는 기술을 하고 싶어요",
+  "norm": "스마트폰이나 시계로 사람의 건강 상태를 재는 기술을 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "스마트폰",
+   "시계로 사람의 건강 상태를 재는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "ubiquitous_mobile_computing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "스마트폰": [
+    "ubiquitous_mobile_computing"
+   ],
+   "시계로 사람의 건강 상태를 재는 기술": []
+  }
+ },
+ "q10": {
+  "raw": "전기차 충전이나 전력을 효율적으로 바꾸는 장치에 관심 있어요",
+  "norm": "전기차 충전이나 전력을 효율적으로 바꾸는 장치에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "전기차 충전",
+   "전력을 효율적으로 바꾸는 장치"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "power_electronics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "전기차 충전": [
+    "power_electronics"
+   ],
+   "전력을 효율적으로 바꾸는 장치": [
+    "power_electronics"
+   ]
+  }
+ },
+ "q11": {
+  "raw": "AI 모델을 작은 기기에서도 빠르게 돌리고 싶어요",
+  "norm": "AI 모델을 작은 기기에서도 빠르게 돌리고 싶어요",
+  "flags": [],
+  "likes": [
+   "AI 모델을 작은 기기에서도 빠르게"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "AI 모델을 작은 기기에서도 빠르게": [
+    "machine_learning"
+   ]
+  }
+ },
+ "q12": {
+  "raw": "가상 공간에서 물체를 만지는 느낌을 만들고 싶어요",
+  "norm": "가상 공간에서 물체를 만지는 느낌을 만들고 싶어요",
+  "flags": [],
+  "likes": [
+   "가상 공간에서 물체를 만지는 느낌"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "search",
+  "phrase_concepts": {
+   "가상 공간에서 물체를 만지는 느낌": []
+  }
+ },
+ "q13": {
+  "raw": "개인정보가 새지 않게 지키는 기술이 궁금해요",
+  "norm": "개인정보가 새지 않게 지키는 기술이 궁금해요",
+  "flags": [],
+  "likes": [
+   "개인정보가 새지 않게 지키는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "cryptography_privacy"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "개인정보가 새지 않게 지키는 기술": [
+    "cryptography_privacy"
+   ]
+  }
+ },
+ "q14": {
+  "raw": "5G 6G 같은 차세대 통신 기술을 연구하고 싶어요",
+  "norm": "5G 6G 같은 차세대 통신 기술을 연구하고 싶어요",
+  "flags": [],
+  "likes": [
+   "5G 6G 같은 차세대 통신 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "wireless_communications"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "5G 6G 같은 차세대 통신 기술": [
+    "wireless_communications"
+   ]
+  }
+ },
+ "q15": {
+  "raw": "나는 로봇은 싫은데 컴퓨터 아키텍처는 좋아요",
+  "norm": "나는 로봇은 싫은데 컴퓨터 구조는 좋아요",
+  "flags": [],
+  "likes": [
+   "컴퓨터 구조"
+  ],
+  "dislikes": [
+   "로봇"
+  ],
+  "concepts": [
+   "computer_architecture",
+   "robotics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터 구조": [
+    "computer_architecture"
+   ]
+  }
+ },
+ "q16": {
+  "raw": "AI는 별로고 반도체 회로 설계가 좋아요",
+  "norm": "AI는 별로고 반도체 회로 설계가 좋아요",
+  "flags": [],
+  "likes": [
+   "반도체 회로 설계"
+  ],
+  "dislikes": [
+   "AI"
+  ],
+  "concepts": [
+   "circuit_design",
+   "machine_learning",
+   "semiconductor_devices"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "반도체 회로 설계": [
+    "circuit_design",
+    "semiconductor_devices"
+   ]
+  }
+ },
+ "q17": {
+  "raw": "보안은 관심 없고 네트워크가 좋아요",
+  "norm": "보안은 관심 없고 네트워크가 좋아요",
+  "flags": [],
+  "likes": [
+   "네트워크"
+  ],
+  "dislikes": [
+   "보안"
+  ],
+  "concepts": [
+   "networking_iot",
+   "system_security"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "네트워크": [
+    "networking_iot"
+   ]
+  }
+ },
+ "q18": {
+  "raw": "이미지는 싫고 언어나 글을 다루는 연구가 좋아요",
+  "norm": "이미지는 싫고 언어나 글을 다루는 연구가 좋아요",
+  "flags": [],
+  "likes": [
+   "언어",
+   "글을 다루는 연구"
+  ],
+  "dislikes": [
+   "이미지"
+  ],
+  "concepts": [
+   "computer_vision",
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "언어": [
+    "nlp"
+   ],
+   "글을 다루는 연구": [
+    "nlp"
+   ]
+  }
+ },
+ "q19": {
+  "raw": "배터리 말고 전력전자나 회로 쪽이 좋아요",
+  "norm": "배터리 말고 전력전자나 회로 쪽이 좋아요",
+  "flags": [],
+  "likes": [
+   "전력전자",
+   "회로"
+  ],
+  "dislikes": [
+   "배터리"
+  ],
+  "concepts": [
+   "battery_energy",
+   "circuit_design",
+   "power_electronics",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "전력전자": [
+    "power_electronics"
+   ],
+   "회로": [
+    "circuit_design"
+   ]
+  }
+ },
+ "q20": {
+  "raw": "이론은 어렵고 직접 만드는 로봇이 좋아요",
+  "norm": "이론은 어렵고 직접 만드는 로봇이 좋아요",
+  "flags": [],
+  "likes": [
+   "만드는 로봇"
+  ],
+  "dislikes": [
+   "이론"
+  ],
+  "concepts": [
+   "algorithms_theory",
+   "robotics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "만드는 로봇": [
+    "robotics"
+   ]
+  }
+ },
+ "q21": {
+  "raw": "음성은 빼고 영상 쪽을 하고 싶어요",
+  "norm": "음성은 빼고 영상 쪽을 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "영상"
+  ],
+  "dislikes": [
+   "음성"
+  ],
+  "concepts": [
+   "computer_vision",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "영상": [
+    "computer_vision"
+   ]
+  }
+ },
+ "q22": {
+  "raw": "VR은 질렸고 햅틱이나 촉각에 관심 있어요",
+  "norm": "VR은 질렸고 햅틱이나 촉각에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "햅틱",
+   "촉각"
+  ],
+  "dislikes": [
+   "VR"
+  ],
+  "concepts": [
+   "haptics",
+   "vr_ar_xr"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "햅틱": [
+    "haptics"
+   ],
+   "촉각": [
+    "haptics"
+   ]
+  }
+ },
+ "q23": {
+  "raw": "컴퓨터 아키텍처를 공부하고 싶어요",
+  "norm": "컴퓨터 구조를 공부하고 싶어요",
+  "flags": [],
+  "likes": [
+   "컴퓨터 구조"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터 구조": [
+    "computer_architecture"
+   ]
+  }
+ },
+ "q24": {
+  "raw": "컴퓨터 비전과 그래픽스를 하고 싶어요",
+  "norm": "컴퓨터 비전과 그래픽스를 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "컴퓨터 비전",
+   "그래픽스"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_graphics",
+   "computer_vision"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터 비전": [
+    "computer_vision"
+   ],
+   "그래픽스": [
+    "computer_graphics"
+   ]
+  }
+ },
+ "q25": {
+  "raw": "운영 체제와 스토리지 시스템이 궁금해요",
+  "norm": "운영 체제와 스토리지 시스템이 궁금해요",
+  "flags": [],
+  "likes": [
+   "운영 체제",
+   "스토리지 시스템"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "operating_systems_storage"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "운영 체제": [
+    "operating_systems_storage"
+   ],
+   "스토리지 시스템": [
+    "operating_systems_storage"
+   ]
+  }
+ },
+ "q26": {
+  "raw": "그래프 신경망에 관심 있어요",
+  "norm": "그래프 신경망에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "그래프 신경망"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "brain_neuroscience",
+   "graph_learning",
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "그래프 신경망": [
+    "brain_neuroscience",
+    "graph_learning",
+    "machine_learning"
+   ]
+  }
+ },
+ "q27": {
+  "raw": "분산 학습과 연합 학습을 하고 싶어요",
+  "norm": "분산 학습과 연합 학습을 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "분산 학습",
+   "연합 학습"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "distributed_systems_blockchain",
+   "federated_distributed_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "분산 학습": [
+    "distributed_systems_blockchain",
+    "federated_distributed_learning"
+   ],
+   "연합 학습": []
+  }
+ },
+ "q28": {
+  "raw": "소프트웨어 검증과 형식 기법이 궁금해요",
+  "norm": "소프트웨어 검증과 형식 기법이 궁금해요",
+  "flags": [],
+  "likes": [
+   "소프트웨어 검증",
+   "형식 기법"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "formal_methods"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "소프트웨어 검증": [
+    "formal_methods"
+   ],
+   "형식 기법": []
+  }
+ },
+ "q29": {
+  "raw": "월드 모델과 피지컬 AI에 관심 있어요",
+  "norm": "월드 모델과 피지컬 AI에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "월드 모델",
+   "피지컬 AI"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "machine_learning",
+   "world_models_embodied"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "월드 모델": [
+    "world_models_embodied"
+   ],
+   "피지컬 AI": [
+    "machine_learning"
+   ]
+  }
+ },
+ "q30": {
+  "raw": "로봇과 햅틱 둘 다 관심 있어요",
+  "norm": "로봇과 햅틱 둘 다 관심 있어요",
+  "flags": [],
+  "likes": [
+   "로봇",
+   "햅틱"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "haptics",
+   "robotics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "로봇": [
+    "robotics"
+   ],
+   "햅틱": [
+    "haptics"
+   ]
+  }
+ },
+ "q31": {
+  "raw": "신호처리랑 반도체 회로를 같이 해보고 싶어요",
+  "norm": "신호처리랑 반도체 회로를 같이 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "신호처리",
+   "반도체 회로"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "circuit_design",
+   "semiconductor_devices",
+   "signal_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "신호처리": [
+    "signal_processing"
+   ],
+   "반도체 회로": [
+    "circuit_design",
+    "semiconductor_devices"
+   ]
+  }
+ },
+ "q32": {
+  "raw": "의료 영상이랑 AI를 합친 연구가 좋아요",
+  "norm": "의료 영상이랑 AI를 합친 연구가 좋아요",
+  "flags": [],
+  "likes": [
+   "의료 영상",
+   "AI"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "biomedical_imaging",
+   "computer_vision",
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "의료 영상": [
+    "biomedical_imaging",
+    "computer_vision"
+   ],
+   "AI": [
+    "machine_learning"
+   ]
+  }
+ },
+ "q33": {
+  "raw": "자연어처리와 음성에 관심이 있어요",
+  "norm": "자연어처리와 음성에 관심이 있어요",
+  "flags": [],
+  "likes": [
+   "자연어처리",
+   "음성"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "nlp",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "자연어처리": [
+    "nlp"
+   ],
+   "음성": [
+    "speech_processing"
+   ]
+  }
+ },
+ "q34": {
+  "raw": "양자컴퓨팅이랑 암호가 궁금해요",
+  "norm": "양자컴퓨팅이랑 암호가 궁금해요",
+  "flags": [],
+  "likes": [
+   "양자컴퓨팅",
+   "암호"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "cryptography_privacy",
+   "quantum"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "양자컴퓨팅": [
+    "quantum"
+   ],
+   "암호": [
+    "cryptography_privacy"
+   ]
+  }
+ },
+ "q35": {
+  "raw": "보안과 컴퓨터구조 둘 다 좋아요",
+  "norm": "보안과 컴퓨터구조 둘 다 좋아요",
+  "flags": [],
+  "likes": [
+   "보안",
+   "컴퓨터구조"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture",
+   "system_security"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "보안": [
+    "system_security"
+   ],
+   "컴퓨터구조": [
+    "computer_architecture"
+   ]
+  }
+ },
+ "q36": {
+  "raw": "로봇보다는 컴퓨터구조가 좋아요",
+  "norm": "로봇보다는 컴퓨터구조가 좋아요",
+  "flags": [],
+  "likes": [
+   "컴퓨터구조"
+  ],
+  "dislikes": [
+   "로봇"
+  ],
+  "concepts": [
+   "computer_architecture",
+   "robotics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터구조": [
+    "computer_architecture"
+   ]
+  }
+ },
+ "q37": {
+  "raw": "비전보다 언어모델이 좋아요",
+  "norm": "비전보다 언어모델이 좋아요",
+  "flags": [],
+  "likes": [
+   "언어모델"
+  ],
+  "dislikes": [
+   "비전"
+  ],
+  "concepts": [
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "언어모델": [
+    "nlp"
+   ]
+  }
+ },
+ "q38": {
+  "raw": "네트워크는 괜찮은데 보안이 더 끌려요",
+  "norm": "네트워크는 괜찮은데 보안이 더 끌려요",
+  "flags": [
+   "priority"
+  ],
+  "likes": [
+   "네트워크는 괜찮은데 보안"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "networking_iot",
+   "system_security"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "네트워크는 괜찮은데 보안": [
+    "networking_iot",
+    "system_security"
+   ]
+  }
+ },
+ "q39": {
+  "raw": "통신 쪽은 이미 해봐서 이번엔 레이더나 센서가 궁금해요",
+  "norm": "통신 쪽은 이미 해봐서 이번엔 레이더나 센서가 궁금해요",
+  "flags": [
+   "priority"
+  ],
+  "likes": [
+   "통신 해봐서 레이더",
+   "센서"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "biosensors",
+   "radar_sensing",
+   "wireless_communications"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "통신 해봐서 레이더": [
+    "radar_sensing",
+    "wireless_communications"
+   ],
+   "센서": [
+    "biosensors",
+    "radar_sensing"
+   ]
+  }
+ },
+ "t01": {
+  "raw": "음성 인식 쪽을 공부해보고 싶습니다",
+  "norm": "음성 인식 쪽을 공부해보고 싶습니다",
+  "flags": [],
+  "likes": [
+   "음성 인식"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "음성 인식": [
+    "speech_processing"
+   ]
+  }
+ },
+ "t02": {
+  "raw": "블록체인에 관심이 많아요",
+  "norm": "블록체인에 관심이 많아요",
+  "flags": [],
+  "likes": [
+   "블록체인"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "distributed_systems_blockchain"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "블록체인": [
+    "distributed_systems_blockchain"
+   ]
+  }
+ },
+ "t03": {
+  "raw": "양자컴퓨터가 어떻게 동작하는지 궁금해요",
+  "norm": "양자컴퓨터가 어떻게 동작하는지 궁금해요",
+  "flags": [],
+  "likes": [
+   "양자컴퓨터가 어떻게 동작하는지 궁금해"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "quantum"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "양자컴퓨터가 어떻게 동작하는지 궁금해": [
+    "quantum"
+   ]
+  }
+ },
+ "t04": {
+  "raw": "임베디드 시스템을 해보고 싶어요",
+  "norm": "임베디드 시스템을 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "임베디드 시스템"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "embedded_systems"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "임베디드 시스템": [
+    "embedded_systems"
+   ]
+  }
+ },
+ "t05": {
+  "raw": "레이더 신호처리 연구 하고 싶어요",
+  "norm": "레이더 신호처리 연구 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "레이더 신호처리 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "radar_sensing",
+   "signal_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "레이더 신호처리 연구": [
+    "radar_sensing",
+    "signal_processing"
+   ]
+  }
+ },
+ "t06": {
+  "raw": "추천시스템이 궁금합니다",
+  "norm": "추천시스템이 궁금합니다",
+  "flags": [],
+  "likes": [
+   "추천시스템"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "recommender_systems"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "추천시스템": [
+    "recommender_systems"
+   ]
+  }
+ },
+ "t07": {
+  "raw": "운영체제 만드는 일을 하고 싶어요",
+  "norm": "운영체제 만드는 일을 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "운영체제 만드는 일"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "operating_systems_storage"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "운영체제 만드는 일": [
+    "operating_systems_storage"
+   ]
+  }
+ },
+ "t08": {
+  "raw": "디스플레이 기술에 관심 있어요",
+  "norm": "디스플레이 기술에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "디스플레이 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "display_technology"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "디스플레이 기술": [
+    "display_technology"
+   ]
+  }
+ },
+ "t09": {
+  "raw": "유튜브나 넷플릭스가 내 취향을 알아서 영상을 띄워주는 원리가 궁금해요",
+  "norm": "유튜브나 넷플릭스가 내 취향을 알아서 영상을 띄워주는 원리가 궁금해요",
+  "flags": [],
+  "likes": [
+   "유튜브",
+   "넷플릭스가 내 취향을 알아서 영상을 띄워주는 원리"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_vision",
+   "recommender_systems"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "유튜브": [],
+   "넷플릭스가 내 취향을 알아서 영상을 띄워주는 원리": [
+    "computer_vision",
+    "recommender_systems"
+   ]
+  }
+ },
+ "t10": {
+  "raw": "AI가 그림이나 사진을 만들어내는 기술을 연구하고 싶어요",
+  "norm": "AI가 그림이나 사진을 만들어내는 기술을 연구하고 싶어요",
+  "flags": [],
+  "likes": [
+   "AI가 그림",
+   "사진을 만들어내는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computational_imaging",
+   "machine_learning",
+   "semiconductor_process_packaging"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "AI가 그림": [
+    "machine_learning"
+   ],
+   "사진을 만들어내는 기술": [
+    "computational_imaging",
+    "semiconductor_process_packaging"
+   ]
+  }
+ },
+ "t11": {
+  "raw": "해커가 시스템을 뚫는 걸 막는 방법을 배우고 싶어요",
+  "norm": "해커가 시스템을 뚫는 걸 막는 방법을 배우고 싶어요",
+  "flags": [],
+  "likes": [
+   "해커가 시스템을 뚫는 걸 막는 방법"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "search",
+  "phrase_concepts": {
+   "해커가 시스템을 뚫는 걸 막는 방법": []
+  }
+ },
+ "t12": {
+  "raw": "공장 기계가 고장 나기 전에 미리 알아내는 기술",
+  "norm": "공장 기계가 고장 나기 전에 미리 알아내는 기술",
+  "flags": [],
+  "likes": [
+   "공장 기계가 고장 나기 전에 미리 알아내는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "industrial_ai"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "공장 기계가 고장 나기 전에 미리 알아내는 기술": [
+    "industrial_ai"
+   ]
+  }
+ },
+ "t13": {
+  "raw": "몸에 붙이는 센서로 심박이나 수면을 재는 연구",
+  "norm": "몸에 붙이는 센서로 심박이나 수면을 재는 연구",
+  "flags": [],
+  "likes": [
+   "몸에 붙이는 센서로 심박",
+   "수면을 재는 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "biosensors",
+   "radar_sensing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "몸에 붙이는 센서로 심박": [
+    "biosensors",
+    "radar_sensing"
+   ],
+   "수면을 재는 연구": []
+  }
+ },
+ "t14": {
+  "raw": "컴퓨터가 사람 말을 알아듣고 대답하게 만드는 일",
+  "norm": "컴퓨터가 사람 말을 알아듣고 대답하게 만드는 일",
+  "flags": [],
+  "likes": [
+   "컴퓨터가 사람 말을 알아듣고 대답하게 만드는 일"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터가 사람 말을 알아듣고 대답하게 만드는 일": [
+    "speech_processing"
+   ]
+  }
+ },
+ "t15": {
+  "raw": "드론이 알아서 장애물을 피해 날아다니게 하고 싶어요",
+  "norm": "드론이 알아서 장애물을 피해 날아다니게 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "드론이 알아서 장애물을 피해 날아다니게"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "accessibility",
+   "slam_navigation"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "드론이 알아서 장애물을 피해 날아다니게": [
+    "accessibility",
+    "slam_navigation"
+   ]
+  }
+ },
+ "t16": {
+  "raw": "스마트폰 배터리가 오래가게 만드는 기술",
+  "norm": "스마트폰 배터리가 오래가게 만드는 기술",
+  "flags": [],
+  "likes": [
+   "스마트폰 배터리가 오래가게 만드는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "battery_energy",
+   "ubiquitous_mobile_computing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "스마트폰 배터리가 오래가게 만드는 기술": [
+    "battery_energy",
+    "ubiquitous_mobile_computing"
+   ]
+  }
+ },
+ "t17": {
+  "raw": "반도체 칩을 더 작고 빠르게 만드는 방법",
+  "norm": "반도체 칩을 더 작고 빠르게 만드는 방법",
+  "flags": [],
+  "likes": [
+   "반도체 칩을 작고 빠르게 만드는 방법"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "semiconductor_devices"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "반도체 칩을 작고 빠르게 만드는 방법": [
+    "semiconductor_devices"
+   ]
+  }
+ },
+ "t18": {
+  "raw": "시각장애인이나 노인이 쓰기 편한 기술을 만들고 싶어요",
+  "norm": "시각장애인이나 노인이 쓰기 편한 기술을 만들고 싶어요",
+  "flags": [],
+  "likes": [
+   "시각장애인",
+   "노인이 쓰기 편한 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "accessibility"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "시각장애인": [
+    "accessibility"
+   ],
+   "노인이 쓰기 편한 기술": []
+  }
+ },
+ "t19": {
+  "raw": "컴퓨터가 방대한 데이터를 빨리 계산하게 하는 병렬 처리",
+  "norm": "컴퓨터가 방대한 데이터를 빨리 계산하게 하는 병렬 처리",
+  "flags": [],
+  "likes": [
+   "컴퓨터가 방대한 데이터를 빨리 계산하게 하는 병렬 처리"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "high_performance_computing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터가 방대한 데이터를 빨리 계산하게 하는 병렬 처리": [
+    "high_performance_computing"
+   ]
+  }
+ },
+ "t20": {
+  "raw": "뇌 신호를 읽어서 기계를 움직이는 연구",
+  "norm": "뇌 신호를 읽어서 기계를 움직이는 연구",
+  "flags": [],
+  "likes": [
+   "뇌 신호를 읽어서 기계를 움직이는 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "bioelectronics_neural",
+   "brain_neuroscience",
+   "signal_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "뇌 신호를 읽어서 기계를 움직이는 연구": [
+    "bioelectronics_neural",
+    "brain_neuroscience",
+    "signal_processing"
+   ]
+  }
+ },
+ "t21": {
+  "raw": "AI는 이제 지겹고 하드웨어 설계가 끌려요",
+  "norm": "AI는 이제 지겹고 하드웨어 설계가 끌려요",
+  "flags": [],
+  "likes": [
+   "AI는 이제 지겹고 하드웨어 설계"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture",
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "AI는 이제 지겹고 하드웨어 설계": [
+    "computer_architecture",
+    "machine_learning"
+   ]
+  }
+ },
+ "t22": {
+  "raw": "보안 쪽은 제외하고 네트워크나 통신을 알아보고 싶어요",
+  "norm": "보안 쪽은 제외하고 네트워크나 통신을 알아보고 싶어요",
+  "flags": [],
+  "likes": [
+   "네트워크",
+   "통신"
+  ],
+  "dislikes": [
+   "보안"
+  ],
+  "concepts": [
+   "networking_iot",
+   "system_security",
+   "wireless_communications"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "네트워크": [
+    "networking_iot"
+   ],
+   "통신": [
+    "wireless_communications"
+   ]
+  }
+ },
+ "t23": {
+  "raw": "영상 처리는 싫어요. 음성이나 자연어가 좋아요",
+  "norm": "영상 처리는 싫어요. 음성이나 자연어가 좋아요",
+  "flags": [],
+  "likes": [
+   "요. 음성",
+   "자연어"
+  ],
+  "dislikes": [
+   "영상 처리"
+  ],
+  "concepts": [
+   "computer_vision",
+   "nlp",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "요. 음성": [
+    "speech_processing"
+   ],
+   "자연어": [
+    "nlp"
+   ]
+  }
+ },
+ "t24": {
+  "raw": "로봇 말고 소프트웨어 시스템 쪽이요",
+  "norm": "로봇 말고 소프트웨어 시스템 쪽이요",
+  "flags": [],
+  "likes": [
+   "소프트웨어 시스템"
+  ],
+  "dislikes": [
+   "로봇"
+  ],
+  "concepts": [
+   "robotics",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "소프트웨어 시스템": []
+  }
+ },
+ "t25": {
+  "raw": "양자는 너무 어려워서 별로고 암호가 재밌어요",
+  "norm": "양자는 너무 어려워서 별로고 암호가 재밌어요",
+  "flags": [],
+  "likes": [
+   "별로고 암호"
+  ],
+  "dislikes": [
+   "양자는 너무"
+  ],
+  "concepts": [
+   "cryptography_privacy",
+   "quantum"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "별로고 암호": [
+    "cryptography_privacy"
+   ]
+  }
+ },
+ "t26": {
+  "raw": "디스플레이는 관심 없고 반도체 공정이 궁금해요",
+  "norm": "디스플레이는 관심 없고 반도체 공정이 궁금해요",
+  "flags": [],
+  "likes": [
+   "반도체 공정"
+  ],
+  "dislikes": [
+   "디스플레"
+  ],
+  "concepts": [
+   "display_technology",
+   "semiconductor_devices",
+   "semiconductor_process_packaging"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "반도체 공정": [
+    "semiconductor_devices",
+    "semiconductor_process_packaging"
+   ]
+  }
+ },
+ "t27": {
+  "raw": "강화학습 빼고 생성모델은 해보고 싶어요",
+  "norm": "강화학습 빼고 생성모델은 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "생성모델"
+  ],
+  "dislikes": [
+   "강화학습"
+  ],
+  "concepts": [
+   "generative_models",
+   "reinforcement_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "생성모델": [
+    "generative_models"
+   ]
+  }
+ },
+ "t28": {
+  "raw": "이론 위주 연구는 싫고 직접 만들어보는 임베디드 쪽이 좋아요",
+  "norm": "이론 위주 연구는 싫고 직접 만들어보는 임베디드 쪽이 좋아요",
+  "flags": [],
+  "likes": [
+   "만들어보는 임베디드"
+  ],
+  "dislikes": [
+   "이론 위주 연구"
+  ],
+  "concepts": [
+   "algorithms_theory",
+   "embedded_systems",
+   "semiconductor_process_packaging"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "만들어보는 임베디드": [
+    "embedded_systems",
+    "semiconductor_process_packaging"
+   ]
+  }
+ },
+ "t29": {
+  "raw": "배터리는 안 맞는 것 같고 전력전자가 궁금해요",
+  "norm": "배터리는 안 맞는 것 같고 전력전자가 궁금해요",
+  "flags": [
+   "neg_cue_unparsed"
+  ],
+  "likes": [
+   "배터리는 안 맞는 것 같고 전력전자"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "battery_energy",
+   "power_electronics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "배터리는 안 맞는 것 같고 전력전자": [
+    "battery_energy",
+    "power_electronics"
+   ]
+  }
+ },
+ "t30": {
+  "raw": "VR이나 게임 말고 햅틱에 관심 있어요",
+  "norm": "VR이나 게임 말고 햅틱에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "햅틱"
+  ],
+  "dislikes": [
+   "VR",
+   "게임"
+  ],
+  "concepts": [
+   "haptics",
+   "speech_processing",
+   "vr_ar_xr"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "햅틱": [
+    "haptics"
+   ]
+  }
+ },
+ "t31": {
+  "raw": "AI도 좋지만 하드웨어가 더 끌려요",
+  "norm": "AI도 좋지만 하드웨어가 더 끌려요",
+  "flags": [
+   "priority"
+  ],
+  "likes": [
+   "AI도 좋지만 하드웨어"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture",
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "AI도 좋지만 하드웨어": [
+    "computer_architecture",
+    "machine_learning"
+   ]
+  }
+ },
+ "t32": {
+  "raw": "로봇보다는 신호처리 쪽이 맞는 것 같아요",
+  "norm": "로봇보다는 신호처리 쪽이 맞는 것 같아요",
+  "flags": [],
+  "likes": [
+   "신호처리 쪽이 맞는 것 같아"
+  ],
+  "dislikes": [
+   "로봇"
+  ],
+  "concepts": [
+   "robotics",
+   "signal_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "신호처리 쪽이 맞는 것 같아": [
+    "signal_processing"
+   ]
+  }
+ },
+ "t33": {
+  "raw": "비전은 괜찮은데 언어모델이 더 재밌어 보여요",
+  "norm": "비전은 괜찮은데 언어모델이 더 재밌어 보여요",
+  "flags": [
+   "priority"
+  ],
+  "likes": [
+   "비전은 괜찮은데 언어모델이 재밌어 보여"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "비전은 괜찮은데 언어모델이 재밌어 보여": [
+    "nlp"
+   ]
+  }
+ },
+ "t34": {
+  "raw": "무선통신은 이미 배워봤고 이번엔 보안을 해보고 싶어요",
+  "norm": "무선통신은 이미 배워봤고 이번엔 보안을 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "무선통신은 배워봤고 보안"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "system_security",
+   "wireless_communications"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "무선통신은 배워봤고 보안": [
+    "system_security",
+    "wireless_communications"
+   ]
+  }
+ },
+ "t35": {
+  "raw": "소프트웨어보다는 칩 설계 쪽이 좋아요",
+  "norm": "소프트웨어보다는 칩 설계 쪽이 좋아요",
+  "flags": [],
+  "likes": [
+   "칩 설계"
+  ],
+  "dislikes": [
+   "소프트웨어"
+  ],
+  "concepts": [
+   "circuit_design",
+   "semiconductor_devices"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "칩 설계": [
+    "circuit_design",
+    "semiconductor_devices"
+   ]
+  }
+ },
+ "t36": {
+  "raw": "그래픽스도 재밌지만 그래도 컴퓨터비전을 먼저 하고 싶어요",
+  "norm": "그래픽스도 재밌지만 그래도 컴퓨터비전을 먼저 하고 싶어요",
+  "flags": [
+   "priority"
+  ],
+  "likes": [
+   "그래픽스도 재밌지만 그래도 컴퓨터비전을 먼저"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_graphics",
+   "computer_vision"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "그래픽스도 재밌지만 그래도 컴퓨터비전을 먼저": [
+    "computer_graphics",
+    "computer_vision"
+   ]
+  }
+ },
+ "t37": {
+  "raw": "네트워크 쪽은 그나마 괜찮고 운영체제가 더 끌려요",
+  "norm": "네트워크 쪽은 그나마 괜찮고 운영체제가 더 끌려요",
+  "flags": [
+   "priority"
+  ],
+  "likes": [
+   "네트워크 그나마 괜찮고 운영체제"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "networking_iot",
+   "operating_systems_storage"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "네트워크 그나마 괜찮고 운영체제": [
+    "networking_iot",
+    "operating_systems_storage"
+   ]
+  }
+ },
+ "t38": {
+  "raw": "데이터베이스보다는 기계학습이 더 하고 싶어요",
+  "norm": "데이터베이스보다는 기계학습이 더 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "기계학습"
+  ],
+  "dislikes": [
+   "데이터베이스"
+  ],
+  "concepts": [
+   "data_mining_databases",
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "기계학습": [
+    "machine_learning"
+   ]
+  }
+ },
+ "t39": {
+  "raw": "컴퓨터 구조와 AI 가속기를 공부하고 싶어요",
+  "norm": "컴퓨터 구조와 AI 가속기를 공부하고 싶어요",
+  "flags": [],
+  "likes": [
+   "컴퓨터 구조",
+   "AI 가속기"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture",
+   "efficient_ai",
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터 구조": [
+    "computer_architecture"
+   ],
+   "AI 가속기": [
+    "computer_architecture",
+    "efficient_ai",
+    "machine_learning"
+   ]
+  }
+ },
+ "t40": {
+  "raw": "자연어 처리와 대규모 언어 모델이 궁금해요",
+  "norm": "자연어 처리와 대규모 언어 모델이 궁금해요",
+  "flags": [],
+  "likes": [
+   "자연어 처리",
+   "대규모 언어 모델"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "자연어 처리": [
+    "nlp"
+   ],
+   "대규모 언어 모델": [
+    "nlp"
+   ]
+  }
+ },
+ "t41": {
+  "raw": "그래프 신경망으로 분자 구조 예측을 하고 싶어요",
+  "norm": "그래프 신경망으로 분자 구조 예측을 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "그래프 신경망으로 분자 구조 예측"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "brain_neuroscience",
+   "graph_learning",
+   "machine_learning",
+   "time_series"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "그래프 신경망으로 분자 구조 예측": [
+    "brain_neuroscience",
+    "graph_learning",
+    "machine_learning",
+    "time_series"
+   ]
+  }
+ },
+ "t42": {
+  "raw": "강화 학습으로 로봇 팔을 제어하는 연구",
+  "norm": "강화 학습으로 로봇 팔을 제어하는 연구",
+  "flags": [],
+  "likes": [
+   "강화 학습으로 로봇 팔을 제어하는 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "control_theory",
+   "robotics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "강화 학습으로 로봇 팔을 제어하는 연구": [
+    "control_theory",
+    "robotics"
+   ]
+  }
+ },
+ "t43": {
+  "raw": "인간 컴퓨터 상호작용과 사용자 경험 연구",
+  "norm": "인간 컴퓨터 상호작용과 사용자 경험 연구",
+  "flags": [],
+  "likes": [
+   "인간 컴퓨터 상호작용",
+   "사용자 경험 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "hci"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "인간 컴퓨터 상호작용": [
+    "hci"
+   ],
+   "사용자 경험 연구": [
+    "hci"
+   ]
+  }
+ },
+ "t44": {
+  "raw": "소프트웨어 보안과 취약점 분석이 궁금해요",
+  "norm": "소프트웨어 보안과 취약점 분석이 궁금해요",
+  "flags": [],
+  "likes": [
+   "소프트웨어 보안",
+   "취약점 분석"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "system_security"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "소프트웨어 보안": [
+    "system_security"
+   ],
+   "취약점 분석": [
+    "system_security"
+   ]
+  }
+ },
+ "t45": {
+  "raw": "연합 학습과 개인정보 보호에 관심 있어요",
+  "norm": "연합 학습과 개인정보 보호에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "연합 학습",
+   "개인정보 보호"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "cryptography_privacy"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "연합 학습": [],
+   "개인정보 보호": [
+    "cryptography_privacy"
+   ]
+  }
+ },
+ "t46": {
+  "raw": "시계열 예측이랑 이상 탐지를 해보고 싶어요",
+  "norm": "시계열 예측이랑 이상 탐지를 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "시계열 예측",
+   "이상 탐지"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "industrial_ai",
+   "thermal_transport",
+   "time_series"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "시계열 예측": [
+    "thermal_transport",
+    "time_series"
+   ],
+   "이상 탐지": [
+    "industrial_ai"
+   ]
+  }
+ },
+ "t47": {
+  "raw": "로봇이랑 컴퓨터 비전을 합친 연구를 하고 싶어요",
+  "norm": "로봇이랑 컴퓨터 비전을 합친 연구를 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "로봇",
+   "컴퓨터 비전"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_vision",
+   "robotics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "로봇": [
+    "robotics"
+   ],
+   "컴퓨터 비전": [
+    "computer_vision"
+   ]
+  }
+ },
+ "t48": {
+  "raw": "반도체 소자와 AI 가속기를 같이 보고 싶어요",
+  "norm": "반도체 소자와 AI 가속기를 같이 보고 싶어요",
+  "flags": [],
+  "likes": [
+   "반도체 소자",
+   "AI 가속기"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture",
+   "efficient_ai",
+   "machine_learning",
+   "semiconductor_devices"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "반도체 소자": [
+    "semiconductor_devices"
+   ],
+   "AI 가속기": [
+    "computer_architecture",
+    "efficient_ai",
+    "machine_learning"
+   ]
+  }
+ },
+ "t49": {
+  "raw": "무선통신과 신호처리 둘 다 관심 있어요",
+  "norm": "무선통신과 신호처리 둘 다 관심 있어요",
+  "flags": [],
+  "likes": [
+   "무선통신",
+   "신호처리"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "signal_processing",
+   "wireless_communications"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "무선통신": [
+    "wireless_communications"
+   ],
+   "신호처리": [
+    "signal_processing"
+   ]
+  }
+ },
+ "t50": {
+  "raw": "음성이랑 햅틱을 같이 다루는 기술",
+  "norm": "음성이랑 햅틱을 같이 다루는 기술",
+  "flags": [],
+  "likes": [
+   "음성",
+   "햅틱 다루는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "haptics",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "음성": [
+    "speech_processing"
+   ],
+   "햅틱 다루는 기술": [
+    "haptics"
+   ]
+  }
+ },
+ "t51": {
+  "raw": "클라우드 분산 시스템과 보안이 궁금합니다",
+  "norm": "클라우드 분산 시스템과 보안이 궁금합니다",
+  "flags": [],
+  "likes": [
+   "클라우드 분산 시스템",
+   "보안"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "distributed_systems_blockchain",
+   "system_security"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "클라우드 분산 시스템": [
+    "distributed_systems_blockchain"
+   ],
+   "보안": [
+    "system_security"
+   ]
+  }
+ },
+ "t52": {
+  "raw": "의료 영상이랑 뇌과학에 관심 있어요",
+  "norm": "의료 영상이랑 뇌과학에 관심 있어요",
+  "flags": [],
+  "likes": [
+   "의료 영상",
+   "뇌과학"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "biomedical_imaging",
+   "brain_neuroscience",
+   "computer_vision"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "의료 영상": [
+    "biomedical_imaging",
+    "computer_vision"
+   ],
+   "뇌과학": [
+    "brain_neuroscience"
+   ]
+  }
+ },
+ "t53": {
+  "raw": "추천시스템과 자연어처리를 같이 해보고 싶어요",
+  "norm": "추천시스템과 자연어처리를 같이 해보고 싶어요",
+  "flags": [],
+  "likes": [
+   "추천시스템",
+   "자연어처리"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "nlp",
+   "recommender_systems"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "추천시스템": [
+    "recommender_systems"
+   ],
+   "자연어처리": [
+    "nlp"
+   ]
+  }
+ },
+ "t54": {
+  "raw": "웨어러블 기기와 인공지능을 결합하고 싶어요",
+  "norm": "웨어러블 기기와 인공지능을 결합하고 싶어요",
+  "flags": [],
+  "likes": [
+   "웨어러블 기기",
+   "인공지능"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "machine_learning",
+   "soft_electronics",
+   "ubiquitous_mobile_computing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "웨어러블 기기": [
+    "soft_electronics",
+    "ubiquitous_mobile_computing"
+   ],
+   "인공지능": [
+    "machine_learning"
+   ]
+  }
+ },
+ "t55": {
+  "raw": "컴퓨터구조 수업이 정말 재밌었어요",
+  "norm": "컴퓨터구조 수업이 정말 재밌었어요",
+  "flags": [],
+  "likes": [
+   "컴퓨터구조 수업이 정말 재밌었어"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "computer_architecture",
+   "speech_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "컴퓨터구조 수업이 정말 재밌었어": [
+    "computer_architecture",
+    "speech_processing"
+   ]
+  }
+ },
+ "t56": {
+  "raw": "알고리즘 수업 듣고 이론에 빠졌어요",
+  "norm": "알고리즘 수업 듣고 이론에 빠졌어요",
+  "flags": [],
+  "likes": [
+   "알고리즘 수업 듣고 이론에 빠졌어"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "algorithms_theory"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "알고리즘 수업 듣고 이론에 빠졌어": [
+    "algorithms_theory"
+   ]
+  }
+ },
+ "t57": {
+  "raw": "신호 및 시스템을 들었는데 이쪽 연구가 궁금해졌어요",
+  "norm": "신호 및 시스템을 들었는데 이쪽 연구가 궁금해졌어요",
+  "flags": [],
+  "likes": [
+   "신호",
+   "시스템을 들었는데 이쪽 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "signal_processing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "신호": [
+    "signal_processing"
+   ],
+   "시스템을 들었는데 이쪽 연구": []
+  }
+ },
+ "t58": {
+  "raw": "운영체제 수업에서 커널 만드는 게 제일 좋았어요",
+  "norm": "운영체제 수업에서 커널 만드는 게 제일 좋았어요",
+  "flags": [],
+  "likes": [
+   "운영체제 수업에서 커널 만드는 게 제일 좋았어"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "operating_systems_storage"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "운영체제 수업에서 커널 만드는 게 제일 좋았어": [
+    "operating_systems_storage"
+   ]
+  }
+ },
+ "t59": {
+  "raw": "전자기학 수업이 좋았어요",
+  "norm": "전자기학 수업이 좋았어요",
+  "flags": [],
+  "likes": [
+   "전자기학 수업"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "electromagnetics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "전자기학 수업": [
+    "electromagnetics"
+   ]
+  }
+ },
+ "t60": {
+  "raw": "데이터베이스 수업이 재밌었고 더 알고 싶어요",
+  "norm": "데이터베이스 수업이 재밌었고 더 알고 싶어요",
+  "flags": [],
+  "likes": [
+   "데이터베이스 수업"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "data_mining_databases"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "데이터베이스 수업": [
+    "data_mining_databases"
+   ]
+  }
+ },
+ "t61": {
+  "raw": "치매를 조기에 진단하는 기술을 연구하고 싶어요",
+  "norm": "치매를 조기에 진단하는 기술을 연구하고 싶어요",
+  "flags": [],
+  "likes": [
+   "치매를 조기에 진단하는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "biomedical_imaging"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "치매를 조기에 진단하는 기술": [
+    "biomedical_imaging"
+   ]
+  }
+ },
+ "t62": {
+  "raw": "자율주행차 사고를 줄이는 기술이 궁금해요",
+  "norm": "자율주행 사고를 줄이는 기술이 궁금해요",
+  "flags": [],
+  "likes": [
+   "자율주행 사고를 줄이는 기술"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "slam_navigation"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "자율주행 사고를 줄이는 기술": [
+    "slam_navigation"
+   ]
+  }
+ },
+ "t63": {
+  "raw": "스마트폰으로 병원 가지 않고 건강을 관리하게 하고 싶어요",
+  "norm": "스마트폰으로 병원 가지 않고 건강을 관리하게 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "스마트폰으로 병원 가지 않고 건강을 관리하게"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "ubiquitous_mobile_computing"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "스마트폰으로 병원 가지 않고 건강을 관리하게": [
+    "ubiquitous_mobile_computing"
+   ]
+  }
+ },
+ "t64": {
+  "raw": "통신 속도를 지금보다 훨씬 빠르게 만들고 싶어요",
+  "norm": "통신 속도를 지금보다 훨씬 빠르게 만들고 싶어요",
+  "flags": [],
+  "likes": [
+   "훨씬 빠르게"
+  ],
+  "dislikes": [
+   "통신 속도를 지금"
+  ],
+  "concepts": [
+   "wireless_communications"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "훨씬 빠르게": []
+  }
+ },
+ "t65": {
+  "raw": "AI가 학생 공부를 도와주는 서비스를 만들고 싶어요",
+  "norm": "AI가 학생 공부를 도와주는 서비스를 만들고 싶어요",
+  "flags": [],
+  "likes": [
+   "AI가 학생 공부를 도와주는 서비스"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "machine_learning"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "AI가 학생 공부를 도와주는 서비스": [
+    "machine_learning"
+   ]
+  }
+ },
+ "t66": {
+  "raw": "시각장애인이 글자를 손으로 느끼게 하고 싶어요",
+  "norm": "시각장애인이 글자를 손으로 느끼게 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "시각장애인이 글자를 손으로 느끼게"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "accessibility",
+   "nlp"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "시각장애인이 글자를 손으로 느끼게": [
+    "accessibility",
+    "nlp"
+   ]
+  }
+ },
+ "t67": {
+  "raw": "전기차 충전 시간을 줄이고 싶어요",
+  "norm": "전기차 충전 시간을 줄이고 싶어요",
+  "flags": [],
+  "likes": [
+   "전기차 충전 시간"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "power_electronics"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "전기차 충전 시간": [
+    "power_electronics"
+   ]
+  }
+ },
+ "t68": {
+  "raw": "개인정보 유출 사고를 막고 싶어요",
+  "norm": "개인정보 유출 사고를 막고 싶어요",
+  "flags": [],
+  "likes": [
+   "개인정보 유출 사고"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "cryptography_privacy"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "개인정보 유출 사고": [
+    "cryptography_privacy"
+   ]
+  }
+ },
+ "t69": {
+  "raw": "컴퓨터가 좋아요",
+  "norm": "컴퓨터가 좋아요",
+  "flags": [],
+  "likes": [
+   "컴퓨터"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "too_broad"
+ },
+ "t70": {
+  "raw": "AI",
+  "norm": "AI",
+  "flags": [],
+  "likes": [
+   "AI"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "machine_learning"
+  ],
+  "intent": "too_broad"
+ },
+ "t71": {
+  "raw": "전자공학",
+  "norm": "전자공학",
+  "flags": [],
+  "likes": [
+   "전자공학"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "too_broad"
+ },
+ "t72": {
+  "raw": "그냥 공학 전반이요",
+  "norm": "그냥 공학 전반이요",
+  "flags": [],
+  "likes": [
+   "그냥 공학 전반"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "search",
+  "phrase_concepts": {
+   "그냥 공학 전반": []
+  }
+ },
+ "t73": {
+  "raw": "뭔가 재밌는 걸 하고 싶어요",
+  "norm": "뭔가 재밌는 걸 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "뭔 걸"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "search",
+  "phrase_concepts": {
+   "뭔 걸": []
+  }
+ },
+ "t74": {
+  "raw": "코딩이요",
+  "norm": "코딩이요",
+  "flags": [],
+  "likes": [
+   "코딩"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "software_engineering"
+  ],
+  "intent": "too_broad"
+ },
+ "t75": {
+  "raw": "대학원을 가야 할지 모르겠어요",
+  "norm": "대학원을 가야 할지 모르겠어요",
+  "flags": [],
+  "likes": [
+   "대학원을 가야 할지 모르겠어"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "career"
+ },
+ "t76": {
+  "raw": "연구실 인턴은 언제 신청하나요?",
+  "norm": "연구실 인턴은 언제 신청하나요?",
+  "flags": [],
+  "likes": [
+   "연구실 인턴은 언제 신청하"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "career"
+ },
+ "t77": {
+  "raw": "교수님께 메일을 어떻게 써야 하나요",
+  "norm": "교수님께 메일을 어떻게 써야 하나요",
+  "flags": [],
+  "likes": [
+   "교수님께 메일을 어떻게 써야 하"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "career"
+ },
+ "t78": {
+  "raw": "석사랑 박사 중에 뭐가 나을까요",
+  "norm": "석사랑 박사 중에 뭐가 나을까요",
+  "flags": [],
+  "likes": [
+   "석사",
+   "박사 중에 뭐가 나을까"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "career"
+ },
+ "t79": {
+  "raw": "학점이 낮은데 연구실에 들어갈 수 있을까요",
+  "norm": "학점이 낮은데 연구실에 들어갈 수 있을까요",
+  "flags": [],
+  "likes": [
+   "학점이 낮은데 연구실에 들어갈 수 있을까"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "career"
+ },
+ "t80": {
+  "raw": "장학금 받을 수 있는 연구실이 있나요",
+  "norm": "장학금 받을 수 있는 연구실이 있나요",
+  "flags": [],
+  "likes": [
+   "장학금 받을 수 있는 연구실이 있"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "career"
+ },
+ "t81": {
+  "raw": "유기화학 합성 연구실을 찾고 있어요",
+  "norm": "유기화학 합성 연구실을 찾고 있어요",
+  "flags": [],
+  "likes": [
+   "유기화학 합성 연구실을 찾고 있어"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "out_of_scope"
+ },
+ "t82": {
+  "raw": "경제학이랑 데이터를 합친 연구",
+  "norm": "경제학이랑 데이터를 합친 연구",
+  "flags": [],
+  "likes": [
+   "경제학",
+   "데이터"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "out_of_scope"
+ },
+ "t83": {
+  "raw": "천체물리랑 우주 관측이 궁금해요",
+  "norm": "천체물리랑 우주 관측이 궁금해요",
+  "flags": [],
+  "likes": [
+   "천체물리",
+   "우주 관측"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "out_of_scope"
+ },
+ "t84": {
+  "raw": "임상 진료랑 환자 치료 연구를 하고 싶어요",
+  "norm": "임상 진료랑 환자 치료 연구를 하고 싶어요",
+  "flags": [],
+  "likes": [
+   "임상 진료",
+   "환자 치료 연구"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "search",
+  "phrase_concepts": {
+   "임상 진료": [],
+   "환자 치료 연구": []
+  }
+ },
+ "t85": {
+  "raw": "건축이나 토목 구조물 설계",
+  "norm": "건축이나 토목 구조물 설계",
+  "flags": [],
+  "likes": [
+   "건축",
+   "토목 구조물 설계"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "out_of_scope"
+ },
+ "t86": {
+  "raw": "고양이 사료를 개발하는 연구",
+  "norm": "고양이 사료를 개발하는 연구",
+  "flags": [],
+  "likes": [
+   "고양이 사료를 개발하는 연구"
+  ],
+  "dislikes": [],
+  "concepts": [
+   "software_engineering"
+  ],
+  "intent": "search",
+  "phrase_concepts": {
+   "고양이 사료를 개발하는 연구": [
+    "software_engineering"
+   ]
+  }
+ },
+ "t87": {
+  "raw": "ㅇㅇ",
+  "norm": "ㅇㅇ",
+  "flags": [],
+  "intent": "nonsense",
+  "likes": [],
+  "dislikes": []
+ },
+ "t88": {
+  "raw": "ㅋㅋㅋㅋ",
+  "norm": "ㅋㅋㅋㅋ",
+  "flags": [],
+  "intent": "nonsense",
+  "likes": [],
+  "dislikes": []
+ },
+ "t89": {
+  "raw": "asdf",
+  "norm": "asdf",
+  "flags": [],
+  "likes": [
+   "asdf"
+  ],
+  "dislikes": [],
+  "concepts": [],
+  "intent": "search",
+  "phrase_concepts": {
+   "asdf": []
+  }
+ },
+ "t90": {
+  "raw": "...",
+  "norm": "...",
+  "flags": [],
+  "intent": "nonsense",
+  "likes": [],
+  "dislikes": []
+ }
+}

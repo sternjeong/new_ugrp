@@ -1,0 +1,11 @@
+{
+  "status": "prelabel_complete",
+  "labs": 136,
+  "new_pairs": 124,
+  "all_rank_six_and_removal_rules_verified": true,
+  "all_new_ids_exact": true,
+  "source_sha256": {
+    "packet.json": "f132864b192852aee8f2c2eec67f5900e4f0976ad7673530b93d4e37f5c110e9",
+    "exposure_plan.json": "381038de91fe29e03f1f3232a4a747e53b1765ff0ab3b470acaabe3eb2f5e19d"
+  }
+}

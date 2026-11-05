@@ -1,0 +1,544 @@
+{
+ "about": "같은 연구실이 교수 기록과 연구실 기록으로 두 번 들어간 묶음(사례집 A-10). 검증 페이지의 \"같은 연구실 두 기록\"에서 항목마다 어느 기록 값을 쓸지 고르고 교수 기록으로 합친다. suggest의 prof는 교수 기록, 키는 그 연구실 기록 값을 뜻한다. watch는 꼭 살펴볼 항목이다.",
+ "found": "2026-10-25: 확인 완료 기록끼리 같은 주소(www.·https·끝 /index 무시), 같은 OpenAlex ID, 연구실 기록의 지도교수 이름 = 교수 기록 이름",
+ "groups": [
+  {
+   "id": "f6eab148298d59247c161e08e218e116",
+   "professor": "f6eab148298d59247c161e08e218e116",
+   "labs": [
+    "x35aa5fa68385cfc01d81"
+   ],
+   "title": "서동우 교수 연구실 ↔ Computational Metallurgy Lab.",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "prof",
+    "name_en": "x35aa5fa68385cfc01d81",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5060994553"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "name_en"
+   ],
+   "notes": [
+    "영문 이름이 달라요. 교수 기록은 사이트 머리글의 두 이름(\"Computational Metallurgy Laboratory in GIFT\", \"Advanced Structural Alloy Laboratory in MSE\")을 붙여 적었고 메모에 \"연구실이름 모호\"라고 남겼어요. 연구실 기록 이름을 제안해요."
+   ]
+  },
+  {
+   "id": "d24584a20a99a64f57a9eec4be893b96",
+   "professor": "d24584a20a99a64f57a9eec4be893b96",
+   "labs": [
+    "x8cde7c5104160a2b3d2c"
+   ],
+   "title": "가상지능기반 광대역전자회로 설계 연구실 김병섭 교수 ↔ 가상지능기반 광대역전자회로 설계 연구실",
+   "suggest": {
+    "link": "x8cde7c5104160a2b3d2c",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5052722005"
+    ],
+    "extra_links": []
+   },
+   "watch": [],
+   "notes": [
+    "두 기록이 거의 같아요. 연구실 기록은 연구소개를 그림 페이지로도 표시했어요. 연구실 기록의 지도교수 이름이 \"김병\"으로 잘려 있지만, 합치면 연구실 기록은 추천 제외가 돼서 영향이 없어요."
+   ]
+  },
+  {
+   "id": "e9a460d2006f46bff940e54e8733b5b5",
+   "professor": "e9a460d2006f46bff940e54e8733b5b5",
+   "labs": [
+    "xa2b5adbd6f297a42c73c"
+   ],
+   "title": "LOGISTICS LAB 김병인 교수 ↔ 물류 연구실",
+   "suggest": {
+    "link": "xa2b5adbd6f297a42c73c",
+    "name_ko": "xa2b5adbd6f297a42c73c",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5085960285"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "link"
+   ],
+   "notes": [
+    "링크가 달라요: 교수 기록 logistics.postech.ac.kr, 연구실 기록 plogistics.postech.ac.kr. 교수 기록도 연구소개를 plogistics에서 옮겼으니 plogistics가 지금 사이트로 보여요."
+   ]
+  },
+  {
+   "id": "335967217d9237b4b019e7a4b1a6f4f3",
+   "professor": "335967217d9237b4b019e7a4b1a6f4f3",
+   "labs": [
+    "x145cf0e7e941d9236679"
+   ],
+   "title": "Photonic Machine System & Image Processing Lab 김기현 교수 ↔ 바이오 포토닉 기계 시스템 및 영상처리 연구실",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5003825516"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "name_ko"
+   ],
+   "notes": [
+    "한글 이름이 달라요: \"광학기계 시스템 및 영상처리 연구실\"(교수 기록) / \"바이오 포토닉 기계 시스템 및 영상처리 연구실\"(연구실 기록). 사이트에서 어느 쪽인지 확인해 주세요.",
+    "OpenAlex는 교수 기록만 골랐어요(A5003825516). 연구실 기록은 \"찾지 못함\"이에요."
+   ]
+  },
+  {
+   "id": "3cf13955f9df42105905a333b6204179",
+   "professor": "3cf13955f9df42105905a333b6204179",
+   "labs": [
+    "x60d923c3117c276cb305"
+   ],
+   "title": "SECL | MLee group @POSTECH 이민아 교수 ↔ Sustainable Energy Chemistry Lab.",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "x60d923c3117c276cb305",
+    "areas": "x60d923c3117c276cb305",
+    "employment": "prof",
+    "openalex": [
+     "A5128627577",
+     "A5101557261"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "intro"
+   ],
+   "notes": [
+    "교수 기록의 연구소개 앞부분에 사이트 메뉴 글(Our Team, 2026 Winter Internship Program, Apply now…)이 섞여 있어요. 연구실 기록은 한글 소개 + Research Theme이라 더 깔끔해요.",
+    "OpenAlex는 교수 기록에만 A5128627577(Minah Lee, 논문 1편, KIST)이 더 있어요. 같은 사람의 조각 프로필로 보여 함께 두기를 제안해요."
+   ]
+  },
+  {
+   "id": "953898cd997f22be7dced291ed7c848e",
+   "professor": "953898cd997f22be7dced291ed7c848e",
+   "labs": [
+    "xbb40880fbada6cfbbf25",
+    "xa0f89338d1fe59c355dc"
+   ],
+   "title": "나노전자시스템연구실 이병훈 교수 ↔ 나노전자시스템 연구실, 나노전자시스템",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5021015218",
+     "A5105983024",
+     "A5124429028"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "areas"
+   ],
+   "notes": [
+    "연구실 기록이 2개예요. 연구소개는 세 기록이 거의 같고, 분야 이름은 기록마다 조금씩 달라요.",
+    "연구실 기록 \"나노전자시스템 연구실\"은 재직 상태가 \"모름\"이에요."
+   ]
+  },
+  {
+   "id": "c34e2b4ba9291346e5527d8fc2379ffb",
+   "professor": "c34e2b4ba9291346e5527d8fc2379ffb",
+   "labs": [
+    "xb40c54005058c3edf058"
+   ],
+   "title": "김지훈 교수 연구실 ↔ 자기력 현미경 연구실",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "xb40c54005058c3edf058",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5090157606"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "openalex"
+   ],
+   "notes": [
+    "OpenAlex 저자가 서로 달라요: 교수 기록 A5100352929(Hoon Kim, 논문 55편), 연구실 기록 A5090157606(Jeehoon Kim, 논문 129편, 주제 초전도·자성). 교수 영문 이름(Jeehoon Kim)으로 보면 A5090157606이 맞아 보여요. 두 프로필의 최근 논문을 보고 골라 주세요."
+   ]
+  },
+  {
+   "id": "81c1c810531f1c7da7a18f9809b6c448",
+   "professor": "81c1c810531f1c7da7a18f9809b6c448",
+   "labs": [
+    "xb3ef58464301836f27b6"
+   ],
+   "title": "윤창원 교수 연구실 ↔ 수소에너지 화학 저장-변환 연구실",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "xb3ef58464301836f27b6",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "xb3ef58464301836f27b6",
+    "employment": "prof",
+    "openalex": [
+     "A5073756727"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "areas"
+   ],
+   "notes": [
+    "교수 기록의 연구소개가 더 넓어요(연구실 소개 + LOHC). 연구실 기록은 LOHC 부분만 있어요.",
+    "분야 이름은 연구실 기록이 깔끔해요. 교수 기록은 이름 앞에 \"- \"가 붙어 있어요."
+   ]
+  },
+  {
+   "id": "bbb232e44fc51ffa9667b632efee3648",
+   "professor": "bbb232e44fc51ffa9667b632efee3648",
+   "labs": [
+    "x69c215c05b13e6cefa89"
+   ],
+   "title": "Nanomaterials & Energy Device Lab. 조창신 교수 ↔ 나노에너지연구실",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "x69c215c05b13e6cefa89",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5026000597"
+    ],
+    "extra_links": [
+     "https://changshinned.wixsite.com/nedl"
+    ]
+   },
+   "watch": [
+    "link",
+    "intro"
+   ],
+   "notes": [
+    "사이트가 두 개예요: nedl.postech.ac.kr(학교 도메인, 제목 \"조창신교수님 연구실\", 배터리 연구) / changshinned.wixsite.com/nedl(예전 사이트로 보여요). 연구소개 내용도 서로 달라요. 학교 도메인을 링크로, wix 사이트는 추가 링크로 두기를 제안해요."
+   ]
+  },
+  {
+   "id": "2cb62041f2042fee06f9fec52ac935ad",
+   "professor": "2cb62041f2042fee06f9fec52ac935ad",
+   "labs": [
+    "x42f7c76769e43d60dfbf"
+   ],
+   "title": "Design Intelligence Lab. 박주홍 교수 ↔ 디자인 인텔리전스 랩",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "x42f7c76769e43d60dfbf",
+    "name_en": "prof",
+    "intro": "x42f7c76769e43d60dfbf",
+    "areas": "x42f7c76769e43d60dfbf",
+    "employment": "prof",
+    "openalex": [
+     "A5055066633",
+     "A5125510478"
+    ],
+    "extra_links": [
+     "https://juhong.wixsite.com/designml/projects"
+    ]
+   },
+   "watch": [
+    "intro",
+    "openalex"
+   ],
+   "notes": [
+    "연구소개가 서로 다른 페이지예요: 교수 기록은 Projects 페이지 목록(222자, 식품·로봇), 연구실 기록은 About 페이지(1,549자, 건축 계산 설계). 둘 다 이 연구실 내용이에요.",
+    "OpenAlex: 연구실 기록이 3개를 골랐어요. A5125510478(Ju Hong Park, 식품, 2편)은 같은 사람의 조각 프로필로 보이고, A5009567540(J H Park, 배터리·면역학, 8편)은 다른 사람으로 보여요."
+   ]
+  },
+  {
+   "id": "04a4270953e536b3d89b39189ea28f5a",
+   "professor": "04a4270953e536b3d89b39189ea28f5a",
+   "labs": [
+    "xff6917e42ee14f4d38ab"
+   ],
+   "title": "Quantum Optics & Quantum Information Group (QOQI) 김윤호 교수 ↔ 양자 광학 및 양자 연구실",
+   "suggest": {
+    "link": "xff6917e42ee14f4d38ab",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5100621082"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "name_ko"
+   ],
+   "notes": [
+    "연구실 기록의 한글 이름 \"양자 광학 및 양자 연구실\"은 뒷부분(정보)이 빠진 이름으로 보여요. 링크는 연구실 기록이 지금 주소예요."
+   ]
+  },
+  {
+   "id": "eb842e7485c31dfa96029d1f659bf3b0",
+   "professor": "eb842e7485c31dfa96029d1f659bf3b0",
+   "labs": [
+    "xb0865b5e300b274b5a8b"
+   ],
+   "title": "서준호 교수 연구실 ↔ 양자 소자 제작 연구실",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "xb0865b5e300b274b5a8b",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5090823584"
+    ],
+    "extra_links": []
+   },
+   "watch": [],
+   "notes": [
+    "두 기록이 거의 같아요. 교수 기록의 연구소개가 더 길어요."
+   ]
+  },
+  {
+   "id": "537bec3b2e35d774cf892c88ca3255cb",
+   "professor": "537bec3b2e35d774cf892c88ca3255cb",
+   "labs": [
+    "x61c5a9d0ac9cb469a4d5"
+   ],
+   "title": "시스템 신경과학 & 신경 인터페이스 연구실 김도형 교수 ↔ 신경 제어 연구실",
+   "suggest": {
+    "link": "x61c5a9d0ac9cb469a4d5",
+    "name_ko": "x61c5a9d0ac9cb469a4d5",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5005626634"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "name_ko"
+   ],
+   "notes": [
+    "한글 이름이 달라요: \"시스템 신경과학 & 신경 인터페이스 연구실\"(교수 기록) / \"신경 제어 연구실\"(연구실 기록). 사이트 제목은 \"신경 제어 연구실\"이에요."
+   ]
+  },
+  {
+   "id": "f5debb6e781d2d6656b184ddfbbe5e41",
+   "professor": "f5debb6e781d2d6656b184ddfbbe5e41",
+   "labs": [
+    "x6381b24ae967e5d431eb"
+   ],
+   "title": "Clean Steel Laboratory 강윤배 교수 ↔ Clean Steel Lab.",
+   "suggest": {
+    "link": "x6381b24ae967e5d431eb",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "x6381b24ae967e5d431eb",
+    "employment": "prof",
+    "openalex": [
+     "A5050299101"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "areas"
+   ],
+   "notes": [
+    "두 기록이 거의 같아요. 교수 기록의 첫 분야 이름에 \"Research projects\"가 붙어 있어요."
+   ]
+  },
+  {
+   "id": "967c529b18fde0ca165565b028340c30",
+   "professor": "967c529b18fde0ca165565b028340c30",
+   "labs": [
+    "x5aaacf9de391e14e254c"
+   ],
+   "title": "Computer Security Lab 김슬배 교수 ↔ 컴퓨터 보안 연구실",
+   "suggest": {
+    "link": "x5aaacf9de391e14e254c",
+    "name_ko": "x5aaacf9de391e14e254c",
+    "name_en": "prof",
+    "intro": "x5aaacf9de391e14e254c",
+    "areas": "x5aaacf9de391e14e254c",
+    "employment": "prof",
+    "openalex": [],
+    "extra_links": [
+     "https://seulbae-security.github.io/"
+    ]
+   },
+   "watch": [
+    "link"
+   ],
+   "notes": [
+    "교수 기록을 \"중복\"으로 추천 제외하고 연구실 기록을 확인 완료로 뒀어요. 교수 기록에 연구자 DB 신원(학과·직위·이메일)이 붙어 있어서 교수 기록 쪽에 내용을 모으기를 제안해요.",
+    "연구실 기록의 링크 종류가 \"교수 개인 페이지\"인데, 사이트 제목은 \"Computer Security Lab @POSTECH\"이에요. 합친 뒤 교수 기록을 열어 링크 종류를 연구실 사이트로 바꿔 주세요."
+   ]
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "professor": "0338f11c96903a40633ed02cc9426f4f",
+   "labs": [
+    "x1ef4e7d06d0781b6ee3e"
+   ],
+   "title": "허윤하 교수 연구실 ↔ 조직 재생 및 발달 연구실",
+   "suggest": {
+    "link": "x1ef4e7d06d0781b6ee3e",
+    "name_ko": "x1ef4e7d06d0781b6ee3e",
+    "name_en": "x1ef4e7d06d0781b6ee3e",
+    "intro": "x1ef4e7d06d0781b6ee3e",
+    "areas": "x1ef4e7d06d0781b6ee3e",
+    "employment": "prof",
+    "openalex": [
+     "A5091803046"
+    ],
+    "extra_links": []
+   },
+   "watch": [],
+   "notes": [
+    "교수 기록을 \"중복\"으로 추천 제외하고 연구실 기록을 확인 완료로 뒀어요. 내용은 모두 연구실 기록에 있어요."
+   ]
+  },
+  {
+   "id": "12eecc7d8bcdc47fda0b04b169c3a660",
+   "professor": "12eecc7d8bcdc47fda0b04b169c3a660",
+   "labs": [
+    "xb02a0d6ffcbc292adb5a"
+   ],
+   "title": "Computational Optimization Lab 이남훈 교수 ↔ 최적화 연구실",
+   "suggest": {
+    "link": "xb02a0d6ffcbc292adb5a",
+    "name_ko": "xb02a0d6ffcbc292adb5a",
+    "name_en": "prof",
+    "intro": "xb02a0d6ffcbc292adb5a",
+    "areas": "xb02a0d6ffcbc292adb5a",
+    "employment": "prof",
+    "openalex": [
+     "A5065666573"
+    ],
+    "extra_links": [
+     "https://namhoonlee.github.io/"
+    ]
+   },
+   "watch": [
+    "openalex"
+   ],
+   "notes": [
+    "교수 기록을 \"중복\"으로 추천 제외하고 연구실 기록을 확인 완료로 뒀어요.",
+    "링크: 교수 기록 namhoonlee.github.io(개인 페이지), 연구실 기록 opt.postech.ac.kr(연구실 사이트).",
+    "OpenAlex: 연구실 기록이 고른 A5065666573(Namhoon Lee, 논문 147편)은 주요 주제가 매립지·폐기물 관리예요. 기계학습·최적화를 하는 이남훈 교수와 다른 사람의 논문이 섞인 프로필로 보여요. 다른 후보 A5144919242(1편, Topic Modeling)도 있어요."
+   ]
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "professor": "b9952d0611c5c0a4a350a434b644cf48",
+   "labs": [
+    "x4bfc6ea249d5a93b6479"
+   ],
+   "title": "IDEA Lab 조현보 교수 ↔ Industrial Data Engineering & Analytics(IDEA Lab.)",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "x4bfc6ea249d5a93b6479",
+    "areas": "x4bfc6ea249d5a93b6479",
+    "employment": "prof",
+    "openalex": [
+     "A5088838086"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "intro"
+   ],
+   "notes": [
+    "교수 기록은 보류(연구 탭 없음), 연구실 기록은 확인 완료예요. 두 주소(idea-lab.kr, sites.google.com/view/postech-isl)는 같은 사이트예요. 연구실 기록이 \"연구활동\" 페이지에서 연구소개를 옮겼어요.",
+    "연구실 기록의 지도교수 이름이 \"조현\"으로 잘려 있어요(합치면 영향 없음)."
+   ]
+  },
+  {
+   "id": "06a7992e0dd6d5dd019a67c9eb5a82cf",
+   "professor": "06a7992e0dd6d5dd019a67c9eb5a82cf",
+   "labs": [
+    "xf8cea744d2c8625d45f2"
+   ],
+   "title": "이대수 교수 연구실 ↔ 인공 복합 산화물 연구실",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "xf8cea744d2c8625d45f2",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5009259950"
+    ],
+    "extra_links": [
+     "https://sites.google.com/site/dleepostech/research"
+    ]
+   },
+   "watch": [],
+   "notes": [
+    "연구실 기록은 보류예요(메모: \"STEP 03이 안 보임\"). 교수 미확인 연구실은 지도교수 이름을 적어야 STEP 03이 나와요.",
+    "연구실 기록은 예전 사이트(sites.google.com/site/dleepostech)에서 연구소개를 옮겼어요. 교수 기록이 지금 사이트(acol.postech.ac.kr)예요."
+   ]
+  },
+  {
+   "id": "33527f9836f4e646879fb56c0daecd95",
+   "professor": "33527f9836f4e646879fb56c0daecd95",
+   "labs": [
+    "xf4a0393fe2f690e5af68"
+   ],
+   "title": "Alloy Design Lab 허윤욱 교수 ↔ Alloy Design Lab. Chang-Gon Jeong 교수",
+   "suggest": {
+    "link": "prof",
+    "name_ko": "prof",
+    "name_en": "prof",
+    "intro": "prof",
+    "areas": "prof",
+    "employment": "prof",
+    "openalex": [
+     "A5028568593"
+    ],
+    "extra_links": []
+   },
+   "watch": [
+    "openalex"
+   ],
+   "notes": [
+    "이름만 있는 기록 \"Chang-Gon Jeong\"은 같은 Alloy Design Lab이에요. Chang-Gon Jeong(OpenAlex A5040310541, 논문 12편)은 지도교수가 아니라 연구실 구성원으로 보여요. 그 기록의 메모 \"YOON-UK HEO 교수 이름은 이거입니다\"도 교수가 허윤욱임을 말해요.",
+    "OpenAlex는 교수 기록의 A5028568593(Yoon-Uk Heo)만 두기를 제안해요."
+   ]
+  }
+ ]
+}

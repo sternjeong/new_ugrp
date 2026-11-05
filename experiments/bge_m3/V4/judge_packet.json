@@ -1,0 +1,1218 @@
+{
+ "instructions": "각 course에 0~2점: 2=연구실 주제에 직접 필요한 지식·방법, 1=기초 또는 부분 관련, 0=무관/단어만 겹침. 반환 형식: {\"<course id>\": {\"score\": 0|1|2, \"reason\": \"한 문장\"}}",
+ "labs": [
+  {
+   "lab_id": "lab_e5f20d526887",
+   "professors": [
+    "조성현 (Sung-Hyen Cho)"
+   ],
+   "summary_ko": "3D 복원, 전산 이미징, 시각 합성, 계산 사진학 등 그래픽스·비전·기계학습·광학이 교차하는 비주얼 컴퓨팅을 연구한다.",
+   "topics": [
+    {
+     "label": "컴퓨터그래픽스·3D",
+     "quote": "The primary goal of our research is to develop theory, algorithm, and system for visual computing."
+    },
+    {
+     "label": "컴퓨터비전·영상인식",
+     "quote": "we conduct interdisciplinary research at the intersection of computer graphics, computer vision, machine learning, and optics."
+    },
+    {
+     "label": "3D 복원",
+     "quote": "We develop algorithms and systems to reconstruct our real world's 3D geometry and appearance."
+    },
+    {
+     "label": "전산 이미징·계산 사진학",
+     "quote": "We jointly develop theories, algorithms, and systems to achieve a superhuman vision in the form of new imaging and display systems."
+    },
+    {
+     "label": "시각 합성",
+     "quote": "We develop algorithms that can synthesize new visual data with machine creativity."
+    },
+    {
+     "label": "비디오 생성",
+     "quote": "Learning Zero-Shot Subject-Driven Video Generation Using 1% Compute"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_e5f20d526887#N00",
+     "code": "MATH402",
+     "name_kr": "계산선형대수와 응용",
+     "name_en": "Computational Linear Algebra and Its Applications",
+     "description": "행렬의 계산 알고리즘에 초점을 맞추어 알고리즘 및 원리를 학습한다. 또한 기계학습 등에서 필수적인 고성능컴퓨팅의 중요성과 이를 효율적으로 다룰 수 있는 알고리즘 및 방법들을 소개한다. 다양한 응용예제들을 소개하며 행렬 계산의 중요성을 전달한다.",
+     "objectives": "Linear algebra plays an important role in solving problems arising in a variety\nof application domains including engineering, machine learning, data\nscience, and more. This course is a continuation of MAT203 (Applied Linear\nAlgebra) with focuses on computational linear algebra and its applications t"
+    },
+    {
+     "id": "lab_e5f20d526887#N01",
+     "code": "CSED261",
+     "name_kr": "전산수학",
+     "name_en": "Discrete Mathematics for Computer Science",
+     "description": "컴퓨터공학의 기초가 되는 이산수학을 공부한다. 집합, 명제에서 시작해서 계산의 기본 개념, 기초적인 이산구조와 기초적인 대수 내용 등을 다룬다.",
+     "objectives": "This course covers basic discrete mathematics for computer science students. Topics include mathematical reasoning, combinatorial analysis, discrete structures, algorithmic thinking, number theory, and their applications."
+    },
+    {
+     "id": "lab_e5f20d526887#N02",
+     "code": "MATH409",
+     "name_kr": "489 특강Ⅰ, Ⅱ, Ⅲ",
+     "name_en": "Topics",
+     "description": "",
+     "objectives": "Linear algebra plays an important role in solving problems arising in a variety\nof application domains including engineering, machine learning, data\nscience, and more. This course is a continuation of MAT203 (Applied Linear\nAlgebra) with focuses on computational linear algebra and its applications t"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_51c3f65f66e9",
+   "professors": [
+    "채수용 (Soo-Yong Chae)"
+   ],
+   "summary_ko": "전력 컨버터의 고급 제어, 분산 에너지 네트워크용 컨버터, FPGA 기반 고장 허용 제어를 다룬다. 제목 수준의 정보만 수집됐다.",
+   "topics": [
+    {
+     "label": "전력전자·전력변환",
+     "quote": "Advanced Control Technologies for Power Converters"
+    },
+    {
+     "label": "제어",
+     "quote": "Advanced Control using FPGA - Fault Tolerant control, Parameter Estimation"
+    },
+    {
+     "label": "분산 에너지 네트워크",
+     "quote": "Advanced Control Technologies for Converters in Distributed Energy Networks"
+    },
+    {
+     "label": "FPGA 구현",
+     "quote": "Advanced Control using FPGA"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_51c3f65f66e9#N00",
+     "code": "SEMI342",
+     "name_kr": "컴퓨터 구조 설계",
+     "name_en": "Computer Architecture Design",
+     "description": "컴퓨터는 디지털 시스템반도체의 핵심으로, 그 동작원리와 내부 구조를 정확하게 이해하고 성능을 개선하기 위한다양한 구조적/설계적 도전들을 배우는 과정을 통하여 단순하게 컴퓨터라는 부품을 이해하는 것을 넘어서 디지털 시스템 반도체 설계 분야의 가장 핵심적인 최적화 기법들을 습득할 수 있다. 특히, 본 수업을 통하여 실제 디지털 하드웨어를 구현하는 주요 방법론을 함께 학습하여 고성능 컴퓨터 구조의 이론적 개념들이 실제로 구현되는 과정에서 직면하게 되는 여러 현실적 문제들을 이해하고, 이를 해결하기 위한 다양한 반도체 설계 기법들을경험한다.",
+     "objectives": "To learn how to design complex digital systems using a hardware description language (Verilog) and to learn how to design, construct and test a computer using an FPGA."
+    },
+    {
+     "id": "lab_51c3f65f66e9#N01",
+     "code": "EECE375",
+     "name_kr": "컴퓨터설계",
+     "name_en": "Computer Design",
+     "description": "선수과목 : 디지털 시스템 설계복잡한 디지털 시스템을 하드웨어 묘사 언어(VHDL 또는 Verilog)를 이용해서 설계하는 기법을 배우는 것과 FPGA를 이용해서 실제 컴퓨터 시스템을 설계하고 구축하고 테스트하는 방법을 배우는 것이다.",
+     "objectives": "To learn how to design complex digital systems using a hardware description language (Verilog) and to learn how to design, construct and test a computer using an FPGA."
+    },
+    {
+     "id": "lab_51c3f65f66e9#N02",
+     "code": "CHEB412",
+     "name_kr": "이차전지 화학공정",
+     "name_en": "Chemical Engineering Process for Rechargeable Battery",
+     "description": "이차전지의 기초적인 작동원리와 이차전지 제조를 위한 화학공정에 대한 이해를 제공하며, 강의와 더불어 이차전지 전극 및 셀 제작 실험을 진행하여 이차전지 작동원리에 대한 이해를 높이고, 이차전지 기업 전문가 초청강연을 통해 이차전지 성능 향상을 위한 다양한 전략 및 당면한 문제점들을 소개하는 과목이다.",
+     "objectives": "Significant efforts have been devoted to developing and enhancing new materials for lithium-ion batteries in order to meet the power and energy demands of mobile electronics and electric vehicles. However, the widespread adoption of large-format lithium-ion batteries is hindered by high costs, safet"
+    },
+    {
+     "id": "lab_51c3f65f66e9#N03",
+     "code": "AMSE414",
+     "name_kr": "에너지 소재",
+     "name_en": "Energy Materials",
+     "description": "본 과목은 학부 3,4학년생들을 대상으로 하며 전기화학적 에너지 변환 및 저장을 위한 다양한 소재 들에 대해소개한다. 특히 에너지 변환을 위한 연료전지 및 수전해 시스템과 에너지 저장을 위한 이차전지 및 P2G(Power to Gas) 시스템을 위한 다양한 전극/전해질 소재 들에 대해 집중적으로 다룬다. 본 과목 이수를 통해 학생들은다양한 전기화학적 에너지 변환 및 저장 소재에 대한 최신 연구동향에 대해 이해할 수 있다.",
+     "objectives": "This is an introductory course for the Energy related material issues for junior and senior level. At first, a basic concept of electrochemistry is briefly reviewed to establish the knowledge base to understand various modern energy conversion and storage devices. And then, the state-of-the-art mate"
+    },
+    {
+     "id": "lab_51c3f65f66e9#N04",
+     "code": "EECE419/DISU404",
+     "name_kr": "고급전자회로",
+     "name_en": "Advanced Electoronic Circuits",
+     "description": "선수과목 : 회로이론, 전자회로I 단순한 해석 중심의 회로 분석에서 벗어나, 설계 지향적 접근을 통해 고급 전자회로의 구조와 동작 원리를 심층적으로 탐구합니다. 반도체 소자 모델링, 고속 신호 처리, 전력 변환 및 아날로그·디지털 혼합 회로 설계 등실무 및 연구에서 요구되는 핵심 기술을 중심으로 학습하며, 또한 복잡한 회로 시스템을 직관적이고 효율적으로분석할 수 있는 고급 해석 기법과 설계 최적화 방법론을 다룹니다.",
+     "objectives": "해석 위주의 분석법에서 벗어나 설계 관점에서의 실무적인 고급전자회로를 학습한다.\r\n복잡한 회로의 직관적이고 빠른 회로 해석법을 학습한다."
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_29eb07f2a745",
+   "professors": [
+    "한욱신 (Wook Shin Han)"
+   ],
+   "summary_ko": "빅데이터·데이터 관리·데이터베이스 시스템을 연구하며 그래프 엔진과 시맨틱 질의 처리가 최근 논문에 나타난다. 연구 소개 본문은 비어 있다.",
+   "topics": [
+    {
+     "label": "데이터베이스·데이터마이닝",
+     "quote": "For undergrads who are interested in big data, data management, and database systems, note that SIGMOD, VLDB, and ICDE are flagship conferences in these fields."
+    },
+    {
+     "label": "그래프 데이터 엔진",
+     "quote": "TurboLynx: Schemaless Graph Engine Strikes Back for General-Purpose Analytics"
+    },
+    {
+     "label": "시맨틱 질의 처리",
+     "quote": "CADENZA in Action: Breaking the Monolith with Intent-Dependent Plan Spaces for Semantic Queries"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_29eb07f2a745#N00",
+     "code": "CSED404",
+     "name_kr": "모바일 및 유비쿼터스 컴퓨팅",
+     "name_en": "Mobile and Ubiquitous Computing",
+     "description": "오늘날 컴퓨터는 특정 장소에 국한되지 않고 우리의 실생활 전 공간에 걸쳐 실재하면서, 언제 어디서든 우리인간을 인지하고, 예측하고, 더 많은 능력을 부여해준다. 이와 같은 변화 속에서 본 과목은 모바일 및 유비쿼터스 컴퓨팅의 다양한 실세계 응용 및 기본적인 시스템 기술을 폭넓게 다룬다. 이로써 학생들의 컴퓨터공학에 대한시야를 실생활 전반으로 확장하고 컴퓨터공학과 타 분야 사이의 학제간 감수성 발전을 도모한다.",
+     "objectives": "Today, computers are not just in boxes and data-centers; they are extensively interwoven with our physical life. They sense us, predict us, and empower us to do more, no matter when and where. In this light, this course is designed to help the students (1) broaden their views on computer science acr"
+    },
+    {
+     "id": "lab_29eb07f2a745#N01",
+     "code": "CSED342",
+     "name_kr": "인공지능",
+     "name_en": "Artificial Intelligence",
+     "description": "추천 선수과목 : CSED233 (데이터구조) 인공지능 문제의 특성과 기본 원리를 파악하고, 인공지능 문제 해결에 필요한 기초 이론과 방법론을 학습한다. 구체적으로 기계학습 이론, 탐색 알고리즘, Markov decision process, 강화학습, 게임, constraint satisfaction problem, Bayesian network, logic 등을 학습한다. 또한, 인공지능 구현 실습을 통해 일상생활에서 만나는인공지능 문제를 해결하기 위한 능력을 기른다.",
+     "objectives": "This course will introduce the overview of artificial intelligence research and recent trends, exploring different topics among many active research areas in AI: Search & Planning, Probabilistic reasoning and Logic (AI), Machine Learning (ML), Computer Vision (CV) and Natural Language Processing (NL"
+    },
+    {
+     "id": "lab_29eb07f2a745#N02",
+     "code": "CSED312",
+     "name_kr": "운영체제",
+     "name_en": "Operating Systems",
+     "description": "추천 선수과목 : CSED232 (소프트웨어 작성 원리), CSED233 (데이터 구조) 운영체제의 개념을 프로세스 관리, 메모리 관리, 입출력 장치 관리, 파일시스템 서비스, 그리고 보안 관리 등을통해 배우며, 아울러 실제 소규모 운영체제를 설계 구현하는 과제 실습을 통해 구체적인 개념을 이해한다.",
+     "objectives": "The course objectives are\n- through a series of lectures, to learn the basic theory of operating systems about processes, virtual memory, file, and I/O, security\n- through lab programming projects, to sharpen your knowledge and understanding of internal OS data structures and algorithms."
+    },
+    {
+     "id": "lab_29eb07f2a745#N03",
+     "code": "IMEN381",
+     "name_kr": "경영정보시스템",
+     "name_en": "Management Information Systems",
+     "description": "급속도로 진전되는 정보화, 세계화에 효과적으로 대응하기 위해 요구되는 정보기술(IT)의 전략적 활용법을 습득하는 과정으로, 정보의 의의, 정보기술의 역할 및 전략적 활용방안, 경영혁신전략, 다양한 정보시스템 (MIS, DSS, EIS, SIS), 새로운 정보기술의 흐름 등을 포함한다.",
+     "objectives": "Globalization of business, the emergency and the strategic use of information technology, and the growth of the global communications (such as Internet) have recast the role of information systems in business and management. Now, successful and strategic use of information systems within a business "
+    },
+    {
+     "id": "lab_29eb07f2a745#N04",
+     "code": "MATH442",
+     "name_kr": "인공지능수학",
+     "name_en": "Mathematics for AI",
+     "description": "선수추천과목 : MATH101, MATH102 데이터과학의 기본이 되는 수학을 배우고 이룰 바탕으로 머신러닝의 기본적인 알고리즘과 응용을 배운다.",
+     "objectives": "We focus on how machine learning or data science build upon the mathematics.\nTo this end, we cover the basic but fundamental mathematics; linear algebra,\nprobability/statistics, and optimization. We apply these mathematics to some\nbasic but central machine learning problems. It is hoped that student"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_ebe1bda9a6e9",
+   "professors": [
+    "안성수 (Sungsoo Ahn)"
+   ],
+   "summary_ko": "단백질 구조 예측, 결정 구조 예측, 분자 발굴 등 과학 분야에 생성모델·LLM 에이전트를 적용하는 AI 연구를 한다. 연구 소개 본문이 없어 논문 제목으로 추정했다.",
+   "topics": [
+    {
+     "label": "단백질 구조 예측",
+     "quote": "Atom-level Protein Representation Learning Improves Protein Structure Prediction"
+    },
+    {
+     "label": "결정 구조 예측·AI 과학자",
+     "quote": "Discovering Crystal Structure Prediction Algorithms with an AI Co-Scientist"
+    },
+    {
+     "label": "분자 발굴 LLM 에이전트",
+     "quote": "INDIBATOR: Diverse and Fact-Grounded Individuality for Multi-Agent Debate in Molecular Discovery"
+    },
+    {
+     "label": "나노다공성 소재 흡착",
+     "quote": "MADField: Multi-fidelity Amortized Density Field for Adsorption in Nanoporous Materials"
+    },
+    {
+     "label": "결정 생성모델",
+     "quote": "Multimodal Crystal Flow: Any-to-Any Modality Generation for Unified Crys"
+    },
+    {
+     "label": "언어 인터페이스 단백질 설계",
+     "quote": "VibeProteinBench: An Evaluation Benchmark for Language-interfaced Vibe Protein Design"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_ebe1bda9a6e9#N00",
+     "code": "AMSE213",
+     "name_kr": "소재의 기계적 성질",
+     "name_en": "Mechanical Properties of Materials",
+     "description": "재료의 기계적 성질에 대한 기본 과목으로서, 응력 및 변형 상태, 단결정과 다결정의 소성변형이론, 전위론을소개하고, 이들 결정학 기본 소성변형 이론과 재료의 미세조직 상호작용 현상을 바탕으로 재료의 강화와 파괴현상을 학습한다. 또한, 인장, 압축, 비틀림, 굽힘, 나노인덴팅 등 기계적 성질의 시험법을 FEM computer simulation을 통한 Digital twin 가상실험으로 이해한다.",
+     "objectives": "* ObjectivesThis class introduces mechanics of materials, plastic deformation ofsingle crystals, and dislocation theory, based on which strengtheningmechanisms of materials are studied. Mechanical testing and analysis ontensile, fracture, and fatigue tests are explained by fundamental theoryand expe"
+    },
+    {
+     "id": "lab_ebe1bda9a6e9#N01",
+     "code": "CHEB413",
+     "name_kr": "에너지환경 소재 분석 개론",
+     "name_en": "Introduction to Characterization of Energy and Environmental Materials",
+     "description": "친환경에너지 소재 개발의 중요성이 증가함에 따라, 소재의 특성을 이해하고 성능 향상 요인을 규명하기 위한분석 기술의 융합적 이해와 습득이 요구되고 있다. 또한, 최근 소재의 복잡성이 높아짐에 따라, 다양한 분석 기술을 적용한 심층적 이해의 필요성도 커지고 있다. 본 교과목에서는 다양한 친환경에너지 소재의 개발 현황과 분석 기술의 적용 사례를 살펴보고, 주요 분석 기술의 원리와 활용 범위를 소개하고자 한다.",
+     "objectives": "친환경에너지 소재 개발의 중요성이 증가함에 따라, 개발된 소재의 특성을 이해하고 성능향상 원인을 규명하기 위한 분석 기술의 융합적 이해와 습득이 요구되고 있다.\n또한, 최근 개발되는 소재의 복잡성으로 인해, 다양한 분석 기술 적용을 통한 소재의 심층적 이해가 필요하다.\n이에 따라, 화학공학과 학부생 및 융합부전공 희망 학부생을 대상으로 다양한 친환경에너지 소재의 개발 현황 및 분석 기술 적용 사례를 살펴보고,\n분석 기술의 적용 원리 및 활용 범위를 소개하고자 한다.\n본 강의의 세부 목표는 다음과 같다.\n- 수소 생산/저장/추출/활용"
+    },
+    {
+     "id": "lab_ebe1bda9a6e9#N02",
+     "code": "AMSE464",
+     "name_kr": "고분자 물성과 응용",
+     "name_en": "Polymer Properties and Applications",
+     "description": "고분자 구조와 특성 간의 상관관계에 중점을 두어 용액상, 고체상 및 액상 고분자가 나타내는 다양한 물리적특성을 열역학적 관점과 분자적 관점에서 모델링을 통해 이해하고자 한다. 특히, 고분자의 점탄성, 기계적 물성, 전기적 특성을 심도있게 이해한다.",
+     "objectives": "1.\t강의 배경: 우리의 몸은 단백질, 핵산등과 같은 수많은 고분자 화합물로 이루어져 있다. 또한, 플라스틱 용기, 의류등의 재료에서부터 반도체, 디스플레이의 최첨단 정보통신 소자와 인공장기 및 의료기기용 소재까지 고분자는 차세대 첨단 소재로서 많은 각광을 받고 있다.\n2.\t강의 목적: 본 강의는 고분자 물리적/화학적/기계적 특성에 대한 기본 개념 및 이해를 제공하여 학생들이 고분자 소재의 특성을 파악할 수 있도록 한다. 고분자의 분자 구조와 물리적/화학적/기계적 성질 간의 관계를 설명하여 구조와 성능 사이의 상관 관계를 이해한다\n"
+    },
+    {
+     "id": "lab_ebe1bda9a6e9#N03",
+     "code": "AMSE201",
+     "name_kr": "신소재과학",
+     "name_en": "Fundamentals of Materials Science and Engineering",
+     "description": "추천 선수 과목: 일반물리, 일반화학현대 과학기술 문명의 발전과 소재 과학의 연관성을 이해하고, 소재과학의 핵심 원리와 응용을 알기 쉽게 소개한다.",
+     "objectives": "신소재공학과의 기초교과로서 소재와 관련된 기초지식을 습득하고 소재가 갖는 물성의 기본 원리를 이해하는 것을 목표로 한다. 새로운 소재를 개발하고 활용하는 것은 문명의 발전과 함께해온 매우 중요한 과정이다. 이러한 새로운 소재를 개발하기 위해서는 서로 다른 소재가 어떻게 존재할 수 있으며, 그들이 왜 서로 다른 특성을 갖는지에 대해 알아야 한다. 이 수업을 통해 학생들은 금속, 반도체, 세라믹, 고분자와 같은 다양한 소재들의 고유한 물성, 물성의 변화에 대한 원리를 배우고 이해하게 될 것이다. 본 교과를 통해 소재의 종류, 공정, 특"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_d8c476f94f20",
+   "professors": [
+    "백창기 (Chang Ki Baek)"
+   ],
+   "summary_ko": "실리콘 나노구조 기반 열전 소자와 열(포논) 수송, 고전압 FinFET 등 반도체 소자를 연구한다. 연구 소개 페이지 본문은 비어 있어 논문·공지로 추정했다.",
+   "topics": [
+    {
+     "label": "실리콘 열전 소자",
+     "quote": "“서버실·배터리 폐열, 전기가 된다”…포스텍, 실리콘 열전소자 효율 한계 돌파"
+    },
+    {
+     "label": "나노구조 포논 수송",
+     "quote": "Thermal conductivity reduction in silicon nanotubes through phonon localization"
+    },
+    {
+     "label": "고전압 FinFET",
+     "quote": "High-voltage FinFET with floating poly and high-k material for enhanced intrinsic gain and safe operating area"
+    },
+    {
+     "label": "몬테카를로 포논 시뮬레이션",
+     "quote": "Monte Carlo study of phonon transport in surface modulated silicon nanowires"
+    },
+    {
+     "label": "실리콘 나노튜브·나노선",
+     "quote": "silicon nanotubes"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_d8c476f94f20#N00",
+     "code": "AMSE388",
+     "name_kr": "전자소재 개론",
+     "name_en": "Introduction to Semiconductor Materials and Devices",
+     "description": "본 교과목을 통해 반도체의 특성 및 반도체 소자의 기본적인 동작원리를 이해할 수 있다. 본 교과목에서는 원자배열구조, 에너지 대역, 전자/정공의 농도, 도핑을 통한 농도 조절, 전하의 이동과 전류, 과잉캐리어의 생성과재결합, p-n 접합의 형성 및 전류-전압 특성, 반도체 이종접합 등 반도체를 이해하는데 필요한 반도체 전자소자의 기초이론과 동작원리를 배운다.",
+     "objectives": "The objective is to provide students with a comprehensive understanding of the theoretical and practical aspects of semiconductor materials and devices, enabling them to design and enhance the charge transport properties of these components."
+    },
+    {
+     "id": "lab_d8c476f94f20#N01",
+     "code": "SEMI362",
+     "name_kr": "반도체 소재 분석",
+     "name_en": "Analysis and Characterization of Semiconductor Materials",
+     "description": "Upon completion of this course, the students will be familiar with basic principles of sophisticated scientific instruments and the acquired knowledge can be easily extended to other instruments.",
+     "objectives": "This course aims to deliver underlying physical backgrounds and fundamental working principles of scientific instruments for materials characterization. Instead of merely introducing diverse instruments, the lecture mainly focuses on the basic theories of diffraction, microscopy and spectroscopy tec"
+    },
+    {
+     "id": "lab_d8c476f94f20#N02",
+     "code": "DISU431",
+     "name_kr": "지능형 반도체 소자",
+     "name_en": "Neuromorphic Semiconductor Device",
+     "description": "선수과목 :    디지털 시스템 설계, 반도체전자공학Ⅰ 인공지능이라는 새로운 응용 분야에서 수십 년에 걸쳐 발전해온 기존 반도체 기술의 한계를 극복하고자 새롭게 발전되고 있는 뉴로모픽 시냅스 소자와 관련된 이론, 공정, 응용에 대한 학습을 진행한다. 인공지능이라는 새로운 응용 분야에서 수십 년에 걸쳐 발전해 온 기존 반도체 기술의 한계를 극복하고자 새롭게 발전되고 있는 뉴로모픽 시냅스 소자와 관련된 이론, 공정, 응용에 대한 학습을 진행한다. 하드웨어 단에서 저전력으로 인공지능연산을 구현하고자 하는 현재의 기술 발전 동향을 이해하고, 향후 발전 방향에 대해 함께 고민한다.",
+     "objectives": "본 강의는 인공지능 연산에 최적화된 하드웨어 시스템 구현을 위한, 지능형 반도체 기술에 대한 학습을 목표로 합니다.\n인공지능 기술은 빠른 속도로 발전하여 인류의 삶을 급격히 바꾸고 있습니다. 인간의 뇌에서 뉴런과 시냅스를 통해 정보를 전달하고 처리하는 방식을 모방한 뉴럴 네트워크 기반의 기계학습을 통하여, 자연어 처리 및 이미지 인식 등의 다양한 응용 분야에서 기존 컴퓨팅 시스템의 능력을 크게 뛰어넘는 성능이 현실화 되면서 산업계는 물론 사회 전반적으로 지대한 파급효과를 가져오고 있습니다.\n하지만 현재 우리가 이용하는 컴퓨터 구조의"
+    },
+    {
+     "id": "lab_d8c476f94f20#N03",
+     "code": "IMEN481",
+     "name_kr": "시뮬레이션",
+     "name_en": "Simulation",
+     "description": "선수과목 : 정보시스템기술실제문제에 널리 이용되는 기법으로 시스템의 모형화, 시뮬레이션의 기본개념, 연속 및 이산체제의 특성, 시뮬레이션의 기법, 결과의 통계적 분석방법 등을 다룬다.",
+     "objectives": "시뮬레이션 이론을 학습하고, 복잡한 시스템의 설계, 운영, 평가 등에 적용할 수 있도록 모델링 및 분석 기법을 배우며 실제 문제에 응용해 본다.\nThis course treats basic concepts of system modeling and simulation, characteristics of the discrete systems, simulation techniques, statistical methods to analyze the results, and application to real-life problems."
+    },
+    {
+     "id": "lab_d8c476f94f20#N04",
+     "code": "SEMI100",
+     "name_kr": "학과입문(반도체공학)",
+     "name_en": "Introduction to Semiconductor Engineering",
+     "description": "반도체를 구성하는 소재, 소자의 특징과 함께, 발전 역사를 이해한다. 메모리 반도체, 로직 반도체, 인공지능반도체의 원리와 종류를 학습하고, 미래 기술인 이차원 나노반도체, 양자컴퓨터의 원리와 종류를 이해한다. 이러한 반도체의 시스템화에 필요한 아날로그 설계, VLSI 시스템 설계, 차세대 컴퓨팅 아키텍쳐 설계 원리를 배우고, 다양한 반도체를 소자 및 시스템 구현에 활용되는 전공정, 후공정, 패키징, 성능평가 기술에 대해 학습한다. 또한, 반도체 산업생태계를 구성하는 국내외 종합반도체기업, 팹리스, 파운드리, OSAT 등의 현황과 상호관계를 파악하여, 글로벌 반도체 기술과 산업의 발전 방향에 대해 이해한다.",
+     "objectives": "- 교과목 개요: 반도체를 구성하는 소재, 소자의 특징과 함께, 발전 역사를 이해한다. 메모리 반도체, 로직 반도체, 인공지능 반도체의 원리와 종류를 학습하고, 미래 기술인 이차원 나노반도체, 양자컴퓨터의 원리와 종류를 이해한다. 이러한 반도체의 시스템화에 필요한 아날로그 설계, VLSI 시스템 설계, 차세대 컴퓨팅 아키텍쳐 설계 원리를 배우고, 다양한 반도체를 소자 및 시스템 구현에 활용되는 전공정, 후공정, 패키징, 성능평가 기술에 대해 학습한다. 또한, 반도체 산업생태계를 구성하는 국내외 종합반도체기업, 팹리스, 파운드리, O"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_975679fa678a",
+   "professors": [
+    "김상우 (Sang Woo Kim)"
+   ],
+   "summary_ko": "제철·전력·배터리 등 산업 현장의 데이터를 딥러닝과 제어로 다루는 지능제어 연구실이다. 결함 검출, 이상 탐지, 배터리 상태 추정, 전동기 고장 진단이 반복 등장한다.",
+   "topics": [
+    {
+     "label": "제철 공정 결함 검출",
+     "quote": "GRINDING 자동화를 위한 스카핑 슬라브의 피팅 결함 검출 딥러닝 모델에 대한 연구 개발, 포스코"
+    },
+    {
+     "label": "산업 이상 탐지",
+     "quote": "Noise-robust anomaly detection framework using temporal features for industrial applications"
+    },
+    {
+     "label": "리튬이온 배터리 상태 추정",
+     "quote": "전류 및 온도를 고려한 리튬 이온 배터리의 등가모델 기반 상태 진단 알고리즘 개발"
+    },
+    {
+     "label": "제어",
+     "quote": "형상 제어를 위한 ZRM 시뮬레이터 개발 및 제어 알고리즘 개선, 포스코"
+    },
+    {
+     "label": "컴퓨터비전·영상인식",
+     "quote": "MULTI-SPECTRAL 드론영상에 대하여 FCN 기반 딥러닝 및 영상처리를 이용한 송전선로 및 폴리머 현수애자 검출 알고리즘 개발"
+    },
+    {
+     "label": "전동기 설계·고장 진단",
+     "quote": "Optimal design of fault-tolerant outer-rotor spoke-type PMSM with single-layer FSCW and magnetic notches using Kriging and NSGA-2 for satellite CMGs"
+    },
+    {
+     "label": "생체신호 기반 졸음 감지",
+     "quote": "Physiological signal based drowsiness detecting system using feedback data"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_975679fa678a#N00",
+     "code": "MECH371",
+     "name_kr": "열전달",
+     "name_en": "Heat Transfer",
+     "description": "추천 선수과목 : 유체역학에너지의 한 형태인 열(heat)이 전달되는 원리를 이해하고 열전달의 해석 방법을 소개하는 과목으로, 전도 (conduction), 대류(convection), 복사(radiation) 열전달을 다룬다. 정상 상태(steady-state) 및 과도(transient) 열전달을 해석하는 방법을 학습한다. 이론 강의와 더불어 실험 및 시뮬레이션 강의도 진행한다. 구체적인 학습목표는 다음과 같다. 1) 열전도 방정식을 배우고 간단한 열전도 문제를 해석하는 방법을 익힌다. 2) 내·외부 유동과 강제대류 열전달 현상을 배운다. 3) 자연대류(natural convection), 복사(radiation), 비등(boiling), 응축(condensation) 등 다양한 열전달 메커니즘과 모델을",
+     "objectives": "(1) To understand basic mechanisms of energy transport, i.e. conduction, convection and radiation\n(2) To learn analytical skills to solve various heat transfer problems"
+    },
+    {
+     "id": "lab_975679fa678a#N01",
+     "code": "EECE320",
+     "name_kr": "자동제어공학개론",
+     "name_en": "Introduction to Automatic Control",
+     "description": "선수과목 : 신호 및 시스템수학적 모델링과 전달함수, 궤환제어와 그의 응용에 관한 원리를 취급하며 시간 및 주파수영역에서의 궤환시스템의 해석 및 합성에 중점을 둔다. Root-locus방법, Bode diagram, Nyquist 방법과 상태공간기법(state space method)등을 다루며 전산기에 의한 제어시스템 해석과 합성을 공부한다. EECE331(SEMI205반도체 전자회로I) – 전자회로Ⅰ (Electronic CircuitsⅠ)                                     (3-0-3) 선수과목 : 회로이론 Diode, BJT등 반도체 소자의 기본동작과 이를 이용한 정류회로, 단일 트랜지스터 증폭기, 캐스코드 증폭기, 차동 증폭기 등의 선형 증폭기 회로에 대한 대신호 과도",
+     "objectives": "To provide the students with the mathematical basic concepts of control theory in the frequency-domain.\nIt is strongly recommend for students, who are interested in demonstration of control theory,  to take `EECE 376-02.'\n주파수 도메인에서의 제어이론에 대한 수학적 기초를 학생들에게 제공하는 것을 목표로 합니다.\n본 강의에서 학습한 제어이론을 구현해 보는 것에 "
+    },
+    {
+     "id": "lab_975679fa678a#N02",
+     "code": "EECE310",
+     "name_kr": "전력시스템 제어 및 운영의 기초",
+     "name_en": "Introduction to Electric Power System Control and Operation",
+     "description": "선수과목: 자동제어공학개론교류 및 직류 발전기를 포함한 대규모 전력시스템의 최적 운영 및 실시간 제어 기술을 습득한다. 특히, 전력시스템 운영 안정성 및 신뢰성에 크게 영향을 미치는, 경제급전(economic dispatch) 알고리즘을 개발하고 최적해를 도출한다. 또한 AC 동기 발전기에 의한 계통 주파수 및 노드 전압의 특성을 알아보고, 이를 제어하기 위한피드백 제어기를 설계하며, 매트랩/시뮬링크 프로그램을 이용하여 제어기 성능을 확인한다. 나아가, 대규모 신재생 발전단지의 출력량 예측 및 제어 방안을 알아보고 각각에 의한 영향성을 분석한다.",
+     "objectives": "This course is an introductory subject in the fields of power grid control and operation, particularly focusing on electric energy generation and transmission/distribution. Electrical power systems and machines are the foundation of the modern economy. Electric power has become increasingly importan"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_d666360c983d",
+   "professors": [
+    "김형함 (Hyungham Kim)"
+   ],
+   "summary_ko": "초음파 영상 시스템(패치형 프로브), 집속 초음파 치료, 초음파 기반 세포 평가 등 초음파 공학을 연구한다. 연구 소개 본문이 비어 있어 논문 제목으로 추정했다.",
+   "topics": [
+    {
+     "label": "패치형 초음파 영상",
+     "quote": "Real-time Ultrasound Imaging System utilizing Patch-type Ultrasound Probe for Free-Flap Blood Perfusion Monitoring"
+    },
+    {
+     "label": "집속 초음파 치료",
+     "quote": "Focused Ultrasound-Triggered Burst Release and Enrichment of Engineered Bacteria for Tumor Therapy"
+    },
+    {
+     "label": "줄기세포 초음파 평가",
+     "quote": "UNIQUE: ultrasound non-destructive in-situ quantitative evaluation of stem cell spheroid deformability during differentiation into specific lineages"
+    },
+    {
+     "label": "혈류 모니터링",
+     "quote": "Free-Flap Blood Perfusion Monitoring"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_d666360c983d#N00",
+     "code": "LIFE104",
+     "name_kr": "일반생명과학실험",
+     "name_en": "General Life Science Laboratory",
+     "description": "현대 생물학에서 활발하게 진행되고 있는 연구 분야를 신입생을 대상으로 소개하고, 생명과학과 교수님들의실험실 직접 방문을 통해 생명과학과에서 진행되고 있는 최근 연구 동향에 대한 소개를 하고자 한다.",
+     "objectives": "학부 신입생을 대상으로\n1) 현대 생물학에서 활발하게 진행되고 있는 연구분야 소개 및 기초 실험 수행\n2) 생명과학과의 주요 실험실 방문을 통해 현재 실험실에서 진행되고 있는 연구내용 소개 및 견학"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_96b6fdf81d5f",
+   "professors": [
+    "김정훈 (Junghoon Kim)"
+   ],
+   "summary_ko": "수학적 제어 이론을 개발하고 로봇, 항공우주 비행체, 사이버물리 시스템 등 실제 제어 시스템에 응용한다. 수집 본문에는 연구원 관심사만 있었고, 검토자가 홈페이지에서 직접 확인한 문장을 근거로 보강했다.",
+   "topics": [
+    {
+     "label": "수학적 제어 이론",
+     "quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on."
+    },
+    {
+     "label": "로봇·항공우주 제어 응용",
+     "quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on."
+    },
+    {
+     "label": "사이버물리 시스템",
+     "quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on."
+    },
+    {
+     "label": "다중 에이전트 합의 제어",
+     "quote": "Consensus control of multi-agent systems"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_96b6fdf81d5f#N00",
+     "code": "PHYS203",
+     "name_kr": "역학",
+     "name_en": "Mechanics",
+     "description": "입자 및 강체의 뉴튼역학으로 일반물리Ⅰ에서 다루었던 기초역학보다 더 해석적인 방법으로 취급한다. 뉴튼 역학과 보존법칙, 중력 포텐셜, 좌표계 문제, 중심력 문제 등이 포함된다.",
+     "objectives": "Classical mechanics is studied using mathematical tools. Topics include kinematics, dynamics, central forces, many-body systems, motions of rigid bodies, Lagrangian and Hamiltonian formulations. The goal of this course is (1) to develop fundamental concepts in mechanics as needed for further study i"
+    },
+    {
+     "id": "lab_96b6fdf81d5f#N01",
+     "code": "PHYS209",
+     "name_kr": "수리물리",
+     "name_en": "Mathematical Methods for Physics",
+     "description": "물리학에서 많이 사용되는 기초적인 수학적 방법론을 배운다. 벡터해석, 선형대수, 좌표변환, 푸리에수열, 복소변수, 상미분방정식, 특수함수 일부를 포함한다.",
+     "objectives": "물리학 (역학, 전자기학, 양자역학 등)에 필요한 수학적 기초를 다진다."
+    },
+    {
+     "id": "lab_96b6fdf81d5f#N02",
+     "code": "CSED343",
+     "name_kr": "기계학습을 위한 수학",
+     "name_en": "Mathematics for Machine Learning",
+     "description": "추천 선수과목 : MATH203 (응용선형대수), MATH230 (확률및통계), IMEN261 (최적화개론) 기계학습은 데이터를 기반으로 패턴을 찾아내고 이를 통해 관찰되지 않은 대상들에 대해 예측을 수행하는다양한 원리를 제공하는 학문으로 본 과목에서는 이러한 기계학습에서 사용되는 다양한 알고리즘을 이해하기위한 기본적인 수학적 지식들에 대하여 다루고 있다. 강의의 전반부에서는 선형대수, 해석기하학, 행렬분해, 벡터미적분, 확률과분포, 최적화와 같은 다양한 기초수학들을 다루며 후반부에서는 선형회귀, 로지스틱회귀, 서포트벡터머신, 주성분 분석, 그리고 인공신경망과 같은 전통적인 기계학습 알고리즘을 다루고 있다. 본 강의를 통해 수강생들은 더욱 고차원의 기계학습 알고리즘들을 배우기 위한 기본적인 지식을 획득하며 ",
+     "objectives": "Machine learning becomes a popular tool to predict and understand real world datasets. This class aims to provide a basic mathematical/statistical tools required to understand various machine learning algorithms. A wide range of basic mathematical concepts including but not limited to linear algebra"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_0cc50bac8f1e",
+   "professors": [
+    "김경태 (Kyeong-Tae Kim)"
+   ],
+   "summary_ko": "연구실 이름(지능형 레이더 시스템 및 신호처리 연구실) 외의 본문이 수집되지 않았다.",
+   "topics": [
+    {
+     "label": "레이더 시스템",
+     "quote": "지능형 레이더 시스템 및 신호처리 연구실"
+    },
+    {
+     "label": "레이더 신호처리",
+     "quote": "지능형 레이다 시스템 및 신호처리연구실"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_0cc50bac8f1e#N00",
+     "code": "EECE341",
+     "name_kr": "정보통신공학 개론",
+     "name_en": "Introduction to Communication Systems",
+     "description": "선수과목 : 신호및시스템푸리에 변환을 통신 채널 모형 및 송수신 신호 설계, 송수신 신호처리에 적용하여 시간 영역 뿐만 아니라 주파수 영역에서 통신 시스템을 설계하고 분석하는 능력을 배양한다. 특히 아날로그 통신 시스템에 중점을 두어 변조와 복조 기법의 기초를 학습한다.",
+     "objectives": "This course is to provide junior-year EE undergraduate students an overview of communication systems. In particular, it covers noise, DSB, SSB, VSB, PM, FM, PCM, etc. (전자전기공학의 가장 중요한 분야중의 하나인 통신공학에 관한 기초적인 이론들과 그 응용방법을 포괄적으로 다룸으로서 학부수준에서 필수적인 지식을 제공한다.)"
+    },
+    {
+     "id": "lab_0cc50bac8f1e#N01",
+     "code": "MECH280",
+     "name_kr": "센서및측정",
+     "name_en": "Sensors and Measurements",
+     "description": "측정은 공학에서 시스템 및 현상의 이해를 위한 필수적인 요소이다. 본 과목에서는 공학에서 사용하는 기본적인 측정 및 데이터 분석 기법들을 다룬다. 이론 강의로는 데이터 해석을 위한 기본적인 확률 및 통계 기법, 측정및 분석을 위한 센서 동적반응 모델 및 분석법, 신호처리 기술 등을 다룬다. 기계공학에서 다루는 역학 및 메카트로닉스 관련하여 다양한 실험을 수행하여 측정 장치 구성에 대한 이해, 측정 및 데이터 분석을 실제로 경험하도록 한다.",
+     "objectives": "센서는 일반적으로 모든 정보(혹은 에너지)를 물리적, 화학적, 생물학적 수단을 사용하여 검출하는 것이며 통상 비교적 작은 것을 의미하는 경우가 많다. 현재의 과학/공학적 편의성을 따라 출력정보는 일반적으로 전기신호로 변화시켜 취급하는 경우가 대부분이다. JIS BO 134 산업용 로봇용어에서는 센서를 “감각기능을 실현하기 위한 검출소자” 라고 정의하고 있으며, JIS BO 155 공업 프로세스 계측제어 용어 및 JIS Z 8103계측용어에서는 대상의 상태에 관한 측정량을 신호로 변환하는 시스템의 최초요소”라고 정의하고 있다.센서는 "
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_0c3cb4b83023",
+   "professors": [
+    "김원화 (Wonhwa Kim)"
+   ],
+   "summary_ko": "MRI·PET·CT 등 의료 영상에 통계·기계학습·그래프 이론 모델을 적용해 신경퇴행성 질환과 뇌 기능을 이해하는 의료정보처리 연구실이다.",
+   "topics": [
+    {
+     "label": "의료 영상",
+     "quote": "We do cutting-edge research on Artificial Intelligence and Medical Imaging."
+    },
+    {
+     "label": "뇌·신경과학",
+     "quote": "We identify the effects from neurodegenerative diseases for better understanding of brain functions and its progression."
+    },
+    {
+     "label": "그래프 이론 모델",
+     "quote": "graph theoretical"
+    },
+    {
+     "label": "컴퓨터비전·영상인식",
+     "quote": "We are also open for various other traditional Computer Vision and Machine Learning problems."
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_0c3cb4b83023#N00",
+     "code": "CSED105",
+     "name_kr": "인공지능기초",
+     "name_en": "Introduction to Artificial Intelligence",
+     "description": "인공지능 기술에 대한 배경과 핵심을 전달하고 인공지능 기반의 문제해결 능력을 선제적으로 함양하여, 인공지능과 함께하는 사회에서의 역량을 강화하고자 한다.",
+     "objectives": "인공지능 기술에 대한 배경과 핵심을 전달. 인공지능 기반의 문제해결 능력을 선제적으로 함양하여, 인공지능과 함께하는 사회에서의 역량을 강화."
+    },
+    {
+     "id": "lab_0c3cb4b83023#N01",
+     "code": "MATH409",
+     "name_kr": "489 특강Ⅰ, Ⅱ, Ⅲ",
+     "name_en": "Topics",
+     "description": "",
+     "objectives": "Linear algebra plays an important role in solving problems arising in a variety\nof application domains including engineering, machine learning, data\nscience, and more. This course is a continuation of MAT203 (Applied Linear\nAlgebra) with focuses on computational linear algebra and its applications t"
+    },
+    {
+     "id": "lab_0c3cb4b83023#N02",
+     "code": "MATH402",
+     "name_kr": "계산선형대수와 응용",
+     "name_en": "Computational Linear Algebra and Its Applications",
+     "description": "행렬의 계산 알고리즘에 초점을 맞추어 알고리즘 및 원리를 학습한다. 또한 기계학습 등에서 필수적인 고성능컴퓨팅의 중요성과 이를 효율적으로 다룰 수 있는 알고리즘 및 방법들을 소개한다. 다양한 응용예제들을 소개하며 행렬 계산의 중요성을 전달한다.",
+     "objectives": "Linear algebra plays an important role in solving problems arising in a variety\nof application domains including engineering, machine learning, data\nscience, and more. This course is a continuation of MAT203 (Applied Linear\nAlgebra) with focuses on computational linear algebra and its applications t"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_fbe4dd191302",
+   "professors": [
+    "최승문 (Seung-Moon Choi)"
+   ],
+   "summary_ko": "햅틱 렌더링·지각을 중심으로 시각장애인용 한글 촉각 대체, XR 기반 원격 로봇 조작(공유 자율성), 소리→햅틱 자동 변환과 접근성을 연구한다.",
+   "topics": [
+    {
+     "label": "햅틱·촉각",
+     "quote": "For Ph.D, I majored in haptics with emphasis on rendering and perception"
+    },
+    {
+     "label": "시각장애인 촉각 한글",
+     "quote": "Tactile Substitution System of Korean for Visually-Impaired Users"
+    },
+    {
+     "label": "XR 원격 로봇 조작",
+     "quote": "Operating a Remote Robot in an XR Environment Based on Shared Autonomy"
+    },
+    {
+     "label": "제스처 로봇 제어",
+     "quote": "Gesture-based control of autonomy-equipped robots"
+    },
+    {
+     "label": "소리-햅틱 변환",
+     "quote": "Semantic Sound-to-Haptic Automatic Conversion: Metaverse, Full-body Haptic Effects, and Accessibility"
+    },
+    {
+     "label": "다감각 상호작용",
+     "quote": "Multisensory interaction methods for users in"
+    },
+    {
+     "label": "촉각 인지 뇌 연구",
+     "quote": "We will also study how the tactile communication for Korean will be processed in the human brain."
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_fbe4dd191302#N00",
+     "code": "EECE376",
+     "name_kr": "전자전기공학실험3",
+     "name_en": "Electronics & Electrical Engineering LabⅢ",
+     "description": "전자공학의 학부 세번째 실험교과목으로, 학생들이 전자공학의 최신기술을 본격적으로 활용하여 전자장치를 제작할 수 있도록 하기위해, 초음파를 이용한 와이파이 무선통신과 드론 제어 및                          머신러닝장치 등을 실제로 제작하고 성능을 평가한다.",
+     "objectives": "*내용에 대한 이해 없이 우선 실험만 수행한 뒤에 결과에 대한 고찰을 하는 실습이 아닌,  이론을 먼저 학습한 뒤에 이를 바탕으로 MATLAB으로 구현하여 제어공학에 대한 이해도를 높이는 것을 목표로 합니다.\n자동 제어 시스템의 해석을 위한 기초 이론을 사전에 간단하게 학습하고, MATLAB을 통한 시뮬레이션 검증을  수행한다.\n아울러 실습한 결과에 대한 고찰을 통하여 학습한 이론의 타당성 및 유효성을 검토한다."
+    },
+    {
+     "id": "lab_fbe4dd191302#N01",
+     "code": "CITE341",
+     "name_kr": "제어시스템 이론 및 실험",
+     "name_en": "Control Systems Theory and Lab",
+     "description": "제어 일반에 관한 다양한 이론을 공부하여 학부 수준에서의 폭 넓은 제어 및 시스템 지식을 구축하고자 한다. 타학과에서는 여러과목에 산재되어 있는 과목들을 핵심지식을 중심으로 압축하여 한 과목으로 제공하고자 한다.",
+     "objectives": "The objective of this class is to understand mathematical models and their characteristics for a\nsimple single input and single output system. Modeling in the frequency and time domains is first\nintroduced and then the stability is discussed with some techniques. A simple PID control design for impr"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_c3cd46ef8123",
+   "professors": [
+    "유환조 (Hwanjo Yu)"
+   ],
+   "summary_ko": "추천시스템, 시계열 파운데이션 모델, 멀티모달 RAG, 로봇 파운데이션 모델(VLA) 등 데이터 인텔리전스 전반을 다루며 학부 인턴 프로젝트를 명시한다.",
+   "topics": [
+    {
+     "label": "추천시스템",
+     "quote": "Continual and federated recommender system"
+    },
+    {
+     "label": "시계열 분석",
+     "quote": "Time-series foundation models"
+    },
+    {
+     "label": "멀티모달 RAG·LLM",
+     "quote": "Multimodal RAG"
+    },
+    {
+     "label": "VLA·로봇 파운데이션 모델",
+     "quote": "Time-aware multi-modal VLA Models"
+    },
+    {
+     "label": "AI·기계학습",
+     "quote": "Undergraduates interested in research internships are encouraged to take AI-related courses before applying."
+    },
+    {
+     "label": "LLM 추천",
+     "quote": "Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders"
+    },
+    {
+     "label": "시계열 분석",
+     "quote": "Dynamic Multi-period Experts for Online Time Series Forecasting"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_c3cd46ef8123#N00",
+     "code": "CSED105",
+     "name_kr": "인공지능기초",
+     "name_en": "Introduction to Artificial Intelligence",
+     "description": "인공지능 기술에 대한 배경과 핵심을 전달하고 인공지능 기반의 문제해결 능력을 선제적으로 함양하여, 인공지능과 함께하는 사회에서의 역량을 강화하고자 한다.",
+     "objectives": "인공지능 기술에 대한 배경과 핵심을 전달. 인공지능 기반의 문제해결 능력을 선제적으로 함양하여, 인공지능과 함께하는 사회에서의 역량을 강화."
+    },
+    {
+     "id": "lab_c3cd46ef8123#N01",
+     "code": "CSED441",
+     "name_kr": "컴퓨터비전 개론",
+     "name_en": "Introduction to Computer Vision",
+     "description": "추천 선수과목 : MATH120 (응용선형대수) 컴퓨터 비전 과목에서는 사진 및 동영상과 같은 시각적 데이터를 사람의 힘을 빌리지 않고 자동으로 이해하는기술에 관하여 학습한다. 시각적 데이터를 수학적으로 모델링하고 다양한 방법으로 분석함으로써 그 내용을 이해하는 것을 목표로 하고 있다. 기계학습, 알고리즘, 그래픽스 등과도 밀접한 관련이 있는 이 과목은 대학원 수준의 컴퓨터 비전 과목을 이수하기 이전에 학부생들로 하여금 기본적인 개념뿐만 아니라 실용적인 구현 능력을배양할 수 있도록 한다.",
+     "objectives": "Vision is the most important sensing mechanism for humans. Computer vision is related to the extraction of high level information through the analysis of an image or a sequence of images. The goal of this course is to introduce the inherent problems of computer vision and some possible solutions to "
+    },
+    {
+     "id": "lab_c3cd46ef8123#N02",
+     "code": "IMEN472",
+     "name_kr": "데이터사이언스방법론",
+     "name_en": "Data Science Methodology",
+     "description": "선수과목 : 공학기초통계데이터마이닝의 주요 목적인 예측, 분류, 군집 및 연관규칙에 대한 구체적인 기법을 다룬다. 구체적으로 예측을 위해 변형된 회귀분석기법을, 분류를 위한 로지스틱회귀, 판별분석, 트리 등을, 군집을 위한 계층적군집, 비계층적군집기법을, 그리고 연관규칙을 위한 시장바구니분석, 추천시스템 등을 학습한다.",
+     "objectives": "This course will cover theories and applications of basic (statistical) data mining techniques including regression, classification and unsupervised learning."
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_ed8b612492ff",
+   "professors": [
+    "송호진 (Ho-Jin Song)",
+    "홍원빈 (Won Bin Hong)"
+   ],
+   "summary_ko": "마이크로파·밀리미터파·테라헤르츠 회로(RFIC 그룹, 송호진)와 안테나·전자기(안테나 그룹, 홍원빈)를 공동 운영하는 MADs 연구실이다. 6G 통신, 레이더, 위성통신 응용이 논문에 나타난다.",
+   "topics": [
+    {
+     "label": "RF·마이크로파·안테나",
+     "quote": "specializes in researching a variety of topics within applied EM and RF Circuits including Microwave, Millimeter-wave and Terahertz Circuits, Antennas, Wave Propa gation Studies for Wireless Applications, Radars and EM Metamaterials."
+    },
+    {
+     "label": "CMOS 전력증폭기·RFIC",
+     "quote": "Stacked-FET CMOS Power Amplifier in Millimeter-Wave and Sub-THz Band: Design and Considerations"
+    },
+    {
+     "label": "6G 통신용 안테나",
+     "quote": "Wideband Single Conductive Layer Glass Picture Frame Electromagnetic Skin for 6G Upper-Mid Band Indoor Communication"
+    },
+    {
+     "label": "E-band 레이더 송수신기",
+     "quote": "An E-Band Radar Transceiver With Daisy-Chained Wireless Chirp Synchronization for Scalable Multistatic Radar Networks"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_ed8b612492ff#N00",
+     "code": "MECH381",
+     "name_kr": "기계전자공학",
+     "name_en": "Electronics for Mechanical Engineers",
+     "description": "Thevenin & Norton Theorem, Energy BAND, 전자의 분포, Cloping, Diode의 특성, Transistor의 특성, Bias, 증폭, Impedence, Feedback system 등 전자공학의 기초를 이해하고 실제 문제에 활용하는 능력을 갖출수 있도록 한다. 특히 전자회로 분야에 대해서 이해를 심화하여 기계 공학도가 보다 폭넓은 분야에서 실무 능력을 지니도록 하는데 본 강의의 목적이 있다.",
+     "objectives": "전자 공학의 기본적인 작동 원리의 이해하고 실제 모델에 이를 적용해보도록한다. 또한 이를 통해서 현실적인 문제를 접할 때 활용 능력을 갖출 수 있도록 한다. 특히 기계공학에서 취약할 수 있는 전자회로 분야에 대해서 이해를충실히 함으로서 폭넓고 실용성 있는 기계 공학도의 능력을 키우도록 하는데본 강의의 목적이 있다."
+    },
+    {
+     "id": "lab_ed8b612492ff#N01",
+     "code": "SEMI343",
+     "name_kr": "반도체 전자회로II",
+     "name_en": "Semiconductor Electronic Circuits II",
+     "description": "반도체 전자회로 I 과목에 대한 이해를 바탕으로 더 심화된 반도체 전자회로의 지식을 쌓는 것을 목표로 한다. 차동증폭기 회로, 다단 증폭기의 개념과 이를 구현하는 회로들을 해석하며 주파수 응답 및 궤환회로에 대하여 학습한다. 또한 필터 및 신호 생성 회로, 증폭기 출력단 회로를 해석한다.",
+     "objectives": "차동증폭기 회로, 다단 증폭기에 사용되는 회로들을 해석하며 이에 대한 주파수 응답 및 궤환회로에 대하여 고찰한다.\n또한 필터 및 신호 생성 회로, 증폭기 출력단 회로를 해석한다."
+    },
+    {
+     "id": "lab_ed8b612492ff#N02",
+     "code": "EECE336",
+     "name_kr": "전자회로Ⅱ",
+     "name_en": "Electronic CircuitsⅡ",
+     "description": "선수과목 : 전자회로Ⅰ 차동증폭기와 다단 증폭기 회로, 주파수 특성, 피드백의 해석, 안정도 문제, 출력단과 전력증폭기, 아날로그 집적회로, 필터 및 tuned amp, oscillator 및 신호발생기 등의 회로 동작을 해석하는 방법을 익히고 실험을 통하여 그 동작을 확인한다.",
+     "objectives": "차동증폭기 회로, 다단 증폭기에 사용되는 회로들을 해석하며 이에 대한 주파수 응답 및 궤환회로에 대하여 고찰한다.\n또한 필터 및 신호 생성 회로, 증폭기 출력단 회로를 해석한다."
+    },
+    {
+     "id": "lab_ed8b612492ff#N03",
+     "code": "EECE419/DISU404",
+     "name_kr": "고급전자회로",
+     "name_en": "Advanced Electoronic Circuits",
+     "description": "선수과목 : 회로이론, 전자회로I 단순한 해석 중심의 회로 분석에서 벗어나, 설계 지향적 접근을 통해 고급 전자회로의 구조와 동작 원리를 심층적으로 탐구합니다. 반도체 소자 모델링, 고속 신호 처리, 전력 변환 및 아날로그·디지털 혼합 회로 설계 등실무 및 연구에서 요구되는 핵심 기술을 중심으로 학습하며, 또한 복잡한 회로 시스템을 직관적이고 효율적으로분석할 수 있는 고급 해석 기법과 설계 최적화 방법론을 다룹니다.",
+     "objectives": "해석 위주의 분석법에서 벗어나 설계 관점에서의 실무적인 고급전자회로를 학습한다.\r\n복잡한 회로의 직관적이고 빠른 회로 해석법을 학습한다."
+    },
+    {
+     "id": "lab_ed8b612492ff#N04",
+     "code": "SEMI205",
+     "name_kr": "반도체 전자회로 I",
+     "name_en": "Semiconductor Electronic Circuits I",
+     "description": "전자소자들로 이뤄진 회로 해석의 기본 접근방법을 배운다. R, L, C, Diode, BJT, MOSFET 등의 소자들로 구성되는 회로를 배우고, 이를 설계 tool인 SPICE를 통해 직접 확인해 봄으로써 학생들이 회로 해석 및 설계를 스스로 해 볼 수 있는 역량을 키운다.",
+     "objectives": "- 교과목 개요: Learns the operation of basic electronic circuits such as rectifier and amplifiers, which consist of diode, transistors(BJT, MOSFET), R, L and C. Hand analysis and SPICE simulation will be used to understand the circuit operation.\n- 교육 목표: This course aims to cultivate students' skills in "
+    },
+    {
+     "id": "lab_ed8b612492ff#N05",
+     "code": "DISU404",
+     "name_kr": "아날로그 증폭기 해석 및 설계",
+     "name_en": "Analog Amplifier Analysis and Design",
+     "description": "선수과목 : 회로이론, 전자회로1 해석 위주의 분석법에서 벗어나 설계 관점에서의 실무적인 고급전자회로를 학습한다. 복잡한 회로의 직관적이고빠른 회로 해석법을 학습한다.",
+     "objectives": "해석 위주의 분석법에서 벗어나 설계 관점에서의 실무적인 고급전자회로를 학습한다.\n복잡한 회로의 직관적이고 빠른 회로 해석법을 학습한다."
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_0550a1bc6943",
+   "professors": [
+    "김욱성 (Wook Sung Kim)"
+   ],
+   "summary_ko": "미래 디스플레이 설계, 액정 기반 광학·안테나 소자, 전력변환 회로, VR 멀미 등 디스플레이·배열 기술 전반을 다룬다.",
+   "topics": [
+    {
+     "label": "디스플레이",
+     "quote": "Main research topics in WADE are Future Display Design, Future Array Technology, Display and Array Modeling."
+    },
+    {
+     "label": "액정 스마트 윈도우·필터",
+     "quote": "Smart window technology based on liquid crystals"
+    },
+    {
+     "label": "VR 멀미·HMD 콘텐츠",
+     "quote": "Cyber-sickness in virtual reality"
+    },
+    {
+     "label": "고승압 DC/DC 컨버터",
+     "quote": "High gain DC/DC Converter"
+    },
+    {
+     "label": "액정 안테나",
+     "quote": "Liquid crystal antennas"
+    },
+    {
+     "label": "지향성 스피커·초음파 응용",
+     "quote": "Directional speakers"
+    },
+    {
+     "label": "QD 적외선 헬스케어",
+     "quote": "QD IR Healthcare application"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_0550a1bc6943#N00",
+     "code": "AMSE406",
+     "name_kr": "소재/공정 디자인 종합설계 Ⅳ",
+     "name_en": "Integrated Design of Materials and Processes Ⅳ",
+     "description": "팀 별로 관심 있는 분야의 연구주제를 학생들 스스로 선정, 담당교수의 지도하에 재료와 공정에 관한 창의적인 문제 해결 능력을 배양한다.",
+     "objectives": "팀 별로 관심 있는 분야의 연구주제를 학생들 스스로 선정. 담당교수의 지도하에 재료와 공정에 관한 창의적인 문제 해결 능력을 배양함"
+    },
+    {
+     "id": "lab_0550a1bc6943#N01",
+     "code": "SEMI423",
+     "name_kr": "반도체 광소자의 이해",
+     "name_en": "Fundamentals of Semiconductor Optoelectronic Devices",
+     "description": "반도체와 빛의 상호작용을 기반으로 다양한 광소자의 원리와 응용을 학습하는 것을 목표로 한다. 반도체 재료의광학적 특성, 발광 및 검출 메커니즘을 이해하고 이를 기반으로 한 LED, 레이저 다이오드, 디스플레이 소자, 포토다이오드, 이미지 센서 등의 구조와 동작 원리를 다룬다. 또한 최신 이미지 센서 및 차세대 광소자 기술을 소개함으로써, 학생들이 반도체 소자 분야의 기초 지식뿐 아니라 산업 응용 및 연구 동향을 함께 이해할 수 있도록 한다.",
+     "objectives": "-  교과목개요: 이미지센서는 광전변환을 활용하는 가장 대표적인 반도체 소자 중 하나이다. 본 강의에서는 반도체 이미지 센서의 전반적인 이해를 위하여 기본적인 반도체 광학과 이를 응용한 이미지 센싱 시스템의 전반적인 지식을 다룬다.\n- 교육목표: 이미지센서를 이해하기 위한 카메라 동작의 기초와 깊이있는 전기광학적 지식에서 부터, 소자의 설계와 이해, 이미지 센싱을 위한 특화 반도체 공정, 이미지센서의 특성과 최신의 이미지 센서 동향을 이해하여 광전 반도체 소자 및 시스템의 설계, 또는 활용에 대한 기반을 확립한다."
+    },
+    {
+     "id": "lab_0550a1bc6943#N02",
+     "code": "EECE310",
+     "name_kr": "전력시스템 제어 및 운영의 기초",
+     "name_en": "Introduction to Electric Power System Control and Operation",
+     "description": "선수과목: 자동제어공학개론교류 및 직류 발전기를 포함한 대규모 전력시스템의 최적 운영 및 실시간 제어 기술을 습득한다. 특히, 전력시스템 운영 안정성 및 신뢰성에 크게 영향을 미치는, 경제급전(economic dispatch) 알고리즘을 개발하고 최적해를 도출한다. 또한 AC 동기 발전기에 의한 계통 주파수 및 노드 전압의 특성을 알아보고, 이를 제어하기 위한피드백 제어기를 설계하며, 매트랩/시뮬링크 프로그램을 이용하여 제어기 성능을 확인한다. 나아가, 대규모 신재생 발전단지의 출력량 예측 및 제어 방안을 알아보고 각각에 의한 영향성을 분석한다.",
+     "objectives": "This course is an introductory subject in the fields of power grid control and operation, particularly focusing on electric energy generation and transmission/distribution. Electrical power systems and machines are the foundation of the modern economy. Electric power has become increasingly importan"
+    },
+    {
+     "id": "lab_0550a1bc6943#N03",
+     "code": "CSED354",
+     "name_kr": "컴퓨터공학 세부전공 소개",
+     "name_en": "Introduction to Topics in Computer Science and Engineering",
+     "description": "본 과목에서는 컴퓨터공학과 대학원에서 연구하는 세부전공 분야와 최신 연구내용에 대해 소개한다. 각 주별컴퓨터공학 세부 연구 분야를 선정하여 해당 분야를 연구하는 컴퓨터공학과 교수가 직접 해당 분야를 소개한다.",
+     "objectives": "﻿The goal of this class is to introduce research areas, current topics, and future directions in computer science and engineering. Each week, two research areas in computer science and engineering will be introduced by the faculty of the CSE department."
+    },
+    {
+     "id": "lab_0550a1bc6943#N04",
+     "code": "SEMI445",
+     "name_kr": "RF/아날로그 회로 설계 기초",
+     "name_en": "Introduction to RF and Analog Circuit Design",
+     "description": "무선 통신 및 레이더 시스템 동작 원리 이해 및 RF-아날로그 회로 관점에서의 시스템 구조 분석 / 대표적인 아날로그 집적회로 분야인 RF-아날로그 회로의 기본 개념, 기초 설계 이론과 지식 습득: 전송선 이론, 임피던스 정합 이론, S-파라메터와 스미스 차트를 활용한 회로 설계, RF/아날로그 회로별 성능 정의 / 고출력 증폭기, 잡음증폭기, 주파수 변환기, 신호 발생기 등 회로 분석/제공되는 상용 설계 시뮬레이터를 이용한 간단한 RF회로 설계및 분석 진행 등을 다룬다. SEMI490A/Z 반도체공학특강A/Z (Special Topics in Semiconductor Engineering A-Z) (가변학점, 최대3학점) 본 교과목은 교과과정에 명시되어 있지 않은 제목을 택하여 새로운 교과목 개설 또는 최",
+     "objectives": "최신 4G/5G 무선통신과 차량용 레이더의 핵심 반도체 회로 기술인 RF-아날로그 회로의 기본 개념, 기초 설계 이론과 지식 습득을 목표로 한다. 나날이 고속/고주파 동작을 요하는 최신 무선/레이더 시스템의 전반 동작원리와 RF 회로 설계 방법론을 공부한다. 팹리스 설계 업체등 현업에서 사용되는 소프트웨어와 설계환경에서 간단한 RF/아날로그 요소 회로를 직접 설계 구현할수 있는 기회를 제공하여 향후 취업과 대학원 연구에 필요한 경험을 쌓는다."
+    },
+    {
+     "id": "lab_0550a1bc6943#N05",
+     "code": "EECE416",
+     "name_kr": "고주파 소자 해석",
+     "name_en": "Microwave Device Analysis",
+     "description": "소자 해석에 사용되는 반도체 소자의 기본 동작 원리를 리뷰하고, 이를 이용해 고주파 대역에서 활용되는 다양한 소자, 다이오드, BJT, HBT, HEMT 등의 동작 원리를 이론적으로 탐구한다. 고주파 소자 해석에 필수적인 2 port analysis, scattering parameter에 대해 리뷰하고, 소자의 주파수 특성을 해석하는데 필수적인 등가회로 모델을 학습한다. 등가회로 모델을 이용하여 고주파 동작 특성의 예측, 소자 측정 데이터를 기반으로 등가회로 구성 요소들을 추출하는 방법 등에 대해 학습한다.",
+     "objectives": "Analysis of operating principles of transistor structures for RF applications. Basic semiconductor physics is reviewed for early few weeks, and this knowledge is used to provide explanations of transistor characteristics. Development and usage of device-equivalent circuits to interpret semiconductor"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_e0f1bf42627c",
+   "professors": [
+    "정윤영 (Yoon Young Jung)"
+   ],
+   "summary_ko": "산화물 반도체(IGZO) 소자·차세대 메모리와, 웨어러블 기기용 AI 음성 향상(골전도 마이크 결합, 경량화)을 함께 연구한다.",
+   "topics": [
+    {
+     "label": "멀티모달 음성 향상",
+     "quote": "we develop a multimodal speech enhancement model that produces clear and natural speech"
+    },
+    {
+     "label": "경량화·효율적 AI",
+     "quote": "The model is further compressed through pruning and quantization, enabling efficient real-time deployment on mobile and wearable devices."
+    },
+    {
+     "label": "스마트 웨어러블 기기",
+     "quote": "AI Speech Enhancement Model for Smart Wearable Devices"
+    },
+    {
+     "label": "산화물 반도체 트랜지스터",
+     "quote": "Quantitative Analysis and Mitigation Strategy for Hot Carrier Degradation in a-IGZO Transistor"
+    },
+    {
+     "label": "차세대 메모리·뉴로모픽 소자",
+     "quote": "Recent Progress and Opportunities in Oxide Semiconductor Devices for In-Memory and Neuromorphic Computing"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_e0f1bf42627c#N00",
+     "code": "SEMI423",
+     "name_kr": "반도체 광소자의 이해",
+     "name_en": "Fundamentals of Semiconductor Optoelectronic Devices",
+     "description": "반도체와 빛의 상호작용을 기반으로 다양한 광소자의 원리와 응용을 학습하는 것을 목표로 한다. 반도체 재료의광학적 특성, 발광 및 검출 메커니즘을 이해하고 이를 기반으로 한 LED, 레이저 다이오드, 디스플레이 소자, 포토다이오드, 이미지 센서 등의 구조와 동작 원리를 다룬다. 또한 최신 이미지 센서 및 차세대 광소자 기술을 소개함으로써, 학생들이 반도체 소자 분야의 기초 지식뿐 아니라 산업 응용 및 연구 동향을 함께 이해할 수 있도록 한다.",
+     "objectives": "-  교과목개요: 이미지센서는 광전변환을 활용하는 가장 대표적인 반도체 소자 중 하나이다. 본 강의에서는 반도체 이미지 센서의 전반적인 이해를 위하여 기본적인 반도체 광학과 이를 응용한 이미지 센싱 시스템의 전반적인 지식을 다룬다.\n- 교육목표: 이미지센서를 이해하기 위한 카메라 동작의 기초와 깊이있는 전기광학적 지식에서 부터, 소자의 설계와 이해, 이미지 센싱을 위한 특화 반도체 공정, 이미지센서의 특성과 최신의 이미지 센서 동향을 이해하여 광전 반도체 소자 및 시스템의 설계, 또는 활용에 대한 기반을 확립한다."
+    },
+    {
+     "id": "lab_e0f1bf42627c#N01",
+     "code": "EECE211",
+     "name_kr": "반도체 전자공학Ⅰ",
+     "name_en": "Semiconductor ElectronicsⅠ",
+     "description": "반도체 소자(Device)의 기본원리를 공부하며, 전자와 정공(Hole)에 의한 전류, Tunnelling, P-N 접합, Bipolar transistor, JFET(Junction Field Effect Transistor), MOSFET(Metal Oxide Semiconductor Field Effect Transistor)와 기타 최신 Device를 취급한다. 또한 소자의 집적회로에의 응용을 다룬다.",
+     "objectives": "Basic understanding of solid-state semiconductor devices."
+    },
+    {
+     "id": "lab_e0f1bf42627c#N02",
+     "code": "SEMI363",
+     "name_kr": "BEOL/패키징",
+     "name_en": "BEOL/Advanced Packaging",
+     "description": "반도체소자 제조공정은 트랜지스터를 형성하는 FEOL 위에 금속배선을 구성하는 BEOL 단계로 이루어진다. 이러한 반도체소자와 함께, 다양한 소자(capacitor, resistor 등)의 기계적, 열적, 전기적 연결을 통해 I/O 단자를 형성하는 전자패키징 공정이 수반된다. 본 강좌에서는 BEOL 공정과 함께 반도체 소자의 최종 응용을 가능하게 하는 전자패키징 기술을 이해하고, 최근 발전하고 있는 advanced packaging 기술을 학습하여, More than Moore 시대를 대응할 수 있는 3D 이종집적 기술의 공정과 관련 이론을 바탕으로 미래 반도체 응용기술을 혁신할 수있는 능력을 배양하고자 한다. SEMI399A/D – 연구참여A/D (Research Participation A-D)      ",
+     "objectives": "- 교과목 개요: 반도체 소자의 후공정과 전자패키징의 목적, 방법, 성능/신뢰성 평가에 대해 기본원리를 이해하고, 이들 공정에 요구되는 다양한 소재의 특징에 대해 학습하며, 기존 반도체 패키징 기술과 함께 향후 반도체 집적에 요구되는 이종집적 기술개발에 활용될 수 있도록 함\n- 교육 목표: 기존의 반도체 BEOL 과 레거시 반도체 패키징 개념을 바탕으로 최근 BEOL기술과 첨단패키징 기술의 발전과정을 이해하고 새로운 기술 개발에 필요한 기초 역량을 함양함"
+    },
+    {
+     "id": "lab_e0f1bf42627c#N03",
+     "code": "SEMI203",
+     "name_kr": "반도체 소자 I",
+     "name_en": "Semiconductor Devices I",
+     "description": "반도체 소자의 기본 동작 원리를 학습한다. 반도체 물성, 캐리어 이동, 접합 구조 등에 대한 기초지식을 함양하고, 다이오드 및 트랜지스터의 동작원리를 학습한다.",
+     "objectives": "- 교과목 개요: 반도체 소자에 대한 개론과목으로 반도체 물리, 공정, 소자 구조에 대한 기초지식과 다이오드 및 트랜지스터의 동작원리를 학습함.\n- 교육 목표: 반도체소자의 기본 물성 및 동작원리를 학습함"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_a53be44484aa",
+   "professors": [
+    "김병섭 (Byungsub Kim)"
+   ],
+   "summary_ko": "고속 유선 링크 등 회로 설계와 아날로그 레이아웃 자동화(EDA)를 연구하며, 기계학습을 설계 자동화에 적용한다. 연구 소개 본문은 비어 있다.",
+   "topics": [
+    {
+     "label": "고속 온칩 링크 설계",
+     "quote": "A Fast Design Optimization of On-Chip Equalizing Links Using Particle Swarm Optimization"
+    },
+    {
+     "label": "온칩 계측 회로",
+     "quote": "An On-chip Low-Cost Averaging Digital Sampling Scope for 80-GS/s Measurement of Wireline Pulse Responses"
+    },
+    {
+     "label": "설계 최적화",
+     "quote": "Particle Swarm Optimization"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_a53be44484aa#N00",
+     "code": "SEMI209",
+     "name_kr": "반도체 회로의 이해",
+     "name_en": "Fundamentals of Semiconductor Circuits",
+     "description": "반도체 소자와 회로의 기본 요소로 구성된 전기회로를 해석하고 설계하기 위한 능력을 개발하는 것을 본 강의의목적으로 한다. 기본적인 전하, 전류, 전압, 저항, capacitance, inductance, 전력 및 에너지의 개념, Kirchhoff의법칙, Impedance의 개념, 최대전력전달, Thevenin의 정리, Norton의 정리 등을 배우며 phasor방법과 Laplace Transform을 활용하여 회로를 이해하는 법을 익히도록 한다. 또한 Computer Program을 활용하여 회로 해석과 설계를 배운다.",
+     "objectives": "반도체 소자와 회로의 기본 요소로 구성된 전기회로와 디지털 시스템의 기본이 되는 논리회로를 해석하고 설계하기 위한 능력을 개발하는 것을 본 강의의 목적으로 한다. 전기회로 부분에서 전하, 전류, 전압, 저항, capacitance, inductance, 전력 및 에너지의 개념, Kirchhoff의 법칙, Impedance의 개념, Thevenin의 정리, Norton의 정리 및 Sinusoidal 해석 방법과 회로를 이해하는 법을 익히도록 한다. 또한, 디지털 시스템의 기초가 되는 논리 회로의 기본 개념과 분석 및 설계 방법을 다룬"
+    },
+    {
+     "id": "lab_a53be44484aa#N01",
+     "code": "DISU231",
+     "name_kr": "전기회로",
+     "name_en": "Electrical Circuit",
+     "description": "전기회로를 해석하기 위한 능력을 개발함을 목적으로 하며 전하, 전류, 전압, 저항, Capacitance, Inductance 전력 및 에너지의 개념, Kirchoff의 계산법, 임피던스의 개념, 최대전력전달, Thevenin의 정리, Norton의 정리, 전산기에 의한 회로망 해석을 배운다.",
+     "objectives": "전기회로를 해석하고 설계하기 위한 능력을 개발함을 목적으로 하여 전하, 전류, 전압, 저항, capacitance, inductance,\n전력 및 에너지의 개념, Kirchhoff의 법칙, Impedance의 개념, 최대전력전달, Thevenin의 정리, Norton의 정리 등을 배우며\nphasor방법과 Laplace Transform을 사용한다. 또한 Computer Program을 활용하여 회로 해석과 설계를 배운다."
+    },
+    {
+     "id": "lab_a53be44484aa#N02",
+     "code": "MECH421",
+     "name_kr": "초소형기전공학개론",
+     "name_en": "Introduction to MEMS",
+     "description": "기초적인 반도체 집적회로 공정기술(Micro fabrication Technology)을 바탕으로, 전반적인 MEMS(Micro electromechanical Systems) 공정 기술과 이론에 접근한다. 실제적인 MEMS 기술로 만들어진 각종 마이크로센서(Micro sensors) 및 액추에이터(Actuators), 그리고 그 적용에 대해 강의하며, 기계, 전자, 재료, 물리, 생명공학 등 여러 분야의 응용 가능성을 모색하도록 한다.",
+     "objectives": "기초적인 반도체 집적회로 공정기술 (Microfabrication Technology)을 바탕으로, 전반적인 MEMS (Microelectromechanical Systems) 공정 기술과 이론에 접근한다. 실제적인 MEMS 기술로 만들어진 각종 마이크로 센서(Microsensors) 및 액튜에이터(Actuators), 그리고 그 적용에 대해 강의하며, 기계, 전자, 재료, 물리, 생명공학등 여러분야의 응용 가능성을 모색하도록 한다."
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_44f00d8a40c9",
+   "professors": [
+    "한해욱 (Hae-Uk Han)"
+   ],
+   "summary_ko": "펨토초 레이저 기반 테라헤르츠 시간영역 분광(THz-TDS) 시스템을 직접 구축하고, THz 근접장 현미경, 바이오 센싱, 포토닉 소자 설계에 응용한다.",
+   "topics": [
+    {
+     "label": "테라헤르츠 분광·근접장 이미징",
+     "quote": "In our lab, we have built a homemade THz-TDS system which is one of the best with the highest signal-to-ratio (SNR) in the world."
+    },
+    {
+     "label": "펨토초 레이저 광학",
+     "quote": "THz-TDS is based on electromagnetic transients excited by femtosecond"
+    },
+    {
+     "label": "THz 근접장 현미경",
+     "quote": "Reference-free self-calibrating tip-based scattering-type THz near-field microscopy."
+    },
+    {
+     "label": "THz 바이오 센싱",
+     "quote": "Quantitative Label-free Terahertz Sensing of Transdermal Nicotine Delivered to Human Skin."
+    },
+    {
+     "label": "THz 도파로 소자",
+     "quote": "Ultra-compact terahertz 50: 50 power splitter designed by a perceptron-based algorithm."
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_44f00d8a40c9#N00",
+     "code": "SEMI362",
+     "name_kr": "반도체 소재 분석",
+     "name_en": "Analysis and Characterization of Semiconductor Materials",
+     "description": "Upon completion of this course, the students will be familiar with basic principles of sophisticated scientific instruments and the acquired knowledge can be easily extended to other instruments.",
+     "objectives": "This course aims to deliver underlying physical backgrounds and fundamental working principles of scientific instruments for materials characterization. Instead of merely introducing diverse instruments, the lecture mainly focuses on the basic theories of diffraction, microscopy and spectroscopy tec"
+    },
+    {
+     "id": "lab_44f00d8a40c9#N01",
+     "code": "SEMI422",
+     "name_kr": "양자 소자 및 컴퓨팅",
+     "name_en": "Quantum Devices and Computing",
+     "description": "양자 정보 처리를 이해하기 위한 기초적인 양자 역학의 원리를 소개한다. 양자 정보 및 양자 컴퓨터의 기본 연산 단위인 큐비트의 동작 원리 및 단일, 다중 양자 논리 게이트의 원리를 이해한다. 큐비트의 결맞음을 파괴하는 decoherence 현상에 대해 살펴보고, 이를 다루는 간단한 수학적 기술 방법을 소개한다. 이러한 큐비트들을 이용한 양자 정보 처리 알고리즘에 대해 알아보고, 실제 이행 가능한 이온 트랩 및 초전도 큐비트 등의 하드웨어와사용되는 반도체 공정 기술에 대해 논의한다. 양자 통신, 양자 네트워크, 간단한 양자 오류 보정에 대해서 소개한다.",
+     "objectives": "본 강의에서는 양자컴퓨팅 하드웨어의 작동을 이해하는 것을 목표로 한다. 현재 주로 사용되는 양자정보 시스템은 이온 트랩과 초전도 큐비트 기반의 양자컴퓨팅 하드웨어를 정량적으로 기술하는 방법을 배운다. 각 시스템의 원리를 의 수학적으로 논의하며, 레이저와 마이크로파로 큐비트로 구동하였을 때 큐빗 시스템의 동작을 이해한다. 이를 위해 기초적인 원자 물리와 양자 광학에 대해 논의한다."
+    },
+    {
+     "id": "lab_44f00d8a40c9#N02",
+     "code": "DISU421",
+     "name_kr": "기초양자정보",
+     "name_en": "Basic Quantum Information",
+     "description": "본 강의에서는 양자컴퓨팅 하드웨어의 작동을 이해하는 것을 목표로 한다. 현재 주로 사용되는 양자정보 시스템은 이온 트랩과 초전도 큐비트 기반의 양자컴퓨팅 하드웨어를 정량적으로 기술하는 방법을 배운다. 각 시스템의 원리를 수학적으로 논의하며, 레이저와 마이크로파로 큐비트로 구동하였을 때 큐빗 시스템의 동작을 이해한다. 이를 위해 기초적인 원자 물리와 양자 광학에 대해 논의한다.",
+     "objectives": "본 강의에서는 양자컴퓨팅 하드웨어의 작동을 이해하는 것을 목표로 한다. 현재 주로 사용되는 양자정보 시스템은 이온 트랩과 초전도 큐비트 기반의 양자컴퓨팅 하드웨어를 정량적으로 기술하는 방법을 배운다. 각 시스템의 원리를 의 수학적으로 논의하며, 레이저와 마이크로파로 큐비트로 구동하였을 때 큐빗 시스템의 동작을 이해한다. 이를 위해 기초적인 원자 물리와 양자 광학에 대해 논의한다."
+    },
+    {
+     "id": "lab_44f00d8a40c9#N03",
+     "code": "PHYS101, 102",
+     "name_kr": "일반물리: 역학과 파동, 일반물리: 전자기와 빛",
+     "name_en": "General Physics: Mechanics & Waves, General Physics: Electromagnetism & Optics",
+     "description": "일반물리에서는 강의를 통하여 물리학의 기초적인 개념과 방법을 소개한다. 일반물리: 역학과 파동에서는 주로역학과 열현상을 다루며 시간과 공간, 힘의 평형, 뉴튼의 법칙, 운동량, 에너지보존법칙들, 중심력 하의 운동, 강체운동, 연속체역학, 파동, 열현상이 포함된다. 일반물리: 전자기와 빛에서는 주로 전자기학과 광학의 개념과 방법을 다룬다. 그 내용은 전기장 및 포텐셜 개념, 전류 및 자기장, 유도법칙, 유전체 및 자성체, 전자파, 광학 등을 포함하여 양자물리의 기초 개념들도 일부포함된다.",
+     "objectives": "물리학의 기초가 되는 역학의 기본개념과 해석방법을 배운다.\n강의내용은 운동법칙, 일과 에너지, 에너지/운동량 보존법칙, 회전운동과 각운동량, 평형 조건, 중력과 행성운동, 진동, 파동 등을 다룬다."
+    },
+    {
+     "id": "lab_44f00d8a40c9#N04",
+     "code": "PHYS110, 111",
+     "name_kr": "일반물리연습: 역학과 파동, 일반물리연습: 전자기와 빛",
+     "name_en": "General Physics Recitation: Mechanics & Waves, General Physics Recitaion: Electromagnetism & Optics",
+     "description": "일반물리: 역학과 파동, 일반물리: 전자기와 빛의 진도에 맞춰 기본개념 설명, 연습문제 보충, 질의/응답 등을통해 일반물리: 역학과 파동, 일반물리: 전자기와 빛의 수강 능력을 제고한다. PHYS200A∼Z - 기초물리특강 (Special Topics in Basic Physics)                                  (가변학점) 물리학의 발전 추이 상 기초적인 물리학 내용을 다룬다.",
+     "objectives": "물리학 기초가 부족한 상황에서도 기초필수과목인 일반물리 I 수강에 어려움이 없도록, 일반물리 I 의 진도에 맞춰 기본개념 설명, 문제 풀이, 및 질의/응답 등의 보충학습을 통해 수강 능력을 제고한다."
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_1139ae4ba42f",
+   "professors": [
+    "배경민 (Kyung-Min Bae)"
+   ],
+   "summary_ko": "모델 체킹·논리·SMT 기반 소프트웨어 검증, 자율 사이버물리 시스템 모델링·검증, 안전 필수 AI 소프트웨어(신경망 검증)를 연구한다.",
+   "topics": [
+    {
+     "label": "소프트웨어 검증·형식기법",
+     "quote": "we study automated algorithms for software verification, based model checking, computational logic, and satisfiability modulo theories (SMT)."
+    },
+    {
+     "label": "사이버물리 시스템 검증",
+     "quote": "Autonomous cyber-physical agent systems, such as self-driving cars and drones, must meet strong safety requirements."
+    },
+    {
+     "label": "신경망 검증",
+     "quote": "Automated Analysis of Safety-Critical AI Software"
+    },
+    {
+     "label": "TEE·TLS 형식 명세",
+     "quote": "Formal Specification of Trusted Execution Environment APIs"
+    },
+    {
+     "label": "PLC 시스템 의미론",
+     "quote": "Formal Semantics and Analysis of PLC Systems"
+    },
+    {
+     "label": "모델체킹용 강화학습",
+     "quote": "모델체킹을 위한 강화학습 기반 휴리스틱 학습"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_1139ae4ba42f#N00",
+     "code": "EECE236",
+     "name_kr": "MATLAB으로 배우는 전자공학",
+     "name_en": "Learning About Electrical Engineering Using MatLab",
+     "description": "전자공학이 무엇인지 알게 되고 흥미를 붙일 수 있도록 학부생들을 대상으로 재미난 최첨단 공학 기술을 Matlab을 활용해서 배우게 된다. 공학 관련 최첨단 토픽을 위주로 target application 을 설정하고 Matlab tool 을 활용해서 high-level software programming 을 하고 필요에 따라서 레고 블록을 조립하듯 하드웨어 장치를만들어서 대학생들이 흥미를 가질 수 있는 프로젝트를 수행한다. 프로젝트를 수행하면서 target application 문제를 푸는데 들어간 각종 전자공학 관련 기술들을 소개할 것이며, 이를 통해서 전자공학, 그리고 더 나아가서 일반 공학에서 다루는 수학 및 과학 이론에 대해서 배우고 이러한 수하/과학 이론을 어떻게 최첨단 장치 및 소프트웨어에 활용",
+     "objectives": "전공학과를 아직 정하지 않은 학부생들한테 전자공학을 재미있게 소개 시켜 주고자 한다.  MatLab 이라는 고급 프로그래밍 언어를 활용하고 실생활에서 경험해 볼 수 있는 최첨단 기술들을 구현해 봄으로서 전자공학에서 다루는 주제들을 이해하는데 도움을 주는 것이 이 과목의 개설 취지다.\n(Using an interesting and engaging manner, this course will introduce Electrical Engineering to undergraduate students who have not decided o"
+    },
+    {
+     "id": "lab_1139ae4ba42f#N01",
+     "code": "CITE441/EECE423",
+     "name_kr": "현대제어이론",
+     "name_en": "Modern Control Theory",
+     "description": "상태변수에 의한 시스템 해석 및 설계에 중점을 두며 computer control system, 현대에 많이 이용되는 각종기법, 비선형 시스템의 해석을 위한 선형화 기법, 선형 시스템의 최적화 기법, unknown system의 input-output identification technique, self-tuning 제어기법 등을 소개한다.",
+     "objectives": "본 강의에서는 아래와 같은 현대제어이론의 기초를 습득하고자 한다.\n1. 다입력/다출력 시스템을 다루기 위한 상태공간 방정식.\n2. 제어시스템의 시간공간에서의 입/출력 관계\n3. 안정성, 가제어성, 가관측성\n4. 가안정성, 가검출성\n5. 제어기, 관측기 설계\nThe objective of this course is to obtain the fundamentals of modern control theory as follows:\n1. State-space representation of control systems to describe"
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_e6a0e5e047a7",
+   "professors": [
+    "황인석 (Inseok Hwang)"
+   ],
+   "summary_ko": "인간-AI 공생, 유비쿼터스 센싱, 모바일 XR·텔레프레즌스, 실세계 소셜 컴퓨팅, 온디바이스 AI를 아우르는 HCI·모바일 컴퓨팅 연구실이다.",
+   "topics": [
+    {
+     "label": "인간-AI 상호작용",
+     "quote": "Human-AI Interaction & Symbiosis"
+    },
+    {
+     "label": "유비쿼터스 센싱",
+     "quote": "Pervasive Sensory Augmentation for Interactive Everyday Spaces"
+    },
+    {
+     "label": "VR·AR·XR·메타버스",
+     "quote": "Mobile Extended Reality (XR) & Telepresence: Future of Human Presence"
+    },
+    {
+     "label": "소셜 컴퓨팅·크라우드소싱",
+     "quote": "IoT-powered Real-world Social Computing"
+    },
+    {
+     "label": "경량화·효율적 AI",
+     "quote": "On-device AI: Acceleration for Pervasive AI"
+    },
+    {
+     "label": "LLM 기반 개인화 에이전트",
+     "quote": "Pervasive sensing & Large Language Model (LLM) for personalized vocabulary assessment-intervention for children"
+    },
+    {
+     "label": "웨어러블 건강 모니터링",
+     "quote": "CapWear: Smart Footwear for Peripheral Perfusion Monitoring by Continuous Plantar Capillary Refill Time Estimation"
+    },
+    {
+     "label": "아동 어휘 평가·개입",
+     "quote": "personalized vocabulary assessment-intervention for children"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_e6a0e5e047a7#N00",
+     "code": "CSED105",
+     "name_kr": "인공지능기초",
+     "name_en": "Introduction to Artificial Intelligence",
+     "description": "인공지능 기술에 대한 배경과 핵심을 전달하고 인공지능 기반의 문제해결 능력을 선제적으로 함양하여, 인공지능과 함께하는 사회에서의 역량을 강화하고자 한다.",
+     "objectives": "인공지능 기술에 대한 배경과 핵심을 전달. 인공지능 기반의 문제해결 능력을 선제적으로 함양하여, 인공지능과 함께하는 사회에서의 역량을 강화."
+    },
+    {
+     "id": "lab_e6a0e5e047a7#N01",
+     "code": "IMEN343",
+     "name_kr": "인간공학",
+     "name_en": "Human Factors Engineering and Ergonomics",
+     "description": "인간-기계-환경으로 이루어지는 총체적 시스템의 효율적 설계 및 관리를 위하여 인간의 특성, 수행도 (Performance), 능력 및 한계(Human Capacity and Limit Functions)에 관한 기본 이론과 설계과정을 습득한다. 또한 접근방법으로서 측정·분석·평가에 필요한 심리학·역학·생리학·통계학 등의 관련이론을 다룬다.",
+     "objectives": "This course is divided into roughly five modules: the first one represents human information processing and control, the second deals with affective human factors designs that are recently introduced and researched in product design and evaluation, the third introduces the input modalities to human-"
+    },
+    {
+     "id": "lab_e6a0e5e047a7#N02",
+     "code": "DISU431",
+     "name_kr": "지능형 반도체 소자",
+     "name_en": "Neuromorphic Semiconductor Device",
+     "description": "선수과목 :    디지털 시스템 설계, 반도체전자공학Ⅰ 인공지능이라는 새로운 응용 분야에서 수십 년에 걸쳐 발전해온 기존 반도체 기술의 한계를 극복하고자 새롭게 발전되고 있는 뉴로모픽 시냅스 소자와 관련된 이론, 공정, 응용에 대한 학습을 진행한다. 인공지능이라는 새로운 응용 분야에서 수십 년에 걸쳐 발전해 온 기존 반도체 기술의 한계를 극복하고자 새롭게 발전되고 있는 뉴로모픽 시냅스 소자와 관련된 이론, 공정, 응용에 대한 학습을 진행한다. 하드웨어 단에서 저전력으로 인공지능연산을 구현하고자 하는 현재의 기술 발전 동향을 이해하고, 향후 발전 방향에 대해 함께 고민한다.",
+     "objectives": "본 강의는 인공지능 연산에 최적화된 하드웨어 시스템 구현을 위한, 지능형 반도체 기술에 대한 학습을 목표로 합니다.\n인공지능 기술은 빠른 속도로 발전하여 인류의 삶을 급격히 바꾸고 있습니다. 인간의 뇌에서 뉴런과 시냅스를 통해 정보를 전달하고 처리하는 방식을 모방한 뉴럴 네트워크 기반의 기계학습을 통하여, 자연어 처리 및 이미지 인식 등의 다양한 응용 분야에서 기존 컴퓨팅 시스템의 능력을 크게 뛰어넘는 성능이 현실화 되면서 산업계는 물론 사회 전반적으로 지대한 파급효과를 가져오고 있습니다.\n하지만 현재 우리가 이용하는 컴퓨터 구조의"
+    },
+    {
+     "id": "lab_e6a0e5e047a7#N03",
+     "code": "EECE308",
+     "name_kr": "디지털통신개론",
+     "name_en": "Introduction to Digital Communication",
+     "description": "선수과목 : 신호및시스템 또는 전자수학A 아날로그 신호 또는 컴퓨터로부터 샘플링, 양자화(quantizing), multiplexing, 코딩, 변조, 전송링크, switching 등의 송신, 교환, 수신을 위한 디지털 통신의 각 과정을 전반적으로 소개한다.",
+     "objectives": "This course provides the basic principles of digital communication systems including digital modulation & demodulation, digital communications over frequency-flat & frequency-selective channels."
+    }
+   ]
+  },
+  {
+   "lab_id": "lab_efef6289aa4f",
+   "professors": [
+    "송재용 (Jaeyong Song)"
+   ],
+   "summary_ko": "반도체 이종집적(HI) 패키징을 위한 소재·공정(단결정 구리 배선 전기도금, AI 칩렛 열 관리, 3D BEOL)과 전기화학 기반 열전·배터리·센서 응용을 연구한다.",
+   "topics": [
+    {
+     "label": "반도체 공정·패키징·집적",
+     "quote": "Our group is focusing on the advanced materials and innovative processes for heterogeneous integration (HI) technology that has attracted intensive attention in semiconductor industry."
+    },
+    {
+     "label": "구리 배선 전기도금",
+     "quote": "Electrochemical synthesis of single crystal Cu for 20 nm-scaling interconnect of semiconductor device"
+    },
+    {
+     "label": "AI 칩렛 패키지 열 관리",
+     "quote": "Development of thermal modeling and heat-spreading architecture for heterogeneous integrating package of AI chiplets"
+    },
+    {
+     "label": "전기화학·나노기술",
+     "quote": "based on nanotechnology and electrochemistry."
+    },
+    {
+     "label": "열전·이차전지 응용",
+     "quote": "including thermoelectric energy conversion, rechargeable battery, and"
+    }
+   ],
+   "courses": [
+    {
+     "id": "lab_efef6289aa4f#N00",
+     "code": "MECH330",
+     "name_kr": "재료가공",
+     "name_en": "Materials Processing",
+     "description": "본 과목은 금속 및 고분자 재료를 포함한 다양한 재료의 제조 공정을 다룬다. 주요 내용으로는 주조 (casting), 압연   (rolling),     단조    (forging),   압출   (extrusion),    판재성형   (sheet-metal-forming,   고분자   가공 (polymer-processing), 3D 프린, 절삭가공 (machining), 마무리 가공 (finishing), 고급 가공기술 (advanced machining) 등을 다룬다. 과목 수강을 통해 학생들은 특정한 제품을 생산하기 위해 필요한 재료와 그 가공 방법을 선택할 수 있게 한다.",
+     "objectives": "This class covers material processes with material properties taken into account. Material processes to be studied are casting, bulk-deformation, sheet-metal-forming, polymer-processing, machining andfinishing, and joining processes. Advanced machining processes such as MEMS and laser machining are "
+    },
+    {
+     "id": "lab_efef6289aa4f#N01",
+     "code": "SEMI206",
+     "name_kr": "반도체소재개론",
+     "name_en": "Introduction to Semiconductor Materials",
+     "description": "This course covers the crystal structure, material properties, charge transport and synthesis of semiconductor materials. It will provide fundamental theory and operating principles of various semiconductor structures such as p-n junction in a viewpoint of materials science.",
+     "objectives": "- 교과목 개요: The semiconductor devices are composed of various materials, i.e. metals, semiconductor, dielectrics, polymers in thin film structure, even in a nanometer scale. Therefore, it is required to understand the semiconductor technology, in the view of materials science and nanotechnology. This "
+    },
+    {
+     "id": "lab_efef6289aa4f#N02",
+     "code": "SEMI208",
+     "name_kr": "반도체 집적공정개론 II",
+     "name_en": "Introduction to Semiconductor Integration Processes Ⅱ",
+     "description": "반도체 집적공정 개론 I의 지식을 기반으로 로직 반도체의 가장 기본이 되는 단위인 CMOS inverter 제작을 목표로 한다. 반도체집적공정을 더욱 심도 있게 이해하기위해 공정, 소자 전분야에 걸친 보다 전문적 지식이 필요하고, 여러 세대의 기술개발과정에 대한 이해가 필요하다. 배운 집적공정 내용을 바탕으로 Technology Computer Aided Design(TCAD)를 이용하여 가상으로 소자의 집적공정을 체험함과 동시에 교내 CSTC, NINT 실험 시설을 활용하여 실제 공정 장비의 사용법을 익히며 CMOS inverter를 제작 및 테스트하는 실습을 진행한다. 반도체 공정, 소자 제작 및 특성 이해에 대한 이론 및 실습 지식을 바탕으로 반도체 집적공정 전반에 관한 지식을 함양한다.",
+     "objectives": "- 교과목개요: 본 강좌는 반도체 집적공정 개론I 의 지식을 기반으로 로직 반도체의 가장 기본이 되는 단위인 CMOS 및 이를 활용한 inverter 제작과 분석을 목표함. 반도체집적공정을 더욱 심도 있게 이해하기위해서는 공정, 소자 전분야에 걸친 보다 전문적 지식 필요하고, 여러 세대의 기술개발과정에 대한 이해가 필요함. 배운 집적공정 내용을 바탕으로 실제로 소자의 레이아웃을 수행하고, Technology Computer Aided Design(TCAD)를 이용하여 가상으로 소자의 집적공정을 체험함. 동시에 교내 NINT 시설을 "
+    },
+    {
+     "id": "lab_efef6289aa4f#N03",
+     "code": "AMSE484",
+     "name_kr": "신소재 전자공학",
+     "name_en": "Electronic Circuits for Materials Science and Engineering",
+     "description": "본 과목은 신소재공학에 필요한 전자회로 및 전자소자 핵심 지식을 습득하고, 회로, 프로그래밍, 실험설계, 데이터분석 등을 기초적인 수준에서 직접 경험할 수 있도록 학습한다.",
+     "objectives": "This course is designed to introduce the applications of electronic and optoelectronic devices for our daily lives. The lectures will provide students with overview on semiconductor devices and how such devices form a system to realize useful functionality. The goal of this course is to expand stude"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1991 @@
+{
+ "_about": "3분커리 프로토타입용 더미 커뮤니티 데이터(2026-10-01, tools/build_community_seed.py 생성). 인물·후기·대화는 모두 가상이며 dummy=true. 연구실 id와 주제 라벨만 실제 프로필에서 가져왔다. 이메일 도메인 postech.example은 수신 불가 주소다.",
+ "dummy": true,
+ "demo_password": "curri-demo-2026",
+ "users": [
+  {
+   "key": "grad01",
+   "email": "wonna.jung@postech.example",
+   "real_name": "정원나",
+   "nickname": "정원나",
+   "role": "graduate",
+   "lab_id": "lab_15fd7dce2706",
+   "account": {
+    "real_name": "정원나",
+    "school": "POSTECH",
+    "program": "박사과정 4년차",
+    "research": "제어 · 볼록 최적화",
+    "interest_tags": [
+     "control_theory",
+     "optimization",
+     "signal_processing"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad02",
+   "email": "nayeon.kim@postech.example",
+   "real_name": "김나연",
+   "nickname": "김나연",
+   "role": "graduate",
+   "lab_id": "lab_15fd7dce2706",
+   "account": {
+    "real_name": "김나연",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "볼록 최적화 · 적응 필터",
+    "interest_tags": [
+     "control_theory",
+     "optimization",
+     "signal_processing"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad03",
+   "email": "jijae.shin@postech.example",
+   "real_name": "신지재",
+   "nickname": "신지재",
+   "role": "graduate",
+   "lab_id": "lab_e5f20d526887",
+   "account": {
+    "real_name": "신지재",
+    "school": "POSTECH",
+    "program": "박사과정 2년차",
+    "research": "컴퓨터그래픽스·3D · 컴퓨터비전·영상인식",
+    "interest_tags": [
+     "computer_graphics",
+     "computer_vision",
+     "computational_imaging"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad04",
+   "email": "yuye.choi@postech.example",
+   "real_name": "최유예",
+   "nickname": "최유예",
+   "role": "graduate",
+   "lab_id": "lab_96b6fdf81d5f",
+   "account": {
+    "real_name": "최유예",
+    "school": "POSTECH",
+    "program": "박사과정 2년차",
+    "research": "수학적 제어 이론 · 로봇·항공우주 제어 응용",
+    "interest_tags": [
+     "control_theory",
+     "robotics",
+     "embedded_systems"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad05",
+   "email": "yeha.seo@postech.example",
+   "real_name": "서예하",
+   "nickname": "서예하",
+   "role": "graduate",
+   "lab_id": "lab_c3cd46ef8123",
+   "account": {
+    "real_name": "서예하",
+    "school": "POSTECH",
+    "program": "석박통합과정 3년차",
+    "research": "추천시스템 · 시계열 분석",
+    "interest_tags": [
+     "recommender_systems",
+     "time_series",
+     "nlp"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad06",
+   "email": "yemin.song@postech.example",
+   "real_name": "송예민",
+   "nickname": "송예민",
+   "role": "graduate",
+   "lab_id": "lab_c3cd46ef8123",
+   "account": {
+    "real_name": "송예민",
+    "school": "POSTECH",
+    "program": "박사과정 2년차",
+    "research": "시계열 분석 · 멀티모달 RAG·LLM",
+    "interest_tags": [
+     "recommender_systems",
+     "time_series",
+     "nlp"
+    ],
+    "interest_text": "",
+    "headline": "학부생 때 연구참여로 이 연구실에 왔어요. 비슷한 고민 중이라면 경험 나눠드릴게요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad07",
+   "email": "seona.jung@postech.example",
+   "real_name": "정서나",
+   "nickname": "정서나",
+   "role": "graduate",
+   "lab_id": "lab_ff0eeeea90a1",
+   "account": {
+    "real_name": "정서나",
+    "school": "POSTECH",
+    "program": "박사과정 2년차",
+    "research": "AI + IoT·무선 네트워크 · AI·기계학습",
+    "interest_tags": [
+     "networking_iot",
+     "machine_learning",
+     "speech_processing"
+    ],
+    "interest_text": "",
+    "headline": "연구참여나 진학 고민 편하게 물어봐 주세요. 답장은 조금 늦을 수 있어요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad08",
+   "email": "yutae.moon@postech.example",
+   "real_name": "문유태",
+   "nickname": "문유태",
+   "role": "graduate",
+   "lab_id": "lab_131133154b7e",
+   "account": {
+    "real_name": "문유태",
+    "school": "POSTECH",
+    "program": "석사과정 2년차",
+    "research": "컴퓨터구조·AI 가속기 · 운영체제·스토리지",
+    "interest_tags": [
+     "computer_architecture",
+     "operating_systems_storage",
+     "system_security"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad09",
+   "email": "hyunwon.yoon@postech.example",
+   "real_name": "윤현원",
+   "nickname": "윤현원",
+   "role": "graduate",
+   "lab_id": "lab_606ba3c69266",
+   "account": {
+    "real_name": "윤현원",
+    "school": "POSTECH",
+    "program": "박사과정 4년차",
+    "research": "생체전자·신경조절·이식형 기기 · 당뇨 관리·웨어러블 감지",
+    "interest_tags": [
+     "bioelectronics_neural",
+     "digital_health_wearables",
+     "reinforcement_learning"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad10",
+   "email": "najoo.hwang@postech.example",
+   "real_name": "황나주",
+   "nickname": "황나주",
+   "role": "graduate",
+   "lab_id": "lab_606ba3c69266",
+   "account": {
+    "real_name": "황나주",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "당뇨 관리·웨어러블 감지 · 강화학습 인공췌장",
+    "interest_tags": [
+     "bioelectronics_neural",
+     "digital_health_wearables",
+     "reinforcement_learning"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad11",
+   "email": "joowon.lim@postech.example",
+   "real_name": "임주원",
+   "nickname": "임주원",
+   "role": "graduate",
+   "lab_id": "lab_1139ae4ba42f",
+   "account": {
+    "real_name": "임주원",
+    "school": "POSTECH",
+    "program": "박사과정 2년차",
+    "research": "소프트웨어 검증·형식기법 · 사이버물리 시스템 검증",
+    "interest_tags": [
+     "formal_methods",
+     "ai_safety_alignment",
+     "system_security"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad12",
+   "email": "yuyoon.seo@postech.example",
+   "real_name": "서유윤",
+   "nickname": "서유윤",
+   "role": "graduate",
+   "lab_id": "lab_c01681ff0aa2",
+   "account": {
+    "real_name": "서유윤",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "가우시안 스플래팅 3D 복원 · 기하 최적화",
+    "interest_tags": [
+     "computer_graphics",
+     "computer_vision"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad13",
+   "email": "seowoo.kim@postech.example",
+   "real_name": "김서우",
+   "nickname": "김서우",
+   "role": "graduate",
+   "lab_id": "lab_db94dcbe5311",
+   "account": {
+    "real_name": "김서우",
+    "school": "POSTECH",
+    "program": "박사과정 4년차",
+    "research": "양자컴퓨팅·양자정보 · 양자 소자 나노공정",
+    "interest_tags": [
+     "quantum",
+     "semiconductor_process_packaging",
+     "photonics_optics"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad14",
+   "email": "taeyeon.song@postech.example",
+   "real_name": "송태연",
+   "nickname": "송태연",
+   "role": "graduate",
+   "lab_id": "lab_db94dcbe5311",
+   "account": {
+    "real_name": "송태연",
+    "school": "POSTECH",
+    "program": "석사과정 2년차",
+    "research": "양자 소자 나노공정 · 원자-공진기 양자 인터페이스",
+    "interest_tags": [
+     "quantum",
+     "semiconductor_process_packaging",
+     "photonics_optics"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad15",
+   "email": "seungye.hwang@postech.example",
+   "real_name": "황승예",
+   "nickname": "황승예",
+   "role": "graduate",
+   "lab_id": "lab_bfc5e0710500",
+   "account": {
+    "real_name": "황승예",
+    "school": "POSTECH",
+    "program": "석박통합과정 3년차",
+    "research": "수중·극한환경 로봇 · 로봇",
+    "interest_tags": [
+     "underwater_field_robotics",
+     "robotics",
+     "radar_sensing"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad16",
+   "email": "chaeseo.ryu@postech.example",
+   "real_name": "류채서",
+   "nickname": "류채서",
+   "role": "graduate",
+   "lab_id": "lab_093a9ff4a3a5",
+   "account": {
+    "real_name": "류채서",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "산화물 반도체 MOSFET · 초박막 Te FET 신뢰성",
+    "interest_tags": [
+     "semiconductor_devices",
+     "nanomaterials_2d",
+     "circuit_design"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad17",
+   "email": "hyunseung.kwon@postech.example",
+   "real_name": "권현승",
+   "nickname": "권현승",
+   "role": "graduate",
+   "lab_id": "lab_29eb07f2a745",
+   "account": {
+    "real_name": "권현승",
+    "school": "POSTECH",
+    "program": "박사과정 4년차",
+    "research": "데이터베이스·데이터마이닝 · 그래프 데이터 엔진",
+    "interest_tags": [
+     "data_mining_databases",
+     "graph_learning",
+     "nlp"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad18",
+   "email": "junyu.kwon@postech.example",
+   "real_name": "권준유",
+   "nickname": "권준유",
+   "role": "graduate",
+   "lab_id": "lab_29eb07f2a745",
+   "account": {
+    "real_name": "권준유",
+    "school": "POSTECH",
+    "program": "박사과정 4년차",
+    "research": "그래프 데이터 엔진 · 시맨틱 질의 처리",
+    "interest_tags": [
+     "data_mining_databases",
+     "graph_learning",
+     "nlp"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad19",
+   "email": "wonha.park@postech.example",
+   "real_name": "박원하",
+   "nickname": "박원하",
+   "role": "graduate",
+   "lab_id": "lab_e42f51e5e604",
+   "account": {
+    "real_name": "박원하",
+    "school": "POSTECH",
+    "program": "석박통합과정 3년차",
+    "research": "자연어처리·언어모델 · 대화 시스템",
+    "interest_tags": [
+     "nlp",
+     "speech_processing",
+     "education_technology"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad20",
+   "email": "yoonrin.choi@postech.example",
+   "real_name": "최윤린",
+   "nickname": "최윤린",
+   "role": "graduate",
+   "lab_id": "lab_a53be44484aa",
+   "account": {
+    "real_name": "최윤린",
+    "school": "POSTECH",
+    "program": "석박통합과정 3년차",
+    "research": "고속 온칩 링크 설계 · 온칩 계측 회로",
+    "interest_tags": [
+     "circuit_design",
+     "machine_learning",
+     "optimization"
+    ],
+    "interest_text": "",
+    "headline": "학부생 때 연구참여로 이 연구실에 왔어요. 비슷한 고민 중이라면 경험 나눠드릴게요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad21",
+   "email": "minji.kwon@postech.example",
+   "real_name": "권민지",
+   "nickname": "권민지",
+   "role": "graduate",
+   "lab_id": "lab_bc5fde76dc89",
+   "account": {
+    "real_name": "권민지",
+    "school": "POSTECH",
+    "program": "석사과정 1년차",
+    "research": "컴퓨터비전·영상인식 · 월드모델·VLA·physical AI",
+    "interest_tags": [
+     "computer_vision",
+     "world_models_embodied",
+     "machine_learning"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad22",
+   "email": "jooji.hong@postech.example",
+   "real_name": "홍주지",
+   "nickname": "홍주지",
+   "role": "graduate",
+   "lab_id": "lab_bc5fde76dc89",
+   "account": {
+    "real_name": "홍주지",
+    "school": "POSTECH",
+    "program": "박사과정 2년차",
+    "research": "월드모델·VLA·physical AI · 강건한 비전 파운데이션 모델",
+    "interest_tags": [
+     "computer_vision",
+     "world_models_embodied",
+     "machine_learning"
+    ],
+    "interest_text": "",
+    "headline": "학부생 때 연구참여로 이 연구실에 왔어요. 비슷한 고민 중이라면 경험 나눠드릴게요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad23",
+   "email": "hyunho.yoon@postech.example",
+   "real_name": "윤현호",
+   "nickname": "윤현호",
+   "role": "graduate",
+   "lab_id": "lab_975679fa678a",
+   "account": {
+    "real_name": "윤현호",
+    "school": "POSTECH",
+    "program": "석사과정 1년차",
+    "research": "제철 공정 결함 검출 · 산업 이상 탐지",
+    "interest_tags": [
+     "industrial_ai",
+     "machine_learning",
+     "battery_energy"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad24",
+   "email": "woomin.oh@postech.example",
+   "real_name": "오우민",
+   "nickname": "오우민",
+   "role": "graduate",
+   "lab_id": "lab_ee13f2464526",
+   "account": {
+    "real_name": "오우민",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "블록체인 합의 · P2P 네트워크",
+    "interest_tags": [
+     "distributed_systems_blockchain",
+     "networking_iot",
+     "vr_ar_xr"
+    ],
+    "interest_text": "",
+    "headline": "연구실 생활이나 수업 준비 관련해서 궁금한 점 있으면 연락 주세요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad25",
+   "email": "joosoo.jung@postech.example",
+   "real_name": "정주수",
+   "nickname": "정주수",
+   "role": "graduate",
+   "lab_id": "lab_e0f1bf42627c",
+   "account": {
+    "real_name": "정주수",
+    "school": "POSTECH",
+    "program": "석박통합과정 3년차",
+    "research": "멀티모달 음성 향상 · 경량화·효율적 AI",
+    "interest_tags": [
+     "speech_processing",
+     "efficient_ai",
+     "soft_electronics"
+    ],
+    "interest_text": "",
+    "headline": "학부생 때 연구참여로 이 연구실에 왔어요. 비슷한 고민 중이라면 경험 나눠드릴게요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad26",
+   "email": "naye.moon@postech.example",
+   "real_name": "문나예",
+   "nickname": "문나예",
+   "role": "graduate",
+   "lab_id": "lab_e0f1bf42627c",
+   "account": {
+    "real_name": "문나예",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "경량화·효율적 AI · 스마트 웨어러블 기기",
+    "interest_tags": [
+     "speech_processing",
+     "efficient_ai",
+     "soft_electronics"
+    ],
+    "interest_text": "",
+    "headline": "연구참여나 진학 고민 편하게 물어봐 주세요. 답장은 조금 늦을 수 있어요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad27",
+   "email": "chaejun.shin@postech.example",
+   "real_name": "신채준",
+   "nickname": "신채준",
+   "role": "graduate",
+   "lab_id": "lab_2259c59b37c3",
+   "account": {
+    "real_name": "신채준",
+    "school": "POSTECH",
+    "program": "석사과정 2년차",
+    "research": "경량화·효율적 AI · LLM 최적화",
+    "interest_tags": [
+     "efficient_ai",
+     "nlp",
+     "generative_models"
+    ],
+    "interest_text": "",
+    "headline": "실험·코드 관련 구체적인 질문 환영합니다.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad28",
+   "email": "yujae.song@postech.example",
+   "real_name": "송유재",
+   "nickname": "송유재",
+   "role": "graduate",
+   "lab_id": "lab_30b0bf664aa0",
+   "account": {
+    "real_name": "송유재",
+    "school": "POSTECH",
+    "program": "석사과정 2년차",
+    "research": "정보이론·채널부호 · 시맨틱·과제 지향 통신",
+    "interest_tags": [
+     "information_theory_coding",
+     "wireless_communications",
+     "machine_learning"
+    ],
+    "interest_text": "",
+    "headline": "학부생 때 연구참여로 이 연구실에 왔어요. 비슷한 고민 중이라면 경험 나눠드릴게요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad29",
+   "email": "minhyun.seo@postech.example",
+   "real_name": "서민현",
+   "nickname": "서민현",
+   "role": "graduate",
+   "lab_id": "lab_e6a0e5e047a7",
+   "account": {
+    "real_name": "서민현",
+    "school": "POSTECH",
+    "program": "석박통합과정 3년차",
+    "research": "인간-AI 상호작용 · 유비쿼터스 센싱",
+    "interest_tags": [
+     "hci",
+     "ubiquitous_mobile_computing",
+     "vr_ar_xr"
+    ],
+    "interest_text": "",
+    "headline": "연구참여나 진학 고민 편하게 물어봐 주세요. 답장은 조금 늦을 수 있어요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "grad30",
+   "email": "yeonwon.lee@postech.example",
+   "real_name": "이연원",
+   "nickname": "이연원",
+   "role": "graduate",
+   "lab_id": "lab_e6a0e5e047a7",
+   "account": {
+    "real_name": "이연원",
+    "school": "POSTECH",
+    "program": "석박통합과정 2년차",
+    "research": "유비쿼터스 센싱 · VR·AR·XR·메타버스",
+    "interest_tags": [
+     "hci",
+     "ubiquitous_mobile_computing",
+     "vr_ar_xr"
+    ],
+    "interest_text": "",
+    "headline": "연구참여나 진학 고민 편하게 물어봐 주세요. 답장은 조금 늦을 수 있어요.",
+    "contact_consent": true
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu01",
+   "email": "yetae.kim.ug@postech.example",
+   "real_name": "김예태",
+   "nickname": "연참새내기",
+   "role": "student",
+   "account": {
+    "real_name": "김예태",
+    "school": "POSTECH",
+    "department": "전자전기공학과",
+    "grade": "3학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "semiconductor_devices",
+     "signal_processing"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu02",
+   "email": "hyuntae.han.ug@postech.example",
+   "real_name": "한현태",
+   "nickname": "형산강러너",
+   "role": "student",
+   "account": {
+    "real_name": "한현태",
+    "school": "POSTECH",
+    "department": "반도체공학과",
+    "grade": "3학년",
+    "goal": "research",
+    "interest_tags": [
+     "ultrasound_acoustics",
+     "operating_systems_storage"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu03",
+   "email": "yeyoon.hong.ug@postech.example",
+   "real_name": "홍예윤",
+   "nickname": "지곡동다람쥐",
+   "role": "student",
+   "account": {
+    "real_name": "홍예윤",
+    "school": "POSTECH",
+    "department": "물리학과",
+    "grade": "3학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "information_theory_coding",
+     "federated_distributed_learning"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu04",
+   "email": "soochae.moon.ug@postech.example",
+   "real_name": "문수채",
+   "nickname": "새벽코딩러",
+   "role": "student",
+   "account": {
+    "real_name": "문수채",
+    "school": "POSTECH",
+    "department": "생명과학과",
+    "grade": "2학년",
+    "goal": "explore",
+    "interest_tags": [
+     "quantum",
+     "distributed_systems_blockchain"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu05",
+   "email": "seoyoon.seo.ug@postech.example",
+   "real_name": "서서윤",
+   "nickname": "체육관옆벤치",
+   "role": "student",
+   "account": {
+    "real_name": "서서윤",
+    "school": "POSTECH",
+    "department": "기계공학과",
+    "grade": "3학년",
+    "goal": "research",
+    "interest_tags": [
+     "information_theory_coding",
+     "plasma_multiphysics"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu06",
+   "email": "seoseung.ryu.ug@postech.example",
+   "real_name": "류서승",
+   "nickname": "무은재덕후",
+   "role": "student",
+   "account": {
+    "real_name": "류서승",
+    "school": "POSTECH",
+    "department": "신소재공학과",
+    "grade": "3학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "battery_energy",
+     "nanomaterials_2d"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu07",
+   "email": "woowon.kim.ug@postech.example",
+   "real_name": "김우원",
+   "nickname": "포항물회",
+   "role": "student",
+   "account": {
+    "real_name": "김우원",
+    "school": "POSTECH",
+    "department": "IT융합공학과",
+    "grade": "3학년",
+    "goal": "explore",
+    "interest_tags": [
+     "efficient_ai",
+     "display_technology"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu08",
+   "email": "junchae.jung.ug@postech.example",
+   "real_name": "정준채",
+   "nickname": "77번국도",
+   "role": "student",
+   "account": {
+    "real_name": "정준채",
+    "school": "POSTECH",
+    "department": "신소재공학과",
+    "grade": "3학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "battery_energy",
+     "computer_architecture"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu09",
+   "email": "yujoo.jang.ug@postech.example",
+   "real_name": "장유주",
+   "nickname": "논문읽는펭귄",
+   "role": "student",
+   "account": {
+    "real_name": "장유주",
+    "school": "POSTECH",
+    "department": "물리학과",
+    "grade": "2학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "semiconductor_devices",
+     "photonics_optics"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu10",
+   "email": "junyeon.lim.ug@postech.example",
+   "real_name": "임준연",
+   "nickname": "청암도서관지박령",
+   "role": "student",
+   "account": {
+    "real_name": "임준연",
+    "school": "POSTECH",
+    "department": "수학과",
+    "grade": "3학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "efficient_ai",
+     "reinforcement_learning"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu11",
+   "email": "binyu.hwang.ug@postech.example",
+   "real_name": "황빈유",
+   "nickname": "회로그리는곰",
+   "role": "student",
+   "account": {
+    "real_name": "황빈유",
+    "school": "POSTECH",
+    "department": "전자전기공학과",
+    "grade": "4학년 이상",
+    "goal": "research",
+    "interest_tags": [
+     "computational_imaging",
+     "photonics_optics"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu12",
+   "email": "yetae.han.ug@postech.example",
+   "real_name": "한예태",
+   "nickname": "노벨동산산책러",
+   "role": "student",
+   "account": {
+    "real_name": "한예태",
+    "school": "POSTECH",
+    "department": "반도체공학과",
+    "grade": "2학년",
+    "goal": "explore",
+    "interest_tags": [
+     "social_computing",
+     "reinforcement_learning"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu13",
+   "email": "hahyun.song.ug@postech.example",
+   "real_name": "송하현",
+   "nickname": "로봇키우는중",
+   "role": "student",
+   "account": {
+    "real_name": "송하현",
+    "school": "POSTECH",
+    "department": "신소재공학과",
+    "grade": "3학년",
+    "goal": "research",
+    "interest_tags": [
+     "federated_distributed_learning",
+     "signal_processing"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu14",
+   "email": "jiseung.kim.ug@postech.example",
+   "real_name": "김지승",
+   "nickname": "텐서모양감자",
+   "role": "student",
+   "account": {
+    "real_name": "김지승",
+    "school": "POSTECH",
+    "department": "기계공학과",
+    "grade": "3학년",
+    "goal": "graduate",
+    "interest_tags": [
+     "rf_microwave",
+     "computer_vision"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu15",
+   "email": "chaejun.ryu.ug@postech.example",
+   "real_name": "류채준",
+   "nickname": "밤샘납땜러",
+   "role": "student",
+   "account": {
+    "real_name": "류채준",
+    "school": "POSTECH",
+    "department": "컴퓨터공학과",
+    "grade": "3학년",
+    "goal": "research",
+    "interest_tags": [
+     "power_electronics",
+     "algorithms_theory"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu16",
+   "email": "joochae.oh.ug@postech.example",
+   "real_name": "오주채",
+   "nickname": "랩실커피머신",
+   "role": "student",
+   "account": {
+    "real_name": "오주채",
+    "school": "POSTECH",
+    "department": "전자전기공학과",
+    "grade": "3학년",
+    "goal": "research",
+    "interest_tags": [
+     "signal_processing",
+     "world_models_embodied"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu17",
+   "email": "naha.moon.ug@postech.example",
+   "real_name": "문나하",
+   "nickname": "데이터콩",
+   "role": "student",
+   "account": {
+    "real_name": "문나하",
+    "school": "POSTECH",
+    "department": "IT융합공학과",
+    "grade": "3학년",
+    "goal": "explore",
+    "interest_tags": [
+     "battery_energy",
+     "digital_health_wearables"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  },
+  {
+   "key": "stu18",
+   "email": "jinha.lim.ug@postech.example",
+   "real_name": "임진하",
+   "nickname": "효자시장단골",
+   "role": "student",
+   "account": {
+    "real_name": "임진하",
+    "school": "POSTECH",
+    "department": "기계공학과",
+    "grade": "3학년",
+    "goal": "research",
+    "interest_tags": [
+     "speech_processing",
+     "computer_graphics"
+    ],
+    "interest_text": ""
+   },
+   "dummy": true
+  }
+ ],
+ "reviews": [
+  {
+   "author": "stu07",
+   "lab_id": "lab_15fd7dce2706",
+   "term": "2025 가을학기",
+   "duration": "8주",
+   "activity": "논문에 나온 제어 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "제어에 관심 있고 논문을 꾸준히 읽어볼 의지가 있는 학생",
+   "created": 1767009600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu15",
+   "lab_id": "lab_15fd7dce2706",
+   "term": "2026 봄학기",
+   "duration": "8주",
+   "activity": "제어 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 볼록 최적화 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1783944000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu04",
+   "lab_id": "lab_e5f20d526887",
+   "term": "2025 봄학기",
+   "duration": "한 학기",
+   "activity": "논문에 나온 컴퓨터그래픽스·3D 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 2,
+    "learning": 2,
+    "workload": 2,
+    "atmosphere": 3
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "컴퓨터그래픽스·3D에 관심 있고 논문을 꾸준히 읽어볼 의지가 있는 학생",
+   "created": 1751976000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu05",
+   "lab_id": "lab_96b6fdf81d5f",
+   "term": "2025 가을학기",
+   "duration": "8주",
+   "activity": "수학적 제어 이론 측정 장비 사용법을 배우고, 선배와 함께 샘플을 측정해 데이터를 정리·분석했어요. 후반에는 로봇·항공우주 제어 응용 관련 시뮬레이션도 해봤습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "장비 예약이 밀리면 대기 시간이 길었어요. 그 시간에 할 수 있는 분석 작업을 같이 받아두면 좋아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1767268800.0,
+   "dummy": true
+  },
+  {
+   "author": "stu12",
+   "lab_id": "lab_96b6fdf81d5f",
+   "term": "2025 여름방학",
+   "duration": "한 학기",
+   "activity": "클린룸·실험실 안전 교육을 받고, 선배 공정을 옆에서 보조하며 수학적 제어 이론 샘플 제작 과정을 익혔어요.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 3,
+    "workload": 3,
+    "atmosphere": 4
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 로봇·항공우주 제어 응용 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1756900800.0,
+   "dummy": true
+  },
+  {
+   "author": "stu14",
+   "lab_id": "lab_96b6fdf81d5f",
+   "term": "2026 봄학기",
+   "duration": "한 학기",
+   "activity": "수학적 제어 이론 관련 기초 이론을 공부한 뒤, 시뮬레이션 툴로 로봇·항공우주 제어 응용 구조를 바꿔 가며 특성을 비교하는 일을 했어요.",
+   "ratings": {
+    "mentoring": 2,
+    "learning": 3,
+    "workload": 4,
+    "atmosphere": 2
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "장비 예약이 밀리면 대기 시간이 길었어요. 그 시간에 할 수 있는 분석 작업을 같이 받아두면 좋아요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1782561600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu01",
+   "lab_id": "lab_c3cd46ef8123",
+   "term": "2025 봄학기",
+   "duration": "한 학기",
+   "activity": "논문에 나온 추천시스템 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 3,
+    "workload": 3,
+    "atmosphere": 3
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1751803200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu08",
+   "lab_id": "lab_c3cd46ef8123",
+   "term": "2025 가을학기",
+   "duration": "8주",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. 추천시스템 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1767528000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu16",
+   "lab_id": "lab_c3cd46ef8123",
+   "term": "2024 겨울방학",
+   "duration": "6주",
+   "activity": "논문에 나온 추천시스템 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "GPU·서버 자원을 쓰는 순서가 정해져 있어서 실험이 몰리면 기다려야 했어요. 작은 규모로 먼저 검증해 두면 좋아요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1741262400.0,
+   "dummy": true
+  },
+  {
+   "author": "stu18",
+   "lab_id": "lab_c3cd46ef8123",
+   "term": "2026 봄학기",
+   "duration": "8주",
+   "activity": "추천시스템 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 시계열 분석 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 시계열 분석 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1783857600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu06",
+   "lab_id": "lab_ff0eeeea90a1",
+   "term": "2025 봄학기",
+   "duration": "6주",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. AI + IoT·무선 네트워크 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "수업에서 배운 AI + IoT·무선 네트워크 개념이 실제 연구에서 어떻게 쓰이는지 처음으로 체감했어요. 논문 읽는 법을 제대로 배운 기회였습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1752321600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu17",
+   "lab_id": "lab_ff0eeeea90a1",
+   "term": "2025 여름방학",
+   "duration": "두 학기",
+   "activity": "처음 2주는 AI + IoT·무선 네트워크 기초 스터디, 이후에는 AI·기계학습 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 4
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 AI·기계학습 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1756987200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu04",
+   "lab_id": "lab_ff0eeeea90a1",
+   "term": "2026 봄학기",
+   "duration": "8주",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. AI + IoT·무선 네트워크 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 2,
+    "learning": 3,
+    "workload": 3,
+    "atmosphere": 4
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 AI + IoT·무선 네트워크 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1784203200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu02",
+   "lab_id": "lab_ff0eeeea90a1",
+   "term": "2026 여름방학",
+   "duration": "8주",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. AI + IoT·무선 네트워크 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 3,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "GPU·서버 자원을 쓰는 순서가 정해져 있어서 실험이 몰리면 기다려야 했어요. 작은 규모로 먼저 검증해 두면 좋아요.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1788350400.0,
+   "dummy": true
+  },
+  {
+   "author": "stu11",
+   "lab_id": "lab_131133154b7e",
+   "term": "2025 가을학기",
+   "duration": "8주",
+   "activity": "컴퓨터구조·AI 가속기 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 운영체제·스토리지 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "운영체제·스토리지 쪽 수업이 재밌었던 2~3학년",
+   "created": 1766491200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu17",
+   "lab_id": "lab_606ba3c69266",
+   "term": "2026 봄학기",
+   "duration": "두 학기",
+   "activity": "생체전자·신경조절·이식형 기기 측정 장비 사용법을 배우고, 선배와 함께 샘플을 측정해 데이터를 정리·분석했어요. 후반에는 당뇨 관리·웨어러블 감지 관련 시뮬레이션도 해봤습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 당뇨 관리·웨어러블 감지 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1783080000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu08",
+   "lab_id": "lab_606ba3c69266",
+   "term": "2025 봄학기",
+   "duration": "8주",
+   "activity": "클린룸·실험실 안전 교육을 받고, 선배 공정을 옆에서 보조하며 생체전자·신경조절·이식형 기기 샘플 제작 과정을 익혔어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 당뇨 관리·웨어러블 감지 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1751371200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu12",
+   "lab_id": "lab_606ba3c69266",
+   "term": "2026 여름방학",
+   "duration": "두 학기",
+   "activity": "클린룸·실험실 안전 교육을 받고, 선배 공정을 옆에서 보조하며 생체전자·신경조절·이식형 기기 샘플 제작 과정을 익혔어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "수업에서 배운 생체전자·신경조절·이식형 기기 개념이 실제 연구에서 어떻게 쓰이는지 처음으로 체감했어요. 논문 읽는 법을 제대로 배운 기회였습니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "당뇨 관리·웨어러블 감지 쪽 수업이 재밌었던 2~3학년",
+   "created": 1789560000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu05",
+   "lab_id": "lab_1139ae4ba42f",
+   "term": "2026 여름방학",
+   "duration": "8주",
+   "activity": "논문에 나온 소프트웨어 검증·형식기법 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "수업에서 배운 소프트웨어 검증·형식기법 개념이 실제 연구에서 어떻게 쓰이는지 처음으로 체감했어요. 논문 읽는 법을 제대로 배운 기회였습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1789473600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu14",
+   "lab_id": "lab_1139ae4ba42f",
+   "term": "2026 여름방학",
+   "duration": "한 학기",
+   "activity": "처음 2주는 소프트웨어 검증·형식기법 기초 스터디, 이후에는 사이버물리 시스템 검증 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 4
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 사이버물리 시스템 검증 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 소프트웨어 검증·형식기법 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1788868800.0,
+   "dummy": true
+  },
+  {
+   "author": "stu09",
+   "lab_id": "lab_1139ae4ba42f",
+   "term": "2026 봄학기",
+   "duration": "한 학기",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. 소프트웨어 검증·형식기법 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 사이버물리 시스템 검증 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1782561600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu06",
+   "lab_id": "lab_1139ae4ba42f",
+   "term": "2025 가을학기",
+   "duration": "8주",
+   "activity": "논문에 나온 소프트웨어 검증·형식기법 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 4
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "GPU·서버 자원을 쓰는 순서가 정해져 있어서 실험이 몰리면 기다려야 했어요. 작은 규모로 먼저 검증해 두면 좋아요.",
+   "recommend_for": "사이버물리 시스템 검증 쪽 수업이 재밌었던 2~3학년",
+   "created": 1767528000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu11",
+   "lab_id": "lab_c01681ff0aa2",
+   "term": "2026 여름방학",
+   "duration": "두 학기",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. 가우시안 스플래팅 3D 복원 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 3
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 기하 최적화 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "GPU·서버 자원을 쓰는 순서가 정해져 있어서 실험이 몰리면 기다려야 했어요. 작은 규모로 먼저 검증해 두면 좋아요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1789646400.0,
+   "dummy": true
+  },
+  {
+   "author": "stu01",
+   "lab_id": "lab_c01681ff0aa2",
+   "term": "2026 봄학기",
+   "duration": "두 학기",
+   "activity": "가우시안 스플래팅 3D 복원 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 기하 최적화 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1783080000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu02",
+   "lab_id": "lab_c01681ff0aa2",
+   "term": "2025 가을학기",
+   "duration": "한 학기",
+   "activity": "처음 2주는 가우시안 스플래팅 3D 복원 기초 스터디, 이후에는 기하 최적화 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 3
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "GPU·서버 자원을 쓰는 순서가 정해져 있어서 실험이 몰리면 기다려야 했어요. 작은 규모로 먼저 검증해 두면 좋아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1767700800.0,
+   "dummy": true
+  },
+  {
+   "author": "stu04",
+   "lab_id": "lab_db94dcbe5311",
+   "term": "2025 여름방학",
+   "duration": "8주",
+   "activity": "클린룸·실험실 안전 교육을 받고, 선배 공정을 옆에서 보조하며 양자컴퓨팅·양자정보 샘플 제작 과정을 익혔어요.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1757505600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu01",
+   "lab_id": "lab_db94dcbe5311",
+   "term": "2025 여름방학",
+   "duration": "두 학기",
+   "activity": "양자컴퓨팅·양자정보 관련 기초 이론을 공부한 뒤, 시뮬레이션 툴로 양자 소자 나노공정 구조를 바꿔 가며 특성을 비교하는 일을 했어요.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 3,
+    "workload": 3,
+    "atmosphere": 3
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1756555200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu12",
+   "lab_id": "lab_bfc5e0710500",
+   "term": "2025 봄학기",
+   "duration": "8주",
+   "activity": "수중·극한환경 로봇 측정 장비 사용법을 배우고, 선배와 함께 샘플을 측정해 데이터를 정리·분석했어요. 후반에는 로봇 관련 시뮬레이션도 해봤습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 로봇 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 수중·극한환경 로봇 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1752321600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu09",
+   "lab_id": "lab_bfc5e0710500",
+   "term": "2026 여름방학",
+   "duration": "한 학기",
+   "activity": "수중·극한환경 로봇 관련 기초 이론을 공부한 뒤, 시뮬레이션 툴로 로봇 구조를 바꿔 가며 특성을 비교하는 일을 했어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 로봇 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1788955200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu15",
+   "lab_id": "lab_bfc5e0710500",
+   "term": "2025 봄학기",
+   "duration": "한 학기",
+   "activity": "클린룸·실험실 안전 교육을 받고, 선배 공정을 옆에서 보조하며 수중·극한환경 로봇 샘플 제작 과정을 익혔어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 수중·극한환경 로봇 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1751371200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu15",
+   "lab_id": "lab_093a9ff4a3a5",
+   "term": "2025 봄학기",
+   "duration": "한 학기",
+   "activity": "산화물 반도체 MOSFET 실험 보조로 시작해서 측정 자동화 파이썬 스크립트를 만들었어요. 매주 그룹 미팅에서 결과를 보고했습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 4
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1752321600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu11",
+   "lab_id": "lab_29eb07f2a745",
+   "term": "2025 겨울방학",
+   "duration": "한 학기",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. 데이터베이스·데이터마이닝 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 3,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1773921600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu12",
+   "lab_id": "lab_29eb07f2a745",
+   "term": "2024 겨울방학",
+   "duration": "8주",
+   "activity": "논문에 나온 데이터베이스·데이터마이닝 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "수업에서 배운 데이터베이스·데이터마이닝 개념이 실제 연구에서 어떻게 쓰이는지 처음으로 체감했어요. 논문 읽는 법을 제대로 배운 기회였습니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1741348800.0,
+   "dummy": true
+  },
+  {
+   "author": "stu13",
+   "lab_id": "lab_29eb07f2a745",
+   "term": "2026 봄학기",
+   "duration": "10주",
+   "activity": "데이터베이스·데이터마이닝 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 그래프 데이터 엔진 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1783425600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu09",
+   "lab_id": "lab_29eb07f2a745",
+   "term": "2025 겨울방학",
+   "duration": "8주",
+   "activity": "데이터베이스·데이터마이닝 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 그래프 데이터 엔진 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 그래프 데이터 엔진 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 데이터베이스·데이터마이닝 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "데이터베이스·데이터마이닝에 관심 있고 논문을 꾸준히 읽어볼 의지가 있는 학생",
+   "created": 1772625600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu09",
+   "lab_id": "lab_e42f51e5e604",
+   "term": "2026 여름방학",
+   "duration": "10주",
+   "activity": "처음 2주는 자연어처리·언어모델 기초 스터디, 이후에는 대화 시스템 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 3
+   },
+   "good": "수업에서 배운 자연어처리·언어모델 개념이 실제 연구에서 어떻게 쓰이는지 처음으로 체감했어요. 논문 읽는 법을 제대로 배운 기회였습니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1788609600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu11",
+   "lab_id": "lab_e42f51e5e604",
+   "term": "2026 봄학기",
+   "duration": "두 학기",
+   "activity": "처음 2주는 자연어처리·언어모델 기초 스터디, 이후에는 대화 시스템 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 5,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "대화 시스템 쪽 수업이 재밌었던 2~3학년",
+   "created": 1783425600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu07",
+   "lab_id": "lab_a53be44484aa",
+   "term": "2025 겨울방학",
+   "duration": "6주",
+   "activity": "고속 온칩 링크 설계 측정 장비 사용법을 배우고, 선배와 함께 샘플을 측정해 데이터를 정리·분석했어요. 후반에는 온칩 계측 회로 관련 시뮬레이션도 해봤습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 2,
+    "workload": 3,
+    "atmosphere": 3
+   },
+   "good": "교수님 미팅에서 학부생 발표도 진지하게 들어주셔서 동기부여가 많이 됐어요. 연구가 어떻게 굴러가는지 전체 흐름을 볼 수 있었습니다.",
+   "improve": "장비 예약이 밀리면 대기 시간이 길었어요. 그 시간에 할 수 있는 분석 작업을 같이 받아두면 좋아요.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1772625600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu10",
+   "lab_id": "lab_a53be44484aa",
+   "term": "2025 봄학기",
+   "duration": "한 학기",
+   "activity": "고속 온칩 링크 설계 실험 보조로 시작해서 측정 자동화 파이썬 스크립트를 만들었어요. 매주 그룹 미팅에서 결과를 보고했습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 3
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "참여 기간이 짧아서 결과까지 내기는 어려웠어요. 가능하면 한 학기 이상 하는 걸 추천해요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1751803200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu15",
+   "lab_id": "lab_a53be44484aa",
+   "term": "2025 가을학기",
+   "duration": "두 학기",
+   "activity": "고속 온칩 링크 설계 관련 기초 이론을 공부한 뒤, 시뮬레이션 툴로 온칩 계측 회로 구조를 바꿔 가며 특성을 비교하는 일을 했어요.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 5,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "학부생에게 맞는 크기의 과제를 주셔서 부담이 적었어요. 끝날 때쯤엔 온칩 계측 회로 쪽으로 더 공부해 보고 싶다는 방향이 생겼습니다.",
+   "improve": "선배들이 마감 기간에는 바빠서 질문 타이밍을 잡기 어려웠어요. 질문을 모아서 정해진 시간에 하는 게 좋습니다.",
+   "recommend_for": "고속 온칩 링크 설계에 관심 있고 논문을 꾸준히 읽어볼 의지가 있는 학생",
+   "created": 1766577600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu16",
+   "lab_id": "lab_a53be44484aa",
+   "term": "2025 겨울방학",
+   "duration": "한 학기",
+   "activity": "고속 온칩 링크 설계 측정 장비 사용법을 배우고, 선배와 함께 샘플을 측정해 데이터를 정리·분석했어요. 후반에는 온칩 계측 회로 관련 시뮬레이션도 해봤습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 5
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "장비 예약이 밀리면 대기 시간이 길었어요. 그 시간에 할 수 있는 분석 작업을 같이 받아두면 좋아요.",
+   "recommend_for": "파이썬으로 데이터 다뤄본 경험이 조금이라도 있는 학생",
+   "created": 1773057600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu03",
+   "lab_id": "lab_bc5fde76dc89",
+   "term": "2025 겨울방학",
+   "duration": "6주",
+   "activity": "컴퓨터비전·영상인식 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 월드모델·VLA·physical AI 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 2,
+    "workload": 3,
+    "atmosphere": 3
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 컴퓨터비전·영상인식 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "컴퓨터비전·영상인식에 관심 있고 논문을 꾸준히 읽어볼 의지가 있는 학생",
+   "created": 1773748800.0,
+   "dummy": true
+  },
+  {
+   "author": "stu15",
+   "lab_id": "lab_bc5fde76dc89",
+   "term": "2025 가을학기",
+   "duration": "한 학기",
+   "activity": "처음 2주는 컴퓨터비전·영상인식 기초 스터디, 이후에는 월드모델·VLA·physical AI 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 2,
+    "learning": 3,
+    "workload": 4,
+    "atmosphere": 3
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 컴퓨터비전·영상인식 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1767096000.0,
+   "dummy": true
+  },
+  {
+   "author": "stu17",
+   "lab_id": "lab_bc5fde76dc89",
+   "term": "2025 봄학기",
+   "duration": "한 학기",
+   "activity": "논문에 나온 컴퓨터비전·영상인식 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 3,
+    "learning": 4,
+    "workload": 3,
+    "atmosphere": 4
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 컴퓨터비전·영상인식 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "컴퓨터비전·영상인식에 관심 있고 논문을 꾸준히 읽어볼 의지가 있는 학생",
+   "created": 1752494400.0,
+   "dummy": true
+  },
+  {
+   "author": "stu06",
+   "lab_id": "lab_bc5fde76dc89",
+   "term": "2025 겨울방학",
+   "duration": "8주",
+   "activity": "논문에 나온 컴퓨터비전·영상인식 방법을 직접 구현해 보고, 조건을 바꿔 가며 비교 실험을 했어요. 마지막 주에 결과 발표를 했습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 4,
+    "atmosphere": 4
+   },
+   "good": "진학 고민을 솔직하게 상담해 주셨어요. 대학원 생활이 실제로 어떤지 현실적으로 들을 수 있었던 게 큰 수확입니다.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1773403200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu17",
+   "lab_id": "lab_975679fa678a",
+   "term": "2025 가을학기",
+   "duration": "10주",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. 제철 공정 결함 검출 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 4,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 4
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "GPU·서버 자원을 쓰는 순서가 정해져 있어서 실험이 몰리면 기다려야 했어요. 작은 규모로 먼저 검증해 두면 좋아요.",
+   "recommend_for": "산업 이상 탐지 쪽 수업이 재밌었던 2~3학년",
+   "created": 1767787200.0,
+   "dummy": true
+  },
+  {
+   "author": "stu11",
+   "lab_id": "lab_975679fa678a",
+   "term": "2025 가을학기",
+   "duration": "10주",
+   "activity": "제철 공정 결함 검출 관련 최근 논문을 매주 한 편씩 읽고 랩 세미나에서 요약 발표했어요. 후반 4주는 공개 코드로 산업 이상 탐지 실험을 재현하는 일을 맡았습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "자율성이 큰 편이라 스스로 계획을 세우지 않으면 흘러가기 쉬워요. 주간 목표를 직접 정해 두는 걸 추천합니다.",
+   "recommend_for": "진학을 고민 중이라 연구실 생활을 미리 경험해 보고 싶은 학생",
+   "created": 1767009600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu17",
+   "lab_id": "lab_ee13f2464526",
+   "term": "2025 여름방학",
+   "duration": "두 학기",
+   "activity": "선배 프로젝트에서 데이터 정리와 실험 자동화 스크립트를 담당했어요. 블록체인 합의 실험 결과를 표와 그래프로 정리하는 일이 많았습니다.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 4,
+    "workload": 5,
+    "atmosphere": 5
+   },
+   "good": "연구실 분위기가 차분하고 서로 도와주는 편이에요. 실험이 막혔을 때 다른 선배들도 같이 봐주셨어요.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 블록체인 합의 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "실험을 직접 손으로 해보고 싶은 학생",
+   "created": 1757505600.0,
+   "dummy": true
+  },
+  {
+   "author": "stu11",
+   "lab_id": "lab_ee13f2464526",
+   "term": "2026 여름방학",
+   "duration": "10주",
+   "activity": "처음 2주는 블록체인 합의 기초 스터디, 이후에는 P2P 네트워크 관련 작은 문제를 받아 구현하고 매주 미팅에서 진행 상황을 공유했어요.",
+   "ratings": {
+    "mentoring": 5,
+    "learning": 3,
+    "workload": 5,
+    "atmosphere": 4
+   },
+   "good": "선배들이 질문을 편하게 받아줘서 모르는 걸 숨기지 않아도 됐어요. 매주 짧게라도 피드백을 받을 수 있었던 게 가장 좋았습니다.",
+   "improve": "처음 1~2주는 무엇을 해야 할지 막막했어요. 미리 블록체인 합의 기초 자료를 읽고 가면 훨씬 수월할 것 같아요.",
+   "recommend_for": "P2P 네트워크 쪽 수업이 재밌었던 2~3학년",
+   "created": 1789041600.0,
+   "dummy": true
+  }
+ ],
+ "threads": [
+  {
+   "student": "stu01",
+   "graduate": "grad01",
+   "subject": "제어 연구참여 준비 질문",
+   "messages": [
+    {
+     "from": "stu01",
+     "body": "안녕하세요, 전자전기공학과 3학년 연참새내기입니다. 3분커리에서 연구실을 알아보다 연락드려요. 제어 연구에 관심이 생겼는데, 학부생 연구참여 전에 어떤 걸 공부해 두면 좋을지 여쭤보고 싶습니다!",
+     "created": 1789905600.0
+    },
+    {
+     "from": "grad01",
+     "body": "반가워요! 제어 쪽은 관련 수업 하나 듣고, 연구실 홈페이지의 최근 논문 한두 편을 가볍게 읽어 보면 충분해요. 궁금한 점 정리해서 다시 보내 주면 더 자세히 알려줄게요.",
+     "created": 1789923600.0
+    }
+   ],
+   "dummy": true
+  },
+  {
+   "student": "stu02",
+   "graduate": "grad04",
+   "subject": "수학적 제어 이론 연구참여 준비 질문",
+   "messages": [
+    {
+     "from": "stu02",
+     "body": "안녕하세요, 반도체공학과 3학년 형산강러너입니다. 3분커리에서 연구실을 알아보다 연락드려요. 수학적 제어 이론 연구에 관심이 생겼는데, 학부생 연구참여 전에 어떤 걸 공부해 두면 좋을지 여쭤보고 싶습니다!",
+     "created": 1789992000.0
+    },
+    {
+     "from": "grad04",
+     "body": "반가워요! 수학적 제어 이론 쪽은 관련 수업 하나 듣고, 연구실 홈페이지의 최근 논문 한두 편을 가볍게 읽어 보면 충분해요. 궁금한 점 정리해서 다시 보내 주면 더 자세히 알려줄게요.",
+     "created": 1790010000.0
+    }
+   ],
+   "dummy": true
+  },
+  {
+   "student": "stu03",
+   "graduate": "grad01",
+   "subject": "제어 연구참여 준비 질문",
+   "messages": [
+    {
+     "from": "stu03",
+     "body": "안녕하세요, 물리학과 3학년 지곡동다람쥐입니다. 3분커리에서 연구실을 알아보다 연락드려요. 제어 연구에 관심이 생겼는데, 학부생 연구참여 전에 어떤 걸 공부해 두면 좋을지 여쭤보고 싶습니다!",
+     "created": 1790078400.0
+    }
+   ],
+   "dummy": true
+  }
+ ]
+}

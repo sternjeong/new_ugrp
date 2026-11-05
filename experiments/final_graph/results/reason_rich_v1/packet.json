@@ -1,0 +1,1626 @@
+{
+  "purpose": "blind paired reason-format fidelity, conditional on judged relevant B1 top1",
+  "instructions": "Judge each reason for faithful 0/1, useful 0/1/2, and whether it should be withheld for insufficient evidence. Use only the quoted source evidence; strong prerequisite claims are unsupported.",
+  "items": [
+    {
+      "item_id": "reason:84953a4faafe972b",
+      "pair_id": "pair:89c6589fbf845328",
+      "lab_id": "lab:04a4270953e536b3d89b39189ea28f5a",
+      "course_id": "course:PHYS533",
+      "component_id": "component:f85ff3396c8b4478b1ef",
+      "lab_evidence": "These research topics contribute to our broader goal of developing new techniques for photonic quantum information processing, atom-photon interaction, quantum cryptography, and quantum-enhanced imaging and metrology, with implications for the future of quantum technologies.",
+      "course_evidence": "양자통신 및 양자암호",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 23,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          677,
+          952
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1152,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          11
+        ]
+      },
+      "reason": "연구실 소개에는 ‘These research topics contribute to our broader goal of developing new techniques for photonic quantum information processing, atom-photon interaction, quantum cryptography, and quantum-enhanced imaging and metrology, with implications for the future of quantum technologies.’라고 나옵니다. 과목 자료에는 ‘양자통신 및 양자암호’라고 나옵니다. 두 자료는 cryptography_privacy 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:d28436977131697e",
+      "pair_id": "pair:00b41af96151fb7c",
+      "lab_id": "lab:5b4904a849d4cce159abc577f0b063a4",
+      "course_id": "course:AIGS554",
+      "component_id": "component:b6283e717b63e2c3ee85",
+      "lab_evidence": "To address these challenges, we introduce OrbitFlow, a fine-grained and adaptive KV cache management system that meets latency SLOs in long-context LLM serving.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 181,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          507,
+          667
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘To address these challenges, we introduce OrbitFlow, a fine-grained and adaptive KV cache management system that meets latency SLOs in long-context LLM serving.’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:ad0a79576fa4d4cc",
+      "pair_id": "pair:f5af9a08767d5d06",
+      "lab_id": "lab:700a6fac11e8c86b953724e4774a8728",
+      "course_id": "course:EECE490G",
+      "component_id": "component:53c499ff9672583f0e20",
+      "lab_evidence": "Beyond individual sensors or materials, we develop embodied sensing systems designed for physical AI.",
+      "course_evidence": "특강: 로봇 학습",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 8,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          1761,
+          1862
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 272,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          9
+        ]
+      },
+      "reason": "이 과목은 world_models_embodied와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:46e57dc4fac3e0f6",
+      "pair_id": "pair:66f1753f2b26d927",
+      "lab_id": "lab:e5c3fc5f5173e1479fd4e72edd9c0599",
+      "course_id": "course:AIGS703O",
+      "component_id": "component:1d909dfde7996fd91715",
+      "lab_evidence": "We describe algorithms for the computation of such motion effects developed using computer vision techniques and deep learning.",
+      "course_evidence": "특론: 3차원 의료영상 처리 및 분석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 287,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          450,
+          577
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 712,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          20
+        ]
+      },
+      "reason": "이 과목은 computer_vision와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:0a3e0ba0300c9dc8",
+      "pair_id": "pair:50015c2a2ab46503",
+      "lab_id": "lab:ef2b65fbe4750e574fff67eceab7d2f3",
+      "course_id": "course:GSST690I",
+      "component_id": "component:4aca74faa41a5faea305",
+      "lab_evidence": "Also, we are applying algorithms in computational geometry to solve various geometric problems in the practical world, such as navigation system, teeth alignment, and semiconductor design.",
+      "course_evidence": "Main Text Alignment: Chapter 1 — Introduction",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 186,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          429,
+          617
+        ]
+      },
+      "course_source": {
+        "source_field": "Lecture progress plan",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1224,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          368,
+          413
+        ]
+      },
+      "reason": "이 과목은 ai_safety_alignment와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:f3ef1961f541a56a",
+      "pair_id": "pair:e89b02ba4897940f",
+      "lab_id": "lab:3043b24cf494bc0ab566b38125401ccc",
+      "course_id": "course:IMEN491R",
+      "component_id": "component:1011cea072971be3c4e2",
+      "lab_evidence": "Therefore, in this project, we intend to build a database based on research results in the field of materials existing in Internet documents through natural language processing techniques.",
+      "course_evidence": "특강: 데이터 분석을 위한 R프로그래밍(온라인)",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 150,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          490,
+          678
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 221,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          26
+        ]
+      },
+      "reason": "연구실 소개에는 ‘Therefore, in this project, we intend to build a database based on research results in the field of materials existing in Internet documents through natural language processing techniques.’라고 나옵니다. 과목 자료에는 ‘특강: 데이터 분석을 위한 R프로그래밍(온라인)’라고 나옵니다. 두 자료는 data_mining_databases 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:e2a4363facabfd3f",
+      "pair_id": "pair:5a6bdb5448ff339d",
+      "lab_id": "lab:1bef128cdf09045b9dc8ab50733a08e2",
+      "course_id": "course:AIGS554",
+      "component_id": "component:e0820f481295863aa356",
+      "lab_evidence": "Specifically, we target the development of acceleration techniques, such as knowledge compression and learning strategies, to optimize and lightweight LLM structures for more efficient deployment.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 204,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          990,
+          1186
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 소개에는 ‘Specifically, we target the development of acceleration techniques, such as knowledge compression and learning strategies, to optimize and lightweight LLM structures for more efficient deployment.’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:436de94ea7c127b1",
+      "pair_id": "pair:fbf679048353f0a4",
+      "lab_id": "lab:6e6098f39a29a429994ee9927724254d",
+      "course_id": "course:EECE309",
+      "component_id": "component:b8061c56aa43a0e0d3ac",
+      "lab_evidence": "To achieve this objective, a robust controller is designed through the linear matrix inequality (LMI)-based approach.",
+      "course_evidence": "현대제어이론",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 205,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          669,
+          786
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 325,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘To achieve this objective, a robust controller is designed through the linear matrix inequality (LMI)-based approach.’라고 나옵니다. 과목 자료에는 ‘현대제어이론’라고 나옵니다. 두 자료는 control_theory 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:490d96dd6c629768",
+      "pair_id": "pair:fdcb9e5f865a76a8",
+      "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb",
+      "course_id": "course:IDSC677",
+      "component_id": "component:a77aac14809a7d7dc190",
+      "lab_evidence": "Employing an interrupted time series analysis, we explored the impact of COVID-19 on hospitalizations and 30-day in-hospital mortality among stroke patients.",
+      "course_evidence": "시계열 분석",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 164,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          347,
+          504
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 728,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "이 과목은 time_series와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:d748e82722ce05de",
+      "pair_id": "pair:b7a526bb60c48c4c",
+      "lab_id": "lab:3b006d6bada5c5abf7281fc08312bbae",
+      "course_id": "course:AIGS554",
+      "component_id": "component:53a025a325bd2260b995",
+      "lab_evidence": "We also design principled benchmarks so that progress on complex multi-hop question answering can be measured rigorously.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 182,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          919,
+          1040
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:b8fe131e1534844e",
+      "pair_id": "pair:ed5ca4f23572c8fd",
+      "lab_id": "lab:e8e9c9ec81986f8f38a8b1f430a52b9f",
+      "course_id": "course:MECH579",
+      "component_id": "component:907146fadc7440a94cdb",
+      "lab_evidence": "We employ microfluidic flow reactors to probe the res",
+      "course_evidence": "미세유체역학입문",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 110,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          747,
+          800
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 562,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          8
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘We employ microfluidic flow reactors to probe the res’라고 나옵니다. 과목 자료에는 ‘미세유체역학입문’라고 나옵니다. 두 자료는 microfluidics 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:f954ce3c0b7cdc67",
+      "pair_id": "pair:6411ae0512dd3e73",
+      "lab_id": "lab:032749fe44cb8a804902ff1aa9236d09",
+      "course_id": "course:EECE490G",
+      "component_id": "component:af4c76ac6b6ce1d46f5e",
+      "lab_evidence": "For this, we introduce a history-dependent manipulation task which objective is to visually ground a series of language instructions for proper pick-and-place manipulations by referring to the past.",
+      "course_evidence": "특강: 로봇 학습",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 210,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          506,
+          704
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 272,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          9
+        ]
+      },
+      "reason": "이 과목은 world_models_embodied와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:970bdf5a96488ce7",
+      "pair_id": "pair:733f72cddc33347e",
+      "lab_id": "lab:86fc88408c8d1893e56ce738dfd115a7",
+      "course_id": "course:AIGS537",
+      "component_id": "component:5c85ad5c4f948dc4f5e7",
+      "lab_evidence": "We have developed atSNP Search, a comprehensive web database for evaluating motif matches to the human genome with both reference and variant alleles and assessing the overall significance of the variant alterations on the motif matches.",
+      "course_evidence": "인공지능과 데이터과학",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 117,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          288,
+          525
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 695,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          11
+        ]
+      },
+      "reason": "이 과목은 data_mining_databases와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:8bf7e0da67de1967",
+      "pair_id": "pair:663460af8454dadc",
+      "lab_id": "lab:17a219bdf39951c186a22b1b72692bb0",
+      "course_id": "course:BATT624",
+      "component_id": "component:b8062d35dcedb5f7c067",
+      "lab_evidence": "We herein demonstrate that our first-principles-based molecular simulation reproduces the experimental capacitance peaks.",
+      "course_evidence": "Density Functional Theory for Battery",
+      "lab_source": {
+        "source_field": "representative_papers[0].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 331,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          465,
+          586
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1219,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          37
+        ]
+      },
+      "reason": "이 과목은 device_simulation_dft와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:60fadf71789478bd",
+      "pair_id": "pair:513287d44ad1d760",
+      "lab_id": "lab:904a2fb1494123a4b9be99844f3d823c",
+      "course_id": "course:AIGS554",
+      "component_id": "component:63fb5efe198c2f17c19e",
+      "lab_evidence": "We are investigating question answering (QA) utilizing RAG.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 183,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          1668,
+          1727
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:ed0d716d54052665",
+      "pair_id": "pair:78f86b489004b0e1",
+      "lab_id": "lab:4ca8ad7508926891e100437c7817f303",
+      "course_id": "course:BATT701",
+      "component_id": "component:b071d9b648d864f842af",
+      "lab_evidence": "We are also building up surface-specific spectroscopy and microscopy based on nonlinear optical phenomena.",
+      "course_evidence": "Transmission Electron Microscopy",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 334,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          5073,
+          5179
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 799,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          32
+        ]
+      },
+      "reason": "연구실 소개에는 ‘We are also building up surface-specific spectroscopy and microscopy based on nonlinear optical phenomena.’라고 나옵니다. 과목 자료에는 ‘Transmission Electron Microscopy’라고 나옵니다. 두 자료는 microscopy 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:7501f8c69efa155a",
+      "pair_id": "pair:513287d44ad1d760",
+      "lab_id": "lab:904a2fb1494123a4b9be99844f3d823c",
+      "course_id": "course:AIGS554",
+      "component_id": "component:63fb5efe198c2f17c19e",
+      "lab_evidence": "We are investigating question answering (QA) utilizing RAG.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 183,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          1668,
+          1727
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 소개에는 ‘We are investigating question answering (QA) utilizing RAG.’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:202885f3fb418cf8",
+      "pair_id": "pair:51fb82b9ff4eef08",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+      "course_id": "course:CITE453",
+      "component_id": "component:5ebdaf6456980f030d47",
+      "lab_evidence": "We are currently focusing on convex optimization theories applied to control, estimation, and signal processing, while also engaging in collaborative projects with various companies.",
+      "course_evidence": "생체시스템 및 신호처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 227,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          285,
+          467
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1195,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          12
+        ]
+      },
+      "reason": "연구실 소개에는 ‘We are currently focusing on convex optimization theories applied to control, estimation, and signal processing, while also engaging in collaborative projects with various companies.’라고 나옵니다. 과목 자료에는 ‘생체시스템 및 신호처리’라고 나옵니다. 두 자료는 signal_processing 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:f27fdf4b0645c6ab",
+      "pair_id": "pair:ed5ca4f23572c8fd",
+      "lab_id": "lab:e8e9c9ec81986f8f38a8b1f430a52b9f",
+      "course_id": "course:MECH579",
+      "component_id": "component:907146fadc7440a94cdb",
+      "lab_evidence": "We employ microfluidic flow reactors to probe the res",
+      "course_evidence": "미세유체역학입문",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 110,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          747,
+          800
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 562,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          8
+        ]
+      },
+      "reason": "이 과목은 microfluidics와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:94483c13b94112d9",
+      "pair_id": "pair:255b854612487276",
+      "lab_id": "lab:59855345351d569dbbbbc668df19a512",
+      "course_id": "course:AIGS554",
+      "component_id": "component:a0e280dbdbc4b2988e9f",
+      "lab_evidence": "This work investigates the potential benefits and technical challenges of using high-bandwidth flash (HBF) for large language model (LLM) inference.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "representative_papers[3].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 297,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          0,
+          148
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:fead4dda97d3d9a5",
+      "pair_id": "pair:2d65d9e871106362",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+      "course_id": "course:CHEB469E",
+      "component_id": "component:bd7583b8d5ae68987bdd",
+      "lab_evidence": "In this paper, we first demonstrate the techno-economic feasibility of the electrocatalytic glycerol oxidation technology with our experimental investigations.",
+      "course_evidence": "Week 12: Electrocatalysis and Renewable Energy",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 306,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          365,
+          524
+        ]
+      },
+      "course_source": {
+        "source_field": "Lecture progress plan",
+        "source_file": "final_courses.jsonl",
+        "source_row": 588,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          1800,
+          1846
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘In this paper, we first demonstrate the techno-economic feasibility of the electrocatalytic glycerol oxidation technology with our experimental investigations.’라고 나옵니다. 과목 자료에는 ‘Week 12: Electrocatalysis and Renewable Energy’라고 나옵니다. 두 자료는 electrocatalysis 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:4fc7074d47d0d414",
+      "pair_id": "pair:6411ae0512dd3e73",
+      "lab_id": "lab:032749fe44cb8a804902ff1aa9236d09",
+      "course_id": "course:EECE490G",
+      "component_id": "component:af4c76ac6b6ce1d46f5e",
+      "lab_evidence": "For this, we introduce a history-dependent manipulation task which objective is to visually ground a series of language instructions for proper pick-and-place manipulations by referring to the past.",
+      "course_evidence": "특강: 로봇 학습",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 210,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          506,
+          704
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 272,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          9
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘For this, we introduce a history-dependent manipulation task which objective is to visually ground a series of language instructions for proper pick-and-place manipulations by referring to the past.’라고 나옵니다. 과목 자료에는 ‘특강: 로봇 학습’라고 나옵니다. 두 자료는 world_models_embodied 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:e0560800ae1894a4",
+      "pair_id": "pair:f5af9a08767d5d06",
+      "lab_id": "lab:700a6fac11e8c86b953724e4774a8728",
+      "course_id": "course:EECE490G",
+      "component_id": "component:53c499ff9672583f0e20",
+      "lab_evidence": "Beyond individual sensors or materials, we develop embodied sensing systems designed for physical AI.",
+      "course_evidence": "특강: 로봇 학습",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 8,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          1761,
+          1862
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 272,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          9
+        ]
+      },
+      "reason": "연구실 소개에는 ‘Beyond individual sensors or materials, we develop embodied sensing systems designed for physical AI.’라고 나옵니다. 과목 자료에는 ‘특강: 로봇 학습’라고 나옵니다. 두 자료는 world_models_embodied 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:ef6e5f72f049483f",
+      "pair_id": "pair:b530d831b0cc02be",
+      "lab_id": "lab:2cb62041f2042fee06f9fec52ac935ad",
+      "course_id": "course:AIGS703O",
+      "component_id": "component:7926a13f91fe4e49a7b9",
+      "lab_evidence": "Therefore, in this study, which is an extension of our previous paper, a novel path planning approach that combined computer vision, Q-learning, and neural networks was developed to overcome these limitations.",
+      "course_evidence": "특론: 3차원 의료영상 처리 및 분석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 157,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          455,
+          664
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 712,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          20
+        ]
+      },
+      "reason": "이 과목은 computer_vision와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:3bb4c4395c865ad0",
+      "pair_id": "pair:00b41af96151fb7c",
+      "lab_id": "lab:5b4904a849d4cce159abc577f0b063a4",
+      "course_id": "course:AIGS554",
+      "component_id": "component:b6283e717b63e2c3ee85",
+      "lab_evidence": "To address these challenges, we introduce OrbitFlow, a fine-grained and adaptive KV cache management system that meets latency SLOs in long-context LLM serving.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 181,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          507,
+          667
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:0b68709dc3bbbe6d",
+      "pair_id": "pair:50015c2a2ab46503",
+      "lab_id": "lab:ef2b65fbe4750e574fff67eceab7d2f3",
+      "course_id": "course:GSST690I",
+      "component_id": "component:4aca74faa41a5faea305",
+      "lab_evidence": "Also, we are applying algorithms in computational geometry to solve various geometric problems in the practical world, such as navigation system, teeth alignment, and semiconductor design.",
+      "course_evidence": "Main Text Alignment: Chapter 1 — Introduction",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 186,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          429,
+          617
+        ]
+      },
+      "course_source": {
+        "source_field": "Lecture progress plan",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1224,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          368,
+          413
+        ]
+      },
+      "reason": "연구실 소개에는 ‘Also, we are applying algorithms in computational geometry to solve various geometric problems in the practical world, such as navigation system, teeth alignment, and semiconductor design.’라고 나옵니다. 과목 자료에는 ‘Main Text Alignment: Chapter 1 — Introduction’라고 나옵니다. 두 자료는 ai_safety_alignment 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:8e354f85c0497a09",
+      "pair_id": "pair:c308baad887caf8a",
+      "lab_id": "lab:92f8e8cdf44ea24fa8ef01f7fdb7cc7f",
+      "course_id": "course:AMSE318",
+      "component_id": "component:11148da4d23120052042",
+      "lab_evidence": "A detailed 3D numerical simulation has been developed, which takes into account both secondary electron and ion dynamics to evaluate the temporal evolution of the beam potential and its dependence on various parameter",
+      "course_evidence": "소재수치해석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 248,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          583,
+          800
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 924,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "이 과목은 numerical_methods와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:9ac482501ed095d7",
+      "pair_id": "pair:663460af8454dadc",
+      "lab_id": "lab:17a219bdf39951c186a22b1b72692bb0",
+      "course_id": "course:BATT624",
+      "component_id": "component:b8062d35dcedb5f7c067",
+      "lab_evidence": "We herein demonstrate that our first-principles-based molecular simulation reproduces the experimental capacitance peaks.",
+      "course_evidence": "Density Functional Theory for Battery",
+      "lab_source": {
+        "source_field": "representative_papers[0].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 331,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          465,
+          586
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1219,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          37
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘We herein demonstrate that our first-principles-based molecular simulation reproduces the experimental capacitance peaks.’라고 나옵니다. 과목 자료에는 ‘Density Functional Theory for Battery’라고 나옵니다. 두 자료는 device_simulation_dft 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:858574a69deed1ef",
+      "pair_id": "pair:78f86b489004b0e1",
+      "lab_id": "lab:4ca8ad7508926891e100437c7817f303",
+      "course_id": "course:BATT701",
+      "component_id": "component:b071d9b648d864f842af",
+      "lab_evidence": "We are also building up surface-specific spectroscopy and microscopy based on nonlinear optical phenomena.",
+      "course_evidence": "Transmission Electron Microscopy",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 334,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          5073,
+          5179
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 799,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          32
+        ]
+      },
+      "reason": "이 과목은 microscopy와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:3343bf1bfdf521f7",
+      "pair_id": "pair:7188963fd34d268f",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+      "course_id": "course:IDSC677",
+      "component_id": "component:8f6a5bcd2035dc1b6665",
+      "lab_evidence": "While a big wave of artificial intelligence (AI) has propagated to the field of computational fluid dynamics (CFD) acceleration studies, recent research has highlighted that the development of AI techniques that reconciles the following goals remains our primary task: (1) accurate prediction of unseen (future) time series in long-term CFD simulations (2) acceleration of simulations (3) an acceptable amount of training data and time (4) within a multiple PDEs condition.",
+      "course_evidence": "시계열 분석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 246,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          0,
+          473
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 728,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "이 과목은 time_series와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:34b0661c92f996b2",
+      "pair_id": "pair:255b854612487276",
+      "lab_id": "lab:59855345351d569dbbbbc668df19a512",
+      "course_id": "course:AIGS554",
+      "component_id": "component:a0e280dbdbc4b2988e9f",
+      "lab_evidence": "This work investigates the potential benefits and technical challenges of using high-bandwidth flash (HBF) for large language model (LLM) inference.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "representative_papers[3].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 297,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          0,
+          148
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘This work investigates the potential benefits and technical challenges of using high-bandwidth flash (HBF) for large language model (LLM) inference.’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:85891309f96c9ff4",
+      "pair_id": "pair:fdcb9e5f865a76a8",
+      "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb",
+      "course_id": "course:IDSC677",
+      "component_id": "component:a77aac14809a7d7dc190",
+      "lab_evidence": "Employing an interrupted time series analysis, we explored the impact of COVID-19 on hospitalizations and 30-day in-hospital mortality among stroke patients.",
+      "course_evidence": "시계열 분석",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 164,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          347,
+          504
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 728,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘Employing an interrupted time series analysis, we explored the impact of COVID-19 on hospitalizations and 30-day in-hospital mortality among stroke patients.’라고 나옵니다. 과목 자료에는 ‘시계열 분석’라고 나옵니다. 두 자료는 time_series 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:74acc0d2ce1cbbc5",
+      "pair_id": "pair:51fb82b9ff4eef08",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+      "course_id": "course:CITE453",
+      "component_id": "component:5ebdaf6456980f030d47",
+      "lab_evidence": "We are currently focusing on convex optimization theories applied to control, estimation, and signal processing, while also engaging in collaborative projects with various companies.",
+      "course_evidence": "생체시스템 및 신호처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 227,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          285,
+          467
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1195,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          12
+        ]
+      },
+      "reason": "이 과목은 signal_processing와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:335c270e50f64190",
+      "pair_id": "pair:89c6589fbf845328",
+      "lab_id": "lab:04a4270953e536b3d89b39189ea28f5a",
+      "course_id": "course:PHYS533",
+      "component_id": "component:f85ff3396c8b4478b1ef",
+      "lab_evidence": "These research topics contribute to our broader goal of developing new techniques for photonic quantum information processing, atom-photon interaction, quantum cryptography, and quantum-enhanced imaging and metrology, with implications for the future of quantum technologies.",
+      "course_evidence": "양자통신 및 양자암호",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 23,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          677,
+          952
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 1152,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          11
+        ]
+      },
+      "reason": "이 과목은 cryptography_privacy와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:db6c38bbeb81f6bd",
+      "pair_id": "pair:b7a526bb60c48c4c",
+      "lab_id": "lab:3b006d6bada5c5abf7281fc08312bbae",
+      "course_id": "course:AIGS554",
+      "component_id": "component:53a025a325bd2260b995",
+      "lab_evidence": "We also design principled benchmarks so that progress on complex multi-hop question answering can be measured rigorously.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 182,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          919,
+          1040
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 소개에는 ‘We also design principled benchmarks so that progress on complex multi-hop question answering can be measured rigorously.’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:860d1db5ab21edbf",
+      "pair_id": "pair:a02034762657a796",
+      "lab_id": "lab:554a685e4f5958e2476403f7d3e3633b",
+      "course_id": "course:MECH427",
+      "component_id": "component:b2067757e7a52662e2e3",
+      "lab_evidence": "Here, we demonstrate a quadruple fusion imaging system using a spherically focused transparent ultrasound transducer that enables seamless integration of ultrasound imaging with photoacoustic imaging, optical coherence tomography, and fluorescence imaging.",
+      "course_evidence": "Week 14 : Optical coherence tomography",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 243,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          430,
+          686
+        ]
+      },
+      "course_source": {
+        "source_field": "Lecture progress plan",
+        "source_file": "final_courses.jsonl",
+        "source_row": 557,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          612,
+          650
+        ]
+      },
+      "reason": "이 과목은 optical_coherence_tomography와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:1dc2bada1f310ec2",
+      "pair_id": "pair:fbf679048353f0a4",
+      "lab_id": "lab:6e6098f39a29a429994ee9927724254d",
+      "course_id": "course:EECE309",
+      "component_id": "component:b8061c56aa43a0e0d3ac",
+      "lab_evidence": "To achieve this objective, a robust controller is designed through the linear matrix inequality (LMI)-based approach.",
+      "course_evidence": "현대제어이론",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 205,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          669,
+          786
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 325,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "이 과목은 control_theory와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:01100d0430ca9731",
+      "pair_id": "pair:a02034762657a796",
+      "lab_id": "lab:554a685e4f5958e2476403f7d3e3633b",
+      "course_id": "course:MECH427",
+      "component_id": "component:b2067757e7a52662e2e3",
+      "lab_evidence": "Here, we demonstrate a quadruple fusion imaging system using a spherically focused transparent ultrasound transducer that enables seamless integration of ultrasound imaging with photoacoustic imaging, optical coherence tomography, and fluorescence imaging.",
+      "course_evidence": "Week 14 : Optical coherence tomography",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 243,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          430,
+          686
+        ]
+      },
+      "course_source": {
+        "source_field": "Lecture progress plan",
+        "source_file": "final_courses.jsonl",
+        "source_row": 557,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          612,
+          650
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘Here, we demonstrate a quadruple fusion imaging system using a spherically focused transparent ultrasound transducer that enables seamless integration of ultrasound imaging with photoacoustic imaging, optical coherence tomography, and fluorescence imaging.’라고 나옵니다. 과목 자료에는 ‘Week 14 : Optical coherence tomography’라고 나옵니다. 두 자료는 optical_coherence_tomography 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:aa86e082c983de63",
+      "pair_id": "pair:5a6bdb5448ff339d",
+      "lab_id": "lab:1bef128cdf09045b9dc8ab50733a08e2",
+      "course_id": "course:AIGS554",
+      "component_id": "component:e0820f481295863aa356",
+      "lab_evidence": "Specifically, we target the development of acceleration techniques, such as knowledge compression and learning strategies, to optimize and lightweight LLM structures for more efficient deployment.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 204,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          990,
+          1186
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:0864440bd827a54b",
+      "pair_id": "pair:7b6b6e79190091b4",
+      "lab_id": "lab:89315275387a6abd10753adf25862997",
+      "course_id": "course:CHEB769",
+      "component_id": "component:da0fd0bce19bf96944d7",
+      "lab_evidence": "Through 3D quantum simulation and nanofabrication, we hope to finally realize commercial technology for future humanity and the Earth.",
+      "course_evidence": "본 강의의 목표는 반도체/나노공정 및 표면과학에 관심이 있는 학생들이 그와 관련된 연구를 하는데 있어서 도움을 주고자 한다.",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 217,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          421,
+          555
+        ]
+      },
+      "course_source": {
+        "source_field": "description",
+        "source_file": "final_courses.jsonl",
+        "source_row": 982,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          442,
+          511
+        ]
+      },
+      "reason": "연구실 소개에는 ‘Through 3D quantum simulation and nanofabrication, we hope to finally realize commercial technology for future humanity and the Earth.’라고 나옵니다. 과목 자료에는 ‘본 강의의 목표는 반도체/나노공정 및 표면과학에 관심이 있는 학생들이 그와 관련된 연구를 하는데 있어서 도움을 주고자 한다.’라고 나옵니다. 두 자료는 nanofabrication 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:cf367e7c98425587",
+      "pair_id": "pair:7b6b6e79190091b4",
+      "lab_id": "lab:89315275387a6abd10753adf25862997",
+      "course_id": "course:CHEB769",
+      "component_id": "component:da0fd0bce19bf96944d7",
+      "lab_evidence": "Through 3D quantum simulation and nanofabrication, we hope to finally realize commercial technology for future humanity and the Earth.",
+      "course_evidence": "본 강의의 목표는 반도체/나노공정 및 표면과학에 관심이 있는 학생들이 그와 관련된 연구를 하는데 있어서 도움을 주고자 한다.",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 217,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          421,
+          555
+        ]
+      },
+      "course_source": {
+        "source_field": "description",
+        "source_file": "final_courses.jsonl",
+        "source_row": 982,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          442,
+          511
+        ]
+      },
+      "reason": "이 과목은 nanofabrication와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:1212f240beddf318",
+      "pair_id": "pair:5cce8da5723cc22a",
+      "lab_id": "lab:e064ea8da3398b079defc8179040f838",
+      "course_id": "course:AIGS554",
+      "component_id": "component:2a2619bf6fa8e7c963f9",
+      "lab_evidence": "Experimental results on dialogue and news datasets demonstrate that sLLM with KEITSum indeed provides high-quality summarization with",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "representative_papers[3].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 176,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          667,
+          800
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘Experimental results on dialogue and news datasets demonstrate that sLLM with KEITSum indeed provides high-quality summarization with’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:49b77904575ac8a7",
+      "pair_id": "pair:5cce8da5723cc22a",
+      "lab_id": "lab:e064ea8da3398b079defc8179040f838",
+      "course_id": "course:AIGS554",
+      "component_id": "component:2a2619bf6fa8e7c963f9",
+      "lab_evidence": "Experimental results on dialogue and news datasets demonstrate that sLLM with KEITSum indeed provides high-quality summarization with",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "representative_papers[3].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 176,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          667,
+          800
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:d429ffa1f8d77524",
+      "pair_id": "pair:66f1753f2b26d927",
+      "lab_id": "lab:e5c3fc5f5173e1479fd4e72edd9c0599",
+      "course_id": "course:AIGS703O",
+      "component_id": "component:1d909dfde7996fd91715",
+      "lab_evidence": "We describe algorithms for the computation of such motion effects developed using computer vision techniques and deep learning.",
+      "course_evidence": "특론: 3차원 의료영상 처리 및 분석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 287,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          450,
+          577
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 712,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          20
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘We describe algorithms for the computation of such motion effects developed using computer vision techniques and deep learning.’라고 나옵니다. 과목 자료에는 ‘특론: 3차원 의료영상 처리 및 분석’라고 나옵니다. 두 자료는 computer_vision 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:41c141ab306b8722",
+      "pair_id": "pair:147bd67c569e9f1a",
+      "lab_id": "lab:3cf13955f9df42105905a333b6204179",
+      "course_id": "course:AMSE513",
+      "component_id": "component:7f2174edfc2ce2882394",
+      "lab_evidence": "By controlling molecular interactions and interfacial reactions, our work bridges fundamental electrochemical understanding with practical materials design for high-performance, sustainable batteries.",
+      "course_evidence": "에너지 전기화학",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 260,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          252,
+          452
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 931,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          8
+        ]
+      },
+      "reason": "이 과목은 electrochemistry와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:468e0e88ad8a808c",
+      "pair_id": "pair:7188963fd34d268f",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+      "course_id": "course:IDSC677",
+      "component_id": "component:8f6a5bcd2035dc1b6665",
+      "lab_evidence": "While a big wave of artificial intelligence (AI) has propagated to the field of computational fluid dynamics (CFD) acceleration studies, recent research has highlighted that the development of AI techniques that reconciles the following goals remains our primary task: (1) accurate prediction of unseen (future) time series in long-term CFD simulations (2) acceleration of simulations (3) an acceptable amount of training data and time (4) within a multiple PDEs condition.",
+      "course_evidence": "시계열 분석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 246,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          0,
+          473
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 728,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘While a big wave of artificial intelligence (AI) has propagated to the field of computational fluid dynamics (CFD) acceleration studies, recent research has highlighted that the development of AI techniques that reconciles the following goals remains our primary task: (1) accurate prediction of unseen (future) time series in long-term CFD simulations (2) acceleration of simulations (3) an acceptable amount of training data and time (4) within a multiple PDEs condition.’라고 나옵니다. 과목 자료에는 ‘시계열 분석’라고 나옵니다. 두 자료는 time_series 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:40ef726b05460b8f",
+      "pair_id": "pair:0eac8c2610b3b228",
+      "lab_id": "lab:78459b9623eba5320f5e35f2002375a9",
+      "course_id": "course:AIGS554",
+      "component_id": "component:1fa8db68aa1c26bff904",
+      "lab_evidence": "Our submission to ASP-DAC 2027, \"Phase-Aware Monte Carlo Tree Search with LLM-Guided Proposal for Multi-Objective Physical Design Tuning\" authored by Jongho Yoon, Jeonghyun Choi, Jaemin Seo and Seokhyeong Kang has been accepted.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 203,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          1043,
+          1271
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "연구실 소개에는 ‘Our submission to ASP-DAC 2027, \"Phase-Aware Monte Carlo Tree Search with LLM-Guided Proposal for Multi-Objective Physical Design Tuning\" authored by Jongho Yoon, Jeonghyun Choi, Jaemin Seo and Seokhyeong Kang has been accepted.’라고 나옵니다. 과목 자료에는 ‘심층학습 자연어처리’라고 나옵니다. 두 자료는 nlp 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:fad25b2a09e6b2da",
+      "pair_id": "pair:147bd67c569e9f1a",
+      "lab_id": "lab:3cf13955f9df42105905a333b6204179",
+      "course_id": "course:AMSE513",
+      "component_id": "component:7f2174edfc2ce2882394",
+      "lab_evidence": "By controlling molecular interactions and interfacial reactions, our work bridges fundamental electrochemical understanding with practical materials design for high-performance, sustainable batteries.",
+      "course_evidence": "에너지 전기화학",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 260,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          252,
+          452
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 931,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          8
+        ]
+      },
+      "reason": "연구실 소개에는 ‘By controlling molecular interactions and interfacial reactions, our work bridges fundamental electrochemical understanding with practical materials design for high-performance, sustainable batteries.’라고 나옵니다. 과목 자료에는 ‘에너지 전기화학’라고 나옵니다. 두 자료는 electrochemistry 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:100f8be2ceed8cc0",
+      "pair_id": "pair:733f72cddc33347e",
+      "lab_id": "lab:86fc88408c8d1893e56ce738dfd115a7",
+      "course_id": "course:AIGS537",
+      "component_id": "component:5c85ad5c4f948dc4f5e7",
+      "lab_evidence": "We have developed atSNP Search, a comprehensive web database for evaluating motif matches to the human genome with both reference and variant alleles and assessing the overall significance of the variant alterations on the motif matches.",
+      "course_evidence": "인공지능과 데이터과학",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 117,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          288,
+          525
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 695,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          11
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘We have developed atSNP Search, a comprehensive web database for evaluating motif matches to the human genome with both reference and variant alleles and assessing the overall significance of the variant alterations on the motif matches.’라고 나옵니다. 과목 자료에는 ‘인공지능과 데이터과학’라고 나옵니다. 두 자료는 data_mining_databases 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:fac562c8a0a5c958",
+      "pair_id": "pair:b530d831b0cc02be",
+      "lab_id": "lab:2cb62041f2042fee06f9fec52ac935ad",
+      "course_id": "course:AIGS703O",
+      "component_id": "component:7926a13f91fe4e49a7b9",
+      "lab_evidence": "Therefore, in this study, which is an extension of our previous paper, a novel path planning approach that combined computer vision, Q-learning, and neural networks was developed to overcome these limitations.",
+      "course_evidence": "특론: 3차원 의료영상 처리 및 분석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 157,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          455,
+          664
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 712,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          20
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘Therefore, in this study, which is an extension of our previous paper, a novel path planning approach that combined computer vision, Q-learning, and neural networks was developed to overcome these limitations.’라고 나옵니다. 과목 자료에는 ‘특론: 3차원 의료영상 처리 및 분석’라고 나옵니다. 두 자료는 computer_vision 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:16b6ef5f773ab1ea",
+      "pair_id": "pair:c308baad887caf8a",
+      "lab_id": "lab:92f8e8cdf44ea24fa8ef01f7fdb7cc7f",
+      "course_id": "course:AMSE318",
+      "component_id": "component:11148da4d23120052042",
+      "lab_evidence": "A detailed 3D numerical simulation has been developed, which takes into account both secondary electron and ion dynamics to evaluate the temporal evolution of the beam potential and its dependence on various parameter",
+      "course_evidence": "소재수치해석",
+      "lab_source": {
+        "source_field": "representative_papers[1].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 248,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          583,
+          800
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 924,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          6
+        ]
+      },
+      "reason": "연구실 목록에 수록된 논문 초록에는 ‘A detailed 3D numerical simulation has been developed, which takes into account both secondary electron and ion dynamics to evaluate the temporal evolution of the beam potential and its dependence on various parameter’라고 나옵니다. 과목 자료에는 ‘소재수치해석’라고 나옵니다. 두 자료는 numerical_methods 관련 내용을 다룹니다."
+    },
+    {
+      "item_id": "reason:25e2a69dd392f740",
+      "pair_id": "pair:2d65d9e871106362",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+      "course_id": "course:CHEB469E",
+      "component_id": "component:bd7583b8d5ae68987bdd",
+      "lab_evidence": "In this paper, we first demonstrate the techno-economic feasibility of the electrocatalytic glycerol oxidation technology with our experimental investigations.",
+      "course_evidence": "Week 12: Electrocatalysis and Renewable Energy",
+      "lab_source": {
+        "source_field": "representative_papers[4].abstract",
+        "source_file": "final_labs.jsonl",
+        "source_row": 306,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          365,
+          524
+        ]
+      },
+      "course_source": {
+        "source_field": "Lecture progress plan",
+        "source_file": "final_courses.jsonl",
+        "source_row": 588,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          1800,
+          1846
+        ]
+      },
+      "reason": "이 과목은 electrocatalysis와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:498bdb4bb49bac8d",
+      "pair_id": "pair:e89b02ba4897940f",
+      "lab_id": "lab:3043b24cf494bc0ab566b38125401ccc",
+      "course_id": "course:IMEN491R",
+      "component_id": "component:1011cea072971be3c4e2",
+      "lab_evidence": "Therefore, in this project, we intend to build a database based on research results in the field of materials existing in Internet documents through natural language processing techniques.",
+      "course_evidence": "특강: 데이터 분석을 위한 R프로그래밍(온라인)",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 150,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          490,
+          678
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 221,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          26
+        ]
+      },
+      "reason": "이 과목은 data_mining_databases와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    },
+    {
+      "item_id": "reason:d8a629898d4ac20d",
+      "pair_id": "pair:0eac8c2610b3b228",
+      "lab_id": "lab:78459b9623eba5320f5e35f2002375a9",
+      "course_id": "course:AIGS554",
+      "component_id": "component:1fa8db68aa1c26bff904",
+      "lab_evidence": "Our submission to ASP-DAC 2027, \"Phase-Aware Monte Carlo Tree Search with LLM-Guided Proposal for Multi-Objective Physical Design Tuning\" authored by Jongho Yoon, Jeonghyun Choi, Jaemin Seo and Seokhyeong Kang has been accepted.",
+      "course_evidence": "심층학습 자연어처리",
+      "lab_source": {
+        "source_field": "research_intro",
+        "source_file": "final_labs.jsonl",
+        "source_row": 203,
+        "source_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+        "span": [
+          1043,
+          1271
+        ]
+      },
+      "course_source": {
+        "source_field": "course_title",
+        "source_file": "final_courses.jsonl",
+        "source_row": 698,
+        "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+        "span": [
+          0,
+          10
+        ]
+      },
+      "reason": "이 과목은 nlp와 관련된 내용을 다루며, 연구실 자료에도 해당 주제가 나타납니다."
+    }
+  ]
+}

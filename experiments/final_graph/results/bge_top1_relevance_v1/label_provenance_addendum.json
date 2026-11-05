@@ -1,0 +1,39 @@
+{
+  "status": "descriptive_addendum_postlabel",
+  "new_pair_relevance_exact_agreement": 0.7569444444444444,
+  "counts": {
+    "a": {
+      "dense": {
+        "new_label": 125,
+        "old_label": 11,
+        "insufficient": 1,
+        "sufficient_n": 135,
+        "sufficient_relevance_mean": 1.4666666666666666
+      },
+      "dense_plus_frozen_rule": {
+        "new_label": 110,
+        "old_label": 26,
+        "insufficient": 1,
+        "sufficient_n": 135,
+        "sufficient_relevance_mean": 1.4148148148148147
+      }
+    },
+    "b": {
+      "dense": {
+        "new_label": 125,
+        "old_label": 11,
+        "insufficient": 0,
+        "sufficient_n": 136,
+        "sufficient_relevance_mean": 1.4926470588235294
+      },
+      "dense_plus_frozen_rule": {
+        "new_label": 110,
+        "old_label": 26,
+        "insufficient": 1,
+        "sufficient_n": 135,
+        "sufficient_relevance_mean": 1.4592592592592593
+      }
+    }
+  },
+  "caveat": "sufficient-only means are unpaired and not a method effect; primary paired result unchanged"
+}

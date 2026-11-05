@@ -1,0 +1,95 @@
+{
+ "_about": "검토 페이지에서 저장된 사람 판정 스냅샷(2026-09-16). 판정하지 않은 연구실은 검토자 지시에 따라 적절한 것으로 간주한다.",
+ "lab_0550a1bc6943": {
+  "topics": {
+   "0": "ok",
+   "1": "ok",
+   "2": "ok",
+   "3": "ok",
+   "4": "ok",
+   "5": "ok",
+   "6": "ok"
+  },
+  "verdict": "ok"
+ },
+ "lab_15fd7dce2706": {
+  "topics": {
+   "0": "ok",
+   "1": "ok",
+   "2": "ok",
+   "3": "ok"
+  },
+  "verdict": "ok"
+ },
+ "lab_5675123dff8f": {
+  "note": "연구실 홈페이지에 한글 설명이 있긴 하나, 수집되지 않은 것으로 추정.",
+  "topics": {},
+  "verdict": "meh"
+ },
+ "lab_96b6fdf81d5f": {
+  "note": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on. 라고 나와있음.",
+  "topics": {
+   "0": "ok"
+  },
+  "verdict": "meh"
+ },
+ "lab_975679fa678a": {
+  "topics": {
+   "0": "ok",
+   "1": "ok",
+   "2": "ok",
+   "3": "ok",
+   "4": "ok",
+   "5": "ok",
+   "6": "ok",
+   "7": "ok"
+  },
+  "verdict": "ok"
+ },
+ "lab_a803732520d8": {
+  "topics": {
+   "0": "ok",
+   "1": "ok",
+   "2": "ok",
+   "3": "ok",
+   "4": "ok",
+   "5": "ok",
+   "6": "ok",
+   "7": "ok"
+  },
+  "verdict": "ok"
+ },
+ "lab_d8c476f94f20": {
+  "topics": {
+   "0": "ok",
+   "1": "ok",
+   "2": "ok",
+   "3": "ok",
+   "4": "ok"
+  },
+  "verdict": "ok"
+ },
+ "lab_e0f1bf42627c": {
+  "topics": {
+   "0": "ok",
+   "1": "ok",
+   "2": "ok",
+   "3": "ok",
+   "4": "ok",
+   "5": "ok"
+  },
+  "verdict": "ok"
+ },
+ "lab_ff0eeeea90a1": {
+  "note": "AI, 기계학습은 너무 광범위한 주제이므로, AI 및 기계학습의 심화 이론 탐구와 관련된 연구실이거나, AI 및 기계학습 자체에 대한 설명이 연구실 설명의 주를 이루는 경우에만 연결지을 수 있도록 한다.",
+  "topics": {
+   "0": "ok",
+   "1": "meh",
+   "2": "ok",
+   "3": "ok",
+   "4": "ok",
+   "5": "ok"
+  },
+  "verdict": "ok"
+ }
+}

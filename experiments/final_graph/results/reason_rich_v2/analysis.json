@@ -1,0 +1,88 @@
+{
+  "status": "two_judge_conditional_paired_reason_format",
+  "pairs": 27,
+  "components": 27,
+  "raw_exact_agreement": {
+    "faithful": 0.7222222222222222,
+    "useful": 0.6666666666666666,
+    "withhold_insufficient_evidence": 0.9259259259259259
+  },
+  "judge": {
+    "a": {
+      "faithful": {
+        "components": 27,
+        "R0": 0.4444444444444444,
+        "R1": 0.4074074074074074,
+        "paired_mean_difference_R1_minus_R0": -0.037037037037037035,
+        "paired_component_bootstrap_95": [
+          -0.14814814814814814,
+          0.07407407407407407
+        ]
+      },
+      "useful": {
+        "components": 27,
+        "R0": 1.4444444444444444,
+        "R1": 1.5925925925925926,
+        "paired_mean_difference_R1_minus_R0": 0.14814814814814814,
+        "paired_component_bootstrap_95": [
+          0.037037037037037035,
+          0.2962962962962963
+        ]
+      },
+      "withhold_insufficient_evidence": {
+        "components": 27,
+        "R0": 0.037037037037037035,
+        "R1": 0.037037037037037035,
+        "paired_mean_difference_R1_minus_R0": 0.0,
+        "paired_component_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "b": {
+      "faithful": {
+        "components": 27,
+        "R0": 0.6666666666666666,
+        "R1": 0.6666666666666666,
+        "paired_mean_difference_R1_minus_R0": 0.0,
+        "paired_component_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "useful": {
+        "components": 27,
+        "R0": 1.5925925925925926,
+        "R1": 1.5925925925925926,
+        "paired_mean_difference_R1_minus_R0": 0.0,
+        "paired_component_bootstrap_95": [
+          -0.1111111111111111,
+          0.1111111111111111
+        ]
+      },
+      "withhold_insufficient_evidence": {
+        "components": 27,
+        "R0": 0.14814814814814814,
+        "R1": 0.07407407407407407,
+        "paired_mean_difference_R1_minus_R0": -0.07407407407407407,
+        "paired_component_bootstrap_95": [
+          -0.18518518518518517,
+          0.0
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "packet": "02ad977eed0ef2b0b354324a3ba35c5a91a89d428328f09dd0dea338c2ff159a",
+    "key": "dd53da0ff1d0276c012f86a85af73ee43ca85f26cc30c0b382aa9d85828b832d",
+    "scores_a": "2591dba57953e3b4d92ae5eb82b8caa115259ceaacf856f803f93600096419a2",
+    "scores_b": "1734511f409107bfa75fe46674cb1380a1a41ad1a493edbc1c524c997c1772a8",
+    "script": "9930c254b10e0f4f19cb27235b89200306bdd73441507f36156a756f2cee9ceb"
+  },
+  "limitations": [
+    "only B1 top-one pairs relevant and sufficient by both prior judges, with valid spans",
+    "same Luna judges previously saw relevance pairs; sentence style may reveal method",
+    "not free-generation/NLI comparison or user comprehension"
+  ]
+}

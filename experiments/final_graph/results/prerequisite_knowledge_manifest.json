@@ -1,0 +1,22 @@
+{
+  "status": "unreviewed_course_concept_mention_candidates",
+  "distinct_course_concept_candidates": 198,
+  "literal_knowledge_alias_occurrences": 223,
+  "concept_counts": {
+    "linear_algebra": 65,
+    "calculus": 70,
+    "differential_equations": 4,
+    "quantum_mechanics": 28,
+    "molecular_biology": 7,
+    "thermodynamics": 16,
+    "mechanics": 7,
+    "chemical_kinetics": 1
+  },
+  "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+  "eligibility_sha256": "22c9d482a253ce6791c30b2f65bb08719680efe67e358a9974cb2754325405c0",
+  "base_vocabulary_sha256": "afd98baddf1e9cc8728bdaea3da2ffd6be5a25591f6573642ea84718170be194",
+  "overlay_vocabulary_sha256": "e1bfcedceb025aeee674d965a64060760d647f5ef2c36bd668cd0476c9347641",
+  "relation_engine_sha256": "73ad452ebb079403afa82e9c157f453c117264a55c5ff59b7bcc29a92c45ccd7",
+  "extractor_sha256": "2273ead93fd7a97db344461dbeb37d21d32285369aed2196ddfcdeffbf3a9ee7",
+  "output_sha256": "709f799b15ff859510b8c86dd07cb8c46e4e20a2ddad36a3c98022e42f66b2ec"
+}

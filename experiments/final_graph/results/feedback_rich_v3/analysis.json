@@ -1,0 +1,147 @@
+{
+  "status": "two_judge_synthetic_removal_stress_test",
+  "source_sha256": {
+    "packet": "f132864b192852aee8f2c2eec67f5900e4f0976ad7673530b93d4e37f5c110e9",
+    "exposure": "381038de91fe29e03f1f3232a4a747e53b1765ff0ab3b470acaabe3eb2f5e19d",
+    "script": "c82b7d4534a28ef4656d8ae3d7adb4edb8bee15cf8da6e3b629d020c5f54076e",
+    "old_scores_a": "8110fc7b82aacfebda4f62a5f232aa6ec05a8ba0379758d1200f532266ba97cc",
+    "bge_scores_a": "f1ffdee0eeb942c26bd2bef029f66f8e86e5c09dd9719a4ebbde0160b35e6176",
+    "new_scores_a": "bcf11fb7bbe987c1eabe8cfa43caca6a906a8d0f3b3fb1c1796e0f469099a846",
+    "old_scores_b": "7435131b51dcdd1e0e83b23cdae528f31c6557fa10f47009019b9fc22c6eda8f",
+    "bge_scores_b": "df55825fd8f9215273aa98e5a9ddd17766de1da95a55e9e52e39c2e15058633a",
+    "new_scores_b": "8a3dded47966484e7bad941b459eca08591bbcdc1d703272bc335b99dc42808b"
+  },
+  "labs": 136,
+  "components": 112,
+  "structural": {
+    "g0_backfills_outside_initial_top5": 136,
+    "g1_backfills_outside_initial_top5": 0,
+    "g0_length": 5,
+    "g1_length": 4
+  },
+  "judge": {
+    "a": {
+      "missing_labs": 0,
+      "metrics": {
+        "sixth_unrelated": {
+          "evaluable_labs": 136,
+          "evaluable_components": 112,
+          "component_mean": 0.25535714285714284,
+          "component_bootstrap_95": [
+            0.17857142857142858,
+            0.3392857142857143
+          ]
+        },
+        "sixth_core": {
+          "evaluable_labs": 136,
+          "evaluable_components": 112,
+          "component_mean": 0.399702380952381,
+          "component_bootstrap_95": [
+            0.3080357142857143,
+            0.49047619047619045
+          ]
+        },
+        "g0_utility": {
+          "evaluable_labs": 136,
+          "evaluable_components": 112,
+          "component_mean": 0.6065029761904762,
+          "component_bootstrap_95": [
+            0.5590327380952381,
+            0.6518601190476191
+          ]
+        },
+        "g1_utility": {
+          "evaluable_labs": 136,
+          "evaluable_components": 112,
+          "component_mean": 0.49206845238095237,
+          "component_bootstrap_95": [
+            0.4532738095238095,
+            0.5289732142857143
+          ]
+        },
+        "g0_relevant_count": {
+          "evaluable_labs": 136,
+          "evaluable_components": 112,
+          "component_mean": 3.8376488095238095,
+          "component_bootstrap_95": [
+            3.584077380952381,
+            4.072767857142857
+          ]
+        },
+        "g1_relevant_count": {
+          "evaluable_labs": 136,
+          "evaluable_components": 112,
+          "component_mean": 3.0930059523809526,
+          "component_bootstrap_95": [
+            2.8854166666666665,
+            3.283482142857143
+          ]
+        }
+      }
+    },
+    "b": {
+      "missing_labs": 7,
+      "metrics": {
+        "sixth_unrelated": {
+          "evaluable_labs": 129,
+          "evaluable_components": 106,
+          "component_mean": 0.3179245283018868,
+          "component_bootstrap_95": [
+            0.2330188679245283,
+            0.4075471698113208
+          ]
+        },
+        "sixth_core": {
+          "evaluable_labs": 129,
+          "evaluable_components": 106,
+          "component_mean": 0.44056603773584907,
+          "component_bootstrap_95": [
+            0.3462264150943396,
+            0.530188679245283
+          ]
+        },
+        "g0_utility": {
+          "evaluable_labs": 129,
+          "evaluable_components": 106,
+          "component_mean": 0.6126415094339622,
+          "component_bootstrap_95": [
+            0.5674528301886792,
+            0.6566037735849056
+          ]
+        },
+        "g1_utility": {
+          "evaluable_labs": 129,
+          "evaluable_components": 106,
+          "component_mean": 0.5003773584905661,
+          "component_bootstrap_95": [
+            0.4650943396226415,
+            0.535377358490566
+          ]
+        },
+        "g0_relevant_count": {
+          "evaluable_labs": 129,
+          "evaluable_components": 106,
+          "component_mean": 3.970754716981132,
+          "component_bootstrap_95": [
+            3.739622641509434,
+            4.183018867924528
+          ]
+        },
+        "g1_relevant_count": {
+          "evaluable_labs": 129,
+          "evaluable_components": 106,
+          "component_mean": 3.288679245283019,
+          "component_bootstrap_95": [
+            3.1047169811320754,
+            3.4584905660377356
+          ]
+        }
+      }
+    }
+  },
+  "limitations": [
+    "random rank-position removal, not observed user feedback",
+    "fixed baseline rank-six only; no exploration or response modeling",
+    "initial and extra labels are independent Luna judgments, not user truth"
+  ]
+}

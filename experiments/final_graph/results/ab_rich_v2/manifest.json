@@ -1,0 +1,8 @@
+{
+  "cards": 27,
+  "packet_sha256": "2247aa07a6e184097927046f986e52a7189295c4ad5411b63b657b03f7d486af",
+  "key_sha256": "19ff5da7938a41d6bb5bf1cd05960d5954bd3e5a0f6c426eeff768d8a542b54f",
+  "reason_packet_sha256": "02ad977eed0ef2b0b354324a3ba35c5a91a89d428328f09dd0dea338c2ff159a",
+  "reason_key_sha256": "dd53da0ff1d0276c012f86a85af73ee43ca85f26cc30c0b382aa9d85828b832d",
+  "script_sha256": "345dde1fdd227bb21667f7ffcdabd3c198cf6e05458d3caeafc75681c382df61"
+}

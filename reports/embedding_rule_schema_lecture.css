@@ -1,0 +1,17 @@
+@page { size: A4; margin: 18mm 17mm; }
+body { font-family: 'Noto Sans CJK KR', 'NanumGothic', sans-serif; font-size: 12pt; line-height: 1.65; color: #202735; }
+header { border-bottom: 2px solid #304866; padding-bottom: 1.1em; margin-bottom: 2em; }
+h1, h2, h3 { color: #203b5c; page-break-after: avoid; }
+h1 { font-size: 19pt; margin-top: 1.5em; border-bottom: 1px solid #c7d2de; padding-bottom: .25em; }
+h2 { font-size: 14pt; margin-top: 1.2em; }
+h3 { font-size: 11.5pt; }
+p, li { orphans: 3; widows: 3; }
+table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin: .8em 0 1.3em; page-break-inside: auto; }
+tr { page-break-inside: avoid; }
+th { background: #eaf0f6; color: #203b5c; }
+th, td { border: 1px solid #bac8d5; padding: .38em .48em; vertical-align: top; overflow-wrap: anywhere; }
+code { font-family: 'Noto Sans Mono CJK KR', monospace; font-size: .86em; overflow-wrap: anywhere; }
+pre { white-space: pre-wrap; background: #f2f5f8; padding: .7em; }
+blockquote { border-left: 3px solid #7194b6; margin-left: 0; padding-left: 1em; color: #48596b; }
+a { color: #1e5b93; text-decoration: none; }
+#TOC { font-size: 10pt; }

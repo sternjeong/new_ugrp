@@ -1,0 +1,54 @@
+{"item_id": "reason:84953a4faafe972b", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Privacy is not stated in either quoted source; cryptography is supported."}
+{"item_id": "reason:d28436977131697e", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "LLM serving and deep-learning NLP are directly connected."}
+{"item_id": "reason:ad0a79576fa4d4cc", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Robot learning is supported by the course title, but world models/VLA/physical AI are not stated."}
+{"item_id": "reason:46e57dc4fac3e0f6", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": true, "reason": "The course title supports imaging, but not computer vision or image recognition specifically; evidence is thin."}
+{"item_id": "reason:0a3e0ba0300c9dc8", "faithful": 0, "useful": 0, "withhold_insufficient_evidence": true, "reason": "Neither quoted source supports the AI safety, reliability, or uncertainty claim; course excerpt is only an alignment heading."}
+{"item_id": "reason:f3ef1961f541a56a", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": true, "reason": "R programming/data analysis is shown, but database or data mining is not established by the course excerpt."}
+{"item_id": "reason:e2a4363facabfd3f", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "The LLM optimization claim and deep-learning NLP course align directly."}
+{"item_id": "reason:436de94ea7c127b1", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Modern control theory directly supports the robust-controller topic."}
+{"item_id": "reason:490d96dd6c629768", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "The stated interrupted time-series method matches the course topic."}
+{"item_id": "reason:d748e82722ce05de", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Multi-hop QA and deep-learning NLP are a direct fit."}
+{"item_id": "reason:b8fe131e1534844e", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Microfluidic reactors and introductory microfluidics directly overlap."}
+{"item_id": "reason:f954ce3c0b7cdc67", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Robot manipulation is supported by the robot-learning title; world-model/VLA details are absent."}
+{"item_id": "reason:970bdf5a96488ce7", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": true, "reason": "The genome database is explicit, but the course excerpt does not establish database/mining content."}
+{"item_id": "reason:8bf7e0da67de1967", "faithful": 0, "useful": 2, "withhold_insufficient_evidence": false, "reason": "DFT simulation fits, but TCAD is not supported by the quoted course title."}
+{"item_id": "reason:60fadf71789478bd", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "RAG question answering directly overlaps deep-learning NLP."}
+{"item_id": "reason:ed0d716d54052665", "faithful": 1, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Both mention microscopy, though nonlinear optical microscopy and TEM differ."}
+{"item_id": "reason:7501f8c69efa155a", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Question answering with RAG aligns directly with deep-learning NLP."}
+{"item_id": "reason:202885f3fb418cf8", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Signal processing appears in both sources."}
+{"item_id": "reason:f27fdf4b0645c6ab", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Microfluidic flow reactors match the course topic despite the incomplete lab excerpt."}
+{"item_id": "reason:94483c13b94112d9", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "LLM inference and deep-learning NLP overlap directly."}
+{"item_id": "reason:fead4dda97d3d9a5", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Both explicitly concern electrocatalysis."}
+{"item_id": "reason:4fc7074d47d0d414", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Robot-learning title supports broad overlap, but not claimed world-model/VLA/physical-AI course details."}
+{"item_id": "reason:e0560800ae1894a4", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Embodied physical-AI sensing overlaps robot learning broadly; specific course topics claimed are absent."}
+{"item_id": "reason:ef6e5f72f049483f", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Lab uses computer vision, but course excerpt only identifies 3D medical imaging; image recognition is not established."}
+{"item_id": "reason:3bb4c4395c865ad0", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Long-context LLM serving directly overlaps deep-learning NLP."}
+{"item_id": "reason:0b68709dc3bbbe6d", "faithful": 0, "useful": 0, "withhold_insufficient_evidence": true, "reason": "The AI safety/reliability claim is absent; the course excerpt is only a heading."}
+{"item_id": "reason:8e354f85c0497a09", "faithful": 1, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Numerical simulation and materials numerical analysis share a broad method foundation."}
+{"item_id": "reason:9ac482501ed095d7", "faithful": 0, "useful": 2, "withhold_insufficient_evidence": false, "reason": "DFT is directly named, but TCAD is not; the core link remains useful."}
+{"item_id": "reason:858574a69deed1ef", "faithful": 1, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Microscopy is common, but TEM and nonlinear optical microscopy are different methods."}
+{"item_id": "reason:3343bf1bfdf521f7", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Both explicitly mention time-series analysis."}
+{"item_id": "reason:34b0661c92f996b2", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "LLM inference overlaps deep-learning NLP."}
+{"item_id": "reason:85891309f96c9ff4", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Interrupted time-series analysis directly matches the course topic."}
+{"item_id": "reason:74acc0d2ce1cbbc5", "faithful": 1, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Signal processing is explicit in both."}
+{"item_id": "reason:335c270e50f64190", "faithful": 0, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Quantum cryptography is explicit in the lab, but privacy is not stated."}
+{"item_id": "reason:db6c38bbeb81f6bd", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Multi-hop QA aligns with deep-learning NLP."}
+{"item_id": "reason:860d1db5ab21edbf", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Both explicitly mention optical coherence tomography."}
+{"item_id": "reason:1dc2bada1f310ec2", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "A robust controller and modern control theory directly overlap."}
+{"item_id": "reason:01100d0430ca9731", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Lab paper and course week both name optical coherence tomography."}
+{"item_id": "reason:aa86e082c983de63", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "LLM acceleration and deep-learning NLP align directly."}
+{"item_id": "reason:0864440bd827a54b", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "The lab mentions nanofabrication and course supports semiconductor/nanoprocess."}
+{"item_id": "reason:cf367e7c98425587", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Nanofabrication and nanoprocess are explicit in both."}
+{"item_id": "reason:1212f240beddf318", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "SLLM summarization directly matches deep-learning NLP."}
+{"item_id": "reason:49b77904575ac8a7", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "SLLM summarization directly matches deep-learning NLP."}
+{"item_id": "reason:d429ffa1f8d77524", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Computer-vision motion effects relate to medical image processing, but image recognition is not explicit."}
+{"item_id": "reason:41c141ab306b8722", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Electrochemistry and energy electrochemistry directly overlap."}
+{"item_id": "reason:468e0e88ad8a808c", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "CFD prediction explicitly uses time series; course topic matches."}
+{"item_id": "reason:40ef726b05460b8f", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "LLM-guided design relates to deep-learning NLP."}
+{"item_id": "reason:fad25b2a09e6b2da", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Electrochemical materials design and energy electrochemistry directly overlap."}
+{"item_id": "reason:100f8be2ceed8cc0", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Data analysis is named, but database/data mining course content is not supported."}
+{"item_id": "reason:fac562c8a0a5c958", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Computer vision in path planning overlaps medical image processing broadly, but image recognition is not explicit."}
+{"item_id": "reason:16b6ef5f773ab1ea", "faithful": 1, "useful": 1, "withhold_insufficient_evidence": false, "reason": "Numerical simulation and materials numerical analysis share an indirect method foundation."}
+{"item_id": "reason:25e2a69dd392f740", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "Electrocatalysis is explicit in both."}
+{"item_id": "reason:498bdb4bb49bac8d", "faithful": 0, "useful": 1, "withhold_insufficient_evidence": true, "reason": "R programming/data analysis is explicit, but database/data mining is not established."}
+{"item_id": "reason:d8a629898d4ac20d", "faithful": 1, "useful": 2, "withhold_insufficient_evidence": false, "reason": "LLM-guided design directly relates to deep-learning NLP."}

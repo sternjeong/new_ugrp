@@ -1,0 +1,18 @@
+[Unit]
+Description=3분커리 임베딩 워커 (bge-m3, CPU)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/embed-worker
+Environment=HF_HOME=/home/ubuntu/embed-worker/hf
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStart=/home/ubuntu/embed-worker/venv/bin/python worker.py worker_config.json app_profiles.jsonl
+Restart=always
+RestartSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

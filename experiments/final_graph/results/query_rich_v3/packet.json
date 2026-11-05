@@ -1,0 +1,3231 @@
+{
+  "purpose": "method-blind judgment; judge every pair independently",
+  "instructions": "For each query/lab pair, label relevance 0/1/2, violation true/false, insufficient_evidence true/false. Violation means the query's explicitly disliked research topic is substantively studied in intro or representative papers, not a stray word. For ambiguous/positive-only queries violation is false. Do not open query_targets.json or rankings.json while judging. Save JSONL keyed by pair_id with these three fields. If insufficient, still fill other fields but analysis will mark the query-method missing.",
+  "queries": {
+    "q01": {
+      "text": "전고체 배터리 소재를 연구해 보고 싶어요.",
+      "group": "positive_only"
+    },
+    "q02": {
+      "text": "광자를 이용한 양자통신이 궁금합니다.",
+      "group": "positive_only"
+    },
+    "q03": {
+      "text": "로봇 동작 학습을 다루는 연구실을 찾고 싶습니다.",
+      "group": "positive_only"
+    },
+    "q04": {
+      "text": "대형 언어모델의 효율을 높이는 연구를 하고 싶어요.",
+      "group": "positive_only"
+    },
+    "q05": {
+      "text": "반도체 트랜지스터 센서에 관심이 있습니다.",
+      "group": "positive_only"
+    },
+    "q06": {
+      "text": "기억을 담당하는 신경회로가 궁금해요.",
+      "group": "positive_only"
+    },
+    "q07": {
+      "text": "무선 의미통신 연구를 해보고 싶습니다.",
+      "group": "positive_only"
+    },
+    "q08": {
+      "text": "홀로그래픽 현미경으로 세포를 관찰하는 연구가 좋아요.",
+      "group": "positive_only"
+    },
+    "q09": {
+      "text": "메모리 중심 컴퓨터 구조를 공부하고 싶어요.",
+      "group": "positive_only"
+    },
+    "q10": {
+      "text": "햅틱 상호작용 기술을 연구하고 싶습니다.",
+      "group": "positive_only"
+    },
+    "q11": {
+      "text": "레이더 신호처리와 영상화에 관심이 있어요.",
+      "group": "positive_only"
+    },
+    "q12": {
+      "text": "장내 미생물과 면역의 관계를 알고 싶어요.",
+      "group": "positive_only"
+    },
+    "q13": {
+      "text": "리튬 금속 전지의 고체 전해질 연구실을 찾습니다.",
+      "group": "positive_only"
+    },
+    "q14": {
+      "text": "얽힌 광자로 정보를 보내는 연구를 하고 싶어요.",
+      "group": "positive_only"
+    },
+    "q15": {
+      "text": "로봇이 사람의 행동을 학습하는 문제에 관심 있습니다.",
+      "group": "positive_only"
+    },
+    "q16": {
+      "text": "언어모델 경량화 방법이 궁금합니다.",
+      "group": "positive_only"
+    },
+    "q17": {
+      "text": "실리콘 기반 센서 소자를 만들고 싶어요.",
+      "group": "positive_only"
+    },
+    "q18": {
+      "text": "통신 채널에 맞춰 정보를 보내는 방법을 연구하고 싶어요.",
+      "group": "positive_only"
+    },
+    "q19": {
+      "text": "촉각 피드백을 만드는 연구가 재미있습니다.",
+      "group": "positive_only"
+    },
+    "q20": {
+      "text": "SAR 레이더 영상 처리에 관심이 있습니다.",
+      "group": "positive_only"
+    },
+    "q21": {
+      "text": "전고체 배터리는 싫고 로봇 동작 학습을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q22": {
+      "text": "전고체 배터리 말고 로봇 동작 학습에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q23": {
+      "text": "로봇 동작 학습은 싫고 전고체 배터리를 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q24": {
+      "text": "로봇 동작 학습 말고 전고체 배터리에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q25": {
+      "text": "광자 양자통신은 싫고 장내 미생물을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q26": {
+      "text": "광자 양자통신 말고 장내 미생물에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q27": {
+      "text": "장내 미생물은 싫고 광자 양자통신을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q28": {
+      "text": "장내 미생물 말고 광자 양자통신에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q29": {
+      "text": "대형 언어모델 최적화는 싫고 반도체 트랜지스터 센서를 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q30": {
+      "text": "대형 언어모델 최적화 말고 반도체 트랜지스터 센서에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q31": {
+      "text": "반도체 트랜지스터 센서는 싫고 대형 언어모델 최적화를 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q32": {
+      "text": "반도체 트랜지스터 센서 말고 대형 언어모델 최적화에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q33": {
+      "text": "작업 기억 신경회로는 싫고 메모리 중심 컴퓨터 구조를 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q34": {
+      "text": "작업 기억 신경회로 말고 메모리 중심 컴퓨터 구조에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q35": {
+      "text": "메모리 중심 컴퓨터 구조는 싫고 작업 기억 신경회로를 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q36": {
+      "text": "메모리 중심 컴퓨터 구조 말고 작업 기억 신경회로에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q37": {
+      "text": "무선 의미통신은 싫고 햅틱 상호작용을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q38": {
+      "text": "무선 의미통신 말고 햅틱 상호작용에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q39": {
+      "text": "햅틱 상호작용은 싫고 무선 의미통신을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q40": {
+      "text": "햅틱 상호작용 말고 무선 의미통신에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q41": {
+      "text": "홀로그래픽 현미경은 싫고 레이더 신호처리를 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q42": {
+      "text": "홀로그래픽 현미경 말고 레이더 신호처리에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q43": {
+      "text": "레이더 신호처리는 싫고 홀로그래픽 현미경을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q44": {
+      "text": "레이더 신호처리 말고 홀로그래픽 현미경에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q45": {
+      "text": "전고체 배터리는 싫고 광자 양자통신을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q46": {
+      "text": "전고체 배터리 말고 광자 양자통신에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q47": {
+      "text": "장내 미생물은 싫고 로봇 동작 학습을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q48": {
+      "text": "장내 미생물 말고 로봇 동작 학습에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q49": {
+      "text": "반도체 트랜지스터 센서는 싫고 무선 의미통신을 연구하고 싶어요.",
+      "group": "explicit_negative"
+    },
+    "q50": {
+      "text": "반도체 트랜지스터 센서 말고 무선 의미통신에 관심이 있어요.",
+      "group": "explicit_negative"
+    },
+    "q51": {
+      "text": "전고체 배터리도 흥미롭지만 반도체 트랜지스터 센서가 더 끌려요.",
+      "group": "ambiguous"
+    },
+    "q52": {
+      "text": "광자 양자통신은 해봤고 로봇 동작 학습도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous"
+    },
+    "q53": {
+      "text": "대형 언어모델 최적화도 흥미롭지만 작업 기억 신경회로가 더 끌려요.",
+      "group": "ambiguous"
+    },
+    "q54": {
+      "text": "무선 의미통신은 해봤고 레이더 신호처리도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous"
+    },
+    "q55": {
+      "text": "햅틱 상호작용도 흥미롭지만 홀로그래픽 현미경이 더 끌려요.",
+      "group": "ambiguous"
+    },
+    "q56": {
+      "text": "메모리 중심 컴퓨터 구조는 해봤고 대형 언어모델 최적화도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous"
+    },
+    "q57": {
+      "text": "장내 미생물도 흥미롭지만 전고체 배터리가 더 끌려요.",
+      "group": "ambiguous"
+    },
+    "q58": {
+      "text": "로봇 동작 학습은 해봤고 햅틱 상호작용도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous"
+    },
+    "q59": {
+      "text": "반도체 트랜지스터 센서도 흥미롭지만 광자 양자통신이 더 끌려요.",
+      "group": "ambiguous"
+    },
+    "q60": {
+      "text": "작업 기억 신경회로는 해봤고 장내 미생물도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous"
+    }
+  },
+  "labs": {
+    "lab:00a146f5c5267ed6caeb590edaa47fac": {
+      "display_name": "나노소자 및 공정 이정수 교수",
+      "research_intro_first_1200": "NDPL 나노 소자 및 공정 연구실\nN\nano\nD\nevices and\nP\nrocessing\nL\naboratory\nNotice\nNDPL\n연구실\n[대학원생 및 학부 연구참여학생 모집]\n반도체 소자 및 공정에 관심있는 대학원생을 모집합니다.\n문의:\n이정수 교수님\n(\nljs6951@postech.ac.kr\n)\nNDPL\n도정현 통합\n과정\n(\ntoaru124@postech.ac.kr\n)\nND\nPL\nResearch Areas\nNDPL\nSemicondutor Process\ning and\nFET Sensors\nNano Device Modeling\nSiC Contact\nNDPL photo",
+      "representative_papers": [
+        {
+          "title": "Decomposition of Vertical and Lateral Charge Loss in Long-term Retention of 3-D NAND Flash Memory",
+          "abstract_first_400": "For long-term retention characteristics of 3-D NAND flash memory, a method is proposed to decompose the measured$\\boldsymbol{V_{T}}$shift into several charge loss mechanisms, including lateral migration (LM), band-to-trap tunneling (BT), trap-to-band tunneling (TB), and thermal emission (TE). Based on the$\\Delta \\boldsymbol{V_{T}}$of the E-E-E pattern (EEE) at room temperature, the LM mechanisms o"
+        },
+        {
+          "title": "Highly Sensitive Detection of Urea Using Si Electrolyte-Gated Transistor with Low Power Consumption",
+          "abstract_first_400": "We experimentally demonstrate Si-based electrolyte-gated transistors (EGTs) for detecting urea. The top-down-fabricated device exhibited excellent intrinsic characteristics, including a low subthreshold swing (SS) (~80 mV/dec) and a high on/off current ratio (~107). The sensitivity, which varied depending on the operation regime, was analyzed with the urea concentrations ranging from 0.1 to 316 mM"
+        },
+        {
+          "title": "Improved Long-Term Responses of Au-Decorated Si Nanowire FET Sensor for NH3 Detection",
+          "abstract_first_400": "Au nanoparticle (AuNP)-decorated silicon nanowire (SiNW) field-effect transistors (FETs) were made using a top-down technique to enhance the sensing responses and long-term reliability for the detection of ammonia (NH3). The as-fabricated, diluted hydrofluoric acid (dHF)-treated, and AuNP-decorated SiNW FETs were prepared and characterized at room temperature. These SiNW FETs show better sensitivi"
+        },
+        {
+          "title": "An Ultrasensitive Silicon-Based Electrolyte-Gated Transistor for the Detection of Peanut Allergens",
+          "abstract_first_400": "The highly sensitive detection of peanut allergens (PAs) using silicon-based electrolyte-gated transistors (Si-EGTs) was demonstrated. The Si-EGT was made using a top-down technique. The fabricated Si-EGT showed excellent intrinsic electrical characteristics, including a low threshold voltage of 0.7 V, low subthreshold swing of <70 mV/dec, and low gate leakage of <10 pA. Surface functionalization "
+        },
+        {
+          "title": "Decomposition of Charge Loss Mechanisms in 3-D Nand Flash Memory: Impact of Cell Dimension via High-Temperature Long-Term Retention Characteristics",
+          "abstract_first_400": "Decompositions of charge loss mechanisms in 3-D NAND flash memory with two different cell structures have been performed using high-temperature retention characteristics. It calculates emission rates of trap-to-band tunneling (TB) and band-to-trap tunneling (BT) to determine the dominant tunneling mechanisms. The lateral migration (LM) component is separated into the LM of holes (LMH) and electron"
+        }
+      ]
+    },
+    "lab:17010ed4b4f3cc2bbec3c6d2c5252945": {
+      "display_name": "극한 환경 로봇 유선철 교수",
+      "research_intro_first_1200": "Welcome Message | POSTECH HERO Lab\n본문 바로가기\nAbout\n홈으로\nAbout\nAbout\nHEROes\nResearch Area\nProject\nPublication\nFacilities\nBlog\nWelcome Message\nWelcome Message\nContact\nWelcome Message\nWelcome to POSTECH HERO Lab, since 2008!\nIn Hazardous and Extreme Environment Robotics (HERO) Lab of POSTECH, we are dedicated to unveiling the extremene environments by utilizing field robotics, AI, and perception.\n극한환경로봇연구실에서는 필드 로보틱스, 인공지능, 센싱 기술 등을 통해 극한환경에서 사람을 대체할 수 있는 로봇 기술에 대해서 연구합니다.\nWe are actively seeking passionate individuals interested in field robotics, underwater sensing & perception, and AI. If you're interested in joining our team, please email\nProf. Son-Cheol Yu (유선철)\nat\nsncyu@postech.ac.kr\n. Please kindly attach your CV and include a summary of your research interests.\nWe look forward to potentially collaborating with you on exciting scientific endeavors!\n페이지 프린트 하기\n페이지 URL 복사 하기\n검색",
+      "representative_papers": [
+        {
+          "title": "Development of Bioinspired Multimodal Underwater Robot “HERO-BLUE” for Walking, Swimming, and Crawling",
+          "abstract_first_400": "This study proposes a novel hybrid underwater robot platform, HERO-BLUE, that integrates swimming and legged motions. HERO-BLUE is equipped with a multimodal fin comprising numerous passive joints that can act as both a swimming fin and a walking limb. This multimodal fin is integrated with a salamander-like spine and soft undulating fin in a single robot system to enable three representative loco"
+        },
+        {
+          "title": "AUV-Based Underwater 3-D Point Cloud Generation Using Acoustic Lens-Based Multibeam Sonar",
+          "abstract_first_400": "This study proposes a 3-D seafloor scanning method using sonar images obtained by an acoustic lens-based multibeam sonar (ALMS). ALMS is a forward-looking sonar and is generally used to implement real-time acoustic vision for autonomous underwater vehicles (AUVs). ALMS is originally not a 3-D sonar, and elevation information is eliminated when the 3-D world is mapped to the 2-D sonar image. The pr"
+        },
+        {
+          "title": "Realistic Sonar Image Simulation Using Deep Learning for Underwater Object Detection",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Imaging sonar based real-time underwater object detection utilizing AdaBoost method",
+          "abstract_first_400": "We propose a real-time underwater object detection algorithm using forward-looking imaging sonar. Considering the characteristics of sonar image, the Haar-like feature is used to construct each weak classifier. We construct a strong classifier by combining several weak classifiers. An adaptive Boosting (AdaBoost) algorithm is utilized to determine coefficients of each weak classifier and weights o"
+        },
+        {
+          "title": "Development of a flap-type mooring-less wave energy harvesting system for sensor buoy",
+          "abstract_first_400": ""
+        }
+      ]
+    },
+    "lab:19b352c9ef06346d69d36e9456cdff0d": {
+      "display_name": "미래유체 및 유동제어 연구실 이상준 교수",
+      "research_intro_first_1200": "미래유체 및 유동제어 연구실\nMember\nProfessor\nResearch Professor\nPost Doctor\nResearcher\nPh.D Candidate\nM.S. Candidate\nVisitor\nAlumni\nLab.Staff\nResearch Professor\n\n---\n\n미래유체 및 유동제어 연구실\nMember\nProfessor\nResearch Professor\nPost Doctor\nResearcher\nPh.D. Candidate\nM.S. Candidate\nVisitor\nAlumni\nLab.Staff\nPostdoctoral Researcher\nHossain Muhammad Nobi\nDegree\nB.S. University of Dhaka, Chemistry\nM.S. University of Dhaka, Inorganic chemistry\nPh.D. Sangji University, Environmental engineering\nResearch Topic\nDrag reduction, Condensation\nE-mail\nhossain@postech.ac.kr\nTel\n+82-54-279-5924\nXiaotong Wu\nDegree\nB.S. Hubei University of Automotive Technology, Mechanical Engineering\nM.S. Hubei University of Automotive Technology, Mechanical Engineering\nPh.D. Nanchang University, Mechanical Engineering\nResearch Topic\nFluid mechanics, Drag reduction, Biological lubrication\nE-mail\nwuxt29@postech.ac.kr\nTel\n+82-54-279-5924\nSaravanan Nagappan\nDegree\nB.Sc. University of Madras, Chemistry\nM.Sc. Thiruvalluvar University, Chemistry\nM.Tech. Anna University, Polymer Science and Engineering\nPh.D. Pusan National University, Polymer Science and Engineering\nResearch Topic\nElectrothermal/photothermal desalination, Organic-inorganic na",
+      "representative_papers": [
+        {
+          "title": "3D thermoresponsive hydrogel with enhanced water uptake and active evaporation for effective interfacial solar steam generation",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Effective method for drug injection into subcutaneous tissue",
+          "abstract_first_400": "Subcutaneous injection of drug solution is widely used for continuous and low dose drug treatment. Although the drug injections have been administered for a long time, challenges in the design of injection devices are still needed to minimize the variability, pain, or skin disorder by repeated drug injections. To avoid these adverse effects, systematic study on the effects of injection conditions "
+        },
+        {
+          "title": "Digital in-line holographic microscopy for label-free identification and tracking of biological cells",
+          "abstract_first_400": "Digital in-line holographic microscopy (DIHM) is a non-invasive, real-time, label-free technique that captures three-dimensional (3D) positional, orientational, and morphological information from digital holographic images of living biological cells. Unlike conventional microscopies, the DIHM technique enables precise measurements of dynamic behaviors exhibited by living cells within a 3D volume. "
+        },
+        {
+          "title": "Nearly Perfect Durable Superhydrophobic Surfaces Fabricated by a Simple One-Step Plasma Treatment",
+          "abstract_first_400": "Fabrication of superhydrophobic surfaces is an area of great interest because it can be applicable to various engineering fields. A simple, safe and inexpensive fabrication process is required to fabricate applicable superhydrophobic surfaces. In this study, we developed a facile fabrication method of nearly perfect superhydrophobic surfaces through plasma treatment with argon and oxygen gases. A "
+        },
+        {
+          "title": "Single-shot reconstruction of three-dimensional morphology of biological cells in digital holographic microscopy using a physics-driven neural network",
+          "abstract_first_400": "Recent advances in deep learning-based image reconstruction techniques have led to significant progress in phase retrieval using digital in-line holographic microscopy (DIHM). However, existing phase retrieval methods have technical limitations in 3D morphology reconstruction from single-shot holograms of biological cells. In this study, we propose a deep learning model, named MorpHoloNet, for sin"
+        }
+      ]
+    },
+    "lab:1ae444a2f44d62ba86384b57194c85ef": {
+      "display_name": "바이러스 및 분자유전공학 연구실 김성철 교수",
+      "research_intro_first_1200": "Research – The Lab: Virus and Molecular Genome Engineering\n컨텐츠로 건너뛰기\nResearch\nCRISPR-Cas Biology\nCRISPR adaptation\nRNA-related CRISPR systems\nNovel CRISPR technologies\nCRISPR-Cas is the prokaryotic adaptive immune system that plays a crucial role in protecting bacteria and archaea from invading viruses and plasmids. This fascinating system not only serves as a defense mechanism but also offers unique insights into the fundamental mechanisms of genetic editing. We focus on the intricate workings of CRISPR-Cas systems, exploring how they recognize and eliminate foreign genetic material while retaining memory of past infections. Additionally, we investigate novel applications of this technology, including its transformative potential in medicine, agriculture, and environmental science, which could revolutionize the way we approach genetic modifications and therapeutics.\nCRISPR-Cas는 원핵생물의 후천성 면역 체계입니다. 이 시스템은 특정 박테리아와 고세균이 외부의 바이러스로부터 자신을 방어하기 위해 진화해 온 독특한 메커니즘을 포함하고 있습니다. 저희 연구 그룹은 다양한 종류의 CRISPR-Cas 체계들의 기본적인 원리 규명에 기반한 응용 연구에 초점을 맞추고 있습니다. 특히, 우리는 이 시스템이 유전자 편집 기술에 어떻게 활용될 수 있는지를 탐구하고 있으며, 그 과정에서 생물학적 이해를 넓히고 보다 효과적이고 안전한 유전자 조작 방법을 개발하는 것을 목표로 하고 있습니다. 이를 통해 농업, 의학 및 생명공학 분야에서 새로운 ",
+      "representative_papers": [
+        {
+          "title": "LncRNA-miRNA-mRNA regulatory networks in skin aging and therapeutic potentials",
+          "abstract_first_400": "Skin aging is a complex process influenced by intrinsic and extrinsic factors. Although dermatology offers advanced interventions, molecular mechanisms in skin aging remain limited. Competing endogenous RNAs (ceRNAs), a subset of coding or non-coding RNAs, regulate gene expression through miRNA competition. Several ceRNA networks investigated up to now offer insights into skin aging and wound heal"
+        },
+        {
+          "title": "Fluorometric Viral miRNA Nanosensor for Diagnosis of Productive (Lytic) Human Cytomegalovirus Infection in Living Cells",
+          "abstract_first_400": "A human cytomegalovirus (HCMV) causes a persistent asymptomatic infection in healthy individuals and possesses unexpected dangers to newborn babies, immunocompromised people, and organ transplant recipients because of stealth transmission. Thus, an early and accurate diagnosis of HCMV infection is crucial for prevention of unexpected transmission and progression of the severe diseases. The standar"
+        },
+        {
+          "title": "Differential microRNA profiles in elderly males with seborrheic dermatitis",
+          "abstract_first_400": "Seborrheic dermatitis (SD) is one of the most common skin diseases characterized by inflammatory symptoms and cell proliferation, which has increased incidence in patients older than 50 years. Although the roles of microRNAs (miRNAs) have been investigated in several diseases, miRNA profiles of patients with SD remain unknown. This study aimed to identify differentially expressed miRNAs (DEMs) in "
+        },
+        {
+          "title": "Tetrameric architecture of an active phenol-bound form of the AAA+ transcriptional regulator DmpR",
+          "abstract_first_400": "Abstract The Pseudomonas putida phenol-responsive regulator DmpR is a bacterial enhancer binding protein (bEBP) from the AAA+ ATPase family. Even though it was discovered more than two decades ago and has been widely used for aromatic hydrocarbon sensing, the activation mechanism of DmpR has remained elusive. Here, we show that phenol-bound DmpR forms a tetramer composed of two head-to-head dimers"
+        },
+        {
+          "title": "Harnessing CRISPR-Cas adaptation for RNA recording and beyond",
+          "abstract_first_400": "Prokaryotes encode clustered regularly interspaced short palindromic repeat (CRISPR) arrays and CRISPR-associated (Cas) genes as an adaptive immune machinery.CRISPR-Cas systems effectively protect hosts from the invasion of foreign enemies, such as bacteriophages and plasmids.During a process called 'adaptation', non-self-nucleic acid fragments are acquired as spacers between repeats in the host C"
+        }
+      ]
+    },
+    "lab:255034de0b267f94daea8fa61dbe1bef": {
+      "display_name": "스마트소프트 재료 연구실 김연수 교수",
+      "research_intro_first_1200": "Welcome Message | Smart Soft Materials Lab.\n본문 바로가기\nNow Recruiting: Undergraduate, Master, Ph.D., and Integrated Program Students Interested in SSM Lab.\n오늘 하루 더 이상 보지 않기\n배너 닫기\nAbout\n홈으로\nAbout\nAbout\nResearch\nMember\nPublication\nFacilities\nBoard\nWelcome Message\nWelcome Message\nContact\nWelcome Message\nWe are hiring!\nThe\nSmart Soft Materials Lab\nfocuses on the study of hydrogels and the underlying polymers to develop novel functional materials. By strategically designing the types, compositions, and structures of polymers, the lab aims to create intelligent soft materials for various applications, including bio-inspired soft robots, energy devices, and drug delivery systems. The lab leverages the ability of polymers to undergo changes in response to external stimuli, utilizing these transformations in volume and shape to innovate efficient and functional materials.\n스마트 소프트 재료 연구실(Smart Soft Materials Lab.)은 하이드로젤과 그에 기초한 고분자를 연구하여 새로운 기능성 재료를 개발하는 데 중점을 두고 있습니다. 고분자의 종류, 구성, 구조 등을 전략적으로 설계하여 지능형 연성 재료를 개발하고, 이를 생체 모방형 소프트 로봇, 에너지 소자, 약물 전달체 등 다양한 분야에 응용하고자 합니다. 외부 자극에 따른 고분자 사슬의 변화와 젤의 부피 및 형태 변화를 활용하여 효율적이고 혁신적인 재료를 연구하고 있습니다. 자세한 내용은\nResearch 탭\n이나 교수님께서 출연하신\nYoutube 링크\n를 클릭하시기 바랍니다.\nW",
+      "representative_papers": [
+        {
+          "title": "Nanocomposite hydrogel actuators hybridized with various dimensional nanomaterials for stimuli responsiveness enhancement",
+          "abstract_first_400": "Hydrogel actuators, that convert external energy, such as pH, light, heat, magnetic field, and ion strength, into mechanical motion, have been utilized in sensors, artificial muscles, and soft robotics. For a practicality of the hydrogel actuators in a wide range of fields, an establishment of robust mechanical properties and rapid response are required. Several solutions have been proposed, for e"
+        },
+        {
+          "title": "Electroconductive, Adhesive, Non‐Swelling, and Viscoelastic Hydrogels for Bioelectronics (Adv. Mater. 4/2023)",
+          "abstract_first_400": "Extraneural Electrodes In article number 2203431, Youn Soo Kim and co-workers introduce an ideal conductive hydrogel for tissue-like extraneural electrodes with high conformability to improve the tissue–electronic interface. This hydrogel exhibits excellent adhesion, biocompatibility, non-swelling, and electrical conductivity in water. The hydrogel is implanted into the sciatic nerve of rats, and "
+        },
+        {
+          "title": "Layering Charged Polymers Enable Highly Integrated High‐Capacity Battery Anodes",
+          "abstract_first_400": "Abstract High‐capacity anode materials are promising candidates for increasing the energy density of lithium (Li)‐ion batteries due to their high theoretical capacities. However, a rapid capacity fading due to the huge volume changes during charge‐discharge cycles limits practical applications. Herein, a layering‐charged polymeric binder is introduced that can effectively integrate high‐capacity a"
+        },
+        {
+          "title": "Electroconductive, Adhesive, Non‐Swelling, and Viscoelastic Hydrogels for Bioelectronics",
+          "abstract_first_400": "As a new class of materials, implantable flexible electrical conductors have recently been developed and applied to bioelectronics. An ideal electrical conductor requires high conductivity, tissue-like mechanical properties, low toxicity, reliable adhesion to biological tissues, and the ability to maintain its shape in wet physiological environments. Despite significant advances, electrical conduc"
+        },
+        {
+          "title": "Promoting Homogeneous Zinc‐Ion Transfer Through Preferential Ion Coordination Effect in Gel Electrolyte for Stable Zinc Metal Batteries",
+          "abstract_first_400": "Abstract Aqueous zinc metal batteries (AZMBs) are emerging energy storage systems that are poised to replace conventional lithium‐ion batteries owing to their intrinsic safety, facile manufacturing process, economic benefits, and superior ionic conductivity. However, the issues of inferior anode reversibility and dendritic plating during operation remain challenging for the practical use of AZMBs."
+        }
+      ]
+    },
+    "lab:2ac0c0282dded9689b48c236808ba193": {
+      "display_name": "양자소자 측정 실험실 이길호 교수",
+      "research_intro_first_1200": "Research interest | Quantum Nano-electronics Lab in POSTECH\nResearch\n다른메뉴보기\nResearch Interest\nGraphene-Superconductor hybrid quantum devices\nDirac Fermionic Optics\nTopological Superconductivity\nTopological Materials\nOverview\n본 연구는 쉽게 말해, 다양한 물질을 '쪼개고', '쌓고', '뒤집고', '깎고', '다듬고', '붙여서' 기초연구 및 응용연구를 할 수 있는 \"나노소자 제작\"과, 온도로 낮추어 (10 mK) 열적 잡음/들뜸을 없앤 상태에서 흥미로운 양자현상을 전기적 방법으로 관측하는 \"극저온 양자수송측정\" 두 파트로 나뉜다. 본 연구실은 이 두 파트를 모두 할 수 있는 충분한 실험장비를 갖추고 있으며, 그 외의 신물질 합성, Scanning probe 측정, 광학특성 측정등에 관한 연구는 국내외 경쟁력 있는 연구실과 공동으로 해 나갈 계획이다.\n그래핀 (graphene)\n2004년 처음발견된 그래핀(\n2010 노벨물리학상\n)은 밴드구조의 에너지(E)와 모멘텀(p)이 특이하게도 선형적인 관계를 가지며 (보통 물질의 밴드구조에서는 E가 p\n2\n에 비례, E=p\n2\n/2m) 상대론적 양자역학 (Relativistic quantum mechanics)을 고체물리계에서 연구할 수 있다는 가능성으로 기초물리학 연구자들의 비상한 관심을 끌어왔다. 이 외에도 원자두께로 얇고, 잘 구부러지고, 광학적으로 투명하고, 기계적으로 강하며, 전기가 잘통하고, 게이트를 통한 전기특성 조절이 용이하단 장점도 가지고 있어 다양한 나노소자 응용연구도 활발히 진행되고 있다. 대학원 소식지(현 POKAS ON)에 실렸던 초전도 양자컴퓨터에 관한 제 글을 참고바랍니다 (\n링크\n). 2013년도 콜롬비아 대학교 연구팀(김필립 교수)이 그래핀소자를 획기적으로 깨끗하게 만드는 기술의 개발한 것을 계기로, 이론적으로만 예측되었던 상대론적 현상들을 최근에서야 실험적으로 제대로 볼 수 있는 시대가 서서히 열리고 있다. 본 연구실에서는 이러한 그래핀에서만 볼 수 있는 상대론적 전자광학현상에 대해 탐구할 것이다. 또한 거시적 양자현상을 보이는 \"초전도체\"를 그래핀에 붙임으로써\n상대론적 양자현상과 거시적 양자현상이 합쳐졌을 때\n나타날 수 있는 현상에 대한 매우 흥미로운 실험을 계획",
+      "representative_papers": [
+        {
+          "title": "Spin–Orbit Torque Switching in an All‐Van der Waals Heterostructure",
+          "abstract_first_400": "Abstract Current‐induced control of magnetization in ferromagnets using spin–orbit torque (SOT) has drawn attention as a new mechanism for fast and energy efficient magnetic memory devices. Energy‐efficient spintronic devices require a spin‐current source with a large SOT efficiency (ξ) and electrical conductivity (σ), and an efficient spin injection across a transparent interface. Herein, single "
+        },
+        {
+          "title": "Steady Floquet–Andreev states in graphene Josephson junctions",
+          "abstract_first_400": "Abstract Engineering quantum states through light-matter interaction has created a new paradigm in condensed matter physics. A representative example is the Floquet-Bloch state, which is generated by time-periodically driving the Bloch wavefunctions in crystals. Previous attempts to realise such states in condensed matter systems have been limited by the transient nature of the Floquet states prod"
+        },
+        {
+          "title": "Highly Efficient Room‐Temperature Spin‐Orbit‐Torque Switching in a Van der Waals Heterostructure of Topological Insulator and Ferromagnet",
+          "abstract_first_400": "Abstract All‐Van der Waals (vdW)‐material‐based heterostructures with atomically sharp interfaces offer a versatile platform for high‐performing spintronic functionalities at room temperature. One of the key components is vdW topological insulators (TIs), which can produce a strong spin‐orbit‐torque (SOT) through the spin‐momentum locking of their topological surface state (TSS). However, the rela"
+        },
+        {
+          "title": "Proximity coupling in superconductor-graphene heterostructures",
+          "abstract_first_400": "This review discusses the electronic properties and the prospective research directions of superconductor-graphene heterostructures. The basic electronic properties of graphene are introduced to highlight the unique possibility of combining two seemingly unrelated physics, superconductivity and relativity. We then focus on graphene-based Josephson junctions, one of the most versatile superconducti"
+        },
+        {
+          "title": "Thermal detection of single photons using Dirac fermions",
+          "abstract_first_400": "Abstract Detecting single photons is a crucial process in quantum science, quantum networking, biology, and advanced imaging. To detect the small quantum of energy carried in a photon, conventional mechanisms rely on energy excitation across either a semiconductor bandgap or superconducting gap that hinders their applications to low-energy photons. Here, we detect single near-infrared photons usin"
+        }
+      ]
+    },
+    "lab:2cd5dbaa3e7b7003ea45552abfd54cc6": {
+      "display_name": "친환경생체모사재료연구실 황동수 교수",
+      "research_intro_first_1200": "Research area | 친환경 생체모사 재료 연구실\n본문 바로가기\n천연고분자를 화학적 처리해서 전극재료 연구를 할 대학원생을 모집합니다.\n오늘 하루 더 이상 보지 않기\n배너 닫기\nResearch\n홈으로\nResearch\nMember\nResearch\nPublication\nBoard\nAbout\nResearch area\nResearch area\nProject\nResearch area\nBiological Materials & Biomimetic materials\nBiofouling & Antifouling\nEco-friendly & Transient materials\nBiological Materials & Biomimetic materials\nJoining biology and Material Science\nBiological materials are natural materials that are produced by living organisms.  Biological materials have developed to fit the purpose of living organisms and optimized for numerous years.\nWet-environment for biological materials has much common with the human body. Both systems are naturally saline, experience variation of control over fluid flow, fouling by flowing via macromolecules, and degradation of organics via cellular-level activities. These are just a few examples of matching biological and mechanical events both present in the human body and the wet environment. Understanding physics and chemistry of biomaterials in the wet-environments will provide the scientists useful insights for designing biomaterials for biomedical applications. Isolation and characterization of the loa",
+      "representative_papers": [
+        {
+          "title": "Hydrophobicity of arginine leads to reentrant liquid-liquid phase separation behaviors of arginine-rich proteins",
+          "abstract_first_400": "Intrinsically disordered proteins rich in cationic amino acid groups can undergo Liquid-Liquid Phase Separation (LLPS) in the presence of charge-balancing anionic counterparts. Arginine and Lysine are the two most prevalent cationic amino acids in proteins that undergo LLPS, with arginine-rich proteins observed to undergo LLPS more readily than lysine-rich proteins, a feature commonly attributed t"
+        },
+        {
+          "title": "Nanochitin and Nanochitosan: Chitin Nanostructure Engineering with Multiscale Properties for Biomedical and Environmental Applications",
+          "abstract_first_400": "Nanochitin and nanochitosan (with random-copolymer-based multiscale architectures of glucosamine and N-acetylglucosamine units) have recently attracted immense attention for the development of green, sustainable, and advanced functional materials. Nanochitin and nanochitosan are multiscale materials from small oligomers, rod-shaped nanocrystals, longer nanofibers, to hierarchical assemblies of nan"
+        },
+        {
+          "title": "Tunichrome-inspired pyrogallol functionalized chitosan for tissue adhesion and hemostasis",
+          "abstract_first_400": "The nature-inspired fabrication of tissue adhesive and hemostatic hydrogels holds great potential for restoring damaged internal tissue in regenerative medicine. However, feeble adhesion, multifaceted systems, prohibitive costs, and toxicity impede their applications in the medical field. In order to solve this problem, we fabricated chitosan-based wet tissue adhesive with hemostatic functions ins"
+        },
+        {
+          "title": "Dehydration entropy drives liquid-liquid phase separation by molecular crowding",
+          "abstract_first_400": "Complex coacervation driven liquid-liquid phase separation (LLPS) of biopolymers has been attracting attention as a novel phase in living cells. Studies of LLPS in this context are typically of proteins harboring chemical and structural complexity, leaving unclear which properties are fundamental to complex coacervation versus protein-specific. This study focuses on the role of polyethylene glycol"
+        },
+        {
+          "title": "Salt Triggers the Simple Coacervation of an Underwater Adhesive When Cations Meet Aromatic π Electrons in Seawater",
+          "abstract_first_400": "Adhesive systems in many marine organisms are postulated to form complex coacervates (liquid-liquid phase separation) through a process involving oppositely charged polyelectrolytes. Despite this ubiquitous speculation, most well-characterized mussel adhesive proteins are cationic and polyphenolic, and the pursuit of the negatively charged proteins required for bulk complex coacervation formation "
+        }
+      ]
+    },
+    "lab:3b3c5fe1e3c1a3aba26ffd66eb364790": {
+      "display_name": "분자인지구조생물학 연구실 김민성 교수",
+      "research_intro_first_1200": "Welcome Message | 분자인지구조생물학 연구실\n본문 바로가기\nAbout\n홈으로\nAbout\nAbout\nResearch\nMember\nPublication\nWelcome Message\nWelcome Message\nContact\nWelcome Message\n우리 실험실에서는 서로 다른 단백질간, 단백질과 기질간 또는 단백질과 DNA간의 상호작용을 생화학적, 구조생물학적 방법을 통해 밝힘으로써, 생체내에서 일어나는 일련의 신호전달 활성화 과정을 분자 수준에서 이해 하고자 합니다. 이에 대한 정보를 바탕으로 각종 질병에서 일어나는 비이상적 상호작용을 설명하고, 이를 조절할수 있는 방법 개발하고자 합니다.\n현재 진행 하고자 하는 연구 내용으로는\n- 박테리아에서 DNA 손상 치료 단백질간의 상호 작용과 활성화 메커니즘 연구\n- 식물에서 면역 수용체와 병원균 effector 단백질 간의 상호작용 연구\n- 세포내 PRR이 활성화 이후 면역 항상성에 끼치는 영향 연구 등을 진행하고자 합니다.\n이에 대해서 학생들이 참여 할수 있는 실험 내용으로는\n- 유전자 클론닝 및 발현 벡터 최적화\n- E. coli 와 Mammalian protein expression system을 이용한 단백질 발현 및 정제\n- Co-ip를 이용한 단백질간의 상호작용 분석, EMSA 등을 수행할 예정입니다.\n페이지 프린트 하기\n페이지 URL 복사 하기\n검색",
+      "representative_papers": [
+        {
+          "title": "Structural basis of DNA binding by the NAC transcription factor ORE1, a master regulator of plant senescence",
+          "abstract_first_400": "Plants use sophisticated mechanisms of gene expression to control senescence in response to environmental stress or aging. ORE1 (Arabidopsis thaliana NAC092) is a master regulator of senescence that belongs to the plant-specific NAC transcription factor protein family. ORE1 has been reported to bind to multiple DNA targets to orchestrate leaf senescence, yet the mechanistic basis for recognition o"
+        },
+        {
+          "title": "Ptr1 and ZAR1 immune receptors confer overlapping and distinct bacterial pathogen effector specificities",
+          "abstract_first_400": "Some nucleotide-binding and leucine-rich repeat receptors (NLRs) indirectly detect pathogen effectors by monitoring their host targets. In Arabidopsis thaliana, RIN4 is targeted by multiple sequence-unrelated effectors and activates immune responses mediated by RPM1 and RPS2. These effectors trigger cell death in Nicotiana benthamiana, but the corresponding NLRs have yet not been identified. To id"
+        },
+        {
+          "title": "Cracking the DNA Code for V(D)J Recombination",
+          "abstract_first_400": "To initiate V(D)J recombination for generating the adaptive immune response of vertebrates, RAG1/2 recombinase cleaves DNA at a pair of recombination signal sequences, the 12- and 23-RSS. We have determined crystal and cryo-EM structures of RAG1/2 with DNA in the pre-reaction and hairpin-forming complexes up to 2.75 Å resolution. Both protein and DNA exhibit structural plasticity and undergo drama"
+        },
+        {
+          "title": "Structure of HIV-1 reverse transcriptase cleaving RNA in an RNA/DNA hybrid",
+          "abstract_first_400": "HIV-1 reverse transcriptase (RT) contains both DNA polymerase and RNase H activities to convert the viral genomic RNA to dsDNA in infected host cells. Here we report the 2.65-Å resolution structure of HIV-1 RT engaging in cleaving RNA in an RNA/DNA hybrid. A preferred substrate sequence is absolutely required to enable the RNA/DNA hybrid to adopt the distorted conformation needed to interact prope"
+        },
+        {
+          "title": "Developing a hybrid carbonic anhydrase with exceptional high temperature and alkaline environments resistance for efficient CO2 capture from air",
+          "abstract_first_400": "Reducing atmospheric CO 2 levels to combat global warming is a pressing concern today. Numerous methods have been employed to capture CO 2 from flue gases . One particularly promising approach is the use of carbonic anhydrases (CAs) as biocatalysts for the rapid conversion of CO 2 to H 2 CO 3 . However, the widespread application of CAs for CO 2 capture has been hampered by their inherent instabil"
+        }
+      ]
+    },
+    "lab:3c97d90740df38121b37c4fb53a24966": {
+      "display_name": "확률시스템연구실 고영명 교수",
+      "research_intro_first_1200": "연구 분야 | LST Lab. · Stochastic Systems Lab.\n본문으로 이동 / Skip to content\nHome\nResearch\nResearch\n데이터를 넘어,\n시스템을 이해하는 학습.\n데이터를 잘 학습하는 것만으로 충분할까요? LST Lab.은 확률적 구조, 지식의 관계, 산업 현장의 제약을 함께 고려하는 연구를 지향합니다.\n01\nMFM & MatFM\n제조·소재\n파운데이션 모델\n제조 공정과 소재·화합물 데이터를 학습하고, 다양한 현장과 과제에 적응하는 모델을 연구합니다.\nMultimodal\nGeneralization\nSpecialization\n연구 자세히 보기\n02\nPersonalization & Enterprise Context\nGraph Ontology\n개인·아이템·문서·업무의 관계를 구조화하여 개인화 추천과 기업 문서의 맥락 이해를 연구합니다.\nKnowledge Graph\nOntology\nContext\n연구 자세히 보기\n03\nOperational Dynamics & Learning\nQueueing-Informed\nMachine Learning\n대기이론에서 얻은 시스템의 동적 구조를 학습에 반영하여, 관측이 부족한 운영시스템을 이해합니다.\nQueueing Theory\nFluid Models\nML\n연구 자세히 보기\n세 연구축은 각자의 연구 문제를 발전시키며, 장기적으로 데이터 표현·지식 맥락·운영 동역학의 연결을 지향합니다. 아래 구조도는 연구 개요이며, 완성된 단일 통합 모델을 의미하지 않습니다.\nThe mathematical foundation\n새로운 AI를 뒷받침하는 수학적 기반.\n확률시스템 연구는 새로운 AI 연구와 병행하는 연구실의 핵심 축입니다.\n01 / STOCHASTIC SYSTEMS\n대기이론과 확률과정\n시간에 따라 변하는 대기시스템, 유체·확산 근사, 시스템 성능 분석을 연구합니다.\n02 / RELIABILITY\n신뢰성과 유지보수\n다수 구성요소로 이루어진 시스템의 열화, 고장, 유지보수 의사결정을 연구합니다.\n03 / DECISIONS UNDER UNCERTAINTY\n시뮬레이션과 최적화\n입력 불확실성을 고려하는 시뮬레이션과 강건한 의사결정 방법을 연구합니다.\nPresentations\n연구를 나누는 자리.\n학술대회 발표와 초청 강연의 제목·저자·행사 기록을 살펴보세요.\n학술 발표 살펴보기\n관련 기록 보기\nComputing infrastructure\n연구 아이디어를,\n실제 실",
+      "representative_papers": [
+        {
+          "title": "Reliability evaluation of circular k-out-of-n: G balanced systems through minimal path sets",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Constrained Density-Based Spatial Clustering of Applications with Noise (DBSCAN) using hyperparameter optimization",
+          "abstract_first_400": "This article proposes a hyperparameter optimization method for density-based spatial clustering of applications with noise (DBSCAN) with constraints, termed HC-DBSCAN. While DBSCAN is effective at creating non-convex clusters, it cannot limit the number of clusters. This limitation is difficult to address with simple adjustments or heuristic methods . We approach constrained DBSCAN as an optimizat"
+        },
+        {
+          "title": "Short-term electric load forecasting for buildings using logistic mixture vector autoregressive model with curve registration",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Economic Design and Maintenance of a Circular k -Out-of- n : G Balanced System With Load-Sharing Units",
+          "abstract_first_400": "This article proposes a system design optimization for a circular k-out-of-n: G balanced system with equal load-sharing units. The system consists of n identical units whose failure times are assumed to follow an exponential distribution, and it is subject to an equally shared load among the working units. The load-sharing relationship between the amount of load and the failure rates of the workin"
+        },
+        {
+          "title": "Queueing management for reducing the overlaps of customers in service systems",
+          "abstract_first_400": ""
+        }
+      ]
+    },
+    "lab:48ab3d77da069de620678d533d334880": {
+      "display_name": "전자·원자구조 이미징 해석 연구실 최시영 교수",
+      "research_intro_first_1200": "포항공과대학교 AEFI 연구실\n본문 바로가기\n주메뉴 바로가기\nHOME\nCONTACT\nMembers\nProfessor\nMembers\nAlumni\nResearch\nFunctional Oxides\nTwo-dimensional Materials\nBattery Materials\nNew Analytical Techniques\nFacilities\nFacilities\nAchievements\nPublications\nPatents\nAwards\nGallery\nGallery\nContact Us\nContact Us\nADVANCED ELECTRON MICROSCOPY\n& FUNCTIONAL IMAGING LABORATORY\nRESEARCH\nFunctional Oxides\nTwo-dimensional Materials\nBattery Materials\nNew Analytical Techniques\n77, Cheongam-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do, Republic of Korea 37673\nCopyright © Advanced Electron Microscopy & Functional Imaging Laboratory. All Rights Reserved.\nTel. +82-54-279-2161 Fax. +82-54-279-5874\nDepartment of Materials Science and Engineering, POSTECH\nFAMILY SITE\n포항공대 신소재공학과\n소재이미징 해석연구센터\n개인정보취급처리방침",
+      "representative_papers": [
+        {
+          "title": "Nearly room temperature ferromagnetism in a magnetic metal-rich van der Waals metal",
+          "abstract_first_400": "A theoretically designed van der Waals ferromagnet Fe 4 GeTe 2 is synthesized and shows the nearly room temperature ferromagnetism."
+        },
+        {
+          "title": "Leveraging the Intermetal Distance in Dual-Atom Catalysts: Revealing Optimized Synergistic Interactions for CO 2 Electroreduction",
+          "abstract_first_400": "Dual-atom catalysts (DACs) offer a potential to accelerate reaction kinetics and provide versatile active sites by the synergistic combination of two metal atoms. However, the effects of dual-atom configurations and interatomic distances on catalytic performance have yet to be thoroughly investigated. Herein, we report DACs composed of Cu/Ni species anchored on N-doped carbon (Cu/Ni-NC) for the el"
+        },
+        {
+          "title": "Wafer-scale AA-stacked hexagonal boron nitride grown on a GaN substrate",
+          "abstract_first_400": "The stacking sequence of two-dimensional hexagonal boron nitride (hBN) is a critical factor that determines its polytypes and its distinct physical properties. Although most hBN layers adopt the thermodynamically stable AA' stacking sequence, achieving alternative stacking configurations has remained a long-standing challenge. Here we demonstrate the scalable synthesis of hBN featuring unprecedent"
+        },
+        {
+          "title": "Continuous Oxygen Vacancy Gradient in TiO2 Photoelectrodes by a Photoelectrochemical‐Driven “Self‐Purification” Process",
+          "abstract_first_400": "Abstract Oxygen vacancies have been treated as an important material engineering tool to enhance catalytic performance; for instance, oxygen vacancies suppress charge recombination at the Schottky interface, and thus, the photocurrent can be improved. In this regard, the gradient distribution of oxygen vacancies in n‐type metal oxides produces the ideal band structure for minimizing e−/h+ recombin"
+        },
+        {
+          "title": "Wake-up-mitigated giant ferroelectricity in Hf0.5Zr0.5O2 thin films through oxygen-providing, surface-oxidized W electrode",
+          "abstract_first_400": ""
+        }
+      ]
+    },
+    "lab:50705cf571ba48309476bb553c2356b8": {
+      "display_name": "수송체 구조 생물학 연구실 김영진 교수",
+      "research_intro_first_1200": "Research Interests | MTS LAB\ntop of page\nThis site was designed with the\n.com\nwebsite builder. Create your website today.\nStart Now\nMembrane Transporters & Structural Biology Laboratory\nResearch Interest\nMembrane Protein Purification and Structural Analysis\n​본 연구실에서는 질병에 밀접한 관계가 있어 약물의 표적으로 각광받고 있는 세포막 단백질들의 기능을 이해하기 위해, 단백질을 정제하여 X-ray Crystallography 또는 극저온 전자현미경 분석을 통해 단백질의 구조를 분석하는 연구를 진행하고 있습니다.\nMembrane Transporters\n​특히, 본 연구실에서는 세포 내부 및 외부로의 물질 수송에 관여하여, 여러 질병 및 약물 대사에 관여할 수 있는 세포막 수송체들의 구조 연구에 중점을 두어 연구를 진행하고 있습니다.\nbottom of page",
+      "representative_papers": [
+        {
+          "title": "Molecular structure of human P-glycoprotein in the ATP-bound, outward-facing conformation",
+          "abstract_first_400": "The multidrug transporter permeability (P)-glycoprotein is an adenosine triphosphate (ATP)-binding cassette exporter responsible for clinical resistance to chemotherapy. P-glycoprotein extrudes toxic molecules and drugs from cells through ATP-powered conformational changes. Despite decades of effort, only the structures of the inward-facing conformation of P-glycoprotein are available. Here we pre"
+        },
+        {
+          "title": "SARS‐CoV ‐2 spike trimer vaccine expressed in Nicotiana benthamiana adjuvanted with Alum elicits protective immune responses in mice",
+          "abstract_first_400": "Summary The ongoing coronavirus disease 2019 (COVID‐19) pandemic has spurred rapid development of vaccines as part of the public health response. However, the general strategy used to construct recombinant trimeric severe acute respiratory syndrome coronavirus 2 (SARS‐CoV‐2) spike (S) proteins in mammalian cells is not completely adaptive to molecular farming. Therefore, we generated several const"
+        },
+        {
+          "title": "Structural Basis for Activation of the Heterodimeric GABAB Receptor",
+          "abstract_first_400": "The neurotransmitter γ-aminobutyric acid (GABA) activates the metabotropic GABAB receptor to generate slow, prolonged inhibitory signals that regulate the neural circuitry. The GABAB receptor is an obligate heterodimeric G protein-coupled receptor (GPCR) comprised of GBR1 and GBR2 subunits, each with extracellular, seven-helix transmembrane (7TM), and coiled-coil domains. To understand how GABA-dr"
+        },
+        {
+          "title": "Plant‐based, adjuvant‐free, potent multivalent vaccines for avian influenza virus via Lactococcus surface display",
+          "abstract_first_400": "Abstract Influenza epidemics frequently and unpredictably break out all over the world, and seriously affect the breeding industry and human activity. Inactivated and live attenuated viruses have been used as protective vaccines but exhibit high risks for biosafety. Subunit vaccines enjoy high biosafety and specificity but have a few weak points compared to inactivated virus or live attenuated vir"
+        },
+        {
+          "title": "Cryo-EM structures of human OAT1 reveal drug binding and inhibition mechanisms",
+          "abstract_first_400": "The organic anion transporter 1 (OAT1) plays a key role in excreting waste from organic drug metabolism and contributes significantly to drug-drug interactions and drug disposition. However, the structural basis of specific substrate and inhibitor transport by human OAT1 (hOAT1) has remained elusive. We determined four cryogenic electron microscopy (cryo-EM) structures of hOAT1 in its inward-facin"
+        }
+      ]
+    },
+    "lab:537bec3b2e35d774cf892c88ca3255cb": {
+      "display_name": "시스템 신경과학 & 신경 인터페이스 연구실 김도형 교수",
+      "research_intro_first_1200": "About | 신경 제어 연구실\n본문 바로가기\nAbout\n홈으로\nAbout\nAbout\nResearch\nMember\nPublication\nContact\nAbout\nUnderstanding how the brain can generate\nflexible behavior\nWe study the neural mechanisms underlying\nhigher cognitive function.\nBy using state-of-\nthe-art technologies, we investigate how the\nbrain can learn and compute such flexible behavior.\nBuilding efficient Brain-Machine Interface\nWe develop an efficient information\ncommunication algorithm using the neural\ninterface to study flexible learning and cognitive control.\nTechnologies for neuroscience\nOur work involves studying complex behavior in\nmice, using the next-generation tools such as\nNeuropixels neural probes, Calcium-imaging,\nRodent Virtual Reality System, Optogenetics,\nand ultrafast Brain-Machine Interface.\nWe are currently recruiting talented graduate students and postdocs!\nUndergraduate students who are interested in immersing themselves\nin the field of systems neuroscience are also welcome.\n페이지 프린트 하기\n페이지 URL 복사 하기\n검색",
+      "representative_papers": [
+        {
+          "title": "Distinct Roles of Parvalbumin- and Somatostatin-Expressing Interneurons in Working Memory",
+          "abstract_first_400": "Inhibitory interneurons are thought to play crucial roles in diverse brain functions. However, roles of different inhibitory interneuron subtypes in working memory remain unclear. We found distinct activity patterns and stimulation effects of two major interneuron subtypes, parvalbumin (PV)- and somatostatin (SOM)-expressing interneurons, in the medial prefrontal cortex of mice performing a spatia"
+        },
+        {
+          "title": "Differential coding of reward and movement information in the dorsomedial striatal direct and indirect pathways",
+          "abstract_first_400": "The direct and indirect pathways of the basal ganglia have long been thought to mediate behavioral promotion and inhibition, respectively. However, this classic dichotomous model has been recently challenged. To better understand neural processes underlying reward-based learning and movement control, we recorded from direct (dSPNs) and indirect (iSPNs) pathway spiny projection neurons in the dorso"
+        },
+        {
+          "title": "Distinct roles of parvalbumin- and somatostatin-expressing neurons in flexible representation of task variables in the prefrontal cortex",
+          "abstract_first_400": "A hallmark of the prefrontal cortex (PFC) is flexible representation of task-relevant variables. To investigate roles of different interneuron subtypes in this process, we examined discharge characteristics and inactivation effects of parvalbumin (PV)- and somatostatin (SST)-expressing neurons in the mouse PFC during probabilistic classical conditioning. We found activity patterns and inactivation"
+        },
+        {
+          "title": "Distinct Dynamics of Striatal and Prefrontal Neural Activity During Temporal Discrimination",
+          "abstract_first_400": "The frontal cortex-basal ganglia circuit plays an important role in interval timing. We examined neuronal discharges in the dorsomedial and dorsolateral striatum (DMS and DLS) in rats performing a temporal categorization task and compared them with previously recorded neuronal activity in the medial prefrontal cortex (mPFC). All three structures conveyed significant temporal information, but stria"
+        },
+        {
+          "title": "The Impact of COVID-19 on Admissions and In-hospital Mortality of Patients With Stroke in Korea: An Interrupted Time Series Analysis",
+          "abstract_first_400": "OBJECTIVES: This study aimed to investigate the impact of coronavirus disease 2019 (COVID-19) on admission rates and in-hospital mortality among patients with ischemic and hemorrhagic stroke. METHODS: We constructed a dataset detailing the monthly hospitalizations and mortality rates of inpatients with stroke from January 2017 to December 2021. Employing an interrupted time series analysis, we exp"
+        }
+      ]
+    },
+    "lab:5f198105100143316777af8a3c5e6d4b": {
+      "display_name": "식물-미생물-환경 상호작용 연구실 김종흠 교수",
+      "research_intro_first_1200": "PMEI Lab - Research\nResearch\nEnvironmental effects on plant-pathogen interaction - Dr.\nJong\nH\num Kim's\nlab,\nPOSTECH\n(20\n23\n-)\nAs an independent researcher, I start my next career at POSTECH, one of the best research-oriented universities in South Korea. I aim to broaden our understanding of the effect of environments on plant-microbe interactions.\n식물\n-\n미생물\n-\n환경\n상호작용\n연구실\n(Lab of\nP\nlant-\nM\nicrobe-\nE\nnvironment\nI\nnteractions; PMEI)\n은\n외부\n환경로\n인해\n식물\n-\n미생물의\n상호작용이\n어떻게\n조절되는지를\n개체\n및\n분자\n수준에서\n연구합니다\n.\nR\nesearch interest I\nHow do environmental factors impact bacterial pathogenesis?\nCan we build environment-resilient plant immunity through biotechnology?\n연구 주제\n식물병리학의 병삼각형 (Disease triangle)은 기주식물, 병원체와 더불어 환경적인 요인이 식물병의 발생에서 중요한 요소라는 것을 강조하고 있습니다. 그러나 이전의 분자식물병리학 연구들은 기주식물과 병원체의 상호작용에 초점을 맞추어 진행되었고, 그렇기 때문에 식물-미생물 상호작용에서 환경이 주는 변화에 대한 연구가 필요합니다. 특히 변화하는 기후로 인하여 식물병이 증가하고 있는 상황에서 우리 연구실은 식물-미생물 상호작용 속 분자적 변화를 이해하여\n이를 극복할 수 있는 방안을 연구합니다.\n모델 식물인 애기장대를 넘어 유전자 교정 기법을 통한 저온 작물의 기후탄력적 면역설계 방법을 연구합니다.\nR\nesearch interest II\nCan we engineer host plants for the production of pharmaceutical proteins?\n연구 주제\n유용 단백질 생산\n용 기주식물 개량 기술을 연구합니다.\nSupporting:\nEnvironmental effects on plant-pathogen interaction - Dr. She",
+      "representative_papers": [
+        {
+          "title": "Increasing the resilience of plant immunity to a warming climate",
+          "abstract_first_400": "Abstract Extreme weather conditions associated with climate change affect many aspects of plant and animal life, including the response to infectious diseases. Production of salicylic acid (SA), a central plant defence hormone 1–3 , is particularly vulnerable to suppression by short periods of hot weather above the normal plant growth temperature range via an unknown mechanism 4–7 . Here we show t"
+        },
+        {
+          "title": "Small proteins modulate ion-channel-like ACD6 to regulate immunity in Arabidopsis thaliana",
+          "abstract_first_400": "The multi-pass transmembrane protein ACCELERATED CELL DEATH 6 (ACD6) is an immune regulator in Arabidopsis thaliana with an unclear biochemical mode of action. We have identified two loci, MODULATOR OF HYPERACTIVE ACD6 1 (MHA1) and its paralog MHA1-LIKE (MHA1L), that code for ∼7 kDa proteins, which differentially interact with specific ACD6 variants. MHA1L enhances the accumulation of an ACD6 comp"
+        },
+        {
+          "title": "Warm temperature suppresses plant systemic acquired resistance by intercepting N ‐hydroxypipecolic acid biosynthesis",
+          "abstract_first_400": "Climate warming influences disease development by targeting critical components of the plant immune system, including pattern-triggered immunity (PTI), effector-triggered immunity (ETI) and production of the central defense hormone salicylic acid (SA) at the primary pathogen infection site. However, it is not clear if and/or how temperature impacts systemic immunity. Here we show that pathogen-tri"
+        },
+        {
+          "title": "Os BZR 1 turnover mediated by Os SK 22‐regulated U‐box E3 ligase Os PUB 24 in rice BR response",
+          "abstract_first_400": "Oryza sativa BRASSINAZOLE RESISTANT 1 (OsBZR1) is the closest rice homolog of the Arabidopsis BZR1 and bri1-EMS-SUPPRESSOR 1 (BES1)/BZR2 transcription factors. OsBZR1 plays a central role in the rice brassinosteroid signaling pathway. Despite its functional importance, the control mechanism by which the cellular stability of OsBZR1 is regulated has not yet been fully elucidated. Here, we report th"
+        },
+        {
+          "title": "Arabidopsis RING E3 ubiquitin ligase JUL1 participates in ABA‐mediated microtubule depolymerization, stomatal closure, and tolerance response to drought stress",
+          "abstract_first_400": "SUMMARY Ubiquitination is a critical post‐translational protein modification that has been implicated in diverse cellular processes, including abiotic stress responses, in plants. In the present study, we identified and characterized a T‐DNA insertion mutant in the At5g10650 locus. Compared to wild‐type Arabidopsis plants, at5g10650 progeny were hyposensitive to ABA at the germination stage. At5g1"
+        }
+      ]
+    },
+    "lab:6adff5a3efe38e59669333a47d29f2b6": {
+      "display_name": "지능제어 및 시스템 김상우 교수",
+      "research_intro_first_1200": "지능제어 시스템 연구실 - Research Accomplishments\nPublications > Research Accomplishments (recent)\nGRINDING 자동화를 위한 스카핑 슬라브의 피팅 결함 검출 딥러닝 모델에 대한 연구 개발, 포스코, 2018.08.13~2019.07.13\n딥러닝 활용한 영구자석 동기전동기의 선간 단락 고장 조기진단에 관한 기초 연구, 포스코, 2018.07.15~2019.07.14\nMULTI-SPECTRAL 드론영상에 대하여 FCN 기반 딥러닝 및 영상처리를 이용한 송전선로 및 폴리머 현수애자 검출 알고리즘 개발, 한국전력공사, 2018.05.01~2021.04.30\n알파그리드 플랫폼 설계 및 요소기술 연구, 한국전력공사, 2018.03.01~2021.02.28\n전류 및 온도를 고려한 리튬 이온 배터리의 등가모델 기반 상태 진단 알고리즘 개발, 재단법인한국연구재단, 2018.03.01~2021.02.28\n제철소 SMART CCTV 영상분석 PLATFORM(지능형 문자인식) S/W 개발, 포스코아이씨티, 2018.02.20~2018.12.20\n2018 경북씨그랜트사업(3단계 2차년도), 해양수산과학기술진흥원, 2018.01.01~2018.12.31\nPVD 통합제어시스템 AI제어 알고리즘, 파이벡스, 2017.08.01~2018.03.30\n스카핑 슬라브 결함 검출 및 분류를 위한 딥러닝 모델 개발, 포스코, 2017.07.24~2018.06.23\n운전자 자세 및 심박수 정보 추정을 위한 스마트 시트 기술, 현대엔지비, 2017.07.24~2018.02.23\n딥러닝을 이용한 초고해상도 신호 복원 알고리즘 개발, 한국생산기술연구원, 2017.07.13~2017.11.13\n형상 제어를 위한 ZRM 시뮬레이터 개발 및 제어 알고리즘 개선, 포스코, 2017.06.01~2018.02.28\n선재 BILLET 번호 인식률 향상, 포스코아이씨티, 2017.05.22~2017.12.21\n2017 경북씨그랜트사업(3단계 1차년도), 해양수산과학기술진흥원, 2017.04.15~2017.12.31\nPhysiological signal based drowsiness detecting system using feedback data, 포스코, 2017.01.01~2017.12.31\n배터리 수명 예측 알고리즘 개발 및 장수명화 분석, 포스코, 2017.01.01~2017.12.31\n딥러닝 활용한",
+      "representative_papers": [
+        {
+          "title": "Attention Recurrent Neural Network-Based Severity Estimation Method for Interturn Short-Circuit Fault in Permanent Magnet Synchronous Machines",
+          "abstract_first_400": "With the development of smart factories, deep learning, which automatically extracts features and diagnoses faults, has become an important approach for fault diagnosis. In this article, a novel interturn short-circuit fault (ISCF) diagnosis approach using an attention-based recurrent neural network is proposed. An encoder-decoder architecture using an attention mechanism diagnoses the ISCF by est"
+        },
+        {
+          "title": "Attention-Based Multimodal Image Feature Fusion Module for Transmission Line Detection",
+          "abstract_first_400": "Transmission line (TL) inspection is important for ensuring a stable supply of electricity to rural areas. Currently, there are several TL detection approaches based on computer vision; however, they have limitations owing to background clutter in visible light images. This article presents a novel multimodal image feature fusion module that utilizes both visible light and infrared images to enhan"
+        },
+        {
+          "title": "An Early Stage Interturn Fault Diagnosis of PMSMs by Using Negative-Sequence Components",
+          "abstract_first_400": "This paper proposes an early stage interturn short-circuit fault (ISCF) diagnosis method for permanent magnet synchronous machines. A fault indicator is suggested based on a new theoretical analysis of the relationship between the fault current and the rotor speed. The fault indicator is shown to be robust to the rotor speed changes in slight ISCFs. It is calculated by introducing negative-sequenc"
+        },
+        {
+          "title": "Capacity estimation algorithm with a second-order differential voltage curve for Li-ion batteries with NMC cathodes",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Interturn Short Fault Diagnosis in a PMSM by Voltage and Current Residual Analysis With the Faulty Winding Model",
+          "abstract_first_400": "As interturn short fault (ISF) in a permanent-magnet synchronous machine (PMSM) degrades its energy efficiency and may cause other problems, accurate fault diagnosis for the PMSMs is necessary. In this paper, we present a method that uses voltage and current residual components to diagnose the phase and the severity of the ISF in PMSMs. A faulty-winding model (FWM) is introduced to analyze the fau"
+        }
+      ]
+    },
+    "lab:70abd7783b52e6b717497551092700f7": {
+      "display_name": "환경생물공정연구실 황석환 교수",
+      "research_intro_first_1200": "Members:Professor – 포항공과대학교 환경생물공정 연구실\n포항공과대학교 환경공학부\n경북 포항시 남구 청암로 77 포항공과대학교 환경공학동\nMembers\nB.E.S.T lab\n환경생물공정 연구실\nMembers\nMembers\n연구업적\nProfessor\nCurrent Members\nAlumni\nProf.\nSeokhwan\nHwang\nEducation :\nPh.D., 1995, Biological Engineering, Utah University, USA\nM.S., 1993, Food Science, Utah University, USA\nB.Eng., 1987, Biological Engineering, Yonsei University, Korea\n1998.2 - present :\nProfrssor, school of Environmental Science and Engineering, POSTECH, Korea\n2005.3 - 2006.2 :\nVisiting professor, Dept. of Civil and Environmental Engineering, Sanford University, USA\n1996.9 - 1998.2 :\nAssistant professor, Dept. of Biological Engineering, Utah State University, USA\n1995.9 - 1996.9 :\nPost-doc., Dept. of biological Engineering, Utah State University, USA\nResearch interests :\nEnvirinment Bioprocess, Biologacal Wastewater Treatment\nAnaerobic Digestion (Biogas), Biokinetics, Microbial Community Analysis\nProfessor\nDivision of Environmental Science and Engineering, POSTECH\n82-(0)54-279-2282\nshwang@postech.ac.kr\nClose\nSearch\nHit enter to search or ESC to close\nSearch for:",
+      "representative_papers": [
+        {
+          "title": "Comprehensive analysis of microbial communities in full-scale mesophilic and thermophilic anaerobic digesters treating food waste-recycling wastewater",
+          "abstract_first_400": "Microbes were sampled for a year in a full-scale mesophilic anaerobic digester (MD) and a thermophilic anaerobic digester (TD) treating food waste-recycling wastewater (FRW), then microbial community structure, dynamics and diversity were quantified. In the MD, Fastidiosipila, Petrimonas, vadinBC27, Syntrophomonas, and Proteiniphilum were dominant bacterial genera; they may contribute to hydrolysi"
+        },
+        {
+          "title": "Magnetite as an enhancer in methanogenic degradation of volatile fatty acids under ammonia-stressed condition",
+          "abstract_first_400": "Anaerobic batch tests with a 22 full-factorial design of ammonia (1.5, 6.5 g N/L) and magnetite concentrations (0, 20 mmol/L) were conducted separately for methanogenic degradation of acetate, propionate, and butyrate (volatile fatty acids (VFAs)) to 1) quantify the effect of magnetite as an enhancer in methanogenic degradation of each of the VFAs in conditions without ammonia stress (1.5 g N/L) a"
+        },
+        {
+          "title": "Bacteria and archaea communities in full-scale thermophilic and mesophilic anaerobic digesters treating food wastewater: Key process parameters and microbial indicators of process instability",
+          "abstract_first_400": "In this study, four different mesophilic and thermophilic full-scale anaerobic digesters treating food wastewater (FWW) were monitored for 1-2years in order to investigate: 1) microbial communities underpinning anaerobic digestion of FWW, 2) significant factors shaping microbial community structures, and 3) potential microbial indicators of process instability. Twenty-seven bacterial genera were i"
+        },
+        {
+          "title": "Effect of different microbial seeds on batch anaerobic digestion of fish waste",
+          "abstract_first_400": "Initial microbial compositions would be the precursor for the efficient anaerobic digestion (AD) of fish waste (FW). A mesophilic batch test was conducted using four seeds collected from different digesters treating various combinations of substrates to investigate their effects on FW degradation. Key microbial groups were identified by 16s rRNA gene-based metagenomics analysis. Among four, the se"
+        },
+        {
+          "title": "Transformer-based multi-step time series forecasting of methane yield in full-scale anaerobic digestion",
+          "abstract_first_400": "Accurate multi-step forecasting of methane yield is crucial for optimizing feedstock planning, detecting gradual process changes, and mitigating operational risks in full-scale anaerobic digestion (AD). However, previous studies have primarily focused on one-step prediction repeatedly, limiting their ability to capture long-term trends and process dynamics. To address this challenge, a Transformer"
+        }
+      ]
+    },
+    "lab:7831e17ceaa2e98fd6f9e8b10f512140": {
+      "display_name": "첨단 박막 및 산화물 소재 연구실 한현 교수",
+      "research_intro_first_1200": "Research\nResearch\n첨단 박막 및 산화물 소재 연구실(\nATOM\nLaboratory\n)은 원자 단위로 컨트롤된 고품질의 에피 산화물 박막을 성장하고, 다양한 물리적 특성을 탐구하는 연구를 수행합니다. 나아가, 이온 게이팅 (ionic gating) 등을 이용하여 박막의 전기적/자기적/광학적/초전도 특성을 전기적으로 제어가 가능한 차세대 이온트로닉스 (iontronics) 소재/소자에 관한 연구를 진행합니다. 뿐만 아니라, 절연체-도체 전이 (Metal-Insulator transition),\n전기변색 (electrochromics), 초전도\n성\n(superconductivity),\n강유전성 (ferroelectrics), 강자성 (ferromagnetism), 다강성 (multiferroics), 자전기성 (magnetoelectrics) 등을 제어하는 차세대 전자 소재/소자를 개발 중입니다. 주요 연구 분야는 다음과 같습니다.\n원자 단위로 제어된\n에피택셜 산화물 박막 성장 (\nAtomically engineered\nepitaxial oxide thin film growth\n)\nPulsed\nl\naser\nd\neposition (PLD), Sputter 등을 이용하\n여\n, 원자 단위로 컨트롤된 새로운 에피 박막 증착\n변형 (\ns\ntrain), 계면 (\ni\nnterface), 결함 (\nd\nefect) 등을 이용한 박막의\n물성 컨트롤\nReferences:\nH. Han*\net al., “Li iontronics in single-crystalline T-Nb2O5 thin films with vertical ionic transport channels”\nNature Materials\n22, 1128-1135 (2023)\nH. Han*\net al., “Strain-driven formation of epitaxial nanostructures in brownmillerite strontium cobaltite thin film”\nProc. Nat. Acad. Sci. USA. (PNAS)\n120, e2221651120 (2023)\nH. Han*\net al., “Anti-phase boundary accelerated exsolution of nanoparticles in non-stoichiometric perovskite thin films”\nNature Communications\n13, 6682 (2022",
+      "representative_papers": [
+        {
+          "title": "Li iontronics in single-crystalline T-Nb2O5 thin films with vertical ionic transport channels",
+          "abstract_first_400": "Abstract The niobium oxide polymorph T -Nb 2 O 5 has been extensively investigated in its bulk form especially for applications in fast-charging batteries and electrochemical (pseudo)capacitors. Its crystal structure, which has two-dimensional (2D) layers with very low steric hindrance, allows for fast Li-ion migration. However, since its discovery in 1941, the growth of single-crystalline thin fi"
+        },
+        {
+          "title": "Lattice strain-enhanced exsolution of nanoparticles in thin films",
+          "abstract_first_400": "Abstract Nanoparticles formed on oxide surfaces are of key importance in many fields such as catalysis and renewable energy. Here, we control B-site exsolution via lattice strain to achieve a high degree of exsolution of nanoparticles in perovskite thin films: more than 1100 particles μm−2 with a particle size as small as ~5 nm can be achieved via strain control. Compressive-strained films show a "
+        },
+        {
+          "title": "Zero-field polarity-reversible Josephson supercurrent diodes enabled by a proximity-magnetized Pt barrier",
+          "abstract_first_400": "Simultaneous breaking of inversion and time-reversal symmetries in a conductor yields a non-reciprocal electronic transport1-3, known as the diode or rectification effect, that is, low (ideally zero) conductance in one direction and high (ideally infinite) conductance in the other. So far, most of the diode effects observed in non-centrosymmetric polar/superconducting conductors4-7 and Josephson j"
+        },
+        {
+          "title": "Anti-phase boundary accelerated exsolution of nanoparticles in non-stoichiometric perovskite thin films",
+          "abstract_first_400": "Abstract Exsolution of excess transition metal cations from a non-stoichiometric perovskite oxide has sparked interest as a facile route for the formation of stable nanoparticles on the oxide surface. However, the atomic-scale mechanism of this nanoparticle formation remains largely unknown. The present in situ scanning transmission electron microscopy combined with density functional theory calcu"
+        },
+        {
+          "title": "Control of Oxygen Vacancy Ordering in Brownmillerite Thin Films via Ionic Liquid Gating",
+          "abstract_first_400": "High Resolution Image Download MS PowerPoint Slide Oxygen defects and their atomic arrangements play a significant role in the physical properties of many transition metal oxides. The exemplary perovskite SrCoO 3-δ ( P- SCO) is metallic and ferromagnetic. However, its daughter phase, the brownmillerite SrCoO 2.5 ( BM- SCO), is insulating and an antiferromagnet. Moreover, BM- SCO exhibits oxygen va"
+        }
+      ]
+    },
+    "lab:7bdd625d5a73bc4567d09c77c088a478": {
+      "display_name": "사회 시스템의 복잡성 연구실 정우성 교수",
+      "research_intro_first_1200": "POSTECH Complexity in Social System Laboratory - Research\nResearch\nCS2 연구실은 사회현상에서의 복잡성을 연구하는 포항공과대학교 산업경영공학과와 물리학과 공동 연구실입니다. 겉보기에는 복잡다기한 사회현상을 명쾌하게 설명할 수 있는 원인을 찾아내기 위하여 물리학에서 발전한 상호작용이 이루어지는 복잡계 (complex system) 이론을 실제 데이터에 적용함으로써 보다 새로운 해석을 제시하기 위해 노력을 기울이고 있습니다.\n1.    Data Analytics\n수많은 구성요소가 하나의 계(system)을 이루면서 단순하지 않은 방식으로 서로 얽히고 설켜 있음을 뜻하는 복잡계(complex system)는 각 구성요소들의 상호작용으로부터 미처 예상하지 못했던 ‘창발(emergence)’이 출현하기도 합니다.\n대표적으로 10여 년 전에 발표된 좁은 세상 연결망(small-world network) 혹은 척도 없는 연결망 (scale-free network)과 같은 복잡계 연결망 이론을 통해 우리가 우연히 만난 사람이 몇 다리만 건너면 나와 연결된다는 좁은 세상 현상(small-world behavior) 혹은 소위 ‘마당발’의 존재를 설명할 수 있습니다.\nCS2 연구실에서는 날로 발전하는 기술에 힘입어 금융 시계열, 교통망정보, 스포츠 데이터와 같은 대용량 자료를 이용하여 시스템 내부에서 일어나고 있는 미시적인 기작을 살펴보고, 결과의 얼개를 규명하려는 노력도 아끼지 않고 있습니다.\n<Internet Map (source: http://en.wikipedia.org/wiki/Scale-free_network)>\n2.    Scientometrics\n방대한 과학∙기술관련 문서, 전산 처리량 향상에 힘입어 ‘문서 및 문서와 관련한 처리과정의 특성에 대한 연구’도 발전하고 있습니다. 이러한 변화에 발맞추어 Scientometrics는 ‘Science of Science’를 표방하며 정량적 분석기법을 적용하여 과학을 측정, 분석하여, 과학정책을 연구하는 분야로 발전을 거듭하고 있습니다. Scientometrics는 동료평가를 거친 (peer-reviewed) 과학∙기술 문헌만을 주로 다루어 왔으나 최근에는 점차 조직별, 개인별 차이에 집중하거나 예산, 지원사업 등과 같은 다양한 자료로 영역을 확장하고 있습니다.\nCS2 연구실에서는 특히 과학∙기술 시스템을 구성하는 다양한",
+      "representative_papers": [
+        {
+          "title": "Horizon scanning in policy research database with a probabilistic topic model",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "The latent structure of global scientific development",
+          "abstract_first_400": "Science is essential to innovation and economic prosperity. Although studies have shown that national scientific development is affected by geographic, historic and economic factors, it remains unclear whether there are universal structures and trajectories of national scientific development that can inform forecasting and policy-making. Here, by examining the scientific 'exports'-publications tha"
+        },
+        {
+          "title": "Diversity of functional connectivity patterns is reduced in propofol‐induced unconsciousness",
+          "abstract_first_400": "INTRODUCTION: Recent evidence suggests that the conscious brain is characterized by a diverse repertoire of functional connectivity patterns while the anesthetized brain shows stereotyped activity. However, classical time-averaged methods of connectivity dismiss dynamic and temporal characteristics of functional configurations. Here we demonstrate a new approach which characterizes time-varying pa"
+        },
+        {
+          "title": "Analysis on the urban street network of Korea: Connections between topology and meta-information",
+          "abstract_first_400": "Cities consist of infrastructure that enables transportation, which can be considered as topology in abstract terms. Once cities are physically organized in terms of infrastructure, people interact with each other to form the values, which can be regarded as the meta-information of the cities. The topology and meta-information coevolve together as the cities are developed. In this study, we invest"
+        },
+        {
+          "title": "Copula-based algorithm for generating bursty time series",
+          "abstract_first_400": "Dynamical processes in various natural and social phenomena have been described by a series of events or event sequences showing non-Poissonian, bursty temporal patterns. Temporal correlations in such bursty time series can be understood not only by heterogeneous interevent times (IETs) but also by correlations between IETs. Modeling and simulating various dynamical processes requires us to genera"
+        }
+      ]
+    },
+    "lab:7c0d812e4d700c7e56af778d3a824e29": {
+      "display_name": "장봉규 교수 연구실",
+      "research_intro_first_1200": "장봉규 / Bong-Gyu Jang\n장 봉 규\nPOSTECH 산업경영공학과 교수 / 금융및위험관리연구센터장\n하나-POSTECH 테크핀 산학일체연구센터장 /\nKB-포스텍 디지털혁신연구센터장\n경상북도 포항시 남구 청암로 77 포항공과대학교 공학 4동 421호 (37673)\n전화: 82-54-279-2372, 팩스: 82-54-279-2870, 이메일:\nbonggyujang@postech.ac.kr\n이력(CV,  클릭!)\n연구 관심 분야\n투자론/금융위험관리(자산배분, 생애주기 자산관리, 채권, 파생금융상품, 신용위험, 연금/보험사의 자산부채관리 등)\n금융공학/금융수학/핀테크/인슈어테크\n금융분야에서 기계학습  및 자연어처리의 활용\n전문활동 (selected)\n현, (주)현대해상화재보험 사외이사, 2022~현재\n현, 산업통상자원부 방사폐기물관리기금 위험관리\n위원회 위원, 20\n23\n~현재\n현,\n보험개발원\n자문위원회(인슈어테크 분과)\n, 20\n23~현재\n현, 한국해양진흥공사 리스크관리위원회 자문위원, 2022~현재\n현, 한국해양진흥공사 투자보증심의위원회 위원, 2026~현재\n현, 기획예산처 기금운용평가단 평가위원, 2026\n현, POSTECH 법인 재정운영자문위원회 위원, 2016~현재\n한국금융공학회 차기학회장\n전, 한국주택금융공사 리스크관리자문회의 위원, 2018~2023\n전,\n국토교통부 주택도시기금 위험관리위원회 위원, 2017~2020\n전,\n국토교통부 자동차사고 피해지원기금 자산운용위원회 위원, 2020~\n2022\n전,\n국민건강보험공단 자금운용성과평가위원회 위원, 2017~\n2021\n전, 서울시교육청 교육금고 전문가단. 2023~2024\n전,\n금융위원회 IFRS17(보험부채) 할인율 TF, 2019\n정부/공공기관/산업체 프로젝트(클릭!)\n학술 논문\nFinancial Times 50 Journals\n\"Unemployment Risks and Optimal Retirement in an Incomplete Market\"\n(with\nAlain Bensoussan\nand Seyoung Park),\nOperations Research\n, Vol 64, Issue 4, 2016, 1015-1032.\n\"Liquidity Premia and Transaction Costs\"\n(with Hyeng Keun Koo,\nHong Liu\nand\nMark Loewenstein\n),\nJournal of Finance\n, Vol 62, No 5",
+      "representative_papers": [
+        {
+          "title": "Forecasting realized volatility of the oil future prices via machine learning",
+          "abstract_first_400": "This paper explores the potential use of machine learning models in crude oil realized volatility forecasting through a variety of empirical analyses and robustness checks. Although the conventional Heterogeneous Autoregressive (HAR) model is widely accepted, the machine learning models with the HAR factors can significantly improve its forecasting performance. We also found that macroeconomic var"
+        },
+        {
+          "title": "Bitcoin Price Direction Forecasting and Market Variables",
+          "abstract_first_400": "ABSTRACT This paper aims to improve Bitcoin price direction prediction using a CNN‐LSTM model that incorporates various relevant indicators, such as stock market indices, commodity indices, and interest rates. Separate models are trained for predicting price up and down direction and combined to enhance prediction accuracy. We utilize binary classification models to independently analyze the impac"
+        },
+        {
+          "title": "Optimal consumption and investment with insurer default risk",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "The effect of regime-switching transaction costs and cash dividends on liquidity premia",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Optimal retirement with borrowing constraints and forced unemployment risk",
+          "abstract_first_400": ""
+        }
+      ]
+    },
+    "lab:801d8483ec7fd757cf6199bf99e1c5aa": {
+      "display_name": "끈이론 연구실 김희철 교수",
+      "research_intro_first_1200": "POSTECH String Group\nPOSTECH\nString Theory Group\n포스텍 끈이론 홈페이지\n방문을 환영합니다!\n끈이론에 관심있는 대학원생 및 학부생에게 언제나 문이 열려있으니 많이 연락해주세요.\n연구 주제\n01\n끈이론과 M-이론\nString theory & M-theory\n끈이론은 1차원의 끈을 이용하여 자연의 법칙을 이해하고자 하는 이론적인 프레임워크 입니다. 끈이론에서는 시공간에서 움직이는 끈들의 움직임을 통해 자연에 존재하는 입자들의 상호작용을 기술합니다. 우리가 관측하는 전자, 쿼크, 광자와 같은 기본 입자들은 끈의 서로 다른 진동상태로 얻어낼 수 있으며, 특히 중력을 매개하는 입자인 중력자 역시 얻어낼 수 있습니다. 끈이론은 중력을 모순없이 양자화할 수 있는 양자중력 이론으로 블랙홀, 빅뱅과 같은 중력의 강한 양자역학적 현상들에 대한 연구에 필수적인 이론입니다. M-이론은 이런 끈이론의 비섭동적인 강한 상호작용들을 기술하는 이론으로써 5개의 끈이론들을 통합하는 확장된 양자중력이론입니다.\n02\n초대칭 양자장론\nSupersymmetric Quantum Field Theory\n양자장론은 양자역학과 특수상대성이론을 통합하는 이론으로써, 우리 우주에 존재하는 기본 입자들의 물리현상들을 양자화된 장들의 상호작용을 통해 기술합니다. 초대칭 양자장론은 전자와 같은 페르미온 입자들과 광자와 같은 보존 입자들을 뒤섞는 강력한 대칭성인 초대칭을 양자장론에 포함시킨 확장된 양자장 이론입니다. 초대칭을 이용하여 기존의 양자장론이 기술하기 힘든 이중성이나 대칭성 확장과 같은 비섭동적 현상들을 보다 엄밀하게 연구할 수 있습니다. 초대칭의 이런 장점을 바탕으로 초대칭 양자장론은 양자장론의 근본적인 구조를 체계적으로 이해하고 이론물리의 새로운 방향을 제시하는 다양한 최신 연구들에 사용되고 있습니다.\n구성원\n교수\n박재모 (Jaemo Park)\n주요경력\n2001 -    : POSTECH\n2001 - 2001: University of Pennsylvania\n1998 - 2000: Institute for Advanced Study\n학력\n1997: Ph.D., California Institute of Technology\n1990: M.S., Seoul National University\n1988: B.S., Seoul National University\n연구실 :\n제3공학관 225호\n연락처 :\njaemo at po",
+      "representative_papers": [
+        {
+          "title": "On geometric classification of 5d SCFTs",
+          "abstract_first_400": "Abstract We formulate geometric conditions necessary for engineering 5d superconformal field theories (SCFTs) via M-theory compactification on a local Calabi-Yau 3-fold. Extending the classification of the rank 1 cases, which are realized geometrically as shrinking del Pezzo surfaces embedded in a 3-fold, we propose an exhaustive classification of local 3-folds engineering rank 2 SCFTs in 5d. This"
+        },
+        {
+          "title": "Branes and the swampland",
+          "abstract_first_400": "$S\\phantom{\\rule{0}{0ex}}w\\phantom{\\rule{0}{0ex}}a\\phantom{\\rule{0}{0ex}}m\\phantom{\\rule{0}{0ex}}p\\phantom{\\rule{0}{0ex}}l\\phantom{\\rule{0}{0ex}}a\\phantom{\\rule{0}{0ex}}n\\phantom{\\rule{0}{0ex}}d$ conditions are usually conjectures that divide apparently consistent (anomaly free) quantum field theories into those which can emerge from a quantum gravitational theory (the $l\\phantom{\\rule{0}{0ex}}a\\p"
+        },
+        {
+          "title": "Surface defects and instanton partition functions",
+          "abstract_first_400": "We study the superconformal index of five-dimensional SCFTs and the sphere partition function of four-dimensional gauge theories with eight supercharges in the presence of co-dimension two half-BPS defects. We derive a prescription which is valid for defects which can be given a “vortex construction”, i.e. can be defined by RG flow from vortex configurations in a larger theory. We test the prescri"
+        },
+        {
+          "title": "M-theoretic genesis of topological phases",
+          "abstract_first_400": "Abstract We present a novel M-theoretic approach of constructing and classifying anyonic topological phases of matter, by establishing a correspondence between (2+1)d topological field theories and non-hyperbolic 3-manifolds. In this construction, the topological phases emerge as macroscopic world-volume theories of M5-branes wrapped around certain types of non-hyperbolic 3-manifolds. We devise a "
+        },
+        {
+          "title": "Modular extension of topological orders from congruence representations",
+          "abstract_first_400": "We present an efficient method to compute the modular extension of both fermionic topological orders and ${\\mathbb{Z}}_{2}$-symmetric bosonic topological orders in two spatial dimensions, from congruence representations of ${\\mathrm{SL}}_{2}(\\mathbb{Z})$ and its subgroups. To demonstrate the validity of our approach, we provide explicit calculations for topological orders with ranks up to 10 for t"
+        }
+      ]
+    },
+    "lab:81e7d48be2e4126739d27db2f002e383": {
+      "display_name": "에너지 및 지속가능성 지향 나노과학 연구실 박형규 교수",
+      "research_intro_first_1200": "연구실 소개 | 에너지 및 지속가능성 지향 나노과학 연구실\n본문 바로가기\nFor ENGLISH VERSION, click here\n오늘 하루 더 이상 보지 않기\n배너 닫기\n연구실 소개\n홈으로\n연구실\n연구실\n연구 분야 및 연구 과제\n인원\n연구성과\n연구 장비\n뉴스\n연구실 소개\n연구실 소개\n연락처 및 찾아오시는 길\n리크루팅\n연구실 생활\n연구실 소개\nIntrod\nuction\n우리\n에너지 및 지속가능성 지향 나노과학 연구실\n은 나노물질이 만들어내는 분자 척도 수준의 협소 공간에서 일어나는 독특한 현상인 유체의\n초수송 현상\n과 전자기파의\n초증강 현상\n을 탐구하여, 에너지 환경 분야의 미래기술인 멤브레인 플랫폼과 초정밀화학 센서에 응용하기 위해 공학적 가능성을 연구하고 있습니다.\n과학기술정보통신부에서 우리 연구실의 혁신적 연구 역량을 인정하여\n리더 연구자 연구소\n로 지정해 주셔서 2020년부터 포항공과대학교 내에 저차원 전달 물리연구소라는 작은 연구소를 설립하고 국가 연구 과제를 통해 학생들이 연구에만 몰입할 수 있는 환경을 구축하였습니다.\n분자들이 자기 자신의 크기보다 조금만 더 큰 공간에서 서로 배열하고 운동하는 양상들, 빛이 그 파장보다 작은 공간에서 거동하는 양상들은 아직도 알려진 바가 많지 않은 미지의 영역입니다.\n바로 그 점이 우리 연구의 매력이 아닐까 합니다. 뛰어난 잠재력을 가진 학생들과 박사 후 연구원들과의 협업을 고대하고 있습니다.\nComposition\n우리 연구실은 총 5개의 세부 연구실로 구성되어 있습니다.\n제 1 세부연구실\n에서는\n다공성 그래핀\n의 합성에 관하여 연구하고 있습니다. 2차원 물질인 그래핀에 작은 구멍을 뚫으면, 원자 두께의 오리피스 멤브레인을 만들 수 있어요.\n이렇게 자연이 허락하는 가장 얇은 필터를 통과하는 물질은 저항을 거의 받지 않아서\n초수송 현상\n을 나타내게 됩니다.\n제 2 세부연구실\n에서는\n2차원 물질을 차곡차곡 쌓을 때\n, 그 사이사이에서 만들어지는 넓은 2차원 공간을 제어하여, 그 공간을 통과할 수 있는\n물질의 선택도\n를 높이려고 합니다.\n제 3 세부연구실\n에서는 앞에서 합성한\n멤브레인 소재들을 에너지 기술과 환경 기술에 적용\n하기 위해 공학적으로 디자인하고, 그 디자인을 실험적으로 검증합니다.\n제 4 세부연구실\n에서는 멤브레인 상에서 물질을 분리, 합성할 때의 반응 양상을 비침습적으로 아주 정밀하게 알아내기 위하여, 2차원 멤브레인에 대한 엔지니어링의\n플라스모닉스\n라는 학",
+      "representative_papers": [
+        {
+          "title": "Stability, Molecular Sieving, and Ion Diffusion Selectivity of a Lamellar Membrane from Two-Dimensional Molybdenum Disulfide",
+          "abstract_first_400": "Two-dimensional (2D) subnanometer channels allow unique mass transport promising for molecular sieving. New 2D channels of MoS 2 nanosheets allow one to understand molecular transmission and separation, unlike the graphene oxide counterpart containing various defects and cationic metal contaminants. Membranes from layered MoS 2 platelets show extraordinary stability in an aqueous environment and c"
+        },
+        {
+          "title": "Multifunctional wafer-scale graphene membranes for fast ultrafiltration and high permeation gas separation",
+          "abstract_first_400": ". Moreover, thin-film polymers fabricated via vapor-liquid interfacial polymerization on these perforated graphene membranes constitute gas-selective polyimide graphene membranes as thin as 20 nm with superior permeances. The methods of controlled, simple, and reliable graphene perforation on wafer scale along with vapor-liquid polymerization allow the expansion of current 2D membrane technology t"
+        },
+        {
+          "title": "Pseudocapacitive Coating for Effective Capacitive Deionization",
+          "abstract_first_400": "and Ag) onto porous carbon electrodes (activated carbon cloth) with only minimal use of a conductive additive and a polymer binder (<1 wt % in total). Optimized pseudocapacitive electrodes result in excellent single-electrode specific capacitance (>300 F/g) and great cell stability (70% retention after 500 cycles). A CDI cell out of these pseudocapacitive electrodes yields as high charge efficienc"
+        },
+        {
+          "title": "Spacer-Assisted Amine-Coiled Carbon Nanotubes for CO2 Capture",
+          "abstract_first_400": "Architecture of a DNA-wrapped carbon nanotube (CNT) inspires rational design of a polymer-wrapped CNT effective for CO 2 capture. Polyethyleneimine (PEI) selected as a spiral wrapper of CNT is modified by insertion of spacer molecules loaded with amino groups such as siloxanes and purine to enhance the CO 2 capture performance. A porous adsorbent made by packing these functional nanowires (e.g., P"
+        },
+        {
+          "title": "Osmotic Transport across Surface Functionalized Carbon Nanotube Membrane",
+          "abstract_first_400": "Osmosis plays a central role in many chemical separation processes. Among various biological and artificial channels, carbon nanotubes (CNTs) stand out due to their exceptional water transport efficiency and variability of pore-size, down to molecular dimensions, thereby approaching ideal semipermeability. We report osmotically driven water and salt transport across a membrane of vertically aligne"
+        }
+      ]
+    },
+    "lab:820d6eb33837425aab1270d236524366": {
+      "display_name": "지능형 레이더 시스템 및 신호처리 김경태 교수",
+      "research_intro_first_1200": "Research · IRASLab\nSkip to content\nFive research domains\nDOMAIN 01\nRadar Imaging\nFrom coherent echoes to trustworthy representations\n40 · 96 · 27\nDOMAIN 02\nIntelligent Target Detection & Recognition\nFrom representations to target intelligence\n11 · 33 · 11\nDOMAIN 03\nElectronic Warfare\nMaritime missile-seeker modeling, EA/EP effects\n13 · 65 · 19\nDOMAIN 04\nHuman-Centered RF Sensing & Smart Spaces\nPrivacy-aware sensing of people and physiology\n10 · 16 · 4\nDOMAIN 05\nAutonomous Radar & Multimodal Perception\nRobust 3D perception for mobility and robotics\n4 · 3 · 6\nNumbers: journal · conference · funded projects\n01\nRadar imaging\nRadar image formation and advanced signal processing\nSignal to trustworthy representation\nHow can incomplete and distorted echoes be converted into accurate, interpretable images and signatures?\nSAR\nSynthetic Aperture Radar\nISAR\nInverse Synthetic Aperture Radar\nRaw pulse processing, range-Doppler mapping, autofocus phase error correction, and high-resolution SAR/ISAR image reconstruction\nThis domain turns raw radar returns into trustworthy intermediate representations: SAR/ISAR formation, motion compensation, autofocus, 3D rotational compensation and cross-range sc",
+      "representative_papers": [
+        {
+          "title": "Analysis of Micro-Doppler Signatures of Small UAVs Based on Doppler Spectrum",
+          "abstract_first_400": "Most of the investigations on the micro-Doppler (MD) effect caused by a small unmanned aerial vehicle (UAV) have been conducted using joint time–frequency (JTF) images rather than the Doppler spectrum. On the other hand, several researchers utilized the Doppler spectrum instead of JTF images to observe the MD signature of a small UAV, and found the relationship between the spectral distribution of"
+        },
+        {
+          "title": "Efficient ISAR autofocus via minimization of Tsallis Entropy",
+          "abstract_first_400": "Inverse synthetic aperture radar (ISAR) is a coherent imaging system formed by conducting signal processing on the received data consisting of radar cross section reflected from a maneuvering target. Autofocus is an essential step of ISAR imaging, whose performance has a great influence on the quality of the radar image. Minimum Shannon entropy phase adjustment (MSEPA) and minimum Renyi entropy-ba"
+        },
+        {
+          "title": "Compressive Sensing Based SAR Imaging and Autofocus Using Improved Tikhonov Regularization",
+          "abstract_first_400": "For synthetic aperture radar (SAR) imaging, the compressive sensing (CS) coupled with total variation (TV)-based algorithm is known as an effective focusing technique using under-sampled dataset. However, the performance of the CS-TV method can be degraded by drawbacks of TV in terms of noise sensitivity and computational efficiency. In this paper, a novel approach to CS-SAR imaging is proposed ba"
+        },
+        {
+          "title": "Ground Moving Target Imaging Based on Compressive Sensing Framework With Single-Channel SAR",
+          "abstract_first_400": "Ground moving target imaging (GMTIm) is considered one of the most important applications of synthetic aperture radar (SAR). Phase modulation from a moving target's higher-order movements severely degrades the focusing quality of SAR images, because the conventional SAR-GMTIm algorithm assumes a constant target velocity in high-resolution GMTIm with single channel SAR. To solve this problem, a nov"
+        },
+        {
+          "title": "Deep Learning Approach for Radar-Based People Counting",
+          "abstract_first_400": "With the development of deep learning (DL) frameworks in the field of pattern recognition, DL-based algorithms have outperformed handcrafted feature (HF)-based ones in various applications. However, there still exist several challenges in applying the DL framework to a radar-based people counting (RPC) task: The powerful representation capacity of a deep neural network (DNN) learns not only the de"
+        }
+      ]
+    },
+    "lab:aebe9a6ddab8c971ffecbd53eb58270e": {
+      "display_name": "공정시스템공학연구실 한지훈 교수",
+      "research_intro_first_1200": "POSTECH 공정시스템공학연구실 연구실 연구주제\n뒤로\n뒤로\n더보기\n게시물 알림\n내 글 반응\n내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.\n공지사항\n사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.\nAlarm\n마이페이지\n로그아웃\n로그인이 필요합니다.\n로그인\nHome\nAwards\nProf\nMembers\nProfessor\nPost doctors\nGraduate students\nUndergraduate students\nAlumni_EPSE/PSE(Prof.Han)\nAlumni_PSE(Prof.Lee)\nNews\nSchedule\nPSE 클러스터 서버 스케줄\nNotice\nActivies(Broadcasting)\nGallery\nResearch\nResearch Topic1\nResearch Topic2\nResearch Topic3\nResearch Topic4\nResearch Topic 5\nResearch Topic 6\nPublication\nJournals\nPatents\nCover Gallery\nBooks/Chapters\nLecture\n공정제어\n...\n에너지기술경제학\n-\n강의자료 게시판(비공개용)\nContact\nCareer\n새로운 메뉴\n닫기\nResearch\nProcess systems engineering studies\ncan aid in the area of\nsustainability\nin chemical engineering\n:\nEvaluation of\nenvironmental (“green”) aspects\nof new strategies (LCA, life-cycle assessment)\nIdentification of\ncost drivers\nand technological bottlenecks (TEA, techno-economic assessment)\nand can be thus\ncoupled with experimental catalysis studies\n.\nResearch Goa\nl\n: Development of\ncomputer-aided tools and models\nto synthesize and evaluate\nnew systems\n/\nproducts\nResearch Topic 1\nSustainable Biorefinery with Process Design and Systems-level Analysis\n이미지 맵\nDetails\nResearch Topic 2\nWaste",
+      "representative_papers": [
+        {
+          "title": "Sustainable development of biorefineries: integrated assessment method for co-production pathways",
+          "abstract_first_400": "An integrated assessment method for co-production pathways can give reliable results to decision makers for sustainable development of biorefineries."
+        },
+        {
+          "title": "Process optimization, economic and environmental analysis of biodiesel production from food waste using a citrus fruit peel biochar catalyst",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Techno-economic analysis of food waste valorization for integrated production of polyhydroxyalkanoates and biofuels",
+          "abstract_first_400": "This study focused on the techno-economic analysis of integrated polyhydroxyalkanoates (PHAs) and biofuels such as biohydrogen, bioethanol, and 2,3-butanediol production from food waste (FW). Based on previous literature studies, the integrated process was developed. The process plan produced 2.01 MT of PHAs, 0.29 MT of biohydrogen, 4.79 MT of bioethanol, and 6.79 MT of 2,3-butanediol per day, fro"
+        },
+        {
+          "title": "Food waste valorization to green energy vehicles: sustainability assessment",
+          "abstract_first_400": "Our work aims to identify critical factors that could become equally important in a coincident sustainability assessment of new green energy vehicle technologies with utilization of food waste as an alternative renewable resource to fossil fuels."
+        },
+        {
+          "title": "Coproducing Value-Added Chemicals and Hydrogen with Electrocatalytic Glycerol Oxidation Technology: Experimental and Techno-Economic Investigations",
+          "abstract_first_400": "The electrocatalytic oxidation technology of biomass-derived oxygenates such as glycerol presents a promising method of coproducing renewable chemicals and hydrogen in an electrochemical reactor system that uses oxidation chemistry and existing proton exchange membrane technology to electrocatalytically convert oxygenates into value-added chemicals and hydrogen. In this paper, we first demonstrate"
+        }
+      ]
+    },
+    "lab:b30c08316784cceb807e5a7670575269": {
+      "display_name": "식물유전체재조합 연구실 최규하 교수",
+      "research_intro_first_1200": "Research | kyuha\ntop of page\nImage by Chris Morgan (JIC)                                               Image by Heejin (POSTECH)\n식물유전체재조합 연구실: 교차(crossover) 조절 연구와\n식물 유전체 디자인\n​\n​\n인류는 약 1만 년 전 식물을 재배하기 시작하며 육종(breeding)을 통해 식물을 개량해 왔다. F1 hybrid 잡종 강세와 교배 육종의 녹색혁명(Green Revolution)은 인류의 식량 안보와 보건, 그리고 평화에 기여했다. 멘델의 유전법칙, DNA의 발견에 이은 차세대 DNA 시퀀싱 기술(next-generation sequencing, NGS), 유전자 가위 기술(CRISPR/Cas9 genome editing), 기계 학습(machine learning), AI 등의 혁신적인 연구 기술 진보는 감수분열(meiosis)동안 교차 현상에 대한 이해는 물론\n교차 조절, MiMe (Mitosis instead of Meiosis), hapoloid inducer, synthetic apomixis\n을 통해 식물 개량과 육종을 보다 가속화하고 있다. 우리는 현재\n식물 유전체 디자인 시대\n(링크\n-대학신문기사\n)\n에 살고 있다.\n​\n식물 교차 패턴 연구(Mechanism of Meiotic Crossover Patterning in Plants)\n​\n식물유전체재조합 연구실은\n모델 식물 애기장대와 토마토에서 교차(crossover)의 분자적 기전을 연구\n한다. 식물 감수분열은 꽃의 암술, 수술의 meiocyte에서 일어나며 haploid인 sperm, egg cell를 만든다. 이들 반수체 세포들은 수정을 통해 다음 세대의 diploid 식물이 된다. 특히 감수분열에서는 상동 염색체(homologous chromosome) 사이에\n교차(crossing over=crossover=CO)\n가 일어나 자손의 유전적 다양성을 증가시키며 식물 육종에 중요한 역할을 한다. 교차는 많은 수의 DNA double-strand breaks (DSBs)에 의해서 시작하지만 이들 DSBs 중\n약 5% 정도만이 DBS 수선 과정을 거쳐 교차\n가 된다. 따라서, 상동 염색체상의 교차 수는 염색체 분리를 위해 1개는 필수적이지만 그 이상은 억제되어 1개 또는 2개가 주로 일어나며 3개인 경우도 드물다 (동.식물, ~",
+      "representative_papers": [
+        {
+          "title": "The histone variant H2A.W restricts heterochromatic crossovers in Arabidopsis",
+          "abstract_first_400": "Meiotic crossovers rearrange allele combinations and create offspring diversity. Crossovers occur nonrandomly along chromosomes, predominantly in distal euchromatin and less in pericentromeric heterochromatin marked with histone H3 lysine 9 dimethylation (H3K9me2) and the H2A variant H2A.W in Arabidopsis thaliana . Loss of H3K9me2 increases heterochromatic crossovers, but how H2A.W affects crossov"
+        },
+        {
+          "title": "Crossover control: A key to unlocking genetic diversity in plant breeding",
+          "abstract_first_400": "During meiosis, crossovers between homologous chromosomes generate genetic diversity but are limited in number, widely spaced by interference, and biased toward gene-rich euchromatin while suppressed in pericentromeric heterochromatin. This constrained crossover patterning restricts the genetic variation available for plant breeding. Recent studies have identified key crossover regulators-includin"
+        },
+        {
+          "title": "Heterogeneous transposable elements as silencers, enhancers and targets of meiotic recombination",
+          "abstract_first_400": "During meiosis, DNA double-strand breaks are initiated by the topoisomerase-like enzyme SPO11 and are repaired by inter-sister chromatid and inter-homologue DNA repair pathways. Genome-wide maps of initiating DNA double-strand breaks and inter-homologue repair events are now available for a number of mammalian, fungal and plant species. In mammals, PRDM9 specifies the location of meiotic recombina"
+        },
+        {
+          "title": "HIGH CROSSOVER RATE1 encodes PROTEIN PHOSPHATASE X1 and restricts meiotic crossovers in Arabidopsis",
+          "abstract_first_400": "Meiotic crossovers are tightly restricted in most eukaryotes, despite an excess of initiating DNA double-strand breaks. The majority of plant crossovers are dependent on class I interfering repair, with a minority formed via the class II pathway. Class II repair is limited by anti-recombination pathways; however, similar pathways repressing class I crossovers have not been identified. Here, we per"
+        },
+        {
+          "title": "Arabidopsis HEAT SHOCK FACTOR BINDING PROTEIN is required to limit meiotic crossovers and HEI10 transcription",
+          "abstract_first_400": "The number of meiotic crossovers is tightly controlled and most depend on pro-crossover ZMM proteins, such as the E3 ligase HEI10. Despite the importance of HEI10 dosage for crossover formation, how HEI10 transcription is controlled remains unexplored. In a forward genetic screen using a fluorescent crossover reporter in Arabidopsis thaliana, we identify heat shock factor binding protein (HSBP) as"
+        }
+      ]
+    },
+    "lab:b59a79cbe921942c5d3909da04708904": {
+      "display_name": "NINE Lab. 전준구 교수",
+      "research_intro_first_1200": "사이트 제목\nNINE Lab.,\nDivision of Advanced Nuclear Engineering,\nPOSTECH\n- Reduced Order Modeling for SMR Digital Twin\n- XRePIT: Data Driven AI-CFD Hybrid Solver\n- P2F: PINN-TH System Hybrid Solver\n- DRL for Innovative SMR and Nuclear Fusion Control\n- Nuclear Reactor Hydrogen Safety\n- Agentic AI for Nuclear Innovation\n- Multidisciplinary\n[연구실 학생 모집]\nNINE 팀에서 'AI-Powered Nuclear System Innovation'이라는 미션을 수행할\nself-motivated 된 학생들을 모집합니다 (학부인턴/석사/박사/통합).\n관심있는 학생은 jgjeon41@postech.ac.kr로 CV, Research Statement, 성적증명서 첨부하여 메일주세요.\nWe are always investigating numerical methods to tackle outstanding problems in nature and energy systems\n​\n​\nArtifical Intelligence is\na pomising technique\n.\nNEWS\n2026 하반기\n- AI4Sci Korea 2026에서 연구실 MAHANA 프로젝트를 주제로 발표했습니다 :) (26.09.29)\n- 중앙대학교 물리학과\n​\n에서 'AI for Scientific Computing' 주제로 발표했습니다 :) (26.09.07)\n- 지석, 동균, 시형의 P2F 연구가 원자력 최고 정통적인 저널인\nNuclear Engineering and Design\n에 게재되었습니다!\n- University of Michigan AIMS Lab (PI: Prof. Majdi Radaideh) 과 온라인 워크샵을 개최했습니다. 앞으로 협업을 기대합니다! (26.08.24)\n- 한-중 원자로열수력워크숍 (WORTH-12) Local Organizing Committee Chair를 맡았습니다!\n​\n- 장채은, 전표일, 고영승, 이재린 학생이 8월부터 학부연구생을 시작했습니다. 환영합니다!\n- 연구실 처음으로 ICML 학회에 다녀왔습니다. 내년에는 발표도 목표로 합니다! (26.07.06)",
+      "representative_papers": [
+        {
+          "title": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Residual-based physics-informed transfer learning: A hybrid method for accelerating long-term CFD simulations via deep learning",
+          "abstract_first_400": "While a big wave of artificial intelligence (AI) has propagated to the field of computational fluid dynamics (CFD) acceleration studies, recent research has highlighted that the development of AI techniques that reconciles the following goals remains our primary task: (1) accurate prediction of unseen (future) time series in long-term CFD simulations (2) acceleration of simulations (3) an acceptab"
+        },
+        {
+          "title": "Comparison of CNN-based deep learning architectures for unsteady CFD acceleration on small datasets",
+          "abstract_first_400": "CFD acceleration for virtual nuclear reactors or digital twin technology is a primary goal in the nuclear industry. This study compares advanced convolutional neural network (CNN) architectures for accelerating unsteady computational fluid dynamics (CFD) simulations using small datasets based on a challenging natural convection flow dataset. The advanced architectures such as autoencoders, UNet, a"
+        },
+        {
+          "title": "Recent Progress in Hydrogen Flammability Prediction for the Safe Energy Systems",
+          "abstract_first_400": "Many countries consider hydrogen as a promising energy source to resolve the energy challenges over the global climate change. However, the potential of hydrogen explosions remains a technical issue to embrace hydrogen as an alternate solution since the Hindenburg disaster occurred in 1937. To ascertain safe hydrogen energy systems including production, storage, and transportation, securing the kn"
+        },
+        {
+          "title": "Node assigned physics-informed neural networks for thermal–hydraulic system simulation: CVH/FL/HS modules",
+          "abstract_first_400": ""
+        }
+      ]
+    },
+    "lab:bbb84aca00701a4b4d29c69ae6ff2a8a": {
+      "display_name": "끈이론 연구실 박재모 교수",
+      "research_intro_first_1200": "POSTECH String Group\nPOSTECH\nString Theory Group\n포스텍 끈이론 홈페이지\n방문을 환영합니다!\n끈이론에 관심있는 대학원생 및 학부생에게 언제나 문이 열려있으니 많이 연락해주세요.\n연구 주제\n01\n끈이론과 M-이론\nString theory & M-theory\n끈이론은 1차원의 끈을 이용하여 자연의 법칙을 이해하고자 하는 이론적인 프레임워크 입니다. 끈이론에서는 시공간에서 움직이는 끈들의 움직임을 통해 자연에 존재하는 입자들의 상호작용을 기술합니다. 우리가 관측하는 전자, 쿼크, 광자와 같은 기본 입자들은 끈의 서로 다른 진동상태로 얻어낼 수 있으며, 특히 중력을 매개하는 입자인 중력자 역시 얻어낼 수 있습니다. 끈이론은 중력을 모순없이 양자화할 수 있는 양자중력 이론으로 블랙홀, 빅뱅과 같은 중력의 강한 양자역학적 현상들에 대한 연구에 필수적인 이론입니다. M-이론은 이런 끈이론의 비섭동적인 강한 상호작용들을 기술하는 이론으로써 5개의 끈이론들을 통합하는 확장된 양자중력이론입니다.\n02\n초대칭 양자장론\nSupersymmetric Quantum Field Theory\n양자장론은 양자역학과 특수상대성이론을 통합하는 이론으로써, 우리 우주에 존재하는 기본 입자들의 물리현상들을 양자화된 장들의 상호작용을 통해 기술합니다. 초대칭 양자장론은 전자와 같은 페르미온 입자들과 광자와 같은 보존 입자들을 뒤섞는 강력한 대칭성인 초대칭을 양자장론에 포함시킨 확장된 양자장 이론입니다. 초대칭을 이용하여 기존의 양자장론이 기술하기 힘든 이중성이나 대칭성 확장과 같은 비섭동적 현상들을 보다 엄밀하게 연구할 수 있습니다. 초대칭의 이런 장점을 바탕으로 초대칭 양자장론은 양자장론의 근본적인 구조를 체계적으로 이해하고 이론물리의 새로운 방향을 제시하는 다양한 최신 연구들에 사용되고 있습니다.\n구성원\n교수\n박재모 (Jaemo Park)\n주요경력\n2001 -    : POSTECH\n2001 - 2001: University of Pennsylvania\n1998 - 2000: Institute for Advanced Study\n학력\n1997: Ph.D., California Institute of Technology\n1990: M.S., Seoul National University\n1988: B.S., Seoul National University\n연구실 :\n제3공학관 225호\n연락처 :\njaemo at po",
+      "representative_papers": [
+        {
+          "title": "Towards quantum black hole microstates",
+          "abstract_first_400": "A bstract We study the cohomology of local BPS operators in $$ \\mathcal{N} $$ N = 4 Yang-Mills theory. The finite N cohomologies consist of the graviton part (subject to the stringy exclusion principle) and the rest which may describe black hole microstates in quantum AdS/CFT. We construct an infinite tower of non-graviton cohomologies in the SU(2) theory and study to what extent they simulate qua"
+        },
+        {
+          "title": "The shape of non-graviton operators for SU(2)",
+          "abstract_first_400": "A bstract The BPS spectrum of AdS/CFT exhibits multi-gravitons at low energies, while having black hole states at higher energies. This can be studied concretely in AdS 5 /CFT 4 in terms of classical cohomologies, even in the quantum regimes at finite 1/ N . Recently, Chang and Lin found a threshold for non-graviton states in the SU(2) maximal super-Yang-Mills theory. We explicitly construct and p"
+        },
+        {
+          "title": "Monopole deformations of 3d Seiberg-like dualities with adjoint matters",
+          "abstract_first_400": "Abstract We propose new 3d $$ \\mathcal{N} $$ N = 2 Seiberg-like dualities by considering various monopole superpotential deformations on 3d $$ \\mathcal{N} $$ N = 2 U(Nc) SQCDs with fundamental and adjoint matter fields. We provide nontrivial evidence of these new dualities by comparing the superconformal indices, from which we analyze the change of the moduli space due to the monopole deformation."
+        },
+        {
+          "title": "Supersymmetric instantonic D1-branes in AdS5×S5 background",
+          "abstract_first_400": "Abstract According to the covariant open superstring description of 1/2-BPS D-branes in the AdS5×S5 background, there are two kinds of purely instantonic D-branes. One is the well known D(-1)-brane or D-instanton, and another is the D1-brane spanning a two dimensional subspace inside S5. We identify the actual 1/2-BPS instantonic D1-brane configurations and their supersymmetry structures. From the"
+        }
+      ]
+    },
+    "lab:c174028db6bfa33551de1ecbf77feb6e": {
+      "display_name": "DataSolid Lab 신동일 교수",
+      "research_intro_first_1200": "Research | DataSolid Lab (ENG)\n본문 바로가기\nResearch\n홈으로\nResearch\nResearch\nMember\nPublication\nBoard\nResearch\nOverview\nOverview\nMODELING\nANALYSIS\nDESIGN\nDatasolid Lab\nModel the mechanics. Learn from data. Design materials and structures. Our research develops mechanics-based modeling, analysis, and design frameworks for complex materials and structures. We build flexible continuum models that integrate observable data from experiments, simulations, and sensing. By combining computational mechanics with data-driven modeling, we analyze material and structural behavior, extract physical insight, and translate that insight into the design of advanced materials, structures, and mechanical systems. This unified framework supports research across material microstructures, nanomechanical resonators, semiconductor packaging, fuel cell sintering, programmable mechanical materials, and application-driven structural systems.\n역학을 모델링하고, 데이터에서 배우며, 재료와 구조를 설계합니다. 우리 연구실은 복잡한 재료와 구조 시스템을 이해하고 설계하기 위한 역학 기반 모델링·해석·설계 프레임워크를 개발합니다.\n연속체역학을 바탕으로 실험, 시뮬레이션, 센싱 등 관측 가능한 데이터를 유연하게 통합하고, 전산역학과 데이터 기반 모델링을 결합하여 재료와 구조의 거동을 해석합니다. 이를 통해 얻은 물리적 통찰을 새로운 재료 및 구조 설계로 연결합니다. 이러한 통합 프레임워크는 재료 미세구조, 나노공진기, 반도체 패키징, 연료",
+      "representative_papers": [
+        {
+          "title": "U-net architected deep material network training with microstructure local field information",
+          "abstract_first_400": "The Deep Material Network (DMN) has recently emerged as a powerful reduced-order modeling framework for simulating the mechanical response of heterogeneous materials such as composites. Unlike most data-driven approaches that directly learn a material’s response under prescribed loading, the DMN acts as a homogenization operator, learning the kinematic constraints and mechanical interactions of th"
+        },
+        {
+          "title": "Microstructure-based variational deep material networks for robust uncertainty quantification in materials digital twins",
+          "abstract_first_400": "Aleatoric uncertainties – irremovable variability in microstructure morphology, constituent behavior, and processing conditions – pose a major challenge to developing uncertainty-robust digital twins. We introduce the Variational Deep Material Network (VDMN), a physics-informed and microstructure-aware surrogate model that enables efficient and probabilistic forward and inverse predictions of mate"
+        }
+      ]
+    },
+    "lab:d06da72ee798f4ba4518f6fec27c1924": {
+      "display_name": "고분자 기반 에너지 소재 연구실 박수진 교수",
+      "research_intro_first_1200": "Research | SPARK LAB\ntop of page\n메인 콘텐츠로 건너뛰기\nPolymer-based Energy Materials Laboratory\n고분자 기반 에너지 소재 연구실\nResearch\nHOME\n>\nResearch\n>\nOverview\nResearch\nOverview\nLithium-ion Battery\nNext-generation Battery\nStretchable Materials\nOverview\nbottom of page\n\n---\n\nResearchers | SPARK LAB\ntop of page\n메인 콘텐츠로 건너뛰기\nPolymer-based Energy Materials Laboratory\n고분자 기반 에너지 소재 연구실\nMembers\nHOME\n>\nMembers\n>\nResearchers\nMEMBERS\nResearchers\nResearchers\nGraduates\nAlumni\nDr. Jaeho Jung\n2026. 03~\n​\njoy3013@postech.ac.kr\nDr. Seoha Nam\n2026. 03~\nnjo0107@postech.ac.kr\nDr. Yeong Hun Choi\n​\n2026. 09~\n​\nchldud0105@postech.ac.kr\nDr.\nHyeongseok Lee\n​\n2026. 09~\n​\nhslee98@postech.ac.kr\nYunah Ji\n​\n2026. 09~\n​\njiyunah@postech.ac.kr\nbottom of page",
+      "representative_papers": [
+        {
+          "title": "Constructing Pure Si Anodes for Advanced Lithium Batteries",
+          "abstract_first_400": "ConspectusWith the escalating demands of portable electronics, electric vehicles, and grid-scale energy storage systems, the development of next-generation rechargeable batteries, which boasts high energy density, cost effectiveness, and environmental sustainability, becomes imperative. Accelerating these advancements could substantially mitigate detrimental carbon emissions. The pursuit of main o"
+        },
+        {
+          "title": "Ionically Conductive Elastic Polymer Binder for Ultrahigh Loading Electrode in High‐Energy‐Density Lithium Batteries",
+          "abstract_first_400": "Abstract Despite the increasing demand for high‐energy‐density lithium batteries, the development of high‐mass‐loading electrodes remains challenged by structural instability and poor charge transfer. Herein, an ionically conductive elastic polymer (ICEP) binder, designed to enable the fabrication of ultrahigh mass‐loading Ni‐rich layered cathodes (LiNi 0.8 Co 0.1 Mn 0.1 O 2 , NCM811), is introduc"
+        },
+        {
+          "title": "Mesoporous Silicon Hollow Nanocubes Derived from Metal–Organic Framework Template for Advanced Lithium-Ion Battery Anode",
+          "abstract_first_400": "Controlling the morphology of nanostructured silicon is critical to improving the structural stability and electrochemical performance in lithium-ion batteries. The use of removable or sacrificial templates is an effective and easy route to synthesize hollow materials. Herein, we demonstrate the synthesis of mesoporous silicon hollow nanocubes (m-Si HCs) derived from a metal–organic framework (MOF"
+        },
+        {
+          "title": "Lithium Accommodation in a Redox‐Active Covalent Triazine Framework for High Areal Capacity and Fast‐Charging Lithium‐Ion Batteries",
+          "abstract_first_400": "Abstract The synthesis of a new type of redox‐active covalent triazine framework (rCTF) material, which is promising as an anode for Li‐ion batteries, is reported. After activation, it has a capacity up to ≈1190 mAh g−1 at 0.5C with a current density of 300 mA g−1 and a high cycling stability of over 1000 discharge/charge cycles with a stable Coulombic efficiency in an rCTF/Li half‐cell. This rCTF"
+        },
+        {
+          "title": "Stretchable batteries with gradient multilayer conductors",
+          "abstract_first_400": "and remarkable cycle retention of 96% after 1000 cycles. The hierarchical GAP nanocomposites afford rapid fabrication of advanced charge storage devices."
+        }
+      ]
+    },
+    "lab:d12e80aff84ef9dc0c0938fdbb05d8f7": {
+      "display_name": "종양억제분자구조 연구실 조윤제 교수",
+      "research_intro_first_1200": "Research | Structural Biology Of Cancer Lab\ntop of page\n메인 콘텐츠로 건너뛰기\nWix로 제작된 웹사이트입니다. 지금 나만의 사이트를 만들어 보세요.\n시작하기\nResearch\nG-Protein Coupled Receptors\nDeorphanizing the orphan GPCRs\n​(미지의 수용체들의 정체를 밝히는 일)\nOrphan receptor\n결합\nligand\n발굴 및 복합체 구조 규명\nGPCR assay\n신약 발굴\n막단백질 공학\nReceptor Tyrosine Kinase\n​​세포 성장 조절 수용체들의 신호 기작 연구\n항체 발굴\n신호 조절 분자 디자인\n압타머 디자인 및 발굴\n정제 및 복합체 구조 규명\nTime-resolved X-ray Crystallography\n다양한 효소들의 반응 기작 연구\n반응 중간체 구조 규명\n결정과 기질 배송 시스템 연구\n​효소 단백질 정제 및 미세 결정화\nProjects (Genomic stability)\nTELO2-TTI1-TTI2 complex & Nse1-Nse3-Nse4 complex\nProjects (Genomic stability)\nFanconi anemia protein complex & MR complex\nbottom of page",
+      "representative_papers": [
+        {
+          "title": "A stepwise activation model for the insulin receptor",
+          "abstract_first_400": "The binding of insulin to the insulin receptor (IR) triggers a cascade of receptor conformational changes and autophosphorylation, leading to the activation of metabolic and mitogenic pathways. Recent advances in the structural and functional analyses of IR have revealed the conformations of the extracellular domains of the IR in inactive and fully activated states. However, the early activation m"
+        },
+        {
+          "title": "Eukaryotic Rad50 functions as a rod-shaped dimer",
+          "abstract_first_400": "The Rad50 hook interface is crucial for assembly and various functions of the Mre11 complex. Previous analyses suggested that Rad50 molecules interact within (intracomplex) or between (intercomplex) dimeric complexes. In this study, we determined the structure of the human Rad50 hook and coiled-coil domains. The data suggest that the predominant structure is the intracomplex, in which the two para"
+        },
+        {
+          "title": "Structural Basis for Activation of the Heterodimeric GABAB Receptor",
+          "abstract_first_400": "The neurotransmitter γ-aminobutyric acid (GABA) activates the metabotropic GABAB receptor to generate slow, prolonged inhibitory signals that regulate the neural circuitry. The GABAB receptor is an obligate heterodimeric G protein-coupled receptor (GPCR) comprised of GBR1 and GBR2 subunits, each with extracellular, seven-helix transmembrane (7TM), and coiled-coil domains. To understand how GABA-dr"
+        },
+        {
+          "title": "Structure of the class C orphan GPCR GPR158 in complex with RGS7-Gβ5",
+          "abstract_first_400": "GPR158, a class C orphan GPCR, functions in cognition, stress-induced mood control, and synaptic development. Among class C GPCRs, GPR158 is unique as it lacks a Venus flytrap-fold ligand-binding domain and terminates Gαi/o protein signaling through the RGS7-Gβ5 heterodimer. Here, we report the cryo-EM structures of GPR158 alone and in complex with one or two RGS7-Gβ5 heterodimers. GPR158 dimerize"
+        },
+        {
+          "title": "Functional selectivity of insulin receptor revealed by aptamer-trapped receptor structures",
+          "abstract_first_400": "Activation of insulin receptor (IR) initiates a cascade of conformational changes and autophosphorylation events. Herein, we determined three structures of IR trapped by aptamers using cryo-electron microscopy. The A62 agonist aptamer selectively activates metabolic signaling. In the absence of insulin, the two A62 aptamer agonists of IR adopt an insulin-accessible arrowhead conformation by mimick"
+        }
+      ]
+    },
+    "lab:e31d4bcbaa05eebde016e26cd1b7ea17": {
+      "display_name": "신호처리 및 제어 박부견 교수",
+      "research_intro_first_1200": "Welcome Message | 신호처리 및 제어 연구실\n본문 바로가기\nAbout\n홈으로\nAbout\nAbout\nResearch\nMember\nPublication\nLecture\nBoard\nWelcome Message\nWelcome Message\nContact\nWelcome Message\nWelcome to Signal Processing and Control laboratory!\nSignal Processing and Control Laboratory has been organized since 1996. We are currently focusing on convex optimization theories applied to control, estimation, and signal processing, while also engaging in collaborative projects with various companies. For detailed information on our research and industry projects, please refer to the Research Area and Project sections, respectively.\n신호처리 및 제어 연구실은 1996년부터 설립되어 운영되고 있습니다. 현재 제어, 추정, 신호 처리 분야에 응용되는 convex optimization 이론에 중점을 두고 연구를 진행하고 있으며, 여러 기업과 함께 과제 또한 수행하고 있습니다. 연구 분야 및 기업 과제에 관한 자세한 소개는 각각 Research area 및 Project 섹션을 참고 부탁드립니다.\nWe are actively seeking passionate individuals interested in control theory and adaptive filter. If you're interested in joining our team, please email our professor\nPooGyeon Park(박부견)\nat\nppg@postech.ac.kr\n. Please kindly attach your CV and include a summary of your research interests.\nWe look forward to potentially collaborating with you on exciting scientific endeavors!\n페이지 프린트 하기\n페이지 URL",
+      "representative_papers": [
+        {
+          "title": "Affine Bessel–Legendre inequality: Application to stability analysis for systems with time-varying delays",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Stability and Hopf-bifurcation analysis of diffusive Leslie–Gower prey–predator model with the Allee effect and carry-over effects",
+          "abstract_first_400": "Identification of the various dynamical kinetics relating to prey–predator interconnection is the main goal of theoretical ecologists. In addition to direct killing (the lethal effect) in prey–predator interactions, a number of studies have suggested that there are some indirect effects (non-lethal), such as fear of predation. This non-lethal effect slows down the growth rate of prey and this phen"
+        },
+        {
+          "title": "Finite-interval quadratic polynomial inequalities and their application to time-delay systems",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "An Explainable Convolutional Neural Network for Fault Diagnosis in Linear Motion Guide",
+          "abstract_first_400": "A linear motion (LM) guide is a mechanical tool for requiring linear motion in a system. Repeating linear movements can cause cracking and deterioration of the LM guide, which can lead to a decrease in productivity. Therefore, predicting the status of the LM guide and diagnosing faults are essential for systems including the LM guide. In this article, we propose a novel framework of fault diagnosi"
+        },
+        {
+          "title": "Stabilization of a Bias-Compensated Normalized Least-Mean-Square Algorithm for Noisy Inputs",
+          "abstract_first_400": "This paper proposes a stability-guaranteed bias-compensated normalized least-mean-square (BC-NLMS) algorithm for noisy inputs. The bias-compensated algorithms require the estimated input noise variance in the elimination process of the bias caused by noisy inputs. However, the conventional methods of estimating the input noise variance in those algorithms might cause the instability for a specific"
+        }
+      ]
+    },
+    "lab:f037b4e02b5c35c9f16c8d2732c074b4": {
+      "display_name": "Actuarial modeling, Insurance and Risk Management (AIRM) Lab 정광민 교수",
+      "research_intro_first_1200": "Research Areas | Professor Kwangmin Jung | POSTECH AIRM Lab\n본문 바로가기\nAIRM\nActuarial modeling, Insurance\n& Risk Management Research Group\nHot Issue\n보험연구원, ‘2026 국제 리스크·보험 워크숍’ 개최… 글로벌 석학 한자리에\n보험연구원이 29일 서울 여의도 FKI타워 컨퍼런스센터 다이아몬드홀에서 ‘2026 국제 리스크·보험 워크숍(International Workshop on Risk and Insurance)’을 개최하고 인공지능(AI)·사이버 리스크, 기후변화와 극한기상, 보험 데이터 사이언스와 시장 혁신을 논의했다. 이번 행사는 포항공과대학교 , 일리노이대학교, 사이먼프레이저대학교, 보험연구원이 공동 주최했으며 국내외 보험·계리·리스크관리 전문가들이 발표와 패널토론에 참여했다.김헌수 보험연구원 원장은 축사에서 “이번 워크숍을 가능하게 한 공동 주최 기관과 관계자들에게 감사한다”며 “학계와 산업계를 연결하는 이번 행사는 예측하기 어려운 미래에 대응하기 위한 보험산업의 의지를 보여주는 자리”라고 말했다. 김 원장은 글로벌 보험산업이 중대한 전환점에 놓여 있다고 진단했다. 그는 “전통적인 리스크 패러다임은 전례 없는 기술 발전과 급격한 환경 변화 속에서 바뀌고 있다”며 “이번 프로그램은 AI 혁명과 사이버 리스크, 기후변화와 극한기상, 보험 데이터 사이언스와 시장 혁신이라는 세 가지 축을 중심으로 구성됐다”고 설명했다. 이어 “인공지능은 리스크가 구조화되고 평가되며 관리되는 방식을 근본적으로 바꾸고 있다”며 “동시에 디지털 전환은 복잡한 사이버 취약성을 동반하고 있어 즉각적이고 정교한 대응이 필요하다”고 말했다.\nmore\nContact Us\nPOSTECH, The 4th Science Building, Office 411\nTel : 054-279-8238\nkimjeongwoon@postech.ac.kr\nNews\nProf. Ruo Alex Jia (Peking University) was invited for department seminar and visited AIRM Lab.\n2026-10\nProf. Kwangmin Jung provided expert advisory for Gyeonggi Research Institute's research project, \"Policy direction f",
+      "representative_papers": [
+        {
+          "title": "CEO political orientation, risk taking, and firm performance: evidence from the U.S. property-liability insurance industry",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Copula approaches for modeling cross-sectional dependence of data breach losses",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "The effect of corporate risk management on cyber risk mitigation: Evidence from the insurance industry",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Unraveling heterogeneity in cyber risks using quantile regressions",
+          "abstract_first_400": ""
+        },
+        {
+          "title": "Extreme Data Breach Losses: An Alternative Approach to Estimating Probable Maximum Loss for Data Breach Risk",
+          "abstract_first_400": "This study proposes a measure of the data breach risk’s probable maximum loss, which stands for the worst data breach loss likely to occur, using an alternative approach to estimating the potential loss degree of an extreme event with one of the largest private databases for data breach risk. We determine stationarity, the presence of autoregressive feature, and the Fréchet type of generalized ext"
+        }
+      ]
+    },
+    "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8": {
+      "display_name": "Innovative Energy Materials Lab. 홍지현 교수",
+      "research_intro_first_1200": "Jihyun Hong Lab at POSTECH | Innovative Energy Materials Laboratory\n뒤로\n뒤로\n더보기\n게시물 알림\n내 글 반응\n내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.\n공지사항\n사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.\nAlarm\n마이페이지\n로그아웃\n로그인이 필요합니다.\n로그인\nHome\nPeople\nPI\nMembers\nAlumni\nResearch\nResearch Color\nResearch Theme\nPublications\nPapers\nPatents\nCover Arts\nNews\nGallery\nContact\n닫기\nJihyun Hong Lab at POSTECH | Innovative Energy Materials Laboratory\nHome\nPeople\nPI\nMembers\nAlumni\nResearch\nResearch Color\nResearch Theme\nPublications\nPapers\nPatents\nCover Arts\nNews\nGallery\nContact\nResearch Color\nResearch Color\nResearch Theme\nDiscovering the Principles Behind Better Batteries\nTransformative battery technologies begin with understanding how materials truly behave. At IEML, we uncover the fundamental mechanisms governing electrochemical reactions across atomic, particle, and electrode scales, and translate these insights into the rational design of next-generation energy materials.",
+      "representative_papers": [
+        {
+          "title": "Weakly Solvating Solution Enables Chemical Prelithiation of Graphite–SiOx Anodes for High-Energy Li-Ion Batteries",
+          "abstract_first_400": "Although often overlooked in anode research, the anode’s initial Coulombic efficiency (ICE) is a crucial factor dictating the energy density of a practical Li-ion battery. For next-generation anodes, a blend of graphite and Si/SiO x represents the most practical way to balance capacity and cycle life, but its low ICE limits its commercial viability. Here, we develop a chemical prelithiation method"
+        },
+        {
+          "title": "Molecularly Tailored Lithium–Arene Complex Enables Chemical Prelithiation of High‐Capacity Lithium‐Ion Battery Anodes",
+          "abstract_first_400": "Prelithiation is of great interest to Li-ion battery manufacturers as a strategy for compensating for the loss of active Li during initial cycling of a battery, which would otherwise degrade its available energy density. Solution-based chemical prelithiation using a reductive chemical promises unparalleled reaction homogeneity and simplicity. However, the chemicals applied so far cannot dope activ"
+        },
+        {
+          "title": "High-performance sodium–organic battery by realizing four-sodium storage in disodium rhodizonate",
+          "abstract_first_400": "Sodium-ion batteries (SIBs) for grid-scale applications need active materials that combine a high energy density with sustainability. Given the high theoretical specific capacity 501 mAh g−1, and Earth abundance of disodium rhodizonate (Na2C6O6), it is one of the most promising cathodes for SIBs. However, substantially lower reversible capacities have been obtained compared with the theoretical va"
+        },
+        {
+          "title": "Decoupling capacity fade and voltage decay of Li-rich Mn-rich cathodes by tailoring surface reconstruction pathways",
+          "abstract_first_400": "Stabilizing lattice oxygen at the electrochemical interface of Li-/Mn-rich cathodes preferentially promotes layered-to-spinel phase transition and suppresses rocksalt phase formation, offering excellent capacity retention."
+        },
+        {
+          "title": "Stimulating Cu–Zn alloying for compact Zn metal growth towards high energy aqueous batteries and hybrid supercapacitors",
+          "abstract_first_400": "A synthetic method to construct a highly stable, densely packed Zn anode is presented by provoking the unusual Cu–Zn alloying alongside Zn plating. The compact Zn anode retains its morphology over repeated plating/stripping cycles in aqueous media."
+        }
+      ]
+    },
+    "lab:fdf7c49c167de224cc78528fcfdcfbe8": {
+      "display_name": "면역 미생물 상호작용 연구실 김광순 교수",
+      "research_intro_first_1200": "POSTECH IMI Lab - Research\nResearch\n장내 공생 미생물 (gut microbiota species)는 숙주 (host)의 생리 작용에 강범위한 영향을 미치는 환경 요인으로 알려져 있습니다. 또한 장내 공생 미생물총 (gut microbiota)의 불균형 및 기능 이상은 현대 사회에서 다양한 난치성 질환의 증가를 야기하는 주요 원인으로 생각되고 있습니다(Figure 1).\n어떻게 gut microbiota가 숙주의 생리 작용, 다양한 질환 발생 및 진행에 영향을 미칠 수 있는지에 대한 기초 연구 및 이를 활용하여 사람에서의 난치성 질환 치료에 이용할 수 있는지에 대한 응용 연구가 국내외에서 활발화게 진행되고 있습니다. 특히, 단순히 gut microbiota와 질환과의 상관 관계 규명에서 벗어나 (next generation sequencing 에 기반응 둔 metagenomic analysis를 통한 마이크로바이옴 연구), gut microbiota와 질환 간의 인과 관계를 규명하고, 관련 기작을 규명하는 것은 포스트-마이크로바이옴 (post-microbiome) 연구로서 그 중요성이 강조되고 있습니다(Figure 2).\nFigure 1. 현대 사회에서의 만성 면역 질환의 증가\n다양한 종류의 만성 질환이 현대 사회에서 지속적으로 증가하고 있음. 이러한 진환 증가를 야기하는 요인들은 1) 유전적 요인이 아니며, 2) 외부 자극에 쉽게 변할 수 있으야 하고, 3) 이러한 변화가 다음 세대에 축적 가능한 조건을 충족해야 함. Gut microbiota는 이러한 조건을 가장 잘 충족하고 있음.\nFigure 2. Gut microbiota가 항암 면역 치료 효과에 미치는 영향을 규명하기 위한 연구의 트렌드\n무균 마우스는 gut microbiota 와 다양한 질환 발생/진행 간의 인과 관계 규명을 위해서 필수적인 동물 모델로 광범위하게 이용되고 있습니다(Figure 3). 장내 미생물에 의한 Obesity 조절, 장내 미생물에 의한 점막 면역 반응 조절, 장뇌축 (gut-brain axis), 장내 미생물에 의한 항암면역반응의 조절 등 microbiome research에 있어 중요한 연구들이 무균 마우스 연구를 통해 이루어졌습니다.\nFigure 3. 무균 마우스를 이용한 장내 미생물 연구에 있어서 코흐 가설의 재해석\n본 연구실은  고(故) Charles D. Surh 교수님과 함께 POSTEC",
+      "representative_papers": [
+        {
+          "title": "Clade-specific extracellular vesicles from Akkermansia muciniphila mediate competitive colonization via direct inhibition and immune stimulation",
+          "abstract_first_400": "Akkermansia muciniphila, a promising candidate for next-generation probiotics, exhibits significant genomic diversity, classified into several distinct clades (AmI to AmIV). Notably, a single Akkermansia clade tends to predominate within individual hosts, with co-occurrence of different clades being rare. The mechanisms driving such clade-specific exclusion remain unclear. Here, we show that extra"
+        },
+        {
+          "title": "Food antigens drive spontaneous IgE elevation in the absence of commensal microbiota",
+          "abstract_first_400": "cells in GF mice are actively depleted by colonization with commensal microbiota. Thus, our findings provide a possible explanation for why the perturbation of commensal microbiota in early life increases the occurrence of allergic diseases."
+        },
+        {
+          "title": "Mucin degrader Akkermansia muciniphila accelerates intestinal stem cell-mediated epithelial development",
+          "abstract_first_400": "Mucin-degrading bacteria are densely populated in the intestinal epithelium; however, their interaction with intestinal stem cells (ISCs) and their progeny have not been elucidated. To determine whether mucin-degrading bacteria play a role in gut homeostasis, mice were treated with Akkermansia muciniphila, a specialized species that degrades mucin. Administration of A. muciniphila for 4 weeks acce"
+        },
+        {
+          "title": "Microbiota-Derived Lactate Accelerates Intestinal Stem-Cell-Mediated Epithelial Development",
+          "abstract_first_400": "Symbionts play an indispensable role in gut homeostasis, but underlying mechanisms remain elusive. To clarify the role of lactic-acid-producing bacteria (LAB) on intestinal stem-cell (ISC)-mediated epithelial development, we fed mice with LAB-type symbionts such as Bifidobacterium and Lactobacillus spp. Here we show that administration of LAB-type symbionts significantly increased expansion of ISC"
+        },
+        {
+          "title": "Regulation of T cell repertoires by commensal microbiota",
+          "abstract_first_400": "The gut microbiota plays an important role in regulating the host immune systems. It is well established that various commensal microbial species can induce the differentiation of CD4 + T helper subsets such as Foxp3 + regulatory T (Treg) cells and Th17 cells in antigen-dependent manner. The ability of certain microbial species to induce either Treg cells or Th17 cells is often linked to the alter"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "pair_id": "qp:32eaa9be8c87ec46",
+      "query_id": "q01",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:0e16819046f961b1",
+      "query_id": "q01",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:599ba0fff989f9f4",
+      "query_id": "q01",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:cbdd8a0416a0e579",
+      "query_id": "q01",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:c70ae4c31dbae050",
+      "query_id": "q01",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:7d90991f53104c31",
+      "query_id": "q01",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:8b70a63ad5fea398",
+      "query_id": "q02",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:6c019f46e5c04d65",
+      "query_id": "q02",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:ae77d79fdede25de",
+      "query_id": "q02",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:918954a70bca39cc",
+      "query_id": "q02",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:070fc75466c5da42",
+      "query_id": "q02",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:8ed67cf877673700",
+      "query_id": "q02",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:717407694b75e4b1",
+      "query_id": "q03",
+      "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945"
+    },
+    {
+      "pair_id": "qp:6cd1f8f61a596ec3",
+      "query_id": "q03",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:ce4504198b5f41d9",
+      "query_id": "q03",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:c912d9ec2023436e",
+      "query_id": "q03",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:3836cc6877a45bbb",
+      "query_id": "q03",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:4663c518a76ebbfa",
+      "query_id": "q03",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:6045d24aeee00b18",
+      "query_id": "q03",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:95946c0922347c4c",
+      "query_id": "q04",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:a917d4d12e58a3c6",
+      "query_id": "q04",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:1ff93d4d6c841155",
+      "query_id": "q04",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:972040c31100c1de",
+      "query_id": "q04",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:c5589c402b8d7dba",
+      "query_id": "q04",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:37860a77df91c026",
+      "query_id": "q04",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:650d77dbd4498084",
+      "query_id": "q04",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:e249c48b20d9263e",
+      "query_id": "q04",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:cb2e41898fc71421",
+      "query_id": "q05",
+      "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac"
+    },
+    {
+      "pair_id": "qp:69ceb036a10d5438",
+      "query_id": "q05",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:d288a7f43a470ecd",
+      "query_id": "q05",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:e59d866f184eb26e",
+      "query_id": "q05",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:cbbe6c1040623f97",
+      "query_id": "q05",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:7365ca6839a7a078",
+      "query_id": "q05",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:43b03941c14bd3f6",
+      "query_id": "q05",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:b4b41df409077087",
+      "query_id": "q05",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:914885cb2abd44a1",
+      "query_id": "q05",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:b9aaec029f7988bf",
+      "query_id": "q06",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:dc197082f8010d07",
+      "query_id": "q06",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:7fe5ea30f564f443",
+      "query_id": "q06",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:402edd2b7d755b7f",
+      "query_id": "q06",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:c9071583fe871900",
+      "query_id": "q06",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:57a13e5bd6540035",
+      "query_id": "q07",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:c63a7f2fedbd6fdc",
+      "query_id": "q07",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:fc3fab51ab3c870d",
+      "query_id": "q07",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:a7087f60e354ee8e",
+      "query_id": "q07",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:1a003fe0c4a6a1a5",
+      "query_id": "q07",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:087956debc8903da",
+      "query_id": "q07",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:492d97752ac1f3e2",
+      "query_id": "q07",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:8f26c0cc5fd856d9",
+      "query_id": "q07",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:44f39d38a5e363a4",
+      "query_id": "q07",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:29e59daa90466a71",
+      "query_id": "q08",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:173409492b43fd66",
+      "query_id": "q08",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:665d3a313774e9b5",
+      "query_id": "q08",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:ddf0cdc1e4e8aba6",
+      "query_id": "q08",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:a18ace3ba222ad29",
+      "query_id": "q08",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:6a811c4e6fb7ad28",
+      "query_id": "q08",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:3ade7442e023cb6d",
+      "query_id": "q09",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:768ea054c6f55f34",
+      "query_id": "q09",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:9e955dd9c641040e",
+      "query_id": "q09",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:98c3da05caed3a41",
+      "query_id": "q09",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:ff87bf2b183822d7",
+      "query_id": "q09",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:e98de134c71ad9b9",
+      "query_id": "q09",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:58d47a5bfda470f9",
+      "query_id": "q09",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:fd4b72bc83771b71",
+      "query_id": "q10",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:c10aed1b20be3537",
+      "query_id": "q10",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:b9c7302bba70b5b1",
+      "query_id": "q10",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:08f7436391952317",
+      "query_id": "q10",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:05d8cb48602d4cb5",
+      "query_id": "q10",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:2240a6ea02b62ba3",
+      "query_id": "q10",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:6a77dfc36634d88f",
+      "query_id": "q11",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:d4a93b6ed0ddd367",
+      "query_id": "q11",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:34b25a28a9773821",
+      "query_id": "q11",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:9231638c2773adc6",
+      "query_id": "q11",
+      "lab_id": "lab:7c0d812e4d700c7e56af778d3a824e29"
+    },
+    {
+      "pair_id": "qp:f86572cdbbed0c9b",
+      "query_id": "q11",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:69126c53fe04617e",
+      "query_id": "q11",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:7597b7028dbf7512",
+      "query_id": "q11",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:1eaeae34fe14277a",
+      "query_id": "q11",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:24b3ce0cba2dab84",
+      "query_id": "q12",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:8bced202ddf9cbf6",
+      "query_id": "q12",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:5c4f08787b07a117",
+      "query_id": "q12",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:51c9f30b10f12a2d",
+      "query_id": "q12",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:f712180aa64e7689",
+      "query_id": "q12",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:828b8804d66009ce",
+      "query_id": "q12",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:30d0e42d0dbd7282",
+      "query_id": "q12",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:72ace149cf354770",
+      "query_id": "q13",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:c5686a7c642ac57c",
+      "query_id": "q13",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:40f81ede48fed149",
+      "query_id": "q13",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:bfad7c9287530a69",
+      "query_id": "q13",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:7652280bb6d5b43a",
+      "query_id": "q13",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:3a030bba73fba03b",
+      "query_id": "q13",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:14d67d8607b34fcc",
+      "query_id": "q14",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:1554493ea9a49025",
+      "query_id": "q14",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:27a882a23732853d",
+      "query_id": "q14",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:06ea9c571e9c6558",
+      "query_id": "q14",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:88d6b8ad241d759c",
+      "query_id": "q14",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:79132ea9d0d27307",
+      "query_id": "q14",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:255b0051f472be4b",
+      "query_id": "q14",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:5e8eb547be49539d",
+      "query_id": "q14",
+      "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8"
+    },
+    {
+      "pair_id": "qp:43a128d230b07d78",
+      "query_id": "q15",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:398984291c77d252",
+      "query_id": "q15",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:0581478c5b07823e",
+      "query_id": "q15",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:b7593d6cd7d0a705",
+      "query_id": "q15",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:f89a43630b58964e",
+      "query_id": "q15",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:b3e367ea76cfe974",
+      "query_id": "q15",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:cdb456dc5d89e6c5",
+      "query_id": "q16",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:2874b28d1ffe7bc9",
+      "query_id": "q16",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:227d822331ab744d",
+      "query_id": "q16",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:61e0f7acedc11388",
+      "query_id": "q16",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:09da7b4a6d707767",
+      "query_id": "q16",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:700cc691a0d8404e",
+      "query_id": "q16",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:e928bf908b75c8f8",
+      "query_id": "q17",
+      "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac"
+    },
+    {
+      "pair_id": "qp:954a82676399afee",
+      "query_id": "q17",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:047b0ee2d3965c00",
+      "query_id": "q17",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:d5379b35769752bf",
+      "query_id": "q17",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:3e36b97bc0d3a0f6",
+      "query_id": "q17",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:271a5022f8354c44",
+      "query_id": "q17",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:580c7af050623ff4",
+      "query_id": "q17",
+      "lab_id": "lab:d06da72ee798f4ba4518f6fec27c1924"
+    },
+    {
+      "pair_id": "qp:4a31763d07d5ec3a",
+      "query_id": "q18",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:fe6a5e1259a15c99",
+      "query_id": "q18",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:5df941ee26128391",
+      "query_id": "q18",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:22136ce4b57c0af6",
+      "query_id": "q18",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:bafd6eb65461726d",
+      "query_id": "q18",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:176e0f19df04d5de",
+      "query_id": "q18",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:d64eaf111bbb2b98",
+      "query_id": "q18",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:48c84e3b27466e7e",
+      "query_id": "q18",
+      "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8"
+    },
+    {
+      "pair_id": "qp:f474a51457634530",
+      "query_id": "q19",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:392a0ce9c8a8fa23",
+      "query_id": "q19",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:16a6025bf35d6d98",
+      "query_id": "q19",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:89a1a2d507aba0ca",
+      "query_id": "q19",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:6ab1e8e3a76beb46",
+      "query_id": "q19",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:552485c8e97b8595",
+      "query_id": "q19",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:58d64aff85223cb1",
+      "query_id": "q19",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:3c62e0292c6ca1ce",
+      "query_id": "q20",
+      "lab_id": "lab:2cd5dbaa3e7b7003ea45552abfd54cc6"
+    },
+    {
+      "pair_id": "qp:6cb6c67b5e8cb8b1",
+      "query_id": "q20",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:f1f4639487f80987",
+      "query_id": "q20",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:5883c9dde6540ac1",
+      "query_id": "q20",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:389b15bb6302c9fa",
+      "query_id": "q20",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:ec2764a58373dd70",
+      "query_id": "q20",
+      "lab_id": "lab:820d6eb33837425aab1270d236524366"
+    },
+    {
+      "pair_id": "qp:9ed4e01651213298",
+      "query_id": "q20",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:666666d876c8e572",
+      "query_id": "q20",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:921f49e2f495f797",
+      "query_id": "q21",
+      "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945"
+    },
+    {
+      "pair_id": "qp:bc1c79f6d41112f9",
+      "query_id": "q21",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:31f5e724e485cdc1",
+      "query_id": "q21",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:47b3e583efa87009",
+      "query_id": "q21",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:c1d8272a6d4dc601",
+      "query_id": "q21",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:958b8e2c1301681d",
+      "query_id": "q21",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:adf169c23506ff46",
+      "query_id": "q21",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:b86c1ca13523f48e",
+      "query_id": "q21",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:482d420d3499a7f7",
+      "query_id": "q22",
+      "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945"
+    },
+    {
+      "pair_id": "qp:52a1a70f04fb760b",
+      "query_id": "q22",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:983262b8cd04b6c0",
+      "query_id": "q22",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:cf0b5ac5275d25da",
+      "query_id": "q22",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:4f5f57d1d7290b30",
+      "query_id": "q22",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:e8896e037ddae29a",
+      "query_id": "q22",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:466b5fd3a4f2fdb2",
+      "query_id": "q22",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:152489de26e57bf2",
+      "query_id": "q22",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:1bfc5135fc8acaa3",
+      "query_id": "q23",
+      "lab_id": "lab:19b352c9ef06346d69d36e9456cdff0d"
+    },
+    {
+      "pair_id": "qp:9654d089f2fb668b",
+      "query_id": "q23",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:4b2bbd6b6062b865",
+      "query_id": "q23",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:3671ab50ba60407a",
+      "query_id": "q23",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:dc4201b953b5eb13",
+      "query_id": "q23",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:c66f172dba29b4cf",
+      "query_id": "q23",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:344fed18477cd641",
+      "query_id": "q23",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:d72a273bff98be8e",
+      "query_id": "q23",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:75e96171b0e50cbf",
+      "query_id": "q23",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:dd16cde3a30656d0",
+      "query_id": "q24",
+      "lab_id": "lab:19b352c9ef06346d69d36e9456cdff0d"
+    },
+    {
+      "pair_id": "qp:94dbd9d7324a7625",
+      "query_id": "q24",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:5506b57633f1acc4",
+      "query_id": "q24",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:3ffdfbe1343a593b",
+      "query_id": "q24",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:9e8f5bbff704e706",
+      "query_id": "q24",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:e062af3167e307dc",
+      "query_id": "q24",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:759d6de8502adfc1",
+      "query_id": "q24",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:4ec40df6f92a7072",
+      "query_id": "q24",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:b3e2218564a689b5",
+      "query_id": "q25",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:d8ff080ec1d0c6e6",
+      "query_id": "q25",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:014c831983cdeb4b",
+      "query_id": "q25",
+      "lab_id": "lab:70abd7783b52e6b717497551092700f7"
+    },
+    {
+      "pair_id": "qp:e9ad8065958a8d68",
+      "query_id": "q25",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:a02481b0bbbd96b9",
+      "query_id": "q25",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:fcb287d59fafd1a2",
+      "query_id": "q25",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:1276b536b89140b9",
+      "query_id": "q25",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:11e71e24505491f7",
+      "query_id": "q25",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:ca3e0d50d9aff2ff",
+      "query_id": "q26",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:cebb78df61ed866b",
+      "query_id": "q26",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:bbc805865820cf38",
+      "query_id": "q26",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:7c050bf56a0e5b90",
+      "query_id": "q26",
+      "lab_id": "lab:70abd7783b52e6b717497551092700f7"
+    },
+    {
+      "pair_id": "qp:38ebea8bc1855b42",
+      "query_id": "q26",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:7f3b0c833caceea0",
+      "query_id": "q26",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:1ecb9295c6914351",
+      "query_id": "q26",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:40e76ecc2b31b924",
+      "query_id": "q26",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:5dbab3ec5c22ca24",
+      "query_id": "q26",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:fc21ea155b9707b2",
+      "query_id": "q27",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:b73f3213c801bac7",
+      "query_id": "q27",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:7a4854683d48fc1f",
+      "query_id": "q27",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:b3cd282e057ac612",
+      "query_id": "q27",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:e646815dc4377212",
+      "query_id": "q27",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:635ac8d03bf102bb",
+      "query_id": "q27",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:04076ef26e4b5aef",
+      "query_id": "q27",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:89b05091ce4cea9a",
+      "query_id": "q28",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:afa665f1a62cab63",
+      "query_id": "q28",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:15c8596d11fddac2",
+      "query_id": "q28",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:090297939b7e458d",
+      "query_id": "q28",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:c154feeae3d603ed",
+      "query_id": "q28",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:d3a80216be9f3532",
+      "query_id": "q28",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:3968d85eb1e6e689",
+      "query_id": "q29",
+      "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac"
+    },
+    {
+      "pair_id": "qp:b8dfcd1f6d506b00",
+      "query_id": "q29",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:754c8e900ef39866",
+      "query_id": "q29",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:e5dc348ac1cb77d0",
+      "query_id": "q29",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:6bedf664879275da",
+      "query_id": "q29",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:da35ee23b6eab4a8",
+      "query_id": "q29",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:152d40bf22a2ae4d",
+      "query_id": "q29",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:2eb2e495a57c3473",
+      "query_id": "q29",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:f70f662391320f93",
+      "query_id": "q30",
+      "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac"
+    },
+    {
+      "pair_id": "qp:8619edd20ea3fb6e",
+      "query_id": "q30",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:78ca7d3e81384303",
+      "query_id": "q30",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:1541237f5c33b048",
+      "query_id": "q30",
+      "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140"
+    },
+    {
+      "pair_id": "qp:b8b6815f1e7705d8",
+      "query_id": "q30",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:0d075c5a4a22c226",
+      "query_id": "q30",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:8a409c29dcbe285c",
+      "query_id": "q30",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:443148edea5ab7fe",
+      "query_id": "q30",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:1e3580a3b7183640",
+      "query_id": "q31",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:cd5f7d36f01bbc45",
+      "query_id": "q31",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:f590da06723e590c",
+      "query_id": "q31",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:d30fd4ecd6fe0560",
+      "query_id": "q31",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:30e21d0b5fb28c15",
+      "query_id": "q31",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:dac320321d5acf47",
+      "query_id": "q31",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:f7e774786c3d98db",
+      "query_id": "q31",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:bf9e28e6d0e6d11b",
+      "query_id": "q31",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:c873e714330d38f6",
+      "query_id": "q31",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:bc23cfc978485c84",
+      "query_id": "q32",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:615a26492173c274",
+      "query_id": "q32",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:b604a373dffe0496",
+      "query_id": "q32",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:b767320b1406cab2",
+      "query_id": "q32",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:1d603cd72b54c2e2",
+      "query_id": "q32",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:97127ecceed57994",
+      "query_id": "q32",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:597b15377a9ff19b",
+      "query_id": "q32",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:5e55da2deee84f8b",
+      "query_id": "q32",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:274232ce4b8df4be",
+      "query_id": "q32",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:b4e19d5edbc911bb",
+      "query_id": "q33",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:0e2fcad89f5bb14a",
+      "query_id": "q33",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:2a6281ddaa14ef3c",
+      "query_id": "q33",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:53da2506a184f2ac",
+      "query_id": "q33",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:d19f7b38a6da7190",
+      "query_id": "q33",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:fea5b8174beab048",
+      "query_id": "q33",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:1af41a6fbbcd897c",
+      "query_id": "q33",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:87c7630c00d184d6",
+      "query_id": "q34",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:ccb96f0d7f6a153d",
+      "query_id": "q34",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:135eef3b0647f587",
+      "query_id": "q34",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:b266f1ba64241c27",
+      "query_id": "q34",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:f6fcc8c4963de765",
+      "query_id": "q34",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:9935e55cac851685",
+      "query_id": "q34",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:fc1de4c7babb079a",
+      "query_id": "q34",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:46d937ca0ffc94af",
+      "query_id": "q35",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:30aa4f9645465ef4",
+      "query_id": "q35",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:e68287c84879a6dd",
+      "query_id": "q35",
+      "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb"
+    },
+    {
+      "pair_id": "qp:41ff7b70df217fa4",
+      "query_id": "q35",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:7da0ad491d2003de",
+      "query_id": "q35",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:b5481a69665f6229",
+      "query_id": "q35",
+      "lab_id": "lab:7c0d812e4d700c7e56af778d3a824e29"
+    },
+    {
+      "pair_id": "qp:4978eb743b6b1d44",
+      "query_id": "q35",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:e4da3bd0fb3997f4",
+      "query_id": "q35",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:1e1a68dce998f65c",
+      "query_id": "q35",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:e78a7e332682d995",
+      "query_id": "q36",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:d4f4d29574cb9adb",
+      "query_id": "q36",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:bbec3e9cd454551b",
+      "query_id": "q36",
+      "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb"
+    },
+    {
+      "pair_id": "qp:98995fec631412fa",
+      "query_id": "q36",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:ddd14f9cc738be6d",
+      "query_id": "q36",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:f7962eb2f37f9822",
+      "query_id": "q36",
+      "lab_id": "lab:7c0d812e4d700c7e56af778d3a824e29"
+    },
+    {
+      "pair_id": "qp:1a986b26ae315215",
+      "query_id": "q36",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:1b017c3446a8ff16",
+      "query_id": "q36",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:aa44cc0bfebee59a",
+      "query_id": "q36",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:5b66c7c321e59115",
+      "query_id": "q36",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:7bcd38555e4200d8",
+      "query_id": "q37",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:da950d64920ab5f7",
+      "query_id": "q37",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:a2e63a3e95bff989",
+      "query_id": "q37",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:9cf01339dca1e52d",
+      "query_id": "q37",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:c0d1b5304386ccb8",
+      "query_id": "q37",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:c88f28eb2dd88ac4",
+      "query_id": "q38",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:a3ac18f663ac65e1",
+      "query_id": "q38",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:684d1dc7b8bc9d2e",
+      "query_id": "q38",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:2476c7ad233b1d82",
+      "query_id": "q38",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:974c82a572abc1b8",
+      "query_id": "q38",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:97354a13992810d4",
+      "query_id": "q39",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:f14b5866a1a70775",
+      "query_id": "q39",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:cfc475f5af024a20",
+      "query_id": "q39",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:93d41ed47659264c",
+      "query_id": "q39",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:d1322f61c80979ac",
+      "query_id": "q39",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:af57f11c251ff2eb",
+      "query_id": "q39",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:32218e00fc2b05c0",
+      "query_id": "q39",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:c8ac5ecfd53026d3",
+      "query_id": "q39",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:35157127e9443171",
+      "query_id": "q39",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:24d4ee5387df63c8",
+      "query_id": "q40",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:cd4455d7a2fc9bc1",
+      "query_id": "q40",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:6683321f6db3b19b",
+      "query_id": "q40",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:d4ae3431f8a5b782",
+      "query_id": "q40",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:ce0cbfce562e3899",
+      "query_id": "q40",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:cd2cdf7ee8f2dc8a",
+      "query_id": "q40",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:8c25f938c0d1fd8b",
+      "query_id": "q40",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:30a4520f75c270bb",
+      "query_id": "q40",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:80691bb9ac1be900",
+      "query_id": "q40",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:8b690736acf2c477",
+      "query_id": "q40",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:4afa2b9ff5c7ab3e",
+      "query_id": "q41",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:c1238dfb1fe74b15",
+      "query_id": "q41",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:c83d859ae47e0390",
+      "query_id": "q41",
+      "lab_id": "lab:48ab3d77da069de620678d533d334880"
+    },
+    {
+      "pair_id": "qp:9d36ec4c9fcaa1f9",
+      "query_id": "q41",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:b6fd2416ff6913dc",
+      "query_id": "q41",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:f055f76905cea058",
+      "query_id": "q41",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:ad518e21f29274fd",
+      "query_id": "q41",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:4c30d2a7b2799b08",
+      "query_id": "q41",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:24050a47e1d282cf",
+      "query_id": "q42",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:97425d15653816de",
+      "query_id": "q42",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:68a51051a3d17e25",
+      "query_id": "q42",
+      "lab_id": "lab:48ab3d77da069de620678d533d334880"
+    },
+    {
+      "pair_id": "qp:65168fe458e42b28",
+      "query_id": "q42",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:4a2bcf923a470f3c",
+      "query_id": "q42",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:cffb916349e6f0b9",
+      "query_id": "q42",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:e87518a69fefa1ad",
+      "query_id": "q42",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:fb2de00d7db99ac3",
+      "query_id": "q42",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:98ec595d9d92f3f6",
+      "query_id": "q42",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:43d6c329c6899aa7",
+      "query_id": "q43",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:89b6fedd6cb70a9c",
+      "query_id": "q43",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:54017eae4d766274",
+      "query_id": "q43",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:4b9362b16ef87816",
+      "query_id": "q43",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:336cd1652288789f",
+      "query_id": "q43",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:c5aca29014ab8003",
+      "query_id": "q43",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:2e8f180204dfa629",
+      "query_id": "q43",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:5ca4bed86c305e5d",
+      "query_id": "q43",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:6420d042cb3c9723",
+      "query_id": "q43",
+      "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8"
+    },
+    {
+      "pair_id": "qp:a64a05aa1a579f9b",
+      "query_id": "q44",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:4980495f39dc5784",
+      "query_id": "q44",
+      "lab_id": "lab:50705cf571ba48309476bb553c2356b8"
+    },
+    {
+      "pair_id": "qp:06825f760a87629e",
+      "query_id": "q44",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:ccf9b77cee246673",
+      "query_id": "q44",
+      "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e"
+    },
+    {
+      "pair_id": "qp:5ac3a332d8f43f92",
+      "query_id": "q44",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:91ef7e21acf480e3",
+      "query_id": "q44",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:9cd1f4cf20dccdb1",
+      "query_id": "q44",
+      "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8"
+    },
+    {
+      "pair_id": "qp:447851484d32071b",
+      "query_id": "q45",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:2c613c98f6d697ab",
+      "query_id": "q45",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:1b0f6d4404ab7258",
+      "query_id": "q45",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:f713a9344edd0e4c",
+      "query_id": "q45",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:5054994fb701cc66",
+      "query_id": "q45",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:b10deb43ed78aab1",
+      "query_id": "q45",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:74d55b736540a734",
+      "query_id": "q45",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:6beed4be7cb03cd1",
+      "query_id": "q46",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:208979c0963d67b7",
+      "query_id": "q46",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:4aa23ad6337f0974",
+      "query_id": "q46",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:f2dd0d6be94f3d28",
+      "query_id": "q46",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:613673a89d95bc2c",
+      "query_id": "q46",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:61ddec8bcbae1188",
+      "query_id": "q46",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:239eb601694cc381",
+      "query_id": "q47",
+      "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945"
+    },
+    {
+      "pair_id": "qp:497f4963db9c449a",
+      "query_id": "q47",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:7ecdd4e9be27f9d2",
+      "query_id": "q47",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:c386e1755a77c42d",
+      "query_id": "q47",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:bf3dd0850f40d452",
+      "query_id": "q47",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:458037e49a8437f0",
+      "query_id": "q47",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:ea2af99cfe833792",
+      "query_id": "q47",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:3eeba09eff61c8fa",
+      "query_id": "q47",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:3a8328e9d9d238c2",
+      "query_id": "q47",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:b0d9fd78c9eb8470",
+      "query_id": "q48",
+      "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945"
+    },
+    {
+      "pair_id": "qp:d25dce33186a2d88",
+      "query_id": "q48",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:f0e6e588f6b25878",
+      "query_id": "q48",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:794459d0fa34ca2b",
+      "query_id": "q48",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:699c5e810a2edbb0",
+      "query_id": "q48",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:0bc2b9866c7d053f",
+      "query_id": "q48",
+      "lab_id": "lab:b59a79cbe921942c5d3909da04708904"
+    },
+    {
+      "pair_id": "qp:012b53b855b7b42c",
+      "query_id": "q48",
+      "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7"
+    },
+    {
+      "pair_id": "qp:7f78b2b039eb838b",
+      "query_id": "q48",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:294df02f61128c4f",
+      "query_id": "q49",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:59fc37b372ea76f9",
+      "query_id": "q49",
+      "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef"
+    },
+    {
+      "pair_id": "qp:e5ed1ab0e01266ef",
+      "query_id": "q49",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:33664b84e5a57af2",
+      "query_id": "q49",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:0e048767e575844f",
+      "query_id": "q49",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:2a75a366e53de7c3",
+      "query_id": "q49",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:b7362c7aea95a660",
+      "query_id": "q49",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:c39d56060ac3c94a",
+      "query_id": "q49",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:9cace987b644a798",
+      "query_id": "q49",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:42b3200f266ca8e5",
+      "query_id": "q50",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:cbeeeb85b3895216",
+      "query_id": "q50",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:f5f49220891e366f",
+      "query_id": "q50",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:3e532429ee37558c",
+      "query_id": "q50",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:512ae6e16ae4dcbd",
+      "query_id": "q50",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:d3b3807fb5cf926f",
+      "query_id": "q50",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:941f7a6f600a79e7",
+      "query_id": "q50",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:e900fe78b8b8cec9",
+      "query_id": "q50",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:53fa934f19ed8d8a",
+      "query_id": "q51",
+      "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac"
+    },
+    {
+      "pair_id": "qp:3e96776e8a8c1658",
+      "query_id": "q51",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:6fd8d1fc8142502a",
+      "query_id": "q51",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:86c5f23646e4d9fc",
+      "query_id": "q51",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:ac0614db3a75af9c",
+      "query_id": "q51",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:42e9beab8bb3eae7",
+      "query_id": "q51",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:7511f96d2eeea656",
+      "query_id": "q52",
+      "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945"
+    },
+    {
+      "pair_id": "qp:cfcc677ad8bb155c",
+      "query_id": "q52",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:a64ab1ac108b8d4a",
+      "query_id": "q52",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:d3332d430b63cfaf",
+      "query_id": "q52",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:c21d8640df893ec3",
+      "query_id": "q52",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:7ada9e5c57dd8ff2",
+      "query_id": "q53",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:4fa15a87ef73670e",
+      "query_id": "q53",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:8478047e5d5bbd74",
+      "query_id": "q53",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:418810c3451f946a",
+      "query_id": "q53",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:c492911930760aa6",
+      "query_id": "q53",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:4ce32e3572acc0bd",
+      "query_id": "q53",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:e19826941b885467",
+      "query_id": "q54",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:c3cb5517cbbc9ebc",
+      "query_id": "q54",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:51aecab497f0e8b2",
+      "query_id": "q54",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:cd1c45bc2e8e232a",
+      "query_id": "q54",
+      "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17"
+    },
+    {
+      "pair_id": "qp:e55b6be184f9ba7b",
+      "query_id": "q54",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:88bb1708e5457a8d",
+      "query_id": "q55",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:019d18b7df47c923",
+      "query_id": "q55",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:5c6943e8b794851c",
+      "query_id": "q55",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:11004aa8876869af",
+      "query_id": "q55",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:1ea149bd8876bca8",
+      "query_id": "q55",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:3b0ed8abdf3e5391",
+      "query_id": "q56",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:370950954f42e938",
+      "query_id": "q56",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:7b8edd4a28d63230",
+      "query_id": "q56",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:3db6d9319032925e",
+      "query_id": "q56",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:144fdcaa778cd58e",
+      "query_id": "q56",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:e29fdc609320713f",
+      "query_id": "q57",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:37685389f499e70b",
+      "query_id": "q57",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:4409a92d07a0f19b",
+      "query_id": "q57",
+      "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6"
+    },
+    {
+      "pair_id": "qp:a5d41a41255284d6",
+      "query_id": "q57",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:b07a7424c5028fa7",
+      "query_id": "q57",
+      "lab_id": "lab:b30c08316784cceb807e5a7670575269"
+    },
+    {
+      "pair_id": "qp:17c2fc7e46db36b8",
+      "query_id": "q57",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    },
+    {
+      "pair_id": "qp:bef8f24e13be47b6",
+      "query_id": "q58",
+      "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790"
+    },
+    {
+      "pair_id": "qp:d4e0f10db389acc1",
+      "query_id": "q58",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:ab15577f06846427",
+      "query_id": "q58",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:9c358eaa50364bba",
+      "query_id": "q58",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:2331adbf27db012a",
+      "query_id": "q58",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:6bc7433ecc87c6fc",
+      "query_id": "q59",
+      "lab_id": "lab:2ac0c0282dded9689b48c236808ba193"
+    },
+    {
+      "pair_id": "qp:1eade9db0358ae6e",
+      "query_id": "q59",
+      "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa"
+    },
+    {
+      "pair_id": "qp:d48a2b4f6a8dfcd3",
+      "query_id": "q59",
+      "lab_id": "lab:81e7d48be2e4126739d27db2f002e383"
+    },
+    {
+      "pair_id": "qp:c227a68db32fc22e",
+      "query_id": "q59",
+      "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a"
+    },
+    {
+      "pair_id": "qp:76d6947f3e4722d9",
+      "query_id": "q59",
+      "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e"
+    },
+    {
+      "pair_id": "qp:017bc98d51a2791a",
+      "query_id": "q60",
+      "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef"
+    },
+    {
+      "pair_id": "qp:8e2033bf3f610658",
+      "query_id": "q60",
+      "lab_id": "lab:3c97d90740df38121b37c4fb53a24966"
+    },
+    {
+      "pair_id": "qp:a5f9f74bcc17b033",
+      "query_id": "q60",
+      "lab_id": "lab:5f198105100143316777af8a3c5e6d4b"
+    },
+    {
+      "pair_id": "qp:f3bd9340df61a492",
+      "query_id": "q60",
+      "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478"
+    },
+    {
+      "pair_id": "qp:3213d6844f43aa2f",
+      "query_id": "q60",
+      "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4"
+    },
+    {
+      "pair_id": "qp:8a69e112549740b0",
+      "query_id": "q60",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "before_method_specific_analysis",
+  "prereg_sha256": "7e6ce03124cf9fbf85a808805bf9206c3c5a01f68577526044f841b1ac6d21d5",
+  "analysis_script_sha256": "3c852e65eb50e46d21de86029593836322f43cd3b8fb8a07b6e315a14677282f",
+  "change": "exact-content group sensitivity: keep first top-five code, no backfill, group ideal uses maximum labeled relevance",
+  "disclosure": "Judge A completed labels and reported aggregate 0/1/2 counts; method key and method-specific results not inspected. Judge B file incomplete."
+}

@@ -1,0 +1,87 @@
+{
+  "status": "two_judge_conditional_top1_comparison",
+  "new_pairs": 144,
+  "new_pair_raw_exact_agreement": 0.7569444444444444,
+  "source_sha256": {
+    "old_packet": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+    "new_packet": "11e725f278ef46a1118ab237d05cd034d265470a0c91722a64c517f4b0d62b68",
+    "gpu_rankings": "0f6de4d99856ec5a74061b1edae7b793ef012eab823e48f6cdfba5659ab77434",
+    "script": "3c8cb432f2a6b946dce18ce16bfef9f2a541c8146b03e2932e316dca61d45e6f",
+    "new_scores_a": "f1ffdee0eeb942c26bd2bef029f66f8e86e5c09dd9719a4ebbde0160b35e6176",
+    "new_scores_b": "df55825fd8f9215273aa98e5a9ddd17766de1da95a55e9e52e39c2e15058633a",
+    "old_scores_a": "8110fc7b82aacfebda4f62a5f232aa6ec05a8ba0379758d1200f532266ba97cc",
+    "old_scores_b": "7435131b51dcdd1e0e83b23cdae528f31c6557fa10f47009019b9fc22c6eda8f"
+  },
+  "top1_changed_labs": 37,
+  "judge": {
+    "a": {
+      "unrelated_top1": {
+        "components": 112,
+        "dense": 0.15714285714285714,
+        "dense_plus_frozen_rule": 0.14375,
+        "paired_difference_hybrid_minus_dense": -0.013392857142857142,
+        "paired_component_bootstrap_95": [
+          -0.05803571428571429,
+          0.03125
+        ]
+      },
+      "utility_top1": {
+        "components": 112,
+        "dense": 0.7132440476190476,
+        "dense_plus_frozen_rule": 0.6953869047619048,
+        "paired_difference_hybrid_minus_dense": -0.017857142857142856,
+        "paired_component_bootstrap_95": [
+          -0.05803571428571429,
+          0.022321428571428572
+        ]
+      },
+      "insufficient_top1": {
+        "components": 112,
+        "dense": 0.0008928571428571429,
+        "dense_plus_frozen_rule": 0.0008928571428571429,
+        "paired_difference_hybrid_minus_dense": 0.0,
+        "paired_component_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "b": {
+      "unrelated_top1": {
+        "components": 112,
+        "dense": 0.09821428571428571,
+        "dense_plus_frozen_rule": 0.07366071428571429,
+        "paired_difference_hybrid_minus_dense": -0.024553571428571428,
+        "paired_component_bootstrap_95": [
+          -0.060267857142857144,
+          0.002232142857142857
+        ]
+      },
+      "utility_top1": {
+        "components": 112,
+        "dense": 0.7337797619047619,
+        "dense_plus_frozen_rule": 0.7277529761904762,
+        "paired_difference_hybrid_minus_dense": -0.006026785714285714,
+        "paired_component_bootstrap_95": [
+          -0.04330357142857143,
+          0.031919642857142855
+        ]
+      },
+      "insufficient_top1": {
+        "components": 112,
+        "dense": 0.0,
+        "dense_plus_frozen_rule": 0.008928571428571428,
+        "paired_difference_hybrid_minus_dense": 0.008928571428571428,
+        "paired_component_bootstrap_95": [
+          0.0,
+          0.026785714285714284
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "conditional on rich rows and judged top-one pairs",
+    "not top-three/five quality, recall, cutoff, or reranker validation",
+    "raw judge scores are not adjudicated human truth"
+  ]
+}

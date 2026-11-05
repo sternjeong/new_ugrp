@@ -1,0 +1,150 @@
+{
+  "status": "two_judge_posthoc_top5_conditional",
+  "labs": 136,
+  "components": 112,
+  "new_pairs": 562,
+  "source_sha256": {
+    "rankings": "0f6de4d99856ec5a74061b1edae7b793ef012eab823e48f6cdfba5659ab77434",
+    "script": "f1212c86b8bc4aae68541e837aaabc0d928089df25a745f46d7da0b8a30674d6",
+    "old_packet": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+    "top1_packet": "11e725f278ef46a1118ab237d05cd034d265470a0c91722a64c517f4b0d62b68",
+    "new_packet": "314d565a2b20ffe4f1ff241443bec4642daaeb7455696c0e0ac1b2b64032015d",
+    "old_scores_a": "8110fc7b82aacfebda4f62a5f232aa6ec05a8ba0379758d1200f532266ba97cc",
+    "top1_scores_a": "f1ffdee0eeb942c26bd2bef029f66f8e86e5c09dd9719a4ebbde0160b35e6176",
+    "new_scores_a": "7aed542806175b866a0a6685da923503990925edcec355fb47fffbf952b8692c",
+    "old_scores_b": "7435131b51dcdd1e0e83b23cdae528f31c6557fa10f47009019b9fc22c6eda8f",
+    "top1_scores_b": "df55825fd8f9215273aa98e5a9ddd17766de1da95a55e9e52e39c2e15058633a",
+    "new_scores_b": "aaa58e897696c1b943f8a3c7a670c05aeb0bf802deeef6b39adf9be809967bcb"
+  },
+  "judge": {
+    "a": {
+      "missing_labs": {
+        "dense": 1,
+        "dense_plus_frozen_rule": 1
+      },
+      "marginal": {
+        "dense": {
+          "fixed_slot_utility": {
+            "components": 111,
+            "mean": 0.6861111111111111
+          },
+          "unrelated_fraction": {
+            "components": 111,
+            "mean": 0.15915915915915918
+          },
+          "any_unrelated": {
+            "components": 111,
+            "mean": 0.4692192192192192
+          }
+        },
+        "dense_plus_frozen_rule": {
+          "fixed_slot_utility": {
+            "components": 111,
+            "mean": 0.7022522522522523
+          },
+          "unrelated_fraction": {
+            "components": 111,
+            "mean": 0.14384384384384385
+          },
+          "any_unrelated": {
+            "components": 111,
+            "mean": 0.4421921921921922
+          }
+        }
+      },
+      "paired": {
+        "fixed_slot_utility": {
+          "components": 111,
+          "hybrid_minus_dense": 0.01614114114114114,
+          "component_bootstrap_95": [
+            -0.00795795795795796,
+            0.04016516516516517
+          ]
+        },
+        "unrelated_fraction": {
+          "components": 111,
+          "hybrid_minus_dense": -0.015315315315315317,
+          "component_bootstrap_95": [
+            -0.032432432432432434,
+            0.0009009009009009007
+          ]
+        },
+        "any_unrelated": {
+          "components": 111,
+          "hybrid_minus_dense": -0.02702702702702703,
+          "component_bootstrap_95": [
+            -0.07657657657657657,
+            0.02252252252252252
+          ]
+        }
+      }
+    },
+    "b": {
+      "missing_labs": {
+        "dense": 4,
+        "dense_plus_frozen_rule": 5
+      },
+      "marginal": {
+        "dense": {
+          "fixed_slot_utility": {
+            "components": 108,
+            "mean": 0.7264197530864197
+          },
+          "unrelated_fraction": {
+            "components": 108,
+            "mean": 0.14305555555555557
+          },
+          "any_unrelated": {
+            "components": 108,
+            "mean": 0.40046296296296297
+          }
+        },
+        "dense_plus_frozen_rule": {
+          "fixed_slot_utility": {
+            "components": 107,
+            "mean": 0.728411214953271
+          },
+          "unrelated_fraction": {
+            "components": 107,
+            "mean": 0.12953271028037383
+          },
+          "any_unrelated": {
+            "components": 107,
+            "mean": 0.3453271028037383
+          }
+        }
+      },
+      "paired": {
+        "fixed_slot_utility": {
+          "components": 107,
+          "hybrid_minus_dense": 0.002679127725856696,
+          "component_bootstrap_95": [
+            -0.014672897196261683,
+            0.01981308411214953
+          ]
+        },
+        "unrelated_fraction": {
+          "components": 107,
+          "hybrid_minus_dense": -0.01485981308411215,
+          "component_bootstrap_95": [
+            -0.031588785046728976,
+            0.0010280373831775705
+          ]
+        },
+        "any_unrelated": {
+          "components": 107,
+          "hybrid_minus_dense": -0.058878504672897194,
+          "component_bootstrap_95": [
+            -0.11214953271028037,
+            -0.009345794392523364
+          ]
+        }
+      }
+    }
+  },
+  "limitations": [
+    "extension decided after top-one outcome",
+    "not full-corpus recall or reranker/cutoff validation",
+    "insufficient evidence removes entire component from paired comparison"
+  ]
+}

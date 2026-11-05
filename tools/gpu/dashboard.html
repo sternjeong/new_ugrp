@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPU 관제 센터</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d1f23;--mute:#6b7078;--line:#e4e2db;--ok:#2f7d4f;--warn:#b7791f;--bad:#c0392b;--run:#2563eb;--accent:#d95530}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1e2126;--ink:#eceae4;--mute:#9aa0a8;--line:#2e3238;--ok:#5ec48a;--warn:#e0a949;--bad:#ef7f72;--run:#6ea0ff;--accent:#ff8a63}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Noto Sans KR",sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+h1{font-size:20px;margin:0}
+.sub{color:var(--mute);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.card h2{font-size:14px;margin:0 0 12px;color:var(--mute);font-weight:600}
+.grid{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.big{font-size:40px;font-weight:700;line-height:1}
+.big small{font-size:16px;font-weight:500;color:var(--mute)}
+.bar{height:14px;border-radius:7px;background:var(--line);overflow:hidden;margin:12px 0 6px}
+.bar i{display:block;height:100%;background:var(--ok);transition:width .4s}
+.bar.warn i{background:var(--warn)}.bar.bad i{background:var(--bad)}
+.row{display:flex;justify-content:space-between;gap:10px;color:var(--mute);font-size:13px;flex-wrap:wrap}
+label{display:block;font-size:13px;color:var(--mute);margin:10px 0 4px}
+select,input,button{font:inherit;color:inherit}
+select,input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+button{padding:9px 14px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+button.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+button:disabled{opacity:.5;cursor:default}
+.cost{margin-top:10px;font-size:13px;color:var(--mute)}
+.badge{display:inline-block;padding:1px 9px;border-radius:99px;font-size:12px;font-weight:600;border:1px solid currentColor}
+.COMPLETE{color:var(--ok)}.ERROR,.CANCELED,.CANCEL_ACKNOWLEDGED{color:var(--bad)}.RUNNING{color:var(--run)}.QUEUED{color:var(--warn)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-size:12px;color:var(--mute);text-align:left;font-weight:600}
+td,th{padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{border-top:0}
+.path{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--mute);word-break:break-all}
+.banner{padding:12px 14px;border-radius:10px;background:color-mix(in srgb,var(--warn) 15%,transparent);border:1px solid var(--warn);margin-bottom:14px;font-size:14px}
+pre{white-space:pre-wrap;word-break:break-all;font-size:12px;background:var(--bg);padding:10px;border-radius:8px;margin:8px 0 0}
+.empty{color:var(--mute);padding:18px 0;text-align:center}
+.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:14px;display:none}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>GPU 관제 센터</h1><div class="sub" id="who"></div></div>
+    <div><button class="ghost" id="syncBtn">상태 새로고침</button></div>
+  </header>
+  <div id="banner"></div>
+  <div class="grid">
+    <section class="card" id="quota"></section>
+    <section class="card">
+      <h2>새 실험 제출</h2>
+      <label for="nb">노트북</label><select id="nb"></select>
+      <label for="acc">가속기</label>
+      <select id="acc"><option value="NvidiaTeslaT4">T4 (기본)</option><option value="NvidiaTeslaP100">P100</option><option value="none">GPU 없음(CPU)</option></select>
+      <label for="to">최대 실행 시간(분) — 쿼터 보호용 상한</label><input id="to" type="number" min="5" max="720" value="120">
+      <label for="note">메모(선택)</label><input id="note" maxlength="120" placeholder="예: bge-m3 v4 재현">
+      <div class="cost" id="cost"></div>
+      <div style="margin-top:12px"><button id="go">GPU로 보내기</button></div>
+    </section>
+  </div>
+  <section class="card">
+    <h2>VM 크롬 <span class="sub" id="brStat"></span></h2>
+    <div class="row" style="align-items:center"><span>이 VM 안에서 도는 크롬을 브라우저 탭으로 엽니다. 어느 컴퓨터에서든 같은 프로필·로그인·확장 프로그램으로 작업할 수 있습니다.</span>
+    <button id="brBtn">크롬 열기</button></div>
+    <div class="sub" style="margin-top:6px">확장 개발: chrome://extensions → 개발자 모드 → 압축해제된 확장 프로그램 로드. 자동화: CDP <span class="path">http://127.0.0.1:9222</span> (VM 내부)</div>
+  </section>
+  <section class="card"><h2>실험 기록</h2><div id="runs"></div></section>
+</main>
+<div class="toast" id="toast"></div>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let S=null, busy=false;
+function toast(m){const t=$('toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display='none',4000)}
+function dur(a,b){if(!a)return'-';const m=Math.max(0,Math.round(((b?new Date(b):new Date())-new Date(a))/60000));return m>=60?`${Math.floor(m/60)}시간 ${m%60}분`:`${m}분`}
+function ago(t){return new Date(t).toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}
+function left(t){const ms=new Date(t)-new Date(S.now);const d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5);return d>0?`${d}일 ${h}시간 후`:`${h}시간 후`}
+
+// `kaggle quota --format json`: [{resource:"GPU",used:"0.00h",remaining:"30.00h",total:"30.00h",refreshAt:"..."}]
+const hrs=v=>parseFloat(String(v));
+function officialRows(d){return Array.isArray(d)?d.filter(r=>r&&r.resource&&isFinite(hrs(r.total))):[]}
+
+function render(){
+  const s=S, L=s.local, off=s.official;
+  $('who').textContent=s.authed?`Kaggle 계정: ${s.user||'확인 중'}`:'Kaggle 로그인이 필요합니다';
+  $('banner').innerHTML=s.authed?'':`<div class="banner">이 VM에서 <b>.venv-gpu/bin/kaggle auth login --no-launch-browser</b> 를 실행해 인증하세요. 인증 전에는 제출·공식 쿼터 조회가 되지 않습니다.</div>`;
+
+  const rows=off.ok?officialRows(off.data):[];
+  const gpu=rows.find(r=>/gpu/i.test(r.resource));
+  // 공식 값이 있으면 그것을, 없으면 로컬 추정치를 쓴다.
+  const total=gpu?hrs(gpu.total):L.limit_hours, rem=gpu?hrs(gpu.remaining):L.remaining_hours;
+  const used=gpu?hrs(gpu.used):L.used_hours, reset=gpu?gpu.refreshAt+'Z':L.next_reset;
+  S.remaining=rem;
+  const pct=total?used/total*100:0, cls=pct>=90?'bad':pct>=70?'warn':'';
+  const others=rows.filter(r=>r!==gpu).map(r=>`<div class="row"><span>${esc(r.resource)}</span><span>사용 ${esc(r.used)} · 남음 ${esc(r.remaining)} / ${esc(r.total)}</span></div>`).join('');
+  const src=gpu?'Kaggle 공식 값':'로컬 추정치 (공식 조회 불가'+(off.ok?'':': '+esc(off.message))+')';
+  $('quota').innerHTML=`<h2>이번 주 GPU 잔여량 <span class="sub">· ${src}</span></h2>
+    <div class="big">${rem.toFixed(1)}<small> / ${total} 시간 남음</small></div>
+    <div class="bar ${cls}"><i style="width:${Math.min(100,100-pct).toFixed(1)}%"></i></div>
+    <div class="row"><span>사용 ${used.toFixed(2)}h</span><span>갱신 ${left(reset)} (${ago(reset)})</span></div>
+    <div style="margin-top:10px">${others}</div>
+    <details style="margin-top:8px"><summary class="sub">로컬 기록 기준 추정: ${L.used_hours}h 사용</summary><div class="sub">${esc(L.note)}</div></details>`;
+
+  const cur=$('nb').value;
+  const by={};s.notebooks.forEach(n=>(by[n.repo]??=[]).push(n));
+  $('nb').innerHTML=Object.entries(by).map(([r,l])=>`<optgroup label="${esc(r)}">`+l.map(n=>`<option value="${esc(n.path)}" ${n.path===cur?'selected':''}>${esc(n.name)}</option>`).join('')+`</optgroup>`).join('');
+  updateCost();
+
+  const b=s.browser||{};
+  $('brStat').textContent=b.chrome&&b.viewer?'· 실행 중':b.viewer?'· 화면만 켜짐(크롬 꺼짐)':'· 꺼짐';
+  const runs=s.runs;
+  $('runs').innerHTML=runs.length?`<table><thead><tr><th>상태</th><th>노트북</th><th>제출</th><th>소요</th><th>결과</th></tr></thead><tbody>`+
+    runs.map(r=>`<tr><td><span class="badge ${esc(r.status)}">${esc(r.status)}</span></td>
+    <td>${r.repo?`<span class="sub">${esc(r.repo)} /</span> `:''}${esc(r.notebook.split('/').slice(-1)[0])}${r.note?`<div class="sub">${esc(r.note)}</div>`:''}<div class="path">${esc(r.kernel)}</div></td>
+    <td>${ago(r.submitted_at)}<div class="sub">${esc(r.accelerator)}</div></td>
+    <td>${dur(r.submitted_at,r.ended_at)}</td>
+    <td>${r.output_dir?`<span class="path">${esc(r.output_dir)}</span>`:r.status==='ERROR'?`<details><summary class="sub">오류 보기</summary><pre>${esc(r.message)}</pre></details>`:'<span class="sub">대기/실행 중</span>'}</td></tr>`).join('')+`</tbody></table>`
+    :'<div class="empty">아직 제출한 실험이 없습니다. 오른쪽에서 노트북을 골라 GPU로 보내 보세요.</div>';
+}
+function updateCost(){
+  if(!S)return;const t=+$('to').value||0, L={remaining_hours:S.remaining??S.local.remaining_hours}, g=$('acc').value!=='none';
+  const after=(L.remaining_hours-(g?t/60:0)).toFixed(1);
+  $('cost').innerHTML=g?`최악의 경우 <b>${(t/60).toFixed(1)}h</b> 사용 → 제출 후 잔여 최소 <b>${after}h</b>`:'CPU 실행은 GPU 쿼터를 쓰지 않습니다.';
+  $('go').disabled=busy||!S.authed||!$('nb').value||(g&&t/60>L.remaining_hours);
+}
+async function api(path,body){
+  const r=await fetch(path,body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:undefined);
+  const j=await r.json(); if(!r.ok)throw new Error(j.error||r.status); return j;
+}
+async function load(){try{S=await api('api/state');render()}catch(e){toast('불러오기 실패: '+e.message)}}
+$('syncBtn').onclick=async()=>{$('syncBtn').disabled=true;try{S=await api('api/sync',{});render();toast('갱신했습니다')}catch(e){toast(e.message)}$('syncBtn').disabled=false};
+$('go').onclick=async()=>{busy=true;updateCost();try{await api('api/submit',{notebook:$('nb').value,accelerator:$('acc').value,timeout_min:+$('to').value,note:$('note').value});toast('제출했습니다');$('note').value=''}catch(e){toast(e.message)}busy=false;load()};
+// 팝업 차단을 피하려고 클릭 즉시 탭을 연 뒤, 크롬이 뜨면 noVNC 주소로 보낸다.
+$('brBtn').onclick=async()=>{const w=window.open('about:blank');$('brBtn').disabled=true;
+  try{await api('api/browser/start',{});const base=location.pathname.replace(/[^/]*$/,'');  // '/' 또는 '/proxy/8765/'
+    const u='browser/vnc.html?autoconnect=1&resize=scale&reconnect=1&path='+encodeURIComponent(base.slice(1)+'browser/websockify');
+    if(w)w.location=u;else location.href=u}catch(e){if(w)w.close();toast(e.message)}$('brBtn').disabled=false;load()};
+['acc','to','nb'].forEach(i=>$(i).addEventListener('input',updateCost));
+load(); setInterval(()=>{if(!document.hidden&&!busy)load()},30000);
+</script>
+</body>
+</html>

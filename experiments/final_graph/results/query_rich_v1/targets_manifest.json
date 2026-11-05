@@ -1,0 +1,8 @@
+{
+  "query_targets_sha256": "e21394d8322f45d677058e78b1e914da93f4977ace9ef009d761e84214ff1a14",
+  "relation_packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "script_sha256": "5d8e7ec772713f524c8f0de4a51699a8cc4c78bc998300a2ae694dffcf945c10",
+  "queries": 60,
+  "topics": 12,
+  "scope": "corpus-grounded synthetic challenge set; not real-user prevalence"
+}

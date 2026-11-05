@@ -1,0 +1,489 @@
+[
+ {
+  "id": "q01",
+  "type": "simple",
+  "text": "강화학습에 관심 있어요",
+  "pos": [
+   [
+    "reinforcement_learning"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q02",
+  "type": "simple",
+  "text": "자연어처리 연구를 해보고 싶어요",
+  "pos": [
+   [
+    "nlp"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q03",
+  "type": "simple",
+  "text": "컴퓨터 비전이 재밌어요",
+  "pos": [
+   [
+    "computer_vision"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q04",
+  "type": "simple",
+  "text": "반도체 소자를 공부하고 싶어요",
+  "pos": [
+   [
+    "semiconductor_devices"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q05",
+  "type": "simple",
+  "text": "보안과 해킹에 관심이 있어요",
+  "pos": [
+   [
+    "system_security"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q06",
+  "type": "simple",
+  "text": "배터리 연구가 궁금해요",
+  "pos": [
+   [
+    "battery_energy"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q07",
+  "type": "paraphrase",
+  "text": "카메라로 찍은 영상에서 물체를 알아보는 기술이 궁금해요",
+  "pos": [
+   [
+    "computer_vision",
+    "computational_imaging"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q08",
+  "type": "paraphrase",
+  "text": "챗GPT 같은 대화형 AI가 어떻게 동작하는지 알고 싶어요",
+  "pos": [
+   [
+    "nlp"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q09",
+  "type": "paraphrase",
+  "text": "스마트폰이나 시계로 사람의 건강 상태를 재는 기술을 하고 싶어요",
+  "pos": [
+   [
+    "digital_health_wearables",
+    "ubiquitous_mobile_computing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q10",
+  "type": "paraphrase",
+  "text": "전기차 충전이나 전력을 효율적으로 바꾸는 장치에 관심 있어요",
+  "pos": [
+   [
+    "power_electronics",
+    "battery_energy"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q11",
+  "type": "paraphrase",
+  "text": "AI 모델을 작은 기기에서도 빠르게 돌리고 싶어요",
+  "pos": [
+   [
+    "efficient_ai",
+    "embedded_systems"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q12",
+  "type": "paraphrase",
+  "text": "가상 공간에서 물체를 만지는 느낌을 만들고 싶어요",
+  "pos": [
+   [
+    "haptics",
+    "vr_ar_xr"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q13",
+  "type": "paraphrase",
+  "text": "개인정보가 새지 않게 지키는 기술이 궁금해요",
+  "pos": [
+   [
+    "cryptography_privacy",
+    "system_security"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q14",
+  "type": "paraphrase",
+  "text": "5G 6G 같은 차세대 통신 기술을 연구하고 싶어요",
+  "pos": [
+   [
+    "wireless_communications"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q15",
+  "type": "negation",
+  "text": "나는 로봇은 싫은데 컴퓨터 아키텍처는 좋아요",
+  "pos": [
+   [
+    "computer_architecture"
+   ]
+  ],
+  "neg": [
+   "robotics"
+  ]
+ },
+ {
+  "id": "q16",
+  "type": "negation",
+  "text": "AI는 별로고 반도체 회로 설계가 좋아요",
+  "pos": [
+   [
+    "circuit_design",
+    "semiconductor_devices"
+   ]
+  ],
+  "neg": [
+   "machine_learning",
+   "nlp",
+   "computer_vision",
+   "generative_models",
+   "reinforcement_learning"
+  ]
+ },
+ {
+  "id": "q17",
+  "type": "negation",
+  "text": "보안은 관심 없고 네트워크가 좋아요",
+  "pos": [
+   [
+    "networking_iot"
+   ]
+  ],
+  "neg": [
+   "system_security"
+  ]
+ },
+ {
+  "id": "q18",
+  "type": "negation",
+  "text": "이미지는 싫고 언어나 글을 다루는 연구가 좋아요",
+  "pos": [
+   [
+    "nlp"
+   ]
+  ],
+  "neg": [
+   "computer_vision",
+   "computational_imaging"
+  ]
+ },
+ {
+  "id": "q19",
+  "type": "negation",
+  "text": "배터리 말고 전력전자나 회로 쪽이 좋아요",
+  "pos": [
+   [
+    "power_electronics",
+    "circuit_design"
+   ]
+  ],
+  "neg": [
+   "battery_energy"
+  ]
+ },
+ {
+  "id": "q20",
+  "type": "negation",
+  "text": "이론은 어렵고 직접 만드는 로봇이 좋아요",
+  "pos": [
+   [
+    "robotics"
+   ]
+  ],
+  "neg": [
+   "algorithms_theory",
+   "information_theory_coding",
+   "optimization"
+  ]
+ },
+ {
+  "id": "q21",
+  "type": "negation",
+  "text": "음성은 빼고 영상 쪽을 하고 싶어요",
+  "pos": [
+   [
+    "computer_vision"
+   ]
+  ],
+  "neg": [
+   "speech_processing"
+  ]
+ },
+ {
+  "id": "q22",
+  "type": "negation",
+  "text": "VR은 질렸고 햅틱이나 촉각에 관심 있어요",
+  "pos": [
+   [
+    "haptics"
+   ]
+  ],
+  "neg": [
+   "vr_ar_xr"
+  ]
+ },
+ {
+  "id": "q23",
+  "type": "compound",
+  "text": "컴퓨터 아키텍처를 공부하고 싶어요",
+  "pos": [
+   [
+    "computer_architecture"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q24",
+  "type": "compound",
+  "text": "컴퓨터 비전과 그래픽스를 하고 싶어요",
+  "pos": [
+   [
+    "computer_vision",
+    "computer_graphics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q25",
+  "type": "compound",
+  "text": "운영 체제와 스토리지 시스템이 궁금해요",
+  "pos": [
+   [
+    "operating_systems_storage"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q26",
+  "type": "compound",
+  "text": "그래프 신경망에 관심 있어요",
+  "pos": [
+   [
+    "graph_learning"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q27",
+  "type": "compound",
+  "text": "분산 학습과 연합 학습을 하고 싶어요",
+  "pos": [
+   [
+    "federated_distributed_learning"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q28",
+  "type": "compound",
+  "text": "소프트웨어 검증과 형식 기법이 궁금해요",
+  "pos": [
+   [
+    "formal_methods"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q29",
+  "type": "compound",
+  "text": "월드 모델과 피지컬 AI에 관심 있어요",
+  "pos": [
+   [
+    "world_models_embodied"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q30",
+  "type": "multi",
+  "text": "로봇과 햅틱 둘 다 관심 있어요",
+  "pos": [
+   [
+    "robotics"
+   ],
+   [
+    "haptics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q31",
+  "type": "multi",
+  "text": "신호처리랑 반도체 회로를 같이 해보고 싶어요",
+  "pos": [
+   [
+    "signal_processing"
+   ],
+   [
+    "circuit_design"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q32",
+  "type": "multi",
+  "text": "의료 영상이랑 AI를 합친 연구가 좋아요",
+  "pos": [
+   [
+    "biomedical_imaging"
+   ],
+   [
+    "machine_learning"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q33",
+  "type": "multi",
+  "text": "자연어처리와 음성에 관심이 있어요",
+  "pos": [
+   [
+    "nlp"
+   ],
+   [
+    "speech_processing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q34",
+  "type": "multi",
+  "text": "양자컴퓨팅이랑 암호가 궁금해요",
+  "pos": [
+   [
+    "quantum"
+   ],
+   [
+    "cryptography_privacy"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q35",
+  "type": "multi",
+  "text": "보안과 컴퓨터구조 둘 다 좋아요",
+  "pos": [
+   [
+    "system_security"
+   ],
+   [
+    "computer_architecture"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "q36",
+  "type": "soft_negation",
+  "text": "로봇보다는 컴퓨터구조가 좋아요",
+  "pos": [
+   [
+    "computer_architecture"
+   ]
+  ],
+  "neg": [
+   "robotics"
+  ]
+ },
+ {
+  "id": "q37",
+  "type": "soft_negation",
+  "text": "비전보다 언어모델이 좋아요",
+  "pos": [
+   [
+    "nlp"
+   ]
+  ],
+  "neg": [
+   "computer_vision"
+  ]
+ },
+ {
+  "id": "q38",
+  "type": "soft_negation",
+  "text": "네트워크는 괜찮은데 보안이 더 끌려요",
+  "pos": [
+   [
+    "system_security"
+   ]
+  ],
+  "neg": [
+   "networking_iot"
+  ]
+ },
+ {
+  "id": "q39",
+  "type": "soft_negation",
+  "text": "통신 쪽은 이미 해봐서 이번엔 레이더나 센서가 궁금해요",
+  "pos": [
+   [
+    "radar_sensing"
+   ]
+  ],
+  "neg": [
+   "wireless_communications"
+  ]
+ }
+]

@@ -1,0 +1,46 @@
+[{"stream_name":"stderr","time":5.501100409,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.501152691,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.281641669,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.281670396,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.281676653,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.281683247,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.851689744,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.851718509,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.85172302,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.851726699,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.426105703,"data":"GPU 사용 가능: True\n"}
+,{"stream_name":"stdout","time":13.426137158,"data":"Tesla T4\n"}
+,{"stream_name":"stdout","time":16.088740881,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/43.1 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.7/43.1 MB\u001b[0m \u001b[31m110.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m10.4/43.1 MB\u001b[0m \u001b[31m170.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m17.0/43.1 MB\u001b[0m \u001b[31m188.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m23.6/43.1 MB\u001b[0m \u001b[31m191.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━\u001b[0m \u001b[32m30.1/43.1 MB\u001b[0m \u001b[31m185.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━\u001b[0m \u001b[32m36.5/43.1 MB\u001b[0m \u001b[31m185.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m198.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m198.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m198.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m198.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m198.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m198.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m43.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":19.184409687,"data":"\u001b[?25h데이터 준비 완료\n"}
+,{"stream_name":"stdout","time":19.209257676,"data":"연구실 56 질의 39 논문 있는 연구실 51\n"}
+,{"stream_name":"stdout","time":19.209286301,"data":"문서 수 (프로필 / +논문): 359 873\n"}
+,{"stream_name":"stderr","time":47.513383835,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":47.513427846,"data":"\n"}
+,{"stream_name":"stderr","time":47.51343265,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":83.716547224,"data":"변형 0 문서 임베딩 (359, 1024)\n"}
+,{"stream_name":"stdout","time":86.706307537,"data":"변형 1 문서 임베딩 (873, 1024)\n"}
+,{"stream_name":"stdout","time":86.732229971,"data":"강화학습에 관심 있어요 -\u003e {'likes': ['강화학습'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":86.732259635,"data":"자연어처리 연구를 해보고 싶어요 -\u003e {'likes': ['자연어처리 연구'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":86.732275612,"data":"컴퓨터 비전이 재밌어요 -\u003e {'likes': ['컴퓨터 비전'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":86.732288201,"data":"반도체 소자를 공부하고 싶어요 -\u003e {'likes': ['반도체 소자'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":86.732293641,"data":"보안과 해킹에 관심이 있어요 -\u003e {'likes': ['보안', '해킹'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":189.499249925,"data":"LLM 로드 102.5s\n"}
+,{"stream_name":"stdout","time":225.196990429,"data":"LLM 해석 35.9s (질의당 0.92s), JSON 실패 2건 ['q18', 'q32']\n"}
+,{"stream_name":"stdout","time":225.197041645,"data":"강화학습에 관심 있어요 -\u003e {'likes': ['강화학습'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":225.197048217,"data":"자연어처리 연구를 해보고 싶어요 -\u003e {'likes': ['자연어 처리 연구'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":225.197066289,"data":"컴퓨터 비전이 재밌어요 -\u003e {'likes': ['컴퓨터 비전'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":225.197069175,"data":"반도체 소자를 공부하고 싶어요 -\u003e {'likes': ['반도체 소자'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":225.197071563,"data":"보안과 해킹에 관심이 있어요 -\u003e {'likes': ['보안', '해킹'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":225.197074041,"data":"배터리 연구가 궁금해요 -\u003e {'likes': ['배터리 연구'], 'dislikes': []}\n"}
+,{"stream_name":"stdout","time":244.576731165,"data":"['B0', 'B1', 'C0_l0', 'C0_l0.5', 'C0_l1', 'C0_l2', 'C1_l0', 'C1_l0.5', 'C1_l1', 'C1_l2', 'D0_l0', 'D0_l0.5', 'D0_l1', 'D0_l2', 'D1_l0', 'D1_l0.5', 'D1_l1', 'D1_l2']\n"}
+,{"stream_name":"stdout","time":255.185567614,"data":"CPU 질의 임베딩 평균 220 ms (문서 임베딩은 미리 계산해 두는 것을 가정)\n"}
+,{"stream_name":"stdout","time":255.234015109,"data":"저장 완료\n"}
+,{"stream_name":"stderr","time":260.977178658,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":260.977242727,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":261.141698698,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":261.141733122,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":261.924009527,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":262.042717937,"data":"[NbConvertApp] Writing 346819 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":264.469871735,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":265.057963339,"data":"[NbConvertApp] Writing 593392 bytes to __results__.html\n"}
+]

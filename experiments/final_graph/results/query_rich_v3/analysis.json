@@ -1,0 +1,527 @@
+{
+  "status": "two_judge_query_challenge_conditional_analysis",
+  "source_sha256": {
+    "packet": "494cc9d3a14013460d0f1f8cb28360cfdfd37ef887782ecd40d2669c333cedce",
+    "rankings": "d43dea3807513adbfa8ca07a843a54afdf578158d518935c950b31b6dab2e7e3",
+    "targets": "485d5c7406d0aeceedbf54267a318815302956fdcbe968e66237859a0bab4d3e",
+    "script": "cd14cf66113d99704a9cf4d2a0b10ac9f23218e7864d4f23ff52f24d5985d4fc",
+    "scores_a": "def1db58dede3877943a4c4bac79050945eeb72aa43543ba473f5cb6bd366d13",
+    "scores_b": "6cb2cc43305cc102d933a4671bca64d9d5f82101dfd680b9b69b02e43209fca9"
+  },
+  "pairs": 433,
+  "agreement": {
+    "relevance_exact": 0.8637413394919169,
+    "violation_exact": 0.9953810623556582,
+    "insufficient_exact": 1.0
+  },
+  "judge": {
+    "a": {
+      "explicit_negative": {
+        "queries": 30,
+        "methods": {
+          "q0": {
+            "returned": {
+              "n": 30,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 30,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 30,
+              "mean": 0.36666666666666664
+            },
+            "violation_any": {
+              "n": 30,
+              "mean": 0.06666666666666667
+            },
+            "relevant_fraction": {
+              "n": 30,
+              "mean": 0.08666666666666667
+            },
+            "fixed_slot_utility": {
+              "n": 30,
+              "mean": 0.05
+            }
+          },
+          "q1": {
+            "returned": {
+              "n": 30,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 30,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 30,
+              "mean": 0.6
+            },
+            "violation_any": {
+              "n": 30,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 30,
+              "mean": 0.17333333333333334
+            },
+            "fixed_slot_utility": {
+              "n": 30,
+              "mean": 0.10666666666666667
+            }
+          }
+        },
+        "paired": {
+          "violation_any": {
+            "paired_n": 30,
+            "q1_minus_q0": -0.06666666666666667,
+            "family_cluster_bootstrap_95": [
+              -0.2,
+              0.0
+            ],
+            "families": 9
+          },
+          "relevant_fraction": {
+            "paired_n": 30,
+            "q1_minus_q0": 0.08666666666666667,
+            "family_cluster_bootstrap_95": [
+              0.02,
+              0.15384615384615385
+            ],
+            "families": 9
+          },
+          "fixed_slot_utility": {
+            "paired_n": 30,
+            "q1_minus_q0": 0.05666666666666667,
+            "family_cluster_bootstrap_95": [
+              0.013333333333333334,
+              0.1
+            ],
+            "families": 9
+          },
+          "safety_coverage": {
+            "paired_n": 30,
+            "q1_minus_q0": 0.23333333333333334,
+            "family_cluster_bootstrap_95": [
+              0.03125,
+              0.43333333333333335
+            ],
+            "families": 9
+          }
+        },
+        "negative_target_in_candidate_example": {
+          "present_queries": 30,
+          "absent_queries": 0
+        }
+      },
+      "positive_only": {
+        "queries": 20,
+        "methods": {
+          "q0": {
+            "returned": {
+              "n": 20,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 20,
+              "mean": 0.6
+            },
+            "violation_any": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 20,
+              "mean": 0.2
+            },
+            "fixed_slot_utility": {
+              "n": 20,
+              "mean": 0.11
+            }
+          },
+          "q1": {
+            "returned": {
+              "n": 20,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 20,
+              "mean": 0.65
+            },
+            "violation_any": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 20,
+              "mean": 0.27
+            },
+            "fixed_slot_utility": {
+              "n": 20,
+              "mean": 0.155
+            }
+          }
+        },
+        "paired": {
+          "violation_any": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.0
+          },
+          "relevant_fraction": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.06999999999999999
+          },
+          "fixed_slot_utility": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.045
+          },
+          "safety_coverage": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.05
+          }
+        }
+      },
+      "ambiguous": {
+        "queries": 10,
+        "methods": {
+          "q0": {
+            "returned": {
+              "n": 10,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 10,
+              "mean": 0.8
+            },
+            "violation_any": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 10,
+              "mean": 0.24000000000000002
+            },
+            "fixed_slot_utility": {
+              "n": 10,
+              "mean": 0.14
+            }
+          },
+          "q1": {
+            "returned": {
+              "n": 10,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 10,
+              "mean": 0.8
+            },
+            "violation_any": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 10,
+              "mean": 0.26
+            },
+            "fixed_slot_utility": {
+              "n": 10,
+              "mean": 0.16
+            }
+          }
+        },
+        "paired": {
+          "violation_any": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.0
+          },
+          "relevant_fraction": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.02
+          },
+          "fixed_slot_utility": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.019999999999999997
+          },
+          "safety_coverage": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.0
+          }
+        }
+      }
+    },
+    "b": {
+      "explicit_negative": {
+        "queries": 30,
+        "methods": {
+          "q0": {
+            "returned": {
+              "n": 30,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 30,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 30,
+              "mean": 0.4
+            },
+            "violation_any": {
+              "n": 30,
+              "mean": 0.13333333333333333
+            },
+            "relevant_fraction": {
+              "n": 30,
+              "mean": 0.12666666666666668
+            },
+            "fixed_slot_utility": {
+              "n": 30,
+              "mean": 0.07333333333333333
+            }
+          },
+          "q1": {
+            "returned": {
+              "n": 30,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 30,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 30,
+              "mean": 0.6666666666666666
+            },
+            "violation_any": {
+              "n": 30,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 30,
+              "mean": 0.19333333333333333
+            },
+            "fixed_slot_utility": {
+              "n": 30,
+              "mean": 0.11333333333333334
+            }
+          }
+        },
+        "paired": {
+          "violation_any": {
+            "paired_n": 30,
+            "q1_minus_q0": -0.13333333333333333,
+            "family_cluster_bootstrap_95": [
+              -0.3333333333333333,
+              0.0
+            ],
+            "families": 9
+          },
+          "relevant_fraction": {
+            "paired_n": 30,
+            "q1_minus_q0": 0.06666666666666667,
+            "family_cluster_bootstrap_95": [
+              0.02666666666666667,
+              0.1076923076923077
+            ],
+            "families": 9
+          },
+          "fixed_slot_utility": {
+            "paired_n": 30,
+            "q1_minus_q0": 0.04,
+            "family_cluster_bootstrap_95": [
+              0.015384615384615385,
+              0.07
+            ],
+            "families": 9
+          },
+          "safety_coverage": {
+            "paired_n": 30,
+            "q1_minus_q0": 0.26666666666666666,
+            "family_cluster_bootstrap_95": [
+              0.11764705882352941,
+              0.46153846153846156
+            ],
+            "families": 9
+          }
+        },
+        "negative_target_in_candidate_example": {
+          "present_queries": 30,
+          "absent_queries": 0
+        }
+      },
+      "positive_only": {
+        "queries": 20,
+        "methods": {
+          "q0": {
+            "returned": {
+              "n": 20,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 20,
+              "mean": 0.45
+            },
+            "violation_any": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 20,
+              "mean": 0.14
+            },
+            "fixed_slot_utility": {
+              "n": 20,
+              "mean": 0.075
+            }
+          },
+          "q1": {
+            "returned": {
+              "n": 20,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 20,
+              "mean": 0.6
+            },
+            "violation_any": {
+              "n": 20,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 20,
+              "mean": 0.23
+            },
+            "fixed_slot_utility": {
+              "n": 20,
+              "mean": 0.13
+            }
+          }
+        },
+        "paired": {
+          "violation_any": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.0
+          },
+          "relevant_fraction": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.09
+          },
+          "fixed_slot_utility": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.055
+          },
+          "safety_coverage": {
+            "paired_n": 20,
+            "q1_minus_q0": 0.15
+          }
+        }
+      },
+      "ambiguous": {
+        "queries": 10,
+        "methods": {
+          "q0": {
+            "returned": {
+              "n": 10,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 10,
+              "mean": 0.7
+            },
+            "violation_any": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 10,
+              "mean": 0.18000000000000002
+            },
+            "fixed_slot_utility": {
+              "n": 10,
+              "mean": 0.11
+            }
+          },
+          "q1": {
+            "returned": {
+              "n": 10,
+              "mean": 1.0
+            },
+            "missing": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "safety_coverage": {
+              "n": 10,
+              "mean": 0.7
+            },
+            "violation_any": {
+              "n": 10,
+              "mean": 0.0
+            },
+            "relevant_fraction": {
+              "n": 10,
+              "mean": 0.2
+            },
+            "fixed_slot_utility": {
+              "n": 10,
+              "mean": 0.12000000000000001
+            }
+          }
+        },
+        "paired": {
+          "violation_any": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.0
+          },
+          "relevant_fraction": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.02
+          },
+          "fixed_slot_utility": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.01
+          },
+          "safety_coverage": {
+            "paired_n": 10,
+            "q1_minus_q0": 0.0
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "authored corpus-grounded queries, not representative user traffic",
+    "candidate corpus and target examples overlap by design",
+    "only top-five union pairs judged; no full-corpus recall",
+    "cluster bootstrap reflects nine authored topic-pair families, not population inference"
+  ]
+}

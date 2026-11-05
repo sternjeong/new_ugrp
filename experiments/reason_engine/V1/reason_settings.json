@@ -1,0 +1,9 @@
+{
+ "N_LABS": 12,
+ "TOP_K": 5,
+ "SEED": 7,
+ "LLM_ID": "Qwen/Qwen2.5-7B-Instruct",
+ "UNSUP_MAX": 0.35,
+ "RERANKER": "BAAI/bge-reranker-v2-m3",
+ "EMBEDDER": "BAAI/bge-m3"
+}

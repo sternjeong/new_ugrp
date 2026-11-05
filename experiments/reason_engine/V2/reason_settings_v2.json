@@ -1,0 +1,11 @@
+{
+ "N_LABS": 12,
+ "TOP_K": 5,
+ "SEED": 7,
+ "LLM_ID": "Qwen/Qwen2.5-7B-Instruct",
+ "GATE_PCT": 15,
+ "GATE_SCORE": 0.03435211181640625,
+ "FAITH_PCT": 10,
+ "FAITH_MIN": 0.8046875,
+ "RERANKER": "BAAI/bge-reranker-v2-m3"
+}

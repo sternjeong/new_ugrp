@@ -1,0 +1,754 @@
+{
+ "data": {
+  "items": 127,
+  "items_with_neighbor": 20,
+  "mean_neighbors": 0.15748031496062992,
+  "fidelity": {
+   "0": [
+    0.42857142857142855,
+    0.0,
+    7
+   ],
+   "1": [
+    0.7,
+    0.3,
+    10
+   ],
+   "2": [
+    1.0,
+    0.0,
+    3
+   ]
+  }
+ },
+ "results": {
+  "N0|선명": {
+   "40": {
+    "prom_per_lab": 0.0,
+    "prom_zero": null,
+    "prom_rel": null,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.38356367959577947,
+    "final_zero": 0.21875,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.0385,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.012666666666666666,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.35038104310550133,
+    "final_zero": 0.21770230764446102,
+    "final_two_per_lab": 3.0595
+   },
+   "200": {
+    "prom_per_lab": 0.303,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.20733333333333334,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.29900695435634245,
+    "final_zero": 0.21076719258099483,
+    "final_two_per_lab": 3.2055
+   },
+   "400": {
+    "prom_per_lab": 0.9789999999999999,
+    "prom_zero": 0.003575076608784474,
+    "prom_rel": 0.9964249233912156,
+    "found_two": 0.712,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.28185935637663884,
+    "final_zero": 0.1952890076845974,
+    "final_two_per_lab": 3.5840000000000005
+   },
+   "800": {
+    "prom_per_lab": 1.4465,
+    "prom_zero": 0.0031109574835810577,
+    "prom_rel": 0.996889042516419,
+    "found_two": 0.9526666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.25885268223374297,
+    "final_zero": 0.18573016461123168,
+    "final_two_per_lab": 3.7645000000000004
+   }
+  },
+  "N1|선명": {
+   "40": {
+    "prom_per_lab": 0.0,
+    "prom_zero": null,
+    "prom_rel": null,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.38603212022985117,
+    "final_zero": 0.21875,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.0395,
+    "prom_zero": 0.012658227848101266,
+    "prom_rel": 0.9873417721518988,
+    "found_two": 0.015333333333333332,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3471975352529921,
+    "final_zero": 0.2177374214814354,
+    "final_two_per_lab": 3.0614999999999997
+   },
+   "200": {
+    "prom_per_lab": 0.32599999999999996,
+    "prom_zero": 0.003067484662576687,
+    "prom_rel": 0.9969325153374233,
+    "found_two": 0.228,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.29414450057824576,
+    "final_zero": 0.21030506846024502,
+    "final_two_per_lab": 3.221
+   },
+   "400": {
+    "prom_per_lab": 0.9960000000000001,
+    "prom_zero": 0.0025100401606425703,
+    "prom_rel": 0.9974899598393574,
+    "found_two": 0.7246666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.2776052723297741,
+    "final_zero": 0.19480880391285016,
+    "final_two_per_lab": 3.5935
+   },
+   "800": {
+    "prom_per_lab": 1.4535,
+    "prom_zero": 0.0017199862401100791,
+    "prom_rel": 0.99828001375989,
+    "found_two": 0.9406666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.2560410097296933,
+    "final_zero": 0.1853810757920347,
+    "final_two_per_lab": 3.7555
+   }
+  },
+  "N1g|선명": {
+   "40": {
+    "prom_per_lab": 0.0,
+    "prom_zero": null,
+    "prom_rel": null,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3824736225087925,
+    "final_zero": 0.21875,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.0375,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.010666666666666666,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3472073995019566,
+    "final_zero": 0.2177293934681182,
+    "final_two_per_lab": 3.058
+   },
+   "200": {
+    "prom_per_lab": 0.3435,
+    "prom_zero": 0.002911208151382824,
+    "prom_rel": 0.9970887918486172,
+    "found_two": 0.23933333333333334,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.2984418576452043,
+    "final_zero": 0.20986396596152693,
+    "final_two_per_lab": 3.2295000000000003
+   },
+   "400": {
+    "prom_per_lab": 0.9810000000000001,
+    "prom_zero": 0.0045871559633027525,
+    "prom_rel": 0.9954128440366973,
+    "found_two": 0.6966666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.28463667272871035,
+    "final_zero": 0.19535686449170472,
+    "final_two_per_lab": 3.5725000000000002
+   },
+   "800": {
+    "prom_per_lab": 1.458,
+    "prom_zero": 0.0030864197530864196,
+    "prom_rel": 0.9969135802469136,
+    "found_two": 0.946,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.25871297828509676,
+    "final_zero": 0.18550433495453583,
+    "final_two_per_lab": 3.7595
+   }
+  },
+  "N2|선명": {
+   "40": {
+    "prom_per_lab": 0.0015,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.39359671023645176,
+    "final_zero": 0.218708992063988,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.066,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.028,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3424396063226961,
+    "final_zero": 0.21696007934540046,
+    "final_two_per_lab": 3.071
+   },
+   "200": {
+    "prom_per_lab": 0.47750000000000004,
+    "prom_zero": 0.0062827225130890054,
+    "prom_rel": 0.993717277486911,
+    "found_two": 0.3466666666666667,
+    "pure_per_lab": 0.001,
+    "pure_zero": 0.0,
+    "bad_imp": 0.30327219547864237,
+    "final_zero": 0.2067826599823061,
+    "final_two_per_lab": 3.31
+   },
+   "400": {
+    "prom_per_lab": 1.0185,
+    "prom_zero": 0.008345606283750613,
+    "prom_rel": 0.9916543937162494,
+    "found_two": 0.7286666666666667,
+    "pure_per_lab": 0.0015,
+    "pure_zero": 0.3333333333333333,
+    "bad_imp": 0.29713108258044063,
+    "final_zero": 0.19498808005765925,
+    "final_two_per_lab": 3.5965000000000003
+   },
+   "800": {
+    "prom_per_lab": 1.364,
+    "prom_zero": 0.006231671554252199,
+    "prom_rel": 0.9937683284457478,
+    "found_two": 0.8993333333333333,
+    "pure_per_lab": 0.0015,
+    "pure_zero": 0.3333333333333333,
+    "bad_imp": 0.26602049480064227,
+    "final_zero": 0.18779367791542076,
+    "final_two_per_lab": 3.7245
+   }
+  },
+  "N0|보통": {
+   "40": {
+    "prom_per_lab": 0.0005,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3952941176470588,
+    "final_zero": 0.2187363289794388,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.028000000000000004,
+    "prom_zero": 0.03571428571428571,
+    "prom_rel": 0.9642857142857143,
+    "found_two": 0.006666666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.37011074458058435,
+    "final_zero": 0.21811160936721474,
+    "final_two_per_lab": 3.055
+   },
+   "200": {
+    "prom_per_lab": 0.23500000000000001,
+    "prom_zero": 0.02553191489361702,
+    "prom_rel": 0.9744680851063829,
+    "found_two": 0.118,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.33623703882324574,
+    "final_zero": 0.21323618700667882,
+    "final_two_per_lab": 3.1385
+   },
+   "400": {
+    "prom_per_lab": 0.794,
+    "prom_zero": 0.04848866498740554,
+    "prom_rel": 0.9515113350125944,
+    "found_two": 0.46066666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3286428871955495,
+    "final_zero": 0.20337730270639073,
+    "final_two_per_lab": 3.3954999999999997
+   },
+   "800": {
+    "prom_per_lab": 1.303,
+    "prom_zero": 0.04144282425172678,
+    "prom_rel": 0.9585571757482733,
+    "found_two": 0.744,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3252902418614476,
+    "final_zero": 0.19391594109427066,
+    "final_two_per_lab": 3.6079999999999997
+   }
+  },
+  "N1|보통": {
+   "40": {
+    "prom_per_lab": 0.0,
+    "prom_zero": null,
+    "prom_rel": null,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.38560070671378094,
+    "final_zero": 0.21875,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.028499999999999998,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.006,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.36440978376462246,
+    "final_zero": 0.21797346951485333,
+    "final_two_per_lab": 3.0545
+   },
+   "200": {
+    "prom_per_lab": 0.246,
+    "prom_zero": 0.056910569105691054,
+    "prom_rel": 0.943089430894309,
+    "found_two": 0.13066666666666665,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.338635057905718,
+    "final_zero": 0.21392190152801357,
+    "final_two_per_lab": 3.148
+   },
+   "400": {
+    "prom_per_lab": 0.7849999999999999,
+    "prom_zero": 0.050955414012738856,
+    "prom_rel": 0.9490445859872612,
+    "found_two": 0.466,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.32938927110595684,
+    "final_zero": 0.20375640295959022,
+    "final_two_per_lab": 3.3994999999999997
+   },
+   "800": {
+    "prom_per_lab": 1.28,
+    "prom_zero": 0.037890625,
+    "prom_rel": 0.962109375,
+    "found_two": 0.7393333333333333,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3251625853726204,
+    "final_zero": 0.19380387931034482,
+    "final_two_per_lab": 3.6045000000000003
+   }
+  },
+  "N1g|보통": {
+   "40": {
+    "prom_per_lab": 0.001,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3905684941414726,
+    "final_zero": 0.21872265966754156,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.039,
+    "prom_zero": 0.02564102564102564,
+    "prom_rel": 0.9743589743589743,
+    "found_two": 0.007333333333333333,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.358288457035823,
+    "final_zero": 0.2178131608409006,
+    "final_two_per_lab": 3.0555
+   },
+   "200": {
+    "prom_per_lab": 0.2585,
+    "prom_zero": 0.04448742746615087,
+    "prom_rel": 0.9555125725338491,
+    "found_two": 0.136,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.332311483785652,
+    "final_zero": 0.2132953926257795,
+    "final_two_per_lab": 3.152
+   },
+   "400": {
+    "prom_per_lab": 0.8300000000000001,
+    "prom_zero": 0.04939759036144578,
+    "prom_rel": 0.9506024096385542,
+    "found_two": 0.4666666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.32922304670449587,
+    "final_zero": 0.2028312570781427,
+    "final_two_per_lab": 3.4
+   },
+   "800": {
+    "prom_per_lab": 1.3275000000000001,
+    "prom_zero": 0.04218455743879473,
+    "prom_rel": 0.9578154425612053,
+    "found_two": 0.7493333333333333,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3254156382623429,
+    "final_zero": 0.19362101313320826,
+    "final_two_per_lab": 3.6119999999999997
+   }
+  },
+  "N2|보통": {
+   "40": {
+    "prom_per_lab": 0.0035000000000000005,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3996150429375185,
+    "final_zero": 0.21865433872680703,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.05450000000000001,
+    "prom_zero": 0.03669724770642202,
+    "prom_rel": 0.963302752293578,
+    "found_two": 0.017333333333333333,
+    "pure_per_lab": 0.001,
+    "pure_zero": 0.0,
+    "bad_imp": 0.3690256532349265,
+    "final_zero": 0.2175181575516792,
+    "final_two_per_lab": 3.0629999999999997
+   },
+   "200": {
+    "prom_per_lab": 0.362,
+    "prom_zero": 0.03867403314917127,
+    "prom_rel": 0.9613259668508287,
+    "found_two": 0.20066666666666666,
+    "pure_per_lab": 0.0025,
+    "pure_zero": 0.0,
+    "bad_imp": 0.3443708609271523,
+    "final_zero": 0.21095431714900742,
+    "final_two_per_lab": 3.2005000000000003
+   },
+   "400": {
+    "prom_per_lab": 0.8625,
+    "prom_zero": 0.051014492753623186,
+    "prom_rel": 0.9489855072463768,
+    "found_two": 0.4886666666666667,
+    "pure_per_lab": 0.003,
+    "pure_zero": 0.0,
+    "bad_imp": 0.3419250404681858,
+    "final_zero": 0.202425952045134,
+    "final_two_per_lab": 3.4165
+   },
+   "800": {
+    "prom_per_lab": 1.2615,
+    "prom_zero": 0.04320253666270313,
+    "prom_rel": 0.9567974633372969,
+    "found_two": 0.728,
+    "pure_per_lab": 0.003,
+    "pure_zero": 0.0,
+    "bad_imp": 0.3346112337107972,
+    "final_zero": 0.19483884899854234,
+    "final_two_per_lab": 3.596
+   }
+  },
+  "N0|흐림": {
+   "40": {
+    "prom_per_lab": 0.0005,
+    "prom_zero": 1.0,
+    "prom_rel": 0.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3830227743271222,
+    "final_zero": 0.2187988250734329,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.027000000000000003,
+    "prom_zero": 0.07407407407407407,
+    "prom_rel": 0.9259259259259259,
+    "found_two": 0.0033333333333333335,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3800567778566359,
+    "final_zero": 0.21826336115609818,
+    "final_two_per_lab": 3.0524999999999998
+   },
+   "200": {
+    "prom_per_lab": 0.21549999999999997,
+    "prom_zero": 0.13921113689095127,
+    "prom_rel": 0.8607888631090487,
+    "found_two": 0.06933333333333333,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3609522662974779,
+    "final_zero": 0.2166636236382448,
+    "final_two_per_lab": 3.102
+   },
+   "400": {
+    "prom_per_lab": 0.7434999999999999,
+    "prom_zero": 0.13920645595158038,
+    "prom_rel": 0.8607935440484197,
+    "found_two": 0.30666666666666664,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3583860759493671,
+    "final_zero": 0.2119860467776062,
+    "final_two_per_lab": 3.28
+   },
+   "800": {
+    "prom_per_lab": 1.2205,
+    "prom_zero": 0.1364195002048341,
+    "prom_rel": 0.8635804997951659,
+    "found_two": 0.5186666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3655807910691945,
+    "final_zero": 0.20785206875982865,
+    "final_two_per_lab": 3.439
+   }
+  },
+  "N1|흐림": {
+   "40": {
+    "prom_per_lab": 0.001,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3968371268105232,
+    "final_zero": 0.21872265966754156,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.028499999999999998,
+    "prom_zero": 0.19298245614035087,
+    "prom_rel": 0.8070175438596491,
+    "found_two": 0.0026666666666666666,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.385533624867037,
+    "final_zero": 0.21865852899047145,
+    "final_two_per_lab": 3.052
+   },
+   "200": {
+    "prom_per_lab": 0.231,
+    "prom_zero": 0.15800865800865802,
+    "prom_rel": 0.841991341991342,
+    "found_two": 0.07533333333333334,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.36358994383203674,
+    "final_zero": 0.21704531648645364,
+    "final_two_per_lab": 3.1065
+   },
+   "400": {
+    "prom_per_lab": 0.754,
+    "prom_zero": 0.14522546419098142,
+    "prom_rel": 0.8547745358090185,
+    "found_two": 0.294,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.36130258724614384,
+    "final_zero": 0.21241718071738633,
+    "final_two_per_lab": 3.2704999999999997
+   },
+   "800": {
+    "prom_per_lab": 1.2225,
+    "prom_zero": 0.1312883435582822,
+    "prom_rel": 0.8687116564417178,
+    "found_two": 0.526,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3662158811909694,
+    "final_zero": 0.20715641095147735,
+    "final_two_per_lab": 3.4445
+   }
+  },
+  "N1g|흐림": {
+   "40": {
+    "prom_per_lab": 0.0005,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.40005865962751136,
+    "final_zero": 0.2187363289794388,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.0295,
+    "prom_zero": 0.0847457627118644,
+    "prom_rel": 0.9152542372881356,
+    "found_two": 0.0013333333333333333,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3847068616958021,
+    "final_zero": 0.21825767482408617,
+    "final_two_per_lab": 3.051
+   },
+   "200": {
+    "prom_per_lab": 0.2405,
+    "prom_zero": 0.15592515592515593,
+    "prom_rel": 0.8440748440748441,
+    "found_two": 0.072,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3634909617647946,
+    "final_zero": 0.21691644924458467,
+    "final_two_per_lab": 3.104
+   },
+   "400": {
+    "prom_per_lab": 0.775,
+    "prom_zero": 0.15935483870967743,
+    "prom_rel": 0.8406451612903226,
+    "found_two": 0.30333333333333334,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3611478547752066,
+    "final_zero": 0.2135042735042735,
+    "final_two_per_lab": 3.2775
+   },
+   "800": {
+    "prom_per_lab": 1.296,
+    "prom_zero": 0.13773148148148148,
+    "prom_rel": 0.8622685185185185,
+    "found_two": 0.5326666666666666,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3675491349983071,
+    "final_zero": 0.20745481927710843,
+    "final_two_per_lab": 3.4494999999999996
+   }
+  },
+  "N2|흐림": {
+   "40": {
+    "prom_per_lab": 0.002,
+    "prom_zero": 0.0,
+    "prom_rel": 1.0,
+    "found_two": 0.0,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.40117994100294985,
+    "final_zero": 0.21869532616845788,
+    "final_two_per_lab": 3.05
+   },
+   "100": {
+    "prom_per_lab": 0.058499999999999996,
+    "prom_zero": 0.08547008547008547,
+    "prom_rel": 0.9145299145299145,
+    "found_two": 0.012,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3875177137458668,
+    "final_zero": 0.2177824657194267,
+    "final_two_per_lab": 3.059
+   },
+   "200": {
+    "prom_per_lab": 0.3215,
+    "prom_zero": 0.18973561430793157,
+    "prom_rel": 0.8102643856920684,
+    "found_two": 0.10466666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.3766292405406219,
+    "final_zero": 0.2176290332271826,
+    "final_two_per_lab": 3.1285
+   },
+   "400": {
+    "prom_per_lab": 0.7895,
+    "prom_zero": 0.17542748575047498,
+    "prom_rel": 0.824572514249525,
+    "found_two": 0.2846666666666667,
+    "pure_per_lab": 0.0,
+    "pure_zero": null,
+    "bad_imp": 0.37731671440737014,
+    "final_zero": 0.21485863814778997,
+    "final_two_per_lab": 3.2634999999999996
+   },
+   "800": {
+    "prom_per_lab": 1.2355,
+    "prom_zero": 0.15783083771752326,
+    "prom_rel": 0.8421691622824767,
+    "found_two": 0.5093333333333333,
+    "pure_per_lab": 0.001,
+    "pure_zero": 0.0,
+    "bad_imp": 0.37654483722788096,
+    "final_zero": 0.21060040062801147,
+    "final_two_per_lab": 3.432
+   }
+  }
+ },
+ "criteria": {
+  "1_효과(V=200, N1g 풀 핵심 발견 - N0 >= 15%p)": {
+   "선명": [
+    0.239,
+    0.207
+   ],
+   "보통": [
+    0.136,
+    0.118
+   ],
+   "ok": false
+  },
+  "2_정확도(V>=200, N1g 승격 0점<=15%)": {
+   "max": 0.049,
+   "ok": true
+  },
+  "3_유사도 가중(V=400, N1g 0점 <= N2 0점)": {
+   "선명": [
+    0.005,
+    0.008
+   ],
+   "보통": [
+    0.049,
+    0.051
+   ],
+   "ok": true
+  },
+  "4_순수 전이(V=400, N1 자기응답 없이 승격된 것의 0점<=20%)": {
+   "선명": [
+    null,
+    0.0
+   ],
+   "보통": [
+    null,
+    0.0
+   ],
+   "ok": true
+  },
+  "5_적은 응답(V=100, 선명, N1g 풀 핵심 발견>=25%)": {
+   "N1g": 0.011,
+   "N0": 0.013,
+   "ok": false
+  }
+ }
+}

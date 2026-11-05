@@ -1,0 +1,236 @@
+{
+  "date_utc": "2026-11-04 10:59:39 UTC",
+  "endpoint": "http://127.0.0.1:8200/",
+  "engine": {
+    "embedding": true
+  },
+  "static": {
+    "1": {
+      "n": 1,
+      "wall_seconds": 0.006,
+      "mean_seconds": 0.001,
+      "p50_seconds": 0.001,
+      "p95_seconds": 0.001,
+      "max_seconds": 0.001,
+      "success": 1,
+      "embedding": 0,
+      "dictionary": 0,
+      "errors": []
+    },
+    "10": {
+      "n": 10,
+      "wall_seconds": 0.01,
+      "mean_seconds": 0.004,
+      "p50_seconds": 0.004,
+      "p95_seconds": 0.007,
+      "max_seconds": 0.007,
+      "success": 10,
+      "embedding": 0,
+      "dictionary": 0,
+      "errors": []
+    },
+    "30": {
+      "n": 30,
+      "wall_seconds": 1.104,
+      "mean_seconds": 0.048,
+      "p50_seconds": 0.005,
+      "p95_seconds": 0.077,
+      "max_seconds": 1.022,
+      "success": 30,
+      "embedding": 0,
+      "dictionary": 0,
+      "errors": []
+    }
+  },
+  "search": {
+    "1": {
+      "n": 1,
+      "wall_seconds": 0.691,
+      "mean_seconds": 0.69,
+      "p50_seconds": 0.69,
+      "p95_seconds": 0.69,
+      "max_seconds": 0.69,
+      "success": 1,
+      "embedding": 1,
+      "dictionary": 0,
+      "errors": [],
+      "responses": [
+        {
+          "status": 200,
+          "seconds": 0.69,
+          "bytes": 33841,
+          "mode": "embedding",
+          "labs": 10
+        }
+      ]
+    },
+    "3": {
+      "n": 3,
+      "wall_seconds": 3.321,
+      "mean_seconds": 2.226,
+      "p50_seconds": 2.239,
+      "p95_seconds": 3.319,
+      "max_seconds": 3.319,
+      "success": 3,
+      "embedding": 3,
+      "dictionary": 0,
+      "errors": [],
+      "responses": [
+        {
+          "status": 200,
+          "seconds": 1.121,
+          "bytes": 33949,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 2.239,
+          "bytes": 37249,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 3.319,
+          "bytes": 35393,
+          "mode": "embedding",
+          "labs": 10
+        }
+      ]
+    },
+    "5": {
+      "n": 5,
+      "wall_seconds": 5.523,
+      "mean_seconds": 3.331,
+      "p50_seconds": 3.348,
+      "p95_seconds": 5.522,
+      "max_seconds": 5.522,
+      "success": 5,
+      "embedding": 5,
+      "dictionary": 0,
+      "errors": [],
+      "responses": [
+        {
+          "status": 200,
+          "seconds": 5.522,
+          "bytes": 35133,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 3.348,
+          "bytes": 37317,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 4.429,
+          "bytes": 39046,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 2.235,
+          "bytes": 30598,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 1.119,
+          "bytes": 31242,
+          "mode": "embedding",
+          "labs": 10
+        }
+      ]
+    },
+    "10": {
+      "n": 10,
+      "wall_seconds": 6.405,
+      "mean_seconds": 4.829,
+      "p50_seconds": 5.879,
+      "p95_seconds": 6.402,
+      "max_seconds": 6.402,
+      "success": 10,
+      "embedding": 5,
+      "dictionary": 5,
+      "errors": [],
+      "responses": [
+        {
+          "status": 200,
+          "seconds": 4.433,
+          "bytes": 31831,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 6.248,
+          "bytes": 37582,
+          "mode": "dictionary",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 6.402,
+          "bytes": 32020,
+          "mode": "dictionary",
+          "labs": 8
+        },
+        {
+          "status": 200,
+          "seconds": 2.239,
+          "bytes": 35571,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 5.509,
+          "bytes": 39043,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 6.361,
+          "bytes": 41299,
+          "mode": "dictionary",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 1.151,
+          "bytes": 37244,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 6.266,
+          "bytes": 41171,
+          "mode": "dictionary",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 3.344,
+          "bytes": 35930,
+          "mode": "embedding",
+          "labs": 10
+        },
+        {
+          "status": 200,
+          "seconds": 6.335,
+          "bytes": 43066,
+          "mode": "dictionary",
+          "labs": 10
+        }
+      ]
+    }
+  }
+}

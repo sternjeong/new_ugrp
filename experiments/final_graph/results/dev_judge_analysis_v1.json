@@ -1,0 +1,94 @@
+{
+  "status": "development_error_discovery_only",
+  "pairs": 22,
+  "exact_agreement": 0.8182,
+  "quadratic_weighted_kappa": 0.8576,
+  "disagreements": [
+    {
+      "pair_id": "pair:13af520bef93c149",
+      "a": 1,
+      "b": 0
+    },
+    {
+      "pair_id": "pair:2ef6851131152c47",
+      "a": 2,
+      "b": 1
+    },
+    {
+      "pair_id": "pair:7ae2349eb2ba17d8",
+      "a": 2,
+      "b": 1
+    },
+    {
+      "pair_id": "pair:a9c62ec54c52288f",
+      "a": 1,
+      "b": 0
+    }
+  ],
+  "method": {
+    "b0_expanded": {
+      "pairs": 12,
+      "judge_a": {
+        "1": 6,
+        "2": 6
+      },
+      "judge_b": {
+        "0": 1,
+        "1": 5,
+        "2": 6
+      },
+      "unanimous_zero": [],
+      "unanimous_related": [
+        "pair:09e18b0dcde09539",
+        "pair:2c55f1e3a6721e8c",
+        "pair:39316b515686de04",
+        "pair:5393c3e4b7f61e61",
+        "pair:7743aafcbae8bc7e",
+        "pair:a05417a30aca514e",
+        "pair:ab88998382148f13",
+        "pair:ca478b188b169461",
+        "pair:d22798087f477d03",
+        "pair:f5996a23b33940ce",
+        "pair:f9cccc8c73ec760c"
+      ]
+    },
+    "b1": {
+      "pairs": 6,
+      "judge_a": {
+        "0": 1,
+        "2": 5
+      },
+      "judge_b": {
+        "0": 1,
+        "1": 2,
+        "2": 3
+      },
+      "unanimous_zero": [
+        "pair:bd6c5ea391fea6e1"
+      ],
+      "unanimous_related": [
+        "pair:2ef6851131152c47",
+        "pair:7ae2349eb2ba17d8",
+        "pair:aa65b56734f7e47a",
+        "pair:ad5aa82a11172534",
+        "pair:daebcea69522cbee"
+      ]
+    },
+    "random": {
+      "pairs": 4,
+      "judge_a": {
+        "0": 3,
+        "1": 1
+      },
+      "judge_b": {
+        "0": 4
+      },
+      "unanimous_zero": [
+        "pair:6fe6e1f3579be208",
+        "pair:958ae11d5716518e",
+        "pair:9d37740e5f09e472"
+      ],
+      "unanimous_related": []
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "unjudged_exploratory_ranking",
+  "model": "BAAI/bge-m3",
+  "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "device": "cuda:0",
+  "model_max_seq_length": 256,
+  "course_chunks": 1882,
+  "lab_chunks": 706,
+  "courses": 941,
+  "labs": 136,
+  "source_hashes": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2"
+  },
+  "packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "rule_rankings_sha256": "7daf189bf2808844d5cfe7780ab8d1550e3cb23de790cee11156d21841da05b4",
+  "ranking_sha256": "0f6de4d99856ec5a74061b1edae7b793ef012eab823e48f6cdfba5659ab77434",
+  "torch": "2.11.0+cu128",
+  "sentence_transformers": "6.1.0",
+  "transformers": "5.16.1",
+  "numpy": "2.1.3",
+  "python": "3.13.15",
+  "cuda_name": "Tesla T4",
+  "scope": "bounded-window adaptation; not old notebook topic-profile chunks",
+  "kaggle_run_id": "20261014-234632-bge-rich-kaggle",
+  "import_script_sha256": "67722b130a6feecf70af6374830acd3bd9d3b5571b36c8cee843e6efafb8e516"
+}

@@ -1,0 +1,18 @@
+{
+  "packet_sha256": "54e7d08b1eb0043a69948c6df8c8b1a5ceac5ee5bc653d1be3728d6464389f01",
+  "method_key_sha256": "8dac01466c4ce7da6af14236c80eb229a3cd9495828872dab1efd2c9eabee8d0",
+  "rankings_sha256": "e4251e17061b364923fa3eaad7bb55d8471d9b5381dd7c15832c6766022504b5",
+  "frame_sha256": "cdc166c07224471ba92a283e69896e14ee498ed73ce97d5e4593676dbeffcfa8",
+  "profiles_sha256": "7bdeeb0399cc052d0be780c94ca2c60a7da339c0dc2e5b036e51d85d9c0de62f",
+  "builder_sha256": "b90dfc8dd4a5b84ba21487b5a6836dcce20b1970b54539e5eaf2bd30ae109f66",
+  "confirm_components": 18,
+  "confirm_labs": 28,
+  "new_pairs": 327,
+  "top5_exposures_per_variant": {
+    "core": 140,
+    "lab_admin": 140,
+    "course_admin": 140,
+    "both_admin": 140,
+    "learning_context": 140
+  }
+}

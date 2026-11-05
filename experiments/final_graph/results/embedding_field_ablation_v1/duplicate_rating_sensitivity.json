@@ -1,0 +1,39 @@
+{
+  "status": "posthoc_consistency_sensitivity_not_primary",
+  "packet_sha256": "54e7d08b1eb0043a69948c6df8c8b1a5ceac5ee5bc653d1be3728d6464389f01",
+  "analysis_sha256": "301ac58ad6feee5c67441a7b19b6ca1eb0c3ec96f1558fd1ad2f2a5d467234a1",
+  "judges": {
+    "A": {
+      "conflicting_identical_text_groups": 6,
+      "scenarios": 64,
+      "original_effect": 0.2117283950617284,
+      "original_ci95": [
+        0.11666666666666667,
+        0.30833333333333335
+      ],
+      "effect_range": [
+        0.20277777777777778,
+        0.22067901234567902
+      ],
+      "lowest_ci_lower": 0.11388888888888887,
+      "all_scenarios_pass_preregistered_0_02_threshold": true,
+      "ratings_sha256": "781ed537a3a9802b2824daa4754386e274d9e18dc8abcf5de23fb7e7e0843fa8"
+    },
+    "B": {
+      "conflicting_identical_text_groups": 2,
+      "scenarios": 4,
+      "original_effect": 0.2219135802469136,
+      "original_ci95": [
+        0.11291666666666669,
+        0.3330246913580247
+      ],
+      "effect_range": [
+        0.21358024691358027,
+        0.23024691358024693
+      ],
+      "lowest_ci_lower": 0.1049382716049383,
+      "all_scenarios_pass_preregistered_0_02_threshold": true,
+      "ratings_sha256": "915cbb4be9ca43d2cdb17974384fe7ddb7cfe1ff7cd2dadd9a789d86784e468a"
+    }
+  }
+}

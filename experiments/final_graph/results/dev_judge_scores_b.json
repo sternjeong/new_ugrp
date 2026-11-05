@@ -1,0 +1,359 @@
+{
+  "purpose": "development error discovery only; not confirmatory performance",
+  "judge": "independent judge B",
+  "judgment_basis": "Only the blinded development packet was used. Scale: 0=no explainable preparation, 1=indirect useful foundation, 2=direct taught method/tool. Evidence sufficiency is separate from relevance.",
+  "scores": [
+    {
+      "pair_id": "pair:ca478b188b169461",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Ceramic and electrochemical lab work gives useful materials/electrochemical preparation for the lab’s wastewater catalysis, but the listed sessions do not teach wastewater treatment or electrocatalysis directly.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "(Electro) Catalysts Development for Application in Wastewater Treatment"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "고체 전해질의 합성 및 전기화학적 특성 평가"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:2ef6851131152c47",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Bandit work is a neighboring sequential-learning foundation for reinforcement learning; the syllabus teaches RL but does not mention bandits specifically.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Low-rank bandit methods"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Q-learning, DQN, policy gradient, actor-critic"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:daebcea69522cbee",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The course explicitly teaches electrochemistry and electrocatalysis, directly applicable to the lab’s wastewater electrolysis and catalyst research.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "Wastewater Electrolysis Cell for Treatment of High-Salinity Wastewater"
+        },
+        {
+          "source": "course description",
+          "quote": "electrochemical techniques ... electrocatalysis"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:13af520bef93c149",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "rationale": "The lab focuses on scientific machine learning and PDEs, while this course concerns medical imaging and brain/image processing; the packet gives no explainable preparation link.",
+      "evidence": [
+        {
+          "source": "lab research interests",
+          "quote": "Scientific machine learning, AI for science, Uncertainty quantification"
+        },
+        {
+          "source": "course title and description",
+          "quote": "3D medical image processing"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:ab88998382148f13",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "Mathematical modeling of ODE/PDE systems is a direct foundation for the lab’s scientific-ML work on PDEs, although the course does not itself teach PINNs.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Causality-enforced evolutional networks for solving time-dependent partial differential equations"
+        },
+        {
+          "source": "course description",
+          "quote": "ODE/PDE modeling, simulation, and data-based fitting"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:d22798087f477d03",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Statistics and machine-learning topics provide useful general foundations for bandit and estimation research, but the syllabus does not directly identify those methods.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Low-rank bandit methods"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Basic Probability Theory and Statistics"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:9d37740e5f09e472",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "rationale": "The lab’s listed scientific-ML/PDE research has no supported preparation link to nuclear safety engineering, regulation, or law.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Physics informed neural networks for fluid flow analysis"
+        },
+        {
+          "source": "course title",
+          "quote": "Safety Engineering and Nuclear Safety Law"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:a05417a30aca514e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The lab’s representative work uses deep Q-learning and recurrent reinforcement learning, and the course explicitly includes reinforcement learning.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "An intelligent financial portfolio trading strategy using deep Q-learning"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Weeks 12-13 Reinforcement Learning"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:958ae11d5716518e",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "rationale": "Bandit and matrix-estimation research does not have an explainable preparation link to the listed nanofabrication and manufacturing topics.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Linear bandits"
+        },
+        {
+          "source": "course description",
+          "quote": "nanoprocessing and manufacturing"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:a9c62ec54c52288f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "rationale": "The lab’s listed papers concern portfolio strategy and energy bidding; the course teaches general discrete-event simulation, but the packet does not show simulation as a method in this lab work, so a relation would be speculative.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "A sample robust optimal bidding model for a virtual power plant"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Simulation language (Excel, Anylogic); Verification & Validation"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:6fe6e1f3579be208",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "rationale": "The wastewater electrochemistry topics and the humanities/technology-convergence syllabus show no specific preparatory relation in the supplied evidence.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "Electrochemical Intensification of Traditional Wastewater Treatment Processes"
+        },
+        {
+          "source": "course description",
+          "quote": "철학 및 인문, 예술, 사회학과 긴밀하고 다양하게 연결"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:39316b515686de04",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The numerical-analysis course expressly covers PINNs and operator learning, directly matching the lab’s scientific-ML and PDE research.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Physics-Informed Laplace Neural Operator for Solving Partial Differential Equations"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "PINNs and operator learning"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:7743aafcbae8bc7e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The lab researches wastewater electrolysis and the course explicitly teaches electrochemical water treatment, catalysts, and hydrogen production.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "Wastewater Electrolysis Cell for Treatment of High-Salinity Wastewater"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Electrochemical water treatment technologies"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:f5996a23b33940ce",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The lab’s deep-Q-learning portfolio work directly aligns with the course’s explicit reinforcement-learning content.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "An intelligent financial portfolio trading strategy using deep Q-learning"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Weeks 12-13 Reinforcement Learning"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:f9cccc8c73ec760c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Materials design, synthesis, and electrochemical characterization are useful foundations for the lab’s catalyst-material research, but the listed course does not directly teach wastewater treatment or electrocatalysis.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "(Electro) Catalysts Development for Application in Wastewater Treatment"
+        },
+        {
+          "source": "course description",
+          "quote": "다양한 신소재를 직접 디자인/합성/분석"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:7ae2349eb2ba17d8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Dynamic programming and reinforcement learning are adjacent foundations for bandit research, but the specific bandit methods in the lab’s papers are not listed in the syllabus.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Low-rank bandit methods"
+        },
+        {
+          "source": "course description",
+          "quote": "Dynamic Programming and RL Applications"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:aa65b56734f7e47a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The course directly teaches electrochemistry, electrolysis, and electrode reaction methods used in the lab’s wastewater electrolysis and electrocatalysis work.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "Wastewater Electrolysis Cell for Treatment of High-Salinity Wastewater"
+        },
+        {
+          "source": "course description",
+          "quote": "water electrolysis"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:ad5aa82a11172534",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "The course directly teaches electrochemistry and electrolysis, both central to the lab’s wastewater electrolysis/catalysis research.",
+      "evidence": [
+        {
+          "source": "lab research topics",
+          "quote": "Electrochemical Intensification of Traditional Wastewater Treatment Processes"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Applications 3 (Electrolysis)"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:5393c3e4b7f61e61",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Probability, statistics, and machine-learning foundations are useful for bandit and low-rank estimation work, but the syllabus does not directly teach bandits.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Low-rank bandit methods"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Basic Probability Theory and Statistics"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:2c55f1e3a6721e8c",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "rationale": "This course explicitly covers bandit models, directly matching the lab’s bandit papers.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Low-rank bandit methods"
+        },
+        {
+          "source": "course lecture plan",
+          "quote": "Bandit models"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:bd6c5ea391fea6e1",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "rationale": "The lab’s listed bandit and estimation research does not show a preparatory link to vision-language modeling, computer vision, or NLP.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "Linear bandits"
+        },
+        {
+          "source": "course description",
+          "quote": "intersection of Vision and Language"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair:09e18b0dcde09539",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "rationale": "Programming, numerical computing, and general AI provide useful background for the lab’s reinforcement-learning applications, but the syllabus does not teach RL or Q-learning directly.",
+      "evidence": [
+        {
+          "source": "representative paper title",
+          "quote": "An intelligent financial portfolio trading strategy using deep Q-learning"
+        },
+        {
+          "source": "course description",
+          "quote": "Python, numerical computing, AI basics, ML/DL"
+        }
+      ]
+    }
+  ]
+}

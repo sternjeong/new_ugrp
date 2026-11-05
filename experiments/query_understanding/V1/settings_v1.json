@@ -1,0 +1,18 @@
+{
+ "EMB": "BAAI/bge-m3",
+ "LLM_ID": "Qwen/Qwen2.5-7B-Instruct",
+ "LAMS": [
+  0,
+  0.5,
+  1,
+  2
+ ],
+ "cpu_query_ms": 219.95398937127527,
+ "llm_seconds": 35.8971483707428,
+ "n_labs": 56,
+ "n_queries": 39,
+ "docs": {
+  "0": 359,
+  "1": 873
+ }
+}

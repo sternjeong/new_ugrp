@@ -1,0 +1,1598 @@
+{
+ "_about": "3분커리 개념 어휘 초안 (2026-09-16, Claude 작성, 검토 전). 연구실 프로필과 과목 프로필이 공유하는 노드다. kind는 개념의 기본 성격이며, 연구실별 역할(domain/method)은 lab_profiles에서 따로 기록한다. keywords는 과목 본문 매칭용이며 한국어는 부분 문자열, 영어는 단어 경계로 매칭한다. query_keywords는 학생 관심 문장 해석에만 쓰고 과목 태깅에는 쓰지 않는다.",
+ "concepts": [
+  {
+   "id": "machine_learning",
+   "ko": "AI·기계학습",
+   "en": "Machine learning",
+   "kind": "method",
+   "keywords": [
+    "인공지능",
+    "기계학습",
+    "머신러닝",
+    "딥러닝",
+    "신경망",
+    "machine learning",
+    "deep learning",
+    "neural network",
+    "artificial intelligence"
+   ],
+   "query_keywords": [
+    "ai"
+   ]
+  },
+  {
+   "id": "reinforcement_learning",
+   "ko": "강화학습",
+   "en": "Reinforcement learning",
+   "kind": "method",
+   "keywords": [
+    "강화학습",
+    "reinforcement learning",
+    "bandit"
+   ],
+   "query_keywords": [
+    "강화학습",
+    "게임 ai"
+   ]
+  },
+  {
+   "id": "computer_vision",
+   "ko": "컴퓨터비전·영상인식",
+   "en": "Computer vision",
+   "kind": "method",
+   "keywords": [
+    "컴퓨터비전",
+    "컴퓨터 비전",
+    "영상인식",
+    "영상 인식",
+    "영상처리",
+    "영상 처리",
+    "computer vision",
+    "image processing",
+    "object detection",
+    "image recognition"
+   ],
+   "query_keywords": [
+    "영상",
+    "이미지",
+    "image"
+   ]
+  },
+  {
+   "id": "nlp",
+   "ko": "자연어처리·언어모델",
+   "en": "Natural language processing / LLM",
+   "kind": "method",
+   "keywords": [
+    "자연어",
+    "언어모델",
+    "언어 모델",
+    "대화 시스템",
+    "질의응답",
+    "natural language",
+    "language model",
+    "llm",
+    "dialogue",
+    "question answering",
+    "text mining",
+    "chatbot",
+    "챗봇",
+    "대화형",
+    "텍스트"
+   ],
+   "query_keywords": [
+    "언어",
+    "문장",
+    "글"
+   ]
+  },
+  {
+   "id": "speech_processing",
+   "ko": "음성처리",
+   "en": "Speech processing",
+   "kind": "method",
+   "keywords": [
+    "음성",
+    "speech",
+    "voice",
+    "acoustic signal",
+    "음성 인식",
+    "speech recognition",
+    "목소리"
+   ],
+   "query_keywords": [
+    "음성",
+    "목소리",
+    "말"
+   ]
+  },
+  {
+   "id": "generative_models",
+   "ko": "생성모델",
+   "en": "Generative models",
+   "kind": "method",
+   "keywords": [
+    "생성모델",
+    "생성 모델",
+    "generative model",
+    "diffusion model",
+    "gan",
+    "생성형"
+   ],
+   "query_keywords": [
+    "생성",
+    "생성형 ai",
+    "이미지 생성"
+   ]
+  },
+  {
+   "id": "graph_learning",
+   "ko": "그래프 신경망·그래프 데이터",
+   "en": "Graph learning",
+   "kind": "method",
+   "keywords": [
+    "그래프 신경망",
+    "graph neural network",
+    "gnn",
+    "graph data",
+    "그래프 데이터"
+   ],
+   "query_keywords": [
+    "그래프"
+   ]
+  },
+  {
+   "id": "federated_distributed_learning",
+   "ko": "분산·연합학습",
+   "en": "Distributed and federated learning",
+   "kind": "method",
+   "keywords": [
+    "연합학습",
+    "분산학습",
+    "분산 학습",
+    "federated learning",
+    "distributed learning",
+    "split learning"
+   ],
+   "query_keywords": [
+    "연합학습",
+    "분산학습"
+   ]
+  },
+  {
+   "id": "efficient_ai",
+   "ko": "경량화·효율적 AI",
+   "en": "Efficient AI (compression, quantization, on-device)",
+   "kind": "method",
+   "keywords": [
+    "경량화",
+    "양자화",
+    "모델 압축",
+    "온디바이스",
+    "on-device",
+    "quantization",
+    "model compression",
+    "pruning",
+    "efficient inference"
+   ],
+   "query_keywords": [
+    "경량",
+    "효율적인 ai",
+    "가속"
+   ]
+  },
+  {
+   "id": "ai_safety_alignment",
+   "ko": "AI 안전·신뢰성·불확실성",
+   "en": "AI safety, alignment, uncertainty",
+   "kind": "method",
+   "keywords": [
+    "신뢰성 있는 인공지능",
+    "ai safety",
+    "alignment",
+    "conformal prediction",
+    "uncertainty quantification",
+    "trustworthy",
+    "설명가능",
+    "explainable"
+   ],
+   "query_keywords": [
+    "안전",
+    "신뢰",
+    "믿을 수",
+    "safe",
+    "safety",
+    "robust"
+   ]
+  },
+  {
+   "id": "optimization",
+   "ko": "최적화",
+   "en": "Optimization",
+   "kind": "method",
+   "keywords": [
+    "최적화",
+    "optimization",
+    "convex",
+    "선형계획",
+    "linear programming",
+    "integer programming"
+   ],
+   "query_keywords": [
+    "최적화"
+   ]
+  },
+  {
+   "id": "control_theory",
+   "ko": "제어",
+   "en": "Control theory",
+   "kind": "method",
+   "keywords": [
+    "제어",
+    "control system",
+    "control theory",
+    "feedback control",
+    "controller",
+    "state estimation",
+    "kalman"
+   ],
+   "query_keywords": [
+    "제어공학",
+    "제어 공학"
+   ]
+  },
+  {
+   "id": "signal_processing",
+   "ko": "신호처리",
+   "en": "Signal processing",
+   "kind": "method",
+   "keywords": [
+    "신호처리",
+    "신호 처리",
+    "signal processing",
+    "푸리에",
+    "fourier",
+    "필터 설계",
+    "digital filter"
+   ],
+   "query_keywords": [
+    "신호"
+   ]
+  },
+  {
+   "id": "information_theory_coding",
+   "ko": "정보이론·채널부호",
+   "en": "Information theory and coding",
+   "kind": "method",
+   "keywords": [
+    "정보이론",
+    "정보 이론",
+    "채널부호",
+    "오류정정",
+    "부호이론",
+    "information theory",
+    "channel coding",
+    "error correcting",
+    "error-correcting",
+    "ldpc",
+    "entropy"
+   ],
+   "query_keywords": [
+    "정보이론",
+    "부호"
+   ]
+  },
+  {
+   "id": "statistics_probability",
+   "ko": "통계·확률",
+   "en": "Statistics and probability",
+   "kind": "method",
+   "keywords": [
+    "통계",
+    "확률",
+    "statistics",
+    "statistical",
+    "probability",
+    "stochastic",
+    "bayesian",
+    "베이지안",
+    "회귀분석",
+    "regression"
+   ],
+   "query_keywords": [
+    "통계",
+    "확률"
+   ]
+  },
+  {
+   "id": "algorithms_theory",
+   "ko": "알고리즘·계산이론",
+   "en": "Algorithms and theory of computation",
+   "kind": "method",
+   "keywords": [
+    "알고리즘",
+    "자료구조",
+    "계산이론",
+    "계산 복잡도",
+    "계산기하",
+    "algorithm",
+    "data structure",
+    "computational geometry",
+    "complexity",
+    "np-hard",
+    "graph theory",
+    "그래프 이론",
+    "이산수학",
+    "discrete mathematics",
+    "조합론",
+    "combinatorics"
+   ],
+   "query_keywords": [
+    "이론",
+    "수학"
+   ]
+  },
+  {
+   "id": "formal_methods",
+   "ko": "소프트웨어 검증·형식기법",
+   "en": "Formal methods and software verification",
+   "kind": "method",
+   "keywords": [
+    "형식 검증",
+    "정형 기법",
+    "모델 체킹",
+    "소프트웨어 검증",
+    "formal verification",
+    "model checking",
+    "formal method",
+    "program verification",
+    "logic",
+    "논리학",
+    "프로그래밍 언어론",
+    "programming language"
+   ],
+   "query_keywords": [
+    "버그",
+    "증명",
+    "검증"
+   ]
+  },
+  {
+   "id": "data_mining_databases",
+   "ko": "데이터베이스·데이터마이닝",
+   "en": "Databases and data mining",
+   "kind": "method",
+   "keywords": [
+    "데이터베이스",
+    "데이타베이스",
+    "데이터마이닝",
+    "데이터 마이닝",
+    "database",
+    "data mining",
+    "빅데이터",
+    "big data",
+    "sql",
+    "데이터 분석",
+    "data analysis",
+    "data science",
+    "데이터과학",
+    "데이터 처리",
+    "data processing",
+    "데이터 관리",
+    "data management"
+   ],
+   "query_keywords": []
+  },
+  {
+   "id": "recommender_systems",
+   "ko": "추천시스템",
+   "en": "Recommender systems",
+   "kind": "method",
+   "keywords": [
+    "추천시스템",
+    "추천 시스템",
+    "recommender",
+    "recommendation system"
+   ],
+   "query_keywords": [
+    "추천",
+    "취향"
+   ]
+  },
+  {
+   "id": "time_series",
+   "ko": "시계열 분석",
+   "en": "Time series",
+   "kind": "method",
+   "keywords": [
+    "시계열",
+    "time series",
+    "time-series",
+    "forecasting",
+    "예측 모형"
+   ],
+   "query_keywords": [
+    "예측"
+   ]
+  },
+  {
+   "id": "computer_architecture",
+   "ko": "컴퓨터구조·AI 가속기",
+   "en": "Computer architecture and accelerators",
+   "kind": "domain",
+   "keywords": [
+    "컴퓨터구조",
+    "컴퓨터 구조",
+    "computer architecture",
+    "processor",
+    "프로세서",
+    "gpu",
+    "npu",
+    "accelerator",
+    "가속기",
+    "메모리 시스템",
+    "memory system",
+    "processing-in-memory",
+    "캐시",
+    "cache",
+    "파이프라인"
+   ],
+   "query_keywords": [
+    "컴퓨터 구조",
+    "ai 반도체",
+    "하드웨어"
+   ]
+  },
+  {
+   "id": "operating_systems_storage",
+   "ko": "운영체제·스토리지",
+   "en": "Operating systems and storage",
+   "kind": "domain",
+   "keywords": [
+    "운영체제",
+    "운영 체제",
+    "operating system",
+    "file system",
+    "파일 시스템",
+    "storage",
+    "스토리지",
+    "ssd",
+    "flash memory",
+    "virtualization",
+    "가상화"
+   ],
+   "query_keywords": [
+    "운영체제",
+    "스토리지",
+    "저장장치"
+   ]
+  },
+  {
+   "id": "compilers_programming_languages",
+   "ko": "컴파일러·프로그래밍 언어",
+   "en": "Compilers and programming languages",
+   "kind": "domain",
+   "keywords": [
+    "컴파일러",
+    "compiler",
+    "runtime system",
+    "병렬 프로그래밍",
+    "parallel programming",
+    "opencl",
+    "openmp"
+   ],
+   "query_keywords": [
+    "컴파일러",
+    "프로그래밍 언어"
+   ]
+  },
+  {
+   "id": "distributed_systems_blockchain",
+   "ko": "분산시스템·블록체인",
+   "en": "Distributed systems and blockchain",
+   "kind": "domain",
+   "keywords": [
+    "분산시스템",
+    "분산 시스템",
+    "distributed system",
+    "블록체인",
+    "blockchain",
+    "consensus",
+    "합의 알고리즘",
+    "클라우드",
+    "cloud computing"
+   ],
+   "query_keywords": [
+    "블록체인",
+    "분산"
+   ]
+  },
+  {
+   "id": "system_security",
+   "ko": "시스템·소프트웨어 보안",
+   "en": "System and software security",
+   "kind": "domain",
+   "keywords": [
+    "보안",
+    "security",
+    "취약점",
+    "vulnerability",
+    "malware",
+    "침입",
+    "trusted execution"
+   ],
+   "query_keywords": [
+    "해킹",
+    "보안"
+   ]
+  },
+  {
+   "id": "cryptography_privacy",
+   "ko": "암호·프라이버시",
+   "en": "Cryptography and privacy",
+   "kind": "method",
+   "keywords": [
+    "암호",
+    "cryptography",
+    "encryption",
+    "homomorphic",
+    "동형암호",
+    "프라이버시",
+    "privacy"
+   ],
+   "query_keywords": [
+    "암호",
+    "프라이버시",
+    "개인정보"
+   ]
+  },
+  {
+   "id": "networking_iot",
+   "ko": "네트워크·IoT",
+   "en": "Networking and IoT",
+   "kind": "domain",
+   "keywords": [
+    "네트워크",
+    "network protocol",
+    "computer network",
+    "인터넷",
+    "internet",
+    "iot",
+    "사물인터넷",
+    "사물 인터넷",
+    "tcp",
+    "라우팅",
+    "routing",
+    "p2p",
+    "스트리밍",
+    "streaming"
+   ],
+   "query_keywords": [
+    "네트워크"
+   ]
+  },
+  {
+   "id": "wireless_communications",
+   "ko": "무선통신",
+   "en": "Wireless communications",
+   "kind": "domain",
+   "keywords": [
+    "무선통신",
+    "무선 통신",
+    "이동통신",
+    "이동 통신",
+    "디지털통신",
+    "디지털 통신",
+    "통신시스템",
+    "통신 시스템",
+    "통신이론",
+    "wireless",
+    "communication system",
+    "mimo",
+    "5g",
+    "6g",
+    "modulation",
+    "변조",
+    "ofdm",
+    "channel estimation"
+   ],
+   "query_keywords": [
+    "통신",
+    "5g",
+    "6g"
+   ]
+  },
+  {
+   "id": "radar_sensing",
+   "ko": "레이더·센서 신호",
+   "en": "Radar and sensing",
+   "kind": "domain",
+   "keywords": [
+    "레이더",
+    "레이다",
+    "radar",
+    "센서 신호",
+    "sensor fusion",
+    "센서 융합",
+    "lidar",
+    "라이다"
+   ],
+   "query_keywords": [
+    "레이더",
+    "센서"
+   ]
+  },
+  {
+   "id": "circuit_design",
+   "ko": "회로·집적회로 설계",
+   "en": "Circuit and IC design",
+   "kind": "domain",
+   "keywords": [
+    "회로",
+    "circuit",
+    "집적회로",
+    "vlsi",
+    "cmos",
+    "아날로그",
+    "analog",
+    "soc",
+    "system-on-chip",
+    "디지털 설계",
+    "digital design",
+    "verilog",
+    "hdl",
+    "eda",
+    "design automation",
+    "증폭기",
+    "amplifier"
+   ],
+   "query_keywords": [
+    "회로",
+    "칩 설계"
+   ]
+  },
+  {
+   "id": "rf_microwave",
+   "ko": "RF·마이크로파·안테나",
+   "en": "RF, microwave and antennas",
+   "kind": "domain",
+   "keywords": [
+    "안테나",
+    "antenna",
+    "마이크로파",
+    "microwave",
+    "고주파",
+    "rf",
+    "millimeter-wave",
+    "밀리미터파",
+    "terahertz",
+    "테라헤르츠",
+    "thz",
+    "전송선",
+    "transmission line"
+   ],
+   "query_keywords": [
+    "전자기파",
+    "전파",
+    "안테나"
+   ]
+  },
+  {
+   "id": "electromagnetics",
+   "ko": "전자기학·전산전자기",
+   "en": "Electromagnetics",
+   "kind": "method",
+   "keywords": [
+    "전자기",
+    "전자장",
+    "electromagnetic",
+    "maxwell",
+    "맥스웰",
+    "fdtd",
+    "wave propagation",
+    "전파"
+   ],
+   "query_keywords": [
+    "전자기파",
+    "전자기"
+   ]
+  },
+  {
+   "id": "photonics_optics",
+   "ko": "광학·포토닉스·레이저",
+   "en": "Optics, photonics and lasers",
+   "kind": "domain",
+   "keywords": [
+    "광학",
+    "optics",
+    "optical",
+    "포토닉스",
+    "photonic",
+    "레이저",
+    "laser",
+    "광소자",
+    "광통신",
+    "optical communication",
+    "cavity",
+    "공진기"
+   ],
+   "query_keywords": [
+    "빛",
+    "광"
+   ]
+  },
+  {
+   "id": "semiconductor_devices",
+   "ko": "반도체 소자·물성",
+   "en": "Semiconductor devices and physics",
+   "kind": "domain",
+   "keywords": [
+    "반도체",
+    "semiconductor",
+    "트랜지스터",
+    "transistor",
+    "mosfet",
+    "fet",
+    "소자 물리",
+    "device physics",
+    "전자소자",
+    "electronic device",
+    "다이오드",
+    "diode",
+    "메모리 소자",
+    "memory device",
+    "박막"
+   ],
+   "query_keywords": [
+    "소자",
+    "칩"
+   ]
+  },
+  {
+   "id": "semiconductor_process_packaging",
+   "ko": "반도체 공정·패키징·집적",
+   "en": "Semiconductor processing and packaging",
+   "kind": "domain",
+   "keywords": [
+    "반도체 공정",
+    "공정",
+    "fabrication",
+    "lithography",
+    "리소그래피",
+    "패키징",
+    "packaging",
+    "interconnect",
+    "배선",
+    "전기도금",
+    "electroplating",
+    "박막 증착",
+    "deposition",
+    "etching",
+    "식각",
+    "cleanroom",
+    "heterogeneous integration"
+   ],
+   "query_keywords": [
+    "공정",
+    "만들어"
+   ]
+  },
+  {
+   "id": "nanomaterials_2d",
+   "ko": "나노·저차원 소재",
+   "en": "Nanomaterials and 2D materials",
+   "kind": "domain",
+   "keywords": [
+    "나노",
+    "nano",
+    "그래핀",
+    "graphene",
+    "2d material",
+    "저차원",
+    "low-dimensional",
+    "양자점",
+    "quantum dot",
+    "nanowire",
+    "나노선"
+   ],
+   "query_keywords": [
+    "나노",
+    "그래핀"
+   ]
+  },
+  {
+   "id": "device_simulation_dft",
+   "ko": "소자·물성 시뮬레이션(DFT·TCAD)",
+   "en": "Device and materials simulation",
+   "kind": "method",
+   "keywords": [
+    "dft",
+    "density functional",
+    "제일원리",
+    "first-principles",
+    "분자동역학",
+    "molecular dynamics",
+    "tcad",
+    "monte carlo",
+    "몬테카를로",
+    "전산모사",
+    "시뮬레이션",
+    "simulation",
+    "유한요소",
+    "finite element",
+    "fem"
+   ],
+   "query_keywords": []
+  },
+  {
+   "id": "display_technology",
+   "ko": "디스플레이",
+   "en": "Display technology",
+   "kind": "domain",
+   "keywords": [
+    "디스플레이",
+    "display",
+    "oled",
+    "lcd",
+    "액정",
+    "liquid crystal",
+    "발광"
+   ],
+   "query_keywords": [
+    "화면",
+    "패널"
+   ]
+  },
+  {
+   "id": "soft_electronics",
+   "ko": "유연·신축·웨어러블 전자",
+   "en": "Soft, flexible and wearable electronics",
+   "kind": "domain",
+   "keywords": [
+    "유연 전자",
+    "flexible electronics",
+    "stretchable",
+    "신축성",
+    "웨어러블",
+    "wearable",
+    "soft electronics",
+    "flexible display",
+    "e-skin",
+    "전자피부"
+   ],
+   "query_keywords": [
+    "웨어러블",
+    "유연"
+   ]
+  },
+  {
+   "id": "power_electronics",
+   "ko": "전력전자·전력변환",
+   "en": "Power electronics and conversion",
+   "kind": "domain",
+   "keywords": [
+    "전력전자",
+    "전력 전자",
+    "power electronics",
+    "컨버터",
+    "converter",
+    "인버터",
+    "inverter",
+    "전력변환",
+    "power conversion",
+    "전동기",
+    "motor drive",
+    "스마트그리드",
+    "smart grid",
+    "전력계통",
+    "power system"
+   ],
+   "query_keywords": [
+    "전력",
+    "전기차"
+   ]
+  },
+  {
+   "id": "battery_energy",
+   "ko": "배터리·에너지 변환",
+   "en": "Batteries and energy conversion",
+   "kind": "domain",
+   "keywords": [
+    "배터리",
+    "battery",
+    "이차전지",
+    "에너지 저장",
+    "energy storage",
+    "열전",
+    "thermoelectric",
+    "태양전지",
+    "solar cell",
+    "연료전지",
+    "fuel cell",
+    "에너지 변환",
+    "energy conversion",
+    "energy harvesting"
+   ],
+   "query_keywords": [
+    "에너지",
+    "전지"
+   ]
+  },
+  {
+   "id": "robotics",
+   "ko": "로봇",
+   "en": "Robotics",
+   "kind": "domain",
+   "keywords": [
+    "로봇",
+    "로보틱스",
+    "robot",
+    "manipulator",
+    "매니퓰레이터",
+    "기구학",
+    "kinematics",
+    "동역학 제어",
+    "motion planning",
+    "경로 계획"
+   ],
+   "query_keywords": [
+    "로봇이",
+    "물건을 집"
+   ]
+  },
+  {
+   "id": "slam_navigation",
+   "ko": "자율주행·SLAM·항법",
+   "en": "Autonomous driving, SLAM and navigation",
+   "kind": "domain",
+   "keywords": [
+    "자율주행",
+    "autonomous driving",
+    "autonomous vehicle",
+    "slam",
+    "localization",
+    "위치 추정",
+    "navigation",
+    "항법",
+    "드론",
+    "drone",
+    "무인기",
+    "uav"
+   ],
+   "query_keywords": [
+    "자율",
+    "드론"
+   ]
+  },
+  {
+   "id": "underwater_field_robotics",
+   "ko": "수중·극한환경 로봇",
+   "en": "Underwater and field robotics",
+   "kind": "domain",
+   "keywords": [
+    "수중",
+    "underwater",
+    "해양",
+    "marine",
+    "field robot",
+    "극한환경",
+    "sonar",
+    "소나"
+   ],
+   "query_keywords": [
+    "바다",
+    "수중 로봇"
+   ]
+  },
+  {
+   "id": "world_models_embodied",
+   "ko": "월드모델·VLA·physical AI",
+   "en": "World models, VLA and embodied AI",
+   "kind": "method",
+   "keywords": [
+    "world model",
+    "월드 모델",
+    "vision-language-action",
+    "vla",
+    "embodied",
+    "physical ai",
+    "imitation learning",
+    "모방학습",
+    "behavior cloning",
+    "로봇 학습",
+    "robot learning",
+    "로봇 조작",
+    "manipulation",
+    "조작 학습"
+   ],
+   "query_keywords": []
+  },
+  {
+   "id": "quantum",
+   "ko": "양자컴퓨팅·양자정보",
+   "en": "Quantum computing and information",
+   "kind": "domain",
+   "keywords": [
+    "양자",
+    "quantum",
+    "qubit",
+    "큐비트",
+    "ion trap",
+    "이온 트랩",
+    "superconducting qubit"
+   ],
+   "query_keywords": [
+    "양자컴퓨터",
+    "양자 컴퓨터"
+   ]
+  },
+  {
+   "id": "hci",
+   "ko": "인간-컴퓨터 상호작용",
+   "en": "Human-computer interaction",
+   "kind": "domain",
+   "keywords": [
+    "hci",
+    "human-computer",
+    "인간-컴퓨터",
+    "인간 컴퓨터",
+    "사용자 경험",
+    "user experience",
+    "ux",
+    "인터랙션",
+    "interaction design",
+    "사용자 인터페이스",
+    "user interface",
+    "user study",
+    "사용성"
+   ],
+   "query_keywords": [
+    "사용자",
+    "인터페이스"
+   ]
+  },
+  {
+   "id": "haptics",
+   "ko": "햅틱·촉각",
+   "en": "Haptics",
+   "kind": "domain",
+   "keywords": [
+    "햅틱",
+    "haptic",
+    "촉각",
+    "tactile",
+    "진동 피드백"
+   ],
+   "query_keywords": [
+    "촉각",
+    "햅틱",
+    "진동"
+   ]
+  },
+  {
+   "id": "vr_ar_xr",
+   "ko": "VR·AR·XR·메타버스",
+   "en": "VR, AR, XR",
+   "kind": "domain",
+   "keywords": [
+    "가상현실",
+    "가상 현실",
+    "virtual reality",
+    "증강현실",
+    "증강 현실",
+    "augmented reality",
+    "xr",
+    "확장현실",
+    "metaverse",
+    "메타버스",
+    "hmd",
+    "telepresence",
+    "텔레프레즌스"
+   ],
+   "query_keywords": [
+    "게임",
+    "vr",
+    "ar"
+   ]
+  },
+  {
+   "id": "ubiquitous_mobile_computing",
+   "ko": "모바일·유비쿼터스 컴퓨팅·센싱",
+   "en": "Mobile, ubiquitous computing and sensing",
+   "kind": "domain",
+   "keywords": [
+    "모바일 컴퓨팅",
+    "mobile computing",
+    "유비쿼터스",
+    "ubiquitous",
+    "pervasive",
+    "스마트폰",
+    "smartphone",
+    "센싱",
+    "sensing",
+    "wearable computing",
+    "스마트워치",
+    "mobile system"
+   ],
+   "query_keywords": [
+    "스마트폰",
+    "모바일",
+    "웨어러블"
+   ]
+  },
+  {
+   "id": "embedded_systems",
+   "ko": "임베디드 시스템",
+   "en": "Embedded systems",
+   "kind": "domain",
+   "keywords": [
+    "임베디드",
+    "embedded",
+    "마이크로컨트롤러",
+    "microcontroller",
+    "fpga",
+    "실시간 시스템",
+    "real-time system",
+    "arduino",
+    "아두이노",
+    "firmware"
+   ],
+   "query_keywords": [
+    "임베디드",
+    "마이크로컨트롤러"
+   ]
+  },
+  {
+   "id": "computer_graphics",
+   "ko": "컴퓨터그래픽스·3D",
+   "en": "Computer graphics and 3D",
+   "kind": "domain",
+   "keywords": [
+    "그래픽스",
+    "graphics",
+    "렌더링",
+    "rendering",
+    "3d 복원",
+    "3d reconstruction",
+    "geometry processing",
+    "기하 처리",
+    "애니메이션",
+    "animation",
+    "gaussian splatting",
+    "nerf"
+   ],
+   "query_keywords": [
+    "3d",
+    "그래픽",
+    "렌더링",
+    "애니메이션"
+   ]
+  },
+  {
+   "id": "computational_imaging",
+   "ko": "전산 영상·카메라·이미징",
+   "en": "Computational imaging",
+   "kind": "domain",
+   "keywords": [
+    "computational imaging",
+    "computational photography",
+    "카메라",
+    "camera",
+    "이미징",
+    "imaging system",
+    "hyperspectral",
+    "초분광",
+    "polarimetric",
+    "편광",
+    "metalens",
+    "메타렌즈",
+    "사진",
+    "photography"
+   ],
+   "query_keywords": []
+  },
+  {
+   "id": "social_computing",
+   "ko": "소셜 컴퓨팅·크라우드소싱",
+   "en": "Social computing and crowdsourcing",
+   "kind": "domain",
+   "keywords": [
+    "소셜",
+    "social computing",
+    "social network",
+    "크라우드소싱",
+    "crowdsourcing",
+    "social media"
+   ],
+   "query_keywords": [
+    "소셜",
+    "sns"
+   ]
+  },
+  {
+   "id": "accessibility",
+   "ko": "접근성·보조기술",
+   "en": "Accessibility and assistive technology",
+   "kind": "domain",
+   "keywords": [
+    "접근성",
+    "accessibility",
+    "시각장애",
+    "visually impaired",
+    "청각장애",
+    "hearing loss",
+    "assistive",
+    "보조 기술",
+    "braille",
+    "점자"
+   ],
+   "query_keywords": [
+    "장애"
+   ]
+  },
+  {
+   "id": "ultrasound_acoustics",
+   "ko": "초음파·음향",
+   "en": "Ultrasound and acoustics",
+   "kind": "domain",
+   "keywords": [
+    "초음파",
+    "ultrasound",
+    "ultrasonic",
+    "음향",
+    "acoustics",
+    "acoustic",
+    "스피커",
+    "speaker",
+    "transducer",
+    "트랜스듀서"
+   ],
+   "query_keywords": [
+    "소리"
+   ]
+  },
+  {
+   "id": "biomedical_imaging",
+   "ko": "의료 영상",
+   "en": "Biomedical imaging",
+   "kind": "domain",
+   "keywords": [
+    "의료 영상",
+    "의료영상",
+    "medical imaging",
+    "medical image",
+    "mri",
+    "ct",
+    "pet",
+    "photoacoustic",
+    "광음향",
+    "biomedical imaging",
+    "microscopy",
+    "현미경"
+   ],
+   "query_keywords": [
+    "몸 속",
+    "진단"
+   ]
+  },
+  {
+   "id": "bioelectronics_neural",
+   "ko": "생체전자·신경조절·이식형 기기",
+   "en": "Bioelectronics, neuromodulation and implants",
+   "kind": "domain",
+   "keywords": [
+    "생체전자",
+    "bioelectronics",
+    "신경조절",
+    "neuromodulation",
+    "neural interface",
+    "신경 인터페이스",
+    "implantable",
+    "이식형",
+    "전극",
+    "electrode",
+    "electrophysiology",
+    "전기생리",
+    "brain-computer",
+    "뇌-컴퓨터",
+    "bci",
+    "deep brain stimulation"
+   ],
+   "query_keywords": [
+    "신경 신호",
+    "뇌 신호",
+    "전기 자극"
+   ]
+  },
+  {
+   "id": "digital_health_wearables",
+   "ko": "디지털 헬스·웨어러블 건강관리",
+   "en": "Digital health and wearable healthcare",
+   "kind": "domain",
+   "keywords": [
+    "헬스케어",
+    "healthcare",
+    "digital health",
+    "디지털 헬스",
+    "혈당",
+    "glucose",
+    "당뇨",
+    "diabetes",
+    "혈압",
+    "blood pressure",
+    "생체신호",
+    "biosignal",
+    "bio-signal",
+    "physiological signal",
+    "건강 모니터링",
+    "health monitoring",
+    "건강 관리",
+    "건강관리",
+    "스마트워치"
+   ],
+   "query_keywords": []
+  },
+  {
+   "id": "biosensors",
+   "ko": "바이오센서·생체 계측",
+   "en": "Biosensors",
+   "kind": "domain",
+   "keywords": [
+    "바이오센서",
+    "biosensor",
+    "bio sensor",
+    "생체 계측",
+    "biomedical instrumentation",
+    "의공학",
+    "biomedical engineering",
+    "medical device",
+    "의료기기"
+   ],
+   "query_keywords": [
+    "센서",
+    "바이오센서"
+   ]
+  },
+  {
+   "id": "bioinformatics_molecules",
+   "ko": "생명정보·분자·단백질·신약 AI",
+   "en": "Bioinformatics, molecules, proteins and drug discovery",
+   "kind": "domain",
+   "keywords": [
+    "생명정보",
+    "bioinformatics",
+    "단백질",
+    "protein",
+    "신약",
+    "drug discovery",
+    "유전체",
+    "genomic",
+    "genome",
+    "생물학",
+    "biology",
+    "biological",
+    "생명과학",
+    "생명현상",
+    "생명 현상",
+    "바이오",
+    "분자생물학",
+    "세포생물학",
+    "molecular biology",
+    "protein structure",
+    "유전학",
+    "genetics"
+   ],
+   "query_keywords": []
+  },
+  {
+   "id": "brain_neuroscience",
+   "ko": "뇌·신경과학",
+   "en": "Brain and neuroscience",
+   "kind": "domain",
+   "keywords": [
+    "뇌",
+    "brain",
+    "신경과학",
+    "neuroscience",
+    "neural",
+    "신경계",
+    "nervous system",
+    "cognitive",
+    "인지"
+   ],
+   "query_keywords": [
+    "뇌",
+    "신경"
+   ]
+  },
+  {
+   "id": "industrial_ai",
+   "ko": "산업 AI·이상탐지·스마트팩토리",
+   "en": "Industrial AI, anomaly detection and smart factory",
+   "kind": "domain",
+   "keywords": [
+    "이상탐지",
+    "이상 탐지",
+    "anomaly detection",
+    "고장 진단",
+    "fault diagnosis",
+    "fault detection",
+    "스마트팩토리",
+    "smart factory",
+    "제조",
+    "manufacturing",
+    "공정 제어",
+    "process control",
+    "품질 관리",
+    "quality control",
+    "예지보전",
+    "predictive maintenance"
+   ],
+   "query_keywords": [
+    "공장",
+    "제조",
+    "산업"
+   ]
+  },
+  {
+   "id": "thz_spectroscopy",
+   "ko": "테라헤르츠 분광·근접장 이미징",
+   "en": "Terahertz spectroscopy and near-field imaging",
+   "kind": "domain",
+   "keywords": [
+    "분광",
+    "spectroscopy",
+    "spectroscopic",
+    "near-field",
+    "근접장",
+    "펨토초",
+    "femtosecond",
+    "time-domain spectroscopy"
+   ],
+   "query_keywords": [
+    "테라헤르츠"
+   ]
+  },
+  {
+   "id": "plasma_multiphysics",
+   "ko": "플라즈마·다중물리 모델링",
+   "en": "Plasma and multiphysics modeling",
+   "kind": "domain",
+   "keywords": [
+    "플라즈마",
+    "plasma",
+    "multiphysics",
+    "다중물리",
+    "particle-in-cell"
+   ],
+   "query_keywords": [
+    "플라즈마"
+   ]
+  },
+  {
+   "id": "materials_science",
+   "ko": "재료·소재과학",
+   "en": "Materials science",
+   "kind": "domain",
+   "keywords": [
+    "재료",
+    "소재",
+    "materials science",
+    "material property",
+    "물성",
+    "고분자",
+    "polymer",
+    "세라믹",
+    "ceramic",
+    "미세조직",
+    "microstructure",
+    "전기화학",
+    "electrochemistry",
+    "electrochemical",
+    "결정구조",
+    "결정 구조",
+    "crystal structure",
+    "금속재료",
+    "금속 재료",
+    "metallic"
+   ],
+   "query_keywords": [
+    "소재",
+    "신소재",
+    "재료"
+   ]
+  },
+  {
+   "id": "thermal_transport",
+   "ko": "열·열전달·열관리",
+   "en": "Heat transfer and thermal management",
+   "kind": "domain",
+   "keywords": [
+    "열전달",
+    "heat transfer",
+    "열관리",
+    "thermal management",
+    "포논",
+    "phonon",
+    "열전도",
+    "thermal conductivity",
+    "열역학",
+    "thermodynamics",
+    "냉각",
+    "cooling"
+   ],
+   "query_keywords": [
+    "열",
+    "냉각"
+   ]
+  },
+  {
+   "id": "education_technology",
+   "ko": "교육·학습 기술",
+   "en": "Education and learning technology",
+   "kind": "domain",
+   "keywords": [
+    "교육",
+    "education",
+    "학습자",
+    "learner",
+    "reading comprehension",
+    "e-learning",
+    "tutoring"
+   ],
+   "query_keywords": [
+    "교육"
+   ]
+  },
+  {
+   "id": "high_performance_computing",
+   "ko": "고성능·병렬 컴퓨팅",
+   "en": "High-performance and parallel computing",
+   "kind": "domain",
+   "keywords": [
+    "고성능 컴퓨팅",
+    "high-performance computing",
+    "hpc",
+    "슈퍼컴퓨터",
+    "supercomputer",
+    "병렬 컴퓨팅",
+    "parallel computing",
+    "parallelization",
+    "병렬화",
+    "datacenter",
+    "데이터센터"
+   ],
+   "query_keywords": [
+    "슈퍼컴퓨터",
+    "병렬"
+   ]
+  },
+  {
+   "id": "software_engineering",
+   "ko": "소프트웨어 공학·개발",
+   "en": "Software engineering",
+   "kind": "method",
+   "keywords": [
+    "소프트웨어 공학",
+    "software engineering",
+    "소프트웨어 개발",
+    "software development",
+    "객체지향",
+    "object-oriented",
+    "프로그래밍",
+    "programming",
+    "코딩",
+    "coding",
+    "테스팅",
+    "software testing",
+    "디버깅",
+    "debugging"
+   ],
+   "query_keywords": [
+    "소프트웨어 개발",
+    "개발"
+   ]
+  }
+ ]
+}

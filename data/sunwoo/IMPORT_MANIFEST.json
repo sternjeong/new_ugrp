@@ -1,0 +1,138 @@
+{
+  "source_url": "https://github.com/sunwoochoi2002/2026-UGRP.git",
+  "source_branch": "sunwoo",
+  "source_commit": "0fa6c47aa4511b5a6db5edc424064109e9e957f9",
+  "import_mode": "complete data subtree snapshot; existing data files preserved",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 47425,
+      "sha256": "eb0ac5a7b5f1c254716fe5ae9fdd7831880b9006a8769e24474851d1ca03480e"
+    },
+    {
+      "path": "courses.jsonl",
+      "bytes": 3404333,
+      "sha256": "06f88ee3a885a42cffb1d493bdb83252a600e58c35992ded23b384c894f1e3b5"
+    },
+    {
+      "path": "curation/CASES.md",
+      "bytes": 60735,
+      "sha256": "dab65a2af0f4791cec36fda15983310b62d9f346e1bcff6587043073ac1248a0"
+    },
+    {
+      "path": "curation/advisors.jsonl",
+      "bytes": 2290691,
+      "sha256": "8ee3b68510e156b023a0df45e099aff13f0b707fb181aa97c5704e0cb77a44ce"
+    },
+    {
+      "path": "curation/crawl/2026-10-16-research_pages.jsonl",
+      "bytes": 4088865,
+      "sha256": "9b8d96c5374e3614b999e19a23e48076b14d1d398497865a46c9c656da6df6de"
+    },
+    {
+      "path": "curation/departments.json",
+      "bytes": 4999,
+      "sha256": "460b2aaf03801fa6bb1580b1f8089e162f128db79c3962dc8a8437bb3b82f0f0"
+    },
+    {
+      "path": "curation/duplicates.json",
+      "bytes": 17969,
+      "sha256": "43a2b1de290c80016c75a566ce243dfb4e660de562aa8b3f0ea909dde3a86772"
+    },
+    {
+      "path": "curation/lab_overrides.json",
+      "bytes": 13939,
+      "sha256": "8c7ff132a5ae7772b5f549516fd1a920fafd39e93b7e3edbbc106c5e9b16f23b"
+    },
+    {
+      "path": "curation/normalize_report.json",
+      "bytes": 57928,
+      "sha256": "2401beb059505a63e516ce31c4d4c2f3bde45ead75572989fd497fab7c1fa108"
+    },
+    {
+      "path": "curation/openalex_paper_match.json",
+      "bytes": 146475,
+      "sha256": "8e8d2f66ab0492985c74f0eba087c3b66992726eacf57bd8513e6a9aafdf2fc6"
+    },
+    {
+      "path": "curation/openalex_profile_check.json",
+      "bytes": 274953,
+      "sha256": "72421d99d0c256aeba33a92851384e4dd55898f5f2c020f7d98252fc41f8d040"
+    },
+    {
+      "path": "curation/queue.json",
+      "bytes": 674358,
+      "sha256": "c9135d2ff204cad881a593e42fa335b503832efce94789e6dc125d742f345530"
+    },
+    {
+      "path": "final_courses.jsonl",
+      "bytes": 3921127,
+      "sha256": "fff3ce7aa405d0c7e6be2d37313034d51414fdf3e696886f8b2f54f21d0475c4"
+    },
+    {
+      "path": "final_labs.jsonl",
+      "bytes": 16250117,
+      "sha256": "d5ffab8a5c37856d9a0a5a9c9bd41543ee82ada0e66f98bbc34772f60fc1c39a"
+    },
+    {
+      "path": "labs.jsonl",
+      "bytes": 2725891,
+      "sha256": "3c90d51708b1cab6ce99d19224541ac4006038addd8efc02546111560fffe1f6"
+    },
+    {
+      "path": "legacy/mvp-4dept/README.md",
+      "bytes": 5675,
+      "sha256": "b4551db08063ffdb9a8ca4dcaea435e7bef4488bc7e2a9429761398d54050950"
+    },
+    {
+      "path": "legacy/mvp-4dept/community_seed.json",
+      "bytes": 75526,
+      "sha256": "18e84b15980167af87dfd8bdac82743fca217e2bc7fba69895e2eb9c63d81d69"
+    },
+    {
+      "path": "legacy/mvp-4dept/concepts.json",
+      "bytes": 30890,
+      "sha256": "afd98baddf1e9cc8728bdaea3da2ffd6be5a25591f6573642ea84718170be194"
+    },
+    {
+      "path": "legacy/mvp-4dept/course_profiles.jsonl",
+      "bytes": 317384,
+      "sha256": "dccbd87bf3f24e2b13ddf12f0b4965a0d73851141a27b513dbcd547a497775c3"
+    },
+    {
+      "path": "legacy/mvp-4dept/courses.jsonl",
+      "bytes": 986148,
+      "sha256": "c833c07dbdd7373886f45a128ae8cbc93f845552b8c049f9f359a220028f4379"
+    },
+    {
+      "path": "legacy/mvp-4dept/goldset.jsonl",
+      "bytes": 9569,
+      "sha256": "5deb0ddd21cf77c55b6f2d9f51017f8d9e5a0d1769a7ea0d17ba631d519d6c9c"
+    },
+    {
+      "path": "legacy/mvp-4dept/lab_profiles.jsonl",
+      "bytes": 164547,
+      "sha256": "b4c7c77f47f2bd9b7f44ee930292f9ae7f7eff3f8848a989703f108a4a8b73ea"
+    },
+    {
+      "path": "legacy/mvp-4dept/labs.jsonl",
+      "bytes": 1299713,
+      "sha256": "83e4cb9c32238d02939f823d6979e508e9e4b51d447dafe2cef5dd73b6647b00"
+    },
+    {
+      "path": "legacy/mvp-4dept/profile_reviews.json",
+      "bytes": 1997,
+      "sha256": "827753a3e541c4c4f361fe92c80bde3fc673970dca113e5474b2056a5e258b5b"
+    },
+    {
+      "path": "papers.jsonl",
+      "bytes": 5293561,
+      "sha256": "2ab90d93b637e8117d4406bbddc4ed99b74d45ff02e22dd3facc5006059ec416"
+    },
+    {
+      "path": "research_centers.jsonl",
+      "bytes": 47984,
+      "sha256": "d5d4c22339f0b96058b6c7c4de96cb3e69a4bffb6b6e1268ef58779751477a3a"
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{"pair_id": "pair:7f706c00b80cb65b", "relevance": 2, "insufficient_evidence": false, "reason": "강의 계획에 단백질 결정화·구조 분석과 생명과학 실험이 있고, 연구실은 단백질/DNA 상호작용과 구조생물학을 연구한다."}
+{"pair_id": "pair:01a163e50f1610bb", "relevance": 0, "insufficient_evidence": false, "reason": "수업은 배터리 소재의 싱크로트론 X선 분광·특성분석이고 연구는 CNS 신경면역·뇌 장벽이다."}
+{"pair_id": "pair:ec5c76c1b491fb02", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 액체·촉매·단백질 동역학에 X선 산란·분광을 적용한다. 과목은 양자 전자구조 계산이라 물질 계산에는 접점이 있으나 연구실의 명시 기법과는 다르다."}
+{"pair_id": "pair:3815a9069511f109", "relevance": 0, "insufficient_evidence": false, "reason": "과목은 불균일 촉매 반응론이며 연구실은 리튬전지용 고분자 에너지 소재와 배터리를 다룬다. 공유된 에너지 응용만으로 관련성을 인정하기 어렵다."}
+{"pair_id": "pair:e030e23f96813a62", "relevance": 0, "insufficient_evidence": false, "reason": "TEM 강의는 철강·배터리 소재의 전자현미경 분석이고 연구실은 CNS 면역 반응과 뇌 장벽 연구다."}
+{"pair_id": "pair:39f538bd09e4cc0b", "relevance": 1, "insufficient_evidence": false, "reason": "과목은 배터리 소재의 전기화학 및 특성 분석, 연구실은 나노소자·로직·메모리·열전·뉴로모픽 소자를 연구한다. 전자소자/에너지의 약한 접점만 있다."}
+{"pair_id": "pair:475c334a367196e8", "relevance": 1, "insufficient_evidence": false, "reason": "과목은 화공 분야 프로그래밍·수치해석·AI 입문이고 연구실은 기후 시스템 정량 모델링·예측을 한다. 범용 계산 방법의 접점은 있으나 기후 응용을 가르치는지는 드러나지 않는다."}
+{"pair_id": "pair:0d4b73a7723fb443", "relevance": 1, "insufficient_evidence": false, "reason": "전력전자 컨버터 설계 과목과 연구실의 전력관리/집적회로·전력변환 논문은 회로·전력전자에서 접점이 있지만 과목은 전력변환 쪽이고 연구실은 IC 설계 중심이다."}
+{"pair_id": "pair:1ebfde35924c2994", "relevance": 2, "insufficient_evidence": false, "reason": "과목은 환경 전기화학·전기촉매와 전기화학 공정을 다루고 연구실은 전지 전해질·계면 및 배터리 전기화학을 연구한다."}
+{"pair_id": "pair:a8a3d433c6e6d74c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 배터리 에너지 소재, 과목은 화공 전반의 에너지·환경 개론이다. 설명에 배터리나 저장 기술의 구체적 학습 내용이 보이지 않는다."}
+{"pair_id": "pair:4c76b0d756a0ac7f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 핵융합·플라즈마 물리와 진단 도구, 과목은 세라믹 소재 제작·특성 실험이다. 플라즈마 소재 활용 가능성만으로 직접 관련성을 확인하기 어렵다."}
+{"pair_id": "pair:d2abf8995e7965a4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실 소개와 논문에 임베디드 시스템·딥러닝이 명시되고, 과목은 딥러닝 방법과 모델을 가르친다."}
+{"pair_id": "pair:d661d8bdab874e66", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 기계학습·컴퓨팅 최적화를 연구하지만, 계산사진학 과목은 영상·카메라 알고리즘 중심이다. 범용 최적화/계산법의 접점만 있다."}
+{"pair_id": "pair:947906e29a1ea4c4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실의 초점은 제어·추정·신호처리 최적화이고, 과목은 신호와 선형시스템·필터·의료영상 및 MATLAB 분석을 다룬다."}
+{"pair_id": "pair:6862736162d474c7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬·차세대 배터리 소재를 연구하며, 과목은 전기화학 기반 에너지 변환·저장 소재를 직접 다룬다."}
+{"pair_id": "pair:10a161533fd22591", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 전자기 모델링·플라즈마·전자기파이고, 과목은 원자력 시스템 정책·미래 원전과 공정열을 다루어 직접 접점이 없다."}
+{"pair_id": "pair:9b740bb149a49cef", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기계학습 알고리즘과 효율 컴퓨팅을 연구하고, 과목은 심층학습 및 NLP 모델·기법을 직접 가르친다."}
+{"pair_id": "pair:457185102d6c7486", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 디스플레이·유연 소자·연성 소재 연구에 소재 설계/합성/특성 과목이 기초로 관련되지만, 연구 주제 자체의 구체적 수업은 아니다."}
+{"pair_id": "pair:5ea599111f841652", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 회로 설계·전자설계자동화를 연구하고, 과목은 트랜지스터·메모리 회로 동작 및 IC CAD 설계 흐름을 다룬다."}
+{"pair_id": "pair:435e5ff7814d1dc7", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 저차원 소재의 표면·계면 및 나노수송을 연구한다. 광학현미경 수업은 재료 영상화 기초로 일부 관련되나 연구실의 STM/수송 방법과는 다르다."}
+{"pair_id": "pair:c17d1baa2342e986", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 컴퓨터 아키텍처·운영체제와 데이터 엔지니어링의 저장·처리 인프라는 시스템 측면에서 일부 접점이 있으나 핵심 연구 방법과 동일하지 않다."}
+{"pair_id": "pair:1589216bd9089afe", "relevance": 2, "insufficient_evidence": false, "reason": "연구실의 전자현미경 소재 이미징과 과목의 결정구조·회절·현미경 소재 분석 및 합성 실습이 직접 연결된다."}
+{"pair_id": "pair:b4329355fe5fd1a6", "relevance": 1, "insufficient_evidence": false, "reason": "극한환경 로봇의 전장·센서·제어에 EE 실험이 기반이 될 수 있지만, 과목은 전기공학 전반의 입문 실습이라 연구 주제 특화 내용은 제한적이다."}
+{"pair_id": "pair:0170c5242e3fe174", "relevance": 1, "insufficient_evidence": false, "reason": "화학생물학 연구와 재료화학은 화학 기초의 접점이 있으나 과목의 재료 구조·합성·물성이 연구실 생물분자 연구를 직접 준비시키는지는 제한적이다."}
+{"pair_id": "pair:c6bb942c2c639a83", "relevance": 0, "insufficient_evidence": false, "reason": "가속기 빔 물리·플라즈마와 무선통신·RF 센싱 시스템은 일부 계측 어휘 외에는 다른 대상과 방법이다."}
+{"pair_id": "pair:723c13b69968e76d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 광·전기화학 유기합성이고 과목은 고체 불균일 촉매다. 촉매 반응·특성화의 기초 접점은 있지만 촉매 유형과 반응 대상이 다르다."}
+{"pair_id": "pair:1c45117f20f139f0", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 배터리 전해질·계면·에너지 저장이고 과목은 고체 촉매 흡착·표면 반응 중심으로 구체 연구 내용이 다르다."}
+{"pair_id": "pair:5c7e4a224168bf05", "relevance": 1, "insufficient_evidence": false, "reason": "유연 전자공학은 나노의학 연구실의 나노플랫폼·바이오이미징과 잠재적 소자 응용 접점이 있으나, 연구실 소개는 플라즈모닉·진단 플랫폼이 중심이다."}
+{"pair_id": "pair:06486135d86f75f5", "relevance": 1, "insufficient_evidence": false, "reason": "과목의 신호·확률·딥러닝은 최적화 연구실의 통계·수학적 분석과 일부 방법상 접점이 있지만, 반도체 응용 중심으로 연구 분야를 직접 다루진 않는다."}
+{"pair_id": "pair:059649d783d0f3a6", "relevance": 2, "insufficient_evidence": false, "reason": "저차원 물질·전자수송 연구실과 전기적/광학적 소재 특성, 전자구조·전도도 실습 과목이 직접적인 기초 연결을 갖는다."}
+{"pair_id": "pair:b9b810e4c70c074d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 단백질·DNA 상호작용 연구에 생명과학 원리 및 융합응용 과목이 기초 배경으로 관련되지만, 구조생물학·분자기법을 구체적으로 가르치진 않는다."}
+{"pair_id": "pair:ba40e95e461ac703", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저차원 소재와 표면 수송을 연구하고, 결정학 과목은 소재 대칭·결정구조와 물성을 이해하는 기초를 직접 제공한다."}
+{"pair_id": "pair:372bb8fc29561aff", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 뇌 학습·계산과 brain-machine interface, 수업은 원자력 응용 AI 모델을 다룬다. 딥러닝 방법의 일부 공통성은 있으나 핵심 응용은 다르다."}
+{"pair_id": "pair:3632757c83f9a008", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 건축 디지털 설계·알고리즘·물리 컴퓨팅과 비전 과목은 계산적 설계에서 잠재 접점이 있지만 연구 소개에 컴퓨터비전 활용은 구체화되지 않았다."}
+{"pair_id": "pair:ca7ebd10a3166ec9", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 플라즈마 물리·진단을 연구하고 박막공정 과목은 플라즈마·진공과 증착을 가르친다. 플라즈마 기초 접점은 있으나 응용 분야가 다르다."}
+{"pair_id": "pair:9ba8ae7fdd6d46a0", "relevance": 2, "insufficient_evidence": false, "reason": "데이터 시스템 연구실의 데이터 과학·AI 에이전트 연구와 과목의 데이터 과학 프로그래밍, ML 및 AI 도구 활용이 직접 연결된다."}
+{"pair_id": "pair:220696047f55040c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 그래프 문제의 알고리즘·계산복잡도를 연구하고, 과목은 계산모형·복잡도·계산이론 기초를 직접 다룬다."}
+{"pair_id": "pair:56640f5fa5dabb41", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 AI 데이터베이스·LLM 에이전트와 데이터 시스템을 만들고, 과목은 ML/DL/LLM 학습·추론 시스템을 다룬다."}
+{"pair_id": "pair:172b766260cb7f2d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 햅틱스·XR·HCI, 과목은 컴퓨터공학 연구 분야 소개다. 분야 안내 수준의 직접 접점은 있으나 구체 기법 학습은 제한적이다."}
+{"pair_id": "pair:bcf62fbdb59ec9e1", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 AI·뉴로모픽 메모리 소자·컴퓨팅을 연구하지만 수업은 유전자·단백질 등 일반생명과학 실험이다."}
+{"pair_id": "pair:09f1f003be128724", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 에너지·전자 소재의 표면화학이고 수업은 계산사진학의 영상·컴퓨터비전 알고리즘으로 대상과 방법이 다르다."}
+{"pair_id": "pair:a5e67fdba97910af", "relevance": 2, "insufficient_evidence": false, "reason": "가속기 연구실이 원자력·플라즈마·가속기 공학을 다루며, 과목은 해당 분야의 범용 공학 소프트웨어 사용 실습을 명시한다."}
+{"pair_id": "pair:a783551ca20cd90e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 에피택셜 산화물 박막·전자 소재와 표면열화·박막증착 과목은 박막·소재 표면 기초가 맞닿지만 과목은 금속 부식·표면처리 중심이다."}
+{"pair_id": "pair:9ac61996e52f955b", "relevance": 0, "insufficient_evidence": false, "reason": "공장 제어·AI 자율운영 연구와 바이너리 분석·소프트웨어 취약점 공격 과목은 관련 주제나 방법이 명시되지 않는다."}
+{"pair_id": "pair:768f9507bd0af4be", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 오염물의 환경·인체 노출 추적과 안정동위원소 분석, 과목은 박막 구조·표면과학이다."}
+{"pair_id": "pair:80cbc3f592b06b59", "relevance": 1, "insufficient_evidence": false, "reason": "이종집적·전자 패키징 연구에 소재 열화·표면공학의 일반 소재 처리 지식이 일부 유용하지만, 과목의 철강 부식·표면처리 초점과 연구실의 집적공정은 다르다."}
+{"pair_id": "pair:ec140532a21a7fcd", "relevance": 2, "insufficient_evidence": false, "reason": "전극 물성 연구와 신소재 구조·전기적 특성·합성·분석 실습이 직접적인 기초 연결을 갖는다."}
+{"pair_id": "pair:50015c2a2ab46503", "relevance": 1, "insufficient_evidence": false, "reason": "기하 알고리즘·자료구조 연구에 수치해석 기법의 계산 방법은 일부 연결되지만, 반도체 PDE·소자 물리 과목이 연구실 주제를 직접 다루진 않는다."}
+{"pair_id": "pair:c99af249bf0fb88b", "relevance": 2, "insufficient_evidence": false, "reason": "철강 연구와 재료 열역학 과목은 소재의 상평형·열역학 기초에서 직접 관련된다."}
+{"pair_id": "pair:511fcf8b33b773a9", "relevance": 0, "insufficient_evidence": false, "reason": "유체·유동제어 연구와 유전자·단백질을 보는 분자영상 과목은 방법과 대상이 다르다."}
+{"pair_id": "pair:3140c76ff693ff58", "relevance": 0, "insufficient_evidence": false, "reason": "열에너지 소재 연구와 광학·계산 영상 재구성 과목 사이의 구체 연구·방법 접점이 보이지 않는다."}
+{"pair_id": "pair:83312a1b579ced1b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 저차원 양자 소재와 바이오 전자계면 과목은 전자 소재/소자라는 약한 접점은 있지만 생물계면 응용은 연구실 연구와 다르다."}
+{"pair_id": "pair:d1cfcdec3e0016f8", "relevance": 2, "insufficient_evidence": false, "reason": "초음파 연구실과 3D 의료영상 분석 과목은 의료영상 처리·분석이라는 직접 공통 주제다."}
+{"pair_id": "pair:4f9852119915f95a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노재료·에너지/광촉매를 연구하고 수업은 배터리 소재 X선 분석이다. 소재 분석법의 잠재적 전이 가능성은 있으나 연구 대상과 특화가 다르다."}
+{"pair_id": "pair:d90a1e3e829e1e8b", "relevance": 0, "insufficient_evidence": false, "reason": "환경 오염 추적·동위원소 연구와 에너지 소재의 X선 분광·배터리 특성 분석은 주제와 방법이 다르다."}
+{"pair_id": "pair:63d143ff8ab3fa76", "relevance": 2, "insufficient_evidence": false, "reason": "신경 후성유전체 연구와 의생명 과목의 신경질환·유전학·세포생물학·후성유전 내용이 직접 연결된다."}
+{"pair_id": "pair:978d2e6f60dad468", "relevance": 2, "insufficient_evidence": false, "reason": "계산재료·공정 설계 연구와 반도체 공정 실습은 TCAD·시뮬레이션 및 집적 공정에서 직접 관련된다."}
+{"pair_id": "pair:06fd0b24f3dd9c21", "relevance": 2, "insufficient_evidence": false, "reason": "컴퓨터 보안 연구실과 소프트웨어·시스템·네트워크 보안을 다루는 컴퓨터보안 과목이 직접 일치한다."}
+{"pair_id": "pair:ad5ef583f2e6415e", "relevance": 2, "insufficient_evidence": false, "reason": "시스템 소프트웨어 연구실의 IoT·블록체인·시스템 연구와 모바일·유비쿼터스 컴퓨팅 과목의 현실 컴퓨팅 시스템 내용이 직접 관련된다."}
+{"pair_id": "pair:0e215c0a703db05e", "relevance": 1, "insufficient_evidence": false, "reason": "복잡계 연구실의 데이터 분석·사회현상과 AI 기술 동향 과목은 AI 응용을 개괄적으로 다룬다는 제한적 접점이 있다."}
+{"pair_id": "pair:dfbe48dcc720f55b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 제어·추정·신호처리에 convex optimization을 적용하고, 과목은 통계적 신호처리 기법을 직접 가르친다."}
+{"pair_id": "pair:0166d26a5168ab0d", "relevance": 2, "insufficient_evidence": false, "reason": "로봇 연구실의 이동 플랫폼·탄성 구동 연구와 동적 시스템 피드백 제어 과목의 로봇·액추에이터 적용이 직접 관련된다."}
+{"pair_id": "pair:00e75fe9c77ce372", "relevance": 2, "insufficient_evidence": false, "reason": "배터리 소재·전해질 연구와 에너지 전기화학의 전극·전기화학 기초가 직접 연결된다."}
+{"pair_id": "pair:11e65a4f292ad890", "relevance": 1, "insufficient_evidence": false, "reason": "가속기 빔·플라즈마 연구에는 선형대수·미분방정식 등 화학수학 내용이 기초로 일부 유용하지만, 분야 특화 연결은 아니다."}
+{"pair_id": "pair:e972cd9cf6881cf8", "relevance": 2, "insufficient_evidence": false, "reason": "고분자 기반 에너지 소재·배터리 연구와 전기화학 및 에너지 응용을 다루는 과목이 직접 관련된다."}
+{"pair_id": "pair:a3cc77968d9cb7ac", "relevance": 1, "insufficient_evidence": false, "reason": "플라즈마 물리 연구와 박막·표면과학은 재료 및 표면 현상의 기초 접점이 있으나, 연구실의 플라즈마 분야를 구체적으로 다루는 수업은 아니다."}
+{"pair_id": "pair:e91267f862ae5be1", "relevance": 2, "insufficient_evidence": false, "reason": "공정시스템 연구실의 지속가능성·재생에너지·폐기물 재활용·탄소 포집과 에너지환경공학 과목의 에너지·환경 기술이 직접 일치한다."}
+{"pair_id": "pair:b99f077d6601d43b", "relevance": 1, "insufficient_evidence": false, "reason": "저차원 소재 표면·계면 연구와 배터리용 X선 분석은 소재 특성화의 접점이 있으나, 연구실의 구체 소재·방법을 수업이 다루는지는 제한적이다."}
+{"pair_id": "pair:0a5eaabbf4edf661", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 confocal 및 intravital two-photon microscopy를 사용하고, 과목은 여러 광학·형광·레이저 주사 현미경 원리를 다룬다."}
+{"pair_id": "pair:b0f779479e2537aa", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 생물학적 소재·cell-free biology·유전암호를 연구하고 과목은 고체 불균일 촉매의 표면반응·흡착을 다룬다."}
+{"pair_id": "pair:f3f00a7ba7298705", "relevance": 0, "insufficient_evidence": false, "reason": "소프트웨어 검증·모델체킹 연구와 심층학습 과목은 구체적인 공통 주제나 방법이 제시되지 않는다."}
+{"pair_id": "pair:c09c2702381a0af4", "relevance": 2, "insufficient_evidence": false, "reason": "CRISPR 및 분자유전공학 연구와 DNA·복제·재조합·수선 등 고급분자생물학 과목 내용이 직접 연결된다."}
+{"pair_id": "pair:e930b1b917076213", "relevance": 1, "insufficient_evidence": false, "reason": "물류 연구실의 최적화 알고리즘과 VLSI 설계 자동화의 배치·배선 최적화는 알고리즘 최적화라는 제한된 방법 접점이 있다."}
+{"pair_id": "pair:34e88b080aa3603c", "relevance": 1, "insufficient_evidence": false, "reason": "지능제어 연구실은 딥러닝을 제어·고장진단에 적용하지만 수업은 AI 윤리와 리더십이며 기술 방법 교육은 제한적이다."}
+{"pair_id": "pair:150e20737151cd6c", "relevance": 0, "insufficient_evidence": false, "reason": "AI 기반 공장제어·디지털 트윈 연구와 바이너리 보안 취약점 분석 과목은 주제와 기법이 다르다."}
+{"pair_id": "pair:7675f82fe1127128", "relevance": 2, "insufficient_evidence": false, "reason": "대규모 시스템 플랫폼 연구와 딥러닝 구현·학습/추론 가속 과목이 직접 일치한다."}
+{"pair_id": "pair:f6a0e3a84b80f631", "relevance": 0, "insufficient_evidence": false, "reason": "금속 가공·고엔트로피 합금 연구와 리튬 배터리 시스템 과목은 소재·주제가 다르다."}
+{"pair_id": "pair:00f6cbeeddab4bf7", "relevance": 0, "insufficient_evidence": false, "reason": "고분자 자기조립 연구와 지능형 사용자 인터페이스 설계 과목은 관련된 연구 대상이나 방법이 없다."}
+{"pair_id": "pair:2cb9f8ee77283e02", "relevance": 1, "insufficient_evidence": false, "reason": "막단백질 구조 분석 연구와 분자영상 과목은 생체 분자 영상화의 넓은 접점은 있으나 해당 과목의 광학·세포영상과 X선/저온전자현미경 연구법은 다르다."}
+{"pair_id": "pair:9b1bac2a184c45d1", "relevance": 2, "insufficient_evidence": false, "reason": "임베디드 구조 연구실의 메모리·컴퓨팅 시스템과 딥러닝 구현·가속 과목의 시스템 최적화 및 모바일 배포 내용이 직접 연결된다."}
+{"pair_id": "pair:437ed697a54648fe", "relevance": 2, "insufficient_evidence": false, "reason": "식물-병원체 상호작용 연구와 화학생명공학 과목의 생화학·분자생물학 기초가 직접적인 연구 기반을 제공한다."}
+{"pair_id": "pair:c41d03927165f875", "relevance": 1, "insufficient_evidence": false, "reason": "초음파 영상 연구와 계산사진학은 서로 다른 영상 모달리티지만 영상처리·컴퓨터비전 알고리즘에서 일부 공통 기반이 있다."}
+{"pair_id": "pair:d79f39d73c79d4a0", "relevance": 1, "insufficient_evidence": false, "reason": "막단백질 구조 분석과 광학현미경은 영상·현미경의 넓은 접점이 있지만, 연구실의 X선 결정학·cryo-EM과 강의의 광학현미경 기술은 다르다."}
+{"pair_id": "pair:bf3c9dbbdc7829b7", "relevance": 1, "insufficient_evidence": false, "reason": "계산재료 연구와 나노-마이크로 에너지 전달 이론은 재료의 에너지·열 수송 기초에서 일부 관련되지만 연구실의 구체 계산 소재·공정 방법을 직접 다루진 않는다."}
+{"pair_id": "pair:1f7300f34ef2b98c", "relevance": 1, "insufficient_evidence": false, "reason": "데이터시스템 연구실의 AI·LLM 시스템 연구에 AI 윤리·책임 있는 개발 논의가 보조적 관련성은 있으나 이 과목은 기술 시스템이나 구현을 가르치지 않는다."}
+{"pair_id": "pair:fec6f5ed1ec76479", "relevance": 2, "insufficient_evidence": false, "reason": "산화물·에너지 소재 연구와 전기화학 기초 및 에너지 응용을 다루는 과목이 직접 관련된다."}
+{"pair_id": "pair:552169f271fb0aa3", "relevance": 2, "insufficient_evidence": false, "reason": "전기촉매 연구실과 촉매 반응·표면 흡착·촉매 특성화를 다루는 과목은 직접 관련된다."}
+{"pair_id": "pair:25fdd74eba4040fb", "relevance": 1, "insufficient_evidence": false, "reason": "전자기 수치해석·다중물리 모델링 연구와 열/에너지 전달의 미시-거시 물리 기초는 모델링 대상의 일부 접점이 있다."}
+{"pair_id": "pair:034e60068cc237fc", "relevance": 0, "insufficient_evidence": false, "reason": "단백질 설계·나노구조 연구와 금속·배터리 소재의 X선·전자현미경 분석 과목의 직접 연구 준비 관계가 드러나지 않는다."}
+{"pair_id": "pair:495fe0f45f6f80da", "relevance": 0, "insufficient_evidence": false, "reason": "식물 유전체 교차·육종 연구와 시각-언어 딥러닝 과목은 분야 및 방법이 다르다."}
+{"pair_id": "pair:a19c2ddae50255fb", "relevance": 0, "insufficient_evidence": false, "reason": "통계학습·생물정보학 연구와 관계형 DBMS 구현 과목은 공유 연구 방법이 드러나지 않는다."}
+{"pair_id": "pair:9cd79d1121b1e81f", "relevance": 1, "insufficient_evidence": false, "reason": "동적 기하 알고리즘 연구와 계산사진학의 알고리즘 과목은 알고리즘적 계산이라는 부분적 기반이 있으나 문제 분야는 다르다."}
+{"pair_id": "pair:28593a09b1117972", "relevance": 1, "insufficient_evidence": false, "reason": "물류 최적화 연구실과 AI 기술 동향 과목은 AI 기반 운영 자동화 주제로 접점은 있지만 수업은 최신 AI 개관이며 최적화 방법을 가르치지 않는다."}
+{"pair_id": "pair:a02034762657a796", "relevance": 1, "insufficient_evidence": false, "reason": "초음파 의료영상과 광학현미경은 영상·의료 이미징에서 일부 연결되지만 물리적 영상 방식과 분석법이 다르다."}
+{"pair_id": "pair:b1803d6bd91c2c0d", "relevance": 2, "insufficient_evidence": false, "reason": "생체모사·소프트 로봇 설계 연구와 로봇 조작·운동학·강인제어를 가르치는 고등로보틱스 과목이 직접 관련된다."}
+{"pair_id": "pair:841e21ba4fa4f881", "relevance": 2, "insufficient_evidence": false, "reason": "단분자 생물물리 연구와 효소 구조·설계, 단백질 예측, 합성생물학용 계산 설계를 다루는 과목이 구조·계산 방법에서 직접 관련된다."}
+{"pair_id": "pair:82b0cc20b03dd8fe", "relevance": 0, "insufficient_evidence": false, "reason": "소프트웨어 검증 연구와 딥러닝 구현·가속은 연구 주제와 핵심 방법이 다르다."}
+{"pair_id": "pair:7abf1a6663f50dc1", "relevance": 1, "insufficient_evidence": false, "reason": "하이브리드 나노소재 연구와 반도체 공정·소자 제작 실습은 나노재료 및 공정 기반이라는 일부 접점이 있으나 반도체 집적 공정은 연구 주제와 동일하지 않다."}
+{"pair_id": "pair:640b1904a2cb31c1", "relevance": 2, "insufficient_evidence": false, "reason": "에너지·전자재료 표면화학 연구와 배터리 소재 TEM 원리·실습이 소재 특성화 방법에서 직접 일치한다."}
+{"pair_id": "pair:15a333fd16fb7fef", "relevance": 0, "insufficient_evidence": false, "reason": "전기촉매 연구와 반도체 집적공정·소자 제작 과목은 직접 연결된 연구 분야가 아니다."}
+{"pair_id": "pair:49b41c301dfdc31d", "relevance": 0, "insufficient_evidence": false, "reason": "웨어러블 음성처리·메모리 소자 연구와 계산 이미징의 광학·영상 재구성 주제는 직접 접점이 없다."}
+{"pair_id": "pair:a5f4b5b8d00e2d33", "relevance": 1, "insufficient_evidence": false, "reason": "산업 데이터 엔지니어링 연구실이 AI/데이터 응용을 다루지만 과목은 기술 동향·윤리 개관이라 구체 데이터 엔지니어링 방법은 가르치지 않는다."}
+{"pair_id": "pair:3df27eb7ea97b5c7", "relevance": 2, "insufficient_evidence": false, "reason": "NINE 연구실은 원자로 디지털 트윈·AI-CFD·수치 모델링을 연구하고, 수치해석 과목은 이를 위한 알고리즘·계산 기반을 제공한다."}
+{"pair_id": "pair:cd46c09c0ba7c1b7", "relevance": 2, "insufficient_evidence": false, "reason": "배터리 소재의 전자현미경·이미징 연구와 재료 전기화학의 전극·에너지 응용 기초가 직접 관련된다."}
+{"pair_id": "pair:e3b9d6aa8d58038a", "relevance": 2, "insufficient_evidence": false, "reason": "응축상 분자 동역학·광물리 시뮬레이션 연구와 분자동역학·Monte Carlo 원자단위 전산모사 과목이 직접 일치한다."}
+{"pair_id": "pair:442fadaa9b9f3a3b", "relevance": 2, "insufficient_evidence": false, "reason": "로봇 학습 연구실과 강화학습 알고리즘·실습 과목이 직접 일치한다."}
+{"pair_id": "pair:0c401e2435f0df6e", "relevance": 0, "insufficient_evidence": false, "reason": "기계학습 연구와 정보사회 현상·사회이론 과목은 구체적인 공통 연구 방법이나 내용이 보이지 않는다."}
+{"pair_id": "pair:b8fd4043911483c5", "relevance": 2, "insufficient_evidence": false, "reason": "무선통신·기계학습 연구와 엔트로피·채널용량·부호화 등 정보이론 과목이 직접 관련된다."}
+{"pair_id": "pair:bd26b9e9c1c35c8d", "relevance": 1, "insufficient_evidence": false, "reason": "정보이론·코딩·학습이론 기반 정보시스템 연구와 딥러닝 시스템 가속 과목은 효율적 학습/추론에서 방법상 일부 접점이 있으나 중심 내용은 다르다."}
+{"pair_id": "pair:761d0ddb09cc462f", "relevance": 1, "insufficient_evidence": false, "reason": "최적화 연구실과 화공 프로그래밍·수치해석·AI 과목은 수치·최적화·데이터 방법의 기반에서 일부 관련된다."}
+{"pair_id": "pair:eb955df41bd26df8", "relevance": 1, "insufficient_evidence": false, "reason": "막단백질 구조 연구와 분자영상 과목은 생체 영상화라는 접점은 있으나 광학적 세포영상과 X선/저온전자현미경은 다른 기술이다."}
+{"pair_id": "pair:0d5c8fbf9eeaee76", "relevance": 0, "insufficient_evidence": false, "reason": "농업경제·식품시장·온라인 미디어 분석 연구와 AI 기술동향 개론 사이에 구체적인 연구 방법 연결이 드러나지 않는다."}
+{"pair_id": "pair:2453d265de9bc34b", "relevance": 2, "insufficient_evidence": false, "reason": "의료영상 비전 연구와 심층학습의 신경망·영상 관련 알고리즘이 직접 일치한다."}
+{"pair_id": "pair:bd712a9f26dac62e", "relevance": 1, "insufficient_evidence": false, "reason": "전력관리·집적회로 연구실에 회로·시스템 실습은 기초로 관련되지만, 과목은 전기공학 전반 입문 실험으로 연구실의 IC 설계 심화 내용은 제한적이다."}
+{"pair_id": "pair:cc8c63b9ccb659b2", "relevance": 2, "insufficient_evidence": false, "reason": "최적화 연구실과 데이터과학 최적화 이론·알고리즘 과목이 직접 일치한다."}
+{"pair_id": "pair:04d598c94f34a396", "relevance": 1, "insufficient_evidence": false, "reason": "제어시스템 연구실과 로봇 학습 과목은 지능형 로봇 알고리즘과 시스템 제어에서 일부 관련되지만, 과목의 핵심은 로봇 학습이다."}
+{"pair_id": "pair:4c998f610ba17e80", "relevance": 2, "insufficient_evidence": false, "reason": "통계·데이터과학 연구의 핵심 수학 기반인 확률·통계·선형대수·미분방정식을 화학수학 과목이 직접 제공한다."}
+{"pair_id": "pair:759ee4c4324fe529", "relevance": 1, "insufficient_evidence": false, "reason": "지능제어 연구실이 딥러닝을 적용하지만 AI 트렌드 과목은 응용·사회 동향 개관으로 구체 모델 학습은 제한적이다."}
+{"pair_id": "pair:fdcb9e5f865a76a8", "relevance": 1, "insufficient_evidence": false, "reason": "뇌 학습·신경 인터페이스 연구와 시계열 분석·상태공간·머신러닝 기법은 신경 활동 데이터 분석에서 일부 방법상 관련된다."}
+{"pair_id": "pair:ec39b292f585ad61", "relevance": 0, "insufficient_evidence": false, "reason": "신경면역학·뇌장벽 연구와 배터리/철강 소재 TEM 과목은 대상이 다르며 연구실의 TEM 활용도 제시되지 않는다."}
+{"pair_id": "pair:c4ea64a512cd3ded", "relevance": 0, "insufficient_evidence": false, "reason": "소프트웨어 검증 알고리즘과 일반 교양 논리·비판적 사고 과목은 형식검증의 논리 기법을 가르친다는 증거가 없다."}
+{"pair_id": "pair:5ca981566778920b", "relevance": 2, "insufficient_evidence": false, "reason": "양자 나노전자 소자 연구와 이온트랩·초전도 큐비트 하드웨어의 작동 원리를 다루는 양자소자·컴퓨팅 과목이 직접 관련된다."}
+{"pair_id": "pair:6c727633a6cf35b4", "relevance": 2, "insufficient_evidence": false, "reason": "에너지 소재 연구와 배터리·연료전지·전기촉매 등 응용을 다루는 화공 전기화학 과목이 직접 일치한다."}
+{"pair_id": "pair:d1a6dd2e80a1dffe", "relevance": 0, "insufficient_evidence": false, "reason": "양자 나노광학 연구와 현대제어이론의 상태공간·안정성·제어기 설계는 직접적인 연구 주제 접점이 없다."}
+{"pair_id": "pair:e8df2da5b9067f79", "relevance": 2, "insufficient_evidence": false, "reason": "기계학습 알고리즘의 효율적 구현 연구와 딥러닝 구현·훈련·추론 최적화 과목이 직접 일치한다."}
+{"pair_id": "pair:46b977dc22c67a35", "relevance": 0, "insufficient_evidence": false, "reason": "금융·투자·위험관리 연구와 자연어처리 기초 과목 사이에 구체적인 연구 적용 연결이 나타나지 않는다."}
+{"pair_id": "pair:5499f314283b77ad", "relevance": 0, "insufficient_evidence": false, "reason": "컴퓨터 보안 연구와 사용자 인터페이스 설계·평가 및 딥러닝 과목은 직접 관련되지 않는다."}
+{"pair_id": "pair:fdab0dc2c6e4a1b5", "relevance": 0, "insufficient_evidence": false, "reason": "응축상 화학·광물리의 분자동역학 연구와 반도체 집적공정·소자 제작 실습은 주제가 다르다."}
+{"pair_id": "pair:955636789f54b7eb", "relevance": 1, "insufficient_evidence": false, "reason": "나노전자 시스템 연구와 소재의 전기적 특성·전도도 및 재료 구조를 다루는 기초 소재 설계 실습은 일부 기반 연결이 있다."}
+{"pair_id": "pair:07d66ecfdf3b8086", "relevance": 2, "insufficient_evidence": false, "reason": "계산재료과학 연구와 배터리 소재의 1원리 DFT 계산·전압 및 전자구조 분석 과목이 직접 일치한다."}
+{"pair_id": "pair:69de685173cd6642", "relevance": 2, "insufficient_evidence": false, "reason": "기능성 무기재료 설계·제조 연구와 리튬이온 배터리 소재·공정 과목이 직접 관련된다."}
+{"pair_id": "pair:288d81ab24446656", "relevance": 0, "insufficient_evidence": false, "reason": "농업경제·가격·시장 연구와 관계형 DBMS 구현 과목의 구체적 연결이 보이지 않는다."}
+{"pair_id": "pair:b538c8be20e00e7f", "relevance": 2, "insufficient_evidence": false, "reason": "배터리 소재·에너지 저장 연구실과 배터리 셀 동역학·진단·예후 데이터 분석 과목이 직접 일치한다."}
+{"pair_id": "pair:ca1dcfd69951a752", "relevance": 2, "insufficient_evidence": false, "reason": "전극 물성 연구와 재료의 화학결합·구조·합성·특성을 다루는 소재화학 과목이 직접 기초를 제공한다."}
+{"pair_id": "pair:f5af9a08767d5d06", "relevance": 2, "insufficient_evidence": false, "reason": "생체-공학 인터페이스·소프트 로봇 설계 연구와 실제 로봇에 학습 알고리즘을 적용하는 로봇 학습 과목이 직접 관련된다."}
+{"pair_id": "pair:6b992a711b4e24c4", "relevance": 1, "insufficient_evidence": false, "reason": "프로그래밍 언어·수치계산 연구와 철강산업 데이터 분석은 계산·분석 방법에서 일부 접점이 있으나 과목은 비즈니스 분석 응용 중심이다."}
+{"pair_id": "pair:0f28050fd9fa49bd", "relevance": 1, "insufficient_evidence": false, "reason": "로봇 연구와 AI·법정책 과목은 자율주행·지능로봇 관련 법정책에서 제한된 접점이 있지만 기술 훈련은 제공하지 않는다."}
+{"pair_id": "pair:8fe6ed4475271464", "relevance": 1, "insufficient_evidence": false, "reason": "유기합성 연구와 합성생물학은 분자·합성 분야의 넓은 접점이 있으나 과목은 효소/단백질 설계 중심이며 해당 연구실 유기반응법과 차이가 있다."}
+{"pair_id": "pair:65094b71b582ff4c", "relevance": 1, "insufficient_evidence": false, "reason": "생체공학 설계 연구와 학습·기억의 생물학 강의는 생물 원리의 응용 측면이 있으나 연구실의 핵심은 공학적 설계다."}
+{"pair_id": "pair:36709b8f472a7546", "relevance": 2, "insufficient_evidence": false, "reason": "양자소자 현미경 연구와 원자 수준 TEM·전자회절 구조 분석 과목이 연구의 핵심 재료 특성화 방법에서 직접 일치한다."}
+{"pair_id": "pair:fb5d0e58475189cb", "relevance": 2, "insufficient_evidence": false, "reason": "양자광학·나노포토닉스 연구와 광학·선형시스템·푸리에 분석을 다루는 신호처리 과목은 광학 신호 분석 기반에서 관련된다."}
+{"pair_id": "pair:78f86b489004b0e1", "relevance": 2, "insufficient_evidence": false, "reason": "저차원 소재 연구와 TEM 결정구조·고해상도 전자현미경 과목은 직접 소재 특성화 방법으로 연결된다."}
+{"pair_id": "pair:ad04def4291fbe96", "relevance": 1, "insufficient_evidence": false, "reason": "막단백질 구조 연구와 결정학 과목은 결정 대칭·구조를 이해하는 기초 접점은 있으나, 과목은 재료 결정학으로 단백질 구조분석을 직접 다루는지는 불분명하다."}
+{"pair_id": "pair:127d462132e534ee", "relevance": 1, "insufficient_evidence": false, "reason": "전력관리 IC 연구와 광소자 과목은 반도체 소자 물리의 기초가 일부 공통되나 LED·광전자 소자와 전력 컨버터 설계는 다르다."}
+{"pair_id": "pair:b9965ac493933d37", "relevance": 2, "insufficient_evidence": false, "reason": "재료/배터리 분야의 특성화 연구와 해당 TEM 강의의 원리·실습이 직접 관련된다."}
+{"pair_id": "pair:2eec2e54ac45ff96", "relevance": 2, "insufficient_evidence": false, "reason": "유기분자 기반 배터리 소재 연구와 배터리 정보학의 셀 동역학·SOC 진단·전기화학 과목이 직접 일치한다."}
+{"pair_id": "pair:1fab2306a4b1ea0e", "relevance": 2, "insufficient_evidence": false, "reason": "전극 물성 연구와 재료의 구조·합성·물성·에너지 응용을 다루는 소재화학 과목이 직접 연결된다."}
+{"pair_id": "pair:30cf49edc82894e3", "relevance": 2, "insufficient_evidence": false, "reason": "생체공학·소프트 디자인 연구와 로봇 학습 알고리즘·실제 로봇 적용 과목이 직접 관련된다."}
+{"pair_id": "pair:4e5783dea1a76b3f", "relevance": 1, "insufficient_evidence": false, "reason": "프로그래밍·수치계산 연구와 데이터분석·AI 도구 과목은 계산·분석 기반의 접점이 있으나 철강산업의 비즈니스 분석으로 연구주제와 다르다."}
+{"pair_id": "pair:5409996d33b04ba9", "relevance": 1, "insufficient_evidence": false, "reason": "로봇 연구실의 지능형 로봇과 AI 법정책 과목은 자율주행·로봇윤리 주제에서 제한적 연관성이 있다."}
+{"pair_id": "pair:7b6b6e79190091b4", "relevance": 2, "insufficient_evidence": false, "reason": "유기합성 반응 연구와 합성생물학 DBTL·효소설계·단백질 구조 및 AI 기반 설계 과목은 화학/생물 합성 방법에서 직접 관련된다."}
+{"pair_id": "pair:592e6cace12d930d", "relevance": 2, "insufficient_evidence": false, "reason": "생체모사·바이오-공학 설계 연구와 뇌 학습·기억의 분자·신경 메커니즘 과목은 생물학적 원리 측면에서 직접 관련된다."}
+{"pair_id": "pair:522b7cbfe9a5d67d", "relevance": 2, "insufficient_evidence": false, "reason": "전자·원자구조 이미징 연구실의 소재 분석과 배터리/철강 소재 TEM 원리·실습 과목이 직접 일치한다."}
+{"pair_id": "pair:895c0ba1cb3982f9", "relevance": 0, "insufficient_evidence": false, "reason": "나노공간의 수송·광촉매 현상 연구와 일반생명과학 실험의 유전자·단백질·식물·동물 실습 사이에 구체적 연구 준비 연결이 없다."}
+{"pair_id": "pair:6f2213bf31967d87", "relevance": 0, "insufficient_evidence": false, "reason": "철강 청정 연구와 고분자 물성·합성 과목은 직접 관련되지 않는다."}
+{"pair_id": "pair:28f4f3de3e1eb667", "relevance": 0, "insufficient_evidence": false, "reason": "웨어러블 음성처리·메모리 연구와 영어 문법 과목은 관계가 없다."}
+{"pair_id": "pair:91bbf747fb01a75b", "relevance": 0, "insufficient_evidence": false, "reason": "생화학 반응 네트워크 수학 연구와 AI 동향 개론은 구체 방법을 공유하지 않는다."}
+{"pair_id": "pair:82c2949fdef50c33", "relevance": 2, "insufficient_evidence": false, "reason": "저차원 양자소재·에피 성장 연구와 결정구조·회절·전자적/광학적 소재 물성을 실습하는 과목이 직접 관련된다."}
+{"pair_id": "pair:3eb3a97296ed67a4", "relevance": 1, "insufficient_evidence": false, "reason": "컴퓨터 아키텍처·운영체제 연구실에 NLP 딥러닝 수업은 모델 실행 시스템의 보조 기반이 될 수 있지만 직접 연구 주제는 다르다."}
+{"pair_id": "pair:51e1f7eb3f7db366", "relevance": 0, "insufficient_evidence": false, "reason": "디스플레이·연성 전자소자 연구와 인터넷·네트워크 프로토콜 과목의 직접 연결이 보이지 않는다."}
+{"pair_id": "pair:43ccedc97e57e71b", "relevance": 2, "insufficient_evidence": false, "reason": "AIM 연구의 예측·처방 분석, 추천 및 응용 AI와 선형대수·확률·최적화 기반 ML 수학 과목이 직접 관련된다."}
+{"pair_id": "pair:54ccb4bf6ce73695", "relevance": 1, "insufficient_evidence": false, "reason": "전산 나노소재 연구의 에너지·전자 구조와 배터리용 DFT 계산 과목은 계산재료 분석에서 일부 접점이 있지만 구체 연구 대상은 다르다."}
+{"pair_id": "pair:dbb98d848007303c", "relevance": 0, "insufficient_evidence": false, "reason": "금융·위험관리 연구와 반도체 소자 물리·수치해석 과목의 관련성이 없다."}
+{"pair_id": "pair:b81e380be255ad6c", "relevance": 1, "insufficient_evidence": false, "reason": "보안 연구실과 AI 윤리 과목은 AI 관련 책임·정책의 보조적 접점은 있으나 보안 분석·기술을 가르치지는 않는다."}
+{"pair_id": "pair:55f09bfe9a3e0221", "relevance": 2, "insufficient_evidence": false, "reason": "나노스케일 전자수송 연구와 테라헤르츠 이미징·소재 특성화 과목이 나노 소재 측정 및 전자기 응답에서 직접 관련된다."}
+{"pair_id": "pair:88fe742eed1c656a", "relevance": 2, "insufficient_evidence": false, "reason": "열에너지 연구실과 전기화학·에너지 변환 및 저장 소재의 기초 과목이 직접 관련된다."}
+{"pair_id": "pair:39995403a3a48c7a", "relevance": 2, "insufficient_evidence": false, "reason": "생물학적 시스템·분자 연구와 생화학 분자구조·상호작용·기능 과목이 직접 일치한다."}
+{"pair_id": "pair:098bf8f422f90d49", "relevance": 1, "insufficient_evidence": false, "reason": "AIM 연구실의 applied AI·예측분석과 의료 영상·헬스케어 데이터 AI는 분석 방법에서 접점이 있지만 의료 응용은 별도 분야다."}
+{"pair_id": "pair:82a39316bcca6a5e", "relevance": 2, "insufficient_evidence": false, "reason": "전극 물성 연구와 리튬이온 배터리 소재·화학공정 과목이 직접 연결된다."}
+{"pair_id": "pair:eb77e25e19beb4d0", "relevance": 1, "insufficient_evidence": false, "reason": "SoC 설계·컴퓨터 아키텍처 연구와 컴퓨터공학 세부 전공 안내는 computing systems 연구 분야를 소개한다는 기초 접점만 있다."}
+{"pair_id": "pair:8898389c44d0a488", "relevance": 2, "insufficient_evidence": false, "reason": "기계학습 연구실과 NLP 개념·알고리즘·실습을 다루는 과목이 직접 일치한다."}
+{"pair_id": "pair:1945af73eef2b5f9", "relevance": 2, "insufficient_evidence": false, "reason": "화학생물학 연구와 단백질 구조·화학 상호작용·생화학 메커니즘 과목이 직접 기초를 제공한다."}
+{"pair_id": "pair:ca14b532af2aedd8", "relevance": 2, "insufficient_evidence": false, "reason": "저차원 양자 소재 연구와 THz 이미징·소재 특성화는 소재의 전자기 응답 측정에서 직접 연결된다."}
+{"pair_id": "pair:ccfbfe62679b0293", "relevance": 1, "insufficient_evidence": false, "reason": "뇌 신경활동 연구에 통계적 추론·회귀·시계열 분석이 일부 유용할 수 있지만, 계량경제학 과목은 경제 데이터 연구 중심이다."}
+{"pair_id": "pair:705a4006962c196e", "relevance": 0, "insufficient_evidence": false, "reason": "DNA 복구·단분자 생물물리 연구와 에너지 소재 특성 분석 과목은 연구 대상과 기법이 다르다."}
+{"pair_id": "pair:4600e97796a20f53", "relevance": 1, "insufficient_evidence": false, "reason": "비평형 생물물리·통계물리 연구와 고분자 물성의 물리 기초는 이론물리의 일부 공통점이 있으나 대상과 연구 주제는 다르다."}
+{"pair_id": "pair:be3419c6391520b5", "relevance": 0, "insufficient_evidence": false, "reason": "프로젝트 관리 연구와 자연어처리 알고리즘·실습 과목 사이의 구체적인 연결이 보이지 않는다."}
+{"pair_id": "pair:ea369036434c095a", "relevance": 0, "insufficient_evidence": false, "reason": "무선통신·기계학습 연구와 화학 양자역학 과목은 분야가 다르다."}
+{"pair_id": "pair:c38104dad3ee7db2", "relevance": 1, "insufficient_evidence": false, "reason": "컴퓨터 아키텍처·운영체제 연구와 LLM 이론·작동 과목은 모델 시스템 이해의 접점은 있으나 시스템 구현·가속을 직접 가르치는 과목은 아니다."}
+{"pair_id": "pair:5738eea3d5341374", "relevance": 2, "insufficient_evidence": false, "reason": "배터리·고분자 에너지 소재 연구와 전극 반응·전기화학 기초 및 에너지 응용 과목이 직접 연결된다."}
+{"pair_id": "pair:de8b479dde38297d", "relevance": 0, "insufficient_evidence": false, "reason": "프로젝트 관리 및 시스템공학 연구와 NLP 기술 수업은 별도의 분야다."}
+{"pair_id": "pair:26dbeba5e2560091", "relevance": 0, "insufficient_evidence": false, "reason": "동적 기하 알고리즘 연구와 AI 윤리·리더십 과목은 구체적인 기술·연구 연결이 없다."}
+{"pair_id": "pair:d1aef400d41bae25", "relevance": 0, "insufficient_evidence": false, "reason": "식물 유전체·육종 연구와 3D 의료영상 분석은 대상과 연구 방법이 다르다."}
+{"pair_id": "pair:8337c20a37ef8928", "relevance": 2, "insufficient_evidence": false, "reason": "스마트 생체재료 설계 연구와 생체재료·3D 바이오프린팅·미세유체 공정 과목이 직접 일치한다."}
+{"pair_id": "pair:6719ba7405f57cce", "relevance": 2, "insufficient_evidence": false, "reason": "끈이론 연구에 양자역학 II의 대학원 수준 양자 이론이 직접적인 기초가 된다."}
+{"pair_id": "pair:56c8cba051be7139", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 확률·확률편미분방정식을 연구하고 소재 열역학 과목은 고전 재료 열역학이라 직접 주제 연결이 없다."}
+{"pair_id": "pair:ad6d2b12a1b4cc01", "relevance": 1, "insufficient_evidence": false, "reason": "철강 연구와 세라믹 재료 과목은 소재과학 구조·결함·공정의 기초를 공유하지만 대상 재료가 다르다."}
+{"pair_id": "pair:90bfdc64c1592935", "relevance": 0, "insufficient_evidence": false, "reason": "GPCR·암 단백질 구조 연구와 세라믹 소재 설계·실험은 연구 대상이 다르다."}
+{"pair_id": "pair:2496076e47c7a699", "relevance": 2, "insufficient_evidence": false, "reason": "STM 및 나노수송 연구와 반도체 계측·검사 기술 과목의 표면·광학 계측 및 특성화 주제가 직접 연결된다."}
+{"pair_id": "pair:a094ce6c5e4673c0", "relevance": 0, "insufficient_evidence": false, "reason": "단백질 자기조립 나노구조 연구와 배터리·철강 재료 TEM 강의 사이에 명시적 연구 준비 관련이 없다."}
+{"pair_id": "pair:d4c3a5d62fbd10f5", "relevance": 2, "insufficient_evidence": false, "reason": "전기화학 연구실의 전극·신경기록·생체전극 연구와 실리콘-바이오 계면·바이오센서·신경 인터페이스 과목이 직접 관련된다."}
+{"pair_id": "pair:db1e66e9b2664d5c", "relevance": 1, "insufficient_evidence": false, "reason": "X선 산란·분광 연구의 액체·단백질 동역학과 고분자 구조·물성·열역학 과목은 물질 구조와 물성 이해의 일부 접점이 있다."}
+{"pair_id": "pair:aae47bb704581859", "relevance": 2, "insufficient_evidence": false, "reason": "계산재료 연구실과 분자동역학·Monte Carlo 원자단위 시뮬레이션 과목이 직접 일치한다."}
+{"pair_id": "pair:c1f67c0799f5b353", "relevance": 2, "insufficient_evidence": false, "reason": "전자기 수치모델링·대규모 병렬화 연구실과 CUDA GPU 아키텍처·병렬 소프트웨어 과목이 직접 관련된다."}
+{"pair_id": "pair:30c0991affa68e13", "relevance": 0, "insufficient_evidence": false, "reason": "농업·경제 실증 연구와 인간-컴퓨터 상호작용 연구 방법 과목은 직접 관련성이 없다."}
+{"pair_id": "pair:d7faded3d560bdae", "relevance": 2, "insufficient_evidence": false, "reason": "생체모사 재료 연구와 고분자 구조·물성·합성·응용 과목은 천연/바이오 고분자 소재의 직접 기초다."}
+{"pair_id": "pair:3ac14d88c52ace4c", "relevance": 2, "insufficient_evidence": false, "reason": "전기촉매 연구와 전자구조 계산 과목의 양자역학적 제일원리 재료 계산법이 촉매 연구에 직접 유용하다."}
+{"pair_id": "pair:c373c428a8def199", "relevance": 0, "insufficient_evidence": false, "reason": "로봇 시각 상호작용 연구와 자연어처리 기초 과목은 서로 다른 모달리티·응용이다."}
+{"pair_id": "pair:de898dbbb6ffa453", "relevance": 2, "insufficient_evidence": false, "reason": "무선통신·기계학습 연구실과 딥러닝 학습·추론 구현 및 가속 과목이 직접 관련된다."}
+{"pair_id": "pair:5b149c985c935c43", "relevance": 2, "insufficient_evidence": false, "reason": "레이더 이미징 연구와 영상 하드웨어·계산 알고리즘·역문제 기반 재구성 과목이 직접 일치한다."}
+{"pair_id": "pair:f23770314f905e83", "relevance": 1, "insufficient_evidence": false, "reason": "전기화학 연구와 고분자 특성·바이오/전자 응용 과목은 생체전극·소재 측면의 일부 접점이 있으나 연구실 연구의 중심은 촉매·전극이다."}
+{"pair_id": "pair:a619c30f9ce211fd", "relevance": 2, "insufficient_evidence": false, "reason": "무선통신·기계학습 연구와 딥러닝 구현·최적화·가속 과목이 직접 관련된다."}
+{"pair_id": "pair:b01ff847e1769228", "relevance": 0, "insufficient_evidence": false, "reason": "양자 나노포토닉스 연구와 현대 제어 시스템의 안정성·상태공간 설계는 구체적인 연결이 없다."}
+{"pair_id": "pair:40b2802996ae2d00", "relevance": 2, "insufficient_evidence": false, "reason": "기능성 무기소재 연구와 소재 구조·합성·물성 분석을 직접 실습하는 소재디자인 과목이 일치한다."}
+{"pair_id": "pair:16e0e9c083486462", "relevance": 1, "insufficient_evidence": false, "reason": "집적회로·전력관리 연구와 나노-마이크로 열/에너지 전달의 기초는 회로 열관리 측면에서 일부 연관될 수 있지만 연구 직접성이 약하다."}
+{"pair_id": "pair:6d5590237639f58c", "relevance": 0, "insufficient_evidence": false, "reason": "전자·양자 수송 연구와 일반생명과학 유전자·단백질·식물 실험은 다르다."}
+{"pair_id": "pair:c3425ac9fff785e3", "relevance": 0, "insufficient_evidence": false, "reason": "기계학습 시스템 최적화 연구와 다체론 물리 과목은 연구 방법과 대상이 다르다."}
+{"pair_id": "pair:ed4e066b9e5a4661", "relevance": 0, "insufficient_evidence": false, "reason": "기하 알고리즘·자료구조 연구와 배터리 소재 TEM 실습은 직접 관련되지 않는다."}
+{"pair_id": "pair:5e5709b6e9647082", "relevance": 2, "insufficient_evidence": false, "reason": "고체재료의 분광학적 구조 연구와 소재 내부 전자상태·밴드구조·물성을 설명하는 과목이 직접 관련된다."}
+{"pair_id": "pair:37187401604540de", "relevance": 2, "insufficient_evidence": false, "reason": "기계학습 연구와 NLP 기술·알고리즘 및 프로젝트 과목이 직접 일치한다."}
+{"pair_id": "pair:7fe57004716adce2", "relevance": 0, "insufficient_evidence": false, "reason": "위상수학 연구와 고급 분자생물학 주제는 연관이 없다."}
+{"pair_id": "pair:ae6b17f0d8a2c18f", "relevance": 2, "insufficient_evidence": false, "reason": "나노광학·나노의학 연구실의 바이오이미징·진단 플랫폼과 실리콘 바이오계면·바이오센서·신경인터페이스 과목이 직접 관련된다."}
+{"pair_id": "pair:de6722d5c8b24b29", "relevance": 2, "insufficient_evidence": false, "reason": "에너지·환경 소재 연구와 소재의 결정구조·물리적 특성·합성/분석 실습 과목이 직접 일치한다."}
+{"pair_id": "pair:70d035a00edc3bc8", "relevance": 0, "insufficient_evidence": false, "reason": "액체·화학반응·단백질 X선 분석과 반도체 집적 공정·소자 제작은 연구 분야가 다르다."}
+{"pair_id": "pair:30b7e56292ebac94", "relevance": 1, "insufficient_evidence": false, "reason": "열에너지 연구와 배터리 DFT 계산은 에너지 소재 응용에서 약한 접점이 있지만, 연구실의 열전·열수송 초점과 과목의 배터리 전자구조 계산은 다르다."}
+{"pair_id": "pair:2e24ead6f1ae1b50", "relevance": 0, "insufficient_evidence": false, "reason": "기하 알고리즘 연구와 의료 영상 AI 과목 사이에 구체적인 공통 연구 응용이 나타나지 않는다."}
+{"pair_id": "pair:589604b36aca8d13", "relevance": 0, "insufficient_evidence": false, "reason": "환경 생물공정 연구와 마케팅 전략·경제모델링 과목은 무관하다."}
+{"pair_id": "pair:5cce8da5723cc22a", "relevance": 2, "insufficient_evidence": false, "reason": "기계학습 연구와 심층학습 NLP 모델·알고리즘 과목이 직접 연결된다."}
+{"pair_id": "pair:18a61e30836cad2e", "relevance": 0, "insufficient_evidence": false, "reason": "식물-미생물 환경 상호작용 연구와 AI 동향 개론은 구체적인 분석 방법의 연결이 없다."}
+{"pair_id": "pair:31d979260842d193", "relevance": 2, "insufficient_evidence": false, "reason": "암 관련 분자구조 연구와 소재 분석기기의 결정·현미경·표면 분석법은 구조 특성화 방법의 기반을 공유한다."}
+{"pair_id": "pair:c7e3626618e24494", "relevance": 0, "insufficient_evidence": false, "reason": "고효율 컴퓨팅 시스템 연구와 AI 윤리·리더십 교과목은 기술적 학습 연결이 없다."}
+{"pair_id": "pair:80bb39fefdb38aac", "relevance": 2, "insufficient_evidence": false, "reason": "열유체·열전달 연구와 소재의 열적 물성·구조·공정을 다루는 신소재과학 기초가 연구에 직접 유용하다."}
+{"pair_id": "pair:3a06aacd0259415d", "relevance": 2, "insufficient_evidence": false, "reason": "최적화 연구와 화공 프로그래밍·수치해석·AI 과목의 계산·최적화 기반이 직접 관련된다."}
+{"pair_id": "pair:5643f32b22debe90", "relevance": 2, "insufficient_evidence": false, "reason": "통계·데이터과학 연구와 프로그래밍·수치해석·데이터분석 및 AI 과목이 직접 일치한다."}
+{"pair_id": "pair:814db905f7c7b80c", "relevance": 2, "insufficient_evidence": false, "reason": "산화물 박막·전자소재 연구와 소재 구조·합성·전기/광학 특성 분석을 실습하는 과목이 직접 관련된다."}
+{"pair_id": "pair:d91d19ec4c164bdc", "relevance": 1, "insufficient_evidence": false, "reason": "비전 기반 로봇 연구와 비즈니스 애널리틱스 과목은 예측·패턴 발견·AI 분석에서 일부 방법 접점이 있으나 과목은 조직 의사결정 중심이다."}
+{"pair_id": "pair:970d36215ef3f5b4", "relevance": 2, "insufficient_evidence": false, "reason": "생체-공학 설계 연구와 로봇 상태공간·안정성·제어기 설계 과목이 직접 연결된다."}
+{"pair_id": "pair:0260d9e58ffe5bb5", "relevance": 2, "insufficient_evidence": false, "reason": "컴퓨터공학 교수진이 다양한 CS 연구 분야를 소개하는 과목은 SoC/시스템 설계 연구의 기반 분야를 직접 다룬다."}
+{"pair_id": "pair:149d8e65e14b0cc0", "relevance": 2, "insufficient_evidence": false, "reason": "기계학습 연구실의 딥러닝과 NLP 수업의 모델·기법·프로젝트가 직접 일치한다."}
+{"pair_id": "pair:7203d7fbb70f72b1", "relevance": 0, "insufficient_evidence": false, "reason": "수학 위상 연구와 분자생물학 과목은 분야와 방법이 다르다."}
+{"pair_id": "pair:521b657ec92d6948", "relevance": 2, "insufficient_evidence": false, "reason": "나노의학 연구의 플라즈모닉 나노플랫폼·바이오이미징과 실리콘-바이오 센서·인터페이스 과목이 직접 관련된다."}
+{"pair_id": "pair:6618fba64a1a0392", "relevance": 2, "insufficient_evidence": false, "reason": "기능성 무기재료 설계·제조 연구와 소재디자인의 구조·합성·물성 실습이 직접 연결된다."}
+{"pair_id": "pair:ed0c1b194098dede", "relevance": 0, "insufficient_evidence": false, "reason": "양자 나노포토닉스 연구와 디지털 제어 시스템 해석·제어기 설계는 구체적인 연구 주제 연결이 없다."}
+{"pair_id": "pair:6e60a5ed490cdee3", "relevance": 2, "insufficient_evidence": false, "reason": "스마트 연성 소재 연구와 소재 구조·물성·합성·특성 분석을 직접 다루는 소재디자인 과목이 일치한다."}
+{"pair_id": "pair:e4a2fa3f0ab96795", "relevance": 2, "insufficient_evidence": false, "reason": "대규모 기계학습 최적화 연구와 딥러닝 구현·가속·최적화 과목이 직접 관련된다."}
+{"pair_id": "pair:1eb5a435be1fc363", "relevance": 2, "insufficient_evidence": false, "reason": "지능형 소재·센서 연구와 나노물질 합성·구조 및 특성화 과목이 직접 일치한다."}
+{"pair_id": "pair:2940f6e49e39d9a0", "relevance": 1, "insufficient_evidence": false, "reason": "나노의학 연구와 유연전자공학의 웨어러블 바이오전자·센서 주제는 응용 측면의 일부 관련성이 있으나 연구실은 주로 나노플라즈모닉·진단 플랫폼이다."}
+{"pair_id": "pair:76776738782b5e12", "relevance": 0, "insufficient_evidence": false, "reason": "신경 후성유전체 연구와 인공지능 신경망 방법 연구 과목 사이에 명시적인 AI 분석 응용이 보이지 않는다."}
+{"pair_id": "pair:8a702f1c20a6c473", "relevance": 1, "insufficient_evidence": false, "reason": "Applied AI·프로세스 분석 연구와 AI 윤리 과목은 책임 있는 AI 활용이라는 보조적 접점만 있고 분석 기법을 다루지 않는다."}
+{"pair_id": "pair:55327b625a4c1381", "relevance": 2, "insufficient_evidence": false, "reason": "고체 재료 분광·구조 연구와 물성 원리 및 구조-특성 관계를 다루는 신소재과학 기초가 직접 관련된다."}
+{"pair_id": "pair:5257024ff7ee3a3e", "relevance": 2, "insufficient_evidence": false, "reason": "장내 미생물·숙주 상호작용 연구와 미생물학·면역학·의생명과학 과목이 직접 연결된다."}
+{"pair_id": "pair:77a0f243c0b8f78d", "relevance": 2, "insufficient_evidence": false, "reason": "끈이론·M이론 연구에 대학원 양자역학의 해석 계산과 양자 개념이 이론적 기반으로 직접 관련된다."}
+{"pair_id": "pair:c8b9633c8a478015", "relevance": 2, "insufficient_evidence": false, "reason": "샘플드 데이터·다중 에이전트 제어 연구와 MATLAB 기반 제어 시스템 실험이 직접 일치한다."}
+{"pair_id": "pair:b07ea784b04e8386", "relevance": 2, "insufficient_evidence": false, "reason": "스마트 연성 소재 연구와 고분자 구조·물성·합성·가공 과목이 직접 기초를 제공한다."}
+{"pair_id": "pair:1849f567fd9d7223", "relevance": 1, "insufficient_evidence": false, "reason": "생체공학 설계 연구와 THz 바이오·센싱 응용은 넓은 접점이 있으나 연구실의 로봇·생체 인터페이스 주제를 구체적으로 다루지는 않는다."}
+{"pair_id": "pair:cea5048228a88812", "relevance": 2, "insufficient_evidence": false, "reason": "전산재료과학 연구와 원자단위 MD·Monte Carlo 계산 실습이 직접 일치한다."}
+{"pair_id": "pair:4dedcf9f6de17c87", "relevance": 2, "insufficient_evidence": false, "reason": "전자기 계산·병렬화 연구와 GPU 아키텍처·CUDA 구현 과목이 직접 관련된다."}
+{"pair_id": "pair:5ca1d8637069979f", "relevance": 0, "insufficient_evidence": false, "reason": "농업경제학 연구와 HCI 연구주제·방법론 과목의 연결이 보이지 않는다."}
+{"pair_id": "pair:1826a9292341fb15", "relevance": 2, "insufficient_evidence": false, "reason": "천연·생체모사 재료 연구와 고분자 물성·합성·가공·응용 과목이 직접 관련된다."}
+{"pair_id": "pair:d0bae45011294311", "relevance": 2, "insufficient_evidence": false, "reason": "전기촉매 연구와 제일원리 전자구조 계산의 이론·응용이 촉매의 반응 및 소재 계산에 직접 유용하다."}
+{"pair_id": "pair:98f20a05fbdff7ec", "relevance": 0, "insufficient_evidence": false, "reason": "로봇 시각상호작용 연구와 NLP 과목의 텍스트 언어 모델 주제는 직접 관련되지 않는다."}
+{"pair_id": "pair:7c007282557399f2", "relevance": 2, "insufficient_evidence": false, "reason": "무선통신·기계학습 연구와 딥러닝 가속·최적화 과목이 직접 관련된다."}
+{"pair_id": "pair:c8a2e518c87cd968", "relevance": 1, "insufficient_evidence": false, "reason": "비평형 생물물리 연구와 고분자 물리·열역학 과목은 연성/분자계 물리의 일부 접점이 있으나 고분자 소재 연구와는 다르다."}
+{"pair_id": "pair:e099018610e3a456", "relevance": 1, "insufficient_evidence": false, "reason": "끈이론 연구에 양자역학적 개념은 기초지만, 양자정보·회로 기반 컴퓨팅 과목은 연구 주제와 직접 일치하지 않는다."}
+{"pair_id": "pair:d3727f7895ab009c", "relevance": 0, "insufficient_evidence": false, "reason": "저차원 전자수송·열수송 소재 연구와 생체 분자 광학영상 과목은 직접 관련되지 않는다."}
+{"pair_id": "pair:12a32fe2c85cfc10", "relevance": 2, "insufficient_evidence": false, "reason": "나노소자·반도체 공정 연구와 TCAD, 공정 및 소자 제작 실습 과목이 직접 일치한다."}
+{"pair_id": "pair:d2645b1a49f9a316", "relevance": 0, "insufficient_evidence": false, "reason": "금융·위험관리 연구와 영상처리·컴퓨터사진 과목은 관련 분야가 아니다."}
+{"pair_id": "pair:41575c5b8d2b56e9", "relevance": 1, "insufficient_evidence": false, "reason": "신경면역 연구의 현미경 활용과 소재 분석기기 과목의 현미경·분광 원리는 방법 기초에서 제한적으로 관련된다."}
+{"pair_id": "pair:663460af8454dadc", "relevance": 1, "insufficient_evidence": false, "reason": "전기촉매 연구에 DFT 전자구조 계산은 응용 가능하지만, 이 과목은 배터리 전압·충방전 시스템을 특화해 다룬다."}
+{"pair_id": "pair:445911780374a7b8", "relevance": 2, "insufficient_evidence": false, "reason": "대규모 기계학습 최적화 연구와 심층학습·최적화 개론이 직접 관련된다."}
+{"pair_id": "pair:56a71c9e89761984", "relevance": 2, "insufficient_evidence": false, "reason": "뉴로모픽 메모리·인공지능 소자 연구와 AI 계산용 지능형 반도체 소자 과목이 직접 일치한다."}
+{"pair_id": "pair:0eac8c2610b3b228", "relevance": 1, "insufficient_evidence": false, "reason": "SoC·컴퓨터 시스템 설계와 딥러닝 NLP는 딥러닝 워크로드 측면의 일부 접점은 있지만, 과목은 모델·언어처리 중심이다."}
+{"pair_id": "pair:1b6a5294d52da6ff", "relevance": 1, "insufficient_evidence": false, "reason": "정보이론·코딩 연구와 AI용 반도체 하드웨어 강의는 정보처리/AI 하드웨어라는 접점은 있지만 구체 이론·구현이 다르다."}
+{"pair_id": "pair:0b9b0e566697b674", "relevance": 2, "insufficient_evidence": false, "reason": "의료 영상 연구와 지도·비지도 학습, 신경망 및 통계 모델을 다루는 데이터 과학 과목이 직접 관련된다."}
+{"pair_id": "pair:c1fe2f408e357c0a", "relevance": 1, "insufficient_evidence": false, "reason": "열유체 연구의 비등·응축·열전달과 소재 상평형·상변화 과목은 열역학적 상변화 기초의 접점은 있으나 유체 열전달과 고체 소재 전이가 다르다."}
+{"pair_id": "pair:14c494d8cd6882f8", "relevance": 1, "insufficient_evidence": false, "reason": "양자·통합 나노포토닉스 연구와 THz 전자기파 발생·검출·조작은 주파수 대역은 다르지만 파동 기반 기술의 관련성이 있다."}
+{"pair_id": "pair:cc0a628e77d728bd", "relevance": 1, "insufficient_evidence": false, "reason": "대규모 시스템 플랫폼 연구와 NLP 딥러닝 모델은 LLM serving 등 모델 워크로드 측면에서 일부 접점이 있으나 수업의 핵심은 NLP다."}
+{"pair_id": "pair:79ed42197b56526a", "relevance": 2, "insufficient_evidence": false, "reason": "STM/나노수송 연구와 소재 구조·회절·합성·전자현미경 분석을 포함한 소재디자인 실습이 직접 관련된다."}
+{"pair_id": "pair:a621e0a2901423e3", "relevance": 2, "insufficient_evidence": false, "reason": "전자기 모델링 연구실과 전기장·자기장·벡터미적분·수동회로 원리를 다루는 전자기학 입문이 직접 기초를 제공한다."}
+{"pair_id": "pair:4c1bd65827a05d65", "relevance": 0, "insufficient_evidence": false, "reason": "유기합성 반응 연구와 항체공학·면역치료 과목은 직접 연구 내용이나 방법이 다르다."}
+{"pair_id": "pair:63b916d77e0be322", "relevance": 2, "insufficient_evidence": false, "reason": "저차원 양자 소재 연구와 반도체 소재·2D 반도체·소자·공정·계측 전반을 다루는 반도체 입문 과목이 직접 연결된다."}
+{"pair_id": "pair:77b103f25dead226", "relevance": 1, "insufficient_evidence": false, "reason": "전산 나노소재 연구실의 기계학습·대규모 데이터와 데이터 분석·AI 방법 과목은 분석기법 측면의 접점이 있으나 철강산업 응용과 대상이 다르다."}
+{"pair_id": "pair:e23ee6bf21945517", "relevance": 1, "insufficient_evidence": false, "reason": "금융·위험관리 연구실의 금융 분야 기계학습과 심층학습의 신경망·최적화 기초는 일부 방법상 관련된다."}
+{"pair_id": "pair:1992c36b55a09cfa", "relevance": 1, "insufficient_evidence": false, "reason": "대규모 시스템 연구실의 computing systems와 컴퓨터공학 세부전공 소개는 분야 안내에서 직접 접점이 있지만 기술을 심층 강의하지 않는다."}
+{"pair_id": "pair:e3dd2c985dc73a87", "relevance": 2, "insufficient_evidence": false, "reason": "기계학습 연구와 동적계획법·강화학습의 이론 및 실습 과목이 직접 일치한다."}
+{"pair_id": "pair:877da392fb2be774", "relevance": 1, "insufficient_evidence": false, "reason": "AI 데이터베이스·LLM 에이전트 연구와 인공지능 법정책은 AI 시스템의 책임·규제 측면에서 보조적 관련성만 있다."}
+{"pair_id": "pair:2fcb076823ac29f6", "relevance": 1, "insufficient_evidence": false, "reason": "의료영상 연구와 수학적 ODE/PDE 모델링·시뮬레이션은 계산 모델링 기초의 일부 접점은 있으나 영상 분석 특화 내용은 불분명하다."}
+{"pair_id": "pair:293c3cb2d599ef33", "relevance": 2, "insufficient_evidence": false, "reason": "전기촉매 연구와 원자단위 분자역학·Monte Carlo 계산 실습이 촉매 소재 모델링에 직접 유용하다."}
+{"pair_id": "pair:ed5ca4f23572c8fd", "relevance": 1, "insufficient_evidence": false, "reason": "합성생물학·분자컴퓨팅 연구와 미세유체·lab-on-chip 이론은 실험 플랫폼 측면에서 일부 연관될 수 있다."}
+{"pair_id": "pair:2538dba88c70571b", "relevance": 1, "insufficient_evidence": false, "reason": "레이더 영상 연구와 3D 영상 분석은 영상 데이터·처리라는 공통 기반은 있으나 레이더 신호와 의료 voxel 영상은 다르다."}
+{"pair_id": "pair:fbc961f14325ec06", "relevance": 1, "insufficient_evidence": false, "reason": "건축 디지털 설계 연구와 전기공학 회로·센서/시스템 실습은 물리 컴퓨팅의 기초 연결이 가능하지만 연구 주제 자체는 다르다."}
+{"pair_id": "pair:25c85335f6496934", "relevance": 2, "insufficient_evidence": false, "reason": "기능성 무기재료 연구와 에너지 생산·저장·고효율 소자·환경 기술을 다루는 과목이 직접 연결된다."}
+{"pair_id": "pair:a4cfe0a591924dea", "relevance": 0, "insufficient_evidence": false, "reason": "생물학적 시스템으로 소재를 만드는 화학생물학 연구와 금속 야금·합금 재료 과목은 직접 관련되지 않는다."}
+{"pair_id": "pair:d1007371676cd675", "relevance": 2, "insufficient_evidence": false, "reason": "상변화 메모리 재료의 응집물질 계산 연구와 배터리 소재 DFT 과목은 제일원리 전자구조 계산 방법에서 직접 연결된다."}
+{"pair_id": "pair:887ccdb93ae868cd", "relevance": 0, "insufficient_evidence": false, "reason": "초음파 영상 연구와 배터리·철강 소재 TEM 강의는 모달리티·대상 및 방법이 다르다."}
+{"pair_id": "pair:34bec640efc2ddcd", "relevance": 2, "insufficient_evidence": false, "reason": "연구실의 사회미디어·온라인 집단 연구와 사회컴퓨팅·소셜미디어의 사회윤리 문제를 다루는 컴퓨터와사회 과목이 직접 관련된다."}
+{"pair_id": "pair:1abc7d7f66dad418", "relevance": 2, "insufficient_evidence": false, "reason": "저차원 소재의 표면·계면 연구와 결정구조·회절·소재 합성 및 물성 실습 과목이 직접 기초를 제공한다."}
+{"pair_id": "pair:445d0474eca384ee", "relevance": 2, "insufficient_evidence": false, "reason": "에너지 소재 연구와 소재 구조·전기/광학/기계적 물성을 실험하는 소재디자인 과목이 직접 관련된다."}
+{"pair_id": "pair:1974340beacc8a68", "relevance": 2, "insufficient_evidence": false, "reason": "고체재료 구조·질서 연구와 상변태의 열역학·핵생성·성장 이론 과목이 직접 일치한다."}
+{"pair_id": "pair:7fd54faf8cde930d", "relevance": 2, "insufficient_evidence": false, "reason": "양자광학·양자정보 연구와 양자정보과학의 큐비트·측정·양자회로 내용을 직접 공유한다."}
+{"pair_id": "pair:99319ac434a4ae05", "relevance": 0, "insufficient_evidence": false, "reason": "비평형 생물물리 연구와 배터리 전지용 DFT 계산은 분야와 적용 대상이 다르다."}
+{"pair_id": "pair:00b41af96151fb7c", "relevance": 1, "insufficient_evidence": false, "reason": "대규모 AI 시스템 연구와 심층학습 NLP 모델은 LLM 서비스 워크로드 측면에서 일부 연결되나 이 수업은 시스템 최적화보다 NLP 모델에 초점을 둔다."}
+{"pair_id": "pair:a46b2101d4228ab6", "relevance": 2, "insufficient_evidence": false, "reason": "병렬 컴퓨터 아키텍처 연구와 AI 계산용 지능형 반도체 하드웨어 과목이 직접 연결된다."}
+{"pair_id": "pair:76ad8f2122c5e584", "relevance": 0, "insufficient_evidence": false, "reason": "농업·가격·시장 분석 연구와 AI 윤리·리더십 과목은 관련성이 없다."}
+{"pair_id": "pair:718efc547a6614de", "relevance": 1, "insufficient_evidence": false, "reason": "디스플레이·연성 전자소자 연구와 지능형 UI 설계는 디스플레이와 사용자 인터페이스의 제한적 응용 접점이 있지만 수업은 UI 계산·평가 중심이다."}
+{"pair_id": "pair:988bf5507eee72c2", "relevance": 1, "insufficient_evidence": false, "reason": "나노소자·센서 연구와 나노-마이크로 에너지·열 전달 이론은 소자 열관리의 기반에서 일부 관련된다."}
+{"pair_id": "pair:6cb866c5448ca2fb", "relevance": 0, "insufficient_evidence": false, "reason": "웨어러블 음성·메모리 연구와 레이저 광학의 전파·간섭·회절 과목은 직접 관련되지 않는다."}
+{"pair_id": "pair:762fa19a56d74533", "relevance": 2, "insufficient_evidence": false, "reason": "데이터베이스·AI 시스템 연구와 대형 언어 모델 이론·작동 원리 과목이 직접 연결된다."}
+{"pair_id": "pair:51fb82b9ff4eef08", "relevance": 2, "insufficient_evidence": false, "reason": "신호처리·제어 연구실의 신호처리 분야와 선형시스템·푸리에 분석·생체신호를 다루는 과목이 직접 일치한다."}
+{"pair_id": "pair:4f4b49ce4df353f9", "relevance": 2, "insufficient_evidence": false, "reason": "원자단위 박막 산화물·전자소재 연구와 세라믹 합성·강유전체·TEM 분석 실습이 직접 관련된다."}
+{"pair_id": "pair:685cdc66eb6d9f7a", "relevance": 1, "insufficient_evidence": false, "reason": "끈이론 연구와 양자정보·양자컴퓨팅의 수학적 기초는 양자 이론이라는 넓은 접점은 있지만 직접 주제는 다르다."}
+{"pair_id": "pair:40d0682bea25ef5c", "relevance": 0, "insufficient_evidence": false, "reason": "제어·신호처리 연구와 제품 및 생산공정 설계 과목은 구체적 공통 주제나 방법이 없다."}
+{"pair_id": "pair:92c6e7f28f9b72cb", "relevance": 2, "insufficient_evidence": false, "reason": "원자로 디지털 트윈·AI-CFD 및 수치 계산 연구와 연속계산·미분 프로그램 기초 과목이 직접 관련된다."}
+{"pair_id": "pair:11db28ede10fbf88", "relevance": 1, "insufficient_evidence": false, "reason": "열에너지 연구와 재료 전기화학 과목은 에너지 전환 분야라는 접점이 있으나 전극 반응 연구가 명시되지 않는다."}
+{"pair_id": "pair:327287f600a5f7d3", "relevance": 0, "insufficient_evidence": false, "reason": "환경 생물공정 연구와 계량경제학 통계 도구는 연구 분야가 다르다."}
+{"pair_id": "pair:3fa005ac6d5bb748", "relevance": 2, "insufficient_evidence": false, "reason": "끈이론·M이론의 이론적 기반에 대학원 양자역학 II의 분석 계산이 직접 관련된다."}
+{"pair_id": "pair:e9ad55e70a7423f5", "relevance": 1, "insufficient_evidence": false, "reason": "GPCR·막단백질 구조 연구와 나노공학 소재·제조 기초는 나노스케일 구조라는 일부 접점만 있다."}
+{"pair_id": "pair:18f486cd2067e4fc", "relevance": 1, "insufficient_evidence": false, "reason": "전극 물성 연구와 금속의 구조·열역학·물성 과목은 소재과학 기반의 접점이 있지만 전극 분야 특화는 아니다."}
+{"pair_id": "pair:4894ca8eb7331c9f", "relevance": 2, "insufficient_evidence": false, "reason": "로봇학습 연구실과 강화학습 이론·알고리즘 과목이 직접 일치한다."}
+{"pair_id": "pair:0fe96e25181cb490", "relevance": 2, "insufficient_evidence": false, "reason": "끈이론 연구에 대학원 양자역학 II의 분석 계산과 다입자 양자 개념이 직접적인 기초다."}
+{"pair_id": "pair:dadc157332141bf0", "relevance": 1, "insufficient_evidence": false, "reason": "액체·반응·단백질 X선 연구와 배터리 DFT 계산은 물질 연구라는 넓은 접점만 있으며 연구실은 실험 분석 중심이다."}
+{"pair_id": "pair:61465dc28deb454e", "relevance": 2, "insufficient_evidence": false, "reason": "생체재료 설계 연구와 바이오재료·3D 프린팅·조직공학 과목이 직접 일치한다."}
+{"pair_id": "pair:067debbdfed3b532", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 고속 전자소자·저차원 재료와 열수송을 다루고, 강의는 세포 내 단백질의 분자 영상 기법을 다룬다."}
+{"pair_id": "pair:9c7e88debb2ea17d", "relevance": 1, "insufficient_evidence": false, "reason": "합성생물학 연구와 생체재료·바이오가공은 생명공학 인접 분야지만, 연구실 설명은 세포 회로·분자 시스템 설계에 집중한다."}
+{"pair_id": "pair:72935a8ba7ed92b2", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자소자이고 강의는 NAND 플래시와 컴퓨터 메모리·스토리지 시스템이다."}
+{"pair_id": "pair:d25bd9b21c832511", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 기계학습 전반을 연구하고 강의는 모바일 컴퓨팅의 지능형 동반자와 센싱을 다루지만, 구체적 방법 연결은 제한적이다."}
+{"pair_id": "pair:56c7b2369de6203c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실의 표면화학은 에너지·전자재료 연구이며, 강의의 표면은 3차원 의료영상의 기하 분석을 가리킨다."}
+{"pair_id": "pair:746c1abc4fed1db0", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 물리컴퓨팅·로봇 제작과 강의의 이동로봇 제작은 일부 구현 기법이 맞닿지만, 연구 중심은 건축 설계다."}
+{"pair_id": "pair:ac763380c4c875f7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실의 핵심 주제는 리튬이온·차세대 배터리이고 강의는 에너지 생산·저장 기술과 에너지 소자를 다룬다."}
+{"pair_id": "pair:920cf0d34e1ca0e4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리 재료를 연구하고 강의는 에너지 응용을 위한 전기화학과 전극 반응을 다룬다."}
+{"pair_id": "pair:c693c402207f9a1a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 딥러닝 기반 드론 영상 분석은 영상 처리와 방법상 접점이 있으나, 강의는 의료영상의 3차원 분석에 한정된다."}
+{"pair_id": "pair:6b07c527e6b6bdb4", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 건축 computational design·디지털 제작 연구이고 강의는 인공지능 관련 법제와 정책 쟁점을 다룬다."}
+{"pair_id": "pair:9eae0cf0b22aab34", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 나노소자·열전 연구는 전기화학 환경·에너지 시스템과 넓은 에너지 응용 접점만 확인된다."}
+{"pair_id": "pair:3864ad557b06445d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 생체 환경과 통합되는 센서 시스템을 개발하고 강의는 바이오센서·신경 인터페이스 등 실리콘-바이오 접면을 다룬다."}
+{"pair_id": "pair:a12942ebbeae83fc", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 지속가능한 광·전기화학 유기합성을 연구하지만 강의는 화공 에너지·환경 기술 전반을 다뤄 직접성은 제한적이다."}
+{"pair_id": "pair:6e77984ba7c8d47c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 금융·위험관리와 금융 분야의 기계학습이며 강의는 철강·배터리 재료의 투과전자현미경이다."}
+{"pair_id": "pair:1372137928aea2ab", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 전자설계와 강의의 ML·LLM 학습·추론 시스템은 하드웨어·시스템 설계 측면의 인접성이 있지만, 연구 주제의 직접 증거는 제한적이다."}
+{"pair_id": "pair:c12f0527b74f8d3f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기능성 산화물·배터리 재료와 전자현미경을 다루고 강의는 세라믹의 고체전해질·전자소자·원자구조 분석 실습을 포함한다."}
+{"pair_id": "pair:9458cb52edc0fc9f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계학습·고차원 데이터 분석·최적화·생물정보학을 연구하고 강의는 수치·데이터 분석과 AI 프로그래밍을 다룬다."}
+{"pair_id": "pair:b8cfb851642b2e0b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 확률·확률미분방정식 관련 수학 연구를 하고 강의는 확률·통계와 미분방정식을 선수 수학으로 다루므로 기초 연관성이 있다."}
+{"pair_id": "pair:2aa2bfd0aebc5d10", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전극 재료·전기전도성 소재를 다루고 촉매 강의는 전기화학 촉매 응용도 포함하지만, 직접적인 촉매 연구 증거는 약하다."}
+{"pair_id": "pair:c51dfeb64ad5c6cf", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리 재료를 연구하고 강의는 배터리 충·방전과 재료의 DFT 계산 및 AI 기반 소재 발견을 실습한다."}
+{"pair_id": "pair:6f5cc94a508aa8de", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 초전도체·그래핀 기반 양자소자와 극저온 양자수송을 연구하고 강의는 초전도 큐비트 등 양자정보 하드웨어를 다룬다."}
+{"pair_id": "pair:231198874a545385", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 정보이론·코딩이론과 정보 시스템을 연구하고, 강의는 화학 양자역학의 행렬 표현과 슈뢰딩거 방정식을 다룬다."}
+{"pair_id": "pair:907b220d3b331065", "relevance": 2, "insufficient_evidence": false, "reason": "연구실의 핵심 분야에 최적화가 포함되고 강의는 데이터 과학을 위한 최적화 이론과 알고리즘을 직접 다룬다."}
+{"pair_id": "pair:807d602f0ff0504f", "relevance": 0, "insufficient_evidence": false, "reason": "연구실의 주제는 전력망·수요반응과 에너지 시스템이고 강의는 고분자 합성·물성·열역학이다."}
+{"pair_id": "pair:4392708c638538ae", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI를 연구하고 강의는 대형 언어 모델의 이론과 동작 원리를 다룬다."}
+{"pair_id": "pair:158682e1b15ee72b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 햅틱·XR·인간컴퓨터 상호작용을 연구하고 강의는 AI와 데이터과학의 여러 분야를 개관해 일부 주제만 겹친다."}
+{"pair_id": "pair:1d49d8e43970ace5", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 통계학·데이터과학 연구를 하고 강의는 생성 AI 등 AI 분야의 현재 동향을 개관하지만 방법론 강의는 아니다."}
+{"pair_id": "pair:737d69d000cbaa8e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 사회 데이터의 복잡계 분석을 하고 강의는 철강 공급망 운영을 다루므로 데이터·시스템 분석의 인접성만 확인된다."}
+{"pair_id": "pair:19580aa18b7039b2", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 초음파·광음향 의료영상을 다루고 강의는 계산 알고리즘으로 카메라 영상을 개선하는 사진학이어서 영상 방법이 인접하다."}
+{"pair_id": "pair:9d2156f62c8b149e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 뇌 면역 연구와 강의의 점막 면역학은 면역학 분야에서 맞닿지만, 서로 다른 조직·면역 맥락이다."}
+{"pair_id": "pair:0f4f0b9f24d794e6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 반도체 소자·공정과 소자 모델링을 연구하고 강의는 반도체 동작의 물리 모델 및 수치해석을 직접 다룬다."}
+{"pair_id": "pair:0b63768cfd444450", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 살아있는 세포의 분자 시스템을 설계하고 강의는 바이오센서·바이오칩 등 전자-생물 계면 응용을 다뤄 생명공학 인접성이 있다."}
+{"pair_id": "pair:c8803053fdf8e2a7", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 금융위험관리에서 기계학습을 활용하고 강의는 현대 기계학습의 이론을 다뤄 방법 분야는 맞닿지만 응용 맥락은 다르다."}
+{"pair_id": "pair:1395f6bd55452e61", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 프로젝트 관리와 플랜트 엔지니어링을 연구하고 관련 논문에 AI 자동화가 등장하지만 강의의 프로그래밍 교육과 직접 연결은 제한적이다."}
+{"pair_id": "pair:2d65d9e871106362", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 바이오리파이너리 경로의 통합 평가를 연구하고 강의는 화공 전기화학과 배터리·연료전지·촉매 응용을 다뤄 공정 분야의 인접성이 있다."}
+{"pair_id": "pair:19f02b620b1cab7d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 제조·소재 데이터 기반 모델을 연구하고 강의는 AI 분야의 발전과 응용 동향을 개관한다."}
+{"pair_id": "pair:33480606cafee00f", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 플랜트 프로젝트 관리와 공사 관리용 AI 도구에 초점을 두며, 강의는 심층학습 기반 자연어처리 방법을 다룬다."}
+{"pair_id": "pair:89da97741e4a378c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생성 AI와 확산 모델을 연구하고 강의는 NLP 기초를 제공하므로 언어 모델의 넓은 연관성은 있으나 연구 주제가 직접 NLP로 확인되지는 않는다."}
+{"pair_id": "pair:3ac7de9e761f7e86", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 전력망·건물 수요반응 연구는 열에너지 활용과 맞닿지만 강의의 열역학은 물질의 열·일 원리와 열전환 기초를 다룬다."}
+{"pair_id": "pair:fddbb3388e5a41f9", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 재료의 전자현미경 분석을 수행하고 강의는 재료 시편 관찰을 위한 광학 현미경 원리와 영상 기술을 직접 다룬다."}
+{"pair_id": "pair:ad43ecc0fea9c735", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전기화학의 기초부터 실제 응용까지 전기촉매를 연구하고 강의는 불균일 촉매의 원리와 전기화학 촉매 응용을 다룬다."}
+{"pair_id": "pair:52565f45f01353d6", "relevance": 1, "insufficient_evidence": false, "reason": "기후 시스템 예측을 위한 수치·데이터 연구는 전산수학의 이산수학·알고리즘적 사고와 넓은 계산 방법 접점이 있다."}
+{"pair_id": "pair:e9786d3fe2caa6a5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다중 에이전트 합의제어와 로봇 조작의 강인제어를 연구하고 강의는 쿼드콥터 제어·로봇 지능을 실습한다."}
+{"pair_id": "pair:2707a9e5ebad0cf6", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료와 에피성장을 연구하고 강의는 DRAM·NAND·전력반도체의 제조 공정을 다루므로 반도체 소재·소자 인접성은 있다."}
+{"pair_id": "pair:e68700cb878fb192", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 대기오염 관측·노출과 환경 데이터과학을 연구하며 강의는 배터리 시스템의 DFT 계산을 다룬다."}
+{"pair_id": "pair:47827774959f68c9", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전지 고체전해질 등 에너지 소재를 연구하고 강의는 에너지 전환·저장 소재의 원리와 기술을 다룬다."}
+{"pair_id": "pair:1735d9137fb154ce", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 로봇·다중에이전트 제어를 연구하고 강의는 인공지능 법정책과 규제를 다룬다."}
+{"pair_id": "pair:3536542c7e97135f", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 세포 안의 분자 시스템을 연구하고 강의는 공학 분야의 유체 흐름과 유체역학 원리를 다룬다."}
+{"pair_id": "pair:fa50890a63f4a76d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI와 확산 기반 모델을 연구하고 강의는 AI·데이터과학의 주요 연구 분야를 개관한다."}
+{"pair_id": "pair:86e78292317b8362", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 바이오리파이너리와 공정 경로의 통합 평가를 연구하고 강의는 촉매의 원리와 에너지·환경 응용을 다룬다."}
+{"pair_id": "pair:43d18d3cef45e454", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 컴퓨터 구조·운영체제를 연구하고 NAND 플래시 메모리 내 연산을 발표했으며 강의는 ML·LLM 학습·추론 시스템을 직접 다룬다."}
+{"pair_id": "pair:a83b23f39cfcf467", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 웨어러블 음성인식·음성처리와 전자소자 연구를 하고 강의는 음성·언어 기반 지능을 포함한 AI 동향을 다룬다."}
+{"pair_id": "pair:f7944120d3d7599e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 끈이론·M이론의 이론물리 연구를 하고 강의는 이미 기초 양자역학을 배운 학생을 위한 대학원 양자역학 계산을 다룬다."}
+{"pair_id": "pair:43b8286f422595a8", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 광·전기화학 유기합성을 연구하고 강의는 신소재의 설계·합성·분석 실습을 하므로 합성·재료 특성의 제한된 접점이 있다."}
+{"pair_id": "pair:6411ae0512dd3e73", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 로봇 학습과 3D 동작 예측을 연구하고 강의는 로봇 개발의 학습 알고리즘을 실제 로봇에 적용한다."}
+{"pair_id": "pair:a4fe46c96402f63a", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 계산 전자기학과 전자기장 수치 모델링을 연구하고 강의는 분자 양자화학 계산을 다룬다."}
+{"pair_id": "pair:b6b7ff625d1017cd", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 유기합성·분자 합성을 연구하고 강의는 AI를 위한 선형대수·확률·최적화 수학을 다룬다."}
+{"pair_id": "pair:7f9eb4a6ffadfdec", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 CMOS 이미지 센서와 첨단 센서 소자를 설계하고 강의는 신흥 반도체 재료와 관련 소자 물리를 다룬다."}
+{"pair_id": "pair:628b2d616423fe72", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생물물리학과 비평형 통계물리를 연구하고 강의는 재료의 고전 열역학 기초를 다뤄 열역학적 기초의 접점이 있다."}
+{"pair_id": "pair:74d93a1f08ce0e8f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 복합 재료·구조의 역학 모델링과 설계를 연구하고 강의는 금속·연성 재료의 미세구조 분석과 기계시험을 실습한다."}
+{"pair_id": "pair:67dc3573d80ab6c7", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 보험·위험관리와 보험 데이터 분석을 연구하고 강의는 금속·반도체·세라믹·고분자의 물성을 다룬다."}
+{"pair_id": "pair:46248a28b613683f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리 소재를 연구하고 강의는 재료공학을 위한 에너지 전기화학과 에너지 저장 응용을 다룬다."}
+{"pair_id": "pair:7155cfdd0e4eda42", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료의 전자 구조를 STM·수송으로 연구하고 강의는 세라믹 합성·특성분석과 TEM 실습을 하므로 재료 특성분석의 접점이 있다."}
+{"pair_id": "pair:8f38cd42f0c1b67d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 효율적 기계학습의 이론을 연구하고 강의는 연속·이산 모델링, 시뮬레이션과 데이터 기반 예측을 다룬다."}
+{"pair_id": "pair:ba80f7de91d9bd78", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 복합 재료·구조의 역학 모델링을 연구하고 강의는 박막 구조와 재료 현상을 다뤄 재료 구조의 공통 기반이 있다."}
+{"pair_id": "pair:945b4ad0c743349b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 반도체 이종집적 소재·공정과 칩 열예측을 연구하고 강의는 배터리 재료의 DFT 계산을 다룬다."}
+{"pair_id": "pair:bf94e3b150e8227f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 양자재료·소자와 현미경 기반 분석을 연구하고 강의는 세라믹 소자·재료와 TEM 분석 실습을 포함한다."}
+{"pair_id": "pair:adb1e2ffa24a8b4d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 고엔트로피 합금·금속 가공과 적층제조를 연구하고 강의는 신소재의 설계·합성·분석을 실습한다."}
+{"pair_id": "pair:08ed3b7a342340f5", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 공장 제어·제조 운영의 AI와 디지털 트윈을 연구하고 강의는 계산 사진학의 카메라·영상 알고리즘을 다룬다."}
+{"pair_id": "pair:e46f2258c3c9d127", "relevance": 1, "insufficient_evidence": false, "reason": "연구실의 지속가능 소재·재생에너지 연구와 수분 유도 에너지 변환은 재료 열역학 기초와 넓은 연관성이 있지만, 강의는 고전 열역학에 초점을 둔다."}
+{"pair_id": "pair:5ae093ee338e89ba", "relevance": 0, "insufficient_evidence": false, "reason": "수학 연구실은 위상수학과 매듭 이론을 연구하고 강의는 마이크로프로세서와 임베디드 시스템을 다룬다."}
+{"pair_id": "pair:c57c0bf706da4936", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 액체·화학반응·단백질의 동역학을 X선으로 연구하고 강의는 원자 단위 시뮬레이션 방법을 다뤄 원자·분자 수준 분석의 접점이 있다."}
+{"pair_id": "pair:d2779f837cbb0871", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 연구이며 강의는 양자통신과 암호의 물리적 보안 기술을 다룬다."}
+{"pair_id": "pair:80f26a0fa111934c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료와 소자물리를 연구하고 강의는 무선·레이더 RF 회로의 설계 원리를 다뤄 반도체 소자 기반의 인접성이 있다."}
+{"pair_id": "pair:a73637836a0c2be3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 무선통신과 기계학습을 연구하고 논문은 의미통신의 공동 소스-채널 부호화를 다루며, 강의는 오류정정부호를 직접 가르친다."}
+{"pair_id": "pair:895c309969963aa1", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 에너지·연료전지·물분해·수소발생 촉매와 광촉매를 연구하고 강의는 고체 촉매와 불균일 촉매 반응을 다룬다."}
+{"pair_id": "pair:d7bc294b3f63560f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전자회로 설계와 CMOS 트랜시버를 연구하고 강의는 전자소자 물리와 회로 해석을 다룬다."}
+{"pair_id": "pair:012f26584e41e7e1", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 로봇 학습·3D 동작 예측을 연구하고 강의는 인간중심 디자인 조사와 사용자 경험 설계를 다룬다."}
+{"pair_id": "pair:2eda9f8e7a6cf953", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 금속 가공·합금 분야에서 기계학습을 활용하고 강의는 AI 기술 동향을 개관하므로 AI 적용 측면의 제한된 연관성이 있다."}
+{"pair_id": "pair:b1ed6a92354f1c1c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 계산 전자기학과 전자기장 시뮬레이션을 연구하고 강의는 분자 양자역학·화학의 양자화학 계산을 다룬다."}
+{"pair_id": "pair:eb478f294a987b6e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 PINN·데이터 기반 AI-CFD와 심층강화학습을 원자로·열수력 문제에 적용하고 강의는 현대 기계학습 이론을 다룬다."}
+{"pair_id": "pair:629b8e4697b03b8a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시청각 입력에서 햅틱 효과를 생성하는 연구를 하고 강의는 컴퓨터 비전 기법을 다루지만 시각 인식이 연구의 중심이라고 보기는 어렵다."}
+{"pair_id": "pair:c7859a7844634d5e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저차원 재료의 표면·계면과 물성을 연구하고 강의는 나노재료의 설계·제조·특성분석을 다룬다."}
+{"pair_id": "pair:83e83892a6de27df", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 시각 입력으로 로봇 조작을 학습하고 3D 손 자세 추정을 연구하며 강의는 데이터 과학 프로그래밍과 기계학습·비전 모델을 다룬다."}
+{"pair_id": "pair:ee1bcbe6902caed6", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어의 형식 검증과 model checking을 연구하고 강의는 논리 게이트·조합/순차회로의 디지털 시스템 설계를 다룬다."}
+{"pair_id": "pair:3d7408e80129a224", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 농업경제와 에탄올 시장의 가격·정책 분석을 하고 강의는 HCI 연구 주제·방법과 인터랙티브 시스템 설계를 다룬다."}
+{"pair_id": "pair:1500cd69ab062504", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 반도체 소자·공정 연구와 NAND 플래시 메모리의 전하 손실 분석을 하고 강의는 CMOS 집적공정과 소자 제작·시험 실습을 포함한다."}
+{"pair_id": "pair:b0cfaaf65d2a5764", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 확률적 프로그램의 검증과 프로그래밍 언어 의미론을 연구하고 강의는 합성생물학의 연구 동향을 다룬다."}
+{"pair_id": "pair:7a6a72638e496602", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 정보이론·코딩이론과 동형암호 연구를 하고 강의는 AI 연산을 위한 지능형 반도체 하드웨어를 다뤄 정보 처리의 인접성은 있다."}
+{"pair_id": "pair:0026116ba68cd05e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 위험 환경용 지상·수중 로봇을 개발하고 강의는 이동로봇의 이론과 ROS 기반 설계·운용을 실습한다."}
+{"pair_id": "pair:e602d4e46d4f3810", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 철강·고순도 철의 결정립계와 금속 가공을 연구하고 강의는 금속을 포함한 소재의 물성·공정·특성을 기초부터 다룬다."}
+{"pair_id": "pair:1de08805a399fc1f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 프로세스 마이닝·추천 시스템·응용 AI와 예측 분석을 연구하고 강의는 다양한 AI 기술·분야의 동향을 개관한다."}
+{"pair_id": "pair:3db303516260ae97", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 그래프·기하 알고리즘과 경로 문제를 연구하고 강의는 그래프·기하·근사·무작위 알고리즘을 심화 학습한다."}
+{"pair_id": "pair:393b77f5abaefa70", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 취약점·코드 클론과 시스템 보안을 연구하고 강의는 사용자 인터페이스 설계와 평가 방법을 다룬다."}
+{"pair_id": "pair:d6af040311255c8e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 물리정보 신경망과 AI-CFD를 연구하고 강의는 시장 데이터를 이용한 경제 모형·마케팅 분석을 다뤄 데이터 모델링의 일반적 접점이 있다."}
+{"pair_id": "pair:d6a75a8866f92a3d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 RRAM·뉴로모픽 반도체 소자를 연구하고 강의는 기계학습을 위한 선형대수·확률·최적화 수학을 다뤄 넓은 방법 기반의 관련성이 있다."}
+{"pair_id": "pair:62770131f3cce782", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 planar graph의 disjoint paths와 기하 알고리즘을 연구하고 강의는 고급 그래프·기하·근사·무작위 알고리즘을 다룬다."}
+{"pair_id": "pair:4d1c06fe79733fc6", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 취약점과 보안 분석을 연구하고 강의는 지능형 사용자 인터페이스의 설계·평가를 다룬다."}
+{"pair_id": "pair:bfa986c52d3780e6", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 원자로·열수력 문제에 물리정보 신경망과 AI-CFD를 적용하고 강의는 데이터 기반 경제 모형과 마케팅 분석을 다뤄 일반적인 데이터 모델링 접점이 있다."}
+{"pair_id": "pair:7eff4cc8b4efa77b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 RRAM과 뉴로모픽 반도체 소자를 연구하고 강의는 기계학습을 위한 선형대수·확률·최적화 수학을 다뤄 넓은 방법 기반의 관련성이 있다."}
+{"pair_id": "pair:fc589438ed455b7f", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 환경 오염원의 안정동위원소 추적과 생태·대기 노출을 연구하고 강의는 진공·박막의 제조와 특성 분석을 다룬다."}
+{"pair_id": "pair:013ddd2a0645d5cc", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 로봇 학습과 3D 동작 예측을 연구하며 강의는 테라헤르츠파의 발생·검출과 영상·센싱을 다룬다."}
+{"pair_id": "pair:82ced751ed5d5eb2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 계산전자기학과 전자기장 수치해석을 연구하고 강의는 전자기학·맥스웰 방정식·전자파와 광학의 기초를 다룬다."}
+{"pair_id": "pair:5d14cd596fdd8e3a", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 양자·비선형 나노광학과 집적광소자를 연구하고 강의는 주파수영역의 제어이론 수학을 다룬다."}
+{"pair_id": "pair:9f0b7b9b40cf4af3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다중에이전트 합의제어와 로봇 조작의 강인 제어를 연구하고 강의는 동적 시스템의 피드백 제어를 다룬다."}
+{"pair_id": "pair:30090d2959f5ab60", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계학습·유전체학·생물정보학을 연구하고 강의는 유전체·전사체 환자 데이터의 AI 기반 질병 예측과 바이오정보 분석을 실습한다."}
+{"pair_id": "pair:5a6bdb5448ff339d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI와 확산 모델을 연구하고 강의는 심층학습 기반 NLP의 신경망 모델과 응용을 다룬다."}
+{"pair_id": "pair:e9048540e6936fbd", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 나노물질·막 플랫폼·에너지 및 화학 센서를 연구하고 강의는 신소재를 직접 설계·합성·분석한다."}
+{"pair_id": "pair:2af29c64edc734f3", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 딥러닝 기반 드론 영상 분석을 수행하고 강의는 3차원 의료영상 처리를 다뤄 영상 분석 방법의 접점이 있으나 응용은 다르다."}
+{"pair_id": "pair:fceb4b8b47c0510d", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 CRISPR와 바이러스·유전자 시스템을 연구하고 강의는 살아있는 세포·개체에서 단백질을 관찰하는 분자 영상 기법을 다룬다."}
+{"pair_id": "pair:fb557caa2994ed6d", "relevance": 2, "insufficient_evidence": false, "reason": "물류 연구실은 공급망·차량경로·시설입지·시뮬레이션을 최적화하고 강의는 시장 데이터와 경제 모형으로 마케팅 전략을 개발한다."}
+{"pair_id": "pair:364719c46947db3e", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자 재료를 연구하고 강의는 양자통신·양자암호와 보안 기술을 다룬다."}
+{"pair_id": "pair:826a6f30d9bf4c1c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 뇌가 유연한 행동을 학습·계산하는 신경 메커니즘을 연구하고 강의는 AI 신경망의 이론·계산·구현을 연구하는 수업이다."}
+{"pair_id": "pair:271676cdf1488449", "relevance": 2, "insufficient_evidence": false, "reason": "교수 연구는 소셜미디어의 집단·개인 정체성과 정보환경을 다루고 강의는 정보사회의 변화와 개인·사회 동학을 분석한다."}
+{"pair_id": "pair:cd67f0be6d037b33", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 열전 소자와 나노소자 응용을 연구하고 강의는 고분자 소재의 물성·합성과 반도체·소프트전자 응용을 다뤄 소재 응용 측면에서 인접한다."}
+{"pair_id": "pair:0380544e2e600f9d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계·데이터과학과 베이지안·희소학습을 연구하고 강의는 화공의 수치·데이터 분석과 AI를 Python으로 실습한다."}
+{"pair_id": "pair:aa82d4b6702a26ac", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 온라인 모성 커뮤니티 등 소셜미디어 이용을 연구하고 강의는 현실 환경에서 센싱·예측하는 유비쿼터스 컴퓨팅을 다뤄 디지털 사회 맥락의 접점이 있다."}
+{"pair_id": "pair:440d3f35aa31d32f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 데이터 시스템·AI 데이터베이스·자율 에이전트의 전 스택을 연구하고 강의는 딥러닝 학습·추론의 최적화와 가속을 다룬다."}
+{"pair_id": "pair:d146a0ebeeec6f95", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 전기촉매와 전기화학을 연구하고 강의는 CMOS 집적 공정 및 인버터 제작을 다룬다."}
+{"pair_id": "pair:0679f1c0bb8c7c80", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 열에너지·합금의 딥러닝 상 예측과 수소 상호작용을 연구하고 강의는 수소 생산·저장·활용과 저장 소재를 다룬다."}
+{"pair_id": "pair:dffff25b31f06e5b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 음성 활동 감지와 임베디드 시스템 구조를 연구하고 강의는 영어 문법과 문장 사용을 다룬다."}
+{"pair_id": "pair:8bdd50c653570676", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 신호처리·제어와 볼록최적화를 연구하고 강의는 칼만 필터, 그래픽 모델, 최적화, 딥러닝 등 추론·학습 알고리즘을 다룬다."}
+{"pair_id": "pair:052ff76a44aa9cd3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질의 구조를 X선 결정학 등으로 규명하고 강의는 재료 분석을 위한 회절·현미경·분광 기기의 원리를 다룬다."}
+{"pair_id": "pair:35304cf4aa4d2d54", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 차세대 배터리와 전해질·계면 화학을 연구하고 강의는 배터리·연료전지·촉매의 화공 전기화학을 다룬다."}
+{"pair_id": "pair:349211382cba9ab4", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 제조·소재 기반 모델 등 확률적 시스템을 연구하고 강의는 시장 데이터로 경제 모형과 마케팅 전략을 분석해 데이터 모델링의 일반적 접점이 있다."}
+{"pair_id": "pair:c5f04493b4a30e48", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 에너지 나노물질·막 플랫폼·화학 센서를 연구하며 강의는 AI 분야와 사회적 동향을 개관한다."}
+{"pair_id": "pair:06c4d8ddff682714", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 보안과 취약점을 연구하고 강의는 현실 환경에 연결된 모바일·유비쿼터스 컴퓨팅을 다뤄 보안상 고려와 인접성이 있다."}
+{"pair_id": "pair:b709ea9f64372037", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 에너지 저장용 유기재료·전해질·계면을 연구하고 강의는 배터리·연료전지·전기촉매의 전기화학을 가르친다."}
+{"pair_id": "pair:707c167f416d0fcc", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 유동제어와 열반응성 하이드로젤을 연구하고 강의는 유전자 분석·단백질 결정화 등 생명과학 실험을 다룬다."}
+{"pair_id": "pair:eba6dd01810fa9c8", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질을 나노미터 수준에서 구조 분석하고 강의는 나노재료의 구조·제조·특성화를 다뤄 크기·분석 측면의 제한된 접점이 있다."}
+{"pair_id": "pair:7188963fd34d268f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자로·열수력 문제에 PINN·AI-CFD를 적용하고 강의는 시계열 예측과 기계학습 기반 시계열 분석을 다룬다."}
+{"pair_id": "pair:8e45c42ab23ebb1a", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 소셜미디어의 집단과 사회 변화를 분석하고 강의는 지속가능한 미래를 위한 디자인 프로젝트를 수행해 사회 맥락의 접점이 있다."}
+{"pair_id": "pair:c865c067fd6bb048", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 극한 환경 로봇을 개발하고 강의는 인공지능 법·정책 및 윤리를 다룬다."}
+{"pair_id": "pair:b20435f9611aae27", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시스템온칩 설계와 전자 설계 자동화를 연구하고 강의는 딥러닝 기반 언어처리 방법을 다뤄 연산 하드웨어의 넓은 인접성이 있다."}
+{"pair_id": "pair:c448b7fe13df8a32", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온 배터리·차세대 음극재를 연구하고 강의는 에너지 전환·저장 소재와 전기화학의 기초를 다룬다."}
+{"pair_id": "pair:fbf679048353f0a4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다중 에이전트 합의제어와 로봇 제어를 연구하고 강의는 상태공간 표현, 안정성 및 제어기 설계를 다룬다."}
+{"pair_id": "pair:0781d3ad603a79a9", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 수중·극한환경 로봇을 연구하고 강의는 뇌 영상의 복셀·표면 기반 3차원 의료영상 분석을 다룬다."}
+{"pair_id": "pair:7ccd8c192d2f965f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노전자소자와 광검출기를 연구하고 강의는 철강·배터리 재료를 위한 TEM의 원리와 실습을 다룬다. 재료 분석 기법의 접점은 있지만 연구 소재는 다르다."}
+{"pair_id": "pair:6c64478c6319ff03", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 제조 데이터 엔지니어링과 분석을 연구하고 강의는 AI 윤리의 정책·사례를 다뤄 AI 활용 관점의 일반적 연관성이 있다."}
+{"pair_id": "pair:8f1b320f65364d8b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 오염 추적·환경 노출을 연구하고 강의는 반도체 박막의 표면반응·증착 공정을 다룬다."}
+{"pair_id": "pair:52992bbd4950f8b9", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 임베디드 시스템 구조와 음성 활동 감지를 연구하고 강의는 영어 문법을 학습한다."}
+{"pair_id": "pair:0d0e96b924145e49", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 최적화·신호처리 이론과 추론 방법을 연구하고 강의는 통계적 추론, 칼만 필터, 메시지 전달, 희소 최적화, 딥러닝을 다룬다."}
+{"pair_id": "pair:e290416ec7fc269b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질의 X선 결정 구조를 규명하고 강의는 재료 분석용 회절·현미경·분광 기기의 물리적 원리를 다룬다."}
+{"pair_id": "pair:576013cd29b1ebf7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬·차세대 배터리와 고분자 에너지 소재를 연구하고 강의는 배터리·연료전지·전기촉매를 포함한 화공 전기화학을 다룬다."}
+{"pair_id": "pair:60bf772d7a776674", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 제조·소재 파운데이션 모델을 연구하고 강의는 시장 데이터로 경제 모형과 마케팅 전략을 분석해 데이터 모델링의 일반적 접점이 있다."}
+{"pair_id": "pair:9147e845068a556e", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 에너지·환경 나노과학과 막·센서를 연구하며 강의는 AI 기술의 분야별 동향을 개관한다."}
+{"pair_id": "pair:88675b90c1c6cae8", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 취약점과 보안을 연구하고 강의는 모바일·유비쿼터스 컴퓨팅을 다뤄 보안과 연결될 수 있지만 강의의 중심은 일반 컴퓨팅 응용이다."}
+{"pair_id": "pair:81468a7dd5f8049d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 에너지 저장용 유기재료·전해질·계면을 연구하고 강의는 배터리·연료전지·전기촉매의 전기화학을 가르친다."}
+{"pair_id": "pair:e6fd6a844cde9cd0", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 유체·유동 제어를 연구하고 강의는 유전자 분석·단백질 결정화 등 생명과학 실험을 수행한다."}
+{"pair_id": "pair:82e1c6975ea04f23", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질을 분자 구조 수준에서 연구하고 강의는 나노소재의 제조·특성·응용을 다루므로 나노 규모 연구의 인접성은 있으나 주제가 다르다."}
+{"pair_id": "pair:e92b2190be2103fb", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자로 문제에 PINN·AI-CFD를 적용하고 강의는 기계학습을 포함한 시계열 분석을 다룬다."}
+{"pair_id": "pair:15fc01c002412765", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 온라인 커뮤니티와 사회 변화를 분석하고 강의는 지속가능한 사회를 위한 디자인 프로젝트를 수행해 사회적 맥락의 접점이 있다."}
+{"pair_id": "pair:d0a9e96f5d7b1323", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 극한환경용 로봇을 개발하고 강의는 AI 윤리·법·정책과 리더십을 다룬다."}
+{"pair_id": "pair:f86684ca6098ace0", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 공장 제어의 AI 에이전트와 디지털 트윈을 연구하고 강의는 반도체 공정·집적 기술을 다뤄 제조 운영의 넓은 접점이 있다."}
+{"pair_id": "pair:8425bae92a9b0991", "relevance": 0, "insufficient_evidence": false, "reason": "저차원 양자재료 에피성장 연구와 논리·비판적 사고 강의의 내용상 접점은 제시되지 않는다."}
+{"pair_id": "pair:e7b11f5bf71eaa5f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 단백질을 설계해 나노구조를 만들고 강의는 소재 구조를 설계·합성·분석하는 실습을 진행한다."}
+{"pair_id": "pair:029db40aa96bebb5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 시각 입력을 이용한 로봇 상호작용과 3D 손 자세 추정을 연구하고 강의는 컴퓨터 비전·영상처리·그래픽 알고리즘을 다룬다."}
+{"pair_id": "pair:aa5774fbf15ed8e1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리·철강 에너지 소재를 연구하고 강의는 소재의 설계·합성·구조 분석을 실습한다."}
+{"pair_id": "pair:6b78eca4e5356486", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노계의 전자 궤도·스핀 수송을 연구하고 강의는 컴퓨터 비전과 사진 영상 알고리즘을 다룬다."}
+{"pair_id": "pair:aec12b17624c914f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 암 관련 수용체·단백질 구조와 신호를 연구하고 강의는 세포 단백질을 살아있는 세포·개체에서 관찰하는 분자영상 기법을 다룬다."}
+{"pair_id": "pair:8870b5475b7389a8", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 대기오염·기후 영향과 환경 데이터 분석을 연구하고 강의는 메모리 반도체 셀·어레이와 소자 통계 특성을 다룬다."}
+{"pair_id": "pair:e833b44c7f113410", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 세포 안의 합성 회로와 분자 시스템을 연구하고 강의는 바이오프린팅·미세유체·생체재료 가공을 다뤄 생명공학 분야의 인접성이 있다."}
+{"pair_id": "pair:e89b02ba4897940f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 머신러닝·에너지·전자 나노소재를 연구하고 강의는 R을 이용한 데이터과학·기계학습 프로그래밍을 실습한다."}
+{"pair_id": "pair:4bd8c056285b8fbc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 DFT와 능동학습으로 다금속 촉매를 설계하고 강의는 세라믹 합성·고체전해질·전자소자·TEM 특성분석을 실습한다."}
+{"pair_id": "pair:108da64d16e0ec9f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 확산 기반 3D 동작 예측을 연구하고 강의는 로봇 조작의 기구학·최적화와 강인 제어를 심화 학습한다."}
+{"pair_id": "pair:bb26570df21a75f7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다중에이전트 합의·샘플링 제어와 로봇 강인제어를 연구하고 강의는 상태공간·안정성·제어기 설계를 다룬다."}
+{"pair_id": "pair:da5c18fee93eef54", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 X선으로 액체·분자 동역학을 연구하고 강의는 금속의 결정구조·결함과 물성 관계를 다뤄 구조 분석의 인접성이 있다."}
+{"pair_id": "pair:f6f4c9d69a513096", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리 소재를 연구하고 강의는 리튬이온전지 재료와 관련 화학 공정을 다룬다."}
+{"pair_id": "pair:775b257ccfc270c9", "relevance": 1, "insufficient_evidence": false, "reason": "연구단은 나노재료·에너지 촉매·광촉매를 연구하고 강의는 박사·박사후 연구자의 화학 연구 발표와 논문 토론을 진행한다."}
+{"pair_id": "pair:cf7818985ff643ae", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 초음파·광음향 영상을 연구하고 강의는 영상 장치와 계산 알고리즘을 함께 설계해 영상 재구성·획득을 다룬다."}
+{"pair_id": "pair:278e0b194312113f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 광전자 재료를 개발하고 강의는 광학·영상 하드웨어와 계산 알고리즘을 함께 설계하므로 광학 장치의 접점이 있다."}
+{"pair_id": "pair:b1be5c96a48d1466", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 나노소재의 에너지·전자·구조 분야에서 기계학습과 데이터 기반 연구를 수행하고 강의는 AI·데이터과학 분야를 개관한다."}
+{"pair_id": "pair:d5a361655d8c1124", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 살아있는 세포 내 분자 시스템을 설계하고 강의는 디지털 통신 신호·채널·변조를 다룬다."}
+{"pair_id": "pair:f984b23d01f0a822", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 수분-전기 에너지 변환과 지속가능 소재를 연구하고 강의는 소재 상평형·상변화·확산·열역학을 다룬다."}
+{"pair_id": "pair:d0c58cf87a357ae3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 암 관련 단백질 수용체와 신호전달 구조를 연구하고 강의는 철강·배터리 재료의 투과전자현미경 분석을 실습한다."}
+{"pair_id": "pair:6f8ac9e31b3cca01", "relevance": 0, "insufficient_evidence": false, "reason": "저차원 양자재료·에피성장 연구와 합성생물학 강의 간 직접적인 주제 연관은 제시되지 않는다."}
+{"pair_id": "pair:c24f7f8053055f99", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 블록체인·IoT 시스템을 연구하고 강의는 AI 윤리·정책·리더십을 다뤄 기술의 사회적 책임 측면에서 인접성이 있다."}
+{"pair_id": "pair:67a5fcaba232e38d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 IoT·블록체인과 시스템 소프트웨어를 연구하고 강의는 소프트웨어·시스템·네트워크 보안과 암호화를 다룬다."}
+{"pair_id": "pair:9b118bad5f084ed6", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 살아있는 세포의 합성생물학을 연구하고 강의는 신체의 사회적 의미와 생명정치 등 기술·생명 관련 사회 이슈를 다룬다."}
+{"pair_id": "pair:8aa556980d9d4226", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다중에이전트·로봇 제어 이론을 연구하고 강의는 디지털 제어 시스템의 모델·해석·합성을 다룬다."}
+{"pair_id": "pair:e88d88cbf1b82981", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 열반응성 하이드로젤·태양증기 생성 등 유체·유동 연구를 하고 강의는 세포 내 단백질의 분자영상 기법을 다룬다."}
+{"pair_id": "pair:c5665b55b61e79b8", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 산업 데이터 엔지니어링·분석과 AI 적용을 연구하고 강의는 반도체 연구를 위한 신호·추정·딥러닝·데이터 분석 기초를 다룬다."}
+{"pair_id": "pair:ab0f05c499d5ba6b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전자설계 자동화와 SoC 설계를 연구하고 강의는 AI·데이터과학의 주요 분야를 개관해 시스템·AI 주제의 인접성이 있다."}
+{"pair_id": "pair:b2c1ba9bdf8d2aca", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 암 관련 수용체와 막단백질 구조·신호를 연구하고 강의는 세포 내 단백질의 기능과 광학 분자영상 기법을 다룬다."}
+{"pair_id": "pair:7c9a22de6e301f6e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 planar graph·기하 알고리즘과 Voronoi 구조를 연구하고 강의는 계산기하와 이산기하 문제를 다룬다."}
+{"pair_id": "pair:1851b3911ec34b67", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 반도체 소자·공정과 NAND 메모리 특성을 연구하고 강의는 VLSI 물리설계·배치배선·전력 최적화 및 설계자동화를 다룬다."}
+{"pair_id": "pair:512e1da09e796f37", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계학습·유전체학·생물정보학을 연구하고 강의는 환경 빅데이터의 모델링·분석과 AI를 학습한다."}
+{"pair_id": "pair:cd837b85883c5fde", "relevance": 1, "insufficient_evidence": false, "reason": "교수의 연구는 정치행동·환경정치와 에너지 소비 행동을 다루고 강의는 AI 윤리와 리더십을 다뤄 사회적 책임·정책의 접점이 있다."}
+{"pair_id": "pair:1186145ea2f72e5f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 물류·공급망에서 차량경로·일정·시설입지·시뮬레이션 알고리즘을 연구하고 강의는 화공 분야의 데이터·수치 분석과 AI 프로그래밍을 실습한다."}
+{"pair_id": "pair:71e45fa0515682ff", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 반도체 이종집적 소재와 공정을 연구하고 강의는 환경·에너지 전기화학과 전기촉매를 다룬다."}
+{"pair_id": "pair:a8214d7ea4250b92", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노복합재료와 생체모사 촉각 수용체를 연구하고 강의는 배터리의 DFT·전기화학 소재 계산을 다뤄 재료과학의 제한적 연관성이 있다."}
+{"pair_id": "pair:996f9a6b69592e45", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기계학습 이론·방법을 연구하고 강의는 딥러닝 모델의 학습·추론 최적화와 모바일 가속을 다룬다."}
+{"pair_id": "pair:4d0b3ae20a9ce44c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 고분자 자기조립·구조를 연구하고 강의는 배터리 소재의 DFT 계산을 다뤄 고분자 배터리 재료의 가능성은 있지만 직접 연결 증거는 부족하다."}
+{"pair_id": "pair:bb8d2a5e868a4578", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 정보이론·코딩이론과 동형암호를 연구하고 강의는 상호작용 입자의 다체론·그린함수를 다룬다."}
+{"pair_id": "pair:b7a526bb60c48c4c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 자연어 의도 기반 AI 데이터베이스와 자율 에이전트를 연구하고 강의는 심층학습 기반 NLP 모델과 응용을 다룬다."}
+{"pair_id": "pair:ed2e164f897675de", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료의 미시적 성질을 현미경으로 연구하고 강의는 재료 특성분석용 회절·현미경·분광 장비의 원리를 다룬다."}
+{"pair_id": "pair:bceee93e9a3da29b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 신경 활동과 작업기억을 연구하고 강의는 시간에 따라 변하는 데이터의 시계열 분석을 다뤄 방법의 인접성이 있다."}
+{"pair_id": "pair:c91c39cc890c3677", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 양자 저차원 재료의 성장·물성을 연구하고 강의는 DRAM·NAND·로직·전력 반도체 공정과 소자 제조를 다룬다."}
+{"pair_id": "pair:42c09e562127bb8a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 생물학적 환경과 통합된 센서와 웨어러블 손동작 인식을 개발하고 강의는 사용자 요구·행동을 반영해 인터랙티브 시스템을 설계한다."}
+{"pair_id": "pair:ddfe3f7919cc59fc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 광·전기화학 유기합성과 전기촉매를 연구하고 강의는 전기화학·전기촉매의 이론과 실무 응용을 다룬다."}
+{"pair_id": "pair:3f7c4bc786c8e914", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 광촉매·수소 생산과 에너지·전자 소재의 표면화학을 연구하고 강의는 화학 평형·열역학·반응속도의 물리화학 기초를 다룬다."}
+{"pair_id": "pair:3dc7b3c9a2f603c5", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 음성 인식과 임베디드 시스템을 연구하고 강의는 레이저광의 전파·간섭·회절과 광학을 다룬다."}
+{"pair_id": "pair:996f98f1adfc77bc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 프로젝트 관리에 데이터 기반 AI 자동화 플랫폼을 개발하고 강의는 R을 이용해 통계·데이터마이닝·기계학습을 실습한다."}
+{"pair_id": "pair:d3ae6f3bbc881dbe", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 CNS 면역·뇌신경장벽을 연구하고 강의는 소재의 디자인·합성·물성 분석을 실습한다."}
+{"pair_id": "pair:2d29312f1d31b099", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질을 정제해 X선으로 구조를 규명하고 강의는 금속·배터리 소재의 투과전자현미경을 다룬다."}
+{"pair_id": "pair:a297ec58ce1398d8", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 학습 효율·비용의 이론과 AI 방법을 연구하고 강의는 딥러닝 학습·추론의 최적화와 모바일 배포를 다룬다."}
+{"pair_id": "pair:831f063fb8443cf4", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 상변화·열전달과 에너지 시스템을 연구하고 강의는 평형·비평형 통계역학의 기초와 응용을 다룬다."}
+{"pair_id": "pair:cb58f4b13804e16e", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 방법을 연구하고 강의는 원자로 핵심의 중성자 거동·연쇄반응과 원자로 물리를 다룬다."}
+{"pair_id": "pair:555c72408dae357e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 사회 데이터의 복잡계 분석과 통계적 모델링을 연구하고 강의는 경영 맥락에서 데이터를 수집·분석·해석하는 통계를 다룬다."}
+{"pair_id": "pair:ceb7297656853992", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 시스템의 최적화·컴퓨팅을 연구하고 강의는 분자의 슈뢰딩거 방정식과 양자화학 절차를 다룬다."}
+{"pair_id": "pair:840e2146f401e55f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 자연어 기반 AI 데이터베이스와 자율 에이전트를 구축하고 강의는 NLP의 심층학습 모델과 응용을 다룬다."}
+{"pair_id": "pair:74e4002b468b1cd5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료의 미시적 성질을 현미경으로 연구하고 강의는 재료 분석용 회절·현미경·분광 장비의 원리를 다룬다."}
+{"pair_id": "pair:0f88ff8e66cbc389", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질의 구조생물학을 연구하고 강의는 철강·배터리 소재의 투과전자현미경 분석을 다룬다."}
+{"pair_id": "pair:21038ec9541648ce", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 보험·위험·금융수학을 연구하고 강의는 나노물질의 합성·응용·특성분석을 다룬다."}
+{"pair_id": "pair:f5327b46e3bfd5ff", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 상변화 메모리용 소재와 고분자 전도 소재를 연구하고 강의는 미래 에너지·이차전지·수소 기술 동향을 다뤄 소재·에너지 분야가 인접한다."}
+{"pair_id": "pair:1d769ed7e22536c3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자로·열수력 문제에서 PINN, AI-CFD, 강화학습 제어를 연구하고 강의는 철강 공정의 계측·제어·AI와 시계열 모델링을 다룬다."}
+{"pair_id": "pair:65e2540f9941ad97", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자광학과 양자정보를 연구하고 강의는 양자정보 과학과 양자 정보처리를 다룬다."}
+{"pair_id": "pair:7950154ff4dd0842", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 전자설계 자동화와 SoC 설계를 연구하고 강의는 자연어처리 기초와 언어모델을 다룬다."}
+{"pair_id": "pair:0af43c87778d0d65", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 리튬전지용 고체전해질·에너지 소재를 연구하고 촉매 강의는 에너지·전기화학 촉매 응용을 포함하지만 직접적인 촉매 연구 증거는 제한적이다."}
+{"pair_id": "pair:5d659260099bff61", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 보험·금융 위험과 보험 데이터 분석을 연구하고 강의는 신소재 설계·합성·분석을 실습한다."}
+{"pair_id": "pair:794460a5c25151fb", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 효율적 LLM 서비스·추론과 대규모 AI 시스템 플랫폼을 연구하고 강의는 ML·LLM 작업을 위한 시스템 지원과 학습·추론 프레임워크를 다룬다."}
+{"pair_id": "pair:1f99903382e68048", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료·소자의 미시적 구조와 특성을 연구하고 강의는 소재의 설계·합성·회절·특성 분석을 실습한다."}
+{"pair_id": "pair:88f2446080deafee", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노소재의 기계학습 기반 연구와 에너지·전자 응용을 수행하고 강의는 AI 분야의 기술·응용 동향을 개관한다."}
+{"pair_id": "pair:228eb920566bfacc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리 재료를 연구하고 강의는 환경·에너지 응용의 전기화학 반응과 촉매를 다룬다."}
+{"pair_id": "pair:7ac486c7dec9f773", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 음성 활동 감지와 임베디드 시스템을 연구하고 강의는 심층학습 기반 자연어처리 모델을 다룬다."}
+{"pair_id": "pair:ac73ebf3a5d3fa13", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리 소재와 기능성 산화물·전자현미경을 연구하고 강의는 배터리 소재 관찰을 위한 투과전자현미경의 원리와 실습을 제공한다."}
+{"pair_id": "pair:4bc270f1cb4ebfac", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 에너지·환경 나노소재와 막을 연구하고 강의는 금속의 결정구조·결함·열역학을 다뤄 재료 분야의 제한적 인접성이 있다."}
+{"pair_id": "pair:d4e29452e09bc0d3", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전극 재료·전도성 소재와 하이드로젤을 연구하고 강의는 에너지·환경 공학의 재생에너지와 저장기술을 개관한다."}
+{"pair_id": "pair:eac30d40edccc621", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 효율적 기계학습 방법을 연구하고 강의는 딥러닝의 학습·추론 최적화와 모바일 배포를 다룬다."}
+{"pair_id": "pair:bac8b1124a2787d1", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 연구를 수행하고 강의는 원자로의 중성자 거동과 핵분열 반응 물리를 다룬다."}
+{"pair_id": "pair:ba51015a01362eb1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대형 언어 모델 서비스와 시스템 플랫폼을 연구하고 강의는 LLM의 이론·특성·개발 추세를 다룬다."}
+{"pair_id": "pair:19d59f276bee694e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 재료·구조의 역학 모델링과 설계를 연구하고 강의는 박막의 제조·성장·표면 특성과 공정을 다룬다."}
+{"pair_id": "pair:2e1d427278acd2b0", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온·차세대 배터리 시스템과 분리막을 연구하고 강의는 이차전지 재료의 화학 공정과 개발을 다룬다."}
+{"pair_id": "pair:ddf144f16f5b17c2", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 양자 나노광학을 연구하고 강의는 화학을 위한 선형대수·확률·미분방정식 기초를 다뤄 이론적 수학 기반의 연관성이 있다."}
+{"pair_id": "pair:19190d2fee53dce5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 계산전자기학과 GPU 병렬화를 연구하고 강의는 CUDA와 GPU 병렬 컴퓨팅의 구조·구현을 다룬다."}
+{"pair_id": "pair:3d672cbc51de628b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 유기합성과 이종고리 화합물 합성을 연구하고 강의는 항체공학·치료용 항체의 제작과 플랫폼 기술을 다룬다."}
+{"pair_id": "pair:06f3782dbd00e5ff", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 자연어 기반 AI 데이터베이스와 언어 에이전트를 연구하고 강의는 심층학습 기반 NLP의 모델과 응용을 다룬다."}
+{"pair_id": "pair:40b40579ffd62837", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 GPU 기반 컴퓨팅과 계산전자기학의 대규모 병렬화를 연구하고 강의는 CUDA·GPU 아키텍처와 병렬 소프트웨어 구현을 다룬다."}
+{"pair_id": "pair:d9d1f83901c7afb7", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 유기합성과 분자 합성을 연구하고 강의는 단클론 항체와 항체 기반 치료·플랫폼 기술을 다룬다."}
+{"pair_id": "pair:b2ba58fdc944302b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 자연어 의도를 이해하는 AI 데이터베이스와 에이전트를 연구하고 강의는 심층학습 자연어처리 모델·응용을 다룬다."}
+{"pair_id": "pair:3d82b3c9c341ad33", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 열전 재료·무기 소재를 연구하고 강의는 리튬이온전지 재료와 배터리 기술을 다뤄 에너지 소재 분야의 접점이 있으나, 연구의 직접 배터리 관련성은 제한적이다."}
+{"pair_id": "pair:ee640fcae22f21d6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 장내 미생물과 숙주 면역 반응·질환을 연구하고 강의는 점막 면역학의 최근 연구를 학습한다."}
+{"pair_id": "pair:efcdbff038b46660", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 레이더 영상·표적 인식을 연구하고 강의는 컴퓨터 비전·영상처리 기반 사진 알고리즘을 다뤄 영상 분석 방법의 인접성이 있다."}
+{"pair_id": "pair:6408a02d44b413e5", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 양자·집적 나노광학을 연구하고 강의는 지능형 로봇 학습 알고리즘을 다룬다."}
+{"pair_id": "pair:aa4165aa1c2c68f1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 회로 설계와 CMOS 트랜시버를 개발하고 강의는 MOSFET 등 반도체 소자의 동작 원리와 공정을 다룬다."}
+{"pair_id": "pair:53888193a63cef17", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 건축의 디지털 설계·제작을 연구하고 강의는 뇌·의료영상의 3차원 처리 기법을 다룬다."}
+{"pair_id": "pair:c0c6c4958f4078dd", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 플랜트 프로젝트 관리와 데이터 기반 AI 도구를 연구하고 강의는 ML·LLM을 위한 시스템 지원과 프레임워크를 다룬다."}
+{"pair_id": "pair:f7cee0878b627c3c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생체모사 촉각 수용체·나노복합재료를 연구하고 강의는 재료의 전자구조 계산법을 다뤄 소재과학 측면에서 인접하나 계산 방법의 직접성은 불분명하다."}
+{"pair_id": "pair:dc5677b59d790b58", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 의료영상 분석과 뇌 영상의 그래프 모델링을 연구하고 강의는 통계적 학습·신경망·분류 등 머신러닝 방법을 다룬다."}
+{"pair_id": "pair:8908d1def5e64aaf", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노소자·열전 모듈을 연구하고 강의는 배터리 연구 결과를 글쓰기·발표·토론하는 과목이다."}
+{"pair_id": "pair:42da01eab1c5fa85", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 볼록 최적화·안정성 분석의 신호처리와 제어를 연구하고 강의는 이산시간 신호와 디지털 필터·신호처리를 다룬다."}
+{"pair_id": "pair:8cb9acf5c0a4f474", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계학습·유전체학·생물정보학을 연구하고 강의는 화학공학의 수치·데이터 분석과 AI 프로그래밍을 실습한다."}
+{"pair_id": "pair:c4ddaaf6292f1749", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자 저차원 재료의 설계·성장과 물성을 연구하고 강의는 MOS·MOSFET 반도체 소자 물리와 제조 공정을 다룬다."}
+{"pair_id": "pair:7f77739c705aa6cf", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 정보이론·코딩이론과 동형암호를 연구하고 강의는 딥러닝 계산의 구현·가속을 다뤄 정보 처리 측면에서 인접성이 있다."}
+{"pair_id": "pair:b02c154b2e3a9ae8", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리용 에너지 소재를 연구하고 강의는 배터리 시스템과 리튬이온전지 재료를 다룬다."}
+{"pair_id": "pair:efa7b24ed5a1a2f6", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 음성 인식과 임베디드 시스템을 연구하고 강의는 사진·광학 영상의 획득 및 재구성 알고리즘을 다룬다."}
+{"pair_id": "pair:757d60bbf586443a", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 형식 검증과 안전성 분석을 연구하고 강의는 배터리 연구를 위한 과학 글쓰기·발표·토론을 다룬다."}
+{"pair_id": "pair:2fc3bef3e49fed74", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다중에이전트·로봇 제어와 강인 안정성을 연구하고 강의는 주파수 영역의 제어이론 수학적 기초를 다룬다."}
+{"pair_id": "pair:e15e83ed2927d565", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 전력망·건물의 수요 반응과 에너지 시스템을 연구하고 강의는 재료 미세구조·기계시험·나노제작 실험을 수행한다."}
+{"pair_id": "pair:32f99934c8c8741f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 프로세스 마이닝·추천·응용 AI와 예측분석을 연구하고 강의는 지도·비지도 학습과 신경망 등 머신러닝을 다룬다."}
+{"pair_id": "pair:165d515dd94bcc23", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 정보이론·코딩이론과 동형암호를 연구하고 강의는 화학의 양자역학·분자 에너지 준위를 계산한다."}
+{"pair_id": "pair:587a669e03ef9bed", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온 배터리의 음극재·차세대 에너지 저장을 연구하고 강의는 에너지 연구의 전기화학과 전극 과정을 다룬다."}
+{"pair_id": "pair:9087c5e9e64d5686", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 비휘발성 상변화 메모리 소재를 연구하고 강의는 CMOS 인버터 제작과 반도체 집적공정을 다뤄 반도체 소재·소자 측면에서 인접성이 있다."}
+{"pair_id": "pair:07d992c8ddb21c5e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 X선으로 액체와 화학 반응의 동역학을 연구하고 강의는 나노에서 거시 규모까지 파동·입자에 의한 에너지와 열 전달을 다룬다."}
+{"pair_id": "pair:c27d146bbb27882f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 단일분자·DNA 수선 및 세포 동역학을 연구하고 강의는 생명 시료를 위한 광학 현미경과 여러 영상 기술을 다룬다."}
+{"pair_id": "pair:881d5b561d31f291", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 강상관 양자재료의 고체 구조를 분광학적으로 연구하고 강의는 고분자 구조·물성·분광 관련 기본 지식을 다룬다."}
+{"pair_id": "pair:09a3ac960e6e1152", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 신호처리·제어를 연구하고 강의는 3차원 의료영상 처리·분석을 다뤄 계산 기법은 인접할 수 있지만 영상 연구 증거는 없다."}
+{"pair_id": "pair:8a5a139c46376d37", "relevance": 0, "insufficient_evidence": false, "reason": "위상수학 연구실과 컴퓨터 비전 개론 사이에 연구 주제나 방법의 구체적 연결은 제시되지 않는다."}
+{"pair_id": "pair:966004392fa50c26", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 반도체 이종집적 공정과 소재를 연구하고 강의는 에너지 응용의 전기화학을 다룬다."}
+{"pair_id": "pair:0f05660dbc1dec3d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 웨어러블 음성처리·진동 센서를 개발하고 강의는 바이오센서·신경 인터페이스 등 생물 환경에 통합되는 실리콘 전자시스템을 다룬다."}
+{"pair_id": "pair:dac827400b62d61e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 제조·소재 데이터를 위한 확률 시스템과 파운데이션 모델을 연구하고 강의는 AI를 통한 NP-hard 이산 최적화와 의사결정을 다룬다."}
+{"pair_id": "pair:01833992628e91fc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 확산 기반 생성 AI와 LLM 계열 시스템을 연구하고 강의는 ML·LLM 작업을 지원하는 학습·추론 시스템을 다룬다."}
+{"pair_id": "pair:1c6a43f836eff1c2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 열전달·상변화와 열에너지 시스템을 연구하고 강의는 재료의 열역학 평형·상변화·확산을 다룬다."}
+{"pair_id": "pair:916d7eb05acf09cc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 광·전기화학 유기합성과 전기촉매를 연구하고 강의는 환경·에너지 전기화학의 반응과 촉매를 다룬다."}
+{"pair_id": "pair:f378ae6879017b9e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 SoC 설계와 전자 설계 자동화를 연구하고 강의는 LLM의 이론·특성과 발전 추세를 다뤄 연산 하드웨어의 인접성이 있다."}
+{"pair_id": "pair:dd0695668a026998", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 고효율 ML 알고리즘의 실제 구현과 컴퓨팅을 연구하고 강의는 Python 도구와 AI 지원으로 데이터과학 프로그래밍을 다룬다."}
+{"pair_id": "pair:cb8110792fbbc515", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리용 철강·에너지 소재를 연구하고 강의는 리튬이온전지 재료 및 시스템을 다룬다."}
+{"pair_id": "pair:f5c2fdc1c24a4c28", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 음성 인식과 임베디드 시스템을 연구하고 강의는 영상 하드웨어·광학과 계산 알고리즘을 결합해 영상 재구성을 다뤄 신호처리의 인접성이 있다."}
+{"pair_id": "pair:061d13408f51a3f4", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 형식검증·안전성을 연구하고 강의는 배터리 분야의 연구 질문·논증·과학적 글쓰기를 다룬다."}
+{"pair_id": "pair:7baf1616a126b3ce", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 검증과 취약점 예방을 연구하고 강의는 바이너리 분석·익스플로잇·소프트웨어 보안 대응을 실습한다."}
+{"pair_id": "pair:c688c74909e2edf7", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 RRAM·뉴로모픽 메모리 소자를 연구하고 강의는 RF·아날로그 회로의 트랜지스터 특성과 설계를 다뤄 소자 기초는 인접하지만 연구 주제는 다르다."}
+{"pair_id": "pair:fc6a2cd2914d52a2", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 응축상에서의 분자 광물리·엑시톤 과정을 연구하고 강의는 배터리 소재의 DFT와 충방전 열역학 계산을 다룬다."}
+{"pair_id": "pair:4bab4c5f5907777d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 플래시 메모리 내 연산과 컴퓨터 아키텍처를 연구하고 강의는 메모리·스토리지 시스템 설계와 데이터 집약적 응용을 다룬다."}
+{"pair_id": "pair:561e9f5c80c97cc2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기계학습 연구를 수행하고 강의는 딥러닝의 원리·수학적 기반과 최신 방법론을 체계적으로 다룬다."}
+{"pair_id": "pair:0f5bd854faf4966b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저항성 메모리·뉴로모픽 소자와 메모리 연산을 연구하고 강의는 AI 계산에 최적화된 지능형 반도체 하드웨어를 다룬다."}
+{"pair_id": "pair:e56deeb36558c0a3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 로봇 제어를 연구하고 강의는 AI 윤리·정책과 과학기술 조직의 리더십을 다룬다."}
+{"pair_id": "pair:838a2f72a5274a95", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 그래핀·초전도체 양자소자와 전자 수송을 연구하고 강의는 반도체 밴드·캐리어 수송·전류 등 물리전자 현상을 다룬다."}
+{"pair_id": "pair:d8d0932943d3f81b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노복합재료와 생체모사 센서를 연구하고 강의는 고분자 물성·합성·가공 및 고분자 응용을 다룬다. 강의는 고분자를 포함하지만 연구실의 핵심 주제는 하이브리드 복합재료·촉각센서다."}
+{"pair_id": "pair:de225e0392398405", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자 나노광학·집적 광소자를 연구하고 강의는 반도체 결정·밴드구조·캐리어 수송과 반도체 물성을 다룬다."}
+{"pair_id": "pair:762bfe690a9a944a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노전자소자·광검출기를 연구하고 강의는 배터리 소재의 싱크로트론 X선 분석법을 다뤄 재료 분석 기법의 제한적 인접성이 있다."}
+{"pair_id": "pair:70932e996457c88e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 지속가능 재료와 수분-전기 에너지 변환을 연구하고 강의는 평형·비평형 통계역학을 다뤄 열역학적 기초의 관련성이 있다."}
+{"pair_id": "pair:e609b21f1f34f468", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질의 구조와 기능을 연구하고 강의는 소재를 직접 디자인·합성·분석하는 실습을 다룬다."}
+{"pair_id": "pair:666858584e41f097", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 암 관련 수용체 단백질의 복합체 구조와 신호를 연구하고 강의는 재료·생명 시료의 광학 현미경·영상 원리를 다룬다."}
+{"pair_id": "pair:c79367857a56d2c2", "relevance": 0, "insufficient_evidence": false, "reason": "교수의 연구는 농업·경제 데이터와 시장 영향을 분석하고 강의는 데이터베이스 관리시스템의 구현·작동을 다룬다."}
+{"pair_id": "pair:c203d15dc00a5ec3", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 식물 유전체 재조합·교차와 유전체 디자인을 연구하고 강의는 인공지능과 데이터과학의 여러 분야를 개관한다."}
+{"pair_id": "pair:c01755291ac3aaf2", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 반도체 이종집적 공정·소재를 연구하고 강의는 전기화학 반응과 환경·에너지 시스템을 다룬다."}
+{"pair_id": "pair:53aa77b011c220ed", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 블록체인·IoT 시스템을 연구하고 강의는 AI 기술의 동향과 사회적 영향을 개관해 사이버·사회적 시스템의 인접성은 있다."}
+{"pair_id": "pair:590778f68a8c1b18", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 응축상의 분자 광물리와 전자-핵 결합을 연구하고 강의는 반도체 재료의 전자구조·전하수송을 다뤄 양자 전자 현상의 기반이 일부 맞닿는다."}
+{"pair_id": "pair:52ef049e23b1203d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 웨어러블 음성 센서와 반도체 소자를 연구하고 강의는 고분자 물성·합성 및 유연 전자·바이오전자 응용의 기초를 다룬다."}
+{"pair_id": "pair:51f900741afaf75b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 신경과학과 뇌의 작업기억을 연구하고 강의는 철강 공정의 계측·제어와 산업 AI를 다룬다."}
+{"pair_id": "pair:6db49775a8eb15c1", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 하이드로젤과 유동·상변화 열전달을 연구하고 강의는 에너지 소재의 분석·특성화 기법을 다뤄 소재 분석의 인접성이 있으나 연구의 중심은 유동 현상이다."}
+{"pair_id": "pair:34d4820d0c1c7f31", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 통계학습·유전체학·생물정보학을 연구하고 강의는 관계형 데이터베이스 관리시스템의 구현을 다룬다."}
+{"pair_id": "pair:d452577e40696ef3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 자연어 기반 AI 데이터베이스와 에이전트를 연구하고 강의는 NLP의 기초·응용과 프로젝트를 다룬다."}
+{"pair_id": "pair:ed489ac3ee12d729", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 금속의 계산재료과학·원자 시뮬레이션을 연구하고 강의는 화학 분야의 선형대수·확률·미분방정식 등 기초 수학을 다뤄 방법 기초가 인접한다."}
+{"pair_id": "pair:a5e4b8e57a0281e7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 DFT와 능동학습으로 수소발생 다금속 촉매를 설계하고 강의는 신소재를 직접 디자인·합성·분석한다."}
+{"pair_id": "pair:07deeac7a41acf04", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 통신·기계학습과 소스-채널 부호화를 연구하고 강의는 분자 양자화학의 계산 절차를 다룬다."}
+{"pair_id": "pair:9bfb5d2907fa1d30", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 단백질·DNA 상호작용과 구조생물학을 연구하고 강의는 생리·세포·유전·면역 등 의생명과학의 주요 주제를 다룬다."}
+{"pair_id": "pair:257e07301678c318", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자 단위 박막·산화물 소재와 이온트로닉스 소자를 연구하고 강의는 에너지 소재의 부식·표면 열화·전기화학 반응을 다룬다."}
+{"pair_id": "pair:10082952432b3f8b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 계산전자기학과 전자기파 시뮬레이션을 연구하고 강의는 전자기장의 전파·산란과 정량적 해석을 심화 학습한다."}
+{"pair_id": "pair:659dc19270092000", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI와 확산 모델을 연구하고 강의는 데이터과학·AI의 여러 연구 분야와 동향을 다룬다."}
+{"pair_id": "pair:bd3d93120c32b2ca", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 나노전자소자와 광검출기를 연구하고 강의는 배터리·금속 소재의 결정·현미경·표면 분석 기법을 다룬다."}
+{"pair_id": "pair:489e748b05cea88c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 원자 시뮬레이션과 금속 합금의 계산재료과학을 연구하고 강의는 고분자 물성·합성·가공의 기초를 제공한다."}
+{"pair_id": "pair:14ab9e1409ec4c62", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 고엔트로피 합금·금속 가공·적층제조를 연구하고 강의는 금속의 물리야금·구조-물성 관계와 합금 설계를 다룬다."}
+{"pair_id": "pair:bac004bc06c08ee9", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노광학·나노의학과 양자점 탐침을 연구하고 강의는 고분자·유기·무기 나노소재의 물성과 응용을 다룬다."}
+{"pair_id": "pair:d1695f094384928a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 상변화 메모리 소재를 연구하고 강의는 열역학과 에너지·열 전환의 기본 원리를 다룬다."}
+{"pair_id": "pair:109d2bc5d6a81c14", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 막수송 단백질의 구조와 기능을 연구하고 강의는 유전자·단백질 결정화·구조 기반 신약개발 등을 직접 실습한다."}
+{"pair_id": "pair:26bff58b453c62a1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 광촉매와 에너지·표면 촉매 반응을 연구하고 강의는 화학 반응기의 크기와 혼합·반응 설계를 다룬다."}
+{"pair_id": "pair:1905619a79dcee3e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 응축물질의 고체 구조·질서를 분광학으로 연구하고 강의는 나노물질의 합성·구조·특성 분석을 다룬다."}
+{"pair_id": "pair:a66baa5a7108792b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 응축상에서 분자 광물리 과정과 여기자 거동을 연구하고 강의는 LED·OLED 등 광전자 소자의 물리적 작동 원리를 다룬다."}
+{"pair_id": "pair:8c9ef4676ca7b254", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 혐기성 미생물 군집 등 환경 생물공정을 연구하고 강의는 수중 오염물질의 특성과 수중화학·오염 제어를 다룬다."}
+{"pair_id": "pair:c308baad887caf8a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 플라즈마·입자빔과 가속기 물리 시뮬레이션을 연구하고 강의는 재료공학 방정식의 수치해석과 컴퓨터 시뮬레이션을 다룬다."}
+{"pair_id": "pair:916d911993c85064", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리 소재와 기능성 산화물·전자현미경을 연구하고 강의는 금속·배터리 재료의 X선·현미경·표면 분석 기법을 실습한다."}
+{"pair_id": "pair:7248f65f16270f6f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전기촉매의 기본 원리와 분석을 연구하고 강의는 재생에너지·환경 기술, 에너지 생산·저장과 고효율 소자를 다룬다."}
+{"pair_id": "pair:21e9ed0760d74ab9", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 오디오·햅틱 XR 경험을 합성하고 강의는 영상 획득·재구성의 계산 알고리즘을 다뤄 미디어 계산 분야에서 인접성이 있다."}
+{"pair_id": "pair:e6fb86ed5b718422", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 알고리즘 구현과 컴퓨팅 시스템을 연구하고 강의는 분자 양자화학의 양자역학 기초를 다룬다."}
+{"pair_id": "pair:54ac272225da7d80", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대기오염을 위한 환경 데이터과학·AI를 연구하고 강의는 신호·추정·확률·딥러닝 기초를 반도체 연구 응용으로 다룬다."}
+{"pair_id": "pair:1d8f57337a8de9aa", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자 재료를 연구하고 강의는 양자통신·양자암호 기술을 다룬다."}
+{"pair_id": "pair:1f84a1e285233170", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 복합 재료·구조의 역학 모델링과 설계를 연구하고 강의는 박막 증착·표면 에너지·박막 구조를 다뤄 재료 구조와 특성의 인접성이 있다."}
+{"pair_id": "pair:863f8b9effd72bfd", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 끈이론·M이론과 양자 블랙홀을 연구하고 강의는 고급 양자역학의 계산 방법을 심화 학습한다."}
+{"pair_id": "pair:ffb2ec502dd68521", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 식물과 병원체의 상호작용·식물 면역을 연구하고 강의는 염기서열·유전자·단백질 분류 등 생물정보학 방법을 다룬다."}
+{"pair_id": "pair:0d4d35aae492a688", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 나노재료·에너지 촉매와 촉매 반응을 연구하고 강의는 금속·배터리 소재의 투과전자현미경 분석을 실습한다."}
+{"pair_id": "pair:62adc2e51a5ddd36", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 식물 유전체 교차·육종을 연구하고 강의는 카메라 영상 처리와 계산 사진학 알고리즘을 다룬다."}
+{"pair_id": "pair:a5d8687fbd83353c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 가속기·빔-플라즈마 물리를 연구하고 강의는 반도체 박막 증착에서 진공·플라즈마와 표면 반응을 다뤄 물리 현상이 일부 인접한다."}
+{"pair_id": "pair:e4d3579a4466ddf4", "relevance": 0, "insufficient_evidence": false, "reason": "교수 연구는 정치행동·환경정치와 에너지 소비의 사회적 요인을 다루고 강의는 결정 구조·대칭성과 재료 물성을 다룬다."}
+{"pair_id": "pair:e25f974244b11461", "relevance": 0, "insufficient_evidence": false, "reason": "위상수학 연구와 모바일·유비쿼터스 컴퓨팅 강의 사이에 내용상 구체적 관련성은 없다."}
+{"pair_id": "pair:f34692ff6ef14229", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 반도체 소자·열전달을 연구하고 강의는 단백질의 기능·상호작용과 분자영상 기법을 다룬다."}
+{"pair_id": "pair:9d8892a65d68f5f5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대규모 머신러닝 최적화를 연구하고 강의는 영상 장치와 계산 알고리즘으로 시각 정보를 획득·재구성하는 계산 이미징을 다룬다."}
+{"pair_id": "pair:b099c1946c22cae7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자 소자와 광학 재료를 연구하고 강의는 OLED·플렉서블 디스플레이의 소자·공정·소재를 심화 학습한다."}
+{"pair_id": "pair:4550093f9ee5319e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 효율적·책임 있는 기계학습을 연구하고 강의는 AI 상용화의 법·정책·윤리를 다뤄 책임 있는 AI의 넓은 접점이 있다."}
+{"pair_id": "pair:53c930309c386fef", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 이론 생물물리학과 비평형 통계물리를 연구하고 강의는 평형·비평형 통계역학을 직접 다룬다."}
+{"pair_id": "pair:773ceb15ba58c444", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 빔 물리·플라즈마와 입자 시뮬레이션을 연구하고 강의는 재료공학 지배방정식을 수치해석·컴퓨터 시뮬레이션으로 푸는 방법을 다뤄 계산 방법의 인접성이 있다."}
+{"pair_id": "pair:90f9594c722ab1ce", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 배터리·기능성 산화물 재료와 전자현미경을 연구하고 강의는 금속·배터리 소재의 회절·현미경·표면 분석을 실습한다."}
+{"pair_id": "pair:43b420bdd77981cd", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전기촉매와 전기화학을 연구하고 강의는 에너지 생산·저장과 환경 기술을 다룬다."}
+{"pair_id": "pair:c9a971a5381dd644", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시청각 매체에서 햅틱 효과를 생성하고 강의는 영상 정보를 계산적으로 획득·재구성해 미디어·계산 방법 측면에서 인접한다."}
+{"pair_id": "pair:bc55464e636534ef", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 ML용 컴퓨팅 시스템을 최적화하고 강의는 화학 양자역학과 분자 에너지 준위를 다룬다."}
+{"pair_id": "pair:227e7ba43e5c9d8d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대기오염 노출을 위해 환경 데이터과학·AI를 연구하고 강의는 신호·확률·추정·딥러닝 방법을 반도체 연구 데이터 분석에 적용한다."}
+{"pair_id": "pair:921e545dec3a7ab5", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자소자를 연구하고 강의는 양자 통신과 암호 기술을 다룬다."}
+{"pair_id": "pair:fc90ae32151f8d1e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 복합 재료와 구조의 모델링·설계를 연구하고 강의는 박막의 성장·표면반응·증착공정을 다뤄 재료 구조와 특성의 인접성이 있다."}
+{"pair_id": "pair:58087036831e48e3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 끈이론과 양자 블랙홀 이론을 연구하고 강의는 고급 양자역학의 계산·근사 방법을 심화 학습한다."}
+{"pair_id": "pair:50cc3049d09038c5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 식물-병원체 면역과 유전체·유전자 반응을 연구하고 강의는 염기서열·유전자 예측·단백질 분류 등 생물정보학 방법을 다룬다."}
+{"pair_id": "pair:ced4ddd9e123cd92", "relevance": 1, "insufficient_evidence": false, "reason": "연구단은 나노재료와 에너지·바이오 촉매를 연구하고 강의는 금속·배터리 소재의 TEM 분석법을 실습해 재료 분석의 인접성이 있다."}
+{"pair_id": "pair:975aab533b835065", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 식물 유전체 재조합과 육종을 연구하고 강의는 컴퓨터 비전·이미지 처리 기반 계산 사진학을 다룬다."}
+{"pair_id": "pair:b530d831b0cc02be", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 빔-플라즈마와 고에너지 플라즈마를 연구하고 강의는 반도체 증착의 진공·플라즈마·표면 반응을 다뤄 플라즈마 물리의 인접성이 있다."}
+{"pair_id": "pair:ce159f48ea41eee9", "relevance": 0, "insufficient_evidence": false, "reason": "교수 연구는 정치행동·환경정치와 소비 행태를 분석하고 강의는 결정 격자·대칭·재료 구조-물성 관계를 다룬다."}
+{"pair_id": "pair:ac0f4a17fe85feb2", "relevance": 0, "insufficient_evidence": false, "reason": "위상수학 연구실과 모바일·유비쿼터스 컴퓨팅 강의 사이에 구체적 연구 연관이 없다."}
+{"pair_id": "pair:5665a6628e1b4104", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 반도체·열수송 소자를 연구하고 강의는 세포 내 단백질을 관찰하는 분자영상 기법을 다룬다."}
+{"pair_id": "pair:8bd295c43e51fbc7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대규모 기계학습의 최적화를 연구하고 강의는 영상 획득·재구성을 위한 계산 이미징 알고리즘을 다룬다."}
+{"pair_id": "pair:35b1699fa0cb026b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자 소재와 기기를 연구하고 강의는 OLED·플렉서블 디스플레이 소재·소자·공정을 심화 학습한다."}
+{"pair_id": "pair:09d1fce696c7ae7d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 책임 있는 AI·기계학습을 연구하고 강의는 AI의 법·정책·윤리 문제를 다뤄 책임성의 넓은 접점이 있다."}
+{"pair_id": "pair:efeee8e3bae566c6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 이론 생물물리학과 비평형 통계물리를 연구하고 강의는 평형·비평형 통계역학의 이론을 다룬다."}
+{"pair_id": "pair:34aa643c010cacf0", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 프로그래밍 언어·확률 프로그램·수치계산을 연구하고 강의는 AI의 역사와 여러 응용 분야를 개관해 계산 분야의 일반적 접점이 있다."}
+{"pair_id": "pair:f456d324d587eeb7", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 리튬이온·차세대 배터리 시스템을 연구하고 강의는 촉매의 표면반응과 에너지 촉매를 심화 학습하지만 직접적인 촉매 연구 증거는 약하다."}
+{"pair_id": "pair:a5da9b0d3b2f084f", "relevance": 0, "insufficient_evidence": false, "reason": "연구단은 블록 공중합체의 고분자 자기조립을 연구하고 강의는 AI 윤리·정책과 리더십을 다룬다."}
+{"pair_id": "pair:21b4da9f0fd624b3", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 열전 무기재료를 설계·제조하고 강의는 미세구조 분석·기계시험·나노제작 등 재료공학 기초 실험을 수행한다."}
+{"pair_id": "pair:eb74b9b49f4c664d", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 입자빔·플라즈마와 가속기 수치 모델링을 연구하고 강의는 기계공학 문제의 미분·적분 방정식을 수치적으로 푸는 방법을 다뤄 계산 방법의 공통성이 있다."}
+{"pair_id": "pair:9ad52d56acb961ed", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 CRISPR·바이러스·유전자 기술을 연구하고 강의는 바이오테크 연구에서 활용되는 세포배양·유전자전달·세포이미징 기법을 소개한다."}
+{"pair_id": "pair:f824d9ebf112ed8d", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 전력망·건물 수요반응과 에너지 시스템을 연구하고 강의는 배터리 열역학과 DFT 계산을 다뤄 에너지 분야의 제한적 연관성이 있다."}
+{"pair_id": "pair:8ad1c1bea960fcee", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 에너지·광촉매·바이오촉매와 나노재료를 연구하고 강의는 재료 구조·합성·응용의 화학적 원리를 다룬다."}
+{"pair_id": "pair:eb1f132eac3f8d92", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 암 수용체와 막단백질의 구조·기능을 연구하고 강의는 유전자 분석·단백질 결정화·구조 기반 신약개발을 실습한다."}
+{"pair_id": "pair:d1a52dff1268da70", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저차원 재료의 표면·계면 구조를 연구하고 강의는 회절·현미경·표면 분석 등 금속·배터리 소재 특성화 기법을 다룬다."}
+{"pair_id": "pair:93e4f96645968a1b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 대규모 머신러닝 최적화를 연구하고 강의는 대학원 양자역학의 계산·근사 방법을 다룬다."}
+{"pair_id": "pair:3ac4954a9dad5737", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 장내 미생물·숙주 면역 상호작용을 연구하고 강의는 생명과학 최신 연구 동향과 초청 세미나를 다룬다."}
+{"pair_id": "pair:9b3e0da180f1330c", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 고분자 블록 공중합체의 자기조립·구조를 연구하고 강의는 재료에서 원자단위 시뮬레이션과 분자동역학을 다룬다."}
+{"pair_id": "pair:b6f3ebe167ccc2d2", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노소재·에너지·전자 분야의 기계학습과 과학 문헌 데이터베이스를 연구하고 강의는 심층학습 NLP의 언어 모델·텍스트 기법을 다뤄 AI 방법의 인접성이 있다."}
+{"pair_id": "pair:7ccf0c3a56dcc2f2", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 생화학 반응 네트워크의 확률적 모델을 연구하고 강의는 뇌 의료영상의 3차원 표면·복셀 분석을 다룬다."}
+{"pair_id": "pair:34d0ca34e5382e51", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계학습·베이지안·고차원 데이터 분석을 연구하고 강의는 확률·추정·딥러닝을 포함한 데이터 처리 방법을 반도체 연구에 적용한다."}
+{"pair_id": "pair:3357559fb35763c2", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 바이러스·CRISPR·분자 유전공학을 연구하고 강의는 살아있는 세포 내 단백질의 분자영상 기법을 다룬다."}
+{"pair_id": "pair:4b5926a911e50104", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 계산전자기학·전자기장 시뮬레이션을 연구하고 강의는 반도체의 전하·밴드·운반자 수송과 물리적 특성을 다뤄 전자기·전자 현상의 인접성이 있다."}
+{"pair_id": "pair:9e58f44ad3fd95f3", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 뇌 후성유전·신경면역을 연구하고 강의는 생물 환경에서 작동하는 신경 인터페이스·바이오센서를 다뤄 신경·생물학 분야의 접점이 있다."}
+{"pair_id": "pair:66830a0b53511954", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 디스플레이와 소프트 전자 재료·소자를 연구하고 강의는 고분자 물성·합성과 디스플레이·소프트일렉트로닉스 응용 기초를 다룬다."}
+{"pair_id": "pair:0872fb24dd13aa7b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 CMOS 이미지 센서·광검출기와 반도체 소자를 개발하고 강의는 전자소자 물리와 전자회로 해석을 다룬다."}
+{"pair_id": "pair:2020ea70307e04ec", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 암 수용체·막단백질의 구조와 기능을 연구하고 강의는 단백질 상호작용 및 세포 내 분자 영상 기법을 다룬다."}
+{"pair_id": "pair:8277f32bcda9428e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 음성처리·웨어러블 소자와 디스플레이를 연구하고 강의는 OLED·플렉서블 디스플레이 소자·공정·소재를 다룬다."}
+{"pair_id": "pair:45a9f8a66059065a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 메모리 기반 연산·뉴로모픽 소자를 연구하고 강의는 AI 연산에 최적화된 지능형 반도체 하드웨어를 다룬다."}
+{"pair_id": "pair:81cdfad76b6d2b53", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온 배터리 음극재를 연구하고 강의는 신소재의 설계·합성·구조·특성 분석을 실습한다."}
+{"pair_id": "pair:083636dca50962c8", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자광학·양자정보를 연구하고 강의는 화학 응용의 양자컴퓨팅·알고리즘을 다룬다."}
+{"pair_id": "pair:86a79dd8b0b3e8dd", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노소자·열전 응용을 연구하고 강의는 논리·비판적 사고를 다룬다."}
+{"pair_id": "pair:a17f5b7191acbcf6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 RF·아날로그 회로와 CMOS 트랜시버를 설계하고 강의는 MOSFET 등 반도체 소자 물리와 작동을 다룬다."}
+{"pair_id": "pair:539a8e421bce4978", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다양한 환경에서 움직이는 생체모사 이동 로봇을 개발하고 강의는 쿼드콥터 로봇의 제어·지능을 실습한다."}
+{"pair_id": "pair:d35027d33e45acd1", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 뇌의 학습·인지 메커니즘을 연구하고 강의는 인지 특성과 사용자 요구를 반영하는 지능형 인터페이스 연구를 다룬다."}
+{"pair_id": "pair:fd82fdd0f5cd61d2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기계학습 방법과 표현학습을 연구하고 강의는 신경망·최적화·생성모델 등 딥러닝을 다룬다."}
+{"pair_id": "pair:e71b5c2139f7e176", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온 배터리 시스템을 연구하고 강의는 배터리 전기화학과 전극 반응을 다룬다."}
+{"pair_id": "pair:e73911e300ee62d4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 프로젝트 현장의 AI 기반 자동화·기계학습 플랫폼을 연구하고 강의는 AI 기술과 적용·동향을 개관한다."}
+{"pair_id": "pair:057eb5db43a4e6df", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 CMOS 트랜시버와 회로 설계를 연구하고 강의는 CMOS 인버터·반도체 집적공정의 설계·제작·검증을 실습한다."}
+{"pair_id": "pair:4f1bf7f025c8c70c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 RRAM·뉴로모픽 소자를 연구하고 강의는 생명과학 전반의 최신 연구 동향 세미나를 제공해 과학 연구의 넓은 인접성만 있다."}
+{"pair_id": "pair:9a547f1e81709dfe", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 고체전해질·리튬 배터리용 에너지 소재를 연구하고 강의는 이차전지 재료와 배터리 시스템을 다룬다."}
+{"pair_id": "pair:13209aacb109f63d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 LLM 서비스와 대규모 시스템 플랫폼을 연구하고 강의는 자연어처리의 기초와 응용을 다룬다."}
+{"pair_id": "pair:9863dfde9b2121d2", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 열유체·열교환기와 에너지 시스템을 연구하고 강의는 나노소재·반도체·금속의 화학적 합성과 특성을 다뤄 에너지 소재의 넓은 연관성이 있다."}
+{"pair_id": "pair:1dcec3af7ac7f563", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 신호처리·제어와 시스템 분석을 연구하고 강의는 신호·시스템의 표현·필터·컨볼루션 등 전산 신호처리를 다룬다."}
+{"pair_id": "pair:d4b870c894a4ed63", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 응축상 분자의 광물리·전자-핵 동역학을 연구하고 강의는 재료의 전자구조를 양자역학적으로 계산하는 방법을 다룬다."}
+{"pair_id": "pair:d3f18da6f339b0b3", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 건축의 계산설계·디지털 제작과 물리컴퓨팅을 연구하고 강의는 쿼드콥터 기반 로봇 제어·지능을 다뤄 제작·센서 측면에서 인접성이 있다."}
+{"pair_id": "pair:34e1a4e82cbb2839", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 생체모사 재료·천연고분자와 전극 소재를 연구하고 강의는 고분자의 구조·물성·화학·기계적 특성과 바이오 응용을 다룬다."}
+{"pair_id": "pair:fbdd7f4bc3dec7a1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 시각 입력 기반 로봇 상호작용과 3D 손 자세 추정을 연구하고 강의는 Python·신경망·기계학습을 통한 데이터과학 프로그래밍을 다룬다."}
+{"pair_id": "pair:61913155fe8f1a23", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기하 알고리즘·Voronoi·최근접 이웃 탐색을 연구하고 강의는 화공 문제의 수치·데이터 분석과 AI 프로그래밍을 다룬다."}
+{"pair_id": "pair:1e891730b2ab476e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI·확산 모델을 연구하고 강의는 딥러닝 모델의 학습·추론 최적화와 모바일 배포를 다룬다."}
+{"pair_id": "pair:4473b85177d49931", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 컴퓨터 구조·운영체제와 메모리 내 연산을 연구하고 강의는 자연어처리 기초·응용을 다뤄 NLP 워크로드의 시스템 지원 측면이 인접하다."}
+{"pair_id": "pair:e5ba87f9a2814852", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 XR·햅틱·인간컴퓨터 상호작용을 연구하고 강의는 인간중심 설계·사용자 조사·인터랙티브 시스템 프로토타이핑을 다룬다."}
+{"pair_id": "pair:d7e58ee66fbe5d48", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시스템온칩·전자설계 자동화를 연구하고 강의는 비전·언어 모델을 설계·학습하는 심층학습 과정을 제공해 하드웨어의 넓은 인접성이 있다."}
+{"pair_id": "pair:d1d306926d186de8", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노소자와 열전 모듈을 연구하고 강의는 합성생물학 연구 동향을 다룬다."}
+{"pair_id": "pair:bc93876c404e22bf", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 자극 반응성 하이드로젤·스마트 연성재료를 연구하고 강의는 재생에너지·환경 기술과 에너지 소자·수처리 응용을 다뤄 환경 소재의 접점이 있다."}
+{"pair_id": "pair:1d21eb9f33485e8b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 양자광학·양자정보를 연구하고 강의는 고전 컴퓨팅의 메모리·스토리지 시스템을 다룬다."}
+{"pair_id": "pair:d8099a3b3ddae354", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노소자·열전 소자를 연구하고 강의는 불 논리·조합 및 순차회로 등 디지털 시스템 설계를 다뤄 전자시스템 기반이 인접하다."}
+{"pair_id": "pair:c6933f793980ba65", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 자극 반응성 하이드로젤과 나노복합재료를 연구하고 강의는 리튬이온전지 소재·배터리 시스템을 다뤄 재료 과학의 인접성이 있다."}
+{"pair_id": "pair:700774ea38541639", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 건축 설계·디지털 제작을 연구하고 강의는 AI 윤리·정책·리더십을 다룬다."}
+{"pair_id": "pair:cad62a54573dda1b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 CMOS 이미지 센서를 연구하고 강의는 생물환경의 실리콘 전자시스템 및 바이오센서를 다룬다."}
+{"pair_id": "pair:0c88119528b0ce9a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 XR·햅틱 인터랙션 연구를 수행하고 강의는 여러 전기전자공학 응용을 소개·실습해 인터랙티브 전자 응용의 넓은 관련성이 있다."}
+{"pair_id": "pair:0dee7b9679d819f7", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 합금·금속 가공·기계학습을 연구하고 강의는 AI 윤리·정책과 리더십을 다룬다."}
+{"pair_id": "pair:973a0cd52d7ec74c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대기오염의 환경 데이터과학·AI를 연구하고 강의는 화공 데이터 분석·인공지능 이론과 Python 프로그래밍을 다룬다."}
+{"pair_id": "pair:5aa0c91d1ec16611", "relevance": 0, "insufficient_evidence": false, "reason": "교수 연구는 농업경제·가격·정책과 사회경제 자료를 분석하고 강의는 환경 빅데이터를 모델링·분석하는 환경공학 과목이다."}
+{"pair_id": "pair:8e42447490e05d5b", "relevance": 2, "insufficient_evidence": false, "reason": "교수 연구는 시장·소비자 행동과 마케팅 데이터를 분석하고 강의는 광고 콘텐츠의 AI 기반 시각·문자 분석, 효과 변수 탐색 및 콘텐츠 생성을 다룬다."}
+{"pair_id": "pair:6937de633414894a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 환경 오염원의 배출·이동·노출을 추적하기 위해 안정동위원소와 환경자료를 이용하고 강의는 ODE·PDE·데이터 기반 수학모델링·Python 시뮬레이션을 다룬다."}
+{"pair_id": "pair:583cd722aa8b4ad4", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료를 STM으로 연구하고 강의는 배터리 소재의 싱크로트론 X선 특성화 기법을 다뤄 재료 분석 측면에서 인접한다."}
+{"pair_id": "pair:2f935b0863440610", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 에너지 저장을 위한 유기 전극·전해질·계면 화학을 설계하고 강의는 배터리의 DFT 계산과 전기화학 열역학을 다룬다."}
+{"pair_id": "pair:52640b033612fc7e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료와 소자 응용의 미시적 구조를 연구하고 강의는 철강·배터리 소재의 투과전자현미경 원리와 실습을 제공한다."}
+{"pair_id": "pair:e7f7c0bb4f2aac29", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 산업 데이터 엔지니어링·분석과 AI 활용을 연구하고 강의는 데이터 집약적 병렬·분산 컴퓨팅 시스템을 다뤄 데이터 시스템 구현 측면에서 인접한다."}
+{"pair_id": "pair:b24764d7ec6f6009", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 집적회로·전력관리 회로를 설계하고 강의는 에너지·열의 발생과 전달 및 효율적 변환의 열역학을 다뤄 전력·에너지 변환의 접점이 있다."}
+{"pair_id": "pair:3c2ce09b5a70f3b3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 식물-병원체 상호작용과 식물면역을 연구하고 강의는 AI 윤리·정책·리더십을 다룬다."}
+{"pair_id": "pair:4f0e41bdecf9affa", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 바이오리파이너리의 공정 경로와 통합 평가를 연구하고 강의는 배터리 소재의 DFT와 충방전 열역학을 다룬다."}
+{"pair_id": "pair:552f93acf51d2104", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 차세대 배터리용 유기재료·전해질·계면 화학을 연구하고 강의는 신소재의 설계·합성·분석을 실습한다."}
+{"pair_id": "pair:70828e5ae33aaa16", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 지속가능 소재와 수분-전기 에너지 변환을 연구하고 강의는 금속·반도체·세라믹·고분자의 기본 물성과 공정·특성을 다룬다."}
+{"pair_id": "pair:73604ff3f34b1c0c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노계의 전자 궤도·스핀 수송을 연구하고 강의는 사진·카메라 영상의 컴퓨터 알고리즘을 다룬다."}
+{"pair_id": "pair:05bf6c239da7bb98", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시각 입력으로 로봇 상호작용을 학습하고 강의는 LLM의 이론과 언어모델 원리를 다뤄 딥러닝 방법의 접점이 있으나 NLP 연구 증거는 없다."}
+{"pair_id": "pair:7eec7cf2aa2efc85", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 뇌의 인지·작업기억 메커니즘을 연구하고 강의는 계산기하의 점·선·다각형 알고리즘을 다룬다."}
+{"pair_id": "pair:fbf3f858b87229b6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 분자 광물리·엑시톤 동역학을 연구하고 강의는 광자재료·유기태양전지 등을 포함한 재료과학 실험을 수행한다."}
+{"pair_id": "pair:8765d358054a0937", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 DNA 합성·수선과 세포 동역학을 연구하고 강의는 신소재의 설계·합성·물성 분석을 실습한다."}
+{"pair_id": "pair:60a56176193c854d", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 그래프·기하 알고리즘을 연구하고 강의는 강화학습 이론과 RL 알고리즘을 다룬다."}
+{"pair_id": "pair:e0426371ddf4f51b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 디스플레이·소프트 전자소자와 연성 소재를 연구하고 강의는 금속·반도체·고분자 등 재료의 기본 물성과 공정을 다룬다."}
+{"pair_id": "pair:513287d44ad1d760", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시각 입력 기반 로봇 학습을 연구하고 강의는 심층학습 NLP의 언어 모델·텍스트 처리 방법을 다뤄 신경망 방법의 일반적 인접성이 있다."}
+{"pair_id": "pair:c3dd5f1716a64887", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다양한 환경에서 작동하는 이동 로봇을 개발하고 강의는 이동로봇 이론·ROS·센서 모델링과 운용을 다룬다."}
+{"pair_id": "pair:bb3e846692898168", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자·비선형·집적 나노광학을 연구하고 강의는 광학 장치와 계산 알고리즘을 결합한 이미지 획득·재구성을 다룬다."}
+{"pair_id": "pair:37fcb42b409323bb", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 차세대 리튬 배터리 시스템을 연구하고 강의는 고체 촉매·에너지 전환의 불균일 촉매 반응을 다뤄 에너지 분야의 연관성은 있으나 직접 촉매 연구 증거는 없다."}
+{"pair_id": "pair:67e7d252f0794538", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료·소자의 미시적 구조를 연구하고 강의는 배터리·금속 소재의 TEM 원리와 실습을 다룬다."}
+{"pair_id": "pair:66f77dc8587b66cd", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전극 물성·전도성 소재를 연구하고 강의는 촉매 반응의 에너지·동역학과 촉매 소재를 다뤄 전기화학 재료 측면의 인접성이 있다."}
+{"pair_id": "pair:2399984c268273cf", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 자극 반응성 하이드로젤·스마트 연성재료를 연구하고 강의는 리튬이온전지 재료의 화학공정을 다뤄 소재 분야의 넓은 접점만 있다."}
+{"pair_id": "pair:ed7b228d584ae935", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 위험 환경용 로봇을 개발하고 강의는 뇌 의료영상의 3차원 처리와 분석을 다룬다."}
+{"pair_id": "pair:8f5b4350ea802fb3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 생체모사 이동 로봇을 개발하고 강의는 AI 윤리·법·리더십을 다룬다."}
+{"pair_id": "pair:903e63f6913bb20e", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 뇌의 학습·작업기억 메커니즘을 연구하고 강의는 경제 데이터·시장 모형을 이용한 마케팅을 다룬다."}
+{"pair_id": "pair:675e7ff7e92b692c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 식물-병원체 면역을 연구하고 강의는 인체 조직 모사·바이오프린팅·생체재료를 다룬다."}
+{"pair_id": "pair:fc82f2a5e55a894f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료의 미시적 성질을 연구하고 강의는 광학 현미경의 구조·원리와 재료 시료 영상·측정을 다룬다."}
+{"pair_id": "pair:3927afa19ae67b85", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 생체모사 재료·천연고분자 전극소재를 연구하고 강의는 금속·세라믹·고분자 등 다양한 소재의 물성·공정 기초를 다룬다."}
+{"pair_id": "pair:685513953ec66089", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 단백질 나노구조를 계산 설계하고 강의는 배터리 소재의 싱크로트론 X선 구조·분광 분석법을 다뤄 구조 분석의 일반적 인접성이 있다."}
+{"pair_id": "pair:d54bf2387cf05e38", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 시각 입력 기반 로봇 학습을 연구하고 강의는 AI의 개발·활용에 따른 윤리와 사회 문제를 다뤄 AI 응용의 일반적 접점이 있다."}
+{"pair_id": "pair:000e492ab20d978a", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료와 에피성장을 연구하고 강의는 배터리 연구의 학술 글쓰기·발표·토론 역량을 다룬다."}
+{"pair_id": "pair:9688df88ceaac285", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 플랜트 프로젝트 관리와 데이터 기반 AI 자동화 플랫폼을 연구하고 강의는 LLM의 이론과 특성·개발 동향을 다뤄 AI의 일반적 인접성이 있다."}
+{"pair_id": "pair:8f9cfdc8f78e540c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온·차세대 배터리용 고분자·전극 소재를 연구하고 강의는 신소재의 설계·합성·구조·물성 분석을 실습한다."}
+{"pair_id": "pair:1db02aa23044d985", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전기촉매의 기초와 전기화학을 연구하고 강의는 환경·에너지의 전기화학 반응과 촉매 응용을 다룬다."}
+{"pair_id": "pair:afcd82db28de6914", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 가속기 빔·플라즈마 물리와 시뮬레이션을 연구하고 강의는 과학·공학 문제의 수치계산 기초와 시뮬레이션 방법을 다룬다."}
+{"pair_id": "pair:7b95963a22ea2c82", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 DFT와 능동학습으로 다금속 촉매를 설계하고 강의는 배터리 소재의 DFT·에너지·전압 계산을 실습한다."}
+{"pair_id": "pair:319bbd984f1652e0", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 양자광학·양자정보를 연구하고 강의는 인터넷·컴퓨터 네트워크의 원리와 응용을 다룬다."}
+{"pair_id": "pair:04b124233eda4cf1", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노복합재료·생체모사 센서 등 하이브리드 소재를 연구하고 강의는 CMOS 인버터와 반도체 집적공정을 다뤄 소재·소자 기반의 인접성이 있다."}
+{"pair_id": "pair:435c80355aec8f6b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 핵융합 원자로 제어와 물리정보 신경망을 연구하고 강의는 비전·언어 딥러닝 모델을 다뤄 직접 주제 접점은 확인되지 않는다."}
+{"pair_id": "pair:4a64956d1fb3a923", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 금속의 원자 시뮬레이션 기반 계산재료과학을 연구하고 강의는 재료 물성 예측을 위한 양자역학적 전자구조 계산을 다룬다."}
+{"pair_id": "pair:255b854612487276", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 컴퓨터 아키텍처·운영체제와 플래시 내 연산을 연구하고 강의는 심층학습 자연어처리 모델을 다뤄 NLP의 시스템 구현 측면이 인접하다."}
+{"pair_id": "pair:6ba8cb2b7f8eb610", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 산업 결함 영상의 딥러닝·드론 영상 분석과 제어를 수행하고 강의는 모바일 환경의 센싱·예측·컴퓨팅 응용을 다룬다."}
+{"pair_id": "pair:d663508e573e070d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI·확산 모델을 연구하고 강의는 딥러닝 최적화·가속과 모바일 배포를 다룬다."}
+{"pair_id": "pair:69edcc551278bcaa", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 정치커뮤니케이션과 시민의 매체 행동을 분석하고 강의는 HCI 이용자 연구와 인터랙티브 시스템 연구 방법을 다뤄 행동 연구 방법에서 인접한다."}
+{"pair_id": "pair:d00c40cfdae1c1f0", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI를 연구하고 강의는 컴퓨터과학의 연구 분야·현재 주제·향후 방향을 개관한다."}
+{"pair_id": "pair:747c384685dc0927", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 확률적 열 방정식 등 확률·수리물리 문제를 연구하고 강의는 평형·비평형 통계역학을 다뤄 확률 물리의 인접성이 있다."}
+{"pair_id": "pair:900253c1d30a957d", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 에너지·수소·연료전지·광촉매를 연구하고 강의는 불균일 촉매 반응의 원리와 응용을 다룬다."}
+{"pair_id": "pair:4d7f9dc3e948b90a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 스마트 하이드로젤·다세포 조직 모델 등 생체재료를 설계하고 강의는 바이오센서·조직재생·약물전달 등 의료용 생체재료를 다룬다."}
+{"pair_id": "pair:ab25d00d1b87ed97", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 고분자 블록 공중합체의 자기조립과 구조를 연구하고 강의는 재료의 전자구조 계산 이론·방법을 다룬다."}
+{"pair_id": "pair:117ea56f81196205", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 리튬이온 배터리용 음극재를 연구하고 강의는 전기화학 촉매 응용을 포함한 불균일 촉매를 다뤄 에너지 재료의 넓은 접점이 있다."}
+{"pair_id": "pair:70cfe68868156dd1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리 소재를 연구하고 강의는 재료공학의 에너지 전기화학과 전극 반응을 다룬다."}
+{"pair_id": "pair:df40f94d4410298f", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 CNS 면역·뇌신경장벽을 연구하고 강의는 고체전해질·세라믹 소자와 TEM 재료 실험을 다룬다."}
+{"pair_id": "pair:2f6f030489295a91", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 보험·금융 위험관리와 경제자료를 연구하고 강의는 카메라 영상의 계산 알고리즘을 다룬다."}
+{"pair_id": "pair:ded766399dbbb5f6", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 음성 인식·임베디드 컴퓨팅을 연구하고 강의는 환경·기후·에너지 정책의 사회과학적 협업을 다룬다."}
+{"pair_id": "pair:a8788daae7f806ea", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬 배터리·에너지 소재를 연구하고 강의는 에너지 전환·저장 소재와 전기화학을 다룬다."}
+{"pair_id": "pair:93c2e2d33fb4b742", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생물환경과 통합된 웨어러블 센서·손동작 인식을 개발하고 강의는 쿼드콥터의 센싱·제어와 실습을 다뤄 센서·제어 응용이 인접한다."}
+{"pair_id": "pair:9aaab2a55003d9f7", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료의 성장과 전자 상태를 연구하고 강의는 반도체 밴드구조·캐리어 수송·물성을 다룬다."}
+{"pair_id": "pair:b5ef2b8537959e4e", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 빔·플라즈마와 수치 시뮬레이션을 연구하고 강의는 반도체 소자 물리 방정식의 수치해석을 다뤄 계산 물리 방법이 인접한다."}
+{"pair_id": "pair:e32b1597fdb2b2c2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 ML 알고리즘을 효율적으로 구현하는 컴퓨팅 시스템을 연구하고 강의는 Python·데이터 도구·AI 보조를 활용한 데이터과학 프로그래밍과 ML을 다룬다."}
+{"pair_id": "pair:1ebb27768b48953d", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬이온·차세대 배터리 소재를 연구하고 강의는 에너지·환경 전기화학과 촉매 과정을 다룬다."}
+{"pair_id": "pair:6e2b75acfa116124", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 연합학습·저랭크 적응 등 기계학습을 연구하고 강의는 현대 ML 시스템의 이론·일반화·LLM을 다룬다."}
+{"pair_id": "pair:dbe80ae507061f5b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 음성 활동 감지에 대조학습을 적용하고 강의는 딥러닝의 학습·추론 최적화와 모바일 가속을 다룬다."}
+{"pair_id": "pair:83a79ace822178bf", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 X선으로 액체·화학 반응의 분자 동역학을 연구하고 강의는 촉매 표면의 반응속도·흡착·에너지 원리를 다뤄 반응 분석의 인접성이 있다."}
+{"pair_id": "pair:06946ab9b2e7aed3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 생체재료·하이드로젤·조직공학을 연구하고 강의는 AI 기술의 일반적 추세·사회 영향 개관을 다룬다."}
+{"pair_id": "pair:78a5d7bbe5f8e893", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 온라인 모성 커뮤니티와 소셜미디어의 이용·정체성을 연구하고 강의는 HCI 이용자 연구와 인터랙티브 기술의 연구방법을 다룬다."}
+{"pair_id": "pair:14035de6071cc7b2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 비휘발성 상변화 메모리 소재와 고분자 구조를 연구하고 강의는 고분자 합성·물성·열역학 및 반도체·디스플레이·유연소자 응용을 다룬다."}
+{"pair_id": "pair:935a45d8f190075e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 복합 재료·구조의 역학 모델링·분석·설계를 연구하고 강의는 반도체 재료·소자·공정·설계의 기초를 개관한다."}
+{"pair_id": "pair:0c390d30c8b1dbbc", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전극·전도성 하이드로젤 소재를 연구하고 강의는 리튬이온전지 소재의 개발과 화학공정을 다뤄 에너지 소재 분야의 접점이 있다."}
+{"pair_id": "pair:e2a92938f32b0671", "relevance": 1, "insufficient_evidence": false, "reason": "연구단은 나노재료·에너지·광촉매를 연구하고 강의는 금속의 야금·합금 물성·재료 설계를 다뤄 소재 분야의 인접성이 있다."}
+{"pair_id": "pair:147bd67c569e9f1a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리 소재를 연구하고 강의는 재료과학을 위한 전기화학과 전극 반응을 다룬다."}
+{"pair_id": "pair:676f9a3ced3db8f0", "relevance": 0, "insufficient_evidence": false, "reason": "교수 연구는 농업경제와 소비자·시장 행동을 분석하고 강의는 인공지능·데이터과학의 연구 분야와 기술 동향을 개관한다."}
+{"pair_id": "pair:aa7e7f16bca5a0bf", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저차원 재료의 결정·표면·계면 구조를 연구하고 강의는 결정 대칭성·물성의 관계와 결정학을 다룬다."}
+{"pair_id": "pair:0c182aa8b8238e9b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 세포 안 분자 시스템의 합성·계산 설계를 연구하고 강의는 Python을 이용한 계산 사고·프로그래밍·문제해결을 다뤄 계산 방법의 인접성이 있다."}
+{"pair_id": "pair:735bf2b96dff278f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 프로그래밍 언어·수치 계산·확률 프로그램을 연구하고 강의는 3차원 의료영상의 계산처리·분석 알고리즘을 다룬다."}
+{"pair_id": "pair:335d95ddf38e59ca", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자광학·양자정보와 양자과정 측정을 연구하고 강의는 양자통신·양자암호 기술을 다룬다."}
+{"pair_id": "pair:316e7c6d71eb0820", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 에너지·전자 나노소재 연구에 기계학습과 과학문헌 데이터베이스를 적용하고 강의는 AI·데이터과학의 다양한 연구 분야를 개관한다."}
+{"pair_id": "pair:541a32be29860502", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자재료의 미시적 성질을 현미경으로 연구하고 강의는 나노과학·공학을 위한 재료 물성과 나노스케일 구조를 다룬다."}
+{"pair_id": "pair:63ed685918ffb88f", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 모델을 연구하고 강의는 반도체 소자의 물리적 방정식과 수치해석 기초를 다룬다."}
+{"pair_id": "pair:006e89164082750a", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 양자 저차원 소재의 성장·물성을 연구하고 강의는 DRAM·NAND·로직 반도체의 제조공정·집적기술을 다룬다."}
+{"pair_id": "pair:b75b2d37ab1fef16", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노스케일 전자 궤도·스핀 수송을 연구하고 강의는 이산·계산기하의 점·선·원 알고리즘을 다룬다."}
+{"pair_id": "pair:dbb9e92b70e9683c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 금융·보험 위험과 원유 가격을 분석하고 강의는 3차원 의료영상 처리·분석 기법을 다룬다."}
+{"pair_id": "pair:7eb4cfb5a36290dd", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 고에너지·핵융합 플라즈마 물리를 연구하고 강의는 고분자 물성과 응용의 기초를 다룬다."}
+{"pair_id": "pair:81619ff0a80b31cc", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 응축상 분자 광물리·여기자 동역학을 연구하고 강의는 CMOS 인버터 제작과 반도체 집적공정을 다룬다."}
+{"pair_id": "pair:ea38b9364b075ca0", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생물학적 환경의 웨어러블 센서와 손동작 인식을 연구하고 강의는 비전·언어 모델과 딥러닝 문제를 다뤄 멀티모달 학습의 인접성이 있다."}
+{"pair_id": "pair:6518ed5a441c469b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 제조·소재 파운데이션 모델을 연구하고 강의는 배터리 소재의 DFT 계산을 다뤄 소재 데이터 모델의 접점은 있으나 배터리 계산법의 직접성은 불분명하다."}
+{"pair_id": "pair:99336b53a7d52410", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 컴퓨터 구조·운영체제와 메모리 내 연산을 연구하고 강의는 AI·데이터과학의 컴퓨팅 시스템 연구 분야를 개관한다."}
+{"pair_id": "pair:733f72cddc33347e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 통계학습·고차원 데이터·유전체학과 생물정보학을 연구하고 강의는 AI·데이터과학의 ML·데이터마이닝 등 연구 분야를 개관한다."}
+{"pair_id": "pair:67cabeff2a339039", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 검증과 형식 분석을 연구하고 강의는 이미지 정보를 획득·재구성하는 계산 영상 기술을 다룬다."}
+{"pair_id": "pair:66f1753f2b26d927", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 햅틱·XR의 시청각 인터랙션을 연구하고 강의는 3차원 의료영상의 복셀·표면 기반 처리법을 다뤄 영상 분야의 제한된 접점이 있다."}
+{"pair_id": "pair:5ac2acc757097b07", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 양자광학·양자정보를 연구하고 강의는 사용자 요구에 맞춘 인터페이스와 딥러닝 기반 평가를 다룬다."}
+{"pair_id": "pair:92aef5310ad8da1a", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저차원 재료의 구조·광학 물성을 연구하고 강의는 TEM의 원리·회절·재료 구조 분석을 실습한다."}
+{"pair_id": "pair:eeb4b0b2e2148dc3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 유체·하이드로젤의 열·유동 현상을 연구하고 강의는 세포 내 단백질의 광학 분자영상 기법을 다룬다."}
+{"pair_id": "pair:56873d6a528405e1", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 오디오·햅틱 XR 콘텐츠를 연구하고 강의는 3차원 의료영상의 표면·복셀 분석을 다뤄 영상처리 분야의 방법적 인접성이 있다."}
+{"pair_id": "pair:b0fcfcb0e1398894", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 뇌 면역·신경혈관 상호작용과 광음향 뇌졸중 영상을 연구하고 강의는 생화학·생물물리학 실험 원리와 생명공학 방법을 다룬다."}
+{"pair_id": "pair:d2f57494eabd0b26", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 무선통신·기계학습과 채널 부호화를 연구하고 강의는 상호작용 입자계의 다체론·그린함수를 다룬다."}
+{"pair_id": "pair:39a2f84b4fd0219b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 RRAM·강유전체 시냅스 트랜지스터와 뉴로모픽 컴퓨팅을 연구하고 강의는 바이오전자·뉴로모픽 소자 등 실리콘-생물 계면 응용을 다룬다."}
+{"pair_id": "pair:2d218a7502fa7b71", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 에너지 저장용 유기재료·전해질·계면을 연구하고 강의는 이차전지 재료 개발과 화학공정을 다룬다."}
+{"pair_id": "pair:eb2485e65da38f2b", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 CNS 면역세포·신경혈관 상호작용을 연구하고 강의는 재료의 결정 대칭성·물성·결정학을 다룬다."}
+{"pair_id": "pair:fb32b41cace7640e", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기후 시스템과 해양·대기 상호작용을 예측하고 강의는 3차원 의료영상의 표면·복셀 처리와 분석을 다룬다."}
+{"pair_id": "pair:b3ce67912930a0fc", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노전자소자와 광검출기를 연구하고 강의는 철강·배터리 재료의 TEM 구조·성분 분석을 실습한다. 재료 특성화의 접점은 있으나 소재와 도구의 직접 연결은 제한적이다."}
+{"pair_id": "pair:f1ef793017660f91", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 저차원 양자재료의 성장·물성을 연구하고 강의는 이진수·논리 게이트·디지털 컴퓨터 회로를 다룬다."}
+{"pair_id": "pair:7a3c98db5db50b98", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 RGB 영상으로 로봇 조작과 3차원 손 자세 추정을 학습하고 강의는 영상 하드웨어와 계산 알고리즘의 공동설계·재구성을 다룬다."}
+{"pair_id": "pair:b72919826dcd1592", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 나노계 전자의 궤도·스핀 수송을 연구하고 강의는 비전·언어 모델과 다중모달 딥러닝을 다룬다."}
+{"pair_id": "pair:fd1ee7a308c71433", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 플랜트 프로젝트에 데이터 기반 기계학습 자동화 플랫폼을 연구하고 강의는 화공의 데이터 분석·AI 이론과 Python 프로그래밍을 다룬다."}
+{"pair_id": "pair:ff27ec4e36030e04", "relevance": 2, "insufficient_evidence": false, "reason": "연구단은 나노재료·에너지·바이오촉매를 연구하고 강의는 신소재의 설계·합성·물성 분석을 실습한다."}
+{"pair_id": "pair:c1ca7270de7a15c6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 나노소재 연구에 기계학습·과학 데이터베이스를 활용하고 강의는 신소재를 설계·합성·분석한다."}
+{"pair_id": "pair:c769443f0cb09ed8", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 임베디드 시스템과 음성 활동 감지·대조학습을 연구하고 강의는 음성·언어 지능을 비롯한 AI 분야와 동향을 다룬다."}
+{"pair_id": "pair:5581d9fdaad32131", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 확률 열방정식과 stochastic PDE를 연구하고 강의는 재료과학·공학의 지배방정식을 수치 방법·컴퓨터 시뮬레이션으로 푼다."}
+{"pair_id": "pair:ecded2f590f7d59e", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 상변화 메모리와 응축물질을 연구하고 강의는 양자역학적 전자구조 계산으로 재료의 물성을 예측한다."}
+{"pair_id": "pair:89c6589fbf845328", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 양자광학·양자정보를 연구하고 강의는 양자통신·양자암호의 원리와 응용을 다룬다."}
+{"pair_id": "pair:f06d894426703110", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 병렬 컴퓨터 아키텍처·메모리 근처 연산을 연구하고 강의는 AI 계산용 지능형 반도체 하드웨어 시스템을 다룬다."}
+{"pair_id": "pair:a09869428fba7a58", "relevance": 0, "insufficient_evidence": false, "reason": "교수 연구는 정치행동·정치커뮤니케이션과 에너지 소비 정책을 연구하고 강의는 AI·데이터과학의 기술 분야를 개관한다."}
+{"pair_id": "pair:0a009afb524197d6", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 뇌 영상 분석과 의료영상 컴퓨터비전을 연구하고 강의는 딥러닝의 신경망·그래프학습·생성모델을 다룬다."}
+{"pair_id": "pair:9b6b71d381a8f833", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 프로그래밍 언어·수치 계산·확률 프로그램을 연구하고 강의는 공학·기계학습·데이터과학을 위한 계산 선형대수와 응용을 다룬다."}
+{"pair_id": "pair:1f5f95e3f12e0bbe", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 온디바이스 생성 AI와 확산 모델을 연구하고 강의는 심층학습 NLP의 언어모델·텍스트 처리 방법을 다룬다."}
+{"pair_id": "pair:844be2963b976344", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 CMOS 이미지 센서와 첨단 반도체 소자를 설계하고 강의는 반도체 재료·소자·공정·계측·시스템을 통합적으로 개관한다."}
+{"pair_id": "pair:a4e28ec434401fc8", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 레이더 영상·표적 탐지에 AI를 활용하고 강의는 AI 개발·활용의 윤리와 리더십을 다뤄 책임 있는 AI의 일반적 접점이 있다."}
+{"pair_id": "pair:bf28bdc164af8027", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 상변화 메모리 소재와 전도성 고분자를 연구하고 강의는 TCAD·실제 공정·다이오드와 MOS 커패시터 제작을 포함한 반도체 집적공정을 실습한다."}
+{"pair_id": "pair:31ba9819f9e1206c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자로·핵융합 문제에서 PINN·AI-CFD·강화학습 제어를 연구하고 강의는 미분방정식 수치해석의 이론과 기계학습 기반 방법을 다룬다."}
+{"pair_id": "pair:14f9d3f1eb6613ea", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 장내 미생물과 숙주의 건강·질환 상호작용을 연구하고 강의는 딥러닝의 일반적 학습 방법을 제공해 생물 데이터 분석의 인접성은 있으나 구체적 모델 사용 증거는 없다."}
+{"pair_id": "pair:a3d1e007a01861a1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 식물 유전체 설계와 교차·육종을 연구하고 강의는 화학생명공학의 생화학·분자생물학 실험을 다룬다."}
+{"pair_id": "pair:f6ba9d3f9f4c16e3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기계학습 방법을 연구하고 강의는 양자통신·양자암호와 보안 기술을 다룬다."}
+{"pair_id": "pair:f0d366dc28714dc2", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 그래핀·초전도체 양자소자와 양자수송을 연구하고 강의는 이온트랩·초전도 큐비트 기반 양자정보 하드웨어를 다룬다."}
+{"pair_id": "pair:e8a47efc0884de4b", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 폐수처리 미생물 군집과 혐기성 환경 생물공정을 연구하고 강의는 수질·폐수 처리·재이용과 물-에너지 관계를 다룬다."}
+{"pair_id": "pair:aa78cb12cf4b88ad", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 블록체인·IoT 분산 시스템을 연구하고 강의는 컴퓨터·모바일 기기의 네트워크 원리와 인터넷 연결을 다룬다."}
+{"pair_id": "pair:34705b1bc3fcae8f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 병렬 컴퓨터 아키텍처와 메모리 근처 데이터 처리를 연구하고 강의는 AI 계산용 지능형 반도체 하드웨어를 다룬다."}
+{"pair_id": "pair:f937d3ae1cb14085", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 반도체 소자·공정과 NAND 특성을 연구하고 강의는 VLSI 배치·배선·전력 최적화와 설계 자동화 알고리즘을 다룬다."}
+{"pair_id": "pair:704c8cffeb2e8cc3", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 햅틱·XR과 인간컴퓨터 상호작용을 연구하고 강의는 이산기하의 점·선·평면 문제를 다룬다."}
+{"pair_id": "pair:8fbe37d65ecc2472", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 세포 내 분자 시스템을 설계하는 합성생물학·분자컴퓨팅을 연구하고 강의는 MATLAB 기반 프로그래밍으로 전자공학 주제를 구현한다."}
+{"pair_id": "pair:9f471f69e3fb6e29", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 지속가능한 광·전기화학 유기합성과 전기촉매 반응을 연구하고 강의는 불균일 촉매의 반응 메커니즘·활성·응용을 다룬다."}
+{"pair_id": "pair:4fbe7a841e793018", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 하이브리드 나노소재와 생체모사 수용체·촉각 재료를 연구하고 강의는 바이오센서·바이오이미징·의료기기 등 실리콘-생물 계면을 다룬다."}
+{"pair_id": "pair:b9c5b3a4803ce0dc", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 프로젝트 관리·플랜트 엔지니어링에 데이터 기반 AI 자동화 도구를 연구하고 강의는 Python·데이터도구·AI 보조를 활용한 프로그래밍과 기계학습을 다룬다."}
+{"pair_id": "pair:764a3d05b68976c0", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 생체모사 고분자·전극 소재를 연구하고 강의는 계산기하의 거리·점·선·평면 문제를 다룬다."}
+{"pair_id": "pair:ae9b59b838f89cae", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 소프트웨어 형식 검증과 안전성을 연구하고 강의는 바이너리 분석·취약점 공격·완화 기법을 실습한다."}
+{"pair_id": "pair:54e012741f056ffe", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 저항성 메모리·뉴로모픽 컴퓨팅 소자를 연구하고 강의는 바이오센서·뉴럴 인터페이스·뉴로모픽 장치를 포함한 실리콘-바이오 계면 기술을 다룬다."}
+{"pair_id": "pair:f998b1839e3f8c9c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 액체·화학 반응의 X선 동역학을 연구하고 강의는 CMOS 집적공정과 인버터 제작을 다룬다."}
+{"pair_id": "pair:4da40166b8a50b48", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 단백질·DNA 상호작용과 구조생물학을 연구하고 강의는 기계학습을 위한 선형대수·확률·최적화 수학을 다룬다."}
+{"pair_id": "pair:52d5952c165299e0", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 끈이론·M이론과 양자 블랙홀을 연구하고 강의는 화학에서 쓰이는 슈뢰딩거 방정식과 기초 양자역학을 다뤄 물리학의 넓은 양자 기반 접점이 있다."}
+{"pair_id": "pair:ba6ce887ba7eb538", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 금속 합금의 계산재료과학·원자 시뮬레이션을 연구하고 강의는 CMOS 인버터·반도체 집적공정의 설계·제작을 다뤄 재료·소자 분야가 인접한다."}
+{"pair_id": "pair:579cee15f5f04d6c", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 대규모 머신러닝 최적화를 연구하고 강의는 딥러닝 학습·추론의 최적화·가속을 다룬다."}
+{"pair_id": "pair:132c00731356e04d", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 기후 시스템의 수치 예측을 연구하고 강의는 강화학습 이론과 RL 알고리즘을 다룬다."}
+{"pair_id": "pair:d35c6c90e03c12f8", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자로·열수력 문제의 AI-CFD·PINN·강화학습 제어를 연구하고 강의는 기계학습 기반 방법을 포함한 ODE·PDE 시계열 분석을 다룬다."}
+{"pair_id": "pair:a836043dfc7057c5", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 확률적으로 모델링한 생화학 반응 네트워크를 연구하고 강의는 화공 데이터 분석·AI와 Python 프로그래밍을 다룬다."}
+{"pair_id": "pair:432cd08e8d4914a7", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생체모사 고분자·전극 재료와 액-액 상분리를 연구하고 강의는 Navier–Stokes 방정식·격자 기반 CFD 수치해석을 다뤄 유체·재료의 제한적 접점이 있다."}
+{"pair_id": "pair:a559432030802f4f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 정보이론·코딩이론·정보처리와 최적화·학습이론을 연구하고 강의는 AI 연산용 지능형 반도체 하드웨어를 다룬다."}
+{"pair_id": "pair:37cc8addcdc21a4f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 단백질·DNA 상호작용의 구조생물학을 연구하고 강의는 바이오센서·신경 인터페이스 등 생물 환경에 접하는 실리콘 시스템을 다뤄 생물·바이오 분야의 접점이 있다."}
+{"pair_id": "pair:f73879cd3714cb3c", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 생화학 반응 네트워크의 확률적 구조를 연구하고 강의는 강화학습 알고리즘과 의사결정 방법을 다룬다."}
+{"pair_id": "pair:4d75060ca94f4a0a", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 음성인식·음성처리와 웨어러블 디바이스를 연구하고 강의는 과학기술의 공공 소통과 사회적 맥락을 다룬다."}
+{"pair_id": "pair:ce05bd66b3453455", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 광·전기화학 유기합성과 전기촉매 반응을 연구하고 강의는 재료과학을 위한 전기화학과 전극 과정을 다룬다."}
+{"pair_id": "pair:0f43ff42d8884bc3", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 레이더 영상·신호 분석을 연구하고 강의는 3차원 영상 처리 알고리즘을 다뤄 영상 분석의 일반적 방법론이 인접한다."}
+{"pair_id": "pair:963d611af7c03395", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 신호처리·제어와 최적화 이론을 연구하고 강의는 의료영상의 3차원 디지털 처리·분석 방법을 다뤄 신호·계산 기법의 인접성이 있다."}
+{"pair_id": "pair:62a63f70e139ac90", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 데이터 시스템·AI 데이터베이스와 에이전트를 연구하고 강의는 Python·데이터 도구·AI 코딩 보조를 이용한 데이터과학 프로그래밍을 다룬다."}
+{"pair_id": "pair:93dd5d3190ec773b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 기하 알고리즘·최근접 이웃 탐색과 Voronoi 자료구조를 연구하고 강의는 NLP의 기초와 응용을 다뤄 알고리즘 구현 측면의 일반적 인접성이 있다."}
+{"pair_id": "pair:ad79337d97182cdd", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 소프트웨어의 형식 검증·안전성을 연구하고 강의는 반도체 제조공정·소자 제작과 집적을 다룬다."}
+{"pair_id": "pair:766060103c1b1ab4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 DNA 수선·단일분자·세포 동역학을 연구하고 강의는 생화학·생물물리 실험의 단백질·생명공학 연구 원리를 다룬다."}
+{"pair_id": "pair:9299ae72025cfeb9", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 리튬배터리 소재·전극을 연구하고 강의는 에너지 전환·저장 소재의 전기화학 기초와 응용을 다룬다."}
+{"pair_id": "pair:2fd73394b6b2dd61", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전극 소재·전도성 하이드로젤을 연구하고 강의는 화학 연구 결과를 공유하는 대학원 문헌 세미나다."}
+{"pair_id": "pair:f65fc43ce5865c3f", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 신호처리·제어와 볼록 최적화 이론을 연구하고 강의는 제조 문제에 적용하는 선형·로지스틱 회귀·행렬 분해 등 기계지능 기법을 다뤄 수학·최적화 방법이 인접한다."}
+{"pair_id": "pair:07146563559691e1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 전기촉매·전기화학 유기합성을 연구하고 강의는 재료공학을 위한 전기화학의 기초와 전극 반응을 다룬다."}
+{"pair_id": "pair:43b5278932c152e4", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 원자로·열수력 문제에서 PINN·AI-CFD·강화학습 제어를 연구하고 강의는 경제 실증분석의 통계적 추론·회귀·계량 방법을 다룬다."}
+{"pair_id": "pair:f51cd8dc2eea21fe", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 빔·플라즈마·가속기 물리를 연구하고 강의는 고주파 RF·아날로그 회로 설계를 다뤄 전자기·고주파 현상에서 인접성이 있다."}
+{"pair_id": "pair:771a9927d4ed5639", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 다세포 스페로이드 모델링용 하이브리드 하이드로젤을 설계하고 강의는 바이오센서·조직·생물환경을 위한 실리콘-바이오 계면을 다룬다."}
+{"pair_id": "pair:abe235ae7ce83eeb", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 혐기성 미생물 군집과 환경 생물공정을 연구하고 강의는 재생에너지·환경 기술과 수처리·에너지 시스템을 다룬다."}
+{"pair_id": "pair:b066690ace11b41b", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 동적 환경에서 최근접 이웃·Voronoi 알고리즘과 자료구조를 연구하고 강의는 의료영상 처리의 계산 기법을 다뤄 알고리즘 관점의 일반적 인접성이 있다."}
+{"pair_id": "pair:785effa90d9f4da1", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 나노소자·열전 에너지 변환을 연구하고 강의는 전기화학 기반 배터리와 에너지저장 시스템을 설계·분석한다."}
+{"pair_id": "pair:792a2e1a509e3ed7", "relevance": 1, "insufficient_evidence": false, "reason": "교수 연구는 정치행동·정치커뮤니케이션을 연구하고 강의는 AI 기술의 사회적 영향·윤리를 포함한 동향을 다뤄 사회 영향 측면의 접점이 있다."}
+{"pair_id": "pair:961aa5a189930cd1", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 응축상 분자의 여기자·광물리 동역학을 연구하고 강의는 빛-물질 상호작용·흡수·방출과 반도체 광학 현상을 다룬다."}
+{"pair_id": "pair:b696d5832befba6f", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 확산 모델을 이용한 로봇 동작 예측·학습을 연구하고 강의는 Python·NumPy·신경망·ML을 활용하는 데이터과학 프로그래밍을 다룬다."}
+{"pair_id": "pair:c10423ecafb015ce", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 생체모사 나노소재·하이드로젤 수용체를 연구하고 강의는 재료의 원자단위 분자동역학·Monte Carlo 시뮬레이션을 다뤄 소재 연구 방법이 인접한다."}
+{"pair_id": "pair:6705277b026ce811", "relevance": 0, "insufficient_evidence": false, "reason": "연구실은 물류·공급망의 차량경로·시설배치와 스케줄링을 연구하고 강의는 VLSI 반도체 설계 자동화의 배치·배선 알고리즘을 다룬다."}
+{"pair_id": "pair:842a2173a7742c95", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 세포 내 분자 시스템의 합성생물학·분자컴퓨팅을 연구하고 강의는 MATLAB 프로그래밍으로 전자공학 주제를 구현한다."}
+{"pair_id": "pair:c41f2f0012eaaaee", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 기계학습 방법을 연구하고 강의는 LLM을 포함한 현대 ML 시스템의 통계학습·일반화 이론을 다룬다."}
+{"pair_id": "pair:7cd7d03486fd7f4c", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 끈이론·M이론과 양자장 이론을 연구하고 강의는 화학의 슈뢰딩거 방정식과 기초 양자역학을 다뤄 양자 이론의 넓은 기반이 있다."}
+{"pair_id": "pair:e0185747add0f503", "relevance": 2, "insufficient_evidence": false, "reason": "연구실은 상변화 메모리와 고분자 재료의 구조·물성을 연구하고 강의는 재료의 원자단위 분자동역학·Monte Carlo 시뮬레이션을 다룬다."}
+{"pair_id": "pair:1b9cf457d3dc7856", "relevance": 1, "insufficient_evidence": false, "reason": "연구실은 전력망·건물 수요반응과 에너지 수급을 연구하고 강의는 전력변환 회로와 태양광·저장 시스템의 설계·응용을 다뤄 에너지 시스템에서 인접성이 있다."}
+{"pair_id": "pair:f48435989a8dad02", "relevance": 1, "insufficient_evidence": false, "reason": "수학 연구실은 위상수학을 연구하고 강의는 기하 변환·3차원 모델링 등 컴퓨터 그래픽스의 기하학적 기초를 다뤄 수학적 기반의 인접성이 있다."}

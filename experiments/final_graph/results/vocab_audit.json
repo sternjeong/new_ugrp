@@ -1,0 +1,240 @@
+{
+  "sources": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+    "data/concepts.json": "afd98baddf1e9cc8728bdaea3da2ffd6be5a25591f6573642ea84718170be194"
+  },
+  "vocabulary_size": 70,
+  "lab": {
+    "rows": 365,
+    "primary_fields": [
+      "keywords",
+      "research_intro",
+      "representative_titles",
+      "representative_abstracts"
+    ],
+    "primary_rows_with_any": 312,
+    "rows_with_any": 326,
+    "rows_without_any": 39,
+    "rows_with_method_term": 292,
+    "rows_with_domain_term": 322,
+    "by_field": {
+      "keywords": 181,
+      "research_intro": 239,
+      "site_titles": 185,
+      "site_abstracts": 23,
+      "professor_titles": 271,
+      "professor_abstracts": 14,
+      "representative_titles": 244,
+      "representative_abstracts": 262
+    },
+    "most_common_concepts": [
+      [
+        "photonics_optics",
+        155
+      ],
+      [
+        "optimization",
+        154
+      ],
+      [
+        "machine_learning",
+        152
+      ],
+      [
+        "semiconductor_process_packaging",
+        151
+      ],
+      [
+        "materials_science",
+        146
+      ],
+      [
+        "brain_neuroscience",
+        146
+      ],
+      [
+        "device_simulation_dft",
+        143
+      ],
+      [
+        "algorithms_theory",
+        137
+      ],
+      [
+        "wireless_communications",
+        126
+      ],
+      [
+        "bioinformatics_molecules",
+        126
+      ],
+      [
+        "nanomaterials_2d",
+        125
+      ],
+      [
+        "statistics_probability",
+        120
+      ],
+      [
+        "ubiquitous_mobile_computing",
+        113
+      ],
+      [
+        "quantum",
+        106
+      ],
+      [
+        "circuit_design",
+        99
+      ]
+    ],
+    "unmatched_ids_sample": [
+      "lab:pheng.postech.ac.kr/eng/member/profile.php?id=3",
+      "00a2f37dcd22c6860346daa192299452",
+      "lab:ultrafast.postech.ac.kr",
+      "f99a04f1c7ba3fe4f420c343e9c9a1ca",
+      "lab:www.cslab.postech.ac.kr",
+      "c55f3ac184b92d8a222a1dd536c7718e",
+      "1e0986de5992f7715872118d72e5356f",
+      "7c88bde56638bce57265ef84445e62c6",
+      "4175cb53b8b76804974ca84a08632e6f",
+      "9cc5de834480380b39a9ba040ea333ed",
+      "362518836bc8de853ab46d626b49e969",
+      "6842f7d1d8cb3fcb0a90d165ca486c0a",
+      "2f7f390939a40327ca4ee9f4b8fa02d7",
+      "852b3d30f3ef3488e21f540f2bbeccea",
+      "208923b6d6740630e6871ed2f50441a9",
+      "lab:jhklab.weebly.com",
+      "715a1142968969cc852f18f49a024d7d",
+      "lab:www.juhongpark.com",
+      "lab:i-lab.postech.ac.kr",
+      "lab:anne.postech.ac.kr",
+      "a79d15cffa0894704db905e541a8363f",
+      "37474cd82f4ae221f4dd773bd75d2771",
+      "lab:analog.postech.ac.kr",
+      "lab:gistexel.com",
+      "lab:possport.postech.ac.kr/xe/main",
+      "lab:sites.google.com/view",
+      "lab:sites.google.com/view/youngjinkim/home",
+      "lab:nmaterials.postech.ac.kr",
+      "lab:www.mleelab.com",
+      "lab:sites.google.com/site/cslgiftpostech/home"
+    ]
+  },
+  "course": {
+    "rows": 1316,
+    "primary_fields": [
+      "title",
+      "description",
+      "objectives",
+      "plan"
+    ],
+    "primary_rows_with_any": 923,
+    "rows_with_any": 923,
+    "rows_without_any": 393,
+    "rows_with_method_term": 506,
+    "rows_with_domain_term": 784,
+    "by_field": {
+      "title": 527,
+      "description": 760,
+      "objectives": 760,
+      "plan": 735
+    },
+    "most_common_concepts": [
+      [
+        "materials_science",
+        156
+      ],
+      [
+        "bioinformatics_molecules",
+        139
+      ],
+      [
+        "statistics_probability",
+        137
+      ],
+      [
+        "machine_learning",
+        135
+      ],
+      [
+        "semiconductor_devices",
+        131
+      ],
+      [
+        "photonics_optics",
+        101
+      ],
+      [
+        "brain_neuroscience",
+        96
+      ],
+      [
+        "semiconductor_process_packaging",
+        95
+      ],
+      [
+        "quantum",
+        92
+      ],
+      [
+        "circuit_design",
+        88
+      ],
+      [
+        "software_engineering",
+        87
+      ],
+      [
+        "education_technology",
+        86
+      ],
+      [
+        "optimization",
+        71
+      ],
+      [
+        "device_simulation_dft",
+        68
+      ],
+      [
+        "thermal_transport",
+        63
+      ]
+    ],
+    "unmatched_ids_sample": [
+      "CSED399A",
+      "CSED399B",
+      "CSED399C",
+      "CSED499I",
+      "CSED499II",
+      "CSED69901",
+      "CSED69902",
+      "CSED69903",
+      "CSED69904",
+      "CSED69905",
+      "CSED69906",
+      "CSED69907",
+      "CSED69908",
+      "CSED69909",
+      "CSED89901",
+      "CSED89903",
+      "CSED89904",
+      "CSED89905",
+      "CSED89906",
+      "CSED89907",
+      "CSED89908",
+      "CSED89909",
+      "CSED100",
+      "CSED199",
+      "CSED399D",
+      "CSED800B",
+      "CSED500",
+      "MATH101",
+      "MATH210",
+      "MATH302"
+    ]
+  }
+}

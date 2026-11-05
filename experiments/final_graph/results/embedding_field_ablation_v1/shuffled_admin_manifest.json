@@ -1,0 +1,14 @@
+{
+  "status": "structural_sensitivity_unjudged",
+  "rankings_sha256": "6d90e3d28c8507a7628fdd835ccd2ff3b7921c40a097fc6b46b31aa35f65ba79",
+  "profiles_sha256": "7bdeeb0399cc052d0be780c94ca2c60a7da339c0dc2e5b036e51d85d9c0de62f",
+  "frame_sha256": "cdc166c07224471ba92a283e69896e14ee498ed73ce97d5e4593676dbeffcfa8",
+  "device": "cuda:0",
+  "cuda_name": "Tesla T4",
+  "model": "BAAI/bge-m3",
+  "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "max_seq_length": 256,
+  "shuffle": "nonempty admin chunks within entity kind; sha256 order, cyclic rotation",
+  "lab_nonempty": 180,
+  "course_nonempty": 941
+}

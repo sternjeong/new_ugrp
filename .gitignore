@@ -1,0 +1,6 @@
+# Local runtime and Python caches
+.local/
+__pycache__/
+*.pyc
+.venv/
+.env

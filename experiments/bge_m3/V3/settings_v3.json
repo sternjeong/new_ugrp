@@ -1,0 +1,33 @@
+{
+ "VARIANTS": {
+  "E": {
+   "lam": 0.7,
+   "diversify": "penalty",
+   "gamma": 0.03,
+   "beta": 0.04
+  },
+  "F": {
+   "lam": 0.3,
+   "diversify": "min1",
+   "beta": 0.04
+  },
+  "G": {
+   "lam": 0.3,
+   "diversify": "min1",
+   "beta": 0.08
+  },
+  "H": {
+   "lam": 0.0,
+   "diversify": null,
+   "beta": 0.08
+  }
+ },
+ "MIN1_MARGIN": 0.08,
+ "CUT_ALPHA": 0.35,
+ "CUT_MIN": 3,
+ "CUT_MAX": 10,
+ "MIN_CHARS": 30,
+ "PLAN_WINDOW": 3,
+ "N_JUDGE_LABS": 20,
+ "SEED": 7
+}

@@ -1,0 +1,239 @@
+{
+  "packet_sha256": "54e7d08b1eb0043a69948c6df8c8b1a5ceac5ee5bc653d1be3728d6464389f01",
+  "method_key_sha256": "8dac01466c4ce7da6af14236c80eb229a3cd9495828872dab1efd2c9eabee8d0",
+  "rankings_sha256": "e4251e17061b364923fa3eaad7bb55d8471d9b5381dd7c15832c6766022504b5",
+  "confirm_components": 18,
+  "confirm_labs": 28,
+  "confirm_pairs": 327,
+  "bootstrap": "component resampling; 5000 percentile replicates",
+  "judges": {
+    "A": {
+      "rating_counts": {
+        "2": 146,
+        "1": 122,
+        "0": 59
+      },
+      "insufficient_pairs": 0,
+      "variants": {
+        "core": {
+          "complete_components": 18,
+          "utility": 0.7777777777777778,
+          "utility_ci95": [
+            0.6831944444444445,
+            0.8611111111111112
+          ],
+          "zero_exposures": 11,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 7
+        },
+        "lab_admin": {
+          "complete_components": 18,
+          "utility": 0.6410493827160494,
+          "utility_ci95": [
+            0.5083333333333333,
+            0.7611111111111111
+          ],
+          "zero_exposures": 25,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 11
+        },
+        "course_admin": {
+          "complete_components": 18,
+          "utility": 0.7722222222222223,
+          "utility_ci95": [
+            0.6666666666666666,
+            0.8611111111111112
+          ],
+          "zero_exposures": 12,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 7
+        },
+        "both_admin": {
+          "complete_components": 18,
+          "utility": 0.5660493827160494,
+          "utility_ci95": [
+            0.4382716049382716,
+            0.6827314814814812
+          ],
+          "zero_exposures": 29,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 12
+        },
+        "learning_context": {
+          "complete_components": 18,
+          "utility": 0.7672839506172839,
+          "utility_ci95": [
+            0.6506172839506174,
+            0.8617283950617284
+          ],
+          "zero_exposures": 13,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 7
+        }
+      },
+      "contrasts": {
+        "core_minus_lab_admin": {
+          "paired_components": 18,
+          "mean": 0.1367283950617284,
+          "ci95": [
+            0.04783950617283953,
+            0.2367283950617284
+          ]
+        },
+        "core_minus_course_admin": {
+          "paired_components": 18,
+          "mean": 0.005555555555555556,
+          "ci95": [
+            0.0,
+            0.016666666666666666
+          ]
+        },
+        "core_minus_both_admin": {
+          "paired_components": 18,
+          "mean": 0.2117283950617284,
+          "ci95": [
+            0.11666666666666667,
+            0.30833333333333335
+          ]
+        },
+        "core_minus_learning_context": {
+          "paired_components": 18,
+          "mean": 0.01049382716049383,
+          "ci95": [
+            -0.0018518518518518452,
+            0.03333333333333333
+          ]
+        }
+      },
+      "ratings_sha256": "781ed537a3a9802b2824daa4754386e274d9e18dc8abcf5de23fb7e7e0843fa8"
+    },
+    "B": {
+      "rating_counts": {
+        "2": 140,
+        "1": 127,
+        "0": 60
+      },
+      "insufficient_pairs": 0,
+      "variants": {
+        "core": {
+          "complete_components": 18,
+          "utility": 0.7830246913580247,
+          "utility_ci95": [
+            0.6941358024691358,
+            0.8583333333333334
+          ],
+          "zero_exposures": 9,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 7
+        },
+        "lab_admin": {
+          "complete_components": 18,
+          "utility": 0.6203703703703703,
+          "utility_ci95": [
+            0.5037037037037038,
+            0.7268518518518519
+          ],
+          "zero_exposures": 23,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 11
+        },
+        "course_admin": {
+          "complete_components": 18,
+          "utility": 0.7774691358024691,
+          "utility_ci95": [
+            0.6774691358024691,
+            0.8583333333333334
+          ],
+          "zero_exposures": 10,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 7
+        },
+        "both_admin": {
+          "complete_components": 18,
+          "utility": 0.5611111111111111,
+          "utility_ci95": [
+            0.45555555555555555,
+            0.6611111111111111
+          ],
+          "zero_exposures": 33,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 15
+        },
+        "learning_context": {
+          "complete_components": 18,
+          "utility": 0.7780864197530865,
+          "utility_ci95": [
+            0.6693981481481481,
+            0.8641975308641976
+          ],
+          "zero_exposures": 11,
+          "judgeable_exposures": 140,
+          "labs_with_zero": 7
+        }
+      },
+      "contrasts": {
+        "core_minus_lab_admin": {
+          "paired_components": 18,
+          "mean": 0.1626543209876543,
+          "ci95": [
+            0.07530092592592591,
+            0.25555555555555554
+          ]
+        },
+        "core_minus_course_admin": {
+          "paired_components": 18,
+          "mean": 0.005555555555555556,
+          "ci95": [
+            0.0,
+            0.016666666666666666
+          ]
+        },
+        "core_minus_both_admin": {
+          "paired_components": 18,
+          "mean": 0.2219135802469136,
+          "ci95": [
+            0.11291666666666669,
+            0.3330246913580247
+          ]
+        },
+        "core_minus_learning_context": {
+          "paired_components": 18,
+          "mean": 0.00493827160493827,
+          "ci95": [
+            -0.01666666666666669,
+            0.03271604938271605
+          ]
+        }
+      },
+      "ratings_sha256": "915cbb4be9ca43d2cdb17974384fe7ddb7cfe1ff7cd2dadd9a789d86784e468a"
+    }
+  },
+  "exact_course_core_duplicate_slots": {
+    "core": {
+      "extra_slots": 14,
+      "lab_rows_with_duplicate": 12
+    },
+    "lab_admin": {
+      "extra_slots": 17,
+      "lab_rows_with_duplicate": 12
+    },
+    "course_admin": {
+      "extra_slots": 14,
+      "lab_rows_with_duplicate": 12
+    },
+    "both_admin": {
+      "extra_slots": 8,
+      "lab_rows_with_duplicate": 5
+    },
+    "learning_context": {
+      "extra_slots": 16,
+      "lab_rows_with_duplicate": 13
+    }
+  },
+  "agreement": {
+    "exact": 258,
+    "judged_both": 327,
+    "polar_0_vs_2": 2
+  },
+  "confirmatory_threshold_met": true
+}

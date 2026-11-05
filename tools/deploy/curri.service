@@ -1,0 +1,17 @@
+[Unit]
+Description=3분커리 (curri) 프로토타입 서버
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/app
+ExecStart=/usr/bin/python3 -m curri --host 127.0.0.1 --port 8200 --secure-cookie
+Restart=on-failure
+RestartSec=3
+# 1GB 서버에서 sshd 등 다른 프로세스를 보호
+MemoryMax=400M
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

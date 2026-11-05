@@ -1,0 +1,50 @@
+{
+  "scope": "known prior source rows exposed by command output; not exhaustive",
+  "advisor_ids": [
+    "00a2f37dcd22c6860346daa192299452",
+    "1e0986de5992f7715872118d72e5356f",
+    "208923b6d6740630e6871ed2f50441a9",
+    "209a80e9e8e4205c5add535212b0a0ba",
+    "2f7f390939a40327ca4ee9f4b8fa02d7",
+    "362518836bc8de853ab46d626b49e969",
+    "37474cd82f4ae221f4dd773bd75d2771",
+    "4175cb53b8b76804974ca84a08632e6f",
+    "6842f7d1d8cb3fcb0a90d165ca486c0a",
+    "715a1142968969cc852f18f49a024d7d",
+    "7c88bde56638bce57265ef84445e62c6",
+    "852b3d30f3ef3488e21f540f2bbeccea",
+    "9cc5de834480380b39a9ba040ea333ed",
+    "a79d15cffa0894704db905e541a8363f",
+    "c55f3ac184b92d8a222a1dd536c7718e",
+    "f99a04f1c7ba3fe4f420c343e9c9a1ca",
+    "lab:analog.postech.ac.kr",
+    "lab:anne.postech.ac.kr",
+    "lab:gistexel.com",
+    "lab:i-lab.postech.ac.kr",
+    "lab:jhklab.weebly.com",
+    "lab:nmaterials.postech.ac.kr",
+    "lab:pheng.postech.ac.kr/eng/member/profile.php?id=3",
+    "lab:possport.postech.ac.kr/xe/main",
+    "lab:sites.google.com/site/cslgiftpostech/home",
+    "lab:sites.google.com/view",
+    "lab:sites.google.com/view/youngjinkim/home",
+    "lab:ultrafast.postech.ac.kr",
+    "lab:www.cslab.postech.ac.kr",
+    "lab:www.juhongpark.com",
+    "lab:www.mleelab.com"
+  ],
+  "test_overlap": [
+    "00a2f37dcd22c6860346daa192299452",
+    "209a80e9e8e4205c5add535212b0a0ba",
+    "7c88bde56638bce57265ef84445e62c6",
+    "852b3d30f3ef3488e21f540f2bbeccea",
+    "lab:gistexel.com",
+    "lab:i-lab.postech.ac.kr",
+    "lab:www.juhongpark.com"
+  ],
+  "dev_overlap": [
+    "208923b6d6740630e6871ed2f50441a9",
+    "a79d15cffa0894704db905e541a8363f",
+    "lab:www.mleelab.com"
+  ]
+}

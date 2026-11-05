@@ -1,0 +1,761 @@
+{
+  "status": "frozen_before_rankings",
+  "topics": {
+    "battery": {
+      "label": "전고체 배터리",
+      "lab_id": "lab:269027c5b93829258d2eef4d0a38f196",
+      "source_list": "representative_papers",
+      "source_index": 1,
+      "paper_title": "Research Progresses of Garnet-Type Solid Electrolytes for Developing All-Solid-State Li Batteries"
+    },
+    "photonics": {
+      "label": "광자 양자통신",
+      "lab_id": "lab:04a4270953e536b3d89b39189ea28f5a",
+      "source_list": "representative_papers",
+      "source_index": 2,
+      "paper_title": "Quantum communication with time-bin entanglement over a wavelength-multiplexed fiber network"
+    },
+    "robotics": {
+      "label": "로봇 동작 학습",
+      "lab_id": "lab:032749fe44cb8a804902ff1aa9236d09",
+      "source_list": "representative_papers",
+      "source_index": 3,
+      "paper_title": "Self-Supervised Motion Retargeting with Safety Guarantee"
+    },
+    "llm": {
+      "label": "대형 언어모델 최적화",
+      "lab_id": "lab:12eecc7d8bcdc47fda0b04b169c3a660",
+      "source_list": "representative_papers",
+      "source_index": 1,
+      "paper_title": "Rethinking Pruning Large Language Models: Benefits and Pitfalls of Reconstruction Error Minimization"
+    },
+    "semiconductor": {
+      "label": "반도체 트랜지스터 센서",
+      "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac",
+      "source_list": "representative_papers",
+      "source_index": 1,
+      "paper_title": "Highly Sensitive Detection of Urea Using Si Electrolyte-Gated Transistor with Low Power Consumption"
+    },
+    "neuroscience": {
+      "label": "작업 기억 신경회로",
+      "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb",
+      "source_list": "representative_papers",
+      "source_index": 0,
+      "paper_title": "Distinct Roles of Parvalbumin- and Somatostatin-Expressing Interneurons in Working Memory"
+    },
+    "wireless": {
+      "label": "무선 의미통신",
+      "lab_id": "lab:247c2d847af8f32337fb7de6ad268360",
+      "source_list": "representative_papers",
+      "source_index": 0,
+      "paper_title": "Joint Source-Channel Coding for Channel-Adaptive Digital Semantic Communications"
+    },
+    "microscopy": {
+      "label": "홀로그래픽 현미경",
+      "lab_id": "lab:19b352c9ef06346d69d36e9456cdff0d",
+      "source_list": "representative_papers",
+      "source_index": 2,
+      "paper_title": "Digital in-line holographic microscopy for label-free identification and tracking of biological cells"
+    },
+    "architecture": {
+      "label": "메모리 중심 컴퓨터 구조",
+      "lab_id": "lab:8ad648173a74311bbdf5fd7872955c27",
+      "source_list": "representative_papers",
+      "source_index": 0,
+      "paper_title": "Low-Overhead General-Purpose Near-Data Processing in CXL Memory Expanders"
+    },
+    "haptics": {
+      "label": "햅틱 상호작용",
+      "lab_id": "lab:e5c3fc5f5173e1479fd4e72edd9c0599",
+      "source_list": "representative_papers",
+      "source_index": 0,
+      "paper_title": "Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement"
+    },
+    "radar": {
+      "label": "레이더 신호처리",
+      "lab_id": "lab:820d6eb33837425aab1270d236524366",
+      "source_list": "representative_papers",
+      "source_index": 4,
+      "paper_title": "Deep Learning Approach for Radar-Based People Counting"
+    },
+    "microbiome": {
+      "label": "장내 미생물",
+      "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+      "source_list": "representative_papers",
+      "source_index": 1,
+      "paper_title": "Food antigens drive spontaneous IgE elevation in the absence of commensal microbiota"
+    }
+  },
+  "queries": [
+    {
+      "id": "q01",
+      "text": "전고체 배터리 소재를 연구해 보고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "battery"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q02",
+      "text": "광자를 이용한 양자통신이 궁금합니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "photonics"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q03",
+      "text": "로봇 동작 학습을 다루는 연구실을 찾고 싶습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "robotics"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q04",
+      "text": "대형 언어모델의 효율을 높이는 연구를 하고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "llm"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q05",
+      "text": "반도체 트랜지스터 센서에 관심이 있습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "semiconductor"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q06",
+      "text": "기억을 담당하는 신경회로가 궁금해요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "neuroscience"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q07",
+      "text": "무선 의미통신 연구를 해보고 싶습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "wireless"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q08",
+      "text": "홀로그래픽 현미경으로 세포를 관찰하는 연구가 좋아요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "microscopy"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q09",
+      "text": "메모리 중심 컴퓨터 구조를 공부하고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "architecture"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q10",
+      "text": "햅틱 상호작용 기술을 연구하고 싶습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "haptics"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q11",
+      "text": "레이더 신호처리와 영상화에 관심이 있어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "radar"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q12",
+      "text": "장내 미생물과 면역의 관계를 알고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "microbiome"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q13",
+      "text": "리튬 금속 전지의 고체 전해질 연구실을 찾습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "battery"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q14",
+      "text": "얽힌 광자로 정보를 보내는 연구를 하고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "photonics"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q15",
+      "text": "로봇이 사람의 행동을 학습하는 문제에 관심 있습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "robotics"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q16",
+      "text": "언어모델 경량화 방법이 궁금합니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "llm"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q17",
+      "text": "실리콘 기반 센서 소자를 만들고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "semiconductor"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q18",
+      "text": "통신 채널에 맞춰 정보를 보내는 방법을 연구하고 싶어요.",
+      "group": "positive_only",
+      "positive_targets": [
+        "wireless"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q19",
+      "text": "촉각 피드백을 만드는 연구가 재미있습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "haptics"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q20",
+      "text": "SAR 레이더 영상 처리에 관심이 있습니다.",
+      "group": "positive_only",
+      "positive_targets": [
+        "radar"
+      ],
+      "negative_targets": [],
+      "ambiguous": false
+    },
+    {
+      "id": "q21",
+      "text": "전고체 배터리는 싫고 로봇 동작 학습을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "robotics"
+      ],
+      "negative_targets": [
+        "battery"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q22",
+      "text": "전고체 배터리 말고 로봇 동작 학습에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "robotics"
+      ],
+      "negative_targets": [
+        "battery"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q23",
+      "text": "로봇 동작 학습은 싫고 전고체 배터리를 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "battery"
+      ],
+      "negative_targets": [
+        "robotics"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q24",
+      "text": "로봇 동작 학습 말고 전고체 배터리에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "battery"
+      ],
+      "negative_targets": [
+        "robotics"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q25",
+      "text": "광자 양자통신은 싫고 장내 미생물을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "microbiome"
+      ],
+      "negative_targets": [
+        "photonics"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q26",
+      "text": "광자 양자통신 말고 장내 미생물에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "microbiome"
+      ],
+      "negative_targets": [
+        "photonics"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q27",
+      "text": "장내 미생물은 싫고 광자 양자통신을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "photonics"
+      ],
+      "negative_targets": [
+        "microbiome"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q28",
+      "text": "장내 미생물 말고 광자 양자통신에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "photonics"
+      ],
+      "negative_targets": [
+        "microbiome"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q29",
+      "text": "대형 언어모델 최적화는 싫고 반도체 트랜지스터 센서를 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "semiconductor"
+      ],
+      "negative_targets": [
+        "llm"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q30",
+      "text": "대형 언어모델 최적화 말고 반도체 트랜지스터 센서에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "semiconductor"
+      ],
+      "negative_targets": [
+        "llm"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q31",
+      "text": "반도체 트랜지스터 센서는 싫고 대형 언어모델 최적화를 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "llm"
+      ],
+      "negative_targets": [
+        "semiconductor"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q32",
+      "text": "반도체 트랜지스터 센서 말고 대형 언어모델 최적화에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "llm"
+      ],
+      "negative_targets": [
+        "semiconductor"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q33",
+      "text": "작업 기억 신경회로는 싫고 메모리 중심 컴퓨터 구조를 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "architecture"
+      ],
+      "negative_targets": [
+        "neuroscience"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q34",
+      "text": "작업 기억 신경회로 말고 메모리 중심 컴퓨터 구조에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "architecture"
+      ],
+      "negative_targets": [
+        "neuroscience"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q35",
+      "text": "메모리 중심 컴퓨터 구조는 싫고 작업 기억 신경회로를 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "neuroscience"
+      ],
+      "negative_targets": [
+        "architecture"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q36",
+      "text": "메모리 중심 컴퓨터 구조 말고 작업 기억 신경회로에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "neuroscience"
+      ],
+      "negative_targets": [
+        "architecture"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q37",
+      "text": "무선 의미통신은 싫고 햅틱 상호작용을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "haptics"
+      ],
+      "negative_targets": [
+        "wireless"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q38",
+      "text": "무선 의미통신 말고 햅틱 상호작용에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "haptics"
+      ],
+      "negative_targets": [
+        "wireless"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q39",
+      "text": "햅틱 상호작용은 싫고 무선 의미통신을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "wireless"
+      ],
+      "negative_targets": [
+        "haptics"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q40",
+      "text": "햅틱 상호작용 말고 무선 의미통신에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "wireless"
+      ],
+      "negative_targets": [
+        "haptics"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q41",
+      "text": "홀로그래픽 현미경은 싫고 레이더 신호처리를 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "radar"
+      ],
+      "negative_targets": [
+        "microscopy"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q42",
+      "text": "홀로그래픽 현미경 말고 레이더 신호처리에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "radar"
+      ],
+      "negative_targets": [
+        "microscopy"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q43",
+      "text": "레이더 신호처리는 싫고 홀로그래픽 현미경을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "microscopy"
+      ],
+      "negative_targets": [
+        "radar"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q44",
+      "text": "레이더 신호처리 말고 홀로그래픽 현미경에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "microscopy"
+      ],
+      "negative_targets": [
+        "radar"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q45",
+      "text": "전고체 배터리는 싫고 광자 양자통신을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "photonics"
+      ],
+      "negative_targets": [
+        "battery"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q46",
+      "text": "전고체 배터리 말고 광자 양자통신에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "photonics"
+      ],
+      "negative_targets": [
+        "battery"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q47",
+      "text": "장내 미생물은 싫고 로봇 동작 학습을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "robotics"
+      ],
+      "negative_targets": [
+        "microbiome"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q48",
+      "text": "장내 미생물 말고 로봇 동작 학습에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "robotics"
+      ],
+      "negative_targets": [
+        "microbiome"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q49",
+      "text": "반도체 트랜지스터 센서는 싫고 무선 의미통신을 연구하고 싶어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "wireless"
+      ],
+      "negative_targets": [
+        "semiconductor"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q50",
+      "text": "반도체 트랜지스터 센서 말고 무선 의미통신에 관심이 있어요.",
+      "group": "explicit_negative",
+      "positive_targets": [
+        "wireless"
+      ],
+      "negative_targets": [
+        "semiconductor"
+      ],
+      "ambiguous": false
+    },
+    {
+      "id": "q51",
+      "text": "전고체 배터리도 흥미롭지만 반도체 트랜지스터 센서가 더 끌려요.",
+      "group": "ambiguous",
+      "positive_targets": [
+        "battery",
+        "semiconductor"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q52",
+      "text": "광자 양자통신은 해봤고 로봇 동작 학습도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous",
+      "positive_targets": [
+        "photonics",
+        "robotics"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q53",
+      "text": "대형 언어모델 최적화도 흥미롭지만 작업 기억 신경회로가 더 끌려요.",
+      "group": "ambiguous",
+      "positive_targets": [
+        "llm",
+        "neuroscience"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q54",
+      "text": "무선 의미통신은 해봤고 레이더 신호처리도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous",
+      "positive_targets": [
+        "wireless",
+        "radar"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q55",
+      "text": "햅틱 상호작용도 흥미롭지만 홀로그래픽 현미경이 더 끌려요.",
+      "group": "ambiguous",
+      "positive_targets": [
+        "haptics",
+        "microscopy"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q56",
+      "text": "메모리 중심 컴퓨터 구조는 해봤고 대형 언어모델 최적화도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous",
+      "positive_targets": [
+        "architecture",
+        "llm"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q57",
+      "text": "장내 미생물도 흥미롭지만 전고체 배터리가 더 끌려요.",
+      "group": "ambiguous",
+      "positive_targets": [
+        "microbiome",
+        "battery"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q58",
+      "text": "로봇 동작 학습은 해봤고 햅틱 상호작용도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous",
+      "positive_targets": [
+        "robotics",
+        "haptics"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q59",
+      "text": "반도체 트랜지스터 센서도 흥미롭지만 광자 양자통신이 더 끌려요.",
+      "group": "ambiguous",
+      "positive_targets": [
+        "semiconductor",
+        "photonics"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    },
+    {
+      "id": "q60",
+      "text": "작업 기억 신경회로는 해봤고 장내 미생물도 궁금해요. 어느 쪽이 맞을까요?",
+      "group": "ambiguous",
+      "positive_targets": [
+        "neuroscience",
+        "microbiome"
+      ],
+      "negative_targets": [],
+      "ambiguous": true
+    }
+  ]
+}

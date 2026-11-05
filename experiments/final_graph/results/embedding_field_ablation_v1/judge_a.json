@@ -1,0 +1,1968 @@
+{
+  "packet_sha256": "54e7d08b1eb0043a69948c6df8c8b1a5ceac5ee5bc653d1be3728d6464389f01",
+  "judge": "A",
+  "ratings": [
+    {
+      "pair_id": "pair:c4dc6950862d74cd",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Course directly teaches OS memory, storage, file systems, and I/O; the lab's papers study SSD/CXL memory, flash storage, and systems software."
+    },
+    {
+      "pair_id": "pair:6a4e621a7f759962",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab studies single-cell biology and cell heterogeneity; the course provides broad experimental biochemistry/biophysics methods, but not the lab's central single-cell methods or adipose/immunology topics."
+    },
+    {
+      "pair_id": "pair:fc6fe514a98f2d78",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's wireless sensing, voice AI, and fault detection work has no meaningful preparation link to operations management and supply-chain optimization."
+    },
+    {
+      "pair_id": "pair:593fad60c71f7b6c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's enriched category/Morita theory is not preparation for a philosophy and academic-writing course."
+    },
+    {
+      "pair_id": "pair:7fd843d8746e00e2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab develops fluorescent probes and luminescent materials, which has a broad materials/optical-properties connection to semiconductor materials; the course does not cover the lab's molecular probes or biological imaging directly."
+    },
+    {
+      "pair_id": "pair:37ddaa598b0bd8d3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's stretchable materials, fabrication, and shell mechanics work is not meaningfully prepared by the listed general machine-learning course, which does not connect to these topics."
+    },
+    {
+      "pair_id": "pair:c6056bcb6c8ec1e8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab analyzes marine ecosystem production and carbon capture; broad biological and biophysical experimental principles may transfer, though the course's molecular biochemistry topics do not directly address marine ecology or carbon accounting."
+    },
+    {
+      "pair_id": "pair:bec4adf24bcd2aa7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab explicitly develops machine-learning approaches and PDE/operator-learning methods; the course covers core ML algorithms and statistical foundations directly useful for that work."
+    },
+    {
+      "pair_id": "pair:78ac6769c9c8d51d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab's organic reaction and catalysis research has some foundational quantum-mechanics connection to the quantum-computing course, but the course is not preparation in organic synthesis or catalysis."
+    },
+    {
+      "pair_id": "pair:8099cfa0bd9316c7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab studies fluorescent probes and luminescent functional materials; the open-topic electronic-materials journal course offers a broad materials-research reading format, but no direct connection to its core semiconductor or device topics is shown."
+    },
+    {
+      "pair_id": "pair:b8a37f0fbe79e8d7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab's work is computational imaging, optics, inverse reconstruction, polarization, and learned methods; the course directly teaches these imaging systems and algorithms."
+    },
+    {
+      "pair_id": "pair:69ac4bc4cbf8942c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Electrolyte transport and electrode interfaces are broadly relevant to energy materials and electrochemical characterization, but the lab focuses on hydrogen hydrides and corrosion rather than organic battery electrolytes."
+    },
+    {
+      "pair_id": "pair:1f3cb8c5a83a7aa7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies gut pathogens, microbiota, intestinal inflammation, and host responses; the course directly teaches immune mechanisms, pathogen recognition, and inflammation."
+    },
+    {
+      "pair_id": "pair:48a0dcaaeec5237f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab studies cell-penetrating peptides, synthetic biology, and engineered biological systems; cell-signaling and microbiome concepts are broadly adjacent but are not direct preparation for its aptamer, ribozyme, and cell-mimetic work."
+    },
+    {
+      "pair_id": "pair:def2280a5aecb3bc",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab investigates stem-cell dynamics, regeneration, gene regulation, and cellular reprogramming; molecular biology directly covers gene function, transcription, cell cycle, and related mechanisms."
+    },
+    {
+      "pair_id": "pair:6fecbf0f3084a406",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's laser processing, microscale heat transfer, and metal additive manufacturing are not materially prepared by this general machine-learning course."
+    },
+    {
+      "pair_id": "pair:f6486a16dc8e8d4a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab researches arc-fault detection and converter faults in power systems; the course directly teaches control-system modeling, MATLAB simulation, feedback design, and stability analysis."
+    },
+    {
+      "pair_id": "pair:f73ab82947f77065",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies hydrogen materials and embrittlement; the course directly covers energy systems, thermodynamic analysis, and hydrogen systems for transportation."
+    },
+    {
+      "pair_id": "pair:d6c5da259848193f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab's ion mobility and mass-spectrometry work has a broad connection to ion behavior, but the course focuses on ions in organic electrolytes and battery interfaces rather than gas-phase biomolecular ions or mass spectrometry."
+    },
+    {
+      "pair_id": "pair:dbc974fe4ef58c11",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course introduces mechanical-engineering research areas and problem-solving, which is broadly relevant to the lab's metal printing and laser micromachining; it provides little specific technical preparation for those topics."
+    },
+    {
+      "pair_id": "pair:48d30fafe9894d01",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab designs fluorescent probes and photoactive materials, while the course treats quantum transport in solid-state materials and measurement methods; the shared physics/materials foundation is broad, not directly aligned with the lab's biological imaging work."
+    },
+    {
+      "pair_id": "pair:d9be78b0826fba80",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops synthetic biology, protein production, nucleic-acid diagnostics, and metabolic engineering; the course directly teaches computational protein/enzyme design and microbial metabolic modeling for synthetic biology."
+    },
+    {
+      "pair_id": "pair:995100e88eb2c907",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab works on aptamer biosensors, artificial cells, and synthetic enzymes; the course directly covers DNA/protein chips, biosensing, fluorescence, cell membranes, and nanoscale bioengineering."
+    },
+    {
+      "pair_id": "pair:df7d5779ec857404",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab's battery and electrocatalysis research directly matches the course's battery-material design, electrode chemistry, electrolyte fundamentals, and evaluation methods."
+    },
+    {
+      "pair_id": "pair:9d56c5b98cbd3bf7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies laser-based metal additive manufacturing and microscale heat transfer; the course directly teaches conduction, convection, energy equations, solidification, and numerical heat-transfer methods."
+    },
+    {
+      "pair_id": "pair:8ade45e21cd17daa",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab includes robot trajectory control and energy systems, while the course covers PWM converter control; the connection is broad because most lab work shown is LiDAR/robotics rather than power electronics."
+    },
+    {
+      "pair_id": "pair:2454176d01019a4f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab examines user experience with blockchain and the course studies social aspects of technology; this is a broad technology-society connection, though the course does not directly teach blockchain or user-centered evaluation."
+    },
+    {
+      "pair_id": "pair:56a1b79862bee4e1",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies SSDs, flash, CXL memory, and storage systems; the course directly covers DRAM, flash, and next-generation memory-device principles and processes."
+    },
+    {
+      "pair_id": "pair:164bca8c21a15a6a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab works in metabolic engineering and synthetic biology; the course directly covers synthetic DNA, gene circuits, genome editing, minimal cells, and cell-free synthetic biology."
+    },
+    {
+      "pair_id": "pair:a763b4c53364ca2a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab applies deep learning and statistical models to wireless sensing and fault prediction; the course teaches the linear algebra, probability, optimization, and core ML methods that prepare for this work."
+    },
+    {
+      "pair_id": "pair:1fb05a72a74615eb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies user perspectives and design of blockchain applications; the course directly teaches technology design, social research, qualitative field methods, and prototyping user-oriented solutions."
+    },
+    {
+      "pair_id": "pair:866787c799d0c18d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course introduces electrical-engineering research and participation, broadly exposing students to the lab's field; it offers no specific preparation for converters, fault detection, or power networks."
+    },
+    {
+      "pair_id": "pair:6e7060853dd76e66",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops fluorescent probes and luminescent materials; the course directly teaches spectroscopy, optical absorption/emission, microscopy, and material-characterization principles."
+    },
+    {
+      "pair_id": "pair:da184751a0293117",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Cell culture, PCR, RNA preparation, and molecular biology lab techniques provide broad biological groundwork for the lab's cancer and immune studies, but the course does not prepare students for its machine-learning/drug-response methods specifically."
+    },
+    {
+      "pair_id": "pair:a2e9475b35a18eb4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies PV and converter faults in electrical energy systems; the course directly covers power grids, generation/transmission, renewable resources, fault analysis, and power-system operation."
+    },
+    {
+      "pair_id": "pair:f5e627b00675b1dd",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab studies social behavior, neural circuits, and neuroimmune mechanisms; digital fabrication tools and prototyping do not prepare students for these biological questions."
+    },
+    {
+      "pair_id": "pair:f6ccd83b74d50d51",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab uses neural-network methods for kinetic equations, while the course provides general AI mathematics; this is a broad mathematical-method connection, not direct preparation in kinetic PDEs or Boltzmann theory."
+    },
+    {
+      "pair_id": "pair:6a332aa121ef13ad",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab combines biological diagnostics, synthetic biology, and engineered biomolecules; the course directly surveys chemical-biology tools, screening, structural biology, and biomolecular design."
+    },
+    {
+      "pair_id": "pair:4db10b1cd43d5421",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab's synthetic biology and molecular diagnostics have some broad chemistry/measurement connection to physical-chemistry experiments, but the course's listed electrolyte, thermodynamic, and spectroscopy labs are not direct preparation for genetic circuits or cell-free biology."
+    },
+    {
+      "pair_id": "pair:b71738e81bbca734",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab performs metabolic engineering and synthetic biology; the course directly teaches protein/enzyme design and microbial metabolic modeling and engineering."
+    },
+    {
+      "pair_id": "pair:277cc787e1607a71",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies switching converters and converter control; the course directly covers converter modeling, PWM topologies, and control design."
+    },
+    {
+      "pair_id": "pair:6d6752e4370f9bca",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Thermodynamics is broadly relevant to laser-material interactions and metal processing, but the course focuses on system thermodynamics and energy conversion rather than the lab's heat-transfer and additive-manufacturing methods."
+    },
+    {
+      "pair_id": "pair:ea16ba40c812e652",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies metal hydrides, hydrogen embrittlement, and in-situ characterization; the course directly covers hydrogen storage materials, metal-hydrogen reactions, embrittlement, and measurement."
+    },
+    {
+      "pair_id": "pair:da3b7e32e52fbce6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab investigates stem-cell dynamics, differentiation, and tissue regeneration; the course directly teaches stem-cell mechanisms and regenerative biology."
+    },
+    {
+      "pair_id": "pair:b9d9d5979a9d92c0",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab studies user perspectives on blockchain and technology adoption, while the course addresses public communication and social reception of technology; this is adjacent context rather than direct UX research preparation."
+    },
+    {
+      "pair_id": "pair:bc63b15325974935",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "This is a life-science research-participation course that places students in active laboratories for experiments and training; the lab's stem-cell and regeneration studies are directly within the course's stated life-science research scope."
+    },
+    {
+      "pair_id": "pair:6a3ffad968c09400",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Constructive logic and proof assistants provide broad theoretical-computing foundations, but the course does not address operating systems, storage, or memory systems directly."
+    },
+    {
+      "pair_id": "pair:97a7d484b654b065",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab measures marine carbon removal and ecosystem production; the course directly teaches gas solubility, aqueous carbonate chemistry, environmental measurement, and analytical methods relevant to those measurements."
+    },
+    {
+      "pair_id": "pair:8849aae8fc33872a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies kinetic equations and Boltzmann systems; the course explicitly teaches Boltzmann transport, scattering, and nanoscale energy transport, providing direct mathematical and physical preparation."
+    },
+    {
+      "pair_id": "pair:45a64156981368e6",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab engineers microbial systems, while the course covers biomaterials, cells, and biofabrication; it offers broad cell/biomanufacturing context but focuses on tissue therapies rather than microbial metabolic engineering."
+    },
+    {
+      "pair_id": "pair:3e89deacb6b7482e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab researches batteries, fuel cells, and electrocatalysis; the course directly covers electrochemistry and materials for batteries, fuel cells, and electrolyzers."
+    },
+    {
+      "pair_id": "pair:8f5c4fdf6b28533d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Environmental electrochemistry and analytical methods are broadly relevant to environmental processes, but the lab's marine ecosystem carbon-removal work is not specifically electrochemical."
+    },
+    {
+      "pair_id": "pair:249eaf8c8b4bfb4b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies engineered bacteria, microbial biorefineries, and metabolic engineering; the course directly covers microbial metabolism, growth, genetics, and bacterial systems."
+    },
+    {
+      "pair_id": "pair:ef1dcc5d3c190935",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies gut microbiota, pathogens, inflammation, and host metabolism; the course directly covers biochemistry, metabolism, cell signaling, macromolecules, and biochemical methods."
+    },
+    {
+      "pair_id": "pair:47786d1c1be863d3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's metal additive manufacturing and laser-materials research has no preparation link to the general machine-learning topics shown."
+    },
+    {
+      "pair_id": "pair:1dc53417434ddcd0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab applies machine learning to prediction, imaging, and PDE-constrained problems; the course teaches core ML models and mathematical/statistical foundations directly relevant to these methods."
+    },
+    {
+      "pair_id": "pair:d82fab4affd645b5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies electrocatalysis and energy materials; the course directly covers electrode processes, electrochemical kinetics, batteries, fuel cells, electrolysis, and corrosion."
+    },
+    {
+      "pair_id": "pair:5132a41b1b7c521b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops polymers, microfluidic particles, cell-like systems, and RNA delivery materials; the course directly covers nanoscale biofabrication, membranes, fluorescence, LNPs, and drug delivery."
+    },
+    {
+      "pair_id": "pair:27bf29d4026acbcf",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab analyzes cancer drug response and immune genetics; the course directly teaches genetic inheritance, cancer genetics, and genomics techniques relevant to those studies."
+    },
+    {
+      "pair_id": "pair:813b2f028e6fbeb7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Catalysis, energy conversion, and electrochemistry in the course are broadly adjacent to microbial chemical production, but it does not directly prepare students for metabolic or synthetic biology."
+    },
+    {
+      "pair_id": "pair:6e36916e3f52da8a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops catalytic organic transformations and stereoselective synthesis; the course directly teaches modern organic synthesis, reaction mechanisms, organoboron chemistry, and catalytic methods."
+    },
+    {
+      "pair_id": "pair:a572ab7e1833d3d3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's enriched category theory research has no meaningful preparation link to the course's machine-learning mathematics topics."
+    },
+    {
+      "pair_id": "pair:2bb1792973c90518",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The course surveys computer-science research areas, while the lab studies power converters and electrical fault diagnosis; no direct preparation link is shown."
+    },
+    {
+      "pair_id": "pair:dcfea02bd2f291b2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies biomolecular structures and protein complexes; the course directly teaches protein structure determination and analysis by crystallography and cryo-EM."
+    },
+    {
+      "pair_id": "pair:dc62854be41ab388",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's enriched category theory research has no preparation link to this philosophy and academic-writing course."
+    },
+    {
+      "pair_id": "pair:e773a36efdaab868",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course covers AIoT and voice-AI trends, which are adjacent to the lab's wireless sensing and voice-AI applications, but it is a trends survey rather than technical preparation."
+    },
+    {
+      "pair_id": "pair:a174f50b1be9b866",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops catalytic organic reactions and organoboron transformations; the course directly teaches physical-organic mechanisms and catalytic reactions."
+    },
+    {
+      "pair_id": "pair:2cc98b00040dc3ed",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's enriched category theory work is not directly prepared by a general PDE analysis course."
+    },
+    {
+      "pair_id": "pair:4a4a805191392737",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab uses ion mobility and mass spectrometry to study molecular complexes; the course directly trains students in chemical analysis, ion-exchange, spectrometry, and fluorescence methods."
+    },
+    {
+      "pair_id": "pair:f9a591fa93481a10",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies biomolecular and cell-mimetic materials; the course directly covers nanoscale biofabrication, soft matter, optical materials, and organic solar-cell methods."
+    },
+    {
+      "pair_id": "pair:25e00f7ddfd26c3a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's mechanics and materials research has no specific preparation connection to the general machine-learning course."
+    },
+    {
+      "pair_id": "pair:f2d84a53e64e63a5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies computational imaging, polarization, and learned image reconstruction; the course directly teaches computer vision, visual data formation, and AI models for visual processing."
+    },
+    {
+      "pair_id": "pair:220d98d61da85913",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies redox-active molecules and biomolecular structures; the course directly covers organic battery chemistry, molecular structure, spectroscopy, and mass spectrometry."
+    },
+    {
+      "pair_id": "pair:1f879860894d7362",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Wireless communication and network skills may support some drone systems, but the lab's shown work is LiDAR odometry and robot control rather than communication research."
+    },
+    {
+      "pair_id": "pair:fc173816f9fd9207",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies drone navigation and control; the course directly teaches quadrotor modeling, estimation, sensor fusion, control, and learning-based flight."
+    },
+    {
+      "pair_id": "pair:fd449349c4fd9c28",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab evaluates blockchain applications from users' perspectives; the course directly teaches user research, contextual analysis, requirements, interaction design, prototyping, and evaluation."
+    },
+    {
+      "pair_id": "pair:d82398f606c154b6",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's computational imaging research is not directly prepared by operating-systems concepts such as processes, memory, and filesystems."
+    },
+    {
+      "pair_id": "pair:a3f0d9ae054ec6c3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course's environmental biotechnology and bioprocess design are broadly relevant to environmental research, but the lab's focus is marine ecosystem carbon removal rather than pollution treatment."
+    },
+    {
+      "pair_id": "pair:a4a15195dbe62ea7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab uses single-cell sequencing and studies biological variation; the course directly teaches sequence analysis, gene expression, molecular interactions, and bioinformatics tools for research."
+    },
+    {
+      "pair_id": "pair:c4ec40c6a6642dfb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies ultracold molecules and Bose-Einstein condensates; the course directly covers AMO techniques, laser cooling/trapping, BECs, and ultracold molecules."
+    },
+    {
+      "pair_id": "pair:ab0a3ab6a3da8754",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops synthetic promoters, genetic circuits, and cell-free systems; the course directly covers synthetic DNA, gene circuits, genome editing, minimal cells, and cell-free biology."
+    },
+    {
+      "pair_id": "pair:d4c9d54e28ab0848",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab uses single-cell RNA sequencing and studies cell-state variation; the course directly provides bioinformatics methods for gene expression, sequence data, proteins, and molecular interactions."
+    },
+    {
+      "pair_id": "pair:22bceb87eeffaae7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies battery materials and electrocatalysis; the course directly covers electrochemical storage systems, battery design, electrode processes, and analysis methods."
+    },
+    {
+      "pair_id": "pair:71792753e2aa80e7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course teaches control, estimation, and learning methods that can transfer to fault detection, but its quadrotor focus is not direct preparation for power converters."
+    },
+    {
+      "pair_id": "pair:1650216db6da4c98",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab researches ultracold atoms, molecules, and BECs; the course directly teaches the AMO foundations and methods used in those experiments."
+    },
+    {
+      "pair_id": "pair:aa55bb7968c06c95",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab's metabolic engineering and synthetic biology studies involve enzymes, metabolism, and biomolecule production; the course directly covers metabolism, enzyme regulation, protein structure, and design."
+    },
+    {
+      "pair_id": "pair:4b0db78c3a7ea2c2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops catalytic organic reactions; the course directly teaches mechanisms and catalytic reactions in organic chemistry."
+    },
+    {
+      "pair_id": "pair:5850ea571789dc5a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's LiDAR and robot-control research is not directly prepared by a broad survey of computer-science subfields."
+    },
+    {
+      "pair_id": "pair:859228100472d51c",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab works in synthetic biology and metabolic engineering; the course directly covers gene circuits, genome editing, cell-free biology, and synthetic systems."
+    },
+    {
+      "pair_id": "pair:199e541286b32a21",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's mechanics and materials work has no direct preparation connection to the general machine-learning curriculum shown."
+    },
+    {
+      "pair_id": "pair:b73e8552aed565a2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Nanochemistry's organic-material synthesis and characterization are broadly relevant to organic synthesis, but the course does not cover the lab's specific catalytic organoboron transformations."
+    },
+    {
+      "pair_id": "pair:2c5b0d716ae6913f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course builds understanding of biological discoveries and research, broadly relevant to probe and imaging research, but it provides no specific preparation in fluorescence chemistry or live-cell methods."
+    },
+    {
+      "pair_id": "pair:eb5c975fb76e061f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's mechanical and materials research is not directly prepared by this general machine-learning course."
+    },
+    {
+      "pair_id": "pair:6c3c7b90f972b191",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Numerical analysis does not directly prepare students for the lab's abstract enriched category and Morita theory research."
+    },
+    {
+      "pair_id": "pair:add90eaa181f25d9",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Electronic-structure calculations provide a broad computational-materials connection to hydrides and alloys, but the lab's shown research is experimental rather than computational."
+    },
+    {
+      "pair_id": "pair:fc7217cf083c0744",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Numerical PDE methods do not prepare students for the lab's enriched category theory and Morita theory work."
+    },
+    {
+      "pair_id": "pair:25b16335ca3e2351",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab studies mammalian stem cells and tissue regeneration, whereas this course focuses on microbial cell biology and infection."
+    },
+    {
+      "pair_id": "pair:676a582b6f75aee5",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Both address quantum many-body systems, but solid-state electron physics is only broad foundational context for the lab's ultracold atomic gases and molecules."
+    },
+    {
+      "pair_id": "pair:e86770a8720b4326",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Immunology offers relevant grounding for the lab's neuroimmune cytokine studies, but does not prepare students for its central neural-circuit and social-behavior research."
+    },
+    {
+      "pair_id": "pair:9afe20779c18f406",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The lab's catalytic chemistry is broadly adjacent to the course's electrochemical reactions and electrocatalysts, but its main organic-synthesis methods are not covered directly."
+    },
+    {
+      "pair_id": "pair:893c088bfacf82c3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course gives broad EE laboratory exposure, including FPGA and control activities, but does not specifically prepare students for the lab's power-converter fault detection."
+    },
+    {
+      "pair_id": "pair:38d43bec1e84bd38",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's animal social behavior and neuroimmune mechanisms are unrelated to social computing and ethics in this course."
+    },
+    {
+      "pair_id": "pair:80250be7b05756ed",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's enriched category theory research has no direct preparation link to data engineering and MLOps."
+    },
+    {
+      "pair_id": "pair:cdf467a6d52b15fb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies marine carbon removal and ecosystem production; the course directly covers carbon cycles, ocean processes, gas exchange, and oceanic CO2."
+    },
+    {
+      "pair_id": "pair:f4197de7af3a1ca4",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Finite-element solid-mechanics methods can broadly support analysis of manufactured structures, but the lab's shown work emphasizes laser processing and fabrication rather than simulation."
+    },
+    {
+      "pair_id": "pair:4f66a8af76dbd69f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course analyzes customer-facing data and usage scenarios, which is broadly relevant to user-perspective technology research, but it does not teach user-centered research or blockchain design."
+    },
+    {
+      "pair_id": "pair:27636d0417151059",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Human-environment system dynamics and game theory do not prepare students for the lab's neural circuits, animal social behavior, and neuroimmune mechanisms."
+    },
+    {
+      "pair_id": "pair:bce878d88df00d69",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Quantum simulation and information provide broad quantum-science context, but the course does not cover nano-optical spectroscopy or 2D semiconductor materials directly."
+    },
+    {
+      "pair_id": "pair:a0db7de48c126915",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's materials and mechanical research has no direct preparation link to the general machine-learning curriculum."
+    },
+    {
+      "pair_id": "pair:ea079ee6e28d6fd9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies marine carbon removal; the course directly covers carbon and nitrogen cycles, ocean-atmosphere exchange, marine organisms, and the ocean carbon cycle."
+    },
+    {
+      "pair_id": "pair:6ad4d39d65a381f6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab researches quantum materials and optical spectroscopy; the course directly teaches quantum materials' optical properties and spectroscopic measurement methods."
+    },
+    {
+      "pair_id": "pair:1ca4977fddd62e23",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies single-cell biology and variation; the course directly teaches RNA-seq and single-cell RNA-seq analysis."
+    },
+    {
+      "pair_id": "pair:a4aed9801ef3bcbb",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Engineering mathematics for communications and ML does not directly prepare students for the lab's enriched category theory research."
+    },
+    {
+      "pair_id": "pair:ef9abfd0ce7f6196",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies storage systems and DRAM/flash behavior; the course directly covers memory-device principles, scaling, processes, and current technologies."
+    },
+    {
+      "pair_id": "pair:51490c22cd964836",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course's catalyst, materials, and photo/electrochemical content has broad physical-chemistry overlap with probe materials, but its main energy-catalysis focus is not direct preparation for biological imaging probes."
+    },
+    {
+      "pair_id": "pair:02ee1fbbb5575760",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab predicts drug and immunotherapy responses from genomic data; the course directly teaches biomedical AI, genomic/transcriptomic analysis, biomarkers, and clinical data methods."
+    },
+    {
+      "pair_id": "pair:517196ae2874d276",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Quantum principles overlap broadly, but quantum communication and cryptography are not direct preparation for ultracold atoms, molecules, or BEC experiments."
+    },
+    {
+      "pair_id": "pair:0ea5b5a91448a590",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies user-centered blockchain applications; the course directly covers service design, service testing, and service-quality measurement."
+    },
+    {
+      "pair_id": "pair:f298a9919a90470d",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's computational imaging research is not prepared by advanced operating-systems implementation topics."
+    },
+    {
+      "pair_id": "pair:9c66c637f433c7ca",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course surveys foundational biological discoveries relevant to biological research broadly, but it does not directly prepare students for microbial metabolic or synthetic biology methods."
+    },
+    {
+      "pair_id": "pair:1e1de75778dc8132",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies stretchable conductive films, sensors, and materials; the course directly covers stretchable electronics, sensors, flexible devices, and associated materials research."
+    },
+    {
+      "pair_id": "pair:0f47b27e1b50a426",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "General chemistry's molecular structure and quantum foundations are broadly relevant to biomolecular structures, but it does not teach mass spectrometry or advanced protein analysis methods."
+    },
+    {
+      "pair_id": "pair:da9a1cc79e7fda2f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Data engineering methods do not prepare students for the lab's enriched category theory research."
+    },
+    {
+      "pair_id": "pair:41b41bc72865355a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops artificial cells, synthetic enzymes, aptamers, and biological systems; the course directly covers biological catalysts, genetic engineering, synthetic factories, and analytical biotechnology."
+    },
+    {
+      "pair_id": "pair:3594ad27131d6897",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course provides broad biology laboratory practice, cell observation, and research exposure, but its listed activities do not directly cover stem-cell regeneration or reprogramming."
+    },
+    {
+      "pair_id": "pair:c0699b16366c654f",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab studies laser-based metal fabrication and heat transfer; a reinforcement-learning course for robotics does not provide direct preparation for these topics."
+    },
+    {
+      "pair_id": "pair:98d46d0f79974d66",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's LiDAR odometry and robot control are not directly prepared by a power-electronics converters course."
+    },
+    {
+      "pair_id": "pair:17c3fd7785e078a8",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "A leadership seminar about AI's social trends does not teach the wireless sensing, signal processing, or AI methods used by the lab."
+    },
+    {
+      "pair_id": "pair:183c7c85ff6fb624",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Physical-chemistry experiments in spectroscopy, reaction rates, and ion transport offer broad methods relevant to probe characterization, but do not cover live-cell imaging or probe design directly."
+    },
+    {
+      "pair_id": "pair:dcd9cd00a286d280",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies power-converter faults and distributed power systems; the course directly covers grid operation, power flow, renewable generation, and transmission faults."
+    },
+    {
+      "pair_id": "pair:1b8ed943f8b7a9bd",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course introduces materials research and offers lab participation, but its general research-exposure scope does not teach hydrogen materials or characterization specifically."
+    },
+    {
+      "pair_id": "pair:0c0da2d7e6d4d80c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "A free-topic electronic-materials journal seminar does not provide technical preparation for microbial metabolic engineering or synthetic biology."
+    },
+    {
+      "pair_id": "pair:822aaee6ab753280",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Nonequilibrium statistical physics provides broad foundations for quantum many-body systems, but the course does not directly teach ultracold-gas or AMO experimental methods."
+    },
+    {
+      "pair_id": "pair:9cb5f693864fceb4",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Plant pathology does not prepare students for the lab's mammalian social neuroscience and neuroimmune research."
+    },
+    {
+      "pair_id": "pair:9e558d294df53392",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies gut microbes, Salmonella, and host-microbiome interactions; the course directly covers microbial metabolism, pathogens, infection, and microbial ecosystems."
+    },
+    {
+      "pair_id": "pair:f6fa6340f9ef5f23",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Social-system modeling and game theory are broadly adjacent to animal social-behavior questions, but the course does not teach neuroscience or neuroimmune biology."
+    },
+    {
+      "pair_id": "pair:f98d41bcaad66c58",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops AI for wireless sensing, gesture recognition, and fault prediction; the course directly teaches neural networks, deep learning, and practical AI research."
+    },
+    {
+      "pair_id": "pair:1ab348c7d338c48c",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course offers electrical-engineering research exposure and project participation, which is broadly relevant to an EE lab, but its specific robot-control and LiDAR methods are not taught."
+    },
+    {
+      "pair_id": "pair:999e431a715e40fb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops fluorescent probes and biosensors; the course directly covers biochemical/biophysical experiments, protein and nucleic-acid methods, and fluorescence spectroscopy."
+    },
+    {
+      "pair_id": "pair:2d6f2b3e28ff8119",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Discrete logic, relations, and abstract structures are broadly related to mathematical foundations, but the course is not direct preparation for enriched category theory."
+    },
+    {
+      "pair_id": "pair:3029177c895cd9d1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Basic circuits and electrical-energy concepts provide broad engineering groundwork, but the course does not cover the lab's LiDAR odometry or robot-control methods."
+    },
+    {
+      "pair_id": "pair:b6a640fe69fdf851",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Deep-learning NLP methods do not prepare students for the lab's synthetic biology, molecular diagnostics, or biomolecule production."
+    },
+    {
+      "pair_id": "pair:f62fd6ddf9bfc85b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies robot trajectory control and LiDAR-based navigation; the course directly teaches robot kinematics, dynamics, adaptive and robust control, and neural control."
+    },
+    {
+      "pair_id": "pair:7c81cab4e7f1a783",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Battery DFT and AI materials discovery are broadly relevant to catalyst materials, but the lab's shown work is electrocatalysis and does not directly study batteries or computational materials modeling."
+    },
+    {
+      "pair_id": "pair:95701407809e0ff3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab's molecular diagnostics and biomolecule production use protein and nucleic-acid methods; the course directly teaches biochemical/biophysical experimental principles and fluorescence/protein analyses."
+    },
+    {
+      "pair_id": "pair:78dd232645075c9e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab uses microfluidics to fabricate biomaterials and cell-like systems; the course directly teaches microfluidics and biofluid applications."
+    },
+    {
+      "pair_id": "pair:48ffc45e1c1bc07e",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Digital communication and network experiments do not prepare students for the lab's power-converter fault and control research."
+    },
+    {
+      "pair_id": "pair:2e85a086c3e225d3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies cancer response, immuno-oncology, and genomic analyses; the course directly surveys biomedical topics including genetics, biochemistry, immunology, and cell biology."
+    },
+    {
+      "pair_id": "pair:b20018c4bd6bfb67",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "An AI ethics and leadership course does not teach the lab's wireless sensing, voice processing, or fault-detection methods."
+    },
+    {
+      "pair_id": "pair:186fa18efb4dc724",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's mechanical materials and fabrication research is not directly prepared by a general machine-learning course."
+    },
+    {
+      "pair_id": "pair:6807baf27df0f779",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab explicitly studies machine learning, deep learning, and operator learning; the course teaches the mathematical and statistical foundations of ML."
+    },
+    {
+      "pair_id": "pair:b0a2b53609180f22",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies synthetic enzymes, RNA, and cell-mimetic systems; the course directly covers RNA biology, gene regulation, genome editing, and molecular techniques."
+    },
+    {
+      "pair_id": "pair:d57403ad53ab5df0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab researches electrocatalysis and energy materials; the course directly teaches electrochemical reactions, electrocatalysts, and analysis methods."
+    },
+    {
+      "pair_id": "pair:bcebc486e201926d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course offers environmental-materials characterization methods and CO2-reduction context, broadly useful for measurement, but it focuses on materials rather than marine ecosystem carbon removal."
+    },
+    {
+      "pair_id": "pair:ff99b946458b946a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops machine-learning methods for prediction, imaging, and PDE control; the course directly teaches ML mathematics and statistical tools."
+    },
+    {
+      "pair_id": "pair:afb16319312cb429",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies gut microbes, metabolism, inflammation, and host biology; the course covers cellular molecules, metabolism, molecular genetics, digestion, hormones, and immunity."
+    },
+    {
+      "pair_id": "pair:1b9694b6aa3d5912",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies neural circuits, social behavior, and hormone effects; the course directly introduces brain function, neural signaling, hormones, and motivated behavior."
+    },
+    {
+      "pair_id": "pair:2fe086c19badb03c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Time-series forecasting methods do not directly prepare students for the lab's kinetic PDE and Boltzmann-equation research."
+    },
+    {
+      "pair_id": "pair:49ec29e255404915",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course offers broad genetics and cell-biology laboratory exposure relevant to single-cell biology, but it does not teach single-cell sequencing or omics analysis."
+    },
+    {
+      "pair_id": "pair:b124028eb63e6954",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Human-centered design research does not prepare students for the lab's neural-circuit and neuroimmune studies in animal models."
+    },
+    {
+      "pair_id": "pair:b5888020b2cc0db2",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Social computing and technology ethics do not prepare students for computational imaging and optics research."
+    },
+    {
+      "pair_id": "pair:8209eb91a7d88298",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Physical-chemistry experiments offer broad measurement and spectroscopy foundations for molecular-complex research, but the course does not teach mass spectrometry or ion mobility directly."
+    },
+    {
+      "pair_id": "pair:1e8142157652da2a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies robot manipulation and control; the course directly teaches robotic kinematics, optimization, and advanced robust control."
+    },
+    {
+      "pair_id": "pair:6c88face36f4a538",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course gives broad context on flexible devices, sensors, and semiconductor materials, but does not teach the lab's power-converter and fault-control methods."
+    },
+    {
+      "pair_id": "pair:dd28172cc79b7f67",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course surveys energy materials and characterization, broadly relevant to hydrogen materials, but it does not provide specific hydrogen-storage or embrittlement preparation."
+    },
+    {
+      "pair_id": "pair:e855b6f6d0331751",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Solid-state physics provides broad quantum and materials foundations, but the course focuses on crystalline electrons rather than ultracold atoms and molecules."
+    },
+    {
+      "pair_id": "pair:476baff872a6b021",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops computational imaging and image-reconstruction methods; the course directly teaches computer vision, image processing, neural vision models, and camera geometry."
+    },
+    {
+      "pair_id": "pair:0e10b1191e53bcc8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Battery materials are broadly adjacent to hydrogen energy materials, but the course focuses on secondary-battery design rather than hydrides, hydrogen storage, or corrosion."
+    },
+    {
+      "pair_id": "pair:ac8ed35ef03df806",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "ODE theory and dynamical systems do not directly prepare students for the lab's enriched category theory research."
+    },
+    {
+      "pair_id": "pair:ca3fb2e18ddd7860",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Heat-transfer principles are broadly relevant to the lab's mitochondrial thermogenesis study, but not directly to its main probe-design and live-cell imaging work."
+    },
+    {
+      "pair_id": "pair:8fb6f10884e47ba8",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab engineers microbial systems and biomolecules; the course directly trains students in cell culture, protein production, bacterial identification, PCR, and biochemical experiments."
+    },
+    {
+      "pair_id": "pair:d245af50b1546526",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies polymersomes, functional polymers, microfluidics, and delivery materials; the course directly covers polymers, colloids, liquid crystals, responsive soft materials, and drug delivery."
+    },
+    {
+      "pair_id": "pair:1992baafb3f0bf37",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course reviews major biological discoveries, including immunotherapy and gene-related work, but offers broad research context rather than preparation in ML-based drug-response analysis."
+    },
+    {
+      "pair_id": "pair:1033372a795eb815",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies gut microbes and pathogens; the course offers hands-on participation in life-science lab research and experimental practice, directly applicable when matched to this lab."
+    },
+    {
+      "pair_id": "pair:22c1c63abc046a4f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course explicitly covers microbiome, metabolic disease, and cell-signaling pathways, directly relevant to the lab's gut microbiota and inflammation research."
+    },
+    {
+      "pair_id": "pair:33c3c4780b602452",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies SSD, CXL, and flash-memory systems; the course directly covers DRAM, flash, and emerging memory-device principles and processes."
+    },
+    {
+      "pair_id": "pair:b42c6e57f9a72316",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops catalytic organoboron chemistry; the course directly teaches organic structure, reactions, stereochemistry, synthesis, and structural analysis."
+    },
+    {
+      "pair_id": "pair:28dd88c55b5bc9f6",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "ML mathematics is a useful general foundation for the lab's predictive models, but the course does not address biomedical data or cancer biology."
+    },
+    {
+      "pair_id": "pair:bcfb61f704c9df03",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies microbial engineering and protein/nucleic-acid systems; the course directly teaches biochemistry, spectroscopy, protein methods, and nucleic-acid purification."
+    },
+    {
+      "pair_id": "pair:188273f4890ef8f0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab works on genetic circuits and biomolecule production; the course directly covers cellular processes, metabolism, proteins, computational biology, and AI protein engineering."
+    },
+    {
+      "pair_id": "pair:5f9d7de4a935d5bc",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Organic-waste valorization and data analysis offer broad biomass and quantitative context, but the course does not directly cover marine carbon-removal measurement."
+    },
+    {
+      "pair_id": "pair:7f5cc02be68c2b15",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Quantum mechanics and quantum chemistry provide broad foundations for molecular probe properties, but the course does not teach fluorescent-probe design or biological imaging."
+    },
+    {
+      "pair_id": "pair:09004739c898a9e1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course permits a student-selected mathematics research topic and faculty-guided work, but the packet does not establish that this specific kinetic-PDE topic is taught."
+    },
+    {
+      "pair_id": "pair:25cf3ddff02bd052",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies user-centered blockchain applications; the course directly teaches service design, service testing, and service-quality measurement."
+    },
+    {
+      "pair_id": "pair:481c6584bd9a0634",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops aptamers, catalytic RNA, and biomolecular systems; the course directly covers nucleic acids, aptamers, catalytic nucleic acids, diagnostics, and therapeutics."
+    },
+    {
+      "pair_id": "pair:8da83291fe5dd475",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "An IT engineering design course does not prepare students for the lab's neuroscience and animal-behavior research."
+    },
+    {
+      "pair_id": "pair:45f7e9c16c078551",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The lab's metal processing and laser micromachining are not prepared by the general machine-learning curriculum shown."
+    },
+    {
+      "pair_id": "pair:d2fa93ea27f204f4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops RNA-loaded particles and biomaterials; the course directly covers nucleic acids, aptamers, therapeutics, and nanobiotechnology."
+    },
+    {
+      "pair_id": "pair:7833333fbec44506",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab applies deep learning to wireless sensing and fault detection; the course directly teaches neural-network implementation, optimization, and acceleration."
+    },
+    {
+      "pair_id": "pair:21a0f22f084c267f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course offers hands-on research participation in matched life-science laboratories, directly applicable to the lab's single-cell biology research."
+    },
+    {
+      "pair_id": "pair:e4afef5578992b6b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies stem-cell proliferation, differentiation, and regeneration; the course directly covers stem cells, developmental biology, and regenerative therapies."
+    },
+    {
+      "pair_id": "pair:f231983a91d17ee0",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab develops synthetic circuits, promoters, and cell-free systems; the course directly teaches synthetic DNA, gene circuits, genome editing, and synthetic biology."
+    },
+    {
+      "pair_id": "pair:badf7a91f4653212",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Computational complexity and formal models do not directly prepare students for the lab's enriched category theory research."
+    },
+    {
+      "pair_id": "pair:3c87d8aac508cbbe",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Cell-signaling pathways provide broad foundations relevant to stem-cell regulation, but the course does not directly teach stem-cell dynamics or regeneration."
+    },
+    {
+      "pair_id": "pair:6446a84bcc8fefa9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies hydride phases and alloy materials; the course directly teaches crystallography and crystal-structure concepts needed to understand these materials."
+    },
+    {
+      "pair_id": "pair:bb588c3ab8f48a23",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Battery-specific organic chemistry offers broad energy-material background, but the lab's shown work focuses on inorganic catalysts and electrochemical catalysis."
+    },
+    {
+      "pair_id": "pair:57d804ce3772a7dd",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies molecular and protein structures; the course directly teaches protein structure determination, analysis, and computational design."
+    },
+    {
+      "pair_id": "pair:85389eda29dd9c71",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Fourier methods are broadly useful mathematical tools for PDE work, but the course does not cover kinetic equations or Boltzmann theory directly."
+    },
+    {
+      "pair_id": "pair:92dbbc8783747b89",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course provides environmental field sampling and analysis experience, broadly useful for marine ecosystem measurements, but it does not target carbon removal or marine ecology."
+    },
+    {
+      "pair_id": "pair:e888abb513a317e9",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "An introductory materials-engineering course does not prepare students for the lab's neuroscience and animal-behavior research."
+    },
+    {
+      "pair_id": "pair:cf461881d56ced54",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "A survey of computer-science systems research offers broad context for storage topics, but it does not teach the lab's specific memory and SSD methods."
+    },
+    {
+      "pair_id": "pair:4ecc8d5bc17d91fb",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies flash-memory and storage systems; the course directly teaches NAND organization, operations, reliability, and storage-system optimization."
+    },
+    {
+      "pair_id": "pair:f2a3bb53ac4f9112",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies optical imaging and light-matter interactions; the course directly teaches optoelectronic materials, optical modeling, FDTD, and carrier transport."
+    },
+    {
+      "pair_id": "pair:24935f438ed57262",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies 2D quantum semiconductors and nanoscale optical phenomena; the course directly covers semiconductor thin-film properties, interfaces, and measurement methods."
+    },
+    {
+      "pair_id": "pair:9af88c1d1a22fd2c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Differential geometry of surfaces does not directly prepare students for kinetic PDE and Boltzmann-equation research."
+    },
+    {
+      "pair_id": "pair:b7dd611cdd3219b7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies laser micromachining and metal fabrication; the course directly covers micromachining, fabrication processes, materials, and microscale mechanics."
+    },
+    {
+      "pair_id": "pair:77a7a24b8acc295b",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Nonlinear PDE methods do not directly prepare students for the lab's enriched category theory research."
+    },
+    {
+      "pair_id": "pair:217ef7e1da4b7c7f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies imaging and optical materials; the course directly teaches optoelectronic materials and computational optical/semiconductor modeling."
+    },
+    {
+      "pair_id": "pair:dd1f2b216d9dce0a",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course's microbiome and cell-signaling content provides broad biological grounding, but it does not directly teach microbial metabolic engineering or synthetic biology."
+    },
+    {
+      "pair_id": "pair:223ba05e1efcc8d8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Fintech, consumer privacy, and financial-product risks are broadly relevant to blockchain applications, but the course does not teach UX research or DApp design."
+    },
+    {
+      "pair_id": "pair:5cace3da7e89cae2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies protein complexes and biomolecular interactions; the course directly teaches chemical-biology tools, structural biology, and proteomimetics."
+    },
+    {
+      "pair_id": "pair:717d00b0a63732e6",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "An academic-writing course about information society does not prepare students for the lab's enriched category theory research."
+    },
+    {
+      "pair_id": "pair:d95289edbf2ce0d8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Inorganic chemistry and computational chemistry provide broad molecular-structure foundations, but the course does not directly teach biomolecular ion mobility or protein-complex analysis."
+    },
+    {
+      "pair_id": "pair:31be2ce104cfbc62",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Cell biology, biochemistry, and gene-expression foundations are broadly relevant to cancer research, but the course does not cover ML-based drug-response prediction."
+    },
+    {
+      "pair_id": "pair:2640e173d4c9e51c",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course provides hands-on participation in life-science laboratory research matched to student interest, directly applicable to the lab's neuroscience and behavior studies."
+    },
+    {
+      "pair_id": "pair:2e1520727d070d58",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies cell-state variation and single-cell biology; the course directly teaches core cell biology, biochemistry, molecular biology, gene expression, and signaling."
+    },
+    {
+      "pair_id": "pair:59f3e95e02d4620f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course's chemical, biochemical, and experimental techniques provide broad preparation for probe research, but it does not specifically cover fluorescence-probe design or live-cell imaging."
+    },
+    {
+      "pair_id": "pair:8e762c1e07a37a4d",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies marine carbon removal and ecosystem production; the course directly teaches ecology, ecosystem processes, biogeochemistry, and organism-environment interactions."
+    },
+    {
+      "pair_id": "pair:cb36cff6a9d5f8e8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Biochemical and biophysical methods are broadly relevant to molecular neuroscience research, but the course does not teach neural circuits or animal behavior directly."
+    },
+    {
+      "pair_id": "pair:35046f7a2d43f27d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Catalysis and computational chemistry provide broad chemical foundations, but the course does not prepare students directly for synthetic biology or genetic circuit design."
+    },
+    {
+      "pair_id": "pair:bcbc8268036e7adf",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly teaches cellular biology, metabolism, signaling, macromolecules, and gene regulation relevant to gut microbiome and inflammation research."
+    },
+    {
+      "pair_id": "pair:9b6cb96054e37ef4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies quantum materials and their optical spectra; the course directly teaches quantum-material properties, spectroscopy, and optical measurement methods."
+    },
+    {
+      "pair_id": "pair:71e1ade2db2a8bee",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course gives broad materials synthesis and analysis experience, but does not specifically cover aptamers, biological membranes, or artificial-cell systems."
+    },
+    {
+      "pair_id": "pair:774a44a92615df8e",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Plant pathology does not prepare students for the lab's cancer drug-response prediction and immuno-oncology research."
+    },
+    {
+      "pair_id": "pair:adde18a7c060f595",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab studies hydrides and steel corrosion; the course directly trains materials characterization and mechanical testing of steels, including microscopy and hardness methods."
+    },
+    {
+      "pair_id": "pair:ad35852f09dc1d68",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Climate-system physics is broadly relevant, but the lab's macroalgal carbon-removal research is not directly covered."
+    },
+    {
+      "pair_id": "pair:e8ae5fe9734d256a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The IT design course offers no preparation in neuroscience, social behavior, or neuroimmunology."
+    },
+    {
+      "pair_id": "pair:537949d1061864f3",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Physical chemistry experiments do not prepare students in microbial engineering or synthetic biology."
+    },
+    {
+      "pair_id": "pair:f43351ee852dfe8c",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Human-environment systems modeling and game theory do not cover the lab's neural circuits or neuroimmune research."
+    },
+    {
+      "pair_id": "pair:c01467bb3ef0a601",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course covers sensors and electronic devices broadly, but not robotics, LiDAR odometry, or adaptive control."
+    },
+    {
+      "pair_id": "pair:8e39fc7d244f9371",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Formal computation provides a broad mathematical foundation, but the course does not cover enriched category or Morita theory."
+    },
+    {
+      "pair_id": "pair:0f7c85a03f05c011",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Analytical chemistry experiments include spectrometry and fluorescence spectroscopy relevant to probe and sensor characterization."
+    },
+    {
+      "pair_id": "pair:1f308b8396791e5a",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Flexible electronics and sensors are adjacent to probe technology, but the course does not address fluorescent chemistry or bioimaging."
+    },
+    {
+      "pair_id": "pair:5053055b713e8567",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Advanced operating systems directly covers memory management, file systems, and system software central to the lab's work."
+    },
+    {
+      "pair_id": "pair:011d55f4375ed6be",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Groups, rings, and modules provide general algebraic background, but enriched category and Morita theory are not listed."
+    },
+    {
+      "pair_id": "pair:b142d8f9a87fc80a",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Plant pathology gives broad pathogen and disease concepts, but this lab studies gut microbiota and intestinal disease."
+    },
+    {
+      "pair_id": "pair:73cfa0e709bca2b0",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course supports supervised mathematics research generally, but no topic-specific preparation is specified."
+    },
+    {
+      "pair_id": "pair:6edbe2e6cdc0aae0",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Chemical mathematics supports quantitative work broadly, but the course does not directly cover fluorescent probes or bioimaging."
+    },
+    {
+      "pair_id": "pair:d85ac85268317fc1",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly teaches X-ray characterization and battery materials, relevant to the lab's electrochemical catalyst research."
+    },
+    {
+      "pair_id": "pair:190205d038aa3ec8",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "The algebra syllabus does not prepare students in kinetic PDEs, Boltzmann equations, or fluid limits."
+    },
+    {
+      "pair_id": "pair:aab0db799c4592ef",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Investment theory and financial markets do not prepare students for user-centered blockchain evaluation or design."
+    },
+    {
+      "pair_id": "pair:f4574af8d04568f3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Hands-on cellular immunology and mouse methods are adjacent to stem-cell biology, but stem-cell regeneration is not taught."
+    },
+    {
+      "pair_id": "pair:bce3f8c162fd36bd",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Communications lab offers general engineering practice, but it does not cover LiDAR, robotics, or adaptive control."
+    },
+    {
+      "pair_id": "pair:5952bf842e55ebd6",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The biomedical survey includes cell biology and genetics, providing broad background without specific stem-cell or regeneration coverage."
+    },
+    {
+      "pair_id": "pair:edb2fff5fcbbf2e7",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course explicitly surveys visual computing, computer vision, and machine learning, directly aligned with computational imaging research."
+    },
+    {
+      "pair_id": "pair:22a47d61fc4cf45e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Cellular immunology practice offers biological background, but the course does not cover single-cell sequencing or multiomics."
+    },
+    {
+      "pair_id": "pair:5de3f2cd49a781c7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Nucleic-acid and biomolecular analysis is adjacent, but the course does not teach ion mobility or mass spectrometry."
+    },
+    {
+      "pair_id": "pair:2722aea8748bd3f3",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Microbiological effects are covered generally, but this course focuses on radioactive waste rather than gut microbiota or disease."
+    },
+    {
+      "pair_id": "pair:66731ab7444e31cd",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Environmental organic chemistry and biotransformation provide adjacent process background, not direct climate or marine ecology preparation."
+    },
+    {
+      "pair_id": "pair:fee337c980c5123a",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Electronics and circuit fundamentals do not prepare students in social neuroscience or neuroimmunology."
+    },
+    {
+      "pair_id": "pair:3aaec9cca525be7d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Data-science methods may support evaluation, but the course does not cover user-centered blockchain design or HCI."
+    },
+    {
+      "pair_id": "pair:7742073f68c70157",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Ceramic materials characterization offers adjacent materials-lab experience, but not laser metal deposition or micromachining."
+    },
+    {
+      "pair_id": "pair:d5b4537a4fddbf30",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course teaches efficient machine-learning methods directly useful to the lab's learning-based sensing work."
+    },
+    {
+      "pair_id": "pair:10f8e79857952f31",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Advanced biochemistry directly covers cell signaling, protein interactions, and biosynthesis relevant to stem-cell biology."
+    },
+    {
+      "pair_id": "pair:e16166d5136bff15",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Data collection and pipeline methods could support evaluation work, but the course does not teach UX or blockchain design."
+    },
+    {
+      "pair_id": "pair:29303ddf72324abc",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Communications lab develops instrumentation and signal-analysis skills, but not power converters or fault-tolerant control."
+    },
+    {
+      "pair_id": "pair:e7cbc2db872f4f6d",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly teaches deep-learning optimization techniques relevant to the lab's learning-based sensing and prediction."
+    },
+    {
+      "pair_id": "pair:51488fef0c9f23d1",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "AI ethics raises issues relevant to medical AI, but the course does not teach machine learning or biomedical prediction methods."
+    },
+    {
+      "pair_id": "pair:e8855649a3120f85",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers neural-network methods and student AI research, aligned with the lab's learning-based sensing."
+    },
+    {
+      "pair_id": "pair:44105d00f1f5f8a2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Biological flow and disease topics are broadly biomedical, but the course does not cover gut microbiota or intestinal inflammation."
+    },
+    {
+      "pair_id": "pair:fc989cd377e46eec",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Chemical biology tools and biological problem solving directly support microbial engineering and synthetic-biology research."
+    },
+    {
+      "pair_id": "pair:0b214d628f737580",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Glass materials and characterization are adjacent, but the course does not cover mechanics, additive manufacturing, or laser processing."
+    },
+    {
+      "pair_id": "pair:5d755520d1f92fda",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Quantum mechanics and Qiskit provide broad quantum foundations, but the course does not cover ultracold gases or molecular trapping."
+    },
+    {
+      "pair_id": "pair:07159f70bf6217b7",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Ceramic synthesis and characterization do not prepare students in aptamers, biomimetic systems, or synthetic enzymes."
+    },
+    {
+      "pair_id": "pair:0707c1dfd5f84382",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "ODE theory and dynamical systems offer mathematical foundations, but the course does not cover kinetic PDEs or Boltzmann equations."
+    },
+    {
+      "pair_id": "pair:9082ae02a0e9b56f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab course includes recombinant-cell protein production, bacterial identification, and PCR directly relevant to genetic and synthetic biology."
+    },
+    {
+      "pair_id": "pair:02112e84767e6a90",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Quantum mechanics and light interactions in atomic gases provide direct foundations for ultracold atomic-gas research."
+    },
+    {
+      "pair_id": "pair:37b5c458683b5f03",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly teaches synthesis and characterization of materials, including diffraction, microscopy, spectroscopy, and electrochemistry."
+    },
+    {
+      "pair_id": "pair:7fa4665720e37db5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Biochemical and biophysical experiments cover proteins, nucleic acids, spectroscopy, and biotechnology central to the lab's work."
+    },
+    {
+      "pair_id": "pair:c49b493c1670ab0b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers electrolyte electrochemistry and electrode interfaces relevant to electrochemical catalysis and energy materials."
+    },
+    {
+      "pair_id": "pair:fe23ce7c6d967de4",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course teaches machine learning, reinforcement learning, and practical AI implementation aligned with the lab's AI sensing work."
+    },
+    {
+      "pair_id": "pair:5c43d86200afb265",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The survey includes bio-organic materials as one topic, but provides no specified preparation in aptamers or artificial cells."
+    },
+    {
+      "pair_id": "pair:6a1f7e8d443ec8c5",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Cell biology, biochemistry, molecular biology, signaling, and gene regulation directly support stem-cell research."
+    },
+    {
+      "pair_id": "pair:009ea00e42c09c08",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Quality function deployment and design-of-experiments methods may support user evaluation, though the course does not cover UX or blockchain."
+    },
+    {
+      "pair_id": "pair:64c1b7689551af1b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly surveys machine learning, computer vision, and AI research relevant to the lab's sensing work."
+    },
+    {
+      "pair_id": "pair:40130f5478c76972",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers elastic and plastic behavior, fracture, fatigue, and mechanical testing relevant to the lab's mechanics research."
+    },
+    {
+      "pair_id": "pair:b02fec4e0a980f14",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course teaches microfluidics and lab-on-chip methods used in the lab's polymersome and microparticle fabrication research."
+    },
+    {
+      "pair_id": "pair:245860e9bf48a4a2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Quantum mechanics and many-body/topological systems provide broad foundations, but ultracold-gas experimental methods are not taught."
+    },
+    {
+      "pair_id": "pair:2dcef799c33e23a9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly teaches feedback and robust control theory relevant to the lab's adaptive robot control work."
+    },
+    {
+      "pair_id": "pair:17fc238a62a29975",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Differential geometry of surfaces does not provide preparation in enriched category or Morita theory."
+    },
+    {
+      "pair_id": "pair:4b157d015c7e0351",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers medical AI, healthcare data, and ML methods relevant to drug-response and immuno-oncology prediction."
+    },
+    {
+      "pair_id": "pair:7daff6caabdc1b62",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Heat-transfer equations and numerical methods offer adjacent mathematical tools, but do not cover kinetic equations or Boltzmann theory."
+    },
+    {
+      "pair_id": "pair:1acd55e7a3432c3b",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "General industrial-engineering discussion and presentation work do not prepare students in blockchain UX research."
+    },
+    {
+      "pair_id": "pair:618ea9ebc32c10c2",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Steelmaking covers high-temperature materials and process phenomena broadly, but not laser powder-bed or directed-energy deposition."
+    },
+    {
+      "pair_id": "pair:b9af338332fe9a38",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course surveys major biology discoveries including immunology and molecular biology, but not gut microbiota or intestinal inflammation specifically."
+    },
+    {
+      "pair_id": "pair:433ec651c8dcc59d",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course teaches spectroscopy and microscopy useful for characterization broadly, but not fluorescent probes or biological imaging."
+    },
+    {
+      "pair_id": "pair:8fe5510e943436eb",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "VR design and input/perception topics are adjacent to gesture interfaces, but the course does not cover wireless sensing or ML."
+    },
+    {
+      "pair_id": "pair:de917188fed5a1b3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Social computing and technology's effects on interaction directly support user-centered evaluation of blockchain applications."
+    },
+    {
+      "pair_id": "pair:2c30e90595d33449",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Deep-learning methods are broadly relevant, but NLP models do not directly teach genomic sequence design or synthetic biology."
+    },
+    {
+      "pair_id": "pair:f27bc80d571dd771",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers microorganisms, recombinant DNA, microbial metabolism, and bioprocesses relevant to gut microbiome research."
+    },
+    {
+      "pair_id": "pair:5e18deb12ff172f6",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Nanoscale fabrication and materials characterization are adjacent manufacturing skills, but the course does not cover metal 3D printing or laser machining."
+    },
+    {
+      "pair_id": "pair:0bcc0555ab4df3a7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Flexible electronics and sensors are adjacent to biosensor devices, but the course does not cover probe chemistry or biological imaging."
+    },
+    {
+      "pair_id": "pair:c28d5d8db6d72b99",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The lab directly practices quadcopter position control and autonomous flight, along with vision and sensor systems relevant to the lab's robotics work."
+    },
+    {
+      "pair_id": "pair:7202ccbf83c226b7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Water and waste management and environmental science are broad context, but the course does not cover marine carbon removal or macroalgae."
+    },
+    {
+      "pair_id": "pair:84d8d2785ab2dd34",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Hands-on ceramic synthesis, electrochemical characterization, and electron microscopy provide directly relevant materials research preparation."
+    },
+    {
+      "pair_id": "pair:8b99ee3952e42731",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Colloid and interface theory is broadly relevant to nanoscale devices, but does not cover quantum emitters or near-field spectroscopy."
+    },
+    {
+      "pair_id": "pair:dc12c50624b682f6",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Quantum simulation, neutral-atom platforms, and many-body models directly align with ultracold quantum-gas research."
+    },
+    {
+      "pair_id": "pair:c6af734056a7f978",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Biomaterials, tissue engineering, biofabrication, and cell-material interactions directly support artificial-cell and biomimetic research."
+    },
+    {
+      "pair_id": "pair:8c060b40787e2851",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Biochemistry and signaling are relevant to cancer biology, but the course does not teach machine learning or drug-response prediction."
+    },
+    {
+      "pair_id": "pair:50ace3588afa2905",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Linear algebra and other mathematical foundations are broadly useful, but the course does not cover category theory or Morita theory."
+    },
+    {
+      "pair_id": "pair:755a01322c3c2780",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly surveys machine learning, data mining, and computer vision relevant to wireless sensing and recognition."
+    },
+    {
+      "pair_id": "pair:0a7f94428158823e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly teaches feedback control and explicitly includes robotics and drones as application domains."
+    },
+    {
+      "pair_id": "pair:c10383a4e21153ee",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Nanofabrication processes do not provide preparation in microbial metabolism, genetic engineering, or synthetic biology."
+    },
+    {
+      "pair_id": "pair:3879070e45463715",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers computational biology, genome and biomolecule engineering, and biotechnology research relevant to multiomics."
+    },
+    {
+      "pair_id": "pair:5bf31dfa37ed9027",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "AI theory and practical ML implementation directly support the lab's machine-learning-based biomedical prediction research."
+    },
+    {
+      "pair_id": "pair:95587b195bde6e7e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Stretchable electronics and sensor materials are adjacent, but the course does not cover mechanical behavior or metal additive manufacturing."
+    },
+    {
+      "pair_id": "pair:65e355b921944461",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers gene function, transcription, RNA processing, and cellular regulation relevant to single-cell biology."
+    },
+    {
+      "pair_id": "pair:623ec4dbd80ab9c3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Dynamic programming and reinforcement learning directly prepare for adaptive, sequential control and optimization."
+    },
+    {
+      "pair_id": "pair:8c4464315dbf53c3",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course explicitly covers hydrogen energy materials and characterization tools including spectroscopy, microscopy, and XRD."
+    },
+    {
+      "pair_id": "pair:3e226ed42aab747f",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers DRAM, SRAM, NAND flash, and memory-device processes central to the lab's storage research."
+    },
+    {
+      "pair_id": "pair:faf3e52cf1ad23a2",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Quantum simulation, neutral-atom hardware, and many-body models directly align with ultracold quantum-gas research."
+    },
+    {
+      "pair_id": "pair:9ca98cb02ba3bded",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course teaches power converters and PV/energy-storage applications directly related to the lab's converter fault research."
+    },
+    {
+      "pair_id": "pair:c8217799a023f813",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Chemical-biology tools and synthetic research projects provide relevant preparation for catalytic organic synthesis research."
+    },
+    {
+      "pair_id": "pair:dc4e18bbc5d531d7",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "The course covers biomolecular analysis and spectroscopy, but does not list ion-mobility or mass-spectrometry methods."
+    },
+    {
+      "pair_id": "pair:f2fa96847f10e52e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Cell and gene therapies provide related disease-biology context, but the course does not cover microbiome or intestinal inflammation."
+    },
+    {
+      "pair_id": "pair:23f1b1fab766d01a",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Chemical-biology tools and project work are directly relevant to fluorescent probes, biosensors, and chemical-space research."
+    },
+    {
+      "pair_id": "pair:c63a534c1d64384b",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "Hands-on cellular immunology and mouse methods directly support research on intestinal inflammation and host-microbe disease mechanisms."
+    },
+    {
+      "pair_id": "pair:445668ba9e73da1e",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course covers battery materials processing, electrochemistry, and battery systems directly relevant to energy catalysis research."
+    },
+    {
+      "pair_id": "pair:6b9a0472a444c2dc",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Time-series forecasting does not prepare students in kinetic PDEs, Boltzmann equations, or kinetic theory."
+    },
+    {
+      "pair_id": "pair:a3c180e0ee4b0c5e",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Energy systems and renewable generation provide broad context, but the course does not teach converter design or fault detection."
+    },
+    {
+      "pair_id": "pair:c97c87cd2fffe8fb",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Data collection and pipeline engineering do not prepare students in enriched category or Morita theory."
+    },
+    {
+      "pair_id": "pair:976e8d850c874cb9",
+      "relevance": 2,
+      "insufficient_evidence": false,
+      "reason": "The course directly covers protein, nucleic-acid, and biophysical experimental methods relevant to stem-cell biology."
+    },
+    {
+      "pair_id": "pair:f888af6ad4a9e2a8",
+      "relevance": 0,
+      "insufficient_evidence": false,
+      "reason": "Machine-learning methods are not relevant preparation for the lab's metal additive manufacturing and mechanics work."
+    },
+    {
+      "pair_id": "pair:0d57d2ad843ea8f8",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Biochemical and biophysical methods provide biological context, but do not teach the lab's AI or cancer-response prediction methods."
+    },
+    {
+      "pair_id": "pair:56d358aeffcb8d44",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Biochemical and biophysical methods are broadly relevant to microbiology, but the course does not address gut microbiota or inflammation."
+    },
+    {
+      "pair_id": "pair:e44ee438dfd4c559",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Glass structure and thermal properties provide broad materials background, but not mechanics, sensors, or metal additive manufacturing."
+    },
+    {
+      "pair_id": "pair:adc1a93c1ec9ea3f",
+      "relevance": 1,
+      "insufficient_evidence": false,
+      "reason": "Operating systems and device drivers are broadly useful for computing systems, but the course does not address wireless sensing or ML."
+    }
+  ]
+}

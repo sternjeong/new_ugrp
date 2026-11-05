@@ -1,0 +1,47 @@
+{
+  "status": "posthoc_regex_support_audit_not_performance_test",
+  "source_sha256": {
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+    "frame.json": "cdc166c07224471ba92a283e69896e14ee498ed73ce97d5e4593676dbeffcfa8",
+    "script": "b3ce33b2189cdb5e5ea39bb3cbf49bbd01928bbda57fceb3f0ab4261644b3342"
+  },
+  "meaning": "Regex hits may include false positives and omit true mentions; no text spans were adjudicated.",
+  "buckets": {
+    "confirm_unused": {
+      "professor_rows": 28,
+      "nonempty_lab_mates": 0,
+      "intro_marker_rows": {
+        "office_location_marker": 1,
+        "people_marker": 13,
+        "possible_numeric_people_marker": 2
+      }
+    },
+    "explore_prior_packet": {
+      "professor_rows": 136,
+      "nonempty_lab_mates": 2,
+      "intro_marker_rows": {
+        "office_location_marker": 14,
+        "people_marker": 59,
+        "possible_numeric_people_marker": 7
+      }
+    },
+    "explore_prior_test": {
+      "professor_rows": 16,
+      "nonempty_lab_mates": 4,
+      "intro_marker_rows": {
+        "office_location_marker": 1,
+        "people_marker": 5,
+        "possible_numeric_people_marker": 0
+      }
+    },
+    "all_holdout": {
+      "professor_rows": 180,
+      "nonempty_lab_mates": 6,
+      "intro_marker_rows": {
+        "office_location_marker": 16,
+        "people_marker": 77,
+        "possible_numeric_people_marker": 9
+      }
+    }
+  }
+}

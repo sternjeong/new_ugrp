@@ -1,0 +1,8 @@
+{
+  "status": "pre_label_protocol_amendment",
+  "packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "original_prereg_sha256_at_packet_build": "d8baa98f9f8c57d36c9c90cc3cc0535d057f2b0ca6218d130fbbba75b2505f5b",
+  "current_prereg_sha256": "5ce1a447743ea6160d7e3950dfbb760cfcec0b47cc932d13955c1131e8a6a55d",
+  "reason": "empty/underfilled list metrics and accidental unscored source-snippet exposure recorded before labels",
+  "labels_collected": false
+}

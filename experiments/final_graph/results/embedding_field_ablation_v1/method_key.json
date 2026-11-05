@@ -1,0 +1,4214 @@
+{
+  "exposure": {
+    "core": [
+      {
+        "pair_id": "pair:4ecc8d5bc17d91fb",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED702A",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:3e226ed42aab747f",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI322",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:56a1b79862bee4e1",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:AMSE524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:33c3c4780b602452",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:GSST529",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:ef9abfd0ce7f6196",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI690D",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:cdf467a6d52b15fb",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE202",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ad35852f09dc1d68",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE588",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:a3f0d9ae054ec6c3",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE540",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:bcebc486e201926d",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:CHEB413",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:ea079ee6e28d6fd9",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE575",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9afe20779c18f406",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:EVSE594",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6e36916e3f52da8a",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM624",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:4b0db78c3a7ea2c2",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:ADMS508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:a174f50b1be9b866",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM521",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b42c6e57f9a72316",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEB206",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:dc12c50624b682f6",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS535",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:faf3e52cf1ad23a2",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:QIST535",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5d755520d1f92fda",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:CHEM481C",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:02112e84767e6a90",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:AMSE742I",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c4ec40c6a6642dfb",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS648",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ff99b946458b946a",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED343",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1dc53417434ddcd0",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:bec4adf24bcd2aa7",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED515",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:186fa18efb4dc724",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IBIO520",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6807baf27df0f779",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IDSC515",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0707c1dfd5f84382",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH412",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:7daff6caabdc1b62",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH560",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8849aae8fc33872a",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH707E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:2fe086c19badb03c",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IDSC677",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6b9a0472a444c2dc",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IMEN677",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:fe23ce7c6d967de4",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED342",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:fc6fe514a98f2d78",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:MSIP502",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:7833333fbec44506",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS510",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:e7cbc2db872f4f6d",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED510",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a763b4c53364ca2a",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED343",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1fb05a72a74615eb",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE203",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:2454176d01019a4f",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CMST304",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:fd449349c4fd9c28",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE405",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b9d9d5979a9d92c0",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CMST402",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:de917188fed5a1b3",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CSED401",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9ca98cb02ba3bded",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695P",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:277cc787e1607a71",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695C",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:a2e9475b35a18eb4",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE310",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dcd9cd00a286d280",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE429",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a3c180e0ee4b0c5e",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:MECH451",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:e86770a8720b4326",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE420",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f6fa6340f9ef5f23",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:WICONF319D",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f43351ee852dfe8c",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CONF319D",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1b9694b6aa3d5912",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE419",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:27636d0417151059",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CMST499D",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ca3fb2e18ddd7860",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:MECH371",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0bcc0555ab4df3a7",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:EECE695I",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:1f308b8396791e5a",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:GSST690E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:48d30fafe9894d01",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:PHYS701A",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:7fd843d8746e00e2",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:AMSE388",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:5de3f2cd49a781c7",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:220d98d61da85913",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT622",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d6c5da259848193f",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT536",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dcfea02bd2f291b2",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:LIFE715",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:57d804ce3772a7dd",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:d2fa93ea27f204f4",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d245af50b1546526",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:CHEB315",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:78dd232645075c9e",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH470",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:5132a41b1b7c521b",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH646",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b02fec4e0a980f14",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH579",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:def2280a5aecb3bc",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE321",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e4afef5578992b6b",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE327",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:da3b7e32e52fbce6",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:3c87d8aac508cbbe",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE511",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:25b16335ca3e2351",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE303",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:f231983a91d17ee0",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB646",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ab0a3ab6a3da8754",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:IBIO534",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:2c30e90595d33449",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:AIGS554",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b6a640fe69fdf851",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CSED554",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:d9be78b0826fba80",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:481c6584bd9a0634",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:48a0dcaaeec5237f",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:LIFE511",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:995100e88eb2c907",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:MECH646",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b0a2b53609180f22",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:LIFE518",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:41b41bc72865355a",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:CHEB308",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1ca4977fddd62e23",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE622C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a4a15195dbe62ea7",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:IBIO638",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d4c9d54e28ab0848",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE619",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:65e355b921944461",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE321",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:3879070e45463715",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:CHEB631",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:45a64156981368e6",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:MECH532",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:dd1f2b216d9dce0a",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE511",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:249eaf8c8b4bfb4b",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE303",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:aa55bb7968c06c95",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE502",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b71738e81bbca734",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:02ee1fbbb5575760",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE451Y",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:4b157d015c7e0351",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED490J",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:28dd88c55b5bc9f6",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED343",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:51488fef0c9f23d1",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:HUMN429D",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5bf31dfa37ed9027",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED342",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:a4aed9801ef3bcbb",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:EECE490A",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a572ab7e1833d3d3",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH442",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:50ace3588afa2905",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:CHEM213",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:2d6f2b3e28ff8119",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:CSED261",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6c3c7b90f972b191",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH351",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0a7f94428158823e",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:MECH323",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1e8142157652da2a",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:MECH639",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f62fd6ddf9bfc85b",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE565",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:623ec4dbd80ab9c3",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:IMEN764",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2dcef799c33e23a9",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE320",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:6ad4d39d65a381f6",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS654",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9b6cb96054e37ef4",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:QIST654",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:24935f438ed57262",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:GSST524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8b99ee3952e42731",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:CHEB313",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:bce878d88df00d69",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS535",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:22c1c63abc046a4f",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE511",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9e558d294df53392",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE303",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f27bc80d571dd771",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:EVSE540",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:44105d00f1f5f8a2",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:MECH624",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2722aea8748bd3f3",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:NUCE530",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7742073f68c70157",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:AMSE344",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:b7dd611cdd3219b7",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH621",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:9d56c5b98cbd3bf7",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH560",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:618ea9ebc32c10c2",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:GIFT602",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6d6752e4370f9bca",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH250",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:40130f5478c76972",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:AMSE213",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e44ee438dfd4c559",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:GIFT694",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:95587b195bde6e7e",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:EECE695I",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1e1de75778dc8132",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:GSST690E",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:0b214d628f737580",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:NUCE534",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:3e89deacb6b7482e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:AMSE414",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:22bceb87eeffaae7",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT618",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:df7d5779ec857404",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT533",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:bb588c3ab8f48a23",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT622",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:445668ba9e73da1e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT519",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ea16ba40c812e652",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE721T",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0e10b1191e53bcc8",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT533",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8c4464315dbf53c3",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:CHEB413",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:69ac4bc4cbf8942c",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT536",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:f73ab82947f77065",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:MECH451",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:217ef7e1da4b7c7f",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE523",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f2a3bb53ac4f9112",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE721O",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f2d84a53e64e63a5",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:EECE490U",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b8a37f0fbe79e8d7",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AIGS529",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:476baff872a6b021",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED441",
+        "rank": 5
+      }
+    ],
+    "lab_admin": [
+      {
+        "pair_id": "pair:4ecc8d5bc17d91fb",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED702A",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:cf461881d56ced54",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED354",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:3e226ed42aab747f",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI322",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:56a1b79862bee4e1",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:AMSE524",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:33c3c4780b602452",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:GSST529",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7202ccbf83c226b7",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE510",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:92dbbc8783747b89",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE490D",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:66731ab7444e31cd",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE587",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8f5c4fdf6b28533d",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE594",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c6056bcb6c8ec1e8",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:IBIO536",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9afe20779c18f406",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:EVSE594",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6e36916e3f52da8a",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM624",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:4b0db78c3a7ea2c2",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:ADMS508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:a174f50b1be9b866",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM521",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c8217799a023f813",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM561",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:dc12c50624b682f6",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS535",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:faf3e52cf1ad23a2",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:QIST535",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:e855b6f6d0331751",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS521",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:676a582b6f75aee5",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:QIST521",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5d755520d1f92fda",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:CHEM481C",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ff99b946458b946a",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED343",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1dc53417434ddcd0",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:bec4adf24bcd2aa7",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED515",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:186fa18efb4dc724",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IBIO520",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6807baf27df0f779",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IDSC515",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0707c1dfd5f84382",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH412",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:7daff6caabdc1b62",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH560",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8849aae8fc33872a",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH707E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:2fe086c19badb03c",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IDSC677",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6b9a0472a444c2dc",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IMEN677",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:755a01322c3c2780",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS537",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:64c1b7689551af1b",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED537",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d5b4537a4fddbf30",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:GSST690K",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:f98d41bcaad66c58",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CITE631",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:e8855649a3120f85",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:EECE651",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1acd55e7a3432c3b",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN200",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:25cf3ddff02bd052",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN572",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:0ea5b5a91448a590",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IDSC572",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1fb05a72a74615eb",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE203",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:e16166d5136bff15",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:AXGS501",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:893c088bfacf82c3",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE276",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9ca98cb02ba3bded",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695P",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:277cc787e1607a71",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695C",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:866787c799d0c18d",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE199",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2bb1792973c90518",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:CSED354",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:2640e173d4c9e51c",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE199",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e888abb513a317e9",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:AMSE199",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:38d43bec1e84bd38",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CSED401",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:9cb5f693864fceb4",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE713",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:cb36cff6a9d5f8e8",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:IBIO536",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:23f1b1fab766d01a",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEM561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:2c5b0d716ae6913f",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:LIFE221",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:999e431a715e40fb",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:IBIO536",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:6edbe2e6cdc0aae0",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEM213",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:59f3e95e02d4620f",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEB216",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:5cace3da7e89cae2",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEM561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d95289edbf2ce0d8",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEM331",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5de3f2cd49a781c7",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:AMSE561",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:220d98d61da85913",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT622",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:dc4e18bbc5d531d7",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:IBIO536",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:d2fa93ea27f204f4",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d245af50b1546526",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:CHEB315",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:78dd232645075c9e",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH470",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:5132a41b1b7c521b",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH646",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b02fec4e0a980f14",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH579",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:976e8d850c874cb9",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:def2280a5aecb3bc",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE321",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5952bf842e55ebd6",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE220",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:3594ad27131d6897",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE104",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:bc63b15325974935",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE199",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:95701407809e0ff3",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6a332aa121ef13ad",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEM561",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:9082ae02a0e9b56f",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB216",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:188273f4890ef8f0",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB208",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:35046f7a2d43f27d",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEM331",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:481c6584bd9a0634",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:71e1ade2db2a8bee",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE211",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5c43d86200afb265",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE100",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:7fa4665720e37db5",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:IBIO536",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c6af734056a7f978",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE564",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1ca4977fddd62e23",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE622C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6a4e621a7f759962",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:IBIO536",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:21a0f22f084c267f",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE199",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:49ec29e255404915",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE104",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a4a15195dbe62ea7",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:IBIO638",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:bcfb61f704c9df03",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:8fb6f10884e47ba8",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEB216",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:fc989cd377e46eec",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEM561",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:45a64156981368e6",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:MECH532",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:9c66c637f433c7ca",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE221",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0d57d2ad843ea8f8",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1992baafb3f0bf37",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE221",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:02ee1fbbb5575760",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE451Y",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:774a44a92615df8e",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE713",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2e85a086c3e225d3",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE220",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:da9a1cc79e7fda2f",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:AXGS501",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:80250be7b05756ed",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:IDSC501",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:badf7a91f4653212",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:AIGS502",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8e39fc7d244f9371",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:CSED502",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c97c87cd2fffe8fb",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:IMEN891K",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:c28d5d8db6d72b99",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE276",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1ab348c7d338c48c",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE199",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:98d46d0f79974d66",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE305",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8ade45e21cd17daa",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE425",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5850ea571789dc5a",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:CSED354",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:6ad4d39d65a381f6",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS654",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9b6cb96054e37ef4",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:QIST654",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:24935f438ed57262",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:GSST524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8b99ee3952e42731",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:CHEB313",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:bce878d88df00d69",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS535",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:56d358aeffcb8d44",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1033372a795eb815",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE199",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:b142d8f9a87fc80a",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE713",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b9af338332fe9a38",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE221",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:afb16319312cb429",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE103H",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:dbc974fe4ef58c11",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH100",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6fecbf0f3084a406",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:CSED515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f888af6ad4a9e2a8",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:AIGS515",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:45f7e9c16c078551",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:IBIO520",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:47786d1c1be863d3",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:IDSC515",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:199e541286b32a21",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:CSED515",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a0db7de48c126915",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:37ddaa598b0bd8d3",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:IBIO520",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:25e00f7ddfd26c3a",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:IDSC515",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:eb5c975fb76e061f",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:PMSE715",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:df7d5779ec857404",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT533",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:3e89deacb6b7482e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:AMSE414",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:c49b493c1670ab0b",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT536",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:d57403ad53ab5df0",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:CHEB469E",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:22bceb87eeffaae7",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT618",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ea16ba40c812e652",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE721T",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:dd28172cc79b7f67",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE100",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:0e10b1191e53bcc8",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT533",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:37b5c458683b5f03",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE211",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:1b8ed943f8b7a9bd",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE199",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:edb2fff5fcbbf2e7",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED354",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:217ef7e1da4b7c7f",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE523",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f2a3bb53ac4f9112",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE721O",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b5888020b2cc0db2",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED401",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:f2d84a53e64e63a5",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:EECE490U",
+        "rank": 5
+      }
+    ],
+    "course_admin": [
+      {
+        "pair_id": "pair:4ecc8d5bc17d91fb",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED702A",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:3e226ed42aab747f",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI322",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:56a1b79862bee4e1",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:AMSE524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:33c3c4780b602452",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:GSST529",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:ef9abfd0ce7f6196",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI690D",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:cdf467a6d52b15fb",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE202",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ad35852f09dc1d68",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE588",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:a3f0d9ae054ec6c3",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE540",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:bcebc486e201926d",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:CHEB413",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:ea079ee6e28d6fd9",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE575",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9afe20779c18f406",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:EVSE594",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6e36916e3f52da8a",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM624",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:4b0db78c3a7ea2c2",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:ADMS508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:a174f50b1be9b866",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM521",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b42c6e57f9a72316",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEB206",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:dc12c50624b682f6",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS535",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:faf3e52cf1ad23a2",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:QIST535",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5d755520d1f92fda",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:CHEM481C",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:02112e84767e6a90",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:AMSE742I",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c4ec40c6a6642dfb",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS648",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ff99b946458b946a",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED343",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1dc53417434ddcd0",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:bec4adf24bcd2aa7",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED515",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:186fa18efb4dc724",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IBIO520",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6807baf27df0f779",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IDSC515",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0707c1dfd5f84382",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH412",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:7daff6caabdc1b62",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH560",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8849aae8fc33872a",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH707E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:2fe086c19badb03c",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IDSC677",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6b9a0472a444c2dc",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IMEN677",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:fe23ce7c6d967de4",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED342",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:fc6fe514a98f2d78",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:MSIP502",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:7833333fbec44506",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS510",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:e7cbc2db872f4f6d",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED510",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a763b4c53364ca2a",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED343",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1fb05a72a74615eb",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE203",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:2454176d01019a4f",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CMST304",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:fd449349c4fd9c28",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE405",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b9d9d5979a9d92c0",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CMST402",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:de917188fed5a1b3",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CSED401",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9ca98cb02ba3bded",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695P",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:277cc787e1607a71",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695C",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:a2e9475b35a18eb4",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE310",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dcd9cd00a286d280",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE429",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a3c180e0ee4b0c5e",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:MECH451",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:e86770a8720b4326",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE420",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f6fa6340f9ef5f23",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:WICONF319D",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f43351ee852dfe8c",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CONF319D",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1b9694b6aa3d5912",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE419",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:27636d0417151059",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CMST499D",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ca3fb2e18ddd7860",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:MECH371",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0bcc0555ab4df3a7",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:EECE695I",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:1f308b8396791e5a",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:GSST690E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:48d30fafe9894d01",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:PHYS701A",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:7fd843d8746e00e2",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:AMSE388",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:5de3f2cd49a781c7",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:220d98d61da85913",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT622",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d6c5da259848193f",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT536",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dcfea02bd2f291b2",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:LIFE715",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:57d804ce3772a7dd",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:d2fa93ea27f204f4",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d245af50b1546526",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:CHEB315",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:78dd232645075c9e",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH470",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:5132a41b1b7c521b",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH646",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b02fec4e0a980f14",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH579",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:def2280a5aecb3bc",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE321",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e4afef5578992b6b",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE327",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:da3b7e32e52fbce6",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:3c87d8aac508cbbe",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE511",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:25b16335ca3e2351",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE303",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:f231983a91d17ee0",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB646",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ab0a3ab6a3da8754",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:IBIO534",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:2c30e90595d33449",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:AIGS554",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b6a640fe69fdf851",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CSED554",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:d9be78b0826fba80",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:481c6584bd9a0634",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:48a0dcaaeec5237f",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:LIFE511",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:995100e88eb2c907",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:MECH646",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b0a2b53609180f22",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:LIFE518",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:41b41bc72865355a",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:CHEB308",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1ca4977fddd62e23",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE622C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a4a15195dbe62ea7",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:IBIO638",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d4c9d54e28ab0848",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE619",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:65e355b921944461",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE321",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:3879070e45463715",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:CHEB631",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:45a64156981368e6",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:MECH532",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:dd1f2b216d9dce0a",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE511",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:249eaf8c8b4bfb4b",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE303",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:aa55bb7968c06c95",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE502",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b71738e81bbca734",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:02ee1fbbb5575760",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE451Y",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:4b157d015c7e0351",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED490J",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:28dd88c55b5bc9f6",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED343",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:51488fef0c9f23d1",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:HUMN429D",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5bf31dfa37ed9027",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED342",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:17fc238a62a29975",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH426",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ac8ed35ef03df806",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH412",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:011d55f4375ed6be",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH501",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:fc7217cf083c0744",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH551",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a572ab7e1833d3d3",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH442",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0a7f94428158823e",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:MECH323",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1e8142157652da2a",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:MECH639",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f62fd6ddf9bfc85b",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE565",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:623ec4dbd80ab9c3",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:IMEN764",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2dcef799c33e23a9",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE320",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:6ad4d39d65a381f6",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS654",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9b6cb96054e37ef4",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:QIST654",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:24935f438ed57262",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:GSST524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8b99ee3952e42731",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:CHEB313",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:bce878d88df00d69",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS535",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:22c1c63abc046a4f",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE511",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9e558d294df53392",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE303",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f27bc80d571dd771",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:EVSE540",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:44105d00f1f5f8a2",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:MECH624",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2722aea8748bd3f3",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:NUCE530",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7742073f68c70157",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:AMSE344",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:b7dd611cdd3219b7",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH621",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:9d56c5b98cbd3bf7",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH560",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:618ea9ebc32c10c2",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:GIFT602",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6d6752e4370f9bca",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH250",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:40130f5478c76972",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:AMSE213",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e44ee438dfd4c559",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:GIFT694",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:95587b195bde6e7e",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:EECE695I",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1e1de75778dc8132",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:GSST690E",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:0b214d628f737580",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:NUCE534",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:3e89deacb6b7482e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:AMSE414",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:22bceb87eeffaae7",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT618",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:df7d5779ec857404",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT533",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:bb588c3ab8f48a23",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT622",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:445668ba9e73da1e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT519",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ea16ba40c812e652",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE721T",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0e10b1191e53bcc8",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT533",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8c4464315dbf53c3",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:CHEB413",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:69ac4bc4cbf8942c",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT536",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:f73ab82947f77065",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:MECH451",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:217ef7e1da4b7c7f",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE523",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f2a3bb53ac4f9112",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE721O",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f2d84a53e64e63a5",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:EECE490U",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b8a37f0fbe79e8d7",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AIGS529",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:476baff872a6b021",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED441",
+        "rank": 5
+      }
+    ],
+    "both_admin": [
+      {
+        "pair_id": "pair:4ecc8d5bc17d91fb",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED702A",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:cf461881d56ced54",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED354",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5053055b713e8567",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED504",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:c4dc6950862d74cd",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED312",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6a3ffad968c09400",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED433",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7202ccbf83c226b7",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE510",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:97a7d484b654b065",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE550",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:ea079ee6e28d6fd9",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE575",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:5f9d7de4a935d5bc",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE680P",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:8e762c1e07a37a4d",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE680G",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9afe20779c18f406",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:EVSE594",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:78ac6769c9c8d51d",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM481C",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:6e36916e3f52da8a",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM624",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b73e8552aed565a2",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM619",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:4b0db78c3a7ea2c2",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:ADMS508",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:822aaee6ab753280",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS513",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e855b6f6d0331751",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS521",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:517196ae2874d276",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS533",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:245860e9bf48a4a2",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS655",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:dc12c50624b682f6",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS535",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ff99b946458b946a",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED343",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1dc53417434ddcd0",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:bec4adf24bcd2aa7",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED515",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:186fa18efb4dc724",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IBIO520",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6807baf27df0f779",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IDSC515",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:09004739c898a9e1",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH199",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9af88c1d1a22fd2c",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH426",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:190205d038aa3ec8",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH501",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:85389eda29dd9c71",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH415",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:f6ccd83b74d50d51",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH442",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:17c3fd7785e078a8",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS700E",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:b20018c4bd6bfb67",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS703B",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:adc1a93c1ec9ea3f",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS504",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:e773a36efdaab868",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS703C",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:8fe5510e943436eb",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS511",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:223ba05e1efcc8d8",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN491P",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:009ea00e42c09c08",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN371",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:3aaec9cca525be7d",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN472",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:4f66a8af76dbd69f",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN891J",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:aab0db799c4592ef",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:IMEN388",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:48ffc45e1c1bc07e",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE443",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:29303ddf72324abc",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:NGCN302",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:6c88face36f4a538",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695I",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:71792753e2aa80e7",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695N",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:f6486a16dc8e8d4a",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE376",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:b124028eb63e6954",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CITE405",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f5e627b00675b1dd",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CITE700I",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:e8ae5fe9734d256a",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CITE202",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8da83291fe5dd475",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CITE302",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:fee337c980c5123a",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CITE490I",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7f5cc02be68c2b15",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEM481C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:51490c22cd964836",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEB801G",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:0f7c85a03f05c011",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEM245",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:183c7c85ff6fb624",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEB212",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:8099cfa0bd9316c7",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:CHEB801W",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:4a4a805191392737",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEM245",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:8209eb91a7d88298",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEB212",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5cace3da7e89cae2",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEM561",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:0f47b27e1b50a426",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEM101",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:d95289edbf2ce0d8",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:CHEM331",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:d2fa93ea27f204f4",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d245af50b1546526",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:CHEB315",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:78dd232645075c9e",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH470",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:5132a41b1b7c521b",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH646",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b02fec4e0a980f14",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH579",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:976e8d850c874cb9",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f4574af8d04568f3",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE322",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:6a1f7e8d443ec8c5",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE218",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:3594ad27131d6897",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE104",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:10f8e79857952f31",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE502",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:95701407809e0ff3",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:IBIO536",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6a332aa121ef13ad",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEM561",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:4db10b1cd43d5421",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB212",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:9082ae02a0e9b56f",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB216",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:188273f4890ef8f0",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB208",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:481c6584bd9a0634",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:07159f70bf6217b7",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE344",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f9a591fa93481a10",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE301",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:71e1ade2db2a8bee",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE211",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5c43d86200afb265",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE100",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1ca4977fddd62e23",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE622C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6a4e621a7f759962",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:IBIO536",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:49ec29e255404915",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE104",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:22a47d61fc4cf45e",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE322",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2e1520727d070d58",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE218",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:813b2f028e6fbeb7",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEB801G",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0c0da2d7e6d4d80c",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEB801W",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:bcfb61f704c9df03",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:IBIO536",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:c10383a4e21153ee",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEB564",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:537949d1061864f3",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEB212",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:31be2ce104cfbc62",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE218",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0d57d2ad843ea8f8",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:IBIO536",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8c060b40787e2851",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE502",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:27bf29d4026acbcf",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE315",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:da184751a0293117",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE209",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:17fc238a62a29975",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH426",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a572ab7e1833d3d3",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH442",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:2cc98b00040dc3ed",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH517",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:77a7a24b8acc295b",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH647",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:73cfa0e709bca2b0",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH199",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:c01467bb3ef0a601",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE695I",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:bce3f8c162fd36bd",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE443",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:1f879860894d7362",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:NGCN302",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:fc173816f9fd9207",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE695N",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:3029177c895cd9d1",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:DISU231",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:6ad4d39d65a381f6",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS654",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9b6cb96054e37ef4",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:QIST654",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:24935f438ed57262",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:GSST524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8b99ee3952e42731",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:CHEB313",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:bce878d88df00d69",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS535",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:bcbc8268036e7adf",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE218",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:c63a534c1d64384b",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE322",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:ef1dcc5d3c190935",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE502",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:f2fa96847f10e52e",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE622J",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:1f3cb8c5a83a7aa7",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE420",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:f4197de7af3a1ca4",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH583",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:dbc974fe4ef58c11",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH100",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:5e18deb12ff172f6",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH539",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:6fecbf0f3084a406",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:CSED515",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:c0699b16366c654f",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH490G",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:199e541286b32a21",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:CSED515",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a0db7de48c126915",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:37ddaa598b0bd8d3",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:IBIO520",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:25e00f7ddfd26c3a",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:IDSC515",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:eb5c975fb76e061f",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:PMSE715",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7c81cab4e7f1a783",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT624",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d85ac85268317fc1",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT537",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d82fab4affd645b5",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:df7d5779ec857404",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT533",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:3e89deacb6b7482e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:AMSE414",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ea16ba40c812e652",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE721T",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:adde18a7c060f595",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE301",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:84d8d2785ab2dd34",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE344",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dd28172cc79b7f67",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE100",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:add90eaa181f25d9",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE511",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:edb2fff5fcbbf2e7",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED354",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:217ef7e1da4b7c7f",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE523",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f2a3bb53ac4f9112",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE721O",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:f298a9919a90470d",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED504",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:d82398f606c154b6",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED312",
+        "rank": 5
+      }
+    ],
+    "learning_context": [
+      {
+        "pair_id": "pair:4ecc8d5bc17d91fb",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:CSED702A",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:3e226ed42aab747f",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI322",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:56a1b79862bee4e1",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:AMSE524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:33c3c4780b602452",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:GSST529",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:ef9abfd0ce7f6196",
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "course_id": "course:SEMI690D",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:cdf467a6d52b15fb",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE202",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ad35852f09dc1d68",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE588",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:a3f0d9ae054ec6c3",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE540",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:bcebc486e201926d",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:CHEB413",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:ea079ee6e28d6fd9",
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "course_id": "course:EVSE575",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9afe20779c18f406",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:EVSE594",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:6e36916e3f52da8a",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM624",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:4b0db78c3a7ea2c2",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:ADMS508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:a174f50b1be9b866",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEM521",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b42c6e57f9a72316",
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "course_id": "course:CHEB206",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1650216db6da4c98",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:QIST648",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:c4ec40c6a6642dfb",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS648",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:dc12c50624b682f6",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:PHYS535",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:faf3e52cf1ad23a2",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:QIST535",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5d755520d1f92fda",
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "course_id": "course:CHEM481C",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ff99b946458b946a",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED343",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1dc53417434ddcd0",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:AIGS515",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:bec4adf24bcd2aa7",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:CSED515",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:186fa18efb4dc724",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IBIO520",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6807baf27df0f779",
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "course_id": "course:IDSC515",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0707c1dfd5f84382",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MATH412",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:7daff6caabdc1b62",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH560",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8849aae8fc33872a",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:MECH707E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:2fe086c19badb03c",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IDSC677",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6b9a0472a444c2dc",
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "course_id": "course:IMEN677",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:fe23ce7c6d967de4",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED342",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:fc6fe514a98f2d78",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:MSIP502",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:7833333fbec44506",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:AIGS510",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:e7cbc2db872f4f6d",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED510",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a763b4c53364ca2a",
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "course_id": "course:CSED343",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1fb05a72a74615eb",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE203",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:2454176d01019a4f",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CMST304",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:fd449349c4fd9c28",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CITE405",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b9d9d5979a9d92c0",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CMST402",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:de917188fed5a1b3",
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "course_id": "course:CSED401",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:9ca98cb02ba3bded",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695P",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:277cc787e1607a71",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE695C",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:a2e9475b35a18eb4",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE310",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dcd9cd00a286d280",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:EECE429",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a3c180e0ee4b0c5e",
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "course_id": "course:MECH451",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:e86770a8720b4326",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE420",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f6fa6340f9ef5f23",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:WICONF319D",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f43351ee852dfe8c",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CONF319D",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1b9694b6aa3d5912",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:LIFE419",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:27636d0417151059",
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "course_id": "course:CMST499D",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ca3fb2e18ddd7860",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:MECH371",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0bcc0555ab4df3a7",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:EECE695I",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:1f308b8396791e5a",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:GSST690E",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:6e7060853dd76e66",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:AMSE407",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:433ec651c8dcc59d",
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "course_id": "course:SEMI362",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:5de3f2cd49a781c7",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:220d98d61da85913",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT622",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d6c5da259848193f",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:BATT536",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dcfea02bd2f291b2",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:LIFE715",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:57d804ce3772a7dd",
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:d2fa93ea27f204f4",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:d245af50b1546526",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:CHEB315",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:78dd232645075c9e",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH470",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:5132a41b1b7c521b",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH646",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:b02fec4e0a980f14",
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "course_id": "course:MECH579",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:def2280a5aecb3bc",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE321",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e4afef5578992b6b",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE327",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:da3b7e32e52fbce6",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE508",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:3c87d8aac508cbbe",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE511",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:25b16335ca3e2351",
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "course_id": "course:LIFE303",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:f231983a91d17ee0",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CHEB646",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:ab0a3ab6a3da8754",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:IBIO534",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:2c30e90595d33449",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:AIGS554",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b6a640fe69fdf851",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:CSED554",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:d9be78b0826fba80",
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "course_id": "course:SYNB520",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:481c6584bd9a0634",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:AMSE561",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:48a0dcaaeec5237f",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:LIFE511",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:995100e88eb2c907",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:MECH646",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b0a2b53609180f22",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:LIFE518",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:41b41bc72865355a",
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "course_id": "course:CHEB308",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:1ca4977fddd62e23",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE622C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:a4a15195dbe62ea7",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:IBIO638",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:d4c9d54e28ab0848",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE619",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:65e355b921944461",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:LIFE321",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:3879070e45463715",
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "course_id": "course:CHEB631",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:164bca8c21a15a6a",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:CHEB646",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:859228100472d51c",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:IBIO534",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:45a64156981368e6",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:MECH532",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:dd1f2b216d9dce0a",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE511",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:249eaf8c8b4bfb4b",
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "course_id": "course:LIFE303",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:02ee1fbbb5575760",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:LIFE451Y",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:4b157d015c7e0351",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED490J",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:28dd88c55b5bc9f6",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED343",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:51488fef0c9f23d1",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:HUMN429D",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:5bf31dfa37ed9027",
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "course_id": "course:CSED342",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:717d00b0a63732e6",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:WICONF319C",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:dc62854be41ab388",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:WIHUMN425",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:593fad60c71f7b6c",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:WIHUMN429A",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:a4aed9801ef3bcbb",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:EECE490A",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:a572ab7e1833d3d3",
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "course_id": "course:MATH442",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:0a7f94428158823e",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:MECH323",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:1e8142157652da2a",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:MECH639",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f62fd6ddf9bfc85b",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE565",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:623ec4dbd80ab9c3",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:IMEN764",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2dcef799c33e23a9",
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "course_id": "course:EECE320",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:6ad4d39d65a381f6",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS654",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9b6cb96054e37ef4",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:QIST654",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:24935f438ed57262",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:GSST524",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:8b99ee3952e42731",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:CHEB313",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:bce878d88df00d69",
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "course_id": "course:PHYS535",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:22c1c63abc046a4f",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE511",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:9e558d294df53392",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:LIFE303",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f27bc80d571dd771",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:EVSE540",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:44105d00f1f5f8a2",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:MECH624",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:2722aea8748bd3f3",
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "course_id": "course:NUCE530",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:7742073f68c70157",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:AMSE344",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:b7dd611cdd3219b7",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH621",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:9d56c5b98cbd3bf7",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH560",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:618ea9ebc32c10c2",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:GIFT602",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:6d6752e4370f9bca",
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "course_id": "course:MECH250",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:40130f5478c76972",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:AMSE213",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:e44ee438dfd4c559",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:GIFT694",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:95587b195bde6e7e",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:EECE695I",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:1e1de75778dc8132",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:GSST690E",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:0b214d628f737580",
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "course_id": "course:NUCE534",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:3e89deacb6b7482e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:AMSE414",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:22bceb87eeffaae7",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT618",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:df7d5779ec857404",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT533",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:bb588c3ab8f48a23",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT622",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:445668ba9e73da1e",
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "course_id": "course:BATT519",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:ea16ba40c812e652",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE721T",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:0e10b1191e53bcc8",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT533",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:8c4464315dbf53c3",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:CHEB413",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:6446a84bcc8fefa9",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:AMSE721S",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:69ac4bc4cbf8942c",
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "course_id": "course:BATT536",
+        "rank": 5
+      },
+      {
+        "pair_id": "pair:217ef7e1da4b7c7f",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE523",
+        "rank": 1
+      },
+      {
+        "pair_id": "pair:f2a3bb53ac4f9112",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AMSE721O",
+        "rank": 2
+      },
+      {
+        "pair_id": "pair:f2d84a53e64e63a5",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:EECE490U",
+        "rank": 3
+      },
+      {
+        "pair_id": "pair:b8a37f0fbe79e8d7",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:AIGS529",
+        "rank": 4
+      },
+      {
+        "pair_id": "pair:476baff872a6b021",
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "course_id": "course:CSED441",
+        "rank": 5
+      }
+    ]
+  }
+}

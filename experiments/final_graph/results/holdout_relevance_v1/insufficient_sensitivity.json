@@ -1,0 +1,148 @@
+{
+  "status": "post_label_exploratory_complete_component_sensitivity",
+  "reason": "judge B flagged 21 pairs as insufficient; primary analysis uses their assigned 0/1/2 labels",
+  "flagged_pairs": 21,
+  "flagged_score_distribution": {
+    "1": 16,
+    "0": 5
+  },
+  "affected_labs": 8,
+  "excluded_components": 8,
+  "remaining_components": 104,
+  "judge": {
+    "a": {
+      "unrelated_returned": {
+        "b0_expanded": 0.23317307692307693,
+        "b1": 0.34714285714285714,
+        "paired_components": 40,
+        "paired_mean_difference_b1_minus_b0": 0.16089285714285714,
+        "paired_component_bootstrap_95": [
+          0.059642857142857136,
+          0.265
+        ]
+      },
+      "fill_rate": {
+        "b0_expanded": 1.0,
+        "b1": 0.3663461538461538,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.6336538461538461,
+        "paired_component_bootstrap_95": [
+          -0.7230769230769231,
+          -0.5413461538461538
+        ]
+      },
+      "empty_rate": {
+        "b0_expanded": 0.0,
+        "b1": 0.6278846153846154,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": 0.6278846153846154,
+        "paired_component_bootstrap_95": [
+          0.5346153846153846,
+          0.7163461538461539
+        ]
+      },
+      "at_least_three": {
+        "b0_expanded": 1.0,
+        "b1": 0.3625,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.6375,
+        "paired_component_bootstrap_95": [
+          -0.7259615384615384,
+          -0.5461538461538461
+        ]
+      },
+      "fixed_slot_utility": {
+        "b0_expanded": 0.6042307692307692,
+        "b1": 0.19115384615384615,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.41307692307692306,
+        "paired_component_bootstrap_95": [
+          -0.47836538461538464,
+          -0.3466346153846154
+        ]
+      },
+      "union_conditioned_ndcg": {
+        "b0_expanded": 0.791275444379662,
+        "b1": 0.21665216356850286,
+        "paired_components": 102,
+        "paired_mean_difference_b1_minus_b0": -0.5746232808111591,
+        "paired_component_bootstrap_95": [
+          -0.6527368910369786,
+          -0.4926344187804456
+        ]
+      }
+    },
+    "b": {
+      "unrelated_returned": {
+        "b0_expanded": 0.17961538461538462,
+        "b1": 0.22857142857142856,
+        "paired_components": 40,
+        "paired_mean_difference_b1_minus_b0": 0.10407142857142858,
+        "paired_component_bootstrap_95": [
+          0.01314285714285714,
+          0.20407142857142857
+        ]
+      },
+      "fill_rate": {
+        "b0_expanded": 1.0,
+        "b1": 0.3663461538461538,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.6336538461538461,
+        "paired_component_bootstrap_95": [
+          -0.7230769230769231,
+          -0.5413461538461538
+        ]
+      },
+      "empty_rate": {
+        "b0_expanded": 0.0,
+        "b1": 0.6278846153846154,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": 0.6278846153846154,
+        "paired_component_bootstrap_95": [
+          0.5346153846153846,
+          0.7163461538461539
+        ]
+      },
+      "at_least_three": {
+        "b0_expanded": 1.0,
+        "b1": 0.3625,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.6375,
+        "paired_component_bootstrap_95": [
+          -0.7259615384615384,
+          -0.5461538461538461
+        ]
+      },
+      "fixed_slot_utility": {
+        "b0_expanded": 0.6261538461538462,
+        "b1": 0.21403846153846154,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.4121153846153846,
+        "paired_component_bootstrap_95": [
+          -0.4764423076923077,
+          -0.34615384615384615
+        ]
+      },
+      "union_conditioned_ndcg": {
+        "b0_expanded": 0.8077626223210869,
+        "b1": 0.23215662835114179,
+        "paired_components": 104,
+        "paired_mean_difference_b1_minus_b0": -0.5756059939699452,
+        "paired_component_bootstrap_95": [
+          -0.6525454853173867,
+          -0.49251351283624234
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "packet": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+    "rankings": "7daf189bf2808844d5cfe7780ab8d1550e3cb23de790cee11156d21841da05b4",
+    "scores_a": "8110fc7b82aacfebda4f62a5f232aa6ec05a8ba0379758d1200f532266ba97cc",
+    "scores_b": "7435131b51dcdd1e0e83b23cdae528f31c6557fa10f47009019b9fc22c6eda8f",
+    "primary_analysis": "5240a1c5c7658e7b79dc591ccde0a1d32489ead51537335833ccf7bf321371b8",
+    "primary_script": "1e7593b6644faec4e3712771895dde2b0f95890821b51cdde2943d4b0413b00e",
+    "sensitivity_script": "4edb469cb4665b5ca1054942edb4b685d4ae6833dbd2fe4899691d22ec5f469f"
+  },
+  "limitation": "Post-label complete-component exclusion changes the target population and can induce selection bias; interpret only as robustness check."
+}

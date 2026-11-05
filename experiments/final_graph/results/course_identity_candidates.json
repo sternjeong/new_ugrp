@@ -1,0 +1,3231 @@
+{
+  "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+  "course_rows": 1316,
+  "unique_codes": 1316,
+  "repeated_content_groups": 125,
+  "rows_in_repeated_groups": 335,
+  "generic_groups": 19,
+  "title_only_groups": 3,
+  "groups": [
+    {
+      "content_group_candidate": "content:3ce8d64b69ad963be388",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CSED69901",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 32
+        },
+        {
+          "course_code": "CSED69902",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 33
+        },
+        {
+          "course_code": "CSED69903",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 34
+        },
+        {
+          "course_code": "CSED69904",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 35
+        },
+        {
+          "course_code": "CSED69905",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 36
+        },
+        {
+          "course_code": "CSED69906",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 37
+        },
+        {
+          "course_code": "CSED69907",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 38
+        },
+        {
+          "course_code": "CSED69908",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 39
+        },
+        {
+          "course_code": "CSED69909",
+          "title": "석사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 40
+        },
+        {
+          "course_code": "AIGS69902",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 701
+        },
+        {
+          "course_code": "AIGS69903",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 702
+        },
+        {
+          "course_code": "AIGS69904",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 703
+        },
+        {
+          "course_code": "AIGS69905",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 704
+        },
+        {
+          "course_code": "AIGS69906",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 705
+        },
+        {
+          "course_code": "AIGS69907",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 706
+        },
+        {
+          "course_code": "AIGS69908",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 707
+        },
+        {
+          "course_code": "AIGS69909",
+          "title": "석사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 708
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:4c468a8594959c7c1be8",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CSED89901",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 46
+        },
+        {
+          "course_code": "CSED89903",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 47
+        },
+        {
+          "course_code": "CSED89904",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 48
+        },
+        {
+          "course_code": "CSED89905",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 49
+        },
+        {
+          "course_code": "CSED89906",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 50
+        },
+        {
+          "course_code": "CSED89907",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 51
+        },
+        {
+          "course_code": "CSED89908",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 52
+        },
+        {
+          "course_code": "CSED89909",
+          "title": "박사논문연구",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 53
+        },
+        {
+          "course_code": "AIGS89901",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 714
+        },
+        {
+          "course_code": "AIGS89903",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 715
+        },
+        {
+          "course_code": "AIGS89904",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 716
+        },
+        {
+          "course_code": "AIGS89905",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 717
+        },
+        {
+          "course_code": "AIGS89906",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 718
+        },
+        {
+          "course_code": "AIGS89908",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 720
+        },
+        {
+          "course_code": "AIGS89909",
+          "title": "박사논문연구",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 721
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:9525d184423dfa00ca96",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "AMSE89903",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 536
+        },
+        {
+          "course_code": "AMSE89904",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 537
+        },
+        {
+          "course_code": "AMSE89905",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 538
+        },
+        {
+          "course_code": "AMSE89906",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 539
+        },
+        {
+          "course_code": "AMSE89907",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 540
+        },
+        {
+          "course_code": "AMSE89908",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 541
+        },
+        {
+          "course_code": "AMSE89909",
+          "title": "박사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 542
+        },
+        {
+          "course_code": "CHEB89903",
+          "title": "박사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 604
+        },
+        {
+          "course_code": "CHEB89904",
+          "title": "박사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 605
+        },
+        {
+          "course_code": "CHEB89906",
+          "title": "박사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 606
+        },
+        {
+          "course_code": "CHEB89907",
+          "title": "박사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 607
+        },
+        {
+          "course_code": "CHEB89908",
+          "title": "박사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 608
+        },
+        {
+          "course_code": "CHEB89909",
+          "title": "박사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 609
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:a9431deec05d0b5dd6d1",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "AMSE69903",
+          "title": "석사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 528
+        },
+        {
+          "course_code": "AMSE69904",
+          "title": "석사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 529
+        },
+        {
+          "course_code": "AMSE69905",
+          "title": "석사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 530
+        },
+        {
+          "course_code": "AMSE69906",
+          "title": "석사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 531
+        },
+        {
+          "course_code": "AMSE69909",
+          "title": "석사논문연구",
+          "department": "신소재공학과",
+          "semester": "2025 090",
+          "source_row": 532
+        },
+        {
+          "course_code": "CHEB69903",
+          "title": "석사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 594
+        },
+        {
+          "course_code": "CHEB69904",
+          "title": "석사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 595
+        },
+        {
+          "course_code": "CHEB69908",
+          "title": "석사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 596
+        },
+        {
+          "course_code": "CHEB69909",
+          "title": "석사논문연구",
+          "department": "화학공학과",
+          "semester": "2025 090",
+          "source_row": 597
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:30bd49739366d7ee8125",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "IBIO89903",
+          "title": "박사논문연구",
+          "department": "시스템생명공학부",
+          "semester": "2025 090",
+          "source_row": 626
+        },
+        {
+          "course_code": "IBIO89908",
+          "title": "박사논문연구",
+          "department": "시스템생명공학부",
+          "semester": "2025 090",
+          "source_row": 627
+        },
+        {
+          "course_code": "IBIO89909",
+          "title": "박사논문연구",
+          "department": "시스템생명공학부",
+          "semester": "2025 090",
+          "source_row": 628
+        },
+        {
+          "course_code": "PMSE89903",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 746
+        },
+        {
+          "course_code": "PMSE89906",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 747
+        },
+        {
+          "course_code": "PMSE89909",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 748
+        },
+        {
+          "course_code": "PSDS89906",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 754
+        },
+        {
+          "course_code": "PSDS89909",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 755
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:4e864b3b3a1f85697f58",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CITE89902",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 679
+        },
+        {
+          "course_code": "CITE89903",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 680
+        },
+        {
+          "course_code": "CITE89904",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 681
+        },
+        {
+          "course_code": "CITE89906",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 682
+        },
+        {
+          "course_code": "CITE89907",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 683
+        },
+        {
+          "course_code": "CITE89908",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 684
+        },
+        {
+          "course_code": "CITE89909",
+          "title": "박사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 685
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:7264da267d357739f28b",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CITE69901",
+          "title": "석사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 669
+        },
+        {
+          "course_code": "CITE69903",
+          "title": "석사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 670
+        },
+        {
+          "course_code": "CITE69906",
+          "title": "석사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 671
+        },
+        {
+          "course_code": "CITE69907",
+          "title": "석사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 672
+        },
+        {
+          "course_code": "CITE69908",
+          "title": "석사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 673
+        },
+        {
+          "course_code": "CITE69909",
+          "title": "석사논문연구",
+          "department": "IT융합공학과",
+          "semester": "2025 090",
+          "source_row": 674
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:f5bf406bcc39f6f142d2",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "MATH89903",
+          "title": "박사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 127
+        },
+        {
+          "course_code": "MATH89905",
+          "title": "박사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 128
+        },
+        {
+          "course_code": "MATH89906",
+          "title": "박사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 129
+        },
+        {
+          "course_code": "MATH89908",
+          "title": "박사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 130
+        },
+        {
+          "course_code": "MATH89909",
+          "title": "박사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 131
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:6ebfc1ea7730f2b25fdf",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE557",
+          "title": "고급 나노 공정 및 생산",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 275
+        },
+        {
+          "course_code": "MECH539",
+          "title": "고급 나노 공정 및 생산",
+          "department": "기계공학과",
+          "semester": "2026 092",
+          "source_row": 955
+        },
+        {
+          "course_code": "CHEB564",
+          "title": "고급 나노 공정 및 생산",
+          "department": "화학공학과",
+          "semester": "2026 092",
+          "source_row": 980
+        },
+        {
+          "course_code": "QIST539",
+          "title": "고급 나노 공정 및 생산",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1298
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:dca2e439d7ce1acc5791",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AIGS515",
+          "title": "기계학습",
+          "department": "인공지능대학원",
+          "semester": "2026 092",
+          "source_row": 693
+        },
+        {
+          "course_code": "IDSC515",
+          "title": "기계학습",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 722
+        },
+        {
+          "course_code": "IBIO520",
+          "title": "기계학습",
+          "department": "시스템생명공학부",
+          "semester": "2026 092",
+          "source_row": 1270
+        },
+        {
+          "course_code": "PMSE715",
+          "title": "기계학습",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1295
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:f2a95a6c655a8c3d095e",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE482",
+          "title": "생체시스템 및 신호처리",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 328
+        },
+        {
+          "course_code": "IBIO533",
+          "title": "생체시스템 및 신호처리",
+          "department": "시스템생명공학부",
+          "semester": "2026 090",
+          "source_row": 1181
+        },
+        {
+          "course_code": "CITE453",
+          "title": "생체시스템 및 신호처리",
+          "department": "IT융합공학과",
+          "semester": "2026 090",
+          "source_row": 1195
+        },
+        {
+          "course_code": "PMSE512",
+          "title": "생체시스템 및 신호처리",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1203
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:f93198078f33beec5c5b",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "IBIO69909",
+          "title": "석사논문연구",
+          "department": "시스템생명공학부",
+          "semester": "2025 090",
+          "source_row": 624
+        },
+        {
+          "course_code": "PMSE69906",
+          "title": "석사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 742
+        },
+        {
+          "course_code": "PMSE69909",
+          "title": "석사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 743
+        },
+        {
+          "course_code": "SDST69903",
+          "title": "석사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 766
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:033279c5b6cdf4be5dd6",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE443",
+          "title": "통신 및 네트워크 실험",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 269
+        },
+        {
+          "course_code": "NGCN302",
+          "title": "통신 및 네트워크 실험",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 290
+        },
+        {
+          "course_code": "SDST543",
+          "title": "통신 및 네트워크 실험",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1300
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:0fcef523e9396e3bc2b3",
+      "reason": "title_only_empty_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE559",
+          "title": "생체광학영상원론",
+          "department": "전자전기공학과",
+          "semester": "2025 092",
+          "source_row": 276
+        },
+        {
+          "course_code": "MECH536",
+          "title": "생체광학영상원론",
+          "department": "기계공학과",
+          "semester": "2025 092",
+          "source_row": 954
+        },
+        {
+          "course_code": "CITE551",
+          "title": "생체광학영상원론",
+          "department": "IT융합공학과",
+          "semester": "2025 092",
+          "source_row": 1035
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:1f7821f78e7ef2f4b45e",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS655",
+          "title": "위상물질 정보소자",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 436
+        },
+        {
+          "course_code": "QIST655",
+          "title": "위상물질 정보소자",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 758
+        },
+        {
+          "course_code": "GSST623",
+          "title": "위상물질 정보소자",
+          "department": "반도체대학원",
+          "semester": "2026 090",
+          "source_row": 807
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:2d51aba3c7cde8006348",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AMSE562",
+          "title": "고분자젤",
+          "department": "신소재공학과",
+          "semester": "2026 090",
+          "source_row": 526
+        },
+        {
+          "course_code": "BATT608",
+          "title": "고분자젤",
+          "department": "배터리공학과",
+          "semester": "2026 090",
+          "source_row": 795
+        },
+        {
+          "course_code": "PMSE562",
+          "title": "고분자젤",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1206
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:39d7eabb1c7232d1d24f",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE480",
+          "title": "의공학:생명과 공학의 만남",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 165
+        },
+        {
+          "course_code": "MECH361",
+          "title": "의공학:생명과 공학의 만남",
+          "department": "기계공학과",
+          "semester": "2026 090",
+          "source_row": 549
+        },
+        {
+          "course_code": "CITE241",
+          "title": "의공학:생명과 공학의 만남",
+          "department": "IT융합공학과",
+          "semester": "2026 090",
+          "source_row": 658
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:5251b79a3bab6d7da7ff",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED627",
+          "title": "강화 학습",
+          "department": "컴퓨터공학과",
+          "semester": "2025 092",
+          "source_row": 78
+        },
+        {
+          "course_code": "AIGS627",
+          "title": "강화 학습",
+          "department": "인공지능대학원",
+          "semester": "2025 092",
+          "source_row": 1051
+        },
+        {
+          "course_code": "IDSC627",
+          "title": "강화 학습",
+          "department": "융합대학원",
+          "semester": "2025 092",
+          "source_row": 1063
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:5f76c16d5a365edc3b44",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE601",
+          "title": "고급분자생물학I",
+          "department": "생명과학과",
+          "semester": "2026 092",
+          "source_row": 909
+        },
+        {
+          "course_code": "IBIO652",
+          "title": "고급분자생물학I",
+          "department": "시스템생명공학부",
+          "semester": "2026 092",
+          "source_row": 1003
+        },
+        {
+          "course_code": "PMSE601",
+          "title": "고급분자생물학I",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1072
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:6fe6852a3e7f3113517c",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "MATH69903",
+          "title": "석사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 122
+        },
+        {
+          "course_code": "MATH69904",
+          "title": "석사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 123
+        },
+        {
+          "course_code": "MATH69906",
+          "title": "석사논문연구",
+          "department": "수학과",
+          "semester": "2025 090",
+          "source_row": 124
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:8a02c9f8ae5df980f291",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AMSE563",
+          "title": "프린팅 기술의 원리와 응용",
+          "department": "신소재공학과",
+          "semester": "2026 092",
+          "source_row": 932
+        },
+        {
+          "course_code": "SEMI563",
+          "title": "프린팅 기술의 원리와 응용",
+          "department": "반도체공학과",
+          "semester": "2025 092",
+          "source_row": 1102
+        },
+        {
+          "course_code": "GSST528",
+          "title": "프린팅 기술의 원리와 응용",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1120
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:92225107bc74f2ddebea",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED538",
+          "title": "딥러닝",
+          "department": "컴퓨터공학과",
+          "semester": "2026 090",
+          "source_row": 28
+        },
+        {
+          "course_code": "AIGS538",
+          "title": "딥러닝",
+          "department": "인공지능대학원",
+          "semester": "2026 090",
+          "source_row": 696
+        },
+        {
+          "course_code": "IDSC538",
+          "title": "딥러닝",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 724
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:dd3e429c8175040bb34b",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE417",
+          "title": "나노공학개론",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 156
+        },
+        {
+          "course_code": "MECH403",
+          "title": "나노공학개론",
+          "department": "기계공학과",
+          "semester": "2026 090",
+          "source_row": 556
+        },
+        {
+          "course_code": "CHEB463",
+          "title": "나노공학개론",
+          "department": "화학공학과",
+          "semester": "2026 090",
+          "source_row": 587
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e30a092eae64aeb332d0",
+      "reason": "title_only_empty_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE503",
+          "title": "고급면역학",
+          "department": "생명과학과",
+          "semester": "2026 092",
+          "source_row": 904
+        },
+        {
+          "course_code": "IBIO658",
+          "title": "고급면역학",
+          "department": "시스템생명공학부",
+          "semester": "2026 092",
+          "source_row": 1271
+        },
+        {
+          "course_code": "PMSE513",
+          "title": "고급면역학",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1294
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e5f0bd0af112c12e9150",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE441",
+          "title": "디지털통신개론",
+          "department": "전자전기공학과",
+          "semester": "2025 090",
+          "source_row": 162
+        },
+        {
+          "course_code": "EECE308",
+          "title": "디지털통신개론",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 324
+        },
+        {
+          "course_code": "SDST541",
+          "title": "디지털통신개론",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1214
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:0347f66e6c0d97dc083b",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "BATT50305",
+          "title": "박사논문연구(PBL)",
+          "department": "배터리공학과",
+          "semester": "2026 092",
+          "source_row": 790
+        },
+        {
+          "course_code": "BATT50303",
+          "title": "박사논문연구(PBL)",
+          "department": "배터리공학과",
+          "semester": "2026 092",
+          "source_row": 1217
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:03f3a806f6884e7434d7",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN662",
+          "title": "이산최적화",
+          "department": "산업경영공학과",
+          "semester": "2026 090",
+          "source_row": 226
+        },
+        {
+          "course_code": "IDSC662",
+          "title": "이산최적화",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 727
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:0581ce72dd15cb241e92",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEB646",
+          "title": "고급합성생물학",
+          "department": "화학공학과",
+          "semester": "2026 092",
+          "source_row": 981
+        },
+        {
+          "course_code": "IBIO534",
+          "title": "고급합성생물학",
+          "department": "시스템생명공학부",
+          "semester": "2026 092",
+          "source_row": 1001
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:081b1816ec7fde92ad38",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE619",
+          "title": "생물정보학",
+          "department": "생명과학과",
+          "semester": "2026 092",
+          "source_row": 910
+        },
+        {
+          "course_code": "IBIO638",
+          "title": "생물정보학",
+          "department": "시스템생명공학부",
+          "semester": "2026 092",
+          "source_row": 1002
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:0c1a855a910c1aeaffd6",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS648",
+          "title": "원자물리",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 434
+        },
+        {
+          "course_code": "QIST648",
+          "title": "원자물리",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 757
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:0c83d973baf8cf2aec40",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE514",
+          "title": "분자 영상",
+          "department": "생명과학과",
+          "semester": "2025 092",
+          "source_row": 908
+        },
+        {
+          "course_code": "PMSE714",
+          "title": "분자 영상",
+          "department": "융합대학원",
+          "semester": "2025 092",
+          "source_row": 1074
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:0dec1829f604c37a5d6a",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEM532",
+          "title": "고등무기화학II",
+          "department": "화학과",
+          "semester": "2025 092",
+          "source_row": 889
+        },
+        {
+          "course_code": "BATT709",
+          "title": "고등무기화학II",
+          "department": "배터리공학과",
+          "semester": "2025 092",
+          "source_row": 1113
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:17e4ba739515b0cba8e3",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEM461",
+          "title": "생화학",
+          "department": "화학과",
+          "semester": "2026 092",
+          "source_row": 887
+        },
+        {
+          "course_code": "PMSE507",
+          "title": "생화학",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1293
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:17e8a9559e92cb436531",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE505",
+          "title": "신경생물학",
+          "department": "생명과학과",
+          "semester": "2026 090",
+          "source_row": 491
+        },
+        {
+          "course_code": "PMSE515",
+          "title": "신경생물학",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1204
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:1e1b7f1557842be532af",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEB301",
+          "title": "화공 프로그래밍 및 AI",
+          "department": "화학공학과",
+          "semester": "2026 092",
+          "source_row": 967
+        },
+        {
+          "course_code": "SYNB511",
+          "title": "화공 프로그래밍 및 AI",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1303
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:223b6261f93ccef81178",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CHEM69903",
+          "title": "석사논문연구",
+          "department": "화학과",
+          "semester": "2025 090",
+          "source_row": 462
+        },
+        {
+          "course_code": "CHEM69909",
+          "title": "석사논문연구",
+          "department": "화학과",
+          "semester": "2025 090",
+          "source_row": 465
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:2568e0b3d48ff16a5dde",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEM619",
+          "title": "나노화학",
+          "department": "화학과",
+          "semester": "2026 090",
+          "source_row": 1159
+        },
+        {
+          "course_code": "ADMS517",
+          "title": "나노화학",
+          "department": "첨단재료과학부",
+          "semester": "2026 090",
+          "source_row": 1188
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:28d060d6025ead468d1b",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS647",
+          "title": "양자알고리즘",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 872
+        },
+        {
+          "course_code": "QIST647",
+          "title": "양자알고리즘",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1083
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:2a5e197b6512f597ec0a",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS682",
+          "title": "가속기의 원리와 기술",
+          "department": "물리학과",
+          "semester": "2025 092",
+          "source_row": 873
+        },
+        {
+          "course_code": "NUCE718M",
+          "title": "가속기의 원리와 기술",
+          "department": "첨단원자력공학부",
+          "semester": "2025 092",
+          "source_row": 1020
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:2b7031f46d712844101a",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS534",
+          "title": "양자센싱 및 양자계측",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 868
+        },
+        {
+          "course_code": "QIST534",
+          "title": "양자센싱 및 양자계측",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1081
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:31193870902f7ac64897",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS401",
+          "title": "고체물리",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 423
+        },
+        {
+          "course_code": "ADMS506",
+          "title": "고체물리",
+          "department": "첨단재료과학부",
+          "semester": "2026 090",
+          "source_row": 1186
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:33c0203b587b8f4dd6d3",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN677",
+          "title": "시계열 분석",
+          "department": "산업경영공학과",
+          "semester": "2025 090",
+          "source_row": 227
+        },
+        {
+          "course_code": "IDSC677",
+          "title": "시계열 분석",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 728
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:36a2279ddda316afbad8",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "AMSE399B",
+          "title": "연구참여B",
+          "department": "신소재공학과",
+          "semester": "2026 090",
+          "source_row": 514
+        },
+        {
+          "course_code": "CHEB399B",
+          "title": "연구참여B",
+          "department": "화학공학과",
+          "semester": "2026 092",
+          "source_row": 583
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:3b959d1367b927f65dec",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IDSC501",
+          "title": "데이터엔지니어링",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1059
+        },
+        {
+          "course_code": "AXGS501",
+          "title": "데이터엔지니어링",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1281
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:3c57627a9354b1a438f9",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "MATH532",
+          "title": "수학의 응용과 빅데이터",
+          "department": "수학과",
+          "semester": "2026 090",
+          "source_row": 318
+        },
+        {
+          "course_code": "IDSC532",
+          "title": "수학의 응용과 빅데이터",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1200
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:3fbaebb1a3b693bb8204",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "BATT50203",
+          "title": "석사논문연구(PBL)",
+          "department": "배터리공학과",
+          "semester": "2026 092",
+          "source_row": 787
+        },
+        {
+          "course_code": "BATT50205",
+          "title": "석사논문연구(PBL)",
+          "department": "배터리공학과",
+          "semester": "2026 092",
+          "source_row": 788
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:44ef9e34d091d0dac64c",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN574",
+          "title": "데이터 과학을 위한 프로그래밍",
+          "department": "산업경영공학과",
+          "semester": "2026 090",
+          "source_row": 224
+        },
+        {
+          "course_code": "IDSC574",
+          "title": "데이터 과학을 위한 프로그래밍",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 726
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:4579b94738c0c4374fd3",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE236",
+          "title": "Matlab으로 배우는 전자공학",
+          "department": "전자전기공학과",
+          "semester": "2025 090",
+          "source_row": 144
+        },
+        {
+          "course_code": "SDST536",
+          "title": "Matlab으로 배우는 전자공학",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 763
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:4605fec62e1765b4df12",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED502",
+          "title": "계산이론",
+          "department": "컴퓨터공학과",
+          "semester": "2025 092",
+          "source_row": 71
+        },
+        {
+          "course_code": "AIGS502",
+          "title": "계산이론",
+          "department": "인공지능대학원",
+          "semester": "2025 092",
+          "source_row": 1044
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:47fbfc8a6c15bea56ada",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EVSE593",
+          "title": "환경 빅데이터 개론",
+          "department": "환경공학부",
+          "semester": "2025 090",
+          "source_row": 614
+        },
+        {
+          "course_code": "PSDS593",
+          "title": "환경 빅데이터 개론",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 751
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:4dcc78bfd56040aa969f",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED700A",
+          "title": "특론: 지능형 사용자 인터페이스 디자인",
+          "department": "컴퓨터공학과",
+          "semester": "2025 092",
+          "source_row": 79
+        },
+        {
+          "course_code": "AIGS700A",
+          "title": "특론: 지능형 사용자 인터페이스 디자인",
+          "department": "인공지능대학원",
+          "semester": "2025 092",
+          "source_row": 1053
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:5ae424fd19256a58305c",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "SEMI363",
+          "title": "BEOL/패키징",
+          "department": "반도체공학과",
+          "semester": "2026 090",
+          "source_row": 778
+        },
+        {
+          "course_code": "GSST532",
+          "title": "BEOL/패키징",
+          "department": "반도체대학원",
+          "semester": "2026 090",
+          "source_row": 806
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:5b11cb0f3dfc6c767415",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED537",
+          "title": "인공지능과 데이터과학",
+          "department": "컴퓨터공학과",
+          "semester": "2026 090",
+          "source_row": 27
+        },
+        {
+          "course_code": "AIGS537",
+          "title": "인공지능과 데이터과학",
+          "department": "인공지능대학원",
+          "semester": "2026 090",
+          "source_row": 695
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:5b2f8bc424e8a2b273db",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE695J",
+          "title": "특론: 고급 기계학습 주제",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 185
+        },
+        {
+          "course_code": "AIGS703E",
+          "title": "특론: 고급 기계학습 주제",
+          "department": "인공지능대학원",
+          "semester": "2026 090",
+          "source_row": 711
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:5b9983047151c029f80a",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CITE700I",
+          "title": "특론: 신속 프로토타이핑을 위한 디지털 패브리케이션",
+          "department": "의공학과",
+          "semester": "2026 092",
+          "source_row": 678
+        },
+        {
+          "course_code": "PCFT701",
+          "title": "특론: 신속 프로토타이핑을 위한 디지털 패브리케이션",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 736
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:614a613cb0d4a9483bc3",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE425",
+          "title": "전력전자공학",
+          "department": "전자전기공학과",
+          "semester": "2025 090",
+          "source_row": 160
+        },
+        {
+          "course_code": "EECE305",
+          "title": "전력전자공학",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 322
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:62fbd762de2d14669cd3",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS653",
+          "title": "초전도물리학",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 1154
+        },
+        {
+          "course_code": "QIST658",
+          "title": "초전도물리학",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1211
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:66fe7ee5d225b917aa40",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS522",
+          "title": "고체물리학II",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 867
+        },
+        {
+          "course_code": "QIST522",
+          "title": "고체물리학II",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1297
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:6f645a672d204c6cf28a",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE695I",
+          "title": "특론: 스트레쳐블 유연 전자공학",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 184
+        },
+        {
+          "course_code": "GSST690E",
+          "title": "특론: 스트레쳐블 유연 전자공학",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1309
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:70640fff8e5b2e0e7052",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEM634",
+          "title": "고체화학",
+          "department": "화학과",
+          "semester": "2026 092",
+          "source_row": 894
+        },
+        {
+          "course_code": "BATT531",
+          "title": "고체화학",
+          "department": "배터리공학과",
+          "semester": "2025 092",
+          "source_row": 1108
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:721f8e088dbe008299f2",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED510",
+          "title": "기계학습의 구현 및 가속",
+          "department": "컴퓨터공학과",
+          "semester": "2026 090",
+          "source_row": 74
+        },
+        {
+          "course_code": "AIGS510",
+          "title": "기계학습의 구현 및 가속",
+          "department": "인공지능대학원",
+          "semester": "2026 090",
+          "source_row": 1047
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:760e32f860c46f65714f",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE695B",
+          "title": "특론: GPU 컴퓨팅",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 179
+        },
+        {
+          "course_code": "GSST690M",
+          "title": "특론: GPU 컴퓨팅",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1311
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:78dbe10a6afe9c696101",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "GIFT706",
+          "title": "Phase-Field Model",
+          "department": "친환경소재학과",
+          "semester": "2025 090",
+          "source_row": 638
+        },
+        {
+          "course_code": "BATT535",
+          "title": "Phase-Field Model",
+          "department": "배터리공학과",
+          "semester": "2025 090",
+          "source_row": 792
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:7aaf3b2d46a323136c68",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEB737",
+          "title": "분자생물공학특론",
+          "department": "화학공학과",
+          "semester": "2026 090",
+          "source_row": 1176
+        },
+        {
+          "course_code": "PMSE737",
+          "title": "분자생물공학특론",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1207
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:807d83fbc0d2498044fa",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN572",
+          "title": "서비스품질공학",
+          "department": "산업경영공학과",
+          "semester": "2026 090",
+          "source_row": 223
+        },
+        {
+          "course_code": "IDSC572",
+          "title": "서비스품질공학",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 725
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:808d6a3597f7509a848d",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED551",
+          "title": "계산사진학",
+          "department": "컴퓨터공학과",
+          "semester": "2025 090",
+          "source_row": 29
+        },
+        {
+          "course_code": "AIGS551",
+          "title": "계산사진학",
+          "department": "인공지능대학원",
+          "semester": "2025 090",
+          "source_row": 697
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:81716b6db0563cd3ce0f",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CHEM69904",
+          "title": "석사논문연구",
+          "department": "화학과",
+          "semester": "2025 090",
+          "source_row": 463
+        },
+        {
+          "course_code": "CHEM69906",
+          "title": "석사논문연구",
+          "department": "화학과",
+          "semester": "2025 090",
+          "source_row": 464
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:826906c4e11120e081fa",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED703M",
+          "title": "특론: 3차원 의료영상 처리 및 분석",
+          "department": "컴퓨터공학과",
+          "semester": "2026 090",
+          "source_row": 43
+        },
+        {
+          "course_code": "AIGS703O",
+          "title": "특론: 3차원 의료영상 처리 및 분석",
+          "department": "인공지능대학원",
+          "semester": "2026 090",
+          "source_row": 712
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:83fe058c4fcc3954cbf6",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CMCC409",
+          "title": "진화와 인간사회",
+          "department": "인문사회과학부",
+          "semester": "2025 092",
+          "source_row": 367
+        },
+        {
+          "course_code": "CMST409",
+          "title": "진화와 인간사회",
+          "department": "인문사회과학부",
+          "semester": "2026 092",
+          "source_row": 1229
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:8529c12c59a40c52b516",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "NUCE719F",
+          "title": "통계적 연구 방법론",
+          "department": "첨단원자력공학부",
+          "semester": "2026 092",
+          "source_row": 1023
+        },
+        {
+          "course_code": "PSDS502",
+          "title": "통계적 연구 방법론",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1078
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:861d35b5d44fa62ff852",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED554",
+          "title": "심층학습 자연어처리",
+          "department": "컴퓨터공학과",
+          "semester": "2026 090",
+          "source_row": 30
+        },
+        {
+          "course_code": "AIGS554",
+          "title": "심층학습 자연어처리",
+          "department": "인공지능대학원",
+          "semester": "2026 090",
+          "source_row": 698
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:86e57e207f2b283cba42",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE454",
+          "title": "기계학습 시스템 개론",
+          "department": "전자전기공학과",
+          "semester": "2025 092",
+          "source_row": 270
+        },
+        {
+          "course_code": "EECE312",
+          "title": "기계학습 시스템 개론",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 347
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:86eccc1ca2375c5f876f",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "MATH472",
+          "title": "금융공학개론",
+          "department": "수학과",
+          "semester": "2026 092",
+          "source_row": 242
+        },
+        {
+          "course_code": "IMEN387",
+          "title": "금융공학개론",
+          "department": "산업경영공학과",
+          "semester": "2026 092",
+          "source_row": 301
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:8a888191feaf33d60a56",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AMSE512",
+          "title": "원자구조해석",
+          "department": "신소재공학과",
+          "semester": "2026 090",
+          "source_row": 1162
+        },
+        {
+          "course_code": "GSST521",
+          "title": "원자구조해석",
+          "department": "반도체대학원",
+          "semester": "2026 090",
+          "source_row": 1220
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:8aa2803d86f923beb192",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS533",
+          "title": "양자통신 및 양자암호",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 1152
+        },
+        {
+          "course_code": "QIST533",
+          "title": "양자통신 및 양자암호",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1209
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:8bc1d44f564caf20afe9",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE622R",
+          "title": "현대생물학동향(과학적 가설에 근거한 연구접근)",
+          "department": "생명과학과",
+          "semester": "2026 092",
+          "source_row": 1251
+        },
+        {
+          "course_code": "PMSE722",
+          "title": "현대생물학동향(과학적 가설에 근거한 연구접근)",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1296
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:8d419a5725c98ea41ee8",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "SEMI562",
+          "title": "박막공정",
+          "department": "반도체공학과",
+          "semester": "2025 090",
+          "source_row": 785
+        },
+        {
+          "course_code": "GSST526",
+          "title": "박막공정",
+          "department": "반도체대학원",
+          "semester": "2026 090",
+          "source_row": 805
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:90d83b3bdcdc45e9b5ee",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE442",
+          "title": "통신 및 네트워크 개론",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 163
+        },
+        {
+          "course_code": "NGCN301",
+          "title": "통신 및 네트워크 개론",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 193
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:930d111d917a420e7a79",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AMSE742E",
+          "title": "특론: 나노전자재료및소자",
+          "department": "신소재공학과",
+          "semester": "2026 090",
+          "source_row": 535
+        },
+        {
+          "course_code": "GSST690B",
+          "title": "특론: 나노전자재료및소자",
+          "department": "반도체대학원",
+          "semester": "2026 090",
+          "source_row": 1221
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:930fc3ba2c09bf6cbd8e",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "SOSC432",
+          "title": "인류학의 이해",
+          "department": "인문사회과학부",
+          "semester": "2025 092",
+          "source_row": 835
+        },
+        {
+          "course_code": "SOSC336",
+          "title": "인류학의 이해",
+          "department": "인문사회과학부",
+          "semester": "2026 090",
+          "source_row": 1139
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:950b0becae92c285a9ad",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEM521",
+          "title": "고등유기화학",
+          "department": "화학과",
+          "semester": "2026 090",
+          "source_row": 458
+        },
+        {
+          "course_code": "ADMS508",
+          "title": "고등유기화학",
+          "department": "첨단재료과학부",
+          "semester": "2026 090",
+          "source_row": 1187
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:9ef592b37f9f6b4e7344",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED530",
+          "title": "컴퓨터공학을 위한 고급 확률 이론",
+          "department": "컴퓨터공학과",
+          "semester": "2026 092",
+          "source_row": 96
+        },
+        {
+          "course_code": "AIGS530",
+          "title": "컴퓨터공학을 위한 고급 확률 이론",
+          "department": "인공지능대학원",
+          "semester": "2026 092",
+          "source_row": 1279
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:a12a37d73339fe39ba74",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "DISU421",
+          "title": "기초양자정보",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 138
+        },
+        {
+          "course_code": "EECE418",
+          "title": "기초양자정보",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 157
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:a22db97ad3575bba4e2b",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "MATH538",
+          "title": "환경통계",
+          "department": "수학과",
+          "semester": "2025 092",
+          "source_row": 250
+        },
+        {
+          "course_code": "EVSE579",
+          "title": "환경통계",
+          "department": "환경공학부",
+          "semester": "2025 092",
+          "source_row": 996
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:a5498701dd07910b85f0",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "GIFT704",
+          "title": "Computational Materials Science",
+          "department": "친환경소재학과",
+          "semester": "2026 092",
+          "source_row": 1011
+        },
+        {
+          "course_code": "BATT534",
+          "title": "Computational Materials Science",
+          "department": "배터리공학과",
+          "semester": "2026 092",
+          "source_row": 1110
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:a6f1a17fa6e08b483510",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS715P",
+          "title": "특론: 가속기 실험실습 I",
+          "department": "물리학과",
+          "semester": "2025 090",
+          "source_row": 438
+        },
+        {
+          "course_code": "NUCE719P",
+          "title": "특론: 가속기 실험실습 I",
+          "department": "첨단원자력공학부",
+          "semester": "2025 090",
+          "source_row": 647
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:a78f664b599b0154b830",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS801",
+          "title": "콜로퀴움",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 439
+        },
+        {
+          "course_code": "QIST801",
+          "title": "콜로퀴움",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 760
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:b129df350b8d45ed9a78",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AMSE742D",
+          "title": "특론: 메모리반도체",
+          "department": "신소재공학과",
+          "semester": "2025 092",
+          "source_row": 939
+        },
+        {
+          "course_code": "GSST690A",
+          "title": "특론: 메모리반도체",
+          "department": "반도체대학원",
+          "semester": "2025 092",
+          "source_row": 1124
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:b188fb317e0670311234",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS413",
+          "title": "생물물리학",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 425
+        },
+        {
+          "course_code": "IBIO526",
+          "title": "생물물리학",
+          "department": "시스템생명공학부",
+          "semester": "2026 090",
+          "source_row": 621
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:b47b1ff05abc36e4f97e",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS715K",
+          "title": "특론: 첨단 방사광가속기의 이해",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 1157
+        },
+        {
+          "course_code": "NUCE719K",
+          "title": "특론: 첨단 방사광가속기의 이해",
+          "department": "첨단원자력공학부",
+          "semester": "2026 090",
+          "source_row": 1190
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:b684e456a5e802f5f011",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "QIST89903",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 761
+        },
+        {
+          "course_code": "QIST89906",
+          "title": "박사논문연구",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 762
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:b8503a979f68e050a47b",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE637",
+          "title": "차세대 소자물리 및 특성분석",
+          "department": "전자전기공학과",
+          "semester": "2025 090",
+          "source_row": 176
+        },
+        {
+          "course_code": "PCFT707",
+          "title": "차세대 소자물리 및 특성분석",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 737
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:bb3bea8407fdb37ba1cf",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE622Y",
+          "title": "현대생물학동향(항체공학)",
+          "department": "생명과학과",
+          "semester": "2025 092",
+          "source_row": 503
+        },
+        {
+          "course_code": "PMSE726",
+          "title": "현대생물학동향(항체공학)",
+          "department": "융합대학원",
+          "semester": "2025 092",
+          "source_row": 1076
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:bbdde8ea7e51f314107f",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS654",
+          "title": "양자물질 분광학",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 1155
+        },
+        {
+          "course_code": "QIST654",
+          "title": "양자물질 분광학",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 1210
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:c084b3e6cb3cde270b20",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS692",
+          "title": "양자광학",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 1245
+        },
+        {
+          "course_code": "QIST692",
+          "title": "양자광학",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1299
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:c0cc5eeca3270ad8c917",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS683",
+          "title": "중급 빔물리",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 437
+        },
+        {
+          "course_code": "NUCE719G",
+          "title": "중급 빔물리",
+          "department": "첨단원자력공학부",
+          "semester": "2026 092",
+          "source_row": 645
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:c0d5d04e5cb9b3ac7aa8",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "AMSE399A",
+          "title": "연구참여A",
+          "department": "신소재공학과",
+          "semester": "2026 092",
+          "source_row": 513
+        },
+        {
+          "course_code": "CHEB399A",
+          "title": "연구참여A",
+          "department": "화학공학과",
+          "semester": "2026 092",
+          "source_row": 582
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:c2eb54e2bfe2bc7d1b32",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "CHEM89908",
+          "title": "박사논문연구",
+          "department": "화학과",
+          "semester": "2025 090",
+          "source_row": 469
+        },
+        {
+          "course_code": "CHEM89909",
+          "title": "박사논문연구",
+          "department": "화학과",
+          "semester": "2025 090",
+          "source_row": 470
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:c549d9239e24c9af49d8",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CMCC304",
+          "title": "이미지의 기원과 비주얼 리터러시",
+          "department": "인문사회과학부",
+          "semester": "2025 092",
+          "source_row": 811
+        },
+        {
+          "course_code": "ARTS315",
+          "title": "이미지의 기원과 비주얼 리터러시",
+          "department": "인문사회과학부",
+          "semester": "2026 090",
+          "source_row": 1128
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:c98eb32c1ecf7cf5f161",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED703O",
+          "title": "특론: 인공지능 시스템",
+          "department": "컴퓨터공학과",
+          "semester": "2025 092",
+          "source_row": 83
+        },
+        {
+          "course_code": "AIGS702O",
+          "title": "특론: 인공지능 시스템",
+          "department": "인공지능대학원",
+          "semester": "2025 092",
+          "source_row": 1055
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:cac1efd7dc17039386b6",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN529",
+          "title": "스마트제조",
+          "department": "산업경영공학과",
+          "semester": "2025 090",
+          "source_row": 222
+        },
+        {
+          "course_code": "IDSC529",
+          "title": "스마트제조",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 723
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:cbac77594f2178d19c25",
+      "reason": "generic_research_or_seminar",
+      "members": [
+        {
+          "course_code": "GIFT50203",
+          "title": "Masters thesis Research",
+          "department": "친환경소재학과",
+          "semester": "2026 092",
+          "source_row": 629
+        },
+        {
+          "course_code": "GIFT50206",
+          "title": "Masters thesis Research",
+          "department": "친환경소재학과",
+          "semester": "2026 092",
+          "source_row": 630
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:cd1a2a5827e72e7accfd",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED536",
+          "title": "고급 알고리즘",
+          "department": "컴퓨터공학과",
+          "semester": "2026 092",
+          "source_row": 26
+        },
+        {
+          "course_code": "AIGS536",
+          "title": "고급 알고리즘",
+          "department": "인공지능대학원",
+          "semester": "2026 092",
+          "source_row": 694
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:cd9711f1ee4c74e584c4",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN723",
+          "title": "제조지능",
+          "department": "산업경영공학과",
+          "semester": "2025 090",
+          "source_row": 228
+        },
+        {
+          "course_code": "IDSC723",
+          "title": "제조지능",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 729
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:cdf6f12c1480041546c2",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "IMEN581",
+          "title": "통합리스크관리",
+          "department": "산업경영공학과",
+          "semester": "2025 092",
+          "source_row": 305
+        },
+        {
+          "course_code": "IDSC581",
+          "title": "통합리스크관리",
+          "department": "융합대학원",
+          "semester": "2025 092",
+          "source_row": 1062
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:da1855ba359cb4411bbc",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "SEMI641",
+          "title": "초집적회로해석 및 설계소프트웨어",
+          "department": "반도체공학과",
+          "semester": "2025 092",
+          "source_row": 1103
+        },
+        {
+          "course_code": "GSST612",
+          "title": "초집적회로해석 및 설계소프트웨어",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1122
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e035dde0c9422f963561",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE572",
+          "title": "전력 관리 집적 회로 설계",
+          "department": "전자전기공학과",
+          "semester": "2025 092",
+          "source_row": 277
+        },
+        {
+          "course_code": "GSST517",
+          "title": "전력 관리 집적 회로 설계",
+          "department": "반도체대학원",
+          "semester": "2025 092",
+          "source_row": 1116
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e0a7d01fc0098d2bf4f7",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CHEM613",
+          "title": "통계열역학",
+          "department": "화학과",
+          "semester": "2026 092",
+          "source_row": 891
+        },
+        {
+          "course_code": "ADMS613",
+          "title": "통계열역학",
+          "department": "첨단재료과학부",
+          "semester": "2025 092",
+          "source_row": 1015
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e290e21cdc12c513c2d1",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "SOSC335",
+          "title": "현대사회의 결혼과 성",
+          "department": "인문사회과학부",
+          "semester": "2025 090",
+          "source_row": 400
+        },
+        {
+          "course_code": "SOSC436",
+          "title": "현대사회의 결혼과 성",
+          "department": "인문사회과학부",
+          "semester": "2026 092",
+          "source_row": 1144
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e306054cb2de709cedd9",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AIGS651",
+          "title": "컴퓨테이셔널인텔리전스",
+          "department": "인공지능대학원",
+          "semester": "2026 092",
+          "source_row": 1052
+        },
+        {
+          "course_code": "GSST611",
+          "title": "컴퓨테이셔널인텔리전스",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1121
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e560f9a69656c7daa786",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS514",
+          "title": "양자정보과학",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 866
+        },
+        {
+          "course_code": "QIST514",
+          "title": "양자정보과학",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1080
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e61284107f8e5cb527f2",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PMSE713",
+          "title": "생체재료와 조직공학",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1073
+        },
+        {
+          "course_code": "AMSE564",
+          "title": "생체재료와 조직공학",
+          "department": "신소재공학과",
+          "semester": "2026 092",
+          "source_row": 1258
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e6321dca5ca1cd30135c",
+      "reason": "title_only_empty_teaching_text",
+      "members": [
+        {
+          "course_code": "CITE555",
+          "title": "초음파공학",
+          "department": "IT융합공학과",
+          "semester": "2025 092",
+          "source_row": 1036
+        },
+        {
+          "course_code": "PMSE555",
+          "title": "초음파공학",
+          "department": "융합대학원",
+          "semester": "2025 092",
+          "source_row": 1071
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:e96d85aa7a6d814e006c",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "LIFE451A",
+          "title": "특강: 이공학도를 위한 임상 해부생리학 특론",
+          "department": "생명과학과",
+          "semester": "2026 090",
+          "source_row": 486
+        },
+        {
+          "course_code": "CITE390B",
+          "title": "특강: 이공학도를 위한 임상 해부생리학 특론",
+          "department": "IT융합공학과",
+          "semester": "2026 090",
+          "source_row": 663
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:ea18736662a8554d5f76",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS715B",
+          "title": "특론: 빔진단, 고주파 및 초전도 기술",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 1156
+        },
+        {
+          "course_code": "NUCE719U",
+          "title": "특론: 빔진단, 고주파 및 초전도 기술",
+          "department": "첨단원자력공학부",
+          "semester": "2026 090",
+          "source_row": 1192
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:ed0349d345df95bb0308",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS511",
+          "title": "양자물리와 양자기술",
+          "department": "물리학과",
+          "semester": "2026 090",
+          "source_row": 431
+        },
+        {
+          "course_code": "QIST511",
+          "title": "양자물리와 양자기술",
+          "department": "융합대학원",
+          "semester": "2026 090",
+          "source_row": 756
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:ed2e3c3295fce6054481",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE429",
+          "title": "전력시스템 제어 및 운영의 기초",
+          "department": "전자전기공학과",
+          "semester": "2025 092",
+          "source_row": 268
+        },
+        {
+          "course_code": "EECE310",
+          "title": "전력시스템 제어 및 운영의 기초",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 346
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:ed6fd4fd736d728756aa",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "ENTP301",
+          "title": "비즈니스플래닝",
+          "department": "산업경영공학과",
+          "semester": "2026 092",
+          "source_row": 291
+        },
+        {
+          "course_code": "IMEN412",
+          "title": "비즈니스플래닝",
+          "department": "산업경영공학과",
+          "semester": "2026 092",
+          "source_row": 302
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:f0bd129dad09cd87b4d0",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "GIFT611",
+          "title": "Transmission Electron Microscopy",
+          "department": "친환경소재학과",
+          "semester": "2026 090",
+          "source_row": 635
+        },
+        {
+          "course_code": "BATT701",
+          "title": "Transmission Electron Microscopy",
+          "department": "배터리공학과",
+          "semester": "2026 090",
+          "source_row": 799
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:f400586648e372b9230c",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "GIFT50305",
+          "title": "Doctoral Dissertation Research",
+          "department": "친환경소재학과",
+          "semester": "2026 092",
+          "source_row": 631
+        },
+        {
+          "course_code": "GIFT50303",
+          "title": "Doctoral Dissertation Research",
+          "department": "친환경소재학과",
+          "semester": "2026 092",
+          "source_row": 1183
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:fad3eb56241ce3b419ce",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE361",
+          "title": "전자파 응용",
+          "department": "전자전기공학과",
+          "semester": "2026 090",
+          "source_row": 148
+        },
+        {
+          "course_code": "SDST561",
+          "title": "전자파 응용",
+          "department": "융합대학원",
+          "semester": "2025 090",
+          "source_row": 764
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:fafeb84f729ae143655c",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "CSED701A",
+          "title": "특론: 매개변수 알고리즘",
+          "department": "컴퓨터공학과",
+          "semester": "2025 092",
+          "source_row": 80
+        },
+        {
+          "course_code": "AIGS701A",
+          "title": "특론: 매개변수 알고리즘",
+          "department": "인공지능대학원",
+          "semester": "2025 092",
+          "source_row": 1054
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:fb68a42aa5d26d0e66b9",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "EECE695E",
+          "title": "특론: 고급 RF회로설계",
+          "department": "전자전기공학과",
+          "semester": "2026 092",
+          "source_row": 182
+        },
+        {
+          "course_code": "GSST690N",
+          "title": "특론: 고급 RF회로설계",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1312
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:fc49994be8f05b8432a9",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "PHYS535",
+          "title": "양자컴퓨팅 및 양자시물레이션",
+          "department": "물리학과",
+          "semester": "2026 092",
+          "source_row": 869
+        },
+        {
+          "course_code": "QIST535",
+          "title": "양자컴퓨팅 및 양자시물레이션",
+          "department": "융합대학원",
+          "semester": "2026 092",
+          "source_row": 1082
+        }
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "content_group_candidate": "content:fcb138a590eb86b9f8ef",
+      "reason": "identical_title_and_teaching_text",
+      "members": [
+        {
+          "course_code": "AMSE524",
+          "title": "메모리반도체",
+          "department": "신소재공학과",
+          "semester": "2026 092",
+          "source_row": 1257
+        },
+        {
+          "course_code": "GSST529",
+          "title": "메모리반도체",
+          "department": "반도체대학원",
+          "semester": "2026 092",
+          "source_row": 1308
+        }
+      ],
+      "review_status": "unreviewed"
+    }
+  ]
+}

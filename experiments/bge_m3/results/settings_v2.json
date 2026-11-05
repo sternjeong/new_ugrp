@@ -1,0 +1,9 @@
+{
+ "HUB_LAMBDA": 0.7,
+ "TOPIC_GAMMA": 0.03,
+ "RULE_BETA": 0.04,
+ "MIN_CHARS": 30,
+ "PLAN_WINDOW": 3,
+ "N_JUDGE_LABS": 20,
+ "SEED": 7
+}

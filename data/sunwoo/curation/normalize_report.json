@@ -1,0 +1,1763 @@
+{
+ "lab_names_changed": [
+  {
+   "id": "00f52d3209da2832a33781de047e38ed",
+   "professor": "김동우",
+   "name": "기계학습 연구실 (ML Lab)",
+   "raw_en": "ML Lab",
+   "name_en": null,
+   "acronym": "ML Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "0195e9ad12189938d2dc6f445aa53c1a",
+   "professor": "이을범",
+   "name": "Project Management & Systems Engineering Lab",
+   "raw_en": "PROJECT MANAGEMENT & SYSTEMS ENGINEERING LAB",
+   "name_en": "Project Management & Systems Engineering Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "04a4270953e536b3d89b39189ea28f5a",
+   "professor": "김윤호",
+   "name": "양자 광학 및 양자 연구실 (QOQI)",
+   "raw_en": "Quantum Optics & Quantum Information Group (QOQI)",
+   "name_en": "Quantum Optics & Quantum Information Group",
+   "acronym": "QOQI",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "06a7992e0dd6d5dd019a67c9eb5a82cf",
+   "professor": "이대수",
+   "name": "인공 복합 산화물 연구실 (ACOL)",
+   "raw_en": "Artificial Complex Oxide Lab (ACOL)",
+   "name_en": "Artificial Complex Oxide Lab",
+   "acronym": "ACOL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "091f90e0fff752261f9f7570c053632a",
+   "professor": "서대하",
+   "name": "Single-molecule biophysics and quantitative imaging of molecular dynamics in living systems Lab (SMALL Lab)",
+   "raw_en": "SMALL Lab(Single-molecule biophysics and quantitative imaging of molecular dynamics in living systems)",
+   "name_en": "Single-molecule biophysics and quantitative imaging of molecular dynamics in living systems Lab",
+   "acronym": "SMALL Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "0a2eb55c6a036c893a340b7402e7da05",
+   "professor": "전상민",
+   "name": "지능형물질및센서연구실 (SMART Lab)",
+   "raw_en": "SMART(Sustainable Materials & Advanced Renewable Technologies) Lab",
+   "name_en": "Sustainable Materials & Advanced Renewable Technologies Lab",
+   "acronym": "SMART Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+   "professor": "박성우",
+   "name": "프로그래밍언어 연구실 (PL Lab)",
+   "raw_en": "Programming Languages (PL) Lab",
+   "name_en": "Programming Languages Lab",
+   "acronym": "PL Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "0a808026bdf92ba0c4cc4c5bd2456eb6",
+   "professor": "서종철",
+   "name": "Molecular Cluster Structural Chemistry Laboratory (Seo Research Group)",
+   "raw_en": "Molecular Cluster Structural Chemistry Laboratory (Seo Research Group)",
+   "name_en": "Molecular Cluster Structural Chemistry Laboratory",
+   "acronym": null,
+   "alias": "Seo Research Group",
+   "rule": "alias"
+  },
+  {
+   "id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+   "professor": "강대식",
+   "name": "Brain-Robot-Artificial Intelligence Integrated System Lab (BRAINS Lab)",
+   "raw_en": "BRAINS LAB(Brain-Robot-Artificial Intelligence Integrated System)",
+   "name_en": "Brain-Robot-Artificial Intelligence Integrated System Lab",
+   "acronym": "BRAINS Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "1143745d2465a8bef9876a8bbeb0b1be",
+   "professor": "조강우",
+   "name": "하∙폐수전환가속화연구실 (CREATE WQ)",
+   "raw_en": "CREATE WQ(Lab. on Chemical Redox Acceleration Technologies for Water Quality)",
+   "name_en": "Lab on Chemical Redox Acceleration Technologies for Water Quality",
+   "acronym": "CREATE WQ",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "159e63d1befbc37139b2b5e1a1573f69",
+   "professor": "조승환",
+   "name": "Catalyst & Organic Synthesis Lab",
+   "raw_en": "Catalyst & Organic Synthesis Lab.",
+   "name_en": "Catalyst & Organic Synthesis Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "15e543040350f144149566679fe2bfc7",
+   "professor": "최동구",
+   "name": "시스템 및 경제적 의사결정 분석 / 연구실 (SEA Lab)",
+   "raw_en": "System & Economic Decision Analytics (SEA) Lab.",
+   "name_en": "System & Economic Decision Analytics Lab",
+   "acronym": "SEA Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "17010ed4b4f3cc2bbec3c6d2c5252945",
+   "professor": "유선철",
+   "name": "극한 환경 로봇 (HERO Lab)",
+   "raw_en": "HERO Lab",
+   "name_en": null,
+   "acronym": "HERO Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "17a219bdf39951c186a22b1b72692bb0",
+   "professor": "최창혁",
+   "name": "Electrocatalysis Laboratory (eCatLab)",
+   "raw_en": "eCatLab (Electrocatalysis Laboratory)",
+   "name_en": "Electrocatalysis Laboratory",
+   "acronym": "eCatLab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "182ce9550b0ec5f1d065cbff549ce3eb",
+   "professor": "차형준",
+   "name": "분자생명공학연구실 (MAGIC Lab)",
+   "raw_en": "MAGIC LAB",
+   "name_en": null,
+   "acronym": "MAGIC Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "1bef128cdf09045b9dc8ab50733a08e2",
+   "professor": "김예성",
+   "name": "Computing for Embedded Lightweight Learning (CELL)",
+   "raw_en": "CELL",
+   "name_en": "Computing for Embedded Lightweight Learning",
+   "acronym": "CELL",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "1c52ea91286390cb814c490f93ab0492",
+   "professor": "황현상",
+   "name": "반도체 집적소자 및 공정연구실 (SIDP)",
+   "raw_en": "SIDP",
+   "name_en": null,
+   "acronym": "SIDP",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "209a80e9e8e4205c5add535212b0a0ba",
+   "professor": "신원동",
+   "name": "Bio-inspired Robotics and Design Laboratory (BIRD Lab)",
+   "raw_en": "BIRD Lab",
+   "name_en": "Bio-inspired Robotics and Design Laboratory",
+   "acronym": "BIRD Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "240442b3eecec4c78bf1a0cb70dedd8e",
+   "professor": "양경철",
+   "name": "통신 및 신호설계 연구실 (CSDL)",
+   "raw_en": "Communications and Signal Design Lab (CSDL)",
+   "name_en": "Communications and Signal Design Lab",
+   "acronym": "CSDL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "242b80e78d0ebf34b7e88447b4be511d",
+   "professor": "이성진",
+   "name": "Computer Architecture and Operating Systems Laboratory (CAOS Laboratory)",
+   "raw_en": "Computer Architecture and Operating Systems (CAOS) Laboratory",
+   "name_en": "Computer Architecture and Operating Systems Laboratory",
+   "acronym": "CAOS Laboratory",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "247c2d847af8f32337fb7de6ad268360",
+   "professor": "전요셉",
+   "name": "무선통신 및 기계학습 연구실 (WCML Lab)",
+   "raw_en": "Wireless Communications and Machine Learning (WCML) Lab",
+   "name_en": "Wireless Communications and Machine Learning Lab",
+   "acronym": "WCML Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "255034de0b267f94daea8fa61dbe1bef",
+   "professor": "김연수",
+   "name": "스마트소프트 재료 연구실",
+   "raw_en": "Smart Soft Materials lab",
+   "name_en": "Smart Soft Materials Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "269027c5b93829258d2eef4d0a38f196",
+   "professor": "강병우",
+   "name": "에너지 & 환경 소재 연구실 (AMEE Lab)",
+   "raw_en": "Advanced Materials for Energy & Environment (AMEE) Lab",
+   "name_en": "Advanced Materials for Energy & Environment Lab",
+   "acronym": "AMEE Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "296439a8f29e7e50e675c0fee25ab655",
+   "professor": "안용주",
+   "name": "Medical Science and Translational Research Lab",
+   "raw_en": "Medical Science and Translational Research Lab.",
+   "name_en": "Medical Science and Translational Research Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "29b6c1acd5aeb8b3635fafb6cf998a09",
+   "professor": "김형섭",
+   "name": "Structural Nano Metals&Processing Lab",
+   "raw_en": "Structural Nano Metals&Processing Lab.",
+   "name_en": "Structural Nano Metals&Processing Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "2cb62041f2042fee06f9fec52ac935ad",
+   "professor": "박주홍",
+   "name": "디자인 인텔리전스 랩",
+   "raw_en": "Design Intelligence Lab.",
+   "name_en": "Design Intelligence Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "2d380f935fc3deb1650937ac60cf70a7",
+   "professor": "강종훈",
+   "name": "저차원 양자물질 에피 성장 연구실",
+   "raw_en": "Epitaxy & Quantum Materials lab",
+   "name_en": "Epitaxy & Quantum Materials Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "33b3a5898d5ed71e56d62df9fd6e956a",
+   "professor": "김태경",
+   "name": "신경 후성유전체 연구실 (NEPI Lab)",
+   "raw_en": "NEPI Lab",
+   "name_en": null,
+   "acronym": "NEPI Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "373fb625aca6568207be5d387796dfa2",
+   "professor": "김종규",
+   "name": "나노 포토닉스 광전자 연구실 (NPOL)",
+   "raw_en": "NPOL",
+   "name_en": null,
+   "acronym": "NPOL",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "3b006d6bada5c5abf7281fc08312bbae",
+   "professor": "한욱신",
+   "name": "데이터시스템 연구실 (Big Data Lab)",
+   "raw_en": "Data Systems Lab (Big Data Lab)",
+   "name_en": "Data Systems Lab",
+   "acronym": null,
+   "alias": "Big Data Lab",
+   "rule": "alias"
+  },
+  {
+   "id": "3c97d90740df38121b37c4fb53a24966",
+   "professor": "고영명",
+   "name": "확률시스템연구실 (LST Lab)",
+   "raw_en": "LST Lab",
+   "name_en": null,
+   "acronym": "LST Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "3cf13955f9df42105905a333b6204179",
+   "professor": "이민아",
+   "name": "Sustainable Energy Chemistry Laboratory (SECL)",
+   "raw_en": "Sustainable Energy Chemistry Laboratory (SECL)",
+   "name_en": "Sustainable Energy Chemistry Laboratory",
+   "acronym": "SECL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "3d82b4a08725ae170fa61511a99b613d",
+   "professor": "신민석",
+   "name": "Financial Big Data Analysis Lab (FBDA Lab)",
+   "raw_en": "Financial Big Data Analysis (FBDA) Lab",
+   "name_en": "Financial Big Data Analysis Lab",
+   "acronym": "FBDA Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "41cb478666b8dda0b4b2a751fa53ccb0",
+   "professor": "최수석",
+   "name": "Center of Smart Display & Soft Electronics (CSS Research Group)",
+   "raw_en": "Center of Smart Display & Soft Electronics (CSS Research Group)",
+   "name_en": "Center of Smart Display & Soft Electronics",
+   "acronym": "CSS Research Group",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "46466de2356e17efde24000d5ea0db20",
+   "professor": "류일우",
+   "name": "Medical Information Processing Lab (MIP Lab)",
+   "raw_en": "Medical Information Processing (MIP) Lab",
+   "name_en": "Medical Information Processing Lab",
+   "acronym": "MIP Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "480bb8dec2750b8a828fa90daabe7bb4",
+   "professor": "이강복",
+   "name": "Management Science and Optimization Lab (MSO Lab)",
+   "raw_en": "Management Science and Optimization (MSO) Lab.",
+   "name_en": "Management Science and Optimization Lab",
+   "acronym": "MSO Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "48ab3d77da069de620678d533d334880",
+   "professor": "최시영",
+   "name": "전자·원자구조 이미징 해석 연구실 (AEFL Lab)",
+   "raw_en": "AEFL Lab",
+   "name_en": null,
+   "acronym": "AEFL Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "4c994e2f02440d465318257356a4741c",
+   "professor": "임근배",
+   "name": "Nano & Bio MEMS Lab",
+   "raw_en": "Nano & Bio MEMS Lab.",
+   "name_en": "Nano & Bio MEMS Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "50705cf571ba48309476bb553c2356b8",
+   "professor": "김영진",
+   "name": "수송체 구조 생물학 연구실",
+   "raw_en": "Membrane Transporters & Structural Biology Lab.",
+   "name_en": "Membrane Transporters & Structural Biology Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "5222f40ea8b1b572af7d81cdcfdd2870",
+   "professor": "권도훈",
+   "name": "Kwon Lab",
+   "raw_en": "KWON LAB",
+   "name_en": "Kwon Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "52ae979e5a521ff22239a968c4281903",
+   "professor": "한수희",
+   "name": "전산제어 (CoCEL)",
+   "raw_en": "CoCEL",
+   "name_en": null,
+   "acronym": "CoCEL",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "543ee1b67121080f7ed4304b31bde36a",
+   "professor": "고아라",
+   "name": "마이크로바이옴·세포신호전달 연구실 (MIMEst)",
+   "raw_en": "MIcrobial MEtabolite Signal Transduction MIMEst (Ara's Lab)",
+   "name_en": "Microbial Metabolite Signal Transduction",
+   "acronym": "MIMEst",
+   "alias": "Ara's Lab",
+   "rule": "alias"
+  },
+  {
+   "id": "54847f8af8af755d701d642eb2889ce1",
+   "professor": "이민식",
+   "name": "암 미세환경 대사 연구실",
+   "raw_en": "Tumor Microenvironment and Metabolism lab",
+   "name_en": "Tumor Microenvironment and Metabolism Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "554745a64ecd29c66377f62d19f49169",
+   "professor": "신세운",
+   "name": "전력관리 및 집적회로 시스템 설계 (PICTUS Lab)",
+   "raw_en": "PICTUS LAB",
+   "name_en": null,
+   "acronym": "PICTUS Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "554a685e4f5958e2476403f7d3e3633b",
+   "professor": "김형함",
+   "name": "초음파공학연구실 (Kim Lab)",
+   "raw_en": "KIM LAB (Ultrasound Research Group)",
+   "name_en": "Ultrasound Research Group",
+   "acronym": null,
+   "alias": "Kim Lab",
+   "rule": "acr(full)"
+  },
+  {
+   "id": "5830da08c1f40c9cff0b8804c57bef29",
+   "professor": "김석",
+   "name": "Multifunctional Materials & Micro/Nano Systems Laboratory (3MNS Lab)",
+   "raw_en": "3MNS Lab(Multifunctional Materials & Micro/Nano Systems Laboratory)",
+   "name_en": "Multifunctional Materials & Micro/Nano Systems Laboratory",
+   "acronym": "3MNS Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "59095330cef9138909ad7c37a95e7e55",
+   "professor": "송황준",
+   "name": "멀티미디어 통신네트워킹 연구실 (MCNL)",
+   "raw_en": "Media Computing & Networking Lab. / Hybrid P2P Blockchain Research Team",
+   "name_en": "Media Computing & Networking Lab",
+   "acronym": "MCNL",
+   "alias": "Hybrid P2P Blockchain Research Team",
+   "rule": null
+  },
+  {
+   "id": "5a6db25479631b2084f1250f7d373391",
+   "professor": "박지우",
+   "name": "극저온 양자기체 연구실",
+   "raw_en": "ULTRACOLD QUANTUM GASES PARK GROUP",
+   "name_en": "Ultracold Quantum Gases Park Group",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "5ae5e95e6245f2e51b32f1805bc466cf",
+   "professor": "황일두",
+   "name": "발달신호네트워크 연구실 (DSN)",
+   "raw_en": "DSN",
+   "name_en": null,
+   "acronym": "DSN",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "5b4904a849d4cce159abc577f0b063a4",
+   "professor": "전명재",
+   "name": "대규모 시스템 플랫폼 연구실 (OMNIA)",
+   "raw_en": "OMNIA",
+   "name_en": null,
+   "acronym": "OMNIA",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "5fd10c8b473c70cb02ac7d60c72c2a39",
+   "professor": "채민우",
+   "name": "Statistics and Data Science Lab (SDS Lab)",
+   "raw_en": "Statistics and Data Science / SDS / Lab.",
+   "name_en": "Statistics and Data Science Lab",
+   "acronym": "SDS Lab",
+   "alias": null,
+   "rule": "slash"
+  },
+  {
+   "id": "69a14bca4d6c9bfd397ddd014cafb63c",
+   "professor": "김동식",
+   "name": "레이저가공 및 미세열전달 연구실",
+   "raw_en": "Laser Processing and Microscale Heat Transfer lab",
+   "name_en": "Laser Processing and Microscale Heat Transfer Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "6adff5a3efe38e59669333a47d29f2b6",
+   "professor": "김상우",
+   "name": "지능제어 및 시스템 (ISCL)",
+   "raw_en": "ISCL",
+   "name_en": null,
+   "acronym": "ISCL",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "6b6d785944d0b63e339c6ee33809e6bb",
+   "professor": "황형주",
+   "name": "Applied Mathematics and Machine Learning Laboratory (AMsquare)",
+   "raw_en": "AMsquare",
+   "name_en": "Applied Mathematics and Machine Learning Laboratory",
+   "acronym": "AMsquare",
+   "alias": "AM2-LAB",
+   "rule": null
+  },
+  {
+   "id": "6b79f8637dad5c7a27a9e0b5d2798e56",
+   "professor": "홍원빈",
+   "name": "MADs 연구실 (MADs Laboratory)",
+   "raw_en": "MADs Laboratory",
+   "name_en": null,
+   "acronym": "MADs Laboratory",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "6e6098f39a29a429994ee9927724254d",
+   "professor": "김정훈",
+   "name": "Control Theory, Robotics, and Learning (CTRL)",
+   "raw_en": "CTRL",
+   "name_en": "Control Theory, Robotics, and Learning",
+   "acronym": "CTRL",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "70abd7783b52e6b717497551092700f7",
+   "professor": "황석환",
+   "name": "환경생물공정 연구실 (BEST Laboratory)",
+   "raw_en": "Bioengineers for Environmental Science and Technology (BEST) Laboratory",
+   "name_en": "Bioengineers for Environmental Science and Technology Laboratory",
+   "acronym": "BEST Laboratory",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "749a9f72399d0927583407259ca8bd7f",
+   "professor": "고용송",
+   "name": "세포간정보교환 연구실",
+   "raw_en": "Lab. of Intercellular Communication Network",
+   "name_en": "Lab of Intercellular Communication Network",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "7831e17ceaa2e98fd6f9e8b10f512140",
+   "professor": "한현",
+   "name": "첨단 박막 및 산화물 소재 연구실 (ATOM Lab)",
+   "raw_en": "ATOM Lab",
+   "name_en": null,
+   "acronym": "ATOM Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "78459b9623eba5320f5e35f2002375a9",
+   "professor": "강석형",
+   "name": "CAD & SoC Design Lab",
+   "raw_en": "CAD & SoC Design Lab.",
+   "name_en": "CAD & SoC Design Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "7b54cef564a233d179c3af95248a4f40",
+   "professor": "지승훈",
+   "name": "계산 응집 물질 연구실 (CNPLab)",
+   "raw_en": "Computational Nano Physics Lab (CNPLab)",
+   "name_en": "Computational Nano Physics Lab",
+   "acronym": "CNPLab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "7c0d812e4d700c7e56af778d3a824e29",
+   "professor": "장봉규",
+   "name": "금융투자 및 위험관리 연구실 (FIRM Lab)",
+   "raw_en": "Financial Investment & Risk Management (FIRM) Lab",
+   "name_en": "Financial Investment & Risk Management Lab",
+   "acronym": "FIRM Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "7c29325e40e0eb662e7629967b633a0a",
+   "professor": "조항진",
+   "name": "열유체 & 에너지시스템 연구실 (THE System Lab)",
+   "raw_en": "THE System (Thermal-Hydraulics and Energy system) lab",
+   "name_en": "Thermal-Hydraulics and Energy system Lab",
+   "acronym": "THE System Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "7e21ea71de8805264e1b2355ef104dee",
+   "professor": "오승수",
+   "name": "기능성 생체분자재료 연구실",
+   "raw_en": "Bio-molecular materials LAB",
+   "name_en": "Bio-molecular materials Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "7e4f2bebec89f3ea03a3fb6e0f8bbd36",
+   "professor": "이현우",
+   "name": "나노전도 이론 연구실 (TNTL)",
+   "raw_en": "Theoretical Nanoscale Transport Lab (TNTL)",
+   "name_en": "Theoretical Nanoscale Transport Lab",
+   "acronym": "TNTL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "800292c887b4b94b4e93979d95f14239",
+   "professor": "설재복",
+   "name": "SEOL",
+   "raw_en": "SEOL",
+   "name_en": null,
+   "acronym": "SEOL",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "81c1c810531f1c7da7a18f9809b6c448",
+   "professor": "윤창원",
+   "name": "수소에너지 화학 저장-변환 연구실 (ACHES Lab)",
+   "raw_en": "ACHES LAB (Advanced Chemical Hydrogen Energy and Storage Laboratory)",
+   "name_en": "Advanced Chemical Hydrogen Energy and Storage Laboratory",
+   "acronym": "ACHES Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "82f66a732f5b0cd33bb18370b079d6ba",
+   "professor": "진현규",
+   "name": "Thermal & Energy Lab (TELab)",
+   "raw_en": "Thermal & Energy Lab (TELab)",
+   "name_en": "Thermal & Energy Lab",
+   "acronym": "TELab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "89315275387a6abd10753adf25862997",
+   "professor": "백창기",
+   "name": "나노소자 / 에너지 및 응용센서 (IDEA Lab)",
+   "raw_en": "Innovative Device Engineering and Application(IDEA) Lab",
+   "name_en": "Innovative Device Engineering and Application Lab",
+   "acronym": "IDEA Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "8ad648173a74311bbdf5fd7872955c27",
+   "professor": "김광선",
+   "name": "병렬시스템아키텍처 연구실 (PSAL)",
+   "raw_en": "Parallel System Architecture Laboratory (PSAL)",
+   "name_en": "Parallel System Architecture Laboratory",
+   "acronym": "PSAL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "professor": "조창순",
+   "name": "차세대 광전소자 연구실 (NGO Lab)",
+   "raw_en": "NGO Lab",
+   "name_en": null,
+   "acronym": "NGO Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "913f3673099de6be55cf19a16b59522e",
+   "professor": "안지환",
+   "name": "에너지-나노 통합 설계 및 생산 연구실 (ENTeR Lab)",
+   "raw_en": "Energy-NanoTech Integrated Design & Manufacturing Research Lab (ENTeR Lab)",
+   "name_en": "Energy-NanoTech Integrated Design & Manufacturing Research Lab",
+   "acronym": "ENTeR Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "937965033892745d797d9ea70473f6a7",
+   "professor": "김기훈",
+   "name": "의료보조로봇 및 햅틱스 연구실 (MARCH Lab)",
+   "raw_en": "MARCH Lab",
+   "name_en": null,
+   "acronym": "MARCH Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "946c050fc9fa8acaa8ce95b6dcc2144a",
+   "professor": "최희철",
+   "name": "Nanoscale Materials Research Laboratory (NMRL)",
+   "raw_en": "Nanoscale Materials Research Laboratory (NMRL)",
+   "name_en": "Nanoscale Materials Research Laboratory",
+   "acronym": "NMRL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "9791d5d87862c58a75052a9509f1c56d",
+   "professor": "유주연",
+   "name": "세포면역유전체학 연구실",
+   "raw_en": "Lab. of Organelle Network",
+   "name_en": "Lab of Organelle Network",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "988399351b6bf6a86c4760b438cc6a99",
+   "professor": "박영욱",
+   "name": "단분자표면화학연구실",
+   "raw_en": "Single-molecule surface chemistry lab",
+   "name_en": "Single-molecule surface chemistry Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "9c2741540c4286d26221b8f2701304f2",
+   "professor": "박상돈",
+   "name": "Machine Learning Lab (ML Lab)",
+   "raw_en": "ML Lab",
+   "name_en": "Machine Learning Lab",
+   "acronym": "ML Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "a0077af62c6f63c9154fbfb3318181c1",
+   "professor": "김형훈",
+   "name": "Natural Language Processing Group (NLP Group)",
+   "raw_en": "Natural Language Processing (NLP) Group",
+   "name_en": "Natural Language Processing Group",
+   "acronym": "NLP Group",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "a03cbb75ef2410c17ff3bbee7cb0a455",
+   "professor": "송호진",
+   "name": "Microwave Antenna, Device and System Laboratory (MADs Laboratory)",
+   "raw_en": "MADs Laboratory(Microwave Antenna, Device and System)",
+   "name_en": "Microwave Antenna, Device and System Laboratory",
+   "acronym": "MADs Laboratory",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "a0b09bd0d8be40c9663143589c83803e",
+   "professor": "이상민",
+   "name": "Next Energy Storage Platform Lab (NESP Lab)",
+   "raw_en": "Next Energy Storage Platform (NESP) Lab",
+   "name_en": "Next Energy Storage Platform Lab",
+   "acronym": "NESP Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "a5c96b621480618492d6ab4d2e19a965",
+   "professor": "김성지",
+   "name": "나노광학 & 나노의학 연구실",
+   "raw_en": "NANOPHOTONICS & NANOMEDICAL RESEARCH GROUP",
+   "name_en": "Nanophotonics & Nanomedical Research Group",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "a868304f06c2b9b99fd2c99232e036da",
+   "professor": "조은경",
+   "name": "Health and Human-Computer Interaction Lab (H2CI Lab)",
+   "raw_en": "Health and Human-Computer Interaction (H2CI) Lab",
+   "name_en": "Health and Human-Computer Interaction Lab",
+   "acronym": "H2CI Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "a884b1d54c2547e8e5d55978297cbf47",
+   "professor": "서영주",
+   "name": "Artificial Intelligence of Things Laboratory (AIoT Laboratory)",
+   "raw_en": "AIoT Laboratory",
+   "name_en": "Artificial Intelligence of Things Laboratory",
+   "acronym": "AIoT Laboratory",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "a8cb0eda141ab875fe52fa52eab88340",
+   "professor": "감종훈",
+   "name": "수문 기후학연구실 (Hydro-Climatology Research Group)",
+   "raw_en": "Hydro-Climatology Research Group",
+   "name_en": null,
+   "acronym": "Hydro-Climatology Research Group",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "ad505cb08e854896e57bd47b92850efd",
+   "professor": "김용태",
+   "name": "전극물성연구실 (LEM-P)",
+   "raw_en": "LEM-P",
+   "name_en": null,
+   "acronym": "LEM-P",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "aebe9a6ddab8c971ffecbd53eb58270e",
+   "professor": "한지훈",
+   "name": "공정시스템공학연구실 (PSE)",
+   "raw_en": "PSE",
+   "name_en": null,
+   "acronym": "PSE",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "b19c909a5a99b205393fba060354fabd",
+   "professor": "정규열",
+   "name": "분자진단및합성생물학연구실 (MDSB Lab)",
+   "raw_en": "MDSB Lab",
+   "name_en": null,
+   "acronym": "MDSB Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "b59a79cbe921942c5d3909da04708904",
+   "professor": "전준구",
+   "name": "Numerical Investigation for Nature & Energy Lab (NINE Lab)",
+   "raw_en": "Numerical Investigation for Nature & Energy Lab (NINE Lab)",
+   "name_en": "Numerical Investigation for Nature & Energy Lab",
+   "acronym": "NINE Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "b8974c5afcf836280e0cc027f4883b7d",
+   "professor": "이지오",
+   "name": "항체구조생물학 연구실",
+   "raw_en": "Antibody Structure and Engineering lab",
+   "name_en": "Antibody Structure and Engineering Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "professor": "조현보",
+   "name": "Industrial Data Engineering & Analytics Lab (IDEA Lab)",
+   "raw_en": "Industrial Data Engineering & Analytics (IDEA) Lab.",
+   "name_en": "Industrial Data Engineering & Analytics Lab",
+   "acronym": "IDEA Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "ba11daf52cb269136ee35ff559d1a99d",
+   "professor": "윤용주",
+   "name": "Advanced Nanocatalyst Design Lab (ANDL)",
+   "raw_en": "Advanced Nanocatalyst Design Lab (ANDL)",
+   "name_en": "Advanced Nanocatalyst Design Lab",
+   "acronym": "ANDL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "bbb232e44fc51ffa9667b632efee3648",
+   "professor": "조창신",
+   "name": "나노에너지연구실",
+   "raw_en": "Nanomaterials & Energy Device Lab.",
+   "name_en": "Nanomaterials & Energy Device Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "bd50e21be3088f6bb6b690cf272c8d5a",
+   "professor": "이준구",
+   "name": "화학생물학 연구실",
+   "raw_en": "LEE RESEARCH GROUP",
+   "name_en": "Lee Research Group",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "c34e2b4ba9291346e5527d8fc2379ffb",
+   "professor": "김지훈",
+   "name": "자기력 현미경 연구실",
+   "raw_en": "Magnetic Force Microscopy lab",
+   "name_en": "Magnetic Force Microscopy Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+   "professor": "김종환",
+   "name": "초고속 나노광소자 연구실",
+   "raw_en": "KIM GROUP at POSTECH",
+   "name_en": "Kim Group at POSTECH",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "c4770c1e9d12ac61199d6e738b54115d",
+   "professor": "고성안",
+   "name": "Human-AI Interaction and Visualization (HAIV)",
+   "raw_en": "Human-AI Interaction and Visualization (HAIV)",
+   "name_en": "Human-AI Interaction and Visualization",
+   "acronym": "HAIV",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "c7cdff754981e682e5f71a4e7426e599",
+   "professor": "김욱성",
+   "name": "Wave Arrays & Display Engineering Lab (WADE Research Group)",
+   "raw_en": "WADE Research Group",
+   "name_en": "Wave Arrays & Display Engineering Lab",
+   "acronym": "WADE Research Group",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "ca582d6a0b812ba87c27f95338ba11dd",
+   "professor": "김종신",
+   "name": "신경면역학 및 뇌신경장벽 연구실 (NICB)",
+   "raw_en": "Lab of Neuroimmunology and CNS barriers (NICB)",
+   "name_en": "Lab of Neuroimmunology and CNS barriers",
+   "acronym": "NICB",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "cc1d600a3f6a859f24fb5b91d04320d3",
+   "professor": "이기택",
+   "name": "지구환경연구실",
+   "raw_en": "CORE LAB FOR INNOVATIVE MARINE &  ATMOSPHERIC TECHNOLOGY",
+   "name_en": "Core Lab for Innovative Marine & Atmospheric Technology",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "cd440bdd4e15a1ce3482a489f21f04ba",
+   "professor": "박은혁",
+   "name": "고효율 컴퓨팅 연구실 (ECo Lab)",
+   "raw_en": "Efficient Computing Group @ Machine Learning Lab (ECo Lab)",
+   "name_en": "Efficient Computing Group @ Machine Learning Lab",
+   "acronym": "ECo Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "cd66c5491d166dd5690e0e9191a58145",
+   "professor": "박상기",
+   "name": "분자신경의학 연구실 (MNPSY Lab)",
+   "raw_en": "Molecular NeuroPSYchiatry Lab (MNPSY Lab)",
+   "name_en": "Molecular NeuroPSYchiatry Lab",
+   "acronym": "MNPSY Lab",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "ce14ddfa72c13a81b7f8874e46c4ff7b",
+   "professor": "유희천",
+   "name": "인간공학설계기술 / 연구실 (EDT)",
+   "raw_en": "EDT",
+   "name_en": null,
+   "acronym": "EDT",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "d2196f415985858dcd486e6170603e16",
+   "professor": "정성모",
+   "name": "Environmental Metallurgy Lab (EML)",
+   "raw_en": "Environmental Metallurgy Lab (EML)",
+   "name_en": "Environmental Metallurgy Lab",
+   "acronym": "EML",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "d24584a20a99a64f57a9eec4be893b96",
+   "professor": "김병섭",
+   "name": "가상지능기반 광대역전자회로 설계 연구실 (BEVIL Lab)",
+   "raw_en": "BEVIL LAB",
+   "name_en": null,
+   "acronym": "BEVIL Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "d70c4a6844cff7f924b9dcccee67c11b",
+   "professor": "염화성",
+   "name": "Surface Engineering Nuclear materials research group (SEN Lab)",
+   "raw_en": "SEN Lab",
+   "name_en": "Surface Engineering Nuclear materials research group",
+   "acronym": "SEN Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "df4bd10ef0d157c94cc1d0af5af628d5",
+   "professor": "모상우",
+   "name": "Multimodal Orchestration of Artificial Intelligence Lab (MOAI Lab)",
+   "raw_en": "MOAI Lab",
+   "name_en": "Multimodal Orchestration of Artificial Intelligence Lab",
+   "acronym": "MOAI Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "e584c5fda2b5a7b646fbf64dea55f225",
+   "professor": "이선규",
+   "name": "Integrated Circuits and Systems Lab (ICSL)",
+   "raw_en": "Integrated Circuits and Systems Lab (ICSL)",
+   "name_en": "Integrated Circuits and Systems Lab",
+   "acronym": "ICSL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "e5c123f6913071fecdf558f7ee9cc4ca",
+   "professor": "조성현",
+   "name": "컴퓨터그래픽스 연구실",
+   "raw_en": "POSTECH Computer Graphics Lab.",
+   "name_en": "POSTECH Computer Graphics Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "e647186e20b50a963bbca9c030e31a1f",
+   "professor": "박성민",
+   "name": "혁신의료솔루션 (IMS Lab)",
+   "raw_en": "IMS Lab",
+   "name_en": null,
+   "acronym": "IMS Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "e7305fdca54f5dcbc37b520ce8d41adf",
+   "professor": "한세광",
+   "name": "의료용 나노소재 연구실 (BNL)",
+   "raw_en": "Biomedical Nanomaterials Lab (BNL)",
+   "name_en": "Biomedical Nanomaterials Lab",
+   "acronym": "BNL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "e9a460d2006f46bff940e54e8733b5b5",
+   "professor": "김병인",
+   "name": "물류 연구실 (LOGISTICS Lab)",
+   "raw_en": "LOGISTICS LAB",
+   "name_en": null,
+   "acronym": "LOGISTICS Lab",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "eb842e7485c31dfa96029d1f659bf3b0",
+   "professor": "서준호",
+   "name": "양자 소자 제작 연구실",
+   "raw_en": "Hybrid Quantum Device LAB",
+   "name_en": "Hybrid Quantum Device Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "f084dcb5042b262e11b36063619dbeaf",
+   "professor": "나동엽",
+   "name": "차세대 전자기 수치 해석 (ACEM Laboratory)",
+   "raw_en": "Applied Computational Electromagnetics (ACEM) Laboratory",
+   "name_en": "Applied Computational Electromagnetics Laboratory",
+   "acronym": "ACEM Laboratory",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "f372936f59308e64db6b1705c2085ba3",
+   "professor": "이남윤",
+   "name": "통신 이론 연구실 (Com-X)",
+   "raw_en": "Com-X(Communications Research Lab)",
+   "name_en": "Communications Research Lab",
+   "acronym": "Com-X",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "f6eab148298d59247c161e08e218e116",
+   "professor": "서동우",
+   "name": "Computational Metallurgy Laboratory in GIFT (Advanced Structural Alloy Laboratory in MSE)",
+   "raw_en": "Computational Metallurgy Laboratory in GIFT  Advanced Structural Alloy Laboratory in MSE",
+   "name_en": "Computational Metallurgy Laboratory in GIFT",
+   "acronym": null,
+   "alias": "Advanced Structural Alloy Laboratory in MSE",
+   "rule": null
+  },
+  {
+   "id": "f92e9c5e032784c769136a0644be552c",
+   "professor": "김경덕",
+   "name": "Integrated Computational Materials Engineering Lab",
+   "raw_en": "Integrated Computational Materials Engineering Lab.",
+   "name_en": "Integrated Computational Materials Engineering Lab",
+   "acronym": null,
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "f9669f40ae5aba8c9c82eb4080558182",
+   "professor": "한성호",
+   "name": "Experience Design & Engineering (EDEN)",
+   "raw_en": "Experience Design & Engineering / EDEN",
+   "name_en": "Experience Design & Engineering",
+   "acronym": "EDEN",
+   "alias": null,
+   "rule": "slash"
+  },
+  {
+   "id": "fdf7c49c167de224cc78528fcfdcfbe8",
+   "professor": "김광순",
+   "name": "면역 미생물 상호작용 연구실 (IMI Lab)",
+   "raw_en": "IMI Lab(Immune-Microbiota Interaction Laboratory)",
+   "name_en": "Immune-Microbiota Interaction Laboratory",
+   "acronym": "IMI Lab",
+   "alias": null,
+   "rule": "acr(full)"
+  },
+  {
+   "id": "lab:www.cslab.postech.ac.kr",
+   "professor": "강대환",
+   "name": "칼코지나이드 반도체 연구실 (CSL)",
+   "raw_en": "Chalcogenide Semiconductor Lab (CSL)",
+   "name_en": "Chalcogenide Semiconductor Lab",
+   "acronym": "CSL",
+   "alias": null,
+   "rule": "full(acr)"
+  },
+  {
+   "id": "name:Sw Chung",
+   "professor": "Sw Chung",
+   "name": "차세대 메모리 반도체 소자/공정 연구실 (IMPD)",
+   "raw_en": "IMPD",
+   "name_en": null,
+   "acronym": "IMPD",
+   "alias": null,
+   "rule": null
+  },
+  {
+   "id": "name:조길원",
+   "professor": "조길원",
+   "name": "고분자계면 및 유기전자소자 연구실 (Cho Research Group)",
+   "raw_en": "Polymer Surface and Organic Electronics Lab (Cho Research Group)",
+   "name_en": "Polymer Surface and Organic Electronics Lab",
+   "acronym": null,
+   "alias": "Cho Research Group",
+   "rule": "alias"
+  }
+ ],
+ "lab_names_to_review": [],
+ "areas_changed": [
+  {
+   "id": "032749fe44cb8a804902ff1aa9236d09",
+   "raw": "Human pose estimation.",
+   "name": "Human pose estimation",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Tissue repair and regeneration",
+   "name": "Tissue repair and regeneration",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "- Stem cell biology",
+   "name": "Stem cell biology",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "- Intercellular communication & Extracellular vesicles",
+   "name": "Intercellular communication & Extracellular vesicles",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "- Aging",
+   "name": "Aging",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Tissue development",
+   "name": "Tissue development",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "- Embryonic development",
+   "name": "Embryonic development",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "- Cellular senescence",
+   "name": "Cellular senescence",
+   "kind": "area"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Investigating the interaction between tissue-resident stem cells and their microenvironment during the process of skin wound healing.",
+   "name": "Investigating the interaction between tissue-resident stem cells and their microenvironment during the process of skin wound healing",
+   "kind": "sentence"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Exploring the roles played by intercellular communication via extracellular vesicles (i.e. microvesicles and exosomes) in the wound healing process.",
+   "name": "Exploring the roles played by intercellular communication via extracellular vesicles (i.e. microvesicles and exosomes) in the wound healing process",
+   "kind": "sentence"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Studying the effects of aging-induced changes in stem cells on delayed wound healing.",
+   "name": "Studying the effects of aging-induced changes in stem cells on delayed wound healing",
+   "kind": "sentence"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Unraveling the mechanisms and significance of intercellular communication during mammalian embryonic development.",
+   "name": "Unraveling the mechanisms and significance of intercellular communication during mammalian embryonic development",
+   "kind": "sentence"
+  },
+  {
+   "id": "0338f11c96903a40633ed02cc9426f4f",
+   "raw": "•Understanding the contributions of cellular senescence to wound healing and embryonic development.",
+   "name": "Understanding the contributions of cellular senescence to wound healing and embryonic development",
+   "kind": "sentence"
+  },
+  {
+   "id": "15e543040350f144149566679fe2bfc7",
+   "raw": "BUSINESS OPERATOIN DESIGN",
+   "name": "Business Operatoin Design",
+   "kind": "area"
+  },
+  {
+   "id": "15e543040350f144149566679fe2bfc7",
+   "raw": "SEQUENTIAL / MULTI-AGENT DECISION SYSTEM OPERATION",
+   "name": "Sequential / Multi-Agent Decision System Operation",
+   "kind": "area"
+  },
+  {
+   "id": "247c2d847af8f32337fb7de6ad268360",
+   "raw": "Beamforming Techniques  for MIMO Communications",
+   "name": "Beamforming Techniques for MIMO Communications",
+   "kind": "area"
+  },
+  {
+   "id": "2c77df65db93c01c187c2dcc522e2d02",
+   "raw": "Biologically-inspired robot.",
+   "name": "Biologically-inspired robot",
+   "kind": "area"
+  },
+  {
+   "id": "2f3366b15c7c160f55ef87fca51bf8c8",
+   "raw": "On-line Re-Evaluation of Variable F/R Reserve and Development of Fast State Estimation Algorithm Based on PMU data",
+   "name": "On-line Re-Evaluation of Variable F/R Reserve and Development of Fast State Estimation Algorithm Based on PMU data",
+   "kind": "sentence"
+  },
+  {
+   "id": "2f3366b15c7c160f55ef87fca51bf8c8",
+   "raw": "Analysis and Improvement of Operating Reliability and Resiliency of Re-configurable Microgrids Including Power-to-Gas Energy Resources",
+   "name": "Analysis and Improvement of Operating Reliability and Resiliency of Re-configurable Microgrids Including Power-to-Gas Energy Resources",
+   "kind": "sentence"
+  },
+  {
+   "id": "4297d08f4b7dfe2755c6d814ac8ef632",
+   "raw": "Methods:",
+   "name": "Methods",
+   "kind": "heading"
+  },
+  {
+   "id": "4991f96b4d883ab628a93c7a43e9a8e4",
+   "raw": "Topological Fermi-liquid theory as a result of the interplay between electron correlations and topological structures",
+   "name": "Topological Fermi-liquid theory as a result of the interplay between electron correlations and topological structures",
+   "kind": "sentence"
+  },
+  {
+   "id": "543ee1b67121080f7ed4304b31bde36a",
+   "raw": "Mechanistic Understanding of the Impacts of Microbial Metabolites on Personalized Responses to Metabolic Intervention​​",
+   "name": "Mechanistic Understanding of the Impacts of Microbial Metabolites on Personalized Responses to Metabolic Intervention",
+   "kind": "sentence"
+  },
+  {
+   "id": "543ee1b67121080f7ed4304b31bde36a",
+   "raw": "Understanding the Impacts of Microbial Regulation of Small Intestine in Host Metabolism by Using Intestinal Organoid",
+   "name": "Understanding the Impacts of Microbial Regulation of Small Intestine in Host Metabolism by Using Intestinal Organoid",
+   "kind": "sentence"
+  },
+  {
+   "id": "54847f8af8af755d701d642eb2889ce1",
+   "raw": "개체 수준의 조직 대사 (systemic metabolism), 대사질환 (metabolic disorder)이 암 및 암 미세환경에 미치는 영향 연구",
+   "name": "개체 수준의 조직 대사 (systemic metabolism), 대사질환 (metabolic disorder)이 암 및 암 미세환경에 미치는 영향 연구",
+   "kind": "sentence"
+  },
+  {
+   "id": "54847f8af8af755d701d642eb2889ce1",
+   "raw": "전이암이 다른 조직의 새로운 대사환경에 적응하기 위해 획득해야 하는 대사 기전 연구 및 치료개발",
+   "name": "전이암이 다른 조직의 새로운 대사환경에 적응하기 위해 획득해야 하는 대사 기전 연구 및 치료개발",
+   "kind": "sentence"
+  },
+  {
+   "id": "57060a1ca8292869afb633bb00ce7204",
+   "raw": "through an Understanding of Fundamental Materials Properties based on Atomistic Simulations, First-Principles Calculations and Computational Thermodynamics",
+   "name": "through an Understanding of Fundamental Materials Properties based on Atomistic Simulations, First-Principles Calculations and Computational Thermodynamics",
+   "kind": "sentence"
+  },
+  {
+   "id": "6b79f8637dad5c7a27a9e0b5d2798e56",
+   "raw": "mmWave Antennas and 2-D Beamscanning solution for joint Communication-Radar systems targeted for 5G/6G/SATCOM Mobile Devices",
+   "name": "mmWave Antennas and 2-D Beamscanning solution for joint Communication-Radar systems targeted for 5G/6G/SATCOM Mobile Devices",
+   "kind": "sentence"
+  },
+  {
+   "id": "7b54cef564a233d179c3af95248a4f40",
+   "raw": "PHYSICS OF PHASE CHANGE MATERIALS",
+   "name": "Physics of Phase Change Materials",
+   "kind": "area"
+  },
+  {
+   "id": "7b54cef564a233d179c3af95248a4f40",
+   "raw": "DEEP LEARNING-BASED SIMULATION OF MATERIALS",
+   "name": "Deep Learning-Based Simulation of Materials",
+   "kind": "area"
+  },
+  {
+   "id": "7b54cef564a233d179c3af95248a4f40",
+   "raw": "SUPERCONDUCTIVITY FROM FIRST PRINCIPLES METHODS",
+   "name": "Superconductivity from First Principles Methods",
+   "kind": "area"
+  },
+  {
+   "id": "7b54cef564a233d179c3af95248a4f40",
+   "raw": "TRANSITION METAL DICHALCOGENIDE (TMDC)",
+   "name": "Transition Metal Dichalcogenide (TMDC)",
+   "kind": "area"
+  },
+  {
+   "id": "86b6cc6dac0b7793853eff49fe69c0ee",
+   "raw": "What are the genetic and molecular drivers of phenotypic heterogeneity across cells, organs, individuals, and species?",
+   "name": "What are the genetic and molecular drivers of phenotypic heterogeneity across cells, organs, individuals, and species?",
+   "kind": "sentence"
+  },
+  {
+   "id": "86b6cc6dac0b7793853eff49fe69c0ee",
+   "raw": "How does the collective behavior of a community of cells emerge from the behavior and cellular interactions of individual cells?",
+   "name": "How does the collective behavior of a community of cells emerge from the behavior and cellular interactions of individual cells?",
+   "kind": "sentence"
+  },
+  {
+   "id": "86b6cc6dac0b7793853eff49fe69c0ee",
+   "raw": "What are the roles of cellular heterogeneity in the collective behavior of organs or individuals across environments, diseases and species?",
+   "name": "What are the roles of cellular heterogeneity in the collective behavior of organs or individuals across environments, diseases and species?",
+   "kind": "sentence"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "LIGHT EMISSION",
+   "name": "Light Emission",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Nanomaterials and novel device designs for future displays",
+   "name": "Nanomaterials and novel device designs for future displays",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Nanoscale laser diodes",
+   "name": "Nanoscale laser diodes",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "LIGHT HARVESTING",
+   "name": "Light Harvesting",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Efficient and stable perovskite solar cells",
+   "name": "Efficient and stable perovskite solar cells",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Applications: multi-junction tandem solar cells; nanostructured photovoltaics; optical sensors (photodetectors); etc.",
+   "name": "Applications: multi-junction tandem solar cells; nanostructured photovoltaics; optical sensors (photodetectors); etc.",
+   "kind": "sentence"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Study of distinct optical characteristics of emerging semiconductors and energy materials",
+   "name": "Study of distinct optical characteristics of emerging semiconductors and energy materials",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Exploring advanced spectroscopy techniques",
+   "name": "Exploring advanced spectroscopy techniques",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Modeling of optics and semiconductor physics",
+   "name": "Modeling of optics and semiconductor physics",
+   "kind": "area"
+  },
+  {
+   "id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "raw": "- Artificial intelligence for optoelectronic device designs",
+   "name": "Artificial intelligence for optoelectronic device designs",
+   "kind": "area"
+  },
+  {
+   "id": "92f8e8cdf44ea24fa8ef01f7fdb7cc7f",
+   "raw": "High-intensity accelerator R&D for future nuclear applications (Nuclear Data, SNS, IFMIF, ADS, and HIF)",
+   "name": "High-intensity accelerator R&D for future nuclear applications (Nuclear Data, SNS, IFMIF, ADS, and HIF)",
+   "kind": "sentence"
+  },
+  {
+   "id": "a02cc371fd9ee9e0d19b7208562a7a5d",
+   "raw": "AR/VR Displays.",
+   "name": "AR/VR Displays",
+   "kind": "area"
+  },
+  {
+   "id": "a45028e4d02086882e8f135701fbedaa",
+   "raw": "Mechanisms of IL-10 gene regulation in immune cells:",
+   "name": "Mechanisms of IL-10 gene regulation in immune cells",
+   "kind": "heading"
+  },
+  {
+   "id": "a45028e4d02086882e8f135701fbedaa",
+   "raw": "Development of immunomodulators for hyper-immune disorders and cancers through modulation of mucosal immunity by probiotics",
+   "name": "Development of immunomodulators for hyper-immune disorders and cancers through modulation of mucosal immunity by probiotics",
+   "kind": "sentence"
+  },
+  {
+   "id": "b30c08316784cceb807e5a7670575269",
+   "raw": "식물 교차 패턴 연구(Mechanism of Meiotic Crossover Patterning in Plants)최첨단 교차 재조합 연구 방법",
+   "name": "식물 교차 패턴 연구(Mechanism of Meiotic Crossover Patterning in Plants)최첨단 교차 재조합 연구 방법",
+   "kind": "sentence"
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "raw": "Industrial Data Engineering:",
+   "name": "Industrial Data Engineering",
+   "kind": "heading"
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "raw": "Research on how industrial data should be prepared (data collection, storage, processing, etc.) for effective industrial data analytics",
+   "name": "Research on how industrial data should be prepared (data collection, storage, processing, etc.) for effective industrial data analytics",
+   "kind": "sentence"
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "raw": "Topic: Data Interoperability, Data Collection for Analytics Purpose, etc.",
+   "name": "Topic: Data Interoperability, Data Collection for Analytics Purpose, etc.",
+   "kind": "sentence"
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "raw": "Industrial Data Analytics:",
+   "name": "Industrial Data Analytics",
+   "kind": "heading"
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "raw": "Research for Data Analytics Application Framework to support  data-driven decision making in the industrial domain",
+   "name": "Research for Data Analytics Application Framework to support data-driven decision making in the industrial domain",
+   "kind": "sentence"
+  },
+  {
+   "id": "b9952d0611c5c0a4a350a434b644cf48",
+   "raw": "Topic: Predictive Maintenance, Fault Diagnosis, Standard Time Estimation, etc.",
+   "name": "Topic: Predictive Maintenance, Fault Diagnosis, Standard Time Estimation, etc.",
+   "kind": "sentence"
+  },
+  {
+   "id": "c55f3ac184b92d8a222a1dd536c7718e",
+   "raw": "Applied data science and the intelligence development for real-world services in industry and society",
+   "name": "Applied data science and the intelligence development for real-world services in industry and society",
+   "kind": "sentence"
+  },
+  {
+   "id": "c55f3ac184b92d8a222a1dd536c7718e",
+   "raw": "시계열 학습 기술 연구 및 산업·의료 AI 개발 응용, 맞춤형 생성 기술 연구 및 LLM 에이전트 개발 응용, AI를 활용한 실세계 문제 해결",
+   "name": "시계열 학습 기술 연구 및 산업·의료 AI 개발 응용, 맞춤형 생성 기술 연구 및 LLM 에이전트 개발 응용, AI를 활용한 실세계 문제 해결",
+   "kind": "sentence"
+  },
+  {
+   "id": "d178f8bb037de92f38e521ea0d0dae36",
+   "raw": "Many-core SoC Architecture for Recognition and Consciousness (circuit level, architecture level, software level, and cross-layer)",
+   "name": "Many-core SoC Architecture for Recognition and Consciousness (circuit level, architecture level, software level, and cross-layer)",
+   "kind": "sentence"
+  },
+  {
+   "id": "d1f96c8ff42d822dcf0489d32e075877",
+   "raw": "Tissue Engineering and ​Bioprinting",
+   "name": "Tissue Engineering and Bioprinting",
+   "kind": "area"
+  },
+  {
+   "id": "d70c4a6844cff7f924b9dcccee67c11b",
+   "raw": "Two Phase Heat Transfer Phenomena on Solid Surfaces – Critical Heat Flux, Minimum Film Boiling Heat Flux",
+   "name": "Two Phase Heat Transfer Phenomena on Solid Surfaces – Critical Heat Flux, Minimum Film Boiling Heat Flux",
+   "kind": "sentence"
+  },
+  {
+   "id": "f084dcb5042b262e11b36063619dbeaf",
+   "raw": "Open and dissipative quantum electromagnetics &  Non-markovian  atomic  dynamics",
+   "name": "Open and dissipative quantum electromagnetics & Non-markovian atomic dynamics",
+   "kind": "area"
+  },
+  {
+   "id": "f084dcb5042b262e11b36063619dbeaf",
+   "raw": "Electromagnetic  Propagation in Atmosphere",
+   "name": "Electromagnetic Propagation in Atmosphere",
+   "kind": "area"
+  },
+  {
+   "id": "f084dcb5042b262e11b36063619dbeaf",
+   "raw": "Refractive index  retrieval from numerical weather prediction and PiNN with high resolution",
+   "name": "Refractive index retrieval from numerical weather prediction and PiNN with high resolution",
+   "kind": "area"
+  },
+  {
+   "id": "f084dcb5042b262e11b36063619dbeaf",
+   "raw": "Thin-wire  approximate electric-field integral-equation with sparsification via neglecting far-field coupling acceleration",
+   "name": "Thin-wire approximate electric-field integral-equation with sparsification via neglecting far-field coupling acceleration",
+   "kind": "area"
+  },
+  {
+   "id": "f48dfb2c8fdd898e352b5feec266a40d",
+   "raw": "Accurate Process Monitoring: Novel missing estimation method with low error of electrical parameter measurement (EPM)",
+   "name": "Accurate Process Monitoring: Novel missing estimation method with low error of electrical parameter measurement (EPM)",
+   "kind": "sentence"
+  },
+  {
+   "id": "f5debb6e781d2d6656b184ddfbbe5e41",
+   "raw": "Our main research activities are:",
+   "name": "Our main research activities are",
+   "kind": "heading"
+  },
+  {
+   "id": "f99a04f1c7ba3fe4f420c343e9c9a1ca",
+   "raw": "Topological superconductivity: realization and detection of non-Abelian quasiparticles for quantum information applications.",
+   "name": "Topological superconductivity: realization and detection of non-Abelian quasiparticles for quantum information applications",
+   "kind": "sentence"
+  },
+  {
+   "id": "f99a04f1c7ba3fe4f420c343e9c9a1ca",
+   "raw": "Twisted/Rhombohedral multilayer graphene physics: investigation of superconductivity, fractional quantum anomalous Hall states, and other emergent correlated phases.",
+   "name": "Twisted/Rhombohedral multilayer graphene physics: investigation of superconductivity, fractional quantum anomalous Hall states, and other emergent correlated phases",
+   "kind": "sentence"
+  },
+  {
+   "id": "f99a04f1c7ba3fe4f420c343e9c9a1ca",
+   "raw": "STM and quantum transport integration: correlating atomic-scale structure with macroscopic transport properties in clean-limit devices.",
+   "name": "STM and quantum transport integration: correlating atomic-scale structure with macroscopic transport properties in clean-limit devices",
+   "kind": "sentence"
+  },
+  {
+   "id": "fdf7c49c167de224cc78528fcfdcfbe8",
+   "raw": "음식 및 장내 공생 미생물에  의한 장 점막 면역 체계 발달",
+   "name": "음식 및 장내 공생 미생물에 의한 장 점막 면역 체계 발달",
+   "kind": "area"
+  }
+ ],
+ "urls_changed": [
+  {
+   "id": "1c52ea91286390cb814c490f93ab0492",
+   "raw": "http://www.sidp.kr/index.php?hCode=RESEARCH_03_02&PHPSESSID=89b4b6a43865b2a8f18eab1304ad6875",
+   "url": "http://www.sidp.kr/index.php?hCode=RESEARCH_03_02"
+  },
+  {
+   "id": "2c77df65db93c01c187c2dcc522e2d02",
+   "raw": "https://sites.google.com/view/jesungkoh?pli=1&authuser=0",
+   "url": "https://sites.google.com/view/jesungkoh"
+  },
+  {
+   "id": "2c77df65db93c01c187c2dcc522e2d02",
+   "raw": "https://sites.google.com/view/jesungkoh?pli=1&authuser=0",
+   "url": "https://sites.google.com/view/jesungkoh"
+  },
+  {
+   "id": "b812e6346b5770c7ed8ebee2e604c589",
+   "raw": "http://emrl.postech.ac.kr/?ckattempt=1",
+   "url": "http://emrl.postech.ac.kr/"
+  }
+ ],
+ "intro_noise": [
+  {
+   "id": "00f52d3209da2832a33781de047e38ed",
+   "professor": "김동우",
+   "name": "기계학습 연구실 (ML Lab)",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+   "professor": "박성우",
+   "name": "프로그래밍언어 연구실 (PL Lab)",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "154efd9c9f56018b6bd86a363d8d900f",
+   "professor": "최민석",
+   "name": "최민석 교수 연구실",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "2153cf488ec5eafa147e9fdb76e31765",
+   "professor": "곽수하",
+   "name": "컴퓨터비전 연구실",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "6dda7a495187db5785ed7f2f11e30511",
+   "professor": "조민수",
+   "name": "컴퓨터비전 연구실",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "8574a1da5bda264766c8cf4ecfd83694",
+   "professor": "심재윤",
+   "name": "아날로그집적 회로시스템",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "8ad648173a74311bbdf5fd7872955c27",
+   "professor": "김광선",
+   "name": "병렬시스템아키텍처 연구실 (PSAL)",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "a02cc371fd9ee9e0d19b7208562a7a5d",
+   "professor": "김영기",
+   "name": "첨단연성물질 연구실",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "a79d15cffa0894704db905e541a8363f",
+   "professor": "손진희",
+   "name": "컴퓨터비전 연구실",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "cc0b8c1255af89743b434a9a8edef471",
+   "professor": "이원열",
+   "name": "프로그래밍 및 계산원리 연구실",
+   "noise": [
+    "script_code"
+   ]
+  },
+  {
+   "id": "e31d4bcbaa05eebde016e26cd1b7ea17",
+   "professor": "박부견",
+   "name": "신호처리 및 제어",
+   "noise": [
+    "script_code"
+   ]
+  }
+ ],
+ "exclusions": {
+  "duplicate": 41,
+  "left": 10,
+  "not_a_lab": 3,
+  "professor_not_found": 2,
+  "other": 2
+ },
+ "counts": {
+  "lab_names_changed": 121,
+  "lab_names_to_review": 0,
+  "areas_changed": 70,
+  "urls_changed": 4,
+  "intro_noise": 11
+ }
+}

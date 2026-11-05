@@ -1,0 +1,17 @@
+{
+  "status": "unjudged_method_blind",
+  "seed": 20261014,
+  "holdout_components": 137,
+  "selected_components": 112,
+  "selected_lab_rows": 136,
+  "pairs": 910,
+  "source_hashes": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2"
+  },
+  "frozen_design_sha256": "9cf1ba3f893c176df68bcc7ba9a6e96039dd1480a7932f3082963f7dde930d95",
+  "prereg_amended_sha256": "d8baa98f9f8c57d36c9c90cc3cc0535d057f2b0ca6218d130fbbba75b2505f5b",
+  "ranking_sha256": "7daf189bf2808844d5cfe7780ab8d1550e3cb23de790cee11156d21841da05b4",
+  "packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "key_sha256": "7e4dbffcb6a787d3237b1f84a2315e424b5146ddafc259021f028e0c198805c4"
+}

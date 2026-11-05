@@ -1,0 +1,7751 @@
+{
+ "generated_at": "2026-10-26T11:36:18+00:00",
+ "source": "data/curation/advisors.jsonl (status verified) + lab_overrides.json, data/final_labs.jsonl professor_papers",
+ "thresholds": {
+  "min_key": 20,
+  "confirm_hits": 3,
+  "confirm_share": 0.2,
+  "low_coverage": 0.25,
+  "search_titles": 8,
+  "add_hits": 5,
+  "same_name": 0.9,
+  "fragment_works": 10,
+  "fragment_share": 0.1
+ },
+ "verdicts": {
+  "confirmed": 290,
+  "unverifiable": 21,
+  "weak": 27
+ },
+ "records": [
+  {
+   "advisor_id": "00a146f5c5267ed6caeb590edaa47fac",
+   "name": "이정수",
+   "listed": 147,
+   "author_ids": [
+    "A5110061978"
+   ],
+   "profiles": [
+    {
+     "id": "A5110061978",
+     "display_name": "Jeong‐Soo Lee",
+     "works_count": 145,
+     "hits": 79,
+     "own_share": 0.54,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.54,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "00a2f37dcd22c6860346daa192299452",
+   "name": "이승우",
+   "listed": 0,
+   "author_ids": [
+    "A5100403765"
+   ],
+   "profiles": [
+    {
+     "id": "A5100403765",
+     "display_name": "Seung-Woo Lee",
+     "works_count": 77,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "00f52d3209da2832a33781de047e38ed",
+   "name": "김동우",
+   "listed": 35,
+   "author_ids": [
+    "A5100357240"
+   ],
+   "profiles": [
+    {
+     "id": "A5100357240",
+     "display_name": "Dongwoo Kim",
+     "works_count": 11,
+     "hits": 2,
+     "own_share": 0.18,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.06,
+   "candidates": [
+    {
+     "id": "A5100357256",
+     "display_name": "Dongwoo Kim",
+     "works_count": 30,
+     "votes": 1,
+     "hits": 1,
+     "same_name": true
+    },
+    {
+     "id": "A5100357254",
+     "display_name": "Dongwoo Kim",
+     "works_count": 34,
+     "votes": 1,
+     "hits": 1,
+     "same_name": true
+    }
+   ],
+   "remove": [],
+   "add": [],
+   "review": [
+    "A5100357240 (Dongwoo Kim): 목록 35편 중 2편만 있음"
+   ]
+  },
+  {
+   "advisor_id": "0195e9ad12189938d2dc6f445aa53c1a",
+   "name": "이을범",
+   "listed": 102,
+   "author_ids": [
+    "A5060015180"
+   ],
+   "profiles": [
+    {
+     "id": "A5060015180",
+     "display_name": "Eul‐Bum Lee",
+     "works_count": 123,
+     "hits": 75,
+     "own_share": 0.61,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.74,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "032749fe44cb8a804902ff1aa9236d09",
+   "name": "안혜민",
+   "listed": 3,
+   "author_ids": [
+    "A5053725843"
+   ],
+   "profiles": [
+    {
+     "id": "A5053725843",
+     "display_name": "Hyemin Ahn",
+     "works_count": 29,
+     "hits": 3,
+     "own_share": 0.1,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0338f11c96903a40633ed02cc9426f4f",
+   "name": "허윤하",
+   "listed": 7,
+   "author_ids": [
+    "A5091803046"
+   ],
+   "profiles": [
+    {
+     "id": "A5091803046",
+     "display_name": "Yun Ha Hur",
+     "works_count": 9,
+     "hits": 7,
+     "own_share": 0.78,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "04a4270953e536b3d89b39189ea28f5a",
+   "name": "김윤호",
+   "listed": 132,
+   "author_ids": [
+    "A5100621082"
+   ],
+   "profiles": [
+    {
+     "id": "A5100621082",
+     "display_name": "Yoon-Ho Kim",
+     "works_count": 302,
+     "hits": 107,
+     "own_share": 0.35,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "04bf899ffd2d4bdafe3240d08c97899f",
+   "name": "정운룡",
+   "listed": 223,
+   "author_ids": [
+    "A5044219595"
+   ],
+   "profiles": [
+    {
+     "id": "A5044219595",
+     "display_name": "Unyong Jeong",
+     "works_count": 307,
+     "hits": 205,
+     "own_share": 0.67,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "06a7992e0dd6d5dd019a67c9eb5a82cf",
+   "name": "이대수",
+   "listed": 34,
+   "author_ids": [
+    "A5009259950"
+   ],
+   "profiles": [
+    {
+     "id": "A5009259950",
+     "display_name": "Daesu Lee",
+     "works_count": 99,
+     "hits": 32,
+     "own_share": 0.32,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "091f90e0fff752261f9f7570c053632a",
+   "name": "서대하",
+   "listed": 4,
+   "author_ids": [
+    "A5006993149"
+   ],
+   "profiles": [
+    {
+     "id": "A5006993149",
+     "display_name": "Daeha Seo",
+     "works_count": 78,
+     "hits": 4,
+     "own_share": 0.05,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "092088c19c65bcacefd6d9713f954a06",
+   "name": "장영태",
+   "listed": 456,
+   "author_ids": [
+    "A5001055290",
+    "A5122310515"
+   ],
+   "profiles": [
+    {
+     "id": "A5001055290",
+     "display_name": "Young‐Tae Chang",
+     "works_count": 612,
+     "hits": 403,
+     "own_share": 0.66,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5122310515",
+     "display_name": "Young-Tae Chang",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0a2eb55c6a036c893a340b7402e7da05",
+   "name": "전상민",
+   "listed": 185,
+   "author_ids": [
+    "A5055592680"
+   ],
+   "profiles": [
+    {
+     "id": "A5055592680",
+     "display_name": "Sangmin Jeon",
+     "works_count": 181,
+     "hits": 116,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.63,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+   "name": "박성우",
+   "listed": 19,
+   "author_ids": [
+    "A5100324409"
+   ],
+   "profiles": [
+    {
+     "id": "A5100324409",
+     "display_name": "Sungwoo Park",
+     "works_count": 306,
+     "hits": 14,
+     "own_share": 0.05,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.74,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0a808026bdf92ba0c4cc4c5bd2456eb6",
+   "name": "서종철",
+   "listed": 66,
+   "author_ids": [
+    "A5060796492"
+   ],
+   "profiles": [
+    {
+     "id": "A5060796492",
+     "display_name": "Jongcheol Seo",
+     "works_count": 83,
+     "hits": 61,
+     "own_share": 0.73,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0b1ebda3958e1fffb9236234b35021af",
+   "name": "이지원",
+   "listed": 43,
+   "author_ids": [
+    "A5043618783"
+   ],
+   "profiles": [
+    {
+     "id": "A5043618783",
+     "display_name": "Jiwon Lee",
+     "works_count": 42,
+     "hits": 27,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.63,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0b9f3600cef7f0f180cb1838b22bad04",
+   "name": "김진수",
+   "listed": 21,
+   "author_ids": [
+    "A5100746301"
+   ],
+   "profiles": [
+    {
+     "id": "A5100746301",
+     "display_name": "Jinsu Kim",
+     "works_count": 38,
+     "hits": 15,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.71,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+   "name": "강대식",
+   "listed": 62,
+   "author_ids": [
+    "A5067681407"
+   ],
+   "profiles": [
+    {
+     "id": "A5067681407",
+     "display_name": "Daeshik Kang",
+     "works_count": 79,
+     "hits": 61,
+     "own_share": 0.77,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.98,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "0ee287568e5625227fa66d9143fd1a89",
+   "name": "이효민",
+   "listed": 69,
+   "author_ids": [
+    "A5056837040",
+    "A5121839584"
+   ],
+   "profiles": [
+    {
+     "id": "A5056837040",
+     "display_name": "Hyomin Lee",
+     "works_count": 116,
+     "hits": 63,
+     "own_share": 0.54,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5121839584",
+     "display_name": "Hyomin Lee",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "105e60613ee52555f42b1490acc10420",
+   "name": "김준원",
+   "listed": 136,
+   "author_ids": [
+    "A5062025245"
+   ],
+   "profiles": [
+    {
+     "id": "A5062025245",
+     "display_name": "Joonwon Kim",
+     "works_count": 105,
+     "hits": 84,
+     "own_share": 0.8,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.62,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1143745d2465a8bef9876a8bbeb0b1be",
+   "name": "조강우",
+   "listed": 110,
+   "author_ids": [
+    "A5033596181"
+   ],
+   "profiles": [
+    {
+     "id": "A5033596181",
+     "display_name": "Kangwoo Cho",
+     "works_count": 138,
+     "hits": 86,
+     "own_share": 0.62,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "123c1d7a65bf3f76431a29bbad88eeeb",
+   "name": "배영",
+   "listed": 7,
+   "author_ids": [
+    "A5122049005"
+   ],
+   "profiles": [
+    {
+     "id": "A5122049005",
+     "display_name": "Young Bae",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": false
+    }
+   ],
+   "coverage": 0.14,
+   "candidates": [
+    {
+     "id": "A5092114506",
+     "display_name": "Young Bae",
+     "works_count": 1,
+     "votes": 1,
+     "hits": 1,
+     "same_name": false
+    }
+   ],
+   "remove": [],
+   "add": [],
+   "review": [
+    "A5122049005 (Young Bae): 목록 7편 중 1편만 있음"
+   ]
+  },
+  {
+   "advisor_id": "12eecc7d8bcdc47fda0b04b169c3a660",
+   "name": "이남훈",
+   "listed": 14,
+   "author_ids": [
+    "A5065666573"
+   ],
+   "profiles": [
+    {
+     "id": "A5065666573",
+     "display_name": "Namhoon Lee",
+     "works_count": 147,
+     "hits": 9,
+     "own_share": 0.06,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.64,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "146fd8785d265b6864181fae6c7b50b7",
+   "name": "최세규",
+   "listed": 25,
+   "author_ids": [
+    "A5124351755",
+    "A5070884113",
+    "A5127336411"
+   ],
+   "profiles": [
+    {
+     "id": "A5124351755",
+     "display_name": "Sekyu Choi",
+     "works_count": 2,
+     "hits": 2,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    },
+    {
+     "id": "A5070884113",
+     "display_name": "Sekyu Choi",
+     "works_count": 29,
+     "hits": 21,
+     "own_share": 0.72,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5127336411",
+     "display_name": "Sekyu Choi",
+     "works_count": 2,
+     "hits": 1,
+     "own_share": 0.5,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.96,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "154efd9c9f56018b6bd86a363d8d900f",
+   "name": "최민석",
+   "listed": 7,
+   "author_ids": [
+    "A5101396625"
+   ],
+   "profiles": [
+    {
+     "id": "A5101396625",
+     "display_name": "Minseok Choi",
+     "works_count": 20,
+     "hits": 4,
+     "own_share": 0.2,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.57,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1575f61cdbb426e1995d045f1996a3b6",
+   "name": "김원화",
+   "listed": 80,
+   "author_ids": [
+    "A5003976825"
+   ],
+   "profiles": [
+    {
+     "id": "A5003976825",
+     "display_name": "Won Hwa Kim",
+     "works_count": 84,
+     "hits": 59,
+     "own_share": 0.7,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.74,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "159e63d1befbc37139b2b5e1a1573f69",
+   "name": "조승환",
+   "listed": 68,
+   "author_ids": [
+    "A5030673319"
+   ],
+   "profiles": [
+    {
+     "id": "A5030673319",
+     "display_name": "Seung Hwan Cho",
+     "works_count": 110,
+     "hits": 60,
+     "own_share": 0.55,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "15e543040350f144149566679fe2bfc7",
+   "name": "최동구",
+   "listed": 41,
+   "author_ids": [
+    "A5087992646"
+   ],
+   "profiles": [
+    {
+     "id": "A5087992646",
+     "display_name": "Dong Gu Choi",
+     "works_count": 68,
+     "hits": 35,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "169b1b99d66151835a920cf0830a154e",
+   "name": "천동원",
+   "listed": 62,
+   "author_ids": [
+    "A5023598606"
+   ],
+   "profiles": [
+    {
+     "id": "A5023598606",
+     "display_name": "Dong Won Chun",
+     "works_count": 91,
+     "hits": 61,
+     "own_share": 0.67,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.98,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "16adb6517049f41e1f01339f37891865",
+   "name": "권세윤",
+   "listed": 93,
+   "author_ids": [
+    "A5063652828"
+   ],
+   "profiles": [
+    {
+     "id": "A5063652828",
+     "display_name": "Sae Yun Kwon",
+     "works_count": 148,
+     "hits": 73,
+     "own_share": 0.49,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "17010ed4b4f3cc2bbec3c6d2c5252945",
+   "name": "유선철",
+   "listed": 125,
+   "author_ids": [
+    "A5028759687"
+   ],
+   "profiles": [
+    {
+     "id": "A5028759687",
+     "display_name": "Son‐Cheol Yu",
+     "works_count": 169,
+     "hits": 102,
+     "own_share": 0.6,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1727629e51972773487fbf21044d3a6f",
+   "name": "백승환",
+   "listed": 57,
+   "author_ids": [
+    "A5021864220",
+    "A5031628798"
+   ],
+   "profiles": [
+    {
+     "id": "A5021864220",
+     "display_name": "Seung‐Hwan Baek",
+     "works_count": 60,
+     "hits": 40,
+     "own_share": 0.67,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5031628798",
+     "display_name": "Seung-Hwan Baek",
+     "works_count": 43,
+     "hits": 16,
+     "own_share": 0.37,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.96,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "17561ed40e2d6fdd9c22eff252a224d3",
+   "name": "정우빈",
+   "listed": 7,
+   "author_ids": [
+    "A5015301486"
+   ],
+   "profiles": [
+    {
+     "id": "A5015301486",
+     "display_name": "Woo‐Bin Jung",
+     "works_count": 67,
+     "hits": 7,
+     "own_share": 0.1,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "17a219bdf39951c186a22b1b72692bb0",
+   "name": "최창혁",
+   "listed": 124,
+   "author_ids": [
+    "A5072570172"
+   ],
+   "profiles": [
+    {
+     "id": "A5072570172",
+     "display_name": "Chang Hyuck Choi",
+     "works_count": 182,
+     "hits": 115,
+     "own_share": 0.63,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "182ce9550b0ec5f1d065cbff549ce3eb",
+   "name": "차형준",
+   "listed": 290,
+   "author_ids": [
+    "A5083066637"
+   ],
+   "profiles": [
+    {
+     "id": "A5083066637",
+     "display_name": "Hyung Joon Chi",
+     "works_count": 309,
+     "hits": 237,
+     "own_share": 0.77,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "186269114ee370a858eb614d6c483b08",
+   "name": "유창현",
+   "listed": 9,
+   "author_ids": [
+    "A5084583476"
+   ],
+   "profiles": [
+    {
+     "id": "A5084583476",
+     "display_name": "Changhyeon Ryu",
+     "works_count": 12,
+     "hits": 9,
+     "own_share": 0.75,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "18aa873d92c1aee6f3266b3f15cd49d5",
+   "name": "전광성",
+   "listed": 0,
+   "author_ids": [
+    "A5046896406"
+   ],
+   "profiles": [
+    {
+     "id": "A5046896406",
+     "display_name": "Kwang-Sung Jun",
+     "works_count": 69,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "19b352c9ef06346d69d36e9456cdff0d",
+   "name": "이상준",
+   "listed": 1044,
+   "author_ids": [
+    "A5100735244"
+   ],
+   "profiles": [
+    {
+     "id": "A5100735244",
+     "display_name": "Sang Joon Lee",
+     "works_count": 635,
+     "hits": 422,
+     "own_share": 0.66,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.4,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1ac8c28030e98810deea0ad1921fd7d3",
+   "name": "김원배",
+   "listed": 142,
+   "author_ids": [
+    "A5100348843"
+   ],
+   "profiles": [
+    {
+     "id": "A5100348843",
+     "display_name": "Won Bae Kim",
+     "works_count": 543,
+     "hits": 125,
+     "own_share": 0.23,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1ae444a2f44d62ba86384b57194c85ef",
+   "name": "김성철",
+   "listed": 2,
+   "author_ids": [
+    "A5100718927"
+   ],
+   "profiles": [
+    {
+     "id": "A5100718927",
+     "display_name": "Sungchul Kim",
+     "works_count": 17,
+     "hits": 2,
+     "own_share": 0.12,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1bef128cdf09045b9dc8ab50733a08e2",
+   "name": "김예성",
+   "listed": 0,
+   "author_ids": [
+    "A5067380102"
+   ],
+   "profiles": [
+    {
+     "id": "A5067380102",
+     "display_name": "Yeseong Kim",
+     "works_count": 99,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1c52ea91286390cb814c490f93ab0492",
+   "name": "황현상",
+   "listed": 262,
+   "author_ids": [
+    "A5059294163"
+   ],
+   "profiles": [
+    {
+     "id": "A5059294163",
+     "display_name": "Hyunsang Hwang",
+     "works_count": 530,
+     "hits": 223,
+     "own_share": 0.42,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1c6b261317c80e62c715d3aa2377e1ce",
+   "name": "김진태",
+   "listed": 60,
+   "author_ids": [
+    "A5005310948"
+   ],
+   "profiles": [
+    {
+     "id": "A5005310948",
+     "display_name": "J. T. Kim",
+     "works_count": 4,
+     "hits": 1,
+     "own_share": 0.25,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.02,
+   "candidates": [
+    {
+     "id": "A5140791171",
+     "display_name": "Jin-Tae Kim",
+     "works_count": 1,
+     "votes": 1,
+     "hits": 1,
+     "same_name": true
+    }
+   ],
+   "remove": [],
+   "add": [],
+   "review": [
+    "A5005310948 (J. T. Kim): 목록 60편 중 1편만 있음"
+   ]
+  },
+  {
+   "advisor_id": "1d4ec3b5e4294f3d43637a3689ede475",
+   "name": "이정욱",
+   "listed": 65,
+   "author_ids": [
+    "A5101660981"
+   ],
+   "profiles": [
+    {
+     "id": "A5101660981",
+     "display_name": "Jeong Wook Lee",
+     "works_count": 161,
+     "hits": 61,
+     "own_share": 0.38,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "1e0986de5992f7715872118d72e5356f",
+   "name": "복서연",
+   "listed": 0,
+   "author_ids": [
+    "A5091466277"
+   ],
+   "profiles": [
+    {
+     "id": "A5091466277",
+     "display_name": "Seoyeon Bok",
+     "works_count": 36,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "208923b6d6740630e6871ed2f50441a9",
+   "name": "김성웅",
+   "listed": 0,
+   "author_ids": [
+    "A5034619474"
+   ],
+   "profiles": [
+    {
+     "id": "A5034619474",
+     "display_name": "Sung Wng Kim",
+     "works_count": 280,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": false
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "209a80e9e8e4205c5add535212b0a0ba",
+   "name": "신원동",
+   "listed": 5,
+   "author_ids": [
+    "A5000420436"
+   ],
+   "profiles": [
+    {
+     "id": "A5000420436",
+     "display_name": "Won Dong Shin",
+     "works_count": 13,
+     "hits": 5,
+     "own_share": 0.38,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2153cf488ec5eafa147e9fdb76e31765",
+   "name": "곽수하",
+   "listed": 94,
+   "author_ids": [
+    "A5060343759"
+   ],
+   "profiles": [
+    {
+     "id": "A5060343759",
+     "display_name": "Suha Kwak",
+     "works_count": 187,
+     "hits": 88,
+     "own_share": 0.47,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "21bfa9ebed9025d7da92fdae6d81c5a0",
+   "name": "박문정",
+   "listed": 211,
+   "author_ids": [
+    "A5042482017"
+   ],
+   "profiles": [
+    {
+     "id": "A5042482017",
+     "display_name": "Moon Jeong Park",
+     "works_count": 199,
+     "hits": 119,
+     "own_share": 0.6,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.56,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "21e55c2d3e603c3d15b6c5538dbc0ed0",
+   "name": "이영호",
+   "listed": 68,
+   "author_ids": [
+    "A5054668018"
+   ],
+   "profiles": [
+    {
+     "id": "A5054668018",
+     "display_name": "Young Ho Rhee",
+     "works_count": 155,
+     "hits": 55,
+     "own_share": 0.35,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "240442b3eecec4c78bf1a0cb70dedd8e",
+   "name": "양경철",
+   "listed": 172,
+   "author_ids": [
+    "A5101893464"
+   ],
+   "profiles": [
+    {
+     "id": "A5101893464",
+     "display_name": "Kyeongcheol Yang",
+     "works_count": 154,
+     "hits": 113,
+     "own_share": 0.73,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.66,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "242b80e78d0ebf34b7e88447b4be511d",
+   "name": "이성진",
+   "listed": 9,
+   "author_ids": [
+    "A5100720092"
+   ],
+   "profiles": [
+    {
+     "id": "A5100720092",
+     "display_name": "Sungjin Lee",
+     "works_count": 116,
+     "hits": 7,
+     "own_share": 0.06,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "247c2d847af8f32337fb7de6ad268360",
+   "name": "전요셉",
+   "listed": 90,
+   "author_ids": [
+    "A5012803748"
+   ],
+   "profiles": [
+    {
+     "id": "A5012803748",
+     "display_name": "Yo–Seb Jeon",
+     "works_count": 114,
+     "hits": 87,
+     "own_share": 0.76,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.97,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "24c36e302e555d35cdf85521165d1ab9",
+   "name": "정진호",
+   "listed": 16,
+   "author_ids": [
+    "A5043884105"
+   ],
+   "profiles": [
+    {
+     "id": "A5043884105",
+     "display_name": "Jinho Jung",
+     "works_count": 25,
+     "hits": 14,
+     "own_share": 0.56,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "255034de0b267f94daea8fa61dbe1bef",
+   "name": "김연수",
+   "listed": 29,
+   "author_ids": [
+    "A5073817253",
+    "A5122187579"
+   ],
+   "profiles": [
+    {
+     "id": "A5073817253",
+     "display_name": "Youn Soo Kim",
+     "works_count": 87,
+     "hits": 26,
+     "own_share": 0.3,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5122187579",
+     "display_name": "Youn Soo Kim",
+     "works_count": 7,
+     "hits": 1,
+     "own_share": 0.14,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "269027c5b93829258d2eef4d0a38f196",
+   "name": "강병우",
+   "listed": 70,
+   "author_ids": [
+    "A5005113306"
+   ],
+   "profiles": [
+    {
+     "id": "A5005113306",
+     "display_name": "Byoungwoo Kang",
+     "works_count": 130,
+     "hits": 64,
+     "own_share": 0.49,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "289b543fda82198b792e787643e74740",
+   "name": "이재호",
+   "listed": 45,
+   "author_ids": [
+    "A5100331196",
+    "A5102980072"
+   ],
+   "profiles": [
+    {
+     "id": "A5100331196",
+     "display_name": "Jaeho Lee",
+     "works_count": 111,
+     "hits": 15,
+     "own_share": 0.14,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5102980072",
+     "display_name": "Jaeho Lee",
+     "works_count": 3,
+     "hits": 3,
+     "own_share": 1.0,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.4,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "28a474665c4e83ffaea2a04b32c76017",
+   "name": "서지현",
+   "listed": 15,
+   "author_ids": [
+    "A5056417028"
+   ],
+   "profiles": [
+    {
+     "id": "A5056417028",
+     "display_name": "Jihyun Suh",
+     "works_count": 55,
+     "hits": 15,
+     "own_share": 0.27,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "296439a8f29e7e50e675c0fee25ab655",
+   "name": "안용주",
+   "listed": 28,
+   "author_ids": [
+    "A5113303124"
+   ],
+   "profiles": [
+    {
+     "id": "A5113303124",
+     "display_name": "Yong Joo Ahn",
+     "works_count": 39,
+     "hits": 19,
+     "own_share": 0.49,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.68,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "29b6c1acd5aeb8b3635fafb6cf998a09",
+   "name": "김형섭",
+   "listed": 1119,
+   "author_ids": [
+    "A5080756118"
+   ],
+   "profiles": [
+    {
+     "id": "A5080756118",
+     "display_name": "Hyoung Seop Kim",
+     "works_count": 1425,
+     "hits": 913,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "29e9926344ed3f65c2eb83ba824f0540",
+   "name": "박경덕",
+   "listed": 77,
+   "author_ids": [
+    "A5052311401"
+   ],
+   "profiles": [
+    {
+     "id": "A5052311401",
+     "display_name": "Kyoung‐Duck Park",
+     "works_count": 120,
+     "hits": 65,
+     "own_share": 0.54,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2ac0c0282dded9689b48c236808ba193",
+   "name": "이길호",
+   "listed": 72,
+   "author_ids": [
+    "A5010542458"
+   ],
+   "profiles": [
+    {
+     "id": "A5010542458",
+     "display_name": "Gil‐Ho Lee",
+     "works_count": 119,
+     "hits": 61,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2bc8e818f9dc40322c04e121f5affad5",
+   "name": "김동성",
+   "listed": 323,
+   "author_ids": [
+    "A5058106720"
+   ],
+   "profiles": [
+    {
+     "id": "A5058106720",
+     "display_name": "Dong Sung Kim",
+     "works_count": 303,
+     "hits": 158,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.49,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2c77df65db93c01c187c2dcc522e2d02",
+   "name": "고제성",
+   "listed": 59,
+   "author_ids": [
+    "A5044402664"
+   ],
+   "profiles": [
+    {
+     "id": "A5044402664",
+     "display_name": "Je‐Sung Koh",
+     "works_count": 114,
+     "hits": 58,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.98,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2cb62041f2042fee06f9fec52ac935ad",
+   "name": "박주홍",
+   "listed": 42,
+   "author_ids": [
+    "A5055066633"
+   ],
+   "profiles": [
+    {
+     "id": "A5055066633",
+     "display_name": "Ju Hong Park",
+     "works_count": 57,
+     "hits": 33,
+     "own_share": 0.58,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2cd5dbaa3e7b7003ea45552abfd54cc6",
+   "name": "황동수",
+   "listed": 183,
+   "author_ids": [
+    "A5066611210"
+   ],
+   "profiles": [
+    {
+     "id": "A5066611210",
+     "display_name": "Dong Soo Hwang",
+     "works_count": 254,
+     "hits": 163,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2d380f935fc3deb1650937ac60cf70a7",
+   "name": "강종훈",
+   "listed": 18,
+   "author_ids": [
+    "A5069336710",
+    "A5127859434"
+   ],
+   "profiles": [
+    {
+     "id": "A5069336710",
+     "display_name": "Jong‐Hoon Kang",
+     "works_count": 43,
+     "hits": 12,
+     "own_share": 0.28,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5127859434",
+     "display_name": "Jong-Hoon Kang",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2d8a05711c73101da3adb5114339a869",
+   "name": "유웅재",
+   "listed": 3,
+   "author_ids": [
+    "A5015067711"
+   ],
+   "profiles": [
+    {
+     "id": "A5015067711",
+     "display_name": "Woongjae Yoo",
+     "works_count": 15,
+     "hits": 3,
+     "own_share": 0.2,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2ee4c28811b498945b87f5d3a4aaadf0",
+   "name": "강명훈",
+   "listed": 9,
+   "author_ids": [
+    "A5113258710",
+    "A5013766529"
+   ],
+   "profiles": [
+    {
+     "id": "A5113258710",
+     "display_name": "Myunghoon Kang",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    },
+    {
+     "id": "A5013766529",
+     "display_name": "Myunghoon Kang",
+     "works_count": 11,
+     "hits": 6,
+     "own_share": 0.55,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2eea86d1ead30fedc7b6912921bdf1b0",
+   "name": "김철홍",
+   "listed": 417,
+   "author_ids": [
+    "A5091718941"
+   ],
+   "profiles": [
+    {
+     "id": "A5091718941",
+     "display_name": "Chulhong Kim",
+     "works_count": 730,
+     "hits": 390,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2f3366b15c7c160f55ef87fca51bf8c8",
+   "name": "김영진",
+   "listed": 88,
+   "author_ids": [
+    "A5100440441"
+   ],
+   "profiles": [
+    {
+     "id": "A5100440441",
+     "display_name": "Young‐Jin Kim",
+     "works_count": 134,
+     "hits": 80,
+     "own_share": 0.6,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "2f7f390939a40327ca4ee9f4b8fa02d7",
+   "name": "조성문",
+   "listed": 11,
+   "author_ids": [
+    "A5071306883"
+   ],
+   "profiles": [
+    {
+     "id": "A5071306883",
+     "display_name": "Sungmun Cho",
+     "works_count": 18,
+     "hits": 9,
+     "own_share": 0.5,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3043b24cf494bc0ab566b38125401ccc",
+   "name": "이동화",
+   "listed": 145,
+   "author_ids": [
+    "A5086448529",
+    "A5044504794"
+   ],
+   "profiles": [
+    {
+     "id": "A5086448529",
+     "display_name": "Donghwa Lee",
+     "works_count": 253,
+     "hits": 112,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5044504794",
+     "display_name": "Donghwa Lee",
+     "works_count": 7,
+     "hits": 6,
+     "own_share": 0.86,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "32f83f4c1e699365d95f9d3ca955a3ee",
+   "name": "차재춘",
+   "listed": 48,
+   "author_ids": [
+    "A5068956604"
+   ],
+   "profiles": [
+    {
+     "id": "A5068956604",
+     "display_name": "Jae Choon Cha",
+     "works_count": 75,
+     "hits": 40,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "33527f9836f4e646879fb56c0daecd95",
+   "name": "허윤욱",
+   "listed": 156,
+   "author_ids": [
+    "A5028568593"
+   ],
+   "profiles": [
+    {
+     "id": "A5028568593",
+     "display_name": "Yoon‐Uk Heo",
+     "works_count": 171,
+     "hits": 148,
+     "own_share": 0.87,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.95,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "335967217d9237b4b019e7a4b1a6f4f3",
+   "name": "김기현",
+   "listed": 152,
+   "author_ids": [
+    "A5003825516"
+   ],
+   "profiles": [
+    {
+     "id": "A5003825516",
+     "display_name": "Ki Hean Kim",
+     "works_count": 415,
+     "hits": 130,
+     "own_share": 0.31,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "33b3a5898d5ed71e56d62df9fd6e956a",
+   "name": "김태경",
+   "listed": 63,
+   "author_ids": [
+    "A5068518101"
+   ],
+   "profiles": [
+    {
+     "id": "A5068518101",
+     "display_name": "Tae-Kyung Kim",
+     "works_count": 82,
+     "hits": 57,
+     "own_share": 0.7,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.9,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "34883ef052dfdf9f510f3edb263aeb4b",
+   "name": "김덕영",
+   "listed": 34,
+   "author_ids": [
+    "A5068569651"
+   ],
+   "profiles": [
+    {
+     "id": "A5068569651",
+     "display_name": "Duck Young Kim",
+     "works_count": 72,
+     "hits": 29,
+     "own_share": 0.4,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "362518836bc8de853ab46d626b49e969",
+   "name": "이경석",
+   "listed": 3,
+   "author_ids": [
+    "A5023373586"
+   ],
+   "profiles": [
+    {
+     "id": "A5023373586",
+     "display_name": "Kyoung-Seog Lee",
+     "works_count": 29,
+     "hits": 3,
+     "own_share": 0.1,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "373fb625aca6568207be5d387796dfa2",
+   "name": "김종규",
+   "listed": 260,
+   "author_ids": [
+    "A5001831460",
+    "A5023241964"
+   ],
+   "profiles": [
+    {
+     "id": "A5001831460",
+     "display_name": "Jong Kyu Kim",
+     "works_count": 5,
+     "hits": 2,
+     "own_share": 0.4,
+     "verdict": "weak",
+     "same_name": true
+    },
+    {
+     "id": "A5023241964",
+     "display_name": "Jong Kyu Kim",
+     "works_count": 341,
+     "hits": 187,
+     "own_share": 0.55,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.73,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "37474cd82f4ae221f4dd773bd75d2771",
+   "name": "BAKER CALVIN COLLINS",
+   "listed": 0,
+   "author_ids": [
+    "A5091887910"
+   ],
+   "profiles": [
+    {
+     "id": "A5091887910",
+     "display_name": "Calvin Baker",
+     "works_count": 6,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": false
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "38edcacabe08c12e260e1654b7b4e55e",
+   "name": "유환조",
+   "listed": 198,
+   "author_ids": [
+    "A5045521125"
+   ],
+   "profiles": [
+    {
+     "id": "A5045521125",
+     "display_name": "Hwanjo Yu",
+     "works_count": 171,
+     "hits": 115,
+     "own_share": 0.67,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.58,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3b006d6bada5c5abf7281fc08312bbae",
+   "name": "한욱신",
+   "listed": 68,
+   "author_ids": [
+    "A5035744252"
+   ],
+   "profiles": [
+    {
+     "id": "A5035744252",
+     "display_name": "Wook-Shin Han",
+     "works_count": 155,
+     "hits": 49,
+     "own_share": 0.32,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3b3c5fe1e3c1a3aba26ffd66eb364790",
+   "name": "김민성",
+   "listed": 34,
+   "author_ids": [
+    "A5100650467"
+   ],
+   "profiles": [
+    {
+     "id": "A5100650467",
+     "display_name": "Min‐Sung Kim",
+     "works_count": 57,
+     "hits": 17,
+     "own_share": 0.3,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.5,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3c97d90740df38121b37c4fb53a24966",
+   "name": "고영명",
+   "listed": 53,
+   "author_ids": [
+    "A5003297564"
+   ],
+   "profiles": [
+    {
+     "id": "A5003297564",
+     "display_name": "Young Myoung Ko",
+     "works_count": 69,
+     "hits": 50,
+     "own_share": 0.72,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3cf13955f9df42105905a333b6204179",
+   "name": "이민아",
+   "listed": 51,
+   "author_ids": [
+    "A5101557261"
+   ],
+   "profiles": [
+    {
+     "id": "A5101557261",
+     "display_name": "Minah Lee",
+     "works_count": 83,
+     "hits": 43,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3d82b4a08725ae170fa61511a99b613d",
+   "name": "신민석",
+   "listed": 6,
+   "author_ids": [
+    "A5043768352"
+   ],
+   "profiles": [
+    {
+     "id": "A5043768352",
+     "display_name": "Minseok Shin",
+     "works_count": 11,
+     "hits": 3,
+     "own_share": 0.27,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.5,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "3f0f056e4fad5c7ff805253491ee03ff",
+   "name": "김정훈",
+   "listed": 75,
+   "author_ids": [
+    "A5002867409"
+   ],
+   "profiles": [
+    {
+     "id": "A5002867409",
+     "display_name": "Joung‐Hun Kim",
+     "works_count": 71,
+     "hits": 53,
+     "own_share": 0.75,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.71,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4175cb53b8b76804974ca84a08632e6f",
+   "name": "김민성",
+   "listed": 1,
+   "author_ids": [
+    "A5128902394"
+   ],
+   "profiles": [
+    {
+     "id": "A5128902394",
+     "display_name": "Minsung Kim",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "41cb478666b8dda0b4b2a751fa53ccb0",
+   "name": "최수석",
+   "listed": 40,
+   "author_ids": [
+    "A5008673006"
+   ],
+   "profiles": [
+    {
+     "id": "A5008673006",
+     "display_name": "Su Seok Choi",
+     "works_count": 78,
+     "hits": 37,
+     "own_share": 0.47,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4267bf754906d518d3be7196378a06c3",
+   "name": "육장수",
+   "listed": 2,
+   "author_ids": [
+    "A5046279876"
+   ],
+   "profiles": [
+    {
+     "id": "A5046279876",
+     "display_name": "Jang Soo Yook",
+     "works_count": 29,
+     "hits": 2,
+     "own_share": 0.07,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4297d08f4b7dfe2755c6d814ac8ef632",
+   "name": "김경환",
+   "listed": 61,
+   "author_ids": [
+    "A5100635016"
+   ],
+   "profiles": [
+    {
+     "id": "A5100635016",
+     "display_name": "Kyung Hwan Kim",
+     "works_count": 255,
+     "hits": 59,
+     "own_share": 0.23,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.97,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "437fc8d96e56428d5871fdeedc08b4dd",
+   "name": "김승기",
+   "listed": 0,
+   "author_ids": [
+    "A5083764870"
+   ],
+   "profiles": [
+    {
+     "id": "A5083764870",
+     "display_name": "Soong‐Ki Kim",
+     "works_count": 36,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4523ab01bf3bacfe42c50778873495b7",
+   "name": "김희찬",
+   "listed": 0,
+   "author_ids": [
+    "A5008477395"
+   ],
+   "profiles": [
+    {
+     "id": "A5008477395",
+     "display_name": "Heechan Kim",
+     "works_count": 45,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "452ff8a514babe9a5da54bbcb5d24c32",
+   "name": "손민주",
+   "listed": 20,
+   "author_ids": [
+    "A5018784710"
+   ],
+   "profiles": [
+    {
+     "id": "A5018784710",
+     "display_name": "Min Ju Shon",
+     "works_count": 35,
+     "hits": 20,
+     "own_share": 0.57,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "46466de2356e17efde24000d5ea0db20",
+   "name": "류일우",
+   "listed": 56,
+   "author_ids": [
+    "A5091363743"
+   ],
+   "profiles": [
+    {
+     "id": "A5091363743",
+     "display_name": "Ilwoo Lyu",
+     "works_count": 87,
+     "hits": 55,
+     "own_share": 0.63,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.98,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "480bb8dec2750b8a828fa90daabe7bb4",
+   "name": "이강복",
+   "listed": 58,
+   "author_ids": [
+    "A5038840736"
+   ],
+   "profiles": [
+    {
+     "id": "A5038840736",
+     "display_name": "Kangbok Lee",
+     "works_count": 126,
+     "hits": 55,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.95,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "484ada407cce53c151266995cec8e43b",
+   "name": "송창용",
+   "listed": 87,
+   "author_ids": [
+    "A5071083135"
+   ],
+   "profiles": [
+    {
+     "id": "A5071083135",
+     "display_name": "Changyong Song",
+     "works_count": 172,
+     "hits": 82,
+     "own_share": 0.48,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "48ab3d77da069de620678d533d334880",
+   "name": "최시영",
+   "listed": 228,
+   "author_ids": [
+    "A5022054837",
+    "A5122975730"
+   ],
+   "profiles": [
+    {
+     "id": "A5022054837",
+     "display_name": "Si‐Young Choi",
+     "works_count": 379,
+     "hits": 199,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5122975730",
+     "display_name": "Si‐Young Choi",
+     "works_count": 2,
+     "hits": 2,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4991f96b4d883ab628a93c7a43e9a8e4",
+   "name": "김기석",
+   "listed": 84,
+   "author_ids": [
+    "A5075833583"
+   ],
+   "profiles": [
+    {
+     "id": "A5075833583",
+     "display_name": "Ki‐Seok Kim",
+     "works_count": 230,
+     "hits": 74,
+     "own_share": 0.32,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "499feb96e02a16c6360a1bb6c89b326e",
+   "name": "오명철",
+   "listed": 17,
+   "author_ids": [
+    "A5038571451"
+   ],
+   "profiles": [
+    {
+     "id": "A5038571451",
+     "display_name": "Myungchul Oh",
+     "works_count": 50,
+     "hits": 15,
+     "own_share": 0.3,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4ad952ffe572a3156f56802fc7647dbb",
+   "name": "신훈철",
+   "listed": 17,
+   "author_ids": [
+    "A5075757345"
+   ],
+   "profiles": [
+    {
+     "id": "A5075757345",
+     "display_name": "Hoon C. Shin",
+     "works_count": 24,
+     "hits": 16,
+     "own_share": 0.67,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4c994e2f02440d465318257356a4741c",
+   "name": "임근배",
+   "listed": 243,
+   "author_ids": [
+    "A5018500712"
+   ],
+   "profiles": [
+    {
+     "id": "A5018500712",
+     "display_name": "Geunbae Lim",
+     "works_count": 275,
+     "hits": 168,
+     "own_share": 0.61,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.69,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4c9c8ae6c2753608d1d0c9b19778d051",
+   "name": "조용준",
+   "listed": 4,
+   "author_ids": [
+    "A5006874417"
+   ],
+   "profiles": [
+    {
+     "id": "A5006874417",
+     "display_name": "Yongjoon Cho",
+     "works_count": 140,
+     "hits": 4,
+     "own_share": 0.03,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4ca8ad7508926891e100437c7817f303",
+   "name": "류순민",
+   "listed": 148,
+   "author_ids": [
+    "A5025254146"
+   ],
+   "profiles": [
+    {
+     "id": "A5025254146",
+     "display_name": "Sunmin Ryu",
+     "works_count": 125,
+     "hits": 66,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.45,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4d32b3de303245ffc0951efccf1da2d5",
+   "name": "박재성",
+   "listed": 101,
+   "author_ids": [
+    "A5100718304",
+    "A5135250550"
+   ],
+   "profiles": [
+    {
+     "id": "A5100718304",
+     "display_name": "Jaesung Park",
+     "works_count": 132,
+     "hits": 63,
+     "own_share": 0.48,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5135250550",
+     "display_name": "Jaesung Park",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.63,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "4e244bd053fe4ca49e1d5d52f21abfdc",
+   "name": "오은진",
+   "listed": 30,
+   "author_ids": [
+    "A5101749008"
+   ],
+   "profiles": [
+    {
+     "id": "A5101749008",
+     "display_name": "Eunjin Oh",
+     "works_count": 65,
+     "hits": 22,
+     "own_share": 0.34,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.73,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "50705cf571ba48309476bb553c2356b8",
+   "name": "김영진",
+   "listed": 15,
+   "author_ids": [
+    "A5100387381",
+    "A5100440437"
+   ],
+   "profiles": [
+    {
+     "id": "A5100387381",
+     "display_name": "Young Jin Kim",
+     "works_count": 7,
+     "hits": 1,
+     "own_share": 0.14,
+     "verdict": "weak",
+     "same_name": true
+    },
+    {
+     "id": "A5100440437",
+     "display_name": "Young‐Jin Kim",
+     "works_count": 92,
+     "hits": 10,
+     "own_share": 0.11,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.73,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5222f40ea8b1b572af7d81cdcfdd2870",
+   "name": "권도훈",
+   "listed": 0,
+   "author_ids": [
+    "A5102867415"
+   ],
+   "profiles": [
+    {
+     "id": "A5102867415",
+     "display_name": "Do Hoon Kwon",
+     "works_count": 959,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "52ae979e5a521ff22239a968c4281903",
+   "name": "한수희",
+   "listed": 122,
+   "author_ids": [
+    "A5069368669"
+   ],
+   "profiles": [
+    {
+     "id": "A5069368669",
+     "display_name": "Soohee Han",
+     "works_count": 227,
+     "hits": 100,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "537bec3b2e35d774cf892c88ca3255cb",
+   "name": "김도형",
+   "listed": 14,
+   "author_ids": [
+    "A5005626634"
+   ],
+   "profiles": [
+    {
+     "id": "A5005626634",
+     "display_name": "Dohoung Kim",
+     "works_count": 35,
+     "hits": 12,
+     "own_share": 0.34,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "543ee1b67121080f7ed4304b31bde36a",
+   "name": "고아라",
+   "listed": 18,
+   "author_ids": [
+    "A5087260130"
+   ],
+   "profiles": [
+    {
+     "id": "A5087260130",
+     "display_name": "Ara Koh",
+     "works_count": 44,
+     "hits": 17,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "54847f8af8af755d701d642eb2889ce1",
+   "name": "이민식",
+   "listed": 5,
+   "author_ids": [
+    "A5070012952"
+   ],
+   "profiles": [
+    {
+     "id": "A5070012952",
+     "display_name": "Min-Sik Lee",
+     "works_count": 18,
+     "hits": 4,
+     "own_share": 0.22,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.8,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "554745a64ecd29c66377f62d19f49169",
+   "name": "신세운",
+   "listed": 46,
+   "author_ids": [
+    "A5069793402"
+   ],
+   "profiles": [
+    {
+     "id": "A5069793402",
+     "display_name": "Se-Un Shin",
+     "works_count": 58,
+     "hits": 36,
+     "own_share": 0.62,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "554a685e4f5958e2476403f7d3e3633b",
+   "name": "김형함",
+   "listed": 80,
+   "author_ids": [
+    "A5028959139"
+   ],
+   "profiles": [
+    {
+     "id": "A5028959139",
+     "display_name": "Hyung Ham Kim",
+     "works_count": 136,
+     "hits": 74,
+     "own_share": 0.54,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "558d09ffc6d39954834975a364d10013",
+   "name": "이승용",
+   "listed": 142,
+   "author_ids": [
+    "A5101408509"
+   ],
+   "profiles": [
+    {
+     "id": "A5101408509",
+     "display_name": "Seungyong Lee",
+     "works_count": 200,
+     "hits": 102,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "57060a1ca8292869afb633bb00ce7204",
+   "name": "이병주",
+   "listed": 309,
+   "author_ids": [
+    "A5073968015"
+   ],
+   "profiles": [
+    {
+     "id": "A5073968015",
+     "display_name": "Byeong‐Joo Lee",
+     "works_count": 430,
+     "hits": 281,
+     "own_share": 0.65,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5830da08c1f40c9cff0b8804c57bef29",
+   "name": "김석",
+   "listed": 89,
+   "author_ids": [
+    "A5128915809",
+    "A5004216860"
+   ],
+   "profiles": [
+    {
+     "id": "A5128915809",
+     "display_name": "Seok Kim",
+     "works_count": 2,
+     "hits": 1,
+     "own_share": 0.5,
+     "verdict": "weak",
+     "same_name": true
+    },
+    {
+     "id": "A5004216860",
+     "display_name": "Seok Kim",
+     "works_count": 32,
+     "hits": 22,
+     "own_share": 0.69,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.26,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "59095330cef9138909ad7c37a95e7e55",
+   "name": "송황준",
+   "listed": 164,
+   "author_ids": [
+    "A5100775389"
+   ],
+   "profiles": [
+    {
+     "id": "A5100775389",
+     "display_name": "Hwangjun Song",
+     "works_count": 166,
+     "hits": 116,
+     "own_share": 0.7,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.71,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "59855345351d569dbbbbc668df19a512",
+   "name": "박지성",
+   "listed": 18,
+   "author_ids": [
+    "A5010929521"
+   ],
+   "profiles": [
+    {
+     "id": "A5010929521",
+     "display_name": "Jisung Park",
+     "works_count": 78,
+     "hits": 16,
+     "own_share": 0.21,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5a6db25479631b2084f1250f7d373391",
+   "name": "박지우",
+   "listed": 15,
+   "author_ids": [
+    "A5028276361"
+   ],
+   "profiles": [
+    {
+     "id": "A5028276361",
+     "display_name": "Jee Woo Park",
+     "works_count": 47,
+     "hits": 12,
+     "own_share": 0.26,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.8,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5ae5e95e6245f2e51b32f1805bc466cf",
+   "name": "황일두",
+   "listed": 75,
+   "author_ids": [
+    "A5010154886"
+   ],
+   "profiles": [
+    {
+     "id": "A5010154886",
+     "display_name": "Ildoo Hwang",
+     "works_count": 105,
+     "hits": 66,
+     "own_share": 0.63,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5b4904a849d4cce159abc577f0b063a4",
+   "name": "전명재",
+   "listed": 0,
+   "author_ids": [
+    "A5079046832"
+   ],
+   "profiles": [
+    {
+     "id": "A5079046832",
+     "display_name": "Myeongjae Jeon",
+     "works_count": 64,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5be8ee6e811d1f31cb53ea777bb36148",
+   "name": "조중욱",
+   "listed": 91,
+   "author_ids": [
+    "A5009163657"
+   ],
+   "profiles": [
+    {
+     "id": "A5009163657",
+     "display_name": "Jung‐Wook Cho",
+     "works_count": 137,
+     "hits": 88,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.97,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5f198105100143316777af8a3c5e6d4b",
+   "name": "김종흠",
+   "listed": 24,
+   "author_ids": [
+    "A5051879388"
+   ],
+   "profiles": [
+    {
+     "id": "A5051879388",
+     "display_name": "Jong Hum Kim",
+     "works_count": 32,
+     "hits": 23,
+     "own_share": 0.72,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.96,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5f98bc730b823c152bc3ad20680294bf",
+   "name": "최영주",
+   "listed": 134,
+   "author_ids": [
+    "A5091203108"
+   ],
+   "profiles": [
+    {
+     "id": "A5091203108",
+     "display_name": "YoungJu Choie",
+     "works_count": 171,
+     "hits": 96,
+     "own_share": 0.56,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5fadaf538b1b61f0c8cb44687f67608d",
+   "name": "심지훈",
+   "listed": 274,
+   "author_ids": [
+    "A5005060379"
+   ],
+   "profiles": [
+    {
+     "id": "A5005060379",
+     "display_name": "Ji Hoon Shim",
+     "works_count": 227,
+     "hits": 143,
+     "own_share": 0.63,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.52,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "5fd10c8b473c70cb02ac7d60c72c2a39",
+   "name": "채민우",
+   "listed": 30,
+   "author_ids": [
+    "A5036975442"
+   ],
+   "profiles": [
+    {
+     "id": "A5036975442",
+     "display_name": "Minwoo Chae",
+     "works_count": 42,
+     "hits": 25,
+     "own_share": 0.6,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "61be35a942c7654bbed63bcdb44f3e70",
+   "name": "이장식",
+   "listed": 99,
+   "author_ids": [
+    "A5085039752"
+   ],
+   "profiles": [
+    {
+     "id": "A5085039752",
+     "display_name": "Jang‐Sik Lee",
+     "works_count": 220,
+     "hits": 94,
+     "own_share": 0.43,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.95,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "629ca3005e7550e2e8d2cc633f182a47",
+   "name": "배경민",
+   "listed": 57,
+   "author_ids": [
+    "A5085748879"
+   ],
+   "profiles": [
+    {
+     "id": "A5085748879",
+     "display_name": "Kyungmin Bae",
+     "works_count": 85,
+     "hits": 52,
+     "own_share": 0.61,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "62a096b8508acdab34ad790fe6e3ec86",
+   "name": "이준민",
+   "listed": 43,
+   "author_ids": [
+    "A5102002061"
+   ],
+   "profiles": [
+    {
+     "id": "A5102002061",
+     "display_name": "Junmin Lee",
+     "works_count": 146,
+     "hits": 41,
+     "own_share": 0.28,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.95,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "66a27767c0f502b1ea8462004ebb21f7",
+   "name": "백승태",
+   "listed": 47,
+   "author_ids": [
+    "A5080004279"
+   ],
+   "profiles": [
+    {
+     "id": "A5080004279",
+     "display_name": "Seung Tae Baek",
+     "works_count": 92,
+     "hits": 31,
+     "own_share": 0.34,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.66,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6838c45a05cd625d0fb7e987fbcf7805",
+   "name": "한해욱",
+   "listed": 91,
+   "author_ids": [
+    "A5101866001",
+    "A5100840177"
+   ],
+   "profiles": [
+    {
+     "id": "A5101866001",
+     "display_name": "Haewook Han",
+     "works_count": 108,
+     "hits": 53,
+     "own_share": 0.49,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5100840177",
+     "display_name": "Haewook Han Haewook Han",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.59,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6842f7d1d8cb3fcb0a90d165ca486c0a",
+   "name": "전보광",
+   "listed": 4,
+   "author_ids": [
+    "A5017979546"
+   ],
+   "profiles": [
+    {
+     "id": "A5017979546",
+     "display_name": "BoGwang Jeon",
+     "works_count": 14,
+     "hits": 4,
+     "own_share": 0.29,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "69a14bca4d6c9bfd397ddd014cafb63c",
+   "name": "김동식",
+   "listed": 128,
+   "author_ids": [
+    "A5012174345"
+   ],
+   "profiles": [
+    {
+     "id": "A5012174345",
+     "display_name": "Dongsik Kim",
+     "works_count": 137,
+     "hits": 85,
+     "own_share": 0.62,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.66,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6adff5a3efe38e59669333a47d29f2b6",
+   "name": "김상우",
+   "listed": 240,
+   "author_ids": [
+    "A5100452155"
+   ],
+   "profiles": [
+    {
+     "id": "A5100452155",
+     "display_name": "Sang Woo Kim",
+     "works_count": 250,
+     "hits": 136,
+     "own_share": 0.54,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.57,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6b6d785944d0b63e339c6ee33809e6bb",
+   "name": "황형주",
+   "listed": 106,
+   "author_ids": [
+    "A5003733262"
+   ],
+   "profiles": [
+    {
+     "id": "A5003733262",
+     "display_name": "Hyung Ju Hwang",
+     "works_count": 136,
+     "hits": 87,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6b79f8637dad5c7a27a9e0b5d2798e56",
+   "name": "홍원빈",
+   "listed": 227,
+   "author_ids": [
+    "A5049430114"
+   ],
+   "profiles": [
+    {
+     "id": "A5049430114",
+     "display_name": "Wonbin Hong",
+     "works_count": 376,
+     "hits": 178,
+     "own_share": 0.47,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6cacc6370a18f07c0792abb36b37679f",
+   "name": "송우철",
+   "listed": 29,
+   "author_ids": [
+    "A5024120710"
+   ],
+   "profiles": [
+    {
+     "id": "A5024120710",
+     "display_name": "Woochul Song",
+     "works_count": 53,
+     "hits": 20,
+     "own_share": 0.38,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.69,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6dda7a495187db5785ed7f2f11e30511",
+   "name": "조민수",
+   "listed": 132,
+   "author_ids": [
+    "A5101998656"
+   ],
+   "profiles": [
+    {
+     "id": "A5101998656",
+     "display_name": "Minsu Cho",
+     "works_count": 280,
+     "hits": 119,
+     "own_share": 0.42,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.9,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "6e6098f39a29a429994ee9927724254d",
+   "name": "김정훈",
+   "listed": 121,
+   "author_ids": [
+    "A5100333069"
+   ],
+   "profiles": [
+    {
+     "id": "A5100333069",
+     "display_name": "Jung Hoon Kim",
+     "works_count": 113,
+     "hits": 59,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.49,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "700a6fac11e8c86b953724e4774a8728",
+   "name": "한승용",
+   "listed": 31,
+   "author_ids": [
+    "A5077377669"
+   ],
+   "profiles": [
+    {
+     "id": "A5077377669",
+     "display_name": "Seungyong Han",
+     "works_count": 100,
+     "hits": 30,
+     "own_share": 0.3,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.97,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "70a61fac052c6b5ddcd0a4fa6afe342f",
+   "name": "우정아",
+   "listed": 9,
+   "author_ids": [
+    "A5101772292"
+   ],
+   "profiles": [
+    {
+     "id": "A5101772292",
+     "display_name": "Jung-Ah Woo",
+     "works_count": 36,
+     "hits": 6,
+     "own_share": 0.17,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.67,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "70abd7783b52e6b717497551092700f7",
+   "name": "황석환",
+   "listed": 204,
+   "author_ids": [
+    "A5005578462"
+   ],
+   "profiles": [
+    {
+     "id": "A5005578462",
+     "display_name": "Seokhwan Hwang",
+     "works_count": 307,
+     "hits": 140,
+     "own_share": 0.46,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.69,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "71348edd001017b9579a1eb54375ad06",
+   "name": "조문호",
+   "listed": 130,
+   "author_ids": [
+    "A5059359624"
+   ],
+   "profiles": [
+    {
+     "id": "A5059359624",
+     "display_name": "Moon‐Ho Jo",
+     "works_count": 215,
+     "hits": 109,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "715a1142968969cc852f18f49a024d7d",
+   "name": "LEE LUKE PYUNG SE",
+   "listed": 0,
+   "author_ids": [],
+   "profiles": [],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "749a9f72399d0927583407259ca8bd7f",
+   "name": "고용송",
+   "listed": 294,
+   "author_ids": [
+    "A5056631863"
+   ],
+   "profiles": [
+    {
+     "id": "A5056631863",
+     "display_name": "Yong Song Gho",
+     "works_count": 206,
+     "hits": 151,
+     "own_share": 0.73,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.51,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7831e17ceaa2e98fd6f9e8b10f512140",
+   "name": "한현",
+   "listed": 31,
+   "author_ids": [
+    "A5054340588"
+   ],
+   "profiles": [
+    {
+     "id": "A5054340588",
+     "display_name": "Hyeon Han",
+     "works_count": 44,
+     "hits": 26,
+     "own_share": 0.59,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "78459b9623eba5320f5e35f2002375a9",
+   "name": "강석형",
+   "listed": 73,
+   "author_ids": [
+    "A5044543389"
+   ],
+   "profiles": [
+    {
+     "id": "A5044543389",
+     "display_name": "Seokhyeong Kang",
+     "works_count": 159,
+     "hits": 63,
+     "own_share": 0.4,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7a7c467993216b7295462d37b1953ba9",
+   "name": "이문주",
+   "listed": 25,
+   "author_ids": [
+    "A5059548002"
+   ],
+   "profiles": [
+    {
+     "id": "A5059548002",
+     "display_name": "Moonjoo Lee",
+     "works_count": 92,
+     "hits": 21,
+     "own_share": 0.23,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7b54cef564a233d179c3af95248a4f40",
+   "name": "지승훈",
+   "listed": 90,
+   "author_ids": [
+    "A5036395536"
+   ],
+   "profiles": [
+    {
+     "id": "A5036395536",
+     "display_name": "Seung-Hoon Jhi",
+     "works_count": 160,
+     "hits": 83,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7bdd625d5a73bc4567d09c77c088a478",
+   "name": "정우성",
+   "listed": 73,
+   "author_ids": [
+    "A5040094074"
+   ],
+   "profiles": [
+    {
+     "id": "A5040094074",
+     "display_name": "Woo‐Sung Jung",
+     "works_count": 135,
+     "hits": 67,
+     "own_share": 0.5,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7c0d812e4d700c7e56af778d3a824e29",
+   "name": "장봉규",
+   "listed": 52,
+   "author_ids": [
+    "A5026398959"
+   ],
+   "profiles": [
+    {
+     "id": "A5026398959",
+     "display_name": "Bong‐Gyu Jang",
+     "works_count": 105,
+     "hits": 41,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7c29325e40e0eb662e7629967b633a0a",
+   "name": "조항진",
+   "listed": 117,
+   "author_ids": [
+    "A5066104965"
+   ],
+   "profiles": [
+    {
+     "id": "A5066104965",
+     "display_name": "HangJin Jo",
+     "works_count": 126,
+     "hits": 97,
+     "own_share": 0.77,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7c88bde56638bce57265ef84445e62c6",
+   "name": "LIQIRUI",
+   "listed": 1,
+   "author_ids": [
+    "A5101641179"
+   ],
+   "profiles": [
+    {
+     "id": "A5101641179",
+     "display_name": "Qirui Li",
+     "works_count": 99,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": false
+    }
+   ],
+   "coverage": 0.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7e21ea71de8805264e1b2355ef104dee",
+   "name": "오승수",
+   "listed": 69,
+   "author_ids": [
+    "A5004413201"
+   ],
+   "profiles": [
+    {
+     "id": "A5004413201",
+     "display_name": "Seung Soo Oh",
+     "works_count": 86,
+     "hits": 65,
+     "own_share": 0.76,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7e4f2bebec89f3ea03a3fb6e0f8bbd36",
+   "name": "이현우",
+   "listed": 177,
+   "author_ids": [
+    "A5100607085"
+   ],
+   "profiles": [
+    {
+     "id": "A5100607085",
+     "display_name": "Hyun‐Woo Lee",
+     "works_count": 610,
+     "hits": 149,
+     "own_share": 0.24,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "7e746d81c803067409011645d23fd0f1",
+   "name": "이인수",
+   "listed": 85,
+   "author_ids": [
+    "A5046753852",
+    "A5125484736"
+   ],
+   "profiles": [
+    {
+     "id": "A5046753852",
+     "display_name": "In Su Lee",
+     "works_count": 290,
+     "hits": 68,
+     "own_share": 0.23,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5125484736",
+     "display_name": "In Su Lee",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "800292c887b4b94b4e93979d95f14239",
+   "name": "설재복",
+   "listed": 0,
+   "author_ids": [
+    "A5077959659",
+    "A5137071781"
+   ],
+   "profiles": [
+    {
+     "id": "A5077959659",
+     "display_name": "Jae Bok Seol",
+     "works_count": 155,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    },
+    {
+     "id": "A5137071781",
+     "display_name": "Jae Bok Seol",
+     "works_count": 6,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "801d8483ec7fd757cf6199bf99e1c5aa",
+   "name": "김희철",
+   "listed": 51,
+   "author_ids": [
+    "A5090689321"
+   ],
+   "profiles": [
+    {
+     "id": "A5090689321",
+     "display_name": "Hee‐Cheol Kim",
+     "works_count": 85,
+     "hits": 38,
+     "own_share": 0.45,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "81c1c810531f1c7da7a18f9809b6c448",
+   "name": "윤창원",
+   "listed": 26,
+   "author_ids": [
+    "A5073756727"
+   ],
+   "profiles": [
+    {
+     "id": "A5073756727",
+     "display_name": "Chang Won Yoon",
+     "works_count": 162,
+     "hits": 25,
+     "own_share": 0.15,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.96,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "81c7c0d97f02350ecb115624fc80c5d2",
+   "name": "공병돈",
+   "listed": 60,
+   "author_ids": [
+    "A5066156157"
+   ],
+   "profiles": [
+    {
+     "id": "A5066156157",
+     "display_name": "Byoung Don Kong",
+     "works_count": 85,
+     "hits": 52,
+     "own_share": 0.61,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.87,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "81e7d48be2e4126739d27db2f002e383",
+   "name": "박형규",
+   "listed": 80,
+   "author_ids": [
+    "A5064377137"
+   ],
+   "profiles": [
+    {
+     "id": "A5064377137",
+     "display_name": "Hyung Gyu Park",
+     "works_count": 138,
+     "hits": 73,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "820d6eb33837425aab1270d236524366",
+   "name": "김경태",
+   "listed": 105,
+   "author_ids": [
+    "A5100713090"
+   ],
+   "profiles": [
+    {
+     "id": "A5100713090",
+     "display_name": "Kyung‐Tae Kim",
+     "works_count": 399,
+     "hits": 90,
+     "own_share": 0.23,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8296556464bdebca77b25830678fd37b",
+   "name": "이상민",
+   "listed": 21,
+   "author_ids": [
+    "A5100342105"
+   ],
+   "profiles": [
+    {
+     "id": "A5100342105",
+     "display_name": "Sangmin Lee",
+     "works_count": 49,
+     "hits": 15,
+     "own_share": 0.31,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.71,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "82f66a732f5b0cd33bb18370b079d6ba",
+   "name": "진현규",
+   "listed": 67,
+   "author_ids": [
+    "A5025917520"
+   ],
+   "profiles": [
+    {
+     "id": "A5025917520",
+     "display_name": "Hyungyu Jin",
+     "works_count": 166,
+     "hits": 63,
+     "own_share": 0.38,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "83ce9f7fb2aee838302ceebb7e9a8845",
+   "name": "김진희",
+   "listed": 32,
+   "author_ids": [
+    "A5100376592"
+   ],
+   "profiles": [
+    {
+     "id": "A5100376592",
+     "display_name": "Jinhee Kim",
+     "works_count": 293,
+     "hits": 12,
+     "own_share": 0.04,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.38,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "852b3d30f3ef3488e21f540f2bbeccea",
+   "name": "조철현",
+   "listed": 0,
+   "author_ids": [
+    "A5113530074"
+   ],
+   "profiles": [
+    {
+     "id": "A5113530074",
+     "display_name": "Cheol‐Hyun Cho",
+     "works_count": 44,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8574a1da5bda264766c8cf4ecfd83694",
+   "name": "심재윤",
+   "listed": 318,
+   "author_ids": [
+    "A5033088278"
+   ],
+   "profiles": [
+    {
+     "id": "A5033088278",
+     "display_name": "Jae‐Yoon Sim",
+     "works_count": 327,
+     "hits": 240,
+     "own_share": 0.73,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "86b6cc6dac0b7793853eff49fe69c0ee",
+   "name": "김종경",
+   "listed": 65,
+   "author_ids": [
+    "A5100635271",
+    "A5143759395"
+   ],
+   "profiles": [
+    {
+     "id": "A5100635271",
+     "display_name": "Jong Kyoung Kim",
+     "works_count": 259,
+     "hits": 56,
+     "own_share": 0.22,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5143759395",
+     "display_name": "Jong Kyoung Kim",
+     "works_count": 2,
+     "hits": 1,
+     "own_share": 0.5,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "86fc88408c8d1893e56ce738dfd115a7",
+   "name": "신선영",
+   "listed": 18,
+   "author_ids": [
+    "A5101537120"
+   ],
+   "profiles": [
+    {
+     "id": "A5101537120",
+     "display_name": "Sunyoung Shin",
+     "works_count": 14,
+     "hits": 4,
+     "own_share": 0.29,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.22,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "884a9749b730dbd52a38156208defe69",
+   "name": "이윤태",
+   "listed": 44,
+   "author_ids": [
+    "A5034657214"
+   ],
+   "profiles": [
+    {
+     "id": "A5034657214",
+     "display_name": "Yoontae Lee",
+     "works_count": 76,
+     "hits": 41,
+     "own_share": 0.54,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "89315275387a6abd10753adf25862997",
+   "name": "백창기",
+   "listed": 128,
+   "author_ids": [
+    "A5087622173"
+   ],
+   "profiles": [
+    {
+     "id": "A5087622173",
+     "display_name": "Chang‐Ki Baek",
+     "works_count": 155,
+     "hits": 100,
+     "own_share": 0.65,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "89a355028e05f37b704bf98340f6f769",
+   "name": "엄우용",
+   "listed": 152,
+   "author_ids": [
+    "A5007766196"
+   ],
+   "profiles": [
+    {
+     "id": "A5007766196",
+     "display_name": "Wooyong Um",
+     "works_count": 296,
+     "hits": 114,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8a89fd3c5bc81918486a8ef633c47d51",
+   "name": "이안나",
+   "listed": 51,
+   "author_ids": [
+    "A5100755626"
+   ],
+   "profiles": [
+    {
+     "id": "A5100755626",
+     "display_name": "Anna Lee",
+     "works_count": 103,
+     "hits": 43,
+     "own_share": 0.42,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8ad648173a74311bbdf5fd7872955c27",
+   "name": "김광선",
+   "listed": 29,
+   "author_ids": [
+    "A5100334897"
+   ],
+   "profiles": [
+    {
+     "id": "A5100334897",
+     "display_name": "Gwangsun Kim",
+     "works_count": 44,
+     "hits": 27,
+     "own_share": 0.61,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8b7abdfbebe2b7d0941be32a15739e90",
+   "name": "전재형",
+   "listed": 70,
+   "author_ids": [
+    "A5087989423"
+   ],
+   "profiles": [
+    {
+     "id": "A5087989423",
+     "display_name": "Jae‐Hyung Jeon",
+     "works_count": 79,
+     "hits": 30,
+     "own_share": 0.38,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.43,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8de45719ab2b8fce6893b83f3aa3300b",
+   "name": "손재성",
+   "listed": 84,
+   "author_ids": [
+    "A5049925551",
+    "A5103433512"
+   ],
+   "profiles": [
+    {
+     "id": "A5049925551",
+     "display_name": "Jae Sung Son",
+     "works_count": 103,
+     "hits": 74,
+     "own_share": 0.72,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5103433512",
+     "display_name": "Jae Sung Son",
+     "works_count": 11,
+     "hits": 6,
+     "own_share": 0.55,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.93,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8defaf16156f18a548b41c58b006cc88",
+   "name": "김용준",
+   "listed": 52,
+   "author_ids": [
+    "A5025186204",
+    "A5124921444"
+   ],
+   "profiles": [
+    {
+     "id": "A5025186204",
+     "display_name": "Yongjune Kim",
+     "works_count": 89,
+     "hits": 46,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5124921444",
+     "display_name": "Yongjune Kim",
+     "works_count": 3,
+     "hits": 1,
+     "own_share": 0.33,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8e3d7359b1fc03935e7015c5d01075b3",
+   "name": "김건우",
+   "listed": 24,
+   "author_ids": [
+    "A5101770891"
+   ],
+   "profiles": [
+    {
+     "id": "A5101770891",
+     "display_name": "Kunwoo Kim",
+     "works_count": 121,
+     "hits": 22,
+     "own_share": 0.18,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "name": "조창순",
+   "listed": 14,
+   "author_ids": [
+    "A5047075063"
+   ],
+   "profiles": [
+    {
+     "id": "A5047075063",
+     "display_name": "Changsoon Cho",
+     "works_count": 96,
+     "hits": 12,
+     "own_share": 0.12,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "904a2fb1494123a4b9be99844f3d823c",
+   "name": "김광인",
+   "listed": 76,
+   "author_ids": [
+    "A5015742132"
+   ],
+   "profiles": [
+    {
+     "id": "A5015742132",
+     "display_name": "Kwang In Kim",
+     "works_count": 69,
+     "hits": 49,
+     "own_share": 0.71,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.64,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "913f3673099de6be55cf19a16b59522e",
+   "name": "안지환",
+   "listed": 32,
+   "author_ids": [
+    "A5018198374"
+   ],
+   "profiles": [
+    {
+     "id": "A5018198374",
+     "display_name": "Jihwan An",
+     "works_count": 179,
+     "hits": 31,
+     "own_share": 0.17,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.97,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "92d7e9607dd4b52271832307356acdf9",
+   "name": "권수옥",
+   "listed": 67,
+   "author_ids": [
+    "A5001538236"
+   ],
+   "profiles": [
+    {
+     "id": "A5001538236",
+     "display_name": "권수옥",
+     "works_count": 88,
+     "hits": 8,
+     "own_share": 0.09,
+     "verdict": "confirmed",
+     "same_name": false
+    }
+   ],
+   "coverage": 0.12,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "92f8e8cdf44ea24fa8ef01f7fdb7cc7f",
+   "name": "정모세",
+   "listed": 20,
+   "author_ids": [
+    "A5075050114"
+   ],
+   "profiles": [
+    {
+     "id": "A5075050114",
+     "display_name": "М. Chung",
+     "works_count": 242,
+     "hits": 15,
+     "own_share": 0.06,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "937965033892745d797d9ea70473f6a7",
+   "name": "김기훈",
+   "listed": 110,
+   "author_ids": [
+    "A5100723189",
+    "A5130772583"
+   ],
+   "profiles": [
+    {
+     "id": "A5100723189",
+     "display_name": "Keehoon Kim",
+     "works_count": 133,
+     "hits": 81,
+     "own_share": 0.61,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5130772583",
+     "display_name": "Keehoon Kim",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "946c050fc9fa8acaa8ce95b6dcc2144a",
+   "name": "최희철",
+   "listed": 161,
+   "author_ids": [
+    "A5054363305"
+   ],
+   "profiles": [
+    {
+     "id": "A5054363305",
+     "display_name": "Hee Cheul Choi",
+     "works_count": 284,
+     "hits": 144,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "953898cd997f22be7dced291ed7c848e",
+   "name": "이병훈",
+   "listed": 109,
+   "author_ids": [
+    "A5105983024",
+    "A5124429028"
+   ],
+   "profiles": [
+    {
+     "id": "A5105983024",
+     "display_name": "Byoung Hun Lee",
+     "works_count": 401,
+     "hits": 96,
+     "own_share": 0.24,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5124429028",
+     "display_name": "Byoung Hun Lee",
+     "works_count": 3,
+     "hits": 2,
+     "own_share": 0.67,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.9,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "967c529b18fde0ca165565b028340c30",
+   "name": "김슬배",
+   "listed": 10,
+   "author_ids": [
+    "A5021364059"
+   ],
+   "profiles": [
+    {
+     "id": "A5021364059",
+     "display_name": "Seulbae Kim",
+     "works_count": 17,
+     "hits": 9,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.9,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "9696f4ab695c3ea4d975561822b6c1ad",
+   "name": "신희득",
+   "listed": 49,
+   "author_ids": [
+    "A5076815900"
+   ],
+   "profiles": [
+    {
+     "id": "A5076815900",
+     "display_name": "Heedeuk Shin",
+     "works_count": 138,
+     "hits": 41,
+     "own_share": 0.3,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "972ca939d654fbf945a78039e38af29b",
+   "name": "권순호",
+   "listed": 42,
+   "author_ids": [
+    "A5065096122"
+   ],
+   "profiles": [
+    {
+     "id": "A5065096122",
+     "display_name": "Soonho Kwon",
+     "works_count": 71,
+     "hits": 42,
+     "own_share": 0.59,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "9791d5d87862c58a75052a9509f1c56d",
+   "name": "유주연",
+   "listed": 62,
+   "author_ids": [
+    "A5109091214"
+   ],
+   "profiles": [
+    {
+     "id": "A5109091214",
+     "display_name": "Joo-Yeon Yoo",
+     "works_count": 75,
+     "hits": 47,
+     "own_share": 0.63,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.76,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "988399351b6bf6a86c4760b438cc6a99",
+   "name": "박영욱",
+   "listed": 0,
+   "author_ids": [],
+   "profiles": [],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "9c2741540c4286d26221b8f2701304f2",
+   "name": "박상돈",
+   "listed": 20,
+   "author_ids": [
+    "A5014443062"
+   ],
+   "profiles": [
+    {
+     "id": "A5014443062",
+     "display_name": "Sangdon Park",
+     "works_count": 102,
+     "hits": 15,
+     "own_share": 0.15,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "9cc5de834480380b39a9ba040ea333ed",
+   "name": "손영환",
+   "listed": 11,
+   "author_ids": [
+    "A5128054574"
+   ],
+   "profiles": [
+    {
+     "id": "A5128054574",
+     "display_name": "Younghwan Son",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.09,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": [
+    "A5128054574 (Younghwan Son): 목록 11편 중 1편만 있음"
+   ]
+  },
+  {
+   "advisor_id": "9df1028a57aaf356f41af2fa99a0a606",
+   "name": "박지훈",
+   "listed": 38,
+   "author_ids": [
+    "A5100785224"
+   ],
+   "profiles": [
+    {
+     "id": "A5100785224",
+     "display_name": "Jihun Park",
+     "works_count": 66,
+     "hits": 34,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a0077af62c6f63c9154fbfb3318181c1",
+   "name": "김형훈",
+   "listed": 7,
+   "author_ids": [
+    "A5041514597"
+   ],
+   "profiles": [
+    {
+     "id": "A5041514597",
+     "display_name": "Hyounghun Kim",
+     "works_count": 29,
+     "hits": 5,
+     "own_share": 0.17,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.71,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a02cc371fd9ee9e0d19b7208562a7a5d",
+   "name": "김영기",
+   "listed": 65,
+   "author_ids": [
+    "A5080048718"
+   ],
+   "profiles": [
+    {
+     "id": "A5080048718",
+     "display_name": "Young‐Ki Kim",
+     "works_count": 124,
+     "hits": 57,
+     "own_share": 0.46,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.88,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a03cbb75ef2410c17ff3bbee7cb0a455",
+   "name": "송호진",
+   "listed": 163,
+   "author_ids": [
+    "A5090103689"
+   ],
+   "profiles": [
+    {
+     "id": "A5090103689",
+     "display_name": "Ho-Jin Song",
+     "works_count": 208,
+     "hits": 118,
+     "own_share": 0.57,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a0b09bd0d8be40c9663143589c83803e",
+   "name": "이상민",
+   "listed": 23,
+   "author_ids": [
+    "A5058851431",
+    "A5100319606"
+   ],
+   "profiles": [
+    {
+     "id": "A5058851431",
+     "display_name": "Sang‐Min Lee",
+     "works_count": 6,
+     "hits": 3,
+     "own_share": 0.5,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5100319606",
+     "display_name": "Sang‐Min Lee",
+     "works_count": 86,
+     "hits": 7,
+     "own_share": 0.08,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.39,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a32ceefae328d34c087687edfcb376c0",
+   "name": "이동현",
+   "listed": 18,
+   "author_ids": [
+    "A5100429210"
+   ],
+   "profiles": [
+    {
+     "id": "A5100429210",
+     "display_name": "Donghyun Lee",
+     "works_count": 76,
+     "hits": 4,
+     "own_share": 0.05,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.22,
+   "candidates": [
+    {
+     "id": "A5100429200",
+     "display_name": "Donghyun Lee",
+     "works_count": 16,
+     "votes": 3,
+     "hits": 5,
+     "same_name": true
+    }
+   ],
+   "remove": [],
+   "add": [],
+   "review": [
+    "A5100429200 (Donghyun Lee): 목록 논문 5편이 있는 프로필이 기록에 없음"
+   ]
+  },
+  {
+   "advisor_id": "a36563bc435cf11368744c6f77218529",
+   "name": "주태하",
+   "listed": 188,
+   "author_ids": [
+    "A5068442965"
+   ],
+   "profiles": [
+    {
+     "id": "A5068442965",
+     "display_name": "Taiha Joo",
+     "works_count": 208,
+     "hits": 145,
+     "own_share": 0.7,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.77,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a45028e4d02086882e8f135701fbedaa",
+   "name": "임신혁",
+   "listed": 96,
+   "author_ids": [
+    "A5018682015"
+   ],
+   "profiles": [
+    {
+     "id": "A5018682015",
+     "display_name": "Sin‐Hyeog Im",
+     "works_count": 212,
+     "hits": 82,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a4c93740ea4fea145a9ee1eafc8d3e85",
+   "name": "김원종",
+   "listed": 300,
+   "author_ids": [
+    "A5003478304"
+   ],
+   "profiles": [
+    {
+     "id": "A5003478304",
+     "display_name": "Won Jong Kim",
+     "works_count": 356,
+     "hits": 189,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.63,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a5c96b621480618492d6ab4d2e19a965",
+   "name": "김성지",
+   "listed": 157,
+   "author_ids": [
+    "A5069444992"
+   ],
+   "profiles": [
+    {
+     "id": "A5069444992",
+     "display_name": "Sungjee Kim",
+     "works_count": 229,
+     "hits": 147,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.94,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a79d15cffa0894704db905e541a8363f",
+   "name": "손진희",
+   "listed": 3,
+   "author_ids": [
+    "A5112688924"
+   ],
+   "profiles": [
+    {
+     "id": "A5112688924",
+     "display_name": "Jeany Son",
+     "works_count": 43,
+     "hits": 2,
+     "own_share": 0.05,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.67,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a868304f06c2b9b99fd2c99232e036da",
+   "name": "조은경",
+   "listed": 14,
+   "author_ids": [
+    "A5015228589"
+   ],
+   "profiles": [
+    {
+     "id": "A5015228589",
+     "display_name": "Eunkyung Jo",
+     "works_count": 14,
+     "hits": 11,
+     "own_share": 0.79,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a884b1d54c2547e8e5d55978297cbf47",
+   "name": "서영주",
+   "listed": 237,
+   "author_ids": [
+    "A5033502618"
+   ],
+   "profiles": [
+    {
+     "id": "A5033502618",
+     "display_name": "Young-Joo Suh",
+     "works_count": 204,
+     "hits": 144,
+     "own_share": 0.71,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.61,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "a8cb0eda141ab875fe52fa52eab88340",
+   "name": "감종훈",
+   "listed": 50,
+   "author_ids": [],
+   "profiles": [],
+   "coverage": 0.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "aa1cf9eed82e59584bfc0d4dd65c5364",
+   "name": "김세영",
+   "listed": 64,
+   "author_ids": [
+    "A5100417274"
+   ],
+   "profiles": [
+    {
+     "id": "A5100417274",
+     "display_name": "Seyoung Kim",
+     "works_count": 173,
+     "hits": 58,
+     "own_share": 0.34,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ac5babc34e4e3e5206b8cd23b74f3948",
+   "name": "노용영",
+   "listed": 325,
+   "author_ids": [
+    "A5003984428"
+   ],
+   "profiles": [
+    {
+     "id": "A5003984428",
+     "display_name": "Yong‐Young Noh",
+     "works_count": 537,
+     "hits": 275,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ad505cb08e854896e57bd47b92850efd",
+   "name": "김용태",
+   "listed": 164,
+   "author_ids": [
+    "A5100658302"
+   ],
+   "profiles": [
+    {
+     "id": "A5100658302",
+     "display_name": "Yong‐Tae Kim",
+     "works_count": 340,
+     "hits": 105,
+     "own_share": 0.31,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.64,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "adf0ab4b14195342b91f258f17a6c087",
+   "name": "박재훈",
+   "listed": 155,
+   "author_ids": [
+    "A5111927900",
+    "A5048224465"
+   ],
+   "profiles": [
+    {
+     "id": "A5111927900",
+     "display_name": "Jae-Hoon Park",
+     "works_count": 6,
+     "hits": 5,
+     "own_share": 0.83,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5048224465",
+     "display_name": "Jae‐Hoon Park",
+     "works_count": 264,
+     "hits": 98,
+     "own_share": 0.37,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.66,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "aebe9a6ddab8c971ffecbd53eb58270e",
+   "name": "한지훈",
+   "listed": 137,
+   "author_ids": [
+    "A5110848295"
+   ],
+   "profiles": [
+    {
+     "id": "A5110848295",
+     "display_name": "Jeehoon Han",
+     "works_count": 145,
+     "hits": 115,
+     "own_share": 0.79,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b19c909a5a99b205393fba060354fabd",
+   "name": "정규열",
+   "listed": 212,
+   "author_ids": [
+    "A5079269717"
+   ],
+   "profiles": [
+    {
+     "id": "A5079269717",
+     "display_name": "Gyoo Yeol Jung",
+     "works_count": 738,
+     "hits": 163,
+     "own_share": 0.22,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.77,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b247094125c58d6a164c12f74277b33f",
+   "name": "송민석",
+   "listed": 43,
+   "author_ids": [
+    "A5087486578"
+   ],
+   "profiles": [
+    {
+     "id": "A5087486578",
+     "display_name": "Minseok Song",
+     "works_count": 116,
+     "hits": 36,
+     "own_share": 0.31,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b308f0521f94a234c1ff582231c722ab",
+   "name": "유동현",
+   "listed": 149,
+   "author_ids": [
+    "A5021747455"
+   ],
+   "profiles": [
+    {
+     "id": "A5021747455",
+     "display_name": "Donghyun You",
+     "works_count": 340,
+     "hits": 112,
+     "own_share": 0.33,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b30c08316784cceb807e5a7670575269",
+   "name": "최규하",
+   "listed": 82,
+   "author_ids": [
+    "A5052023515"
+   ],
+   "profiles": [
+    {
+     "id": "A5052023515",
+     "display_name": "Kyuha Choi",
+     "works_count": 91,
+     "hits": 40,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.49,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b3983f02edcf344a30396594b9eb0fca",
+   "name": "김태환",
+   "listed": 69,
+   "author_ids": [
+    "A5100359395"
+   ],
+   "profiles": [
+    {
+     "id": "A5100359395",
+     "display_name": "Tae-Hwan Kim",
+     "works_count": 137,
+     "hits": 57,
+     "own_share": 0.42,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b3c9f2a39c5fb0200ee018c401cc39fb",
+   "name": "임현석",
+   "listed": 50,
+   "author_ids": [
+    "A5018699270"
+   ],
+   "profiles": [
+    {
+     "id": "A5018699270",
+     "display_name": "Hyun‐Suk Lim",
+     "works_count": 124,
+     "hits": 36,
+     "own_share": 0.29,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b5530a33695bde14489bda40c348531b",
+   "name": "김철주",
+   "listed": 62,
+   "author_ids": [
+    "A5027730105",
+    "A5110971014"
+   ],
+   "profiles": [
+    {
+     "id": "A5027730105",
+     "display_name": "Cheol‐Joo Kim",
+     "works_count": 96,
+     "hits": 56,
+     "own_share": 0.58,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5110971014",
+     "display_name": "Cheol-Joo e- Kim",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b59a79cbe921942c5d3909da04708904",
+   "name": "전준구",
+   "listed": 19,
+   "author_ids": [
+    "A5050890345"
+   ],
+   "profiles": [
+    {
+     "id": "A5050890345",
+     "display_name": "Joongoo Jeon",
+     "works_count": 44,
+     "hits": 19,
+     "own_share": 0.43,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b812e6346b5770c7ed8ebee2e604c589",
+   "name": "박규영",
+   "listed": 41,
+   "author_ids": [
+    "A5063236956"
+   ],
+   "profiles": [
+    {
+     "id": "A5063236956",
+     "display_name": "Kyu‐Young Park",
+     "works_count": 107,
+     "hits": 28,
+     "own_share": 0.26,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.68,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b8974c5afcf836280e0cc027f4883b7d",
+   "name": "이지오",
+   "listed": 31,
+   "author_ids": [
+    "A5074578302"
+   ],
+   "profiles": [
+    {
+     "id": "A5074578302",
+     "display_name": "Jie‐Oh Lee",
+     "works_count": 124,
+     "hits": 28,
+     "own_share": 0.23,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.9,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "b9952d0611c5c0a4a350a434b644cf48",
+   "name": "조현보",
+   "listed": 182,
+   "author_ids": [
+    "A5088838086"
+   ],
+   "profiles": [
+    {
+     "id": "A5088838086",
+     "display_name": "Hyunbo Cho",
+     "works_count": 138,
+     "hits": 85,
+     "own_share": 0.62,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.47,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ba11daf52cb269136ee35ff559d1a99d",
+   "name": "윤용주",
+   "listed": 63,
+   "author_ids": [
+    "A5050368068"
+   ],
+   "profiles": [
+    {
+     "id": "A5050368068",
+     "display_name": "Yongju Yun",
+     "works_count": 112,
+     "hits": 57,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.9,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "bac613d80b091997629849fcf905e65c",
+   "name": "노준석",
+   "listed": 462,
+   "author_ids": [
+    "A5033298230"
+   ],
+   "profiles": [
+    {
+     "id": "A5033298230",
+     "display_name": "Junsuk Rho",
+     "works_count": 707,
+     "hits": 425,
+     "own_share": 0.6,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "bbb232e44fc51ffa9667b632efee3648",
+   "name": "조창신",
+   "listed": 109,
+   "author_ids": [
+    "A5026000597"
+   ],
+   "profiles": [
+    {
+     "id": "A5026000597",
+     "display_name": "Changshin Jo",
+     "works_count": 154,
+     "hits": 105,
+     "own_share": 0.68,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.96,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "bbb84aca00701a4b4d29c69ae6ff2a8a",
+   "name": "박재모",
+   "listed": 62,
+   "author_ids": [
+    "A5055591070"
+   ],
+   "profiles": [
+    {
+     "id": "A5055591070",
+     "display_name": "Jaemo Park",
+     "works_count": 70,
+     "hits": 31,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.5,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "bd50e21be3088f6bb6b690cf272c8d5a",
+   "name": "이준구",
+   "listed": 28,
+   "author_ids": [
+    "A5034115773"
+   ],
+   "profiles": [
+    {
+     "id": "A5034115773",
+     "display_name": "Joongoo Lee",
+     "works_count": 46,
+     "hits": 22,
+     "own_share": 0.48,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "bd6528b8c777c23bf9cc24efa89579b1",
+   "name": "김현우",
+   "listed": 19,
+   "author_ids": [
+    "A5046320204"
+   ],
+   "profiles": [
+    {
+     "id": "A5046320204",
+     "display_name": "Hyunwoo Kim",
+     "works_count": 20,
+     "hits": 12,
+     "own_share": 0.6,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.63,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c083729fa52ba4adc51b03ca7251a645",
+   "name": "박진수",
+   "listed": 4,
+   "author_ids": [
+    "A5100713530"
+   ],
+   "profiles": [
+    {
+     "id": "A5100713530",
+     "display_name": "Jinsoo Park",
+     "works_count": 28,
+     "hits": 4,
+     "own_share": 0.14,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c1111180290fc3a3f6ef78b9cfbe9b35",
+   "name": "이승우",
+   "listed": 59,
+   "author_ids": [
+    "A5100403762",
+    "A5109409084"
+   ],
+   "profiles": [
+    {
+     "id": "A5100403762",
+     "display_name": "Seung‐Woo Lee",
+     "works_count": 119,
+     "hits": 35,
+     "own_share": 0.29,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5109409084",
+     "display_name": "Seung‐Woo Lee",
+     "works_count": 4,
+     "hits": 4,
+     "own_share": 1.0,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.66,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c174028db6bfa33551de1ecbf77feb6e",
+   "name": "신동일",
+   "listed": 18,
+   "author_ids": [
+    "A5144188893"
+   ],
+   "profiles": [
+    {
+     "id": "A5144188893",
+     "display_name": "Dongil Shin",
+     "works_count": 39,
+     "hits": 18,
+     "own_share": 0.46,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c1e42f4dae5e42465ef090fda69e81f3",
+   "name": "김상욱",
+   "listed": 124,
+   "author_ids": [
+    "A5047859685",
+    "A5133898347"
+   ],
+   "profiles": [
+    {
+     "id": "A5047859685",
+     "display_name": "Sanguk Kim",
+     "works_count": 250,
+     "hits": 102,
+     "own_share": 0.41,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5133898347",
+     "display_name": "Sanguk Kim",
+     "works_count": 3,
+     "hits": 1,
+     "own_share": 0.33,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c34e2b4ba9291346e5527d8fc2379ffb",
+   "name": "김지훈",
+   "listed": 94,
+   "author_ids": [
+    "A5090157606"
+   ],
+   "profiles": [
+    {
+     "id": "A5090157606",
+     "display_name": "Jeehoon Kim",
+     "works_count": 129,
+     "hits": 57,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.61,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+   "name": "김종환",
+   "listed": 40,
+   "author_ids": [
+    "A5100767722"
+   ],
+   "profiles": [
+    {
+     "id": "A5100767722",
+     "display_name": "Jonghwan Kim",
+     "works_count": 36,
+     "hits": 16,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.4,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c4770c1e9d12ac61199d6e738b54115d",
+   "name": "고성안",
+   "listed": 4,
+   "author_ids": [
+    "A5020791375"
+   ],
+   "profiles": [
+    {
+     "id": "A5020791375",
+     "display_name": "Sungahn Ko",
+     "works_count": 64,
+     "hits": 4,
+     "own_share": 0.06,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c55f3ac184b92d8a222a1dd536c7718e",
+   "name": "임치현",
+   "listed": 0,
+   "author_ids": [],
+   "profiles": [],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c70973972fcfb5ab095e561d6fd81fe0",
+   "name": "윤건수",
+   "listed": 166,
+   "author_ids": [
+    "A5030789483",
+    "A5114664014"
+   ],
+   "profiles": [
+    {
+     "id": "A5030789483",
+     "display_name": "Gunsu S. Yun",
+     "works_count": 278,
+     "hits": 143,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5114664014",
+     "display_name": "Gunsu Yun",
+     "works_count": 2,
+     "hits": 1,
+     "own_share": 0.5,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.87,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c7a6b2d266a4031eea305d16f9cb4c38",
+   "name": "지형민",
+   "listed": 11,
+   "author_ids": [
+    "A5019222326"
+   ],
+   "profiles": [
+    {
+     "id": "A5019222326",
+     "display_name": "Hyung Min Chi",
+     "works_count": 26,
+     "hits": 11,
+     "own_share": 0.42,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "c7cdff754981e682e5f71a4e7426e599",
+   "name": "김욱성",
+   "listed": 55,
+   "author_ids": [
+    "A5066878882"
+   ],
+   "profiles": [
+    {
+     "id": "A5066878882",
+     "display_name": "Wook‐Sung Kim",
+     "works_count": 62,
+     "hits": 32,
+     "own_share": 0.52,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.58,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ca582d6a0b812ba87c27f95338ba11dd",
+   "name": "김종신",
+   "listed": 5,
+   "author_ids": [
+    "A5140049531",
+    "A5136683565"
+   ],
+   "profiles": [
+    {
+     "id": "A5140049531",
+     "display_name": "Jongshin Kim",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5136683565",
+     "display_name": "Jongshin Kim",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.4,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cc0b8c1255af89743b434a9a8edef471",
+   "name": "이원열",
+   "listed": 21,
+   "author_ids": [
+    "A5060394258"
+   ],
+   "profiles": [
+    {
+     "id": "A5060394258",
+     "display_name": "Wonyeol Lee",
+     "works_count": 27,
+     "hits": 16,
+     "own_share": 0.59,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.76,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cc1629b654bce21536b3c021d12dfddf",
+   "name": "이기라",
+   "listed": 232,
+   "author_ids": [
+    "A5121978804",
+    "A5003695234"
+   ],
+   "profiles": [
+    {
+     "id": "A5121978804",
+     "display_name": "Gi-Ra Yi",
+     "works_count": 2,
+     "hits": 1,
+     "own_share": 0.5,
+     "verdict": "weak",
+     "same_name": true
+    },
+    {
+     "id": "A5003695234",
+     "display_name": "Gi‐Ra Yi",
+     "works_count": 312,
+     "hits": 224,
+     "own_share": 0.72,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.97,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cc1d600a3f6a859f24fb5b91d04320d3",
+   "name": "이기택",
+   "listed": 225,
+   "author_ids": [
+    "A5024062439"
+   ],
+   "profiles": [
+    {
+     "id": "A5024062439",
+     "display_name": "Kitack Lee",
+     "works_count": 260,
+     "hits": 139,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.62,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cca7b82b6abb2e60476e1c524a39770e",
+   "name": "김준성",
+   "listed": 163,
+   "author_ids": [
+    "A5112516275",
+    "A5100721055"
+   ],
+   "profiles": [
+    {
+     "id": "A5112516275",
+     "display_name": "Jun Sung Kim",
+     "works_count": 7,
+     "hits": 6,
+     "own_share": 0.86,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5100721055",
+     "display_name": "Jun Sung Kim",
+     "works_count": 187,
+     "hits": 94,
+     "own_share": 0.5,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.61,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ccd3a21a7a4efd2d952fb45c2796c869",
+   "name": "용기중",
+   "listed": 306,
+   "author_ids": [
+    "A5043206362"
+   ],
+   "profiles": [
+    {
+     "id": "A5043206362",
+     "display_name": "Kijung Yong",
+     "works_count": 267,
+     "hits": 219,
+     "own_share": 0.82,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.72,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cd440bdd4e15a1ce3482a489f21f04ba",
+   "name": "박은혁",
+   "listed": 22,
+   "author_ids": [
+    "A5064884832"
+   ],
+   "profiles": [
+    {
+     "id": "A5064884832",
+     "display_name": "Eunhyeok Park",
+     "works_count": 57,
+     "hits": 22,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 1.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cd66c5491d166dd5690e0e9191a58145",
+   "name": "박상기",
+   "listed": 72,
+   "author_ids": [
+    "A5069176618"
+   ],
+   "profiles": [
+    {
+     "id": "A5069176618",
+     "display_name": "Sang Ki Park",
+     "works_count": 121,
+     "hits": 61,
+     "own_share": 0.5,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ce14ddfa72c13a81b7f8874e46c4ff7b",
+   "name": "유희천",
+   "listed": 137,
+   "author_ids": [
+    "A5003172708"
+   ],
+   "profiles": [
+    {
+     "id": "A5003172708",
+     "display_name": "Heecheon You",
+     "works_count": 320,
+     "hits": 104,
+     "own_share": 0.33,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.76,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "cfb371b02971dcfe4c15bc09a01f6057",
+   "name": "채수용",
+   "listed": 28,
+   "author_ids": [
+    "A5074966399"
+   ],
+   "profiles": [
+    {
+     "id": "A5074966399",
+     "display_name": "Suyong Chae",
+     "works_count": 62,
+     "hits": 24,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d06da72ee798f4ba4518f6fec27c1924",
+   "name": "박수진",
+   "listed": 286,
+   "author_ids": [
+    "A5100447428"
+   ],
+   "profiles": [
+    {
+     "id": "A5100447428",
+     "display_name": "Soojin Park",
+     "works_count": 296,
+     "hits": 225,
+     "own_share": 0.76,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d12e80aff84ef9dc0c0938fdbb05d8f7",
+   "name": "조윤제",
+   "listed": 91,
+   "author_ids": [
+    "A5103183496"
+   ],
+   "profiles": [
+    {
+     "id": "A5103183496",
+     "display_name": "Yunje Cho",
+     "works_count": 88,
+     "hits": 71,
+     "own_share": 0.81,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d178f8bb037de92f38e521ea0d0dae36",
+   "name": "이승구",
+   "listed": 122,
+   "author_ids": [
+    "A5048785540"
+   ],
+   "profiles": [
+    {
+     "id": "A5048785540",
+     "display_name": "Sunggu Lee",
+     "works_count": 117,
+     "hits": 76,
+     "own_share": 0.65,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.62,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d1f96c8ff42d822dcf0489d32e075877",
+   "name": "정성준",
+   "listed": 144,
+   "author_ids": [
+    "A5013659311"
+   ],
+   "profiles": [
+    {
+     "id": "A5013659311",
+     "display_name": "Sungjune Jung",
+     "works_count": 251,
+     "hits": 118,
+     "own_share": 0.47,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d2196f415985858dcd486e6170603e16",
+   "name": "정성모",
+   "listed": 94,
+   "author_ids": [
+    "A5066287996"
+   ],
+   "profiles": [
+    {
+     "id": "A5066287996",
+     "display_name": "Sung‐Mo Jung",
+     "works_count": 152,
+     "hits": 75,
+     "own_share": 0.49,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.8,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d24584a20a99a64f57a9eec4be893b96",
+   "name": "김병섭",
+   "listed": 144,
+   "author_ids": [
+    "A5052722005"
+   ],
+   "profiles": [
+    {
+     "id": "A5052722005",
+     "display_name": "Byungsub Kim",
+     "works_count": 220,
+     "hits": 112,
+     "own_share": 0.51,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.78,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d70c4a6844cff7f924b9dcccee67c11b",
+   "name": "염화성",
+   "listed": 84,
+   "author_ids": [
+    "A5090132041"
+   ],
+   "profiles": [
+    {
+     "id": "A5090132041",
+     "display_name": "Hwasung Yeom",
+     "works_count": 103,
+     "hits": 66,
+     "own_share": 0.64,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d794eff109e15491cfd73de56d033e3b",
+   "name": "조준호",
+   "listed": 99,
+   "author_ids": [
+    "A5014603955"
+   ],
+   "profiles": [
+    {
+     "id": "A5014603955",
+     "display_name": "Joon Ho Cho",
+     "works_count": 87,
+     "hits": 54,
+     "own_share": 0.62,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.55,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d8d260d0955f816557ae98e50b287133",
+   "name": "정재훈",
+   "listed": 42,
+   "author_ids": [
+    "A5102012499"
+   ],
+   "profiles": [
+    {
+     "id": "A5102012499",
+     "display_name": "Jae-Hun Jung",
+     "works_count": 154,
+     "hits": 26,
+     "own_share": 0.17,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.62,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "d914e9c6ec5c366b4347b5bb7cff8940",
+   "name": "염한웅",
+   "listed": 111,
+   "author_ids": [
+    "A5071617291"
+   ],
+   "profiles": [
+    {
+     "id": "A5071617291",
+     "display_name": "Han Woong Yeom",
+     "works_count": 348,
+     "hits": 90,
+     "own_share": 0.26,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "dbfe206e4e741d56dd4362b1259c6d1f",
+   "name": "김범준",
+   "listed": 36,
+   "author_ids": [
+    "A5024040277"
+   ],
+   "profiles": [
+    {
+     "id": "A5024040277",
+     "display_name": "B. J. Kim",
+     "works_count": 36,
+     "hits": 19,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.53,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "dca0e6345b09bf0340fc1f8c7b7f0417",
+   "name": "장진우",
+   "listed": 21,
+   "author_ids": [
+    "A5086339183"
+   ],
+   "profiles": [
+    {
+     "id": "A5086339183",
+     "display_name": "Jin Woo Jang",
+     "works_count": 67,
+     "hits": 17,
+     "own_share": 0.25,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "df4bd10ef0d157c94cc1d0af5af628d5",
+   "name": "모상우",
+   "listed": 1,
+   "author_ids": [
+    "A5050194076"
+   ],
+   "profiles": [
+    {
+     "id": "A5050194076",
+     "display_name": "Sangwoo Mo",
+     "works_count": 33,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.0,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "dfd0272d5b2f41688fbd0812344ec4b5",
+   "name": "이충형",
+   "listed": 11,
+   "author_ids": [
+    "A5032239476"
+   ],
+   "profiles": [
+    {
+     "id": "A5032239476",
+     "display_name": "Chunghyoung Lee",
+     "works_count": 23,
+     "hits": 5,
+     "own_share": 0.22,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.45,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e064ea8da3398b079defc8179040f838",
+   "name": "옥정슬",
+   "listed": 57,
+   "author_ids": [
+    "A5000550975"
+   ],
+   "profiles": [
+    {
+     "id": "A5000550975",
+     "display_name": "Jungseul Ok",
+     "works_count": 95,
+     "hits": 45,
+     "own_share": 0.47,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e291b6441c095e7ceb3d0ec36e3a38b6",
+   "name": "박상준",
+   "listed": 2,
+   "author_ids": [],
+   "profiles": [],
+   "coverage": 0.0,
+   "candidates": [
+    {
+     "id": "A5013252273",
+     "display_name": "박상준",
+     "works_count": 1177,
+     "votes": 2,
+     "hits": 2,
+     "same_name": false
+    }
+   ],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e31d4bcbaa05eebde016e26cd1b7ea17",
+   "name": "박부견",
+   "listed": 394,
+   "author_ids": [
+    "A5088952968"
+   ],
+   "profiles": [
+    {
+     "id": "A5088952968",
+     "display_name": "PooGyeon Park",
+     "works_count": 484,
+     "hits": 273,
+     "own_share": 0.56,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.69,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e3554116e5076775c6dbc677a3a3eb8b",
+   "name": "이형주",
+   "listed": 58,
+   "author_ids": [
+    "A5078424912"
+   ],
+   "profiles": [
+    {
+     "id": "A5078424912",
+     "display_name": "Hyung Joo Lee",
+     "works_count": 71,
+     "hits": 33,
+     "own_share": 0.46,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.57,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e361c364c0a48eb856377542256ad718",
+   "name": "김희재",
+   "listed": 6,
+   "author_ids": [
+    "A5020822934"
+   ],
+   "profiles": [
+    {
+     "id": "A5020822934",
+     "display_name": "Heejae Kim",
+     "works_count": 40,
+     "hits": 5,
+     "own_share": 0.12,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e38229000b5001fe589061680c785785",
+   "name": "정대성",
+   "listed": 139,
+   "author_ids": [
+    "A5005143456"
+   ],
+   "profiles": [
+    {
+     "id": "A5005143456",
+     "display_name": "Dae Sung Chung",
+     "works_count": 195,
+     "hits": 103,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.74,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e3a8aed8c0f0fb63d1ec3aecddc8ebe1",
+   "name": "박상현",
+   "listed": 2,
+   "author_ids": [
+    "A5147470682"
+   ],
+   "profiles": [
+    {
+     "id": "A5147470682",
+     "display_name": "Sang Hyun Park",
+     "works_count": 1,
+     "hits": 1,
+     "own_share": 1.0,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.5,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e584c5fda2b5a7b646fbf64dea55f225",
+   "name": "이선규",
+   "listed": 34,
+   "author_ids": [
+    "A5067809865"
+   ],
+   "profiles": [
+    {
+     "id": "A5067809865",
+     "display_name": "Seon‐Kyoo Lee",
+     "works_count": 38,
+     "hits": 25,
+     "own_share": 0.66,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.74,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e5c123f6913071fecdf558f7ee9cc4ca",
+   "name": "조성현",
+   "listed": 52,
+   "author_ids": [
+    "A5101565511"
+   ],
+   "profiles": [
+    {
+     "id": "A5101565511",
+     "display_name": "Sunghyun Cho",
+     "works_count": 92,
+     "hits": 37,
+     "own_share": 0.4,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.71,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e5c3fc5f5173e1479fd4e72edd9c0599",
+   "name": "최승문",
+   "listed": 268,
+   "author_ids": [
+    "A5086283693"
+   ],
+   "profiles": [
+    {
+     "id": "A5086283693",
+     "display_name": "Seungmoon Choi",
+     "works_count": 343,
+     "hits": 224,
+     "own_share": 0.65,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.84,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e647186e20b50a963bbca9c030e31a1f",
+   "name": "박성민",
+   "listed": 120,
+   "author_ids": [
+    "A5100400974"
+   ],
+   "profiles": [
+    {
+     "id": "A5100400974",
+     "display_name": "Sung‐Min Park",
+     "works_count": 810,
+     "hits": 99,
+     "own_share": 0.12,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e7305fdca54f5dcbc37b520ce8d41adf",
+   "name": "한세광",
+   "listed": 229,
+   "author_ids": [
+    "A5045829629"
+   ],
+   "profiles": [
+    {
+     "id": "A5045829629",
+     "display_name": "Sei Kwang Hahn",
+     "works_count": 377,
+     "hits": 200,
+     "own_share": 0.53,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.87,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e8e9c9ec81986f8f38a8b1f430a52b9f",
+   "name": "김종민",
+   "listed": 64,
+   "author_ids": [
+    "A5100334905",
+    "A5123196033"
+   ],
+   "profiles": [
+    {
+     "id": "A5100334905",
+     "display_name": "Jongmin Kim",
+     "works_count": 163,
+     "hits": 54,
+     "own_share": 0.33,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5123196033",
+     "display_name": "Jongmin Kim",
+     "works_count": 15,
+     "hits": 4,
+     "own_share": 0.27,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "e9a460d2006f46bff940e54e8733b5b5",
+   "name": "김병인",
+   "listed": 164,
+   "author_ids": [
+    "A5085960285"
+   ],
+   "profiles": [
+    {
+     "id": "A5085960285",
+     "display_name": "Byung‐In Kim",
+     "works_count": 318,
+     "hits": 115,
+     "own_share": 0.36,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.7,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "eb842e7485c31dfa96029d1f659bf3b0",
+   "name": "서준호",
+   "listed": 12,
+   "author_ids": [
+    "A5090823584"
+   ],
+   "profiles": [
+    {
+     "id": "A5090823584",
+     "display_name": "Junho Suh",
+     "works_count": 61,
+     "hits": 10,
+     "own_share": 0.16,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.83,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "eeeef3347c5bcbce52bfcf9c92531736",
+   "name": "민승기",
+   "listed": 235,
+   "author_ids": [
+    "A5065335305"
+   ],
+   "profiles": [
+    {
+     "id": "A5065335305",
+     "display_name": "Seung‐Ki Min",
+     "works_count": 364,
+     "hits": 205,
+     "own_share": 0.56,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.87,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ef2b65fbe4750e574fff67eceab7d2f3",
+   "name": "안희갑",
+   "listed": 131,
+   "author_ids": [
+    "A5054175777"
+   ],
+   "profiles": [
+    {
+     "id": "A5054175777",
+     "display_name": "Hee-kap Ahn A",
+     "works_count": 233,
+     "hits": 111,
+     "own_share": 0.48,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.85,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "ef49083053b3df4911a73fab1620e391",
+   "name": "오용근",
+   "listed": 103,
+   "author_ids": [
+    "A5102862770"
+   ],
+   "profiles": [
+    {
+     "id": "A5102862770",
+     "display_name": "Yong‐Geun Oh",
+     "works_count": 260,
+     "hits": 83,
+     "own_share": 0.32,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.81,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f037b4e02b5c35c9f16c8d2732c074b4",
+   "name": "정광민",
+   "listed": 28,
+   "author_ids": [
+    "A5070367713"
+   ],
+   "profiles": [
+    {
+     "id": "A5070367713",
+     "display_name": "Kwangmin Jung",
+     "works_count": 44,
+     "hits": 15,
+     "own_share": 0.34,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.54,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f084dcb5042b262e11b36063619dbeaf",
+   "name": "나동엽",
+   "listed": 95,
+   "author_ids": [
+    "A5001685932"
+   ],
+   "profiles": [
+    {
+     "id": "A5001685932",
+     "display_name": "Dong-Yeop Na",
+     "works_count": 122,
+     "hits": 86,
+     "own_share": 0.7,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f2967b2a18bfe887c3948c9cdaa19e9f",
+   "name": "정윤영",
+   "listed": 42,
+   "author_ids": [
+    "A5090560960"
+   ],
+   "profiles": [
+    {
+     "id": "A5090560960",
+     "display_name": "Yoonyoung Chung",
+     "works_count": 99,
+     "hits": 36,
+     "own_share": 0.36,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.86,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f372936f59308e64db6b1705c2085ba3",
+   "name": "이남윤",
+   "listed": 64,
+   "author_ids": [
+    "A5014076559",
+    "A5025549904"
+   ],
+   "profiles": [
+    {
+     "id": "A5014076559",
+     "display_name": "Namyoon Lee",
+     "works_count": 244,
+     "hits": 52,
+     "own_share": 0.21,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5025549904",
+     "display_name": "Namyoon Lee",
+     "works_count": 16,
+     "hits": 10,
+     "own_share": 0.62,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.95,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f4492b80c937a00d16f88950a62351c0",
+   "name": "송재용",
+   "listed": 16,
+   "author_ids": [
+    "A5068961376"
+   ],
+   "profiles": [
+    {
+     "id": "A5068961376",
+     "display_name": "Jae Yong Song",
+     "works_count": 160,
+     "hits": 12,
+     "own_share": 0.07,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.75,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f48dfb2c8fdd898e352b5feec266a40d",
+   "name": "백록현",
+   "listed": 186,
+   "author_ids": [
+    "A5056156000"
+   ],
+   "profiles": [
+    {
+     "id": "A5056156000",
+     "display_name": "Rock‐Hyun Baek",
+     "works_count": 178,
+     "hits": 121,
+     "own_share": 0.68,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.65,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f4c5dbf22bfa21aa4931aa7aa0faa830",
+   "name": "황인석",
+   "listed": 76,
+   "author_ids": [
+    "A5070700637"
+   ],
+   "profiles": [
+    {
+     "id": "A5070700637",
+     "display_name": "Inseok Hwang",
+     "works_count": 97,
+     "hits": 39,
+     "own_share": 0.4,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.51,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f5d5875b5c523c59f197eb4a1b955321",
+   "name": "장지원",
+   "listed": 23,
+   "author_ids": [
+    "A5101989256",
+    "A5122338175"
+   ],
+   "profiles": [
+    {
+     "id": "A5101989256",
+     "display_name": "Jiwon Jang",
+     "works_count": 45,
+     "hits": 20,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5122338175",
+     "display_name": "Jiwon Jang",
+     "works_count": 4,
+     "hits": 1,
+     "own_share": 0.25,
+     "verdict": "weak",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f5debb6e781d2d6656b184ddfbbe5e41",
+   "name": "강윤배",
+   "listed": 270,
+   "author_ids": [
+    "A5050299101"
+   ],
+   "profiles": [
+    {
+     "id": "A5050299101",
+     "display_name": "Youn‐Bae Kang",
+     "works_count": 259,
+     "hits": 174,
+     "own_share": 0.67,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.64,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f6eab148298d59247c161e08e218e116",
+   "name": "서동우",
+   "listed": 179,
+   "author_ids": [
+    "A5060994553"
+   ],
+   "profiles": [
+    {
+     "id": "A5060994553",
+     "display_name": "Dong‐Woo Suh",
+     "works_count": 205,
+     "hits": 159,
+     "own_share": 0.78,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.89,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f861170d3a401a9ed8b9b591854b2888",
+   "name": "VALENTIN BUCIUMAS",
+   "listed": 11,
+   "author_ids": [
+    "A5067889397"
+   ],
+   "profiles": [
+    {
+     "id": "A5067889397",
+     "display_name": "Valentin Buciumas",
+     "works_count": 16,
+     "hits": 9,
+     "own_share": 0.56,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.82,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f92e9c5e032784c769136a0644be552c",
+   "name": "김경덕",
+   "listed": 14,
+   "author_ids": [
+    "A5022450480"
+   ],
+   "profiles": [
+    {
+     "id": "A5022450480",
+     "display_name": "Kyoungdoc Kim",
+     "works_count": 32,
+     "hits": 11,
+     "own_share": 0.34,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.79,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f9669f40ae5aba8c9c82eb4080558182",
+   "name": "한성호",
+   "listed": 167,
+   "author_ids": [
+    "A5059551197"
+   ],
+   "profiles": [
+    {
+     "id": "A5059551197",
+     "display_name": "Sung H. Han",
+     "works_count": 254,
+     "hits": 99,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.59,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "f99a04f1c7ba3fe4f420c343e9c9a1ca",
+   "name": "최영준",
+   "listed": 0,
+   "author_ids": [
+    "A5110504818"
+   ],
+   "profiles": [
+    {
+     "id": "A5110504818",
+     "display_name": "Young-Joon Choi",
+     "works_count": 34,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "fab2f0738d4022749d0bdc3d62f2c52a",
+   "name": "이종봉",
+   "listed": 101,
+   "author_ids": [
+    "A5033453546"
+   ],
+   "profiles": [
+    {
+     "id": "A5033453546",
+     "display_name": "Jong‐Bong Lee",
+     "works_count": 165,
+     "hits": 54,
+     "own_share": 0.33,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.53,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "fb2fac5a80ef2282b3e28bfef45b66ac",
+   "name": "박재석",
+   "listed": 17,
+   "author_ids": [
+    "A5060902294"
+   ],
+   "profiles": [
+    {
+     "id": "A5060902294",
+     "display_name": "Jae-Suk Park",
+     "works_count": 64,
+     "hits": 11,
+     "own_share": 0.17,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.65,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "fd02e4de7fb8f6a4cf14050de68bca2a",
+   "name": "장진아",
+   "listed": 197,
+   "author_ids": [
+    "A5102561606",
+    "A5039843081"
+   ],
+   "profiles": [
+    {
+     "id": "A5102561606",
+     "display_name": "Jinah Jang",
+     "works_count": 13,
+     "hits": 10,
+     "own_share": 0.77,
+     "verdict": "confirmed",
+     "same_name": true
+    },
+    {
+     "id": "A5039843081",
+     "display_name": "Jinah Jang",
+     "works_count": 239,
+     "hits": 135,
+     "own_share": 0.56,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.74,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+   "name": "홍지현",
+   "listed": 56,
+   "author_ids": [
+    "A5079603506"
+   ],
+   "profiles": [
+    {
+     "id": "A5079603506",
+     "display_name": "Jihyun Hong",
+     "works_count": 132,
+     "hits": 51,
+     "own_share": 0.39,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.91,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "fdf7c49c167de224cc78528fcfdcfbe8",
+   "name": "김광순",
+   "listed": 25,
+   "author_ids": [
+    "A5101953959"
+   ],
+   "profiles": [
+    {
+     "id": "A5101953959",
+     "display_name": "Kwang Soon Kim",
+     "works_count": 52,
+     "hits": 23,
+     "own_share": 0.44,
+     "verdict": "confirmed",
+     "same_name": true
+    }
+   ],
+   "coverage": 0.92,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "lab:sites.google.com/site/postechpolymer/home",
+   "name": "박태호",
+   "listed": 0,
+   "author_ids": [],
+   "profiles": [],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "lab:www.cslab.postech.ac.kr",
+   "name": "강대환",
+   "listed": 0,
+   "author_ids": [
+    "A5147488403"
+   ],
+   "profiles": [
+    {
+     "id": "A5147488403",
+     "display_name": "Daehwan Kang",
+     "works_count": 1,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "name:Seung Park",
+   "name": "",
+   "listed": 0,
+   "author_ids": [
+    "A5107657538"
+   ],
+   "profiles": [
+    {
+     "id": "A5107657538",
+     "display_name": "Seung‐Yeol Park",
+     "works_count": 61,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": false
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "name:Sw Chung",
+   "name": "",
+   "listed": 0,
+   "author_ids": [
+    "A5135371521"
+   ],
+   "profiles": [
+    {
+     "id": "A5135371521",
+     "display_name": "Sung-Woong Chung",
+     "works_count": 2,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": false
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  },
+  {
+   "advisor_id": "name:조길원",
+   "name": "조길원",
+   "listed": 0,
+   "author_ids": [
+    "A5050241476",
+    "A5019258890"
+   ],
+   "profiles": [
+    {
+     "id": "A5050241476",
+     "display_name": "Kilwon Cho",
+     "works_count": 652,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    },
+    {
+     "id": "A5019258890",
+     "display_name": "Cho Kilwon",
+     "works_count": 11,
+     "hits": 0,
+     "own_share": 0.0,
+     "verdict": "unverifiable",
+     "same_name": true
+    }
+   ],
+   "coverage": null,
+   "candidates": [],
+   "remove": [],
+   "add": [],
+   "review": []
+  }
+ ]
+}

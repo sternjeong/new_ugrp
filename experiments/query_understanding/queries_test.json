@@ -1,0 +1,1083 @@
+[
+ {
+  "id": "t01",
+  "type": "simple",
+  "text": "음성 인식 쪽을 공부해보고 싶습니다",
+  "intent": "search",
+  "pos": [
+   [
+    "speech_processing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t02",
+  "type": "simple",
+  "text": "블록체인에 관심이 많아요",
+  "intent": "search",
+  "pos": [
+   [
+    "distributed_systems_blockchain"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t03",
+  "type": "simple",
+  "text": "양자컴퓨터가 어떻게 동작하는지 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "quantum"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t04",
+  "type": "simple",
+  "text": "임베디드 시스템을 해보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "embedded_systems"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t05",
+  "type": "simple",
+  "text": "레이더 신호처리 연구 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "radar_sensing",
+    "signal_processing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t06",
+  "type": "simple",
+  "text": "추천시스템이 궁금합니다",
+  "intent": "search",
+  "pos": [
+   [
+    "recommender_systems"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t07",
+  "type": "simple",
+  "text": "운영체제 만드는 일을 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "operating_systems_storage"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t08",
+  "type": "simple",
+  "text": "디스플레이 기술에 관심 있어요",
+  "intent": "search",
+  "pos": [
+   [
+    "display_technology"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t09",
+  "type": "paraphrase",
+  "text": "유튜브나 넷플릭스가 내 취향을 알아서 영상을 띄워주는 원리가 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "recommender_systems"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t10",
+  "type": "paraphrase",
+  "text": "AI가 그림이나 사진을 만들어내는 기술을 연구하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "generative_models"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t11",
+  "type": "paraphrase",
+  "text": "해커가 시스템을 뚫는 걸 막는 방법을 배우고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "system_security"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t12",
+  "type": "paraphrase",
+  "text": "공장 기계가 고장 나기 전에 미리 알아내는 기술",
+  "intent": "search",
+  "pos": [
+   [
+    "industrial_ai"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t13",
+  "type": "paraphrase",
+  "text": "몸에 붙이는 센서로 심박이나 수면을 재는 연구",
+  "intent": "search",
+  "pos": [
+   [
+    "digital_health_wearables",
+    "biosensors"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t14",
+  "type": "paraphrase",
+  "text": "컴퓨터가 사람 말을 알아듣고 대답하게 만드는 일",
+  "intent": "search",
+  "pos": [
+   [
+    "nlp",
+    "speech_processing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t15",
+  "type": "paraphrase",
+  "text": "드론이 알아서 장애물을 피해 날아다니게 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "slam_navigation",
+    "robotics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t16",
+  "type": "paraphrase",
+  "text": "스마트폰 배터리가 오래가게 만드는 기술",
+  "intent": "search",
+  "pos": [
+   [
+    "battery_energy"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t17",
+  "type": "paraphrase",
+  "text": "반도체 칩을 더 작고 빠르게 만드는 방법",
+  "intent": "search",
+  "pos": [
+   [
+    "semiconductor_devices",
+    "semiconductor_process_packaging",
+    "circuit_design"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t18",
+  "type": "paraphrase",
+  "text": "시각장애인이나 노인이 쓰기 편한 기술을 만들고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "accessibility",
+    "hci",
+    "haptics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t19",
+  "type": "paraphrase",
+  "text": "컴퓨터가 방대한 데이터를 빨리 계산하게 하는 병렬 처리",
+  "intent": "search",
+  "pos": [
+   [
+    "high_performance_computing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t20",
+  "type": "paraphrase",
+  "text": "뇌 신호를 읽어서 기계를 움직이는 연구",
+  "intent": "search",
+  "pos": [
+   [
+    "bioelectronics_neural",
+    "brain_neuroscience"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t21",
+  "type": "negation",
+  "text": "AI는 이제 지겹고 하드웨어 설계가 끌려요",
+  "intent": "search",
+  "pos": [
+   [
+    "circuit_design",
+    "computer_architecture",
+    "semiconductor_devices"
+   ]
+  ],
+  "neg": [
+   "machine_learning",
+   "nlp",
+   "computer_vision",
+   "generative_models",
+   "reinforcement_learning"
+  ]
+ },
+ {
+  "id": "t22",
+  "type": "negation",
+  "text": "보안 쪽은 제외하고 네트워크나 통신을 알아보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "networking_iot",
+    "wireless_communications"
+   ]
+  ],
+  "neg": [
+   "system_security"
+  ]
+ },
+ {
+  "id": "t23",
+  "type": "negation",
+  "text": "영상 처리는 싫어요. 음성이나 자연어가 좋아요",
+  "intent": "search",
+  "pos": [
+   [
+    "speech_processing",
+    "nlp"
+   ]
+  ],
+  "neg": [
+   "computer_vision",
+   "computational_imaging"
+  ]
+ },
+ {
+  "id": "t24",
+  "type": "negation",
+  "text": "로봇 말고 소프트웨어 시스템 쪽이요",
+  "intent": "search",
+  "pos": [
+   [
+    "operating_systems_storage",
+    "compilers_programming_languages",
+    "distributed_systems_blockchain"
+   ]
+  ],
+  "neg": [
+   "robotics"
+  ]
+ },
+ {
+  "id": "t25",
+  "type": "negation",
+  "text": "양자는 너무 어려워서 별로고 암호가 재밌어요",
+  "intent": "search",
+  "pos": [
+   [
+    "cryptography_privacy"
+   ]
+  ],
+  "neg": [
+   "quantum"
+  ]
+ },
+ {
+  "id": "t26",
+  "type": "negation",
+  "text": "디스플레이는 관심 없고 반도체 공정이 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "semiconductor_process_packaging"
+   ]
+  ],
+  "neg": [
+   "display_technology"
+  ]
+ },
+ {
+  "id": "t27",
+  "type": "negation",
+  "text": "강화학습 빼고 생성모델은 해보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "generative_models"
+   ]
+  ],
+  "neg": [
+   "reinforcement_learning"
+  ]
+ },
+ {
+  "id": "t28",
+  "type": "negation",
+  "text": "이론 위주 연구는 싫고 직접 만들어보는 임베디드 쪽이 좋아요",
+  "intent": "search",
+  "pos": [
+   [
+    "embedded_systems"
+   ]
+  ],
+  "neg": [
+   "algorithms_theory",
+   "information_theory_coding",
+   "optimization"
+  ]
+ },
+ {
+  "id": "t29",
+  "type": "negation",
+  "text": "배터리는 안 맞는 것 같고 전력전자가 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "power_electronics"
+   ]
+  ],
+  "neg": [
+   "battery_energy"
+  ]
+ },
+ {
+  "id": "t30",
+  "type": "negation",
+  "text": "VR이나 게임 말고 햅틱에 관심 있어요",
+  "intent": "search",
+  "pos": [
+   [
+    "haptics"
+   ]
+  ],
+  "neg": [
+   "vr_ar_xr"
+  ]
+ },
+ {
+  "id": "t31",
+  "type": "soft_negation",
+  "text": "AI도 좋지만 하드웨어가 더 끌려요",
+  "intent": "search",
+  "pos": [
+   [
+    "computer_architecture",
+    "circuit_design"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t32",
+  "type": "soft_negation",
+  "text": "로봇보다는 신호처리 쪽이 맞는 것 같아요",
+  "intent": "search",
+  "pos": [
+   [
+    "signal_processing"
+   ]
+  ],
+  "neg": [
+   "robotics"
+  ]
+ },
+ {
+  "id": "t33",
+  "type": "soft_negation",
+  "text": "비전은 괜찮은데 언어모델이 더 재밌어 보여요",
+  "intent": "search",
+  "pos": [
+   [
+    "nlp"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t34",
+  "type": "soft_negation",
+  "text": "무선통신은 이미 배워봤고 이번엔 보안을 해보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "system_security"
+   ]
+  ],
+  "neg": [
+   "wireless_communications"
+  ]
+ },
+ {
+  "id": "t35",
+  "type": "soft_negation",
+  "text": "소프트웨어보다는 칩 설계 쪽이 좋아요",
+  "intent": "search",
+  "pos": [
+   [
+    "circuit_design",
+    "semiconductor_devices"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t36",
+  "type": "soft_negation",
+  "text": "그래픽스도 재밌지만 그래도 컴퓨터비전을 먼저 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "computer_vision"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t37",
+  "type": "soft_negation",
+  "text": "네트워크 쪽은 그나마 괜찮고 운영체제가 더 끌려요",
+  "intent": "search",
+  "pos": [
+   [
+    "operating_systems_storage"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t38",
+  "type": "soft_negation",
+  "text": "데이터베이스보다는 기계학습이 더 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "machine_learning"
+   ]
+  ],
+  "neg": [
+   "data_mining_databases"
+  ]
+ },
+ {
+  "id": "t39",
+  "type": "compound",
+  "text": "컴퓨터 구조와 AI 가속기를 공부하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "computer_architecture",
+    "efficient_ai"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t40",
+  "type": "compound",
+  "text": "자연어 처리와 대규모 언어 모델이 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "nlp"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t41",
+  "type": "compound",
+  "text": "그래프 신경망으로 분자 구조 예측을 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "graph_learning",
+    "bioinformatics_molecules"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t42",
+  "type": "compound",
+  "text": "강화 학습으로 로봇 팔을 제어하는 연구",
+  "intent": "search",
+  "pos": [
+   [
+    "reinforcement_learning",
+    "robotics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t43",
+  "type": "compound",
+  "text": "인간 컴퓨터 상호작용과 사용자 경험 연구",
+  "intent": "search",
+  "pos": [
+   [
+    "hci"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t44",
+  "type": "compound",
+  "text": "소프트웨어 보안과 취약점 분석이 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "system_security"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t45",
+  "type": "compound",
+  "text": "연합 학습과 개인정보 보호에 관심 있어요",
+  "intent": "search",
+  "pos": [
+   [
+    "federated_distributed_learning",
+    "cryptography_privacy"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t46",
+  "type": "compound",
+  "text": "시계열 예측이랑 이상 탐지를 해보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "time_series",
+    "industrial_ai"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t47",
+  "type": "multi",
+  "text": "로봇이랑 컴퓨터 비전을 합친 연구를 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "robotics"
+   ],
+   [
+    "computer_vision"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t48",
+  "type": "multi",
+  "text": "반도체 소자와 AI 가속기를 같이 보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "semiconductor_devices"
+   ],
+   [
+    "computer_architecture",
+    "efficient_ai"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t49",
+  "type": "multi",
+  "text": "무선통신과 신호처리 둘 다 관심 있어요",
+  "intent": "search",
+  "pos": [
+   [
+    "wireless_communications"
+   ],
+   [
+    "signal_processing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t50",
+  "type": "multi",
+  "text": "음성이랑 햅틱을 같이 다루는 기술",
+  "intent": "search",
+  "pos": [
+   [
+    "speech_processing"
+   ],
+   [
+    "haptics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t51",
+  "type": "multi",
+  "text": "클라우드 분산 시스템과 보안이 궁금합니다",
+  "intent": "search",
+  "pos": [
+   [
+    "distributed_systems_blockchain"
+   ],
+   [
+    "system_security"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t52",
+  "type": "multi",
+  "text": "의료 영상이랑 뇌과학에 관심 있어요",
+  "intent": "search",
+  "pos": [
+   [
+    "biomedical_imaging"
+   ],
+   [
+    "brain_neuroscience"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t53",
+  "type": "multi",
+  "text": "추천시스템과 자연어처리를 같이 해보고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "recommender_systems"
+   ],
+   [
+    "nlp"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t54",
+  "type": "multi",
+  "text": "웨어러블 기기와 인공지능을 결합하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "digital_health_wearables",
+    "soft_electronics"
+   ],
+   [
+    "machine_learning"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t55",
+  "type": "course",
+  "text": "컴퓨터구조 수업이 정말 재밌었어요",
+  "intent": "search",
+  "pos": [
+   [
+    "computer_architecture"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t56",
+  "type": "course",
+  "text": "알고리즘 수업 듣고 이론에 빠졌어요",
+  "intent": "search",
+  "pos": [
+   [
+    "algorithms_theory"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t57",
+  "type": "course",
+  "text": "신호 및 시스템을 들었는데 이쪽 연구가 궁금해졌어요",
+  "intent": "search",
+  "pos": [
+   [
+    "signal_processing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t58",
+  "type": "course",
+  "text": "운영체제 수업에서 커널 만드는 게 제일 좋았어요",
+  "intent": "search",
+  "pos": [
+   [
+    "operating_systems_storage"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t59",
+  "type": "course",
+  "text": "전자기학 수업이 좋았어요",
+  "intent": "search",
+  "pos": [
+   [
+    "electromagnetics",
+    "rf_microwave"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t60",
+  "type": "course",
+  "text": "데이터베이스 수업이 재밌었고 더 알고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "data_mining_databases"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t61",
+  "type": "purpose",
+  "text": "치매를 조기에 진단하는 기술을 연구하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "biomedical_imaging",
+    "brain_neuroscience"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t62",
+  "type": "purpose",
+  "text": "자율주행차 사고를 줄이는 기술이 궁금해요",
+  "intent": "search",
+  "pos": [
+   [
+    "slam_navigation",
+    "robotics"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t63",
+  "type": "purpose",
+  "text": "스마트폰으로 병원 가지 않고 건강을 관리하게 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "digital_health_wearables",
+    "ubiquitous_mobile_computing"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t64",
+  "type": "purpose",
+  "text": "통신 속도를 지금보다 훨씬 빠르게 만들고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "wireless_communications",
+    "networking_iot"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t65",
+  "type": "purpose",
+  "text": "AI가 학생 공부를 도와주는 서비스를 만들고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "education_technology"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t66",
+  "type": "purpose",
+  "text": "시각장애인이 글자를 손으로 느끼게 하고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "haptics",
+    "accessibility"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t67",
+  "type": "purpose",
+  "text": "전기차 충전 시간을 줄이고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "power_electronics",
+    "battery_energy"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t68",
+  "type": "purpose",
+  "text": "개인정보 유출 사고를 막고 싶어요",
+  "intent": "search",
+  "pos": [
+   [
+    "cryptography_privacy",
+    "system_security"
+   ]
+  ],
+  "neg": []
+ },
+ {
+  "id": "t69",
+  "type": "too_broad",
+  "text": "컴퓨터가 좋아요",
+  "intent": "too_broad",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t70",
+  "type": "too_broad",
+  "text": "AI",
+  "intent": "too_broad",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t71",
+  "type": "too_broad",
+  "text": "전자공학",
+  "intent": "too_broad",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t72",
+  "type": "too_broad",
+  "text": "그냥 공학 전반이요",
+  "intent": "too_broad",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t73",
+  "type": "too_broad",
+  "text": "뭔가 재밌는 걸 하고 싶어요",
+  "intent": "too_broad",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t74",
+  "type": "too_broad",
+  "text": "코딩이요",
+  "intent": "too_broad",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t75",
+  "type": "career",
+  "text": "대학원을 가야 할지 모르겠어요",
+  "intent": "career",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t76",
+  "type": "career",
+  "text": "연구실 인턴은 언제 신청하나요?",
+  "intent": "career",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t77",
+  "type": "career",
+  "text": "교수님께 메일을 어떻게 써야 하나요",
+  "intent": "career",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t78",
+  "type": "career",
+  "text": "석사랑 박사 중에 뭐가 나을까요",
+  "intent": "career",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t79",
+  "type": "career",
+  "text": "학점이 낮은데 연구실에 들어갈 수 있을까요",
+  "intent": "career",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t80",
+  "type": "career",
+  "text": "장학금 받을 수 있는 연구실이 있나요",
+  "intent": "career",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t81",
+  "type": "out_of_scope",
+  "text": "유기화학 합성 연구실을 찾고 있어요",
+  "intent": "out_of_scope",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t82",
+  "type": "out_of_scope",
+  "text": "경제학이랑 데이터를 합친 연구",
+  "intent": "out_of_scope",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t83",
+  "type": "out_of_scope",
+  "text": "천체물리랑 우주 관측이 궁금해요",
+  "intent": "out_of_scope",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t84",
+  "type": "out_of_scope",
+  "text": "임상 진료랑 환자 치료 연구를 하고 싶어요",
+  "intent": "out_of_scope",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t85",
+  "type": "out_of_scope",
+  "text": "건축이나 토목 구조물 설계",
+  "intent": "out_of_scope",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t86",
+  "type": "out_of_scope",
+  "text": "고양이 사료를 개발하는 연구",
+  "intent": "out_of_scope",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t87",
+  "type": "nonsense",
+  "text": "ㅇㅇ",
+  "intent": "nonsense",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t88",
+  "type": "nonsense",
+  "text": "ㅋㅋㅋㅋ",
+  "intent": "nonsense",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t89",
+  "type": "nonsense",
+  "text": "asdf",
+  "intent": "nonsense",
+  "pos": [],
+  "neg": []
+ },
+ {
+  "id": "t90",
+  "type": "nonsense",
+  "text": "...",
+  "intent": "nonsense",
+  "pos": [],
+  "neg": []
+ }
+]

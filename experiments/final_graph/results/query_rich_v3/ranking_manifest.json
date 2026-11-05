@@ -1,0 +1,15 @@
+{
+  "status": "unjudged_query_rankings",
+  "queries": 60,
+  "labs": 136,
+  "query_targets_sha256": "485d5c7406d0aeceedbf54267a318815302956fdcbe968e66237859a0bab4d3e",
+  "parser_diagnostic_sha256": "6ab235d33d8623cf0d4cc33470b695b042b561a485d43b1b118906f9058f633e",
+  "relation_packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "final_labs_sha256": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+  "interpreter_sha256": "6f58e3edc44ed104a766d41361a5e837a9c311486ffc0a43234fbc3c962ce3b1",
+  "vectorizer": "TfidfVectorizer(char, 2-5, min_df=1, sublinear_tf=True)",
+  "features": 168565,
+  "q1_abstention_count": 0,
+  "rankings_sha256": "d43dea3807513adbfa8ca07a843a54afdf578158d518935c950b31b6dab2e7e3",
+  "script_sha256": "a12797c4d04adc7a87ce0710e825db6ba9ae51f51c452422fc922a9693a2fbb1"
+}

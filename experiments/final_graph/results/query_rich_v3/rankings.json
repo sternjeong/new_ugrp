@@ -1,0 +1,3244 @@
+[
+  {
+    "query_id": "q01",
+    "group": "positive_only",
+    "parsed_likes": [
+      "전고체 배터리 소재를 연구"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.033516
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.029412
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.02464
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.024362
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.022829
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.038132
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.02403
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.02303
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.01904
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.018266
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "group": "positive_only",
+    "parsed_likes": [
+      "광자를 이용한 양자통신"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.0593
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.056725
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.055504
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.040484
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.040258
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.049087
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.046956
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.045953
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.044183
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.034389
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "group": "positive_only",
+    "parsed_likes": [
+      "로봇 동작 학습을 다루는 연구실"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.063887
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.057381
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.041825
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.041273
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.032351
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.058048
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.033412
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.026846
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.025473
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.024794
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "group": "positive_only",
+    "parsed_likes": [
+      "대형 언어모델의 효율을 높이는 연구"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.047374
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.041882
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.034697
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.033316
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.032343
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.032805
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.025126
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.023379
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.023221
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.022393
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "group": "positive_only",
+    "parsed_likes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.060725
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.047246
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.043051
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.041182
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.041166
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.033768
+      },
+      {
+        "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac",
+        "score": 0.021623
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.011772
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.0117
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.007812
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "group": "positive_only",
+    "parsed_likes": [
+      "기억을 담당하는 신경회로"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03116
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.030711
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.029377
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.028287
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.027447
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03145
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.029022
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.027781
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.027762
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.022901
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "group": "positive_only",
+    "parsed_likes": [
+      "무선 의미통신 연구"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.054053
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.04354
+      },
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.040175
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.038068
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.034738
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.02702
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.016611
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.01589
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.012919
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.012222
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "group": "positive_only",
+    "parsed_likes": [
+      "홀로그래픽 현미경으로 세포를 관찰하는 연구"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.053274
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.050354
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.039934
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.03667
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.035112
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.062226
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.058136
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.041146
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.038222
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.036117
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "group": "positive_only",
+    "parsed_likes": [
+      "메모리 중심 컴퓨터 구조"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.045955
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.037336
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.034478
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.032319
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.027105
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.030287
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.02731
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023492
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.018325
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.016213
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "group": "positive_only",
+    "parsed_likes": [
+      "햅틱 상호작용 기술"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.091272
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.070524
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.062124
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.055355
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.053617
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.086471
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.08255
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.05971
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.057118
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.049516
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "group": "positive_only",
+    "parsed_likes": [
+      "레이더 신호처리",
+      "영상화"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.052354
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.030733
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.023065
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.019904
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.019214
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.084192
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.026039
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.009753
+      },
+      {
+        "lab_id": "lab:7c0d812e4d700c7e56af778d3a824e29",
+        "score": 0.008403
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.008292
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "group": "positive_only",
+    "parsed_likes": [
+      "장내 미생물",
+      "면역의 관계"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.105659
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03922
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.027008
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.021229
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.019632
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.123522
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.033576
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.024671
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.017838
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.011364
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "group": "positive_only",
+    "parsed_likes": [
+      "리튬 금속 전지의 고체 전해질 연구실을 찾습니다"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.041899
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.040832
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.031413
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.031116
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.028423
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.035047
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.0348
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.026809
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.025752
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.025704
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "group": "positive_only",
+    "parsed_likes": [
+      "얽힌 광자로 정보를 보내는 연구"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.038737
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.037682
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.035226
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.027484
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.025625
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.037389
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.028903
+      },
+      {
+        "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+        "score": 0.027412
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023102
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.020442
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "group": "positive_only",
+    "parsed_likes": [
+      "로봇이 사람의 행동을 학습하는 문제"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.078951
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.058612
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.052415
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.050139
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.046433
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.078785
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.026532
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.022043
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.021086
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.020359
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "group": "positive_only",
+    "parsed_likes": [
+      "언어모델 경량화 방법"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.050025
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.044451
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.043571
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.035981
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.026528
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.031007
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.02691
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023758
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.023684
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.014988
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "group": "positive_only",
+    "parsed_likes": [
+      "실리콘 기반 센서 소자"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.037197
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.037047
+      },
+      {
+        "lab_id": "lab:d06da72ee798f4ba4518f6fec27c1924",
+        "score": 0.025922
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.024329
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.021512
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.047369
+      },
+      {
+        "lab_id": "lab:d06da72ee798f4ba4518f6fec27c1924",
+        "score": 0.037553
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.027183
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.021358
+      },
+      {
+        "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac",
+        "score": 0.017831
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "group": "positive_only",
+    "parsed_likes": [
+      "통신 채널에 맞춰 정보를 보내는 방법"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.049769
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.046406
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.040197
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.038588
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.036563
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.0429
+      },
+      {
+        "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+        "score": 0.026374
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.025122
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.017929
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.015152
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "group": "positive_only",
+    "parsed_likes": [
+      "촉각 피드백을 만드는 연구"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.04691
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.046317
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.039802
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.039176
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.038663
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.045112
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.024066
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.019594
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.018608
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.015347
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "group": "positive_only",
+    "parsed_likes": [
+      "SAR 레이더 영상 처리"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.071728
+      },
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.058833
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.05484
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.052559
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.052258
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.033604
+      },
+      {
+        "lab_id": "lab:820d6eb33837425aab1270d236524366",
+        "score": 0.031012
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.024315
+      },
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.020076
+      },
+      {
+        "lab_id": "lab:2cd5dbaa3e7b7003ea45552abfd54cc6",
+        "score": 0.019893
+      }
+    ]
+  },
+  {
+    "query_id": "q21",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "로봇 동작 학습"
+    ],
+    "parsed_dislikes": [
+      "전고체 배터리"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.052151
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.040875
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.035064
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.034832
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.026311
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03539
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.024775
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.012167
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.007526
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.004834
+      }
+    ]
+  },
+  {
+    "query_id": "q22",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "로봇 동작 학습"
+    ],
+    "parsed_dislikes": [
+      "전고체 배터리"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.034666
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.029341
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.024893
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.021887
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.020657
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03539
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.024775
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.012167
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.007526
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.004834
+      }
+    ]
+  },
+  {
+    "query_id": "q23",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "전고체 배터리"
+    ],
+    "parsed_dislikes": [
+      "로봇 동작 학습"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.051618
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.04928
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.031393
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.027636
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.026771
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.035052
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.008609
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.006234
+      },
+      {
+        "lab_id": "lab:19b352c9ef06346d69d36e9456cdff0d",
+        "score": 0.005091
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.00477
+      }
+    ]
+  },
+  {
+    "query_id": "q24",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "전고체 배터리"
+    ],
+    "parsed_dislikes": [
+      "로봇 동작 학습"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.031968
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.026395
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.024739
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.022089
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.022032
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.035052
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.008609
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.006234
+      },
+      {
+        "lab_id": "lab:19b352c9ef06346d69d36e9456cdff0d",
+        "score": 0.005091
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.00477
+      }
+    ]
+  },
+  {
+    "query_id": "q25",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "장내 미생물"
+    ],
+    "parsed_dislikes": [
+      "광자 양자통신"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.096994
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.054695
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.03542
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.033882
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.033494
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.112967
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.0191
+      },
+      {
+        "lab_id": "lab:70abd7783b52e6b717497551092700f7",
+        "score": 0.003882
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.003362
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.003321
+      }
+    ]
+  },
+  {
+    "query_id": "q26",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "장내 미생물"
+    ],
+    "parsed_dislikes": [
+      "광자 양자통신"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.1202
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.037
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.035393
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.032891
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.031852
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.112967
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.0191
+      },
+      {
+        "lab_id": "lab:70abd7783b52e6b717497551092700f7",
+        "score": 0.003882
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.003362
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.003321
+      }
+    ]
+  },
+  {
+    "query_id": "q27",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "광자 양자통신"
+    ],
+    "parsed_dislikes": [
+      "장내 미생물"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.082779
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.055511
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.040296
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.038547
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.034637
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.061191
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.058535
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.042918
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.016654
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.00523
+      }
+    ]
+  },
+  {
+    "query_id": "q28",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "광자 양자통신"
+    ],
+    "parsed_dislikes": [
+      "장내 미생물"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.095222
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.042378
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.040538
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.037125
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.033745
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.061191
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.058535
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.042918
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.016654
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.00523
+      }
+    ]
+  },
+  {
+    "query_id": "q29",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "parsed_dislikes": [
+      "대형 언어모델 최적화"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.047502
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.046134
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.043674
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.031735
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.024777
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.029688
+      },
+      {
+        "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac",
+        "score": 0.021623
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.011772
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.0117
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.006391
+      }
+    ]
+  },
+  {
+    "query_id": "q30",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "parsed_dislikes": [
+      "대형 언어모델 최적화"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.04095
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.03334
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.022703
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.02063
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.019927
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.029688
+      },
+      {
+        "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac",
+        "score": 0.021623
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.011772
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.0117
+      },
+      {
+        "lab_id": "lab:7831e17ceaa2e98fd6f9e8b10f512140",
+        "score": 0.006391
+      }
+    ]
+  },
+  {
+    "query_id": "q31",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "대형 언어모델 최적화"
+    ],
+    "parsed_dislikes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.05149
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.050443
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.032735
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.031529
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.029868
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.030169
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.022566
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.018249
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.012274
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.006589
+      }
+    ]
+  },
+  {
+    "query_id": "q32",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "대형 언어모델 최적화"
+    ],
+    "parsed_dislikes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.034383
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.026255
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.024672
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.023919
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023632
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.030169
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.022566
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.018249
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.012274
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.006589
+      }
+    ]
+  },
+  {
+    "query_id": "q33",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "메모리 중심 컴퓨터 구조"
+    ],
+    "parsed_dislikes": [
+      "작업 기억 신경회로"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.051382
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.048951
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.043104
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.039882
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.033701
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.027409
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.024802
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.01564
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.014517
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.012609
+      }
+    ]
+  },
+  {
+    "query_id": "q34",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "메모리 중심 컴퓨터 구조"
+    ],
+    "parsed_dislikes": [
+      "작업 기억 신경회로"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.041062
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.040524
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.035685
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.026441
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.026192
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.027409
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.024802
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.01564
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.014517
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.012609
+      }
+    ]
+  },
+  {
+    "query_id": "q35",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "작업 기억 신경회로"
+    ],
+    "parsed_dislikes": [
+      "메모리 중심 컴퓨터 구조"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.056086
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.055897
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.036662
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.035974
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.033586
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb",
+        "score": 0.020362
+      },
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.013677
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.00682
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.005729
+      },
+      {
+        "lab_id": "lab:7c0d812e4d700c7e56af778d3a824e29",
+        "score": 0.004994
+      }
+    ]
+  },
+  {
+    "query_id": "q36",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "작업 기억 신경회로"
+    ],
+    "parsed_dislikes": [
+      "메모리 중심 컴퓨터 구조"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.039786
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.037375
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.034751
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.031568
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.02908
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:537bec3b2e35d774cf892c88ca3255cb",
+        "score": 0.020362
+      },
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.013677
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.00682
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.005729
+      },
+      {
+        "lab_id": "lab:7c0d812e4d700c7e56af778d3a824e29",
+        "score": 0.004994
+      }
+    ]
+  },
+  {
+    "query_id": "q37",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "햅틱 상호작용"
+    ],
+    "parsed_dislikes": [
+      "무선 의미통신"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.069208
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.064971
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.06215
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.060463
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.053607
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.085901
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.078275
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.066819
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.063918
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.056722
+      }
+    ]
+  },
+  {
+    "query_id": "q38",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "햅틱 상호작용"
+    ],
+    "parsed_dislikes": [
+      "무선 의미통신"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.06229
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.047188
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.045139
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.042668
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.035238
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.085901
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.078275
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.066819
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.063918
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.056722
+      }
+    ]
+  },
+  {
+    "query_id": "q39",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "무선 의미통신"
+    ],
+    "parsed_dislikes": [
+      "햅틱 상호작용"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.062303
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.055238
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.05522
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.047331
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.044984
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023068
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.007364
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.004593
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.004473
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.004154
+      }
+    ]
+  },
+  {
+    "query_id": "q40",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "무선 의미통신"
+    ],
+    "parsed_dislikes": [
+      "햅틱 상호작용"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.059595
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.052963
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.047944
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.045863
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.037196
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023068
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.007364
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.004593
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.004473
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.004154
+      }
+    ]
+  },
+  {
+    "query_id": "q41",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "레이더 신호처리"
+    ],
+    "parsed_dislikes": [
+      "홀로그래픽 현미경"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.055867
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.050812
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.045584
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.027367
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.020316
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.073389
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.010938
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.009801
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.008253
+      },
+      {
+        "lab_id": "lab:48ab3d77da069de620678d533d334880",
+        "score": 0.00565
+      }
+    ]
+  },
+  {
+    "query_id": "q42",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "레이더 신호처리"
+    ],
+    "parsed_dislikes": [
+      "홀로그래픽 현미경"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.052875
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.036834
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.029401
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.028314
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.027965
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.073389
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.010938
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.009801
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.008253
+      },
+      {
+        "lab_id": "lab:48ab3d77da069de620678d533d334880",
+        "score": 0.00565
+      }
+    ]
+  },
+  {
+    "query_id": "q43",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "홀로그래픽 현미경"
+    ],
+    "parsed_dislikes": [
+      "레이더 신호처리"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.060264
+      },
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.057172
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.036553
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.032934
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.023925
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.020289
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.016101
+      },
+      {
+        "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+        "score": 0.011659
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.011265
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.011105
+      }
+    ]
+  },
+  {
+    "query_id": "q44",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "홀로그래픽 현미경"
+    ],
+    "parsed_dislikes": [
+      "레이더 신호처리"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.071835
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.035968
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.027954
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.024229
+      },
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.022054
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:50705cf571ba48309476bb553c2356b8",
+        "score": 0.020289
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.016101
+      },
+      {
+        "lab_id": "lab:fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+        "score": 0.011659
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.011265
+      },
+      {
+        "lab_id": "lab:aebe9a6ddab8c971ffecbd53eb58270e",
+        "score": 0.011105
+      }
+    ]
+  },
+  {
+    "query_id": "q45",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "광자 양자통신"
+    ],
+    "parsed_dislikes": [
+      "전고체 배터리"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.058033
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.042177
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.040346
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.036425
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.034343
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.061191
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.058535
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.040532
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.016592
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.006588
+      }
+    ]
+  },
+  {
+    "query_id": "q46",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "광자 양자통신"
+    ],
+    "parsed_dislikes": [
+      "전고체 배터리"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.047572
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.045507
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.043277
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.038535
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.028792
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.061191
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.058535
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.040532
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.016592
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.006588
+      }
+    ]
+  },
+  {
+    "query_id": "q47",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "로봇 동작 학습"
+    ],
+    "parsed_dislikes": [
+      "장내 미생물"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.080826
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.050069
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.036671
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.035136
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.032674
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03539
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.024775
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.011041
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.010304
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.007429
+      }
+    ]
+  },
+  {
+    "query_id": "q48",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "로봇 동작 학습"
+    ],
+    "parsed_dislikes": [
+      "장내 미생물"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.084356
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.033226
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.026127
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.023384
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.020325
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.03539
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.024775
+      },
+      {
+        "lab_id": "lab:b59a79cbe921942c5d3909da04708904",
+        "score": 0.011041
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.010304
+      },
+      {
+        "lab_id": "lab:d12e80aff84ef9dc0c0938fdbb05d8f7",
+        "score": 0.007429
+      }
+    ]
+  },
+  {
+    "query_id": "q49",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "무선 의미통신"
+    ],
+    "parsed_dislikes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.060729
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.037998
+      },
+      {
+        "lab_id": "lab:255034de0b267f94daea8fa61dbe1bef",
+        "score": 0.033487
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.030418
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.028761
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.022077
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.007012
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.005512
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.003207
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.002397
+      }
+    ]
+  },
+  {
+    "query_id": "q50",
+    "group": "explicit_negative",
+    "parsed_likes": [
+      "무선 의미통신"
+    ],
+    "parsed_dislikes": [
+      "반도체 트랜지스터 센서"
+    ],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.038613
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.026141
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.025791
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.023914
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.023643
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.022077
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.007012
+      },
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.005512
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.003207
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.002397
+      }
+    ]
+  },
+  {
+    "query_id": "q51",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "전고체 배터리도 흥미롭지만 반도체 트랜지스터 센서"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.035478
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.024639
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.021852
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.019376
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.018566
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.037614
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.021856
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.020543
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.017911
+      },
+      {
+        "lab_id": "lab:00a146f5c5267ed6caeb590edaa47fac",
+        "score": 0.014432
+      }
+    ]
+  },
+  {
+    "query_id": "q52",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "광자 양자통신은 해봤고 로봇 동작 학습도 궁금해요. 어느 쪽이 맞을까"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.038816
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.037125
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.034972
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.031862
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.027301
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.041965
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.040136
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.034447
+      },
+      {
+        "lab_id": "lab:17010ed4b4f3cc2bbec3c6d2c5252945",
+        "score": 0.029516
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.027142
+      }
+    ]
+  },
+  {
+    "query_id": "q53",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "대형 언어모델 최적화도 흥미롭지만 작업 기억 신경회로"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.029238
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.026985
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.022929
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.019692
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.018957
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.027771
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.026765
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.022921
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.020078
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.017347
+      }
+    ]
+  },
+  {
+    "query_id": "q54",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "무선 의미통신은 해봤고 레이더 신호처리도 궁금해요. 어느 쪽이 맞을까"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.055237
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.029305
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.019293
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.017158
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.016313
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:e31d4bcbaa05eebde016e26cd1b7ea17",
+        "score": 0.059565
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.021124
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.020805
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.018503
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.017591
+      }
+    ]
+  },
+  {
+    "query_id": "q55",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "햅틱 상호작용도 흥미롭지만 홀로그래픽 현미경"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.0493
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.046074
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.040195
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.038449
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.037389
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.050926
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.046405
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.042023
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.040581
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.040199
+      }
+    ]
+  },
+  {
+    "query_id": "q56",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "메모리 중심 컴퓨터 구조는 해봤고 대형 언어모델 최적화도 궁금해요. 어느 쪽이 맞을까"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.047829
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.033083
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.026664
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.026277
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.026231
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.04134
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.03534
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.028482
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.028069
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.02802
+      }
+    ]
+  },
+  {
+    "query_id": "q57",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "장내 미생물도 흥미롭지만 전고체 배터리"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.073495
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.025108
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.018496
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.017125
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.016453
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.078137
+      },
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.022983
+      },
+      {
+        "lab_id": "lab:6adff5a3efe38e59669333a47d29f2b6",
+        "score": 0.02018
+      },
+      {
+        "lab_id": "lab:b30c08316784cceb807e5a7670575269",
+        "score": 0.016117
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.013966
+      }
+    ]
+  },
+  {
+    "query_id": "q58",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "로봇 동작 학습은 해봤고 햅틱 상호작용도 궁금해요. 어느 쪽이 맞을까"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.052173
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.051343
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.047926
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.04738
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.045838
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.056664
+      },
+      {
+        "lab_id": "lab:3b3c5fe1e3c1a3aba26ffd66eb364790",
+        "score": 0.055762
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.05205
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.051458
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.049783
+      }
+    ]
+  },
+  {
+    "query_id": "q59",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "반도체 트랜지스터 센서도 흥미롭지만 광자 양자통신"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.044389
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.034147
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.032665
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.02895
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.021226
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:2ac0c0282dded9689b48c236808ba193",
+        "score": 0.043332
+      },
+      {
+        "lab_id": "lab:bbb84aca00701a4b4d29c69ae6ff2a8a",
+        "score": 0.033773
+      },
+      {
+        "lab_id": "lab:801d8483ec7fd757cf6199bf99e1c5aa",
+        "score": 0.032306
+      },
+      {
+        "lab_id": "lab:c174028db6bfa33551de1ecbf77feb6e",
+        "score": 0.023214
+      },
+      {
+        "lab_id": "lab:81e7d48be2e4126739d27db2f002e383",
+        "score": 0.020539
+      }
+    ]
+  },
+  {
+    "query_id": "q60",
+    "group": "ambiguous",
+    "parsed_likes": [
+      "작업 기억 신경회로는 해봤고 장내 미생물도 궁금해요. 어느 쪽이 맞을까"
+    ],
+    "parsed_dislikes": [],
+    "q1_abstain_reason": null,
+    "q0": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.104428
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.023103
+      },
+      {
+        "lab_id": "lab:3c97d90740df38121b37c4fb53a24966",
+        "score": 0.020917
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.01763
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.016396
+      }
+    ],
+    "q1": [
+      {
+        "lab_id": "lab:fdf7c49c167de224cc78528fcfdcfbe8",
+        "score": 0.110587
+      },
+      {
+        "lab_id": "lab:5f198105100143316777af8a3c5e6d4b",
+        "score": 0.024465
+      },
+      {
+        "lab_id": "lab:7bdd625d5a73bc4567d09c77c088a478",
+        "score": 0.01867
+      },
+      {
+        "lab_id": "lab:f037b4e02b5c35c9f16c8d2732c074b4",
+        "score": 0.017363
+      },
+      {
+        "lab_id": "lab:1ae444a2f44d62ba86384b57194c85ef",
+        "score": 0.016614
+      }
+    ]
+  }
+]

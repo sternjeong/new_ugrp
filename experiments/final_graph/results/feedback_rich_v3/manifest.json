@@ -1,0 +1,10 @@
+{
+  "new_pairs": 124,
+  "labs": 136,
+  "packet_sha256": "f132864b192852aee8f2c2eec67f5900e4f0976ad7673530b93d4e37f5c110e9",
+  "exposure_plan_sha256": "381038de91fe29e03f1f3232a4a747e53b1765ff0ab3b470acaabe3eb2f5e19d",
+  "old_packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3",
+  "bge_packet_sha256": "11e725f278ef46a1118ab237d05cd034d265470a0c91722a64c517f4b0d62b68",
+  "ranking_sha256": "7daf189bf2808844d5cfe7780ab8d1550e3cb23de790cee11156d21841da05b4",
+  "script_sha256": "6d841816e273552f62ad61e5aee71ce5e65efbb52ffd7b64ff4423f7f6b499e7"
+}

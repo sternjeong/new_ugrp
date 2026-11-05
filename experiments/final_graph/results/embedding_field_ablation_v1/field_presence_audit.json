@@ -1,0 +1,43 @@
+{
+  "meaning": "regex marker prevalence, not verified irrelevant-content fraction or embedding effect",
+  "source_sha256": {
+    "frame": "cdc166c07224471ba92a283e69896e14ee498ed73ce97d5e4593676dbeffcfa8",
+    "courses": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "labs": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2",
+    "script": "f67e703c6dab5f528b55dc4b27f6ed4536bf5cff768e48161576ffc7abb045e7"
+  },
+  "rows": {
+    "labs": 180,
+    "courses": 1316
+  },
+  "nonempty_fields": {
+    "labs": {
+      "research_intro": 180,
+      "admission": 39,
+      "lab_mates": 6,
+      "centers": 4,
+      "keywords": 180,
+      "representative_papers": 180
+    },
+    "courses": {
+      "description": 1281,
+      "Lecture progress plan": 1109,
+      "grading": 1096,
+      "course_operation": 880,
+      "other_info": 471,
+      "prerequisites": 1015,
+      "textbooks": 540,
+      "references": 890
+    }
+  },
+  "research_intro_chars": {
+    "median": 1966.0,
+    "p95": 12509
+  },
+  "research_intro_marker_rows": {
+    "office_location": 16,
+    "people": 77,
+    "news": 47,
+    "contact": 72
+  }
+}

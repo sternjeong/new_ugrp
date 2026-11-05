@@ -1,0 +1,8 @@
+{
+  "status": "prelabel_context_audit",
+  "cards": 27,
+  "all_lab_context_matches_holdout": true,
+  "all_course_context_matches_holdout": true,
+  "packet_sha256": "2247aa07a6e184097927046f986e52a7189295c4ad5411b63b657b03f7d486af",
+  "holdout_packet_sha256": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3"
+}

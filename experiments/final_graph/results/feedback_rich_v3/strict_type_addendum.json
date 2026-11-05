@@ -1,0 +1,35 @@
+{
+  "status": "postanalysis_strict_type_audit",
+  "files": {
+    "holdout_relevance_v1/scores_a.jsonl": {
+      "rows": 910,
+      "invalid_strict_types": 0,
+      "sha256": "8110fc7b82aacfebda4f62a5f232aa6ec05a8ba0379758d1200f532266ba97cc"
+    },
+    "holdout_relevance_v1/scores_b.jsonl": {
+      "rows": 910,
+      "invalid_strict_types": 0,
+      "sha256": "7435131b51dcdd1e0e83b23cdae528f31c6557fa10f47009019b9fc22c6eda8f"
+    },
+    "bge_top1_relevance_v1/scores_a.jsonl": {
+      "rows": 144,
+      "invalid_strict_types": 0,
+      "sha256": "f1ffdee0eeb942c26bd2bef029f66f8e86e5c09dd9719a4ebbde0160b35e6176"
+    },
+    "bge_top1_relevance_v1/scores_b.jsonl": {
+      "rows": 144,
+      "invalid_strict_types": 0,
+      "sha256": "df55825fd8f9215273aa98e5a9ddd17766de1da95a55e9e52e39c2e15058633a"
+    },
+    "feedback_rich_v3/scores_a.jsonl": {
+      "rows": 124,
+      "invalid_strict_types": 0,
+      "sha256": "bcf11fb7bbe987c1eabe8cfa43caca6a906a8d0f3b3fb1c1796e0f469099a846"
+    },
+    "feedback_rich_v3/scores_b.jsonl": {
+      "rows": 124,
+      "invalid_strict_types": 0,
+      "sha256": "8a3dded47966484e7bad941b459eca08591bbcdc1d703272bc335b99dc42808b"
+    }
+  }
+}

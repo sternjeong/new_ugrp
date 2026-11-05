@@ -1,0 +1,40 @@
+{
+  "schema_version": "staging-v2",
+  "sources": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2"
+  },
+  "counts": {
+    "courses": 1316,
+    "offerings": 1316,
+    "labs": 365,
+    "advisors": 365,
+    "memberships": 365,
+    "papers": 37323,
+    "paper_lab_evidence": 37417,
+    "evidence": 48645
+  },
+  "paper_identity_basis": {
+    "source_occurrence": 34968,
+    "doi": 2351,
+    "openalex": 4
+  },
+  "limits": [
+    "labs are provisional advisor-level records",
+    "title-based paper duplicates are not merged",
+    "no semantic graph assertions generated",
+    "value_state and typed concept assertions are not yet emitted"
+  ],
+  "validation": {
+    "claim_ids_unique": true,
+    "evidence_ids_unique": true,
+    "all_evidence_owner_fks_resolve": true,
+    "all_evidence_spans_equal_source_text": true,
+    "validated_evidence_count": 48645,
+    "validated_claim_count": 37417,
+    "all_claim_ids_match_hash_rule": true,
+    "all_evidence_ids_match_hash_rule": true
+  },
+  "normalize_script_sha256": "b1628ecea22f2416bc8b2c5b66f2a69354857b6525e848ce48d63b7b557e1a67",
+  "validate_script_sha256": "059ffdd39e47776f685c6d98ee6b534015f3dc33871580f822eb969a7f2fc59a"
+}

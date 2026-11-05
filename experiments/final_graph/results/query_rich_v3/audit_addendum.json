@@ -1,0 +1,14 @@
+{
+  "status": "postanalysis_reproducible_target_presence_and_blinding_addendum",
+  "verified_topics": 12,
+  "total_topics": 12,
+  "verified_negative_queries": 30,
+  "negative_queries": 30,
+  "judge_prior_exposure": "Both Luna judges opened target file during prereg/design review before pair labeling; pair packet hid method/rank, but target-blind claim is false.",
+  "pair_packet_method_rank_blind": true,
+  "limitation": "Relevance labels may be influenced by remembered target mapping; treat results as exploratory conditional challenge-set diagnostics.",
+  "source_sha256": {
+    "targets": "485d5c7406d0aeceedbf54267a318815302956fdcbe968e66237859a0bab4d3e",
+    "relation_packet": "4c291b72c90ee2bf64b8fdad9389199de304be3b7597f7d1a101d59ede02b5b3"
+  }
+}

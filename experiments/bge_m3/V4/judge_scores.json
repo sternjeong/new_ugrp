@@ -1,0 +1,294 @@
+{
+ "lab_e5f20d526887#N00": {
+  "score": 1,
+  "reason": "행렬 계산 알고리즘으로 그래픽스·비전 연구의 수학 기반이다."
+ },
+ "lab_e5f20d526887#N01": {
+  "score": 0,
+  "reason": "이산수학은 주제와 직접 관련이 없다."
+ },
+ "lab_e5f20d526887#N02": {
+  "score": 0,
+  "reason": "수학 특강으로 내용이 불분명하다."
+ },
+ "lab_51c3f65f66e9#N00": {
+  "score": 1,
+  "reason": "Verilog 디지털 설계로 FPGA 구현과 부분 관련된다."
+ },
+ "lab_51c3f65f66e9#N01": {
+  "score": 1,
+  "reason": "HDL·FPGA 시스템 설계로 FPGA 기반 제어 구현과 부분 관련된다."
+ },
+ "lab_51c3f65f66e9#N02": {
+  "score": 0,
+  "reason": "이차전지 화학공정은 무관하다."
+ },
+ "lab_51c3f65f66e9#N03": {
+  "score": 0,
+  "reason": "전기화학 에너지 소재는 컨버터 제어와 거리가 있다."
+ },
+ "lab_51c3f65f66e9#N04": {
+  "score": 1,
+  "reason": "전력 변환을 포함한 고급 전자회로로 부분 관련된다."
+ },
+ "lab_29eb07f2a745#N00": {
+  "score": 0,
+  "reason": "모바일 컴퓨팅은 무관하다."
+ },
+ "lab_29eb07f2a745#N01": {
+  "score": 1,
+  "reason": "AI 기초로 시맨틱 질의 처리와 부분 관련된다."
+ },
+ "lab_29eb07f2a745#N02": {
+  "score": 1,
+  "reason": "운영체제의 메모리·파일 관리로 DB 시스템 구현의 기반이다."
+ },
+ "lab_29eb07f2a745#N03": {
+  "score": 0,
+  "reason": "경영정보시스템 전략은 무관하다."
+ },
+ "lab_29eb07f2a745#N04": {
+  "score": 0,
+  "reason": "AI 수학은 데이터베이스 연구와 거리가 있다."
+ },
+ "lab_ebe1bda9a6e9#N00": {
+  "score": 0,
+  "reason": "재료 기계적 성질은 무관하다."
+ },
+ "lab_ebe1bda9a6e9#N01": {
+  "score": 0,
+  "reason": "에너지 소재 분석은 무관하다."
+ },
+ "lab_ebe1bda9a6e9#N02": {
+  "score": 0,
+  "reason": "고분자 물성은 관련이 약하다."
+ },
+ "lab_ebe1bda9a6e9#N03": {
+  "score": 0,
+  "reason": "신소재 기초 개론으로 관련이 약하다."
+ },
+ "lab_d8c476f94f20#N00": {
+  "score": 1,
+  "reason": "반도체 물성·캐리어 기초로 소자 연구의 기반이다."
+ },
+ "lab_d8c476f94f20#N01": {
+  "score": 0,
+  "reason": "분석 기기 원리는 주제와 거리가 있다."
+ },
+ "lab_d8c476f94f20#N02": {
+  "score": 0,
+  "reason": "뉴로모픽 소자는 무관하다."
+ },
+ "lab_d8c476f94f20#N03": {
+  "score": 0,
+  "reason": "시스템 시뮬레이션은 몬테카를로 포논 시뮬레이션과 다르다."
+ },
+ "lab_d8c476f94f20#N04": {
+  "score": 0,
+  "reason": "학과 입문이다."
+ },
+ "lab_975679fa678a#N00": {
+  "score": 0,
+  "reason": "열전달은 무관하다."
+ },
+ "lab_975679fa678a#N01": {
+  "score": 2,
+  "reason": "궤환 제어 기초로 제어 연구에 직접 필요하다."
+ },
+ "lab_975679fa678a#N02": {
+  "score": 1,
+  "reason": "전력 계통 제어로 전력 산업 응용과 부분 관련된다."
+ },
+ "lab_d666360c983d#N00": {
+  "score": 0,
+  "reason": "신입생 생명과학 실험은 무관하다."
+ },
+ "lab_96b6fdf81d5f#N00": {
+  "score": 1,
+  "reason": "강체 동역학으로 비행체·로봇 제어의 기반이다."
+ },
+ "lab_96b6fdf81d5f#N01": {
+  "score": 1,
+  "reason": "선형대수·미분방정식으로 제어 이론의 수학 기반이다."
+ },
+ "lab_96b6fdf81d5f#N02": {
+  "score": 0,
+  "reason": "머신러닝 수학은 제어 이론과 거리가 있다."
+ },
+ "lab_0cc50bac8f1e#N00": {
+  "score": 1,
+  "reason": "통신 신호처리로 레이더 신호처리와 부분 관련된다."
+ },
+ "lab_0cc50bac8f1e#N01": {
+  "score": 1,
+  "reason": "센서·측정 기초로 부분 관련된다."
+ },
+ "lab_0c3cb4b83023#N00": {
+  "score": 1,
+  "reason": "AI 기초로 기반 지식이다."
+ },
+ "lab_0c3cb4b83023#N01": {
+  "score": 0,
+  "reason": "수학 특강으로 내용이 불분명하다."
+ },
+ "lab_0c3cb4b83023#N02": {
+  "score": 1,
+  "reason": "행렬 계산으로 기계학습·그래프 모델의 수학 기반이다."
+ },
+ "lab_fbe4dd191302#N00": {
+  "score": 0,
+  "reason": "드론·통신 실험으로 햅틱과 거리가 있다."
+ },
+ "lab_fbe4dd191302#N01": {
+  "score": 1,
+  "reason": "제어 이론으로 햅틱·로봇 제어의 기반이다."
+ },
+ "lab_c3cd46ef8123#N00": {
+  "score": 1,
+  "reason": "AI 기초로 기반 지식이다."
+ },
+ "lab_c3cd46ef8123#N01": {
+  "score": 1,
+  "reason": "비전 기초로 멀티모달 연구와 부분 관련된다."
+ },
+ "lab_c3cd46ef8123#N02": {
+  "score": 1,
+  "reason": "데이터마이닝 기법으로 추천·시계열과 부분 관련된다."
+ },
+ "lab_ed8b612492ff#N00": {
+  "score": 0,
+  "reason": "기계과용 전자공학 기초로 관련이 약하다."
+ },
+ "lab_ed8b612492ff#N01": {
+  "score": 1,
+  "reason": "증폭기·주파수 응답으로 RFIC 설계의 기반이다."
+ },
+ "lab_ed8b612492ff#N02": {
+  "score": 1,
+  "reason": "증폭기·전력증폭기 회로로 PA 설계의 기반이다."
+ },
+ "lab_ed8b612492ff#N03": {
+  "score": 1,
+  "reason": "고급 아날로그 회로로 RFIC 설계의 기반이다."
+ },
+ "lab_ed8b612492ff#N04": {
+  "score": 1,
+  "reason": "전자회로 기초로 기반 지식이다."
+ },
+ "lab_ed8b612492ff#N05": {
+  "score": 1,
+  "reason": "설계 중심 아날로그 회로로 기반이 된다."
+ },
+ "lab_0550a1bc6943#N00": {
+  "score": 0,
+  "reason": "소재 종합설계로 무관하다."
+ },
+ "lab_0550a1bc6943#N01": {
+  "score": 1,
+  "reason": "광소자·디스플레이 소자로 부분 관련된다."
+ },
+ "lab_0550a1bc6943#N02": {
+  "score": 1,
+  "reason": "전력 계통 제어로 전력변환과 부분 관련된다."
+ },
+ "lab_0550a1bc6943#N03": {
+  "score": 0,
+  "reason": "분야 소개 수업이다."
+ },
+ "lab_0550a1bc6943#N04": {
+  "score": 1,
+  "reason": "RF 회로로 액정 안테나와 부분 관련된다."
+ },
+ "lab_0550a1bc6943#N05": {
+  "score": 0,
+  "reason": "고주파 트랜지스터 해석은 주제와 거리가 있다."
+ },
+ "lab_e0f1bf42627c#N00": {
+  "score": 0,
+  "reason": "광소자는 산화물 트랜지스터와 거리가 있다."
+ },
+ "lab_e0f1bf42627c#N01": {
+  "score": 1,
+  "reason": "반도체 소자 기초로 기반 지식이다."
+ },
+ "lab_e0f1bf42627c#N02": {
+  "score": 0,
+  "reason": "BEOL·패키징은 무관하다."
+ },
+ "lab_e0f1bf42627c#N03": {
+  "score": 1,
+  "reason": "반도체 소자 기초로 기반 지식이다."
+ },
+ "lab_a53be44484aa#N00": {
+  "score": 1,
+  "reason": "회로 기초로 기반 지식이다."
+ },
+ "lab_a53be44484aa#N01": {
+  "score": 1,
+  "reason": "회로 기초로 기반 지식이다."
+ },
+ "lab_a53be44484aa#N02": {
+  "score": 0,
+  "reason": "MEMS 공정은 무관하다."
+ },
+ "lab_44f00d8a40c9#N00": {
+  "score": 0,
+  "reason": "분석 기기 원리는 관련이 약하다."
+ },
+ "lab_44f00d8a40c9#N01": {
+  "score": 0,
+  "reason": "양자 컴퓨팅은 무관하다."
+ },
+ "lab_44f00d8a40c9#N02": {
+  "score": 0,
+  "reason": "양자 컴퓨팅 하드웨어는 무관하다."
+ },
+ "lab_44f00d8a40c9#N03": {
+  "score": 1,
+  "reason": "파동·빛 기초 물리로 기반이 된다."
+ },
+ "lab_44f00d8a40c9#N04": {
+  "score": 0,
+  "reason": "일반물리 보충 연습이다."
+ },
+ "lab_1139ae4ba42f#N00": {
+  "score": 0,
+  "reason": "MATLAB 입문은 무관하다."
+ },
+ "lab_1139ae4ba42f#N01": {
+  "score": 1,
+  "reason": "제어 이론으로 사이버물리 시스템과 부분 관련된다."
+ },
+ "lab_e6a0e5e047a7#N00": {
+  "score": 1,
+  "reason": "AI 기초로 기반 지식이다."
+ },
+ "lab_e6a0e5e047a7#N01": {
+  "score": 1,
+  "reason": "인간 정보처리·인지로 HCI 연구와 부분 관련된다."
+ },
+ "lab_e6a0e5e047a7#N02": {
+  "score": 0,
+  "reason": "뉴로모픽 소자는 온디바이스 AI와 거리가 있다."
+ },
+ "lab_e6a0e5e047a7#N03": {
+  "score": 0,
+  "reason": "디지털 통신은 무관하다."
+ },
+ "lab_efef6289aa4f#N00": {
+  "score": 0,
+  "reason": "금속 가공은 무관하다."
+ },
+ "lab_efef6289aa4f#N01": {
+  "score": 1,
+  "reason": "반도체 소재 기초로 배선 소재 이해의 기반이다."
+ },
+ "lab_efef6289aa4f#N02": {
+  "score": 1,
+  "reason": "CMOS 집적공정으로 BEOL 공정 이해의 기반이다."
+ },
+ "lab_efef6289aa4f#N03": {
+  "score": 0,
+  "reason": "신소재 학생용 전자회로로 관련이 약하다."
+ }
+}

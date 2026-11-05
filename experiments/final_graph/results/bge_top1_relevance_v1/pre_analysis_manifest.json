@@ -1,0 +1,6 @@
+{
+  "status": "before_both_judges_complete_and_before_method_key_opened",
+  "analysis_script_sha256": "3c8cb432f2a6b946dce18ce16bfef9f2a541c8146b03e2932e316dca61d45e6f",
+  "prereg_sha256": "c90f421b06d3849c407a91d7ce6162c109d24fdaf4662d494adecff778fc8884",
+  "disclosure": "Judge B completed method-blind new-pair scores and reported only aggregate 0/1/2 counts; Judge A is incomplete. No BGE method-specific outcome inspected."
+}

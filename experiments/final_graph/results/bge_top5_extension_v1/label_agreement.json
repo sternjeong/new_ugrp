@@ -1,0 +1,10 @@
+{
+  "pairs": 562,
+  "exact_relevance_agreement": 327,
+  "polar_0_vs_2": 48,
+  "insufficient_flag_disagreement": 3,
+  "source_sha256": {
+    "scores_a": "7aed542806175b866a0a6685da923503990925edcec355fb47fffbf952b8692c",
+    "scores_b": "aaa58e897696c1b943f8a3c7a670c05aeb0bf802deeef6b39adf9be809967bcb"
+  }
+}

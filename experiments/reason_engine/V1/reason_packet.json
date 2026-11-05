@@ -1,0 +1,1673 @@
+{
+ "instructions": "각 reason에 faithful(0/1), specific(1~3), fluent(1~3), useful(1~3). 반환 형식: {\"<reason id>\": {\"faithful\":0|1,\"specific\":1-3,\"fluent\":1-3,\"useful\":1-3}}",
+ "pairs": [
+  {
+   "pair": "p000",
+   "lab": "조성현",
+   "lab_summary": "3D 복원, 전산 이미징, 시각 합성, 계산 사진학 등 그래픽스·비전·기계학습·광학이 교차하는 비주얼 컴퓨팅을 연구한다.",
+   "topic": "컴퓨터그래픽스·3D",
+   "topic_quote": "The primary goal of our research is to develop theory, algorithm, and system for visual computing.",
+   "course": "CSED441 컴퓨터비전 개론 / Introduction to Computer Vision",
+   "course_description": "추천 선수과목 : MATH120 (응용선형대수) 컴퓨터 비전 과목에서는 사진 및 동영상과 같은 시각적 데이터를 사람의 힘을 빌리지 않고 자동으로 이해하는기술에 관하여 학습한다. 시각적 데이터를 수학적으로 모델링하고 다양한 방법으로 분석함으로써 그 내용을 이해하는 것을 목표로 하고 있다. 기계학습, 알고리즘, 그래픽스 등과도 밀접한 관련이 있는 이 과목은 대학원 수준의 컴퓨터 비전 과목을 이수하기 이전에 학부생들로 하여금 기본적인 개념뿐만 아니라 실용적인 구현 능력을배양할 수 있도록 한다.",
+   "evidence_sentence": "Students will have opportunities to apply vision techniques through programming.",
+   "reasons": [
+    {
+     "id": "p000|r1",
+     "text": "'컴퓨터그래픽스·3D' 연구에 필요한 programming·apply vision을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p000|r2",
+     "text": "컴퓨터비전·영상인식 · 컴퓨터그래픽스·3D · 전산 영상·카메라·이미징 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p000|r3",
+     "text": "이 연구실의 '컴퓨터그래픽스·3D' 연구와 연결돼요. 이 과목의 학습목표에서 \"Students will have opportunities to apply vision techniques through…\"를 다뤄요."
+    },
+    {
+     "id": "p000|r4",
+     "text": "컴퓨터비전 개론 수업에서 배운 기술은 3D 그래픽 연구에서 실제 프로그래밍을 통해 시각적 계산법을 적용하는 데 도움이 됩니다."
+    }
+   ]
+  },
+  {
+   "pair": "p001",
+   "lab": "조성현",
+   "lab_summary": "3D 복원, 전산 이미징, 시각 합성, 계산 사진학 등 그래픽스·비전·기계학습·광학이 교차하는 비주얼 컴퓨팅을 연구한다.",
+   "topic": "컴퓨터그래픽스·3D",
+   "topic_quote": "The primary goal of our research is to develop theory, algorithm, and system for visual computing.",
+   "course": "CSED451 컴퓨터 그래픽스 / Computer Graphics",
+   "course_description": "추천 선수과목 : CSED233 (데이터구조), MATH120 (응용선형대수) 이차원 및 삼차원 그래픽스의 기본원리들을 다룬다. 그래픽스 시스템을 구성하는 H/W와 S/W를 소개하고 기하학적 변환, 인터렉티브 기법 등을 배운다. 삼차원 물체의 표현방법, 투사법(projections), 가시변환(viewing transformation), 은면제거(hidden surface removal), 렌더링 등을 다룬다. 프로그래밍 과제들을 통하여 기본개념들을 간단히 구현하여 본다.",
+   "evidence_sentence": "Graphics basics",
+   "reasons": [
+    {
+     "id": "p001|r1",
+     "text": "이 수업에서 그래픽 기초 지식을 배울 수 있어, 연구실에서 사용하는 시각 컴퓨팅 알고리즘 이해에 도움이 될 것입니다."
+    },
+    {
+     "id": "p001|r2",
+     "text": "컴퓨터그래픽스·3D 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p001|r3",
+     "text": "'컴퓨터그래픽스·3D' 연구에 필요한 Graphics basics을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p001|r4",
+     "text": "이 연구실의 '컴퓨터그래픽스·3D' 연구와 연결돼요. 이 과목의 강의계획에서 \"Graphics basics\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p002",
+   "lab": "조성현",
+   "lab_summary": "3D 복원, 전산 이미징, 시각 합성, 계산 사진학 등 그래픽스·비전·기계학습·광학이 교차하는 비주얼 컴퓨팅을 연구한다.",
+   "topic": "컴퓨터비전·영상인식",
+   "topic_quote": "we conduct interdisciplinary research at the intersection of computer graphics, computer vision, machine learning, and optics.",
+   "course": "CSED342 인공지능 / Artificial Intelligence",
+   "course_description": "추천 선수과목 : CSED233 (데이터구조) 인공지능 문제의 특성과 기본 원리를 파악하고, 인공지능 문제 해결에 필요한 기초 이론과 방법론을 학습한다. 구체적으로 기계학습 이론, 탐색 알고리즘, Markov decision process, 강화학습, 게임, constraint satisfaction problem, Bayesian network, logic 등을 학습한다. 또한, 인공지능 구현 실습을 통해 일상생활에서 만나는인공지능 문제를 해결하기 위한 능력을 기른다.",
+   "evidence_sentence": "CV: Deep learning for visual recognition",
+   "reasons": [
+    {
+     "id": "p002|r1",
+     "text": "이 연구실의 '컴퓨터비전·영상인식' 연구와 연결돼요. 이 과목의 강의계획에서 \"CV: Deep learning for visual recognition\"를 다뤄요."
+    },
+    {
+     "id": "p002|r2",
+     "text": "'컴퓨터비전·영상인식' 연구에 필요한 learning visual·visual recognition을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p002|r3",
+     "text": "이 수업에서 배운 딥러닝 기술은 연구실의 비주얼 인식 연구에 직접적으로 적용될 수 있습니다."
+    },
+    {
+     "id": "p002|r4",
+     "text": "컴퓨터비전·영상인식 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p003",
+   "lab": "조성현",
+   "lab_summary": "3D 복원, 전산 이미징, 시각 합성, 계산 사진학 등 그래픽스·비전·기계학습·광학이 교차하는 비주얼 컴퓨팅을 연구한다.",
+   "topic": "3D 복원",
+   "topic_quote": "We develop algorithms and systems to reconstruct our real world's 3D geometry and appearance.",
+   "course": "MATH409 489 특강Ⅰ, Ⅱ, Ⅲ / Topics",
+   "course_description": "",
+   "evidence_sentence": "It provides analysis of the problems along with algorithms\nand also uses python or Matlab as tool for implementing algorithms.",
+   "reasons": [
+    {
+     "id": "p003|r1",
+     "text": "이 수업에서 문제 분석과 알고리즘 공부는 3D 복원 연구에 필요한 기초를 다DataTask을 통해 이해할 수 있습니다."
+    },
+    {
+     "id": "p003|r2",
+     "text": "컴퓨터비전·영상인식 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p003|r3",
+     "text": "'3D 복원' 연구에 필요한 algorithms·implementing을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p003|r4",
+     "text": "이 연구실의 '3D 복원' 연구와 연결돼요. 이 과목의 학습목표에서 \"It provides analysis of the problems along with algorithms and also…\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p004",
+   "lab": "조성현",
+   "lab_summary": "3D 복원, 전산 이미징, 시각 합성, 계산 사진학 등 그래픽스·비전·기계학습·광학이 교차하는 비주얼 컴퓨팅을 연구한다.",
+   "topic": "컴퓨터그래픽스·3D",
+   "topic_quote": "The primary goal of our research is to develop theory, algorithm, and system for visual computing.",
+   "course": "CSED232 소프트웨어 작성 원리 / Principles of Software Construction",
+   "course_description": "추천 선수과목 : CSED101 (프로그래밍과문제해결) 본 과목에서는 객체지향 설계 원리, 프로그래밍 언어의 의미, 소프트웨어 테스트, 프로그램의 논증과 검증 등소프트웨어 작성과 프로그래밍에서의 기초가 되는 원리와 기술들을 학습한다. 이러한 원리들은 소프트웨어의구조와 의미를 이해하고 그 올바름을 판단하는 데 핵심적이며, 생성형 AI가 코드를 작성하는 시대에도 변하지않는 신뢰할 수 있고 효율적인 소프트웨어 작성의 기반이 된다.",
+   "evidence_sentence": "The objective of this class is to enable students to understand concepts related to object-oriented programming.",
+   "reasons": [
+    {
+     "id": "p004|r1",
+     "text": "'컴퓨터그래픽스·3D' 연구에 필요한 object-oriented·objective을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p004|r2",
+     "text": "컴퓨터그래픽스·3D 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p004|r3",
+     "text": "이 수업에서 배운 객체지향 프로그래밍 개념은 3D 그래픽 시스템 개발에 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p004|r4",
+     "text": "이 연구실의 '컴퓨터그래픽스·3D' 연구와 연결돼요. 이 과목의 학습목표에서 \"The objective of this class is to enable students to understand…\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p005",
+   "lab": "채수용",
+   "lab_summary": "전력 컨버터의 고급 제어, 분산 에너지 네트워크용 컨버터, FPGA 기반 고장 허용 제어를 다룬다. 제목 수준의 정보만 수집됐다.",
+   "topic": "전력전자·전력변환",
+   "topic_quote": "Advanced Control Technologies for Power Converters",
+   "course": "EECE305 전력전자공학 / Power Electronics",
+   "course_description": "교류전력의 직류변환, 교류전력의 교류변환이론 등을 중점적으로 다루며 switching matrix, existence function,   current   source   converter,   voltage    source   converter,   PWM   (Pulse-Width   Modulation), UFC(Unrestricted Frequency Charger)등을 공부한다.",
+   "evidence_sentence": "14 : Control of power electronics converters",
+   "reasons": [
+    {
+     "id": "p005|r1",
+     "text": "전력전자·전력변환 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p005|r2",
+     "text": "이 연구실의 '전력전자·전력변환' 연구와 연결돼요. 이 과목의 강의계획에서 \"14 : Control of power electronics converters\"를 다뤄요."
+    },
+    {
+     "id": "p005|r3",
+     "text": "이 수업에서 배운 전력전자공학의 제어_technologies는 연구실에서 다루는 전력 변환 기술에 직접적으로 적용될 수 있습니다."
+    },
+    {
+     "id": "p005|r4",
+     "text": "'전력전자·전력변환' 연구에 필요한 electronics converters·power electronics을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p006",
+   "lab": "채수용",
+   "lab_summary": "전력 컨버터의 고급 제어, 분산 에너지 네트워크용 컨버터, FPGA 기반 고장 허용 제어를 다룬다. 제목 수준의 정보만 수집됐다.",
+   "topic": "전력전자·전력변환",
+   "topic_quote": "Advanced Control Technologies for Power Converters",
+   "course": "EECE310 전력시스템 제어 및 운영의 기초 / Introduction to Electric Power System Control and Operation",
+   "course_description": "선수과목: 자동제어공학개론교류 및 직류 발전기를 포함한 대규모 전력시스템의 최적 운영 및 실시간 제어 기술을 습득한다. 특히, 전력시스템 운영 안정성 및 신뢰성에 크게 영향을 미치는, 경제급전(economic dispatch) 알고리즘을 개발하고 최적해를 도출한다. 또한 AC 동기 발전기에 의한 계통 주파수 및 노드 전압의 특성을 알아보고, 이를 제어하기 위한피드백 제어기를 설계하며, 매트랩/시뮬링크 프로그램을 이용하여 제어기 성능을 확인한다. 나아가, 대규모 신재생 발전단지의 출력량 예측 및 제어 방안을 알아보고 각각에 의한 영향",
+   "evidence_sentence": "The course material will include",
+   "reasons": [
+    {
+     "id": "p006|r1",
+     "text": "수업에서 배운 전력 시스템 제어 기초가 전력 변환 장치의 고급 제어 기술에 직접적으로 적용될 수 있습니다."
+    },
+    {
+     "id": "p006|r2",
+     "text": "'전력전자·전력변환' 연구에 필요한 material·include을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p006|r3",
+     "text": "이 연구실의 '전력전자·전력변환' 연구와 연결돼요. 이 과목의 강의계획에서 \"The course material will include\"를 다뤄요."
+    },
+    {
+     "id": "p006|r4",
+     "text": "제어 · 전력전자·전력변환 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p007",
+   "lab": "채수용",
+   "lab_summary": "전력 컨버터의 고급 제어, 분산 에너지 네트워크용 컨버터, FPGA 기반 고장 허용 제어를 다룬다. 제목 수준의 정보만 수집됐다.",
+   "topic": "전력전자·전력변환",
+   "topic_quote": "Advanced Control Technologies for Power Converters",
+   "course": "CHEB401 공정제어 / Chemical Process Control",
+   "course_description": "화학공정계의 독특성을 해석하고 이의 제어에 필요한 이론을 다룬다. 계의 안정성, 제어에 필요한 이론과 응용, 최적제어 이론 등과 다변수 제어계의 해석 및 제어이론, 응용 등을 다룬다.",
+   "evidence_sentence": "Introduction",
+   "reasons": [
+    {
+     "id": "p007|r1",
+     "text": "공정제어 수업에서 배운 제어_techniques는 전력변환 장치의 고급 제어 기술 개발에 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p007|r2",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p007|r3",
+     "text": "이 연구실의 '전력전자·전력변환' 연구와 연결돼요. 이 과목의 강의계획에서 \"Introduction\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p008",
+   "lab": "채수용",
+   "lab_summary": "전력 컨버터의 고급 제어, 분산 에너지 네트워크용 컨버터, FPGA 기반 고장 허용 제어를 다룬다. 제목 수준의 정보만 수집됐다.",
+   "topic": "분산 에너지 네트워크",
+   "topic_quote": "Advanced Control Technologies for Converters in Distributed Energy Networks",
+   "course": "MECH323 시스템제어 / System Control",
+   "course_description": "추천 선수과목 : 기계진동학본 강의에서는 동적 시스템에 대한 피드백 제어의 기초를 배우고 시뮬레이션을 통한 경험을 습득한다. 이 과정을 마치고 나면, 기계 시스템, 전기 시스템, 열유체 시스템 등 동적 시스템 제어를 이해하고 설계할 수있다. 또한 Laplace transform, Bode plot, Nyquist plot, lead and lag compensator, notch filters 등 기본적인 시스템 제어 설계 방법을 익힐 수 있다.",
+   "evidence_sentence": "PID Control",
+   "reasons": [
+    {
+     "id": "p008|r1",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p008|r2",
+     "text": "'분산 에너지 네트워크' 연구에 필요한 Control·PID을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p008|r3",
+     "text": "시스템제어 수업에서 배운 PID 제어는 분산 에너지 네트워크에서 전원 변환기의 고급 제어 기술에 적용될 수 있습니다."
+    },
+    {
+     "id": "p008|r4",
+     "text": "이 연구실의 '분산 에너지 네트워크' 연구와 연결돼요. 이 과목의 강의계획에서 \"PID Control\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p009",
+   "lab": "채수용",
+   "lab_summary": "전력 컨버터의 고급 제어, 분산 에너지 네트워크용 컨버터, FPGA 기반 고장 허용 제어를 다룬다. 제목 수준의 정보만 수집됐다.",
+   "topic": "전력전자·전력변환",
+   "topic_quote": "Advanced Control Technologies for Power Converters",
+   "course": "CITE441/EECE423 현대제어이론 / Modern Control Theory",
+   "course_description": "상태변수에 의한 시스템 해석 및 설계에 중점을 두며 computer control system, 현대에 많이 이용되는 각종기법, 비선형 시스템의 해석을 위한 선형화 기법, 선형 시스템의 최적화 기법, unknown system의 input-output identification technique, self-tuning 제어기법 등을 소개한다.",
+   "evidence_sentence": "Controllability",
+   "reasons": [
+    {
+     "id": "p009|r1",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p009|r2",
+     "text": "이 연구실의 '전력전자·전력변환' 연구와 연결돼요. 이 과목의 강의계획에서 \"Controllability\"를 다뤄요."
+    },
+    {
+     "id": "p009|r3",
+     "text": "'전력전자·전력변환' 연구에 필요한 Controllability을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p009|r4",
+     "text": "현대제어이론 수업에서 배운 컨트롤러 설계 기법은 전력변환기의 고급 제어 기술 개발에 도움이 될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p010",
+   "lab": "한욱신",
+   "lab_summary": "빅데이터·데이터 관리·데이터베이스 시스템을 연구하며 그래프 엔진과 시맨틱 질의 처리가 최근 논문에 나타난다. 연구 소개 본문은 비어 있다.",
+   "topic": "데이터베이스·데이터마이닝",
+   "topic_quote": "For undergrads who are interested in big data, data management, and database systems, note that SIGMOD, VLDB, and ICDE are flagship conferences in these fields.",
+   "course": "CITE421/CSED357 데이터 베이스 시스템 / Database systems",
+   "course_description": "추천 선수과목 : CSED331(알고리즘) 파일구조와 파일의 액세스 방법을 다룬다. 성능 분석, 저장장치 관리에 대한 기술을 익힌다. 데이터 베이스의각 모델, 기술방법, 실현방법에 대하여 배운다. 데이터의 신뢰성, 보호, 보전성도 다룬다. 설계 및 관리면의 문제에 대해서도 알아본다. 실제 데이터베이스를 설계해 본다.",
+   "evidence_sentence": "데이터 베이스의각 모델, 기술방법, 실현방법에 대하여 배운다.",
+   "reasons": [
+    {
+     "id": "p010|r1",
+     "text": "데이터베이스 시스템 수업에서 배운 개념들은 SIGMOD, VLDB, ICDE와 같은 학회에서 다루는 주제들과 잘 연관됩니다."
+    },
+    {
+     "id": "p010|r2",
+     "text": "'데이터베이스·데이터마이닝' 연구에 필요한 배운다·데이터을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p010|r3",
+     "text": "이 연구실의 '데이터베이스·데이터마이닝' 연구와 연결돼요. 이 과목의 과목 설명에서 \"데이터 베이스의각 모델, 기술방법, 실현방법에 대하여 배운다.\"를 다뤄요."
+    },
+    {
+     "id": "p010|r4",
+     "text": "데이터베이스·데이터마이닝 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p011",
+   "lab": "한욱신",
+   "lab_summary": "빅데이터·데이터 관리·데이터베이스 시스템을 연구하며 그래프 엔진과 시맨틱 질의 처리가 최근 논문에 나타난다. 연구 소개 본문은 비어 있다.",
+   "topic": "데이터베이스·데이터마이닝",
+   "topic_quote": "For undergrads who are interested in big data, data management, and database systems, note that SIGMOD, VLDB, and ICDE are flagship conferences in these fields.",
+   "course": "IMEN472 데이터사이언스방법론 / Data Science Methodology",
+   "course_description": "선수과목 : 공학기초통계데이터마이닝의 주요 목적인 예측, 분류, 군집 및 연관규칙에 대한 구체적인 기법을 다룬다. 구체적으로 예측을 위해 변형된 회귀분석기법을, 분류를 위한 로지스틱회귀, 판별분석, 트리 등을, 군집을 위한 계층적군집, 비계층적군집기법을, 그리고 연관규칙을 위한 시장바구니분석, 추천시스템 등을 학습한다.",
+   "evidence_sentence": "This course will cover theories and applications of basic (statistical) data mining techniques including regression, classification and unsupervised learning.",
+   "reasons": [
+    {
+     "id": "p011|r1",
+     "text": "데이터베이스·데이터마이닝 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p011|r2",
+     "text": "이 연구실의 '데이터베이스·데이터마이닝' 연구와 연결돼요. 이 과목의 학습목표에서 \"This course will cover theories and applications of basic…\"를 다뤄요."
+    },
+    {
+     "id": "p011|r3",
+     "text": "'데이터베이스·데이터마이닝' 연구에 필요한 learning·data을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p011|r4",
+     "text": "데이터사이언스방법론 수업에서 배운 데이터마이닝 기법은 SIGMOD, VLDB, ICDE와 같은 학계 최고의 컨퍼런스에서 다루는 주제와 연관되어 있어, 연구실에서의 학습을 더욱Enrich(강화)할 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p012",
+   "lab": "한욱신",
+   "lab_summary": "빅데이터·데이터 관리·데이터베이스 시스템을 연구하며 그래프 엔진과 시맨틱 질의 처리가 최근 논문에 나타난다. 연구 소개 본문은 비어 있다.",
+   "topic": "그래프 데이터 엔진",
+   "topic_quote": "TurboLynx: Schemaless Graph Engine Strikes Back for General-Purpose Analytics",
+   "course": "MATH432 수리데이터사이언스 / Mathematical Data Science",
+   "course_description": "데이터라고 하는 대상을 다양한 과학적 측면, 특히 수학적 관점에서 살펴보고, 학생들로 하여금 데이터와 기계학습/인공지능을 수학적 언어로 이해할 수 있도록 돕는다.",
+   "evidence_sentence": "Sampling of data",
+   "reasons": [
+    {
+     "id": "p012|r1",
+     "text": "데이터베이스·데이터마이닝 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p012|r2",
+     "text": "'그래프 데이터 엔진' 연구에 필요한 Sampling data을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p012|r3",
+     "text": "이 연구실의 '그래프 데이터 엔진' 연구와 연결돼요. 이 과목의 강의계획에서 \"Sampling of data\"를 다뤄요."
+    },
+    {
+     "id": "p012|r4",
+     "text": "수리데이터사이언스에서 배운 데이터 샘플링 기법은 그래프 데이터 엔진을 개발할 때 효율적인 데이터 처리에 도움이 될 수 있다."
+    }
+   ]
+  },
+  {
+   "pair": "p013",
+   "lab": "한욱신",
+   "lab_summary": "빅데이터·데이터 관리·데이터베이스 시스템을 연구하며 그래프 엔진과 시맨틱 질의 처리가 최근 논문에 나타난다. 연구 소개 본문은 비어 있다.",
+   "topic": "데이터베이스·데이터마이닝",
+   "topic_quote": "For undergrads who are interested in big data, data management, and database systems, note that SIGMOD, VLDB, and ICDE are flagship conferences in these fields.",
+   "course": "CSED226 데이터분석 입문 / Introduction to Data Analysis",
+   "course_description": "추천 선수과목 : CSED233 (데이터구조) 본 과목에서는 데이터분석의 기본적인 개념 및 대표적인 방법들을 이론적으로 공부하고, 파이선 및 데이터 분석 라이브러리를 사용하여 이론적으로 배운 방법들을 실습한다. 학생들은 배운 지식을 바탕으로 실제 데이터 분석 대회에 참가하여 데이터 분석의 경험을 쌓는다.",
+   "evidence_sentence": "학생들은 배운 지식을 바탕으로 실제 데이터 분석 대회에 참가하여 데이터 분석의 경험을 쌓는다.",
+   "reasons": [
+    {
+     "id": "p013|r1",
+     "text": "데이터분석 입문 수업에서 배운 개념들을 직접 적용해볼 수 있어, 데이터베이스와 데이터마이닝 연구에 대한 실질적인 이해를 높일 수 있습니다."
+    },
+    {
+     "id": "p013|r2",
+     "text": "데이터베이스·데이터마이닝 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p013|r3",
+     "text": "이 연구실의 '데이터베이스·데이터마이닝' 연구와 연결돼요. 이 과목의 과목 설명에서 \"학생들은 배운 지식을 바탕으로 실제 데이터 분석 대회에 참가하여 데이터 분석의 경험을 쌓는다.\"를 다뤄요."
+    },
+    {
+     "id": "p013|r4",
+     "text": "'데이터베이스·데이터마이닝' 연구에 필요한 참가하여 데이터·데이터 분석을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p014",
+   "lab": "한욱신",
+   "lab_summary": "빅데이터·데이터 관리·데이터베이스 시스템을 연구하며 그래프 엔진과 시맨틱 질의 처리가 최근 논문에 나타난다. 연구 소개 본문은 비어 있다.",
+   "topic": "데이터베이스·데이터마이닝",
+   "topic_quote": "For undergrads who are interested in big data, data management, and database systems, note that SIGMOD, VLDB, and ICDE are flagship conferences in these fields.",
+   "course": "IMEN473 비즈니스 애널리틱스 / Business Analytics",
+   "course_description": "선수과목 : 정보시스템기술, 데이터베이스시스템데이터 분석을 통한 합리적이고 과학적인 의사결정에 대한 해법과 다양한 기초 지식과 이를 의사결정에 어떻게 활용할 수 있는지에 대해 이해하고 비즈니스 분석에 대한 기본적인 이론과 실제 데이터 분석을 접해볼 수 있게 한다.",
+   "evidence_sentence": "simulation and other business process management techniques) and data-centric analysis techniques such as machine learning and data mining.",
+   "reasons": [
+    {
+     "id": "p014|r1",
+     "text": "이 연구실의 '데이터베이스·데이터마이닝' 연구와 연결돼요. 이 과목의 학습목표에서 \"simulation and other business process management techniques) and…\"를 다뤄요."
+    },
+    {
+     "id": "p014|r2",
+     "text": "비즈니스 애널리틱스에서 배운 데이터 중심 분석 기법은 데이터베이스와 데이터마이닝 연구실에서 활용할 수 있습니다."
+    },
+    {
+     "id": "p014|r3",
+     "text": "'데이터베이스·데이터마이닝' 연구에 필요한 learning data·data-centric을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p014|r4",
+     "text": "데이터베이스·데이터마이닝 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p015",
+   "lab": "안성수",
+   "lab_summary": "단백질 구조 예측, 결정 구조 예측, 분자 발굴 등 과학 분야에 생성모델·LLM 에이전트를 적용하는 AI 연구를 한다. 연구 소개 본문이 없어 논문 제목으로 추정했다.",
+   "topic": "단백질 구조 예측",
+   "topic_quote": "Atom-level Protein Representation Learning Improves Protein Structure Prediction",
+   "course": "LIFE322 현대생명과학실험 / Modern Biology Laboratory",
+   "course_description": "추천선수과목 : LIFE209 생명과학실험원리론 및 실습현대 생물학 연구에 널리 활용되는 세포생물학, 분자생물학, 유전학 및 생화학적 방법론들을 실습을 통해서 익힘을 목적으로 한다. 구체적으로 유전자 클로닝, 제한효소 지도 작성, 세포형질전환, 유전자 서열 결정, 유전자검출, 유전자 발현 분석, 현미경을 사용한 세포 관찰, 유전학적 교배 및 genotyping, 표현형 분석 등의 실험방법들이 조합되어 포함된 mini-project를 수행함으로써 관련 실험 기술들을 체득하게 된다. 6명 내외 인원으로 구성된 소규모 분반들로 나뉘고 각",
+   "evidence_sentence": "Protein Biochemistry",
+   "reasons": [
+    {
+     "id": "p015|r1",
+     "text": "현대생명과학실험에서 배운 단백질 생화학 지식은 연구실에서 단백질 구조 예측 모델을 개발할 때 유용하게 활용될 수 있습니다."
+    },
+    {
+     "id": "p015|r2",
+     "text": "'단백질 구조 예측' 연구에 필요한 Protein·Biochemistry을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p015|r3",
+     "text": "생명정보·분자·단백질·신약 AI 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p015|r4",
+     "text": "이 연구실의 '단백질 구조 예측' 연구와 연결돼요. 이 과목의 강의계획에서 \"Protein Biochemistry\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p016",
+   "lab": "안성수",
+   "lab_summary": "단백질 구조 예측, 결정 구조 예측, 분자 발굴 등 과학 분야에 생성모델·LLM 에이전트를 적용하는 AI 연구를 한다. 연구 소개 본문이 없어 논문 제목으로 추정했다.",
+   "topic": "단백질 구조 예측",
+   "topic_quote": "Atom-level Protein Representation Learning Improves Protein Structure Prediction",
+   "course": "AMSE208 소재구조론 / Structure of Materials",
+   "course_description": "이 강좌는 결정 구조와 소재 물성의 밀접한 연관성에 대한 확고한 기초를 제공하며, 주로 결정 격자, 결정 대칭성 (점군/공간군), 결정 입체 투영법 및 재료 내 결함 등의 핵심 개념을 다룹니다. 또한 역격자 공간 개념을 도입하여, 실공간 결정 구조를 역공간 회절 패턴으로 해석하는 능력을 배양하는 것을 목표로 합니다.",
+   "evidence_sentence": "Atomic configuration in solid crystals with dimension & geometry",
+   "reasons": [
+    {
+     "id": "p016|r1",
+     "text": "재료·소재과학 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p016|r2",
+     "text": "수업에서 배운 원자 구성과 차원, 기하학은 단백질 구조 예측에 필요한 원자 수준의 표현 방법을 이해하는 데 도움이 됩니다."
+    },
+    {
+     "id": "p016|r3",
+     "text": "이 연구실의 '단백질 구조 예측' 연구와 연결돼요. 이 과목의 강의계획에서 \"Atomic configuration in solid crystals with dimension & geometry\"를 다뤄요."
+    },
+    {
+     "id": "p016|r4",
+     "text": "'단백질 구조 예측' 연구에 필요한 Atomic configuration·dimension geometry을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p017",
+   "lab": "안성수",
+   "lab_summary": "단백질 구조 예측, 결정 구조 예측, 분자 발굴 등 과학 분야에 생성모델·LLM 에이전트를 적용하는 AI 연구를 한다. 연구 소개 본문이 없어 논문 제목으로 추정했다.",
+   "topic": "단백질 구조 예측",
+   "topic_quote": "Atom-level Protein Representation Learning Improves Protein Structure Prediction",
+   "course": "LIFE319 생화학Ⅰ / BiochemistryⅠ",
+   "course_description": "추천선수과목 : LIFE217 세포생물학, LIFE218 생명과학전공입문, LIFE219 융합생명과학, CHEM221유기화학I 생명체, 조직 및 세포의 생물학적인 구조와 기능을 이해하기 위해 분자차원에서 생화학적 원리와 방법을 통괄적으로 다룬다. 세포 구성 성분들의 생화학적 구조-기능 관련성을 이해하고, 핵산(Nucleic acid), 단백질 (Protein), 탄수화물(Carbohydrate) 및 지질 (Lipid) 등으로 구성되는 생체 고분자물질의 생화학적 구조와 성질, 역할, 기능을 다룬다. 아울러 각 구성 생체물질의 대사과정",
+   "evidence_sentence": "Protein Composition and Structure",
+   "reasons": [
+    {
+     "id": "p017|r1",
+     "text": "생명정보·분자·단백질·신약 AI 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p017|r2",
+     "text": "'단백질 구조 예측' 연구에 필요한 Protein Composition·Structure을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p017|r3",
+     "text": "이 연구실의 '단백질 구조 예측' 연구와 연결돼요. 이 과목의 강의계획에서 \"Protein Composition and Structure\"를 다뤄요."
+    },
+    {
+     "id": "p017|r4",
+     "text": "생화학Ⅰ에서 배운 단백질의 구성과 구조는 연구실에서 단백질 구조 예측에 사용되는 원천 데이터로 활용될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p018",
+   "lab": "안성수",
+   "lab_summary": "단백질 구조 예측, 결정 구조 예측, 분자 발굴 등 과학 분야에 생성모델·LLM 에이전트를 적용하는 AI 연구를 한다. 연구 소개 본문이 없어 논문 제목으로 추정했다.",
+   "topic": "나노다공성 소재 흡착",
+   "topic_quote": "MADField: Multi-fidelity Amortized Density Field for Adsorption in Nanoporous Materials",
+   "course": "AMSE211 소재디자인 / Materials Design",
+   "course_description": "소재의 분석, 합성, 응용에서 핵심이 되는 내용을 강의와 실기를 포함하여 학습하며, 2~4명으로 구성된 조별활동으로 진행하며, 조별 담당조교가 배정되어 지도한다.",
+   "evidence_sentence": "이론] 나노 입자의 전자구조와 발광, 흡수, 산란 광특성",
+   "reasons": [
+    {
+     "id": "p018|r1",
+     "text": "'나노다공성 소재 흡착' 연구에 필요한 흡수·나노 입자의을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p018|r2",
+     "text": "이 수업에서 배운 나노입자의 전자구조는 MADField 모델링에 활용될 수 있으며, 발광과 흡수 특성은 흡착 현상을 이해하는 데 도움이 됩니다."
+    },
+    {
+     "id": "p018|r3",
+     "text": "재료·소재과학 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p018|r4",
+     "text": "이 연구실의 '나노다공성 소재 흡착' 연구와 연결돼요. 이 과목의 강의계획에서 \"이론] 나노 입자의 전자구조와 발광, 흡수, 산란 광특성\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p019",
+   "lab": "안성수",
+   "lab_summary": "단백질 구조 예측, 결정 구조 예측, 분자 발굴 등 과학 분야에 생성모델·LLM 에이전트를 적용하는 AI 연구를 한다. 연구 소개 본문이 없어 논문 제목으로 추정했다.",
+   "topic": "단백질 구조 예측",
+   "topic_quote": "Atom-level Protein Representation Learning Improves Protein Structure Prediction",
+   "course": "AMSE201 신소재과학 / Fundamentals of Materials Science and Engineering",
+   "course_description": "추천 선수 과목: 일반물리, 일반화학현대 과학기술 문명의 발전과 소재 과학의 연관성을 이해하고, 소재과학의 핵심 원리와 응용을 알기 쉽게 소개한다.",
+   "evidence_sentence": "(Chapter 20-21)",
+   "reasons": [
+    {
+     "id": "p019|r1",
+     "text": "이 연구실의 '단백질 구조 예측' 연구와 연결돼요. 이 과목의 강의계획에서 \"(Chapter 20-21)\"를 다뤄요."
+    },
+    {
+     "id": "p019|r2",
+     "text": "신소재과학에서 배운 단백질의 기본 개념이 연구실에서 사용하는 단백질 구조 예측 모델링에 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p019|r3",
+     "text": "'단백질 구조 예측' 연구에 필요한 Chapter을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p019|r4",
+     "text": "재료·소재과학 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p020",
+   "lab": "백창기",
+   "lab_summary": "실리콘 나노구조 기반 열전 소자와 열(포논) 수송, 고전압 FinFET 등 반도체 소자를 연구한다. 연구 소개 페이지 본문은 비어 있어 논문·공지로 추정했다.",
+   "topic": "몬테카를로 포논 시뮬레이션",
+   "topic_quote": "Monte Carlo study of phonon transport in surface modulated silicon nanowires",
+   "course": "SEMI206 반도체소재개론 / Introduction to Semiconductor Materials",
+   "course_description": "This course covers the crystal structure, material properties, charge transport and synthesis of semiconductor materials. It will provide fundamental theory and operating principles of various semiconductor structures such as p-n junction in a viewpoint of materials science.",
+   "evidence_sentence": "surface and interface",
+   "reasons": [
+    {
+     "id": "p020|r1",
+     "text": "'몬테카를로 포논 시뮬레이션' 연구에 필요한 surface interface을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p020|r2",
+     "text": "반도체 소자·물성 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p020|r3",
+     "text": "반도체소재개론에서 배운 표면 및 인터페이스 지식은 몬테카를로 포논 시뮬레이션 연구에 직접적으로 도움을 줄 수 있습니다."
+    },
+    {
+     "id": "p020|r4",
+     "text": "이 연구실의 '몬테카를로 포논 시뮬레이션' 연구와 연결돼요. 이 과목의 강의계획에서 \"surface and interface\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p021",
+   "lab": "백창기",
+   "lab_summary": "실리콘 나노구조 기반 열전 소자와 열(포논) 수송, 고전압 FinFET 등 반도체 소자를 연구한다. 연구 소개 페이지 본문은 비어 있어 논문·공지로 추정했다.",
+   "topic": "몬테카를로 포논 시뮬레이션",
+   "topic_quote": "Monte Carlo study of phonon transport in surface modulated silicon nanowires",
+   "course": "DISU431 지능형 반도체 소자 / Neuromorphic Semiconductor Device",
+   "course_description": "선수과목 :    디지털 시스템 설계, 반도체전자공학Ⅰ 인공지능이라는 새로운 응용 분야에서 수십 년에 걸쳐 발전해온 기존 반도체 기술의 한계를 극복하고자 새롭게 발전되고 있는 뉴로모픽 시냅스 소자와 관련된 이론, 공정, 응용에 대한 학습을 진행한다. 인공지능이라는 새로운 응용 분야에서 수십 년에 걸쳐 발전해 온 기존 반도체 기술의 한계를 극복하고자 새롭게 발전되고 있는 뉴로모픽 시냅스 소자와 관련된 이론, 공정, 응용에 대한 학습을 진행한다. 하드웨어 단에서 저전력으로 인공지능연산을 구현하고자 하는 현재의 기술 발전 동향을 이해하고",
+   "evidence_sentence": "반도체 회로에서의 인공지능 연산",
+   "reasons": [
+    {
+     "id": "p021|r1",
+     "text": "반도체 소자·물성 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p021|r2",
+     "text": "'몬테카를로 포논 시뮬레이션' 연구에 필요한 반도체 회로에서의·회로에서의 인공지능을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p021|r3",
+     "text": "이 수업에서 배운 인공지능 연산 개념은 몬테카를로 시뮬레이션을 통해 반도체 나노선에서의 포논 운반 연구에 적용할 수 있습니다."
+    },
+    {
+     "id": "p021|r4",
+     "text": "이 연구실의 '몬테카를로 포논 시뮬레이션' 연구와 연결돼요. 이 과목의 강의계획에서 \"반도체 회로에서의 인공지능 연산\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p022",
+   "lab": "백창기",
+   "lab_summary": "실리콘 나노구조 기반 열전 소자와 열(포논) 수송, 고전압 FinFET 등 반도체 소자를 연구한다. 연구 소개 페이지 본문은 비어 있어 논문·공지로 추정했다.",
+   "topic": "나노구조 포논 수송",
+   "topic_quote": "Thermal conductivity reduction in silicon nanotubes through phonon localization",
+   "course": "SEMI203 반도체 소자 I / Semiconductor Devices I",
+   "course_description": "반도체 소자의 기본 동작 원리를 학습한다. 반도체 물성, 캐리어 이동, 접합 구조 등에 대한 기초지식을 함양하고, 다이오드 및 트랜지스터의 동작원리를 학습한다.",
+   "evidence_sentence": "4:\tCarrier generation and transport",
+   "reasons": [
+    {
+     "id": "p022|r1",
+     "text": "반도체 소자 수업에서 배운 전자 운동은 나노구조에서 포논의 국소화를 이해하는 데 도움이 됩니다."
+    },
+    {
+     "id": "p022|r2",
+     "text": "'나노구조 포논 수송' 연구에 필요한 transport·Carrier generation을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p022|r3",
+     "text": "반도체 소자·물성 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p022|r4",
+     "text": "이 연구실의 '나노구조 포논 수송' 연구와 연결돼요. 이 과목의 강의계획에서 \"4: Carrier generation and transport\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p023",
+   "lab": "백창기",
+   "lab_summary": "실리콘 나노구조 기반 열전 소자와 열(포논) 수송, 고전압 FinFET 등 반도체 소자를 연구한다. 연구 소개 페이지 본문은 비어 있어 논문·공지로 추정했다.",
+   "topic": "나노구조 포논 수송",
+   "topic_quote": "Thermal conductivity reduction in silicon nanotubes through phonon localization",
+   "course": "IMEN481 시뮬레이션 / Simulation",
+   "course_description": "선수과목 : 정보시스템기술실제문제에 널리 이용되는 기법으로 시스템의 모형화, 시뮬레이션의 기본개념, 연속 및 이산체제의 특성, 시뮬레이션의 기법, 결과의 통계적 분석방법 등을 다룬다.",
+   "evidence_sentence": "Variance Reduction Techniques",
+   "reasons": [
+    {
+     "id": "p023|r1",
+     "text": "이 연구실의 '나노구조 포논 수송' 연구와 연결돼요. 이 과목의 강의계획에서 \"Variance Reduction Techniques\"를 다뤄요."
+    },
+    {
+     "id": "p023|r2",
+     "text": "수업에서 배운 시뮬레이션 기법은 연구실에서 나노 구조물의 열 전도도 감소 실험을 더 정확히 수행하는 데 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p023|r3",
+     "text": "소자·물성 시뮬레이션(DFT·TCAD) 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p023|r4",
+     "text": "'나노구조 포논 수송' 연구에 필요한 Reduction Techniques·Variance Reduction을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p024",
+   "lab": "백창기",
+   "lab_summary": "실리콘 나노구조 기반 열전 소자와 열(포논) 수송, 고전압 FinFET 등 반도체 소자를 연구한다. 연구 소개 페이지 본문은 비어 있어 논문·공지로 추정했다.",
+   "topic": "실리콘 나노튜브·나노선",
+   "topic_quote": "silicon nanotubes",
+   "course": "SEMI100 학과입문(반도체공학) / Introduction to Semiconductor Engineering",
+   "course_description": "반도체를 구성하는 소재, 소자의 특징과 함께, 발전 역사를 이해한다. 메모리 반도체, 로직 반도체, 인공지능반도체의 원리와 종류를 학습하고, 미래 기술인 이차원 나노반도체, 양자컴퓨터의 원리와 종류를 이해한다. 이러한 반도체의 시스템화에 필요한 아날로그 설계, VLSI 시스템 설계, 차세대 컴퓨팅 아키텍쳐 설계 원리를 배우고, 다양한 반도체를 소자 및 시스템 구현에 활용되는 전공정, 후공정, 패키징, 성능평가 기술에 대해 학습한다. 또한, 반도체 산업생태계를 구성하는 국내외 종합반도체기업, 팹리스, 파운드리, OSAT 등의 현황과 ",
+   "evidence_sentence": "(5/15) 2차원 반도체 소재 및 소자",
+   "reasons": [
+    {
+     "id": "p024|r1",
+     "text": "이 연구실의 '실리콘 나노튜브·나노선' 연구와 연결돼요. 이 과목의 강의계획에서 \"(5/15) 2차원 반도체 소재 및 소자\"를 다뤄요."
+    },
+    {
+     "id": "p024|r2",
+     "text": "반도체 소자·물성 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p024|r3",
+     "text": "'실리콘 나노튜브·나노선' 연구에 필요한 반도체 소재·소재 소자을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p024|r4",
+     "text": "수업에서 배운 2차원 반도체 소재 지식은 실리콘 나노튜브 연구에 활용될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p025",
+   "lab": "김상우",
+   "lab_summary": "제철·전력·배터리 등 산업 현장의 데이터를 딥러닝과 제어로 다루는 지능제어 연구실이다. 결함 검출, 이상 탐지, 배터리 상태 추정, 전동기 고장 진단이 반복 등장한다.",
+   "topic": "컴퓨터비전·영상인식",
+   "topic_quote": "MULTI-SPECTRAL 드론영상에 대하여 FCN 기반 딥러닝 및 영상처리를 이용한 송전선로 및 폴리머 현수애자 검출 알고리즘 개발",
+   "course": "CSED441 컴퓨터비전 개론 / Introduction to Computer Vision",
+   "course_description": "추천 선수과목 : MATH120 (응용선형대수) 컴퓨터 비전 과목에서는 사진 및 동영상과 같은 시각적 데이터를 사람의 힘을 빌리지 않고 자동으로 이해하는기술에 관하여 학습한다. 시각적 데이터를 수학적으로 모델링하고 다양한 방법으로 분석함으로써 그 내용을 이해하는 것을 목표로 하고 있다. 기계학습, 알고리즘, 그래픽스 등과도 밀접한 관련이 있는 이 과목은 대학원 수준의 컴퓨터 비전 과목을 이수하기 이전에 학부생들로 하여금 기본적인 개념뿐만 아니라 실용적인 구현 능력을배양할 수 있도록 한다.",
+   "evidence_sentence": "Video classification",
+   "reasons": [
+    {
+     "id": "p025|r1",
+     "text": "이 연구실의 '컴퓨터비전·영상인식' 연구와 연결돼요. 이 과목의 강의계획에서 \"Video classification\"를 다뤄요."
+    },
+    {
+     "id": "p025|r2",
+     "text": "'컴퓨터비전·영상인식' 연구에 필요한 Video classification을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p025|r3",
+     "text": "컴퓨터비전·영상인식 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p025|r4",
+     "text": "컴퓨터비전 개론 수업에서 배운 비디오 분류 기술은 MULTI-SPECTRAL 드론영상에서 송전선로와 폴리머 현수애자를 검출하는 알고리즘 개발에 도움이 될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p026",
+   "lab": "김상우",
+   "lab_summary": "제철·전력·배터리 등 산업 현장의 데이터를 딥러닝과 제어로 다루는 지능제어 연구실이다. 결함 검출, 이상 탐지, 배터리 상태 추정, 전동기 고장 진단이 반복 등장한다.",
+   "topic": "리튬이온 배터리 상태 추정",
+   "topic_quote": "전류 및 온도를 고려한 리튬 이온 배터리의 등가모델 기반 상태 진단 알고리즘 개발",
+   "course": "CHEB412 이차전지 화학공정 / Chemical Engineering Process for Rechargeable Battery",
+   "course_description": "이차전지의 기초적인 작동원리와 이차전지 제조를 위한 화학공정에 대한 이해를 제공하며, 강의와 더불어 이차전지 전극 및 셀 제작 실험을 진행하여 이차전지 작동원리에 대한 이해를 높이고, 이차전지 기업 전문가 초청강연을 통해 이차전지 성능 향상을 위한 다양한 전략 및 당면한 문제점들을 소개하는 과목이다.",
+   "evidence_sentence": "Lithium-Ion Battery Operation 1",
+   "reasons": [
+    {
+     "id": "p026|r1",
+     "text": "이차전지 화학공정 수업에서 배운 리튬이온 배터리 작동 원리를 이해하면, 연구실에서 진행하는 전류와 온도를 고려한 상태 진단 알고리즘 개발에 더 잘 적용할 수 있습니다."
+    },
+    {
+     "id": "p026|r2",
+     "text": "배터리·에너지 변환 · 산업 AI·이상탐지·스마트팩토리 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p026|r3",
+     "text": "'리튬이온 배터리 상태 추정' 연구에 필요한 Battery·Lithium-Ion을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p026|r4",
+     "text": "이 연구실의 '리튬이온 배터리 상태 추정' 연구와 연결돼요. 이 과목의 강의계획에서 \"Lithium-Ion Battery Operation 1\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p027",
+   "lab": "김상우",
+   "lab_summary": "제철·전력·배터리 등 산업 현장의 데이터를 딥러닝과 제어로 다루는 지능제어 연구실이다. 결함 검출, 이상 탐지, 배터리 상태 추정, 전동기 고장 진단이 반복 등장한다.",
+   "topic": "컴퓨터비전·영상인식",
+   "topic_quote": "MULTI-SPECTRAL 드론영상에 대하여 FCN 기반 딥러닝 및 영상처리를 이용한 송전선로 및 폴리머 현수애자 검출 알고리즘 개발",
+   "course": "EECE310 전력시스템 제어 및 운영의 기초 / Introduction to Electric Power System Control and Operation",
+   "course_description": "선수과목: 자동제어공학개론교류 및 직류 발전기를 포함한 대규모 전력시스템의 최적 운영 및 실시간 제어 기술을 습득한다. 특히, 전력시스템 운영 안정성 및 신뢰성에 크게 영향을 미치는, 경제급전(economic dispatch) 알고리즘을 개발하고 최적해를 도출한다. 또한 AC 동기 발전기에 의한 계통 주파수 및 노드 전압의 특성을 알아보고, 이를 제어하기 위한피드백 제어기를 설계하며, 매트랩/시뮬링크 프로그램을 이용하여 제어기 성능을 확인한다. 나아가, 대규모 신재생 발전단지의 출력량 예측 및 제어 방안을 알아보고 각각에 의한 영향",
+   "evidence_sentence": "analysis of poly-phase transmission lines with respect to inductance, capacitance, balanced and unbalanced lines;",
+   "reasons": [
+    {
+     "id": "p027|r1",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p027|r2",
+     "text": "이 연구실의 '컴퓨터비전·영상인식' 연구와 연결돼요. 이 과목의 강의계획에서 \"analysis of poly-phase transmission lines with respect to inductance,…\"를 다뤄요."
+    },
+    {
+     "id": "p027|r3",
+     "text": "'컴퓨터비전·영상인식' 연구에 필요한 analysis·poly-phase을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p027|r4",
+     "text": "수업에서 배운 전력선에 대한 지식은 연구실에서 다루는 폴리머 현수애자 검출 알고리즘 개발에 도움이 될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p028",
+   "lab": "김상우",
+   "lab_summary": "제철·전력·배터리 등 산업 현장의 데이터를 딥러닝과 제어로 다루는 지능제어 연구실이다. 결함 검출, 이상 탐지, 배터리 상태 추정, 전동기 고장 진단이 반복 등장한다.",
+   "topic": "리튬이온 배터리 상태 추정",
+   "topic_quote": "전류 및 온도를 고려한 리튬 이온 배터리의 등가모델 기반 상태 진단 알고리즘 개발",
+   "course": "MECH323 시스템제어 / System Control",
+   "course_description": "추천 선수과목 : 기계진동학본 강의에서는 동적 시스템에 대한 피드백 제어의 기초를 배우고 시뮬레이션을 통한 경험을 습득한다. 이 과정을 마치고 나면, 기계 시스템, 전기 시스템, 열유체 시스템 등 동적 시스템 제어를 이해하고 설계할 수있다. 또한 Laplace transform, Bode plot, Nyquist plot, lead and lag compensator, notch filters 등 기본적인 시스템 제어 설계 방법을 익힐 수 있다.",
+   "evidence_sentence": "Dynamic Models",
+   "reasons": [
+    {
+     "id": "p028|r1",
+     "text": "이 연구실의 '리튬이온 배터리 상태 추정' 연구와 연결돼요. 이 과목의 강의계획에서 \"Dynamic Models\"를 다뤄요."
+    },
+    {
+     "id": "p028|r2",
+     "text": "시스템제어 수업에서 배운 동적 모델링은 리튬이온 배터리의 상태추정 알고리즘 개발에 활용될 수 있습니다."
+    },
+    {
+     "id": "p028|r3",
+     "text": "'리튬이온 배터리 상태 추정' 연구에 필요한 Models·Dynamic을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p028|r4",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p029",
+   "lab": "김상우",
+   "lab_summary": "제철·전력·배터리 등 산업 현장의 데이터를 딥러닝과 제어로 다루는 지능제어 연구실이다. 결함 검출, 이상 탐지, 배터리 상태 추정, 전동기 고장 진단이 반복 등장한다.",
+   "topic": "리튬이온 배터리 상태 추정",
+   "topic_quote": "전류 및 온도를 고려한 리튬 이온 배터리의 등가모델 기반 상태 진단 알고리즘 개발",
+   "course": "CITE341 제어시스템 이론 및 실험 / Control Systems Theory and Lab",
+   "course_description": "제어 일반에 관한 다양한 이론을 공부하여 학부 수준에서의 폭 넓은 제어 및 시스템 지식을 구축하고자 한다. 타학과에서는 여러과목에 산재되어 있는 과목들을 핵심지식을 중심으로 압축하여 한 과목으로 제공하고자 한다.",
+   "evidence_sentence": "Modeling in the frequency and time domains is first\nintroduced and then the stability is discussed with some techniques.",
+   "reasons": [
+    {
+     "id": "p029|r1",
+     "text": "제어 시스템 이론 수업에서 배운 모델링 기법은 리튬이온 배터리의 상태 추정 알고리즘 개발에 활용될 수 있습니다."
+    },
+    {
+     "id": "p029|r2",
+     "text": "'리튬이온 배터리 상태 추정' 연구에 필요한 Modeling·discussed some을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p029|r3",
+     "text": "이 연구실의 '리튬이온 배터리 상태 추정' 연구와 연결돼요. 이 과목의 학습목표에서 \"Modeling in the frequency and time domains is first introduced and…\"를 다뤄요."
+    },
+    {
+     "id": "p029|r4",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p030",
+   "lab": "김형함",
+   "lab_summary": "초음파 영상 시스템(패치형 프로브), 집속 초음파 치료, 초음파 기반 세포 평가 등 초음파 공학을 연구한다. 연구 소개 본문이 비어 있어 논문 제목으로 추정했다.",
+   "topic": "줄기세포 초음파 평가",
+   "topic_quote": "UNIQUE: ultrasound non-destructive in-situ quantitative evaluation of stem cell spheroid deformability during differentiation into specific lineages",
+   "course": "MECH427 광학과 현미경 / Optics and Microscopy",
+   "course_description": "광학 기본과 광학 영상 시스템의 대표적인 기술인 광학 현미경의 원리를 배운다. 광학은 비접촉 센싱을 통한정밀 측정, 고 해상도 고 대비도 영상화 등 에 필수적인 기술로 측정, fabrication, 광학 영상 기반 인공지능 학습 등에 활용될 수 있다. 광학 측정 및 영상 장치의 구조 및 활용에 중점을 둬서 공부한다.",
+   "evidence_sentence": "Super-resolution microscopy",
+   "reasons": [
+    {
+     "id": "p030|r1",
+     "text": "이 연구실의 '줄기세포 초음파 평가' 연구와 연결돼요. 이 과목의 강의계획에서 \"Super-resolution microscopy\"를 다뤄요."
+    },
+    {
+     "id": "p030|r2",
+     "text": "의료 영상 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p030|r3",
+     "text": "광학과 현미경 수업에서 배운 슈퍼해상도 현미경 기술은 줄기세포 초음파 평가 연구실에서 세포 구조를 더 세밀하게 관찰하는 데 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p030|r4",
+     "text": "'줄기세포 초음파 평가' 연구에 필요한 microscopy·Super-resolution을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p031",
+   "lab": "김형함",
+   "lab_summary": "초음파 영상 시스템(패치형 프로브), 집속 초음파 치료, 초음파 기반 세포 평가 등 초음파 공학을 연구한다. 연구 소개 본문이 비어 있어 논문 제목으로 추정했다.",
+   "topic": "줄기세포 초음파 평가",
+   "topic_quote": "UNIQUE: ultrasound non-destructive in-situ quantitative evaluation of stem cell spheroid deformability during differentiation into specific lineages",
+   "course": "LIFE327 줄기세포와 발생생물학 / Stem Cells and Developmental Biology",
+   "course_description": "발생생물학의 기본 원리를 습득하고, 줄기세포의 증식/분화 및 초기 배아발생 과정에 대한 분자세포생물학적 기전을 이해하고자 함. 또한 배아줄기세포, 유도만능줄기세포, 성체줄기세포에 대한 최신 연구를 바탕으로 줄기세포를 이용한 최첨단 재생치료를 소개함.",
+   "evidence_sentence": "Ch5. Stem cells",
+   "reasons": [
+    {
+     "id": "p031|r1",
+     "text": "'줄기세포 초음파 평가' 연구에 필요한 Stem cells을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p031|r2",
+     "text": "줄기세포와 발생생물학 수업에서 배운 줄기세포의 특성과分化"
+    },
+    {
+     "id": "p031|r3",
+     "text": "이 연구실의 '줄기세포 초음파 평가' 연구와 연결돼요. 이 과목의 강의계획에서 \"Ch5. Stem cells\"를 다뤄요."
+    },
+    {
+     "id": "p031|r4",
+     "text": "연구실 주제와 관련된 내용을 다룹니다."
+    }
+   ]
+  },
+  {
+   "pair": "p032",
+   "lab": "김형함",
+   "lab_summary": "초음파 영상 시스템(패치형 프로브), 집속 초음파 치료, 초음파 기반 세포 평가 등 초음파 공학을 연구한다. 연구 소개 본문이 비어 있어 논문 제목으로 추정했다.",
+   "topic": "집속 초음파 치료",
+   "topic_quote": "Focused Ultrasound-Triggered Burst Release and Enrichment of Engineered Bacteria for Tumor Therapy",
+   "course": "LIFE322 현대생명과학실험 / Modern Biology Laboratory",
+   "course_description": "추천선수과목 : LIFE209 생명과학실험원리론 및 실습현대 생물학 연구에 널리 활용되는 세포생물학, 분자생물학, 유전학 및 생화학적 방법론들을 실습을 통해서 익힘을 목적으로 한다. 구체적으로 유전자 클로닝, 제한효소 지도 작성, 세포형질전환, 유전자 서열 결정, 유전자검출, 유전자 발현 분석, 현미경을 사용한 세포 관찰, 유전학적 교배 및 genotyping, 표현형 분석 등의 실험방법들이 조합되어 포함된 mini-project를 수행함으로써 관련 실험 기술들을 체득하게 된다. 6명 내외 인원으로 구성된 소규모 분반들로 나뉘고 각",
+   "evidence_sentence": "bacterial transformation",
+   "reasons": [
+    {
+     "id": "p032|r1",
+     "text": "이 연구실의 '집속 초음파 치료' 연구와 연결돼요. 이 과목의 강의계획에서 \"bacterial transformation\"를 다뤄요."
+    },
+    {
+     "id": "p032|r2",
+     "text": "'집속 초음파 치료' 연구에 필요한 bacterial transformation을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p032|r3",
+     "text": "현대생명과학실험에서 배운 bacterial transformation 기술은 집속 초음파를 이용한 항암 치료 연구에서 engineered bacteria를 효과적으로 처리하는 데 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p032|r4",
+     "text": "의료 영상 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p033",
+   "lab": "김형함",
+   "lab_summary": "초음파 영상 시스템(패치형 프로브), 집속 초음파 치료, 초음파 기반 세포 평가 등 초음파 공학을 연구한다. 연구 소개 본문이 비어 있어 논문 제목으로 추정했다.",
+   "topic": "패치형 초음파 영상",
+   "topic_quote": "Real-time Ultrasound Imaging System utilizing Patch-type Ultrasound Probe for Free-Flap Blood Perfusion Monitoring",
+   "course": "EECE376 전자전기공학실험3 / Electronics & Electrical Engineering LabⅢ",
+   "course_description": "전자공학의 학부 세번째 실험교과목으로, 학생들이 전자공학의 최신기술을 본격적으로 활용하여 전자장치를 제작할 수 있도록 하기위해, 초음파를 이용한 와이파이 무선통신과 드론 제어 및                          머신러닝장치 등을 실제로 제작하고 성능을 평가한다.",
+   "evidence_sentence": "b) System Type",
+   "reasons": [
+    {
+     "id": "p033|r1",
+     "text": "전자전기공학실험에서 배운 시스템 타입 지식은 실시간 초음파 영상 시스템을 설계할 때 활용될 수 있습니다."
+    },
+    {
+     "id": "p033|r2",
+     "text": "초음파·음향 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p033|r3",
+     "text": "'패치형 초음파 영상' 연구에 필요한 System·Type을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p033|r4",
+     "text": "이 연구실의 '패치형 초음파 영상' 연구와 연결돼요. 이 과목의 강의계획에서 \"b) System Type\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p034",
+   "lab": "김형함",
+   "lab_summary": "초음파 영상 시스템(패치형 프로브), 집속 초음파 치료, 초음파 기반 세포 평가 등 초음파 공학을 연구한다. 연구 소개 본문이 비어 있어 논문 제목으로 추정했다.",
+   "topic": "줄기세포 초음파 평가",
+   "topic_quote": "UNIQUE: ultrasound non-destructive in-situ quantitative evaluation of stem cell spheroid deformability during differentiation into specific lineages",
+   "course": "CITE453 생체시스템 및 신호처리 / Biomedical Systems and Signal Processing",
+   "course_description": "선형시스템에서 신호와 시스템 분석에 기초가 되는 신호처리 개념들을 시간 영역, 주파수 영역에서 학습하여생체시스템 해석 및 데이터 분석 방법을 배운다. 순환기, 호흡기, 혈류 시스템의 기초를 이해하고 신호 처리의예를 통하여 생체시스템의 이해를 높여 생체시스템 분석, 설계에 활용할 수 있게 되는 것을 목표로 한다. CITE390A/Z – 특강 A-Z (Special Topics in IT Convergence Engineering A-Z)            (가변학점) CITE399A/D – 연구참여 A-D (Research Part",
+   "evidence_sentence": "Introduction",
+   "reasons": [
+    {
+     "id": "p034|r1",
+     "text": "의료 영상 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p034|r2",
+     "text": "이 연구실의 '줄기세포 초음파 평가' 연구와 연결돼요. 이 과목의 강의계획에서 \"Introduction\"를 다뤄요."
+    },
+    {
+     "id": "p034|r3",
+     "text": "생체시스템 및 신호처리 수업에서 배운 신호 처리 기술은 줄기세포 초음파 평가 연구실에서 유용하게 활용될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p035",
+   "lab": "김정훈",
+   "lab_summary": "수학적 제어 이론을 개발하고 로봇, 항공우주 비행체, 사이버물리 시스템 등 실제 제어 시스템에 응용한다. 수집 본문에는 연구원 관심사만 있었고, 검토자가 홈페이지에서 직접 확인한 문장을 근거로 보강했다.",
+   "topic": "수학적 제어 이론",
+   "topic_quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on.",
+   "course": "CITE341 제어시스템 이론 및 실험 / Control Systems Theory and Lab",
+   "course_description": "제어 일반에 관한 다양한 이론을 공부하여 학부 수준에서의 폭 넓은 제어 및 시스템 지식을 구축하고자 한다. 타학과에서는 여러과목에 산재되어 있는 과목들을 핵심지식을 중심으로 압축하여 한 과목으로 제공하고자 한다.",
+   "evidence_sentence": "The objective of this class is to understand mathematical models and their characteristics for a\nsimple single input and single output system.",
+   "reasons": [
+    {
+     "id": "p035|r1",
+     "text": "수업에서 배운 단순 제어 시스템 모델링은 연구실에서 복잡한 실용 제어 시스템에 적용할 수 있는 기초가 됩니다."
+    },
+    {
+     "id": "p035|r2",
+     "text": "이 연구실의 '수학적 제어 이론' 연구와 연결돼요. 이 과목의 학습목표에서 \"The objective of this class is to understand mathematical models and…\"를 다뤄요."
+    },
+    {
+     "id": "p035|r3",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p035|r4",
+     "text": "'수학적 제어 이론' 연구에 필요한 mathematical·output을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p036",
+   "lab": "김정훈",
+   "lab_summary": "수학적 제어 이론을 개발하고 로봇, 항공우주 비행체, 사이버물리 시스템 등 실제 제어 시스템에 응용한다. 수집 본문에는 연구원 관심사만 있었고, 검토자가 홈페이지에서 직접 확인한 문장을 근거로 보강했다.",
+   "topic": "수학적 제어 이론",
+   "topic_quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on.",
+   "course": "EECE320 자동제어공학개론 / Introduction to Automatic Control",
+   "course_description": "선수과목 : 신호 및 시스템수학적 모델링과 전달함수, 궤환제어와 그의 응용에 관한 원리를 취급하며 시간 및 주파수영역에서의 궤환시스템의 해석 및 합성에 중점을 둔다. Root-locus방법, Bode diagram, Nyquist 방법과 상태공간기법(state space method)등을 다루며 전산기에 의한 제어시스템 해석과 합성을 공부한다. EECE331(SEMI205반도체 전자회로I) – 전자회로Ⅰ (Electronic CircuitsⅠ)                                     (3-0-3) 선수과목 ",
+   "evidence_sentence": "Mathematical basics for control systems",
+   "reasons": [
+    {
+     "id": "p036|r1",
+     "text": "이 연구실의 '수학적 제어 이론' 연구와 연결돼요. 이 과목의 강의계획에서 \"Mathematical basics for control systems\"를 다뤄요."
+    },
+    {
+     "id": "p036|r2",
+     "text": "수업에서 배운 수학적 기초가 연구실에서 개발하는 제어 이론에 직접적으로 적용될 수 있습니다."
+    },
+    {
+     "id": "p036|r3",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p036|r4",
+     "text": "'수학적 제어 이론' 연구에 필요한 control systems·basics control을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p037",
+   "lab": "김정훈",
+   "lab_summary": "수학적 제어 이론을 개발하고 로봇, 항공우주 비행체, 사이버물리 시스템 등 실제 제어 시스템에 응용한다. 수집 본문에는 연구원 관심사만 있었고, 검토자가 홈페이지에서 직접 확인한 문장을 근거로 보강했다.",
+   "topic": "다중 에이전트 합의 제어",
+   "topic_quote": "Consensus control of multi-agent systems",
+   "course": "CITE441/EECE423 현대제어이론 / Modern Control Theory",
+   "course_description": "상태변수에 의한 시스템 해석 및 설계에 중점을 두며 computer control system, 현대에 많이 이용되는 각종기법, 비선형 시스템의 해석을 위한 선형화 기법, 선형 시스템의 최적화 기법, unknown system의 input-output identification technique, self-tuning 제어기법 등을 소개한다.",
+   "evidence_sentence": "Introduction",
+   "reasons": [
+    {
+     "id": "p037|r1",
+     "text": "이 연구실의 '다중 에이전트 합의 제어' 연구와 연결돼요. 이 과목의 강의계획에서 \"Introduction\"를 다뤄요."
+    },
+    {
+     "id": "p037|r2",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p037|r3",
+     "text": "현대제어이론 수업에서 배운 제어 이론은 다중 에이전트 시스템의 합의 제어 연구실 프로젝트에 적용할 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p038",
+   "lab": "김정훈",
+   "lab_summary": "수학적 제어 이론을 개발하고 로봇, 항공우주 비행체, 사이버물리 시스템 등 실제 제어 시스템에 응용한다. 수집 본문에는 연구원 관심사만 있었고, 검토자가 홈페이지에서 직접 확인한 문장을 근거로 보강했다.",
+   "topic": "수학적 제어 이론",
+   "topic_quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on.",
+   "course": "MECH323 시스템제어 / System Control",
+   "course_description": "추천 선수과목 : 기계진동학본 강의에서는 동적 시스템에 대한 피드백 제어의 기초를 배우고 시뮬레이션을 통한 경험을 습득한다. 이 과정을 마치고 나면, 기계 시스템, 전기 시스템, 열유체 시스템 등 동적 시스템 제어를 이해하고 설계할 수있다. 또한 Laplace transform, Bode plot, Nyquist plot, lead and lag compensator, notch filters 등 기본적인 시스템 제어 설계 방법을 익힐 수 있다.",
+   "evidence_sentence": "본 과정을 통해 학생들은 기계, 전기, 열-유체 분야를 포함한 다양한 동적 시스템을 제어하는 데 있어 능숙함을 갖추게 됩니다.",
+   "reasons": [
+    {
+     "id": "p038|r1",
+     "text": "'수학적 제어 이론' 연구에 필요한 시스템을 제어하는·제어하는 있어을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p038|r2",
+     "text": "제어 · 로봇 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p038|r3",
+     "text": "이 연구실의 '수학적 제어 이론' 연구와 연결돼요. 이 과목의 학습목표에서 \"본 과정을 통해 학생들은 기계, 전기, 열-유체 분야를 포함한 다양한 동적 시스템을 제어하는 데 있어 능숙함을 갖추게 됩니다.\"를 다뤄요."
+    },
+    {
+     "id": "p038|r4",
+     "text": "시스템제어 수업에서 배운 다양한 동적 시스템의 제어 방법은 연구실에서 발전시키는 수학적 제어 이론에 직접적으로 적용될 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p039",
+   "lab": "김정훈",
+   "lab_summary": "수학적 제어 이론을 개발하고 로봇, 항공우주 비행체, 사이버물리 시스템 등 실제 제어 시스템에 응용한다. 수집 본문에는 연구원 관심사만 있었고, 검토자가 홈페이지에서 직접 확인한 문장을 근거로 보강했다.",
+   "topic": "수학적 제어 이론",
+   "topic_quote": "The focus of the laboratory is to develop mathematical control theories and their applications to practical control systems such as robotics, aerospace vehicles, cyber-physical systems, and so on.",
+   "course": "CHEB401 공정제어 / Chemical Process Control",
+   "course_description": "화학공정계의 독특성을 해석하고 이의 제어에 필요한 이론을 다룬다. 계의 안정성, 제어에 필요한 이론과 응용, 최적제어 이론 등과 다변수 제어계의 해석 및 제어이론, 응용 등을 다룬다.",
+   "evidence_sentence": "Control Systems",
+   "reasons": [
+    {
+     "id": "p039|r1",
+     "text": "제어 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p039|r2",
+     "text": "'수학적 제어 이론' 연구에 필요한 Control·Systems을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p039|r3",
+     "text": "공정제어 수업에서 배운 제어 이론은 수학적 제어 이론 연구실에서 실제 시스템에 적용하는 데 도움이 됩니다."
+    },
+    {
+     "id": "p039|r4",
+     "text": "이 연구실의 '수학적 제어 이론' 연구와 연결돼요. 이 과목의 강의계획에서 \"Control Systems\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p040",
+   "lab": "김경태",
+   "lab_summary": "연구실 이름(지능형 레이더 시스템 및 신호처리 연구실) 외의 본문이 수집되지 않았다.",
+   "topic": "레이더 신호처리",
+   "topic_quote": "지능형 레이다 시스템 및 신호처리연구실",
+   "course": "EECE306 레이다공학개론 / Introduction to radar engineering",
+   "course_description": "선수과목 : 신호및시스템레이다 시스템 및 원리에 대한 소개 및 관련된 공학 지식을 제공한다. - Review of Electromagnetism / Reviwe of Signals, Systems and DSP / Radar Equation / Propagation Effects / Detection of Signals in Noise / Radar Cross Section / Antennas / Radar Clutter / Waveforms and Pulse Compression",
+   "evidence_sentence": "Understanding of basic radar principles",
+   "reasons": [
+    {
+     "id": "p040|r1",
+     "text": "이 연구실의 '레이더 신호처리' 연구와 연결돼요. 이 과목의 학습목표에서 \"Understanding of basic radar principles\"를 다뤄요."
+    },
+    {
+     "id": "p040|r2",
+     "text": "레이더·센서 신호 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p040|r3",
+     "text": "'레이더 신호처리' 연구에 필요한 Understanding radar·radar principles을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p040|r4",
+     "text": "레이다공학개론 수업에서 기본 레이다 원리를 이해하면, 레이더 신호 처리에 대한 더 깊은 이해가 가능해집니다."
+    }
+   ]
+  },
+  {
+   "pair": "p041",
+   "lab": "김경태",
+   "lab_summary": "연구실 이름(지능형 레이더 시스템 및 신호처리 연구실) 외의 본문이 수집되지 않았다.",
+   "topic": "레이더 시스템",
+   "topic_quote": "지능형 레이더 시스템 및 신호처리 연구실",
+   "course": "CITE453 생체시스템 및 신호처리 / Biomedical Systems and Signal Processing",
+   "course_description": "선형시스템에서 신호와 시스템 분석에 기초가 되는 신호처리 개념들을 시간 영역, 주파수 영역에서 학습하여생체시스템 해석 및 데이터 분석 방법을 배운다. 순환기, 호흡기, 혈류 시스템의 기초를 이해하고 신호 처리의예를 통하여 생체시스템의 이해를 높여 생체시스템 분석, 설계에 활용할 수 있게 되는 것을 목표로 한다. CITE390A/Z – 특강 A-Z (Special Topics in IT Convergence Engineering A-Z)            (가변학점) CITE399A/D – 연구참여 A-D (Research Part",
+   "evidence_sentence": "Biomedical Systems and Signal Processing course provides a comprehensive treatment of signals and linear systems at an introductory level.",
+   "reasons": [
+    {
+     "id": "p041|r1",
+     "text": "'레이더 시스템' 연구에 필요한 Systems Signal·Signal Processing을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p041|r2",
+     "text": "신호처리 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p041|r3",
+     "text": "이 연구실의 '레이더 시스템' 연구와 연결돼요. 이 과목의 학습목표에서 \"Biomedical Systems and Signal Processing course provides a…\"를 다뤄요."
+    },
+    {
+     "id": "p041|r4",
+     "text": "수업에서 배운 신호 처리 지식은 레이더 시스템 연구에서 필터링과 분석에 도움이 될 것이다."
+    }
+   ]
+  },
+  {
+   "pair": "p042",
+   "lab": "김경태",
+   "lab_summary": "연구실 이름(지능형 레이더 시스템 및 신호처리 연구실) 외의 본문이 수집되지 않았다.",
+   "topic": "레이더 신호처리",
+   "topic_quote": "지능형 레이다 시스템 및 신호처리연구실",
+   "course": "CSED355 전산신호처리 / Computational Signal Processing",
+   "course_description": "추천 선수과목 : MATH103 (미적분학) 이 강좌는 신호 처리의 기본 개념과 분석 방법을 다루는 입문 과정이다. 이 과정에서는 이산 시간 잊연속 시간 신호의 표현, 신호 변환(푸리에 변환, 웨이블릿 변환, 라플라스 변환 등)，그리고 선형 시불변 시스템의 표현을 학습한다. 또한 이러한 핵심 개념을 1자원 신호뿐만 아니라, 고차원 공간에서 정의된 이미지나 불규직한 도메인을 가진 그래프 등으로 확장하여 다룬다 이 강좌를 수강하기 위해서는 미적분학에 대한 기본적인 이해, 복소수연산 경험, 그리고 미분 방정식에 대한 기조적인 배경 지식이",
+   "evidence_sentence": "Graph Signal Processing",
+   "reasons": [
+    {
+     "id": "p042|r1",
+     "text": "'레이더 신호처리' 연구에 필요한 Signal Processing·Graph Signal을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p042|r2",
+     "text": "이 연구실의 '레이더 신호처리' 연구와 연결돼요. 이 과목의 강의계획에서 \"Graph Signal Processing\"를 다뤄요."
+    },
+    {
+     "id": "p042|r3",
+     "text": "전산신호처리 수업에서 배운 그래프 신호 처리는 레이더 신호 처리 연구에 직접적으로 적용될 수 있습니다."
+    },
+    {
+     "id": "p042|r4",
+     "text": "신호처리 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p043",
+   "lab": "김경태",
+   "lab_summary": "연구실 이름(지능형 레이더 시스템 및 신호처리 연구실) 외의 본문이 수집되지 않았다.",
+   "topic": "레이더 신호처리",
+   "topic_quote": "지능형 레이다 시스템 및 신호처리연구실",
+   "course": "EECE233 신호 및 시스템 / Signals and Systems",
+   "course_description": "신호의     Sampling,   변조(Modulation),   여과(Filtering)를   취급하기   위하여    연속    또는    비연속    시간함수 (Continuous of discrete functions of time)를 공부한다. 선형 시불변 시스템의 입력 출력(Input-output) 관계에 중점을 두며 Convolution 정리, Fourier 변환, Laplace 변환, Z-transform과 DFT(Discrete Fourier Transform)를 공부한다.",
+   "evidence_sentence": "신호의     Sampling,   변조(Modulation),   여과(Filtering)를   취급하기   위하여    연속    또는    비연속    시간함수 (Continuous of discrete functions of time)를 공부한다.",
+   "reasons": [
+    {
+     "id": "p043|r1",
+     "text": "'레이더 신호처리' 연구에 필요한 신호의 Sampling·Filtering 취급하기을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p043|r2",
+     "text": "신호 및 시스템 수업에서 배운 신호 처리 원리를 레이더 신호처리 연구실에서 직접 적용할 수 있습니다."
+    },
+    {
+     "id": "p043|r3",
+     "text": "이 연구실의 '레이더 신호처리' 연구와 연결돼요. 이 과목의 과목 설명에서 \"신호의 Sampling, 변조(Modulation), 여과(Filtering)를 취급하기 위하여 연속 또는 비연속 시간함수…\"를 다뤄요."
+    },
+    {
+     "id": "p043|r4",
+     "text": "신호처리 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p044",
+   "lab": "김경태",
+   "lab_summary": "연구실 이름(지능형 레이더 시스템 및 신호처리 연구실) 외의 본문이 수집되지 않았다.",
+   "topic": "레이더 신호처리",
+   "topic_quote": "지능형 레이다 시스템 및 신호처리연구실",
+   "course": "SEMI445 RF/아날로그 회로 설계 기초 / Introduction to RF and Analog Circuit Design",
+   "course_description": "무선 통신 및 레이더 시스템 동작 원리 이해 및 RF-아날로그 회로 관점에서의 시스템 구조 분석 / 대표적인 아날로그 집적회로 분야인 RF-아날로그 회로의 기본 개념, 기초 설계 이론과 지식 습득: 전송선 이론, 임피던스 정합 이론, S-파라메터와 스미스 차트를 활용한 회로 설계, RF/아날로그 회로별 성능 정의 / 고출력 증폭기, 잡음증폭기, 주파수 변환기, 신호 발생기 등 회로 분석/제공되는 상용 설계 시뮬레이터를 이용한 간단한 RF회로 설계및 분석 진행 등을 다룬다. SEMI490A/Z 반도체공학특강A/Z (Special To",
+   "evidence_sentence": "무선 통신 및 레이더 시스템 동작 원리 이해 및 RF-아날로그 회로 관점에서의 시스템 구조 분석",
+   "reasons": [
+    {
+     "id": "p044|r1",
+     "text": "이 연구실의 '레이더 신호처리' 연구와 연결돼요. 이 과목의 과목 설명에서 \"무선 통신 및 레이더 시스템 동작 원리 이해 및 RF-아날로그 회로 관점에서의 시스템 구조 분석\"를 다뤄요."
+    },
+    {
+     "id": "p044|r2",
+     "text": "레이더·센서 신호 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p044|r3",
+     "text": "'레이더 신호처리' 연구에 필요한 레이더 시스템·통신 레이더을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p044|r4",
+     "text": "RF/아날로그 회로 설계 기초 수업은 레이더 신호 처리 연구실에서 다루는 무선 통신 시스템 이해에 도움을 줄 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p045",
+   "lab": "김원화",
+   "lab_summary": "MRI·PET·CT 등 의료 영상에 통계·기계학습·그래프 이론 모델을 적용해 신경퇴행성 질환과 뇌 기능을 이해하는 의료정보처리 연구실이다.",
+   "topic": "컴퓨터비전·영상인식",
+   "topic_quote": "We are also open for various other traditional Computer Vision and Machine Learning problems.",
+   "course": "CSED441 컴퓨터비전 개론 / Introduction to Computer Vision",
+   "course_description": "추천 선수과목 : MATH120 (응용선형대수) 컴퓨터 비전 과목에서는 사진 및 동영상과 같은 시각적 데이터를 사람의 힘을 빌리지 않고 자동으로 이해하는기술에 관하여 학습한다. 시각적 데이터를 수학적으로 모델링하고 다양한 방법으로 분석함으로써 그 내용을 이해하는 것을 목표로 하고 있다. 기계학습, 알고리즘, 그래픽스 등과도 밀접한 관련이 있는 이 과목은 대학원 수준의 컴퓨터 비전 과목을 이수하기 이전에 학부생들로 하여금 기본적인 개념뿐만 아니라 실용적인 구현 능력을배양할 수 있도록 한다.",
+   "evidence_sentence": "Video classification",
+   "reasons": [
+    {
+     "id": "p045|r1",
+     "text": "컴퓨터비전·영상인식 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p045|r2",
+     "text": "컴퓨터비전 개론 수업에서 배운 비디오 분류 기초가 연구실의 비디오 인식 문제 해결에 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p045|r3",
+     "text": "이 연구실의 '컴퓨터비전·영상인식' 연구와 연결돼요. 이 과목의 강의계획에서 \"Video classification\"를 다뤄요."
+    },
+    {
+     "id": "p045|r4",
+     "text": "'컴퓨터비전·영상인식' 연구에 필요한 Video classification을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p046",
+   "lab": "김원화",
+   "lab_summary": "MRI·PET·CT 등 의료 영상에 통계·기계학습·그래프 이론 모델을 적용해 신경퇴행성 질환과 뇌 기능을 이해하는 의료정보처리 연구실이다.",
+   "topic": "그래프 이론 모델",
+   "topic_quote": "graph theoretical",
+   "course": "MATH464 그래프론과 응용 / Graph Theory with Applications",
+   "course_description": "선수추천과목 : MATH261 그래프와 tree, cycles, Euler tours, Hamilton cycles, Ramsey, Turan, Schur, Kuratowski의 정리, Networks.",
+   "evidence_sentence": "그래프의 기본개념, 트리, 그래프의 연속성, matching, network, planar graphs, graph colouring 등의 내용을 폭 넓게 학습한다.",
+   "reasons": [
+    {
+     "id": "p046|r1",
+     "text": "'그래프 이론 모델' 연구에 필요한 그래프의·graphs graph을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p046|r2",
+     "text": "이 수업에서 그래프의 기본 개념과 응용을 배울 수 있어, 그래프 이론 모델 연구에 필요한 이론적 기초를 얻을 수 있습니다."
+    },
+    {
+     "id": "p046|r3",
+     "text": "이 연구실의 '그래프 이론 모델' 연구와 연결돼요. 이 과목의 학습목표에서 \"그래프의 기본개념, 트리, 그래프의 연속성, matching, network, planar graphs, graph…\"를 다뤄요."
+    },
+    {
+     "id": "p046|r4",
+     "text": "연구실 주제와 관련된 내용을 다룹니다."
+    }
+   ]
+  },
+  {
+   "pair": "p047",
+   "lab": "김원화",
+   "lab_summary": "MRI·PET·CT 등 의료 영상에 통계·기계학습·그래프 이론 모델을 적용해 신경퇴행성 질환과 뇌 기능을 이해하는 의료정보처리 연구실이다.",
+   "topic": "뇌·신경과학",
+   "topic_quote": "We identify the effects from neurodegenerative diseases for better understanding of brain functions and its progression.",
+   "course": "LIFE419 뇌와행동의 이해 / An Introduction to Brain and Behavior",
+   "course_description": "뇌와 행동에 대한 과학적 이해의 깊이는 빠른 속도로 깊어지고 있다. 이 과목에서는 뇌 과학의 최근 발전을이야기하면서 어떻게 우리의 뇌와 행동이 상호작용하는지에 초점을 맞추어 신경계를 공부하고자한다. 수강생들은뇌기능과 행동을 접함에 있어 다음과 같은 주요 사항을 다루게 될 것이다; (1) 왜 우리는 뇌를 가지고 있는가? (2) 우리의 신경계는 어떻게 조직되어있는가? (3) 약물들은 우리의 행동에 어떻게 영향을 주는가? (4) 뇌는 어떻게 기억하고 생각하는가? 따라서 본 과목은 학생들에게 좋은 뇌 과학 개론이 될 것으로 기대한다.",
+   "evidence_sentence": "To this end, the course will be provided as a good  introduction to basic neuroscience.",
+   "reasons": [
+    {
+     "id": "p047|r1",
+     "text": "뇌와 행동의 이해 수업은 뇌 기능과 병변에 대한 기본적인 이해를 제공하여, 연구실에서 뇌와 신경과학을 더 잘 이해할 수 있습니다."
+    },
+    {
+     "id": "p047|r2",
+     "text": "이 연구실의 '뇌·신경과학' 연구와 연결돼요. 이 과목의 학습목표에서 \"To this end, the course will be provided as a good introduction to…\"를 다뤄요."
+    },
+    {
+     "id": "p047|r3",
+     "text": "뇌·신경과학 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p047|r4",
+     "text": "'뇌·신경과학' 연구에 필요한 neuroscience·end을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p048",
+   "lab": "김원화",
+   "lab_summary": "MRI·PET·CT 등 의료 영상에 통계·기계학습·그래프 이론 모델을 적용해 신경퇴행성 질환과 뇌 기능을 이해하는 의료정보처리 연구실이다.",
+   "topic": "그래프 이론 모델",
+   "topic_quote": "graph theoretical",
+   "course": "MECH427 광학과 현미경 / Optics and Microscopy",
+   "course_description": "광학 기본과 광학 영상 시스템의 대표적인 기술인 광학 현미경의 원리를 배운다. 광학은 비접촉 센싱을 통한정밀 측정, 고 해상도 고 대비도 영상화 등 에 필수적인 기술로 측정, fabrication, 광학 영상 기반 인공지능 학습 등에 활용될 수 있다. 광학 측정 및 영상 장치의 구조 및 활용에 중점을 둬서 공부한다.",
+   "evidence_sentence": "Class Introduction and Overview",
+   "reasons": [
+    {
+     "id": "p048|r1",
+     "text": "광학과 현미경 수업에서 배운 원리를 이용해 그래프 이론 모델을 실험적으로 검증할 수 있습니다."
+    },
+    {
+     "id": "p048|r2",
+     "text": "이 연구실의 '그래프 이론 모델' 연구와 연결돼요. 이 과목의 강의계획에서 \"Class Introduction and Overview\"를 다뤄요."
+    },
+    {
+     "id": "p048|r3",
+     "text": "의료 영상 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p048|r4",
+     "text": "'그래프 이론 모델' 연구에 필요한 Overview을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p049",
+   "lab": "김원화",
+   "lab_summary": "MRI·PET·CT 등 의료 영상에 통계·기계학습·그래프 이론 모델을 적용해 신경퇴행성 질환과 뇌 기능을 이해하는 의료정보처리 연구실이다.",
+   "topic": "그래프 이론 모델",
+   "topic_quote": "graph theoretical",
+   "course": "CSED342 인공지능 / Artificial Intelligence",
+   "course_description": "추천 선수과목 : CSED233 (데이터구조) 인공지능 문제의 특성과 기본 원리를 파악하고, 인공지능 문제 해결에 필요한 기초 이론과 방법론을 학습한다. 구체적으로 기계학습 이론, 탐색 알고리즘, Markov decision process, 강화학습, 게임, constraint satisfaction problem, Bayesian network, logic 등을 학습한다. 또한, 인공지능 구현 실습을 통해 일상생활에서 만나는인공지능 문제를 해결하기 위한 능력을 기른다.",
+   "evidence_sentence": "ML: NB, NN, DT, Kernel",
+   "reasons": [
+    {
+     "id": "p049|r1",
+     "text": "이 수업에서 배운 머신러닝 개념은 그래프 이론 모델 연구에 활용될 수 있어 도움이 될 수 있습니다."
+    },
+    {
+     "id": "p049|r2",
+     "text": "'그래프 이론 모델' 연구에 필요한 Kernel을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p049|r3",
+     "text": "이 연구실의 '그래프 이론 모델' 연구와 연결돼요. 이 과목의 강의계획에서 \"ML: NB, NN, DT, Kernel\"를 다뤄요."
+    },
+    {
+     "id": "p049|r4",
+     "text": "컴퓨터비전·영상인식 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p050",
+   "lab": "최승문",
+   "lab_summary": "햅틱 렌더링·지각을 중심으로 시각장애인용 한글 촉각 대체, XR 기반 원격 로봇 조작(공유 자율성), 소리→햅틱 자동 변환과 접근성을 연구한다.",
+   "topic": "다감각 상호작용",
+   "topic_quote": "Multisensory interaction methods for users in",
+   "course": "CSED356 인간-컴퓨터 상호작용 / Human-Computer Interaction",
+   "course_description": "일반 데스크탑 컴퓨터 뿐 아니라 현재 대부분의 전자기기는 일종의 컴퓨터로써 사용자와 다양한 컴퓨터 간의효과적인 상호작용을 설계하는 것이 나날이 중요해지고 있다. 이를 위한 기본적인 이론, 지식, 설계 지침에 대해서 공부하고 실제 상호작용을 설계, 구현, 평가하는 경험을 쌓는다.",
+   "evidence_sentence": "This course covers fundamental principles, techniques, and methods for designing, prototyping, and evaluating user interfaces.",
+   "reasons": [
+    {
+     "id": "p050|r1",
+     "text": "인간-컴퓨터 상호작용 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p050|r2",
+     "text": "'다감각 상호작용' 연구에 필요한 user interfaces·evaluating user을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p050|r3",
+     "text": "이 연구실의 '다감각 상호작용' 연구와 연결돼요. 이 과목의 학습목표에서 \"This course covers fundamental principles, techniques, and methods…\"를 다뤄요."
+    },
+    {
+     "id": "p050|r4",
+     "text": "이 수업에서 배운 기본 개념과 기법은 연구실의 다감각 상호작용 방법을 설계하고 평가하는 데 도움이 됩니다."
+    }
+   ]
+  },
+  {
+   "pair": "p051",
+   "lab": "최승문",
+   "lab_summary": "햅틱 렌더링·지각을 중심으로 시각장애인용 한글 촉각 대체, XR 기반 원격 로봇 조작(공유 자율성), 소리→햅틱 자동 변환과 접근성을 연구한다.",
+   "topic": "다감각 상호작용",
+   "topic_quote": "Multisensory interaction methods for users in",
+   "course": "CITE203 인터랙션 디자인 스튜디오 / Interaction Design Studio",
+   "course_description": "인터랙션 디자인이란 제품의 행동(product behavior)을 창조하고 정의하는 과정으로, 사물, 서비스, 환경의 사용성 및 심미성을 포함한다. 본 수업에서 학생들은 제품의 인터랙션 디자인 방법론을 학습하고, 이를 기초로 제품의 인터랙션을 디자인한다.",
+   "evidence_sentence": "Course overview",
+   "reasons": [
+    {
+     "id": "p051|r1",
+     "text": "인터랙션 디자인 스튜디오에서 배운 다감각 상호작용 방법론은 연구실의 실험과 테스트에 적용되어 실제 프로젝트 경험을 제공할 수 있습니다."
+    },
+    {
+     "id": "p051|r2",
+     "text": "인간-컴퓨터 상호작용 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p051|r3",
+     "text": "'다감각 상호작용' 연구에 필요한 overview을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p051|r4",
+     "text": "이 연구실의 '다감각 상호작용' 연구와 연결돼요. 이 과목의 학습목표에서 \"Course overview\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p052",
+   "lab": "최승문",
+   "lab_summary": "햅틱 렌더링·지각을 중심으로 시각장애인용 한글 촉각 대체, XR 기반 원격 로봇 조작(공유 자율성), 소리→햅틱 자동 변환과 접근성을 연구한다.",
+   "topic": "다감각 상호작용",
+   "topic_quote": "Multisensory interaction methods for users in",
+   "course": "IMEN443 UX디자인개론 / Introduction to User Experience Design",
+   "course_description": "선수과목 : 인간공학 User Experience 의미와 디자인 프로세스의 개요, device/service ecosystem and Lean UX 개념, 사용자 연구전략, 디자인, 프로토 타이핑에서 테스트에 이르기까지 프로세스의 각 단계에 대한 사용방법에 대해 알게 하고적용하는 방법을 찾아본다.",
+   "evidence_sentence": "UX Research (W7)",
+   "reasons": [
+    {
+     "id": "p052|r1",
+     "text": "UX 디자인개론에서 UX 연구를 배울 때, 다감각 상호작용 방법을 이해하면 사용자 경험 설계에 더 깊은 통찰을 얻을 수 있습니다."
+    },
+    {
+     "id": "p052|r2",
+     "text": "이 연구실의 '다감각 상호작용' 연구와 연결돼요. 이 과목의 강의계획에서 \"UX Research (W7)\"를 다뤄요."
+    },
+    {
+     "id": "p052|r3",
+     "text": "인간-컴퓨터 상호작용 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p052|r4",
+     "text": "'다감각 상호작용' 연구에 필요한 Research을(를) 배우는 과목이에요."
+    }
+   ]
+  },
+  {
+   "pair": "p053",
+   "lab": "최승문",
+   "lab_summary": "햅틱 렌더링·지각을 중심으로 시각장애인용 한글 촉각 대체, XR 기반 원격 로봇 조작(공유 자율성), 소리→햅틱 자동 변환과 접근성을 연구한다.",
+   "topic": "XR 원격 로봇 조작",
+   "topic_quote": "Operating a Remote Robot in an XR Environment Based on Shared Autonomy",
+   "course": "MECH439 로보틱스개론 / Introduction to Robotics",
+   "course_description": "로봇의 자유도, 로봇을 구성하는 actuator, sensor 등의 소개, kinematics, dynamics,          trajectory planning, 로봇제어 방법, Wheeled Mobile Robot 에 대한 이론이 소개된다. Kinematics 와 Dynamics 는 기본적인 Denavit-Hartenberg notation 과 함께 Lie Group Theory가 소개된다. 이를 기본으로 로봇 simulator 를 이용하여 다양한 로봇의 운동에 대한 이해를 높이게 된다.              구동 prog",
+   "evidence_sentence": "Robot Practice",
+   "reasons": [
+    {
+     "id": "p053|r1",
+     "text": "VR·AR·XR·메타버스 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p053|r2",
+     "text": "'XR 원격 로봇 조작' 연구에 필요한 Robot Practice을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p053|r3",
+     "text": "로보틱스개론에서 배운 원격 조작 기초 지식이 XR 환경에서 원격 로봇 조작을 이해하는 데 도움이 됩니다."
+    },
+    {
+     "id": "p053|r4",
+     "text": "이 연구실의 'XR 원격 로봇 조작' 연구와 연결돼요. 이 과목의 강의계획에서 \"Robot Practice\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p054",
+   "lab": "최승문",
+   "lab_summary": "햅틱 렌더링·지각을 중심으로 시각장애인용 한글 촉각 대체, XR 기반 원격 로봇 조작(공유 자율성), 소리→햅틱 자동 변환과 접근성을 연구한다.",
+   "topic": "제스처 로봇 제어",
+   "topic_quote": "Gesture-based control of autonomy-equipped robots",
+   "course": "CITE405 인간중심 디자인 스튜디오 / Human-Centered Design Studio",
+   "course_description": "IT융합 영역 중 인간과 컴퓨터간의 인터랙션(Human-Computer Interaction: HCI) 분야에 초점을 두며, 특히인간중심디자인(Human-Centered Design: HCD)의 이론과 실제를 다루기 위해 개설되었다. IT기술의 가파른 변화와 성장 속에서 인간중심적 사고 및 디자인 사고(Design Thinking)에 기반을 둔 창의적 IT 솔루션의 중요성이더욱 커지고 있다. 본 과목은 학생들이 결과중심적 사고가 아닌 과정 중심적 사고, 특히 인간중심적 사고와 디자인 방법론에입각한 IT 솔루션을 개발할 수 있는 이론",
+   "evidence_sentence": "Analysis/Define",
+   "reasons": [
+    {
+     "id": "p054|r1",
+     "text": "인간-컴퓨터 상호작용 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p054|r2",
+     "text": "'제스처 로봇 제어' 연구에 필요한 Analysis·Define을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p054|r3",
+     "text": "이 수업에서 학습한 문제 정의 기법은 제스처로봇 제어 연구에서 실제 문제를 파악하고 해결 방안을 찾는데 도움이 될 것이다."
+    },
+    {
+     "id": "p054|r4",
+     "text": "이 연구실의 '제스처 로봇 제어' 연구와 연결돼요. 이 과목의 학습목표에서 \"Analysis/Define\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p055",
+   "lab": "유환조",
+   "lab_summary": "추천시스템, 시계열 파운데이션 모델, 멀티모달 RAG, 로봇 파운데이션 모델(VLA) 등 데이터 인텔리전스 전반을 다루며 학부 인턴 프로젝트를 명시한다.",
+   "topic": "멀티모달 RAG·LLM",
+   "topic_quote": "Multimodal RAG",
+   "course": "EECE312 기계학습 시스템 개론 / Introduction to Machine Learning System",
+   "course_description": "최근 인공지능 기술의 발전에 의해, 전자전기공학 분야를 기반으로한 인공지능의 개발과 전자전기공학을 위한인공지능의 활용, 양방향으로 활발한 연구 및 발전이 이루어지고 있다. 따라서, 현재 전자공학도에게 인공지능및 기계학습의 기초 지식이 필수가 되어가고 있다. 본 과목에서는 데이터 기반 공학 문제들을 해결하기 위한 기본적인 고전 기계학습 이론과 응용의 기초에서부터최신 딥러닝 기반 학습 기법까지 넓은 범위를 다루는 수업으로 전자전기공학과 커리큘럼을 이수한 학생을대상으로 한다.",
+   "evidence_sentence": "Learning with multi-modal data (text and audio)",
+   "reasons": [
+    {
+     "id": "p055|r1",
+     "text": "이 연구실의 '멀티모달 RAG·LLM' 연구와 연결돼요. 이 과목의 강의계획에서 \"Learning with multi-modal data (text and audio)\"를 다뤄요."
+    },
+    {
+     "id": "p055|r2",
+     "text": "'멀티모달 RAG·LLM' 연구에 필요한 multi-modal·text audio을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p055|r3",
+     "text": "수업에서 다루는 멀티모달 데이터 학습은 연구실의 멀티모달 RAG 연구와 직접 관련되어 있어 도움이 될 것 같습니다."
+    },
+    {
+     "id": "p055|r4",
+     "text": "AI·기계학습 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p056",
+   "lab": "유환조",
+   "lab_summary": "추천시스템, 시계열 파운데이션 모델, 멀티모달 RAG, 로봇 파운데이션 모델(VLA) 등 데이터 인텔리전스 전반을 다루며 학부 인턴 프로젝트를 명시한다.",
+   "topic": "VLA·로봇 파운데이션 모델",
+   "topic_quote": "Time-aware multi-modal VLA Models",
+   "course": "CSED342 인공지능 / Artificial Intelligence",
+   "course_description": "추천 선수과목 : CSED233 (데이터구조) 인공지능 문제의 특성과 기본 원리를 파악하고, 인공지능 문제 해결에 필요한 기초 이론과 방법론을 학습한다. 구체적으로 기계학습 이론, 탐색 알고리즘, Markov decision process, 강화학습, 게임, constraint satisfaction problem, Bayesian network, logic 등을 학습한다. 또한, 인공지능 구현 실습을 통해 일상생활에서 만나는인공지능 문제를 해결하기 위한 능력을 기른다.",
+   "evidence_sentence": "ML: NB, NN, DT, Kernel",
+   "reasons": [
+    {
+     "id": "p056|r1",
+     "text": "인공지식에서 배운 머신러닝 개념은 시간에 의존적인 다중 모달 모델 개발에 도움을 줄 수 있습니다."
+    },
+    {
+     "id": "p056|r2",
+     "text": "'VLA·로봇 파운데이션 모델' 연구에 필요한 Kernel을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p056|r3",
+     "text": "이 연구실의 'VLA·로봇 파운데이션 모델' 연구와 연결돼요. 이 과목의 강의계획에서 \"ML: NB, NN, DT, Kernel\"를 다뤄요."
+    },
+    {
+     "id": "p056|r4",
+     "text": "AI·기계학습 · 자연어처리·언어모델 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p057",
+   "lab": "유환조",
+   "lab_summary": "추천시스템, 시계열 파운데이션 모델, 멀티모달 RAG, 로봇 파운데이션 모델(VLA) 등 데이터 인텔리전스 전반을 다루며 학부 인턴 프로젝트를 명시한다.",
+   "topic": "LLM 추천",
+   "topic_quote": "Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders",
+   "course": "IMEN472 데이터사이언스방법론 / Data Science Methodology",
+   "course_description": "선수과목 : 공학기초통계데이터마이닝의 주요 목적인 예측, 분류, 군집 및 연관규칙에 대한 구체적인 기법을 다룬다. 구체적으로 예측을 위해 변형된 회귀분석기법을, 분류를 위한 로지스틱회귀, 판별분석, 트리 등을, 군집을 위한 계층적군집, 비계층적군집기법을, 그리고 연관규칙을 위한 시장바구니분석, 추천시스템 등을 학습한다.",
+   "evidence_sentence": "구체적으로 예측을 위해 변형된 회귀분석기법을, 분류를 위한 로지스틱회귀, 판별분석, 트리 등을, 군집을 위한 계층적군집, 비계층적군집기법을, 그리고 연관규칙을 위한 시장바구니분석, 추천시스템 등을 학습한다.",
+   "reasons": [
+    {
+     "id": "p057|r1",
+     "text": "'LLM 추천' 연구에 필요한 추천시스템 등을·예측을 위해을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p057|r2",
+     "text": "데이터사이언스방법론에서 배운 다양한 알고리즘은 LLM 추천 연구실에서 모델을 선택하고 개발할 때 유용하게 활용될 수 있습니다."
+    },
+    {
+     "id": "p057|r3",
+     "text": "이 연구실의 'LLM 추천' 연구와 연결돼요. 이 과목의 과목 설명에서 \"구체적으로 예측을 위해 변형된 회귀분석기법을, 분류를 위한 로지스틱회귀, 판별분석, 트리 등을, 군집을 위한 계층적군집,…\"를 다뤄요."
+    },
+    {
+     "id": "p057|r4",
+     "text": "추천시스템 지식을 연결해볼 수 있습니다."
+    }
+   ]
+  },
+  {
+   "pair": "p058",
+   "lab": "유환조",
+   "lab_summary": "추천시스템, 시계열 파운데이션 모델, 멀티모달 RAG, 로봇 파운데이션 모델(VLA) 등 데이터 인텔리전스 전반을 다루며 학부 인턴 프로젝트를 명시한다.",
+   "topic": "시계열 분석",
+   "topic_quote": "Dynamic Multi-period Experts for Online Time Series Forecasting",
+   "course": "CSED343 기계학습을 위한 수학 / Mathematics for Machine Learning",
+   "course_description": "추천 선수과목 : MATH203 (응용선형대수), MATH230 (확률및통계), IMEN261 (최적화개론) 기계학습은 데이터를 기반으로 패턴을 찾아내고 이를 통해 관찰되지 않은 대상들에 대해 예측을 수행하는다양한 원리를 제공하는 학문으로 본 과목에서는 이러한 기계학습에서 사용되는 다양한 알고리즘을 이해하기위한 기본적인 수학적 지식들에 대하여 다루고 있다. 강의의 전반부에서는 선형대수, 해석기하학, 행렬분해, 벡터미적분, 확률과분포, 최적화와 같은 다양한 기초수학들을 다루며 후반부에서는 선형회귀, 로지스틱회귀, 서포트벡터머신, 주성",
+   "evidence_sentence": "Probability and Distribution",
+   "reasons": [
+    {
+     "id": "p058|r1",
+     "text": "수업에서 배운 확률과 분포는 연구실에서 사용하는 시계열 예측 모델 이해에 도움이 됩니다."
+    },
+    {
+     "id": "p058|r2",
+     "text": "'시계열 분석' 연구에 필요한 Probability Distribution을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p058|r3",
+     "text": "AI·기계학습 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p058|r4",
+     "text": "이 연구실의 '시계열 분석' 연구와 연결돼요. 이 과목의 강의계획에서 \"Probability and Distribution\"를 다뤄요."
+    }
+   ]
+  },
+  {
+   "pair": "p059",
+   "lab": "유환조",
+   "lab_summary": "추천시스템, 시계열 파운데이션 모델, 멀티모달 RAG, 로봇 파운데이션 모델(VLA) 등 데이터 인텔리전스 전반을 다루며 학부 인턴 프로젝트를 명시한다.",
+   "topic": "AI·기계학습",
+   "topic_quote": "Undergraduates interested in research internships are encouraged to take AI-related courses before applying.",
+   "course": "MATH442 인공지능수학 / Mathematics for AI",
+   "course_description": "선수추천과목 : MATH101, MATH102 데이터과학의 기본이 되는 수학을 배우고 이룰 바탕으로 머신러닝의 기본적인 알고리즘과 응용을 배운다.",
+   "evidence_sentence": "It is hoped that students will\nhave a firm understanding of the mathematics for artificial intelligence and get ready to\nsolve practical problems arising from machine learning.",
+   "reasons": [
+    {
+     "id": "p059|r1",
+     "text": "'AI·기계학습' 연구에 필요한 learning·artificial intelligence을(를) 배우는 과목이에요."
+    },
+    {
+     "id": "p059|r2",
+     "text": "인공지능수학 수업을 통해 기계학습 문제 해결 능력을 키울 수 있어 연구실에서의 경험을 더욱enrich。"
+    },
+    {
+     "id": "p059|r3",
+     "text": "AI·기계학습 지식을 연결해볼 수 있습니다."
+    },
+    {
+     "id": "p059|r4",
+     "text": "이 연구실의 'AI·기계학습' 연구와 연결돼요. 이 과목의 학습목표에서 \"It is hoped that students will have a firm understanding of the…\"를 다뤄요."
+    }
+   ]
+  }
+ ]
+}

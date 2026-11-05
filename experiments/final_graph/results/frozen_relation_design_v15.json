@@ -1,0 +1,19 @@
+{
+  "status": "frozen_before_holdout_run",
+  "frame": "rich",
+  "version": "v15",
+  "design_reviews": {
+    "luna_a": "accept_development_design",
+    "luna_b": "accept_after_segment_wording_correction"
+  },
+  "hashes": {
+    "engine": "a3e1b8cca27c1711a4660ce09f57797cab3f07a9384b8970385407b8c5f8eb9d",
+    "vocabulary": "74d6c05edafda71596e7fc554f6b28b0c996848a94974322012568a9253f15a2",
+    "legacy_vocabulary": "afd98baddf1e9cc8728bdaea3da2ffd6be5a25591f6573642ea84718170be194",
+    "prereg": "5fd9a83a69e7c4ebe8c3ac856857a8d4e78da0f3f38bc0700920391e46bdf5aa",
+    "split": "0401950ccee0e2e716d608a787aace619f9c733693367de2307d6709eb3debf5",
+    "eligibility": "22c9d482a253ce6791c30b2f65bb08719680efe67e358a9974cb2754325405c0",
+    "dev_rankings": "eb353e39cc547c0e942cb59852969f625ecc26020718ce966ae7ad501f72072b"
+  },
+  "holdout_evaluated": false
+}

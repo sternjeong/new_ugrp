@@ -1,0 +1,9 @@
+{
+  "status": "unreviewed_prerequisite_field_code_mentions",
+  "source_sha256": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+  "eligibility_sha256": "22c9d482a253ce6791c30b2f65bb08719680efe67e358a9974cb2754325405c0",
+  "distinct_course_pairs": 322,
+  "literal_occurrences": 334,
+  "extractor_sha256": "4fd5a25384ad76df3e47b41feac54f561e308ee42c0f794dd7bf707f19bfca7d",
+  "output_sha256": "9d9f5174269df7f8379cf9bafb782e86d77575a665e6ffdd14b718112199fdee"
+}

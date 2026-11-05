@@ -1,0 +1,27 @@
+{
+  "status": "complete_after_independent_A_and_B_reviews",
+  "date": "2026-10-16",
+  "pdf_pages": 10,
+  "kaggle_gpu_runs": [
+    "20261016-034825-embedding-field-ablation",
+    "20261016-035838-shuffled-admin-kaggle"
+  ],
+  "artifacts": {
+    "reports/embedding_rule_schema_lecture_2026-10-16.md": "c4aa9ed1aaf4cacf75aa145ed9595943b353d7ffde64bb82a2e91945f74e3453",
+    "reports/embedding_rule_schema_lecture_2026-10-16.pdf": "7a09df1e9c6a0f4fc8a88d9094bd7738cdfd892c8b280917069b704cdf6abef0",
+    "reports/build_embedding_rule_schema_lecture.sh": "3bed60a2e71a9902e398814b2c26c6071a3768c6f4708a10df06363e4672f55c",
+    "reports/embedding_rule_schema_lecture.css": "dab878d45506e77c155a5d9294b8e2a0639dea72e3b94547e52cf2c8b623b6e9",
+    "docs/analysis/EMBEDDING_INPUT_SCHEMA_V1.md": "8294f45e889d072dc17281dc337a7e80f65d0e7e60655f726f6068d49e5b954e",
+    "experiments/final_graph/results/embedding_field_ablation_v1/analysis.json": "301ac58ad6feee5c67441a7b19b6ca1eb0c3ec96f1558fd1ad2f2a5d467234a1",
+    "experiments/final_graph/results/embedding_field_ablation_v1/A_REVIEW.md": "f883f44bc98224f772c73c6089ff6504e57ba630cd0a4bfc4f917c07d595c4d6",
+    "experiments/final_graph/results/embedding_field_ablation_v1/B_REVIEW.md": "3ba463b7fa51ec2ca876beb0d838fb409a2e7380d221b7d29c1aec1a48a8aedc",
+    "experiments/final_graph/results/embedding_field_ablation_v1/duplicate_rating_sensitivity.json": "bcf2ccc2a6f6c3e08c6b4e631f913ce38275e2a87d7197395276345f7203dad2",
+    "experiments/final_graph/results/embedding_field_ablation_v1/shuffled_admin_manifest.json": "ae9d32e81e949be78278b182bcc312e61e90edf0bdb0823fadfe9124442e40eb",
+    "experiments/final_graph/results/embedding_field_ablation_v1/specific_noise_support_audit.json": "cb94d0591b98f12ba49d759cc0a27084c8147c71a49c090df8300b265dd87a76",
+    "experiments/final_graph/audit_specific_noise_support.py": "b3ce33b2189cdb5e5ea39bb3cbf49bbd01928bbda57fceb3f0ab4261644b3342"
+  },
+  "source_data_sha256": {
+    "final_courses.jsonl": "828aa18576fd6282d7ebc42acdc840c62e3260af908493bb424b70b66c092d65",
+    "final_labs.jsonl": "d8aaec626071062d6d9f03effe21b5258bd3b951515aed005908a9929eba4eb2"
+  }
+}
