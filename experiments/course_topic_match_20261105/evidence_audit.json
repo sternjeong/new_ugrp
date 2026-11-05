@@ -1,0 +1,14 @@
+{
+  "selection": "사후 탐색: 두 기존 평가자가 연구실-과목 쌍 관련도 2로 동의한 120쌍 중 random.Random(221)으로 8쌍. 선정 연구 청크는 모델이 선택. 이번 작성자가 연구·과목 청크만 보고 판정했으며 독립 평가 아님.",
+  "question": "선택된 두 청크 자체에 구체적으로 공유되는 연구 방법·대상·개념이 나타나는가? 숙련도·필요조건·실제 활용을 확인하는 판정이 아니다.",
+  "ratings": [
+    {"pair_id":"pair:a174f50b1be9b866","direct":true,"reason":"촉매 반응이 양쪽에 명시됨."},
+    {"pair_id":"pair:dcd9cd00a286d280","direct":false,"reason":"전력 제어 키워드와 단위계 변환 학습 항목의 구체적 연결은 선택 청크만으로 불명."},
+    {"pair_id":"pair:164bca8c21a15a6a","direct":true,"reason":"합성생물학과 합성 유전자 관련 내용이 명시됨."},
+    {"pair_id":"pair:d57403ad53ab5df0","direct":true,"reason":"배터리·연료전지·전기화학 촉매가 양쪽에 명시됨."},
+    {"pair_id":"pair:fd449349c4fd9c28","direct":true,"reason":"사용자 시나리오가 양쪽에 명시됨."},
+    {"pair_id":"pair:b42c6e57f9a72316","direct":false,"reason":"유기반응이라는 넓은 제목·항목만 보이며 구체적인 연구 방법 연결이 드러나지 않음."},
+    {"pair_id":"pair:f27bc80d571dd771","direct":false,"reason":"장내 미생물 연구와 광범위한 환경생물 진도의 구체적 연결은 이 청크만으로 불명."},
+    {"pair_id":"pair:37b5c458683b5f03","direct":false,"reason":"수소 취성 연구와 일반 물성·소재 설명의 구체적 접점은 이 청크만으로 불명."}
+  ]
+}

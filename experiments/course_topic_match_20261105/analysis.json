@@ -1,0 +1,914 @@
+{
+  "a": {
+    "labs": 28,
+    "components": 18,
+    "pairs_with_sufficient_evidence": 327,
+    "metrics": {
+      "ndcg5": {
+        "baseline": 0.8064904077851821,
+        "snippet": 0.8290379631552021,
+        "difference": 0.022547555370019956,
+        "bootstrap95": [
+          -0.009920760154334136,
+          0.05737447100821128
+        ]
+      },
+      "precision5": {
+        "baseline": 0.641358024691358,
+        "snippet": 0.6524691358024691,
+        "difference": 0.011111111111111072,
+        "bootstrap95": [
+          0.0,
+          0.03333333333333335
+        ]
+      },
+      "zero5": {
+        "baseline": 0.08580246913580247,
+        "snippet": 0.07469135802469136,
+        "difference": -0.011111111111111113,
+        "bootstrap95": [
+          -0.03333333333333333,
+          0.0
+        ]
+      }
+    },
+    "per_lab": [
+      {
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "component_id": "component:0316f4690be6c52512f3",
+        "candidates": 9,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "component_id": "component:287875153d22360a3f20",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.7860137352654726,
+          "precision5": 0.8,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.8573424901769817,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "component_id": "component:b146477b8ae47c038701",
+        "candidates": 20,
+        "baseline": {
+          "ndcg5": 0.3156484524795145,
+          "precision5": 0.0,
+          "zero5": 0.6
+        },
+        "snippet": {
+          "ndcg5": 0.5531464700081437,
+          "precision5": 0.0,
+          "zero5": 0.6
+        }
+      },
+      {
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 17,
+        "baseline": {
+          "ndcg5": 0.36528481497527493,
+          "precision5": 0.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.36528481497527493,
+          "precision5": 0.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "component_id": "component:de6d38a269d532de4b1f",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 0.9578347709816888,
+          "precision5": 0.4,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.7603739868614454,
+          "precision5": 0.4,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "component_id": "component:0348bda54f380dda5cfc",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.708919405561798,
+          "precision5": 0.4,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.708919405561798,
+          "precision5": 0.4,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "component_id": "component:253974c081d49d23ed80",
+        "candidates": 5,
+        "baseline": {
+          "ndcg5": 0.9047172294870752,
+          "precision5": 0.8,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.9047172294870752,
+          "precision5": 0.8,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "component_id": "component:055b3114a9870ca21bcb",
+        "candidates": 8,
+        "baseline": {
+          "ndcg5": 0.773893196484256,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8869465982421281,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "component_id": "component:fb672f816c7455a3c8a7",
+        "candidates": 9,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "component_id": "component:f5fa981cf8325e806fac",
+        "candidates": 12,
+        "baseline": {
+          "ndcg5": 0.759963590281844,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.7442890884191097,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "component_id": "component:d2aaead8f7b28df2b234",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.8151510484299679,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.9026211001048624,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.8573424901769817,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.9125299483251055,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 12,
+        "baseline": {
+          "ndcg5": 0.7714160225925206,
+          "precision5": 0.6,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.7557415207297863,
+          "precision5": 0.6,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "component_id": "component:de6d38a269d532de4b1f",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.8389776660073724,
+          "precision5": 0.4,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8025392158797567,
+          "precision5": 0.4,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "component_id": "component:6e6dfc5b58aa13e85e07",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.9125299483251055,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.9125299483251055,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.660839794726384,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.7442890884191097,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.7408782483994215,
+          "precision5": 0.6,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.6877623875401737,
+          "precision5": 0.6,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "component_id": "component:e88d1ed2b2a8df0047de",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 0.9026211001048624,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8869465982421281,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "component_id": "component:c4094dfd86366fd2e898",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "component_id": "component:56278002aeb889b2f5d3",
+        "candidates": 14,
+        "baseline": {
+          "ndcg5": 0.759963590281844,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8151510484299679,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.6312356866612376,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.660839794726384,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.7895676983469904,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8151510484299679,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "component_id": "component:8190dcd5e8051ab7bf60",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.4706617492287646,
+          "precision5": 0.2,
+          "zero5": 0.4
+        },
+        "snippet": {
+          "ndcg5": 0.4313599096558011,
+          "precision5": 0.2,
+          "zero5": 0.4
+        }
+      },
+      {
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "component_id": "component:253974c081d49d23ed80",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 0.6327080164462338,
+          "precision5": 0.2,
+          "zero5": 0.4
+        },
+        "snippet": {
+          "ndcg5": 0.662760263176956,
+          "precision5": 0.2,
+          "zero5": 0.4
+        }
+      },
+      {
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 5,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "component_id": "component:21335b159b363a72257a",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.8869465982421281,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8869465982421281,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "component_id": "component:ce98c7f56b1bb67bfec5",
+        "candidates": 5,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      }
+    ]
+  },
+  "b": {
+    "labs": 28,
+    "components": 18,
+    "pairs_with_sufficient_evidence": 327,
+    "metrics": {
+      "ndcg5": {
+        "baseline": 0.8127035379830069,
+        "snippet": 0.8122983164614865,
+        "difference": -0.0004052215215203381,
+        "bootstrap95": [
+          -0.050467245548095466,
+          0.04346573839664805
+        ]
+      },
+      "precision5": {
+        "baseline": 0.6308641975308642,
+        "snippet": 0.6432098765432099,
+        "difference": 0.012345679012345734,
+        "bootstrap95": [
+          0.0,
+          0.03580246913580246
+        ]
+      },
+      "zero5": {
+        "baseline": 0.06481481481481481,
+        "snippet": 0.06358024691358025,
+        "difference": -0.001234567901234565,
+        "bootstrap95": [
+          -0.0037037037037037034,
+          0.0
+        ]
+      }
+    },
+    "per_lab": [
+      {
+        "lab_id": "lab:242b80e78d0ebf34b7e88447b4be511d",
+        "component_id": "component:0316f4690be6c52512f3",
+        "candidates": 9,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:86b6cc6dac0b7793853eff49fe69c0ee",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:a884b1d54c2547e8e5d55978297cbf47",
+        "component_id": "component:287875153d22360a3f20",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.8573424901769817,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8573424901769817,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:fb2fac5a80ef2282b3e28bfef45b66ac",
+        "component_id": "component:b146477b8ae47c038701",
+        "candidates": 20,
+        "baseline": {
+          "ndcg5": 0.3156484524795145,
+          "precision5": 0.0,
+          "zero5": 0.6
+        },
+        "snippet": {
+          "ndcg5": 0.5531464700081437,
+          "precision5": 0.0,
+          "zero5": 0.6
+        }
+      },
+      {
+        "lab_id": "lab:092088c19c65bcacefd6d9713f954a06",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 17,
+        "baseline": {
+          "ndcg5": 0.2202799315754613,
+          "precision5": 0.0,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.5594401368490775,
+          "precision5": 0.2,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:8a89fd3c5bc81918486a8ef633c47d51",
+        "component_id": "component:de6d38a269d532de4b1f",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 0.9444537180991301,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.7743787950430012,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:cc1d600a3f6a859f24fb5b91d04320d3",
+        "component_id": "component:0348bda54f380dda5cfc",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.646910188523972,
+          "precision5": 0.4,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.646910188523972,
+          "precision5": 0.4,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:6b6d785944d0b63e339c6ee33809e6bb",
+        "component_id": "component:253974c081d49d23ed80",
+        "candidates": 5,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:159e63d1befbc37139b2b5e1a1573f69",
+        "component_id": "component:055b3114a9870ca21bcb",
+        "candidates": 8,
+        "baseline": {
+          "ndcg5": 0.8480742992651266,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.9719643720954757,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:1727629e51972773487fbf21044d3a6f",
+        "component_id": "component:fb672f816c7455a3c8a7",
+        "candidates": 9,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:169b1b99d66151835a920cf0830a154e",
+        "component_id": "component:f5fa981cf8325e806fac",
+        "candidates": 12,
+        "baseline": {
+          "ndcg5": 0.6724935386069495,
+          "precision5": 0.4,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.7442890884191097,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:2d8a05711c73101da3adb5114339a869",
+        "component_id": "component:d2aaead8f7b28df2b234",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.766461598482399,
+          "precision5": 0.6,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.766461598482399,
+          "precision5": 0.6,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:7e21ea71de8805264e1b2355ef104dee",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.8573424901769817,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.9125299483251055,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:146fd8785d265b6864181fae6c7b50b7",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 12,
+        "baseline": {
+          "ndcg5": 0.7714160225925206,
+          "precision5": 0.6,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.7557415207297863,
+          "precision5": 0.6,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:69a14bca4d6c9bfd397ddd014cafb63c",
+        "component_id": "component:de6d38a269d532de4b1f",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.6357901029964336,
+          "precision5": 0.2,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.5993516528688179,
+          "precision5": 0.2,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:cfb371b02971dcfe4c15bc09a01f6057",
+        "component_id": "component:6e6dfc5b58aa13e85e07",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 1.0,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:0a808026bdf92ba0c4cc4c5bd2456eb6",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.5181822849033656,
+          "precision5": 0.4,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.5181822849033656,
+          "precision5": 0.4,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:1d4ec3b5e4294f3d43637a3689ede475",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.7895676983469904,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.7442890884191097,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:1ac8c28030e98810deea0ad1921fd7d3",
+        "component_id": "component:e88d1ed2b2a8df0047de",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 0.8151510484299679,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.660839794726384,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:52ae979e5a521ff22239a968c4281903",
+        "component_id": "component:c4094dfd86366fd2e898",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.9026211001048624,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8573424901769817,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:f9669f40ae5aba8c9c82eb4080558182",
+        "component_id": "component:56278002aeb889b2f5d3",
+        "candidates": 14,
+        "baseline": {
+          "ndcg5": 0.759963590281844,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8151510484299679,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:b19c909a5a99b205393fba060354fabd",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.6312356866612376,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.660839794726384,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:c1e42f4dae5e42465ef090fda69e81f3",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 13,
+        "baseline": {
+          "ndcg5": 0.9026211001048624,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.9026211001048624,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:186269114ee370a858eb614d6c483b08",
+        "component_id": "component:8190dcd5e8051ab7bf60",
+        "candidates": 15,
+        "baseline": {
+          "ndcg5": 0.8732175842103337,
+          "precision5": 0.4,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.6364549605171268,
+          "precision5": 0.4,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:dca0e6345b09bf0340fc1f8c7b7f0417",
+        "component_id": "component:253974c081d49d23ed80",
+        "candidates": 10,
+        "baseline": {
+          "ndcg5": 0.5664415584195445,
+          "precision5": 0.2,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.597444165018431,
+          "precision5": 0.2,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:0ee287568e5625227fa66d9143fd1a89",
+        "component_id": "component:9fff3a9f7cb3d7b6d9c3",
+        "candidates": 5,
+        "baseline": {
+          "ndcg5": 0.7037693318309864,
+          "precision5": 0.2,
+          "zero5": 0.2
+        },
+        "snippet": {
+          "ndcg5": 0.5967557363289646,
+          "precision5": 0.2,
+          "zero5": 0.2
+        }
+      },
+      {
+        "lab_id": "lab:5a6db25479631b2084f1250f7d373391",
+        "component_id": "component:21335b159b363a72257a",
+        "candidates": 11,
+        "baseline": {
+          "ndcg5": 0.8869465982421281,
+          "precision5": 0.8,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 0.8869465982421281,
+          "precision5": 0.8,
+          "zero5": 0.0
+        }
+      },
+      {
+        "lab_id": "lab:29e9926344ed3f65c2eb83ba824f0540",
+        "component_id": "component:ce98c7f56b1bb67bfec5",
+        "candidates": 5,
+        "baseline": {
+          "ndcg5": 1.0,
+          "precision5": 0.6,
+          "zero5": 0.0
+        },
+        "snippet": {
+          "ndcg5": 1.0,
+          "precision5": 0.6,
+          "zero5": 0.0
+        }
+      }
+    ]
+  }
+}
