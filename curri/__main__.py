@@ -8,6 +8,7 @@ from .kaggle_launcher import KaggleLauncher
 from .meeting_links import load_provider
 from .server import make_server
 from .store import Store
+from .research_papers import ResearchPapers
 
 
 def main():
@@ -23,6 +24,7 @@ def main():
     parser.add_argument('--no-query-engine', action='store_true', help='질의 해석·임베딩 검색 엔진을 끄고 이전 사전 검색만 사용')
     parser.add_argument('--kaggle-launcher-config', type=Path, default=root / '.local' / 'kaggle_launcher.json', help='없으면 사용자 질의로 Kaggle 워커를 자동 시작하지 않음')
     parser.add_argument('--meeting-links-config', type=Path, default=root / '.local' / 'meeting_links.json', help='온라인 만남 확정 시 Google Meet·Zoom 링크를 만들 설정. 없으면 링크를 직접 입력받음')
+    parser.add_argument('--guide-variant-file', type=Path, default=root / '.local' / 'guide_variant', help='가이드 버전 A 또는 B가 적힌 파일. 없으면 A')
     args = parser.parse_args()
     try:
         catalog = CuratedCatalog(args.data_dir)
@@ -36,7 +38,9 @@ def main():
         broker = EmbedBroker(args.worker_token_file.read_text().strip())
     launcher = KaggleLauncher(args.kaggle_launcher_config) if broker and args.kaggle_launcher_config.is_file() else None
     engine = CuratedQueryEngine(catalog, broker, launcher=launcher) if not args.no_query_engine else None
-    server = make_server(args.host, args.port, catalog, store, args.secure_cookie, community, engine, broker)
+    research_papers = ResearchPapers(args.data_dir / 'papers.jsonl')
+    server = make_server(args.host, args.port, catalog, store, args.secure_cookie, community, engine, broker,
+                         research_papers, args.guide_variant_file)
     print(f'3분커리: http://{args.host}:{server.server_port} · 엔진 curated · 질의 엔진 {"켜짐" if engine else "꺼짐"} · 임베딩 워커 {"대기" if broker else "없음"} · 만남 링크 {meeting_links.label if meeting_links else "직접 입력"} (종료: Ctrl+C)', flush=True)
     try:
         server.serve_forever()

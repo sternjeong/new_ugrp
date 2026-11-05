@@ -53,6 +53,9 @@ class Store:
                 guide TEXT, note TEXT NOT NULL, saved INTEGER NOT NULL,
                 previous_versions TEXT NOT NULL DEFAULT '[]', updated REAL NOT NULL,
                 PRIMARY KEY(owner,lab_id));
+            CREATE TABLE IF NOT EXISTS guide_variant_counts (
+                day TEXT NOT NULL, variant TEXT NOT NULL, event TEXT NOT NULL,
+                count INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(day, variant, event));
             ''')
             existing = {row['name'] for row in db.execute('PRAGMA table_info(users)')}
             for name, kind in USER_COLUMNS.items():
@@ -172,6 +175,15 @@ class Store:
                 selected_ids=excluded.selected_ids,guide=excluded.guide,note=excluded.note,
                 saved=excluded.saved,updated=excluded.updated''',
                 (self._owner(session), lab_id, json.dumps(selected_ids), json.dumps(guide, ensure_ascii=False) if guide is not None else None, note, int(saved), time.time()))
+
+    def count_guide_event(self, variant, event):
+        if variant not in ('A', 'B') or event not in ('explore', 'guide'):
+            raise ValueError('Invalid guide event')
+        day = time.strftime('%Y-%m-%d', time.gmtime())
+        with self.db() as db:
+            db.execute('''INSERT INTO guide_variant_counts(day, variant, event, count) VALUES (?, ?, ?, 1)
+                          ON CONFLICT(day, variant, event) DO UPDATE SET count=count+1''',
+                       (day, variant, event))
 
     def authenticate(self, token, email, password, register=False, nickname=None, account=None):
         email = email.strip().lower()

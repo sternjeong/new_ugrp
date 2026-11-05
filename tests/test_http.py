@@ -10,6 +10,8 @@ from curri.catalog import Catalog
 from curri.store import Store
 from curri.server import make_server
 from test_catalog import fixture
+from curri.research_papers import ResearchPapers
+from unittest.mock import patch
 
 
 class HttpTests(unittest.TestCase):
@@ -95,3 +97,32 @@ class HttpTests(unittest.TestCase):
         self.request('/api/session')
         self.assertEqual(self.request('/api/explore', {'lab_id': 'bio'})[0], 200)
         self.assertEqual(self.request('/api/explore', {'lab_id': 'duplicate'})[0], 200)
+
+    def test_guide_version_can_be_switched_and_old_guides_are_hidden(self):
+        root = Path(self.tmp.name)
+        papers = root / 'papers.jsonl'
+        papers.write_text(json.dumps({'id': 'bio', 'papers': [
+            {'openalex_id': 'W1', 'title': 'Biology research', 'year': 2025, 'abstract': 'A study.'}]}))
+        flag = root / 'variant'
+        server = make_server('127.0.0.1', 0, Catalog(root), Store(root / 'version.sqlite'),
+                             research_papers=ResearchPapers(papers), guide_variant_file=flag)
+        threading.Thread(target=server.serve_forever, daemon=True).start()
+        self.addCleanup(server.server_close)
+        self.addCleanup(server.shutdown)
+        self.url = f'http://127.0.0.1:{server.server_port}'
+        self.assertEqual(self.request('/api/explore', {'lab_id': 'bio'})[1]['guide_variant'], 'A')
+        self.assertEqual(self.request('/api/guide', {'lab_id': 'bio', 'selected_ids': []})[1]['guide']['variant'], 'A')
+        flag.write_text('B')
+        detail = self.request('/api/explore', {'lab_id': 'bio'})[1]
+        self.assertIsNone(detail['exploration']['guide'])
+        self.assertEqual(detail['lab']['research_papers'][0]['id'], 'W1')
+        self.assertEqual(self.request('/api/guide', {'lab_id': 'bio', 'selected_ids': [], 'paper_ids': ['W999']})[0], 400)
+        with patch.object(ResearchPapers, 'references', return_value=([], False)):
+            guide = self.request('/api/guide', {'lab_id': 'bio', 'selected_ids': [], 'paper_ids': ['W1']})[1]['guide']
+        self.assertEqual(guide['variant'], 'B')
+        self.assertEqual(guide['research']['selected'][0]['id'], 'W1')
+        flag.write_text('A')
+        self.assertIsNone(self.request('/api/explore', {'lab_id': 'bio'})[1]['exploration']['guide'])
+        with Store(root / 'version.sqlite').db() as db:
+            counts = {(r['variant'], r['event']): r['count'] for r in db.execute('SELECT * FROM guide_variant_counts')}
+        self.assertEqual(counts, {('A', 'explore'): 2, ('A', 'guide'): 1, ('B', 'explore'): 1, ('B', 'guide'): 1})

@@ -14,11 +14,21 @@ from .store import LoginRequired, InvalidCredentials, ProfileRequired
 STATIC = Path(__file__).parent / 'static'
 
 
-def make_server(host, port, catalog, store, secure_cookie=False, community=None, engine=None, broker=None):
+def make_server(host, port, catalog, store, secure_cookie=False, community=None, engine=None, broker=None,
+                research_papers=None, guide_variant_file=None):
     attempts = defaultdict(deque)
     searches = defaultdict(deque)
     community = community or Community(store, catalog)
     lock = threading.Lock()
+
+    def guide_variant():
+        if not research_papers or not guide_variant_file:
+            return 'A'
+        try:
+            variant = Path(guide_variant_file).read_text(encoding='utf-8').strip().upper()
+        except FileNotFoundError:
+            return 'A'
+        return variant if variant in ('A', 'B') else 'A'
 
     class Handler(BaseHTTPRequestHandler):
         server_version = 'Curri/0.1'
@@ -208,6 +218,9 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 canonical = catalog.resolve(lab_id)
                 if path == '/api/explore':
                     detail = catalog.detail(canonical)
+                    variant = guide_variant()
+                    if variant == 'B':
+                        detail = {**detail, 'research_papers': research_papers.recent(canonical)}
                     store.open_lab(self.token, canonical)
                     existing = next((r for r in store.snapshot(self.token)['explorations'] if r['lab_id'] == canonical), None)
                     if existing is None:
@@ -220,7 +233,11 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                         if dropped:
                             store.save_exploration(self.token, canonical, kept, None, existing.get('note', ''), existing.get('saved', False))
                             existing = {**existing, 'selected_ids': kept, 'guide': None, 'stale_selection_dropped': dropped}
-                    return self.respond(200, {'lab': detail, 'exploration': existing})
+                    if existing and existing.get('guide') and existing['guide'].get('variant', 'A') != variant:
+                        existing = {**existing, 'guide': None}
+                    if research_papers:
+                        store.count_guide_event(variant, 'explore')
+                    return self.respond(200, {'lab': detail, 'exploration': existing, 'guide_variant': variant})
                 selected = body.get('selected_ids', [])
                 # Validate course IDs before allocating an anonymous exploration.
                 if not isinstance(selected, list) or len(selected) > len(catalog.courses) or any(not isinstance(x, str) for x in selected):
@@ -232,7 +249,25 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 existing = next((r for r in store.snapshot(self.token)['explorations'] if r['lab_id'] == canonical), {})
                 if path == '/api/guide':
                     guide = catalog.guide(canonical, selected)
+                    variant = guide_variant()
+                    if variant == 'B':
+                        guide['research'] = research_papers.guide(canonical, body.get('paper_ids', []))
+                        if guide['research']['selected']:
+                            guide['start_now'] = [
+                                {'title': p['title'], 'difficulty': '논문 탐색',
+                                 'basis': '선택한 논문의 연구 문제와 방법을 살펴보세요.',
+                                 'steps': ['초록에서 연구 문제와 사용한 방법을 찾아봅니다.',
+                                           '선택한 과목의 내용과 연결할 수 있는 부분이 있는지 확인합니다.',
+                                           '논문 원문에서 결과와 한계를 확인합니다.'],
+                                 'evidence': [{'topic': p['id'], 'label': p['title'],
+                                               'text': p['abstract'] or p['title'], 'urls': [p['url']],
+                                               'section': 'paper', 'role': 'paper'}], 'courses': []}
+                                for p in guide['research']['selected']]
+                            guide['insufficient_evidence'] = False
+                    guide['variant'] = variant
                     store.save_exploration(self.token, canonical, selected, guide, existing.get('note', ''), existing.get('saved', False))
+                    if research_papers:
+                        store.count_guide_event(variant, 'guide')
                     return self.respond(200, {'guide': guide})
                 note, saved = body.get('note', ''), body.get('saved', False)
                 if not isinstance(note, str) or len(note) > 2000 or not isinstance(saved, bool):
