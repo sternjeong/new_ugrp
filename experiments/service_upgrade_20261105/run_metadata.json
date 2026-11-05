@@ -1,0 +1,10 @@
+{
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "model": "BAAI/bge-m3",
+  "model_load_s": 41.47530913352966,
+  "encode_s": 2.599254608154297,
+  "phrases": 836,
+  "documents": 3979,
+  "labs": 307
+}
