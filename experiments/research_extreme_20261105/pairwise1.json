@@ -1,0 +1,396 @@
+{
+  "contexts": {
+    "PC1-01": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB770",
+          "title": "반도체 소재 및 소자 특론",
+          "description": "This course will provide a fundamental understanding of emerging semiconductors (metal oxide, perovskite, organic)  and related device physics based on a solid understanding of silicon semiconductors and device physics. First, the silicon semiconductor and devices will be reviewed before the mid-term exam. Then the physics of new semiconductors including organic, perovskite, and metal oxide will be covered. The following lecture will be given,\n(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+          "plan": "(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-02": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "SEMI206",
+          "title": "반도체소재개론",
+          "description": "- 교과목 개요: The semiconductor devices are composed of various materials, i.e. metals, semiconductor, dielectrics, polymers in thin film structure, even in a nanometer scale. Therefore, it is required to understand the semiconductor technology, in the view of materials science and nanotechnology. This lecture provides the basic principles of materials used in semiconductor devices.\n  - 교육 목표: This course covers the basic theories and various properties of thin film such as metals, dielectrics, polymers, and semiconducting materials, which comprise semiconductor devices. In this class, students will understand basic materials science, such as crystal structure, synthesis, and materials properties necessary for present and future semiconductor devices.",
+          "plan": "1. Basics of crystal lattice and synthesis (1st ~2nd week)\n- Basics of crystal lattices\n- Crystal growth (bulk, thin film)\n\n2. Defects of materials (3rd ~5th week)\n- Atomic structure and defects (0D, 1D, 2D)\n\n3. Phase transition of materials (metal, semiconductor, amorphous) (6th ~ 8th week)\n- surface and interface\n- diffusion and kinetics\n- phase change\n\n4. Properties of materials (metals, semiconductors, dielectrics, and etc) (9th~13th week)\n- Electrical, thermal, mechanical, thermoelectric, electrochemical, and etc\n\n5. Characterization of Semiconductors (14th~ 15th week)\n- Electrical, optical, microscopic, structural, thermal, and etc\n\n6. Recent semiconductors driven by nanotechnology (16th week)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-03": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "논문에 나온 열처리 온도별 전류-전압 결과를 표로 정리하고, 접촉 장벽과 저항 변화가 어떤 의미인지 살펴보고 싶습니다.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB770",
+          "title": "반도체 소재 및 소자 특론",
+          "description": "This course will provide a fundamental understanding of emerging semiconductors (metal oxide, perovskite, organic)  and related device physics based on a solid understanding of silicon semiconductors and device physics. First, the silicon semiconductor and devices will be reviewed before the mid-term exam. Then the physics of new semiconductors including organic, perovskite, and metal oxide will be covered. The following lecture will be given,\n(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+          "plan": "(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-04": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": []
+    },
+    "PC1-05": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "AMSE315",
+          "title": "상평형 및 상변화",
+          "description": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.\n- 소재 상변화를 이해하기 위한 필수적인 기본지식(열역학, 고체 내 확산, 계면의 구조 및 특성)을 숙지한다.\n- 소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\n- 수업에서 배운 내용을 실제 맞춤형 소재 디자인에 적용해 본다.",
+          "plan": "1. Review of classical thermodynamics (1st ~ 2nd)\n  1) Equilibrium\n  2) Single component systems\n  3) Binary solutions and phase diagrams\n  4) The influence of interfaces on equilibrium\n\n2.   Defects and Diffusion (3rd ~ 5th)\n  1) Atomic mechanisms of diffusion\n  2) Interstitial and substitutional diffusion\n  3) Atomic mobility\n  4) High-Diffusivity Path\n\n3.   Surfaces and Interfaces (6th ~ 8th)\n  1) Interfacial free energy\n  2) Solid/Vapor interfaces\n  3) Boundaries in single-phase solids\n  4) Interphase interfaces in solids\n\n4.    Solidification (9th ~ 11th)\n 1) Homogeneous nucleation in pure solids\n 2) Heterogeneous nucleation in pure solids\n 3) Growth of a pure solids\n 4) Alloy solidification\n\n5.    Diffusional transformations in solids (12th ~ 14th)\n  1) Homogeneous nucleation in solids\n  2) Heterogeneous nucleation in solids\n  3) Precipitate growth\n  4) TTT diagrams\n  5) Spinodal Decomposition\n\n6.    Diffusionless transformations (15th)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-06": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "GIFT624",
+          "title": "Crystallography and crystal diffraction",
+          "description": "Students analyze various crystalline materials for their research. Most analytical equipment uses simulation software based on crystallography. To precisely evaluate phase and crystallographic orientation, a background in crystallography is necessary. This class introduces the key concepts of understanding crystallography and crystal diffraction, including various metallic and battery materials.",
+          "plan": "-Introduction (2)\n-Symmetry and its operation(2)\n-Crystal system and orientation(1.5)\n-Point, plane, and space groups (4)\n-Examples of crystal structures in metallic and battery materials (2)\n-Mid-term exam.\n-Defects in crystals (1)\n-X-ray diffraction (3)\n-Electron diffraction in metallic and battery materials (@EBSD,TEM: 5)\n-Final Exam. (Presentation)\n\n*Lecture schedule can be properly modified to promote the understanding.",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-07": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "합성·구조 조절 방법에 따라 보고된 응용이 어떻게 달라지는지 논문 표를 만들어 비교해 보고 싶습니다.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "AMSE315",
+          "title": "상평형 및 상변화",
+          "description": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.\n- 소재 상변화를 이해하기 위한 필수적인 기본지식(열역학, 고체 내 확산, 계면의 구조 및 특성)을 숙지한다.\n- 소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\n- 수업에서 배운 내용을 실제 맞춤형 소재 디자인에 적용해 본다.",
+          "plan": "1. Review of classical thermodynamics (1st ~ 2nd)\n  1) Equilibrium\n  2) Single component systems\n  3) Binary solutions and phase diagrams\n  4) The influence of interfaces on equilibrium\n\n2.   Defects and Diffusion (3rd ~ 5th)\n  1) Atomic mechanisms of diffusion\n  2) Interstitial and substitutional diffusion\n  3) Atomic mobility\n  4) High-Diffusivity Path\n\n3.   Surfaces and Interfaces (6th ~ 8th)\n  1) Interfacial free energy\n  2) Solid/Vapor interfaces\n  3) Boundaries in single-phase solids\n  4) Interphase interfaces in solids\n\n4.    Solidification (9th ~ 11th)\n 1) Homogeneous nucleation in pure solids\n 2) Heterogeneous nucleation in pure solids\n 3) Growth of a pure solids\n 4) Alloy solidification\n\n5.    Diffusional transformations in solids (12th ~ 14th)\n  1) Homogeneous nucleation in solids\n  2) Heterogeneous nucleation in solids\n  3) Precipitate growth\n  4) TTT diagrams\n  5) Spinodal Decomposition\n\n6.    Diffusionless transformations (15th)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-08": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": []
+    },
+    "PC1-09": {
+      "lab_id": "17a219bdf39951c186a22b1b72692bb0",
+      "department": "화학과",
+      "professor": "최창혁",
+      "interest": "아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요.",
+      "paper": {
+        "id": "W7204837857",
+        "title": "Atomically Dispersed Cu Sites Promote Facile Iodine Conversion for High‐Performance Zinc–Iodine Batteries",
+        "abstract": "ABSTRACT Aqueous zinc‐iodine (Zn–I 2 ) batteries are attracting attention as next‐generation energy storage systems based on their excellent safety and economic feasibility. However, due to the slow reaction rate of the iodine conversion reaction and the polyiodide shuttle effect, there is a limitation in that the electrochemical reaction efficiency and cyclability are deteriorated. This study attempted to address this problem by applying the Cu‐N 3 @AC electrode, which contains a single‐atom copper (Cu) catalyst in activated carbon (AC). The Cu‐N3 coordination structure serves as dual‐functional active sites that strongly immobilize iodine species and simultaneously promote reversible oxidation and reduction reactions. As a result, the Cu‐N 3 @AC electrode showed a high capacity of 416.17 mAh g cat −1 at 5 A g −1 . It maintained a capacity of 203.4 mAh g cat −1 and a Coulombic efficiency of 99.36% even after 30,000 cycles of a high current density of 10 A g −1 . This excellent performance is attributed to the Cu‐N3 coordination structure, which promotes charge transfer and effectively mitigates polyiodide diffusion. This study demonstrates that electronic structure control of Cu‐based single‐atom catalysts plays a key role in improving the speed and stability of iodine conversion reactions and provides practical design guidelines for the development of a high capacity and stable Zn–I 2 battery.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "BATT524",
+          "title": "에너지전기화학",
+          "description": "This course covers the fundamentals of electrochemistry for materials science and engineering including some important practical applications in energy research area. The lecture begins with an overview of electrode processes showing the way in which the fundamental components of the subject come together in an electrochemical experiment. Then, basic concepts of electrochemistry will be covered such as thermodynamics and potential, electron-transfer kinetics, and mass transfer. The basic concepts are integrated together in treatments of the various practical electrochemical methodologies. Finally, a few important applications of electrochemistry in materials science and engineering discipline will be briefly introduced such as batteries, fuel cells, water electrolysis, corrosion/anti-corrosion and electroplating.",
+          "plan": "- Introduction and overview of electrode processes\n- Potentials and thermodynamics of cells\n- Kinetics of electrode reactions\n- Mass transfer by migration and diffusion\n- Basic potential step methods\n- Potential sweep methods\n- Controlled-current techniques\n- Methods involving forced convection-hydrodynamic methods\n- Techniques based on concepts of impedance\n\n- Applications 1 (Battery)\n- Applications 2 (Fuel cell)\n- Applications 3 (Electrolysis)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-10": {
+      "lab_id": "17a219bdf39951c186a22b1b72692bb0",
+      "department": "화학과",
+      "professor": "최창혁",
+      "interest": "아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요.",
+      "paper": {
+        "id": "W7204837857",
+        "title": "Atomically Dispersed Cu Sites Promote Facile Iodine Conversion for High‐Performance Zinc–Iodine Batteries",
+        "abstract": "ABSTRACT Aqueous zinc‐iodine (Zn–I 2 ) batteries are attracting attention as next‐generation energy storage systems based on their excellent safety and economic feasibility. However, due to the slow reaction rate of the iodine conversion reaction and the polyiodide shuttle effect, there is a limitation in that the electrochemical reaction efficiency and cyclability are deteriorated. This study attempted to address this problem by applying the Cu‐N 3 @AC electrode, which contains a single‐atom copper (Cu) catalyst in activated carbon (AC). The Cu‐N3 coordination structure serves as dual‐functional active sites that strongly immobilize iodine species and simultaneously promote reversible oxidation and reduction reactions. As a result, the Cu‐N 3 @AC electrode showed a high capacity of 416.17 mAh g cat −1 at 5 A g −1 . It maintained a capacity of 203.4 mAh g cat −1 and a Coulombic efficiency of 99.36% even after 30,000 cycles of a high current density of 10 A g −1 . This excellent performance is attributed to the Cu‐N3 coordination structure, which promotes charge transfer and effectively mitigates polyiodide diffusion. This study demonstrates that electronic structure control of Cu‐based single‐atom catalysts plays a key role in improving the speed and stability of iodine conversion reactions and provides practical design guidelines for the development of a high capacity and stable Zn–I 2 battery.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "BATT623",
+          "title": "Thermodynamics and Phase Transformations",
+          "description": "•\tDevelop a fundamental understanding of thermodynamics and phase transformations in solid-state materials\n•\tAnalyze electrochemical profiles and redox mechanisms in battery materials based on thermodynamic and phase behavior\n•\tBuild intuition for both equilibrium and non-equilibrium electrochemical reaction mechanisms in solid-state electrodes",
+          "plan": "",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-11": {
+      "lab_id": "0195e9ad12189938d2dc6f445aa53c1a",
+      "department": "친환경소재대학원 친환경소재학과",
+      "professor": "이을범",
+      "interest": "입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4281682208",
+        "title": "Contractor’s Risk Analysis of Engineering Procurement and Construction (EPC) Contracts Using Ontological Semantic Model and Bi-Long Short-Term Memory (LSTM) Technology",
+        "abstract": "The development of intelligent information technology in the era of the fourth industrial revolution requires the EPC (engineering, procurement, and construction) industry to increase productivity through a digital transformation. This study aims to automatically analyze the critical risk clauses in the invitation to bid (ITB) at the bidding stage to strengthen their competitiveness for the EPC contractors. To this end, we developed an automated analysis technology that effectively analyzes a large amount of ITB documents in a short time by applying natural language processing (NLP) and bi-directional long short-term memory (bi-LSTM) algorithms. This study proposes two models. First, the semantic analysis (SA) model is a rule-based approach that applies NLP to extract key risk clauses. Second, the risk level ranking (RLR) model is a train-based approach that ranks the risk impact for each clause by applying bi-LSTM. After developing and training an artificial intelligent (AI)-based ITB analysis model, its performance was evaluated through the actual project data. As a result of validation, the SA model showed an F1 score of 86.4 percent, and the RLR model showed an accuracy of 46.8 percent. The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset. Therefore, this study illustrated that the rule-based approach performed superior to the training-based method. The authors suggest that EPC contractors should apply both the SA and RLR modes in the ITB analysis, as one supplements the other. The two models were embedded in the Engineering Machine-learning Automation Platform (EMAP), a cloud-based platform developed by the authors. Rapid analysis through applying both the rule-based and AI-based automatic ITB analysis technology can contribute to securing timeliness for risk response and supplement possible human mistakes in the bidding stage.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "GIFT714",
+          "title": "Engineering Project Management",
+          "description": "This class introduces the knowledge and skills for the project management in dealing with mega engineering procurement construction (EPC) projects thought the project life cycle processes.\nIt covers some basic features of PM’s elements such as (1) scheduling, (2) contracting, (3) cost, (4) project financing, and (5) risks.\nA few number of case-study examples will be exemplified, utilizing recent research on the data and analysis for industrial megaprojects performances.\nSome PM software basic tools such as for scheduling risk will be introduced through hands-on lab practices.",
+          "plan": "Tentative Topics and Progress\nWeek\tTopic\n1\tEngineering Megaprojects Industry: Trends and Prospects\n2\tEngineering Proejct Life-cycle Process\n3\tEPC Engineering Process\n4\tEngineering PM Practice – Planning and Feasibility\n5\tEngineering PM Practice – Bid and ITB (Invitation to Bid)\n6\tEngineering PM Practice – Contract & Claims Management\n7\tGlobal PM Standards: PM Knowledge Areas and Process Group\n8\tEngineering Project - Procurement and Supply Process\n9\tEngineering Project - Construction and Commissioning Process\n10\tProject Delivery Systems (DBB-DB-EPC-BOT)\n\t11\t\tContract Types (Payments) and Bid Selection Criteria\n12\tEPC Variations Delivery: EP-CM vs converted-LSTK (Lumpsum-turnkey)\n13\tStandard Contracts: FEDIC Model Forms (Red-Silver-Yellow-Orange: Rainbow Suite)\n14\tTerm Project (1): AI/BD based Smart-Engineering PM -1\n15\tTerm Project (2): AI/BD based Smart-Engineering PM -2\n16\tFinal Exam and Summary",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC1-12": {
+      "lab_id": "0195e9ad12189938d2dc6f445aa53c1a",
+      "department": "친환경소재대학원 친환경소재학과",
+      "professor": "이을범",
+      "interest": "입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4281682208",
+        "title": "Contractor’s Risk Analysis of Engineering Procurement and Construction (EPC) Contracts Using Ontological Semantic Model and Bi-Long Short-Term Memory (LSTM) Technology",
+        "abstract": "The development of intelligent information technology in the era of the fourth industrial revolution requires the EPC (engineering, procurement, and construction) industry to increase productivity through a digital transformation. This study aims to automatically analyze the critical risk clauses in the invitation to bid (ITB) at the bidding stage to strengthen their competitiveness for the EPC contractors. To this end, we developed an automated analysis technology that effectively analyzes a large amount of ITB documents in a short time by applying natural language processing (NLP) and bi-directional long short-term memory (bi-LSTM) algorithms. This study proposes two models. First, the semantic analysis (SA) model is a rule-based approach that applies NLP to extract key risk clauses. Second, the risk level ranking (RLR) model is a train-based approach that ranks the risk impact for each clause by applying bi-LSTM. After developing and training an artificial intelligent (AI)-based ITB analysis model, its performance was evaluated through the actual project data. As a result of validation, the SA model showed an F1 score of 86.4 percent, and the RLR model showed an accuracy of 46.8 percent. The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset. Therefore, this study illustrated that the rule-based approach performed superior to the training-based method. The authors suggest that EPC contractors should apply both the SA and RLR modes in the ITB analysis, as one supplements the other. The two models were embedded in the Engineering Machine-learning Automation Platform (EMAP), a cloud-based platform developed by the authors. Rapid analysis through applying both the rule-based and AI-based automatic ITB analysis technology can contribute to securing timeliness for risk response and supplement possible human mistakes in the bidding stage.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "AXGS501",
+          "title": "데이터엔지니어링",
+          "description": "This course introduces the end-to-end process of modern data engineering in three parts. Part I (Lectures 2-5) covers data collection and preparation: collection, exploration, cleaning, integration, transformation, and reduction. Part II (Lectures 6-14) covers storage and processing at scale: SQL, NoSQL, Spark, data warehouses and pipelines (BigQuery, dbt, Airflow), and streaming (Kafka). Part III (Lectures 15-19) covers monitoring and updates for AI systems: ML systems and MLOps, LLM systems and retrieval-augmented generation, and agents, including data agents that read and write data systems. Through a team-based project, students design and implement a pipeline that connects raw data to intelligent decision-making support.",
+          "plan": "https://docs.google.com/spreadsheets/d/1oPqM5g4XYwU_PZ0DFld4QVmYYWPAdWa8m3Cyl2n_rwY/edit?usp=sharing",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "id": "Q1-001",
+      "context_id": "PC1-05",
+      "left": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 상평형 및 상변화(AMSE315) — 잠정 연결. 과목의 상변화·확산·계면과 맞춤형 소재 설계가 리뷰의 상·조성·결함 조절과 일부 연결되지만, 리뷰 전체 주제와 일치하지는 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 정운룡 교수의 연구와 연결해, 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떻게 이어지고, 합성·구조 조절이 응용 선택에 어떤 차이를 만드는지 탐색합니다.\n연구 근거: 선정 논문은 층상 금속 칼코겐화물의 구조·합성·특성 및 응용을 연결해 다룹니다. 문헌 비교에서는 결정상, 층수·방향성, 조성, 합성 조건과 측정 환경을 열로 나누면 서로 다른 결과를 같은 성능으로 오해할 위험을 줄일 수 있습니다. 개별 응용의 우열은 논문에 보고된 조건 안에서만 비교해야 합니다. [논문 W4318693490]\n과목 연결: AMSE315은 재료의 구조와 특성 분석을 다뤄 결정 구조·방향성과 성능을 비교하는 기초에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-002",
+      "context_id": "PC1-01",
+      "left": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체 소재 및 소자 특론(CHEB770) — 직접 연결. 과목 계획의 금속-반도체 접촉과 금속 산화물 소자 개념이 Ti/TiO₂/Ge 접촉의 장벽·전류 특성과 직접 맞닿습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이정수 교수의 연구와 연결해, 열처리 온도와 탄소 도입 여부에 따라 Ti/TiO₂/n-Ge 접촉의 장벽·비저항 및 J–V 거동이 어떻게 달라지며, 계면 산소 확산 억제가 그 안정성과 어떤 관련이 있는지 묻습니다.\n연구 근거: 논문은 550°C 초과 열처리에서 비저항과 쇼트키 장벽이 증가하고 접촉이 정류성으로 바뀌는 현상을 보고합니다. 탄소 도입 시 600°C까지 두 값이 비교적 안정했고, EELS에서 산소 확산 억제를 관찰했습니다. 전기 측정과 계면 분석을 함께 읽어야 원인 해석의 범위를 구분할 수 있습니다. [논문 W4290989670]\n과목 연결: CHEB770은 반도체 소자 물리와 금속-반도체 접촉을 다뤄 쇼트키 장벽 해석과 직접 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-003",
+      "context_id": "PC1-06",
+      "left": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: Crystallography and crystal diffraction(GIFT624) — 직접 연결. 과목의 결정학·회절 개념은 저대칭 층상 칼코겐화물의 결정 구조를 비교하는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 정운룡 교수의 연구와 연결해, 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떻게 이어지고, 합성·구조 조절이 응용 선택에 어떤 차이를 만드는지 탐색합니다.\n연구 근거: 선정 논문은 층상 금속 칼코겐화물의 구조·합성·특성 및 응용을 연결해 다룹니다. 문헌 비교에서는 결정상, 층수·방향성, 조성, 합성 조건과 측정 환경을 열로 나누면 서로 다른 결과를 같은 성능으로 오해할 위험을 줄일 수 있습니다. 개별 응용의 우열은 논문에 보고된 조건 안에서만 비교해야 합니다. [논문 W4318693490]\n과목 연결: GIFT624은 제공된 과목 정보상 에너지·재료 관련 주제를 다루지만, 층상 칼코겐화물의 특정 촉매 주제와의 직접 연결은 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-004",
+      "context_id": "PC1-08",
+      "left": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-005",
+      "context_id": "PC1-04",
+      "left": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 유무에 따른 J–V 곡선과 장벽 높이·접촉 비저항을 열처리 온도별로 표로 정리해 변화를 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-006",
+      "context_id": "PC1-11",
+      "left": "연구 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요. 조항 단위 데이터 분할과 미등장 조항 비율을 확인하고 SA·bi-LSTM의 오류 사례를 나눠 재현 평가를 설계해 보세요.\n연구 근거: 논문은 입찰 ITB 위험 조항 추출 규칙 기반 SA 모델의 F1이 86.4%, bi-LSTM 위험 순위 모델의 정확도가 46.8%였고, 평가 문서에 학습에 없던 조항이 있어 후자 성능이 낮았다고 보고합니다. [W4281682208]\n과목 연결: Engineering Project Management(GIFT714) — 직접 연결. 과목의 EPC 입찰·ITB, 계약 관리와 위험 관리가 논문의 입찰 위험 조항 분석 대상과 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 점수는 해당 실제 프로젝트 자료의 검증 결과이지 일반 계약 문서에서의 성능 보장이 아닙니다. 수업 연결이 약하면 과목을 억지로 연결하지 않습니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이을범 교수의 연구와 연결해, EPC 입찰 문서에서 위험 조항 추출 규칙과 양방향 LSTM 위험도 순위화가 각각 어떤 오류를 내며, 자료 밖 조항에 얼마나 견디는지 질문합니다.\n연구 근거: 이을범 교수의 논문은 규칙 기반 의미 분석(SA)과 학습 기반 위험도 순위화(RLR)를 함께 제안합니다. 보고된 검증값은 SA F1 86.4%, RLR 정확도 46.8%이며, 학습 자료에 없던 조항이 RLR 성능 저하의 한 원인으로 논의됩니다. 비교 시 데이터 분할, 라벨 정의, 누락 조항을 확인하고 수치를 다른 계약 문서에 그대로 일반화하지 않습니다. [논문 W4281682208]\n과목 연결: GIFT714은 EPC 프로젝트 관리의 계약·위험을 다루지만, NLP 및 양방향 LSTM 방법과의 직접 연결은 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-007",
+      "context_id": "PC1-02",
+      "left": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 유무에 따른 J–V 곡선과 장벽 높이·접촉 비저항을 열처리 온도별로 표로 정리해 변화를 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체소재개론(SEMI206) — 직접 연결. 과목 계획의 표면·계면, 확산·동역학 및 전기·열 특성 분석이 TiO₂ 계면 안정성과 접촉 변화를 읽는 데 직접 연결됩니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체소재개론(SEMI206) — 직접 연결. 과목 계획의 표면·계면, 확산·동역학 및 전기·열 특성 분석이 TiO₂ 계면 안정성과 접촉 변화를 읽는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-008",
+      "context_id": "PC1-10",
+      "left": "연구 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 논문의 전류밀도별 용량·사이클 자료와 구리 없는 대조군을 찾아 촉매 유무에 따른 성능 지표를 나란히 정리해 보세요.\n연구 근거: 논문은 활성탄의 Cu–N₃ 단일원자 자리가 요오드 종을 고정하고 가역 산화·환원을 촉진한다고 설명하며, 10 A g⁻¹에서 30,000회 뒤 203.4 mAh g⁻¹와 쿨롱 효율 99.36%를 보고합니다. [W7204837857]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 셔틀 억제와 전하 전달 설명은 저자 해석이므로 측정법, 대조군, 전해질 조건을 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 최창혁 교수의 연구와 연결해, 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 용출·셔틀 현상, 전지 성능의 관계를 어떻게 바꾸는지 탐색합니다.\n연구 근거: 선정 논문은 구리 단일 원자 촉매와 아연-요오드 전지의 요오드 반응을 연결합니다. 반응속도 개선과 셔틀 억제는 서로 다른 기작일 수 있으므로 전기화학 지표, 요오드 종 변화, 장기 사이클 결과를 나눠 확인합니다. 대조군과 시험 조건을 먼저 정리하고, 초록에 없는 기작이나 상용 수명을 결론으로 덧붙이지 않습니다. [논문 W7204837857]\n과목 연결: BATT623은 전지 연구 주제를 다루며 심화된 전기화학 분석 맥락을 제공합니다. 단일 원자 촉매의 특정 기작과의 직접 연결은 과목 설명만으로 확정하기 어렵습니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-009",
+      "context_id": "PC1-09",
+      "left": "연구 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 논문의 전류밀도별 용량·사이클 자료와 구리 없는 대조군을 찾아 촉매 유무에 따른 성능 지표를 나란히 정리해 보세요.\n연구 근거: 논문은 활성탄의 Cu–N₃ 단일원자 자리가 요오드 종을 고정하고 가역 산화·환원을 촉진한다고 설명하며, 10 A g⁻¹에서 30,000회 뒤 203.4 mAh g⁻¹와 쿨롱 효율 99.36%를 보고합니다. [W7204837857]\n과목 연결: 에너지전기화학(BATT524) — 직접 연결. 과목의 전극 반응, 전자 전달 동역학, 물질 전달과 배터리 응용이 요오드 전환·폴리요오드 확산 문제에 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 셔틀 억제와 전하 전달 설명은 저자 해석이므로 측정법, 대조군, 전해질 조건을 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 최창혁 교수의 연구와 연결해, 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 용출·셔틀 현상, 전지 성능의 관계를 어떻게 바꾸는지 탐색합니다.\n연구 근거: 선정 논문은 구리 단일 원자 촉매와 아연-요오드 전지의 요오드 반응을 연결합니다. 반응속도 개선과 셔틀 억제는 서로 다른 기작일 수 있으므로 전기화학 지표, 요오드 종 변화, 장기 사이클 결과를 나눠 확인합니다. 대조군과 시험 조건을 먼저 정리하고, 초록에 없는 기작이나 상용 수명을 결론으로 덧붙이지 않습니다. [논문 W7204837857]\n과목 연결: BATT524은 전지 재료와 전기화학을 다뤄 요오드 전환 및 촉매 성능 지표를 정리하는 데 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-010",
+      "context_id": "PC1-03",
+      "left": "연구 질문: 논문에 나온 열처리 온도별 전류-전압 결과를 표로 정리하고, 접촉 장벽과 저항 변화가 어떤 의미인지 살펴보고 싶습니다. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체 소재 및 소자 특론(CHEB770) — 직접 연결. 과목 계획의 금속-반도체 접촉과 금속 산화물 소자 개념이 Ti/TiO₂/Ge 접촉의 장벽·전류 특성과 직접 맞닿습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이정수 교수의 연구와 연결해, 열처리 온도와 탄소 도입 여부에 따라 Ti/TiO₂/n-Ge 접촉의 장벽·비저항 및 J–V 거동이 어떻게 달라지며, 계면 산소 확산 억제가 그 안정성과 어떤 관련이 있는지 묻습니다.\n연구 근거: 논문은 550°C 초과 열처리에서 비저항과 쇼트키 장벽이 증가하고 접촉이 정류성으로 바뀌는 현상을 보고합니다. 탄소 도입 시 600°C까지 두 값이 비교적 안정했고, EELS에서 산소 확산 억제를 관찰했습니다. 전기 측정과 계면 분석을 함께 읽어야 원인 해석의 범위를 구분할 수 있습니다. [논문 W4290989670]\n과목 연결: CHEB770은 반도체 소자 물리와 금속-반도체 접촉을 다뤄 쇼트키 장벽 해석과 직접 연결됩니다.\n첫 단계: 먼저 논문에서 열처리 온도별 J–V, SBH, 비저항 값을 원문 표·그림에서 추출해 탄소 유무별 표로 정리하고, 축·측정법을 함께 기록합니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-011",
+      "context_id": "PC1-05",
+      "left": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 상평형 및 상변화(AMSE315) — 잠정 연결. 과목의 상변화·확산·계면과 맞춤형 소재 설계가 리뷰의 상·조성·결함 조절과 일부 연결되지만, 리뷰 전체 주제와 일치하지는 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 상평형 및 상변화(AMSE315) — 잠정 연결. 과목의 상변화·확산·계면과 맞춤형 소재 설계가 리뷰의 상·조성·결함 조절과 일부 연결되지만, 리뷰 전체 주제와 일치하지는 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-012",
+      "context_id": "PC1-01",
+      "left": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 유무에 따른 J–V 곡선과 장벽 높이·접촉 비저항을 열처리 온도별로 표로 정리해 변화를 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체 소재 및 소자 특론(CHEB770) — 직접 연결. 과목 계획의 금속-반도체 접촉과 금속 산화물 소자 개념이 Ti/TiO₂/Ge 접촉의 장벽·전류 특성과 직접 맞닿습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체 소재 및 소자 특론(CHEB770) — 직접 연결. 과목 계획의 금속-반도체 접촉과 금속 산화물 소자 개념이 Ti/TiO₂/Ge 접촉의 장벽·전류 특성과 직접 맞닿습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-013",
+      "context_id": "PC1-12",
+      "left": "연구 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 분석하는 방법이 궁금해요. 조항 단위 데이터 분할과 학습에 없던 조항의 비율을 확인하고, SA·bi-LSTM의 오류 사례를 나눠 평가 결과를 살펴보세요.\n연구 근거: 논문은 입찰 ITB 위험 조항 추출 규칙 기반 SA 모델의 F1이 86.4%, bi-LSTM 위험 순위 모델의 정확도가 46.8%였고, 평가 문서에 학습에 없던 조항이 있어 후자 성능이 낮았다고 보고합니다. [W4281682208]\n과목 연결: 데이터엔지니어링(AXGS501) — 잠정 연결. 과목은 데이터 준비·처리와 AI 시스템을 위한 파이프라인 구축을 다루므로 데이터 기반 분석 과정과 관련될 수 있지만, 계약 위험 분석이나 해당 모델을 다룬다는 근거는 없습니다.\n첫 단계: 초록에서 두 모델의 목적, 평가 지표와 성능을 나란히 정리하고, 데이터 분할 및 미등장 조항에 관한 상세 내용은 본문에서 확인하세요.\n확인할 점: 수치는 해당 프로젝트 자료에서의 검증 결과로, 일반 계약 문서 성능을 보장하지 않습니다. 과목 설명만으로 특정 계약 문서나 NLP 활용 여부를 확인할 수 없습니다. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다.",
+      "right": "연구 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요. 조항 단위 데이터 분할과 미등장 조항 비율을 확인하고 SA·bi-LSTM의 오류 사례를 나눠 재현 평가를 설계해 보세요.\n연구 근거: 논문은 입찰 ITB 위험 조항 추출 규칙 기반 SA 모델의 F1이 86.4%, bi-LSTM 위험 순위 모델의 정확도가 46.8%였고, 평가 문서에 학습에 없던 조항이 있어 후자 성능이 낮았다고 보고합니다. [W4281682208]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 점수는 해당 실제 프로젝트 자료의 검증 결과이지 일반 계약 문서에서의 성능 보장이 아닙니다. 수업 연결이 약하면 과목을 억지로 연결하지 않습니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-014",
+      "context_id": "PC1-08",
+      "left": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 정운룡 교수의 연구와 연결해, 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떻게 이어지고, 합성·구조 조절이 응용 선택에 어떤 차이를 만드는지 탐색합니다.\n연구 근거: 선정 논문은 층상 금속 칼코겐화물의 구조·합성·특성 및 응용을 연결해 다룹니다. 문헌 비교에서는 결정상, 층수·방향성, 조성, 합성 조건과 측정 환경을 열로 나누면 서로 다른 결과를 같은 성능으로 오해할 위험을 줄일 수 있습니다. 개별 응용의 우열은 논문에 보고된 조건 안에서만 비교해야 합니다. [논문 W4318693490]\n과목 연결: 선택된 과목 없음. 과목 정보만으로 연결할 수는 없지만, 논문 초록과 관심 질문을 바탕으로 아래의 문헌 검토부터 시작할 수 있습니다.\n첫 단계: 먼저 논문 초록과 관심 질문에서 검증할 변수·지표를 뽑아 개념도를 만듭니다. 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-015",
+      "context_id": "PC1-07",
+      "left": "연구 질문: 정운룡 교수의 연구와 연결해, 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떻게 이어지고, 합성·구조 조절이 응용 선택에 어떤 차이를 만드는지 탐색합니다.\n연구 근거: 선정 논문은 층상 금속 칼코겐화물의 구조·합성·특성 및 응용을 연결해 다룹니다. 문헌 비교에서는 결정상, 층수·방향성, 조성, 합성 조건과 측정 환경을 열로 나누면 서로 다른 결과를 같은 성능으로 오해할 위험을 줄일 수 있습니다. 개별 응용의 우열은 논문에 보고된 조건 안에서만 비교해야 합니다. [논문 W4318693490]\n과목 연결: AMSE315은 재료의 구조와 특성 분석을 다뤄 결정 구조·방향성과 성능을 비교하는 기초에 연결됩니다.\n첫 단계: 먼저 논문 표에서 합성법·결정 구조·방향성·응용을 추출해 항목별 비교표를 만들고, 서로 다른 측정 조건은 별도 표시합니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 합성·구조 조절 방법에 따라 보고된 응용이 어떻게 달라지는지 논문 표를 만들어 비교해 보고 싶습니다. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 상평형 및 상변화(AMSE315) — 잠정 연결. 과목의 상변화·확산·계면과 맞춤형 소재 설계가 리뷰의 상·조성·결함 조절과 일부 연결되지만, 리뷰 전체 주제와 일치하지는 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-016",
+      "context_id": "PC1-03",
+      "left": "연구 질문: 논문에 나온 열처리 온도별 전류-전압 결과를 표로 정리하고, 접촉 장벽과 저항 변화가 어떤 의미인지 살펴보고 싶습니다. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체 소재 및 소자 특론(CHEB770) — 직접 연결. 과목 계획의 금속-반도체 접촉과 금속 산화물 소자 개념이 Ti/TiO₂/Ge 접촉의 장벽·전류 특성과 직접 맞닿습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 논문에 나온 열처리 온도별 전류-전압 결과를 표로 정리하고, 접촉 장벽과 저항 변화가 어떤 의미인지 살펴보고 싶습니다. 탄소 도입 유무에 따른 J–V 곡선과 장벽 높이·접촉 비저항을 열처리 온도별로 표로 정리해 변화를 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체 소재 및 소자 특론(CHEB770) — 직접 연결. 과목 계획의 금속-반도체 접촉과 금속 산화물 소자 개념이 Ti/TiO₂/Ge 접촉의 장벽·전류 특성과 직접 맞닿습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-017",
+      "context_id": "PC1-11",
+      "left": "연구 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 분석하는 방법이 궁금해요. 조항 단위 데이터 분할과 학습에 없던 조항의 비율을 확인하고, SA·bi-LSTM의 오류 사례를 나눠 평가 결과를 살펴보세요.\n연구 근거: 논문은 입찰 ITB 위험 조항 추출 규칙 기반 SA 모델의 F1이 86.4%, bi-LSTM 위험 순위 모델의 정확도가 46.8%였고, 평가 문서에 학습에 없던 조항이 있어 후자 성능이 낮았다고 보고합니다. [W4281682208]\n과목 연결: Engineering Project Management(GIFT714) — 잠정 연결. 과목은 EPC 프로젝트의 계약·위험 관리를 다루므로 대상 분야는 관련되지만, 문서 NLP나 자동 위험 조항 분석을 가르친다는 근거는 없습니다.\n첫 단계: 초록에서 두 모델의 목적, 평가 지표와 성능을 나란히 정리하고, 데이터 분할 및 미등장 조항에 관한 상세 내용은 본문에서 확인하세요.\n확인할 점: 수치는 해당 프로젝트 자료에서의 검증 결과로, 일반 계약 문서 성능을 보장하지 않습니다. 과목 설명만으로 특정 계약 문서나 NLP 활용 여부를 확인할 수 없습니다. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다.",
+      "right": "연구 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요. 조항 단위 데이터 분할과 미등장 조항 비율을 확인하고 SA·bi-LSTM의 오류 사례를 나눠 재현 평가를 설계해 보세요.\n연구 근거: 논문은 입찰 ITB 위험 조항 추출 규칙 기반 SA 모델의 F1이 86.4%, bi-LSTM 위험 순위 모델의 정확도가 46.8%였고, 평가 문서에 학습에 없던 조항이 있어 후자 성능이 낮았다고 보고합니다. [W4281682208]\n과목 연결: Engineering Project Management(GIFT714) — 직접 연결. 과목의 EPC 입찰·ITB, 계약 관리와 위험 관리가 논문의 입찰 위험 조항 분석 대상과 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 점수는 해당 실제 프로젝트 자료의 검증 결과이지 일반 계약 문서에서의 성능 보장이 아닙니다. 수업 연결이 약하면 과목을 억지로 연결하지 않습니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-018",
+      "context_id": "PC1-10",
+      "left": "연구 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 논문의 전류밀도별 용량·사이클 자료와 구리 없는 대조군을 확인해 성능 지표를 나란히 정리해 보세요.\n연구 근거: 논문은 활성탄의 Cu–N₃ 단일원자 자리가 요오드 종을 고정하고 가역 산화·환원 반응을 촉진한다고 설명하며, 10 A g⁻¹에서 30,000회 뒤 203.4 mAh g⁻¹와 쿨롱 효율 99.36%를 보고합니다. [W7204837857]\n과목 연결: 열역학 및 상변태(BATT623) — 잠정 연결. 과목 설명은 배터리 재료의 전기화학 프로파일과 산화·환원 기구를 다루지만, 고체 전극의 열역학·상거동에 초점을 둡니다. 수계 아연-요오드 전지와의 구체적 연결은 확인이 필요합니다.\n첫 단계: 초록에 나온 전류밀도·사이클 수·용량·쿨롱 효율을 정리하고, 구리 없는 대조군과 측정 조건은 본문에서 확인하세요.\n확인할 점: 셔틀 억제와 전하 전달에 대한 설명은 저자의 해석입니다. 이를 뒷받침하는 측정법, 대조군 및 전해질 조건을 원문에서 확인하세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다.",
+      "right": "연구 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 논문의 전류밀도별 용량·사이클 자료와 구리 없는 대조군을 찾아 촉매 유무에 따른 성능 지표를 나란히 정리해 보세요.\n연구 근거: 논문은 활성탄의 Cu–N₃ 단일원자 자리가 요오드 종을 고정하고 가역 산화·환원을 촉진한다고 설명하며, 10 A g⁻¹에서 30,000회 뒤 203.4 mAh g⁻¹와 쿨롱 효율 99.36%를 보고합니다. [W7204837857]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 셔틀 억제와 전하 전달 설명은 저자 해석이므로 측정법, 대조군, 전해질 조건을 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-019",
+      "context_id": "PC1-09",
+      "left": "연구 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 논문의 전류밀도별 용량·사이클 자료와 구리 없는 대조군을 찾아 촉매 유무에 따른 성능 지표를 나란히 정리해 보세요.\n연구 근거: 논문은 활성탄의 Cu–N₃ 단일원자 자리가 요오드 종을 고정하고 가역 산화·환원을 촉진한다고 설명하며, 10 A g⁻¹에서 30,000회 뒤 203.4 mAh g⁻¹와 쿨롱 효율 99.36%를 보고합니다. [W7204837857]\n과목 연결: 에너지전기화학(BATT524) — 직접 연결. 과목의 전극 반응, 전자 전달 동역학, 물질 전달과 배터리 응용이 요오드 전환·폴리요오드 확산 문제에 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 셔틀 억제와 전하 전달 설명은 저자 해석이므로 측정법, 대조군, 전해질 조건을 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 논문의 전류밀도별 용량·사이클 자료와 구리 없는 대조군을 확인해 성능 지표를 나란히 정리해 보세요.\n연구 근거: 논문은 활성탄의 Cu–N₃ 단일원자 자리가 요오드 종을 고정하고 가역 산화·환원 반응을 촉진한다고 설명하며, 10 A g⁻¹에서 30,000회 뒤 203.4 mAh g⁻¹와 쿨롱 효율 99.36%를 보고합니다. [W7204837857]\n과목 연결: 에너지전기화학(BATT524) — 직접 연결. 과목의 전극 과정, 전자 전달 동역학, 물질 전달과 배터리 응용이 논문의 전지 반응 및 요오드 종 이동 문제와 관련됩니다.\n첫 단계: 초록에 나온 전류밀도·사이클 수·용량·쿨롱 효율을 정리하고, 구리 없는 대조군과 측정 조건은 본문에서 확인하세요.\n확인할 점: 셔틀 억제와 전하 전달에 대한 설명은 저자의 해석입니다. 이를 뒷받침하는 측정법, 대조군 및 전해질 조건을 원문에서 확인하세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "Q1-020",
+      "context_id": "PC1-07",
+      "left": "연구 질문: 합성·구조 조절 방법에 따라 보고된 응용이 어떻게 달라지는지 논문 표를 만들어 비교해 보고 싶습니다. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 상평형 및 상변화(AMSE315) — 잠정 연결. 과목의 상변화·확산·계면과 맞춤형 소재 설계가 리뷰의 상·조성·결함 조절과 일부 연결되지만, 리뷰 전체 주제와 일치하지는 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 합성·구조 조절 방법에 따라 보고된 응용이 어떻게 달라지는지 논문 표를 만들어 비교해 보고 싶습니다. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: 상평형 및 상변화(AMSE315) — 잠정 연결. 과목의 상변화·확산·계면과 맞춤형 소재 설계가 리뷰의 상·조성·결함 조절과 일부 연결되지만, 리뷰 전체 주제와 일치하지는 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-021",
+      "context_id": "PC1-06",
+      "left": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: Crystallography and crystal diffraction(GIFT624) — 직접 연결. 과목의 결정학·회절 개념은 저대칭 층상 칼코겐화물의 결정 구조를 비교하는 데 직접 연결됩니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 리뷰에 정리된 합성법과 조절 변수, 응용을 표로 코딩해 어떤 구조 조절과 응용이 함께 보고되는지 살펴보세요.\n연구 근거: 이 논문은 저대칭 1D·2D 금속 칼코겐화물의 합성, 구조·상·조성·결함 조절과 전자·광전자·촉매·저장 응용을 종합한 리뷰입니다. [W4318693490]\n과목 연결: Crystallography and crystal diffraction(GIFT624) — 직접 연결. 과목의 결정학·회절 개념은 저대칭 층상 칼코겐화물의 결정 구조를 비교하는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 리뷰의 종합 서술만으로 변수의 독립 인과효과를 확정할 수 없으니 개별 연구의 조건과 비교군을 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-022",
+      "context_id": "PC1-02",
+      "left": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 반도체소재개론(SEMI206) — 직접 연결. 과목 계획의 표면·계면, 확산·동역학 및 전기·열 특성 분석이 TiO₂ 계면 안정성과 접촉 변화를 읽는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이정수 교수의 연구와 연결해, 열처리 온도와 탄소 도입 여부에 따라 Ti/TiO₂/n-Ge 접촉의 장벽·비저항 및 J–V 거동이 어떻게 달라지며, 계면 산소 확산 억제가 그 안정성과 어떤 관련이 있는지 묻습니다.\n연구 근거: 논문은 550°C 초과 열처리에서 비저항과 쇼트키 장벽이 증가하고 접촉이 정류성으로 바뀌는 현상을 보고합니다. 탄소 도입 시 600°C까지 두 값이 비교적 안정했고, EELS에서 산소 확산 억제를 관찰했습니다. 전기 측정과 계면 분석을 함께 읽어야 원인 해석의 범위를 구분할 수 있습니다. [논문 W4290989670]\n과목 연결: SEMI206은 박막·계면·확산·재료 특성과 반도체 분석을 다뤄 TiO₂ 계면 열화와 측정 결과를 해석하는 데 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q1-023",
+      "context_id": "PC1-04",
+      "left": "연구 질문: 이정수 교수의 연구와 연결해, 열처리 온도와 탄소 도입 여부에 따라 Ti/TiO₂/n-Ge 접촉의 장벽·비저항 및 J–V 거동이 어떻게 달라지며, 계면 산소 확산 억제가 그 안정성과 어떤 관련이 있는지 묻습니다.\n연구 근거: 논문은 550°C 초과 열처리에서 비저항과 쇼트키 장벽이 증가하고 접촉이 정류성으로 바뀌는 현상을 보고합니다. 탄소 도입 시 600°C까지 두 값이 비교적 안정했고, EELS에서 산소 확산 억제를 관찰했습니다. 전기 측정과 계면 분석을 함께 읽어야 원인 해석의 범위를 구분할 수 있습니다. [논문 W4290989670]\n과목 연결: 선택된 과목 없음. 과목 정보만으로 연결할 수는 없지만, 논문 초록과 관심 질문을 바탕으로 아래의 문헌 검토부터 시작할 수 있습니다.\n첫 단계: 먼저 논문 초록과 관심 질문에서 검증할 변수·지표를 뽑아 개념도를 만듭니다. 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 탄소 도입 조건별 J–V 곡선과 장벽 높이·비저항을 온도 축으로 표로 옮겨 변곡 구간을 비교해 보세요.\n연구 근거: 논문은 550°C 초과 열처리에서 무도핑 Ti/TiO₂/n-Ge 접촉의 장벽 높이·접촉 비저항이 증가하고 접촉이 오믹형에서 정류형으로 바뀌며, 탄소 도입 시 600°C까지 두 값이 비교적 안정하고 산소 확산이 억제됐다고 보고합니다. [W4290989670]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 산소 확산 억제의 인과 해석과 측정 조건·오차 범위는 본문 도표와 원문에서 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q1-024",
+      "context_id": "PC1-12",
+      "left": "연구 질문: 이을범 교수의 연구와 연결해, EPC 입찰 문서에서 위험 조항 추출 규칙과 양방향 LSTM 위험도 순위화가 각각 어떤 오류를 내며, 자료 밖 조항에 얼마나 견디는지 질문합니다.\n연구 근거: 이을범 교수의 논문은 규칙 기반 의미 분석(SA)과 학습 기반 위험도 순위화(RLR)를 함께 제안합니다. 보고된 검증값은 SA F1 86.4%, RLR 정확도 46.8%이며, 학습 자료에 없던 조항이 RLR 성능 저하의 한 원인으로 논의됩니다. 비교 시 데이터 분할, 라벨 정의, 누락 조항을 확인하고 수치를 다른 계약 문서에 그대로 일반화하지 않습니다. [논문 W4281682208]\n과목 연결: AXGS501은 데이터 수집·정제·파이프라인과 AI 시스템을 다뤄 계약 문서 데이터 준비와 평가 흐름에 연결되며, LSTM 자체의 세부 방법을 가르치는지는 과목 정보로 확인되지 않습니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요. 조항 단위 데이터 분할과 미등장 조항 비율을 확인하고 SA·bi-LSTM의 오류 사례를 나눠 재현 평가를 설계해 보세요.\n연구 근거: 논문은 입찰 ITB 위험 조항 추출 규칙 기반 SA 모델의 F1이 86.4%, bi-LSTM 위험 순위 모델의 정확도가 46.8%였고, 평가 문서에 학습에 없던 조항이 있어 후자 성능이 낮았다고 보고합니다. [W4281682208]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 점수는 해당 실제 프로젝트 자료의 검증 결과이지 일반 계약 문서에서의 성능 보장이 아닙니다. 수업 연결이 약하면 과목을 억지로 연결하지 않습니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    }
+  ]
+}

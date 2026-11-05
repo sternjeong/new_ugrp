@@ -1,0 +1,29 @@
+{
+  "panel1_baseline_course": {
+    "n": 28,
+    "zero": 10,
+    "one": 18,
+    "two": 0
+  },
+  "panel2_baseline_course": {
+    "n": 28,
+    "zero": 9,
+    "one": 9,
+    "two": 10
+  },
+  "single_steps": {
+    "n": 32,
+    "unique": 6,
+    "most_repeated": 24
+  },
+  "grounded_steps": {
+    "n": 32,
+    "unique": 1,
+    "most_repeated": 32
+  },
+  "verified_steps": {
+    "n": 32,
+    "unique": 9,
+    "most_repeated": 16
+  }
+}

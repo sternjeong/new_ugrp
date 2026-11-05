@@ -1,0 +1,452 @@
+[
+  {
+    "id": "P3R001",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "좌표·뼈 벡터 비교와 환경 변화 관심을 반영하고, 과목 연결을 잠정적으로 한정하며 검증 범위를 구분합니다."
+  },
+  {
+    "id": "P3R002",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R003",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R004",
+    "interest": 2,
+    "lab": 2,
+    "course": 0,
+    "action": 2,
+    "caution": 2,
+    "reason": "과목에 로봇·언어모델 응용이 명시됐다고 했지만 제공된 강의 내용은 일반 로봇 학습이라 과목 내용을 부정확하게 연결합니다."
+  },
+  {
+    "id": "P3R005",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R006",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R007",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R008",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R009",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R010",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심에 맞춘 구체적 비교를 제안하고 논문 근거와 후속 제안을 구분하며 접근·일반화 단정을 피합니다."
+  },
+  {
+    "id": "P3R011",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R012",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R013",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R014",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R015",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "좌표·뼈 벡터 비교와 환경 변화 관심을 반영하고, 과목 연결을 잠정적으로 한정하며 검증 범위를 구분합니다."
+  },
+  {
+    "id": "P3R016",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R017",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심에 맞춘 구체적 비교를 제안하고 논문 근거와 후속 제안을 구분하며 접근·일반화 단정을 피합니다."
+  },
+  {
+    "id": "P3R018",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R019",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R020",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R021",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R022",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R023",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R024",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심과 논문 문구는 짚지만 구체적 비교·연구 사실이 적고 첫 단계도 일반적인 초록 읽기에 그칩니다."
+  },
+  {
+    "id": "P3R025",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R026",
+    "interest": 2,
+    "lab": 2,
+    "course": 0,
+    "action": 2,
+    "caution": 2,
+    "reason": "과목이 컴퓨터 비전 기반 학습을 다룬다고 했지만 제공된 설명은 알고리즘 설계·분석이므로 내용 설명이 틀렸습니다."
+  },
+  {
+    "id": "P3R027",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "선택 과목 없음에 맞춰 course 연결을 비우고, 관심에 맞는 비교와 안전한 검토 단계를 제안합니다."
+  },
+  {
+    "id": "P3R028",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R029",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R030",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R031",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R032",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "선택 과목 없음에 맞춰 course 연결을 비우고, 관심에 맞는 비교와 안전한 검토 단계를 제안합니다."
+  },
+  {
+    "id": "P3R033",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R034",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R035",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R036",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R037",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R038",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R039",
+    "interest": 1,
+    "lab": 1,
+    "course": 2,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R040",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "좌표·뼈 벡터 비교와 환경 변화 관심을 반영하고, 과목 연결을 잠정적으로 한정하며 검증 범위를 구분합니다."
+  },
+  {
+    "id": "P3R041",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "좌표·뼈 벡터 비교와 환경 변화 관심을 반영하고, 과목 연결을 잠정적으로 한정하며 검증 범위를 구분합니다."
+  },
+  {
+    "id": "P3R042",
+    "interest": 1,
+    "lab": 1,
+    "course": null,
+    "action": 1,
+    "caution": 1,
+    "reason": "연구 질문과 자료 검토 단계가 없거나 연구실 항목을 나열해 관심·근거 연결이 제한적입니다."
+  },
+  {
+    "id": "P3R043",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "선택 과목 없음에 맞춰 course 연결을 비우고, 관심에 맞는 비교와 안전한 검토 단계를 제안합니다."
+  },
+  {
+    "id": "P3R044",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R045",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심에 맞춘 구체적 비교를 제안하고 논문 근거와 후속 제안을 구분하며 접근·일반화 단정을 피합니다."
+  },
+  {
+    "id": "P3R046",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R047",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R048",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R049",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  },
+  {
+    "id": "P3R050",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "연구 질문·논문 근거·실행 가능한 첫 검토 단계를 제시하고 제안과 보고 결과를 구분합니다."
+  }
+]

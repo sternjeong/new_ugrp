@@ -1,0 +1,497 @@
+{
+  "1": {
+    "methods": {
+      "baseline": {
+        "interest": {
+          "mean": 0.4166666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 1,
+          "zero_n": 21
+        },
+        "lab": {
+          "mean": 0.5416666666666666,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 1,
+          "zero_n": 18
+        },
+        "course": {
+          "mean": 0.6666666666666666,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 0,
+          "zero_n": 10
+        },
+        "action": {
+          "mean": 1.0416666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 1,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 1.7083333333333333,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 23,
+          "zero_n": 0
+        }
+      },
+      "rule": {
+        "interest": {
+          "mean": 1.1666666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 4,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.4166666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 14,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.5416666666666667,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 17,
+          "zero_n": 2
+        },
+        "action": {
+          "mean": 1.375,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 13,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      },
+      "single": {
+        "interest": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.9166666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 30,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.6805555555555556,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 20,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      },
+      "grounded": {
+        "interest": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.8055555555555556,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 23,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      },
+      "verified": {
+        "interest": {
+          "mean": 1.9791666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 31,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.9791666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 31,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.7638888888888888,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 22,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.9791666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 31,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      }
+    },
+    "preplanned_differences": {
+      "grounded_minus_single_course": {
+        "difference": 0.125,
+        "interval95": [
+          0,
+          0.2916666666666667
+        ],
+        "clusters": 12
+      },
+      "grounded_minus_single_caution": {
+        "difference": 0,
+        "interval95": [
+          0,
+          0
+        ],
+        "clusters": 12
+      },
+      "verified_minus_grounded_course": {
+        "difference": -0.041666666666666664,
+        "interval95": [
+          -0.16666666666666666,
+          0.08333333333333333
+        ],
+        "clusters": 12
+      },
+      "verified_minus_grounded_caution": {
+        "difference": 0,
+        "interval95": [
+          0,
+          0
+        ],
+        "clusters": 12
+      }
+    }
+  },
+  "2": {
+    "methods": {
+      "baseline": {
+        "interest": {
+          "mean": 0.6666666666666666,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 0,
+          "zero_n": 12
+        },
+        "lab": {
+          "mean": 1,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 0,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.0416666666666667,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 10,
+          "zero_n": 9
+        },
+        "action": {
+          "mean": 1,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 0,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 1.6666666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 22,
+          "zero_n": 0
+        }
+      },
+      "rule": {
+        "interest": {
+          "mean": 1.0625,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 2,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.3958333333333333,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 12,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.3194444444444444,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 11,
+          "zero_n": 2
+        },
+        "action": {
+          "mean": 1.0625,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 2,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      },
+      "single": {
+        "interest": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.6666666666666667,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 20,
+          "zero_n": 2
+        },
+        "action": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      },
+      "grounded": {
+        "interest": {
+          "mean": 1.9166666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 29,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.9166666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 29,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.8333333333333333,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 23,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.9166666666666667,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 29,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      },
+      "verified": {
+        "interest": {
+          "mean": 1.9583333333333333,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 30,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.9583333333333333,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 30,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.7083333333333333,
+          "clusters": 12,
+          "n": 28,
+          "full_score_n": 20,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.9583333333333333,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 30,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "clusters": 12,
+          "n": 32,
+          "full_score_n": 32,
+          "zero_n": 0
+        }
+      }
+    },
+    "preplanned_differences": {
+      "grounded_minus_single_course": {
+        "difference": 0.16666666666666666,
+        "interval95": [
+          -0.041666666666666664,
+          0.3888888888888889
+        ],
+        "clusters": 12
+      },
+      "grounded_minus_single_caution": {
+        "difference": 0,
+        "interval95": [
+          0,
+          0
+        ],
+        "clusters": 12
+      },
+      "verified_minus_grounded_course": {
+        "difference": -0.125,
+        "interval95": [
+          -0.25,
+          0
+        ],
+        "clusters": 12
+      },
+      "verified_minus_grounded_caution": {
+        "difference": 0,
+        "interval95": [
+          0,
+          0
+        ],
+        "clusters": 12
+      }
+    }
+  },
+  "agreement": {
+    "interest": {
+      "exact_n": 140,
+      "n": 160,
+      "mean_absolute_difference": 0.125,
+      "quadratic_weighted_kappa": 0.8630254259053163
+    },
+    "lab": {
+      "exact_n": 109,
+      "n": 160,
+      "mean_absolute_difference": 0.31875,
+      "quadratic_weighted_kappa": 0.5491712707182321
+    },
+    "course": {
+      "exact_n": 75,
+      "n": 140,
+      "mean_absolute_difference": 0.4785714285714286,
+      "quadratic_weighted_kappa": 0.4083333333333333
+    },
+    "action": {
+      "exact_n": 138,
+      "n": 160,
+      "mean_absolute_difference": 0.1375,
+      "quadratic_weighted_kappa": 0.7077868172007304
+    },
+    "caution": {
+      "exact_n": 159,
+      "n": 160,
+      "mean_absolute_difference": 0.00625,
+      "quadratic_weighted_kappa": 0.9440559440559441
+    }
+  },
+  "id_audit": {
+    "single": {
+      "paper_id": 32,
+      "course_id": 28,
+      "unprovided_ids": []
+    },
+    "grounded": {
+      "paper_id": 32,
+      "course_id": 23,
+      "unprovided_ids": []
+    },
+    "verified": {
+      "paper_id": 32,
+      "course_id": 27,
+      "unprovided_ids": []
+    }
+  }
+}

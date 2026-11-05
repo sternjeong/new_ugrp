@@ -1,0 +1,337 @@
+{
+  "contexts": {
+    "PC2-01": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "PHYS647",
+          "title": "양자알고리즘",
+          "description": "- Understand the framework of quantum information theory.\n- Understand basic quantum information protocols.\n- Understand key quantum information-theoretic quantities\n- Understand the basic principles of quantum algorithms and NISQ algorithms.\n- Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\n- Read, discuss, and present recent research papers in quantum information theory and related areas.",
+          "plan": "[Part1 (6 weeks)]\n1. Basic of Quantum Information Theory\n- Pure and mixed states\n- Quantum measurements\n- Composite Systems and Entanglement\n- No-cloning theorem\n- Bell theorem\n2, Basic Quantum Information Protocols\n- Single-qubit and multi-qubit gates, universal gate sets\n- Quantum teleportation and superdense coding\n- Entanglement swapping and quantum repeaters\n- Entanglement distillation and purification\n- Quantum key distribution and quantum secret sharing\n3. Quantum Channels and Quantum Entropy\n- CPTP maps and Kraus representations\n- Basic quantum noise channels\n- von Neumann entropy, mutual information, relative entropy\n- Holevo bound and channel capacity\n\n[Part2 (6 weeks)]\n4. Introduction to Quantum Algorithms\n- Oracle model and quantum interference\n- Deutsch-Jozsa algorithm\n- Bernstein-Vazirani algorithm\n- Simon’s algorithm\n- Grover’s algorithm and amplitude amplification\n- Quantum Fourier transform\n- Phase estimation algorithm\n- Shor’s algorithm\n5. NISQ Algorithms\n- NISQ devices and their limitations\n- Variational Quantum Eigensolver\n- Quantum Approximate Optimization Algorithm\n- Parameterized quantum circuits and barren plateaus\n- Digital Hamiltonian simulation and Trotterization\n- Quantum error mitigation\n6. Quantum Error Correction and Fault Tolerance\n- Quantum noise and decoherence\n- Basic quantum error-correcting codes\n- Stabilizer formalism\n- Surface code and fault-tolerant quantum computation\n\n[Part3 (2~3 weeks)]\nProject-based seminar on recent research topics\n- Individual projects.\n- Topic selection based on quantum information theory and related areas\n- Literature review of selected research papers or small research projects.\n- Focus on main ideas, technical methods, significance, limitations, and future directions.\n- Oral presentation and short final ",
+          "description_truncated": false,
+          "plan_truncated": true
+        }
+      ]
+    },
+    "PC2-02": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "PHYS535",
+          "title": "양자컴퓨팅 및 양자시물레이션",
+          "description": "In this course, we aim to cover :\n1) the mathematical language of quantum information processing: density matrices, measurements, channels, etc.\n2) the basics of circuit based quantum computing: qubits, single-/two-qubit gates, simple quantum algorithms\n3) leading quantum computing hardware platforms: neutral atoms, superconducting circuits, etc. - coherence, fidelity, connectivity, scaling, benchmarking\n4) core problems in quantum simulation: many-body quantum simulation (Hubbard models, spin models), analog vs. digital (Trotterization, Jordan-Wigner transformation), VQE and quantum chemistry, etc.",
+          "plan": "Weeks 1 to 3: Basic quantum mechanics toolkit (NC 2)\nWeeks 4 to 7: Circuit model of quantum computing (NC 4)\nWeeks 8 to 11: Quantum computing hardware (NC 7)\nWeeks 12 to 15: Analog and digital quantum simulation: key problems and techniques - second quantization, Hubbard models, spin models, molecular structure calculations, etc. (as time permits)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC2-03": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "PHYS647",
+          "title": "양자알고리즘",
+          "description": "- Understand the framework of quantum information theory.\n- Understand basic quantum information protocols.\n- Understand key quantum information-theoretic quantities\n- Understand the basic principles of quantum algorithms and NISQ algorithms.\n- Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\n- Read, discuss, and present recent research papers in quantum information theory and related areas.",
+          "plan": "[Part1 (6 weeks)]\n1. Basic of Quantum Information Theory\n- Pure and mixed states\n- Quantum measurements\n- Composite Systems and Entanglement\n- No-cloning theorem\n- Bell theorem\n2, Basic Quantum Information Protocols\n- Single-qubit and multi-qubit gates, universal gate sets\n- Quantum teleportation and superdense coding\n- Entanglement swapping and quantum repeaters\n- Entanglement distillation and purification\n- Quantum key distribution and quantum secret sharing\n3. Quantum Channels and Quantum Entropy\n- CPTP maps and Kraus representations\n- Basic quantum noise channels\n- von Neumann entropy, mutual information, relative entropy\n- Holevo bound and channel capacity\n\n[Part2 (6 weeks)]\n4. Introduction to Quantum Algorithms\n- Oracle model and quantum interference\n- Deutsch-Jozsa algorithm\n- Bernstein-Vazirani algorithm\n- Simon’s algorithm\n- Grover’s algorithm and amplitude amplification\n- Quantum Fourier transform\n- Phase estimation algorithm\n- Shor’s algorithm\n5. NISQ Algorithms\n- NISQ devices and their limitations\n- Variational Quantum Eigensolver\n- Quantum Approximate Optimization Algorithm\n- Parameterized quantum circuits and barren plateaus\n- Digital Hamiltonian simulation and Trotterization\n- Quantum error mitigation\n6. Quantum Error Correction and Fault Tolerance\n- Quantum noise and decoherence\n- Basic quantum error-correcting codes\n- Stabilizer formalism\n- Surface code and fault-tolerant quantum computation\n\n[Part3 (2~3 weeks)]\nProject-based seminar on recent research topics\n- Individual projects.\n- Topic selection based on quantum information theory and related areas\n- Literature review of selected research papers or small research projects.\n- Focus on main ideas, technical methods, significance, limitations, and future directions.\n- Oral presentation and short final ",
+          "description_truncated": false,
+          "plan_truncated": true
+        }
+      ]
+    },
+    "PC2-04": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": []
+    },
+    "PC2-05": {
+      "lab_id": "0a2eb55c6a036c893a340b7402e7da05",
+      "department": "화학공학과",
+      "professor": "전상민",
+      "interest": "자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요.",
+      "paper": {
+        "id": "W4393149344",
+        "title": "Magnetic Nanoparticle Cluster-Based 3D Solar Steam Generator with High Recyclability",
+        "abstract": "We developed a three-dimensional (3D) solar steam generator (SSG) with a hierarchical spiny structure across its entire surface, employing a magnetized iron cylinder and magnetic nanoparticle clusters (MNCs). In the two-dimensional (2D) SSG configuration, MNCs positioned on a disc-shaped permanent magnet formed spiny structures aligned with the magnetic field lines. Upon exposure to sunlight, this hierarchical spiny structure significantly enhanced light absorption via multiple reflections and promoted water evaporation by expanding the surface area. Transitioning from a 2D to a 3D structure using a cylindrical permanent magnet in the 3D SSG improves the evaporation performance by effectively harnessing environmental energy for dark evaporation. However, generating a spiny structure on the side surface of the cylindrical magnet presents challenges owing to the weaker magnetic field on the side surface. We addressed this limitation by magnetizing a hollow iron cylinder placed over a permanent magnet, which led to the creation of a uniform magnetic field and produced a hierarchical spiny structure across the entire surface. The 3D SSG achieved an evaporation rate of 2.8 kg m –2 h –1, which is 1.64 times higher than that of the 2D SSG, attributable to its efficient environmental energy utilization. Furthermore, we demonstrated the recyclability and self-regeneration of the 3D SSG through evaporation experiments using a 3.5 wt % NaCl solution.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB214",
+          "title": "에너지환경공학",
+          "description": "This course introduces key knowledge areas in renewable energy and environmental technologies as addressed in chemical engineering. Focusing on renewable energy systems, energy production and storage technologies, high-efficiency energy devices, and water treatment technologies, the course aims to enhance students’ understanding of chemical engineering by presenting fundamental engineering principles together with representative applications and research case studies.\n\n본 강의는 화학공학과에서 다루는 신재생에너지 기술 및 환경 기술과 연계되는 지식을 소개하는 과목이다. 신재생에너지 및 에너지 생산/저장 기술, 고에너지효율 소자 기술, 수질 처리 환경 기술 등을 중심으로 공학적 기본 원리와 응용 연구 사례들을 소개함으로써 화학공학에 대한 학생들의 이해를 돕고자 한다.",
+          "plan": "- (Important) Certain topics may be adjusted depending on the progress of the course.\n\n[Weeks 1–4] Energy, Environment, and Chemical Engineering\n• Overview of global energy and environmental issues and their connection to chemical engineering\n• Energy-related chemical engineering technologies: shale gas utilization and hydrogen production\n• Environmental chemical engineering technologies: mitigation of carbon dioxide and NOx emissions\n• Next-generation energy and environmental technologies: catalytic processes\n\n[Weeks 5–7] Hydrogen Energy I\n• Hydrogen production\n• Hydrogen storage I\n\n[Week 8] Midterm Examination\n\n[Weeks 9–11] Hydrogen Energy II\n• Hydrogen storage II\n• Hydrogen utilization\n\n[Weeks 12–13] Water and Air Environment\n• Water pollution and water treatment technologies\n• Photochemical and biochemical water treatment processes\n• Electrochemical water treatment technologies\n• Air quality control technologies\n\n[Weeks 14–15] Energy Storage\n• Secondary batteries and next-generation battery systems\n• Large-scale energy storage technologies\n\n[Week 16] Final Examination\n\n---------------------------------------------------------------------------------------------------------------------------------------------\n\n- (중요) 강의 내용의 일부는 조정될 수 있음 - (Important Note: Some of the lecture content could be adjusted)\n\n(1주~4주) 에너지, 환경, 화학공학\n• 에너지 및 환경 이슈와 화학 공학 기술의 이해\n• 에너지 관련 화학공학 기술: 셰일 가스 활용 및 수소 생산 기술\n• 환경 관련 화학공학 기술: 이산화탄소 및 NOx 저감\n• 차세대 에너지/환경 기술: 촉매 기술\n\n(5주~7주) 수소에너지 I\n• 수소생산\n• 수소저장 I\n\n(8주) 중간 고사\n\n(9주~11주) 수소에너지 II\n• 수소저장 II\n• 수소활용\n\n(12주~13주) 수질 대기 환경\n• 수질 오염과 수질 처리 환경기술의 이해\n• 수처리 광화학 기술, 생화학 기술\n• 수처리 전기화학 기술\n• 대기 환경 기술\n\n(14주~15주) 에너지저장\n• 이차전지, 차세대 배터리\n• 대용량 에너지저장 기술\n\n(16주) 기말 고사",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC2-06": {
+      "lab_id": "0a2eb55c6a036c893a340b7402e7da05",
+      "department": "화학공학과",
+      "professor": "전상민",
+      "interest": "자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요.",
+      "paper": {
+        "id": "W4393149344",
+        "title": "Magnetic Nanoparticle Cluster-Based 3D Solar Steam Generator with High Recyclability",
+        "abstract": "We developed a three-dimensional (3D) solar steam generator (SSG) with a hierarchical spiny structure across its entire surface, employing a magnetized iron cylinder and magnetic nanoparticle clusters (MNCs). In the two-dimensional (2D) SSG configuration, MNCs positioned on a disc-shaped permanent magnet formed spiny structures aligned with the magnetic field lines. Upon exposure to sunlight, this hierarchical spiny structure significantly enhanced light absorption via multiple reflections and promoted water evaporation by expanding the surface area. Transitioning from a 2D to a 3D structure using a cylindrical permanent magnet in the 3D SSG improves the evaporation performance by effectively harnessing environmental energy for dark evaporation. However, generating a spiny structure on the side surface of the cylindrical magnet presents challenges owing to the weaker magnetic field on the side surface. We addressed this limitation by magnetizing a hollow iron cylinder placed over a permanent magnet, which led to the creation of a uniform magnetic field and produced a hierarchical spiny structure across the entire surface. The 3D SSG achieved an evaporation rate of 2.8 kg m –2 h –1, which is 1.64 times higher than that of the 2D SSG, attributable to its efficient environmental energy utilization. Furthermore, we demonstrated the recyclability and self-regeneration of the 3D SSG through evaporation experiments using a 3.5 wt % NaCl solution.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB413",
+          "title": "에너지환경 소재 분석 개론",
+          "description": "[Course Overview]\nWith the increasing significance of eco-friendly energy materials, there is a growing demand for a convergent understanding of analytical techniques to characterize materials and elucidate the mechanisms behind performance enhancement. Given the rising complexity of modern materials, an in-depth understanding through multi-dimensional analysis is essential. Accordingly, this course introduces undergraduate students in Chemical Engineering and related convergent disciplines to the current development of various energy materials and the practical application of characterization tools, focusing on their fundamental principles and operational scopes.\n\n[Learning Objectives]\n- Fundamental Principles: Grasp the core principles of various analytical techniques utilized for characterizing energy and environmental materials, specifically for hydrogen production, storage, extraction, utilization, and CO2 reduction.\n- Technical Selection: Evaluate the strengths, limitations, and application ranges of each characterization method to select the most appropriate tools for specific research objectives.\n- Integrated Interpretation: Develop the ability to synthesize diverse analytical datasets to achieve a profound understanding of material properties within the hydrogen economy and carbon capture frameworks.",
+          "plan": "- Introduction to Energy and Environmental Materials\n- Inductively Coupled Plasma Optical Emission Spectroscopy and Mass Spectrometry (ICP-OES and ICP-MS)\n- X-ray Photoelectron, Auger Electron, Ion Scattering, UV Photoelectron Spectroscopy(XPS, AES, ISS, and UPS)\n- Surface Area/Porosity, Adsorption (Physisorption and Chemisorption)\n- Thermal Methods (Temperature-programmed Techniques, and TGA)\n- Infrared, Raman, and UV-Vis Spectroscopy (IR, Raman, and UV-Vis)\n- Electron Microscopy (TEM and SEM)\n- X-ray Diffraction (XRD)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC2-07": {
+      "lab_id": "0338f11c96903a40633ed02cc9426f4f",
+      "department": "생명과학과",
+      "professor": "허윤하",
+      "interest": "배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요.",
+      "paper": {
+        "id": "W4415184415",
+        "title": "Embryonic stem cell-derived extracellular vesicles delay cellular senescence by inhibiting oxidative stress",
+        "abstract": "The accumulation of cells that permanently exit the cell cycle and undergo senescence is a hallmark of aging and predisposes organisms to disease. Emerging evidence suggests extracellular vesicles (EVs) released by pluripotent embryonic stem cells (ESCs) possess therapeutic/regenerative properties with the potential to significantly impact cellular senescence and aging-related disorders. However, the critical next step for taking advantage of the potential benefits offered by ESC-derived EVs will be to unravel the molecular mechanisms responsible for their unique functional effects, which thus far have not been fully defined. Toward that goal, we now identify a signaling pathway essential for EVs shed by ESCs to potently block fibroblasts and astrocytes from undergoing senescence. It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT. This leads to the inhibition of GSK3β activity and stabilization of the transcription factor Nrf2, which counteracts the effects of oxidative stress that would otherwise drive cellular senescence. These findings define a signaling pathway used by ESC-derived EVs to extend cellular lifespan, highlighting their potential application in anti-aging strategies.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "LIFE509",
+          "title": "고급세포생물학",
+          "description": "This course aims to provide graduate students with an in-depth understanding of the mechanisms that govern cell function and cellular processes and also aims to follow up recent advances and emerging concepts in the field of cell biology.",
+          "plan": "",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC2-08": {
+      "lab_id": "0338f11c96903a40633ed02cc9426f4f",
+      "department": "생명과학과",
+      "professor": "허윤하",
+      "interest": "배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요.",
+      "paper": {
+        "id": "W4415184415",
+        "title": "Embryonic stem cell-derived extracellular vesicles delay cellular senescence by inhibiting oxidative stress",
+        "abstract": "The accumulation of cells that permanently exit the cell cycle and undergo senescence is a hallmark of aging and predisposes organisms to disease. Emerging evidence suggests extracellular vesicles (EVs) released by pluripotent embryonic stem cells (ESCs) possess therapeutic/regenerative properties with the potential to significantly impact cellular senescence and aging-related disorders. However, the critical next step for taking advantage of the potential benefits offered by ESC-derived EVs will be to unravel the molecular mechanisms responsible for their unique functional effects, which thus far have not been fully defined. Toward that goal, we now identify a signaling pathway essential for EVs shed by ESCs to potently block fibroblasts and astrocytes from undergoing senescence. It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT. This leads to the inhibition of GSK3β activity and stabilization of the transcription factor Nrf2, which counteracts the effects of oxidative stress that would otherwise drive cellular senescence. These findings define a signaling pathway used by ESC-derived EVs to extend cellular lifespan, highlighting their potential application in anti-aging strategies.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "LIFE511",
+          "title": "세포신호전달",
+          "description": "Cell signalings are basic concepts for the understanding of energy homeostasis and control mechanism in living organisms. Especially, the relationships between the principles of signal transduction and the metabolic diseases such as diabetes and obesity will be focused to learn current trends and future subject of research in this area.\n1) The components and principles of signaling for major receptors, switchs, 2nd messengers, protein kinases and scaffolds.\n2) The machineries and mechanisms for the control of energy homeostasis in living orgamisms.\n3) Current trends in the researches on the disorders in metabolism and diseases such as diabetes and obesity\n4) The microbiome",
+          "plan": "Cell signalings are basic concepts for the understanding of energy homeostasis and control mechanism in living organisms. Especially, the relationships between the principles of signal transduction and the metabolic diseases such as diabetes and obesity will be focused to learn current trends and future subject of research in this area.\n1) The components and principles of signaling for major receptors, switchs, 2nd messengers, protein kinases and scaffolds.\n2) The machineries and mechanisms for the control of energy homeostasis in living orgamisms.\n3) Current trends in the researches on the disorders in metabolism and diseases such as diabetes and obesity\n4) The microbiome\n-Students may have understandings on basic cell biology.\n-Students must prepare presentations for specific topics during the course of the later part of class\n1) No examination\n2) The rate of course attendance accounts for 40% of evaluation.\n(If you are late for more than 5 minutes, you will be treated as absent - same rules for online live and online recorded course)\n (11시 6분 부터는 결석 처리, 온라인 강의 및 온라인 녹화 강의도 마찬가지)\n3) The other 60% will be based on your own presentations\nand questions.\n - Topics can be diseases associated with signaling alterations and microbiome etc.\n40% for the basics of cell signaling, 30% for the special topics and 30% for the presentation/discussion\n9/2– Introduction (1)\n9/4 – Introduction (2) – Fundamentals of signaling\n9/9 – Subcellular localization of signaling molecules (recorded online)\n9/11 – Ligands and Receptors (1) – GPCR (recorded online)\n9/16 – Second messenger (recorded online)\n9/18 – Ligands and Receptors (2) - Receptor Tyr Kinases\n9/23 – Role of posttranslational modifications\n9/25 – Regulated protein degradation\n9/30 - No class (conference)\n10/2 – No class (conferenc",
+          "description_truncated": false,
+          "plan_truncated": true
+        }
+      ]
+    },
+    "PC2-09": {
+      "lab_id": "0b9f3600cef7f0f180cb1838b22bad04",
+      "department": "수학과 · 의과학전공",
+      "professor": "김진수",
+      "interest": "화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요.",
+      "paper": {
+        "id": "W4412198846",
+        "title": "Noise-robust training of artificial neural networks using chemical reaction networks",
+        "abstract": "Artificial neural networks (NNs) can be implemented using chemical reaction networks (CRNs), where the concentrations of species act as inputs and outputs. In such biochemical computing, noise-robust computing is crucial due to the intrinsic and extrinsic noise present in chemical reactions. Previously suggested CRNs for feed-forward networks often utilized the rectified linear unit or discrete activation functions. However, one concern in this case is the discontinuities of the derivatives of those non-smooth functions, which can cause significant noise disruption during backpropagation. In this study, we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation. All reactions occur in a single pot, and the reactions for training are bimolecular. Our case studies on the XOR, Iris, MNIST datasets, and a non-linear regression model demonstrate that computation via the CRN (i) maintains accuracy despite noise in the reaction rates and the concentration of species and (ii) is insensitive to the choice of the running time and the magnitude of the noise in comparison to NNs with a non-smooth activation function. This work presents a noise-robust NN and backpropagation implemented by CRNs, paving the way for more stable and efficient biochemical computing systems.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "AIGS651",
+          "title": "컴퓨테이셔널인텔리전스",
+          "description": "This is a research class where the student can pursue any research work related to Artificial Intelligence while getting course credit. Lectures will focus on practical AI Neural Network methods, their theoretical foundations, the computations involved and the reason for the use of such computations, amount of computational operations used, their programming methods, and the computer architectures necessary to support such computations. The student will have opportunities to present his/her research work multiple times during the class. The course language is English with Korean summaries.\n(이 과목은 인공지능 관련 연구 과목입니다. 본인이 하고 싶은 인공지능 관련 연구를 하면서 수업 학점을 받을 수 있는 좋은 기회입니다. 강의 내용은 인공지능 방법 중 실질적인 Neural Network 기반 방법 (CNN, RNN 등) 에 사용되는 원리 이론, 연산 방법/이유, 연산량 및 이러한 연산을 잘 지원할 수 있는 컴퓨터 프로그래밍 방법 및 컴퓨터 구조에 대한 내용으로 구성되어 있습니다. 각 학생은 본인의 연구 주제를 정하고 여러번 발표하는 기회가 있을 것입니다. 강의 언어는 영어이지만 한글 요약 및 추가 설명도 있을 것입니다.)",
+          "plan": "0. Course Introduction\n1. Introduction to Neural Networks\n2. MNIST and Neural Network Programming\n3. Code Analysis\n4. Learning using Backpropagation\n5. Main Neural Network Methods\n6. Convolutional Neural Networks\n7. State-of-the-Art (SOTA) Neural Network Methods and Implementations\n8. Neural Network Hardware Implementations",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    },
+    "PC2-10": {
+      "lab_id": "0b9f3600cef7f0f180cb1838b22bad04",
+      "department": "수학과 · 의과학전공",
+      "professor": "김진수",
+      "interest": "화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요.",
+      "paper": {
+        "id": "W4412198846",
+        "title": "Noise-robust training of artificial neural networks using chemical reaction networks",
+        "abstract": "Artificial neural networks (NNs) can be implemented using chemical reaction networks (CRNs), where the concentrations of species act as inputs and outputs. In such biochemical computing, noise-robust computing is crucial due to the intrinsic and extrinsic noise present in chemical reactions. Previously suggested CRNs for feed-forward networks often utilized the rectified linear unit or discrete activation functions. However, one concern in this case is the discontinuities of the derivatives of those non-smooth functions, which can cause significant noise disruption during backpropagation. In this study, we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation. All reactions occur in a single pot, and the reactions for training are bimolecular. Our case studies on the XOR, Iris, MNIST datasets, and a non-linear regression model demonstrate that computation via the CRN (i) maintains accuracy despite noise in the reaction rates and the concentration of species and (ii) is insensitive to the choice of the running time and the magnitude of the noise in comparison to NNs with a non-smooth activation function. This work presents a noise-robust NN and backpropagation implemented by CRNs, paving the way for more stable and efficient biochemical computing systems.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "IBIO522",
+          "title": "시스템생물학",
+          "description": "본 교과목은 생명체를 구성하는 유전체 (genome)와 단백질체 (proteome)에 대한 기본적인 이해와 더불어 생명 현상의 다양성 및 역동성을 주관하는 생체 네트워크의 상호작용 및 조절에 대한 소개를 통하여 생명현상에 대한 포괄적인 지식을 전체 시스템차원에서 심도있게 제공하고자 한다.",
+          "plan": "Week 1 Biological components: Genome sequence acquisition and analysisWeek 2 Biological components: Genome sequence to answer interesting questionsWeek 3 Biological components: Genomic variationsWeek 4 Basic research with DNA MicroarraysWeek 5 Network reconstruction: Applied reserach with DNA MicroarrayWeek 6 Network reconstruction: Proteomics IWeek7 Network reconstruction: Proteomics IIWeek 8 MidtermWeek 9 Biological network: Regulatory networkWeek 10 Biological network: Signaling networkWeek 11 Biological network: Metabolic networkWeek 12 Whole Genome Perspective: Genomic circuitry in single genesWeek 13 Whole Genome Perspective: Integrated genomic circuitsWeek 14 Whole Genome Perspective: Modeling whole-genome circuitsWeek 15 Systems Biology: Medical case studiesWeek 16 Final exam",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "id": "Q2-001",
+      "context_id": "PC2-09",
+      "left": "연구 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요. 공개된 사례 중 하나를 골라 매끄러운 함수와 ReLU형 함수를 같은 잡음 수준·실행시간 조건에서 학습시켜 정확도 변화를 비교해 보세요.\n연구 근거: 논문은 매끄러운 활성함수 기반 화학 반응 네트워크로 순전파와 학습을 구현하고, XOR·Iris·MNIST 및 회귀 사례에서 반응률·농도 잡음에도 정확도가 유지되며 비매끄러운 활성함수보다 실행시간·잡음 크기에 덜 민감했다고 보고합니다. [W4412198846]\n과목 연결: 컴퓨테이셔널인텔리전스(AIGS651) — 직접 연결. 과목 계획의 신경망과 역전파 학습은 논문의 신경망 학습 과정을 이해하는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 생물학적 반응 네트워크에서의 실험 검증이나 실제 세포 구현을 초록이 입증한 것은 아니므로 계산 사례와 실험 사실을 구분하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 잡음이 학습에 미치는 영향이 궁금해요. 논문 사례에서 매끄러운 활성함수와 비매끄러운 활성함수를 반응률·농도 잡음 및 실행시간 조건에 따라 비교해 정확도 변화를 살펴보세요.\n연구 근거: 논문은 매끄러운 활성함수 기반 화학 반응 네트워크로 순전파와 학습을 구현하고, XOR·Iris·MNIST 및 비선형 회귀 사례에서 반응률·농도 잡음에도 정확도가 유지되며 비매끄러운 활성함수보다 실행시간·잡음 크기에 덜 민감했다고 보고합니다. [W4412198846]\n과목 연결: 컴퓨테이셔널 인텔리전스(AIGS651) — 직접 연결. 과목 설명은 인공신경망 방법과 이론, 계산을 다루며 논문의 신경망 학습 방법과 관련됩니다.\n첫 단계: 초록에 제시된 데이터 사례와 비교 결과를 정리하고, 잡음 조건 및 정확도 측정 방식은 본문에서 확인하세요.\n확인할 점: 초록은 생물학적 반응 네트워크에서의 실험이나 실제 세포 구현을 입증하지 않습니다. 계산 사례와 실험 사실을 구분하세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "Q2-002",
+      "context_id": "PC2-08",
+      "left": "연구 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 경로의 각 단계와 노화·산화 스트레스 지표를 논문 그림에서 연결하고, 어느 단계가 억제 실험으로 뒷받침되는지 표로 정리해 보세요.\n연구 근거: 논문은 배아줄기세포 유래 소포 표면의 피브로넥틴이 세포 인테그린에 결합해 FAK–AKT를 활성화하고 GSK3β 억제·Nrf2 안정화를 거쳐 산화 스트레스와 섬유아세포·성상세포 노화를 낮춘 경로를 제시합니다. [W4415184415]\n과목 연결: 세포신호전달(LIFE511) — 직접 연결. 세포 신호전달 과목은 인테그린에서 FAK·AKT, GSK3β·Nrf2로 이어지는 논문 경로와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 세포 수준 결과를 사람의 항노화 효능으로 확대할 수는 없으며, 각 신호 단계의 인과성은 해당 대조·억제 실험으로 한정해 읽어야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 허윤하 교수의 연구와 연결해, 배아줄기세포 유래 세포외소포가 산화 스트레스와 세포 노화에 영향을 준다는 결과를 어떤 지표와 신호 경로로 검증했는지 묻습니다.\n연구 근거: 선정 논문은 줄기세포 유래 세포외소포가 산화 스트레스 반응을 상쇄하고 세포 수명 연장과 연결되는 신호 경로를 제시합니다. 세포 노화 지표, 산화 손상 지표, 경로 조작 여부와 대조군을 표로 정리하면 관찰과 인과 주장을 구별할 수 있습니다. 세포 모델의 결과를 사람의 항노화 효과로 바로 일반화하지 않는 것이 중요합니다. [논문 W4415184415]\n과목 연결: LIFE511은 수용체·2차 전달자·키나아제 등 세포 신호전달 기전을 다뤄 논문에서 제시한 경로를 따라가는 데 직접 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q2-003",
+      "context_id": "PC2-01",
+      "left": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자알고리즘(PHYS647) — 직접 연결. 과목에 양자 잡음 채널과 양자 오류 정정이 명시되어 있어 위상 감쇠 아래 AutoQEC를 다루는 주제와 직접 연결됩니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자알고리즘(PHYS647) — 직접 연결. 과목에 양자 잡음 채널과 양자 오류 정정이 명시되어 있어 위상 감쇠 아래 AutoQEC를 다루는 주제와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-004",
+      "context_id": "PC2-02",
+      "left": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자컴퓨팅 및 양자시물레이션(PHYS535) — 잠정 연결. 과목에 양자정보 채널과 기본 잡음 채널이 포함되어 잡음 모델을 읽는 데 연결되지만, 오류 정정 자체는 과목 설명에 명시되지 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자컴퓨팅 및 양자시물레이션(PHYS535) — 잠정 연결. 과목에 양자정보 채널과 기본 잡음 채널이 포함되어 잡음 모델을 읽는 데 연결되지만, 오류 정정 자체는 과목 설명에 명시되지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-005",
+      "context_id": "PC2-10",
+      "left": "연구 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요. 공개된 사례 중 하나를 골라 매끄러운 함수와 ReLU형 함수를 같은 잡음 수준·실행시간 조건에서 학습시켜 정확도 변화를 비교해 보세요.\n연구 근거: 논문은 매끄러운 활성함수 기반 화학 반응 네트워크로 순전파와 학습을 구현하고, XOR·Iris·MNIST 및 회귀 사례에서 반응률·농도 잡음에도 정확도가 유지되며 비매끄러운 활성함수보다 실행시간·잡음 크기에 덜 민감했다고 보고합니다. [W4412198846]\n과목 연결: 시스템생물학(IBIO522) — 잠정 연결. 과목의 생체 네트워크·조절 및 네트워크 모델링은 화학 반응 네트워크를 생물학적 맥락에서 생각하는 데 연결되지만, 신경망 구현을 직접 다룬다고 볼 수는 없습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 생물학적 반응 네트워크에서의 실험 검증이나 실제 세포 구현을 초록이 입증한 것은 아니므로 계산 사례와 실험 사실을 구분하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 김진수 교수의 연구와 연결해, 화학 반응 네트워크(CRN)로 구현한 신경망에서 반응률·농도 잡음이 학습 정확도에 미치는 영향을 활성화 함수 선택과 함께 살펴봅니다.\n연구 근거: 김진수 교수와 연결된 논문은 매끄러운 활성화 함수를 이용해 CRN에서 순전파와 학습을 구현하고 XOR·Iris·MNIST 등의 사례에서 잡음에 대한 정확도 유지와 실행 시간 민감도를 비교합니다. 반응률과 농도 잡음을 각각 바꾸고 매끄럽지 않은 활성화 기준과 대조하면 기여 요인을 분리할 수 있습니다. 이는 보고된 계산 사례의 결과입니다. [논문 W4412198846]\n과목 연결: IBIO522은 생체 네트워크와 대사·신호 조절을 다뤄 CRN의 생물학적 맥락을 이해하는 데 연결됩니다. 신경망 학습 구현과의 직접 연결은 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q2-006",
+      "context_id": "PC2-07",
+      "left": "연구 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 경로의 각 단계와 노화·산화 스트레스 지표를 논문 그림에서 연결하고, 어느 단계가 억제 실험으로 뒷받침되는지 표로 정리해 보세요.\n연구 근거: 논문은 배아줄기세포 유래 소포 표면의 피브로넥틴이 세포 인테그린에 결합해 FAK–AKT를 활성화하고 GSK3β 억제·Nrf2 안정화를 거쳐 산화 스트레스와 섬유아세포·성상세포 노화를 낮춘 경로를 제시합니다. [W4415184415]\n과목 연결: 고급세포생물학(LIFE509) — 직접 연결. 과목의 세포 기능과 세포 과정 기전은 산화 스트레스와 세포 노화 신호 경로를 읽는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 세포 수준 결과를 사람의 항노화 효능으로 확대할 수는 없으며, 각 신호 단계의 인과성은 해당 대조·억제 실험으로 한정해 읽어야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 허윤하 교수의 연구와 연결해, 배아줄기세포 유래 세포외소포가 산화 스트레스와 세포 노화에 영향을 준다는 결과를 어떤 지표와 신호 경로로 검증했는지 묻습니다.\n연구 근거: 선정 논문은 줄기세포 유래 세포외소포가 산화 스트레스 반응을 상쇄하고 세포 수명 연장과 연결되는 신호 경로를 제시합니다. 세포 노화 지표, 산화 손상 지표, 경로 조작 여부와 대조군을 표로 정리하면 관찰과 인과 주장을 구별할 수 있습니다. 세포 모델의 결과를 사람의 항노화 효과로 바로 일반화하지 않는 것이 중요합니다. [논문 W4415184415]\n과목 연결: LIFE509은 세포·분자생물학 실험 및 생명과학 기초를 다뤄 세포 노화 지표와 기작을 이해하는 데 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q2-007",
+      "context_id": "PC2-10",
+      "left": "연구 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 잡음이 학습에 미치는 영향이 궁금해요. 논문 사례에서 매끄러운 활성함수와 비매끄러운 활성함수를 반응률·농도 잡음 및 실행시간 조건에 따라 비교해 정확도 변화를 살펴보세요.\n연구 근거: 논문은 매끄러운 활성함수 기반 화학 반응 네트워크로 순전파와 학습을 구현하고, XOR·Iris·MNIST 및 비선형 회귀 사례에서 반응률·농도 잡음에도 정확도가 유지되며 비매끄러운 활성함수보다 실행시간·잡음 크기에 덜 민감했다고 보고합니다. [W4412198846]\n과목 연결: 시스템생물학(IBIO522) — 잠정 연결. 과목은 생체 네트워크의 상호작용과 조절을 다루므로 네트워크라는 관점에서 관련될 수 있지만, 인공신경망 학습용 화학 반응 네트워크를 다룬다는 근거는 없습니다.\n첫 단계: 초록에 제시된 데이터 사례와 비교 결과를 정리하고, 잡음 조건 및 정확도 측정 방식은 본문에서 확인하세요.\n확인할 점: 초록은 생물학적 반응 네트워크에서의 실험이나 실제 세포 구현을 입증하지 않습니다. 계산 사례와 실험 사실을 구분하세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다.",
+      "right": "연구 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요. 공개된 사례 중 하나를 골라 매끄러운 함수와 ReLU형 함수를 같은 잡음 수준·실행시간 조건에서 학습시켜 정확도 변화를 비교해 보세요.\n연구 근거: 논문은 매끄러운 활성함수 기반 화학 반응 네트워크로 순전파와 학습을 구현하고, XOR·Iris·MNIST 및 회귀 사례에서 반응률·농도 잡음에도 정확도가 유지되며 비매끄러운 활성함수보다 실행시간·잡음 크기에 덜 민감했다고 보고합니다. [W4412198846]\n과목 연결: 시스템생물학(IBIO522) — 잠정 연결. 과목의 생체 네트워크·조절 및 네트워크 모델링은 화학 반응 네트워크를 생물학적 맥락에서 생각하는 데 연결되지만, 신경망 구현을 직접 다룬다고 볼 수는 없습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 생물학적 반응 네트워크에서의 실험 검증이나 실제 세포 구현을 초록이 입증한 것은 아니므로 계산 사례와 실험 사실을 구분하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-008",
+      "context_id": "PC2-07",
+      "left": "연구 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 경로의 각 단계와 노화·산화 스트레스 지표를 논문 그림에서 연결하고, 어느 단계가 억제 실험으로 뒷받침되는지 표로 정리해 보세요.\n연구 근거: 논문은 배아줄기세포 유래 소포 표면의 피브로넥틴이 세포 인테그린에 결합해 FAK–AKT를 활성화하고 GSK3β 억제·Nrf2 안정화를 거쳐 산화 스트레스와 섬유아세포·성상세포 노화를 낮춘 경로를 제시합니다. [W4415184415]\n과목 연결: 고급세포생물학(LIFE509) — 직접 연결. 과목의 세포 기능과 세포 과정 기전은 산화 스트레스와 세포 노화 신호 경로를 읽는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 세포 수준 결과를 사람의 항노화 효능으로 확대할 수는 없으며, 각 신호 단계의 인과성은 해당 대조·억제 실험으로 한정해 읽어야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 논문에서 제시한 경로와 노화·산화 스트레스 지표를 연결하고, 각 단계가 억제 실험으로 뒷받침되는지 확인해 보세요.\n연구 근거: 논문은 배아줄기세포 유래 소포 표면의 피브로넥틴이 세포 인테그린에 결합해 FAK–AKT를 활성화하고 GSK3β 억제·Nrf2 안정화를 거쳐 산화 스트레스와 섬유아세포·성상세포 노화를 낮추는 경로를 제시합니다. [W4415184415]\n과목 연결: 고급세포생물학(LIFE509) — 직접 연결. 과목은 세포 기능과 세포 과정의 기전을 다루므로 논문에서 제시한 세포 반응 기전을 살펴보는 데 관련됩니다.\n첫 단계: 논문 초록의 세포 종류, 제시된 신호 경로와 결과 지표를 표로 정리하고, 단계별 인과성은 본문 실험과 대조군을 확인하세요.\n확인할 점: 세포 수준 결과를 사람의 항노화 효능으로 확대할 수 없습니다. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "Q2-009",
+      "context_id": "PC2-06",
+      "left": "연구 질문: 전상민 교수의 연구와 연결해, 자기 나노입자로 만든 3차원 흡광 구조가 빛의 흡수와 계면 증발을 어떻게 바꾸며, 재료 구조와 증발 성능의 관계를 어떻게 확인할지 묻습니다.\n연구 근거: 선정 논문은 자기 나노입자 기반 3차원 구조를 태양열 증발 맥락에서 연구합니다. 구조에 따른 광흡수와 열 전달을 구분해 읽고, 증발률 비교 시 조사 세기·면적·염수 조건·대조군이 같은지 확인하는 것이 출발점입니다. 논문 결과를 다른 환경에서도 재현된 성능으로 확대 해석하지 않고 조건을 기록합니다. [논문 W4393149344]\n과목 연결: CHEB413은 에너지·환경 소재의 특성 분석과 현미경·분광·열 분석을 다뤄 증발기 재료와 성능 메커니즘 비교에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 논문 조건을 추려 2D·3D 형상, 조도, 염수 농도와 증발률을 비교하는 표를 만들고 면적 정규화 기준을 확인해 보세요.\n연구 근거: 연구진은 자성 나노입자 군집으로 전체 표면에 가시 구조를 만든 3차원 태양 증기 발생기를 제시했고, 증발률 2.8 kg m⁻² h⁻¹가 2D 장치보다 1.64배 높았으며 3.5 wt% NaCl 용액에서 재사용성을 보였다고 보고합니다. [W4393149344]\n과목 연결: 에너지환경 소재 분석 개론(CHEB413) — 잠정 연결. 과목의 에너지·환경 소재 특성 분석과 분광·열 분석 도구는 재료 성능을 해석하는 데 연결되지만, 이 논문의 구체적 증발기 분석을 다룬다고 단정할 수 없습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 수치 비교가 환경 에너지 이용 때문이라는 해석은 논문 설명이며, 독립 변수 효과와 반복·오차는 본문에서 점검해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-010",
+      "context_id": "PC2-09",
+      "left": "연구 질문: 김진수 교수의 연구와 연결해, 화학 반응 네트워크(CRN)로 구현한 신경망에서 반응률·농도 잡음이 학습 정확도에 미치는 영향을 활성화 함수 선택과 함께 살펴봅니다.\n연구 근거: 김진수 교수와 연결된 논문은 매끄러운 활성화 함수를 이용해 CRN에서 순전파와 학습을 구현하고 XOR·Iris·MNIST 등의 사례에서 잡음에 대한 정확도 유지와 실행 시간 민감도를 비교합니다. 반응률과 농도 잡음을 각각 바꾸고 매끄럽지 않은 활성화 기준과 대조하면 기여 요인을 분리할 수 있습니다. 이는 보고된 계산 사례의 결과입니다. [논문 W4412198846]\n과목 연결: AIGS651은 신경망 방법·이론·구현을 연구 발표와 함께 다뤄 CRN 신경망의 학습 비교에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요. 공개된 사례 중 하나를 골라 매끄러운 함수와 ReLU형 함수를 같은 잡음 수준·실행시간 조건에서 학습시켜 정확도 변화를 비교해 보세요.\n연구 근거: 논문은 매끄러운 활성함수 기반 화학 반응 네트워크로 순전파와 학습을 구현하고, XOR·Iris·MNIST 및 회귀 사례에서 반응률·농도 잡음에도 정확도가 유지되며 비매끄러운 활성함수보다 실행시간·잡음 크기에 덜 민감했다고 보고합니다. [W4412198846]\n과목 연결: 컴퓨테이셔널인텔리전스(AIGS651) — 직접 연결. 과목 계획의 신경망과 역전파 학습은 논문의 신경망 학습 과정을 이해하는 데 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 생물학적 반응 네트워크에서의 실험 검증이나 실제 세포 구현을 초록이 입증한 것은 아니므로 계산 사례와 실험 사실을 구분하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-011",
+      "context_id": "PC2-03",
+      "left": "연구 질문: 논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자알고리즘(PHYS647) — 직접 연결. 과목에 양자 잡음 채널과 양자 오류 정정이 명시되어 있어 위상 감쇠 아래 AutoQEC를 다루는 주제와 직접 연결됩니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자알고리즘(PHYS647) — 직접 연결. 과목에 양자 잡음 채널과 양자 오류 정정이 명시되어 있어 위상 감쇠 아래 AutoQEC를 다루는 주제와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-012",
+      "context_id": "PC2-06",
+      "left": "연구 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 논문 조건을 추려 2D·3D 형상, 조도, 염수 농도와 증발률을 비교하고 면적 정규화 기준을 확인해 보세요.\n연구 근거: 연구진은 자성 나노입자 군집으로 전체 표면에 가시 구조를 만든 3차원 태양 증기 발생기를 제시했고, 증발률 2.8 kg m⁻² h⁻¹가 2D 장치보다 1.64배 높았으며 3.5 wt% NaCl 용액에서 재사용성과 자기 재생을 보였다고 보고합니다. [W4393149344]\n과목 연결: 에너지환경 소재 분석 개론(CHEB413) — 구체적 연결은 미확인입니다. 과목은 에너지·환경 소재 분석을 다루지만, 제공된 설명은 이 태양 증기 발생기나 해당 분석법을 특정하지 않습니다.\n첫 단계: 초록에서 장치 형상과 보고된 실험 조건·결과를 표로 정리하고, 비교할 조도·염수 조건 및 면적 기준은 본문에서 확인하세요. 추가 비교는 후속 검토 제안입니다.\n확인할 점: 환경 에너지 이용이 성능 향상의 원인이라는 것은 저자의 해석입니다. 대조 조건, 반복 수와 오차를 본문에서 확인하세요. 수강만으로 기술 역량이나 연구실 프로젝트·장비 접근 권한을 추정할 수 없습니다.",
+      "right": "연구 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 논문 조건을 추려 2D·3D 형상, 조도, 염수 농도와 증발률을 비교하는 표를 만들고 면적 정규화 기준을 확인해 보세요.\n연구 근거: 연구진은 자성 나노입자 군집으로 전체 표면에 가시 구조를 만든 3차원 태양 증기 발생기를 제시했고, 증발률 2.8 kg m⁻² h⁻¹가 2D 장치보다 1.64배 높았으며 3.5 wt% NaCl 용액에서 재사용성을 보였다고 보고합니다. [W4393149344]\n과목 연결: 에너지환경 소재 분석 개론(CHEB413) — 잠정 연결. 과목의 에너지·환경 소재 특성 분석과 분광·열 분석 도구는 재료 성능을 해석하는 데 연결되지만, 이 논문의 구체적 증발기 분석을 다룬다고 단정할 수 없습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 수치 비교가 환경 에너지 이용 때문이라는 해석은 논문 설명이며, 독립 변수 효과와 반복·오차는 본문에서 점검해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-013",
+      "context_id": "PC2-03",
+      "left": "연구 질문: 논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자알고리즘(PHYS647) — 직접 연결. 과목에 양자 잡음 채널과 양자 오류 정정이 명시되어 있어 위상 감쇠 아래 AutoQEC를 다루는 주제와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이승우 교수의 연구와 연결해, 위상 추정의 잡음 조건에서 자율 양자 오류 보정(AutoQEC)이 시간에 따른 정밀도 저하를 어느 범위까지 줄이는지 질문합니다.\n연구 근거: 이승우 교수의 논문은 잡음 연산자와 신호 해밀토니안의 가환성 등 충분조건 아래 유한한 보정 대 잡음 비율 R로 Heisenberg scaling을 근사 보존한다고 제시합니다. 오차는 κT/Rᶜ에 비례하는 형태이며, 조건이 깨지면 논리 오류가 남을 수 있습니다. 이는 논문의 분석·수치 검증 범위이지 보편적 보장은 아닙니다. [논문 W4417091791]\n과목 연결: PHYS647은 양자 정보, 양자 잡음, 오류 정정과 연구 논문 토의를 다뤄 AutoQEC의 조건·한계 검토에 연결됩니다.\n첫 단계: 먼저 논문의 위상 추정 예제에서 잡음률 κ, 관측 시간 T, 보정 비율 R을 변수로 정하고, 보정 유무별 정밀도 추이를 재현할 수 있는 최소 모델을 설계합니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q2-014",
+      "context_id": "PC2-05",
+      "left": "연구 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 논문 조건을 추려 2D·3D 형상, 조도, 염수 농도와 증발률을 비교하는 표를 만들고 면적 정규화 기준을 확인해 보세요.\n연구 근거: 연구진은 자성 나노입자 군집으로 전체 표면에 가시 구조를 만든 3차원 태양 증기 발생기를 제시했고, 증발률 2.8 kg m⁻² h⁻¹가 2D 장치보다 1.64배 높았으며 3.5 wt% NaCl 용액에서 재사용성을 보였다고 보고합니다. [W4393149344]\n과목 연결: 에너지환경공학(CHEB214) — 직접 연결. 과목은 재생에너지·환경 기술과 수처리 및 응용 연구 사례를 다뤄 태양 증기 발생기의 담수 생산 주제와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 수치 비교가 환경 에너지 이용 때문이라는 해석은 논문 설명이며, 독립 변수 효과와 반복·오차는 본문에서 점검해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 전상민 교수의 연구와 연결해, 자기 나노입자로 만든 3차원 흡광 구조가 빛의 흡수와 계면 증발을 어떻게 바꾸며, 재료 구조와 증발 성능의 관계를 어떻게 확인할지 묻습니다.\n연구 근거: 선정 논문은 자기 나노입자 기반 3차원 구조를 태양열 증발 맥락에서 연구합니다. 구조에 따른 광흡수와 열 전달을 구분해 읽고, 증발률 비교 시 조사 세기·면적·염수 조건·대조군이 같은지 확인하는 것이 출발점입니다. 논문 결과를 다른 환경에서도 재현된 성능으로 확대 해석하지 않고 조건을 기록합니다. [논문 W4393149344]\n과목 연결: CHEB214은 열·물질전달 기초를 다뤄 태양열 증발과 구조 내 열 이동을 생각하는 데 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q2-015",
+      "context_id": "PC2-04",
+      "left": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-016",
+      "context_id": "PC2-01",
+      "left": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자알고리즘(PHYS647) — 직접 연결. 과목에 양자 잡음 채널과 양자 오류 정정이 명시되어 있어 위상 감쇠 아래 AutoQEC를 다루는 주제와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 이승우 교수의 연구와 연결해, 위상 추정의 잡음 조건에서 자율 양자 오류 보정(AutoQEC)이 시간에 따른 정밀도 저하를 어느 범위까지 줄이는지 질문합니다.\n연구 근거: 이승우 교수의 논문은 잡음 연산자와 신호 해밀토니안의 가환성 등 충분조건 아래 유한한 보정 대 잡음 비율 R로 Heisenberg scaling을 근사 보존한다고 제시합니다. 오차는 κT/Rᶜ에 비례하는 형태이며, 조건이 깨지면 논리 오류가 남을 수 있습니다. 이는 논문의 분석·수치 검증 범위이지 보편적 보장은 아닙니다. [논문 W4417091791]\n과목 연결: PHYS647은 양자 정보, 양자 잡음, 오류 정정과 연구 논문 토의를 다뤄 AutoQEC의 조건·한계 검토에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "Q2-017",
+      "context_id": "PC2-05",
+      "left": "연구 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 논문 조건을 추려 2D·3D 형상, 조도, 염수 농도와 증발률을 비교하는 표를 만들고 면적 정규화 기준을 확인해 보세요.\n연구 근거: 연구진은 자성 나노입자 군집으로 전체 표면에 가시 구조를 만든 3차원 태양 증기 발생기를 제시했고, 증발률 2.8 kg m⁻² h⁻¹가 2D 장치보다 1.64배 높았으며 3.5 wt% NaCl 용액에서 재사용성을 보였다고 보고합니다. [W4393149344]\n과목 연결: 에너지환경공학(CHEB214) — 직접 연결. 과목은 재생에너지·환경 기술과 수처리 및 응용 연구 사례를 다뤄 태양 증기 발생기의 담수 생산 주제와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 수치 비교가 환경 에너지 이용 때문이라는 해석은 논문 설명이며, 독립 변수 효과와 반복·오차는 본문에서 점검해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다.",
+      "right": "연구 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 논문 조건을 추려 2D·3D 형상, 조도, 염수 농도와 증발률을 비교하고 면적 정규화 기준을 확인해 보세요.\n연구 근거: 연구진은 자성 나노입자 군집으로 전체 표면에 가시 구조를 만든 3차원 태양 증기 발생기를 제시했고, 증발률 2.8 kg m⁻² h⁻¹가 2D 장치보다 1.64배 높았으며 3.5 wt% NaCl 용액에서 재사용성과 자기 재생을 보였다고 보고합니다. [W4393149344]\n과목 연결: 에너지환경공학(CHEB214) — 잠정 연결. 과목은 재생에너지·환경 기술과 수처리 기술 및 응용 사례를 다루므로 태양 증기 발생기의 물 처리 주제와 관련은 있지만, 이 장치나 증발 원리를 다룬다고 단정할 수 없습니다.\n첫 단계: 초록에서 장치 형상과 보고된 실험 조건·결과를 표로 정리하고, 비교할 조도·염수 조건 및 면적 기준은 본문에서 확인하세요. 추가 비교는 후속 검토 제안입니다.\n확인할 점: 환경 에너지 이용이 성능 향상의 원인이라는 것은 저자의 해석입니다. 대조 조건, 반복 수와 오차를 본문에서 확인하세요. 수강만으로 기술 역량이나 연구실 프로젝트·장비 접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "Q2-018",
+      "context_id": "PC2-04",
+      "left": "연구 질문: 이승우 교수의 연구와 연결해, 위상 추정의 잡음 조건에서 자율 양자 오류 보정(AutoQEC)이 시간에 따른 정밀도 저하를 어느 범위까지 줄이는지 질문합니다.\n연구 근거: 이승우 교수의 논문은 잡음 연산자와 신호 해밀토니안의 가환성 등 충분조건 아래 유한한 보정 대 잡음 비율 R로 Heisenberg scaling을 근사 보존한다고 제시합니다. 오차는 κT/Rᶜ에 비례하는 형태이며, 조건이 깨지면 논리 오류가 남을 수 있습니다. 이는 논문의 분석·수치 검증 범위이지 보편적 보장은 아닙니다. [논문 W4417091791]\n과목 연결: 선택된 과목 없음. 과목 정보만으로 연결할 수는 없지만, 논문 초록과 관심 질문을 바탕으로 아래의 문헌 검토부터 시작할 수 있습니다.\n첫 단계: 먼저 논문 초록과 관심 질문에서 검증할 변수·지표를 뽑아 개념도를 만듭니다. 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-019",
+      "context_id": "PC2-08",
+      "left": "연구 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 논문에서 제시한 경로와 노화·산화 스트레스 지표를 연결하고, 각 단계가 억제 실험으로 뒷받침되는지 확인해 보세요.\n연구 근거: 논문은 배아줄기세포 유래 소포 표면의 피브로넥틴이 세포 인테그린에 결합해 FAK–AKT를 활성화하고 GSK3β 억제·Nrf2 안정화를 거쳐 산화 스트레스와 섬유아세포·성상세포 노화를 낮추는 경로를 제시합니다. [W4415184415]\n과목 연결: 세포신호전달(LIFE511) — 잠정 연결. 과목은 수용체·단백질 키나아제 등 신호 전달 원리와 에너지 항상성 조절을 다루므로 신호 경로라는 측면에서 관련되지만, 이 논문의 인테그린–FAK–AKT 경로를 특정해 다룬다는 근거는 없습니다.\n첫 단계: 논문 초록의 세포 종류, 제시된 신호 경로와 결과 지표를 표로 정리하고, 단계별 인과성은 본문 실험과 대조군을 확인하세요.\n확인할 점: 세포 수준 결과를 사람의 항노화 효능으로 확대할 수 없습니다. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다.",
+      "right": "연구 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 경로의 각 단계와 노화·산화 스트레스 지표를 논문 그림에서 연결하고, 어느 단계가 억제 실험으로 뒷받침되는지 표로 정리해 보세요.\n연구 근거: 논문은 배아줄기세포 유래 소포 표면의 피브로넥틴이 세포 인테그린에 결합해 FAK–AKT를 활성화하고 GSK3β 억제·Nrf2 안정화를 거쳐 산화 스트레스와 섬유아세포·성상세포 노화를 낮춘 경로를 제시합니다. [W4415184415]\n과목 연결: 세포신호전달(LIFE511) — 직접 연결. 세포 신호전달 과목은 인테그린에서 FAK·AKT, GSK3β·Nrf2로 이어지는 논문 경로와 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 세포 수준 결과를 사람의 항노화 효능으로 확대할 수는 없으며, 각 신호 단계의 인과성은 해당 대조·억제 실험으로 한정해 읽어야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "Q2-020",
+      "context_id": "PC2-02",
+      "left": "연구 질문: 이승우 교수의 연구와 연결해, 위상 추정의 잡음 조건에서 자율 양자 오류 보정(AutoQEC)이 시간에 따른 정밀도 저하를 어느 범위까지 줄이는지 질문합니다.\n연구 근거: 이승우 교수의 논문은 잡음 연산자와 신호 해밀토니안의 가환성 등 충분조건 아래 유한한 보정 대 잡음 비율 R로 Heisenberg scaling을 근사 보존한다고 제시합니다. 오차는 κT/Rᶜ에 비례하는 형태이며, 조건이 깨지면 논리 오류가 남을 수 있습니다. 이는 논문의 분석·수치 검증 범위이지 보편적 보장은 아닙니다. [논문 W4417091791]\n과목 연결: PHYS535는 양자 정보의 수학적 표현, 채널, 회로와 하드웨어를 다뤄 잡음 모델과 양자 시뮬레이션 맥락을 보완합니다. AutoQEC와의 직접 주제 연결은 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다.",
+      "right": "연구 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 위상 감쇠 사례에서 시간, 잡음률, R을 바꾸어 보정 유무별 추정 오차를 그리는 재현 실험을 설계해 보세요.\n연구 근거: 논문은 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 제약 선형방정식의 해가 존재할 때 유한한 보정률 비 R로 Heisenberg 스케일링을 근사 보존하며, 위상 추정·위상 감쇠 예제로 수치 검증했다고 제시합니다. [W4417091791]\n과목 연결: 양자컴퓨팅 및 양자시물레이션(PHYS535) — 잠정 연결. 과목에 양자정보 채널과 기본 잡음 채널이 포함되어 잡음 모델을 읽는 데 연결되지만, 오류 정정 자체는 과목 설명에 명시되지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 충분조건이 성립하지 않으면 논문 틀에서 논리 오류를 효율적으로 보정하지 못할 수 있으므로 조건 검사와 오차 정의를 원문에서 확인하세요. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    }
+  ]
+}

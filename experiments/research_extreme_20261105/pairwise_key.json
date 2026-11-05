@@ -1,0 +1,322 @@
+{
+  "Q1-001": {
+    "case_id": "case_04_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-002": {
+    "case_id": "case_01_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-003": {
+    "case_id": "case_04_course2",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-004": {
+    "case_id": "case_04_none",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q1-005": {
+    "case_id": "case_01_none",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q1-006": {
+    "case_id": "case_10_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-007": {
+    "case_id": "case_01_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-008": {
+    "case_id": "case_07_course2",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-009": {
+    "case_id": "case_07_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-010": {
+    "case_id": "case_01_interest",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-011": {
+    "case_id": "case_04_course1",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-012": {
+    "case_id": "case_01_course1",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-013": {
+    "case_id": "case_10_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-014": {
+    "case_id": "case_04_none",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-015": {
+    "case_id": "case_04_interest",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q1-016": {
+    "case_id": "case_01_interest",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q1-017": {
+    "case_id": "case_10_course1",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-018": {
+    "case_id": "case_07_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-019": {
+    "case_id": "case_07_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q1-020": {
+    "case_id": "case_04_interest",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-021": {
+    "case_id": "case_04_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q1-022": {
+    "case_id": "case_01_course2",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q1-023": {
+    "case_id": "case_01_none",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q1-024": {
+    "case_id": "case_10_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q2-001": {
+    "case_id": "case_11_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q2-002": {
+    "case_id": "case_08_course2",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q2-003": {
+    "case_id": "case_02_course1",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q2-004": {
+    "case_id": "case_02_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q2-005": {
+    "case_id": "case_11_course2",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q2-006": {
+    "case_id": "case_08_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q2-007": {
+    "case_id": "case_11_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q2-008": {
+    "case_id": "case_08_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q2-009": {
+    "case_id": "case_05_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q2-010": {
+    "case_id": "case_11_course1",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q2-011": {
+    "case_id": "case_02_interest",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q2-012": {
+    "case_id": "case_05_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q2-013": {
+    "case_id": "case_02_interest",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q2-014": {
+    "case_id": "case_05_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q2-015": {
+    "case_id": "case_02_none",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q2-016": {
+    "case_id": "case_02_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q2-017": {
+    "case_id": "case_05_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q2-018": {
+    "case_id": "case_02_none",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q2-019": {
+    "case_id": "case_08_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q2-020": {
+    "case_id": "case_02_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-001": {
+    "case_id": "case_03_none",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q3-002": {
+    "case_id": "case_03_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q3-003": {
+    "case_id": "case_03_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q3-004": {
+    "case_id": "case_06_course1",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-005": {
+    "case_id": "case_12_course1",
+    "left": "grounded",
+    "right": "single"
+  },
+  "Q3-006": {
+    "case_id": "case_03_interest",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-007": {
+    "case_id": "case_03_interest",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q3-008": {
+    "case_id": "case_12_course2",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q3-009": {
+    "case_id": "case_06_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q3-010": {
+    "case_id": "case_03_course2",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q3-011": {
+    "case_id": "case_03_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-012": {
+    "case_id": "case_06_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q3-013": {
+    "case_id": "case_09_course1",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q3-014": {
+    "case_id": "case_03_none",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-015": {
+    "case_id": "case_06_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-016": {
+    "case_id": "case_12_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-017": {
+    "case_id": "case_09_course2",
+    "left": "verified",
+    "right": "grounded"
+  },
+  "Q3-018": {
+    "case_id": "case_12_course1",
+    "left": "grounded",
+    "right": "verified"
+  },
+  "Q3-019": {
+    "case_id": "case_09_course2",
+    "left": "single",
+    "right": "grounded"
+  },
+  "Q3-020": {
+    "case_id": "case_09_course1",
+    "left": "single",
+    "right": "grounded"
+  }
+}

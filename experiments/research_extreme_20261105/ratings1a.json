@@ -1,0 +1,542 @@
+[
+  {
+    "id": "P1R001",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R002",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R003",
+    "interest": 0,
+    "lab": 0,
+    "course": null,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R004",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R005",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R006",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R007",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R008",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R009",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R010",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R011",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R012",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R013",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R014",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R015",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R016",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R017",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R018",
+    "interest": 1,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R019",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R020",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R021",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R022",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R023",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R024",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R025",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R026",
+    "interest": 1,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R027",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R028",
+    "interest": 0,
+    "lab": 0,
+    "course": null,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R029",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R030",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R031",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R032",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R033",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R034",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R035",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R036",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R037",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R038",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R039",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R040",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R041",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R042",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R043",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R044",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R045",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R046",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R047",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R048",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R049",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R050",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R051",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R052",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R053",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R054",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R055",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R056",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R057",
+    "interest": 0,
+    "lab": 0,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심·논문 분석 없이 일반 안내 카드와 연구실 분류명만 나열해 구체 연결이 없습니다."
+  },
+  {
+    "id": "P1R058",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  },
+  {
+    "id": "P1R059",
+    "interest": 1,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심과 논문 사실은 맞게 짚고 불확실한 과목 연결은 후보로 유보했지만, 질문·첫 단계는 일반적입니다."
+  },
+  {
+    "id": "P1R060",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "관심을 논문 근거와 구체적 비교·검토 단계로 연결하고, 해석 한계와 자원 접근 불확실성도 밝혔습니다."
+  }
+]

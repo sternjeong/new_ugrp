@@ -1,0 +1,232 @@
+{
+  "gpu": "Tesla T4",
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "elapsed_s": 38.79686999320984,
+  "rows": [
+    {
+      "case_id": "case_01_course1",
+      "similarity": 0.5309932231903076,
+      "paper_sentence": "The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses.",
+      "course_sentence": "(1) semiconductor introduction crystal structure.",
+      "paper_candidates": 9,
+      "course_candidates": 18
+    },
+    {
+      "case_id": "case_01_course2",
+      "similarity": 0.5650386810302734,
+      "paper_sentence": "The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses.",
+      "course_sentence": "- Electrical, optical, microscopic, structural, thermal, and etc",
+      "paper_candidates": 9,
+      "course_candidates": 16
+    },
+    {
+      "case_id": "case_01_interest",
+      "similarity": 0.5309932231903076,
+      "paper_sentence": "The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses.",
+      "course_sentence": "(1) semiconductor introduction crystal structure.",
+      "paper_candidates": 9,
+      "course_candidates": 18
+    },
+    {
+      "case_id": "case_02_course1",
+      "similarity": 0.6255403161048889,
+      "paper_sentence": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology.",
+      "course_sentence": "Quantum Error Correction and Fault Tolerance",
+      "paper_candidates": 5,
+      "course_candidates": 30
+    },
+    {
+      "case_id": "case_02_course2",
+      "similarity": 0.5570423007011414,
+      "paper_sentence": "Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+      "course_sentence": "1) the mathematical language of quantum information processing: density matrices, measurements, channels, etc.",
+      "paper_candidates": 5,
+      "course_candidates": 11
+    },
+    {
+      "case_id": "case_02_interest",
+      "similarity": 0.6255403161048889,
+      "paper_sentence": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology.",
+      "course_sentence": "Quantum Error Correction and Fault Tolerance",
+      "paper_candidates": 5,
+      "course_candidates": 30
+    },
+    {
+      "case_id": "case_03_course1",
+      "similarity": 0.558769941329956,
+      "paper_sentence": "This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.",
+      "course_sentence": "To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+      "paper_candidates": 9,
+      "course_candidates": 4
+    },
+    {
+      "case_id": "case_03_course2",
+      "similarity": 0.5417810678482056,
+      "paper_sentence": "This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.",
+      "course_sentence": "This course covers advanced topics of algorithms including graph algorithms, geometric algorithms, approximation algorithms, and randomized algorithms.",
+      "paper_candidates": 9,
+      "course_candidates": 4
+    },
+    {
+      "case_id": "case_03_interest",
+      "similarity": 0.558769941329956,
+      "paper_sentence": "This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.",
+      "course_sentence": "To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+      "paper_candidates": 9,
+      "course_candidates": 4
+    },
+    {
+      "case_id": "case_04_course1",
+      "similarity": 0.5746364593505859,
+      "paper_sentence": "It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs.",
+      "course_sentence": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.",
+      "paper_candidates": 8,
+      "course_candidates": 19
+    },
+    {
+      "case_id": "case_04_course2",
+      "similarity": 0.7102348804473877,
+      "paper_sentence": "It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs.",
+      "course_sentence": "This class introduces the key concepts of understanding crystallography and crystal diffraction, including various metallic and battery materials.",
+      "paper_candidates": 8,
+      "course_candidates": 10
+    },
+    {
+      "case_id": "case_04_interest",
+      "similarity": 0.5746364593505859,
+      "paper_sentence": "It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs.",
+      "course_sentence": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.",
+      "paper_candidates": 8,
+      "course_candidates": 19
+    },
+    {
+      "case_id": "case_05_course1",
+      "similarity": 0.5201336145401001,
+      "paper_sentence": "Furthermore, we demonstrated the recyclability and self-regeneration of the 3D SSG through evaporation experiments using a 3.5 wt % NaCl solution.",
+      "course_sentence": "신재생에너지 및 에너지 생산/저장 기술, 고에너지효율 소자 기술, 수질 처리 환경 기술 등을 중심으로 공학적 기본 원리와 응용 연구 사례들을 소개함으로써 화학공학에 대한 학생들의 이해를 돕고자 한다.",
+      "paper_candidates": 8,
+      "course_candidates": 22
+    },
+    {
+      "case_id": "case_05_course2",
+      "similarity": 0.5557793378829956,
+      "paper_sentence": "Upon exposure to sunlight, this hierarchical spiny structure significantly enhanced light absorption via multiple reflections and promoted water evaporation by expanding the surface area.",
+      "course_sentence": "- Surface Area/Porosity, Adsorption (Physisorption and Chemisorption)",
+      "paper_candidates": 8,
+      "course_candidates": 13
+    },
+    {
+      "case_id": "case_06_course1",
+      "similarity": 0.5869704484939575,
+      "paper_sentence": "Second, modern robots in practice are primarily tailored to a specific domain or environment (i.e., kitchen).",
+      "course_sentence": "(1) Before the midterm exam, students will learn various algorithms related to robotics learning.",
+      "paper_candidates": 10,
+      "course_candidates": 13
+    },
+    {
+      "case_id": "case_06_course2",
+      "similarity": 0.5995080471038818,
+      "paper_sentence": "The applicability of COST dataset to real-world robots is verified by showing that the action steps generated by fine-tuned small LMs on COST dataset are practically executable by the robot.",
+      "course_sentence": "To develop robots inspired by biological systems, it is necessary to design mechanical structures that resemble living organisms, utilize smart materials to replicate their functions, and employ specialized manufacturing processes for implementation.",
+      "paper_candidates": 10,
+      "course_candidates": 15
+    },
+    {
+      "case_id": "case_07_course1",
+      "similarity": 0.5400960445404053,
+      "paper_sentence": "This excellent performance is attributed to the Cu‐N3 coordination structure, which promotes charge transfer and effectively mitigates polyiodide diffusion.",
+      "course_sentence": "- Mass transfer by migration and diffusion",
+      "paper_candidates": 8,
+      "course_candidates": 14
+    },
+    {
+      "case_id": "case_07_course2",
+      "similarity": 0.5405709743499756,
+      "paper_sentence": "This study demonstrates that electronic structure control of Cu‐based single‐atom catalysts plays a key role in improving the speed and stability of iodine conversion reactions and provides practical design guidelines for the development of a high capacity and stable Zn–I 2 battery.",
+      "course_sentence": "•\tBuild intuition for both equilibrium and non-equilibrium electrochemical reaction mechanisms in solid-state electrodes",
+      "paper_candidates": 8,
+      "course_candidates": 3
+    },
+    {
+      "case_id": "case_08_course1",
+      "similarity": 0.5652300119400024,
+      "paper_sentence": "These findings define a signaling pathway used by ESC-derived EVs to extend cellular lifespan, highlighting their potential application in anti-aging strategies.",
+      "course_sentence": "This course aims to provide graduate students with an in-depth understanding of the mechanisms that govern cell function and cellular processes and also aims to follow up recent advances and emerging concepts in the field of cell biology.",
+      "paper_candidates": 7,
+      "course_candidates": 1
+    },
+    {
+      "case_id": "case_08_course2",
+      "similarity": 0.5841452479362488,
+      "paper_sentence": "These findings define a signaling pathway used by ESC-derived EVs to extend cellular lifespan, highlighting their potential application in anti-aging strategies.",
+      "course_sentence": "Cell signalings are basic concepts for the understanding of energy homeostasis and control mechanism in living organisms.",
+      "paper_candidates": 7,
+      "course_candidates": 25
+    },
+    {
+      "case_id": "case_09_course1",
+      "similarity": 0.5329824686050415,
+      "paper_sentence": "Computational fluid dynamics (CFD) provides high-fidelity flow analysis, but its computational cost prevents direct use in DT applications.",
+      "course_sentence": "FUNDAMENTALSOF FLUID TURBULENCE        1.Introduction          Characteristics of turbulent flows          Cartesian tensor : notation and fundamental properties Tensors of",
+      "paper_candidates": 9,
+      "course_candidates": 3
+    },
+    {
+      "case_id": "case_09_course2",
+      "similarity": 0.6022670269012451,
+      "paper_sentence": "The Fourier neural operator (FNO) was additionally adopted for comparison.",
+      "course_sentence": "We will explore new paradigms for solving differential equations, e.g., Physics-Informed Neural Networks (PINN), and also cover other novel architectures such as DeepONet and Fourier Neural Operators (FNO).",
+      "paper_candidates": 9,
+      "course_candidates": 11
+    },
+    {
+      "case_id": "case_10_course1",
+      "similarity": 0.6050820350646973,
+      "paper_sentence": "This study aims to automatically analyze the critical risk clauses in the invitation to bid (ITB) at the bidding stage to strengthen their competitiveness for the EPC contractors.",
+      "course_sentence": "5\tEngineering PM Practice – Bid and ITB (Invitation to Bid)",
+      "paper_candidates": 13,
+      "course_candidates": 18
+    },
+    {
+      "case_id": "case_10_course2",
+      "similarity": 0.6183850765228271,
+      "paper_sentence": "After developing and training an artificial intelligent (AI)-based ITB analysis model, its performance was evaluated through the actual project data.",
+      "course_sentence": "Through a team-based project, students design and implement a pipeline that connects raw data to intelligent decision-making support.",
+      "paper_candidates": 13,
+      "course_candidates": 6
+    },
+    {
+      "case_id": "case_11_course1",
+      "similarity": 0.6265404224395752,
+      "paper_sentence": "In this study, we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation.",
+      "course_sentence": "Learning using Backpropagation",
+      "paper_candidates": 8,
+      "course_candidates": 13
+    },
+    {
+      "case_id": "case_11_course2",
+      "similarity": 0.47185081243515015,
+      "paper_sentence": "In this study, we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation.",
+      "course_sentence": "본 교과목은 생명체를 구성하는 유전체 (genome)와 단백질체 (proteome)에 대한 기본적인 이해와 더불어 생명 현상의 다양성 및 역동성을 주관하는 생체 네트워크의 상호작용 및 조절에 대한 소개를 통하여 생명현상에 대한 포괄적인 지식을 전체 시스템차원에서 심도있게 제공하고자 한다.",
+      "paper_candidates": 8,
+      "course_candidates": 2
+    },
+    {
+      "case_id": "case_12_course1",
+      "similarity": 0.5235682129859924,
+      "paper_sentence": "These advancements pave the way for highly efficient electrothermal heating‐assisted photothermal seawater desalination systems, offering a reliable solution for all‐weather, all‐day desalination to produce freshwater while preventing salt fouling.",
+      "course_sentence": "- X-ray Photoelectron, Auger Electron, Ion Scattering, UV Photoelectron Spectroscopy(XPS, AES, ISS, and UPS)",
+      "paper_candidates": 6,
+      "course_candidates": 13
+    },
+    {
+      "case_id": "case_12_course2",
+      "similarity": 0.5221028327941895,
+      "paper_sentence": "These advancements pave the way for highly efficient electrothermal heating‐assisted photothermal seawater desalination systems, offering a reliable solution for all‐weather, all‐day desalination to produce freshwater while preventing salt fouling.",
+      "course_sentence": "Especially, we will focus on advanced flow visualization methods using digital image processing techniques.",
+      "paper_candidates": 6,
+      "course_candidates": 28
+    }
+  ]
+}

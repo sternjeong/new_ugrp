@@ -1,0 +1,130 @@
+[
+  {
+    "case_id": "case_01_course1",
+    "text": "탐색 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4290989670]: Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: (7) metal-semiconductor contact (과목 CHEB770). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_01_course2",
+    "text": "탐색 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4290989670]: Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: Phase transition of materials (metal, semiconductor, amorphous) (6th ~ 8th week) (과목 SEMI206). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_01_interest",
+    "text": "탐색 질문: 논문에 나온 열처리 온도별 전류-전압 결과를 표로 정리하고, 접촉 장벽과 저항 변화가 어떤 의미인지 살펴보고 싶습니다. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4290989670]: Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: (7) metal-semiconductor contact (과목 CHEB770). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_01_none",
+    "text": "탐색 질문: 이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4290989670]: The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_02_course1",
+    "text": "탐색 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4417091791]: We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: Quantum Error Correction and Fault Tolerance (과목 PHYS647). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_02_course2",
+    "text": "탐색 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4417091791]: We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_02_interest",
+    "text": "탐색 질문: 논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4417091791]: We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: Quantum Error Correction and Fault Tolerance (과목 PHYS647). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_02_none",
+    "text": "탐색 질문: 양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4417091791]: We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_03_course1",
+    "text": "탐색 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. (과목 CSED618). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_03_course2",
+    "text": "탐색 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: 3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_03_interest",
+    "text": "탐색 질문: 논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. (과목 CSED618). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_03_none",
+    "text": "탐색 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: 3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_04_course1",
+    "text": "탐색 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4318693490]: The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and \n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_04_course2",
+    "text": "탐색 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4318693490]: It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: -Examples of crystal structures in metallic and battery materials (2) (과목 GIFT624). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_04_interest",
+    "text": "탐색 질문: 합성·구조 조절 방법에 따라 보고된 응용이 어떻게 달라지는지 논문 표를 만들어 비교해 보고 싶습니다. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4318693490]: The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and \n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_04_none",
+    "text": "탐색 질문: 층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4318693490]: The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and \n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_05_course1",
+    "text": "탐색 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4393149344]: Transitioning from a 2D to a 3D structure using a cylindrical permanent magnet in the 3D SSG improves the evaporation performance by effectively harnessing environmental energy for dark evaporation.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: • Overview of global energy and environmental issues and their connection to chemical engineering (과목 CHEB214). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_05_course2",
+    "text": "탐색 질문: 자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4393149344]: The 3D SSG achieved an evaporation rate of 2.8 kg m –2 h –1, which is 1.64 times higher than that of the 2D SSG, attributable to its efficient environmental energy utilization.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: - Fundamental Principles: Grasp the core principles of various analytical techniques utilized for characterizing energy and environmental materials, specifically for hydrogen production, storage, extraction, utilization, (과목 CHEB413). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_06_course1",
+    "text": "탐색 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4394591632]: This dataset is then used to fine-tune small LMs to plan action steps for robots in response to given human commands.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: The goal of this course is to help students explore various modern algorithms used in intelligent robot development and gain practical experience by applying them to actual robots. (과목 EECE490G). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_06_course2",
+    "text": "탐색 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4394591632]: In recent robotics, Large Language Models (LLMs) have been noted as domain-agnostic task planners due to their advanced perception and reasoning capabilities.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_07_course1",
+    "text": "탐색 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7204837857]: This excellent performance is attributed to the Cu‐N3 coordination structure, which promotes charge transfer and effectively mitigates polyiodide diffusion.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: - Mass transfer by migration and diffusion (과목 BATT524). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_07_course2",
+    "text": "탐색 질문: 아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7204837857]: However, due to the slow reaction rate of the iodine conversion reaction and the polyiodide shuttle effect, there is a limitation in that the electrochemical reaction efficiency and cyclability are deteriorated.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: •\tBuild intuition for both equilibrium and non-equilibrium electrochemical reaction mechanisms in solid-state electrodes (과목 BATT623). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_08_course1",
+    "text": "탐색 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4415184415]: Emerging evidence suggests extracellular vesicles (EVs) released by pluripotent embryonic stem cells (ESCs) possess therapeutic/regenerative properties with the potential to significantly impact cellular senescence and aging-related disorders.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: This course aims to provide graduate students with an in-depth understanding of the mechanisms that govern cell function and cellular processes and also aims to follow up recent advances and emerging concepts in the fiel (과목 LIFE509). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_08_course2",
+    "text": "탐색 질문: 배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4415184415]: The accumulation of cells that permanently exit the cell cycle and undergo senescence is a hallmark of aging and predisposes organisms to disease.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: Cell signalings are basic concepts for the understanding of energy homeostasis and control mechanism in living organisms. (과목 LIFE511). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_09_course1",
+    "text": "탐색 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7162791086]: Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs).\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_09_course2",
+    "text": "탐색 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7162791086]: This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART).\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: We will explore new paradigms for solving differential equations, e.g., Physics-Informed Neural Networks (PINN), and also cover other novel architectures such as DeepONet and Fourier Neural Operators (FNO). (과목 MATH551). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_10_course1",
+    "text": "탐색 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4281682208]: The development of intelligent information technology in the era of the fourth industrial revolution requires the EPC (engineering, procurement, and construction) industry to increase productivity through a digital transformation.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: This class introduces the knowledge and skills for the project management in dealing with mega engineering procurement construction (EPC) projects thought the project life cycle processes. (과목 GIFT714). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_10_course2",
+    "text": "탐색 질문: 입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4281682208]: After developing and training an artificial intelligent (AI)-based ITB analysis model, its performance was evaluated through the actual project data.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: Through a team-based project, students design and implement a pipeline that connects raw data to intelligent decision-making support. (과목 AXGS501). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_11_course1",
+    "text": "탐색 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4412198846]: Artificial neural networks (NNs) can be implemented using chemical reaction networks (CRNs), where the concentrations of species act as inputs and outputs.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: This is a research class where the student can pursue any research work related to Artificial Intelligence while getting course credit. (과목 AIGS651). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_11_course2",
+    "text": "탐색 질문: 화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4412198846]: Artificial neural networks (NNs) can be implemented using chemical reaction networks (CRNs), where the concentrations of species act as inputs and outputs.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_12_course1",
+    "text": "탐색 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7172411329]: Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  },
+  {
+    "case_id": "case_12_course2",
+    "text": "탐색 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7172411329]: Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+  }
+]

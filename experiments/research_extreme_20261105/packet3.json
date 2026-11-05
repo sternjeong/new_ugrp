@@ -1,0 +1,607 @@
+{
+  "contexts": {
+    "P3C01": {
+      "lab_id": "00f52d3209da2832a33781de047e38ed",
+      "department": "인공지능대학원 · 컴퓨터공학과",
+      "professor": "김동우",
+      "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+      "paper": {
+        "id": "W7163352033",
+        "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+        "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CSED618",
+          "title": "신뢰할 수 있는 기계학습",
+          "description": "As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. In this course, we explore whether popular machine-learned models are trustworthy and then study various learning methods to enchant the models to be trustworthy. To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+          "plan": "https://sangdon.github.io/teaching/tml-2024-fall/",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "LLMs in Interactive Environments",
+          "text": "LLMs in Interactive Environments"
+        },
+        {
+          "label": "Graph Learning Enhancement by Structural Modifications",
+          "text": "Graph Learning Enhancement by Structural Modifications"
+        },
+        {
+          "label": "Efficiency in Software Engineering Agents",
+          "text": "Efficiency in Software Engineering Agents"
+        }
+      ]
+    },
+    "P3C02": {
+      "lab_id": "00f52d3209da2832a33781de047e38ed",
+      "department": "인공지능대학원 · 컴퓨터공학과",
+      "professor": "김동우",
+      "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+      "paper": {
+        "id": "W7163352033",
+        "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+        "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CSED536",
+          "title": "고급 알고리즘",
+          "description": "This course covers advanced topics of algorithms including graph algorithms, geometric algorithms, approximation algorithms, and randomized algorithms. We study how to design efficient algorithms using essential design and analysis methods.",
+          "plan": "Graph Theory and Algorithms\n(1) Introduction: Paths, Cycles, Shortest paths\n(2) Graph Traversal and Tour\n(3) Planar graphs\n(4) Coloring\n(5) Vertex Cover\n(6) Clique\n(7) Independent Set\n(8) Dominating Set\n(9) Tree Decomposition\n(10) NP-hard problems on planar graphs\n(11) Hardness within Class P",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "LLMs in Interactive Environments",
+          "text": "LLMs in Interactive Environments"
+        },
+        {
+          "label": "Graph Learning Enhancement by Structural Modifications",
+          "text": "Graph Learning Enhancement by Structural Modifications"
+        },
+        {
+          "label": "Efficiency in Software Engineering Agents",
+          "text": "Efficiency in Software Engineering Agents"
+        }
+      ]
+    },
+    "P3C03": {
+      "lab_id": "00f52d3209da2832a33781de047e38ed",
+      "department": "인공지능대학원 · 컴퓨터공학과",
+      "professor": "김동우",
+      "interest": "논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다.",
+      "paper": {
+        "id": "W7163352033",
+        "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+        "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CSED618",
+          "title": "신뢰할 수 있는 기계학습",
+          "description": "As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. In this course, we explore whether popular machine-learned models are trustworthy and then study various learning methods to enchant the models to be trustworthy. To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+          "plan": "https://sangdon.github.io/teaching/tml-2024-fall/",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "LLMs in Interactive Environments",
+          "text": "LLMs in Interactive Environments"
+        },
+        {
+          "label": "Graph Learning Enhancement by Structural Modifications",
+          "text": "Graph Learning Enhancement by Structural Modifications"
+        },
+        {
+          "label": "Efficiency in Software Engineering Agents",
+          "text": "Efficiency in Software Engineering Agents"
+        }
+      ]
+    },
+    "P3C04": {
+      "lab_id": "00f52d3209da2832a33781de047e38ed",
+      "department": "인공지능대학원 · 컴퓨터공학과",
+      "professor": "김동우",
+      "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+      "paper": {
+        "id": "W7163352033",
+        "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+        "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+        "abstract_truncated": false
+      },
+      "courses": [],
+      "lab_sources": [
+        {
+          "label": "LLMs in Interactive Environments",
+          "text": "LLMs in Interactive Environments"
+        },
+        {
+          "label": "Graph Learning Enhancement by Structural Modifications",
+          "text": "Graph Learning Enhancement by Structural Modifications"
+        },
+        {
+          "label": "Efficiency in Software Engineering Agents",
+          "text": "Efficiency in Software Engineering Agents"
+        }
+      ]
+    },
+    "P3C05": {
+      "lab_id": "032749fe44cb8a804902ff1aa9236d09",
+      "department": "전자전기공학과",
+      "professor": "안혜민",
+      "interest": "로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요.",
+      "paper": {
+        "id": "W4394591632",
+        "title": "Can only LLMs do Reasoning?: Potential of Small Language Models in Task Planning",
+        "abstract": "In recent robotics, Large Language Models (LLMs) have been noted as domain-agnostic task planners due to their advanced perception and reasoning capabilities. Especially, the reasoning capability of LLMs based on Chain-of-Thought (CoT) is gaining attention for robotic task planning. However, we claim that LLMs are excessive for robotic task planning for two reasons. First, the language commands given to robots have much lower linguistic complexity than what LLMs can handle. Second, modern robots in practice are primarily tailored to a specific domain or environment (i.e., kitchen). Building on this, we further believe that within a single, specific environment, small language models (LMs) also have the potential to be effective robotic task planners. To explore this, we generate ‘COmmand-STeps dataset’ (COST) via LLMs, which is a dataset designed for environment-specific robotic task planning. This dataset is then used to fine-tune small LMs to plan action steps for robots in response to given human commands. The applicability of COST dataset to real-world robots is verified by showing that the action steps generated by fine-tuned small LMs on COST dataset are practically executable by the robot. Furthermore, through comparison between LLMs and small LMs fine-tuned on COST dataset within specific task environments, it is demonstrated that the fine-tuned GPT-2 medium is comparable to GPT-3.5 in environment-specific task planning.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "EECE490G",
+          "title": "특강: 로봇 학습",
+          "description": "The goal of this course is to help students explore various modern algorithms used in intelligent robot development and gain practical experience by applying them to actual robots. The course is broadly divided into two parts. (1) Before the midterm exam, students will learn various algorithms related to robotics learning. (2) After the midterm exam, students will gain the knowledge and practical programming skills necessary for Team Project Competitions.",
+          "plan": "Week 1 : Introduction, Basics of AI / ML / DL\nWeek 2 : Behavior Cloning, Inverse Reinforcement Learning\nWeek 3 : Robot Motion Planning\nWeek 4 : Filtering\nWeek 5 : Markov Decision Process\nWeek 6 : Choo-Seok\nWeek 7 : Kinematics\nWeek 8 : Mid-Term\nWeek 9 : Introducing Team Project Competition\nWeek 11 : Literatures related to Team Project Competition\nWeek 12 : How to use Mujoco\nWeek 13 : Robot Learning + Mujoco Simulator\nWeek 14 : PID Controller\nWeek 15 : Robot Learning + Real Robot\nWeek 16 : Team Project Competition Week",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Behavior planning for natural Human-Robot Interaction",
+          "text": "Behavior planning for natural Human-Robot Interaction"
+        },
+        {
+          "label": "Human-Human Interation to Human-Robot Interaction",
+          "text": "Human-Human Interation to Human-Robot Interaction"
+        },
+        {
+          "label": "Task and motion planning",
+          "text": "Task and motion planning"
+        }
+      ]
+    },
+    "P3C06": {
+      "lab_id": "032749fe44cb8a804902ff1aa9236d09",
+      "department": "전자전기공학과",
+      "professor": "안혜민",
+      "interest": "로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요.",
+      "paper": {
+        "id": "W4394591632",
+        "title": "Can only LLMs do Reasoning?: Potential of Small Language Models in Task Planning",
+        "abstract": "In recent robotics, Large Language Models (LLMs) have been noted as domain-agnostic task planners due to their advanced perception and reasoning capabilities. Especially, the reasoning capability of LLMs based on Chain-of-Thought (CoT) is gaining attention for robotic task planning. However, we claim that LLMs are excessive for robotic task planning for two reasons. First, the language commands given to robots have much lower linguistic complexity than what LLMs can handle. Second, modern robots in practice are primarily tailored to a specific domain or environment (i.e., kitchen). Building on this, we further believe that within a single, specific environment, small language models (LMs) also have the potential to be effective robotic task planners. To explore this, we generate ‘COmmand-STeps dataset’ (COST) via LLMs, which is a dataset designed for environment-specific robotic task planning. This dataset is then used to fine-tune small LMs to plan action steps for robots in response to given human commands. The applicability of COST dataset to real-world robots is verified by showing that the action steps generated by fine-tuned small LMs on COST dataset are practically executable by the robot. Furthermore, through comparison between LLMs and small LMs fine-tuned on COST dataset within specific task environments, it is demonstrated that the fine-tuned GPT-2 medium is comparable to GPT-3.5 in environment-specific task planning.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "MECH490N",
+          "title": "특론: 생체 모방 로봇",
+          "description": "-교과목 개요(Abstract)\n본 교과목에서는 자연계에 존재하는 탁월한 운동 능력을 가진 동식물의 역학적 특성(Bio-mechanics)을 분석하여 로봇 설계 및 제조(Robot design and manufacturing)에 적용하는 방법을 공부하게 된다. 생물 메커니즘을 모사하여 로봇을 만들기 위해서 생물과 유사한 형태의 기계 설계가 필요하고, 이를 구현하기 위한 스마트 재료, 그에 따른 특수한 제조 공정이 필요하게 된다. 생체 모방 로봇 설계 및 생산을 위한 가장 앞서있는 기술들을 알아보고 공부하게 된다.\nIn this course, students will study how the exceptional locomotion capabilities found in nature can be analyzed through their biomechanical characteristics and applied to robot design and manufacturing. To develop robots inspired by biological systems, it is necessary to design mechanical structures that resemble living organisms, utilize smart materials to replicate their functions, and employ specialized manufacturing processes for implementation. The course explores state-of-the-art technologies and methodologies for the design, fabrication, and production of bio-inspired robots, providing students with an understanding of the latest advances in this rapidly evolving field.\n\n-교육 목표(Goal of the course)\n새로운 로봇 기술의 원리 탐구 및 구현을 위해, 생물의 특별한 메커니즘의 이해를 기반으로 접근하는 방법론의 교육\nThis course introduces a methodology for investigating and developing novel robotic technologies based on an understanding of the unique mechanisms and functionalities observed in biological systems.",
+          "plan": "Week 1 : Introduction to Biologically Inspired Robotics\nWeek 2 : Energy for Locomotion\nWeek 3 : Muscle, the Motor\nWeek 4 : Locomotion on Land\nWeek 5 : Walking\nWeek 6 : Running and Hopping\nWeek 7 : Jumping\nWeek 8 : Midterm\nWeek 9 : Crawling and Burrowing\nWeek 10 : Swimming\nWeek 11 : Moving on the surface of water\nWeek 12 : Design and Manufacturing of Biologically Inspired Robot (Project Meeting)\nWeek 13 : Prototyping of Robot (Project Meeting)\nWeek 14 : Project Meeting\nWeek 15 : Project Presentation\nWeek 16 : Final",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Behavior planning for natural Human-Robot Interaction",
+          "text": "Behavior planning for natural Human-Robot Interaction"
+        },
+        {
+          "label": "Human-Human Interation to Human-Robot Interaction",
+          "text": "Human-Human Interation to Human-Robot Interaction"
+        },
+        {
+          "label": "Task and motion planning",
+          "text": "Task and motion planning"
+        }
+      ]
+    },
+    "P3C07": {
+      "lab_id": "b59a79cbe921942c5d3909da04708904",
+      "department": "첨단원자력공학부",
+      "professor": "전준구",
+      "interest": "소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요.",
+      "paper": {
+        "id": "W7162791086",
+        "title": "Neural Operator-Based Surrogate Model for CFD:Helical Coil Steam Generator in Small Modular Reactor",
+        "abstract": "Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs). Computational fluid dynamics (CFD) provides high-fidelity flow analysis, but its computational cost prevents direct use in DT applications. AI-based surrogate modeling has been actively investigated to address this limitation, yet neural operator--based surrogates for CFD-level transient analysis of SMR-specific geometries have not been reported. This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART). Two ROM strategies tailored to each CFD data type were compared, an MLP-based autoencoder (AE) for unstructured mesh data and a convolutional autoencoder (CAE) for structured mesh data, and each was coupled with the deep operator network (DeepONet) to construct the latent DeepONet (L-DeepONet). The Fourier neural operator (FNO) was additionally adopted for comparison. A multi-scale technique was incorporated into both frameworks to mitigate spectral bias and improve the prediction of Kármán vortex streets developing inside the HCSG. The multi-scale L-DeepONet captured the instantaneous periodic vortex dynamics in both velocity and pressure fields, while the FNO and its multi-scale variant predicted the time-averaged mean flow and provided reliable pressure drop estimates. These complementary characteristics provide a practical model-selection guideline that links each architecture to specific DT objectives based on CFD data type and the required level of flow resolution.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "MECH774",
+          "title": "난류유동",
+          "description": "유체 유동내 난류현상에 관심있는 대학원생을 대상으로     i) 난류유동의 해석을 위한 기본개념과 수학적 기법을 함양하고;     ii)난류현상의 기구와 역학적 성질의 물리적 의미를 파악하고자 한다.",
+          "plan": "1 주 : Course information, policies and administratives        I. FUNDAMENTALSOF FLUID TURBULENCE        1.Introduction          Characteristics of turbulent flows          Cartesian tensor : notation and fundamental properties Tensors of",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Model Reduction and Neural Networks",
+          "text": "Model Reduction and Neural Networks"
+        },
+        {
+          "label": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble",
+          "text": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems"
+        },
+        {
+          "label": "Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni",
+          "text": "Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co"
+        }
+      ]
+    },
+    "P3C08": {
+      "lab_id": "b59a79cbe921942c5d3909da04708904",
+      "department": "첨단원자력공학부",
+      "professor": "전준구",
+      "interest": "소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요.",
+      "paper": {
+        "id": "W7162791086",
+        "title": "Neural Operator-Based Surrogate Model for CFD:Helical Coil Steam Generator in Small Modular Reactor",
+        "abstract": "Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs). Computational fluid dynamics (CFD) provides high-fidelity flow analysis, but its computational cost prevents direct use in DT applications. AI-based surrogate modeling has been actively investigated to address this limitation, yet neural operator--based surrogates for CFD-level transient analysis of SMR-specific geometries have not been reported. This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART). Two ROM strategies tailored to each CFD data type were compared, an MLP-based autoencoder (AE) for unstructured mesh data and a convolutional autoencoder (CAE) for structured mesh data, and each was coupled with the deep operator network (DeepONet) to construct the latent DeepONet (L-DeepONet). The Fourier neural operator (FNO) was additionally adopted for comparison. A multi-scale technique was incorporated into both frameworks to mitigate spectral bias and improve the prediction of Kármán vortex streets developing inside the HCSG. The multi-scale L-DeepONet captured the instantaneous periodic vortex dynamics in both velocity and pressure fields, while the FNO and its multi-scale variant predicted the time-averaged mean flow and provided reliable pressure drop estimates. These complementary characteristics provide a practical model-selection guideline that links each architecture to specific DT objectives based on CFD data type and the required level of flow resolution.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "MATH551",
+          "title": "수치해석학",
+          "description": "This course is a graduate-level course in numerical methods for solving ordinary and partial differential equations (ODEs and PDEs, respectively). The curriculum is designed to cover both the rigorous theoretical foundations of traditional numerical schemes and the latest machine-learning-based methodologies that are driving innovation in modern computational science and engineering.\n\nThe course is structured into two main parts:\n1. Part 1 (Classical Methods): The first half focuses on traditional numerical methods, prominently featuring the Finite Difference Method (FDM). The emphasis is on understanding the essential ideas that underlie the development, analysis, and practical use of finite difference methods to solve ODEs and PDEs.\n2. Part 2 (Modern AI Methods): The second half shifts focus to cutting-edge machine learning techniques that integrate data and physical laws, called scientific machine learning. We will explore new paradigms for solving differential equations, e.g., Physics-Informed Neural Networks (PINN), and also cover other novel architectures such as DeepONet and Fourier Neural Operators (FNO).\n\nThrough theoretical analysis, algorithmic understanding, and implementation, students will gain a comprehensive perspective on how modern scientific computing bridges mathematics and machine learning.",
+          "plan": "It covers the following materials:\n- Finite difference approximations for boundary value problems, initial value problems and parabolic problems.\n- Machine learning foundations for scientific machine learning, physics-informed neural networks and operator learning.",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Model Reduction and Neural Networks",
+          "text": "Model Reduction and Neural Networks"
+        },
+        {
+          "label": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble",
+          "text": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems"
+        },
+        {
+          "label": "Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni",
+          "text": "Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co"
+        }
+      ]
+    },
+    "P3C09": {
+      "lab_id": "19b352c9ef06346d69d36e9456cdff0d",
+      "department": "기계공학과",
+      "professor": "이상준",
+      "interest": "하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요.",
+      "paper": {
+        "id": "W7172411329",
+        "title": "A Hydrogel‐Based Seawater Evaporator for a High Rate of Clean Water Production via Photothermal and Electrothermal Joule Heating‐Assisted Evaporation",
+        "abstract": "Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change. However, salt accumulation on light‐absorbing materials, variable weather conditions, and no sunlight at night reduce the efficacy of ISG technology. To mitigate these challenges, an innovative and simple ISG approach using starch, chitosan, and carbon black‐based hydrogel and a PDMS‐coated carbon cloth is proposed in this study. It combines the synergistic effects of photothermal and electrothermal Joule heating‐assisted evaporation for highly efficient seawater desalination that works in all weather, all day, without salt fouling on the evaporation surface. During desalination experiments, the surface temperature of the evaporator reaches ~40 °C within 10 min, achieving an impressive evaporation rate of 6.619 kg m −2 h −1 under 3 V applied voltage and 1 sun illumination. These advancements pave the way for highly efficient electrothermal heating‐assisted photothermal seawater desalination systems, offering a reliable solution for all‐weather, all‐day desalination to produce freshwater while preventing salt fouling.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB413",
+          "title": "에너지환경 소재 분석 개론",
+          "description": "[Course Overview]\nWith the increasing significance of eco-friendly energy materials, there is a growing demand for a convergent understanding of analytical techniques to characterize materials and elucidate the mechanisms behind performance enhancement. Given the rising complexity of modern materials, an in-depth understanding through multi-dimensional analysis is essential. Accordingly, this course introduces undergraduate students in Chemical Engineering and related convergent disciplines to the current development of various energy materials and the practical application of characterization tools, focusing on their fundamental principles and operational scopes.\n\n[Learning Objectives]\n- Fundamental Principles: Grasp the core principles of various analytical techniques utilized for characterizing energy and environmental materials, specifically for hydrogen production, storage, extraction, utilization, and CO2 reduction.\n- Technical Selection: Evaluate the strengths, limitations, and application ranges of each characterization method to select the most appropriate tools for specific research objectives.\n- Integrated Interpretation: Develop the ability to synthesize diverse analytical datasets to achieve a profound understanding of material properties within the hydrogen economy and carbon capture frameworks.",
+          "plan": "- Introduction to Energy and Environmental Materials\n- Inductively Coupled Plasma Optical Emission Spectroscopy and Mass Spectrometry (ICP-OES and ICP-MS)\n- X-ray Photoelectron, Auger Electron, Ion Scattering, UV Photoelectron Spectroscopy(XPS, AES, ISS, and UPS)\n- Surface Area/Porosity, Adsorption (Physisorption and Chemisorption)\n- Thermal Methods (Temperature-programmed Techniques, and TGA)\n- Infrared, Raman, and UV-Vis Spectroscopy (IR, Raman, and UV-Vis)\n- Electron Microscopy (TEM and SEM)\n- X-ray Diffraction (XRD)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Diagnosis of Biological Flows & Biomimetics",
+          "text": "Diagnosis of Biological Flows & Biomimetics"
+        },
+        {
+          "label": "Nature-inspired Water Management & Desalination",
+          "text": "Nature-inspired Water Management & Desalination"
+        },
+        {
+          "label": "Particulate matter removal and monitoring",
+          "text": "Particulate matter removal and monitoring"
+        }
+      ]
+    },
+    "P3C10": {
+      "lab_id": "19b352c9ef06346d69d36e9456cdff0d",
+      "department": "기계공학과",
+      "professor": "이상준",
+      "interest": "하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요.",
+      "paper": {
+        "id": "W7172411329",
+        "title": "A Hydrogel‐Based Seawater Evaporator for a High Rate of Clean Water Production via Photothermal and Electrothermal Joule Heating‐Assisted Evaporation",
+        "abstract": "Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change. However, salt accumulation on light‐absorbing materials, variable weather conditions, and no sunlight at night reduce the efficacy of ISG technology. To mitigate these challenges, an innovative and simple ISG approach using starch, chitosan, and carbon black‐based hydrogel and a PDMS‐coated carbon cloth is proposed in this study. It combines the synergistic effects of photothermal and electrothermal Joule heating‐assisted evaporation for highly efficient seawater desalination that works in all weather, all day, without salt fouling on the evaporation surface. During desalination experiments, the surface temperature of the evaporator reaches ~40 °C within 10 min, achieving an impressive evaporation rate of 6.619 kg m −2 h −1 under 3 V applied voltage and 1 sun illumination. These advancements pave the way for highly efficient electrothermal heating‐assisted photothermal seawater desalination systems, offering a reliable solution for all‐weather, all‐day desalination to produce freshwater while preventing salt fouling.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "MECH678",
+          "title": "유동가시화",
+          "description": "Flow visualization is essential for analyzing thermal-fluid flows. It has been widely used in many practical applications. In this course, we will study the basic principle of flow visualization and various qualitative and quantitative flow visualization techniques. Especially, we will focus on advanced flow visualization methods using digital image processing techniques.",
+          "plan": "9/03\t\tChap. 1\t\tIntroduction\n9/05\t\tChap. 2,3\t\tFundamentals\n9/10(土)\tChap. 4,5,6\tConventional F/V methods\n9/17\t\tChap. 7,9\t\tSurface tracing methods, Tuft\n9/19\t\tChap. 10,11\tBirefringence, Speckle photography\n9/20 or 21\tChap. 12\t\tShadowgraph and Schlieren (replacement of 9/24)\n9/24-26\t\t\t\tBreak due to participation of international conference\n10/01\t\tChap. 13,14 \tInterferometer, Laser light sheet\n10/4 or 5\tChap. 15\t\tFluorescence imaging (replacement of 9/26)\n10/08\t\tChap. 16\t\tDigital imaging processing\n10/10\t\tChap. 17\t\tOptical imaging processing\n10/15\t\t\t\t\tMid-term examination\n10/17\t\tChap. 18\t\tUltrasonic imaging processing\n10/22\t\tChap. 19\t\tCardiac imaging processing\n10/24\t\tChap. 20\t\tOptical tomography\n10/29\t\tChap. 8,21\t\tLiquid crystal, Temperature field measurement techniques\n10/31\t\tChap. 22,23\tFlow solutions, Flow-field survey\n11/05\t\tChap. 24\t \tComputer aided flow visualization\n11/07\t\tPIV\t\t\tPrinciple of PIV/PTV velocity field measurement techniques\n11/12\t\tPIV\t\t\t2-D PIV/PTV techniques and applications\n11/14\t\tPIV\t\t\t3-D PIV/PTV techniques & applications\n11/19\t\tPIV\t\t\tMicro PIV techniques and applications\n11/21\t\tPIV\t\t\tAdvanced PIV/PTV techniques\n11/26-28\tPIV\t\t\tDemonstration of PIV/PTV experiments\n12/03\t\tPIV\t\t\tX-ray imaging technique\n12/05\t\t\t\t\tNo lecture for home practice for term projects\n12/10 & 12\t\t\t\tTerm project presentation\n12/17\t\t\t\t\tFinal examination",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Diagnosis of Biological Flows & Biomimetics",
+          "text": "Diagnosis of Biological Flows & Biomimetics"
+        },
+        {
+          "label": "Nature-inspired Water Management & Desalination",
+          "text": "Nature-inspired Water Management & Desalination"
+        },
+        {
+          "label": "Particulate matter removal and monitoring",
+          "text": "Particulate matter removal and monitoring"
+        }
+      ]
+    }
+  },
+  "answers": [
+    {
+      "id": "P3R001",
+      "context_id": "P3C03",
+      "answer": "연구 질문: 논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고, 다중 시점별 성능 분석은 추가 검토 항목으로 표시하세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 신뢰할 수 있는 기계학습(CSED618) — 잠정 연결. 과목의 신뢰성·불확실성 학습은 벤치마크의 환경 변화에 따른 성능 점검과 연결될 수 있으나, 골격 인식 자체가 강의 주제로 제시된 것은 아닙니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R002",
+      "context_id": "P3C06",
+      "answer": "탐색 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4394591632]: In recent robotics, Large Language Models (LLMs) have been noted as domain-agnostic task planners due to their advanced perception and reasoning capabilities.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R003",
+      "context_id": "P3C03",
+      "answer": "탐색 질문: 논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. (과목 CSED618). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R004",
+      "context_id": "P3C05",
+      "answer": "연구 질문: 안혜민 교수의 연구와 연결해, 로봇 작업 계획에서 작은 언어모델이 큰 모델을 대체할 수 있는 작업·환경 조건은 무엇이며, 성공률과 실행 비용을 함께 어떻게 비교할지 묻습니다.\n연구 근거: 선정 논문은 로봇 작업 계획에 언어모델을 적용하는 문제를 다룹니다. 모델 크기만으로 적합성을 판단하지 말고 과제 분해, 환경 변화, 실패 복구와 지연·자원 사용을 동일한 평가 과제에서 비교하도록 설계를 좁힙니다. 공개된 초록의 주장과 실제 재현 가능한 결과를 구분하고, 특정 모델이 모든 로봇에 적합하다고 전제하지 않습니다. [논문 W4394591632]\n과목 연결: EECE490G은 로봇·언어모델 응용을 다루는 과목으로 작업 계획의 모델 비교 주제에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R005",
+      "context_id": "P3C10",
+      "answer": "탐색 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7172411329]: Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R006",
+      "context_id": "P3C01",
+      "answer": "탐색 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. (과목 CSED618). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R007",
+      "context_id": "P3C07",
+      "answer": "연구 질문: 전준구 교수의 연구와 연결해, 헬리컬 코일 증기발생기의 CFD를 신경 연산자 대리모델로 근사할 때 계산 비용과 순간 유동·평균 압력 예측 정확도 사이의 절충을 묻습니다.\n연구 근거: 전준구 교수와 연결된 논문은 비정형 격자용 AE와 DeepONet, 정형 격자용 CAE 기반 L-DeepONet, FNO를 비교합니다. 다중 스케일 L-DeepONet은 순간 와류를, FNO 계열은 평균 유동과 압력 강하를 잘 예측했다고 보고합니다. 기준 CFD와의 오차뿐 아니라 추론 시간, 자료 형식, 목표 해상도를 함께 비교해야 합니다. [논문 W7162791086]\n과목 연결: MECH774은 난류 유동의 물리와 해석을 다뤄 코일 내부 와류 및 CFD 예측량을 해석하는 데 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R008",
+      "context_id": "P3C09",
+      "answer": "탐색 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7172411329]: Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R009",
+      "context_id": "P3C03",
+      "answer": "연구 질문: 김동우 교수의 연구와 연결해, 3차원 관절 동작 인식에서 관절 좌표, 뼈 벡터, 움직임 흐름 중 어떤 표현이 행동 종류와 촬영 조건에 따라 유리한지 살펴봅니다.\n연구 근거: 김동우 교수와 연결된 논문은 표현별 방법을 정리하고 ANUBIS 벤치마크의 다중 시점·복잡한 상호작용 등에서 102개 행동 범주 모델을 비교합니다. 특징 표현과 과제의 상호작용, 단순 융합의 한계를 보고하므로 데이터 분할과 시점 변화 조건을 구분해 결과를 해석하는 것이 핵심입니다. [논문 W7163352033]\n과목 연결: CSED618은 신뢰성·불확실성·적대적 환경의 기계학습을 다뤄 촬영 조건 변화에서 인식 결과의 견고성을 따져보는 데 연결됩니다.\n첫 단계: 먼저 공개 벤치마크와 해당 논문이 허용하는 자료·코드를 확인한 뒤 좌표와 뼈 벡터 입력을 같은 분할·모델 조건으로 비교하고 시점별 결과를 기록합니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R010",
+      "context_id": "P3C02",
+      "answer": "연구 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고 시점별 결과를 정리해 보세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R011",
+      "context_id": "P3C02",
+      "answer": "탐색 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: 3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R012",
+      "context_id": "P3C10",
+      "answer": "연구 질문: 이상준 교수의 연구와 연결해, 하이드로겔 증발기에서 광열 가열과 줄 전열을 함께 쓸 때 증발률·표면 온도·염 축적이 어떻게 달라지는지 확인합니다.\n연구 근거: 이상준 교수와 연결된 논문은 전분·키토산·카본블랙 하이드로겔과 PDMS 코팅 탄소천을 제안하고, 3V와 1 sun 조건에서 약 40°C까지 가열 및 6.619 kg m⁻² h⁻¹ 증발률을 보고합니다. 광원·전압 단독 대조군과 염수 조건을 맞춰 시너지와 염 오염 억제를 나눠 평가해야 하며, 다른 운전 조건에 같은 수치를 적용할 수는 없습니다. [논문 W7172411329]\n과목 연결: MECH678은 열유동 가시화와 영상 처리 기법을 다룹니다. 계면 증발 성능과의 직접 주제 연결은 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R013",
+      "context_id": "P3C07",
+      "answer": "탐색 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7162791086]: Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs).\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R014",
+      "context_id": "P3C05",
+      "answer": "연구 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 공개된 작업 계획 예시를 환경별로 분류해 소형·대형 모델의 성공률, 실행 가능성, 실패 유형을 같은 평가 기준으로 비교해 보세요.\n연구 근거: 논문은 환경 특화 COST 데이터로 소형 언어모델을 미세조정했고, 특정 작업 환경에서 GPT-2 medium이 GPT-3.5와 비교 가능한 계획을 만들며 로봇에서 실행 가능함을 보였다고 보고합니다. [W4394591632]\n과목 연결: 특강: 로봇 학습(EECE490G) — 잠정 연결. 과목의 로봇 학습·모션 플래닝·실제 로봇 적용은 논문의 작업 계획 평가와 맞닿지만 소형 언어모델은 명시된 강의 주제가 아닙니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 이는 특정 환경의 결과이며 모든 로봇·명령으로 일반화되지 않습니다. 제시된 초록은 실험용 접근 권한이나 특정 연구실 프로젝트 참여를 보장하지 않습니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R015",
+      "context_id": "P3C01",
+      "answer": "연구 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고 시점별 결과를 정리해 보세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 신뢰할 수 있는 기계학습(CSED618) — 잠정 연결. 과목의 신뢰성·불확실성 학습은 벤치마크의 환경 변화에 따른 성능 점검과 연결될 수 있으나, 골격 인식 자체가 강의 주제로 제시된 것은 아닙니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R016",
+      "context_id": "P3C07",
+      "answer": "수강 표시: 난류유동\n지금 시작 | Model Reduction and Neural Networks 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Model Reduction and Neural Networks\n지금 시작 | Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems\n지금 시작 | Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co\n추가 준비 | Model Reduction and Neural Networks의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 철강산업 운영관리 II, 전력시스템 제어 및 운영의 기초, 전력시스템 제어 및 운영의 기초, 제어시스템 이론 및 실험 | 연구실 원문: Model Reduction and Neural Networks\n추가 준비 | Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 철강산업 운영관리 II, 전력시스템 제어 및 운영의 기초, 전력시스템 제어 및 운영의 기초, 제어시스템 이론 및 실험 | 연구실 원문: Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems\n추가 준비 | Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 철강산업 운영관리 II, 전력시스템 제어 및 운영의 기초, 전력시스템 제어 및 운영의 기초, 제어시스템 이론 및 실험 | 연구실 원문: Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co"
+    },
+    {
+      "id": "P3R017",
+      "context_id": "P3C04",
+      "answer": "탐색 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7163352033]: 3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy.\n수업 연결: 선택 과목 내용과 연구 사이의 구체적 연결은 확인되지 않았습니다.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R018",
+      "context_id": "P3C10",
+      "answer": "수강 표시: 유동가시화\n지금 시작 | Diagnosis of Biological Flows & Biomimetics 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Diagnosis of Biological Flows & Biomimetics\n지금 시작 | Nature-inspired Water Management & Desalination 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Nature-inspired Water Management & Desalination\n지금 시작 | Particulate matter removal and monitoring 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Particulate matter removal and monitoring\n추가 준비 | Diagnosis of Biological Flows & Biomimetics의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 응용유체역학, 환경생물, 지구환경, 고급분자생물학I | 연구실 원문: Diagnosis of Biological Flows & Biomimetics\n추가 준비 | Nature-inspired Water Management & Desalination의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 응용유체역학, 환경생물, 지구환경, 고급분자생물학I | 연구실 원문: Nature-inspired Water Management & Desalination\n추가 준비 | Particulate matter removal and monitoring의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 응용유체역학, 환경생물, 지구환경, 고급분자생물학I | 연구실 원문: Particulate matter removal and monitoring"
+    },
+    {
+      "id": "P3R019",
+      "context_id": "P3C01",
+      "answer": "수강 표시: 신뢰할 수 있는 기계학습\n지금 시작 | LLMs in Interactive Environments 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: LLMs in Interactive Environments\n지금 시작 | Graph Learning Enhancement by Structural Modifications 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n지금 시작 | Efficiency in Software Engineering Agents 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficiency in Software Engineering Agents\n추가 준비 | LLMs in Interactive Environments의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: LLMs in Interactive Environments\n추가 준비 | Graph Learning Enhancement by Structural Modifications의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n추가 준비 | Efficiency in Software Engineering Agents의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Efficiency in Software Engineering Agents"
+    },
+    {
+      "id": "P3R020",
+      "context_id": "P3C08",
+      "answer": "연구 질문: 전준구 교수의 연구와 연결해, 헬리컬 코일 증기발생기의 CFD를 신경 연산자 대리모델로 근사할 때 계산 비용과 순간 유동·평균 압력 예측 정확도 사이의 절충을 묻습니다.\n연구 근거: 전준구 교수와 연결된 논문은 비정형 격자용 AE와 DeepONet, 정형 격자용 CAE 기반 L-DeepONet, FNO를 비교합니다. 다중 스케일 L-DeepONet은 순간 와류를, FNO 계열은 평균 유동과 압력 강하를 잘 예측했다고 보고합니다. 기준 CFD와의 오차뿐 아니라 추론 시간, 자료 형식, 목표 해상도를 함께 비교해야 합니다. [논문 W7162791086]\n과목 연결: MATH551은 ODE·PDE 수치해법과 기계학습 기반 수치 방법을 다뤄 CFD 대리모델 오차와 계산 비교에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R021",
+      "context_id": "P3C05",
+      "answer": "수강 표시: 특강: 로봇 학습\n지금 시작 | Behavior planning for natural Human-Robot Interaction 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Behavior planning for natural Human-Robot Interaction\n지금 시작 | Human-Human Interation to Human-Robot Interaction 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Human-Human Interation to Human-Robot Interaction\n지금 시작 | Task and motion planning 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Task and motion planning\n추가 준비 | Behavior planning for natural Human-Robot Interaction의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 특강: 인공지능 프로그래밍 입문, 특강: 인공지능: 윤리, 가치, 위험성, 컴퓨터 비전 개론, 특강: 시각 지능 | 연구실 원문: Behavior planning for natural Human-Robot Interaction\n추가 준비 | Human-Human Interation to Human-Robot Interaction의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 특강: 인공지능 프로그래밍 입문, 특강: 인공지능: 윤리, 가치, 위험성, 컴퓨터 비전 개론, 특강: 시각 지능 | 연구실 원문: Human-Human Interation to Human-Robot Interaction\n추가 준비 | Task and motion planning의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 특강: 인공지능 프로그래밍 입문, 특강: 인공지능: 윤리, 가치, 위험성, 컴퓨터 비전 개론, 특강: 시각 지능 | 연구실 원문: Task and motion planning"
+    },
+    {
+      "id": "P3R022",
+      "context_id": "P3C07",
+      "answer": "연구 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 근사하는 신경 연산자 모델의 예측 성능이 궁금해요. 구조·비구조 격자별 모델의 예측 오차와 추론 시간을 원 CFD 기준과 비교해 보세요.\n연구 근거: 논문은 SMART 소형모듈원자로 헬리컬 코일 증기발생기 CFD 자료에서 다중스케일 L-DeepONet이 순간 속도·압력의 주기적 와류를 포착하고, FNO 계열은 평균 유동과 압력 강하 예측에 신뢰할 만했다고 보고합니다. [W7162791086]\n과목 연결: 난류유동(MECH774) — 잠정 연결. 과목은 난류 유동의 해석과 물리적 기구를 다룹니다. 논문 초록은 CFD 대리모델과 와류 예측을 다루지만, 난류 자체가 초점인지는 초록만으로 확인하기 어렵습니다.\n첫 단계: 초록에서 격자·모델별 예측 대상과 결과를 정리하세요. 계산 시간 절감량을 평가하려면 본문에서 비교 조건과 하드웨어를 확인해야 합니다.\n확인할 점: 초록에 실제 계산 시간 절감 수치는 없습니다. 속도 향상률을 단정하지 말고 정확도 기준과 하드웨어를 맞춰 확인하세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "P3R023",
+      "context_id": "P3C06",
+      "answer": "연구 질문: 안혜민 교수의 연구와 연결해, 로봇 작업 계획에서 작은 언어모델이 큰 모델을 대체할 수 있는 작업·환경 조건은 무엇이며, 성공률과 실행 비용을 함께 어떻게 비교할지 묻습니다.\n연구 근거: 선정 논문은 로봇 작업 계획에 언어모델을 적용하는 문제를 다룹니다. 모델 크기만으로 적합성을 판단하지 말고 과제 분해, 환경 변화, 실패 복구와 지연·자원 사용을 동일한 평가 과제에서 비교하도록 설계를 좁힙니다. 공개된 초록의 주장과 실제 재현 가능한 결과를 구분하고, 특정 모델이 모든 로봇에 적합하다고 전제하지 않습니다. [논문 W4394591632]\n과목 연결: MECH490N은 로봇공학 설계·응용 주제를 다루지만, 제공된 정보만으로 소형 언어모델 비교와의 직접 연결은 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R024",
+      "context_id": "P3C05",
+      "answer": "탐색 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W4394591632]: This dataset is then used to fine-tune small LMs to plan action steps for robots in response to given human commands.\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: The goal of this course is to help students explore various modern algorithms used in intelligent robot development and gain practical experience by applying them to actual robots. (과목 EECE490G). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    },
+    {
+      "id": "P3R025",
+      "context_id": "P3C09",
+      "answer": "연구 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 광 조사와 전압을 각각 켠 대조 조건이 원문에 있는지 확인하고 온도·증발률·염 축적을 조건별로 표로 비교해 보세요.\n연구 근거: 논문은 전분·키토산·카본블랙 하이드로겔과 PDMS 코팅 탄소 천을 이용해 광열과 줄가열을 결합했고, 3 V·1 sun에서 10분 내 표면 약 40°C, 증발률 6.619 kg m⁻² h⁻¹ 및 염 오염 방지를 보고합니다. [W7172411329]\n과목 연결: 에너지환경 소재 분석 개론(CHEB413) — 잠정 연결. 과목의 에너지·환경 소재 특성 분석과 분광·열 분석 도구는 재료 성능을 해석하는 데 연결되지만, 이 논문의 구체적 증발기 분석을 다룬다고 단정할 수 없습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 결과는 논문이 제시한 실험 조건에 한정됩니다. 과목의 유동 가시화 개념은 증발기 성능 결과와 직접 연결되지 않아 과목 연결을 삼갑니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R026",
+      "context_id": "P3C02",
+      "answer": "연구 질문: 김동우 교수의 연구와 연결해, 3차원 관절 동작 인식에서 관절 좌표, 뼈 벡터, 움직임 흐름 중 어떤 표현이 행동 종류와 촬영 조건에 따라 유리한지 살펴봅니다.\n연구 근거: 김동우 교수와 연결된 논문은 표현별 방법을 정리하고 ANUBIS 벤치마크의 다중 시점·복잡한 상호작용 등에서 102개 행동 범주 모델을 비교합니다. 특징 표현과 과제의 상호작용, 단순 융합의 한계를 보고하므로 데이터 분할과 시점 변화 조건을 구분해 결과를 해석하는 것이 핵심입니다. [논문 W7163352033]\n과목 연결: CSED536은 컴퓨터 비전 기반 학습 주제를 다룹니다. 제공된 과목 정보로는 골격 표현 비교와의 직접 연결이 불명확합니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R027",
+      "context_id": "P3C04",
+      "answer": "연구 질문: 김동우 교수의 연구와 연결해, 3차원 관절 동작 인식에서 관절 좌표, 뼈 벡터, 움직임 흐름 중 어떤 표현이 행동 종류와 촬영 조건에 따라 유리한지 살펴봅니다.\n연구 근거: 김동우 교수와 연결된 논문은 표현별 방법을 정리하고 ANUBIS 벤치마크의 다중 시점·복잡한 상호작용 등에서 102개 행동 범주 모델을 비교합니다. 특징 표현과 과제의 상호작용, 단순 융합의 한계를 보고하므로 데이터 분할과 시점 변화 조건을 구분해 결과를 해석하는 것이 핵심입니다. [논문 W7163352033]\n과목 연결: 선택된 과목 없음. 과목 정보만으로 연결할 수는 없지만, 논문 초록과 관심 질문을 바탕으로 아래의 문헌 검토부터 시작할 수 있습니다.\n첫 단계: 먼저 논문 초록과 관심 질문에서 검증할 변수·지표를 뽑아 개념도를 만듭니다. 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R028",
+      "context_id": "P3C06",
+      "answer": "연구 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 논문에서 사용한 작업 환경과 평가 조건을 확인해 소형·대형 모델의 계획 품질, 실행 가능성, 실패 유형을 같은 기준으로 비교해 보세요.\n연구 근거: 논문은 환경 특화 COST 데이터로 소형 언어모델을 미세조정했고, 특정 작업 환경에서 GPT-2 medium이 GPT-3.5와 비교 가능한 계획을 만들며 생성된 단계가 로봇에서 실용적으로 실행 가능함을 보였다고 보고합니다. [W4394591632]\n과목 연결: 생체 모방 로봇(MECH490N) — 제공된 설명에서는 논문 주제와의 구체적 관련성을 확인하기 어렵습니다. 과목은 생체역학을 활용한 로봇 설계·제조를 다루며, 언어모델 기반 작업 계획과의 연결은 명시되어 있지 않습니다.\n첫 단계: 초록에서 사용 환경, 비교 모델과 실행 가능성 평가 기준을 추려 표로 정리하세요. 다른 조건의 비교는 후속 검토 제안입니다.\n확인할 점: 결과는 특정 환경의 결과이므로 모든 로봇·명령으로 일반화할 수 없습니다. 초록은 실험 장비나 연구실 프로젝트 참여·접근 권한을 확인해 주지 않습니다."
+    },
+    {
+      "id": "P3R029",
+      "context_id": "P3C03",
+      "answer": "수강 표시: 신뢰할 수 있는 기계학습\n지금 시작 | LLMs in Interactive Environments 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: LLMs in Interactive Environments\n지금 시작 | Graph Learning Enhancement by Structural Modifications 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n지금 시작 | Efficiency in Software Engineering Agents 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficiency in Software Engineering Agents\n추가 준비 | LLMs in Interactive Environments의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: LLMs in Interactive Environments\n추가 준비 | Graph Learning Enhancement by Structural Modifications의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n추가 준비 | Efficiency in Software Engineering Agents의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Efficiency in Software Engineering Agents"
+    },
+    {
+      "id": "P3R030",
+      "context_id": "P3C02",
+      "answer": "수강 표시: 고급 알고리즘\n지금 시작 | LLMs in Interactive Environments 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: LLMs in Interactive Environments\n지금 시작 | Graph Learning Enhancement by Structural Modifications 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n지금 시작 | Efficiency in Software Engineering Agents 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficiency in Software Engineering Agents\n추가 준비 | LLMs in Interactive Environments의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: LLMs in Interactive Environments\n추가 준비 | Graph Learning Enhancement by Structural Modifications의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n추가 준비 | Efficiency in Software Engineering Agents의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Efficiency in Software Engineering Agents"
+    },
+    {
+      "id": "P3R031",
+      "context_id": "P3C07",
+      "answer": "연구 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요. 구조·비구조 격자별 잠재모델과 FNO의 예측 오차 및 추론 시간을 원 CFD 기준과 함께 비교해 계산 절감량을 정량화해 보세요.\n연구 근거: 논문은 SMART 소형모듈원자로 헬리컬 코일 증기발생기 CFD 자료에서 다중스케일 L-DeepONet이 순간 속도·압력의 주기적 와류를 포착하고, FNO 계열은 평균 유동과 압력 강하 예측에 신뢰할 만했다고 보고합니다. [W7162791086]\n과목 연결: 난류유동(MECH774) — 잠정 연결. 과목의 난류 유동 기구는 증기발생기 내부 와류 해석과 연결될 수 있으나, 초록은 난류 자체보다 CFD 대리모델의 순간 와류 예측에 초점을 둡니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 초록에는 실제 계산 시간 절감 수치가 없으므로 속도 향상률을 미리 단정하지 말고 하드웨어·정확도 기준을 맞춰 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R032",
+      "context_id": "P3C04",
+      "answer": "연구 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고 시점별 결과를 정리해 보세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R033",
+      "context_id": "P3C10",
+      "answer": "연구 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 광 조사와 전압을 각각 켠 대조 조건이 원문에 있는지 확인하고 온도·증발률·염 축적 관련 결과를 조건별로 정리해 보세요.\n연구 근거: 논문은 전분·키토산·카본블랙 하이드로겔과 PDMS 코팅 탄소 천으로 광열과 줄가열을 결합했고, 3 V·1 sun에서 10분 내 표면 약 40°C 및 증발률 6.619 kg m⁻² h⁻¹를 보고합니다. 또한 염 오염 방지를 주장합니다. [W7172411329]\n과목 연결: 유동가시화(MECH678) — 제공된 설명에서는 논문 주제와의 구체적 연결을 확인하기 어렵습니다. 과목은 열유체 유동의 가시화·영상 처리 기법을 다루며, 이 논문 초록은 증발기 성능을 다루지만 유동 가시화를 언급하지 않습니다.\n첫 단계: 초록에 기재된 재료와 실험 조건·결과를 정리하고, 광 또는 전압만 적용한 대조 조건의 존재와 염 축적 측정법은 본문에서 확인하세요.\n확인할 점: 결과는 논문이 제시한 조건에 한정됩니다. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "P3R034",
+      "context_id": "P3C06",
+      "answer": "수강 표시: 특론: 생체 모방 로봇\n지금 시작 | Behavior planning for natural Human-Robot Interaction 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Behavior planning for natural Human-Robot Interaction\n지금 시작 | Human-Human Interation to Human-Robot Interaction 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Human-Human Interation to Human-Robot Interaction\n지금 시작 | Task and motion planning 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Task and motion planning\n추가 준비 | Behavior planning for natural Human-Robot Interaction의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 특강: 로봇 학습, 특강: 인공지능 프로그래밍 입문, 특강: 인공지능: 윤리, 가치, 위험성, 컴퓨터 비전 개론 | 연구실 원문: Behavior planning for natural Human-Robot Interaction\n추가 준비 | Human-Human Interation to Human-Robot Interaction의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 특강: 로봇 학습, 특강: 인공지능 프로그래밍 입문, 특강: 인공지능: 윤리, 가치, 위험성, 컴퓨터 비전 개론 | 연구실 원문: Human-Human Interation to Human-Robot Interaction\n추가 준비 | Task and motion planning의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 특강: 로봇 학습, 특강: 인공지능 프로그래밍 입문, 특강: 인공지능: 윤리, 가치, 위험성, 컴퓨터 비전 개론 | 연구실 원문: Task and motion planning"
+    },
+    {
+      "id": "P3R035",
+      "context_id": "P3C09",
+      "answer": "수강 표시: 에너지환경 소재 분석 개론\n지금 시작 | Diagnosis of Biological Flows & Biomimetics 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Diagnosis of Biological Flows & Biomimetics\n지금 시작 | Nature-inspired Water Management & Desalination 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Nature-inspired Water Management & Desalination\n지금 시작 | Particulate matter removal and monitoring 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Particulate matter removal and monitoring\n추가 준비 | Diagnosis of Biological Flows & Biomimetics의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 유동가시화, 응용유체역학, 환경생물, 지구환경 | 연구실 원문: Diagnosis of Biological Flows & Biomimetics\n추가 준비 | Nature-inspired Water Management & Desalination의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 유동가시화, 응용유체역학, 환경생물, 지구환경 | 연구실 원문: Nature-inspired Water Management & Desalination\n추가 준비 | Particulate matter removal and monitoring의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 유동가시화, 응용유체역학, 환경생물, 지구환경 | 연구실 원문: Particulate matter removal and monitoring"
+    },
+    {
+      "id": "P3R036",
+      "context_id": "P3C09",
+      "answer": "연구 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 광 조사와 전압을 각각 켠 대조 조건이 원문에 있는지 확인하고 온도·증발률·염 축적 관련 결과를 조건별로 정리해 보세요.\n연구 근거: 논문은 전분·키토산·카본블랙 하이드로겔과 PDMS 코팅 탄소 천으로 광열과 줄가열을 결합했고, 3 V·1 sun에서 10분 내 표면 약 40°C 및 증발률 6.619 kg m⁻² h⁻¹를 보고합니다. 또한 염 오염 방지를 주장합니다. [W7172411329]\n과목 연결: 에너지환경 소재 분석 개론(CHEB413) — 잠정 연결. 과목은 에너지·환경 소재 특성 분석과 분석법의 선택·해석을 다루므로 재료 성능 분석이라는 측면에서 관련될 수 있지만, 이 증발기나 구체적 분석법을 다룬다는 근거는 없습니다.\n첫 단계: 초록에 기재된 재료와 실험 조건·결과를 정리하고, 광 또는 전압만 적용한 대조 조건의 존재와 염 축적 측정법은 본문에서 확인하세요.\n확인할 점: 결과는 논문이 제시한 조건에 한정됩니다. 과목 설명은 에너지·환경 소재 분석을 다루며 유동 가시화 과목 설명과 혼동하지 마세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "P3R037",
+      "context_id": "P3C08",
+      "answer": "연구 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 근사하는 신경 연산자 모델의 예측 성능이 궁금해요. 구조·비구조 격자별 모델의 예측 오차와 추론 시간을 원 CFD 기준과 비교해 보세요.\n연구 근거: 논문은 SMART 소형모듈원자로 헬리컬 코일 증기발생기 CFD 자료에서 다중스케일 L-DeepONet이 순간 속도·압력의 주기적 와류를 포착하고, FNO 계열은 평균 유동과 압력 강하 예측에 신뢰할 만했다고 보고합니다. [W7162791086]\n과목 연결: 수치해석학(MATH551) — 직접 연결. 과목 설명에 ODE·PDE 수치해석과 DeepONet·Fourier Neural Operator(FNO)가 명시되어 있어 논문의 신경 연산자 대리모델과 직접 관련됩니다.\n첫 단계: 초록에서 격자·모델별 예측 대상과 결과를 정리하세요. 계산 시간 절감량을 평가하려면 본문에서 비교 조건과 하드웨어를 확인해야 합니다.\n확인할 점: 초록에 실제 계산 시간 절감 수치는 없습니다. 속도 향상률을 단정하지 말고 정확도 기준과 하드웨어를 맞춰 확인하세요. 수강만으로 기술 역량이나 연구실 프로젝트·접근 권한을 추정할 수 없습니다."
+    },
+    {
+      "id": "P3R038",
+      "context_id": "P3C10",
+      "answer": "연구 질문: 하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요. 광 조사와 전압을 각각 켠 대조 조건이 원문에 있는지 확인하고 온도·증발률·염 축적을 조건별로 표로 비교해 보세요.\n연구 근거: 논문은 전분·키토산·카본블랙 하이드로겔과 PDMS 코팅 탄소 천을 이용해 광열과 줄가열을 결합했고, 3 V·1 sun에서 10분 내 표면 약 40°C, 증발률 6.619 kg m⁻² h⁻¹ 및 염 오염 방지를 보고합니다. [W7172411329]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 결과는 논문이 제시한 실험 조건에 한정됩니다. 과목의 유동 가시화 개념은 증발기 성능 결과와 직접 연결되지 않아 과목 연결을 삼갑니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R039",
+      "context_id": "P3C08",
+      "answer": "수강 표시: 수치해석학\n지금 시작 | Model Reduction and Neural Networks 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Model Reduction and Neural Networks\n지금 시작 | Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems\n지금 시작 | Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co\n추가 준비 | Model Reduction and Neural Networks의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 철강산업 운영관리 II, 전력시스템 제어 및 운영의 기초, 전력시스템 제어 및 운영의 기초, 제어시스템 이론 및 실험 | 연구실 원문: Model Reduction and Neural Networks\n추가 준비 | Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 철강산업 운영관리 II, 전력시스템 제어 및 운영의 기초, 전력시스템 제어 및 운영의 기초, 제어시스템 이론 및 실험 | 연구실 원문: Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems\n추가 준비 | Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 철강산업 운영관리 II, 전력시스템 제어 및 운영의 기초, 전력시스템 제어 및 운영의 기초, 제어시스템 이론 및 실험 | 연구실 원문: Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co"
+    },
+    {
+      "id": "P3R040",
+      "context_id": "P3C01",
+      "answer": "연구 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고, 다중 시점별 성능 분석은 추가 검토 항목으로 표시하세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 신뢰할 수 있는 기계학습(CSED618) — 잠정 연결. 과목의 신뢰성·불확실성 학습은 벤치마크의 환경 변화에 따른 성능 점검과 연결될 수 있으나, 골격 인식 자체가 강의 주제로 제시된 것은 아닙니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R041",
+      "context_id": "P3C03",
+      "answer": "연구 질문: 논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고 시점별 결과를 정리해 보세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 신뢰할 수 있는 기계학습(CSED618) — 잠정 연결. 과목의 신뢰성·불확실성 학습은 벤치마크의 환경 변화에 따른 성능 점검과 연결될 수 있으나, 골격 인식 자체가 강의 주제로 제시된 것은 아닙니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R042",
+      "context_id": "P3C04",
+      "answer": "수강 표시: \n지금 시작 | LLMs in Interactive Environments 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: LLMs in Interactive Environments\n지금 시작 | Graph Learning Enhancement by Structural Modifications 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n지금 시작 | Efficiency in Software Engineering Agents 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficiency in Software Engineering Agents\n추가 준비 | LLMs in Interactive Environments의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습 | 연구실 원문: LLMs in Interactive Environments\n추가 준비 | Graph Learning Enhancement by Structural Modifications의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습 | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n추가 준비 | Efficiency in Software Engineering Agents의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습 | 연구실 원문: Efficiency in Software Engineering Agents"
+    },
+    {
+      "id": "P3R043",
+      "context_id": "P3C04",
+      "answer": "연구 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고, 다중 시점별 성능 분석은 추가 검토 항목으로 표시하세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 선택한 과목 없음; 과목 개념과의 연결은 제시하지 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R044",
+      "context_id": "P3C08",
+      "answer": "연구 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요. 구조·비구조 격자별 잠재모델과 FNO의 예측 오차 및 추론 시간을 원 CFD 기준과 함께 비교해 계산 절감량을 정량화해 보세요.\n연구 근거: 논문은 SMART 소형모듈원자로 헬리컬 코일 증기발생기 CFD 자료에서 다중스케일 L-DeepONet이 순간 속도·압력의 주기적 와류를 포착하고, FNO 계열은 평균 유동과 압력 강하 예측에 신뢰할 만했다고 보고합니다. [W7162791086]\n과목 연결: 수치해석학(MATH551) — 직접 연결. 과목은 PDE 수치해석과 과학기계학습·연산자 학습을 다루므로 CFD 신경 연산자 대리모델과 직접 연결됩니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 초록에는 실제 계산 시간 절감 수치가 없으므로 속도 향상률을 미리 단정하지 말고 하드웨어·정확도 기준을 맞춰 확인해야 합니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R045",
+      "context_id": "P3C02",
+      "answer": "연구 질문: 사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요. 공개 ANUBIS 벤치마크에서 관절 좌표와 뼈 벡터를 같은 모델·분할·평가지표로 비교하고 시점별 결과를 정리해 보세요.\n연구 근거: 논문은 관절 좌표·뼈 벡터·동작 흐름 등 입력 표현에 따라 동작 인식 성능이 달라지고, ANUBIS의 102개 행동 범주 실험에서 행동과 특징 표현의 의존성 및 단순 융합의 한계를 보고합니다. [W7163352033]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 초록에 제시된 주장과 자료·비교 범위를 먼저 정리하고, 제안한 검토의 변수·비교 기준·평가지표를 한 장의 표로 만드세요. 이는 논문에 보고된 결과가 아니라 후속 검토 제안입니다.\n확인할 점: 촬영 조건별 일반화 차이가 관심 주제에 맞는 확장 제안이지 논문이 모든 환경 변화를 검증했다는 뜻은 아닙니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R046",
+      "context_id": "P3C01",
+      "answer": "연구 질문: 김동우 교수의 연구와 연결해, 3차원 관절 동작 인식에서 관절 좌표, 뼈 벡터, 움직임 흐름 중 어떤 표현이 행동 종류와 촬영 조건에 따라 유리한지 살펴봅니다.\n연구 근거: 김동우 교수와 연결된 논문은 표현별 방법을 정리하고 ANUBIS 벤치마크의 다중 시점·복잡한 상호작용 등에서 102개 행동 범주 모델을 비교합니다. 특징 표현과 과제의 상호작용, 단순 융합의 한계를 보고하므로 데이터 분할과 시점 변화 조건을 구분해 결과를 해석하는 것이 핵심입니다. [논문 W7163352033]\n과목 연결: CSED618은 신뢰성·불확실성·적대적 환경의 기계학습을 다뤄 촬영 조건 변화에서 인식 결과의 견고성을 따져보는 데 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R047",
+      "context_id": "P3C06",
+      "answer": "연구 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 공개된 작업 계획 예시를 환경별로 분류해 소형·대형 모델의 성공률, 실행 가능성, 실패 유형을 같은 평가 기준으로 비교해 보세요.\n연구 근거: 논문은 환경 특화 COST 데이터로 소형 언어모델을 미세조정했고, 특정 작업 환경에서 GPT-2 medium이 GPT-3.5와 비교 가능한 계획을 만들며 로봇에서 실행 가능함을 보였다고 보고합니다. [W4394591632]\n과목 연결: 선택 과목의 구체적 학습 개념과 이 논문 주제의 직접 연결을 확인하기 어려워 연결하지 않습니다.\n첫 단계: 논문 초록의 주장과 실험 조건을 먼저 추출하고, 제안한 비교의 변수·대조군·평가지표를 한 장의 표로 정리하세요. 이는 논문 결과가 아닌 후속 제안입니다.\n확인할 점: 이는 특정 환경의 결과이며 모든 로봇·명령으로 일반화되지 않습니다. 제시된 초록은 실험용 접근 권한이나 특정 연구실 프로젝트 참여를 보장하지 않습니다. 수강이 기술 역량을 뜻하지 않으며, 연구실 프로젝트나 접근 권한도 자료에서 확인되지 않습니다."
+    },
+    {
+      "id": "P3R048",
+      "context_id": "P3C05",
+      "answer": "연구 질문: 로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요. 논문에서 사용한 작업 환경과 평가 조건을 확인해 소형·대형 모델의 계획 품질, 실행 가능성, 실패 유형을 같은 기준으로 비교해 보세요.\n연구 근거: 논문은 환경 특화 COST 데이터로 소형 언어모델을 미세조정했고, 특정 작업 환경에서 GPT-2 medium이 GPT-3.5와 비교 가능한 계획을 만들며 생성된 단계가 로봇에서 실용적으로 실행 가능함을 보였다고 보고합니다. [W4394591632]\n과목 연결: 특강: 로봇 학습(EECE490G) — 잠정 연결. 과목은 로봇 학습 알고리즘과 실제 로봇 적용을 다루므로 로봇 작업 계획과 관련되지만, 소형 언어모델을 명시적으로 다룬다는 근거는 없습니다.\n첫 단계: 초록에서 사용 환경, 비교 모델과 실행 가능성 평가 기준을 추려 표로 정리하세요. 다른 조건의 비교는 후속 검토 제안입니다.\n확인할 점: 결과는 특정 환경의 결과이므로 모든 로봇·명령으로 일반화할 수 없습니다. 초록은 실험 장비나 연구실 프로젝트 참여·접근 권한을 확인해 주지 않습니다."
+    },
+    {
+      "id": "P3R049",
+      "context_id": "P3C09",
+      "answer": "연구 질문: 이상준 교수의 연구와 연결해, 하이드로겔 증발기에서 광열 가열과 줄 전열을 함께 쓸 때 증발률·표면 온도·염 축적이 어떻게 달라지는지 확인합니다.\n연구 근거: 이상준 교수와 연결된 논문은 전분·키토산·카본블랙 하이드로겔과 PDMS 코팅 탄소천을 제안하고, 3V와 1 sun 조건에서 약 40°C까지 가열 및 6.619 kg m⁻² h⁻¹ 증발률을 보고합니다. 광원·전압 단독 대조군과 염수 조건을 맞춰 시너지와 염 오염 억제를 나눠 평가해야 하며, 다른 운전 조건에 같은 수치를 적용할 수는 없습니다. [논문 W7172411329]\n과목 연결: CHEB413은 에너지·환경 소재의 특성 분석과 현미경·분광·열 분석을 다뤄 증발기 재료와 성능 메커니즘 비교에 연결됩니다.\n첫 단계: 먼저 논문의 연구 질문과 초록에 명시된 방법·결과를 분리해 요약하고, 비교할 변수 하나와 관찰 지표를 정해 작은 문헌 검토 또는 재현 계획을 세웁니다.\n확인할 점: 결과는 논문에 제시된 조건 안에서 해석합니다. 원문·데이터·코드·실험실 자원 접근을 전제하지 않으며, 공개 자료와 재현 조건을 확인합니다. 이는 탐색 제안이지 진행 중인 과제의 단정이 아닙니다."
+    },
+    {
+      "id": "P3R050",
+      "context_id": "P3C08",
+      "answer": "탐색 질문: 소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요. 이 관심을 선택 논문에서 어떻게 다루는지 살펴보세요.\n논문 근거 [W7162791086]: This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART).\n수업 연결: 과목과 논문에 공통으로 나타나는 표현을 확인할 후보: We will explore new paradigms for solving differential equations, e.g., Physics-Informed Neural Networks (PINN), and also cover other novel architectures such as DeepONet and Fourier Neural Operators (FNO). (과목 MATH551). 실제 활용 관계는 미확인.\n첫 단계: 논문 초록에서 연구 문제와 방법을 표시하고 이해가 필요한 용어를 정리해 보세요.\n확인할 점: 현재 연구실 프로젝트나 자료·장비 접근 가능 여부는 확인되지 않았습니다."
+    }
+  ]
+}

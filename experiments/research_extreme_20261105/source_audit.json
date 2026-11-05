@@ -1,0 +1,86 @@
+[
+  {
+    "cluster": "case_01",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "plausible",
+    "reason": "관심은 TiO2 탄소 계면과 MIS 접촉 안정성을 정확히 요약한다. 과목1은 금속-반도체 접촉·금속산화물 소자를 다루고, 과목2는 반도체 박막과 계면·확산·전기 및 열 특성의 일반 기반을 다룬다."
+  },
+  {
+    "cluster": "case_02",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "plausible",
+    "reason": "관심은 잡음 환경 양자계측의 자율 오류 보정을 반영한다. 과목1에 양자 오류 정정·잡음 채널이 명시되고, 과목2는 양자정보·채널·하드웨어를 다루지만 오류 정정은 구체적으로 제시되지 않는다."
+  },
+  {
+    "cluster": "case_03",
+    "interest": "match",
+    "course1": "unclear",
+    "course2": "unclear",
+    "reason": "관심은 3차원 골격 동작 인식 표현을 정확히 짚는다. 두 과목은 각각 신뢰가능 ML과 일반 알고리즘을 다루지만 골격 동작 인식이나 관련 표현을 특정하지 않는다."
+  },
+  {
+    "cluster": "case_04",
+    "interest": "match",
+    "course1": "plausible",
+    "course2": "direct",
+    "reason": "관심은 층상 금속 칼코겐화물의 구조·방향성과 기능을 요약한다. 과목1의 상변화·확산·계면은 관련 소재 원리를 다루고, 과목2는 결정 구조와 결정학적 방향·회절을 직접 다룬다."
+  },
+  {
+    "cluster": "case_05",
+    "interest": "match",
+    "course1": "plausible",
+    "course2": "plausible",
+    "reason": "관심은 자기 나노입자 3D 구조의 태양광 흡수와 증발 향상을 반영한다. 과목1은 신재생에너지와 수처리 기술을, 과목2는 자기 나노입자 증발기와 직접 같지는 않지만 에너지·환경 소재 분석 및 관련 특성화를 다룬다."
+  },
+  {
+    "cluster": "case_06",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "plausible",
+    "reason": "관심은 로봇 작업 계획에서 소형 언어모델 적용 가능성을 정확히 반영한다. 과목1은 로봇 학습과 모션 계획을 다루며, 과목2는 로봇 설계·제작을 다루지만 언어모델 계획은 특정하지 않는다."
+  },
+  {
+    "cluster": "case_07",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "direct",
+    "reason": "관심은 Zn-I2 전지의 구리 단일원자 촉매, 요오드 전환과 셔틀 효과를 정확히 담는다. 두 과목 모두 전기화학·전극 반응 및 배터리의 산화환원과 열역학을 구체적으로 다룬다."
+  },
+  {
+    "cluster": "case_08",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "direct",
+    "reason": "관심은 배아줄기세포 유래 세포외소포의 산화 스트레스·노화 억제 결과를 반영한다. 과목1은 세포 기능과 과정, 과목2는 세포 신호전달과 관련 경로를 직접 다룬다."
+  },
+  {
+    "cluster": "case_09",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "direct",
+    "reason": "관심은 SMR 헬리컬 코일 증기발생기의 CFD 대체 신경 연산자 모델을 정확히 요약한다. 과목1은 난류 유동 해석을, 과목2는 PDE 수치해석과 DeepONet·FNO 등 연산자 학습을 직접 다룬다."
+  },
+  {
+    "cluster": "case_10",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "plausible",
+    "reason": "관심은 EPC 입찰 문서의 계약 위험 조항을 NLP와 양방향 LSTM으로 분석하는 연구를 직접 반영한다. 과목1은 EPC·입찰·계약·위험을 명시하고, 과목2는 AI 데이터 파이프라인을 다루지만 문서 위험 분석은 특정하지 않는다."
+  },
+  {
+    "cluster": "case_11",
+    "interest": "match",
+    "course1": "direct",
+    "course2": "plausible",
+    "reason": "관심은 화학 반응 네트워크 기반 신경망 학습과 반응 잡음을 정확히 담는다. 과목1은 신경망과 역전파를 직접 다루고, 과목2는 생물 네트워크를 다루지만 CRN 구현이나 신경망 학습은 명시하지 않는다."
+  },
+  {
+    "cluster": "case_12",
+    "interest": "match",
+    "course1": "plausible",
+    "course2": "plausible",
+    "reason": "관심은 하이드로겔 증발기의 광열·전열 가열 및 해수 증발을 정확히 요약한다. 과목1의 에너지 소재 특성화는 재료·분석 측면에서 관련되고, 과목2의 열유동 가시화는 증발기 유동·열 측정과 연관될 수 있으나 해수 증발을 특정하지 않는다."
+  }
+]
