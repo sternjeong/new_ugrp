@@ -38,6 +38,20 @@ EXPANSIONS = {
     '암': ['cancer', 'tumor', '항암', '종양', '암세포'], '면역': ['immun'], '의료영상': ['medical imag'], '나노': ['nano'],
 }
 COMMON_FRACTION = 0.25  # a word found in more labs than this says little on its own
+COURSE_CUE = re.compile(r'수업|과목|강의|수강')
+COURSE_WORD = re.compile(r'(?:수업|과목|강의|수강)\S*')
+COURSE_LIMIT = 8
+COURSE_LAB_LIMIT = 10
+TEACHER_BASE = 0.55   # instructors whose lab has no similarity entry for the course (top 20 per lab only)
+TEACHER_BONUS = 0.15  # teaching the course is direct evidence; similarity alone is an estimate
+EXACT_BONUS = 0.1     # the course the student named outranks longer titles that merely contain it
+
+
+def course_base(title):
+    """'유기화학I' → 유기화학, '일반물리: 역학과 파동' → 일반물리, '일반물리(H): …' → 일반물리."""
+    base = re.split(r'[:(（]', title)[0]
+    base = re.sub(r'\s+', '', base)
+    return re.sub(r'(?:I{1,3}|IV|Ⅰ|Ⅱ|Ⅲ|\d+)$', '', base)
 
 
 def search_terms(text):
@@ -110,8 +124,12 @@ class CuratedCatalog:
     def __init__(self, data_dir):
         root = Path(data_dir)
         self.profiles = {p['lab_id']: p for p in load_jsonl(root / 'app_profiles.jsonl')}
-        for profile in self.profiles.values():
-            profile['professors'] = [name or profile.get('lab_name') or '연구실'
+        # A few professors are listed only by their English name (e.g. 'Sw Chung'); the profile builder
+        # used to drop it. Filled here so the published profiles and their embeddings stay unchanged.
+        english = {row['id']: row['professor'].get('name_en') for row in load_jsonl(root / 'labs.jsonl')
+                   if not row['professor'].get('name_ko')} if (root / 'labs.jsonl').exists() else {}
+        for lid, profile in self.profiles.items():
+            profile['professors'] = [name or english.get(lid) or profile.get('lab_name') or '연구실'
                                      for name in profile['professors']]
         self.lab_areas = load_lab_areas(root / 'labs.jsonl')
         self.courses = [c for c in load_jsonl(root / 'courses.jsonl') if c.get('recommendable')]
@@ -238,6 +256,55 @@ class CuratedCatalog:
                         connection='direct', reason='연구실 자료에서 입력한 표현과 일치하는 내용을 찾았습니다.')
             found.append(card)
         return sorted(found, key=lambda c: (-c['score'], c['professors'][0]))[:20]
+
+    def courses_named(self, phrases, cue):
+        """[(course, exact)] a query names. A phrase equal to a course title ('선형대수' → 선형대수학) always counts;
+        a word inside longer titles ('선형대수' → 응용선형대수) only when the query says 수업·과목·강의."""
+        if not hasattr(self, '_course_bases'):
+            self._course_bases = [(course_base(c['title']), c) for c in self.courses]
+        exact, partial = [], []
+        for phrase in phrases:
+            words = [PARTICLE.sub('', w) if len(w) > 2 else w for w in COURSE_WORD.sub(' ', phrase).split()]
+            keys = [''.join(words)] + (words if cue and len(words) > 1 else [])
+            for key in keys:
+                if len(key) < 2:
+                    continue
+                exact += [c for base, c in self._course_bases if base in (key, key + '학')]
+                if cue or any(base in (key, key + '학') for base, _ in self._course_bases):
+                    partial += [c for base, c in self._course_bases if len(key) >= 3 and key in base]
+        named = {c['code']: (c, True) for c in exact}
+        for c in sorted(partial, key=lambda c: c['code'][4:]):
+            named.setdefault(c['code'], (c, False))
+        return list(named.values())[:COURSE_LIMIT]
+
+    def course_labs(self, named):
+        """{lab_id: (score, course, 'teaches'|'similar')}: labs of the course's instructors, then labs whose
+        material is close to the course in BGE-M3 (`lab_course_bge_m3.json`). Neither is a prerequisite claim."""
+        found = {}
+        for course, exact in named:
+            bonus = EXACT_BONUS if exact else 0.0
+            for lid, sims in self.course_similarity.items():
+                if course['code'] in sims and lid in self.profiles:
+                    found.setdefault(lid, []).append((sims[course['code']] + bonus, course, 'similar'))
+            for professor in course.get('professors') or []:
+                lid = professor.get('lab_id')
+                if lid in self.profiles and professor.get('basis') != 'not_in_lab_data':
+                    sim = self.course_similarity.get(lid, {}).get(course['code'], TEACHER_BASE)
+                    found.setdefault(lid, []).append((sim + TEACHER_BONUS + bonus, course, 'teaches'))
+        best = {lid: max(links, key=lambda link: link[0]) for lid, links in found.items()}
+        return dict(sorted(best.items(), key=lambda kv: -kv[1][0])[:COURSE_LAB_LIMIT])
+
+    def course_card(self, lab_id, course, kind, card=None):
+        card = dict(card or self.card(lab_id))
+        name = f"‘{course['title']}’({course['code']})"
+        card['reason'] = (f'{name} 수업을 맡은 교수의 연구실이에요.' if kind == 'teaches' else
+                          f'{name} 수업 설명과 연구실 자료의 의미가 가까워요. 자동 계산이라 실제 관련성은 원문에서 확인하세요.')
+        about = re.sub(r'\s+', ' ', course.get('description') or '').strip()
+        course_evidence = [{'topic': 'course', 'label': course['title'], 'text': f"{course['title']} 과목 설명: {about[:300]}",
+                            'urls': [], 'section': 'course', 'role': 'course'}] if about else []
+        card['evidence'] = course_evidence + list(card.get('evidence') or [])[:2]
+        card['connection'] = 'course'
+        return card
 
     def detail(self, lab_id):
         lid = self.resolve(lab_id)

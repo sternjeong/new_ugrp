@@ -1,6 +1,7 @@
 """Positive/negative query interpretation over the new curated catalog."""
 import re
 
+from .curated_catalog import COURSE_CUE, COURSE_WORD
 from .query_engine import QueryEngine, broad_only, interpret, is_nonsense, normalize, rrf, TOP_N
 
 
@@ -16,6 +17,8 @@ def classify_curated_query(text):
     normalized_negative = re.sub(r'좋아하지\s*않(?:지만|아요|습니다|아)', '싫고', norm)
     parsed = interpret(normalized_negative)
     likes, dislikes = parsed['likes'], parsed['dislikes']
+    # '컴퓨터구조 수업' → '컴퓨터구조': the word 수업 alone pulls labs about learning and attention.
+    likes = list(dict.fromkeys(re.sub(r'\s+', ' ', COURSE_WORD.sub(' ', p)).strip() or p for p in likes))
     result = {'norm': norm, 'likes': likes, 'dislikes': dislikes,
               'intent': 'search', 'message': None, 'uncertain': False}
     if is_nonsense(norm) or KEYBOARD_NOISE.fullmatch(norm):
@@ -56,19 +59,46 @@ class CuratedQueryEngine(QueryEngine):
         plan_ = {'likes': likes, 'dislikes': dislikes, 'norm': norm}
         cards = self.dictionary_cards(plan_, text)
         by_id = {c['id']: c for c in cards}
+        cue = bool(COURSE_CUE.search(norm))
+        courses = self.catalog.courses_named(likes, cue)
+        linked = {lid: link for lid, link in self.catalog.course_labs(courses).items()
+                  if not self.conflicts_with_dislikes(lid, dislikes)}
+        # Course-led only when the student talks about a class, not when a topic merely shares a title
+        # ('컴퓨터 구조와 시스템 보안' must still find security labs).
+        led = bool(linked) and (cue or all(self.catalog.courses_named([p], cue) for p in likes))
+        if courses:
+            result['courses'] = [{'code': c['code'], 'name': c['title']} for c, _ in courses]
         if self.launcher and self.broker and not self.broker.available() and self.launcher.ensure_started():
-            result.update(labs=cards[:TOP_N], mode='starting',
-                          message='의미 검색을 준비하고 있어요. 잠시만 기다려 주세요.')
+            result.update(labs=self.with_courses(self.fuse(linked, led, [c['id'] for c in cards]), by_id, linked, led),
+                          mode='starting', message='의미 검색을 준비하고 있어요. 잠시만 기다려 주세요.')
             return result
         phrases = list(dict.fromkeys((likes or [norm]) + dislikes + [norm]))
         sims = self.broker.request(phrases, self.timeout) if self.broker else None
         if not sims or any(p not in sims for p in phrases):
-            result.update(labs=cards[:TOP_N], mode='dictionary')
+            result.update(labs=self.with_courses(self.fuse(linked, led, [c['id'] for c in cards]), by_id, linked, led), mode='dictionary')
             return result
         ranking, scores, why = self.embedding_ranking(plan_, sims)
-        fused = rrf([c['id'] for c in cards], ranking) if cards else ranking
+        fused = self.fuse(linked, led, [c['id'] for c in cards], ranking)
         fused = [lid for lid in fused if not self.conflicts_with_dislikes(lid, dislikes)]
-        result['labs'] = [by_id[lid] if lid in by_id else self.semantic_card(lid, scores[lid], why[lid])
-                          for lid in fused[:TOP_N]]
+        by_id.update({lid: self.semantic_card(lid, scores[lid], why[lid]) for lid in fused[:TOP_N] if lid not in by_id})
+        result['labs'] = self.with_courses(fused, by_id, linked, led)
         result['mode'] = 'embedding'
         return result
+
+    @staticmethod
+    def fuse(linked, led, *rankings):
+        """When the student asks about a class, its labs count twice in the fusion."""
+        rankings = [r for r in rankings if r]
+        if linked:
+            rankings = [list(linked)] * (2 if led else 1) + rankings
+        return rrf(*rankings) if len(rankings) > 1 else (rankings[0] if rankings else [])
+
+    def with_courses(self, ids, by_id, linked, led):
+        out = []
+        for lid in ids[:TOP_N]:
+            card = by_id.get(lid)
+            if lid in linked and (led or card is None):
+                _, course, kind = linked[lid]
+                card = self.catalog.course_card(lid, course, kind, card)
+            out.append(card)
+        return out

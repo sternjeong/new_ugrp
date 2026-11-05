@@ -3,7 +3,7 @@ import json
 import tempfile
 from pathlib import Path
 
-from curri.curated_catalog import CuratedCatalog, informative_lab_name
+from curri.curated_catalog import CuratedCatalog, course_base, informative_lab_name
 from curri.curated_query_engine import CuratedQueryEngine
 
 
@@ -129,10 +129,31 @@ class CuratedCatalogTests(unittest.TestCase):
         self.assertEqual(card['lab_name'], '조문호 교수 연구실')  # source value is kept
         self.assertEqual(card['lab_subtitle'], '')
         self.assertEqual(self.card_of('이정수')['lab_subtitle'], '나노 소자 및 공정 연구실')
-        # Labs without a professor name carry the lab name as the title already.
-        self.assertEqual(self.card_of('생체막 다이나믹스 연구실')['lab_subtitle'], '')
+        # Professors listed only in English keep that name instead of falling back to the lab name.
+        self.assertEqual(self.card_of('Seung Park')['lab_subtitle'], '생체막 다이나믹스 연구실')
+        self.assertEqual(self.card_of('Sw Chung')['lab_subtitle'], '차세대 메모리 반도체 소자/공정 연구실 (IMPD)')
         hidden = [c for c in map(self.catalog.card, self.catalog.profiles) if not c['lab_subtitle']]
         self.assertTrue(all(c['professors'][0] in c['lab_name'] for c in hidden))
+
+    def test_class_queries_lead_to_instructor_and_similar_labs(self):
+        engine = CuratedQueryEngine(self.catalog)
+        result = engine.search('선형대수 재밌었어요')
+        self.assertEqual(result['interpretation']['likes'], ['선형대수'])
+        self.assertEqual(result['courses'][0]['code'], 'MATH400')  # the exact title before longer ones
+        top = result['labs'][0]
+        self.assertEqual(top['connection'], 'course')
+        self.assertIn('MATH400', top['reason'])
+        self.assertTrue(top['evidence'][0]['text'].startswith('선형대수학 과목 설명'))
+        teachers = {p['lab_id'] for p in self.catalog.course_map['CSED311']['professors']}
+        result = engine.search('컴퓨터구조 수업이 정말 재밌었어요')
+        self.assertTrue(teachers & {c['id'] for c in result['labs'][:5]})
+        self.assertNotIn('공식 선수과목', ' '.join(c['reason'] for c in result['labs']))
+
+    def test_topic_that_shares_a_course_title_is_not_course_led(self):
+        result = CuratedQueryEngine(self.catalog).search('컴퓨터 구조와 시스템 보안이 좋아요')
+        self.assertEqual(result['labs'][0]['connection'], 'direct')
+        self.assertEqual(course_base('유기화학II'), '유기화학')
+        self.assertEqual(course_base('일반물리(H): 역학과 파동'), '일반물리')
 
     def test_informative_lab_name_rules(self):
         self.assertEqual(informative_lab_name('홍길동 교수 연구실', ['홍길동']), '')

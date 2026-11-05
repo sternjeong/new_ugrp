@@ -60,7 +60,7 @@ def build():
             if item:
                 topics.append(item)
         summary = intro_text[:280] if intro_text and not intro.get('noise') else ' · '.join(labels[:3])
-        profiles.append({'lab_id': lid, 'professors': [row['professor']['name_ko']],
+        profiles.append({'lab_id': lid, 'professors': [row['professor']['name_ko'] or row['professor'].get('name_en')],
                          'department': ' · '.join(row['professor'].get('departments') or []),
                          'lab_name': lab.get('name') or '', 'lab_url': url,
                          'status': 'ok' if topics else 'thin', 'summary_ko': summary,
