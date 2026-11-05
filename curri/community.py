@@ -93,6 +93,7 @@ class Community:
                 created REAL NOT NULL, updated REAL NOT NULL);
             CREATE INDEX IF NOT EXISTS meetings_thread ON meetings(thread_id);
             ''')
+        self.migrate_lab_ids()
         path = Path(data_dir) / 'community_seed.json' if data_dir else None
         if seed and path and path.exists():
             self.seed(json.loads(path.read_text()))
@@ -509,6 +510,20 @@ class Community:
                 WHERE (t.student_id=? OR t.graduate_id=?) AND m.sender_id!=? AND m.read=0''', (user['id'], user['id'], user['id'])).fetchone()[0]
 
     # ---- dummy seed ----
+    def migrate_lab_ids(self):
+        """Rewrite stored lab IDs that the catalog now knows under another (canonical) ID. Unknown IDs stay as they are."""
+        with self.store.db() as db:
+            db.execute('BEGIN IMMEDIATE')
+            for table in ('users', 'reviews', 'threads'):
+                for (old,) in db.execute(f'SELECT DISTINCT lab_id FROM {table} WHERE lab_id IS NOT NULL').fetchall():
+                    try:
+                        new = self.catalog.resolve(old)
+                    except KeyError:
+                        continue
+                    if new != old:
+                        # A review already saved for the new ID wins over the old duplicate.
+                        db.execute(f'UPDATE OR IGNORE {table} SET lab_id=? WHERE lab_id=?', (new, old))
+
     def seed(self, data):
         """Idempotently insert the fictional demo community. Rows keep `dummy=1` for later removal."""
         ids, digest, salt = {}, None, None

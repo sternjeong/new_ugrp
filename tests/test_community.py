@@ -67,6 +67,20 @@ class CommunityUnitTests(unittest.TestCase):
         self.assertEqual(counts, [3, 1, 1, 2])
         self.assertEqual(grad_lab, 'bio')  # 'duplicate' shares the bio homepage
 
+    def test_stored_alias_lab_ids_move_to_the_canonical_id(self):
+        with self.store.db() as db:
+            student = db.execute("SELECT id FROM users WHERE email='stu@postech.example'").fetchone()[0]
+            db.execute("UPDATE users SET lab_id='duplicate' WHERE email='grad@postech.example'")
+            db.execute("UPDATE reviews SET lab_id='duplicate'")
+            db.execute("UPDATE threads SET lab_id='duplicate'")
+            db.execute("UPDATE users SET lab_id='no_such_lab' WHERE id=?", (student,))
+        Community(self.store, Catalog(self.root), self.root)
+        with self.store.db() as db:
+            rows = [db.execute(q).fetchone()[0] for q in ("SELECT lab_id FROM users WHERE email='grad@postech.example'", 'SELECT lab_id FROM reviews', 'SELECT lab_id FROM threads')]
+            unknown = db.execute('SELECT lab_id FROM users WHERE id=?', (student,)).fetchone()[0]
+        self.assertEqual(rows, ['bio', 'bio', 'bio'])
+        self.assertEqual(unknown, 'no_such_lab')  # unknown IDs are left alone
+
     def test_existing_database_is_migrated(self):
         path = self.root / 'old.sqlite'
         with sqlite3.connect(path) as db:

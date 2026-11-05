@@ -9,7 +9,8 @@ DATA="data/sunwoo"
 ssh "$HOST" "mkdir -p ~/app/.local ~/app/$DATA; if [ -d ~/app/curri ]; then rm -r -- ~/app/curri; fi"
 tar -C "$ROOT" --exclude='__pycache__' -cf - curri \
   "$DATA/app_profiles.jsonl" "$DATA/labs.jsonl" "$DATA/courses.jsonl" \
-  "$DATA/papers.jsonl" "$DATA/lab_course_bge_m3.json" | ssh "$HOST" 'tar -C ~/app -xf -'
+  "$DATA/papers.jsonl" "$DATA/lab_course_bge_m3.json" \
+  "$DATA/concepts.json" "$DATA/legacy_lab_aliases.json" | ssh "$HOST" 'tar -C ~/app -xf -'
 ssh "$HOST" 'if [ -d ~/app/data/sunwoo/legacy ]; then rm -r -- ~/app/data/sunwoo/legacy; fi; if [ -e ~/app/.local/doc_embeddings.npz ]; then rm -- ~/app/.local/doc_embeddings.npz; fi'
 scp -q "$ROOT/tools/deploy/curri.service" "$HOST:/tmp/curri.service"
 ssh "$HOST" 'sudo install -m 644 /tmp/curri.service /etc/systemd/system/curri.service \

@@ -15,6 +15,32 @@ class CuratedCatalogTests(unittest.TestCase):
     def setUpClass(cls):
         cls.catalog = CuratedCatalog(DATA)
 
+    def test_query_parsing_keeps_clauses_apart_and_drops_noise(self):
+        from curri.query_engine import interpret, normalize
+        cases = {'배터리 전해질 소재가 궁금한데 계산 시뮬레이션은 싫어요': (['배터리 전해질 소재'], ['계산 시뮬레이션']),
+                 '로봇은 좋은데 하드웨어는 싫어요': (['로봇'], ['하드웨어']),
+                 '생물은 싫지만 뇌과학은 궁금해요': (['뇌과학'], ['생물']),
+                 'LLM 언어모델': (['언어모델'], []), '반도체 공정 ㅋㅋ': (['반도체 공정'], [])}
+        for text, (likes, dislikes) in cases.items():
+            self.assertEqual(interpret(normalize(text)), {'likes': likes, 'dislikes': dislikes}, text)
+        self.assertEqual(normalize('ㅋㅋㅋㅋ'), '')
+
+    def test_dictionary_search_finds_english_material_and_prefers_topic_words(self):
+        def top(query, n=5):
+            return [p for lab in self.catalog.search(query)[:n] for p in lab['professors']]
+        self.assertTrue({'강석형', '곽수하', '김슬배', '배경민'} & set(top('자율주행 자동차 인지', 3)))  # English "autonomous driving"
+        self.assertTrue(self.catalog.search('자연어처리'))
+        self.assertEqual(self.catalog.search('언어 모델')[0]['id'], self.catalog.search('언어모델')[0]['id'])  # spacing
+        self.assertTrue(all(lab['department'].startswith('산업경영') for lab in self.catalog.search('금융 공학')[:3]))  # 공학 alone is too common to rank
+
+    def test_former_lab_ids_resolve_to_the_same_professor(self):
+        aliases = json.loads((DATA / 'legacy_lab_aliases.json').read_text(encoding='utf-8'))['aliases']
+        self.assertGreater(len(aliases), 50)
+        for old, new in aliases.items():
+            self.assertEqual(self.catalog.resolve(old), new)
+        with self.assertRaises(KeyError):
+            self.catalog.resolve(next(iter(json.loads((DATA / 'legacy_lab_aliases.json').read_text(encoding='utf-8'))['unmapped'])))
+
     def test_only_curated_recommendable_entities_are_loaded(self):
         self.assertEqual(len(self.catalog.profiles), 307)
         self.assertEqual(len(self.catalog.courses), 1151)

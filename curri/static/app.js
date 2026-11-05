@@ -36,7 +36,13 @@ function header() {
   $('#unread-count').textContent = state.session?.unread || 0;
   $('#unread-count').classList.toggle('alert', Boolean(state.session?.unread));
 }
-function setView(view) { state.view = view; sessionStorage.setItem('curri-view', view); main.focus({preventScroll:true}); window.scrollTo({top:0, behavior:'instant'}); }
+// Each screen gets a browser history entry, so the phone's back button moves between screens instead of leaving the site.
+let restoring = false;
+function setView(view) {
+  state.view = view; sessionStorage.setItem('curri-view', view);
+  const entry = {view, lab: view === 'detail' ? state.lab?.id || null : null}, current = history.state;
+  if (!restoring && !(current && current.view === entry.view && current.lab === entry.lab)) history[current ? 'pushState' : 'replaceState'](entry, '');
+  main.focus({preventScroll:true}); window.scrollTo({top:0, behavior:'instant'}); }
 function nameOf(lab) {
   // A lab without a known professor name carries its lab name instead; don't append "연구실" twice.
   if (lab.professors.length===1 && /연구실|\blab\b|laboratory|group/i.test(lab.professors[0])) return lab.professors[0];
@@ -453,6 +459,20 @@ function communitySubmit(event) {
   return true;
 }
 
+async function restoreView(entry) {
+  if (entry.view==='detail' && entry.lab) await openLab(entry.lab);
+  else if (entry.view==='results' && state.results.length) { await persist(); renderResults(); }
+  else if (entry.view==='results' && state.session.profile.interests) await showResults();
+  else if (entry.view==='saved') await renderSaved();
+  else if (['board','inbox','profile'].includes(entry.view)) await showView(entry.view);
+  else { await persist(); renderHome(); }
+}
+window.addEventListener('popstate', event => {
+  if (!event.state || busy) return;
+  for (const dialog of ['#sheet-dialog','#auth-dialog']) if ($(dialog).open) $(dialog).close();
+  restoring = true;
+  action(async()=>{ try { await restoreView(event.state); } finally { restoring = false; } });
+});
 async function boot() {
   await refreshSession();
   state.concepts=(await api('concepts')).concepts;
