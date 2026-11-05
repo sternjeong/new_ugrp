@@ -1,0 +1,274 @@
+{
+  "summary": {
+    "A": {
+      "outputs": 12,
+      "nonempty": 12,
+      "paper_id": 0,
+      "selected_course_id": 1,
+      "with_course": 9,
+      "any_unprovided_id": 0,
+      "unselected_course_id_on_none": 0,
+      "none": 3,
+      "at_250_token_cap": 12,
+      "changed_interest": 3,
+      "changed_course": 3,
+      "changed_none": 3
+    },
+    "B": {
+      "outputs": 12,
+      "nonempty": 12,
+      "paper_id": 0,
+      "selected_course_id": 8,
+      "with_course": 9,
+      "any_unprovided_id": 0,
+      "unselected_course_id_on_none": 0,
+      "none": 3,
+      "at_250_token_cap": 12,
+      "changed_interest": 3,
+      "changed_course": 3,
+      "changed_none": 3
+    }
+  },
+  "rows": [
+    {
+      "case_id": "sensor_base",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_base",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_interest",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_interest",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_course",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_course",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_none",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "sensor_none",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_base",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_base",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_interest",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_interest",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_course",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_course",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_none",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "robot_none",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_base",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_base",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_interest",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_interest",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_course",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_course",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": true,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_none",
+      "method": "A",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    },
+    {
+      "case_id": "chem_none",
+      "method": "B",
+      "nonempty": true,
+      "paper_id": false,
+      "course_id": false,
+      "invented_ids": [],
+      "mentions_unselected_course_id": false,
+      "tokens": 250
+    }
+  ]
+}
