@@ -41,6 +41,9 @@ class KaggleLauncher:
                             'dataset_sources': [cfg['dataset']],
                             'competition_sources': [], 'kernel_sources': []}
                 (stage / 'kernel-metadata.json').write_text(json.dumps(metadata), encoding='utf-8')
+                # The CLI refreshes expired OAuth credentials during status, before push needs them.
+                subprocess.run([cfg.get('kaggle_bin', 'kaggle'), 'kernels', 'status', cfg['kernel']],
+                               capture_output=True, text=True, timeout=120)
                 result = subprocess.run([cfg.get('kaggle_bin', 'kaggle'), 'kernels', 'push', '-p', str(stage)],
                                         capture_output=True, text=True, timeout=120)
                 if result.returncode:
