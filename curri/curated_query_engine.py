@@ -19,6 +19,15 @@ def classify_curated_query(text):
     likes, dislikes = parsed['likes'], parsed['dislikes']
     # '컴퓨터구조 수업' → '컴퓨터구조': the word 수업 alone pulls labs about learning and attention.
     likes = list(dict.fromkeys(re.sub(r'\s+', ' ', COURSE_WORD.sub(' ', p)).strip() or p for p in likes))
+    refined = []
+    for phrase in likes:
+        phrase = re.sub(r'\s*듣고\s+', ' | ', phrase)
+        phrase = re.sub(r'에\s*빠졌(?:어|다)?$', '', phrase)
+        # Split an object and instrument only when they form a control-action sentence.
+        if re.search(r'[을를]\s+\S+(?:으로|로)\s+제어하고\s*싶', norm):
+            phrase = re.sub(r'(?<=\S)[을를]\s+(.+)$', r' | \1', phrase)
+        refined.extend(part.strip() for part in phrase.split('|') if part.strip())
+    likes = list(dict.fromkeys(refined))
     result = {'norm': norm, 'likes': likes, 'dislikes': dislikes,
               'intent': 'search', 'message': None, 'uncertain': False}
     if is_nonsense(norm) or KEYBOARD_NOISE.fullmatch(norm):
@@ -80,7 +89,8 @@ class CuratedQueryEngine(QueryEngine):
         ranking, scores, why = self.embedding_ranking(plan_, sims)
         fused = self.fuse(linked, led, [c['id'] for c in cards], ranking)
         fused = [lid for lid in fused if not self.conflicts_with_dislikes(lid, dislikes)]
-        by_id.update({lid: self.semantic_card(lid, scores[lid], why[lid]) for lid in fused[:TOP_N] if lid not in by_id})
+        by_id.update({lid: self.semantic_card(lid, scores[lid], why[lid]) for lid in fused[:TOP_N]
+                      if lid not in by_id and lid in scores})
         result['labs'] = self.with_courses(fused, by_id, linked, led)
         result['mode'] = 'embedding'
         return result

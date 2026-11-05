@@ -45,6 +45,10 @@ COURSE_LAB_LIMIT = 10
 TEACHER_BASE = 0.55   # instructors whose lab has no similarity entry for the course (top 20 per lab only)
 TEACHER_BONUS = 0.15  # teaching the course is direct evidence; similarity alone is an estimate
 EXACT_BONUS = 0.1     # the course the student named outranks longer titles that merely contain it
+COURSE_ALIASES = {'선대': '선형대수', '일물': '일반물리', '컴구': '컴퓨터구조',
+                  '운체': '운영체제', '자료구조': '데이터구조'}
+SIMILAR_RATIO = 0.95  # relative to the best stored similarity for this course
+DEPARTMENT_BONUS = 0.08
 
 
 def course_base(title):
@@ -267,6 +271,7 @@ class CuratedCatalog:
             words = [PARTICLE.sub('', w) if len(w) > 2 else w for w in COURSE_WORD.sub(' ', phrase).split()]
             keys = [''.join(words)] + (words if cue and len(words) > 1 else [])
             for key in keys:
+                key = COURSE_ALIASES.get(key, key)
                 if len(key) < 2:
                     continue
                 exact += [c for base, c in self._course_bases if base in (key, key + '학')]
@@ -283,16 +288,21 @@ class CuratedCatalog:
         found = {}
         for course, exact in named:
             bonus = EXACT_BONUS if exact else 0.0
+            values = [sims[course['code']] for lid, sims in self.course_similarity.items()
+                      if lid in self.profiles and course['code'] in sims]
+            threshold = max(values, default=0) * SIMILAR_RATIO
+            department = (course.get('department') or {}).get('name') or ''
             for lid, sims in self.course_similarity.items():
-                if course['code'] in sims and lid in self.profiles:
-                    found.setdefault(lid, []).append((sims[course['code']] + bonus, course, 'similar'))
+                if course['code'] in sims and lid in self.profiles and sims[course['code']] >= threshold:
+                    same_department = department and department in self.profiles[lid].get('department', '').split(' · ')
+                    found.setdefault(lid, []).append((sims[course['code']] + bonus + (DEPARTMENT_BONUS if same_department else 0), course, 'similar'))
             for professor in course.get('professors') or []:
                 lid = professor.get('lab_id')
                 if lid in self.profiles and professor.get('basis') != 'not_in_lab_data':
                     sim = self.course_similarity.get(lid, {}).get(course['code'], TEACHER_BASE)
                     found.setdefault(lid, []).append((sim + TEACHER_BONUS + bonus, course, 'teaches'))
-        best = {lid: max(links, key=lambda link: link[0]) for lid, links in found.items()}
-        return dict(sorted(best.items(), key=lambda kv: -kv[1][0])[:COURSE_LAB_LIMIT])
+        best = {lid: max(links, key=lambda link: (link[2] == 'teaches', link[0])) for lid, links in found.items()}
+        return dict(sorted(best.items(), key=lambda kv: (kv[1][2] != 'teaches', -kv[1][0]))[:COURSE_LAB_LIMIT])
 
     def course_card(self, lab_id, course, kind, card=None):
         card = dict(card or self.card(lab_id))

@@ -155,6 +155,39 @@ class CuratedCatalogTests(unittest.TestCase):
         self.assertEqual(course_base('유기화학II'), '유기화학')
         self.assertEqual(course_base('일반물리(H): 역학과 파동'), '일반물리')
 
+    def test_course_search_regressions_and_aliases(self):
+        engine = CuratedQueryEngine(self.catalog)
+        def top(query):
+            return [c['professors'][0] for c in engine.search(query)['labs'][:5]]
+        self.assertNotIn('이상민', top('컴퓨터구조 수업이 정말 재밌었어요'))
+        self.assertNotIn('김현우', top('일반물리 수업이 재밌었어요'))
+        self.assertEqual(top('선형대수 재밌었어요')[0], '최영주')
+        self.assertIn('김현우', top('유기화학 수업이 좋았어요'))
+        for alias, code in [('선대', 'MATH400'), ('일물', 'PHYS101'), ('컴구', 'CSED311'),
+                            ('운체', 'CSED312'), ('자료구조', 'CSED233')]:
+            with self.subTest(alias=alias):
+                self.assertIn(code, [c['code'] for c, _ in self.catalog.courses_named([alias], False)])
+                self.assertIn(code, [c['code'] for c in engine.search(alias + ' 재밌었어요').get('courses', [])])
+        for word in ['선', '일', '컴구름', '선대칭', '운체계']:
+            self.assertFalse(self.catalog.courses_named([word], False), word)
+
+    def test_curated_phrase_splitting_reaches_broker(self):
+        class Broker:
+            def request(self, phrases, timeout):
+                self.phrases = phrases
+                return {p: {'sims': {}, 'best': {}} for p in phrases}
+        from curri.curated_query_engine import classify_curated_query
+        cases = [('알고리즘 수업 듣고 이론에 빠졌어요', ['알고리즘', '이론']),
+                 ('로봇 팔을 강화학습으로 제어하고 싶어요', ['로봇 팔', '강화학습']),
+                 ('인공지능을 활용한 신약 개발', ['인공지능을 활용한 신약 개발'])]
+        for query, expected in cases:
+            with self.subTest(query=query):
+                self.assertEqual(classify_curated_query(query)['likes'], expected)
+                broker = Broker()
+                result = CuratedQueryEngine(self.catalog, broker).search(query)
+                self.assertEqual(result['mode'], 'embedding')
+                self.assertTrue(all(p in broker.phrases for p in expected))
+
     def test_informative_lab_name_rules(self):
         self.assertEqual(informative_lab_name('홍길동 교수 연구실', ['홍길동']), '')
         self.assertEqual(informative_lab_name('홍길동', ['홍길동']), '')
