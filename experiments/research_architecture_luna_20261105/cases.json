@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sensor_base",
+    "group": "sensor",
+    "condition": "base",
+    "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+    "professor": "강대식",
+    "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+    "paper": {
+      "id": "W4406560002",
+      "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+      "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+    },
+    "courses": [
+      {
+        "id": "EECE454",
+        "title": "기계학습 시스템 개론",
+        "description": "With the recent development of AI technology, AI technology has largely affected the electrical engineering (EE) field, and active researches and developments are being conducted. Nowadays, knowledge of AI and machine learning becomes essential for EE students.\n\nThis course aims at covering a wide range of the machine learning field from basic classical machine learning theories and applications for solving data-based engineering problems to the latest deep learning-based learning techniques.",
+        "plan": "1. Introduction to machine learning\n2. Preliminaries (Linear algebra, probability and statistics)\n3. Supervised learning - Simple models\n4. Supervised learning - Support vector machine\n5. Unsupervised learning - Clustering\n6. Unsupervised learning - Density estimation\n7. Unsupervised learning - Dimension reduction\n8. Mid-term exam.\n9. Neural networks 1\n10. Neural networks 2\n11. Tips for training neural networks\n12-13. Generative model\n14. Learning with visual data\n15. Learning with multi-modal data (text and audio)\n16. Final term project presentation"
+      }
+    ]
+  },
+  {
+    "id": "sensor_course",
+    "group": "sensor",
+    "condition": "course",
+    "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+    "professor": "강대식",
+    "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+    "paper": {
+      "id": "W4406560002",
+      "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+      "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+    },
+    "courses": [
+      {
+        "id": "DISU431",
+        "title": "지능형 반도체 소자",
+        "description": "This course aims to study intelligent semiconductor technologies for the development of hardware systems optimized for artificial intelligence (AI) computation. AI technology is advancing rapidly and significantly transforming human life. Through neural network–based machine learning, which mimics how the human brain transmits and processes information via neurons and synapses, performance levels that considerably exceed those of traditional computing systems have been achieved in applications such as natural language processing and image recognition. This advancement is generating substantial ripple effects across various industries and society at large.\nNevertheless, the CPU and GPU architectures founded upon the von Neumann model—the cornerstone of modern computing—are hindered by memory bottlenecks. Consequently, training large-scale neural networks often requires days or even weeks utilizing data center–level infrastructures and expends substantial amounts of energy. To address these constraints, extensive research is ongoing regarding intelligent semiconductor technologies designed to supplant or complement existing hardware optimized for traditional computing. This course in",
+        "plan": "반도체 산업\n\n인공지능 기술의 발전과 기존 von Neumann 아키텍처\n\n트랜지스터와 주요 메모리 소자\n\n반도체 회로에서의 인공지능 연산\n\n기존 메모리를 이용한 인공지능 반도체\n\nResistive 인공지능 반도체\n\nMagnetic 인공지능 반도체\n\nFerroelectric 인공지능 반도체\n\nCapacitor-based 인공지능 반도체"
+      }
+    ]
+  },
+  {
+    "id": "robot_base",
+    "group": "robot",
+    "condition": "base",
+    "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+    "professor": "조민수",
+    "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+    "paper": {
+      "id": "W7125529723",
+      "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+      "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+    },
+    "courses": [
+      {
+        "id": "CSED343",
+        "title": "기계학습을 위한 수학",
+        "description": "Machine learning becomes a popular tool to predict and understand real world datasets. This class aims to provide a basic mathematical/statistical tools required to understand various machine learning algorithms. A wide range of basic mathematical concepts including but not limited to linear algebra, analytic geometry, matrix decomposition, vector calculus, probability and distribution, continuous optimization will be provided.",
+        "plan": "Week1: Introduction and Motivation\n- Week2-3: Linear Algebra\n- Week3-4: Analytic Geometry\n- Week5-6: Matrix Decompositions\n- Week6-7: Vector Calculus\n- Week8: Mid-term\n- Week9: Probability and Distribution\n- Week9-10: Continuous Optimization\n- Week11: When Models Meet Data\n- Week12: Linear Regression\n- Week13: Dimensionality Reduction with Principal Component Analysis\n- Week14: Density Estimation with Gaussian Mixture Models\n- Week15: Classification with Support Vector Machines\n- Week16: Final"
+      }
+    ]
+  },
+  {
+    "id": "robot_course",
+    "group": "robot",
+    "condition": "course",
+    "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+    "professor": "조민수",
+    "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+    "paper": {
+      "id": "W7125529723",
+      "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+      "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+    },
+    "courses": [
+      {
+        "id": "CSED515",
+        "title": "기계학습",
+        "description": "Machine learning is the study of algorithms and statistical methods that computers use to \"learn\" patterns and inferences in order to perform a specific task without explicit instruction. This course mainly aims at providing mathematical/statistical methods, which are essential in machine learning. A wide range of topics will be covered, including but not limited to density estimation, latent variable models, mixture models, clustering, classification, dimensionality reduction, regression, support vector machines, kernel methods, multi-layer perceptrons, and deep learning.",
+        "plan": "Tentative schedule: https://docs.google.com/spreadsheets/d/e/2PACX-1vRd2A8bm0avoKXjcekoCtg7jxSTh-tk06fMr0_GcsDDKYLHdYKkp8S_YkyZYuKYgJbq_KQx-oe-I5KR/pubhtml?gid=0&single=true"
+      }
+    ]
+  },
+  {
+    "id": "chem_base",
+    "group": "chem",
+    "condition": "base",
+    "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+    "professor": "김현우",
+    "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+    "paper": {
+      "id": "W7161842020",
+      "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+      "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+    },
+    "courses": [
+      {
+        "id": "CHEM221",
+        "title": "유기화학I",
+        "description": "In this \"Organic Chemistry I\" course, I aim at your understanding of basic principles of organic chemistry, focussing on\nthe structure and reactivity relationship.",
+        "plan": "From Chapter 1 (Structure and Bonding) to Chapter 13 (Structure Determination:Nuclear Magnetic Resonance Spectroscopy)"
+      }
+    ]
+  },
+  {
+    "id": "chem_course",
+    "group": "chem",
+    "condition": "course",
+    "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+    "professor": "김현우",
+    "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+    "paper": {
+      "id": "W7161842020",
+      "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+      "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+    },
+    "courses": [
+      {
+        "id": "CHEB469E",
+        "title": "특강: 화공 전기화학",
+        "description": "This course aims to provide knowledge of electrochemistry for chemical engineering, including theoretical and practical aspects. Students will learn how to apply electrochemical techniques in various fields such as batteries, fuel cells, sensors, electrocatalysis, and bioelectrochemistry.",
+        "plan": "Week 1: Introduction to Electrochemistry and Its History\n•\tDefinition and importance of electrochemistry\n•\tHistorical development and real-world applications\n•\tIntroduction to the Nernst equation\nWeek 2: Basic Electrochemical Theory I\n•\tBasic concepts of redox reactions\n•\tMechanisms of electrode reactions\n•\tRelationship between potential, current, and charge\n•\tIn-depth study of the Nernst equation\nWeek 3: Basic Electrochemical Theory II\n•\tFaraday's laws of electrolysis\n•\tElectrode potential and free energy\n•\tConversion between chemical and electrical energy\nWeek 4: Electric Double Layer and Electrode Reactions\n•\tConcept of the electric double layer\n•\tKinetics of electrode surface reactions\n•\tThe Butler-Volmer equation\nWeek 5: Electrochemical Techniques I\n•\tCyclic voltammetry (CV)\n•\tSimulation session: Cyclic Voltammetry simulation and data interpretation\n•\tAnalysis of oxidation and reduction peaks in CV\nWeek 6: Electrochemical Techniques II\n•\tElectrochemical Impedance Spectroscopy (EIS)\n•\tUse of potentiostats and galvanostats\n•\tEIS data analysis\nWeek 7: Midterm Exam Review\n•\tReview of key concepts covered in weeks 1-6\n•\tRecap of lab sessions and problem-solving\nWeek 8: Midterm Exam"
+      }
+    ]
+  }
+]

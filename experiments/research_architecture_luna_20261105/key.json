@@ -1,0 +1,74 @@
+{
+  "R01": {
+    "case_id": "chem_course",
+    "method": "baseline"
+  },
+  "R02": {
+    "case_id": "robot_course",
+    "method": "grounded"
+  },
+  "R03": {
+    "case_id": "sensor_base",
+    "method": "baseline"
+  },
+  "R04": {
+    "case_id": "sensor_base",
+    "method": "grounded"
+  },
+  "R05": {
+    "case_id": "sensor_course",
+    "method": "baseline"
+  },
+  "R06": {
+    "case_id": "robot_base",
+    "method": "single"
+  },
+  "R07": {
+    "case_id": "sensor_course",
+    "method": "grounded"
+  },
+  "R08": {
+    "case_id": "sensor_course",
+    "method": "single"
+  },
+  "R09": {
+    "case_id": "chem_course",
+    "method": "single"
+  },
+  "R10": {
+    "case_id": "chem_base",
+    "method": "grounded"
+  },
+  "R11": {
+    "case_id": "robot_base",
+    "method": "grounded"
+  },
+  "R12": {
+    "case_id": "robot_base",
+    "method": "baseline"
+  },
+  "R13": {
+    "case_id": "chem_base",
+    "method": "single"
+  },
+  "R14": {
+    "case_id": "robot_course",
+    "method": "single"
+  },
+  "R15": {
+    "case_id": "sensor_base",
+    "method": "single"
+  },
+  "R16": {
+    "case_id": "robot_course",
+    "method": "baseline"
+  },
+  "R17": {
+    "case_id": "chem_course",
+    "method": "grounded"
+  },
+  "R18": {
+    "case_id": "chem_base",
+    "method": "baseline"
+  }
+}

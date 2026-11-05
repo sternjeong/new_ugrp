@@ -1,0 +1,704 @@
+[
+  {
+    "id": "R01",
+    "case": {
+      "id": "chem_course",
+      "group": "chem",
+      "condition": "course",
+      "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+      "professor": "김현우",
+      "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+      "paper": {
+        "id": "W7161842020",
+        "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+        "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+      },
+      "courses": [
+        {
+          "id": "CHEB469E",
+          "title": "특강: 화공 전기화학",
+          "description": "This course aims to provide knowledge of electrochemistry for chemical engineering, including theoretical and practical aspects. Students will learn how to apply electrochemical techniques in various fields such as batteries, fuel cells, sensors, electrocatalysis, and bioelectrochemistry.",
+          "plan": "Week 1: Introduction to Electrochemistry and Its History\n•\tDefinition and importance of electrochemistry\n•\tHistorical development and real-world applications\n•\tIntroduction to the Nernst equation\nWeek 2: Basic Electrochemical Theory I\n•\tBasic concepts of redox reactions\n•\tMechanisms of electrode reactions\n•\tRelationship between potential, current, and charge\n•\tIn-depth study of the Nernst equation\nWeek 3: Basic Electrochemical Theory II\n•\tFaraday's laws of electrolysis\n•\tElectrode potential and free energy\n•\tConversion between chemical and electrical energy\nWeek 4: Electric Double Layer and Electrode Reactions\n•\tConcept of the electric double layer\n•\tKinetics of electrode surface reactions\n•\tThe Butler-Volmer equation\nWeek 5: Electrochemical Techniques I\n•\tCyclic voltammetry (CV)\n•\tSimulation session: Cyclic Voltammetry simulation and data interpretation\n•\tAnalysis of oxidation and reduction peaks in CV\nWeek 6: Electrochemical Techniques II\n•\tElectrochemical Impedance Spectroscopy (EIS)\n•\tUse of potentiostats and galvanostats\n•\tEIS data analysis\nWeek 7: Midterm Exam Review\n•\tReview of key concepts covered in weeks 1-6\n•\tRecap of lab sessions and problem-solving\nWeek 8: Midterm Exam"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Radical Photochemical Reactions",
+        "text": "Radical Photochemical Reactions"
+      },
+      {
+        "label": "Fluorine in Organic Chemistry",
+        "text": "Fluorine in Organic Chemistry"
+      },
+      {
+        "label": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization",
+        "text": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+      }
+    ],
+    "answer": "수강 표시: 특강: 화공 전기화학\n지금 시작할 탐색 | Radical Photochemical Reactions 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Radical Photochemical Reactions\n지금 시작할 탐색 | Fluorine in Organic Chemistry 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Fluorine in Organic Chemistry\n지금 시작할 탐색 | Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra\n추가 준비 | Radical Photochemical Reactions의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 고등유기화학, 고등유기화학, 특론: EE 수평수직융합세미나, 특강: 최신 에너지환경 연구 비평 | 연구실 원문: Radical Photochemical Reactions\n추가 준비 | Fluorine in Organic Chemistry의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 고등유기화학, 고등유기화학, 특론: EE 수평수직융합세미나, 특강: 최신 에너지환경 연구 비평 | 연구실 원문: Fluorine in Organic Chemistry\n추가 준비 | Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 고등유기화학, 고등유기화학, 특론: EE 수평수직융합세미나, 특강: 최신 에너지환경 연구 비평 | 연구실 원문: Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+  },
+  {
+    "id": "R02",
+    "case": {
+      "id": "robot_course",
+      "group": "robot",
+      "condition": "course",
+      "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+      "professor": "조민수",
+      "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+      "paper": {
+        "id": "W7125529723",
+        "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+        "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+      },
+      "courses": [
+        {
+          "id": "CSED515",
+          "title": "기계학습",
+          "description": "Machine learning is the study of algorithms and statistical methods that computers use to \"learn\" patterns and inferences in order to perform a specific task without explicit instruction. This course mainly aims at providing mathematical/statistical methods, which are essential in machine learning. A wide range of topics will be covered, including but not limited to density estimation, latent variable models, mixture models, clustering, classification, dimensionality reduction, regression, support vector machines, kernel methods, multi-layer perceptrons, and deep learning.",
+          "plan": "Tentative schedule: https://docs.google.com/spreadsheets/d/e/2PACX-1vRd2A8bm0avoKXjcekoCtg7jxSTh-tk06fMr0_GcsDDKYLHdYKkp8S_YkyZYuKYgJbq_KQx-oe-I5KR/pubhtml?gid=0&single=true"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "3D Symmetry Detection under Partial Observation",
+        "text": "3D Symmetry Detection under Partial Observation"
+      },
+      {
+        "label": "Dexterous Grasp Generation",
+        "text": "Dexterous Grasp Generation"
+      },
+      {
+        "label": "Active Perception for Object Manipulation",
+        "text": "Active Perception for Object Manipulation"
+      }
+    ],
+    "answer": "근거 사실: 논문 W7125529723은 언어 기반 손 파지 생성에 접촉 기반 중간 표현을 도입하고, DexGYS에서 성공률 67.14% 및 의도 정렬 개선을 보고합니다. 과목 CSED515 설명에는 밀도추정, 잠재변수·혼합모형, 군집화, 분류, 차원축소, 회귀, SVM, 커널 방법, 다층 퍼셉트론과 딥러닝이 열거돼 있으나 제공된 수업계획은 외부 일정 링크만 제시합니다. 제안 질문: 접촉 표현을 사용한 파지 생성과 관측에서 바로 파지 매개변수를 예측하는 접근의 성능 차이를 논문의 평가 정의에 따라 비교할 수 있는가? 첫 단계는 논문에서 두 접근의 입력, 출력, 평가 기준을 추려 비교 설계를 작성하는 것입니다. 과목의 일반 기계학습 주제와 로봇 파지 생성 방법의 구체적 연결, 실제 실습 내용은 제공 정보만으로 확인되지 않으므로 확인해야 합니다."
+  },
+  {
+    "id": "R03",
+    "case": {
+      "id": "sensor_base",
+      "group": "sensor",
+      "condition": "base",
+      "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+      "professor": "강대식",
+      "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+      "paper": {
+        "id": "W4406560002",
+        "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+        "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+      },
+      "courses": [
+        {
+          "id": "EECE454",
+          "title": "기계학습 시스템 개론",
+          "description": "With the recent development of AI technology, AI technology has largely affected the electrical engineering (EE) field, and active researches and developments are being conducted. Nowadays, knowledge of AI and machine learning becomes essential for EE students.\n\nThis course aims at covering a wide range of the machine learning field from basic classical machine learning theories and applications for solving data-based engineering problems to the latest deep learning-based learning techniques.",
+          "plan": "1. Introduction to machine learning\n2. Preliminaries (Linear algebra, probability and statistics)\n3. Supervised learning - Simple models\n4. Supervised learning - Support vector machine\n5. Unsupervised learning - Clustering\n6. Unsupervised learning - Density estimation\n7. Unsupervised learning - Dimension reduction\n8. Mid-term exam.\n9. Neural networks 1\n10. Neural networks 2\n11. Tips for training neural networks\n12-13. Generative model\n14. Learning with visual data\n15. Learning with multi-modal data (text and audio)\n16. Final term project presentation"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Brain-Computer Interface",
+        "text": "Brain-Computer Interface"
+      },
+      {
+        "label": "Bio-Inspired Micro-Robotics",
+        "text": "Bio-Inspired Micro-Robotics"
+      },
+      {
+        "label": "AI-Integrated Physical Convergence",
+        "text": "AI-Integrated Physical Convergence"
+      }
+    ],
+    "answer": "수강 표시: 기계학습 시스템 개론\n지금 시작할 탐색 | Brain-Computer Interface 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Brain-Computer Interface\n지금 시작할 탐색 | Bio-Inspired Micro-Robotics 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Bio-Inspired Micro-Robotics\n지금 시작할 탐색 | AI-Integrated Physical Convergence 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: AI-Integrated Physical Convergence\n추가 준비 | Brain-Computer Interface의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 인공지능 프로그래밍 입문, 특론: 스트레쳐블 유연 전자공학, 특론: 스트레쳐블 유연 전자공학, 인문기술융합론 | 연구실 원문: Brain-Computer Interface\n추가 준비 | Bio-Inspired Micro-Robotics의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 인공지능 프로그래밍 입문, 특론: 스트레쳐블 유연 전자공학, 특론: 스트레쳐블 유연 전자공학, 인문기술융합론 | 연구실 원문: Bio-Inspired Micro-Robotics\n추가 준비 | AI-Integrated Physical Convergence의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 인공지능 프로그래밍 입문, 특론: 스트레쳐블 유연 전자공학, 특론: 스트레쳐블 유연 전자공학, 인문기술융합론 | 연구실 원문: AI-Integrated Physical Convergence"
+  },
+  {
+    "id": "R04",
+    "case": {
+      "id": "sensor_base",
+      "group": "sensor",
+      "condition": "base",
+      "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+      "professor": "강대식",
+      "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+      "paper": {
+        "id": "W4406560002",
+        "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+        "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+      },
+      "courses": [
+        {
+          "id": "EECE454",
+          "title": "기계학습 시스템 개론",
+          "description": "With the recent development of AI technology, AI technology has largely affected the electrical engineering (EE) field, and active researches and developments are being conducted. Nowadays, knowledge of AI and machine learning becomes essential for EE students.\n\nThis course aims at covering a wide range of the machine learning field from basic classical machine learning theories and applications for solving data-based engineering problems to the latest deep learning-based learning techniques.",
+          "plan": "1. Introduction to machine learning\n2. Preliminaries (Linear algebra, probability and statistics)\n3. Supervised learning - Simple models\n4. Supervised learning - Support vector machine\n5. Unsupervised learning - Clustering\n6. Unsupervised learning - Density estimation\n7. Unsupervised learning - Dimension reduction\n8. Mid-term exam.\n9. Neural networks 1\n10. Neural networks 2\n11. Tips for training neural networks\n12-13. Generative model\n14. Learning with visual data\n15. Learning with multi-modal data (text and audio)\n16. Final term project presentation"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Brain-Computer Interface",
+        "text": "Brain-Computer Interface"
+      },
+      {
+        "label": "Bio-Inspired Micro-Robotics",
+        "text": "Bio-Inspired Micro-Robotics"
+      },
+      {
+        "label": "AI-Integrated Physical Convergence",
+        "text": "AI-Integrated Physical Convergence"
+      }
+    ],
+    "answer": "근거 사실: 논문 W4406560002는 부착형·무선 폐음 모니터링 패치로 정상 호흡음과 이상 호흡음을 구분하고, 천식 소아와 COPD 고령자 사례에서 천명음을 분류했으며, 증강 폐음 데이터로 학습한 2D CNN 천명 이벤트 계수 모델을 보고합니다. 수강 과목 EECE454에는 지도학습의 SVM, 비지도학습의 군집화·밀도추정·차원축소, 신경망 학습, 학습 팁, 텍스트·오디오 다중모달 학습이 명시돼 있습니다. 제안 질문: 공개되었거나 사용 승인을 받은 폐음 자료에서 스펙트로그램 입력의 SVM과 신경망 분류기가 천명 관련 구간을 얼마나 다르게 구분하는가? 첫 단계는 이용 가능한 라벨 자료와 평가 단위를 확인한 뒤, 소규모 자료에서 학습·검증 분리 및 기본 성능 지표를 정하는 것입니다. 자료 접근이나 임상 라벨의 존재는 확인되지 않았으므로 먼저 확인해야 합니다."
+  },
+  {
+    "id": "R05",
+    "case": {
+      "id": "sensor_course",
+      "group": "sensor",
+      "condition": "course",
+      "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+      "professor": "강대식",
+      "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+      "paper": {
+        "id": "W4406560002",
+        "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+        "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+      },
+      "courses": [
+        {
+          "id": "DISU431",
+          "title": "지능형 반도체 소자",
+          "description": "This course aims to study intelligent semiconductor technologies for the development of hardware systems optimized for artificial intelligence (AI) computation. AI technology is advancing rapidly and significantly transforming human life. Through neural network–based machine learning, which mimics how the human brain transmits and processes information via neurons and synapses, performance levels that considerably exceed those of traditional computing systems have been achieved in applications such as natural language processing and image recognition. This advancement is generating substantial ripple effects across various industries and society at large.\nNevertheless, the CPU and GPU architectures founded upon the von Neumann model—the cornerstone of modern computing—are hindered by memory bottlenecks. Consequently, training large-scale neural networks often requires days or even weeks utilizing data center–level infrastructures and expends substantial amounts of energy. To address these constraints, extensive research is ongoing regarding intelligent semiconductor technologies designed to supplant or complement existing hardware optimized for traditional computing. This course in",
+          "plan": "반도체 산업\n\n인공지능 기술의 발전과 기존 von Neumann 아키텍처\n\n트랜지스터와 주요 메모리 소자\n\n반도체 회로에서의 인공지능 연산\n\n기존 메모리를 이용한 인공지능 반도체\n\nResistive 인공지능 반도체\n\nMagnetic 인공지능 반도체\n\nFerroelectric 인공지능 반도체\n\nCapacitor-based 인공지능 반도체"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Brain-Computer Interface",
+        "text": "Brain-Computer Interface"
+      },
+      {
+        "label": "Bio-Inspired Micro-Robotics",
+        "text": "Bio-Inspired Micro-Robotics"
+      },
+      {
+        "label": "AI-Integrated Physical Convergence",
+        "text": "AI-Integrated Physical Convergence"
+      }
+    ],
+    "answer": "수강 표시: 지능형 반도체 소자\n지금 시작할 탐색 | Brain-Computer Interface 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Brain-Computer Interface\n지금 시작할 탐색 | Bio-Inspired Micro-Robotics 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Bio-Inspired Micro-Robotics\n지금 시작할 탐색 | AI-Integrated Physical Convergence 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: AI-Integrated Physical Convergence\n추가 준비 | Brain-Computer Interface의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 인공지능 프로그래밍 입문, 특론: 스트레쳐블 유연 전자공학, 특론: 스트레쳐블 유연 전자공학, 인문기술융합론 | 연구실 원문: Brain-Computer Interface\n추가 준비 | Bio-Inspired Micro-Robotics의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 인공지능 프로그래밍 입문, 특론: 스트레쳐블 유연 전자공학, 특론: 스트레쳐블 유연 전자공학, 인문기술융합론 | 연구실 원문: Bio-Inspired Micro-Robotics\n추가 준비 | AI-Integrated Physical Convergence의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 인공지능 프로그래밍 입문, 특론: 스트레쳐블 유연 전자공학, 특론: 스트레쳐블 유연 전자공학, 인문기술융합론 | 연구실 원문: AI-Integrated Physical Convergence"
+  },
+  {
+    "id": "R06",
+    "case": {
+      "id": "robot_base",
+      "group": "robot",
+      "condition": "base",
+      "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+      "professor": "조민수",
+      "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+      "paper": {
+        "id": "W7125529723",
+        "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+        "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+      },
+      "courses": [
+        {
+          "id": "CSED343",
+          "title": "기계학습을 위한 수학",
+          "description": "Machine learning becomes a popular tool to predict and understand real world datasets. This class aims to provide a basic mathematical/statistical tools required to understand various machine learning algorithms. A wide range of basic mathematical concepts including but not limited to linear algebra, analytic geometry, matrix decomposition, vector calculus, probability and distribution, continuous optimization will be provided.",
+          "plan": "Week1: Introduction and Motivation\n- Week2-3: Linear Algebra\n- Week3-4: Analytic Geometry\n- Week5-6: Matrix Decompositions\n- Week6-7: Vector Calculus\n- Week8: Mid-term\n- Week9: Probability and Distribution\n- Week9-10: Continuous Optimization\n- Week11: When Models Meet Data\n- Week12: Linear Regression\n- Week13: Dimensionality Reduction with Principal Component Analysis\n- Week14: Density Estimation with Gaussian Mixture Models\n- Week15: Classification with Support Vector Machines\n- Week16: Final"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "3D Symmetry Detection under Partial Observation",
+        "text": "3D Symmetry Detection under Partial Observation"
+      },
+      {
+        "label": "Dexterous Grasp Generation",
+        "text": "Dexterous Grasp Generation"
+      },
+      {
+        "label": "Active Perception for Object Manipulation",
+        "text": "Active Perception for Object Manipulation"
+      }
+    ],
+    "answer": "연구 질문: 물체 표면에서 손가락별 접촉 위치를 먼저 지정하면 로봇 손의 잡기 성공률이나 의도한 방식과의 일치도가 어떻게 달라질까요? 제공된 DextER 논문은 접촉 정보를 중간 표현으로 생성한 뒤 손 구성을 만드는 방식과 부분 접촉 지정의 조정 가능성을 다뤄, 안정적인 잡기에 대한 관심과 잘 맞습니다. 첫 단계로 논문에서 사용하는 접촉 표현과 잡기 성공 기준을 파악하고, 한 물체와 몇 가지 접촉 지정 조건을 정해 결과를 비교하는 소규모 실험을 설계해보세요."
+  },
+  {
+    "id": "R07",
+    "case": {
+      "id": "sensor_course",
+      "group": "sensor",
+      "condition": "course",
+      "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+      "professor": "강대식",
+      "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+      "paper": {
+        "id": "W4406560002",
+        "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+        "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+      },
+      "courses": [
+        {
+          "id": "DISU431",
+          "title": "지능형 반도체 소자",
+          "description": "This course aims to study intelligent semiconductor technologies for the development of hardware systems optimized for artificial intelligence (AI) computation. AI technology is advancing rapidly and significantly transforming human life. Through neural network–based machine learning, which mimics how the human brain transmits and processes information via neurons and synapses, performance levels that considerably exceed those of traditional computing systems have been achieved in applications such as natural language processing and image recognition. This advancement is generating substantial ripple effects across various industries and society at large.\nNevertheless, the CPU and GPU architectures founded upon the von Neumann model—the cornerstone of modern computing—are hindered by memory bottlenecks. Consequently, training large-scale neural networks often requires days or even weeks utilizing data center–level infrastructures and expends substantial amounts of energy. To address these constraints, extensive research is ongoing regarding intelligent semiconductor technologies designed to supplant or complement existing hardware optimized for traditional computing. This course in",
+          "plan": "반도체 산업\n\n인공지능 기술의 발전과 기존 von Neumann 아키텍처\n\n트랜지스터와 주요 메모리 소자\n\n반도체 회로에서의 인공지능 연산\n\n기존 메모리를 이용한 인공지능 반도체\n\nResistive 인공지능 반도체\n\nMagnetic 인공지능 반도체\n\nFerroelectric 인공지능 반도체\n\nCapacitor-based 인공지능 반도체"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Brain-Computer Interface",
+        "text": "Brain-Computer Interface"
+      },
+      {
+        "label": "Bio-Inspired Micro-Robotics",
+        "text": "Bio-Inspired Micro-Robotics"
+      },
+      {
+        "label": "AI-Integrated Physical Convergence",
+        "text": "AI-Integrated Physical Convergence"
+      }
+    ],
+    "answer": "근거 사실: 논문 W4406560002는 폐음 모니터링 패치와 딥러닝 기반 천명 이벤트 계수 방법을 설명하고 COPD 환자의 장기 적용에서 이벤트를 80% 넘게 구분했다고 보고합니다. 과목 DISU431에는 von Neumann 구조와 메모리 병목, 트랜지스터·주요 메모리 소자, 반도체 회로의 AI 연산, 기존 메모리 및 저항성·자성·강유전체·커패시터 기반 AI 반도체가 명시돼 있습니다. 제안 질문: 폐음 분류에서 사용하는 연산을 메모리 병목 관점에서 어떻게 표현하고, 수업에서 다룬 메모리 소자 기반 AI 연산이 그 연산에 어떤 제약을 줄 수 있는가? 첫 단계는 논문에 공개된 모델 구조와 연산 종류를 표로 정리하는 것입니다. 과목 내용은 하드웨어·소자 중심이고 폐음 분석 방법과 직접 연결된다고 확인되지 않았으므로, 이 연구 연결의 타당성과 필요한 세부 주제는 지도자에게 확인해야 합니다."
+  },
+  {
+    "id": "R08",
+    "case": {
+      "id": "sensor_course",
+      "group": "sensor",
+      "condition": "course",
+      "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+      "professor": "강대식",
+      "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+      "paper": {
+        "id": "W4406560002",
+        "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+        "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+      },
+      "courses": [
+        {
+          "id": "DISU431",
+          "title": "지능형 반도체 소자",
+          "description": "This course aims to study intelligent semiconductor technologies for the development of hardware systems optimized for artificial intelligence (AI) computation. AI technology is advancing rapidly and significantly transforming human life. Through neural network–based machine learning, which mimics how the human brain transmits and processes information via neurons and synapses, performance levels that considerably exceed those of traditional computing systems have been achieved in applications such as natural language processing and image recognition. This advancement is generating substantial ripple effects across various industries and society at large.\nNevertheless, the CPU and GPU architectures founded upon the von Neumann model—the cornerstone of modern computing—are hindered by memory bottlenecks. Consequently, training large-scale neural networks often requires days or even weeks utilizing data center–level infrastructures and expends substantial amounts of energy. To address these constraints, extensive research is ongoing regarding intelligent semiconductor technologies designed to supplant or complement existing hardware optimized for traditional computing. This course in",
+          "plan": "반도체 산업\n\n인공지능 기술의 발전과 기존 von Neumann 아키텍처\n\n트랜지스터와 주요 메모리 소자\n\n반도체 회로에서의 인공지능 연산\n\n기존 메모리를 이용한 인공지능 반도체\n\nResistive 인공지능 반도체\n\nMagnetic 인공지능 반도체\n\nFerroelectric 인공지능 반도체\n\nCapacitor-based 인공지능 반도체"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Brain-Computer Interface",
+        "text": "Brain-Computer Interface"
+      },
+      {
+        "label": "Bio-Inspired Micro-Robotics",
+        "text": "Bio-Inspired Micro-Robotics"
+      },
+      {
+        "label": "AI-Integrated Physical Convergence",
+        "text": "AI-Integrated Physical Convergence"
+      }
+    ],
+    "answer": "연구 질문: 웨어러블 청진기의 제한된 연산 자원에서 호흡음의 쌕쌕거림 검출 정확도를 유지하려면 신경망 모델의 크기와 메모리 연산을 어떻게 조정할 수 있을까요? 논문은 연속 호흡음에서 쌕쌕거림을 분류·계수하므로, 관심 주제를 지능형 반도체의 AI 연산 효율 문제와 연결할 수 있습니다. 첫 단계로 논문에 나온 분류 작업을 입력·출력과 성능 지표로 정의하고, 작은 기준 모델을 정한 뒤 메모리 사용량과 추론 비용을 함께 비교할 계획을 세워보세요."
+  },
+  {
+    "id": "R09",
+    "case": {
+      "id": "chem_course",
+      "group": "chem",
+      "condition": "course",
+      "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+      "professor": "김현우",
+      "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+      "paper": {
+        "id": "W7161842020",
+        "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+        "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+      },
+      "courses": [
+        {
+          "id": "CHEB469E",
+          "title": "특강: 화공 전기화학",
+          "description": "This course aims to provide knowledge of electrochemistry for chemical engineering, including theoretical and practical aspects. Students will learn how to apply electrochemical techniques in various fields such as batteries, fuel cells, sensors, electrocatalysis, and bioelectrochemistry.",
+          "plan": "Week 1: Introduction to Electrochemistry and Its History\n•\tDefinition and importance of electrochemistry\n•\tHistorical development and real-world applications\n•\tIntroduction to the Nernst equation\nWeek 2: Basic Electrochemical Theory I\n•\tBasic concepts of redox reactions\n•\tMechanisms of electrode reactions\n•\tRelationship between potential, current, and charge\n•\tIn-depth study of the Nernst equation\nWeek 3: Basic Electrochemical Theory II\n•\tFaraday's laws of electrolysis\n•\tElectrode potential and free energy\n•\tConversion between chemical and electrical energy\nWeek 4: Electric Double Layer and Electrode Reactions\n•\tConcept of the electric double layer\n•\tKinetics of electrode surface reactions\n•\tThe Butler-Volmer equation\nWeek 5: Electrochemical Techniques I\n•\tCyclic voltammetry (CV)\n•\tSimulation session: Cyclic Voltammetry simulation and data interpretation\n•\tAnalysis of oxidation and reduction peaks in CV\nWeek 6: Electrochemical Techniques II\n•\tElectrochemical Impedance Spectroscopy (EIS)\n•\tUse of potentiostats and galvanostats\n•\tEIS data analysis\nWeek 7: Midterm Exam Review\n•\tReview of key concepts covered in weeks 1-6\n•\tRecap of lab sessions and problem-solving\nWeek 8: Midterm Exam"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Radical Photochemical Reactions",
+        "text": "Radical Photochemical Reactions"
+      },
+      {
+        "label": "Fluorine in Organic Chemistry",
+        "text": "Fluorine in Organic Chemistry"
+      },
+      {
+        "label": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization",
+        "text": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+      }
+    ],
+    "answer": "연구 질문: 전압전류법에서 ZnCl₂의 첨가가 디플루오로메틸화 반응의 전극 산화 전위와 부반응 억제에 어떻게 연관되는지 살펴볼 수 있을까요? 논문은 ZnCl₂가 전극 전위를 완충하고 부반응을 억제한다고 제안하며, 전기화학 과목에서 다루는 순환 전압전류법과 전극 반응 분석으로 이 설명을 탐색할 수 있습니다. 첫 단계로 논문의 반응 조건과 전압전류 분석 내용을 확인하고, ZnCl₂ 유무에 따른 전압전류 곡선을 비교할 때 산화·환원 피크와 반응 생성물을 어떻게 기록할지 계획해보세요."
+  },
+  {
+    "id": "R10",
+    "case": {
+      "id": "chem_base",
+      "group": "chem",
+      "condition": "base",
+      "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+      "professor": "김현우",
+      "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+      "paper": {
+        "id": "W7161842020",
+        "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+        "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+      },
+      "courses": [
+        {
+          "id": "CHEM221",
+          "title": "유기화학I",
+          "description": "In this \"Organic Chemistry I\" course, I aim at your understanding of basic principles of organic chemistry, focussing on\nthe structure and reactivity relationship.",
+          "plan": "From Chapter 1 (Structure and Bonding) to Chapter 13 (Structure Determination:Nuclear Magnetic Resonance Spectroscopy)"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Radical Photochemical Reactions",
+        "text": "Radical Photochemical Reactions"
+      },
+      {
+        "label": "Fluorine in Organic Chemistry",
+        "text": "Fluorine in Organic Chemistry"
+      },
+      {
+        "label": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization",
+        "text": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+      }
+    ],
+    "answer": "근거 사실: 논문 W7161842020은 1,1-다이아릴알켄에 CF₂H 라디칼을 두 차례 더하는 전기합성 경로를 보고합니다. 초록은 각 라디칼 첨가 뒤 산화·카보양이온 중간체 형성·제거 단계가 진행된다는 기전과 ZnCl₂의 전위 완충 및 부반응 억제 역할을 설명합니다. 과목 CHEM221에는 유기화학의 구조와 반응성 관계, 구조·결합부터 핵자기공명 분광법까지가 명시돼 있습니다. 제안 질문: 제안된 두 단계 C(sp²)–H 디플루오로메틸화에서 기질의 구조 변화와 반응성 설명을 논문이 제시한 중간체 경로에 비추어 어떻게 정리할 수 있는가? 첫 단계는 논문 초록에서 기질, 생성물, 단계별 중간체 주장을 구조식과 함께 도식화하는 것입니다. 초록은 특정 구조 분석 실험이나 자료 접근을 말하지 않으므로 이를 실제로 재현할 수 있는지는 별도로 확인해야 합니다."
+  },
+  {
+    "id": "R11",
+    "case": {
+      "id": "robot_base",
+      "group": "robot",
+      "condition": "base",
+      "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+      "professor": "조민수",
+      "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+      "paper": {
+        "id": "W7125529723",
+        "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+        "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+      },
+      "courses": [
+        {
+          "id": "CSED343",
+          "title": "기계학습을 위한 수학",
+          "description": "Machine learning becomes a popular tool to predict and understand real world datasets. This class aims to provide a basic mathematical/statistical tools required to understand various machine learning algorithms. A wide range of basic mathematical concepts including but not limited to linear algebra, analytic geometry, matrix decomposition, vector calculus, probability and distribution, continuous optimization will be provided.",
+          "plan": "Week1: Introduction and Motivation\n- Week2-3: Linear Algebra\n- Week3-4: Analytic Geometry\n- Week5-6: Matrix Decompositions\n- Week6-7: Vector Calculus\n- Week8: Mid-term\n- Week9: Probability and Distribution\n- Week9-10: Continuous Optimization\n- Week11: When Models Meet Data\n- Week12: Linear Regression\n- Week13: Dimensionality Reduction with Principal Component Analysis\n- Week14: Density Estimation with Gaussian Mixture Models\n- Week15: Classification with Support Vector Machines\n- Week16: Final"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "3D Symmetry Detection under Partial Observation",
+        "text": "3D Symmetry Detection under Partial Observation"
+      },
+      {
+        "label": "Dexterous Grasp Generation",
+        "text": "Dexterous Grasp Generation"
+      },
+      {
+        "label": "Active Perception for Object Manipulation",
+        "text": "Active Perception for Object Manipulation"
+      }
+    ],
+    "answer": "근거 사실: 논문 W7125529723은 손가락 링크와 물체 표면의 접촉 위치를 중간 표현으로 예측한 다음 손 구성을 생성하는 DextER를 제시하며, DexGYS에서 성공률 67.14%를 보고하고 부분 접촉 지정에 따른 제어도 설명합니다. 과목 CSED343에는 선형대수, 해석기하, 행렬분해, 벡터미적분, 확률·분포, 연속 최적화와 PCA·가우시안 혼합 모델·SVM이 명시돼 있습니다. 제안 질문: 접촉 위치를 조건으로 지정했을 때 생성된 손 구성이 논문에서 정의한 성공 기준을 얼마나 자주 만족하는가? 첫 단계는 논문에서 접촉 표현, 성공 판정, 평가 자료의 정의를 추출해 재현 가능한 비교표를 만드는 것입니다. 과목에서 실제 로봇 접촉 역학이나 파지 안정성 학습을 다룬다는 근거는 없으므로 수학·최적화 내용이 이 방법에 어떻게 연결되는지 확인할 문제로 남깁니다."
+  },
+  {
+    "id": "R12",
+    "case": {
+      "id": "robot_base",
+      "group": "robot",
+      "condition": "base",
+      "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+      "professor": "조민수",
+      "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+      "paper": {
+        "id": "W7125529723",
+        "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+        "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+      },
+      "courses": [
+        {
+          "id": "CSED343",
+          "title": "기계학습을 위한 수학",
+          "description": "Machine learning becomes a popular tool to predict and understand real world datasets. This class aims to provide a basic mathematical/statistical tools required to understand various machine learning algorithms. A wide range of basic mathematical concepts including but not limited to linear algebra, analytic geometry, matrix decomposition, vector calculus, probability and distribution, continuous optimization will be provided.",
+          "plan": "Week1: Introduction and Motivation\n- Week2-3: Linear Algebra\n- Week3-4: Analytic Geometry\n- Week5-6: Matrix Decompositions\n- Week6-7: Vector Calculus\n- Week8: Mid-term\n- Week9: Probability and Distribution\n- Week9-10: Continuous Optimization\n- Week11: When Models Meet Data\n- Week12: Linear Regression\n- Week13: Dimensionality Reduction with Principal Component Analysis\n- Week14: Density Estimation with Gaussian Mixture Models\n- Week15: Classification with Support Vector Machines\n- Week16: Final"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "3D Symmetry Detection under Partial Observation",
+        "text": "3D Symmetry Detection under Partial Observation"
+      },
+      {
+        "label": "Dexterous Grasp Generation",
+        "text": "Dexterous Grasp Generation"
+      },
+      {
+        "label": "Active Perception for Object Manipulation",
+        "text": "Active Perception for Object Manipulation"
+      }
+    ],
+    "answer": "수강 표시: 기계학습을 위한 수학\n지금 시작할 탐색 | 3D Symmetry Detection under Partial Observation 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: 3D Symmetry Detection under Partial Observation\n지금 시작할 탐색 | Dexterous Grasp Generation 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Dexterous Grasp Generation\n지금 시작할 탐색 | Active Perception for Object Manipulation 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Active Perception for Object Manipulation\n추가 준비 | 3D Symmetry Detection under Partial Observation의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 시각 지능, 심층학습 자연어처리, 심층학습 자연어처리, 데이터 과학을 위한 수학 | 연구실 원문: 3D Symmetry Detection under Partial Observation\n추가 준비 | Dexterous Grasp Generation의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 시각 지능, 심층학습 자연어처리, 심층학습 자연어처리, 데이터 과학을 위한 수학 | 연구실 원문: Dexterous Grasp Generation\n추가 준비 | Active Perception for Object Manipulation의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 시각 지능, 심층학습 자연어처리, 심층학습 자연어처리, 데이터 과학을 위한 수학 | 연구실 원문: Active Perception for Object Manipulation"
+  },
+  {
+    "id": "R13",
+    "case": {
+      "id": "chem_base",
+      "group": "chem",
+      "condition": "base",
+      "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+      "professor": "김현우",
+      "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+      "paper": {
+        "id": "W7161842020",
+        "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+        "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+      },
+      "courses": [
+        {
+          "id": "CHEM221",
+          "title": "유기화학I",
+          "description": "In this \"Organic Chemistry I\" course, I aim at your understanding of basic principles of organic chemistry, focussing on\nthe structure and reactivity relationship.",
+          "plan": "From Chapter 1 (Structure and Bonding) to Chapter 13 (Structure Determination:Nuclear Magnetic Resonance Spectroscopy)"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Radical Photochemical Reactions",
+        "text": "Radical Photochemical Reactions"
+      },
+      {
+        "label": "Fluorine in Organic Chemistry",
+        "text": "Fluorine in Organic Chemistry"
+      },
+      {
+        "label": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization",
+        "text": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+      }
+    ],
+    "answer": "연구 질문: 1,1-다이아릴알켄의 치환기가 전기화학적 이중 C–H 디플루오로메틸화의 진행과 생성물 형성에 어떤 영향을 줄까요? 제공된 논문은 알켄에 CF₂H기를 두 번 도입하는 무촉매 전기합성과 반응 기작을 다뤄, 유기 분자의 새 결합 형성에 대한 관심 및 유기화학의 구조·반응성 관점에 부합합니다. 첫 단계로 논문에서 보고한 출발물질과 생성물 구조를 그려 반응 전후 결합 변화를 확인하고, 비교할 치환기와 관찰할 반응 결과를 정리해보세요."
+  },
+  {
+    "id": "R14",
+    "case": {
+      "id": "robot_course",
+      "group": "robot",
+      "condition": "course",
+      "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+      "professor": "조민수",
+      "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+      "paper": {
+        "id": "W7125529723",
+        "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+        "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+      },
+      "courses": [
+        {
+          "id": "CSED515",
+          "title": "기계학습",
+          "description": "Machine learning is the study of algorithms and statistical methods that computers use to \"learn\" patterns and inferences in order to perform a specific task without explicit instruction. This course mainly aims at providing mathematical/statistical methods, which are essential in machine learning. A wide range of topics will be covered, including but not limited to density estimation, latent variable models, mixture models, clustering, classification, dimensionality reduction, regression, support vector machines, kernel methods, multi-layer perceptrons, and deep learning.",
+          "plan": "Tentative schedule: https://docs.google.com/spreadsheets/d/e/2PACX-1vRd2A8bm0avoKXjcekoCtg7jxSTh-tk06fMr0_GcsDDKYLHdYKkp8S_YkyZYuKYgJbq_KQx-oe-I5KR/pubhtml?gid=0&single=true"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "3D Symmetry Detection under Partial Observation",
+        "text": "3D Symmetry Detection under Partial Observation"
+      },
+      {
+        "label": "Dexterous Grasp Generation",
+        "text": "Dexterous Grasp Generation"
+      },
+      {
+        "label": "Active Perception for Object Manipulation",
+        "text": "Active Perception for Object Manipulation"
+      }
+    ],
+    "answer": "연구 질문: 학습 데이터가 제한된 상황에서 물체의 기하 정보와 손가락 접촉 위치를 이용해 잡기 성공 여부를 예측할 수 있을까요? DextER는 물체 표면의 접촉 위치를 잡기 생성의 중간 단계로 활용하므로, 이를 기계학습의 특징 표현 및 분류 문제로 탐색할 수 있습니다. 첫 단계로 성공·실패 사례를 어떻게 정의할지 정하고, 논문의 접촉 토큰과 손 구성을 입력 특징 후보로 삼아 간단한 기준 분류기와 평가 지표를 설계해보세요."
+  },
+  {
+    "id": "R15",
+    "case": {
+      "id": "sensor_base",
+      "group": "sensor",
+      "condition": "base",
+      "interest": "호흡음에서 천식과 관련된 신호를 분석하고 싶어요",
+      "professor": "강대식",
+      "lab_id": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+      "paper": {
+        "id": "W4406560002",
+        "title": "A Wearable Stethoscope for Accurate Real-Time Lung Sound Monitoring and Automatic Wheezing Detection Based on an AI Algorithm",
+        "abstract": "The various bioacoustics signals obtained with auscultation contain complex clinical information that has been traditionally used as biomarkers, however, they are not extensively used in clinical studies owing to their spatiotemporal limitations. In this study, we developed a wearable stethoscope for wireless, skin-attachable, low-power, continuous, real-time auscultation using a lung-sound-monitoring-patch (LSMP). LSMP can monitor respiratory function through a mobile app and classify normal and adventitious breathing by comparing their unique acoustic characteristics. The human heart and breathing sounds from humans can be distinguished from complex sound signals consisting of a mixture of bioacoustic signals and external noise. The performance of the LSMP sensor was further demonstrated in pediatric patients with asthma and elderly chronic obstructive pulmonary disease (COPD) patients where wheezing sounds were classified at specific frequencies. In addition, we developed a novel method for counting wheezing events based on a two-dimensional convolutional neural network deep-learning model constructed de novo and trained with our augmented fundamental lung-sound data set. We implemented a counting algorithm to identify wheezing events in real-time regardless of the respiratory cycle. The artificial intelligence-based adventitious breathing event counter distinguished > 80% of the events (especially wheezing) in long-term clinical applications in patients with COPD."
+      },
+      "courses": [
+        {
+          "id": "EECE454",
+          "title": "기계학습 시스템 개론",
+          "description": "With the recent development of AI technology, AI technology has largely affected the electrical engineering (EE) field, and active researches and developments are being conducted. Nowadays, knowledge of AI and machine learning becomes essential for EE students.\n\nThis course aims at covering a wide range of the machine learning field from basic classical machine learning theories and applications for solving data-based engineering problems to the latest deep learning-based learning techniques.",
+          "plan": "1. Introduction to machine learning\n2. Preliminaries (Linear algebra, probability and statistics)\n3. Supervised learning - Simple models\n4. Supervised learning - Support vector machine\n5. Unsupervised learning - Clustering\n6. Unsupervised learning - Density estimation\n7. Unsupervised learning - Dimension reduction\n8. Mid-term exam.\n9. Neural networks 1\n10. Neural networks 2\n11. Tips for training neural networks\n12-13. Generative model\n14. Learning with visual data\n15. Learning with multi-modal data (text and audio)\n16. Final term project presentation"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Brain-Computer Interface",
+        "text": "Brain-Computer Interface"
+      },
+      {
+        "label": "Bio-Inspired Micro-Robotics",
+        "text": "Bio-Inspired Micro-Robotics"
+      },
+      {
+        "label": "AI-Integrated Physical Convergence",
+        "text": "AI-Integrated Physical Convergence"
+      }
+    ],
+    "answer": "연구 질문: 호흡음 녹음에서 외부 잡음과 심장음을 구분한 뒤, 천식 환자의 쌕쌕거림 발생 횟수를 자동으로 셀 때 어떤 음향 특징이 유용할까요? 제공된 논문은 웨어러블 청진기로 호흡음과 혼합 신호를 분리하고, CNN으로 쌕쌕거림 이벤트를 실시간 검출한 연구이므로 관심 주제와 직접 연결됩니다. 첫 단계로 논문에서 사용한 신호 구분 및 이벤트 정의를 정리하고, 공개 또는 적절한 허가를 받은 호흡음 데이터에서 정상음·쌕쌕거림·잡음 구간을 표시해 기초 분류 기준을 세워보세요."
+  },
+  {
+    "id": "R16",
+    "case": {
+      "id": "robot_course",
+      "group": "robot",
+      "condition": "course",
+      "interest": "로봇 손이 물체를 안정적으로 잡는 방법이 궁금해요",
+      "professor": "조민수",
+      "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+      "paper": {
+        "id": "W7125529723",
+        "title": "DextER: Language-driven Dexterous Grasp Generation with Embodied Reasoning",
+        "abstract": "Language-driven dexterous grasp generation requires the models to understand task semantics, 3D geometry, and complex hand-object interactions. While vision-language models have been applied to this problem, existing approaches directly map observations to grasp parameters without intermediate reasoning about physical interactions. We present DextER, Dexterous Grasp Generation with Embodied Reasoning, which introduces contact-based embodied reasoning for multi-finger manipulation. Our key insight is that predicting which hand links contact where on the object surface provides an embodiment-aware intermediate representation, bridging task semantics with physical constraints. DextER autoregressively generates embodied contact tokens specifying which finger links contact where on the object surface, followed by grasp tokens encoding the hand configuration. On DexGYS, DextER achieves 67.14% success rate, outperforming state-of-the-art by 3.83 p.p. with 96.4% improvement in intention alignment. We also demonstrate steerable generation through partial contact specification, providing fine-grained control over grasp synthesis."
+      },
+      "courses": [
+        {
+          "id": "CSED515",
+          "title": "기계학습",
+          "description": "Machine learning is the study of algorithms and statistical methods that computers use to \"learn\" patterns and inferences in order to perform a specific task without explicit instruction. This course mainly aims at providing mathematical/statistical methods, which are essential in machine learning. A wide range of topics will be covered, including but not limited to density estimation, latent variable models, mixture models, clustering, classification, dimensionality reduction, regression, support vector machines, kernel methods, multi-layer perceptrons, and deep learning.",
+          "plan": "Tentative schedule: https://docs.google.com/spreadsheets/d/e/2PACX-1vRd2A8bm0avoKXjcekoCtg7jxSTh-tk06fMr0_GcsDDKYLHdYKkp8S_YkyZYuKYgJbq_KQx-oe-I5KR/pubhtml?gid=0&single=true"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "3D Symmetry Detection under Partial Observation",
+        "text": "3D Symmetry Detection under Partial Observation"
+      },
+      {
+        "label": "Dexterous Grasp Generation",
+        "text": "Dexterous Grasp Generation"
+      },
+      {
+        "label": "Active Perception for Object Manipulation",
+        "text": "Active Perception for Object Manipulation"
+      }
+    ],
+    "answer": "수강 표시: 기계학습\n지금 시작할 탐색 | 3D Symmetry Detection under Partial Observation 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: 3D Symmetry Detection under Partial Observation\n지금 시작할 탐색 | Dexterous Grasp Generation 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Dexterous Grasp Generation\n지금 시작할 탐색 | Active Perception for Object Manipulation 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Active Perception for Object Manipulation\n추가 준비 | 3D Symmetry Detection under Partial Observation의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 시각 지능, 기계학습을 위한 수학, 심층학습 자연어처리, 심층학습 자연어처리 | 연구실 원문: 3D Symmetry Detection under Partial Observation\n추가 준비 | Dexterous Grasp Generation의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 시각 지능, 기계학습을 위한 수학, 심층학습 자연어처리, 심층학습 자연어처리 | 연구실 원문: Dexterous Grasp Generation\n추가 준비 | Active Perception for Object Manipulation의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 특강: 시각 지능, 기계학습을 위한 수학, 심층학습 자연어처리, 심층학습 자연어처리 | 연구실 원문: Active Perception for Object Manipulation"
+  },
+  {
+    "id": "R17",
+    "case": {
+      "id": "chem_course",
+      "group": "chem",
+      "condition": "course",
+      "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+      "professor": "김현우",
+      "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+      "paper": {
+        "id": "W7161842020",
+        "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+        "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+      },
+      "courses": [
+        {
+          "id": "CHEB469E",
+          "title": "특강: 화공 전기화학",
+          "description": "This course aims to provide knowledge of electrochemistry for chemical engineering, including theoretical and practical aspects. Students will learn how to apply electrochemical techniques in various fields such as batteries, fuel cells, sensors, electrocatalysis, and bioelectrochemistry.",
+          "plan": "Week 1: Introduction to Electrochemistry and Its History\n•\tDefinition and importance of electrochemistry\n•\tHistorical development and real-world applications\n•\tIntroduction to the Nernst equation\nWeek 2: Basic Electrochemical Theory I\n•\tBasic concepts of redox reactions\n•\tMechanisms of electrode reactions\n•\tRelationship between potential, current, and charge\n•\tIn-depth study of the Nernst equation\nWeek 3: Basic Electrochemical Theory II\n•\tFaraday's laws of electrolysis\n•\tElectrode potential and free energy\n•\tConversion between chemical and electrical energy\nWeek 4: Electric Double Layer and Electrode Reactions\n•\tConcept of the electric double layer\n•\tKinetics of electrode surface reactions\n•\tThe Butler-Volmer equation\nWeek 5: Electrochemical Techniques I\n•\tCyclic voltammetry (CV)\n•\tSimulation session: Cyclic Voltammetry simulation and data interpretation\n•\tAnalysis of oxidation and reduction peaks in CV\nWeek 6: Electrochemical Techniques II\n•\tElectrochemical Impedance Spectroscopy (EIS)\n•\tUse of potentiostats and galvanostats\n•\tEIS data analysis\nWeek 7: Midterm Exam Review\n•\tReview of key concepts covered in weeks 1-6\n•\tRecap of lab sessions and problem-solving\nWeek 8: Midterm Exam"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Radical Photochemical Reactions",
+        "text": "Radical Photochemical Reactions"
+      },
+      {
+        "label": "Fluorine in Organic Chemistry",
+        "text": "Fluorine in Organic Chemistry"
+      },
+      {
+        "label": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization",
+        "text": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+      }
+    ],
+    "answer": "근거 사실: 논문 W7161842020은 Zn(CF₂H)₂(DMPU)₂를 라디칼 전구체로, ZnCl₂를 첨가제로 사용한 무촉매 전기합성 및 두 차례의 CF₂H 첨가·산화·제거 경로를 보고합니다. 또한 전압전류 분석에서 ZnCl₂가 전극 전위를 완충하고 부반응을 억제한다고 설명합니다. 과목 CHEB469E에는 산화·환원과 전극 반응, 전위·전류·전하 관계, 순환전압전류법(CV), 산화·환원 피크 분석 및 CV 데이터 해석이 명시돼 있습니다. 제안 질문: 논문이 설명하는 ZnCl₂의 전위 완충 역할은 전압전류 자료에서 어떤 관찰과 연결될 수 있는가? 첫 단계는 논문에 제시된 CV 조건과 전위·피크 해석을 찾아, 관찰 결과와 기전 해석을 구분해 요약하는 것입니다. 원자료나 실험 재현 접근 가능성은 주어진 정보에 없으므로 확인해야 합니다."
+  },
+  {
+    "id": "R18",
+    "case": {
+      "id": "chem_base",
+      "group": "chem",
+      "condition": "base",
+      "interest": "유기 분자에 새로운 결합을 만드는 반응이 궁금해요",
+      "professor": "김현우",
+      "lab_id": "bd6528b8c777c23bf9cc24efa89579b1",
+      "paper": {
+        "id": "W7161842020",
+        "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C−H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols",
+        "abstract": "Abstract Geminal bis(difluoromethyl)alkenes, featuring two CF 2 H groups as lipophilic hydrogen-bond donor surrogates, are highly coveted yet rarely accessible bioisosteres of 1,1-enediols that remain nearly theoretical due to their inherent instability. Here we report a catalyst-free electrosynthetic method that directly converts 1,1-diarylalkenes into these geminal bis(difluoromethyl) motifs in a single step under mild oxidative conditions. The key advance is the use of Zn(CF 2 H) 2 (DMPU) 2 as a difluoromethyl radical precursor in combination with ZnCl 2 as an additive to enable twofold C(sp²)–H difluoromethylation without the need for catalysts. This protocol exhibits broad substrate scope, tolerating diverse functional groups and complex molecular scaffolds, which highlights its generality and practicality. Mechanistic studies reveal that the transformation proceeds via two discrete additions of CF 2 H radicals to the double bond, each followed by oxidation to a carbocation intermediate and an elimination step. Voltammetric analysis further shows that ZnCl 2 buffers the electrode potentials and suppresses side reactions, facilitating the sequential difluoromethylation under mild conditions. This electrosynthesis platform thus provides the first general route to stable 1,1-bis(difluoromethyl)alkene architectures and offers a broadly applicable gateway to incorporate dual hydrogen-bond donor functionality in drug-like molecules, thereby expanding the repertoire of CF 2 H-based functional-group surrogates in medicinal chemistry. Notably, preliminary biological evaluation "
+      },
+      "courses": [
+        {
+          "id": "CHEM221",
+          "title": "유기화학I",
+          "description": "In this \"Organic Chemistry I\" course, I aim at your understanding of basic principles of organic chemistry, focussing on\nthe structure and reactivity relationship.",
+          "plan": "From Chapter 1 (Structure and Bonding) to Chapter 13 (Structure Determination:Nuclear Magnetic Resonance Spectroscopy)"
+        }
+      ]
+    },
+    "lab_sources": [
+      {
+        "label": "Radical Photochemical Reactions",
+        "text": "Radical Photochemical Reactions"
+      },
+      {
+        "label": "Fluorine in Organic Chemistry",
+        "text": "Fluorine in Organic Chemistry"
+      },
+      {
+        "label": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization",
+        "text": "Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+      }
+    ],
+    "answer": "수강 표시: 유기화학I\n지금 시작할 탐색 | Radical Photochemical Reactions 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Radical Photochemical Reactions\n지금 시작할 탐색 | Fluorine in Organic Chemistry 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Fluorine in Organic Chemistry\n지금 시작할 탐색 | Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 참고 과목:  | 연구실 원문: Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra\n추가 준비 | Radical Photochemical Reactions의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 고등유기화학, 고등유기화학, 특론: EE 수평수직융합세미나, 특강: 최신 에너지환경 연구 비평 | 연구실 원문: Radical Photochemical Reactions\n추가 준비 | Fluorine in Organic Chemistry의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 고등유기화학, 고등유기화학, 특론: EE 수평수직융합세미나, 특강: 최신 에너지환경 연구 비평 | 연구실 원문: Fluorine in Organic Chemistry\n추가 준비 | Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 참고 과목: 고등유기화학, 고등유기화학, 특론: EE 수평수직융합세미나, 특강: 최신 에너지환경 연구 비평 | 연구실 원문: Electrochemistry Unlocks New Possibilities in Unsaturated C–C Bond Functionalization. H radical and anion reservoir, allowing vicinal and geminal bis(difluoromethylation) reactions that are inaccessible through classical two-electron organometallic logic.Third, we introduce a photon-primed electrosynthesis strategy in which direct substrate photoexcitation is coupled with anodic oxidation to access highly electrophilic intermediates. This hybrid activation mode bypasses conventional photocatalyst frameworks and enables light-assisted redox-chain processes, allowing weak nucleophiles to engage intermediates that are unattainable under purely photochemical or electrochemical conditions. This approach highlights how orthogonal energy inputs, photons and electrons, can be integra"
+  }
+]

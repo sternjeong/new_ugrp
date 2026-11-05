@@ -1,0 +1,267 @@
+{
+  "baseline": {
+    "n": 6,
+    "means": {
+      "interest": 1,
+      "lab": 1,
+      "course": 0,
+      "action": 1,
+      "caution": 2
+    },
+    "all_dimensions_at_least_1": 0,
+    "case_rows": [
+      {
+        "case_id": "chem_course",
+        "method": "baseline",
+        "scores": {
+          "interest": 1,
+          "lab": 1,
+          "course": 0,
+          "action": 1,
+          "caution": 2
+        },
+        "reason": "관심 분야에 가까운 자료 제목은 나열하지만 논문·반응에 맞춘 연결은 없다. 탐색 지시는 일반적이며 전기화학 과목과의 구체 연결도 제시하지 않고, 역량·참여 자격 단정을 경계한다."
+      },
+      {
+        "case_id": "sensor_base",
+        "method": "baseline",
+        "scores": {
+          "interest": 1,
+          "lab": 1,
+          "course": 0,
+          "action": 1,
+          "caution": 2
+        },
+        "reason": "호흡음·천식 관심과 맞는 연구 질문이나 연구실 논문을 특정하지 않고 연구실 자료 제목을 일반 나열한다. 수업과 제안의 구체적 연결은 없지만 역량·참여 자격을 단정하지 않는다."
+      },
+      {
+        "case_id": "sensor_course",
+        "method": "baseline",
+        "scores": {
+          "interest": 1,
+          "lab": 1,
+          "course": 0,
+          "action": 1,
+          "caution": 2
+        },
+        "reason": "관심·연구실에 맞춘 문제 없이 자료 제목과 일반 탐색 문구만 제시한다. 반도체 소자 과목의 구체 내용과 연구 주제 연결이 없고, 역량 단정은 피한다."
+      },
+      {
+        "case_id": "robot_base",
+        "method": "baseline",
+        "scores": {
+          "interest": 1,
+          "lab": 1,
+          "course": 0,
+          "action": 1,
+          "caution": 2
+        },
+        "reason": "관련성 있는 연구실 제목을 나열할 뿐 관심에 맞춘 논문 제안이나 내용 설명이 없다. 과목 내용을 구체 연구 질문과 연결하지 않고 역량·자격 단정도 경계한다."
+      },
+      {
+        "case_id": "robot_course",
+        "method": "baseline",
+        "scores": {
+          "interest": 1,
+          "lab": 1,
+          "course": 0,
+          "action": 1,
+          "caution": 2
+        },
+        "reason": "파지 관심과 제목상 관련 있는 연구실 자료 목록은 제시하지만 구체 논문 기반 설명이 없다. 선택 ML 과목과의 구체적 연결이나 시작 과제가 없으며 역량 단정은 경계한다."
+      },
+      {
+        "case_id": "chem_base",
+        "method": "baseline",
+        "scores": {
+          "interest": 1,
+          "lab": 1,
+          "course": 0,
+          "action": 1,
+          "caution": 2
+        },
+        "reason": "관련 연구실 자료 제목만 제시하고 새 결합 형성 관심 및 논문과 구체적으로 연결하지 않는다. 유기화학 과목의 구조·반응성 내용을 구체 탐색에 활용하지 않으며 역량 단정은 피한다."
+      }
+    ]
+  },
+  "single": {
+    "n": 6,
+    "means": {
+      "interest": 2,
+      "lab": 2,
+      "course": 1.5,
+      "action": 2,
+      "caution": 1.1666666666666667
+    },
+    "all_dimensions_at_least_1": 5,
+    "case_rows": [
+      {
+        "case_id": "robot_base",
+        "method": "single",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 0,
+          "action": 2,
+          "caution": 1
+        },
+        "reason": "접촉 위치와 파지 성공·의도 일치 비교가 관심 및 논문 내용에 부합한다. 접촉 표현과 성공 기준을 살피는 단계는 구체적이나 선택 과목 내용을 연결하지 않고 실험·자료 접근의 불확실성도 언급하지 않는다."
+      },
+      {
+        "case_id": "sensor_course",
+        "method": "single",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 1
+        },
+        "reason": "웨어러블 폐음 검출의 연산 제약을 지능형 반도체 과목의 메모리·연산 효율과 연결한다. 입력·출력·지표 및 기준 모델을 정하는 단계는 구체적이나 접근 가능성 등 제한은 별도로 언급하지 않는다."
+      },
+      {
+        "case_id": "chem_course",
+        "method": "single",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 1
+        },
+        "reason": "새 결합 형성 관심과 전기합성 논문을 연결하고 CV·전극 분석 과목 내용을 직접 활용한다. 논문 조건과 피크를 살피는 계획은 구체적이나 원자료나 실험 접근 가능성의 한계는 밝히지 않는다."
+      },
+      {
+        "case_id": "chem_base",
+        "method": "single",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 1
+        },
+        "reason": "치환기와 이중 C–H 디플루오로메틸화의 관계가 관심 및 논문에 맞고 구조·반응성 과목과도 명시적으로 연결된다. 구조 비교 시작 단계는 구체적이나 자료·실험 접근의 불확실성은 덜 다룬다."
+      },
+      {
+        "case_id": "robot_course",
+        "method": "single",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 1
+        },
+        "reason": "접촉 위치·물체 기하로 파지 성공을 예측하는 질문이 DextER와 관심에 맞고 분류·딥러닝 주제를 활용한다. 라벨 정의와 기준 분류기를 제안하지만 사례 데이터 접근 가능성은 언급하지 않는다."
+      },
+      {
+        "case_id": "sensor_base",
+        "method": "single",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 1,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "혼합 호흡음의 잡음·심장음과 천명 이벤트 분석을 논문·관심에 직접 연결하고 데이터 허가를 확인한다. 신호와 이벤트 정의를 정하는 단계는 구체적이나 과목의 명시 주제를 제안과 직접 연결하지 않아 부분 점수다."
+      }
+    ],
+    "reference_audit": {
+      "unprovided_ids": [],
+      "paper_id_mentions": 0,
+      "course_id_mentions": 0
+    }
+  },
+  "grounded": {
+    "n": 6,
+    "means": {
+      "interest": 2,
+      "lab": 2,
+      "course": 1.8333333333333333,
+      "action": 2,
+      "caution": 2
+    },
+    "all_dimensions_at_least_1": 6,
+    "case_rows": [
+      {
+        "case_id": "robot_course",
+        "method": "grounded",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 1,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "접촉 중간표현과 파지 성능 비교가 관심 및 DextER에 직접 맞는다. ML 주제와의 연결은 포괄적이라 불명확하다고 밝히고, 입력·출력·평가지표를 확인하는 시작 단계와 정보 한계를 제시한다."
+      },
+      {
+        "case_id": "sensor_base",
+        "method": "grounded",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "폐음 천명 검출 논문을 관심과 직접 연결하고 SVM·신경망·오디오 학습 주제를 비교 질문에 연결한다. 데이터 라벨·접근과 검증 절차를 확인하라고 해 불확실성을 다룬다."
+      },
+      {
+        "case_id": "sensor_course",
+        "method": "grounded",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "천명 검출 논문과 폐음 분석 관심에 맞고, 모델 연산과 메모리 병목을 반도체 과목의 AI 연산·메모리 소자 주제에 연결한다. 첫 단계가 구체적이며 직접 관련성·필요 세부 주제를 확인하도록 단서를 둔다."
+      },
+      {
+        "case_id": "chem_base",
+        "method": "grounded",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "기질 구조·반응성과 이중 CF₂H 첨가를 관심 및 유기화학의 구조·반응성 주제에 연결한다. 구조식·중간체 도식화를 제안하고 초록에 없는 실험·자료 접근은 확인 대상으로 남긴다."
+      },
+      {
+        "case_id": "robot_base",
+        "method": "grounded",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "접촉 지정과 파지 성공 평가가 관심·논문에 부합하며 과목의 확률·최적화·수학 주제를 연결한다. 과목이 접촉 역학을 가르친다는 근거는 없다고 명시하고 논문 평가 정의 확인을 제안한다."
+      },
+      {
+        "case_id": "chem_course",
+        "method": "grounded",
+        "scores": {
+          "interest": 2,
+          "lab": 2,
+          "course": 2,
+          "action": 2,
+          "caution": 2
+        },
+        "reason": "ZnCl₂의 전위 완충·부반응 억제 가설을 CV·전극 분석 과목의 명시 내용과 연결한다. 조건·피크 해석과 기전 주장을 구분하고 원자료·재현 접근 한계를 밝힌다."
+      }
+    ],
+    "reference_audit": {
+      "unprovided_ids": [],
+      "paper_id_mentions": 6,
+      "course_id_mentions": 6
+    }
+  }
+}
