@@ -1,0 +1,32 @@
+{
+  "ok": false,
+  "value": null,
+  "duration_wall_s": 15.673,
+  "exit_code": 1,
+  "model_usage": {},
+  "usage": {
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 0,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "",
+    "iterations": [],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0,
+  "error": "You've hit your 5-hour limit · resets 2:30am (UTC)",
+  "input_sha256": "d6b975f064ce4313fd00b153c9e504e2065a5434156c5a274a319e1f73d8cd38"
+}

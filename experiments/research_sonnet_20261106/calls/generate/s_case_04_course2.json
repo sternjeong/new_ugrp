@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "공개된 결정구조 데이터(예: Materials Project, COD)를 사용할 때, 층상 이방성 금속 칼코겐화물(예: MoS2 같은 2D형과 1D형 사슬 구조 화합물 2~3종)의 결정 대칭성과 결정학적 방향(층 내/층간)에 따라 계산된 밴드갭·유효질량 같은 전자 특성이나 촉매 활성 지표(예: 모서리/기저면 원자 비율)는 어떻게 달라지는가?",
+    "paper_id": "W4318693490",
+    "paper_quote": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs)",
+    "paper_explanation": "논문 사실: 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성을 보이며, 결정구조 소개와 합성·응용을 개괄한다고 서술합니다. 제안 연구: 구조 방향별 특성 차이를 공개 데이터로 비교하는 것은 학생의 제안이며, 논문이 직접 다룬 분석이라고 단정할 수 없습니다.",
+    "course_id": "GIFT624",
+    "course_quote": "To precisely evaluate phase and crystallographic orientation, a background in crystallography is necessary.",
+    "course_connection": "강의는 대칭, 결정계와 방향, 점군·면군·공간군을 다루므로, 선택한 화합물의 공간군과 결정학적 방향을 정리하고 이를 특성 비교의 기준으로 삼는 데 쓸 수 있습니다. 다만 강의 예시는 금속·배터리 소재 중심이라 칼코겐화물에 직접 적용되는 정도는 불확실합니다.",
+    "first_step": "논문 개요의 결정구조 설명을 읽고 비교할 화합물 3개(2D 2개, 1D 1개)를 고른 뒤, COD 또는 Materials Project에서 CIF를 내려받아 공간군, 격자상수, 층 방향을 표로 정리하세요. 그다음 VESTA 같은 무료 프로그램으로 구조를 시각화해 층 내/층간 방향을 표시하세요.",
+    "limitations": "논문 전문과 실험 데이터는 확인하지 않았고 초록만 근거로 했습니다. 데이터베이스 계산값은 방법(DFT 함수)에 따라 밴드갭이 과소평가될 수 있으며 촉매 활성은 원자 비율만으로 대리 평가하기 어렵습니다. 연구실의 현재 프로젝트, 장비, 참여 가능 여부는 알 수 없습니다."
+  },
+  "duration_wall_s": 17.114,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1122,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 1984,
+      "webSearchRequests": 0,
+      "costUSD": 0.0192272,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1984,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1984,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1122,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1984,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1122,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 1984,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1984
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0192272,
+  "error": null,
+  "input_sha256": "1ff2223c59e290f02fcb5043a1b62e42984bdb8f4af66af47bcc6d6fdb5facae"
+}

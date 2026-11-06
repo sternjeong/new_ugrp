@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "ANUBIS 같은 공개 골격 데이터에서 관절 좌표, 뼈 벡터, 모션 입력으로 학습한 동일 모델은 관절 노이즈(좌표 섭동)가 있을 때 행동 범주별로 정확도가 어떻게 다르게 떨어지는가?",
+    "paper_id": "W7163352033",
+    "paper_quote": "Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion",
+    "paper_explanation": "논문이 보고한 사실: 입력 표현(관절 좌표, 뼈 벡터, 모션 등)에 따라 성능이 행동별로 달라지는 의존성과 단순 융합의 한계입니다. 제안 연구(논문의 내용 아님): 관절 노이즈에 대한 표현별 강건성 비교입니다.",
+    "course_id": "CSED618",
+    "course_quote": "adversarial examples/learning",
+    "course_connection": "잠정적 연결: 입력 섭동에 대한 모델 취약성이라는 관점을 표현별 강건성 평가에 빌릴 수 있습니다. 다만 수업이 골격 행동 인식을 다루는지는 불명확합니다.",
+    "first_step": "논문이 공개했다고 밝힌 ANUBIS 페이지(https://yliu1082.github.io/ANUBIS/)에서 데이터와 코드의 공개 범위와 라이선스를 확인하세요. 이어서 공개 벤치마크 코드로 소규모 클래스 일부를 골라 가우시안 노이즈 크기별로 표현 3종의 정확도를 비교하는 실험 계획표를 작성하세요.",
+    "limitations": "데이터 접근 가능 여부, 연산 자원, 표현별 공개 모델 제공 여부는 불명확합니다. 노이즈가 실제 포즈 추정 오차를 대표하는지도 모릅니다. 연구실의 현재 프로젝트나 참여 허용 여부는 알 수 없습니다. 수업 내용과의 연결도 추가 확인이 필요합니다."
+  },
+  "duration_wall_s": 17.184,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 902,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2004,
+      "webSearchRequests": 0,
+      "costUSD": 0.017107200000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2004,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2004,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 902,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2004,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 902,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2004,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2004
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.017107200000000003,
+  "error": null,
+  "input_sha256": "2509363cda2646bee45864ad17f02142ab5de4549b73f3f5bec9c59358a87152"
+}

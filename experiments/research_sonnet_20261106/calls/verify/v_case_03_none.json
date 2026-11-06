@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "ANUBIS 벤치마크의 102개 행동 범주 중, 관절 좌표·뼈 벡터·모션 흐름 입력 표현에 따라 인식 성능이 가장 크게 달라지는 행동 유형(예: 세밀한 행동 vs. 다인 상호작용)은 무엇인가?",
+    "paper_id": "W7163352033",
+    "paper_quote": "Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion",
+    "paper_explanation": "논문 사실(초록 기준): 입력 특징(관절 좌표, 뼈 벡터, 모션 흐름, 확장 표현)별로 방법을 분류하고, ANUBIS의 102개 행동 범주에서 특징 유형이 인식 성능에 미치는 영향을 분석했으며, 행동-특징 간 강한 의존성이 나타났다고 보고함. 제안(논문 내용 아님): 어떤 행동 유형이 어떤 표현에 특히 민감한지 범주별로 재분석해 보는 것.",
+    "course_id": "",
+    "course_quote": "",
+    "course_connection": "선택된 과목 없음(no course selected). 수업 개념과의 연결은 확인되지 않았으며(unconfirmed), 학생의 수강 이력이나 기술 수준도 추론하지 않음.",
+    "first_step": "(제안) 초록에 적힌 공개 페이지 https://yliu1082.github.io/ANUBIS/ 를 열어 논문·데이터셋·코드가 실제로 공개되어 있는지 확인한다. 열람 가능하면 특징 유형별(관절/뼈/모션) 결과 표에서 범주별 성능 차이가 큰 후보를 정리하고, 열람이 안 되면 초록의 데이터셋 특징(후면 시점, 다인 상호작용, 세밀한 행동, 폭력 행동, 사회적 행동)을 기준으로 비교할 행동 유형 가설 목록만 먼저 작성한다.",
+    "limitations": "초록만 근거로 했으므로 구체적인 모델, 수치, 범주별 결과의 공개 여부는 미확인. 질문에 답할 범주별 결과가 논문에 있는지 불명. 공개 자원의 접근성, 계산 자원, 데이터 용량도 미확인. 김동우 교수 연구실의 현재 프로젝트와의 관련성이나 참여 가능 여부는 확인되지 않았으며 허락을 가정하지 않음. 제공된 연구실 자료(LLM 상호작용 환경, 그래프 학습, SW 에이전트 효율)는 이 주제와의 직접 연결이 확인되지 않음."
+  },
+  "duration_wall_s": 18.85,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1480,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2655,
+      "webSearchRequests": 0,
+      "costUSD": 0.0254912,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 366,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2655,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2655,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1480,
+    "output_tokens_details": {
+      "thinking_tokens": 366
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2655,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1480,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2655,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2655
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0254912,
+  "error": null,
+  "input_sha256": "f27107a16ddeaf4933176d4ff38ee2b4d13b85fb0975af0420a3854f00743bd6"
+}

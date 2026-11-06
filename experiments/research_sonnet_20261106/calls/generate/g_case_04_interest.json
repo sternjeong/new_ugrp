@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "이방성 금속 칼코게나이드(1D·2D) 논문들에서 합성 경로(용액상, 기상, 박리)와 구조 조절 방식(차원, 상, 조성, 결함, 이종구조)에 따라 보고된 주요 응용(전자소자, 촉매, 배터리, 센서 등)은 어떻게 달라지는가?",
+    "paper_id": "W4318693490",
+    "paper_quote": "Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation.",
+    "paper_explanation": "논문 사실(초록): 이 리뷰는 이방성 금속 칼코게나이드의 합성 경로, 차원·상·조성·결함·이종구조 조절 방법, 그리고 전자소자·촉매·배터리·센서 등 응용을 다룬다고 밝힌다. 제안(연구 아이디어): 이 구성을 바탕으로 합성·조절 방법별 보고 응용을 비교하는 표를 만드는 것은 제안일 뿐이며, 초록만으로는 실제 경향이 있는지 알 수 없다.",
+    "course_id": "AMSE315",
+    "course_quote": "소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.",
+    "course_connection": "잠정적 연결(제안): 수업의 핵생성·성장 개념은 용액상·기상 합성에서 결정 형상(차원)이나 상이 정해지는 과정을 설명하는 틀로 쓸 수 있을 듯하다. 다만 리뷰 초록에는 핵생성·성장 언급이 없어 직접적 연결은 확인되지 않았고, 응용 차이와의 인과관계도 불명확하다.",
+    "first_step": "(제안) 논문 본문을 읽고 표의 열을 정한다: 합성법, 조절 변수(차원/상/조성/결함/이종구조), 대표 소재, 보고 응용, 근거 절. 우선 합성 경로 절에서 5~10개 사례만 채워 본다.",
+    "limitations": "초록만 확인했고 본문 내용, 사례 수, 정량 성능 비교 가능 여부는 알 수 없다. 서로 다른 연구의 성능은 조건이 달라 직접 비교가 어려울 수 있다. 수업 개념과의 연결은 미확인이며 학생의 역량은 추론하지 않았다. 연구실의 현재 프로젝트나 참여 허가 여부도 알 수 없다."
+  },
+  "duration_wall_s": 17.751,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1097,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2459,
+      "webSearchRequests": 0,
+      "costUSD": 0.0208772,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2459,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2459,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1097,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2459,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1097,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2459,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2459
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0208772,
+  "error": null,
+  "input_sha256": "5ab1adb3dc97c980d0f2d881526ab1e83b6d683ac8c9c2334ab09178003f5a0c"
+}

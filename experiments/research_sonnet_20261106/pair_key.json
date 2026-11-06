@@ -1,0 +1,122 @@
+{
+  "P1-01": {
+    "case_id": "case_02_interest",
+    "left": "g",
+    "right": "s"
+  },
+  "P1-02": {
+    "case_id": "case_04_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P1-03": {
+    "case_id": "case_03_course2",
+    "left": "g",
+    "right": "s"
+  },
+  "P1-04": {
+    "case_id": "case_01_none",
+    "left": "g",
+    "right": "s"
+  },
+  "P1-05": {
+    "case_id": "case_07_course1",
+    "left": "s",
+    "right": "g"
+  },
+  "P1-06": {
+    "case_id": "case_10_course1",
+    "left": "s",
+    "right": "g"
+  },
+  "P1-07": {
+    "case_id": "case_04_none",
+    "left": "s",
+    "right": "g"
+  },
+  "P1-08": {
+    "case_id": "case_01_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P2-01": {
+    "case_id": "case_02_none",
+    "left": "g",
+    "right": "s"
+  },
+  "P2-02": {
+    "case_id": "case_03_interest",
+    "left": "s",
+    "right": "g"
+  },
+  "P2-03": {
+    "case_id": "case_01_course2",
+    "left": "g",
+    "right": "s"
+  },
+  "P2-04": {
+    "case_id": "case_05_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P2-05": {
+    "case_id": "case_02_course1",
+    "left": "s",
+    "right": "g"
+  },
+  "P2-06": {
+    "case_id": "case_04_course2",
+    "left": "g",
+    "right": "s"
+  },
+  "P2-07": {
+    "case_id": "case_08_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P2-08": {
+    "case_id": "case_11_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P3-01": {
+    "case_id": "case_03_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P3-02": {
+    "case_id": "case_01_interest",
+    "left": "s",
+    "right": "g"
+  },
+  "P3-03": {
+    "case_id": "case_04_interest",
+    "left": "s",
+    "right": "g"
+  },
+  "P3-04": {
+    "case_id": "case_06_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P3-05": {
+    "case_id": "case_12_course1",
+    "left": "g",
+    "right": "s"
+  },
+  "P3-06": {
+    "case_id": "case_02_course2",
+    "left": "s",
+    "right": "g"
+  },
+  "P3-07": {
+    "case_id": "case_03_none",
+    "left": "g",
+    "right": "s"
+  },
+  "P3-08": {
+    "case_id": "case_09_course1",
+    "left": "s",
+    "right": "g"
+  }
+}

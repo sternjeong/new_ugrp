@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "Ti/TiO2/n-Ge 접촉에서 계면 TiO2층의 탄소 도입이 RTA 온도(500–600 °C 부근) 상승에 따른 쇼트키 장벽 높이(SBH) 변화를 줄이는 정도를, 열전자 방출 모형과 금속-반도체 접촉 이론으로 정량 비교하면 어떤 경향이 나타나는가?",
+    "paper_id": "W4290989670",
+    "paper_quote": "When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C.",
+    "paper_explanation": "논문 사실: 탄소 도입 시 RTA 600 °C까지 SBH와 ρc가 비교적 안정적이었고, EELS로 산소 확산 억제가 확인되었다고 보고합니다. 제안 연구(비논문 내용): 이 보고 경향을 이론식과 공개 수치로 재구성해 SBH 변화율을 비교하는 학생 규모 분석입니다.",
+    "course_id": "CHEB770",
+    "course_quote": "(7) metal-semiconductor contact",
+    "course_connection": "강의 계획의 금속-반도체 접촉 주제는 SBH와 접촉 저항 해석의 이론적 배경으로 연결될 수 있습니다. 다만 실제 강의에서 Ge, 열전자 방출, 계면 절연층을 다루는 범위는 불명확합니다.",
+    "first_step": "논문 본문의 J–V, SBH, ρc 그래프와 표를 읽고 RTA 온도별로 탄소 도입 여부에 따른 값을 표로 정리하세요. 그런 다음 SBH 변화량을 계산하고, 열전자 방출식으로 SBH를 추출하는 과정을 손계산 또는 간단한 스크립트로 연습해 보세요. 원자료가 없으면 그래프에서 읽은 근사값임을 명시하세요.",
+    "limitations": "논문 전문의 수치 표기, 그래프 판독 오차, 소자 면적·측정 온도 같은 조건을 아직 확인하지 못했습니다. 원자료와 TEM/EELS 장비 접근도 가정할 수 없습니다. 이 제안이 현재 연구실 프로젝트이거나 연구실 허락을 받은 것은 아닙니다. 수강 여부와 수강생의 배경 지식도 알 수 없습니다."
+  },
+  "duration_wall_s": 15.115,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1046,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2239,
+      "webSearchRequests": 0,
+      "costUSD": 0.019487200000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2239,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2239,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1046,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2239,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1046,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2239,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2239
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.019487200000000003,
+  "error": null,
+  "input_sha256": "5dc3d99c03af80755a3782843295de2321a1310e95debd9c9f545626657ef39d"
+}

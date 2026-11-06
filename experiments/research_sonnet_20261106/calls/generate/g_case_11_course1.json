@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "단순한 2층 신경망(예: XOR 과제)을 CRN의 ODE 모델로 시뮬레이션하고 반응 속도 상수에 잡음을 넣을 때, 매끄러운 활성화 함수(예: sigmoid)와 ReLU류 함수 중 어느 쪽이 학습 정확도 저하가 더 작은가?",
+    "paper_id": "W4412198846",
+    "paper_quote": "computation via the CRN (i) maintains accuracy despite noise in the reaction rates and the concentration of species",
+    "paper_explanation": "논문 사실: 초록은 매끄러운 활성화 함수를 쓰는 CRN이 반응 속도와 종 농도의 잡음에도 정확도를 유지하고, 비매끄러운 활성화 함수를 쓰는 NN보다 실행 시간과 잡음 크기 선택에 덜 민감하다고 보고합니다. 제안(연구 제안일 뿐): 이를 XOR 규모로 단순화해 직접 비교하는 것입니다. 논문의 구체적 모델이나 결과를 재현한다는 뜻은 아닙니다.",
+    "course_id": "AIGS651",
+    "course_quote": "Learning using Backpropagation",
+    "course_connection": "잠정적 연결: 수업 계획에 역전파 학습과 MNIST 및 신경망 프로그래밍 항목이 있어, 역전파 기울기와 활성화 함수 선택을 코드로 구현하는 기초로 쓸 수 있을 것으로 보입니다. 다만 이 과목이 CRN이나 화학적 잡음을 다루는지는 제시된 설명에 없어 확인되지 않았습니다. 수강 여부로 학생의 역량을 추정하지 않았습니다.",
+    "first_step": "(제안) 논문을 읽고 XOR 실험의 활성화 함수, 잡음 정의, 평가 지표를 표로 정리하세요. 그다음 일반 Python으로 작은 신경망을 만들고, 가중치 갱신에 곱셈형 가우시안 잡음을 주는 대리 실험을 sigmoid와 ReLU로 비교하세요. 이 실험은 실제 CRN 시뮬레이션이 아니라 그 대리 모형입니다.",
+    "limitations": "초록만 근거로 했으므로 논문의 CRN 구조, 잡음 모델, 실험 세부 사항은 확인되지 않았습니다. 대리 실험이 반응 네트워크의 확률적 잡음(예: 확률적 반응 모형)을 얼마나 반영하는지는 불명확합니다. 연구실의 현재 프로젝트나 지도 가능성은 알 수 없으며, 과목이 이 주제를 다루는지도 불확실합니다."
+  },
+  "duration_wall_s": 20.466,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1139,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2437,
+      "webSearchRequests": 0,
+      "costUSD": 0.0212092,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2437,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2437,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1139,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2437,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1139,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2437,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2437
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0212092,
+  "error": null,
+  "input_sha256": "baae3da40370962563265d92bd54ff51e59ae440da4417962ffeabcdedd54a3c"
+}

@@ -1,0 +1,290 @@
+{
+  "R1-001": {
+    "case_id": "case_07_course1",
+    "method": "s"
+  },
+  "R1-002": {
+    "case_id": "case_03_course2",
+    "method": "g"
+  },
+  "R1-003": {
+    "case_id": "case_04_none",
+    "method": "a"
+  },
+  "R1-004": {
+    "case_id": "case_01_none",
+    "method": "g"
+  },
+  "R1-005": {
+    "case_id": "case_10_course1",
+    "method": "a"
+  },
+  "R1-006": {
+    "case_id": "case_02_interest",
+    "method": "a"
+  },
+  "R1-007": {
+    "case_id": "case_03_course2",
+    "method": "a"
+  },
+  "R1-008": {
+    "case_id": "case_10_course1",
+    "method": "g"
+  },
+  "R1-009": {
+    "case_id": "case_01_none",
+    "method": "a"
+  },
+  "R1-010": {
+    "case_id": "case_10_course1",
+    "method": "s"
+  },
+  "R1-011": {
+    "case_id": "case_04_none",
+    "method": "s"
+  },
+  "R1-012": {
+    "case_id": "case_04_course1",
+    "method": "s"
+  },
+  "R1-013": {
+    "case_id": "case_07_course1",
+    "method": "a"
+  },
+  "R1-014": {
+    "case_id": "case_04_none",
+    "method": "g"
+  },
+  "R1-015": {
+    "case_id": "case_04_course1",
+    "method": "g"
+  },
+  "R1-016": {
+    "case_id": "case_02_interest",
+    "method": "g"
+  },
+  "R1-017": {
+    "case_id": "case_04_course1",
+    "method": "a"
+  },
+  "R1-018": {
+    "case_id": "case_03_course2",
+    "method": "s"
+  },
+  "R1-019": {
+    "case_id": "case_01_course1",
+    "method": "a"
+  },
+  "R1-020": {
+    "case_id": "case_02_interest",
+    "method": "s"
+  },
+  "R1-021": {
+    "case_id": "case_01_none",
+    "method": "s"
+  },
+  "R1-022": {
+    "case_id": "case_01_course1",
+    "method": "g"
+  },
+  "R1-023": {
+    "case_id": "case_01_course1",
+    "method": "s"
+  },
+  "R1-024": {
+    "case_id": "case_07_course1",
+    "method": "g"
+  },
+  "R2-001": {
+    "case_id": "case_08_course1",
+    "method": "g"
+  },
+  "R2-002": {
+    "case_id": "case_11_course1",
+    "method": "s"
+  },
+  "R2-003": {
+    "case_id": "case_05_course1",
+    "method": "s"
+  },
+  "R2-004": {
+    "case_id": "case_02_course1",
+    "method": "g"
+  },
+  "R2-005": {
+    "case_id": "case_03_interest",
+    "method": "s"
+  },
+  "R2-006": {
+    "case_id": "case_05_course1",
+    "method": "g"
+  },
+  "R2-007": {
+    "case_id": "case_01_course2",
+    "method": "a"
+  },
+  "R2-008": {
+    "case_id": "case_05_course1",
+    "method": "a"
+  },
+  "R2-009": {
+    "case_id": "case_02_course1",
+    "method": "a"
+  },
+  "R2-010": {
+    "case_id": "case_01_course2",
+    "method": "g"
+  },
+  "R2-011": {
+    "case_id": "case_04_course2",
+    "method": "s"
+  },
+  "R2-012": {
+    "case_id": "case_11_course1",
+    "method": "g"
+  },
+  "R2-013": {
+    "case_id": "case_02_none",
+    "method": "g"
+  },
+  "R2-014": {
+    "case_id": "case_08_course1",
+    "method": "s"
+  },
+  "R2-015": {
+    "case_id": "case_03_interest",
+    "method": "g"
+  },
+  "R2-016": {
+    "case_id": "case_02_none",
+    "method": "a"
+  },
+  "R2-017": {
+    "case_id": "case_02_none",
+    "method": "s"
+  },
+  "R2-018": {
+    "case_id": "case_03_interest",
+    "method": "a"
+  },
+  "R2-019": {
+    "case_id": "case_02_course1",
+    "method": "s"
+  },
+  "R2-020": {
+    "case_id": "case_01_course2",
+    "method": "s"
+  },
+  "R2-021": {
+    "case_id": "case_04_course2",
+    "method": "g"
+  },
+  "R2-022": {
+    "case_id": "case_04_course2",
+    "method": "a"
+  },
+  "R2-023": {
+    "case_id": "case_11_course1",
+    "method": "a"
+  },
+  "R2-024": {
+    "case_id": "case_08_course1",
+    "method": "a"
+  },
+  "R3-001": {
+    "case_id": "case_03_course1",
+    "method": "g"
+  },
+  "R3-002": {
+    "case_id": "case_09_course1",
+    "method": "g"
+  },
+  "R3-003": {
+    "case_id": "case_09_course1",
+    "method": "s"
+  },
+  "R3-004": {
+    "case_id": "case_06_course1",
+    "method": "a"
+  },
+  "R3-005": {
+    "case_id": "case_12_course1",
+    "method": "g"
+  },
+  "R3-006": {
+    "case_id": "case_02_course2",
+    "method": "a"
+  },
+  "R3-007": {
+    "case_id": "case_12_course1",
+    "method": "a"
+  },
+  "R3-008": {
+    "case_id": "case_12_course1",
+    "method": "s"
+  },
+  "R3-009": {
+    "case_id": "case_02_course2",
+    "method": "s"
+  },
+  "R3-010": {
+    "case_id": "case_02_course2",
+    "method": "g"
+  },
+  "R3-011": {
+    "case_id": "case_09_course1",
+    "method": "a"
+  },
+  "R3-012": {
+    "case_id": "case_01_interest",
+    "method": "s"
+  },
+  "R3-013": {
+    "case_id": "case_03_none",
+    "method": "g"
+  },
+  "R3-014": {
+    "case_id": "case_03_course1",
+    "method": "a"
+  },
+  "R3-015": {
+    "case_id": "case_06_course1",
+    "method": "s"
+  },
+  "R3-016": {
+    "case_id": "case_01_interest",
+    "method": "g"
+  },
+  "R3-017": {
+    "case_id": "case_04_interest",
+    "method": "s"
+  },
+  "R3-018": {
+    "case_id": "case_01_interest",
+    "method": "a"
+  },
+  "R3-019": {
+    "case_id": "case_06_course1",
+    "method": "g"
+  },
+  "R3-020": {
+    "case_id": "case_04_interest",
+    "method": "a"
+  },
+  "R3-021": {
+    "case_id": "case_03_none",
+    "method": "a"
+  },
+  "R3-022": {
+    "case_id": "case_03_course1",
+    "method": "s"
+  },
+  "R3-023": {
+    "case_id": "case_04_interest",
+    "method": "g"
+  },
+  "R3-024": {
+    "case_id": "case_03_none",
+    "method": "s"
+  }
+}

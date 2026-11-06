@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "ANUBIS 같은 공개 골격 행동 인식 벤치마크에서, 관절 좌표·뼈 벡터·모션 흐름 입력으로 학습한 소수 모델의 예측 불확실성(보정 오차)은 행동 범주나 후면 시점에 따라 어떻게 달라지는가?",
+    "paper_id": "W7163352033",
+    "paper_quote": "conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories",
+    "paper_explanation": "논문 사실: 관절 좌표, 뼈 벡터, 모션 흐름, 확장 표현을 입력 유형별로 정리하고 ANUBIS에서 특징 유형이 102개 행동 범주의 인식 성능에 미치는 영향을 분석했으며, 강한 행동-특징 의존성과 단순 다중 표현 융합의 한계를 보고했습니다. 제안(연구 아이디어): 정확도가 아닌 신뢰도 보정·불확실성 관점으로 확장하는 것은 논문이 다루었다고 확인된 내용이 아닙니다.",
+    "course_id": "CSED618",
+    "course_quote": "uncertainty learning via conformal prediction",
+    "course_connection": "잠정적 연결: 입력 표현별로 모델 신뢰도가 다른지를 보려는 질문에 강의의 conformal prediction 기반 불확실성 학습 개념을 적용해 볼 수 있습니다(제안). 다만 강의 설명만으로는 골격 데이터에 대한 다룸 여부가 확인되지 않아, 연결은 중간 정도이며 부분적으로 불확실합니다.",
+    "first_step": "논문 공개 페이지(https://yliu1082.github.io/ANUBIS/)에서 데이터 접근·라이선스·제공 모델을 확인하고, 작은 공개 골격 데이터 일부와 단순 분류기 하나로 표현별 예측 확률과 보정 오차(ECE) 계산 코드를 먼저 써 보세요.",
+    "limitations": "ANUBIS 데이터 크기와 사전학습 모델 제공 여부, 계산 자원, 후면 시점 라벨 사용 가능성은 확인되지 않았습니다. conformal prediction이 강의에서 얼마나 깊이 다뤄지는지도 불명확합니다. 연구실의 현재 프로젝트나 지도 가능 여부는 입력으로 확인되지 않았고, 이 질문은 연구실 주제와 직접 연결되지 않을 수 있습니다."
+  },
+  "duration_wall_s": 15.555,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1064,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 2826,
+      "webSearchRequests": 0,
+      "costUSD": 0.022259,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2826,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2826,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 1064,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2826,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1064,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 2826,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2826
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.022259,
+  "error": null,
+  "input_sha256": "d41257c4c1e3e9d2192215d02438b83787cf0a1bfd0cf86ab005808ba156ae4c"
+}

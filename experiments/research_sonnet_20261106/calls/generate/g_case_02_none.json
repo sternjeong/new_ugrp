@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "신호 해밀토니안과 가환하는 디페이징 잡음 아래의 위상 추정에서, 자율 오류 보정(AutoQEC)의 비율 R이 커질 때 하이젠베르크 스케일링 복원 오차가 논문의 ϵ = O(κT/R^c) 형태를 따르는지, 간단한 수치 모형으로 재현해 볼 수 있을까?",
+    "paper_id": "W4417091791",
+    "paper_quote": "if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution",
+    "paper_explanation": "[논문 사실] 초록은 잡음의 Lindblad 연산자가 신호 해밀토니안과 가환하고 특정 제약 선형방정식이 해를 가질 때, ancilla 없는 AutoQEC가 유한한 R로 하이젠베르크 스케일링을 근사적으로 보존한다고 밝히며, 오차 스케일은 ϵ = O(κT/R^c)라고 말합니다. 또한 디페이징 잡음 위상 추정으로 수치 검증했다고 합니다. [제안] 이를 작은 규모로 재현·비교하는 것은 제 제안이며 논문이 한 일이 아닙니다.",
+    "course_id": "",
+    "course_quote": "",
+    "course_connection": "선택된 수강 과목이 없습니다(courses가 비어 있음). 따라서 과목 연결은 확인되지 않았고, 학생의 수강·역량도 추정하지 않습니다. 연구실 키워드(Quantum Sensing, Quantum Information Theory)는 주제 관련성만 시사하며 과목 개념은 아닙니다.",
+    "first_step": "[제안] 논문 본문에서 디페이징 예제의 설정(해밀토니안, Lindblad 연산자, 보정 연산)을 정리하고, 1큐비트 위상 추정을 Lindblad 마스터 방정식으로 오픈소스 도구(예: QuTiP)로 시뮬레이션하는 계획을 세우세요. 이후 R을 바꿔 가며 양자 Fisher 정보의 시간 의존성을 비교합니다. 특별한 접근 권한은 필요 없습니다.",
+    "limitations": "초록만으로는 선형방정식의 구체적 형태, 예제의 정확한 매개변수, 지수 c의 값이 확인되지 않습니다. 본문을 읽지 않았으므로 재현 가능성과 난이도는 미확인입니다. 이 연구실의 현재 프로젝트나 지도 가능 여부, 참여 허락은 알 수 없으며 주장하지 않습니다. 과목이 없어 과목 연계는 미확인입니다."
+  },
+  "duration_wall_s": 16.872,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1131,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 2369,
+      "webSearchRequests": 0,
+      "costUSD": 0.021101,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2369,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2369,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 1131,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2369,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1131,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 2369,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2369
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.021101,
+  "error": null,
+  "input_sha256": "a282311d281d47f2033556254f27559537131ef1ef83f0508ca5dd1607ab2af3"
+}

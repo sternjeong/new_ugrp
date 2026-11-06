@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "층상 1D/2D 이방성 금속 칼코겐화물 리뷰에서 다루는 대표 물질들을 비교할 때, 결정 구조의 저대칭성·방향성은 전자 특성과 촉매 특성의 차이와 어떻게 연관되어 서술되는가?",
+    "paper_id": "W4318693490",
+    "paper_quote": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs)",
+    "paper_explanation": "논문 사실: 초록은 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성을 보인다고 하며, 기본 결정 구조와 물성, 합성, 조절 전략, 응용을 개관한다고 서술한다. 제안(연구 아이디어): 구조 방향성과 특성 차이의 구체적 인과관계는 초록만으로 확인되지 않으므로, 본문에서 물질별 서술을 비교·정리하는 문헌 조사를 제안한다.",
+    "course_id": "",
+    "course_quote": "",
+    "course_connection": "선택된 과목 없음. 따라서 수업과의 연결은 확인되지 않았고, 수강 여부나 역량도 추론하지 않는다.",
+    "first_step": "논문 제목 W4318693490으로 공개 접근 가능한 판(출판사 페이지, 프리프린트 등)을 검색한다. 접근 가능하면 결정 구조 소개 절과 전자·촉매 응용 절에서 물질별로 '결정 구조 특징 / 방향성 관련 서술 / 전자 특성 / 촉매 특성' 비교표를 작성한다. 본문 접근이 불가하면 초록의 문장만으로 표의 항목 틀을 먼저 만든다.",
+    "limitations": "본문을 확인하지 않아 어떤 물질이 다뤄지는지, 방향성과 특성 사이의 인과가 실험·계산 중 무엇으로 뒷받침되는지는 미확인이다. 선택된 과목이 없어 수업 연결은 미확인이다. 연구실의 현재 프로젝트, 지도 가능 여부, 참여 허가에 대한 정보는 없으며 이를 주장하지 않는다. 연구실 키워드(Inorganic Synthesis 등)와의 관련성도 미확인이다."
+  },
+  "duration_wall_s": 14.692,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1008,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2566,
+      "webSearchRequests": 0,
+      "costUSD": 0.0204152,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2566,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2566,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1008,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2566,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1008,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2566,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2566
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0204152,
+  "error": null,
+  "input_sha256": "182a0c4b7e678c4f5978fd17fc18bd251f88a49934a2515aa7133d66192210b0"
+}

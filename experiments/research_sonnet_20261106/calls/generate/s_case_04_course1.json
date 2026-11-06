@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "공개 문헌에서 보고된 층상 이방성 금속 칼코겐화물(예: 1D/2D MC)의 합성 방식(용액상·기상·박리)에 따라 결정 방향·결함 형성과 촉매 활성(예: 과전압) 보고값에 어떤 경향의 차이가 있는지 체계적으로 비교할 수 있는가?",
+    "paper_id": "W4318693490",
+    "paper_quote": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs)",
+    "paper_explanation": "논문 사실: 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성을 보이며, 합성·변조·응용을 개괄한다고 초록에 서술됨. 제안 연구(합성법별 방향·결함과 촉매 성능의 정량 비교)는 초록에 없는 학생 수준의 새로운 문헌 조사 과제임.",
+    "course_id": "AMSE315",
+    "course_quote": "소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.",
+    "course_connection": "잠정적 연결: 용액상·기상 합성에서의 핵생성·성장 개념으로, 합성 경로에 따라 결정 방향성과 결함이 달라지는 이유를 해석해 볼 수 있음. 다만 이 수업이 층상 칼코겐화물을 직접 다루는지는 불분명하며, 전자·촉매 특성과의 연결은 별도 문헌 지식이 필요함.",
+    "first_step": "해당 리뷰 논문의 합성·응용 부분에서 인용된 대표 논문 10~15편을 골라 표를 만들고, 물질, 합성법, 형상(1D/2D), 노출 결정면 또는 방향, 결함 정보, 촉매 반응과 성능 지표를 정리한다. 그 뒤 핵생성·성장 관점에서 가설 한두 개를 세운다.",
+    "limitations": "문헌마다 측정 조건과 성능 지표가 달라 직접 비교가 어려울 수 있음. 초록만으로는 구체적 수치나 인과관계를 알 수 없고 전문 열람 가능 여부도 불확실함. 연구실의 현재 프로젝트나 참여 가능 여부는 알 수 없으며 허락을 가정하지 않음. 수업 수강 수준과 배경지식도 추정하지 않음."
+  },
+  "duration_wall_s": 16.865,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1078,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2382,
+      "webSearchRequests": 0,
+      "costUSD": 0.0203792,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2382,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2382,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1078,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2382,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1078,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2382,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2382
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0203792,
+  "error": null,
+  "input_sha256": "c3fae7b2e7860678d4bc5a7c62a729b89100e6f62a6e2ecfb146a5ba26e08fcd"
+}

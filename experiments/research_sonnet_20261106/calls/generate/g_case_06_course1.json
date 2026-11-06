@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "EECE490G 팀 프로젝트 수준의 단일 환경(예: 주방 시뮬레이션) 작업 계획에서, 명령 복잡도가 어느 수준까지 늘어나면 소형 LM(예: GPT-2 medium)이 LLM 대비 계획 성공률에서 뒤처지기 시작하는가?",
+    "paper_id": "W4394591632",
+    "paper_quote": "within a single, specific environment, small language models (LMs) also have the potential to be effective robotic task planners",
+    "paper_explanation": "논문 사실: 저자들은 LLM이 로봇 작업 계획에 과하다고 주장하며, LLM으로 생성한 COST 데이터셋으로 소형 LM을 미세조정했고 파인튜닝된 GPT-2 medium이 특정 환경에서 GPT-3.5와 비슷하다고 보고합니다. 제안(연구 아이디어): 명령 복잡도를 단계적으로 높여 소형 LM이 유효한 조건의 경계를 찾는 것이며, 논문이 이미 수행했다고 확인된 내용은 아닙니다.",
+    "course_id": "EECE490G",
+    "course_quote": "gain practical experience by applying them to actual robots",
+    "course_connection": "잠정적 연결: 이 강의는 로봇 지능 알고리즘 적용과 팀 프로젝트(Mujoco 시뮬레이터 포함)를 다루므로, 소형 LM 계획기를 시뮬레이션 과제에 붙여 보는 아이디어와 이어질 수 있습니다. 다만 강의 설명·계획에 언어모델이나 LLM 기반 작업 계획이 명시되어 있지 않아, 내용상 직접 연결은 확인되지 않았습니다(unconfirmed). 수강 여부로 학생의 역량을 추정하지 않습니다.",
+    "first_step": "논문을 읽고 COST 데이터셋 구성, 평가 지표, 명령 유형을 표로 정리하세요. 이어서 공개된 소형 LM(예: GPT-2)으로 간단한 텍스트 명령→행동 단계 예시 20개를 직접 작성해, 명령 길이·단계 수 등 복잡도 기준 초안을 만드세요(제안). 특수 장비나 접근 권한은 필요하지 않습니다.",
+    "limitations": "COST 데이터셋·코드의 공개 여부, 재현에 필요한 연산 자원, 논문의 평가가 실행 가능성 외에 어떤 지표를 쓰는지는 확인되지 않았습니다. 결과가 다른 환경이나 실제 로봇에도 일반화되는지는 불명확합니다. 강의 Mujoco 과제와의 호환성과 연구실의 현재 프로젝트 여부 및 참여 가능성도 알 수 없습니다."
+  },
+  "duration_wall_s": 15.147,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1166,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 2936,
+      "webSearchRequests": 0,
+      "costUSD": 0.023719,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2936,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2936,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 1166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2936,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1166,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 2936,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2936
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.023719,
+  "error": null,
+  "input_sha256": "049f3bb57313ecc8449bfef66088d9e7203230433ecb3e3a5bf822ed400ae707"
+}

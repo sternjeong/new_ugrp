@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "ESC 유래 세포외소포(EV)에서 표면 fibronectin을 제거하거나 integrin 결합을 차단하면, 섬유아세포의 노화 지표(SA-β-gal 등)와 Nrf2 안정화가 어떻게 달라지는지 논문 데이터의 어떤 실험 설계로 확인되었는가?",
+    "paper_id": "W4415184415",
+    "paper_quote": "It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT.",
+    "paper_explanation": "논문 사실(초록 기준): ESC 유래 EV 표면의 fibronectin이 integrin 결합을 통해 FAK·AKT를 활성화하고, GSK3β 억제와 Nrf2 안정화로 산화 스트레스를 완화해 섬유아세포와 성상세포의 노화를 막는다고 보고함. 제안(연구 아이디어): 질문에 쓴 SA-β-gal, fibronectin 제거, integrin 차단 같은 구체적 실험 방법은 초록에 없으므로 본문에서 확인해야 하는 가설적 점검 항목임.",
+    "course_id": "LIFE509",
+    "course_quote": "in-depth understanding of the mechanisms that govern cell function and cellular processes",
+    "course_connection": "과목 설명은 세포 기능과 세포 과정의 기전을 깊이 이해하는 것을 목표로 한다고 되어 있고, 논문은 integrin–FAK–AKT–GSK3β–Nrf2 신호 경로를 다룸. 따라서 신호 경로 기전이 실험으로 어떻게 입증되었는지 분석하는 틀로 쓸 수 있다는 정도의 잠정적 연결임. 수업에서 이 경로를 실제로 다루는지는 확인되지 않음(unconfirmed).",
+    "first_step": "논문 본문(공개 접근 가능한 범위)에서 Figure와 Methods를 읽고, 경로의 각 단계(fibronectin→integrin→FAK/AKT→GSK3β→Nrf2→노화)마다 사용된 처리(억제제, 녹다운, 항체 등)와 측정 지표를 표로 정리한다. 본문을 볼 수 없으면 초록 기준으로 표의 틀만 만들고 빈칸은 '미확인'으로 표시한다.",
+    "limitations": "초록만으로는 실제 실험 방법, 대조군, 정량 결과, 통계를 알 수 없음. 본문 접근 가능 여부도 불명확함. 성상세포와 섬유아세포 결과의 일반화 정도, in vivo 근거 여부도 확인되지 않음. 수업 세부 내용(계획서 없음)과 연구실의 현재 프로젝트 및 참여 가능 여부는 알 수 없음."
+  },
+  "duration_wall_s": 14.802,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1192,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 1823,
+      "webSearchRequests": 0,
+      "costUSD": 0.0192832,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1823,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1823,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1192,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1823,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1192,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 1823,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1823
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0192832,
+  "error": null,
+  "input_sha256": "c3b018a7bf1efd1bc4754e3d6c022acd60237246e835222a37fde1c224d6da82"
+}

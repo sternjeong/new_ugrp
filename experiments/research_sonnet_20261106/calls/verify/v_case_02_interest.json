@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "초록에 기술된 dephasing 잡음 하의 위상추정 예시를 작은 큐비트 수의 Lindblad 시뮬레이션으로 단순화했을 때, 보정 비율 R을 바꾸면 0≤t≤T에서 하이젠베르크 스케일링(양자 Fisher 정보 ∝ t²)으로부터의 이탈이 얼마나 줄어드는가?",
+    "paper_id": "W4417091791",
+    "paper_quote": "the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate",
+    "paper_explanation": "논문 사실(초록 기준): 잡음의 모든 Lindblad 연산자가 신호 해밀토니안과 교환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC가 유한한 R로 0≤t≤T에서 HS를 근사 보존하며 오차는 ϵ=O(κT/R^c)라고 합니다. dephasing 위상추정 예시로 수치 검증했다고 합니다. 연구 제안(논문 주장 아님): R을 바꿔 가며 단순 모델에서 이탈 정도를 비교하는 것입니다. 논문의 구체적 모델, 상태, 정밀도 지표, c 값은 초록만으로는 미확인입니다.",
+    "course_id": "PHYS647",
+    "course_quote": "Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.",
+    "course_connection": "부분적·잠정적 연결입니다. 강의 계획의 Basic quantum noise channels, Quantum noise and decoherence, Basic quantum error-correcting codes가 논문의 dephasing 잡음과 오류 보정 주제와 개념상 닿습니다. 다만 계획의 Phase estimation algorithm은 양자 알고리즘의 위상추정이라 논문의 양자 계측 위상추정과 같은지는 불명확하며, AutoQEC와 Lindblad 소산 설계가 강의에서 다뤄지는지도 미확인입니다. 수강 이력이나 학생 실력은 추정하지 않습니다.",
+    "first_step": "논문 전문 접근 없이 초록만으로 시작합니다. 먼저 H=(ω/2)Σσz, 잡음 L=√κ σz로 보정 없는 기준 모델을 numpy로 직접 구현하세요. 큐비트 1~3개, 최대 중첩 상태에서 ω 추정의 양자 Fisher 정보를 t에 대해 그려 t²와 비교합니다. 그 후 전문을 구할 수 있으면 논문의 보정 소산 형태와 지표로 모델을 교체하세요.",
+    "limitations": "초록만으로는 논문의 보정 소산 연산자, 제약 선형방정식의 해, 프로브 상태, 정밀도 지표를 알 수 없습니다. c를 시뮬레이션에서 자유롭게 바꿀 수 있는지도 미확인입니다. 작은 큐비트 수의 단순 모델이 논문 결과를 재현하는지, ancilla 없는 보정이 이 모델에서 구현 가능한지도 불명입니다. 연구실의 현재 프로젝트나 지도 가능 여부는 알 수 없습니다."
+  },
+  "duration_wall_s": 23.897,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2115,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 3749,
+      "webSearchRequests": 0,
+      "costUSD": 0.036217200000000005,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 778,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 3749,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3749,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 2115,
+    "output_tokens_details": {
+      "thinking_tokens": 778
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 3749,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2115,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 3749,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3749
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.036217200000000005,
+  "error": null,
+  "input_sha256": "8b5ba51e9365548a366c2ae49ee803d56d02ef609cfcb8a1b0c1e41a2f365000"
+}

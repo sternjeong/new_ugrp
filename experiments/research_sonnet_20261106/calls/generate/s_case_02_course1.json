@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "단일 큐비트 위상 추정에서 dephasing 잡음이 있을 때, 자율 오류 보정(AutoQEC)의 dissipation 비율 R을 유한하게 두면 양자 Fisher 정보의 시간 제곱(Heisenberg) 스케일링이 어느 R 범위와 시간 구간 T까지 근사적으로 유지되는가?",
+    "paper_id": "W4417091791",
+    "paper_quote": "we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise",
+    "paper_explanation": "논문의 사실: 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC가 유한한 R에서도 Heisenberg 스케일링을 근사적으로 보존한다고 보이며, 오차는 ϵ = O(κT/R^c)로 주어지고 dephasing 위상 추정으로 수치 검증한다. 제안하는 연구(논문 내용 아님): 작은 모델에서 R, T, c에 따른 실제 오차 경향을 직접 재현·점검하는 것.",
+    "course_id": "PHYS647",
+    "course_quote": "Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.",
+    "course_connection": "수업의 양자 잡음 채널(CPTP, Kraus), 위상 추정 알고리즘, 양자 오류 정정 주제가 이 논문의 dephasing 모델과 오류 보정 개념에 연결될 수 있다. 다만 자율(연속시간 Lindblad) 보정이나 양자 계측은 계획에 명시되지 않아 연결 정도는 불확실하며, 기말 프로젝트 주제로 쓸 수 있는 정도로만 잠정적이다.",
+    "first_step": "논문을 읽고 dephasing 위상 추정 예시의 설정(해밀토니안, Lindblad 연산자, 보정 dissipator)을 정리한 뒤, Python(QuTiP 또는 numpy)으로 Lindblad 방정식을 풀어 R을 바꿔가며 양자 Fisher 정보 대 t²를 그려 보라. 먼저 보정 없는 경우(선형 스케일링)와 비교한다.",
+    "limitations": "논문의 구체적 AutoQEC 구성(보정 dissipator)은 전문을 읽어야 알 수 있어 재구성이 어려울 수 있다. 단일 큐비트 수치 결과가 일반 잡음에 적용되는지 불확실하다. 실험 구현 가능성, 이 연구실의 현재 프로젝트 여부, 지도 가능성은 알 수 없다."
+  },
+  "duration_wall_s": 17.846,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1134,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2508,
+      "webSearchRequests": 0,
+      "costUSD": 0.0214432,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2508,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2508,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2508,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1134,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2508,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2508
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0214432,
+  "error": null,
+  "input_sha256": "9c6e055f8b94b107180bb7890c084509ebfd1cf34fe9b215bed8dde436513e74"
+}

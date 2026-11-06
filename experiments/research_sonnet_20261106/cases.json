@@ -1,0 +1,902 @@
+[
+  {
+    "id": "case_01_course1",
+    "cluster": "case_01",
+    "condition": "course1",
+    "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+    "department": "전자전기공학과 · 반도체대학원",
+    "professor": "이정수",
+    "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+    "paper": {
+      "id": "W4290989670",
+      "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+      "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CHEB770",
+        "title": "반도체 소재 및 소자 특론",
+        "description": "This course will provide a fundamental understanding of emerging semiconductors (metal oxide, perovskite, organic)  and related device physics based on a solid understanding of silicon semiconductors and device physics. First, the silicon semiconductor and devices will be reviewed before the mid-term exam. Then the physics of new semiconductors including organic, perovskite, and metal oxide will be covered. The following lecture will be given,\n(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+        "plan": "(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Semiconductor materials and devices",
+        "text": "Semiconductor materials and devices"
+      },
+      {
+        "label": "Analytical Chemistry and Sensors",
+        "text": "Analytical Chemistry and Sensors"
+      },
+      {
+        "label": "Semiconductor materials and interfaces",
+        "text": "Semiconductor materials and interfaces"
+      }
+    ]
+  },
+  {
+    "id": "case_01_course2",
+    "cluster": "case_01",
+    "condition": "course2",
+    "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+    "department": "전자전기공학과 · 반도체대학원",
+    "professor": "이정수",
+    "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+    "paper": {
+      "id": "W4290989670",
+      "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+      "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "SEMI206",
+        "title": "반도체소재개론",
+        "description": "- 교과목 개요: The semiconductor devices are composed of various materials, i.e. metals, semiconductor, dielectrics, polymers in thin film structure, even in a nanometer scale. Therefore, it is required to understand the semiconductor technology, in the view of materials science and nanotechnology. This lecture provides the basic principles of materials used in semiconductor devices.\n  - 교육 목표: This course covers the basic theories and various properties of thin film such as metals, dielectrics, polymers, and semiconducting materials, which comprise semiconductor devices. In this class, students will understand basic materials science, such as crystal structure, synthesis, and materials properties necessary for present and future semiconductor devices.",
+        "plan": "1. Basics of crystal lattice and synthesis (1st ~2nd week)\n- Basics of crystal lattices\n- Crystal growth (bulk, thin film)\n\n2. Defects of materials (3rd ~5th week)\n- Atomic structure and defects (0D, 1D, 2D)\n\n3. Phase transition of materials (metal, semiconductor, amorphous) (6th ~ 8th week)\n- surface and interface\n- diffusion and kinetics\n- phase change\n\n4. Properties of materials (metals, semiconductors, dielectrics, and etc) (9th~13th week)\n- Electrical, thermal, mechanical, thermoelectric, electrochemical, and etc\n\n5. Characterization of Semiconductors (14th~ 15th week)\n- Electrical, optical, microscopic, structural, thermal, and etc\n\n6. Recent semiconductors driven by nanotechnology (16th week)",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Semiconductor materials and devices",
+        "text": "Semiconductor materials and devices"
+      },
+      {
+        "label": "Analytical Chemistry and Sensors",
+        "text": "Analytical Chemistry and Sensors"
+      },
+      {
+        "label": "Semiconductor materials and interfaces",
+        "text": "Semiconductor materials and interfaces"
+      }
+    ]
+  },
+  {
+    "id": "case_01_interest",
+    "cluster": "case_01",
+    "condition": "interest",
+    "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+    "department": "전자전기공학과 · 반도체대학원",
+    "professor": "이정수",
+    "interest": "논문에 나온 열처리 온도별 전류-전압 결과를 표로 정리하고, 접촉 장벽과 저항 변화가 어떤 의미인지 살펴보고 싶습니다.",
+    "paper": {
+      "id": "W4290989670",
+      "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+      "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CHEB770",
+        "title": "반도체 소재 및 소자 특론",
+        "description": "This course will provide a fundamental understanding of emerging semiconductors (metal oxide, perovskite, organic)  and related device physics based on a solid understanding of silicon semiconductors and device physics. First, the silicon semiconductor and devices will be reviewed before the mid-term exam. Then the physics of new semiconductors including organic, perovskite, and metal oxide will be covered. The following lecture will be given,\n(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+        "plan": "(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Semiconductor materials and devices",
+        "text": "Semiconductor materials and devices"
+      },
+      {
+        "label": "Analytical Chemistry and Sensors",
+        "text": "Analytical Chemistry and Sensors"
+      },
+      {
+        "label": "Semiconductor materials and interfaces",
+        "text": "Semiconductor materials and interfaces"
+      }
+    ]
+  },
+  {
+    "id": "case_01_none",
+    "cluster": "case_01",
+    "condition": "none",
+    "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+    "department": "전자전기공학과 · 반도체대학원",
+    "professor": "이정수",
+    "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+    "paper": {
+      "id": "W4290989670",
+      "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+      "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+      "abstract_truncated": false
+    },
+    "courses": [],
+    "lab_sources": [
+      {
+        "label": "Semiconductor materials and devices",
+        "text": "Semiconductor materials and devices"
+      },
+      {
+        "label": "Analytical Chemistry and Sensors",
+        "text": "Analytical Chemistry and Sensors"
+      },
+      {
+        "label": "Semiconductor materials and interfaces",
+        "text": "Semiconductor materials and interfaces"
+      }
+    ]
+  },
+  {
+    "id": "case_02_course1",
+    "cluster": "case_02",
+    "condition": "course1",
+    "lab_id": "00a2f37dcd22c6860346daa192299452",
+    "department": "물리학과",
+    "professor": "이승우",
+    "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+    "paper": {
+      "id": "W4417091791",
+      "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+      "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "PHYS647",
+        "title": "양자알고리즘",
+        "description": "- Understand the framework of quantum information theory.\n- Understand basic quantum information protocols.\n- Understand key quantum information-theoretic quantities\n- Understand the basic principles of quantum algorithms and NISQ algorithms.\n- Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\n- Read, discuss, and present recent research papers in quantum information theory and related areas.",
+        "plan": "[Part1 (6 weeks)]\n1. Basic of Quantum Information Theory\n- Pure and mixed states\n- Quantum measurements\n- Composite Systems and Entanglement\n- No-cloning theorem\n- Bell theorem\n2, Basic Quantum Information Protocols\n- Single-qubit and multi-qubit gates, universal gate sets\n- Quantum teleportation and superdense coding\n- Entanglement swapping and quantum repeaters\n- Entanglement distillation and purification\n- Quantum key distribution and quantum secret sharing\n3. Quantum Channels and Quantum Entropy\n- CPTP maps and Kraus representations\n- Basic quantum noise channels\n- von Neumann entropy, mutual information, relative entropy\n- Holevo bound and channel capacity\n\n[Part2 (6 weeks)]\n4. Introduction to Quantum Algorithms\n- Oracle model and quantum interference\n- Deutsch-Jozsa algorithm\n- Bernstein-Vazirani algorithm\n- Simon’s algorithm\n- Grover’s algorithm and amplitude amplification\n- Quantum Fourier transform\n- Phase estimation algorithm\n- Shor’s algorithm\n5. NISQ Algorithms\n- NISQ devices and their limitations\n- Variational Quantum Eigensolver\n- Quantum Approximate Optimization Algorithm\n- Parameterized quantum circuits and barren plateaus\n- Digital Hamiltonian simulation and Trotterization\n- Quantum error mitigation\n6. Quantum Error Correction and Fault Tolerance\n- Quantum noise and decoherence\n- Basic quantum error-correcting codes\n- Stabilizer formalism\n- Surface code and fault-tolerant quantum computation\n\n[Part3 (2~3 weeks)]\nProject-based seminar on recent research topics\n- Individual projects.\n- Topic selection based on quantum information theory and related areas\n- Literature review of selected research papers or small research projects.\n- Focus on main ideas, technical methods, significance, limitations, and future directions.\n- Oral presentation and short final ",
+        "description_truncated": false,
+        "plan_truncated": true
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Quantum Information Theory",
+        "text": "Quantum Information Theory"
+      },
+      {
+        "label": "Quantum Computing, Quantum Algorithm",
+        "text": "Quantum Computing, Quantum Algorithm"
+      },
+      {
+        "label": "Quantum Communication, Quantum Sensing",
+        "text": "Quantum Communication, Quantum Sensing"
+      }
+    ]
+  },
+  {
+    "id": "case_02_course2",
+    "cluster": "case_02",
+    "condition": "course2",
+    "lab_id": "00a2f37dcd22c6860346daa192299452",
+    "department": "물리학과",
+    "professor": "이승우",
+    "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+    "paper": {
+      "id": "W4417091791",
+      "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+      "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "PHYS535",
+        "title": "양자컴퓨팅 및 양자시물레이션",
+        "description": "In this course, we aim to cover :\n1) the mathematical language of quantum information processing: density matrices, measurements, channels, etc.\n2) the basics of circuit based quantum computing: qubits, single-/two-qubit gates, simple quantum algorithms\n3) leading quantum computing hardware platforms: neutral atoms, superconducting circuits, etc. - coherence, fidelity, connectivity, scaling, benchmarking\n4) core problems in quantum simulation: many-body quantum simulation (Hubbard models, spin models), analog vs. digital (Trotterization, Jordan-Wigner transformation), VQE and quantum chemistry, etc.",
+        "plan": "Weeks 1 to 3: Basic quantum mechanics toolkit (NC 2)\nWeeks 4 to 7: Circuit model of quantum computing (NC 4)\nWeeks 8 to 11: Quantum computing hardware (NC 7)\nWeeks 12 to 15: Analog and digital quantum simulation: key problems and techniques - second quantization, Hubbard models, spin models, molecular structure calculations, etc. (as time permits)",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Quantum Information Theory",
+        "text": "Quantum Information Theory"
+      },
+      {
+        "label": "Quantum Computing, Quantum Algorithm",
+        "text": "Quantum Computing, Quantum Algorithm"
+      },
+      {
+        "label": "Quantum Communication, Quantum Sensing",
+        "text": "Quantum Communication, Quantum Sensing"
+      }
+    ]
+  },
+  {
+    "id": "case_02_interest",
+    "cluster": "case_02",
+    "condition": "interest",
+    "lab_id": "00a2f37dcd22c6860346daa192299452",
+    "department": "물리학과",
+    "professor": "이승우",
+    "interest": "논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요.",
+    "paper": {
+      "id": "W4417091791",
+      "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+      "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "PHYS647",
+        "title": "양자알고리즘",
+        "description": "- Understand the framework of quantum information theory.\n- Understand basic quantum information protocols.\n- Understand key quantum information-theoretic quantities\n- Understand the basic principles of quantum algorithms and NISQ algorithms.\n- Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\n- Read, discuss, and present recent research papers in quantum information theory and related areas.",
+        "plan": "[Part1 (6 weeks)]\n1. Basic of Quantum Information Theory\n- Pure and mixed states\n- Quantum measurements\n- Composite Systems and Entanglement\n- No-cloning theorem\n- Bell theorem\n2, Basic Quantum Information Protocols\n- Single-qubit and multi-qubit gates, universal gate sets\n- Quantum teleportation and superdense coding\n- Entanglement swapping and quantum repeaters\n- Entanglement distillation and purification\n- Quantum key distribution and quantum secret sharing\n3. Quantum Channels and Quantum Entropy\n- CPTP maps and Kraus representations\n- Basic quantum noise channels\n- von Neumann entropy, mutual information, relative entropy\n- Holevo bound and channel capacity\n\n[Part2 (6 weeks)]\n4. Introduction to Quantum Algorithms\n- Oracle model and quantum interference\n- Deutsch-Jozsa algorithm\n- Bernstein-Vazirani algorithm\n- Simon’s algorithm\n- Grover’s algorithm and amplitude amplification\n- Quantum Fourier transform\n- Phase estimation algorithm\n- Shor’s algorithm\n5. NISQ Algorithms\n- NISQ devices and their limitations\n- Variational Quantum Eigensolver\n- Quantum Approximate Optimization Algorithm\n- Parameterized quantum circuits and barren plateaus\n- Digital Hamiltonian simulation and Trotterization\n- Quantum error mitigation\n6. Quantum Error Correction and Fault Tolerance\n- Quantum noise and decoherence\n- Basic quantum error-correcting codes\n- Stabilizer formalism\n- Surface code and fault-tolerant quantum computation\n\n[Part3 (2~3 weeks)]\nProject-based seminar on recent research topics\n- Individual projects.\n- Topic selection based on quantum information theory and related areas\n- Literature review of selected research papers or small research projects.\n- Focus on main ideas, technical methods, significance, limitations, and future directions.\n- Oral presentation and short final ",
+        "description_truncated": false,
+        "plan_truncated": true
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Quantum Information Theory",
+        "text": "Quantum Information Theory"
+      },
+      {
+        "label": "Quantum Computing, Quantum Algorithm",
+        "text": "Quantum Computing, Quantum Algorithm"
+      },
+      {
+        "label": "Quantum Communication, Quantum Sensing",
+        "text": "Quantum Communication, Quantum Sensing"
+      }
+    ]
+  },
+  {
+    "id": "case_02_none",
+    "cluster": "case_02",
+    "condition": "none",
+    "lab_id": "00a2f37dcd22c6860346daa192299452",
+    "department": "물리학과",
+    "professor": "이승우",
+    "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+    "paper": {
+      "id": "W4417091791",
+      "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+      "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+      "abstract_truncated": false
+    },
+    "courses": [],
+    "lab_sources": [
+      {
+        "label": "Quantum Information Theory",
+        "text": "Quantum Information Theory"
+      },
+      {
+        "label": "Quantum Computing, Quantum Algorithm",
+        "text": "Quantum Computing, Quantum Algorithm"
+      },
+      {
+        "label": "Quantum Communication, Quantum Sensing",
+        "text": "Quantum Communication, Quantum Sensing"
+      }
+    ]
+  },
+  {
+    "id": "case_03_course1",
+    "cluster": "case_03",
+    "condition": "course1",
+    "lab_id": "00f52d3209da2832a33781de047e38ed",
+    "department": "인공지능대학원 · 컴퓨터공학과",
+    "professor": "김동우",
+    "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+    "paper": {
+      "id": "W7163352033",
+      "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+      "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CSED618",
+        "title": "신뢰할 수 있는 기계학습",
+        "description": "As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. In this course, we explore whether popular machine-learned models are trustworthy and then study various learning methods to enchant the models to be trustworthy. To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+        "plan": "https://sangdon.github.io/teaching/tml-2024-fall/",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "LLMs in Interactive Environments",
+        "text": "LLMs in Interactive Environments"
+      },
+      {
+        "label": "Graph Learning Enhancement by Structural Modifications",
+        "text": "Graph Learning Enhancement by Structural Modifications"
+      },
+      {
+        "label": "Efficiency in Software Engineering Agents",
+        "text": "Efficiency in Software Engineering Agents"
+      }
+    ]
+  },
+  {
+    "id": "case_03_course2",
+    "cluster": "case_03",
+    "condition": "course2",
+    "lab_id": "00f52d3209da2832a33781de047e38ed",
+    "department": "인공지능대학원 · 컴퓨터공학과",
+    "professor": "김동우",
+    "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+    "paper": {
+      "id": "W7163352033",
+      "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+      "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CSED536",
+        "title": "고급 알고리즘",
+        "description": "This course covers advanced topics of algorithms including graph algorithms, geometric algorithms, approximation algorithms, and randomized algorithms. We study how to design efficient algorithms using essential design and analysis methods.",
+        "plan": "Graph Theory and Algorithms\n(1) Introduction: Paths, Cycles, Shortest paths\n(2) Graph Traversal and Tour\n(3) Planar graphs\n(4) Coloring\n(5) Vertex Cover\n(6) Clique\n(7) Independent Set\n(8) Dominating Set\n(9) Tree Decomposition\n(10) NP-hard problems on planar graphs\n(11) Hardness within Class P",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "LLMs in Interactive Environments",
+        "text": "LLMs in Interactive Environments"
+      },
+      {
+        "label": "Graph Learning Enhancement by Structural Modifications",
+        "text": "Graph Learning Enhancement by Structural Modifications"
+      },
+      {
+        "label": "Efficiency in Software Engineering Agents",
+        "text": "Efficiency in Software Engineering Agents"
+      }
+    ]
+  },
+  {
+    "id": "case_03_interest",
+    "cluster": "case_03",
+    "condition": "interest",
+    "lab_id": "00f52d3209da2832a33781de047e38ed",
+    "department": "인공지능대학원 · 컴퓨터공학과",
+    "professor": "김동우",
+    "interest": "논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다.",
+    "paper": {
+      "id": "W7163352033",
+      "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+      "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CSED618",
+        "title": "신뢰할 수 있는 기계학습",
+        "description": "As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. In this course, we explore whether popular machine-learned models are trustworthy and then study various learning methods to enchant the models to be trustworthy. To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+        "plan": "https://sangdon.github.io/teaching/tml-2024-fall/",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "LLMs in Interactive Environments",
+        "text": "LLMs in Interactive Environments"
+      },
+      {
+        "label": "Graph Learning Enhancement by Structural Modifications",
+        "text": "Graph Learning Enhancement by Structural Modifications"
+      },
+      {
+        "label": "Efficiency in Software Engineering Agents",
+        "text": "Efficiency in Software Engineering Agents"
+      }
+    ]
+  },
+  {
+    "id": "case_03_none",
+    "cluster": "case_03",
+    "condition": "none",
+    "lab_id": "00f52d3209da2832a33781de047e38ed",
+    "department": "인공지능대학원 · 컴퓨터공학과",
+    "professor": "김동우",
+    "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+    "paper": {
+      "id": "W7163352033",
+      "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+      "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+      "abstract_truncated": false
+    },
+    "courses": [],
+    "lab_sources": [
+      {
+        "label": "LLMs in Interactive Environments",
+        "text": "LLMs in Interactive Environments"
+      },
+      {
+        "label": "Graph Learning Enhancement by Structural Modifications",
+        "text": "Graph Learning Enhancement by Structural Modifications"
+      },
+      {
+        "label": "Efficiency in Software Engineering Agents",
+        "text": "Efficiency in Software Engineering Agents"
+      }
+    ]
+  },
+  {
+    "id": "case_04_course1",
+    "cluster": "case_04",
+    "condition": "course1",
+    "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+    "department": "신소재공학과",
+    "professor": "정운룡",
+    "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+    "paper": {
+      "id": "W4318693490",
+      "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+      "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "AMSE315",
+        "title": "상평형 및 상변화",
+        "description": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.\n- 소재 상변화를 이해하기 위한 필수적인 기본지식(열역학, 고체 내 확산, 계면의 구조 및 특성)을 숙지한다.\n- 소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\n- 수업에서 배운 내용을 실제 맞춤형 소재 디자인에 적용해 본다.",
+        "plan": "1. Review of classical thermodynamics (1st ~ 2nd)\n  1) Equilibrium\n  2) Single component systems\n  3) Binary solutions and phase diagrams\n  4) The influence of interfaces on equilibrium\n\n2.   Defects and Diffusion (3rd ~ 5th)\n  1) Atomic mechanisms of diffusion\n  2) Interstitial and substitutional diffusion\n  3) Atomic mobility\n  4) High-Diffusivity Path\n\n3.   Surfaces and Interfaces (6th ~ 8th)\n  1) Interfacial free energy\n  2) Solid/Vapor interfaces\n  3) Boundaries in single-phase solids\n  4) Interphase interfaces in solids\n\n4.    Solidification (9th ~ 11th)\n 1) Homogeneous nucleation in pure solids\n 2) Heterogeneous nucleation in pure solids\n 3) Growth of a pure solids\n 4) Alloy solidification\n\n5.    Diffusional transformations in solids (12th ~ 14th)\n  1) Homogeneous nucleation in solids\n  2) Heterogeneous nucleation in solids\n  3) Precipitate growth\n  4) TTT diagrams\n  5) Spinodal Decomposition\n\n6.    Diffusionless transformations (15th)",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Inorganic Synthesis",
+        "text": "Inorganic Synthesis"
+      },
+      {
+        "label": "Stretchable Electronics",
+        "text": "Stretchable Electronics"
+      },
+      {
+        "label": "E-skin Sensor System",
+        "text": "E-skin Sensor System"
+      }
+    ]
+  },
+  {
+    "id": "case_04_course2",
+    "cluster": "case_04",
+    "condition": "course2",
+    "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+    "department": "신소재공학과",
+    "professor": "정운룡",
+    "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+    "paper": {
+      "id": "W4318693490",
+      "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+      "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "GIFT624",
+        "title": "Crystallography and crystal diffraction",
+        "description": "Students analyze various crystalline materials for their research. Most analytical equipment uses simulation software based on crystallography. To precisely evaluate phase and crystallographic orientation, a background in crystallography is necessary. This class introduces the key concepts of understanding crystallography and crystal diffraction, including various metallic and battery materials.",
+        "plan": "-Introduction (2)\n-Symmetry and its operation(2)\n-Crystal system and orientation(1.5)\n-Point, plane, and space groups (4)\n-Examples of crystal structures in metallic and battery materials (2)\n-Mid-term exam.\n-Defects in crystals (1)\n-X-ray diffraction (3)\n-Electron diffraction in metallic and battery materials (@EBSD,TEM: 5)\n-Final Exam. (Presentation)\n\n*Lecture schedule can be properly modified to promote the understanding.",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Inorganic Synthesis",
+        "text": "Inorganic Synthesis"
+      },
+      {
+        "label": "Stretchable Electronics",
+        "text": "Stretchable Electronics"
+      },
+      {
+        "label": "E-skin Sensor System",
+        "text": "E-skin Sensor System"
+      }
+    ]
+  },
+  {
+    "id": "case_04_interest",
+    "cluster": "case_04",
+    "condition": "interest",
+    "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+    "department": "신소재공학과",
+    "professor": "정운룡",
+    "interest": "합성·구조 조절 방법에 따라 보고된 응용이 어떻게 달라지는지 논문 표를 만들어 비교해 보고 싶습니다.",
+    "paper": {
+      "id": "W4318693490",
+      "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+      "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "AMSE315",
+        "title": "상평형 및 상변화",
+        "description": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.\n- 소재 상변화를 이해하기 위한 필수적인 기본지식(열역학, 고체 내 확산, 계면의 구조 및 특성)을 숙지한다.\n- 소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\n- 수업에서 배운 내용을 실제 맞춤형 소재 디자인에 적용해 본다.",
+        "plan": "1. Review of classical thermodynamics (1st ~ 2nd)\n  1) Equilibrium\n  2) Single component systems\n  3) Binary solutions and phase diagrams\n  4) The influence of interfaces on equilibrium\n\n2.   Defects and Diffusion (3rd ~ 5th)\n  1) Atomic mechanisms of diffusion\n  2) Interstitial and substitutional diffusion\n  3) Atomic mobility\n  4) High-Diffusivity Path\n\n3.   Surfaces and Interfaces (6th ~ 8th)\n  1) Interfacial free energy\n  2) Solid/Vapor interfaces\n  3) Boundaries in single-phase solids\n  4) Interphase interfaces in solids\n\n4.    Solidification (9th ~ 11th)\n 1) Homogeneous nucleation in pure solids\n 2) Heterogeneous nucleation in pure solids\n 3) Growth of a pure solids\n 4) Alloy solidification\n\n5.    Diffusional transformations in solids (12th ~ 14th)\n  1) Homogeneous nucleation in solids\n  2) Heterogeneous nucleation in solids\n  3) Precipitate growth\n  4) TTT diagrams\n  5) Spinodal Decomposition\n\n6.    Diffusionless transformations (15th)",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Inorganic Synthesis",
+        "text": "Inorganic Synthesis"
+      },
+      {
+        "label": "Stretchable Electronics",
+        "text": "Stretchable Electronics"
+      },
+      {
+        "label": "E-skin Sensor System",
+        "text": "E-skin Sensor System"
+      }
+    ]
+  },
+  {
+    "id": "case_04_none",
+    "cluster": "case_04",
+    "condition": "none",
+    "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+    "department": "신소재공학과",
+    "professor": "정운룡",
+    "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+    "paper": {
+      "id": "W4318693490",
+      "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+      "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+      "abstract_truncated": false
+    },
+    "courses": [],
+    "lab_sources": [
+      {
+        "label": "Inorganic Synthesis",
+        "text": "Inorganic Synthesis"
+      },
+      {
+        "label": "Stretchable Electronics",
+        "text": "Stretchable Electronics"
+      },
+      {
+        "label": "E-skin Sensor System",
+        "text": "E-skin Sensor System"
+      }
+    ]
+  },
+  {
+    "id": "case_05_course1",
+    "cluster": "case_05",
+    "condition": "course1",
+    "lab_id": "0a2eb55c6a036c893a340b7402e7da05",
+    "department": "화학공학과",
+    "professor": "전상민",
+    "interest": "자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요.",
+    "paper": {
+      "id": "W4393149344",
+      "title": "Magnetic Nanoparticle Cluster-Based 3D Solar Steam Generator with High Recyclability",
+      "abstract": "We developed a three-dimensional (3D) solar steam generator (SSG) with a hierarchical spiny structure across its entire surface, employing a magnetized iron cylinder and magnetic nanoparticle clusters (MNCs). In the two-dimensional (2D) SSG configuration, MNCs positioned on a disc-shaped permanent magnet formed spiny structures aligned with the magnetic field lines. Upon exposure to sunlight, this hierarchical spiny structure significantly enhanced light absorption via multiple reflections and promoted water evaporation by expanding the surface area. Transitioning from a 2D to a 3D structure using a cylindrical permanent magnet in the 3D SSG improves the evaporation performance by effectively harnessing environmental energy for dark evaporation. However, generating a spiny structure on the side surface of the cylindrical magnet presents challenges owing to the weaker magnetic field on the side surface. We addressed this limitation by magnetizing a hollow iron cylinder placed over a permanent magnet, which led to the creation of a uniform magnetic field and produced a hierarchical spiny structure across the entire surface. The 3D SSG achieved an evaporation rate of 2.8 kg m –2 h –1, which is 1.64 times higher than that of the 2D SSG, attributable to its efficient environmental energy utilization. Furthermore, we demonstrated the recyclability and self-regeneration of the 3D SSG through evaporation experiments using a 3.5 wt % NaCl solution.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CHEB214",
+        "title": "에너지환경공학",
+        "description": "This course introduces key knowledge areas in renewable energy and environmental technologies as addressed in chemical engineering. Focusing on renewable energy systems, energy production and storage technologies, high-efficiency energy devices, and water treatment technologies, the course aims to enhance students’ understanding of chemical engineering by presenting fundamental engineering principles together with representative applications and research case studies.\n\n본 강의는 화학공학과에서 다루는 신재생에너지 기술 및 환경 기술과 연계되는 지식을 소개하는 과목이다. 신재생에너지 및 에너지 생산/저장 기술, 고에너지효율 소자 기술, 수질 처리 환경 기술 등을 중심으로 공학적 기본 원리와 응용 연구 사례들을 소개함으로써 화학공학에 대한 학생들의 이해를 돕고자 한다.",
+        "plan": "- (Important) Certain topics may be adjusted depending on the progress of the course.\n\n[Weeks 1–4] Energy, Environment, and Chemical Engineering\n• Overview of global energy and environmental issues and their connection to chemical engineering\n• Energy-related chemical engineering technologies: shale gas utilization and hydrogen production\n• Environmental chemical engineering technologies: mitigation of carbon dioxide and NOx emissions\n• Next-generation energy and environmental technologies: catalytic processes\n\n[Weeks 5–7] Hydrogen Energy I\n• Hydrogen production\n• Hydrogen storage I\n\n[Week 8] Midterm Examination\n\n[Weeks 9–11] Hydrogen Energy II\n• Hydrogen storage II\n• Hydrogen utilization\n\n[Weeks 12–13] Water and Air Environment\n• Water pollution and water treatment technologies\n• Photochemical and biochemical water treatment processes\n• Electrochemical water treatment technologies\n• Air quality control technologies\n\n[Weeks 14–15] Energy Storage\n• Secondary batteries and next-generation battery systems\n• Large-scale energy storage technologies\n\n[Week 16] Final Examination\n\n---------------------------------------------------------------------------------------------------------------------------------------------\n\n- (중요) 강의 내용의 일부는 조정될 수 있음 - (Important Note: Some of the lecture content could be adjusted)\n\n(1주~4주) 에너지, 환경, 화학공학\n• 에너지 및 환경 이슈와 화학 공학 기술의 이해\n• 에너지 관련 화학공학 기술: 셰일 가스 활용 및 수소 생산 기술\n• 환경 관련 화학공학 기술: 이산화탄소 및 NOx 저감\n• 차세대 에너지/환경 기술: 촉매 기술\n\n(5주~7주) 수소에너지 I\n• 수소생산\n• 수소저장 I\n\n(8주) 중간 고사\n\n(9주~11주) 수소에너지 II\n• 수소저장 II\n• 수소활용\n\n(12주~13주) 수질 대기 환경\n• 수질 오염과 수질 처리 환경기술의 이해\n• 수처리 광화학 기술, 생화학 기술\n• 수처리 전기화학 기술\n• 대기 환경 기술\n\n(14주~15주) 에너지저장\n• 이차전지, 차세대 배터리\n• 대용량 에너지저장 기술\n\n(16주) 기말 고사",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Sustainable Materials",
+        "text": "Sustainable Materials"
+      },
+      {
+        "label": "Magnetic nanoparticle cluster (MNC)",
+        "text": "Magnetic nanoparticle cluster (MNC)"
+      },
+      {
+        "label": "Nanocellulose",
+        "text": "Nanocellulose"
+      }
+    ]
+  },
+  {
+    "id": "case_06_course1",
+    "cluster": "case_06",
+    "condition": "course1",
+    "lab_id": "032749fe44cb8a804902ff1aa9236d09",
+    "department": "전자전기공학과",
+    "professor": "안혜민",
+    "interest": "로봇 작업 계획에서 큰 언어모델 대신 작은 언어모델을 써도 되는 조건이 궁금해요.",
+    "paper": {
+      "id": "W4394591632",
+      "title": "Can only LLMs do Reasoning?: Potential of Small Language Models in Task Planning",
+      "abstract": "In recent robotics, Large Language Models (LLMs) have been noted as domain-agnostic task planners due to their advanced perception and reasoning capabilities. Especially, the reasoning capability of LLMs based on Chain-of-Thought (CoT) is gaining attention for robotic task planning. However, we claim that LLMs are excessive for robotic task planning for two reasons. First, the language commands given to robots have much lower linguistic complexity than what LLMs can handle. Second, modern robots in practice are primarily tailored to a specific domain or environment (i.e., kitchen). Building on this, we further believe that within a single, specific environment, small language models (LMs) also have the potential to be effective robotic task planners. To explore this, we generate ‘COmmand-STeps dataset’ (COST) via LLMs, which is a dataset designed for environment-specific robotic task planning. This dataset is then used to fine-tune small LMs to plan action steps for robots in response to given human commands. The applicability of COST dataset to real-world robots is verified by showing that the action steps generated by fine-tuned small LMs on COST dataset are practically executable by the robot. Furthermore, through comparison between LLMs and small LMs fine-tuned on COST dataset within specific task environments, it is demonstrated that the fine-tuned GPT-2 medium is comparable to GPT-3.5 in environment-specific task planning.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "EECE490G",
+        "title": "특강: 로봇 학습",
+        "description": "The goal of this course is to help students explore various modern algorithms used in intelligent robot development and gain practical experience by applying them to actual robots. The course is broadly divided into two parts. (1) Before the midterm exam, students will learn various algorithms related to robotics learning. (2) After the midterm exam, students will gain the knowledge and practical programming skills necessary for Team Project Competitions.",
+        "plan": "Week 1 : Introduction, Basics of AI / ML / DL\nWeek 2 : Behavior Cloning, Inverse Reinforcement Learning\nWeek 3 : Robot Motion Planning\nWeek 4 : Filtering\nWeek 5 : Markov Decision Process\nWeek 6 : Choo-Seok\nWeek 7 : Kinematics\nWeek 8 : Mid-Term\nWeek 9 : Introducing Team Project Competition\nWeek 11 : Literatures related to Team Project Competition\nWeek 12 : How to use Mujoco\nWeek 13 : Robot Learning + Mujoco Simulator\nWeek 14 : PID Controller\nWeek 15 : Robot Learning + Real Robot\nWeek 16 : Team Project Competition Week",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Behavior planning for natural Human-Robot Interaction",
+        "text": "Behavior planning for natural Human-Robot Interaction"
+      },
+      {
+        "label": "Human-Human Interation to Human-Robot Interaction",
+        "text": "Human-Human Interation to Human-Robot Interaction"
+      },
+      {
+        "label": "Task and motion planning",
+        "text": "Task and motion planning"
+      }
+    ]
+  },
+  {
+    "id": "case_07_course1",
+    "cluster": "case_07",
+    "condition": "course1",
+    "lab_id": "17a219bdf39951c186a22b1b72692bb0",
+    "department": "화학과",
+    "professor": "최창혁",
+    "interest": "아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요.",
+    "paper": {
+      "id": "W7204837857",
+      "title": "Atomically Dispersed Cu Sites Promote Facile Iodine Conversion for High‐Performance Zinc–Iodine Batteries",
+      "abstract": "ABSTRACT Aqueous zinc‐iodine (Zn–I 2 ) batteries are attracting attention as next‐generation energy storage systems based on their excellent safety and economic feasibility. However, due to the slow reaction rate of the iodine conversion reaction and the polyiodide shuttle effect, there is a limitation in that the electrochemical reaction efficiency and cyclability are deteriorated. This study attempted to address this problem by applying the Cu‐N 3 @AC electrode, which contains a single‐atom copper (Cu) catalyst in activated carbon (AC). The Cu‐N3 coordination structure serves as dual‐functional active sites that strongly immobilize iodine species and simultaneously promote reversible oxidation and reduction reactions. As a result, the Cu‐N 3 @AC electrode showed a high capacity of 416.17 mAh g cat −1 at 5 A g −1 . It maintained a capacity of 203.4 mAh g cat −1 and a Coulombic efficiency of 99.36% even after 30,000 cycles of a high current density of 10 A g −1 . This excellent performance is attributed to the Cu‐N3 coordination structure, which promotes charge transfer and effectively mitigates polyiodide diffusion. This study demonstrates that electronic structure control of Cu‐based single‐atom catalysts plays a key role in improving the speed and stability of iodine conversion reactions and provides practical design guidelines for the development of a high capacity and stable Zn–I 2 battery.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "BATT524",
+        "title": "에너지전기화학",
+        "description": "This course covers the fundamentals of electrochemistry for materials science and engineering including some important practical applications in energy research area. The lecture begins with an overview of electrode processes showing the way in which the fundamental components of the subject come together in an electrochemical experiment. Then, basic concepts of electrochemistry will be covered such as thermodynamics and potential, electron-transfer kinetics, and mass transfer. The basic concepts are integrated together in treatments of the various practical electrochemical methodologies. Finally, a few important applications of electrochemistry in materials science and engineering discipline will be briefly introduced such as batteries, fuel cells, water electrolysis, corrosion/anti-corrosion and electroplating.",
+        "plan": "- Introduction and overview of electrode processes\n- Potentials and thermodynamics of cells\n- Kinetics of electrode reactions\n- Mass transfer by migration and diffusion\n- Basic potential step methods\n- Potential sweep methods\n- Controlled-current techniques\n- Methods involving forced convection-hydrodynamic methods\n- Techniques based on concepts of impedance\n\n- Applications 1 (Battery)\n- Applications 2 (Fuel cell)\n- Applications 3 (Electrolysis)",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Fundamental understandings of electrocatalysis",
+        "text": "Fundamental understandings of electrocatalysis"
+      },
+      {
+        "label": "Developments of new electrocatalytic materials",
+        "text": "Developments of new electrocatalytic materials"
+      },
+      {
+        "label": "Fuel cells and electrolyzers",
+        "text": "Fuel cells and electrolyzers"
+      }
+    ]
+  },
+  {
+    "id": "case_08_course1",
+    "cluster": "case_08",
+    "condition": "course1",
+    "lab_id": "0338f11c96903a40633ed02cc9426f4f",
+    "department": "생명과학과",
+    "professor": "허윤하",
+    "interest": "배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요.",
+    "paper": {
+      "id": "W4415184415",
+      "title": "Embryonic stem cell-derived extracellular vesicles delay cellular senescence by inhibiting oxidative stress",
+      "abstract": "The accumulation of cells that permanently exit the cell cycle and undergo senescence is a hallmark of aging and predisposes organisms to disease. Emerging evidence suggests extracellular vesicles (EVs) released by pluripotent embryonic stem cells (ESCs) possess therapeutic/regenerative properties with the potential to significantly impact cellular senescence and aging-related disorders. However, the critical next step for taking advantage of the potential benefits offered by ESC-derived EVs will be to unravel the molecular mechanisms responsible for their unique functional effects, which thus far have not been fully defined. Toward that goal, we now identify a signaling pathway essential for EVs shed by ESCs to potently block fibroblasts and astrocytes from undergoing senescence. It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT. This leads to the inhibition of GSK3β activity and stabilization of the transcription factor Nrf2, which counteracts the effects of oxidative stress that would otherwise drive cellular senescence. These findings define a signaling pathway used by ESC-derived EVs to extend cellular lifespan, highlighting their potential application in anti-aging strategies.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "LIFE509",
+        "title": "고급세포생물학",
+        "description": "This course aims to provide graduate students with an in-depth understanding of the mechanisms that govern cell function and cellular processes and also aims to follow up recent advances and emerging concepts in the field of cell biology.",
+        "plan": "",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Tissue repair and regeneration",
+        "text": "Tissue repair and regeneration"
+      },
+      {
+        "label": "Stem cell biology",
+        "text": "Stem cell biology"
+      },
+      {
+        "label": "Intercellular communication & Extracellular vesicles",
+        "text": "Intercellular communication & Extracellular vesicles"
+      }
+    ]
+  },
+  {
+    "id": "case_09_course1",
+    "cluster": "case_09",
+    "condition": "course1",
+    "lab_id": "b59a79cbe921942c5d3909da04708904",
+    "department": "첨단원자력공학부",
+    "professor": "전준구",
+    "interest": "소형모듈원자로 헬리컬 코일 증기발생기 CFD를 빠르게 근사하는 신경 연산자 모델이 실제 계산을 얼마나 줄이는지 궁금해요.",
+    "paper": {
+      "id": "W7162791086",
+      "title": "Neural Operator-Based Surrogate Model for CFD:Helical Coil Steam Generator in Small Modular Reactor",
+      "abstract": "Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs). Computational fluid dynamics (CFD) provides high-fidelity flow analysis, but its computational cost prevents direct use in DT applications. AI-based surrogate modeling has been actively investigated to address this limitation, yet neural operator--based surrogates for CFD-level transient analysis of SMR-specific geometries have not been reported. This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART). Two ROM strategies tailored to each CFD data type were compared, an MLP-based autoencoder (AE) for unstructured mesh data and a convolutional autoencoder (CAE) for structured mesh data, and each was coupled with the deep operator network (DeepONet) to construct the latent DeepONet (L-DeepONet). The Fourier neural operator (FNO) was additionally adopted for comparison. A multi-scale technique was incorporated into both frameworks to mitigate spectral bias and improve the prediction of Kármán vortex streets developing inside the HCSG. The multi-scale L-DeepONet captured the instantaneous periodic vortex dynamics in both velocity and pressure fields, while the FNO and its multi-scale variant predicted the time-averaged mean flow and provided reliable pressure drop estimates. These complementary characteristics provide a practical model-selection guideline that links each architecture to specific DT objectives based on CFD data type and the required level of flow resolution.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "MECH774",
+        "title": "난류유동",
+        "description": "유체 유동내 난류현상에 관심있는 대학원생을 대상으로     i) 난류유동의 해석을 위한 기본개념과 수학적 기법을 함양하고;     ii)난류현상의 기구와 역학적 성질의 물리적 의미를 파악하고자 한다.",
+        "plan": "1 주 : Course information, policies and administratives        I. FUNDAMENTALSOF FLUID TURBULENCE        1.Introduction          Characteristics of turbulent flows          Cartesian tensor : notation and fundamental properties Tensors of",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Model Reduction and Neural Networks",
+        "text": "Model Reduction and Neural Networks"
+      },
+      {
+        "label": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion proble",
+        "text": "Task-aware evolution in physics-informed neural networks: Application to Saint-Venant torsion problems"
+      },
+      {
+        "label": "Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learni",
+        "text": "Efficient prediction of turbulent cross flow in helical coil steam generators of SMR via deep learning-driven reduced-order models. SMR have emerged as next-generation nuclear power system, offering enhanced safety, efficiency, and economic advantages. Among their critical components, HCSGs have been extensively studied for their effective heat exchange capabilities. However, primary-side cross flow within HCSG could induce vortices and turbulent structures between tubes, resulting in flow instabilities that negatively impact overall system stability. Large eddy simulation based CFD can accurately capture this complex behavior but requires fine meshes and short time-steps, leading to high computational costs. In this study, a deep-learning-based reduced-order modeling strategy is proposed to maintain both accuracy and co"
+      }
+    ]
+  },
+  {
+    "id": "case_10_course1",
+    "cluster": "case_10",
+    "condition": "course1",
+    "lab_id": "0195e9ad12189938d2dc6f445aa53c1a",
+    "department": "친환경소재대학원 친환경소재학과",
+    "professor": "이을범",
+    "interest": "입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요.",
+    "paper": {
+      "id": "W4281682208",
+      "title": "Contractor’s Risk Analysis of Engineering Procurement and Construction (EPC) Contracts Using Ontological Semantic Model and Bi-Long Short-Term Memory (LSTM) Technology",
+      "abstract": "The development of intelligent information technology in the era of the fourth industrial revolution requires the EPC (engineering, procurement, and construction) industry to increase productivity through a digital transformation. This study aims to automatically analyze the critical risk clauses in the invitation to bid (ITB) at the bidding stage to strengthen their competitiveness for the EPC contractors. To this end, we developed an automated analysis technology that effectively analyzes a large amount of ITB documents in a short time by applying natural language processing (NLP) and bi-directional long short-term memory (bi-LSTM) algorithms. This study proposes two models. First, the semantic analysis (SA) model is a rule-based approach that applies NLP to extract key risk clauses. Second, the risk level ranking (RLR) model is a train-based approach that ranks the risk impact for each clause by applying bi-LSTM. After developing and training an artificial intelligent (AI)-based ITB analysis model, its performance was evaluated through the actual project data. As a result of validation, the SA model showed an F1 score of 86.4 percent, and the RLR model showed an accuracy of 46.8 percent. The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset. Therefore, this study illustrated that the rule-based approach performed superior to the training-based method. The authors suggest that EPC contractors should apply both the SA and RLR modes in the ITB analysis, as one supplements the other. The two models were embedded in the Engineering Machine-learning Automation Platform (EMAP), a cloud-based platform developed by the authors. Rapid analysis through applying both the rule-based and AI-based automatic ITB analysis technology can contribute to securing timeliness for risk response and supplement possible human mistakes in the bidding stage.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "GIFT714",
+        "title": "Engineering Project Management",
+        "description": "This class introduces the knowledge and skills for the project management in dealing with mega engineering procurement construction (EPC) projects thought the project life cycle processes.\nIt covers some basic features of PM’s elements such as (1) scheduling, (2) contracting, (3) cost, (4) project financing, and (5) risks.\nA few number of case-study examples will be exemplified, utilizing recent research on the data and analysis for industrial megaprojects performances.\nSome PM software basic tools such as for scheduling risk will be introduced through hands-on lab practices.",
+        "plan": "Tentative Topics and Progress\nWeek\tTopic\n1\tEngineering Megaprojects Industry: Trends and Prospects\n2\tEngineering Proejct Life-cycle Process\n3\tEPC Engineering Process\n4\tEngineering PM Practice – Planning and Feasibility\n5\tEngineering PM Practice – Bid and ITB (Invitation to Bid)\n6\tEngineering PM Practice – Contract & Claims Management\n7\tGlobal PM Standards: PM Knowledge Areas and Process Group\n8\tEngineering Project - Procurement and Supply Process\n9\tEngineering Project - Construction and Commissioning Process\n10\tProject Delivery Systems (DBB-DB-EPC-BOT)\n\t11\t\tContract Types (Payments) and Bid Selection Criteria\n12\tEPC Variations Delivery: EP-CM vs converted-LSTK (Lumpsum-turnkey)\n13\tStandard Contracts: FEDIC Model Forms (Red-Silver-Yellow-Orange: Rainbow Suite)\n14\tTerm Project (1): AI/BD based Smart-Engineering PM -1\n15\tTerm Project (2): AI/BD based Smart-Engineering PM -2\n16\tFinal Exam and Summary",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Project Management; Engineering Management",
+        "text": "Project Management; Engineering Management"
+      },
+      {
+        "label": "Oil and Gas, Energy",
+        "text": "Oil and Gas, Energy"
+      },
+      {
+        "label": "Engineering Procurement Construction",
+        "text": "Engineering Procurement Construction"
+      }
+    ]
+  },
+  {
+    "id": "case_11_course1",
+    "cluster": "case_11",
+    "condition": "course1",
+    "lab_id": "0b9f3600cef7f0f180cb1838b22bad04",
+    "department": "수학과 · 의과학전공",
+    "professor": "김진수",
+    "interest": "화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요.",
+    "paper": {
+      "id": "W4412198846",
+      "title": "Noise-robust training of artificial neural networks using chemical reaction networks",
+      "abstract": "Artificial neural networks (NNs) can be implemented using chemical reaction networks (CRNs), where the concentrations of species act as inputs and outputs. In such biochemical computing, noise-robust computing is crucial due to the intrinsic and extrinsic noise present in chemical reactions. Previously suggested CRNs for feed-forward networks often utilized the rectified linear unit or discrete activation functions. However, one concern in this case is the discontinuities of the derivatives of those non-smooth functions, which can cause significant noise disruption during backpropagation. In this study, we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation. All reactions occur in a single pot, and the reactions for training are bimolecular. Our case studies on the XOR, Iris, MNIST datasets, and a non-linear regression model demonstrate that computation via the CRN (i) maintains accuracy despite noise in the reaction rates and the concentration of species and (ii) is insensitive to the choice of the running time and the magnitude of the noise in comparison to NNs with a non-smooth activation function. This work presents a noise-robust NN and backpropagation implemented by CRNs, paving the way for more stable and efficient biochemical computing systems.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "AIGS651",
+        "title": "컴퓨테이셔널인텔리전스",
+        "description": "This is a research class where the student can pursue any research work related to Artificial Intelligence while getting course credit. Lectures will focus on practical AI Neural Network methods, their theoretical foundations, the computations involved and the reason for the use of such computations, amount of computational operations used, their programming methods, and the computer architectures necessary to support such computations. The student will have opportunities to present his/her research work multiple times during the class. The course language is English with Korean summaries.\n(이 과목은 인공지능 관련 연구 과목입니다. 본인이 하고 싶은 인공지능 관련 연구를 하면서 수업 학점을 받을 수 있는 좋은 기회입니다. 강의 내용은 인공지능 방법 중 실질적인 Neural Network 기반 방법 (CNN, RNN 등) 에 사용되는 원리 이론, 연산 방법/이유, 연산량 및 이러한 연산을 잘 지원할 수 있는 컴퓨터 프로그래밍 방법 및 컴퓨터 구조에 대한 내용으로 구성되어 있습니다. 각 학생은 본인의 연구 주제를 정하고 여러번 발표하는 기회가 있을 것입니다. 강의 언어는 영어이지만 한글 요약 및 추가 설명도 있을 것입니다.)",
+        "plan": "0. Course Introduction\n1. Introduction to Neural Networks\n2. MNIST and Neural Network Programming\n3. Code Analysis\n4. Learning using Backpropagation\n5. Main Neural Network Methods\n6. Convolutional Neural Networks\n7. State-of-the-Art (SOTA) Neural Network Methods and Implementations\n8. Neural Network Hardware Implementations",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Stochastically modeled reaction networks",
+        "text": "Stochastically modeled reaction networks"
+      },
+      {
+        "label": "Absolutely robust controllers",
+        "text": "Absolutely robust controllers"
+      },
+      {
+        "label": "Computing rare event probabilities via network modifications",
+        "text": "Computing rare event probabilities via network modifications"
+      }
+    ]
+  },
+  {
+    "id": "case_12_course1",
+    "cluster": "case_12",
+    "condition": "course1",
+    "lab_id": "19b352c9ef06346d69d36e9456cdff0d",
+    "department": "기계공학과",
+    "professor": "이상준",
+    "interest": "하이드로겔 증발기에서 광열·전열 가열을 함께 써서 바닷물 증발량을 높이는 원리가 궁금해요.",
+    "paper": {
+      "id": "W7172411329",
+      "title": "A Hydrogel‐Based Seawater Evaporator for a High Rate of Clean Water Production via Photothermal and Electrothermal Joule Heating‐Assisted Evaporation",
+      "abstract": "Interfacial steam generation (ISG) at the water–air interface is one of the feasible solutions to deal with the global freshwater scarcity driven by pollution, population growth, and climate change. However, salt accumulation on light‐absorbing materials, variable weather conditions, and no sunlight at night reduce the efficacy of ISG technology. To mitigate these challenges, an innovative and simple ISG approach using starch, chitosan, and carbon black‐based hydrogel and a PDMS‐coated carbon cloth is proposed in this study. It combines the synergistic effects of photothermal and electrothermal Joule heating‐assisted evaporation for highly efficient seawater desalination that works in all weather, all day, without salt fouling on the evaporation surface. During desalination experiments, the surface temperature of the evaporator reaches ~40 °C within 10 min, achieving an impressive evaporation rate of 6.619 kg m −2 h −1 under 3 V applied voltage and 1 sun illumination. These advancements pave the way for highly efficient electrothermal heating‐assisted photothermal seawater desalination systems, offering a reliable solution for all‐weather, all‐day desalination to produce freshwater while preventing salt fouling.",
+      "abstract_truncated": false
+    },
+    "courses": [
+      {
+        "id": "CHEB413",
+        "title": "에너지환경 소재 분석 개론",
+        "description": "[Course Overview]\nWith the increasing significance of eco-friendly energy materials, there is a growing demand for a convergent understanding of analytical techniques to characterize materials and elucidate the mechanisms behind performance enhancement. Given the rising complexity of modern materials, an in-depth understanding through multi-dimensional analysis is essential. Accordingly, this course introduces undergraduate students in Chemical Engineering and related convergent disciplines to the current development of various energy materials and the practical application of characterization tools, focusing on their fundamental principles and operational scopes.\n\n[Learning Objectives]\n- Fundamental Principles: Grasp the core principles of various analytical techniques utilized for characterizing energy and environmental materials, specifically for hydrogen production, storage, extraction, utilization, and CO2 reduction.\n- Technical Selection: Evaluate the strengths, limitations, and application ranges of each characterization method to select the most appropriate tools for specific research objectives.\n- Integrated Interpretation: Develop the ability to synthesize diverse analytical datasets to achieve a profound understanding of material properties within the hydrogen economy and carbon capture frameworks.",
+        "plan": "- Introduction to Energy and Environmental Materials\n- Inductively Coupled Plasma Optical Emission Spectroscopy and Mass Spectrometry (ICP-OES and ICP-MS)\n- X-ray Photoelectron, Auger Electron, Ion Scattering, UV Photoelectron Spectroscopy(XPS, AES, ISS, and UPS)\n- Surface Area/Porosity, Adsorption (Physisorption and Chemisorption)\n- Thermal Methods (Temperature-programmed Techniques, and TGA)\n- Infrared, Raman, and UV-Vis Spectroscopy (IR, Raman, and UV-Vis)\n- Electron Microscopy (TEM and SEM)\n- X-ray Diffraction (XRD)",
+        "description_truncated": false,
+        "plan_truncated": false
+      }
+    ],
+    "lab_sources": [
+      {
+        "label": "Diagnosis of Biological Flows & Biomimetics",
+        "text": "Diagnosis of Biological Flows & Biomimetics"
+      },
+      {
+        "label": "Nature-inspired Water Management & Desalination",
+        "text": "Nature-inspired Water Management & Desalination"
+      },
+      {
+        "label": "Particulate matter removal and monitoring",
+        "text": "Particulate matter removal and monitoring"
+      }
+    ]
+  }
+]

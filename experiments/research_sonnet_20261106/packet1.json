@@ -1,0 +1,396 @@
+{
+  "contexts": {
+    "C1-01": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB770",
+          "title": "반도체 소재 및 소자 특론",
+          "description": "This course will provide a fundamental understanding of emerging semiconductors (metal oxide, perovskite, organic)  and related device physics based on a solid understanding of silicon semiconductors and device physics. First, the silicon semiconductor and devices will be reviewed before the mid-term exam. Then the physics of new semiconductors including organic, perovskite, and metal oxide will be covered. The following lecture will be given,\n(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+          "plan": "(1) semiconductor introduction crystal structure.\n(2) density of state\n(3) charge carrier in equilibrium\n(4) charge carrier in non-equilibrium\n(5) charge transport\n(6) pn junction\n(7) metal-semiconductor contact\n(8) MOS and MOSFET\n(9) TFT\n(10) Perovskite materials and devices\n(11) metal oxide  materials and devices\n(12) organic materials and devices",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Semiconductor materials and devices",
+          "text": "Semiconductor materials and devices"
+        },
+        {
+          "label": "Analytical Chemistry and Sensors",
+          "text": "Analytical Chemistry and Sensors"
+        },
+        {
+          "label": "Semiconductor materials and interfaces",
+          "text": "Semiconductor materials and interfaces"
+        }
+      ]
+    },
+    "C1-02": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": [],
+      "lab_sources": [
+        {
+          "label": "Semiconductor materials and devices",
+          "text": "Semiconductor materials and devices"
+        },
+        {
+          "label": "Analytical Chemistry and Sensors",
+          "text": "Analytical Chemistry and Sensors"
+        },
+        {
+          "label": "Semiconductor materials and interfaces",
+          "text": "Semiconductor materials and interfaces"
+        }
+      ]
+    },
+    "C1-03": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "논문 조건을 바꿔가며 오류 보정이 시간에 따른 정밀도 저하를 얼마나 줄이는지 간단한 양자 시뮬레이션으로 비교해 보고 싶어요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "PHYS647",
+          "title": "양자알고리즘",
+          "description": "- Understand the framework of quantum information theory.\n- Understand basic quantum information protocols.\n- Understand key quantum information-theoretic quantities\n- Understand the basic principles of quantum algorithms and NISQ algorithms.\n- Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\n- Read, discuss, and present recent research papers in quantum information theory and related areas.",
+          "plan": "[Part1 (6 weeks)]\n1. Basic of Quantum Information Theory\n- Pure and mixed states\n- Quantum measurements\n- Composite Systems and Entanglement\n- No-cloning theorem\n- Bell theorem\n2, Basic Quantum Information Protocols\n- Single-qubit and multi-qubit gates, universal gate sets\n- Quantum teleportation and superdense coding\n- Entanglement swapping and quantum repeaters\n- Entanglement distillation and purification\n- Quantum key distribution and quantum secret sharing\n3. Quantum Channels and Quantum Entropy\n- CPTP maps and Kraus representations\n- Basic quantum noise channels\n- von Neumann entropy, mutual information, relative entropy\n- Holevo bound and channel capacity\n\n[Part2 (6 weeks)]\n4. Introduction to Quantum Algorithms\n- Oracle model and quantum interference\n- Deutsch-Jozsa algorithm\n- Bernstein-Vazirani algorithm\n- Simon’s algorithm\n- Grover’s algorithm and amplitude amplification\n- Quantum Fourier transform\n- Phase estimation algorithm\n- Shor’s algorithm\n5. NISQ Algorithms\n- NISQ devices and their limitations\n- Variational Quantum Eigensolver\n- Quantum Approximate Optimization Algorithm\n- Parameterized quantum circuits and barren plateaus\n- Digital Hamiltonian simulation and Trotterization\n- Quantum error mitigation\n6. Quantum Error Correction and Fault Tolerance\n- Quantum noise and decoherence\n- Basic quantum error-correcting codes\n- Stabilizer formalism\n- Surface code and fault-tolerant quantum computation\n\n[Part3 (2~3 weeks)]\nProject-based seminar on recent research topics\n- Individual projects.\n- Topic selection based on quantum information theory and related areas\n- Literature review of selected research papers or small research projects.\n- Focus on main ideas, technical methods, significance, limitations, and future directions.\n- Oral presentation and short final ",
+          "description_truncated": false,
+          "plan_truncated": true
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Quantum Information Theory",
+          "text": "Quantum Information Theory"
+        },
+        {
+          "label": "Quantum Computing, Quantum Algorithm",
+          "text": "Quantum Computing, Quantum Algorithm"
+        },
+        {
+          "label": "Quantum Communication, Quantum Sensing",
+          "text": "Quantum Communication, Quantum Sensing"
+        }
+      ]
+    },
+    "C1-04": {
+      "lab_id": "00f52d3209da2832a33781de047e38ed",
+      "department": "인공지능대학원 · 컴퓨터공학과",
+      "professor": "김동우",
+      "interest": "사람의 3차원 관절 움직임을 입력 표현에 따라 어떻게 다르게 인식하는지 궁금해요.",
+      "paper": {
+        "id": "W7163352033",
+        "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+        "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CSED536",
+          "title": "고급 알고리즘",
+          "description": "This course covers advanced topics of algorithms including graph algorithms, geometric algorithms, approximation algorithms, and randomized algorithms. We study how to design efficient algorithms using essential design and analysis methods.",
+          "plan": "Graph Theory and Algorithms\n(1) Introduction: Paths, Cycles, Shortest paths\n(2) Graph Traversal and Tour\n(3) Planar graphs\n(4) Coloring\n(5) Vertex Cover\n(6) Clique\n(7) Independent Set\n(8) Dominating Set\n(9) Tree Decomposition\n(10) NP-hard problems on planar graphs\n(11) Hardness within Class P",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "LLMs in Interactive Environments",
+          "text": "LLMs in Interactive Environments"
+        },
+        {
+          "label": "Graph Learning Enhancement by Structural Modifications",
+          "text": "Graph Learning Enhancement by Structural Modifications"
+        },
+        {
+          "label": "Efficiency in Software Engineering Agents",
+          "text": "Efficiency in Software Engineering Agents"
+        }
+      ]
+    },
+    "C1-05": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "AMSE315",
+          "title": "상평형 및 상변화",
+          "description": "- 시간 및 공간 멀티스케일에서 소재 미세 구조 및 상변화(상전이) 현상을 이해하고자 한다.\n- 소재 상변화를 이해하기 위한 필수적인 기본지식(열역학, 고체 내 확산, 계면의 구조 및 특성)을 숙지한다.\n- 소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\n- 수업에서 배운 내용을 실제 맞춤형 소재 디자인에 적용해 본다.",
+          "plan": "1. Review of classical thermodynamics (1st ~ 2nd)\n  1) Equilibrium\n  2) Single component systems\n  3) Binary solutions and phase diagrams\n  4) The influence of interfaces on equilibrium\n\n2.   Defects and Diffusion (3rd ~ 5th)\n  1) Atomic mechanisms of diffusion\n  2) Interstitial and substitutional diffusion\n  3) Atomic mobility\n  4) High-Diffusivity Path\n\n3.   Surfaces and Interfaces (6th ~ 8th)\n  1) Interfacial free energy\n  2) Solid/Vapor interfaces\n  3) Boundaries in single-phase solids\n  4) Interphase interfaces in solids\n\n4.    Solidification (9th ~ 11th)\n 1) Homogeneous nucleation in pure solids\n 2) Heterogeneous nucleation in pure solids\n 3) Growth of a pure solids\n 4) Alloy solidification\n\n5.    Diffusional transformations in solids (12th ~ 14th)\n  1) Homogeneous nucleation in solids\n  2) Heterogeneous nucleation in solids\n  3) Precipitate growth\n  4) TTT diagrams\n  5) Spinodal Decomposition\n\n6.    Diffusionless transformations (15th)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Inorganic Synthesis",
+          "text": "Inorganic Synthesis"
+        },
+        {
+          "label": "Stretchable Electronics",
+          "text": "Stretchable Electronics"
+        },
+        {
+          "label": "E-skin Sensor System",
+          "text": "E-skin Sensor System"
+        }
+      ]
+    },
+    "C1-06": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": [],
+      "lab_sources": [
+        {
+          "label": "Inorganic Synthesis",
+          "text": "Inorganic Synthesis"
+        },
+        {
+          "label": "Stretchable Electronics",
+          "text": "Stretchable Electronics"
+        },
+        {
+          "label": "E-skin Sensor System",
+          "text": "E-skin Sensor System"
+        }
+      ]
+    },
+    "C1-07": {
+      "lab_id": "17a219bdf39951c186a22b1b72692bb0",
+      "department": "화학과",
+      "professor": "최창혁",
+      "interest": "아연-요오드 전지에서 구리 단일 원자 촉매가 요오드 전환 반응과 셔틀 현상에 어떤 영향을 주는지 궁금해요.",
+      "paper": {
+        "id": "W7204837857",
+        "title": "Atomically Dispersed Cu Sites Promote Facile Iodine Conversion for High‐Performance Zinc–Iodine Batteries",
+        "abstract": "ABSTRACT Aqueous zinc‐iodine (Zn–I 2 ) batteries are attracting attention as next‐generation energy storage systems based on their excellent safety and economic feasibility. However, due to the slow reaction rate of the iodine conversion reaction and the polyiodide shuttle effect, there is a limitation in that the electrochemical reaction efficiency and cyclability are deteriorated. This study attempted to address this problem by applying the Cu‐N 3 @AC electrode, which contains a single‐atom copper (Cu) catalyst in activated carbon (AC). The Cu‐N3 coordination structure serves as dual‐functional active sites that strongly immobilize iodine species and simultaneously promote reversible oxidation and reduction reactions. As a result, the Cu‐N 3 @AC electrode showed a high capacity of 416.17 mAh g cat −1 at 5 A g −1 . It maintained a capacity of 203.4 mAh g cat −1 and a Coulombic efficiency of 99.36% even after 30,000 cycles of a high current density of 10 A g −1 . This excellent performance is attributed to the Cu‐N3 coordination structure, which promotes charge transfer and effectively mitigates polyiodide diffusion. This study demonstrates that electronic structure control of Cu‐based single‐atom catalysts plays a key role in improving the speed and stability of iodine conversion reactions and provides practical design guidelines for the development of a high capacity and stable Zn–I 2 battery.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "BATT524",
+          "title": "에너지전기화학",
+          "description": "This course covers the fundamentals of electrochemistry for materials science and engineering including some important practical applications in energy research area. The lecture begins with an overview of electrode processes showing the way in which the fundamental components of the subject come together in an electrochemical experiment. Then, basic concepts of electrochemistry will be covered such as thermodynamics and potential, electron-transfer kinetics, and mass transfer. The basic concepts are integrated together in treatments of the various practical electrochemical methodologies. Finally, a few important applications of electrochemistry in materials science and engineering discipline will be briefly introduced such as batteries, fuel cells, water electrolysis, corrosion/anti-corrosion and electroplating.",
+          "plan": "- Introduction and overview of electrode processes\n- Potentials and thermodynamics of cells\n- Kinetics of electrode reactions\n- Mass transfer by migration and diffusion\n- Basic potential step methods\n- Potential sweep methods\n- Controlled-current techniques\n- Methods involving forced convection-hydrodynamic methods\n- Techniques based on concepts of impedance\n\n- Applications 1 (Battery)\n- Applications 2 (Fuel cell)\n- Applications 3 (Electrolysis)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Fundamental understandings of electrocatalysis",
+          "text": "Fundamental understandings of electrocatalysis"
+        },
+        {
+          "label": "Developments of new electrocatalytic materials",
+          "text": "Developments of new electrocatalytic materials"
+        },
+        {
+          "label": "Fuel cells and electrolyzers",
+          "text": "Fuel cells and electrolyzers"
+        }
+      ]
+    },
+    "C1-08": {
+      "lab_id": "0195e9ad12189938d2dc6f445aa53c1a",
+      "department": "친환경소재대학원 친환경소재학과",
+      "professor": "이을범",
+      "interest": "입찰 문서에서 계약 위험 조항을 자연어처리와 양방향 LSTM으로 자동 찾아내는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4281682208",
+        "title": "Contractor’s Risk Analysis of Engineering Procurement and Construction (EPC) Contracts Using Ontological Semantic Model and Bi-Long Short-Term Memory (LSTM) Technology",
+        "abstract": "The development of intelligent information technology in the era of the fourth industrial revolution requires the EPC (engineering, procurement, and construction) industry to increase productivity through a digital transformation. This study aims to automatically analyze the critical risk clauses in the invitation to bid (ITB) at the bidding stage to strengthen their competitiveness for the EPC contractors. To this end, we developed an automated analysis technology that effectively analyzes a large amount of ITB documents in a short time by applying natural language processing (NLP) and bi-directional long short-term memory (bi-LSTM) algorithms. This study proposes two models. First, the semantic analysis (SA) model is a rule-based approach that applies NLP to extract key risk clauses. Second, the risk level ranking (RLR) model is a train-based approach that ranks the risk impact for each clause by applying bi-LSTM. After developing and training an artificial intelligent (AI)-based ITB analysis model, its performance was evaluated through the actual project data. As a result of validation, the SA model showed an F1 score of 86.4 percent, and the RLR model showed an accuracy of 46.8 percent. The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset. Therefore, this study illustrated that the rule-based approach performed superior to the training-based method. The authors suggest that EPC contractors should apply both the SA and RLR modes in the ITB analysis, as one supplements the other. The two models were embedded in the Engineering Machine-learning Automation Platform (EMAP), a cloud-based platform developed by the authors. Rapid analysis through applying both the rule-based and AI-based automatic ITB analysis technology can contribute to securing timeliness for risk response and supplement possible human mistakes in the bidding stage.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "GIFT714",
+          "title": "Engineering Project Management",
+          "description": "This class introduces the knowledge and skills for the project management in dealing with mega engineering procurement construction (EPC) projects thought the project life cycle processes.\nIt covers some basic features of PM’s elements such as (1) scheduling, (2) contracting, (3) cost, (4) project financing, and (5) risks.\nA few number of case-study examples will be exemplified, utilizing recent research on the data and analysis for industrial megaprojects performances.\nSome PM software basic tools such as for scheduling risk will be introduced through hands-on lab practices.",
+          "plan": "Tentative Topics and Progress\nWeek\tTopic\n1\tEngineering Megaprojects Industry: Trends and Prospects\n2\tEngineering Proejct Life-cycle Process\n3\tEPC Engineering Process\n4\tEngineering PM Practice – Planning and Feasibility\n5\tEngineering PM Practice – Bid and ITB (Invitation to Bid)\n6\tEngineering PM Practice – Contract & Claims Management\n7\tGlobal PM Standards: PM Knowledge Areas and Process Group\n8\tEngineering Project - Procurement and Supply Process\n9\tEngineering Project - Construction and Commissioning Process\n10\tProject Delivery Systems (DBB-DB-EPC-BOT)\n\t11\t\tContract Types (Payments) and Bid Selection Criteria\n12\tEPC Variations Delivery: EP-CM vs converted-LSTK (Lumpsum-turnkey)\n13\tStandard Contracts: FEDIC Model Forms (Red-Silver-Yellow-Orange: Rainbow Suite)\n14\tTerm Project (1): AI/BD based Smart-Engineering PM -1\n15\tTerm Project (2): AI/BD based Smart-Engineering PM -2\n16\tFinal Exam and Summary",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Project Management; Engineering Management",
+          "text": "Project Management; Engineering Management"
+        },
+        {
+          "label": "Oil and Gas, Energy",
+          "text": "Oil and Gas, Energy"
+        },
+        {
+          "label": "Engineering Procurement Construction",
+          "text": "Engineering Procurement Construction"
+        }
+      ]
+    }
+  },
+  "answers": [
+    {
+      "id": "R1-001",
+      "context_id": "C1-07",
+      "answer": "{\n  \"question\": \"Cu-N3 단일 원자 촉매 탄소 전극의 요오드 전환 속도와 폴리요오드 확산 억제 효과는, 순환전압전류법(CV) 주사속도 의존성과 확산계수 분석으로 Cu 없는 활성탄(AC) 대조군 대비 정량적으로 구분될 수 있는가?\",\n  \"paper_id\": \"W7204837857\",\n  \"paper_quote\": \"The Cu‐N3 coordination structure serves as dual‐functional active sites that strongly immobilize iodine species and simultaneously promote reversible oxidation and reduction reactions.\",\n  \"paper_explanation\": \"논문 사실: Cu‐N3@AC가 요오드 종을 고정하고 가역적 산화·환원을 촉진하며 폴리요오드 확산을 완화한다고 보고함. 제안 연구: 이 주장을 CV 주사속도 분석(Randles–Ševčík 등)으로 속도론·물질전달 관점에서 공개 데이터나 문헌값으로 재해석해 보는 것이며, 논문이 이 분석을 했다는 뜻은 아님.\",\n  \"course_id\": \"BATT524\",\n  \"course_quote\": \"Potential sweep methods\",\n  \"course_connection\": \"잠정적 연결: 강의 계획의 전위 주사법, 전자전달 속도론, 확산에 의한 물질전달 주제가 CV 피크 전류–주사속도 관계 해석에 쓰일 수 있음. 다만 이 강의가 셔틀 현상 분석을 직접 다루는지는 불분명함.\",\n  \"first_step\": \"논문 본문과 보충자료에서 CV 곡선, 주사속도별 피크 전류, 확산계수 관련 그림·표가 있는지 확인하고, 있는 값만 표로 정리한다. 이어 피크 전류 대 주사속도 제곱근 또는 주사속도의 log–log 기울기를 계산하는 간단한 스프레드시트 틀을 만든다. 데이터가 없으면 해당 항목은 확인 불가로 표시한다.\",\n  \"limitations\": \"원자료 접근 여부와 CV 수치 추출 가능성이 불확실함. 그림에서 읽은 값은 오차가 큼. 다공성 탄소 전극에서는 단순 확산 모델이 맞지 않을 수 있음. 셔틀 억제는 CV만으로 입증하기 어렵고 자가방전이나 분리막 투과 실험이 별도로 필요함. 실험 수행 가능성과 연구실의 현재 프로젝트 및 참여 허락 여부는 알 수 없음.\"\n}"
+    },
+    {
+      "id": "R1-002",
+      "context_id": "C1-04",
+      "answer": "{\n  \"question\": \"작은 공개 3D 골격 행동 데이터(예: ANUBIS의 일부 행동 범주)에서, 관절 좌표를 뼈 벡터로 바꾸는 입력 표현 변경(골격을 관절=정점, 뼈=간선인 그래프로 모델링)이 단순 분류기의 행동 범주별 정확도를 어떻게 다르게 만드는가?\",\n  \"paper_id\": \"W7163352033\",\n  \"paper_quote\": \"joint coordinates, bone vectors, motion flows, and extended representations\",\n  \"paper_explanation\": \"논문이 말하는 사실: 골격 행동 인식 방법을 입력 특징 유형(관절 좌표, 뼈 벡터, 모션 흐름, 확장 표현)별로 분류하고, ANUBIS에서 특징 유형이 102개 행동 범주의 성능에 미치는 영향을 분석했으며 강한 행동-특징 의존성을 보고했다고 초록에 쓰여 있다. 제안(추측): 위 질문의 소규모 재현·비교 실험은 내가 제안하는 것이며 논문이 수행한 내용이 아니다.\",\n  \"course_id\": \"CSED536\",\n  \"course_quote\": \"graph algorithms, geometric algorithms, approximation algorithms, and randomized algorithms\",\n  \"course_connection\": \"연결은 약하고 잠정적이다. 제안: 골격을 그래프(트리 구조)로 보고 관절 좌표에서 뼈 벡터를 부모-자식 간선 순회로 계산하는 전처리를 구현할 수 있다. 다만 논문 초록은 그래프 알고리즘을 언급하지 않고, 이 과목의 계획(경로, 순회, 채색 등)이 인식 성능 차이를 설명한다고 확인되지 않았다. 표현별 인식 차이 자체와의 관련성은 불명확하다.\",\n  \"first_step\": \"논문 초록에 안내된 ANUBIS 웹페이지(https://yliu1082.github.io/ANUBIS/)에서 데이터 형식, 관절 수, 라이선스를 확인한다. 접근이 어려우면 공개된 다른 골격 데이터의 소규모 샘플을 사용한다. 그다음 관절 연결 목록을 직접 정의하고, 좌표를 뼈 벡터(자식−부모)로 바꾸는 짧은 스크립트를 작성해 두 표현의 형태를 비교한다.\",\n  \"limitations\": \"ANUBIS 전체 데이터의 크기, 접근 조건, 사용 가능한 관절 형식은 확인하지 못했다. 소규모 단순 분류기 결과가 논문의 최신 모델 결과와 같은 경향일지는 알 수 없다. 이 과목이 이 주제에 직접 필요한지, 연구실이 이 방향을 진행 중이거나 허용하는지도 확인되지 않았다. 입력된 연구실 주제(LLM, 그래프 학습 등)와의 관련성도 불확실하다.\"\n}"
+    },
+    {
+      "id": "R1-003",
+      "context_id": "C1-06",
+      "answer": "수강 표시: \n지금 시작 | Inorganic Synthesis 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Inorganic Synthesis\n지금 시작 | Stretchable Electronics 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Stretchable Electronics\n지금 시작 | E-skin Sensor System 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: E-skin Sensor System\n추가 준비 | Inorganic Synthesis의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 나노화학, 나노화학, 나노화학개론, 특론: 스트레쳐블 유연 전자공학 | 연구실 원문: Inorganic Synthesis\n추가 준비 | Stretchable Electronics의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 나노화학, 나노화학, 나노화학개론, 특론: 스트레쳐블 유연 전자공학 | 연구실 원문: Stretchable Electronics\n추가 준비 | E-skin Sensor System의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 나노화학, 나노화학, 나노화학개론, 특론: 스트레쳐블 유연 전자공학 | 연구실 원문: E-skin Sensor System"
+    },
+    {
+      "id": "R1-004",
+      "context_id": "C1-02",
+      "answer": "{\n  \"question\": \"Ti/TiO2/n-Ge 접촉에서 계면 TiO2에 탄소를 주입하면 RTA 온도(550–600 °C)에 따라 쇼트키 장벽 높이(SBH)와 비접촉저항(ρc)의 변화가 어떻게 달라지며, 그 차이가 산소 확산 억제와 어떻게 연결되는가?\",\n  \"paper_id\": \"W4290989670\",\n  \"paper_quote\": \"The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon.\",\n  \"paper_explanation\": \"[논문 사실] 초록에 따르면 RTA 550 °C 이상에서 SBH와 ρc가 증가했고, 이는 계면 TiO2층의 분해 때문이라고 설명됩니다. 탄소를 주입하면 600 °C까지 SBH와 ρc가 상대적으로 안정적이었고, EELS 매핑에서 산소 확산이 억제되었습니다. [제안] 위 질문은 이 결과를 정리·비교하는 학생 수준의 문헌 기반 연구 제안이며 논문이 직접 다룬 질문은 아닙니다.\",\n  \"course_id\": \"\",\n  \"course_quote\": \"\",\n  \"course_connection\": \"선택된 과목이 없습니다(no course selected). 따라서 과목 개념과의 연결은 확인되지 않았으며(unconfirmed), 수강 여부로 학생의 역량을 추정하지 않았습니다.\",\n  \"first_step\": \"[제안] 논문 초록의 문장을 'RTA 온도–SBH/ρc–TEM/EELS 증거' 3열 표로 정리하세요. 탄소 없는 시료와 탄소 주입 시료를 나눠 적고, 본문에서 확인할 수치와 그림 번호를 따로 표시하세요. 특별한 장비나 접근 권한은 필요하지 않습니다.\",\n  \"limitations\": \"입력에는 초록만 있어 구체적 수치, 탄소 주입 조건, 시료 수, 측정 오차를 알 수 없습니다. 탄소가 산소 확산을 억제하는 미시적 메커니즘은 초록만으로는 확정되지 않습니다. 과목 정보가 없어 수업 연계는 미확인입니다. 이정수 교수 연구실의 현재 프로젝트 여부나 참여 가능성도 알 수 없습니다.\"\n}"
+    },
+    {
+      "id": "R1-005",
+      "context_id": "C1-08",
+      "answer": "수강 표시: Engineering Project Management\n지금 시작 | Project Management; Engineering Management 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Project Management; Engineering Management\n지금 시작 | Oil and Gas, Energy 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Oil and Gas, Energy\n지금 시작 | Engineering Procurement Construction 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Engineering Procurement Construction\n추가 준비 | Project Management; Engineering Management의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: Cost Control: Estimation & Control, 에너지시스템, Contracts & Disputes Management, 열역학특론 | 연구실 원문: Project Management; Engineering Management\n추가 준비 | Oil and Gas, Energy의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: Cost Control: Estimation & Control, 에너지시스템, Contracts & Disputes Management, 열역학특론 | 연구실 원문: Oil and Gas, Energy\n추가 준비 | Engineering Procurement Construction의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: Cost Control: Estimation & Control, 에너지시스템, Contracts & Disputes Management, 열역학특론 | 연구실 원문: Engineering Procurement Construction"
+    },
+    {
+      "id": "R1-006",
+      "context_id": "C1-03",
+      "answer": "수강 표시: 양자알고리즘\n지금 시작 | Quantum Information Theory 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Quantum Information Theory\n지금 시작 | Quantum Computing, Quantum Algorithm 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Quantum Computing, Quantum Algorithm\n지금 시작 | Quantum Communication, Quantum Sensing 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Quantum Communication, Quantum Sensing\n추가 준비 | Quantum Information Theory의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 양자알고리즘, 양자컴퓨팅 및 양자시물레이션, 양자컴퓨팅 및 양자시물레이션, 양자물리와 양자기술 | 연구실 원문: Quantum Information Theory\n추가 준비 | Quantum Computing, Quantum Algorithm의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 양자알고리즘, 양자컴퓨팅 및 양자시물레이션, 양자컴퓨팅 및 양자시물레이션, 양자물리와 양자기술 | 연구실 원문: Quantum Computing, Quantum Algorithm\n추가 준비 | Quantum Communication, Quantum Sensing의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 양자알고리즘, 양자컴퓨팅 및 양자시물레이션, 양자컴퓨팅 및 양자시물레이션, 양자물리와 양자기술 | 연구실 원문: Quantum Communication, Quantum Sensing"
+    },
+    {
+      "id": "R1-007",
+      "context_id": "C1-04",
+      "answer": "수강 표시: 고급 알고리즘\n지금 시작 | LLMs in Interactive Environments 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: LLMs in Interactive Environments\n지금 시작 | Graph Learning Enhancement by Structural Modifications 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n지금 시작 | Efficiency in Software Engineering Agents 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Efficiency in Software Engineering Agents\n추가 준비 | LLMs in Interactive Environments의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: LLMs in Interactive Environments\n추가 준비 | Graph Learning Enhancement by Structural Modifications의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Graph Learning Enhancement by Structural Modifications\n추가 준비 | Efficiency in Software Engineering Agents의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 고급 알고리즘, 신뢰할 수 있는 기계학습, 신뢰할 수 있는 기계학습, 특론: 효율적인 인공지능 모델 | 연구실 원문: Efficiency in Software Engineering Agents"
+    },
+    {
+      "id": "R1-008",
+      "context_id": "C1-08",
+      "answer": "{\n  \"question\": \"EPC 입찰 문서(ITB)의 위험 조항 탐지에서, 규칙 기반 방식과 양방향 LSTM 방식은 학습 데이터에 없던 조항 유형에 대해 각각 얼마나 성능이 달라지는지, 공개된 표준계약 조항(예: FIDIC류 양식 문구)을 이용해 소규모로 비교할 수 있는가?\",\n  \"paper_id\": \"W4281682208\",\n  \"paper_quote\": \"The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset.\",\n  \"paper_explanation\": \"논문 사실: 규칙 기반 SA 모델은 F1 86.4%, bi-LSTM 기반 RLR 모델은 정확도 46.8%였고, 저자들은 평가용 ITB에 학습 데이터에 없던 조항이 있었던 점을 낮은 성능의 이유로 설명합니다. 제안(연구 제안일 뿐 논문 내용 아님): 미학습 조항 유형에 대한 일반화 차이를 소규모 공개 텍스트로 비교해 보는 것입니다.\",\n  \"course_id\": \"GIFT714\",\n  \"course_quote\": \"It covers some basic features of PM’s elements such as (1) scheduling, (2) contracting, (3) cost, (4) project financing, and (5) risks.\",\n  \"course_connection\": \"강의 설명이 계약과 리스크를 PM 요소로 다루고, 계획표에 \\\"Bid and ITB (Invitation to Bid)\\\"(5주차)와 \\\"Contract & Claims Management\\\"(6주차)가 있어 논문의 ITB 위험 조항 분석과 주제상 연결됩니다. 다만 강의가 NLP나 LSTM을 직접 가르치는지는 설명만으로 확인되지 않습니다. 14~15주차 \\\"AI/BD based Smart-Engineering PM\\\" 텀프로젝트와 맞을 가능성은 있으나, 이는 추정이며 미확인입니다. 수강 여부로 학생의 역량을 추론하지 않습니다.\",\n  \"first_step\": \"논문 본문을 구해 SA와 RLR 모델의 입력, 라벨 정의, 평가 방식을 표로 정리하세요. 그다음 공개된 계약 조항 문서 몇 개를 골라, 위험 키워드 규칙을 직접 적어 보고 어떤 조항이 규칙에 걸리는지 수작업으로 표시해 보세요. 특별한 접근 권한은 필요 없습니다.\",\n  \"limitations\": \"논문의 실제 데이터, 라벨, 코드, EMAP 플랫폼 접근 가능 여부는 알 수 없습니다. 공개 표준계약 문구가 실제 ITB를 대표하는지 불확실하고, 라벨링 기준과 소규모 표본의 신뢰도도 미확인입니다. 강의가 텍스트 분석 기법을 다루는지, 텀프로젝트 주제로 허용되는지도 확인되지 않았습니다. 연구실이 이 주제를 현재 진행 중이라거나 참여가 허가되었다는 근거는 없습니다.\"\n}"
+    },
+    {
+      "id": "R1-009",
+      "context_id": "C1-02",
+      "answer": "수강 표시: \n지금 시작 | Semiconductor materials and devices 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Semiconductor materials and devices\n지금 시작 | Analytical Chemistry and Sensors 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Analytical Chemistry and Sensors\n지금 시작 | Semiconductor materials and interfaces 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Semiconductor materials and interfaces\n추가 준비 | Semiconductor materials and devices의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 초소형기전공학개론, 스마트 연성재료 공학, Density Functional Theory for Battery, 반도체 소재 및 소자 특론 | 연구실 원문: Semiconductor materials and devices\n추가 준비 | Analytical Chemistry and Sensors의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 초소형기전공학개론, 스마트 연성재료 공학, Density Functional Theory for Battery, 반도체 소재 및 소자 특론 | 연구실 원문: Analytical Chemistry and Sensors\n추가 준비 | Semiconductor materials and interfaces의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 초소형기전공학개론, 스마트 연성재료 공학, Density Functional Theory for Battery, 반도체 소재 및 소자 특론 | 연구실 원문: Semiconductor materials and interfaces"
+    },
+    {
+      "id": "R1-010",
+      "context_id": "C1-08",
+      "answer": "{\n  \"question\": \"공개된 계약서·입찰 조항 샘플(예: FIDIC 표준 약관)에서, 규칙 기반 키워드/패턴 추출과 소규모 bi-LSTM 분류기 중 어느 쪽이 '위험 조항' 식별에서 더 높은 F1을 보이며, 학습 데이터에 없는 조항 유형에서는 성능이 얼마나 떨어지는가?\",\n  \"paper_id\": \"W4281682208\",\n  \"paper_quote\": \"Therefore, this study illustrated that the rule-based approach performed superior to the training-based method.\",\n  \"paper_explanation\": \"논문이 보고한 사실: ITB의 위험 조항을 NLP 규칙 기반 SA 모델(F1 86.4%)과 bi-LSTM 기반 RLR 모델(정확도 46.8%)로 분석했고, 학습 데이터에 없던 조항 때문에 RLR 성능이 낮았다고 설명함. 제안하는 연구(논문의 내용 아님): 공개 문서로 두 접근을 축소 재현·비교하고 미학습 조항 유형에 대한 일반화를 점검하는 것.\",\n  \"course_id\": \"GIFT714\",\n  \"course_quote\": \"Engineering Project Management\",\n  \"course_connection\": \"수업 계획의 5주차(Bid and ITB), 6주차(Contract & Claims Management), 13주차(FIDIC 표준계약)가 입찰·계약 위험 조항의 도메인 이해와 라벨링 기준 설정에 쓰일 수 있고, 14~15주차 AI/BD 기반 스마트 엔지니어링 PM 텀프로젝트와 연결 가능성이 있음. 다만 실제 수업에서 NLP 실습이 다뤄지는지는 불분명함.\",\n  \"first_step\": \"공개적으로 구할 수 있는 표준 계약 약관 일부(또는 직접 작성한 가상 조항 50~100개)를 모아 스프레드시트에 정리하고, '위험 있음/없음'과 위험 유형(예: 지체상금, 책임, 변경)을 정의한 간단한 라벨링 기준표를 만든 뒤, 키워드 규칙 몇 개로 먼저 baseline 추출을 해 보기.\",\n  \"limitations\": \"논문의 ITB 데이터, 학습 데이터, EMAP 플랫폼은 접근 가능한지 알 수 없음. 공개 문서의 라이선스와 양, 라벨 신뢰도가 불확실하고 소규모 데이터에서는 bi-LSTM 결과가 불안정할 수 있음. 해당 연구실이 이 주제를 진행 중인지, 지도나 협업이 가능한지는 알 수 없음. 수업 내용이 실제로 얼마나 도움이 될지도 불확실함.\"\n}"
+    },
+    {
+      "id": "R1-011",
+      "context_id": "C1-06",
+      "answer": "{\n  \"question\": \"공개된 문헌 데이터에서, 층상 이방성 금속 칼코겐화물(예: 1D/2D 구조 계열)의 결정 방향(면내 이방성 vs. 면간 방향)과 보고된 전기 전도도 또는 수소발생반응(HER) 과전위 사이에 일관된 경향이 있는가?\",\n  \"paper_id\": \"W4318693490\",\n  \"paper_quote\": \"The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest\",\n  \"paper_explanation\": \"논문 사실: 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성으로 주목받고, 합성·물성 조절·응용을 개관한다는 점입니다. 제안 연구(방향별 특성 경향의 문헌 비교)는 이 논문이 직접 수행한 분석이 아니라 학생 규모로 새로 설정한 질문입니다.\",\n  \"course_id\": \"\",\n  \"course_quote\": \"\",\n  \"course_connection\": \"선택된 과목이 없어 연결은 설정하지 않았고, 학생의 보유 지식이나 수강 이력도 추정하지 않았습니다.\",\n  \"first_step\": \"해당 리뷰의 결정 구조 및 전자·촉매 응용 부분에서 대상 물질 5~10개를 골라, 결정 구조, 측정 방향, 전도도 또는 HER 과전위, 시료 형태(단결정/박막/나노시트)를 스프레드시트로 정리하고 원 출처 논문을 표시하세요.\",\n  \"limitations\": \"리뷰 초록만으로는 개별 수치 데이터를 알 수 없고, 논문마다 측정 조건·시료 형태·결함이 달라 직접 비교가 어려울 수 있습니다. 방향별 데이터가 충분히 보고되어 있는지도 불확실합니다. 이 제안은 해당 연구실의 현재 프로젝트나 참여 가능성을 의미하지 않습니다.\"\n}"
+    },
+    {
+      "id": "R1-012",
+      "context_id": "C1-05",
+      "answer": "{\n  \"question\": \"공개 문헌에서 보고된 층상 이방성 금속 칼코겐화물(예: 1D/2D MC)의 합성 방식(용액상·기상·박리)에 따라 결정 방향·결함 형성과 촉매 활성(예: 과전압) 보고값에 어떤 경향의 차이가 있는지 체계적으로 비교할 수 있는가?\",\n  \"paper_id\": \"W4318693490\",\n  \"paper_quote\": \"The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs)\",\n  \"paper_explanation\": \"논문 사실: 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성을 보이며, 합성·변조·응용을 개괄한다고 초록에 서술됨. 제안 연구(합성법별 방향·결함과 촉매 성능의 정량 비교)는 초록에 없는 학생 수준의 새로운 문헌 조사 과제임.\",\n  \"course_id\": \"AMSE315\",\n  \"course_quote\": \"소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\",\n  \"course_connection\": \"잠정적 연결: 용액상·기상 합성에서의 핵생성·성장 개념으로, 합성 경로에 따라 결정 방향성과 결함이 달라지는 이유를 해석해 볼 수 있음. 다만 이 수업이 층상 칼코겐화물을 직접 다루는지는 불분명하며, 전자·촉매 특성과의 연결은 별도 문헌 지식이 필요함.\",\n  \"first_step\": \"해당 리뷰 논문의 합성·응용 부분에서 인용된 대표 논문 10~15편을 골라 표를 만들고, 물질, 합성법, 형상(1D/2D), 노출 결정면 또는 방향, 결함 정보, 촉매 반응과 성능 지표를 정리한다. 그 뒤 핵생성·성장 관점에서 가설 한두 개를 세운다.\",\n  \"limitations\": \"문헌마다 측정 조건과 성능 지표가 달라 직접 비교가 어려울 수 있음. 초록만으로는 구체적 수치나 인과관계를 알 수 없고 전문 열람 가능 여부도 불확실함. 연구실의 현재 프로젝트나 참여 가능 여부는 알 수 없으며 허락을 가정하지 않음. 수업 수강 수준과 배경지식도 추정하지 않음.\"\n}"
+    },
+    {
+      "id": "R1-013",
+      "context_id": "C1-07",
+      "answer": "수강 표시: 에너지전기화학\n지금 시작 | Fundamental understandings of electrocatalysis 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Fundamental understandings of electrocatalysis\n지금 시작 | Developments of new electrocatalytic materials 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Developments of new electrocatalytic materials\n지금 시작 | Fuel cells and electrolyzers 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Fuel cells and electrolyzers\n추가 준비 | Fundamental understandings of electrocatalysis의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 전기동역학, Carbon-based materials, Organic energy materials, 콜로이드 및 계면현상 개론 | 연구실 원문: Fundamental understandings of electrocatalysis\n추가 준비 | Developments of new electrocatalytic materials의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 전기동역학, Carbon-based materials, Organic energy materials, 콜로이드 및 계면현상 개론 | 연구실 원문: Developments of new electrocatalytic materials\n추가 준비 | Fuel cells and electrolyzers의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 전기동역학, Carbon-based materials, Organic energy materials, 콜로이드 및 계면현상 개론 | 연구실 원문: Fuel cells and electrolyzers"
+    },
+    {
+      "id": "R1-014",
+      "context_id": "C1-06",
+      "answer": "{\n  \"question\": \"층상 1D/2D 이방성 금속 칼코겐화물에서 결정 구조의 대칭성과 방향성(이방성)은 전자 특성과 촉매 특성의 차이를 어떻게 다르게 만드는가를, 리뷰에 나온 대표 물질들을 비교해 정리할 수 있는가?\",\n  \"paper_id\": \"W4318693490\",\n  \"paper_quote\": \"The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs)\",\n  \"paper_explanation\": \"논문 사실: 초록은 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성을 보이며, 기본 결정 구조와 물성, 합성, 조절 전략, 응용을 개관한다고 서술한다. 제안(연구 아이디어): 구조 방향성과 특성 차이의 구체적 인과관계는 초록만으로 확인되지 않으므로, 본문에서 물질별로 비교하는 문헌 정리를 제안한다.\",\n  \"course_id\": \"\",\n  \"course_quote\": \"\",\n  \"course_connection\": \"선택된 과목 없음. 따라서 수업 개념과의 연결은 확인되지 않았고, 수강 여부나 역량도 추론하지 않는다.\",\n  \"first_step\": \"논문 본문에서 결정 구조 소개 부분과 전자·촉매 응용 부분을 찾아, 물질(예: 1D 및 2D 사례)별로 '결정 구조 특징 / 방향성 관련 서술 / 전자 특성 / 촉매 특성'을 담은 비교표를 직접 작성한다. 공개 접근 가능한 본문 범위 내에서만 진행한다.\",\n  \"limitations\": \"논문 본문을 아직 보지 않아 어떤 물질이 다뤄지는지, 방향성과 특성 사이의 인과가 실험·계산 중 무엇으로 뒤받침되는지 불확실하다. 선택된 과목이 없어 수업 연결은 미확인이다. 연구실의 현재 프로젝트나 지도 가능 여부, 참여 허가에 대한 정보는 없으며 이를 주장하지 않는다. 제시된 연구실 키워드(Inorganic Synthesis 등)와의 관련성도 추가 확인이 필요하다.\"\n}"
+    },
+    {
+      "id": "R1-015",
+      "context_id": "C1-05",
+      "answer": "{\n  \"question\": \"이방성 금속 칼코겐화물(1D/2D)의 용액상·기상 합성 사례에서, 결정 차원(1D vs 2D)의 차이를 핵생성·성장 및 계면에너지 관점으로 설명하는 근거가 문헌에 어느 정도 있는지, 대표 3~4개 소재에 한정해 비교할 수 있는가?\",\n  \"paper_id\": \"W4318693490\",\n  \"paper_quote\": \"Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation.\",\n  \"paper_explanation\": \"논문 사실(초록 기준): 이방성 MC의 합성 경로(용액상, 기상, 박리)가 정리되어 있고, 차원·상·조성·결함·이종구조 조절 방법과 전자·촉매 등 응용이 다뤄진다고 서술됨. 제안(추정): 합성 경로별 결과 차이를 핵생성·성장 틀로 재해석해 보는 것은 초록에 명시되지 않은 연구 제안이며, 본문 확인 전에는 논문이 이를 뒷받침하는지 미확인.\",\n  \"course_id\": \"AMSE315\",\n  \"course_quote\": \"소재 합성시 일어나는 상전이의 (액체→고체, 고체→고체) Nucleation, Growth 과정을 과학적 언어를 이용하여 묘사한다.\",\n  \"course_connection\": \"잠정적 연결: 강의의 핵생성·성장 및 계면 자유에너지(계획의 Interfacial free energy, Solidification) 개념은 합성 경로별 결정 형상 차이를 서술하는 언어로 쓸 수 있을 가능성이 있음. 다만 강의가 층상 칼코겐화물이나 이방성을 직접 다룬다는 근거는 입력에 없고, 논문이 이런 설명을 제시하는지도 불확실함. 수강 여부로 학생의 역량을 추정하지 않음.\",\n  \"first_step\": \"논문 본문(또는 초록·목차)에서 용액상 및 기상 합성 절을 찾아 사례 소재 3~4개를 고르고, 각 사례의 합성 조건, 결과 차원(1D/2D), 저자가 제시한 성장 원인 설명을 표로 정리한다. 이후 그 설명이 핵생성·성장·계면에너지 용어로 표현 가능한지 항목별로 '가능/불명확'을 표시한다.\",\n  \"limitations\": \"논문 본문을 확인하지 않아 성장 기구 설명의 유무와 깊이를 알 수 없음. 전자·촉매 특성 차이와 합성 메커니즘을 연결할 근거는 별도 문헌이 필요할 수 있음. 강의 내용이 층상 구조 결정학에 충분히 적용되는지 미확인. 연구실의 현재 프로젝트, 참여 허용 여부, 장비 접근성은 알 수 없고 주장하지 않음.\"\n}"
+    },
+    {
+      "id": "R1-016",
+      "context_id": "C1-03",
+      "answer": "{\n  \"question\": \"이 논문의 순수 위상 소실(dephasing) 위상추정 예시를 단일 큐비트 수준으로 단순 시뮬레이션할 때, 보정률 비율 R과 차수 c를 바꾸면 시간 T에 따른 정밀도 저하(하이젠베르크 스케일링에서의 이탈)가 어떻게 달라지는가?\",\n  \"paper_id\": \"W4417091791\",\n  \"paper_quote\": \"the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate\",\n  \"paper_explanation\": \"논문 사실: 잡음의 모든 Lindblad 연산자가 신호 해밀토니안과 교환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC가 유한한 R로 0≤t≤T 구간에서 HS를 근사적으로 보존하며 오차는 ϵ=O(κT/R^c)로 스케일한다고 주장합니다. 또한 dephasing 잡음 위상추정으로 수치 검증했다고 합니다. 제안(연구 제안일 뿐): 이를 단순 모델로 재현·비교하는 것이며, 논문의 구체적 모델이나 결과 수치는 초록만으로 확인되지 않습니다.\",\n  \"course_id\": \"PHYS647\",\n  \"course_quote\": \"Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\",\n  \"course_connection\": \"부분적으로 연결됩니다. 강의 계획의 Basic quantum noise channels, Quantum noise and decoherence, Basic quantum error-correcting codes, Phase estimation algorithm이 논문의 dephasing 잡음, 오류 보정, 위상추정 주제와 개념상 맞닿습니다. 다만 AutoQEC(자율 보정, Lindblad 소산 설계)와 양자 계측의 HS는 강의 설명에 명시되지 않아, 강의가 이를 직접 다루는지는 미확인입니다. 수강 이력으로 학생의 실력을 추정하지 않습니다.\",\n  \"first_step\": \"논문 본문에서 dephasing 위상추정 예시의 모델(해밀토니안, Lindblad 연산자, 보정 소산 형태, 정밀도 지표)을 정리하세요. 그다음 Python(QuTiP 또는 numpy로 직접 구현한 Lindblad 방정식)으로 보정 없는 경우의 큐비트 N개 GHZ형 상태 정밀도 대 t를 먼저 그려 기준선을 만드세요.\",\n  \"limitations\": \"논문 전문을 확인하지 않아 구체적 코드(보정 소산 연산자, 제약 선형방정식의 해)와 c 값별 구현 가능성은 불명입니다. 단순 시뮬레이션이 논문 결과를 재현하는지, 계산 비용(큐비트 수 증가)이 감당 가능한지도 미확인입니다. 연구실의 현재 프로젝트 여부나 지도 가능성은 알 수 없으며, 이는 학생 수준의 제안일 뿐입니다.\"\n}"
+    },
+    {
+      "id": "R1-017",
+      "context_id": "C1-05",
+      "answer": "수강 표시: 상평형 및 상변화\n지금 시작 | Inorganic Synthesis 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Inorganic Synthesis\n지금 시작 | Stretchable Electronics 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Stretchable Electronics\n지금 시작 | E-skin Sensor System 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: E-skin Sensor System\n추가 준비 | Inorganic Synthesis의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 나노화학, 나노화학, 나노화학개론, 특론: 스트레쳐블 유연 전자공학 | 연구실 원문: Inorganic Synthesis\n추가 준비 | Stretchable Electronics의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 나노화학, 나노화학, 나노화학개론, 특론: 스트레쳐블 유연 전자공학 | 연구실 원문: Stretchable Electronics\n추가 준비 | E-skin Sensor System의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 나노화학, 나노화학, 나노화학개론, 특론: 스트레쳐블 유연 전자공학 | 연구실 원문: E-skin Sensor System"
+    },
+    {
+      "id": "R1-018",
+      "context_id": "C1-04",
+      "answer": "{\n  \"question\": \"골격 기반 행동 인식에서 관절 좌표, 뼈 벡터, 모션 흐름 표현을 그래프 구조(인접 관계)로 모델링할 때, 표현별로 인식 성능이 달라지는 행동 범주는 무엇이며 그 차이는 그래프의 구조적 특성(예: 최단경로 거리, 연결 구조)과 관련이 있는가?\",\n  \"paper_id\": \"W7163352033\",\n  \"paper_quote\": \"systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations\",\n  \"paper_explanation\": \"논문이 실제로 한 일: 입력 특징 유형별 방법 분류, ANUBIS 데이터셋 구축, 102개 행동 범주에서 특징 유형별 성능 분석, 행동-특징 의존성 보고. 제안하는 연구(그래프 구조 특성과 표현별 성능 차이의 관련성 분석)는 논문이 다룬 내용이 아니라 학생 수준의 새로운 가설입니다.\",\n  \"course_id\": \"CSED536\",\n  \"course_quote\": \"graph algorithms\",\n  \"course_connection\": \"잠정적 연결: 인체 골격을 관절(정점)과 뼈(간선)의 그래프로 보고, 수업의 경로·최단경로 개념으로 관절 간 거리를 정의해 표현별 오류와 비교해 볼 수 있습니다. 다만 수업은 알고리즘 설계·분석 중심이라 딥러닝 인식 성능과의 직접적 연관은 불확실합니다.\",\n  \"first_step\": \"논문과 공개 프로젝트 페이지에서 ANUBIS 또는 공개 가능한 소규모 골격 데이터(예: NTU 계열 등 접근 가능한 것)를 확인하고, 25개 내외 관절의 골격 그래프를 만들어 관절 쌍별 최단경로 거리 행렬을 계산하는 짧은 스크립트를 작성하세요. 이후 논문이 보고한 표현별 행동 범주 결과를 표로 정리해 어떤 행동이 어떤 관절 거리 특성과 관련될지 가설을 세우세요.\",\n  \"limitations\": \"ANUBIS의 실제 접근성·용량·라이선스와 논문 결과의 범주별 세부 수치 공개 여부는 확인하지 못했습니다. 모델 재학습에 필요한 컴퓨팅 자원도 불명확합니다. 그래프 거리와 성능 차이의 상관은 인과가 아닐 수 있습니다. 연구실의 현재 프로젝트나 참여 가능 여부는 알 수 없으며 주어진 자료로 추정하지 않았습니다.\"\n}"
+    },
+    {
+      "id": "R1-019",
+      "context_id": "C1-01",
+      "answer": "수강 표시: 반도체 소재 및 소자 특론\n지금 시작 | Semiconductor materials and devices 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Semiconductor materials and devices\n지금 시작 | Analytical Chemistry and Sensors 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Analytical Chemistry and Sensors\n지금 시작 | Semiconductor materials and interfaces 자료 살펴보기 | 원문과 논문 제목에서 실제 연구 문제를 먼저 확인해 보세요. | 원문에서 연구 문제 하나를 고릅니다. 사용한 방법과 아직 모르는 개념을 구분합니다. 선택한 과목의 설명과 연결되는지 직접 확인합니다. | 학습 후보:  | 연구실 원문: Semiconductor materials and interfaces\n추가 준비 | Semiconductor materials and devices의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 초소형기전공학개론, 스마트 연성재료 공학, Density Functional Theory for Battery, 특강: 실리콘-바이오 계면 공학 | 연구실 원문: Semiconductor materials and devices\n추가 준비 | Analytical Chemistry and Sensors의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 초소형기전공학개론, 스마트 연성재료 공학, Density Functional Theory for Battery, 특강: 실리콘-바이오 계면 공학 | 연구실 원문: Analytical Chemistry and Sensors\n추가 준비 | Semiconductor materials and interfaces의 학습 준비 | 과목의 의미 유사도만으로 필요한 역량이나 참여 자격을 판단할 수 없습니다. | 아래 과목의 강의목표와 진도 내용을 확인합니다. 실제 연구에 필요한 지식은 연구실 자료와 지도교수에게 확인합니다. | 학습 후보: 초소형기전공학개론, 스마트 연성재료 공학, Density Functional Theory for Battery, 특강: 실리콘-바이오 계면 공학 | 연구실 원문: Semiconductor materials and interfaces"
+    },
+    {
+      "id": "R1-020",
+      "context_id": "C1-03",
+      "answer": "{\n  \"question\": \"단일 큐비트 위상 추정에서 dephasing 잡음 하에, 오류 보정 소산율 대 잡음율 비 R을 바꿀 때 시간 T에 따른 정밀도(양자 Fisher 정보 기반 또는 추정 오차)의 Heisenberg 스케일링 저하가 얼마나 줄어드는지 간단한 Lindblad 시뮬레이션으로 비교하면 어떻게 달라지는가?\",\n  \"paper_id\": \"W4417091791\",\n  \"paper_quote\": \"we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise\",\n  \"paper_explanation\": \"논문 사실: 잡음 Lindblad 연산자가 신호 해밀토니안과 교환하고 특정 제약 선형방정식이 해를 가지면, 유한한 R의 AutoQEC가 구간 0≤t≤T에서 Heisenberg 스케일링을 작은 오차로 보존할 수 있다고 주장하며 dephasing 위상 추정 예로 수치 검증한다. 제안 연구: R, T, 잡음율 κ를 바꿔 학생 규모로 경향을 재현·비교하는 것이며 논문의 결과가 아니다.\",\n  \"course_id\": \"PHYS647\",\n  \"course_quote\": \"Quantum noise and decoherence\",\n  \"course_connection\": \"수업의 양자 잡음·decoherence, CPTP/Kraus 표현, 오류 정정 주제는 dephasing 채널과 보정 효과를 모델링하는 데 쓸 수 있을 것으로 보인다. 다만 연속시간 Lindblad 기반 AutoQEC를 수업이 직접 다루는지는 불분명하다.\",\n  \"first_step\": \"논문을 읽고 dephasing 위상 추정 예의 설정(큐비트 수, 코드, 소산 연산자)을 정리한 뒤, 보정 없는 단일 큐비트 또는 소규모 코드 사례를 Python(QuTiP 또는 numpy)으로 구현해 κT를 바꾸며 오차를 그려 기준선을 만든다. 그다음 R을 몇 값으로 바꿔 비교한다.\",\n  \"limitations\": \"논문 본문의 구체적 모델과 제약 선형방정식 조건은 초록만으로 알 수 없어 재현 가능한 최소 모델이 불확실하다. 단순화 시뮬레이션은 논문의 ε=O(κT/R^c) 스케일링을 확인하지 못할 수 있다. 연구실의 현재 프로젝트나 참여 가능 여부는 알 수 없고, 수강생의 선수 지식도 가정하지 않았다.\"\n}"
+    },
+    {
+      "id": "R1-021",
+      "context_id": "C1-02",
+      "answer": "{\n  \"question\": \"Ti/TiO2/n-Ge 접촉에서 계면 TiO2층에 탄소를 넣으면, 급속열처리(RTA) 온도(예: 500~600 °C 구간)가 올라갈 때 쇼트키 장벽 높이(SBH)와 비접촉저항(ρc)의 변화폭이 탄소가 없는 경우보다 얼마나 줄어드는지, 논문에 보고된 수치를 정리·비교하여 정량화할 수 있는가?\",\n  \"paper_id\": \"W4290989670\",\n  \"paper_quote\": \"When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C.\",\n  \"paper_explanation\": \"논문 사실: 탄소를 넣은 TiO2 계면층에서는 RTA 온도가 600 °C까지 올라가도 SBH와 ρc가 비교적 안정적이었고, EELS 매핑에서 산소 확산이 억제된 것으로 보고되었습니다. 제안 연구: 이 안정성의 크기를 온도별로 정량 비교하는 문헌 기반 분석이며, 논문이 직접 수행한 결론은 아닙니다.\",\n  \"course_id\": \"\",\n  \"course_quote\": \"\",\n  \"course_connection\": \"선택된 과목이 없습니다. 따라서 과목과의 연결이나 학생의 보유 기술은 추정하지 않았습니다.\",\n  \"first_step\": \"논문 본문과 그림에서 RTA 온도별 SBH, ρc 값(탄소 유무 비교)을 표로 옮겨 적고, 각 온도에서 변화율을 계산합니다. 본문이나 그림에서 값을 읽을 수 없으면 해당 항목은 '확인 불가'로 표시합니다.\",\n  \"limitations\": \"전체 본문과 그림을 확인하지 않아 정확한 수치, 시료 수, 오차 범위를 알 수 없습니다. 그림에서 읽은 값에는 판독 오차가 있을 수 있습니다. 문헌 비교만으로는 인과 메커니즘을 검증할 수 없습니다. 이 연구가 연구실의 현재 프로젝트이거나 연구실의 승인을 받았다는 근거는 없습니다.\"\n}"
+    },
+    {
+      "id": "R1-022",
+      "context_id": "C1-01",
+      "answer": "{\n  \"question\": \"Ti/TiO2/n-Ge 접촉에서 RTA 온도가 높아질 때 SBH와 ρc가 증가하는 현상을, 금속-반도체 접촉의 기본 개념(쇼트키 장벽, 접촉저항)으로 정성적으로 설명할 수 있으며, 탄소 도입 시 600 °C까지 안정해지는 이유를 계면 TiO2 분해 억제 관점에서 어떻게 해석할 수 있을까?\",\n  \"paper_id\": \"W4290989670\",\n  \"paper_quote\": \"The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon.\",\n  \"paper_explanation\": \"논문 사실(초록 기준): 550 °C 이상 RTA 후 SBH와 ρc가 증가하고 J–V가 Ohmic-like에서 rectifying으로 바뀌었으며, 원인은 계면 TiO2 분해로 제시됨. 탄소를 넣으면 600 °C까지 상대적으로 안정했고 EELS상 산소 확산이 억제됨. 제안(연구 아이디어): 이 결과를 강의 개념으로 정성 해석해 보는 것이며, 논문이 이를 수행했다는 뜻은 아님.\",\n  \"course_id\": \"CHEB770\",\n  \"course_quote\": \"metal-semiconductor contact\",\n  \"course_connection\": \"잠정적 연결: 강의 계획에 금속-반도체 접촉이 있어 쇼트키 장벽·접촉 특성 해석의 기초로 쓸 수 있음. 다만 설명에는 Ge, MIS 구조, 열 안정성, 탄소 도입이 명시되지 않아 강의가 이 논문의 세부를 직접 다룬다고는 확인되지 않음(미확인). 금속 산화물 항목도 TiO2 계면층과 연결 가능성만 있음.\",\n  \"first_step\": \"(제안) 논문 본문의 SBH·ρc vs RTA 온도 그래프와 J–V 곡선을 표로 옮기고, 탄소 유무별로 어느 온도에서 변화가 시작되는지 정리한 뒤, 교재의 쇼트키 접촉 장(thermionic emission 등)을 읽고 해석 가설을 한 쪽으로 쓰기.\",\n  \"limitations\": \"본문 전체, 수치, 측정 조건은 초록만으로 확인 불가. 강의의 실제 다룬 깊이와 교재는 미확인. 정성 해석이 Fermi-level pinning 등 다른 요인을 배제하지 못할 수 있음. 해당 연구실의 현재 프로젝트나 참여 가능성은 알 수 없으며 주장하지 않음.\"\n}"
+    },
+    {
+      "id": "R1-023",
+      "context_id": "C1-01",
+      "answer": "{\n  \"question\": \"Ti/TiO2/n-Ge 접촉에서 계면 TiO2층의 탄소 도입이 RTA 온도(500–600 °C 부근) 상승에 따른 쇼트키 장벽 높이(SBH) 변화를 줄이는 정도를, 열전자 방출 모형과 금속-반도체 접촉 이론으로 정량 비교하면 어떤 경향이 나타나는가?\",\n  \"paper_id\": \"W4290989670\",\n  \"paper_quote\": \"When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C.\",\n  \"paper_explanation\": \"논문 사실: 탄소 도입 시 RTA 600 °C까지 SBH와 ρc가 비교적 안정적이었고, EELS로 산소 확산 억제가 확인되었다고 보고합니다. 제안 연구(비논문 내용): 이 보고 경향을 이론식과 공개 수치로 재구성해 SBH 변화율을 비교하는 학생 규모 분석입니다.\",\n  \"course_id\": \"CHEB770\",\n  \"course_quote\": \"(7) metal-semiconductor contact\",\n  \"course_connection\": \"강의 계획의 금속-반도체 접촉 주제는 SBH와 접촉 저항 해석의 이론적 배경으로 연결될 수 있습니다. 다만 실제 강의에서 Ge, 열전자 방출, 계면 절연층을 다루는 범위는 불명확합니다.\",\n  \"first_step\": \"논문 본문의 J–V, SBH, ρc 그래프와 표를 읽고 RTA 온도별로 탄소 도입 여부에 따른 값을 표로 정리하세요. 그런 다음 SBH 변화량을 계산하고, 열전자 방출식으로 SBH를 추출하는 과정을 손계산 또는 간단한 스크립트로 연습해 보세요. 원자료가 없으면 그래프에서 읽은 근사값임을 명시하세요.\",\n  \"limitations\": \"논문 전문의 수치 표기, 그래프 판독 오차, 소자 면적·측정 온도 같은 조건을 아직 확인하지 못했습니다. 원자료와 TEM/EELS 장비 접근도 가정할 수 없습니다. 이 제안이 현재 연구실 프로젝트이거나 연구실 허락을 받은 것은 아닙니다. 수강 여부와 수강생의 배경 지식도 알 수 없습니다.\"\n}"
+    },
+    {
+      "id": "R1-024",
+      "context_id": "C1-07",
+      "answer": "{\n  \"question\": \"아연-요오드 전지에서 Cu-N3 단일 원자 촉매 전극의 요오드 전환 반응 속도와 폴리요오드 셔틀 억제 효과를, 순환전압전류법(CV)의 주사속도 의존성 분석과 확산 개념으로 구분해 해석할 수 있는가?\",\n  \"paper_id\": \"W7204837857\",\n  \"paper_quote\": \"The Cu‐N3 coordination structure serves as dual‐functional active sites that strongly immobilize iodine species and simultaneously promote reversible oxidation and reduction reactions.\",\n  \"paper_explanation\": \"논문 사실: 초록은 활성탄 내 Cu-N3 단일 원자 촉매가 요오드 종을 고정하고 가역적 산화·환원을 촉진하며, 전하 이동 촉진과 폴리요오드 확산 완화로 성능이 향상되었다고 서술합니다. 제안(연구 아이디어): 이를 전기화학 속도론·물질전달 관점에서 해석하는 문헌 기반 분석 질문입니다. 초록만으로는 사용된 측정법을 확인할 수 없습니다.\",\n  \"course_id\": \"BATT524\",\n  \"course_quote\": \"basic concepts of electrochemistry will be covered such as thermodynamics and potential, electron-transfer kinetics, and mass transfer\",\n  \"course_connection\": \"비교적 명확한 연결 가능성: 논문의 \\\"반응 속도 느림\\\"과 \\\"폴리요오드 확산\\\"은 수업의 전자 전달 동역학 및 물질전달 개념과 대응됩니다. 다만 이는 제안 수준의 해석이며, 논문이 해당 분석을 실제로 수행했는지는 초록만으로 미확인입니다. 수강 여부로 학생의 역량을 추정하지 않습니다.\",\n  \"first_step\": \"논문 본문(접근 가능한 경우 공개판)에서 CV, 속도 의존성, 확산계수, 임피던스 관련 그림·방법 부분을 찾아 표로 정리하고, 수업 교재의 전자 전달 동역학·물질전달 식과 어떤 변수가 대응되는지 한 장으로 비교해 보세요. 본문을 못 보면 초록 수준의 개념 대응표만 작성하세요.\",\n  \"limitations\": \"본문 실험 방법, 사용 측정법, 대조군 전극 여부는 미확인입니다. 셔틀 억제와 속도 향상을 분리할 수 있는지도 불명확합니다. 연구실의 현재 프로젝트나 참여 가능성·허가는 입력에 없어 알 수 없으며, 연구실 키워드(전기촉매)와의 직접 연관도 제한적으로만 확인됩니다.\"\n}"
+    }
+  ]
+}

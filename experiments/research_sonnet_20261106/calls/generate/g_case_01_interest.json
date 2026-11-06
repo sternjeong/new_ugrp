@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "Ti/TiO2/n-Ge 접촉에서 RTA 온도(550–600 °C 전후)에 따라 쇼트키 장벽 높이(SBH)와 비접촉저항(ρc)이 변하는 경향을, 탄소 주입 유무별로 표로 정리하면 접촉 특성 변화(Ohmic-like → rectifying)를 어떻게 해석할 수 있는가?",
+    "paper_id": "W4290989670",
+    "paper_quote": "The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C.",
+    "paper_explanation": "[논문 사실] 초록에 따르면 RTA 550 °C 초과 시 SBH와 ρc가 증가했고, J–V 곡선이 Ohmic-like에서 rectifying으로 바뀌었으며, 원인은 계면 TiO2층의 분해로 제시됩니다. 탄소 주입 시 600 °C까지 SBH와 ρc가 상대적으로 안정적이었다고 합니다. [제안] 이 결과를 온도·탄소 유무별 표로 재구성하고 의미를 해석하는 것은 제 제안이며, 논문 본문의 실제 수치는 초록에 없어 확인하지 못했습니다.",
+    "course_id": "CHEB770",
+    "course_quote": "(7) metal-semiconductor contact",
+    "course_connection": "[잠정적 연결] 강의 계획의 금속-반도체 접촉 주제는 쇼트키 장벽과 접촉 저항을 이해하는 기본 틀이 될 수 있어, 논문의 SBH·ρc 변화 해석에 쓸 수 있어 보입니다. 다만 강의 설명은 금속산화물·유기·페로브스카이트 중심이라 Ge나 MIS 접촉, 열처리 효과를 직접 다루는지는 확인되지 않았습니다(unconfirmed). 수강 여부로 학생의 역량을 추정하지 않았습니다.",
+    "first_step": "논문 본문(공개 접근 가능한 경우)에서 RTA 온도별 SBH, ρc 값과 J–V 그림을 찾아, 열=온도, 행=탄소 유무인 빈 표를 만들고 값을 옮기는 것부터 시작하세요. 본문을 못 구하면 초록의 정성적 경향만 표에 기입하고 '수치 미확인'으로 표시합니다.",
+    "limitations": "초록만으로는 구체적 수치, 시료 조건, 측정 오차를 알 수 없습니다. 강의가 Ge 접촉이나 열 안정성을 다루는지 불확실합니다. 해당 연구실이 이 주제를 진행 중인지, 참여 가능한지는 알 수 없으며 주장하지 않습니다. 표 정리만으로 분해 메커니즘을 확정할 수는 없습니다(TEM/EELS 근거는 논문에 의존)."
+  },
+  "duration_wall_s": 15.991,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1201,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 3063,
+      "webSearchRequests": 0,
+      "costUSD": 0.024577,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 3063,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3063,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 1201,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 3063,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1201,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 3063,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3063
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.024577,
+  "error": null,
+  "input_sha256": "28a561ab61ab71699890f7b609cd341c2d783185e8e25fb6a6b8730d6ab4d133"
+}

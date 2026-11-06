@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "ANUBIS 벤치마크의 102개 행동 범주 중, 관절 좌표·뼈 벡터·모션 흐름 입력 표현에 따라 인식 성능이 가장 크게 달라지는 행동 유형(예: 세밀한 행동 vs. 다인 상호작용)은 무엇인가?",
+    "paper_id": "W7163352033",
+    "paper_quote": "Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion",
+    "paper_explanation": "논문 사실: 입력 특징(관절 좌표, 뼈 벡터, 모션 흐름, 확장 표현)을 기준으로 방법을 분류하고, ANUBIS에서 102개 행동 범주에 걸쳐 특징 유형별 성능을 분석했으며 행동-특징 간 강한 의존성이 나타났다고 보고함. 제안(연구 제안일 뿐 논문 내용 아님): 어떤 행동 유형이 어떤 표현에 특히 민감한지 범주별로 재분석해 보는 것.",
+    "course_id": "",
+    "course_quote": "",
+    "course_connection": "선택된 과목 없음(no course selected). 따라서 수업 개념과의 연결은 확인되지 않았으며(unconfirmed), 학생의 수강 이력이나 기술 수준도 추론하지 않음.",
+    "first_step": "(제안) 논문 페이지 https://yliu1082.github.io/ANUBIS/ 에서 공개된 데이터셋·벤치마크 코드 문서를 확인하고, 논문에 보고된 특징 유형별 결과 표를 읽어 행동 범주별로 성능 차이가 큰 후보 범주를 직접 정리해 본다.",
+    "limitations": "초록만 확인했으므로 구체적인 모델·수치·범주별 결과는 알 수 없음. 공개 자원의 실제 접근성, 필요한 계산 자원, 데이터 용량은 미확인. 김동우 교수 연구실의 현재 프로젝트와의 관련성이나 참여 가능 여부는 확인되지 않았으며 허락을 가정하지 않음. 연구실 자료 목록(LLM, 그래프 학습, SW 에이전트)은 이 주제와 직접 연결되지 않음."
+  },
+  "duration_wall_s": 16.121,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 971,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 1807,
+      "webSearchRequests": 0,
+      "costUSD": 0.017009200000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1807,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1807,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 971,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1807,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 971,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 1807,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1807
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.017009200000000002,
+  "error": null,
+  "input_sha256": "fc0eecc4b9e6ef25262b5befeb3b1545c531626bece4938a29ffb96eff610417"
+}

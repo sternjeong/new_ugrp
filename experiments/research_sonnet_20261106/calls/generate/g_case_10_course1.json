@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "EPC 입찰 문서(ITB)의 위험 조항 탐지에서, 규칙 기반 방식과 양방향 LSTM 방식은 학습 데이터에 없던 조항 유형에 대해 각각 얼마나 성능이 달라지는지, 공개된 표준계약 조항(예: FIDIC류 양식 문구)을 이용해 소규모로 비교할 수 있는가?",
+    "paper_id": "W4281682208",
+    "paper_quote": "The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset.",
+    "paper_explanation": "논문 사실: 규칙 기반 SA 모델은 F1 86.4%, bi-LSTM 기반 RLR 모델은 정확도 46.8%였고, 저자들은 평가용 ITB에 학습 데이터에 없던 조항이 있었던 점을 낮은 성능의 이유로 설명합니다. 제안(연구 제안일 뿐 논문 내용 아님): 미학습 조항 유형에 대한 일반화 차이를 소규모 공개 텍스트로 비교해 보는 것입니다.",
+    "course_id": "GIFT714",
+    "course_quote": "It covers some basic features of PM’s elements such as (1) scheduling, (2) contracting, (3) cost, (4) project financing, and (5) risks.",
+    "course_connection": "강의 설명이 계약과 리스크를 PM 요소로 다루고, 계획표에 \"Bid and ITB (Invitation to Bid)\"(5주차)와 \"Contract & Claims Management\"(6주차)가 있어 논문의 ITB 위험 조항 분석과 주제상 연결됩니다. 다만 강의가 NLP나 LSTM을 직접 가르치는지는 설명만으로 확인되지 않습니다. 14~15주차 \"AI/BD based Smart-Engineering PM\" 텀프로젝트와 맞을 가능성은 있으나, 이는 추정이며 미확인입니다. 수강 여부로 학생의 역량을 추론하지 않습니다.",
+    "first_step": "논문 본문을 구해 SA와 RLR 모델의 입력, 라벨 정의, 평가 방식을 표로 정리하세요. 그다음 공개된 계약 조항 문서 몇 개를 골라, 위험 키워드 규칙을 직접 적어 보고 어떤 조항이 규칙에 걸리는지 수작업으로 표시해 보세요. 특별한 접근 권한은 필요 없습니다.",
+    "limitations": "논문의 실제 데이터, 라벨, 코드, EMAP 플랫폼 접근 가능 여부는 알 수 없습니다. 공개 표준계약 문구가 실제 ITB를 대표하는지 불확실하고, 라벨링 기준과 소규모 표본의 신뢰도도 미확인입니다. 강의가 텍스트 분석 기법을 다루는지, 텀프로젝트 주제로 허용되는지도 확인되지 않았습니다. 연구실이 이 주제를 현재 진행 중이라거나 참여가 허가되었다는 근거는 없습니다."
+  },
+  "duration_wall_s": 18.418,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1277,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2604,
+      "webSearchRequests": 0,
+      "costUSD": 0.0232572,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2604,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2604,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1277,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2604,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1277,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2604,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2604
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0232572,
+  "error": null,
+  "input_sha256": "969d43d7f4deb6141cca6d19fc3aada93b5040f262faf0b9035a0b99e2922844"
+}

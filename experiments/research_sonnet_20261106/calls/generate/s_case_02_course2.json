@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "단일 큐비트 위상 추정(dephasing 잡음)에서, 자율 오류 보정의 R(보정 소산율/잡음율)을 달라질 때 양자 Fisher 정보의 시간 의존성이 하이젠베르크 스케일링(~t²)에서 얼마나 벗어나는지 간단한 Lindblad 수치 모형으로 재현·비교할 수 있는가?",
+    "paper_id": "W4417091791",
+    "paper_quote": "we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise",
+    "paper_explanation": "논문이 보인 사실: 잡음 Lindblad 연산자가 신호 해밀토니안과 교환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC가 유한 R에서 HS를 근사적으로 보존한다는 충분조건과, dephasing 위상 추정 수치 검증입니다. 제안하는 연구(위 질문)는 학생 규모의 재현·변형 시도이며 논문의 결과가 아닙니다.",
+    "course_id": "PHYS535",
+    "course_quote": "density matrices, measurements, channels, etc.",
+    "course_connection": "밀도행렬과 양자 채널 도구는 Lindblad 진화와 Fisher 정보를 계산하는 기초가 될 수 있어 연결 가능성이 있습니다. 다만 수업이 계측이나 AutoQEC를 직접 다루는지는 불분명합니다.",
+    "first_step": "논문을 읽고 dephasing 위상 추정 예시의 설정을 정리한 뒤, Python(QuTiP 또는 numpy)으로 무보정 단일 큐비트 Lindblad 모형을 만들어 시간에 따른 양자 Fisher 정보를 계산해 보세요. 그다음 R을 바꿔 가며 보정 항을 추가하는 것을 시도하세요.",
+    "limitations": "논문의 구체적 AutoQEC 구성(보정 소산자, 선형방정식 해)은 전문을 읽어야 알 수 있어 단순 모형이 이를 충실히 재현할지 불확실합니다. 다중 큐비트나 ancilla 필요 여부, 실험 구현 가능성은 다루지 못합니다. 이 제안은 연구실의 현재 프로젝트나 참여 허락을 의미하지 않습니다."
+  },
+  "duration_wall_s": 15.216,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1013,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 1995,
+      "webSearchRequests": 0,
+      "costUSD": 0.0181812,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1995,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1995,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1013,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1995,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1013,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 1995,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1995
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0181812,
+  "error": null,
+  "input_sha256": "bf419b34e6510be6b823c6ca57439df37cc39082fc0c5d3b4a5355c3ec412325"
+}

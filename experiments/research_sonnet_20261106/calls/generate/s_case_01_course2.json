@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "Ti/TiO2/n-Ge 접촉에서 계면 TiO2에 탄소를 넣으면 RTA 온도(500–600 °C 구간)에 따라 쇼트키 장벽 높이와 접촉 비저항의 변화가 왜 줄어드는지, 산소 확산 억제와 연결해 기존 문헌 값만으로 정량 비교할 수 있을까?",
+    "paper_id": "W4290989670",
+    "paper_quote": "The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon.",
+    "paper_explanation": "논문이 보고한 사실: 550 °C 이상 RTA에서 SBH와 ρc가 증가하고 TiO2 분해로 열 불안정이 생기며, 탄소를 넣으면 600 °C까지 비교적 안정하고 산소 확산이 억제된다는 점입니다. 제안하는 연구: 이 결과를 논문 내 수치로 재정리해 탄소의 효과를 온도별로 정량 비교하는 문헌 기반 분석이며, 논문이 직접 수행한 내용은 아닙니다.",
+    "course_id": "SEMI206",
+    "course_quote": "surface and interface",
+    "course_connection": "수업의 계면, 확산과 반응속도(diffusion and kinetics), 전기적·구조적 특성 분석 주제는 탄소 도입에 따른 산소 확산 억제와 접촉 특성 변화를 해석하는 틀로 쓸 수 있습니다. 다만 수업이 이 논문의 Ge 접촉을 직접 다루는지는 불분명합니다.",
+    "first_step": "논문 본문에서 탄소 유무별 RTA 온도에 따른 SBH와 ρc 값을 표로 옮기고, 변화율을 계산해 그래프로 그려 보세요. 이어서 TEM/EELS 그림 설명을 정리해 전기적 변화와 어떤 구조 변화가 대응하는지 한 쪽으로 요약하세요.",
+    "limitations": "본문 전체의 수치와 측정 조건은 초록만으로 알 수 없습니다. 탄소 도입 방법이나 농도의 영향, 기전(결합, 결함 등)은 불확실합니다. 문헌 값 비교는 소자 간 편차 때문에 한계가 있습니다. 실험 장비 접근 가능 여부와 이 연구실의 현재 프로젝트 여부, 참여 허락은 알 수 없습니다."
+  },
+  "duration_wall_s": 16.687,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1063,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 2339,
+      "webSearchRequests": 0,
+      "costUSD": 0.020057199999999997,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2339,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2339,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1063,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2339,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1063,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 2339,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2339
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.020057199999999997,
+  "error": null,
+  "input_sha256": "9e0845ddb973a4761b9c2409e83ddf5d3bb52f8cfad198c4ddf1ec35a97e37f1"
+}

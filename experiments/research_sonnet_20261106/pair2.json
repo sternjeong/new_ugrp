@@ -1,0 +1,493 @@
+{
+  "contexts": {
+    "C2-01": {
+      "lab_id": "00a146f5c5267ed6caeb590edaa47fac",
+      "department": "전자전기공학과 · 반도체대학원",
+      "professor": "이정수",
+      "interest": "이 논문에서 TiO2 계면에 탄소를 넣었을 때 반도체 접촉의 전기적 특성과 열 안정성이 어떻게 달라지는지 궁금해요.",
+      "paper": {
+        "id": "W4290989670",
+        "title": "Effects of Carbon Incorporation on Electrical Characteristics and Thermal Stability of Ti/TiO2/n-Ge MIS Contact",
+        "abstract": "The effects of carbon incorporation on the thermal stability of the interfacial TiO2layer and the electrical characteristics of Ti/TiO2/n-Ge contacts were investigated. The improved thermal stability and contact characteristics of Ti/TiO2/n-Ge contacts were characterized in terms of Schottky barrier height (SBH) and specific contact resistivity (ρc) using the Schottky diode and circular transmission line model (CTLM). The values of SBH and ρcincreased after the rapid thermal annealing (RTA) above 550 °C. The current density–bias voltage (J–V) curves of the Schottky diode showed a change of contact characteristics from Ohmic-like behavior to rectifying. This thermal instability was mainly caused by the decomposition of the interfacial TiO2layer after high-temperature annealing. The structural degradation was confirmed by transmission electron microscopy (TEM) and electron energy loss spectroscopy (EELS) analyses. When carbon ions were incorporated into the interfacial TiO2layer, the SBH and ρcvalues showed relatively stable characteristics as the RTA temperature increased up to 600 °C. The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon. Thus, the carbon incorporation can improve the thermal stability of the interfacial TiO2layer and the metal–insulator–semiconductor contact characteristics for Ge-based device applications.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "SEMI206",
+          "title": "반도체소재개론",
+          "description": "- 교과목 개요: The semiconductor devices are composed of various materials, i.e. metals, semiconductor, dielectrics, polymers in thin film structure, even in a nanometer scale. Therefore, it is required to understand the semiconductor technology, in the view of materials science and nanotechnology. This lecture provides the basic principles of materials used in semiconductor devices.\n  - 교육 목표: This course covers the basic theories and various properties of thin film such as metals, dielectrics, polymers, and semiconducting materials, which comprise semiconductor devices. In this class, students will understand basic materials science, such as crystal structure, synthesis, and materials properties necessary for present and future semiconductor devices.",
+          "plan": "1. Basics of crystal lattice and synthesis (1st ~2nd week)\n- Basics of crystal lattices\n- Crystal growth (bulk, thin film)\n\n2. Defects of materials (3rd ~5th week)\n- Atomic structure and defects (0D, 1D, 2D)\n\n3. Phase transition of materials (metal, semiconductor, amorphous) (6th ~ 8th week)\n- surface and interface\n- diffusion and kinetics\n- phase change\n\n4. Properties of materials (metals, semiconductors, dielectrics, and etc) (9th~13th week)\n- Electrical, thermal, mechanical, thermoelectric, electrochemical, and etc\n\n5. Characterization of Semiconductors (14th~ 15th week)\n- Electrical, optical, microscopic, structural, thermal, and etc\n\n6. Recent semiconductors driven by nanotechnology (16th week)",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Semiconductor materials and devices",
+          "text": "Semiconductor materials and devices"
+        },
+        {
+          "label": "Analytical Chemistry and Sensors",
+          "text": "Analytical Chemistry and Sensors"
+        },
+        {
+          "label": "Semiconductor materials and interfaces",
+          "text": "Semiconductor materials and interfaces"
+        }
+      ]
+    },
+    "C2-02": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "PHYS647",
+          "title": "양자알고리즘",
+          "description": "- Understand the framework of quantum information theory.\n- Understand basic quantum information protocols.\n- Understand key quantum information-theoretic quantities\n- Understand the basic principles of quantum algorithms and NISQ algorithms.\n- Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.\n- Read, discuss, and present recent research papers in quantum information theory and related areas.",
+          "plan": "[Part1 (6 weeks)]\n1. Basic of Quantum Information Theory\n- Pure and mixed states\n- Quantum measurements\n- Composite Systems and Entanglement\n- No-cloning theorem\n- Bell theorem\n2, Basic Quantum Information Protocols\n- Single-qubit and multi-qubit gates, universal gate sets\n- Quantum teleportation and superdense coding\n- Entanglement swapping and quantum repeaters\n- Entanglement distillation and purification\n- Quantum key distribution and quantum secret sharing\n3. Quantum Channels and Quantum Entropy\n- CPTP maps and Kraus representations\n- Basic quantum noise channels\n- von Neumann entropy, mutual information, relative entropy\n- Holevo bound and channel capacity\n\n[Part2 (6 weeks)]\n4. Introduction to Quantum Algorithms\n- Oracle model and quantum interference\n- Deutsch-Jozsa algorithm\n- Bernstein-Vazirani algorithm\n- Simon’s algorithm\n- Grover’s algorithm and amplitude amplification\n- Quantum Fourier transform\n- Phase estimation algorithm\n- Shor’s algorithm\n5. NISQ Algorithms\n- NISQ devices and their limitations\n- Variational Quantum Eigensolver\n- Quantum Approximate Optimization Algorithm\n- Parameterized quantum circuits and barren plateaus\n- Digital Hamiltonian simulation and Trotterization\n- Quantum error mitigation\n6. Quantum Error Correction and Fault Tolerance\n- Quantum noise and decoherence\n- Basic quantum error-correcting codes\n- Stabilizer formalism\n- Surface code and fault-tolerant quantum computation\n\n[Part3 (2~3 weeks)]\nProject-based seminar on recent research topics\n- Individual projects.\n- Topic selection based on quantum information theory and related areas\n- Literature review of selected research papers or small research projects.\n- Focus on main ideas, technical methods, significance, limitations, and future directions.\n- Oral presentation and short final ",
+          "description_truncated": false,
+          "plan_truncated": true
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Quantum Information Theory",
+          "text": "Quantum Information Theory"
+        },
+        {
+          "label": "Quantum Computing, Quantum Algorithm",
+          "text": "Quantum Computing, Quantum Algorithm"
+        },
+        {
+          "label": "Quantum Communication, Quantum Sensing",
+          "text": "Quantum Communication, Quantum Sensing"
+        }
+      ]
+    },
+    "C2-03": {
+      "lab_id": "00a2f37dcd22c6860346daa192299452",
+      "department": "물리학과",
+      "professor": "이승우",
+      "interest": "양자 계측에서 잡음이 있어도 정밀도를 유지하도록 자율 오류 보정을 쓰는 방법이 궁금해요.",
+      "paper": {
+        "id": "W4417091791",
+        "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+        "abstract": "We establish a sufficient condition under which autonomous quantum error correction (AutoQEC) can effectively restore Heisenberg scaling (HS) in quantum metrology. Specifically, we show that if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution, then an ancilla-free AutoQEC scheme with finite R (where R represents the ratio between the engineered dissipation rate for AutoQEC and the noise rate) can approximately preserve HS with a desired small additive error ϵ > 0 over any time interval 0 ≤ t ≤ T . We emphasize that the error scales as ϵ = O ( κ T / R c ) where c is a positive integer and κ is the noise rate, indicating that the required R decreases significantly with increasing c to achieve a desired error. Furthermore, we discuss that if the sufficient condition is not satisfied, logical errors may be induced that cannot be efficiently corrected by the canonical AutoQEC framework. Finally, we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise.",
+        "abstract_truncated": false
+      },
+      "courses": [],
+      "lab_sources": [
+        {
+          "label": "Quantum Information Theory",
+          "text": "Quantum Information Theory"
+        },
+        {
+          "label": "Quantum Computing, Quantum Algorithm",
+          "text": "Quantum Computing, Quantum Algorithm"
+        },
+        {
+          "label": "Quantum Communication, Quantum Sensing",
+          "text": "Quantum Communication, Quantum Sensing"
+        }
+      ]
+    },
+    "C2-04": {
+      "lab_id": "00f52d3209da2832a33781de047e38ed",
+      "department": "인공지능대학원 · 컴퓨터공학과",
+      "professor": "김동우",
+      "interest": "논문에서 나눈 관절 좌표와 뼈 벡터 표현을 공개 벤치마크에서 비교하고, 촬영 환경이 바뀔 때 성능이 어떻게 달라지는지 살펴보고 싶습니다.",
+      "paper": {
+        "id": "W7163352033",
+        "title": "Representation-centric survey of supervised skeletal action recognition and the new benchmark",
+        "abstract": "3D skeletal action recognition has emerged as a powerful alternative to traditional RGB and depth-based approaches, offering robustness to environmental variations, computational efficiency, and enhanced privacy. Despite remarkable progress, current research remains fragmented across diverse input representations and lacks evaluation under scenarios that reflect real-world challenges. This paper presents a representation-centric review of supervised skeletal action recognition, systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations, and analyzing how these choices influence spatiotemporal modeling strategies. Building on the insights from this review, we introduce ANUBIS, a large-scale, challenging dataset designed to address critical gaps in existing benchmarks. ANUBIS incorporates multi-view recordings with back-view perspectives, complex multi-person interactions, fine-grained and violent actions, and contemporary social behaviors. We benchmark a diverse set of state-of-the-art models on ANUBIS and conduct an in-depth analysis of how different feature types affect recognition performance across 102 action categories. Our results show strong action-feature dependencies, highlight the limitations of naïve multi-representational fusion, and point toward the need for task-aware, semantically aligned integration strategies. This work offers both a comprehensive foundation and a practical benchmarking resource, aiming to guide the next generation of robust, generalizable skeleton-based action recognition systems for complex real-world scenarios. The dataset, benchmarking framework, and code are available at https://yliu1082.github.io/ANUBIS/ .",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CSED618",
+          "title": "신뢰할 수 있는 기계학습",
+          "description": "As machine learning and deep learning models are impacting on real world environments (e.g., ChatGPT), concerns on the trustworthiness of machine-learned models are rising. In this course, we explore whether popular machine-learned models are trustworthy and then study various learning methods to enchant the models to be trustworthy. To this end, we will learn basic knowledge on machine learning theory, uncertainty learning via conformal prediction, adversarial examples/learning, machine unlearning, differentially private learning, fairness in learning, and miscellaneous topics on trustworthy generative AI.",
+          "plan": "https://sangdon.github.io/teaching/tml-2024-fall/",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "LLMs in Interactive Environments",
+          "text": "LLMs in Interactive Environments"
+        },
+        {
+          "label": "Graph Learning Enhancement by Structural Modifications",
+          "text": "Graph Learning Enhancement by Structural Modifications"
+        },
+        {
+          "label": "Efficiency in Software Engineering Agents",
+          "text": "Efficiency in Software Engineering Agents"
+        }
+      ]
+    },
+    "C2-05": {
+      "lab_id": "04bf899ffd2d4bdafe3240d08c97899f",
+      "department": "신소재공학과",
+      "professor": "정운룡",
+      "interest": "층상 금속 칼코겐화물의 결정 구조와 방향성이 전자·촉매 특성에 어떤 차이를 만드는지 궁금해요.",
+      "paper": {
+        "id": "W4318693490",
+        "title": "Layer-Structured Anisotropic Metal Chalcogenides: Recent Advances in Synthesis, Modulation, and Applications",
+        "abstract": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest for use in next generation electronics, optoelectronics, electrochemical energy storage devices, and chemical sensing devices. Despite many proof-of-concept demonstrations so far, the full potential of anisotropic chalcogenides has yet to be investigated. This article provides a comprehensive overview of the recent progress made in the synthesis, mechanistic understanding, property modulation strategies, and applications of the anisotropic chalcogenides. It begins with an introduction to the basic crystal structures, and then the unique physical and chemical properties of 1D and 2D MCs. Controlled synthetic routes for anisotropic MC crystals are summarized with example advances in the solution-phase synthesis, vapor-phase synthesis, and exfoliation. Several important approaches to modulate dimensions, phases, compositions, defects, and heterostructures of anisotropic MCs are discussed. Recent significant advances in applications are highlighted for electronics, optoelectronic devices, catalysts, batteries, supercapacitors, sensing platforms, and thermoelectric devices. The article ends with prospects for future opportunities and challenges to be addressed in the academic research and practical engineering of anisotropic MCs.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "GIFT624",
+          "title": "Crystallography and crystal diffraction",
+          "description": "Students analyze various crystalline materials for their research. Most analytical equipment uses simulation software based on crystallography. To precisely evaluate phase and crystallographic orientation, a background in crystallography is necessary. This class introduces the key concepts of understanding crystallography and crystal diffraction, including various metallic and battery materials.",
+          "plan": "-Introduction (2)\n-Symmetry and its operation(2)\n-Crystal system and orientation(1.5)\n-Point, plane, and space groups (4)\n-Examples of crystal structures in metallic and battery materials (2)\n-Mid-term exam.\n-Defects in crystals (1)\n-X-ray diffraction (3)\n-Electron diffraction in metallic and battery materials (@EBSD,TEM: 5)\n-Final Exam. (Presentation)\n\n*Lecture schedule can be properly modified to promote the understanding.",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Inorganic Synthesis",
+          "text": "Inorganic Synthesis"
+        },
+        {
+          "label": "Stretchable Electronics",
+          "text": "Stretchable Electronics"
+        },
+        {
+          "label": "E-skin Sensor System",
+          "text": "E-skin Sensor System"
+        }
+      ]
+    },
+    "C2-06": {
+      "lab_id": "0a2eb55c6a036c893a340b7402e7da05",
+      "department": "화학공학과",
+      "professor": "전상민",
+      "interest": "자기 나노입자로 만든 3차원 구조가 햇빛 흡수와 물 증발을 높이는 원리가 흥미로워요.",
+      "paper": {
+        "id": "W4393149344",
+        "title": "Magnetic Nanoparticle Cluster-Based 3D Solar Steam Generator with High Recyclability",
+        "abstract": "We developed a three-dimensional (3D) solar steam generator (SSG) with a hierarchical spiny structure across its entire surface, employing a magnetized iron cylinder and magnetic nanoparticle clusters (MNCs). In the two-dimensional (2D) SSG configuration, MNCs positioned on a disc-shaped permanent magnet formed spiny structures aligned with the magnetic field lines. Upon exposure to sunlight, this hierarchical spiny structure significantly enhanced light absorption via multiple reflections and promoted water evaporation by expanding the surface area. Transitioning from a 2D to a 3D structure using a cylindrical permanent magnet in the 3D SSG improves the evaporation performance by effectively harnessing environmental energy for dark evaporation. However, generating a spiny structure on the side surface of the cylindrical magnet presents challenges owing to the weaker magnetic field on the side surface. We addressed this limitation by magnetizing a hollow iron cylinder placed over a permanent magnet, which led to the creation of a uniform magnetic field and produced a hierarchical spiny structure across the entire surface. The 3D SSG achieved an evaporation rate of 2.8 kg m –2 h –1, which is 1.64 times higher than that of the 2D SSG, attributable to its efficient environmental energy utilization. Furthermore, we demonstrated the recyclability and self-regeneration of the 3D SSG through evaporation experiments using a 3.5 wt % NaCl solution.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "CHEB214",
+          "title": "에너지환경공학",
+          "description": "This course introduces key knowledge areas in renewable energy and environmental technologies as addressed in chemical engineering. Focusing on renewable energy systems, energy production and storage technologies, high-efficiency energy devices, and water treatment technologies, the course aims to enhance students’ understanding of chemical engineering by presenting fundamental engineering principles together with representative applications and research case studies.\n\n본 강의는 화학공학과에서 다루는 신재생에너지 기술 및 환경 기술과 연계되는 지식을 소개하는 과목이다. 신재생에너지 및 에너지 생산/저장 기술, 고에너지효율 소자 기술, 수질 처리 환경 기술 등을 중심으로 공학적 기본 원리와 응용 연구 사례들을 소개함으로써 화학공학에 대한 학생들의 이해를 돕고자 한다.",
+          "plan": "- (Important) Certain topics may be adjusted depending on the progress of the course.\n\n[Weeks 1–4] Energy, Environment, and Chemical Engineering\n• Overview of global energy and environmental issues and their connection to chemical engineering\n• Energy-related chemical engineering technologies: shale gas utilization and hydrogen production\n• Environmental chemical engineering technologies: mitigation of carbon dioxide and NOx emissions\n• Next-generation energy and environmental technologies: catalytic processes\n\n[Weeks 5–7] Hydrogen Energy I\n• Hydrogen production\n• Hydrogen storage I\n\n[Week 8] Midterm Examination\n\n[Weeks 9–11] Hydrogen Energy II\n• Hydrogen storage II\n• Hydrogen utilization\n\n[Weeks 12–13] Water and Air Environment\n• Water pollution and water treatment technologies\n• Photochemical and biochemical water treatment processes\n• Electrochemical water treatment technologies\n• Air quality control technologies\n\n[Weeks 14–15] Energy Storage\n• Secondary batteries and next-generation battery systems\n• Large-scale energy storage technologies\n\n[Week 16] Final Examination\n\n---------------------------------------------------------------------------------------------------------------------------------------------\n\n- (중요) 강의 내용의 일부는 조정될 수 있음 - (Important Note: Some of the lecture content could be adjusted)\n\n(1주~4주) 에너지, 환경, 화학공학\n• 에너지 및 환경 이슈와 화학 공학 기술의 이해\n• 에너지 관련 화학공학 기술: 셰일 가스 활용 및 수소 생산 기술\n• 환경 관련 화학공학 기술: 이산화탄소 및 NOx 저감\n• 차세대 에너지/환경 기술: 촉매 기술\n\n(5주~7주) 수소에너지 I\n• 수소생산\n• 수소저장 I\n\n(8주) 중간 고사\n\n(9주~11주) 수소에너지 II\n• 수소저장 II\n• 수소활용\n\n(12주~13주) 수질 대기 환경\n• 수질 오염과 수질 처리 환경기술의 이해\n• 수처리 광화학 기술, 생화학 기술\n• 수처리 전기화학 기술\n• 대기 환경 기술\n\n(14주~15주) 에너지저장\n• 이차전지, 차세대 배터리\n• 대용량 에너지저장 기술\n\n(16주) 기말 고사",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Sustainable Materials",
+          "text": "Sustainable Materials"
+        },
+        {
+          "label": "Magnetic nanoparticle cluster (MNC)",
+          "text": "Magnetic nanoparticle cluster (MNC)"
+        },
+        {
+          "label": "Nanocellulose",
+          "text": "Nanocellulose"
+        }
+      ]
+    },
+    "C2-07": {
+      "lab_id": "0338f11c96903a40633ed02cc9426f4f",
+      "department": "생명과학과",
+      "professor": "허윤하",
+      "interest": "배아줄기세포 유래 세포외소포가 산화 스트레스를 억제해 세포 노화를 늦춘다는 결과가 어떻게 확인됐는지 궁금해요.",
+      "paper": {
+        "id": "W4415184415",
+        "title": "Embryonic stem cell-derived extracellular vesicles delay cellular senescence by inhibiting oxidative stress",
+        "abstract": "The accumulation of cells that permanently exit the cell cycle and undergo senescence is a hallmark of aging and predisposes organisms to disease. Emerging evidence suggests extracellular vesicles (EVs) released by pluripotent embryonic stem cells (ESCs) possess therapeutic/regenerative properties with the potential to significantly impact cellular senescence and aging-related disorders. However, the critical next step for taking advantage of the potential benefits offered by ESC-derived EVs will be to unravel the molecular mechanisms responsible for their unique functional effects, which thus far have not been fully defined. Toward that goal, we now identify a signaling pathway essential for EVs shed by ESCs to potently block fibroblasts and astrocytes from undergoing senescence. It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT. This leads to the inhibition of GSK3β activity and stabilization of the transcription factor Nrf2, which counteracts the effects of oxidative stress that would otherwise drive cellular senescence. These findings define a signaling pathway used by ESC-derived EVs to extend cellular lifespan, highlighting their potential application in anti-aging strategies.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "LIFE509",
+          "title": "고급세포생물학",
+          "description": "This course aims to provide graduate students with an in-depth understanding of the mechanisms that govern cell function and cellular processes and also aims to follow up recent advances and emerging concepts in the field of cell biology.",
+          "plan": "",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Tissue repair and regeneration",
+          "text": "Tissue repair and regeneration"
+        },
+        {
+          "label": "Stem cell biology",
+          "text": "Stem cell biology"
+        },
+        {
+          "label": "Intercellular communication & Extracellular vesicles",
+          "text": "Intercellular communication & Extracellular vesicles"
+        }
+      ]
+    },
+    "C2-08": {
+      "lab_id": "0b9f3600cef7f0f180cb1838b22bad04",
+      "department": "수학과 · 의과학전공",
+      "professor": "김진수",
+      "interest": "화학 반응 네트워크로 인공신경망을 구현할 때 반응 자체의 잡음이 학습에 미치는 영향이 궁금해요.",
+      "paper": {
+        "id": "W4412198846",
+        "title": "Noise-robust training of artificial neural networks using chemical reaction networks",
+        "abstract": "Artificial neural networks (NNs) can be implemented using chemical reaction networks (CRNs), where the concentrations of species act as inputs and outputs. In such biochemical computing, noise-robust computing is crucial due to the intrinsic and extrinsic noise present in chemical reactions. Previously suggested CRNs for feed-forward networks often utilized the rectified linear unit or discrete activation functions. However, one concern in this case is the discontinuities of the derivatives of those non-smooth functions, which can cause significant noise disruption during backpropagation. In this study, we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation. All reactions occur in a single pot, and the reactions for training are bimolecular. Our case studies on the XOR, Iris, MNIST datasets, and a non-linear regression model demonstrate that computation via the CRN (i) maintains accuracy despite noise in the reaction rates and the concentration of species and (ii) is insensitive to the choice of the running time and the magnitude of the noise in comparison to NNs with a non-smooth activation function. This work presents a noise-robust NN and backpropagation implemented by CRNs, paving the way for more stable and efficient biochemical computing systems.",
+        "abstract_truncated": false
+      },
+      "courses": [
+        {
+          "id": "AIGS651",
+          "title": "컴퓨테이셔널인텔리전스",
+          "description": "This is a research class where the student can pursue any research work related to Artificial Intelligence while getting course credit. Lectures will focus on practical AI Neural Network methods, their theoretical foundations, the computations involved and the reason for the use of such computations, amount of computational operations used, their programming methods, and the computer architectures necessary to support such computations. The student will have opportunities to present his/her research work multiple times during the class. The course language is English with Korean summaries.\n(이 과목은 인공지능 관련 연구 과목입니다. 본인이 하고 싶은 인공지능 관련 연구를 하면서 수업 학점을 받을 수 있는 좋은 기회입니다. 강의 내용은 인공지능 방법 중 실질적인 Neural Network 기반 방법 (CNN, RNN 등) 에 사용되는 원리 이론, 연산 방법/이유, 연산량 및 이러한 연산을 잘 지원할 수 있는 컴퓨터 프로그래밍 방법 및 컴퓨터 구조에 대한 내용으로 구성되어 있습니다. 각 학생은 본인의 연구 주제를 정하고 여러번 발표하는 기회가 있을 것입니다. 강의 언어는 영어이지만 한글 요약 및 추가 설명도 있을 것입니다.)",
+          "plan": "0. Course Introduction\n1. Introduction to Neural Networks\n2. MNIST and Neural Network Programming\n3. Code Analysis\n4. Learning using Backpropagation\n5. Main Neural Network Methods\n6. Convolutional Neural Networks\n7. State-of-the-Art (SOTA) Neural Network Methods and Implementations\n8. Neural Network Hardware Implementations",
+          "description_truncated": false,
+          "plan_truncated": false
+        }
+      ],
+      "lab_sources": [
+        {
+          "label": "Stochastically modeled reaction networks",
+          "text": "Stochastically modeled reaction networks"
+        },
+        {
+          "label": "Absolutely robust controllers",
+          "text": "Absolutely robust controllers"
+        },
+        {
+          "label": "Computing rare event probabilities via network modifications",
+          "text": "Computing rare event probabilities via network modifications"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "id": "P2-01",
+      "context_id": "C2-03",
+      "left": {
+        "question": "신호 해밀토니안과 가환하는 디페이징 잡음 아래의 위상 추정에서, 자율 오류 보정(AutoQEC)의 비율 R이 커질 때 하이젠베르크 스케일링 복원 오차가 논문의 ϵ = O(κT/R^c) 형태를 따르는지, 간단한 수치 모형으로 재현해 볼 수 있을까?",
+        "paper_id": "W4417091791",
+        "paper_quote": "if all Lindblad operators associated with the noise commute with the signal Hamiltonian and a particular constrained linear equation admits a solution",
+        "paper_explanation": "[논문 사실] 초록은 잡음의 Lindblad 연산자가 신호 해밀토니안과 가환하고 특정 제약 선형방정식이 해를 가질 때, ancilla 없는 AutoQEC가 유한한 R로 하이젠베르크 스케일링을 근사적으로 보존한다고 밝히며, 오차 스케일은 ϵ = O(κT/R^c)라고 말합니다. 또한 디페이징 잡음 위상 추정으로 수치 검증했다고 합니다. [제안] 이를 작은 규모로 재현·비교하는 것은 제 제안이며 논문이 한 일이 아닙니다.",
+        "course_id": "",
+        "course_quote": "",
+        "course_connection": "선택된 수강 과목이 없습니다(courses가 비어 있음). 따라서 과목 연결은 확인되지 않았고, 학생의 수강·역량도 추정하지 않습니다. 연구실 키워드(Quantum Sensing, Quantum Information Theory)는 주제 관련성만 시사하며 과목 개념은 아닙니다.",
+        "first_step": "[제안] 논문 본문에서 디페이징 예제의 설정(해밀토니안, Lindblad 연산자, 보정 연산)을 정리하고, 1큐비트 위상 추정을 Lindblad 마스터 방정식으로 오픈소스 도구(예: QuTiP)로 시뮬레이션하는 계획을 세우세요. 이후 R을 바꿔 가며 양자 Fisher 정보의 시간 의존성을 비교합니다. 특별한 접근 권한은 필요 없습니다.",
+        "limitations": "초록만으로는 선형방정식의 구체적 형태, 예제의 정확한 매개변수, 지수 c의 값이 확인되지 않습니다. 본문을 읽지 않았으므로 재현 가능성과 난이도는 미확인입니다. 이 연구실의 현재 프로젝트나 지도 가능 여부, 참여 허락은 알 수 없으며 주장하지 않습니다. 과목이 없어 과목 연계는 미확인입니다."
+      },
+      "right": {
+        "question": "신호 해밀토니안과 교환하는 dephasing 잡음 아래의 단일 큐비트 위상 추정에서, 자율 오류 보정의 비율 R(보정 소산율/잡음율)을 얼마로 잡아야 목표 오차 ε을 만족하며 하이젠베르크 스케일링에 가까운 정밀도를 유지하는가? 수치 시뮬레이션으로 R, 시간 T, 잡음율 κ에 따른 양자 Fisher 정보의 변화를 비교한다.",
+        "paper_id": "W4417091791",
+        "paper_quote": "the error scales as ϵ = O ( κ T / R c )",
+        "paper_explanation": "논문이 보인 사실: 잡음 Lindblad 연산자가 신호 해밀토니안과 교환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC로 유한한 R에서도 오차 ε 내로 HS를 근사 유지할 수 있다. 제안하는 연구(논문 결과가 아님): 위 오차 스케일링을 작은 모형에서 직접 재현하고, R과 T에 따른 필요 조건을 학생 수준에서 확인하는 것이다.",
+        "course_id": "",
+        "course_quote": "",
+        "course_connection": "선택된 과목이 없어 과목 연결은 제시하지 않으며, 학생의 사전 지식도 추정하지 않는다.",
+        "first_step": "논문을 읽고 dephasing 잡음 위상 추정 예시의 설정(해밀토니안, Lindblad 연산자, 보정 소산자)을 정리한다. 그다음 Python(QuTiP 또는 NumPy)으로 보정이 없을 때의 Lindblad 방정식을 풀어 양자 Fisher 정보가 T에 따라 어떻게 변하는지 먼저 계산한다. 이를 기준선으로 삼아 R 값을 바꿔 가며 비교한다.",
+        "limitations": "논문의 구체적 보정 구성과 제약 선형방정식의 해를 직접 구성할 수 있을지는 불확실하다. 초록만으로는 c의 구체적 의미와 상수 계수를 알 수 없고, 단일 큐비트 결과가 다큐비트나 다른 잡음으로 일반화되는지도 알 수 없다. 이승우 연구실의 현재 프로젝트나 지도 가능 여부는 확인되지 않았다."
+      }
+    },
+    {
+      "id": "P2-02",
+      "context_id": "C2-04",
+      "left": {
+        "question": "ANUBIS 같은 공개 스켈레톤 벤치마크에서, 관절 좌표 입력과 뼈 벡터 입력으로 동일한 모델을 학습했을 때, 학습에 쓰지 않은 촬영 시점(예: 정면→후면 시점)으로 평가하면 두 표현의 정확도 하락 폭은 어떻게 다른가?",
+        "paper_id": "W7163352033",
+        "paper_quote": "systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations",
+        "paper_explanation": "논문이 밝힌 사실: 입력 표현을 관절 좌표, 뼈 벡터 등으로 분류했고, 후면 시점을 포함한 다중 시점 데이터셋 ANUBIS에서 102개 행동 범주에 대해 표현별 성능을 분석했다. 제안하는 연구(시점 변화에 따른 좌표 대 뼈 벡터의 성능 하락 비교)는 논문의 결과가 아니라 학생이 새로 설정하는 질문이다.",
+        "course_id": "CSED618",
+        "course_quote": "we explore whether popular machine-learned models are trustworthy",
+        "course_connection": "관련성은 부분적이고 잠정적이다. 촬영 환경 변화에서 성능이 얼마나 유지되는지는 모델의 강건성·신뢰성 관점으로 볼 수 있다. 다만 강의 설명에 스켈레톤 행동 인식이 명시되어 있지는 않아, 이 질문을 강의 내용에 어떻게 적용할지는 불분명하다.",
+        "first_step": "논문 공개 페이지(https://yliu1082.github.io/ANUBIS/)에서 데이터셋과 코드의 접근 방식 및 라이선스를 확인한다. 확인 후 공개된 벤치마크 코드나 소규모 공개 스켈레톤 데이터로 관절 좌표와 뼈 벡터(인접 관절 차이)를 만들어 보고, 작은 모델 하나로 시점 분할 평가를 시험해 본다.",
+        "limitations": "ANUBIS의 시점별 분할 제공 여부, 데이터 크기, 필요한 계산 자원은 확인하지 못했다. 논문의 모델·설정을 그대로 재현할 수 있는지도 불분명하다. 시점 변화 외의 요인(인원 수, 행동 종류)이 결과에 섞일 수 있다. 이 제안은 연구실의 현재 프로젝트나 지도 가능 여부를 뜻하지 않으며, 연구실 제시 주제와의 직접 연관도 확인되지 않았다."
+      },
+      "right": {
+        "question": "ANUBIS 벤치마크에서 관절 좌표 입력과 뼈 벡터 입력으로 같은 골격 기반 행동 인식 모델을 학습할 때, 촬영 시점(예: 정면 vs 후면)이 바뀌면 정확도 하락폭과 예측 신뢰도(보정 오차)의 변화가 두 표현 사이에서 다르게 나타나는가?",
+        "paper_id": "W7163352033",
+        "paper_quote": "Our results show strong action-feature dependencies",
+        "paper_explanation": "논문 사실: 초록에 따르면 이 논문은 입력 특징을 관절 좌표, 뼈 벡터, 모션 플로우, 확장 표현으로 분류하고, 후면 시점을 포함한 다중 시점 데이터셋 ANUBIS에서 102개 행동 범주에 대해 특징 유형별 성능을 분석했으며, 행동과 특징 사이에 강한 의존성이 있다고 보고합니다. 제안(연구 제안, 논문 내용 아님): 위 질문처럼 두 표현만 골라 시점 변화에 따른 정확도와 보정 오차를 비교하는 소규모 재현·확장 실험입니다.",
+        "course_id": "CSED618",
+        "course_quote": "uncertainty learning via conformal prediction",
+        "course_connection": "연결은 잠정적이며 약합니다. 제안: 시점 변화를 분포 변화로 보고, 모델의 불확실성 추정이 얼마나 유지되는지 보는 관점에서 강의의 불확실성 학습(conformal prediction)과 연결할 수 있습니다. 다만 강의 설명에 분포 변화나 행동 인식이 명시되어 있지 않아 실제 강의 범위와의 적합성은 확인되지 않았습니다. 수강 여부로 학생의 역량을 추정하지 않았습니다.",
+        "first_step": "(제안) 공개된 ANUBIS 프로젝트 페이지(초록에 명시된 URL)에서 데이터 구성, 시점 정보, 제공 코드를 읽고, 시점별 분할이 가능한지와 관절·뼈 입력 학습 스크립트가 있는지 표로 정리합니다. 그다음 소수의 행동 범주 부분집합으로 작은 baseline 하나를 돌릴 수 있는지 확인합니다.",
+        "limitations": "미확인 사항: ANUBIS의 시점 라벨과 공식 분할 방식, 데이터 사용 조건과 용량, 제공 코드가 두 표현을 동일 조건으로 비교하게 해 주는지 여부. 초록만 근거로 했으므로 논문 본문의 결과 수치는 확인하지 않았습니다. conformal prediction은 시점 변화 시 교환가능성 가정이 깨질 수 있어 적용 타당성이 불확실합니다. 연구실의 현재 프로젝트나 지도 가능성, 연구 참여 허가는 확인되지 않았으며 주장하지 않습니다."
+      }
+    },
+    {
+      "id": "P2-03",
+      "context_id": "C2-01",
+      "left": {
+        "question": "Ti/TiO2/n-Ge 접촉에서 계면 TiO2의 열처리 중 산소 확산 억제가 SBH·ρc 안정성과 연결된다는 논문 결과를, 반도체소재개론의 확산·계면 개념으로 문헌 기반 정리하면 어떤 설명 틀이 가능한가?",
+        "paper_id": "W4290989670",
+        "paper_quote": "The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon.",
+        "paper_explanation": "논문 사실: 초록에 따르면 600 °C까지 RTA 시 탄소 도입 접촉에서 SBH와 ρc가 상대적으로 안정했고, EELS 매핑으로 계면 TiO2에서의 산소 확산 억제가 관찰되었다고 서술됨. 제안(연구 아이디어): 이를 확산·계면 관점의 개념 정리로 재구성하는 것이며, 논문이 이런 분석을 했다는 뜻은 아님. 탄소가 산소 확산을 억제하는 원자 수준 메커니즘은 초록만으로는 확인되지 않음.",
+        "course_id": "SEMI206",
+        "course_quote": "- diffusion and kinetics",
+        "course_connection": "잠정적으로 사용 가능한 연결: 강의 계획의 \"surface and interface\", \"diffusion and kinetics\"는 계면 TiO2 분해와 산소 확산이라는 논문 현상을 해석하는 개념 틀이 될 수 있음. 다만 강의가 이 논문 사례나 Ge 접촉을 다룬다는 근거는 없으므로 연결은 개념 수준이며 구체적 적합도는 미확인.",
+        "first_step": "(제안) 논문 본문에서 RTA 온도별 SBH·ρc 값과 TEM/EELS 그림을 표로 정리하고, 산소 확산 억제 주장을 뒷받침하는 데이터와 해석을 구분해 적기. 이후 강의 자료의 확산 개념(예: 확산 계수의 온도 의존성)으로 설명 가능한 부분과 불가능한 부분을 표시하기. 공개된 논문과 교재만으로 가능.",
+        "limitations": "초록만 제공되어 정량 수치, 탄소 도입 방법·농도, 시료 조건은 알 수 없음. 탄소가 확산 장벽으로 작용하는 정확한 메커니즘은 미확인. 강의의 실제 수업 깊이와 이 주제 적용 가능성도 불명. 연구실의 현재 프로젝트나 참여 허가는 확인되지 않았고 주장하지 않음. 학생의 배경 지식도 추정하지 않음."
+      },
+      "right": {
+        "question": "Ti/TiO2/n-Ge 접촉에서 계면 TiO2에 탄소를 넣으면 RTA 온도(500–600 °C 구간)에 따라 쇼트키 장벽 높이와 접촉 비저항의 변화가 왜 줄어드는지, 산소 확산 억제와 연결해 기존 문헌 값만으로 정량 비교할 수 있을까?",
+        "paper_id": "W4290989670",
+        "paper_quote": "The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon.",
+        "paper_explanation": "논문이 보고한 사실: 550 °C 이상 RTA에서 SBH와 ρc가 증가하고 TiO2 분해로 열 불안정이 생기며, 탄소를 넣으면 600 °C까지 비교적 안정하고 산소 확산이 억제된다는 점입니다. 제안하는 연구: 이 결과를 논문 내 수치로 재정리해 탄소의 효과를 온도별로 정량 비교하는 문헌 기반 분석이며, 논문이 직접 수행한 내용은 아닙니다.",
+        "course_id": "SEMI206",
+        "course_quote": "surface and interface",
+        "course_connection": "수업의 계면, 확산과 반응속도(diffusion and kinetics), 전기적·구조적 특성 분석 주제는 탄소 도입에 따른 산소 확산 억제와 접촉 특성 변화를 해석하는 틀로 쓸 수 있습니다. 다만 수업이 이 논문의 Ge 접촉을 직접 다루는지는 불분명합니다.",
+        "first_step": "논문 본문에서 탄소 유무별 RTA 온도에 따른 SBH와 ρc 값을 표로 옮기고, 변화율을 계산해 그래프로 그려 보세요. 이어서 TEM/EELS 그림 설명을 정리해 전기적 변화와 어떤 구조 변화가 대응하는지 한 쪽으로 요약하세요.",
+        "limitations": "본문 전체의 수치와 측정 조건은 초록만으로 알 수 없습니다. 탄소 도입 방법이나 농도의 영향, 기전(결합, 결함 등)은 불확실합니다. 문헌 값 비교는 소자 간 편차 때문에 한계가 있습니다. 실험 장비 접근 가능 여부와 이 연구실의 현재 프로젝트 여부, 참여 허락은 알 수 없습니다."
+      }
+    },
+    {
+      "id": "P2-04",
+      "context_id": "C2-06",
+      "left": {
+        "question": "자기 나노입자 클러스터의 가시상(spiny) 구조가 2D에서 3D로 바뀔 때, 문헌에 보고된 태양광 증발 성능 향상(증발률 2.8 kg m–2 h–1, 2D의 1.64배)은 광흡수 증가와 표면적 증가 중 어느 요인으로 더 잘 설명되는가?",
+        "paper_id": "W4393149344",
+        "paper_quote": "The 3D SSG achieved an evaporation rate of 2.8 kg m –2 h –1, which is 1.64 times higher than that of the 2D SSG, attributable to its efficient environmental energy utilization.",
+        "paper_explanation": "논문 사실(초록): 자화된 철 원통과 자기 나노입자 클러스터로 표면 전체에 계층적 가시 구조의 3D 태양광 증기 발생기를 만들었고, 다중 반사에 의한 광흡수 증가와 표면적 확대에 의한 증발 촉진, 3D에서 환경 에너지 활용 개선을 보고함. 제안(연구 아이디어): 이 요인들을 간단한 에너지 수지 모델로 정리해 어떤 요인이 기여가 큰지 문헌 수치로 비교해 보는 것. 초록만으로는 요인별 기여도가 분리되어 있는지 알 수 없음.",
+        "course_id": "CHEB214",
+        "course_quote": "renewable energy systems, energy production and storage technologies, high-efficiency energy devices, and water treatment technologies",
+        "course_connection": "잠정적 연결: 이 과목은 신재생에너지와 수처리 기술을 다루고, 논문은 태양에너지를 이용한 증발(해수 NaCl 용액 실험 포함)을 다루므로 주제상 관련됨. 다만 수업계획에 태양광 증발이나 나노입자 구조가 명시되어 있지 않아, 에너지 효율과 수처리 관점의 배경으로만 쓸 수 있으며 구체적 이론 연결은 불확실함. 수강 여부로 학생의 역량을 추정하지 않음.",
+        "first_step": "(제안) 논문 본문 또는 공개된 초록에서 2D/3D SSG의 증발률, 광흡수 및 표면적 관련 수치를 표로 정리하고, 태양광 입력 대비 증발 에너지(물의 증발 엔탈피 사용)로 단순 효율을 계산해 보기. 추가 장비나 실험 접근은 필요 없음.",
+        "limitations": "초록만 근거로 하므로 광흡수율, 표면적, 암증발(dark evaporation) 기여도의 실제 수치는 알 수 없음. 본문 접근 가능 여부와 수치 공개 여부는 미확인. 수업에서 이 주제를 실제로 다루는지 미확인. 연구실의 현재 프로젝트나 참여 허가에 대해서는 아무 것도 주장하지 않음."
+      },
+      "right": {
+        "question": "자기 나노입자 클러스터(MNC)의 가시(spiny) 구조 높이와 밀도를 바꾸면, 문헌에 보고된 광흡수·증발 모델로 추정한 증발률 변화는 어떻게 달라지는가? (공개 데이터 기반 간이 에너지수지 모델 비교)",
+        "paper_id": "W4393149344",
+        "paper_quote": "this hierarchical spiny structure significantly enhanced light absorption via multiple reflections and promoted water evaporation by expanding the surface area",
+        "paper_explanation": "논문 사실: 가시형 계층 구조가 다중 반사로 광흡수를 높이고 표면적 확대로 증발을 촉진하며, 3D SSG가 2.8 kg m–2 h–1로 2D보다 1.64배 높다고 보고함. 제안 연구: 구조 변수(높이·밀도)별 기여를 간이 모델로 분리해 보는 것이며, 논문이 이를 수행했다는 뜻은 아님.",
+        "course_id": "CHEB214",
+        "course_quote": "renewable energy systems, energy production and storage technologies, high-efficiency energy devices, and water treatment technologies",
+        "course_connection": "잠정적 연결: 수업의 재생에너지·수처리 주제는 태양열 증발(담수화)의 에너지 효율을 에너지수지로 따져보는 틀로 쓸 수 있음. 다만 계획표에 태양열 증발이나 나노구조 내용이 명시되어 있지 않아 직접 연관성은 불명확함.",
+        "first_step": "논문 본문과 보충자료에서 2D·3D 증발률, 조도, 암증발(dark evaporation) 조건을 표로 정리하고, 증발 엔탈피로 증발 효율을 계산하는 간단한 스프레드시트 에너지수지를 만들어 보기.",
+        "limitations": "가시 구조 높이·밀도의 정량 데이터가 공개되어 있는지 불명. 간이 모델이 다중 반사·표면적 효과를 충분히 반영하는지 미확정. 연구실의 현재 프로젝트나 참여 가능 여부는 알 수 없고, 실험 장비 접근도 가정하지 않음."
+      }
+    },
+    {
+      "id": "P2-05",
+      "context_id": "C2-02",
+      "left": {
+        "question": "단일 큐비트 위상 추정에서 dephasing 잡음이 있을 때, 자율 오류 보정(AutoQEC)의 dissipation 비율 R을 유한하게 두면 양자 Fisher 정보의 시간 제곱(Heisenberg) 스케일링이 어느 R 범위와 시간 구간 T까지 근사적으로 유지되는가?",
+        "paper_id": "W4417091791",
+        "paper_quote": "we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise",
+        "paper_explanation": "논문의 사실: 잡음 Lindblad 연산자가 신호 해밀토니안과 가환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC가 유한한 R에서도 Heisenberg 스케일링을 근사적으로 보존한다고 보이며, 오차는 ϵ = O(κT/R^c)로 주어지고 dephasing 위상 추정으로 수치 검증한다. 제안하는 연구(논문 내용 아님): 작은 모델에서 R, T, c에 따른 실제 오차 경향을 직접 재현·점검하는 것.",
+        "course_id": "PHYS647",
+        "course_quote": "Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.",
+        "course_connection": "수업의 양자 잡음 채널(CPTP, Kraus), 위상 추정 알고리즘, 양자 오류 정정 주제가 이 논문의 dephasing 모델과 오류 보정 개념에 연결될 수 있다. 다만 자율(연속시간 Lindblad) 보정이나 양자 계측은 계획에 명시되지 않아 연결 정도는 불확실하며, 기말 프로젝트 주제로 쓸 수 있는 정도로만 잠정적이다.",
+        "first_step": "논문을 읽고 dephasing 위상 추정 예시의 설정(해밀토니안, Lindblad 연산자, 보정 dissipator)을 정리한 뒤, Python(QuTiP 또는 numpy)으로 Lindblad 방정식을 풀어 R을 바꿔가며 양자 Fisher 정보 대 t²를 그려 보라. 먼저 보정 없는 경우(선형 스케일링)와 비교한다.",
+        "limitations": "논문의 구체적 AutoQEC 구성(보정 dissipator)은 전문을 읽어야 알 수 있어 재구성이 어려울 수 있다. 단일 큐비트 수치 결과가 일반 잡음에 적용되는지 불확실하다. 실험 구현 가능성, 이 연구실의 현재 프로젝트 여부, 지도 가능성은 알 수 없다."
+      },
+      "right": {
+        "question": "소음 연산자가 신호 해밀토니안과 가환하는 위상 추정(dephasing) 모델에서, AutoQEC의 소산율 비 R을 바꿀 때 오차 ε=O(κT/R^c)가 작은 수치 예시에서 어떻게 나타나는지 재현하여 확인할 수 있는가?",
+        "paper_id": "W4417091791",
+        "paper_quote": "we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise",
+        "paper_explanation": "논문 사실: 잡음의 모든 Lindblad 연산자가 신호 해밀토니안과 가환하고 특정 제약 선형방정식에 해가 있으면, 유한한 R의 ancilla-free AutoQEC가 시간 구간 0≤t≤T에서 하이젠베르크 스케일링(HS)을 작은 오차 ε 내로 근사적으로 보존한다고 주장하며, 오차는 ε=O(κT/R^c)로 스케일한다고 서술하고, 위상 추정/dephasing 예시로 수치 검증했다고 한다. 제안(연구 아이디어): 이를 학생 규모로 단순 재현·비교하는 것이며 논문이 이를 수행했다는 뜻은 아니다.",
+        "course_id": "PHYS647",
+        "course_quote": "Understand the fundamentals of quantum error correction and fault-tolerant quantum computation.",
+        "course_connection": "잠정적 연결: 수업 계획에 \"Basic quantum noise channels\", \"Phase estimation algorithm\", \"Quantum noise and decoherence\", \"Basic quantum error-correcting codes\"가 있어 논문의 dephasing 잡음, 위상 추정, 오류 보정 배경과 주제상 겹친다. 다만 수업이 양자 계측, 자율(소산 기반) 오류 보정, Lindblad 방정식을 다루는지는 제공된 텍스트에서 확인되지 않는다. 수강 여부로 학생의 능력을 추정하지 않는다.",
+        "first_step": "논문 본문을 읽고 수치 예시의 모델(큐비트 수, 잡음 연산자, 코드)을 정리한다. 그다음 단일 큐비트 dephasing Lindblad 방정식을 공개 파이썬 라이브러리(예: QuTiP)로 시뮬레이션해 AutoQEC 없이 얻는 정보량(양자 Fisher 정보)의 시간 의존성을 먼저 계산해 본다. (제안)",
+        "limitations": "논문 본문, 구체적 AutoQEC 구성, 제약 선형방정식의 해 존재 조건은 초록만으로 알 수 없다. 수업이 Lindblad 방정식이나 계측 이론을 얼마나 다루는지 불명확하다(계획 텍스트도 끝이 잘려 있음). 해당 연구실의 현재 프로젝트나 지도 가능 여부는 확인되지 않았고 가정하지 않는다. 재현 가능성과 소요 시간도 미확인이다."
+      }
+    },
+    {
+      "id": "P2-06",
+      "context_id": "C2-05",
+      "left": {
+        "question": "저대칭 이방성 층상 금속 칼코겐화물(1D/2D)에서 결정 대칭과 결정 방향(orientation)이 전자 특성과 촉매 특성의 방향 의존성에 어떻게 달라지는지, 문헌 사례를 비교하면 정리할 수 있을까?",
+        "paper_id": "W4318693490",
+        "paper_quote": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs) have generated tremendous interest",
+        "paper_explanation": "논문 사실: 초록에 따르면 저대칭 이방성 1D/2D 금속 칼코겐화물은 독특한 전자·촉매 특성을 보이며, 기본 결정 구조, 합성, 조절 전략, 응용을 개괄한다. 제안(연구 아이디어): 결정 대칭·방향과 특성 방향 의존성을 사례별로 비교하는 문헌 정리이며, 논문이 이를 직접 수행했다고 주장하는 것은 아니다.",
+        "course_id": "GIFT624",
+        "course_quote": "To precisely evaluate phase and crystallographic orientation, a background in crystallography is necessary.",
+        "course_connection": "잠정적 연결: 강의의 결정계·방향, 점군/공간군, 대칭 개념은 낮은 대칭 구조와 방향 의존 특성을 기술하는 틀로 쓸 수 있다. 다만 강의 설명은 금속·배터리 재료 중심이며 칼코겐화물을 직접 언급하지 않아 연결 강도는 부분적으로만 확인된다. 수강 여부로 학생의 역량을 추정하지 않는다.",
+        "first_step": "(제안) 논문의 결정 구조 소개 부분에서 이방성 MC 2~3종(예: 층상 구조와 사슬형 구조)을 골라, 각각의 결정계·공간군·특성 방향을 표로 정리한다. 공개 결정 데이터베이스나 논문 본문만 사용한다.",
+        "limitations": "논문 전문의 구체 사례와 수치는 초록만으로 확인되지 않았다. 강의가 칼코겐화물이나 촉매를 다루는지 불명확하다. 구조-특성 인과관계는 문헌 비교만으로 확정하기 어렵고, 실험·장비 접근 여부와 연구실의 현재 프로젝트 및 참여 가능성도 알 수 없다."
+      },
+      "right": {
+        "question": "공개된 결정구조 데이터(예: Materials Project, COD)를 사용할 때, 층상 이방성 금속 칼코겐화물(예: MoS2 같은 2D형과 1D형 사슬 구조 화합물 2~3종)의 결정 대칭성과 결정학적 방향(층 내/층간)에 따라 계산된 밴드갭·유효질량 같은 전자 특성이나 촉매 활성 지표(예: 모서리/기저면 원자 비율)는 어떻게 달라지는가?",
+        "paper_id": "W4318693490",
+        "paper_quote": "The unique electronic and catalytic properties emerging from low symmetry anisotropic (1D and 2D) metal chalcogenides (MCs)",
+        "paper_explanation": "논문 사실: 저대칭 이방성 1D/2D 금속 칼코겐화물이 독특한 전자·촉매 특성을 보이며, 결정구조 소개와 합성·응용을 개괄한다고 서술합니다. 제안 연구: 구조 방향별 특성 차이를 공개 데이터로 비교하는 것은 학생의 제안이며, 논문이 직접 다룬 분석이라고 단정할 수 없습니다.",
+        "course_id": "GIFT624",
+        "course_quote": "To precisely evaluate phase and crystallographic orientation, a background in crystallography is necessary.",
+        "course_connection": "강의는 대칭, 결정계와 방향, 점군·면군·공간군을 다루므로, 선택한 화합물의 공간군과 결정학적 방향을 정리하고 이를 특성 비교의 기준으로 삼는 데 쓸 수 있습니다. 다만 강의 예시는 금속·배터리 소재 중심이라 칼코겐화물에 직접 적용되는 정도는 불확실합니다.",
+        "first_step": "논문 개요의 결정구조 설명을 읽고 비교할 화합물 3개(2D 2개, 1D 1개)를 고른 뒤, COD 또는 Materials Project에서 CIF를 내려받아 공간군, 격자상수, 층 방향을 표로 정리하세요. 그다음 VESTA 같은 무료 프로그램으로 구조를 시각화해 층 내/층간 방향을 표시하세요.",
+        "limitations": "논문 전문과 실험 데이터는 확인하지 않았고 초록만 근거로 했습니다. 데이터베이스 계산값은 방법(DFT 함수)에 따라 밴드갭이 과소평가될 수 있으며 촉매 활성은 원자 비율만으로 대리 평가하기 어렵습니다. 연구실의 현재 프로젝트, 장비, 참여 가능 여부는 알 수 없습니다."
+      }
+    },
+    {
+      "id": "P2-07",
+      "context_id": "C2-07",
+      "left": {
+        "question": "ESC 유래 세포외소포(EV)에서 표면 fibronectin을 제거하거나 integrin 결합을 차단하면, 섬유아세포의 노화 지표(SA-β-gal 등)와 Nrf2 안정화가 어떻게 달라지는지 논문 데이터의 어떤 실험 설계로 확인되었는가?",
+        "paper_id": "W4415184415",
+        "paper_quote": "It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT.",
+        "paper_explanation": "논문 사실(초록 기준): ESC 유래 EV 표면의 fibronectin이 integrin 결합을 통해 FAK·AKT를 활성화하고, GSK3β 억제와 Nrf2 안정화로 산화 스트레스를 완화해 섬유아세포와 성상세포의 노화를 막는다고 보고함. 제안(연구 아이디어): 질문에 쓴 SA-β-gal, fibronectin 제거, integrin 차단 같은 구체적 실험 방법은 초록에 없으므로 본문에서 확인해야 하는 가설적 점검 항목임.",
+        "course_id": "LIFE509",
+        "course_quote": "in-depth understanding of the mechanisms that govern cell function and cellular processes",
+        "course_connection": "과목 설명은 세포 기능과 세포 과정의 기전을 깊이 이해하는 것을 목표로 한다고 되어 있고, 논문은 integrin–FAK–AKT–GSK3β–Nrf2 신호 경로를 다룸. 따라서 신호 경로 기전이 실험으로 어떻게 입증되었는지 분석하는 틀로 쓸 수 있다는 정도의 잠정적 연결임. 수업에서 이 경로를 실제로 다루는지는 확인되지 않음(unconfirmed).",
+        "first_step": "논문 본문(공개 접근 가능한 범위)에서 Figure와 Methods를 읽고, 경로의 각 단계(fibronectin→integrin→FAK/AKT→GSK3β→Nrf2→노화)마다 사용된 처리(억제제, 녹다운, 항체 등)와 측정 지표를 표로 정리한다. 본문을 볼 수 없으면 초록 기준으로 표의 틀만 만들고 빈칸은 '미확인'으로 표시한다.",
+        "limitations": "초록만으로는 실제 실험 방법, 대조군, 정량 결과, 통계를 알 수 없음. 본문 접근 가능 여부도 불명확함. 성상세포와 섬유아세포 결과의 일반화 정도, in vivo 근거 여부도 확인되지 않음. 수업 세부 내용(계획서 없음)과 연구실의 현재 프로젝트 및 참여 가능 여부는 알 수 없음."
+      },
+      "right": {
+        "question": "ESC 유래 세포외소포(EV)가 fibronectin–integrin–FAK/AKT–GSK3β–Nrf2 경로를 통해 산화 스트레스를 줄이고 세포 노화를 늦춘다는 결론은, 논문에서 어떤 유형의 실험(노화 지표, 경로 억제, 산화 스트레스 측정)으로 단계별 뒷받침되었는가?",
+        "paper_id": "W4415184415",
+        "paper_quote": "It starts with the extracellular matrix protein fibronectin that coats the surfaces of EVs, enabling the vesicles to bind integrins on cells and trigger the activation of FAK and AKT.",
+        "paper_explanation": "논문 사실(초록 기준): ESC EV가 섬유아세포와 별아교세포의 노화를 막으며, EV 표면 fibronectin→integrin→FAK/AKT→GSK3β 억제→Nrf2 안정화 경로가 산화 스트레스를 상쇄한다고 보고합니다. 제안 연구: 각 단계의 근거가 어떤 실험 설계로 제시됐는지 본문에서 정리해 비교하는 문헌 분석이며, 초록만으로는 구체적 실험 방법을 알 수 없습니다.",
+        "course_id": "LIFE509",
+        "course_quote": "in-depth understanding of the mechanisms that govern cell function and cellular processes",
+        "course_connection": "과목 설명의 세포 기능·세포 과정 기전 이해라는 목표는 신호 경로(integrin, FAK/AKT, GSK3β, Nrf2)와 노화를 단계별로 해석하는 이 질문과 연결될 수 있습니다. 다만 세부 수업 내용(계획 없음)은 알 수 없어 연관성은 잠정적입니다.",
+        "first_step": "논문 전문을 구해 그림별로 표를 만드세요: 주장 단계, 사용 세포, 처리(EV, 억제제, 넉다운 등), 측정 지표(노화 마커, ROS 등), 대조군, 결론. 전문이 없으면 공개된 초록과 그림 설명만으로 시작하세요.",
+        "limitations": "전문 접근 가능 여부와 실제 실험 방법은 아직 모릅니다. 이 논문이 연구실의 현재 프로젝트인지, 연구실 참여가 가능한지는 알 수 없고 주장하지 않습니다. 과목 계획이 비어 있어 수업 범위도 불확실하며, 문헌 분석이라 새로운 실험 결과는 만들지 못합니다."
+      }
+    },
+    {
+      "id": "P2-08",
+      "context_id": "C2-08",
+      "left": {
+        "question": "단순한 2층 신경망(예: XOR 과제)을 CRN의 ODE 모델로 시뮬레이션하고 반응 속도 상수에 잡음을 넣을 때, 매끄러운 활성화 함수(예: sigmoid)와 ReLU류 함수 중 어느 쪽이 학습 정확도 저하가 더 작은가?",
+        "paper_id": "W4412198846",
+        "paper_quote": "computation via the CRN (i) maintains accuracy despite noise in the reaction rates and the concentration of species",
+        "paper_explanation": "논문 사실: 초록은 매끄러운 활성화 함수를 쓰는 CRN이 반응 속도와 종 농도의 잡음에도 정확도를 유지하고, 비매끄러운 활성화 함수를 쓰는 NN보다 실행 시간과 잡음 크기 선택에 덜 민감하다고 보고합니다. 제안(연구 제안일 뿐): 이를 XOR 규모로 단순화해 직접 비교하는 것입니다. 논문의 구체적 모델이나 결과를 재현한다는 뜻은 아닙니다.",
+        "course_id": "AIGS651",
+        "course_quote": "Learning using Backpropagation",
+        "course_connection": "잠정적 연결: 수업 계획에 역전파 학습과 MNIST 및 신경망 프로그래밍 항목이 있어, 역전파 기울기와 활성화 함수 선택을 코드로 구현하는 기초로 쓸 수 있을 것으로 보입니다. 다만 이 과목이 CRN이나 화학적 잡음을 다루는지는 제시된 설명에 없어 확인되지 않았습니다. 수강 여부로 학생의 역량을 추정하지 않았습니다.",
+        "first_step": "(제안) 논문을 읽고 XOR 실험의 활성화 함수, 잡음 정의, 평가 지표를 표로 정리하세요. 그다음 일반 Python으로 작은 신경망을 만들고, 가중치 갱신에 곱셈형 가우시안 잡음을 주는 대리 실험을 sigmoid와 ReLU로 비교하세요. 이 실험은 실제 CRN 시뮬레이션이 아니라 그 대리 모형입니다.",
+        "limitations": "초록만 근거로 했으므로 논문의 CRN 구조, 잡음 모델, 실험 세부 사항은 확인되지 않았습니다. 대리 실험이 반응 네트워크의 확률적 잡음(예: 확률적 반응 모형)을 얼마나 반영하는지는 불명확합니다. 연구실의 현재 프로젝트나 지도 가능성은 알 수 없으며, 과목이 이 주제를 다루는지도 불확실합니다."
+      },
+      "right": {
+        "question": "작은 MNIST 또는 XOR 신경망을 상미분방정식 형태의 CRN 학습 모델로 단순화하고 반응속도 잡음 크기를 바꿀 때, 매끄러운 활성함수(sigmoid 등)와 ReLU 유사 활성함수 중 어느 쪽이 정확도 저하와 학습시간 민감도가 더 작은가?",
+        "paper_id": "W4412198846",
+        "paper_quote": "we propose CRNs that perform both feed-forward and training processes using smooth activation functions to avoid discontinuities in the backpropagation",
+        "paper_explanation": "논문이 밝힌 사실: 매끄러운 활성함수를 쓰는 CRN으로 순전파와 학습을 수행하며, 반응속도 및 농도 잡음에서도 정확도를 유지한다고 보고합니다. 제안하는 연구: 이 주장을 학생 규모의 단순화된 모델에서 잡음 유형과 크기별로 독립적으로 재현·비교하는 것이며, 논문의 결과를 확장하거나 반박한다고 전제하지 않습니다.",
+        "course_id": "AIGS651",
+        "course_quote": "Lectures will focus on practical AI Neural Network methods",
+        "course_connection": "수업 계획의 MNIST 신경망 프로그래밍과 역전파 학습 주제를 기준 모델(잡음 없는 NN)을 구현하는 데 쓸 수 있습니다. 다만 화학 반응 네트워크나 확률적 반응 모델을 다루는지는 불분명하므로, CRN 부분은 별도로 공부해야 할 수 있습니다.",
+        "first_step": "논문을 읽고 XOR 문제용 2-2-1 신경망을 Python으로 구현하세요. 활성함수는 sigmoid와 ReLU로 두고, 학습 중 가중치 갱신이나 기울기에 곱셈형 가우시안 잡음(예: 1%, 5%, 10%)을 넣어 각 설정을 여러 시드로 반복해 정확도를 비교하세요. 이것이 CRN 실험의 대리 모델임을 명시하세요.",
+        "limitations": "이 단순 모델은 실제 CRN의 쌍분자 반응, 질량작용 동역학, 내재적 확률 잡음을 충분히 반영하지 못할 수 있습니다. 논문의 구체적 반응식과 코드 공개 여부는 알 수 없습니다. 이 과목에서 CRN 주제가 허용되는지, 연구실이 이 주제를 진행 중인지, 지도 가능성은 확인되지 않았습니다."
+      }
+    }
+  ]
+}

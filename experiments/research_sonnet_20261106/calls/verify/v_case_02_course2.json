@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "PHYS535의 밀도행렬·양자채널 언어를 이용해, 위상(dephasing) 잡음 하의 위상 추정 장난감 모델에서 AutoQEC형 소산 보정의 강도 R을 키울 때 하이젠베르크 스케일링 손실이 어떻게 줄어드는지 수치로 확인할 수 있는가?",
+    "paper_id": "W4417091791",
+    "paper_quote": "we numerically verify our analytical results by employing concrete examples of phase estimation under dephasing noise",
+    "paper_explanation": "논문 사실(초록 기준): 잡음의 모든 린드블라드 연산자가 신호 해밀토니안과 교환하고 특정 제약 선형방정식이 해를 가지면, ancilla 없는 AutoQEC가 유한한 R로 하이젠베르크 스케일링을 오차 ϵ 내에서 근사적으로 보존한다고 하며, dephasing 하 위상 추정으로 수치 검증했다고 한다. 연구 제안(논문 내용 아님): 이를 단순화한 장난감 모델로 학생 규모에서 탐색해 보는 것이다.",
+    "course_id": "PHYS535",
+    "course_quote": "the mathematical language of quantum information processing: density matrices, measurements, channels, etc.",
+    "course_connection": "잠정적 연결: 강의 설명에 밀도행렬, 측정, 채널이 명시되어 있어 잡음 있는 상태의 시간 발전을 기술하는 기초 언어와 관련될 수 있다. 다만 강의 설명·계획에 계측, 피셔 정보, 린드블라드 방정식, 오류 보정은 명시되어 있지 않아 직접 연결은 부분적이며 불확실하다. 수강 여부로 학생 역량을 추정하지 않는다.",
+    "first_step": "논문 전문 접근 없이 초록만으로 시작한다. 초록의 조건(잡음 린드블라드 연산자와 신호 해밀토니안의 교환, ϵ=O(κT/R^c))을 한 쪽으로 정리한다. 그 다음 NumPy나 QuTiP 같은 공개 도구로, 본인이 정한 장난감 모델(예: 큐비트, H=ωσz/2, 잡음 연산자 σz)의 보정 없는 기준선 마스터 방정식을 시뮬레이션하고, 시간에 따른 ω 추정 정보량(양자 피셔 정보)을 계산해 t²와 비교한다.",
+    "limitations": "초록만으로는 논문의 구체적 모델, 매개변수, 보정 소산 항 구성, 제약 선형방정식의 형태를 알 수 없어 재현 가능성은 확인되지 않았다. 장난감 모델이 논문 예제와 같은지, 큐비트 수가 충분한지도 불명확하다. 학생의 사전 지식과 수강 여부는 알 수 없다. 연구실이 이 주제를 진행 중인지, 참여가 가능한지도 확인되지 않았다."
+  },
+  "duration_wall_s": 22.797,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1805,
+      "cacheReadInputTokens": 672,
+      "cacheCreationInputTokens": 3136,
+      "webSearchRequests": 0,
+      "costUSD": 0.0306652,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 566,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 3136,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3136,
+    "cache_read_input_tokens": 672,
+    "output_tokens": 1805,
+    "output_tokens_details": {
+      "thinking_tokens": 566
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 3136,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1805,
+        "cache_read_input_tokens": 672,
+        "cache_creation_input_tokens": 3136,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3136
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.0306652,
+  "error": null,
+  "input_sha256": "23a4e2e2a145c1ead896ae2cadb3d3a19afb08543c9b9f5fb1e4ce66636543ef"
+}

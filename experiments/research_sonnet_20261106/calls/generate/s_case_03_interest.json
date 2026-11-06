@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "ANUBIS 같은 공개 스켈레톤 벤치마크에서, 관절 좌표 입력과 뼈 벡터 입력으로 동일한 모델을 학습했을 때, 학습에 쓰지 않은 촬영 시점(예: 정면→후면 시점)으로 평가하면 두 표현의 정확도 하락 폭은 어떻게 다른가?",
+    "paper_id": "W7163352033",
+    "paper_quote": "systematically categorizing state-of-the-art methods by their input feature types: joint coordinates, bone vectors, motion flows, and extended representations",
+    "paper_explanation": "논문이 밝힌 사실: 입력 표현을 관절 좌표, 뼈 벡터 등으로 분류했고, 후면 시점을 포함한 다중 시점 데이터셋 ANUBIS에서 102개 행동 범주에 대해 표현별 성능을 분석했다. 제안하는 연구(시점 변화에 따른 좌표 대 뼈 벡터의 성능 하락 비교)는 논문의 결과가 아니라 학생이 새로 설정하는 질문이다.",
+    "course_id": "CSED618",
+    "course_quote": "we explore whether popular machine-learned models are trustworthy",
+    "course_connection": "관련성은 부분적이고 잠정적이다. 촬영 환경 변화에서 성능이 얼마나 유지되는지는 모델의 강건성·신뢰성 관점으로 볼 수 있다. 다만 강의 설명에 스켈레톤 행동 인식이 명시되어 있지는 않아, 이 질문을 강의 내용에 어떻게 적용할지는 불분명하다.",
+    "first_step": "논문 공개 페이지(https://yliu1082.github.io/ANUBIS/)에서 데이터셋과 코드의 접근 방식 및 라이선스를 확인한다. 확인 후 공개된 벤치마크 코드나 소규모 공개 스켈레톤 데이터로 관절 좌표와 뼈 벡터(인접 관절 차이)를 만들어 보고, 작은 모델 하나로 시점 분할 평가를 시험해 본다.",
+    "limitations": "ANUBIS의 시점별 분할 제공 여부, 데이터 크기, 필요한 계산 자원은 확인하지 못했다. 논문의 모델·설정을 그대로 재현할 수 있는지도 불분명하다. 시점 변화 외의 요인(인원 수, 행동 종류)이 결과에 섞일 수 있다. 이 제안은 연구실의 현재 프로젝트나 지도 가능 여부를 뜻하지 않으며, 연구실 제시 주제와의 직접 연관도 확인되지 않았다."
+  },
+  "duration_wall_s": 20.376,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 4,
+      "outputTokens": 2268,
+      "cacheReadInputTokens": 3389,
+      "cacheCreationInputTokens": 6647,
+      "webSearchRequests": 0,
+      "costUSD": 0.049614899999999997,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 6647,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 6647,
+    "cache_read_input_tokens": 3389,
+    "output_tokens": 2268,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6647,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1120,
+        "cache_read_input_tokens": 2717,
+        "cache_creation_input_tokens": 4602,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 4602
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.049614899999999997,
+  "error": null,
+  "input_sha256": "8c40e5b674db14d2e538c85da83841c9130a56ab40df91e8b9159008256b12f1"
+}

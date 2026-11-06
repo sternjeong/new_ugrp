@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "공개된 계약서·입찰 조항 샘플(예: FIDIC 표준 약관)에서, 규칙 기반 키워드/패턴 추출과 소규모 bi-LSTM 분류기 중 어느 쪽이 '위험 조항' 식별에서 더 높은 F1을 보이며, 학습 데이터에 없는 조항 유형에서는 성능이 얼마나 떨어지는가?",
+    "paper_id": "W4281682208",
+    "paper_quote": "Therefore, this study illustrated that the rule-based approach performed superior to the training-based method.",
+    "paper_explanation": "논문이 보고한 사실: ITB의 위험 조항을 NLP 규칙 기반 SA 모델(F1 86.4%)과 bi-LSTM 기반 RLR 모델(정확도 46.8%)로 분석했고, 학습 데이터에 없던 조항 때문에 RLR 성능이 낮았다고 설명함. 제안하는 연구(논문의 내용 아님): 공개 문서로 두 접근을 축소 재현·비교하고 미학습 조항 유형에 대한 일반화를 점검하는 것.",
+    "course_id": "GIFT714",
+    "course_quote": "Engineering Project Management",
+    "course_connection": "수업 계획의 5주차(Bid and ITB), 6주차(Contract & Claims Management), 13주차(FIDIC 표준계약)가 입찰·계약 위험 조항의 도메인 이해와 라벨링 기준 설정에 쓰일 수 있고, 14~15주차 AI/BD 기반 스마트 엔지니어링 PM 텀프로젝트와 연결 가능성이 있음. 다만 실제 수업에서 NLP 실습이 다뤄지는지는 불분명함.",
+    "first_step": "공개적으로 구할 수 있는 표준 계약 약관 일부(또는 직접 작성한 가상 조항 50~100개)를 모아 스프레드시트에 정리하고, '위험 있음/없음'과 위험 유형(예: 지체상금, 책임, 변경)을 정의한 간단한 라벨링 기준표를 만든 뒤, 키워드 규칙 몇 개로 먼저 baseline 추출을 해 보기.",
+    "limitations": "논문의 ITB 데이터, 학습 데이터, EMAP 플랫폼은 접근 가능한지 알 수 없음. 공개 문서의 라이선스와 양, 라벨 신뢰도가 불확실하고 소규모 데이터에서는 bi-LSTM 결과가 불안정할 수 있음. 해당 연구실이 이 주제를 진행 중인지, 지도나 협업이 가능한지는 알 수 없음. 수업 내용이 실제로 얼마나 도움이 될지도 불확실함."
+  },
+  "duration_wall_s": 19.044,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1144,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 2635,
+      "webSearchRequests": 0,
+      "costUSD": 0.022295000000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2635,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2635,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 1144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2635,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1144,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 2635,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2635
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.022295000000000002,
+  "error": null,
+  "input_sha256": "a20a01e974850ddf6881d494cacdd01039a07395cd01d301ef66a34f34a7a504"
+}

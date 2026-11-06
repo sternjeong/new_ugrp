@@ -1,0 +1,218 @@
+[
+  {
+    "id": "R2-001",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "EV 경로와 노화 기전을 직접 묻고 사실·가설을 분리했다; 첫 단계도 경로별 실험 지표를 추적한다."
+  },
+  {
+    "id": "R2-002",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "CRN 잡음·활성함수 관심을 반영하고 NN/역전파 수업과 연결했다; XOR 대리모형임을 밝혀 제안 범위를 지킨다."
+  },
+  {
+    "id": "R2-003",
+    "interest": 2,
+    "lab": 2,
+    "course": 1,
+    "action": 1,
+    "caution": 2,
+    "reason": "MNC 가시 구조와 증발 원리를 반영했다; 과목 연결은 에너지·수처리의 잠정적 배경이며 시작은 넓은 문헌 정리다."
+  },
+  {
+    "id": "R2-004",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 1,
+    "caution": 2,
+    "reason": "AutoQEC·dephasing·R의 논문 내용을 정확히 구분하고 과목의 잡음·위상추정·오류정정과 연결했다; 첫 단계는 보정 없는 기준선이다."
+  },
+  {
+    "id": "R2-005",
+    "interest": 2,
+    "lab": 2,
+    "course": 1,
+    "action": 2,
+    "caution": 2,
+    "reason": "관절/뼈 표현과 ANUBIS 시점 비교가 관심과 맞고 근거도 정확하다; 신뢰성 과목 연결은 일반적이고 잠정적이다."
+  },
+  {
+    "id": "R2-006",
+    "interest": 2,
+    "lab": 2,
+    "course": 1,
+    "action": 2,
+    "caution": 2,
+    "reason": "3D SSG의 2.8 및 1.64배와 광흡수·표면적을 정확히 연결했다; 과목은 에너지·수처리 수준의 잠정 연결이다."
+  },
+  {
+    "id": "R2-007",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심이나 Ti/TiO2/n-Ge 논문 사실을 답에 반영하지 않고, 연구 문제를 고르라는 범용 안내만 있다; 랩 제목은 자료와 일치한다."
+  },
+  {
+    "id": "R2-008",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "관심 및 MNC 태양광 증발 연구 사실이 빠져 있다; 랩 제목은 자료에 맞고 안내는 일반적이며 단정은 없다."
+  },
+  {
+    "id": "R2-009",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "양자 계측·AutoQEC와 논문 근거를 다루지 않은 범용 템플릿이다; 랩 제목은 자료에 부합하고 자격을 단정하지 않는다."
+  },
+  {
+    "id": "R2-010",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "탄소 도입, 온도, SBH·ρc, 산소 확산을 논문에 근거해 과목의 확산·계면 개념에 연결했다."
+  },
+  {
+    "id": "R2-011",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "이방성 칼코겐화물의 구조·방향 관심과 대칭/공간군 수업 내용을 구체적으로 연결하고 CIF 비교를 제안한다."
+  },
+  {
+    "id": "R2-012",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "CRN 잡음과 매끄러운 활성함수 주제를 반영하고 NN·역전파 수업과 연결했다; 대리 실험의 한계를 명시한다."
+  },
+  {
+    "id": "R2-013",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "dephasing 위상추정과 AutoQEC 스케일링을 반영하고 사실과 제안을 구분했다; 맥락에 선택 과목이 없다."
+  },
+  {
+    "id": "R2-014",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "ESC EV 신호경로 및 세포 노화 질문을 반영하고, 본문 확인이 필요한 제안으로 표시했다; 세포 기전 과목과 연결된다."
+  },
+  {
+    "id": "R2-015",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "ANUBIS·좌표/뼈·시점 변화에 보정 오차까지 관심을 확장해 반영하고, conformal prediction 연결의 한계를 밝혔다."
+  },
+  {
+    "id": "R2-016",
+    "interest": 0,
+    "lab": 2,
+    "course": null,
+    "action": 1,
+    "caution": 2,
+    "reason": "학생 관심과 AutoQEC 논문 내용은 반영되지 않은 범용 랩 탐색 템플릿이다; 선택 과목이 없다."
+  },
+  {
+    "id": "R2-017",
+    "interest": 2,
+    "lab": 2,
+    "course": null,
+    "action": 2,
+    "caution": 2,
+    "reason": "단일 큐비트 dephasing, R·T·κ 및 Fisher 정보로 질문·첫 단계를 구체화했다; 과목은 없고 연구실 활동도 단정하지 않는다."
+  },
+  {
+    "id": "R2-018",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "골격 행동인식 관심과 논문 결과가 빠진 템플릿이다; 랩 자료 제목은 맞지만 과목 연결이나 구체 시작 단계가 없다."
+  },
+  {
+    "id": "R2-019",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "dephasing·AutoQEC·R·시간 스케일링이 관심과 논문에 부합하고 과목의 잡음·위상추정·오류정정과 연결된다."
+  },
+  {
+    "id": "R2-020",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "Ti/TiO2/n-Ge에서 RTA·SBH·ρc 및 EELS 산소확산을 과목의 계면·확산 개념으로 연결했다."
+  },
+  {
+    "id": "R2-021",
+    "interest": 2,
+    "lab": 2,
+    "course": 2,
+    "action": 2,
+    "caution": 2,
+    "reason": "저대칭 이방성 칼코겐화물의 결정방향·특성을 정확히 반영하고 강의의 결정 대칭·방향과 연결했다."
+  },
+  {
+    "id": "R2-022",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "학생의 구조-특성 관심과 논문 사실을 활용하지 않은 범용 안내다; 랩 자료명만 정확히 제시한다."
+  },
+  {
+    "id": "R2-023",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "CRN 신경망 잡음에 관한 관심·논문 근거가 답에 없다; 랩 제목은 일치하고 연구 자격을 단정하지 않는다."
+  },
+  {
+    "id": "R2-024",
+    "interest": 0,
+    "lab": 2,
+    "course": 0,
+    "action": 1,
+    "caution": 2,
+    "reason": "EV·산화 스트레스·세포 노화 관심과 논문 근거가 빠진 범용 템플릿이다; 랩 자료명만 정확히 제시한다."
+  }
+]

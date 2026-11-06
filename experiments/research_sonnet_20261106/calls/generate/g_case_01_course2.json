@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "Ti/TiO2/n-Ge 접촉에서 계면 TiO2의 열처리 중 산소 확산 억제가 SBH·ρc 안정성과 연결된다는 논문 결과를, 반도체소재개론의 확산·계면 개념으로 문헌 기반 정리하면 어떤 설명 틀이 가능한가?",
+    "paper_id": "W4290989670",
+    "paper_quote": "The EELS mapping showed that the diffusion of oxygen from the interfacial TiO2layer was effectively suppressed thanks to the incorporation of carbon.",
+    "paper_explanation": "논문 사실: 초록에 따르면 600 °C까지 RTA 시 탄소 도입 접촉에서 SBH와 ρc가 상대적으로 안정했고, EELS 매핑으로 계면 TiO2에서의 산소 확산 억제가 관찰되었다고 서술됨. 제안(연구 아이디어): 이를 확산·계면 관점의 개념 정리로 재구성하는 것이며, 논문이 이런 분석을 했다는 뜻은 아님. 탄소가 산소 확산을 억제하는 원자 수준 메커니즘은 초록만으로는 확인되지 않음.",
+    "course_id": "SEMI206",
+    "course_quote": "- diffusion and kinetics",
+    "course_connection": "잠정적으로 사용 가능한 연결: 강의 계획의 \"surface and interface\", \"diffusion and kinetics\"는 계면 TiO2 분해와 산소 확산이라는 논문 현상을 해석하는 개념 틀이 될 수 있음. 다만 강의가 이 논문 사례나 Ge 접촉을 다룬다는 근거는 없으므로 연결은 개념 수준이며 구체적 적합도는 미확인.",
+    "first_step": "(제안) 논문 본문에서 RTA 온도별 SBH·ρc 값과 TEM/EELS 그림을 표로 정리하고, 산소 확산 억제 주장을 뒷받침하는 데이터와 해석을 구분해 적기. 이후 강의 자료의 확산 개념(예: 확산 계수의 온도 의존성)으로 설명 가능한 부분과 불가능한 부분을 표시하기. 공개된 논문과 교재만으로 가능.",
+    "limitations": "초록만 제공되어 정량 수치, 탄소 도입 방법·농도, 시료 조건은 알 수 없음. 탄소가 확산 장벽으로 작용하는 정확한 메커니즘은 미확인. 강의의 실제 수업 깊이와 이 주제 적용 가능성도 불명. 연구실의 현재 프로젝트나 참여 허가는 확인되지 않았고 주장하지 않음. 학생의 배경 지식도 추정하지 않음."
+  },
+  "duration_wall_s": 16.501,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1147,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 3161,
+      "webSearchRequests": 0,
+      "costUSD": 0.024429000000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 3161,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3161,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 1147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 3161,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1147,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 3161,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3161
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.024429000000000003,
+  "error": null,
+  "input_sha256": "cc22989f05467fe8504f2e56ffa727ce623a5ad2eee502d2b0959de60a961dad"
+}

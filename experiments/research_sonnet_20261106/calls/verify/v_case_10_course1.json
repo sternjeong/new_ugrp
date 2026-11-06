@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "EPC 입찰 문서(ITB)의 위험 조항 탐지에서, 직접 만든 간단한 규칙 기반 방식과 소규모 양방향 LSTM 방식은 학습에 쓰지 않은 조항 유형에서 성능 차이가 어떻게 나타나는가? (공개 가능한 샘플 계약 문구로 소규모 비교 가능 여부는 미확인)",
+    "paper_id": "W4281682208",
+    "paper_quote": "The RLR model displayed relatively low performance because the ITB used in the evaluation test included the contract clauses that did not exist in the training dataset.",
+    "paper_explanation": "논문 사실(초록 기준): 규칙 기반 SA 모델은 F1 86.4%, bi-LSTM 기반 RLR 모델은 정확도 46.8%였고, 저자들은 평가용 ITB에 학습 데이터에 없던 조항이 있었던 점을 RLR의 낮은 성능 이유로 제시합니다. 주의: F1과 정확도는 서로 다른 지표라 직접 비교에는 한계가 있습니다. 연구 제안(논문 내용 아님): 미학습 조항 유형에서의 일반화 차이를 소규모 공개 텍스트로 재현적으로 살펴보는 것입니다.",
+    "course_id": "GIFT714",
+    "course_quote": "It covers some basic features of PM’s elements such as (1) scheduling, (2) contracting, (3) cost, (4) project financing, and (5) risks.",
+    "course_connection": "강의 설명이 계약(contracting)과 리스크를 PM 요소로 다루고, 계획표에 \"Bid and ITB (Invitation to Bid)\"(5주차)와 \"Contract & Claims Management\"(6주차)가 있어 논문의 ITB 위험 조항 분석과 주제상 연결될 수 있습니다. 다만 강의가 NLP나 LSTM을 가르치는지는 제시된 설명만으로는 확인되지 않습니다. 14~15주차 \"AI/BD based Smart-Engineering PM\" 텀프로젝트와 맞을 가능성은 추정이며 미확인입니다.",
+    "first_step": "논문 초록만으로 시작하세요. (1) SA·RLR 각각의 방식, 지표(F1/정확도), 수치, 실패 원인을 표로 정리하고, (2) 초록에 없는 정보(데이터 규모, 라벨 정의, 위험 등급 기준, 입력 표현)를 \"미확인\" 칸으로 따로 적습니다. 그다음 (3) 자유롭게 열람 가능한 계약서 샘플 문구 몇 개(출처 확인 필요)에서 위험 키워드 규칙 초안을 직접 쓰고 수작업으로 어떤 문구가 걸리는지 표시해 보세요. 논문 본문이나 특별한 접근 권한은 필요하지 않습니다.",
+    "limitations": "논문의 실제 데이터, 라벨, 코드, EMAP 플랫폼 접근 가능 여부는 알 수 없습니다. 공개된 샘플 계약 문구가 실제 ITB를 대표하는지, 표준계약 양식(계획표에는 \"FEDIC\"로 표기)의 전문을 무료로 볼 수 있는지는 미확인입니다. 라벨링 기준과 소규모 표본의 신뢰도도 불확실합니다. 강의가 텍스트 분석 기법을 다루는지, 텀프로젝트 주제로 허용되는지도 확인되지 않았습니다. 연구실이 이 주제를 현재 진행 중이라거나 참여가 허가되었다는 근거는 없습니다."
+  },
+  "duration_wall_s": 24.313,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2169,
+      "cacheReadInputTokens": 3110,
+      "cacheCreationInputTokens": 4510,
+      "webSearchRequests": 0,
+      "costUSD": 0.040045,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 707,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 4510,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4510,
+    "cache_read_input_tokens": 3110,
+    "output_tokens": 2169,
+    "output_tokens_details": {
+      "thinking_tokens": 707
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 4510,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2169,
+        "cache_read_input_tokens": 3110,
+        "cache_creation_input_tokens": 4510,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 4510
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.040045,
+  "error": null,
+  "input_sha256": "7f5b041d43099e441a09e39870d5dff3f4a358efa39550b3698260308cfcd3e6"
+}

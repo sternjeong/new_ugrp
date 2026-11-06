@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "value": {
+    "question": "작은 공개 3D 골격 행동 데이터(예: ANUBIS의 일부 행동 범주)에서, 관절 좌표를 뼈 벡터로 바꾸는 입력 표현 변경(골격을 관절=정점, 뼈=간선인 그래프로 모델링)이 단순 분류기의 행동 범주별 정확도를 어떻게 다르게 만드는가?",
+    "paper_id": "W7163352033",
+    "paper_quote": "joint coordinates, bone vectors, motion flows, and extended representations",
+    "paper_explanation": "논문이 말하는 사실: 골격 행동 인식 방법을 입력 특징 유형(관절 좌표, 뼈 벡터, 모션 흐름, 확장 표현)별로 분류하고, ANUBIS에서 특징 유형이 102개 행동 범주의 성능에 미치는 영향을 분석했으며 강한 행동-특징 의존성을 보고했다고 초록에 쓰여 있다. 제안(추측): 위 질문의 소규모 재현·비교 실험은 내가 제안하는 것이며 논문이 수행한 내용이 아니다.",
+    "course_id": "CSED536",
+    "course_quote": "graph algorithms, geometric algorithms, approximation algorithms, and randomized algorithms",
+    "course_connection": "연결은 약하고 잠정적이다. 제안: 골격을 그래프(트리 구조)로 보고 관절 좌표에서 뼈 벡터를 부모-자식 간선 순회로 계산하는 전처리를 구현할 수 있다. 다만 논문 초록은 그래프 알고리즘을 언급하지 않고, 이 과목의 계획(경로, 순회, 채색 등)이 인식 성능 차이를 설명한다고 확인되지 않았다. 표현별 인식 차이 자체와의 관련성은 불명확하다.",
+    "first_step": "논문 초록에 안내된 ANUBIS 웹페이지(https://yliu1082.github.io/ANUBIS/)에서 데이터 형식, 관절 수, 라이선스를 확인한다. 접근이 어려우면 공개된 다른 골격 데이터의 소규모 샘플을 사용한다. 그다음 관절 연결 목록을 직접 정의하고, 좌표를 뼈 벡터(자식−부모)로 바꾸는 짧은 스크립트를 작성해 두 표현의 형태를 비교한다.",
+    "limitations": "ANUBIS 전체 데이터의 크기, 접근 조건, 사용 가능한 관절 형식은 확인하지 못했다. 소규모 단순 분류기 결과가 논문의 최신 모델 결과와 같은 경향일지는 알 수 없다. 이 과목이 이 주제에 직접 필요한지, 연구실이 이 방향을 진행 중이거나 허용하는지도 확인되지 않았다. 입력된 연구실 주제(LLM, 그래프 학습 등)와의 관련성도 불확실하다."
+  },
+  "duration_wall_s": 21.057,
+  "exit_code": 0,
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1809,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 2762,
+      "webSearchRequests": 0,
+      "costUSD": 0.029142,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 589,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2762,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2762,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1809,
+    "output_tokens_details": {
+      "thinking_tokens": 589
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2762,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1809,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2762,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2762
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "cost_usd_list": 0.029142,
+  "error": null,
+  "input_sha256": "bbce05d4e6a53a81ac60db7e198473f45045fd0118e58c1f815eb048dc8f2261"
+}

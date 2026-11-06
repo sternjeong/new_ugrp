@@ -1,0 +1,279 @@
+{
+  "1": {
+    "methods": {
+      "a": {
+        "interest": {
+          "mean": 0,
+          "n": 24,
+          "full_n": 0,
+          "zero_n": 24
+        },
+        "lab": {
+          "mean": 0.7083333333333334,
+          "n": 24,
+          "full_n": 0,
+          "zero_n": 8
+        },
+        "course": {
+          "mean": 0,
+          "n": 20,
+          "full_n": 0,
+          "zero_n": 20
+        },
+        "action": {
+          "mean": 0,
+          "n": 24,
+          "full_n": 0,
+          "zero_n": 24
+        },
+        "caution": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        }
+      },
+      "s": {
+        "interest": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.6666666666666667,
+          "n": 20,
+          "full_n": 14,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.8958333333333333,
+          "n": 24,
+          "full_n": 22,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        }
+      },
+      "g": {
+        "interest": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        },
+        "course": {
+          "mean": 1.6666666666666667,
+          "n": 20,
+          "full_n": 14,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.7291666666666667,
+          "n": 24,
+          "full_n": 20,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        }
+      }
+    },
+    "g_minus_s_course": {
+      "diff": 0,
+      "bootstrap95": [
+        0,
+        0
+      ],
+      "clusters": 12
+    },
+    "g_minus_s_action": {
+      "diff": -0.16666666666666666,
+      "bootstrap95": [
+        -0.3958333333333333,
+        0.020833333333333332
+      ],
+      "clusters": 12
+    },
+    "baseline_calibration": {
+      "n": 20,
+      "course_zero": 20,
+      "action_le1": 20
+    }
+  },
+  "2": {
+    "methods": {
+      "a": {
+        "interest": {
+          "mean": 0,
+          "n": 24,
+          "full_n": 0,
+          "zero_n": 24
+        },
+        "lab": {
+          "mean": 1.4166666666666667,
+          "n": 24,
+          "full_n": 16,
+          "zero_n": 8
+        },
+        "course": {
+          "mean": 0,
+          "n": 20,
+          "full_n": 0,
+          "zero_n": 20
+        },
+        "action": {
+          "mean": 0.7083333333333334,
+          "n": 24,
+          "full_n": 0,
+          "zero_n": 8
+        },
+        "caution": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        }
+      },
+      "s": {
+        "interest": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.9583333333333333,
+          "n": 24,
+          "full_n": 23,
+          "zero_n": 1
+        },
+        "course": {
+          "mean": 1.8333333333333333,
+          "n": 20,
+          "full_n": 16,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.6666666666666667,
+          "n": 24,
+          "full_n": 20,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        }
+      },
+      "g": {
+        "interest": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        },
+        "lab": {
+          "mean": 1.9583333333333333,
+          "n": 24,
+          "full_n": 23,
+          "zero_n": 1
+        },
+        "course": {
+          "mean": 1.6944444444444444,
+          "n": 20,
+          "full_n": 15,
+          "zero_n": 0
+        },
+        "action": {
+          "mean": 1.6458333333333333,
+          "n": 24,
+          "full_n": 19,
+          "zero_n": 0
+        },
+        "caution": {
+          "mean": 2,
+          "n": 24,
+          "full_n": 24,
+          "zero_n": 0
+        }
+      }
+    },
+    "g_minus_s_course": {
+      "diff": -0.1388888888888889,
+      "bootstrap95": [
+        -0.3888888888888889,
+        0.05555555555555555
+      ],
+      "clusters": 12
+    },
+    "g_minus_s_action": {
+      "diff": -0.020833333333333332,
+      "bootstrap95": [
+        -0.3541666666666667,
+        0.3125
+      ],
+      "clusters": 12
+    },
+    "baseline_calibration": {
+      "n": 20,
+      "course_zero": 20,
+      "action_le1": 20
+    }
+  },
+  "agreement": {
+    "interest": {
+      "n": 72,
+      "exact": 72,
+      "weighted_kappa": 1.0
+    },
+    "lab": {
+      "n": 72,
+      "exact": 54,
+      "weighted_kappa": 0.6582278481012658
+    },
+    "course": {
+      "n": 60,
+      "exact": 47,
+      "weighted_kappa": 0.864677307425399
+    },
+    "action": {
+      "n": 72,
+      "exact": 47,
+      "weighted_kappa": 0.7435897435897436
+    },
+    "caution": {
+      "n": 72,
+      "exact": 72,
+      "weighted_kappa": null
+    }
+  },
+  "not_applicable_corrections": [
+    {
+      "panel": 1,
+      "id": "R3-021",
+      "raw": 0,
+      "reason": "no course selected; not applicable"
+    }
+  ]
+}
