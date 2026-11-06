@@ -1,0 +1,122 @@
+[
+  {
+    "id": "case_01_s",
+    "course1": {
+      "score": 2,
+      "reason": "CHEB770 계획에 metal-semiconductor contact가 명시되어 있어 SBH·접촉저항 배경과 직접 맞닿는다. Ge/MIS·열전자 방출의 실제 수업 범위는 미확인이라고 한정했다."
+    },
+    "course2": {
+      "score": 2,
+      "reason": "SEMI206 계획의 surface/interface, diffusion and kinetics, 전기·구조 특성 항목이 TiO2 계면 산소 확산과 접촉 특성 해석에 직접 연결된다. Ge 접촉 사례 자체는 미확인으로 구분했다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "연결 설명이 접촉 이론에서 계면·확산·재료 특성으로 바뀌어 두 강의의 실제 차이를 반영한다."
+    }
+  },
+  {
+    "id": "case_01_g",
+    "course1": {
+      "score": 2,
+      "reason": "명시된 금속-반도체 접촉 주제를 SBH·접촉 특성과 연결하고, TiO2·Ge 세부 범위는 미확인으로 적었다."
+    },
+    "course2": {
+      "score": 2,
+      "reason": "명시된 계면 및 확산·반응속도 주제가 산소 확산과 TiO2 분해 해석에 부합하며, 논문 사례 직접 교육 여부를 주장하지 않았다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "각 답변의 개념 연결이 선택 강의의 구별되는 접촉물리와 확산·계면 내용에 맞게 바뀐다."
+    }
+  },
+  {
+    "id": "case_02_s",
+    "course1": {
+      "score": 2,
+      "reason": "PHYS647 강의 계획의 양자 잡음 채널, 위상 추정, 양자 오류 정정이 dephasing·AutoQEC 주제에 직접 관련된다. 자율 연속시간 보정 및 계측의 범위는 불확실하다고 제한했다."
+    },
+    "course2": {
+      "score": 1,
+      "reason": "PHYS535 설명의 밀도행렬과 양자 채널은 진화 모형의 기초로 타당하지만, 오류 보정·계측·Lindblad는 계획에 확인되지 않아 연결은 부분적이다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "course1의 오류정정·위상추정 연결에서 course2의 밀도행렬·채널 기초로 중심을 이동해 강의 차이를 반영한다."
+    }
+  },
+  {
+    "id": "case_02_g",
+    "course1": {
+      "score": 2,
+      "reason": "강의 계획에 quantum noise channels, phase estimation, decoherence, error-correcting codes가 명시되어 있어 관련성이 직접적이다. Lindblad와 자율 보정은 미확인으로 구분했다."
+    },
+    "course2": {
+      "score": 1,
+      "reason": "밀도행렬·측정·채널은 명시되어 있어 수치 모형의 기초 연결은 가능하나, 계측·QFI·Lindblad·오류 보정은 강의 자료에 명시되지 않았다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "양자 잡음·오류정정 강의와 밀도행렬·채널 중심 강의에 맞춰 연결의 범위와 확신을 차별화했다."
+    }
+  },
+  {
+    "id": "case_03_s",
+    "course1": {
+      "score": 1,
+      "reason": "CSED618은 신뢰성·적대적 예시를 다루므로 섭동 강건성 평가와 약한 개념 연결은 가능하다. 골격 행동인식은 강의 내용으로 확인되지 않는다."
+    },
+    "course2": {
+      "score": 1,
+      "reason": "CSED536의 그래프와 경로 개념은 관절-뼈 그래프 표현의 기초 분석에 연결 가능하나, 행동인식 성능 평가를 직접 뒷받침하지는 않는다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "취약성·강건성에서 그래프 구조 분석으로 근거가 바뀌어 두 과목의 차이를 반영한다."
+    }
+  },
+  {
+    "id": "case_03_g",
+    "course1": {
+      "score": 2,
+      "reason": "CSED618에서 conformal prediction 기반 불확실성 학습을 명시하므로 예측 보정 오차 분석과 잘 맞는다. 적용 데이터 도메인은 미확인으로 처리했다."
+    },
+    "course2": {
+      "score": 1,
+      "reason": "강의의 그래프 알고리즘과 트리/간선 전처리의 연결은 성립하지만, 그래프 알고리즘이 행동 분류 정확도 차이를 설명한다는 근거는 없다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "불확실성 추정과 그래프 전처리라는 실제 강의 주제로 각각 연결을 달리했다."
+    }
+  },
+  {
+    "id": "case_04_s",
+    "course1": {
+      "score": 2,
+      "reason": "AMSE315 계획에 상변화, 핵생성·성장, 계면 자유에너지, 확산이 있어 합성 경로와 결정 방향·결함 해석에 직접 관련된다. 칼코겐화물 적용은 미확인으로 한정했다."
+    },
+    "course2": {
+      "score": 2,
+      "reason": "GIFT624는 결정계·방향·점군·공간군을 명시적으로 다뤄 결정 대칭·방향 분류에 적합하다. 칼코겐화물 직접 적용은 불확실하다고 밝혔다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "합성·성장 기구에서 결정학적 방향과 대칭 분석으로 연결 중심을 바꾸어 과목 변화를 반영한다."
+    }
+  },
+  {
+    "id": "case_04_g",
+    "course1": {
+      "score": 2,
+      "reason": "AMSE315의 핵생성·성장 및 계면 자유에너지와 결정 차원·형상 비교가 잘 맞고, 강의·논문 직접 적용 여부를 확인된 사실과 분리했다."
+    },
+    "course2": {
+      "score": 2,
+      "reason": "GIFT624의 결정계·방향·대칭 내용이 방향 의존성 비교에 부합한다. 강의가 칼코겐화물을 직접 다루는지는 확인되지 않았다고 적었다."
+    },
+    "course_change_reflection": {
+      "score": 2,
+      "reason": "강의별 핵생성·계면에너지 대 결정 대칭·방향으로 연결 개념을 뚜렷하게 전환했다."
+    }
+  }
+]

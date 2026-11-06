@@ -1,0 +1,28 @@
+{
+  "weaklinks": {
+    "n": 40,
+    "unsupported_1": 0,
+    "unsupported_2": 0,
+    "relation_exact_agreement": 38,
+    "unsupported_agreement": 40
+  },
+  "course_counterfactual": {
+    "n_pairs": 8,
+    "first_change_score_2": 8,
+    "second_scores": {
+      "2": 4,
+      "1": 4
+    }
+  },
+  "interest_counterfactual": {
+    "n_pairs": 8,
+    "reviewer1_score_2": 8,
+    "reviewer2_score_2": 8
+  },
+  "control": {
+    "inserted_detected": 4,
+    "inserted_total": 4,
+    "original_flagged": 0,
+    "original_total": 4
+  }
+}

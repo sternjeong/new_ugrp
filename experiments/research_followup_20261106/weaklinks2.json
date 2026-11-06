@@ -1,0 +1,282 @@
+[
+  {
+    "case_id": "case_01_course1",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "강의계획에 금속-반도체 접촉이 명시되어 SBH·접촉 특성과 직접 주제 대응."
+  },
+  {
+    "case_id": "case_01_course2",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "계면 및 확산·반응속도가 강의에 명시되어 TiO2 계면의 산소 확산 주제와 직접 대응."
+  },
+  {
+    "case_id": "case_01_interest",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "금속-반도체 접촉 주제가 논문의 쇼트키 장벽·접촉 특성과 직접 대응."
+  },
+  {
+    "case_id": "case_02_course1",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "양자 잡음, 위상추정, 오류정정 주제가 논문의 dephasing·AutoQEC 배경과 직접 대응."
+  },
+  {
+    "case_id": "case_02_course2",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "밀도행렬·양자채널은 기반 도구로 관련되나 AutoQEC·계측과 직접 연결된 강의 근거는 제한적."
+  },
+  {
+    "case_id": "case_02_interest",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "양자 잡음·decoherence 및 오류정정이 논문 주제와 직접 대응."
+  },
+  {
+    "case_id": "case_03_course1",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "불확실성 학습을 골격 행동 인식의 신뢰도 분석으로 전용하는 개념적 연결."
+  },
+  {
+    "case_id": "case_03_course2",
+    "method": "g",
+    "relation": "unclear",
+    "unsupported": 0,
+    "reason": "일반 그래프/알고리즘 개념을 골격 특징 분석에 적용하는 제안만 있어 직접 연계 근거가 약함."
+  },
+  {
+    "case_id": "case_03_interest",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "conformal prediction을 인식 신뢰도 분석에 적용하는 추론이며, 데이터 도메인 대응은 확인되지 않음."
+  },
+  {
+    "case_id": "case_04_course1",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "핵생성·성장/계면 개념을 합성 경로와 결정 형태 해석에 적용하는 개념적 연결."
+  },
+  {
+    "case_id": "case_04_course2",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "결정계·대칭 주제가 결정 구조를 기술하는 데 유용하나 칼코겐화물 사례는 확인되지 않음."
+  },
+  {
+    "case_id": "case_04_interest",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "핵생성·성장 개념의 적용 제안이며 논문 응용 차이와의 구체적 대응은 불확실."
+  },
+  {
+    "case_id": "case_05_course1",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "재생에너지·수처리 주제와 태양열 해수 증발은 관련되나 강의의 구체적 증발 기술은 미확인."
+  },
+  {
+    "case_id": "case_06_course1",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "로봇 계획/MDP 과제에 언어모델 계획을 적용하는 제안으로 관련성은 간접적."
+  },
+  {
+    "case_id": "case_07_course1",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "전기화학 속도론·물질전달 주제가 논문의 전하이동 및 폴리요오드 확산과 직접 대응."
+  },
+  {
+    "case_id": "case_08_course1",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "세포 과정 기전이라는 넓은 수업 목표와 논문의 세포 신호 경로가 개념적으로 연결되나 구체 강의 내용은 없음."
+  },
+  {
+    "case_id": "case_09_course1",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "난류 유동 수업의 기본 개념과 논문의 유동/와류 분석이 주제상 대응; 신경 연산자는 별도."
+  },
+  {
+    "case_id": "case_10_course1",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "입찰(ITB)·계약·리스크가 강의계획에 명시되어 논문의 EPC 위험조항 주제와 직접 대응."
+  },
+  {
+    "case_id": "case_11_course1",
+    "method": "g",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "AI 신경망·역전파 수업 내용과 논문의 신경망 학습이 직접 대응; CRN은 별도."
+  },
+  {
+    "case_id": "case_12_course1",
+    "method": "g",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "열분석 도구를 하이드로겔 증발 연구에 전용하는 제안이며 해수 증발 자체는 강의에 확인되지 않음."
+  },
+  {
+    "case_id": "case_01_course1",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "강의계획에 금속-반도체 접촉이 명시되어 SBH·접촉 특성과 직접 주제 대응."
+  },
+  {
+    "case_id": "case_01_course2",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "계면 및 확산·반응속도가 강의에 명시되어 TiO2 계면의 산소 확산 주제와 직접 대응."
+  },
+  {
+    "case_id": "case_01_interest",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "금속-반도체 접촉 주제가 논문의 쇼트키 장벽·접촉 특성과 직접 대응."
+  },
+  {
+    "case_id": "case_02_course1",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "양자 잡음, 위상추정, 오류정정 주제가 논문의 dephasing·AutoQEC 배경과 직접 대응."
+  },
+  {
+    "case_id": "case_02_course2",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "밀도행렬·양자채널은 기반 도구로 관련되나 AutoQEC·계측과 직접 연결된 강의 근거는 제한적."
+  },
+  {
+    "case_id": "case_02_interest",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "양자 잡음·decoherence 및 오류정정이 논문 주제와 직접 대응."
+  },
+  {
+    "case_id": "case_03_course1",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "불확실성 학습을 골격 행동 인식의 신뢰도 분석으로 전용하는 개념적 연결."
+  },
+  {
+    "case_id": "case_03_course2",
+    "method": "s",
+    "relation": "unclear",
+    "unsupported": 0,
+    "reason": "일반 그래프/알고리즘 개념을 골격 특징 분석에 적용하는 제안만 있어 직접 연계 근거가 약함."
+  },
+  {
+    "case_id": "case_03_interest",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "conformal prediction을 인식 신뢰도 분석에 적용하는 추론이며, 데이터 도메인 대응은 확인되지 않음."
+  },
+  {
+    "case_id": "case_04_course1",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "핵생성·성장/계면 개념을 합성 경로와 결정 형태 해석에 적용하는 개념적 연결."
+  },
+  {
+    "case_id": "case_04_course2",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "결정계·대칭 주제가 결정 구조를 기술하는 데 유용하나 칼코겐화물 사례는 확인되지 않음."
+  },
+  {
+    "case_id": "case_04_interest",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "핵생성·성장 개념의 적용 제안이며 논문 응용 차이와의 구체적 대응은 불확실."
+  },
+  {
+    "case_id": "case_05_course1",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "재생에너지·수처리 주제와 태양열 해수 증발은 관련되나 강의의 구체적 증발 기술은 미확인."
+  },
+  {
+    "case_id": "case_06_course1",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "로봇 계획/MDP 과제에 언어모델 계획을 적용하는 제안으로 관련성은 간접적."
+  },
+  {
+    "case_id": "case_07_course1",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "전기화학 속도론·물질전달 주제가 논문의 전하이동 및 폴리요오드 확산과 직접 대응."
+  },
+  {
+    "case_id": "case_08_course1",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "세포 과정 기전이라는 넓은 수업 목표와 논문의 세포 신호 경로가 개념적으로 연결되나 구체 강의 내용은 없음."
+  },
+  {
+    "case_id": "case_09_course1",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "난류 유동 수업의 기본 개념과 논문의 유동/와류 분석이 주제상 대응; 신경 연산자는 별도."
+  },
+  {
+    "case_id": "case_10_course1",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "입찰(ITB)·계약·리스크가 강의계획에 명시되어 논문의 EPC 위험조항 주제와 직접 대응."
+  },
+  {
+    "case_id": "case_11_course1",
+    "method": "s",
+    "relation": "direct",
+    "unsupported": 0,
+    "reason": "AI 신경망·역전파 수업 내용과 논문의 신경망 학습이 직접 대응; CRN은 별도."
+  },
+  {
+    "case_id": "case_12_course1",
+    "method": "s",
+    "relation": "inferred",
+    "unsupported": 0,
+    "reason": "열분석 도구를 하이드로겔 증발 연구에 전용하는 제안이며 해수 증발 자체는 강의에 확인되지 않음."
+  }
+]
