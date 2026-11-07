@@ -184,7 +184,8 @@ class Community:
         me = self._optional_user(token)
         with self.store.db() as db:
             rows = db.execute('SELECT r.*, u.nickname, u.account FROM reviews r JOIN users u ON u.id=r.user_id WHERE r.lab_id=? ORDER BY r.created DESC', (lab_id,)).fetchall()
-            grads = db.execute("SELECT * FROM users WHERE role='graduate' AND lab_id=? ORDER BY id", (lab_id,)).fetchall()
+            grads = db.execute("SELECT * FROM users WHERE role='graduate' AND lab_id=? AND deleted=0 AND suspended=0 ORDER BY id", (lab_id,)).fetchall()
+            used = {g['id']: self._recent_threads(db, g['id']) for g in grads}
             mine = {t['graduate_id']: t['id'] for t in db.execute('SELECT id, graduate_id FROM threads WHERE student_id=?', (me['id'],))} if me else {}
         reviews = [self._review(r, me) for r in rows]
         graduates = []
@@ -192,9 +193,12 @@ class Community:
             account = json.loads(g['account'])
             if not account.get('contact_consent'):
                 continue
+            limit = account.get('monthly_limit')
             graduates.append({'id': g['id'], 'name': account.get('real_name', ''), 'program': account.get('program', ''), 'research': account.get('research', ''),
                               'interests': self.interests(account), 'headline': account.get('headline', ''),
-                              'email': g['email'] if me else None, 'thread_id': mine.get(g['id'])})
+                              'availability': account.get('availability', ''), 'verified': g['grad_status'] == 'approved',
+                              'full': limit is not None and used[g['id']] >= limit and not mine.get(g['id']),
+                              'email': g['email'] if me and (g['dummy'] or account.get('show_email')) else None, 'thread_id': mine.get(g['id'])})
         return {'lab_id': lab_id, 'summary': self.summary(reviews), 'reviews': reviews, 'graduates': graduates,
                 'my_review': next((r for r in reviews if r['mine']), None), 'rating_labels': RATINGS,
                 'viewer': {'signed_in': bool(me), 'role': me['role'] if me else None,
@@ -241,6 +245,15 @@ class Community:
         return self.lab_community(token, lab_id)
 
     # ---- messages ----
+    @staticmethod
+    def _recent_threads(db, graduate_id):
+        return db.execute('SELECT COUNT(*) FROM threads WHERE graduate_id=? AND created>?', (graduate_id, time.time() - 30 * 86400)).fetchone()[0]
+
+    @staticmethod
+    def _blocked(db, a, b):
+        exists = db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='blocks'").fetchone()
+        return bool(exists and db.execute('SELECT 1 FROM blocks WHERE (user_id=? AND blocked_id=?) OR (user_id=? AND blocked_id=?)', (a, b, b, a)).fetchone())
+
     def _rate_limit(self, db, user_id):
         sent = db.execute('SELECT COUNT(*) FROM messages WHERE sender_id=? AND created>?', (user_id, time.time() - 86400)).fetchone()[0]
         if sent >= DAILY_MESSAGES:
@@ -258,11 +271,14 @@ class Community:
         now = time.time()
         with self.store.db() as db:
             db.execute('BEGIN IMMEDIATE')
-            grad = db.execute("SELECT * FROM users WHERE id=? AND role='graduate'", (graduate_id,)).fetchone()
-            if grad is None or not json.loads(grad['account']).get('contact_consent'):
+            grad = db.execute("SELECT * FROM users WHERE id=? AND role='graduate' AND deleted=0 AND suspended=0", (graduate_id,)).fetchone()
+            if grad is None or not json.loads(grad['account']).get('contact_consent') or self._blocked(db, user['id'], graduate_id):
                 raise NotFound('연락할 수 있는 선배를 찾지 못했습니다.')
             self._rate_limit(db, user['id'])
             thread = db.execute('SELECT id FROM threads WHERE student_id=? AND graduate_id=?', (user['id'], graduate_id)).fetchone()
+            limit = json.loads(grad['account']).get('monthly_limit')
+            if not thread and limit is not None and self._recent_threads(db, graduate_id) >= limit:
+                raise ValueError('이 선배는 이번 달 받을 수 있는 문의를 모두 받았어요. 다른 선배나 익명 질문을 이용해 주세요.')
             if thread:
                 thread_id = thread['id']
                 db.execute('UPDATE threads SET updated=? WHERE id=?', (now, thread_id))
@@ -287,6 +303,9 @@ class Community:
         with self.store.db() as db:
             db.execute('BEGIN IMMEDIATE')
             thread = self._thread_for(db, user, body.get('thread_id'))
+            other = thread['graduate_id'] if thread['student_id'] == user['id'] else thread['student_id']
+            if self._blocked(db, user['id'], other):
+                raise ValueError('차단된 대화에는 쪽지를 보낼 수 없어요.')
             self._rate_limit(db, user['id'])
             db.execute('INSERT INTO messages(thread_id,sender_id,body,created) VALUES (?,?,?,?)', (thread['id'], user['id'], message, now))
             db.execute('UPDATE threads SET updated=? WHERE id=?', (now, thread['id']))
@@ -295,17 +314,19 @@ class Community:
     def _party(self, row, viewer_is_graduate, full=False):
         """The other person in a thread as this viewer may see them."""
         account = json.loads(row['account'])
+        if 'deleted' in row.keys() and row['deleted']:
+            return {'id': row['id'], 'name': '탈퇴한 사용자', 'nickname': '탈퇴한 사용자', 'deleted': True}
         if viewer_is_graduate:
             # A student who started a conversation shares their profile with that graduate.
-            card = {'name': account.get('real_name', ''), 'nickname': row['nickname'], 'department': account.get('department', ''), 'grade': account.get('grade', '')}
+            card = {'id': row['id'], 'name': account.get('real_name', ''), 'nickname': row['nickname'], 'department': account.get('department', ''), 'grade': account.get('grade', '')}
             if full:
                 card.update({'email': row['email'], 'school': account.get('school', ''), 'second_major': account.get('second_major', ''),
                              'goal': GOALS.get(account.get('goal', ''), ''), 'timing': account.get('timing', ''), 'headline': account.get('headline', ''),
                              'intro': account.get('intro', ''), 'interests': self.interests(account), 'interest_text': account.get('interest_text', '')})
             return card
-        card = {'name': account.get('real_name', ''), 'program': account.get('program', ''), 'research': account.get('research', '')}
+        card = {'id': row['id'], 'name': account.get('real_name', ''), 'program': account.get('program', ''), 'research': account.get('research', '')}
         if full:
-            card.update({'email': row['email'], 'headline': account.get('headline', ''), 'interests': self.interests(account)})
+            card.update({'email': row['email'] if row['dummy'] or account.get('show_email') else None, 'headline': account.get('headline', ''), 'interests': self.interests(account)})
         return card
 
     def inbox(self, token):

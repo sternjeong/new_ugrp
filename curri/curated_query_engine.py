@@ -56,7 +56,7 @@ class CuratedQueryEngine(QueryEngine):
         return [card for card in cards
                 if not self.conflicts_with_dislikes(card['id'], plan_['dislikes'])]
 
-    def search(self, text):
+    def search(self, text, allow_remote=True):
         parsed = classify_curated_query(text)
         norm, likes, dislikes = parsed['norm'], parsed['likes'], parsed['dislikes']
         result = {'labs': [], 'intent': parsed['intent'], 'mode': 'none',
@@ -77,12 +77,15 @@ class CuratedQueryEngine(QueryEngine):
         led = bool(linked) and (cue or all(self.catalog.courses_named([p], cue) for p in likes))
         if courses:
             result['courses'] = [{'code': c['code'], 'name': c['title']} for c, _ in courses]
-        if self.launcher and self.broker and not self.broker.available() and self.launcher.ensure_started():
+        phrases = list(dict.fromkeys((likes or [norm]) + dislikes + [norm]))
+        cached = bool(self.broker) and hasattr(self.broker, 'cached') and self.broker.cached(phrases)
+        if (allow_remote and not cached and self.launcher and self.broker and not self.broker.available()
+                and self.launcher.ensure_started()):
             result.update(labs=self.with_courses(self.fuse(linked, led, [c['id'] for c in cards]), by_id, linked, led),
                           mode='starting', message='의미 검색을 준비하고 있어요. 잠시만 기다려 주세요.')
             return result
-        phrases = list(dict.fromkeys((likes or [norm]) + dislikes + [norm]))
-        sims = self.broker.request(phrases, self.timeout) if self.broker else None
+        # Without consent to processing abroad, only similarities already cached on this server are used.
+        sims = (self.broker.request(phrases, self.timeout) if allow_remote else self.broker.request(phrases, self.timeout, remote=False)) if self.broker else None
         if not sims or any(p not in sims for p in phrases):
             result.update(labs=self.with_courses(self.fuse(linked, led, [c['id'] for c in cards]), by_id, linked, led), mode='dictionary')
             return result

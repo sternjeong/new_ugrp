@@ -53,7 +53,7 @@ class HttpTests(unittest.TestCase):
         self.assertEqual(self.request('/api/guide', {'lab_id': 'ai', 'selected_ids': []})[0], 401)
         self.assertEqual(self.request('/api/register', {'email': 'test@example.com', 'password': 'valid-password'})[0], 400)
         account = {'real_name': '홍길동', 'nickname': '테스터', 'school': 'POSTECH', 'interest_text': 'AI와 생명과학'}
-        self.assertEqual(self.request('/api/register', {'email': 'test@example.com', 'password': 'valid-password', 'account': account})[0], 200)
+        self.assertEqual(self.request('/api/register', {'email': 'test@example.com', 'password': 'valid-password', 'consents': {'terms': True, 'privacy': True, 'age14': True}, 'account': account})[0], 200)
         self.assertTrue(self.request('/api/session')[1]['user']['profile_complete'])
         status, snapshot = self.request('/api/session')
         self.assertEqual(snapshot['explorations'][0]['note'], '<keep my note>')

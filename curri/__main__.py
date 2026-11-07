@@ -6,6 +6,7 @@ from .curated_query_engine import CuratedQueryEngine
 from .embed_broker import EmbedBroker
 from .kaggle_launcher import KaggleLauncher
 from .meeting_links import load_provider
+from .platform import Platform
 from .server import make_server
 from .store import Store
 from .research_papers import ResearchPapers
@@ -24,6 +25,7 @@ def main():
     parser.add_argument('--no-query-engine', action='store_true', help='질의 해석·임베딩 검색 엔진을 끄고 이전 사전 검색만 사용')
     parser.add_argument('--kaggle-launcher-config', type=Path, default=root / '.local' / 'kaggle_launcher.json', help='없으면 사용자 질의로 Kaggle 워커를 자동 시작하지 않음')
     parser.add_argument('--meeting-links-config', type=Path, default=root / '.local' / 'meeting_links.json', help='온라인 만남 확정 시 Google Meet·Zoom 링크를 만들 설정. 없으면 링크를 직접 입력받음')
+    parser.add_argument('--local-dir', type=Path, default=root / '.local', help='메일·관리자·LLM 워커·개인정보 슬롯 등 설정 파일 폴더')
     parser.add_argument('--guide-variant-file', type=Path, default=root / '.local' / 'guide_variant', help='가이드 버전 A 또는 B가 적힌 파일. 없으면 A')
     args = parser.parse_args()
     try:
@@ -35,13 +37,18 @@ def main():
     community = Community(store, catalog, args.data_dir, seed=not args.no_demo_data, meeting_links=meeting_links)
     broker = None
     if args.worker_token_file.is_file() and args.worker_token_file.read_text().strip():
-        broker = EmbedBroker(args.worker_token_file.read_text().strip())
+        broker = EmbedBroker(args.worker_token_file.read_text().strip(), store=store)
     launcher = KaggleLauncher(args.kaggle_launcher_config) if broker and args.kaggle_launcher_config.is_file() else None
     engine = CuratedQueryEngine(catalog, broker, launcher=launcher) if not args.no_query_engine else None
     research_papers = ResearchPapers(args.data_dir / 'papers.jsonl')
+    try:
+        platform = Platform(store, catalog, args.data_dir, args.local_dir, broker)
+    except ValueError as exc:
+        parser.error(str(exc))
+    platform.start()
     server = make_server(args.host, args.port, catalog, store, args.secure_cookie, community, engine, broker,
-                         research_papers, args.guide_variant_file)
-    print(f'3분커리: http://{args.host}:{server.server_port} · 엔진 curated · 질의 엔진 {"켜짐" if engine else "꺼짐"} · 임베딩 워커 {"대기" if broker else "없음"} · 만남 링크 {meeting_links.label if meeting_links else "직접 입력"} (종료: Ctrl+C)', flush=True)
+                         research_papers, args.guide_variant_file, platform)
+    print(f'3분커리: http://{args.host}:{server.server_port} · 엔진 curated · 질의 엔진 {"켜짐" if engine else "꺼짐"} · 임베딩 워커 {"대기" if broker else "없음"} · 만남 링크 {meeting_links.label if meeting_links else "직접 입력"} · 메일 {"발송" if platform.mailer.enabled else "보류(outbox)"} · AI 가이드 {"워커 대기" if platform.llm.enabled() else "꺼짐"} · 관리자 API {"켜짐" if platform.admin.enabled() else "꺼짐"} (종료: Ctrl+C)', flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

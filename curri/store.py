@@ -23,12 +23,19 @@ class ProfileRequired(Exception):
 
 
 # Added after the MVP; existing local DBs are migrated in place.
-USER_COLUMNS = {'nickname': 'TEXT', 'role': "TEXT NOT NULL DEFAULT 'student'", 'lab_id': 'TEXT', 'account': "TEXT NOT NULL DEFAULT '{}'", 'dummy': 'INTEGER NOT NULL DEFAULT 0'}
+USER_COLUMNS = {'nickname': 'TEXT', 'role': "TEXT NOT NULL DEFAULT 'student'", 'lab_id': 'TEXT', 'account': "TEXT NOT NULL DEFAULT '{}'", 'dummy': 'INTEGER NOT NULL DEFAULT 0',
+                'email_verified': 'INTEGER NOT NULL DEFAULT 0', 'notify': "TEXT NOT NULL DEFAULT '{}'", 'deleted': 'INTEGER NOT NULL DEFAULT 0',
+                'suspended': 'INTEGER NOT NULL DEFAULT 0', 'grad_status': 'TEXT', 'created': 'REAL'}
+NOTIFY_DEFAULTS = {'messages': True, 'meetings': True, 'watch': True, 'qna': True}
 REQUIRED_ACCOUNT = ('real_name', 'school')
 
 
 def profile_complete(nickname, account):
     return bool(nickname) and all(account.get(k) for k in REQUIRED_ACCOUNT) and bool(account.get('interest_tags') or account.get('interest_text'))
+
+
+def password_digest(password, salt):
+    return hashlib.scrypt(password.encode(), salt=bytes.fromhex(salt), n=16384, r=8, p=1, maxmem=64*1024*1024).hex()
 
 
 def token_hash(token):
@@ -144,15 +151,21 @@ class Store:
     def public_self(user):
         """What the signed-in user sees about their own account. Never includes credentials."""
         account = json.loads(user['account'])
-        return {'email': user['email'], 'nickname': user['nickname'], 'role': user['role'], 'lab_id': user['lab_id'], 'account': account, 'profile_complete': profile_complete(user['nickname'], account)}
+        keys = user.keys()
+        notify = {**NOTIFY_DEFAULTS, **json.loads(user['notify'] if 'notify' in keys else '{}')}
+        return {'email': user['email'], 'nickname': user['nickname'], 'role': user['role'], 'lab_id': user['lab_id'], 'account': account,
+                'profile_complete': profile_complete(user['nickname'], account), 'email_verified': bool(user['email_verified']) if 'email_verified' in keys else False,
+                'notify': notify, 'grad_status': user['grad_status'] if 'grad_status' in keys else None}
 
     def current_user(self, token, complete=False):
         """The signed-in user row for this session; raises LoginRequired (or ProfileRequired)."""
         with self.db() as db:
             session = self._session(db, token)
             user = db.execute('SELECT * FROM users WHERE id=?', (session['user_id'],)).fetchone() if session['user_id'] else None
-        if user is None:
+        if user is None or user['deleted']:
             raise LoginRequired('로그인이 필요해요.')
+        if user['suspended']:
+            raise LoginRequired('이용이 제한된 계정이에요. 문의는 개인정보 처리방침의 연락처로 보내 주세요.')
         if complete and not profile_complete(user['nickname'], json.loads(user['account'])):
             raise ProfileRequired('필수 프로필(이름·별명·학교·관심 분야)을 먼저 완성해 주세요.')
         return dict(user)
@@ -206,13 +219,15 @@ class Store:
             digest = hashlib.scrypt(password.encode(), salt=bytes.fromhex(salt), n=16384, r=8, p=1, maxmem=64*1024*1024).hex()
             if register:
                 try:
-                    uid = db.execute('INSERT INTO users(email,salt,password_hash,nickname,account) VALUES (?,?,?,?,?)', (email, salt, digest, nickname, json.dumps(account or {}, ensure_ascii=False))).lastrowid
+                    uid = db.execute('INSERT INTO users(email,salt,password_hash,nickname,account,created) VALUES (?,?,?,?,?,?)', (email, salt, digest, nickname, json.dumps(account or {}, ensure_ascii=False), time.time())).lastrowid
                 except sqlite3.IntegrityError:
                     raise ValueError('이미 등록된 이메일 또는 별명이에요.') from None
                 profile = guest['profile']
             else:
-                if not user or not hmac.compare_digest(user['password_hash'], digest):
+                if not user or user['deleted'] or not hmac.compare_digest(user['password_hash'], digest):
                     raise InvalidCredentials('이메일 또는 비밀번호를 확인해 주세요.')
+                if user['suspended']:
+                    raise InvalidCredentials('이용이 제한된 계정이에요. 문의는 개인정보 처리방침의 연락처로 보내 주세요.')
                 uid = user['id']
                 profile = guest['profile'] if json.loads(guest['profile']) else user['profile']
             owner = f'user:{uid}'

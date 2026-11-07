@@ -137,8 +137,8 @@ class CommunityHttpTests(unittest.TestCase):
 
     def test_review_contact_reply_and_privacy(self):
         student = self.client()
-        self.assertEqual(student('/api/register', {'email': 'new@example.com', 'password': 'valid-password', 'account': {**ACCOUNT, 'nickname': '후기러'}})[0], 400)  # nickname taken
-        self.assertEqual(student('/api/register', {'email': 'new@example.com', 'password': 'valid-password', 'account': ACCOUNT})[0], 200)
+        self.assertEqual(student('/api/register', {'email': 'new@example.com', 'password': 'valid-password', 'consents': {'terms': True, 'privacy': True, 'age14': True}, 'account': {**ACCOUNT, 'nickname': '후기러'}})[0], 400)  # nickname taken
+        self.assertEqual(student('/api/register', {'email': 'new@example.com', 'password': 'valid-password', 'consents': {'terms': True, 'privacy': True, 'age14': True}, 'account': ACCOUNT})[0], 200)
         community = student('/api/community?lab_id=bio')[1]
         grad = community['graduates'][0]
         self.assertEqual(grad['email'], 'grad@postech.example')
@@ -171,7 +171,7 @@ class CommunityHttpTests(unittest.TestCase):
         self.assertEqual(student('/api/session')[1]['unread'], 0)
 
         stranger = self.client()
-        stranger('/api/register', {'email': 'x@example.com', 'password': 'valid-password', 'account': {**ACCOUNT, 'nickname': '구경꾼'}})
+        stranger('/api/register', {'email': 'x@example.com', 'password': 'valid-password', 'consents': {'terms': True, 'privacy': True, 'age14': True}, 'account': {**ACCOUNT, 'nickname': '구경꾼'}})
         self.assertEqual(stranger(f"/api/thread?id={sent['thread_id']}")[0], 404)
         self.assertEqual(stranger('/api/reply', {'thread_id': sent['thread_id'], 'body': '끼어들기'})[0], 404)
         self.assertEqual(student('/api/review/delete', {'lab_id': 'bio'})[1]['summary']['count'], 1)
@@ -231,7 +231,7 @@ class MeetingHttpTests(unittest.TestCase):
         self.addCleanup(self.server.shutdown)
         self.url = f'http://127.0.0.1:{self.server.server_port}'
         self.student, self.graduate = self.client(), self.client()
-        self.student('/api/register', {'email': 'new@example.com', 'password': 'valid-password', 'account': ACCOUNT})
+        self.student('/api/register', {'email': 'new@example.com', 'password': 'valid-password', 'consents': {'terms': True, 'privacy': True, 'age14': True}, 'account': ACCOUNT})
         grad = self.student('/api/community?lab_id=bio')[1]['graduates'][0]
         self.thread_id = self.student('/api/contact', {'graduate_id': grad['id'], 'subject': '연구참여 질문', 'body': '안녕하세요, 연구참여 준비를 여쭤보고 싶어요.'})[1]['thread_id']
         self.graduate('/api/login', {'email': 'grad@postech.example', 'password': 'demo-password-1'})
@@ -252,7 +252,7 @@ class MeetingHttpTests(unittest.TestCase):
         self.assertEqual(self.student('/api/meeting/confirm', {'meeting_id': meeting['id'], 'start': a_ts})[0], 400)  # proposer cannot confirm
 
         stranger = self.client()
-        stranger('/api/register', {'email': 'x@example.com', 'password': 'valid-password', 'account': {**ACCOUNT, 'nickname': '구경꾼'}})
+        stranger('/api/register', {'email': 'x@example.com', 'password': 'valid-password', 'consents': {'terms': True, 'privacy': True, 'age14': True}, 'account': {**ACCOUNT, 'nickname': '구경꾼'}})
         self.assertEqual(stranger('/api/meeting/confirm', {'meeting_id': meeting['id'], 'start': a_ts})[0], 404)
         self.assertEqual(stranger('/api/meeting/cancel', {'meeting_id': meeting['id']})[0], 404)
 
