@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "수전해 열화율 추출과 배터리 용량 감소 모델링은 학생의 코딩 역량으로 가능하고 과목 연결도 솔직합니다. 다만 연구실 근거가 분야 키워드뿐이고 우리 논문과 직접 연결되지 않아 일반적인 데이터 분석에 그칩니다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "그래핀-초전도체 양자소자는 우리 연구실과 무관하고 학생의 전기화학 관심과도 맞지 않습니다. 다른 연구실 자료를 끌어온 것으로 보이며 근거가 지어낸 수준입니다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "Cu 전극의 pH 부식 억제(TEC 논문)와 Au CO2RR 안정성은 우리 논문에서 나온 실제 내용이고, 문헌 정리로 시작하는 범위도 적절합니다. 다만 두 주제가 다소 흩어져 있고, 수전해로 확장하는 부분은 비약이 있습니다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "X3와 비슷하게 우리 논문에 근거한 문헌 정리이고, 약한 과목 연결과 전기화학 공백을 인정합니다. 다만 IrO2 MEA 언급은 근거가 불분명하고, 표면적과 감쇠율을 보고된 수치만으로 연결하는 것은 무리가 있습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "셧다운 역전류 보호 논문과 Ni 나노어레이 기포 논문은 우리 수전해·부식 연구의 핵심이고, 학생의 '오래가는 전극' 관심에 정확히 맞습니다. 0.6 V RHE 체류시간 계산 같은 첫 단계가 구체적이고, 과목 연결의 한계도 솔직히 밝혔습니다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 2,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 키워드만 반복한 일반적인 안내이고, 구체적인 주제·과목 연결·시작 과제가 없습니다. 다음 과목 목록만 쓸 만합니다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.22,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17121,
+   "outputTokens": 293,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018586000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 263,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1198,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16740,
+   "webSearchRequests": 0,
+   "costUSD": 0.0790323,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16740,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16740,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1198,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16740,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1198,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16740,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16740
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0808909,
+ "error": null,
+ "input_sha256": "873ea1a914351dedb3055cd198e5f0961a0464606a6758fc0783f5f9f1c682bb"
+}

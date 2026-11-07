@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "Dirac 전자광학 p-n 접합 계산은 우리 연구실 분야와 맞고 양자물리I·프로그래밍으로 3개월 내 가능하며 첫 단계가 구체적이다. 주제 2(BTK)는 다소 무리지만 문헌 기반이라 허용 범위다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "로봇 파지·비전 주제로 우리 양자소자 연구실과 학생 관심에 전혀 맞지 않고 연구실 근거도 다른 분야에서 가져온 것이다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "우리 논문(이중층 그래핀 ABS, Floquet-Andreev)을 정확히 인용하고 약한 연결(PHYS206)도 솔직히 밝혔다. 다만 Andreev·BCS 배경이 없어 학생에게 다소 어렵다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "선형 vs 포물선 분산 투과 계산은 입문 난이도로 학생에게 딱 맞고 첫 단계도 명확하다. 주제 2의 Bi-2212 비틀림 접합은 우리 논문이지만 출처 불확실성을 스스로 밝혔고 모델도 단순하다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "Josephson 문헌 분석과 Dirac 광학을 함께 다루어 연구실 분야에는 맞지만, 1차원 구속 입자로 Floquet-Andreev 위상 진동을 비교하는 첫 단계는 물리적으로 다소 과장이다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복하는 일반론이어서 구체적 주제와 과목 연결이 없고 첫 단계도 실행하기 어렵다. 다음 과목도 중복되어 있다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.1,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 18295,
+   "outputTokens": 299,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001979,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 268,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1084,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17916,
+   "webSearchRequests": 0,
+   "costUSD": 0.08259630000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17916,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17916,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1084,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17916,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1084,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17916,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17916
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0845753,
+ "error": null,
+ "input_sha256": "607e95b24292f432b896916318c4352fad0491916bada5a966626ac2cdfcaf30"
+}

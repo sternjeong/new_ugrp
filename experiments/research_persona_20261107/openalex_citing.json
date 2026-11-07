@@ -1,0 +1,336 @@
+{
+ "W2969139878": [
+  {
+   "id": "W7117112063",
+   "title": "Dual Consistency Matching for Semi-Supervised Semantic Correspondence",
+   "year": 2025,
+   "abstract": ""
+  },
+  {
+   "id": "W4417311591",
+   "title": "Attention-guided trilateral network for real-time semantic segmentation",
+   "year": 2025,
+   "abstract": ""
+  },
+  {
+   "id": "W4417003566",
+   "title": "Semantic Correspondence: Unified Benchmarking and a Strong Baseline",
+   "year": 2025,
+   "abstract": "Establishing semantic correspondence is a challenging task in computer vision, aiming to match keypoints with the same semantic information across different images. Benefiting from the rapid development of deep learning, remarkable progress has been made over the past decade. However, a comprehensive review and analysis of this task remains absent. In this paper, we present the first extensive…"
+  },
+  {
+   "id": "W4413377179",
+   "title": "Beyond Local Explanations: A Framework for Global Concept-Based Interpretation in Image Classification",
+   "year": 2025,
+   "abstract": "Explaining the decisions of learned models in human-interpretable language is critical for building trustworthy AI. Much of the current work on explainable AI in image classification focuses on generating local (image-specific) explanations that highlight parts of the image responsible for decisions. Although valuable, these local explanations are often not human-interpretable, lack…"
+  },
+  {
+   "id": "W4412623358",
+   "title": "Few-Shot Segmentation Using Multi-Similarity and Attention Guidance",
+   "year": 2025,
+   "abstract": "Few-shot segmentation (FSS) methods aim to segment objects of novel classes with relatively few annotated samples. Prototype learning, a popular approach in FSS, employs prototype vectors to transfer information from known classes (support images) to novel classes(query images) for segmentation. However, using only prototype vectors may not be sufficient to represent all features of the support…"
+  }
+ ],
+ "W3181461461": [
+  {
+   "id": "W7159880033",
+   "title": "LiDAR Point Cloud Registration Based on Pyramid Compatibility Graph Optimization With Coarse‐to‐Fine Feature Extraction",
+   "year": 2026,
+   "abstract": "ABSTRACT Terrain modeling plays a vital role in applications such as surveying and remote sensing. Point cloud registration, which estimates the rigid transformation to align two frames of point clouds, is a critical step for high‐precision spatial modeling in scenarios like smart cities and intelligent transportation. However, conventional methods often suffer from limited perception…"
+  },
+  {
+   "id": "W7117112063",
+   "title": "Dual Consistency Matching for Semi-Supervised Semantic Correspondence",
+   "year": 2025,
+   "abstract": ""
+  },
+  {
+   "id": "W4417003566",
+   "title": "Semantic Correspondence: Unified Benchmarking and a Strong Baseline",
+   "year": 2025,
+   "abstract": "Establishing semantic correspondence is a challenging task in computer vision, aiming to match keypoints with the same semantic information across different images. Benefiting from the rapid development of deep learning, remarkable progress has been made over the past decade. However, a comprehensive review and analysis of this task remains absent. In this paper, we present the first extensive…"
+  },
+  {
+   "id": "W7131130994",
+   "title": "Similarity-Aware Selective State-Space Modeling for Semantic Correspondence",
+   "year": 2025,
+   "abstract": "Establishing semantic correspondences between images is a fundamental yet challenging task in computer vision. Traditional feature-metric methods enhance visual features but may miss complex inter-correlation relationships, while recent correlation-metric approaches are hindered by high computational costs due to processing 4D correlation maps. We introduce MambaMatcher, a novel method that…"
+  },
+  {
+   "id": "W4414772180",
+   "title": "Evaluating Pose Awareness and 3D Consistency in Semantic Matching",
+   "year": 2025,
+   "abstract": ""
+  }
+ ],
+ "W4407303994": [
+  {
+   "id": "W7165737291",
+   "title": "Sector-Mapping-Based Simplified MPC with Neutral-Point Voltage Balancing for Three-Level NPC Inverters",
+   "year": 2026,
+   "abstract": "Model predictive control (MPC) applied to three-level neutral-point-clamped (NPC) inverters often requires the controller to evaluate a large set of voltage vectors, which brings considerable computational load and affects real-time performance. Moreover, the neutral-point voltage may drift during operation if it is not properly handled. To deal with these issues, this work introduces a…"
+  },
+  {
+   "id": "W4414432587",
+   "title": "Phase-Shifted Model Predictive Control With Improved Steady-State Control Input Reference for Three-Level Active-NPC Converters",
+   "year": 2025,
+   "abstract": "This article proposes a phase-shifted model predictive control (PS-MPC) strategy to fully exploit the most relevant features of finite control set model predictive control (FCS-MPC) and phase-shifted pulse width modulation (PS-PWM) in a three-level active neutral point clamped (3L-ANPC) converter. Conventional PS-MPC strategies utilize a steady-state control input reference, typically a…"
+  }
+ ],
+ "W3086994723": [
+  {
+   "id": "W7203951773",
+   "title": "In Situ Grown Hydrogel Coatings With Robust Interfaces for Skinned Soft Devices",
+   "year": 2026,
+   "abstract": "ABSTRACT Robust hydrogel‐elastomer integration is crucial for soft electronics and robotics but hindered by interfacial fragility. Here, we present a spatially confined in situ photopolymerization strategy to grow hydrogel coatings directly from polydimethylsiloxane (PDMS). By confining the active radicals within the solvent‐swollen elastomeric boundary, this strategy achieves a bottom‐up growth.…"
+  },
+  {
+   "id": "W7159625878",
+   "title": "Quantitative comparison of vessel deformation among four stent retrievers using a strain sensor equipped cerebrovascular model",
+   "year": 2026,
+   "abstract": "BACKGROUND: Mechanical thrombectomy with stent retrievers is the standard treatment for acute large vessel occlusion stroke, but device induced vessel deformation during retrieval has not been quantified in a spatially resolved manner. METHODS: A polyvinyl alcohol (PVA) hydrogel cerebrovascular model reproducing the internal carotid artery to M1-M2 segments was equipped with eight strain sensors…"
+  },
+  {
+   "id": "W4413102030",
+   "title": "3D Printing of Interconnection-Tunable Porous Ink",
+   "year": 2025,
+   "abstract": "An interconnection-tunable porous ink (ITPI) platform is introduced for fabricating three-dimensional (3D) porous structures with programmable pore connectivity. The ITPI is a multiphasic suspension consisting of a polymer precursor solution as the continuous medium, sacrificial solid particles, and a surface-wetting liquid that forms capillary bridges. The formulation is tailored to possess…"
+  },
+  {
+   "id": "W4411936185",
+   "title": "3D printed polymers that mimic the mechanical properties of atherosclerotic blood vessels for training models: the advantageous degradation induced by UV radiation and hydrolysis",
+   "year": 2025,
+   "abstract": "BACKGROUND: Atherosclerosis is a chronic disease characterized by the narrowing and hardening of arteries that may induce serious complications and even sudden death. Percutaneous angioplasty is performed as the main treatment of atherosclerotic-based cardiovascular diseases, which are the leading cause of mortality worldwide. Patient-specific physical models of these vascular conditions would…"
+  },
+  {
+   "id": "W4409154341",
+   "title": "Macroscale Superlubricity of Gellan Gum-Based Hydrogel Enhanced with Hydrated Ions",
+   "year": 2025,
+   "abstract": "Ocular lubrication is a critical component of the biological lubrication system. Factors such as tear film instability and corneal epithelial damage can lead to increased friction on the ocular surface during blinking, which negatively impacts quality of life and results in economic burden. Eye drops are commonly used therapeutic purposes. Due to the frequent movement (blinking, tear secretion…"
+  }
+ ],
+ "W4390950451": [
+  {
+   "id": "W7138856222",
+   "title": "Preparation, characterization and properties of gallium-substituted manganese oxide molecular sieve powders and foams",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W4415151782",
+   "title": "Metal‐Based Flexible Optoelectronic Materials: From Structural Foundation to Biomedical Sensor Application",
+   "year": 2025,
+   "abstract": "Abstract Metal‐based flexible optoelectronic materials have demonstrated considerable potential in the construction of high‐performance biosensing platforms, a feat attributable to their unique combination of mechanical flexibility and exceptional electrical properties. In recent years, significant advancements have been made in enhancing electrical conductivity, signal enhancement capability…"
+  },
+  {
+   "id": "W4414843787",
+   "title": "Programmable Sponge for Hydro‐Active Morphing Module with Light Weight and High‐Volume Change",
+   "year": 2025,
+   "abstract": "Abstract Sponge materials offer a unique combination of porosity, flexibility, compressibility, and responsiveness, yet their potential as primary elements in shape‐morphing systems remains underexplored. Here, a modular shape‐morphing platform constructed entirely from pre‐compressed cellulose sponges, referred to as “foambots” is presented. Each block is geometrically patterned to induce…"
+  },
+  {
+   "id": "W4413533330",
+   "title": "Layer-by-Layer Flexible Sensors Based on Liquid Metal Droplets with Biomimetic Fin Structures",
+   "year": 2025,
+   "abstract": "Flexible sensors have significantly enhanced the convenience of daily life due to their exceptional flexibility and comfort. High sensitivity and multimodal detection capabilities are critical performance metrics for flexible sensors, which motivate ongoing research efforts in the field. Inspired by the dorsal fin patterns of fish, we developed a flexible sensor comprising liquid metal (LM) and…"
+  },
+  {
+   "id": "W4413102030",
+   "title": "3D Printing of Interconnection-Tunable Porous Ink",
+   "year": 2025,
+   "abstract": "An interconnection-tunable porous ink (ITPI) platform is introduced for fabricating three-dimensional (3D) porous structures with programmable pore connectivity. The ITPI is a multiphasic suspension consisting of a polymer precursor solution as the continuous medium, sacrificial solid particles, and a surface-wetting liquid that forms capillary bridges. The formulation is tailored to possess…"
+  }
+ ],
+ "W2948788437": [
+  {
+   "id": "W7223035976",
+   "title": "Anaerobic digestion as a key stage after implementing the extraction of bioactive compounds from marine macroalgae: A comprehensive review",
+   "year": 2026,
+   "abstract": "The environmental contamination and global warming, directly linked to the extraction and use of fossil fuels, have motivated the search for greener sources able to provide similar products (e.g. plastics, fuels, etc.). The research and development of biorefineries, where otherwise wasted biomass is used as a feedstock to produce valuable compounds and/or energy, is currently a trending topic in…"
+  },
+  {
+   "id": "W7211943400",
+   "title": "Enhancing prediction accuracy for enzyme activity engineering through sequence co-evolution and epistatic relationship modeling",
+   "year": 2026,
+   "abstract": "Conventional enzyme engineering strategies, such as directed evolution with structure-based analysis, are limited by laborious workflows and by the need to screen extensive enzyme libraries. Computational models based on multiple sequence alignment, such as SCANEER, have streamlined these engineering strategies, enabling the successful prediction of single-site mutations that enhance enzyme…"
+  },
+  {
+   "id": "W7140906086",
+   "title": "Vibrio natriegens , a Promising Chassis from Strain Property to Protein Expression: A Review",
+   "year": 2026,
+   "abstract": "Protein expression is an important aspect of synthetic biology, where host selection critically impacts the production efficiency. Vibrio natriegens ( V. natriegens ) has emerged as a promising prokaryotic host due to its exceptionally rapid growth rate and broad substrate metabolic spectrum. Benefiting from the advances in annotation on microbial genomes and metabolic pathways, as well as the…"
+  },
+  {
+   "id": "W7129002442",
+   "title": "Direct conversion of brown macroalgae into polyhydroxybutyrate using engineered Vibrio sp. dhg",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W4416620138",
+   "title": "Effects of Expanded Polystyrene Particles on the Diversity and Composition of the Gut Microbiome of the Coastal Isopod Ligia cinerascens",
+   "year": 2025,
+   "abstract": ""
+  }
+ ],
+ "W4292608040": [
+  {
+   "id": "W7225098623",
+   "title": "When does on-site renewable hydrogen pay off? Vehicle-gate co-design of an ALK/PEM multi-electrolyzer system under alkaline electrolyzer cycling limits",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W7225121861",
+   "title": "Atomically dispersed catalytic sites on N-doped carbon for durable anion exchange membrane water electrolysis under intermittent operation",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W7223021248",
+   "title": "Industrial alkaline water electrolysis technology assessment of commercial disclosures and patent aligned development pathways",
+   "year": 2026,
+   "abstract": "Industrial alkaline water electrolysis (AWE) is commercially mature, but inconsistent reporting limits comparisons of stack designs. This review connects public specifications for 29 products from 26 original equipment manufacturers (OEMs) with scientific, component and patent evidence through July 2026. A documented 110-candidate screening applies technology, commercial-offering and…"
+  },
+  {
+   "id": "W7220668730",
+   "title": "Mitigating reverse current damage in alkaline water electrolysis: challenges and strategies for renewable-powered hydrogen production",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W7222130198",
+   "title": "Hybrid capacitance buffering dictating reverse current tolerance in intermittent alkaline water electrolysis",
+   "year": 2026,
+   "abstract": ""
+  }
+ ],
+ "W3035313005": [
+  {
+   "id": "W7130394757",
+   "title": "Pushing ionic thermoelectrics toward power supply applications: origins, advances, challenges, and future directions",
+   "year": 2026,
+   "abstract": "The emerging ionic thermoelectrics (i-TEs) have been positioned as compelling candidates for low-grade heat harvesting owing to their ultrahigh thermopower, mechanical flexibility, environmental compatibility, and low cost. The past five years have witnessed the rapid advancement of i-TEs, yet their inherent inability to transport ions through an external circuit fundamentally limits sustained…"
+  },
+  {
+   "id": "W4409621877",
+   "title": "A Room-Temperature Excessively Concentrated Polyanionic Polymer Hydrogel Thermocell with High Absorbency, Retainability and Extensibility",
+   "year": 2025,
+   "abstract": "Thermo-electrochemical cells (thermocells) with high Seebeck coefficients hold great potential for low-grade heat recovery and low-power electronic applications such as wearable devices and wireless sensors. Hydrogel-based thermocells, which eliminate leakage risks, offer greater convenience and flexibility compared to liquid thermocells in real-world applications. However, hydrogel thermocells…"
+  },
+  {
+   "id": "W4406462687",
+   "title": "MXene Hollow Microsphere-Boosted Nanocomposite Electrodes for Thermocells with Enhanced Thermal Energy Harvesting Capability",
+   "year": 2025,
+   "abstract": "Thermal energy, constantly being produced in natural and industrial processes, constitutes a significant portion of energy lost through various inefficiencies. Employing the thermogalvanic effect, thermocells (TECs) can directly convert thermal energy into electricity, representing a promising energy-conversion technology for efficient, low-grade heat harvesting. However, the use of high-cost…"
+  },
+  {
+   "id": "W4414083645",
+   "title": "Thermopower regulation of thermocells via electrolyte engineering: progress and prospects",
+   "year": 2025,
+   "abstract": "additives or co-solvents to amplify solvation entropy, and leveraging thermosensitive crystallization or phase separation to establish a redox ion concentration gradient, are thoroughly discussed. These discussions cover both liquid- and gel-type TECs, emphasizing performance enhancements in thermoelectrochemical Seebeck coefficients and normalized power densities, as well as advancements in…"
+  },
+  {
+   "id": "W4404210227",
+   "title": "Thermo-electrochemical cells enable efficient and flexible power supplies: From materials to applications",
+   "year": 2024,
+   "abstract": ""
+  }
+ ],
+ "W4220769311": [
+  {
+   "id": "W7224084303",
+   "title": "Exciton-driven Floquet engineering from first principles",
+   "year": 2026,
+   "abstract": "Floquet engineering uses periodic driving to tailor electronic structures and material properties out of equilibrium. Excitons offer a distinct route to this control: their electron-hole dynamics can act as an internal drive, enabling Floquet engineering beyond direct laser dressing. A microscopic description of this regime requires simultaneous access to excitonic dynamics and their…"
+  },
+  {
+   "id": "W7161010560",
+   "title": "Euler Topology in Superconducting Honeycomb Lattices",
+   "year": 2026,
+   "abstract": "Electronic bands in systems with space-time inversion (IST) symmetry can host nontrivial Euler topology. Here, we investigate the band topology of IST-symmetric superconducting honeycomb lattices and demonstrate that s-wave spin-singlet (SWSS) and f-wave spin-triplet (FWST) superconducting pairings give rise to valley-Euler and Euler superconductors, respectively. We find that Euler topology in…"
+  },
+  {
+   "id": "W7154691531",
+   "title": "van der Waals Josephson junctions for quantum science and technology",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W7172525877",
+   "title": "Two-dimensional janus Ga2SeTe/Silicene van der waals heterostructures: a first-principles study on the electronic properties and dirac cone bandgap opening",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W7164303200",
+   "title": "Phase-selective Floquet engineering in a charge density wave material",
+   "year": 2026,
+   "abstract": "Floquet engineering has emerged as a powerful approach for dynamically tailoring the electronic structures of quantum materials through time-periodic light fields. The light fields generated by ultrafast laser pulses can transiently dress Bloch electrons, creating novel electronic states inaccessible in equilibrium. While such temporal modulation provides a dynamic control, spatially periodic…"
+  }
+ ],
+ "W4285042387": [
+  {
+   "id": "W7225275875",
+   "title": "Conductive Hydrogels for Invasive Neural Interfaces: From Materials Engineering to Neural Signal Interfacing and Neurorehabilitation",
+   "year": 2026,
+   "abstract": "In invasive neural interfaces, mechanical mismatch between traditional rigid electrodes and brain tissue often leads to inflammation and signal attenuation. Conductive hydrogels have emerged as ideal alternative materials due to their tissue-matching modulus, hybrid conductive networks, and wet adhesion properties. In this paper, we provide a narrative review of research progress on conductive…"
+  },
+  {
+   "id": "W7223824984",
+   "title": "Tannic Acid-Complexed Cellulose Nanofiber-Enabled Dynamically Cross-Linked Conductive Hydrogels for Reliable Strain Sensing in Extreme Cold Environments",
+   "year": 2026,
+   "abstract": "Abstract Biomass-reinforced conductive hydrogels featuring tissue-matching compliance and high ionic conductivity retention in extreme cold are needed to address the performance limitations and environmental concerns of conventional wearable devices. Herein, we report tannic acid-complexed cellulose nanofiber (TA@CNF)-enabled dynamically cross-linked conductive hydrogels fabricated by one-step…"
+  },
+  {
+   "id": "W7221644547",
+   "title": "Flexible Zwitterionic Hydrogel Ultrasonic Patch Enables Spatiotemporally Controlled Delivery of Mangiferin-Loaded Micelles for Accelerating Diabetic Wound Healing",
+   "year": 2026,
+   "abstract": "Diabetic wounds are characterized by persistent inflammation, oxidative stress, impaired angiogenesis, and delayed tissue remodeling, often resulting in chronic nonhealing ulcers. Low-intensity pulsed ultrasound (LIPUS) offers a promising noninvasive therapeutic strategy; however, its clinical efficacy remains constrained by unstable acoustic coupling interfaces and the lack of integrated…"
+  },
+  {
+   "id": "W7220392931",
+   "title": "Recent Progress in Skin Bioelectronics for Electrophysiological Monitoring",
+   "year": 2026,
+   "abstract": "ABSTRACT The acquisition of high‐quality electrophysiological signals can provide comprehensive information in disease diagnosis, athletic training, human‐computer interaction, and human healthcare, which plays an important role in improving the quality of life, boosting the development of wearable bioelectronics. This review addresses recent progress in skin bioelectronics for…"
+  },
+  {
+   "id": "W7214517445",
+   "title": "Sulfur–Oxygen Competitive Coordination Allosteric Hydrogel for Triboelectric Nanogenerator‐Based Intelligent Tactile Recognition",
+   "year": 2026,
+   "abstract": "ABSTRACT Flexible sensing technologies based on triboelectric nanogenerators (TENG) have shown promise for wearable electronics and human‑machine interaction. However, existing hydrogel‑based TENGs suffer from an inherent trade‑off between interfacial adhesion and electrical output, and their material recognition capability is compromised in real‑wearing environments due to signal variations.…"
+  }
+ ],
+ "W4200242720": [
+  {
+   "id": "W7154691531",
+   "title": "van der Waals Josephson junctions for quantum science and technology",
+   "year": 2026,
+   "abstract": ""
+  },
+  {
+   "id": "W7163261376",
+   "title": "Gap structure and phase diagram of twisted bilayer cuprates from a microscopic perspective",
+   "year": 2026,
+   "abstract": "Since the prediction of a time-reversal symmetry breaking (TRSB) $d+id^\\prime$ state in twisted bilayer cuprate superconductors by Can et al. (Nat.Phys. 17,519(2021)), several experiments have attempted to detect this state, yielding conflicting results. At present, it is not clear which differences in samples or experimental conditions might explain these discrepancies. In this work, we perform…"
+  },
+  {
+   "id": "W7162079746",
+   "title": "Prepatterned Superconducting Contacts for Clean Superconductor–Topological Material Interfaces Enabling Long-Range Josephson Coupling",
+   "year": 2026,
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Phase-coherent superconducting proximity in topological materials (TMs) requires clean superconductor–topological material (SC–TM) interfaces, yet conventional top-contact fabrication often degrades them through oxidation, polymer residue, and process-induced disorder. Here we introduce a prepatterned superconducting bottom-contact architecture…"
+  },
+  {
+   "id": "W7161145711",
+   "title": "The phase-sensitive c -axis twist experiments on cuprate superconductors",
+   "year": 2026,
+   "abstract": "The phase-sensitivec-axis twist experiments and the corresponding theoretical interpretations designed to test the orbital symmetry of the superconducting (SC) order parameter (OP) on the hole-doped high transition temperatureTcsuperconductors Bi2Sr2CaCu2O8+δ(Bi2212) and Bi2Sr2CuO6+δ(Bi2201) are reviewed. The primary OP candidates are the conventionals-wave OP of the standard…"
+  },
+  {
+   "id": "W4417050598",
+   "title": "Twisted Nodal Superconductors",
+   "year": 2026,
+   "abstract": "Recent proposals for the realization of time-reversal symmetry breaking and topological superconductivity in twisted nodal superconductors (TNSs) have led to a surge of theoretical and experimental studies of these systems, marking one of the newest entries in the rapidly growing field of moiré materials. The interplay between order parameters of the separate layers makes TNSs unique, leading to…"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "그래핀-초전도체 접합의 문헌 기반 게이트·자기장 의존성 데이터 재분석",
+    "question": "그래핀 조셉슨 접합 논문에 보고된 임계전류 또는 스펙트럼 곡선을 디지털화해 위상차·온도·마이크로파 변수에 따른 경향을 재현하고 간단한 모델과 비교하면 어떤 정량적 특징을 확인할 수 있는가?",
+    "interest_link": "초전도체와 그래핀을 결합한 소자를 측정하는 일이 어떤 데이터로 이어지는지, 직접 제작 전에 측정 결과 해석부터 경험해 볼 수 있습니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "Graphene-Superconductor hybrid quantum devices"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "논문 그래프에서 추출한 수치를 Python으로 정리하고 변수별 의존성을 그려 비교하는 데 사용합니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties: continuity, directional derivative",
+      "how_used": "위상차·온도·전력 등 여러 변수에 따른 곡선을 다변수 함수로 읽고 변화율을 비교하는 데 사용합니다."
+     }
+    ],
+    "gaps": [
+     "양자역학 수업이 성적표에 없어 파동함수와 위상 개념을 따로 공부해야 함",
+     "조셉슨 효과와 Andreev 반사의 기초",
+     "실험 데이터 오차 분석과 곡선 맞춤",
+     "연구실 실제 측정 데이터 접근 여부는 알 수 없어 공개 논문 데이터로만 시작"
+    ],
+    "first_step": "P3(Steady Floquet–Andreev states in graphene Josephson junctions)와 P6 리뷰를 읽고, P3에서 위상차에 따른 F-A 상태 스펙트럼 진동 그림 하나를 골라 값을 디지털화한 뒤 Python으로 진동 주기를 구해 보세요. 그다음 마이크로파 주파수 변수와 비교 표를 만듭니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "그래핀 선형 분산 전자의 p-n 경계 굴절 시뮬레이션",
+    "question": "E가 p에 선형인 전자와 E=p2/2m인 일반 전자가 게이트로 만든 p-n 경계를 지날 때, 입사각에 따른 굴절 궤적과 투과 경향은 어떻게 달라지는가?",
+    "interest_link": "그래핀의 상대론적 양자 현상이라는 관심을, 코드로 먼저 시각화하며 Dirac 전자광학 개념을 익히는 방식으로 연결합니다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "E=p2/2m"
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS101",
+      "concept": "진동, 파동",
+      "how_used": "입사·반사·굴절을 파동 현상으로 보고 Snell 법칙 형태의 관계를 이해하는 출발점으로 사용합니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions",
+      "how_used": "운동량 벡터의 경계면 수직·평행 성분을 분해하는 데 사용합니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "입사각별 궤적을 계산하고 그래프로 그리는 간단한 시뮬레이션에 사용합니다."
+     }
+    ],
+    "gaps": [
+     "밴드 구조와 Dirac 방정식 개념",
+     "음의 굴절과 투과 확률을 설명하는 양자역학 지식",
+     "이 시뮬레이션은 이론 연습이며 실제 소자 제작·측정과는 별개",
+     "연구실 장비 사용 가능 여부는 확인되지 않음"
+    ],
+    "first_step": "S5의 설명을 바탕으로 에너지 보존과 경계면에 평행한 운동량 보존 조건만 써서, 선형 분산과 포물선 분산 전자에 대해 입사각 0~80도에서 굴절각을 계산하는 Python 코드를 작성하세요. 그다음 p-n 경계에서 캐리어 부호가 바뀌는 경우의 궤적을 두 분산에서 나란히 그려 봅니다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE563",
+    "reason": "성적표에 양자역학 과목이 없으므로, 나노소자에 필요한 양자역학 기본지식을 먼저 채우는 데 가장 맞습니다."
+   },
+   {
+    "course_code": "PHYS655",
+    "reason": "기초 양자역학, 밴드 구조, 그래핀의 위상 성질을 다뤄 두 주제의 Dirac 전자 부분과 직접 연결됩니다. 대학원 과목이라 수강 가능 여부 확인이 필요합니다."
+   },
+   {
+    "course_code": "PHYS701A",
+    "reason": "저온 전기수송 측정을 실험 관점에서 다뤄 극저온 측정에 대한 관심과 맞습니다. 선수 지식과 수강 자격은 확인이 필요합니다."
+   }
+  ],
+  "keywords_en": [
+   "graphene Josephson junction",
+   "Andreev reflection",
+   "Floquet-Andreev states",
+   "Dirac fermion optics",
+   "linear band dispersion",
+   "p-n junction refraction",
+   "cryogenic quantum transport",
+   "data digitization"
+  ],
+  "caution": "성적표에 양자역학 과목이 없어(관심 문장에만 언급) 두 주제 모두 개념 보충이 필요합니다. 제안한 주제는 자료에 근거한 제안일 뿐, 연구실의 현재 프로젝트·모집 여부·데이터와 장비 접근 권한은 확인되지 않았습니다. 지도교수와 직접 상의하세요. 논문과 개념 겹침은 자동 추출이라 부정확할 수 있습니다."
+ },
+ "duration_wall_s": 25.55,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9392,
+   "outputTokens": 29,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0009536999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3149,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 9010,
+   "webSearchRequests": 0,
+   "costUSD": 0.0676389,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 932,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9010,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9010,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 3149,
+  "output_tokens_details": {
+   "thinking_tokens": 932
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9010,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3149,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 9010,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9010
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0685926,
+ "error": null,
+ "input_sha256": "517a3deea3efdaa978e89fd32da23bd16a68e6cd93f9025a4f7247cfc5e63131"
+}

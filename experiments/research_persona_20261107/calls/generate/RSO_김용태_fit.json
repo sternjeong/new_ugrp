@@ -1,0 +1,173 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "알칼리 수전해 Ni 전극의 역전류 열화: 전위 상한 0.6 V RHE 조건 재현 실험 제안",
+    "question": "셧다운 후 역전류 조건에서 Ni 전극의 전위를 얼마나, 얼마 동안 0.6 V RHE 아래로 유지하면 비가역 산화(β-Ni(OH)2, NiO)를 줄일 수 있는가?",
+    "interest_link": "학생이 말한 '수전해'와 '오래가는 전극'을 전극 내구성(열화 억제)이라는 하나의 질문으로 묶는다.",
+    "lab_basis": {
+     "source_id": "P3",
+     "quote": "the potential of the Ni electrode should be maintained below 0.6 V RHE under the transient condition to keep a reversible nickel phase and an activity for the hydrogen evolution reaction"
+    },
+    "course_basis": [
+     {
+      "course_code": "AMSE414",
+      "concept": "a basic concept of electrochemistry is briefly reviewed to establish the knowledge base to understand various modern energy conversion and storage",
+      "how_used": "전극 전위, 산화·환원 반응, 에너지 변환 장치의 기본 틀로 역전류 열화 현상을 해석하는 출발점으로 삼는다."
+     },
+     {
+      "course_code": "AMSE205",
+      "concept": "the basic criterion for phase equilibrium is established with the Gibbs free energy",
+      "how_used": "Ni, Ni(OH)2, NiO 상 안정성을 전위 조건과 연결해 읽는 데 참고한다. 숙련을 전제하지 않고 문헌 읽기 수준에서 시작한다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "화학열역학과 화학평형, 반응속도론",
+      "how_used": "산화 반응의 방향과 속도를 정성적으로 이해하는 데 쓴다."
+     }
+    ],
+    "gaps": [
+     "전위-pH(Pourbaix) 다이어그램 해석",
+     "순환전압전류법·Tafel 분석 등 전기화학 측정",
+     "역전류 시뮬레이션 실험 설계",
+     "실제 실험실 장비 접근 여부는 확인되지 않음"
+    ],
+    "first_step": "P3의 실험 조건(0.6 V RHE 기준, 희생금속 연결)을 표로 정리하고, Ni 전극의 전위 변수(0.6 V RHE 위/아래), 시간 변수, 관찰 상(β-Ni(OH)2·NiO·가역 Ni) 비교표를 만든다. 이어 Ni-H2O 전위-pH 도표에서 해당 전위 구간을 표시해 교수님께 보여드릴 1쪽 요약을 만든다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "CO2 환원용 Au 나노입자 전극의 64 h 안정성 문헌 재분석과 열화 지표 정리",
+    "question": "PEI−Au/C 전극에서 시간당 전류 감소율 0.25 %와 표면적 증가가 활성·안정성과 어떻게 연결되는지, 다른 촉매와 비교 가능한 열화 지표로 정리할 수 있는가?",
+    "interest_link": "수전해와 같은 전기화학 전극 소재이면서 '오래가는 전극'이라는 관심을 CO2 환원 촉매의 장시간 성능으로 확장한다.",
+    "lab_basis": {
+     "source_id": "P6",
+     "quote": "the PEI−Au/C electrode exhibits stable performance over 64 h, with an hourly current degradation rate of 0.25 %"
+    },
+    "course_basis": [
+     {
+      "course_code": "AMSE414",
+      "concept": "the state-of-the-art materials science and technology for the most promising energy conversion and storage devices",
+      "how_used": "CO2 환원 장치를 에너지 변환 소자로 보고 전극·촉매 구조를 이해하는 배경으로 쓴다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "화학열역학과 화학평형, 반응속도론",
+      "how_used": "전류밀도 변화를 반응속도 관점에서 해석하는 기초로 쓴다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "논문 수치를 모아 열화율을 계산·시각화하는 간단한 스크립트에 쓴다."
+     }
+    ],
+    "gaps": [
+     "나노입자 합성·TEM 입자 크기 분석",
+     "촉매 활성 표면적(ECSA) 측정",
+     "CO2 환원 선택성 분석",
+     "연구실의 해당 주제 현재 진행 여부는 알 수 없음"
+    ],
+    "first_step": "P6의 jCO(28.6 vs 21.7 mA cm−2 at −1.13 VRHE)와 64 h 열화율 0.25 %/h 수치를 바탕으로, 시간별 전류 유지율 계산 시트를 만든다. 같은 형식으로 다른 Au 기반 CO2 환원 논문 3~5편의 안정성 데이터를 모아 비교 가능한 조건인지 점검한다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "AMSE513",
+    "reason": "전극 과정, 전위와 열역학, 전자전달 동역학, 물질전달을 다루므로 두 주제의 전극 열화·활성 해석에 직접 필요하다. 대학원 수준일 수 있어 수강 가능 여부는 확인이 필요하다."
+   },
+   {
+    "course_code": "AMSE721T",
+    "reason": "수소 생산·저장·활용과 금속-수소 상호작용을 다루어 알칼리 수전해 전극 주제의 배경을 보완한다. 대학원 특론이므로 수강 가능 여부는 확인이 필요하다."
+   },
+   {
+    "course_code": "BATT536",
+    "reason": "전해질과 전극의 상호작용, 이온 수송, 계면 현상을 다뤄 전극 열화를 계면 관점에서 이해하는 데 도움이 된다."
+   }
+  ],
+  "keywords_en": [
+   "alkaline water electrolysis",
+   "reverse current",
+   "electrode degradation",
+   "cathodic protection",
+   "nickel hydroxide",
+   "hydrogen evolution reaction",
+   "CO2 reduction",
+   "durability"
+  ],
+  "caution": "제시된 자료는 연구실 소개, 논문 초록 일부, 자동 추출 키워드뿐이라 연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근 여부는 알 수 없습니다. 두 주제는 모두 제안이며, 실험 대신 문헌 정리로 시작하는 것을 전제로 했습니다. 수강 사실이 숙련을 뜻하지 않으므로 부족한 개념은 지도교수·대학원생과 상의해 보완하세요."
+ },
+ "duration_wall_s": 31.22,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9558,
+   "outputTokens": 29,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0009703000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 4910,
+   "cacheReadInputTokens": 11270,
+   "cacheCreationInputTokens": 18397,
+   "webSearchRequests": 0,
+   "costUSD": 0.123823,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 33,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 18397,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 18397,
+  "cache_read_input_tokens": 11270,
+  "output_tokens": 4910,
+  "output_tokens_details": {
+   "thinking_tokens": 33
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 18397,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2499,
+    "cache_read_input_tokens": 10221,
+    "cache_creation_input_tokens": 9225,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9225
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1247933,
+ "error": null,
+ "input_sha256": "e31a73b72ba2c99ea2c1a0f7f61c3ccb7a30818f689aa02da61ca516f524f52e"
+}

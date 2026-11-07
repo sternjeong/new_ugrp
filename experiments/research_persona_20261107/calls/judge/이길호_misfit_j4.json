@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 Floquet–Andreev 논문에 정확히 근거하고 E(φ) 공식과 측대 겹쳐 그리기 등 첫 단계가 구체적이다. 다만 Floquet 개념이 학생에게 어렵고, 주제 2(Bi-2212)는 현재 우리 연구 방향과 거리가 있다. 과목 연결은 솔직하게 서술했다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "연구 분야 이름만 가져다 쓴 일반론이며 구체적 주제도 과목 연결도 없다. 첫 단계도 '원문에서 문제를 고르라'는 수준이고 다음 과목은 중복되어 있다."
+   },
+   {
+    "label": "X3",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 5,
+    "reason": "로봇 파지는 우리 연구실과 무관하고 학생의 관심과도 맞지 않는다. 다른 연구실 자료가 섞인 것으로 보이며 근거가 전혀 맞지 않는다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "p-n 접합 전자광학과 제작·측정 조사는 우리 연구실 소개에 부합하고 학생의 관심을 잘 반영한다. 다만 일반화학 연결이 다소 억지이고 질문 목록 작성은 모호하다. 다음 과목 추천은 적절하다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "논문 그래프를 디지털화해 분석하는 것은 3개월 과제로 현실적이다. 그러나 근거로 인용한 'E=p2/2m'은 연구실 근거로 부적절하고 주제 간 일관성이 약하다. 위상물질 정보소자 추천은 괜찮다."
+   },
+   {
+    "label": "X6",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 이중층 그래핀 ABS 논문의 게이트 조절 coherence length에 정확히 기반한다. 계산 범위가 구체적이고 학생 수준에 맞으며 단층·이중층 분산 비교로 입문 단계도 갖췄다. 약한 과목 연결을 솔직히 밝혔고 다음 과목도 적절하다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.32,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17614,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017734000000000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1173,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17237,
+   "webSearchRequests": 0,
+   "costUSD": 0.08077029999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17237,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17237,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1173,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17237,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1173,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17237,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17237
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08254369999999998,
+ "error": null,
+ "input_sha256": "a41b0f586a5d79fe4b59f9a75b884d7c033baaf7bf1daee091340bca5f04256c"
+}

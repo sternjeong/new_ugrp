@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 연구실의 Cu TEC 부식 논문과 PEI-Au CO2 환원 논문을 정확히 인용했고, 오래가는 전극이라는 관심을 잘 반영했다. 전기화학 기초가 없다는 점도 솔직히 밝혔다. 다만 Cu TEC는 수전해·배터리와 거리가 있고, 문헌 정리 중심이라 연구성은 다소 약하다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "그래핀-초전도체 접합은 우리 연구실과 무관하고, 학생의 전기화학 관심과도 맞지 않는다. 다른 연구실 자료를 가져온 것으로 보여 근거가 없다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "X1과 비슷하게 P5와 P6를 정확히 인용했다. 다만 Cu TEC 결과를 수전해·CO2 환원으로 확장하는 질문은 다소 무리가 있다. 열역학 과목 추천은 보조적이며 전기화학과는 거리가 있다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "알칼리 수전해 역전류 보호 논문(0.6 V RHE, 희생 양극)과 Ni 나노어레이 기포 논문을 정확히 짚었고, 우리 연구실의 핵심 주제에 해당한다. 첫 단계가 구체적이며 코드 작업이 가능하다. 수강 과목과의 연결이 약하다는 점도 솔직히 밝혔다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "분야 이름만 나열한 일반론이라 구체적인 주제도 첫 단계도 없다. 과목 연결도 전혀 분석하지 않았다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "학생의 코딩 역량에 맞는 열화율 분석 파이프라인이라 바로 시작할 수 있고, 과목 연결도 솔직하다. 다만 우리 연구실의 논문을 직접 근거로 삼지 않고 분야 키워드에만 기댔다. 일반적인 데이터 분석이라 우리 연구실만의 특색은 약하다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.4,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17121,
+   "outputTokens": 397,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0019106000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 371,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1195,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16738,
+   "webSearchRequests": 0,
+   "costUSD": 0.0789943,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16738,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16738,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1195,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16738,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1195,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16738,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16738
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0809049,
+ "error": null,
+ "input_sha256": "0d9f07d1165cc66d0f3c408248610a2f723c17e4c9a56b4a838cd8f566ec2c99"
+}

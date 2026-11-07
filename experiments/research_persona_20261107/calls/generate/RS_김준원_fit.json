@@ -1,0 +1,171 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "서펜타인 미세유로 내벽의 코팅 두께 균일성: 유체역학 관점의 소규모 모델링과 관찰",
+    "question": "굽은(serpentine) 유로 내벽에 prepolymer를 코팅할 때, 점도·중력·계면장력 중 어떤 변수가 두께 불균일을 가장 크게 좌우하는가? 이를 단순 스케일링 분석과 간단한 관찰 실험으로 비교할 수 있는가?",
+    "interest_link": "작은 칩 위에서 액체를 다루는 장치에 관심이 있고, 미세유체 장치 내벽 코팅은 칩 속 액체 거동과 직접 연결됩니다.",
+    "lab_basis": {
+     "source_id": "P6",
+     "quote": "The effect of gravity on the prepolymer coating is eliminated by the buoyancy of the supporting liquid and Laplace pressure is weakened by the minimized interfacial tension."
+    },
+    "course_basis": [
+     {
+      "course_code": "MECH370",
+      "concept": "pressure, hydrostatics, and buoy- ancy; open systems and control volume analysis; mass conservation and momentum",
+      "how_used": "부력과 압력 균형, 질량·운동량 보존을 이용해 코팅 액막에 작용하는 힘을 단순 모델로 정리하는 데 사용할 수 있습니다."
+     },
+     {
+      "course_code": "MATH200",
+      "concept": "1st and 2nd order ODEs",
+      "how_used": "액막 두께가 시간에 따라 변하는 단순화된 식을 상미분방정식으로 세워 풀어보는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "MECH250",
+      "concept": "Thermomechanical properties of various substances are studied based on a macroscopic view",
+      "how_used": "경화 과정에서 온도에 따라 달라지는 물성을 거시적으로 생각해 보는 보조 근거로만 사용할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "표면장력·Laplace pressure·젖음(wetting)과 얇은 액막(lubrication) 이론",
+     "고분자 prepolymer의 경화와 점도 거동",
+     "미세 가공 및 두께 측정 실험 경험"
+    ],
+    "first_step": "P6의 supporting liquid 방식과 일반 dip coating을 비교하는 표를 만들고, 코팅 두께 h를 점도, 밀도차, 계면장력, 경화 시간의 함수로 두는 1차원 중력 흐름 식을 MATH200 방식으로 세워 각 변수 변화에 따른 h(t) 경향을 수치로 그려 봅니다. 그 결과를 교수님께 보여 드리고 실험 가능 여부를 문의합니다(제안).",
+    "difficulty": "중급"
+   },
+   {
+    "title": "액체금속 충전 미세유로 전극의 변형에 따른 저항 변화 예측 (진단용 센서 관점)",
+    "question": "PDMS 같은 탄성체 안의 액체금속 전극이 늘어나거나 굽을 때 저항이 얼마나 변하는지를, 고체역학의 변형률 해석과 기하학적 단순 모델로 예측할 수 있는가? 이것이 미세유체 칩에 센서를 붙이는 설계에 어떤 시사점을 주는가?",
+    "interest_link": "칩 위의 작은 센서와 액체를 다루는 장치에 관심이 있으며, 액체금속 전극은 센서 요소이자 액체를 다루는 소자라는 점에서 이어집니다. 다만 의료 진단과의 연결은 이 자료에서 직접 확인되지 않으므로 응용 방향의 가설입니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "The LM‐infused sponge electrode exhibits a minimal change in terms of resistivity under strain, bending, and twisting (∆R < 0.01 Ω cm −1 )."
+    },
+    "course_basis": [
+     {
+      "course_code": "MECH240",
+      "concept": "stress and strain analysis, constitutive relations, and energy principles",
+      "how_used": "탄성체 기판의 변형률과 전극 단면 변화를 연결하는 단순 모델을 세우는 데 사용할 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "변형률에 따른 저항 변화 계산을 간단한 코드로 구현하고 변수를 바꿔 보는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "길이·단면적 같은 여러 변수에 대한 저항 함수의 민감도를 다변수 함수로 분석하는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "전기 저항과 회로 기초(전기·전자 과목 수강 기록 없음)",
+     "액체금속(예: 갈륨 합금) 재료 특성",
+     "PDMS 성형 및 센서 측정 실험 경험"
+    ],
+    "first_step": "P1을 읽고 직선형 액체금속 채널(길이 L, 단면적 A)이 변형률 ε만큼 늘어날 때 부피 보존을 가정한 저항 R(ε)을 유도합니다. 이어 CSED101 수준의 코드로 ε 0~50% 구간 곡선을 그리고, 논문이 보고한 ∆R < 0.01 Ω cm −1 와 비교할 질문 목록을 만들어 문의합니다(제안).",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "MECH421",
+    "reason": "MEMS 제작 공정과 마이크로센서·액추에이터의 작동 원리를 다루며, 칩 위 액체 장치에 필요한 공정 지식의 공백을 직접 메워 줍니다."
+   },
+   {
+    "course_code": "CHEB469F",
+    "reason": "바이오센서 등 생물 환경과 만나는 실리콘 기반 시스템을 다루므로, 의료 진단 응용과 표면 처리 관점을 보완하는 데 도움이 됩니다."
+   },
+   {
+    "course_code": "MECH621",
+    "reason": "리소그래피·증착·식각 같은 미세가공 공정을 심화해 다루지만 대학원 수준일 수 있으므로, MECH421 이후에 수강 가능 여부를 확인하는 것이 좋습니다."
+   }
+  ],
+  "keywords_en": [
+   "microfluidics",
+   "dip coating",
+   "interfacial tension",
+   "Laplace pressure",
+   "liquid metal electrode",
+   "stretchable sensor",
+   "strain-resistance model",
+   "MEMS"
+  ],
+  "caution": "이 제안은 제공된 연구 분야·소개·논문 초록만 근거로 한 것으로, 연구실의 현재 프로젝트, 학부 연구생 모집 여부, 장비·데이터 사용 가능 여부는 확인되지 않았습니다. 수강 기록은 개념 노출을 뜻할 뿐 숙련을 보증하지 않으며, 논문과의 겹침 개념은 자동 추출이라 틀릴 수 있습니다. 첫 단계는 문헌 기반 계산·모델링이라 실험 접근 없이도 시작할 수 있으나, 실제 실험은 연구실과 협의가 필요합니다."
+ },
+ "duration_wall_s": 36.93,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10195,
+   "outputTokens": 27,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001033,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 5593,
+   "cacheReadInputTokens": 11911,
+   "cacheCreationInputTokens": 19832,
+   "webSearchRequests": 0,
+   "costUSD": 0.1364571,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 347,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 19832,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 19832,
+  "cache_read_input_tokens": 11911,
+  "output_tokens": 5593,
+  "output_tokens_details": {
+   "thinking_tokens": 347
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 19832,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2997,
+    "cache_read_input_tokens": 10862,
+    "cache_creation_input_tokens": 10019,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10019
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1374901,
+ "error": null,
+ "input_sha256": "aadbc8c2d367ca430f0cd256cecf4197f9fcb6fa9827514f8cbbb8030461d6dc"
+}

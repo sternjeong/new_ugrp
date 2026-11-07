@@ -1,0 +1,161 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "역전류에 의한 Ni 전극 열화를 줄이는 보호 전위 조건 탐색 (제안)",
+    "question": "알칼리 수전해 셧다운 후 역전류 조건에서 Ni 전극의 비가역 산화(β-Ni(OH)2/NiO 형성)는 전극 전위를 어느 범위로 유지할 때 가장 잘 억제되는가? 희생금속 외에 전위 제한 조건만으로도 활성 유지가 가능한가?",
+    "interest_link": "수전해와 '오래가는 전극'에 관심이 있는 학생에게, 전극 내구성(열화)을 직접 다루는 주제입니다.",
+    "lab_basis": {
+     "source_id": "P3",
+     "quote": "the potential of the Ni electrode should be maintained below 0.6 V RHE under the transient condition to keep a reversible nickel phase and an activity for the hydrogen evolution reaction"
+    },
+    "course_basis": [
+     {
+      "course_code": "AMSE414",
+      "concept": "a basic concept of electrochemistry is briefly reviewed to establish the knowledge base to understand various modern energy conversion and storage",
+      "how_used": "전극 전위와 반응의 기본 개념을 바탕으로 Ni 산화 조건을 해석하는 출발점으로 삼을 수 있습니다."
+     },
+     {
+      "course_code": "AMSE205",
+      "concept": "the basic criterion for phase equilibrium is established with the Gibbs free energy",
+      "how_used": "Ni, Ni(OH)2, NiO 상의 안정성을 열역학적으로 비교하는 데 참고할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "전위-pH(Pourbaix) 해석과 전자전달 속도론",
+     "순환전압전류법(CV), 가속 내구성 시험 등 실험 기법",
+     "실제 셀 운전 조건(zero-gap 셀) 경험"
+    ],
+    "first_step": "P3를 읽고 Ni의 Pourbaix 선도에서 알칼리 조건의 Ni, Ni(OH)2, NiO 안정 영역을 직접 그린 뒤, 0.6 V RHE 기준 위아래의 전위 구간별 예상 상을 표로 정리합니다. 이를 바탕으로 3개월 안에 시도할 전위 유지 시간 변수 2~3개를 담은 실험 설계안을 작성해 지도교수나 대학원생과 상의합니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "다공성 Ni 나노로드 표면의 H2 기포 이탈과 고전류 밀도 내구성 관계 (제안)",
+    "question": "Ni 전극의 표면 기공도(porosity)가 H2 기포 이탈 거동을 바꾼다면, 고전류 밀도에서 장시간 운전 시 활성 유지에도 영향을 주는가?",
+    "interest_link": "수전해 전극 소재와 오래가는 전극이라는 관심을, 표면 구조(기공도)와 기포 이탈이라는 설계 변수로 연결합니다.",
+    "lab_basis": {
+     "source_id": "P2",
+     "quote": "The Ni catalyst with the highest porosity of ≈52% exhibits superaerophobic nature as well as the best HER performance among the Ni catalysts."
+    },
+    "course_basis": [
+     {
+      "course_code": "AMSE414",
+      "concept": "the state-of-the-art materials science and technology for the most promising energy conversion and storage devices",
+      "how_used": "수전해 소재의 성능 지표를 에너지 변환 소자 맥락에서 이해하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "문헌의 기공도-성능 데이터를 정리하고 간단히 그래프로 분석하는 데 활용할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "접촉각 측정 등 표면 젖음성 개념",
+     "나노구조 전극 제작과 HER 측정 방법",
+     "장시간 안정성 평가 지표"
+    ],
+    "first_step": "P2에서 기공도, H2 기포 이탈, 전류 밀도 관련 수치를 스프레드시트로 정리하고, 기공도에 따른 활성 변화 그래프를 그립니다. 그 위에 장시간 안정성 지표를 추가로 측정하자는 제안을 한 페이지로 정리합니다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "BATT524",
+    "reason": "전극 전위, 전자전달 속도론, 물질전달을 다루는 에너지 전기화학 과목이라 두 주제 모두에 직접 필요합니다. 같은 내용의 AMSE513도 있으니 학부 수강 가능 여부와 시간표를 확인하세요."
+   },
+   {
+    "course_code": "AMSE721T",
+    "reason": "수소 생산과 금속-수소 상호작용 분석을 다루어 수전해 전극 연구의 배경을 보완합니다."
+   },
+   {
+    "course_code": "BATT623",
+    "reason": "열역학과 상변화, 산화환원 메커니즘을 전극에 적용하는 관점을 심화할 수 있습니다."
+   }
+  ],
+  "keywords_en": [
+   "alkaline water electrolysis",
+   "nickel electrode degradation",
+   "reverse current",
+   "cathodic protection",
+   "hydrogen evolution reaction",
+   "superaerophobic surface",
+   "bubble release",
+   "electrode durability"
+  ],
+  "caution": "모두 제안이며, 연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근 가능성은 자료로 확인되지 않았습니다. 먼저 문헌 분석으로 시작하고 실험은 지도교수와 협의가 필요합니다. 수강 사실이 해당 개념의 숙련을 뜻하지는 않습니다. 일부 후보 과목은 대학원 과목이라 수강 자격 확인이 필요합니다."
+ },
+ "duration_wall_s": 16.53,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9140,
+   "outputTokens": 29,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0009285000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2121,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8758,
+   "webSearchRequests": 0,
+   "costUSD": 0.0563509,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8758,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8758,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2121,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8758,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2121,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8758,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8758
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0572794,
+ "error": null,
+ "input_sha256": "87cf86f99aa2b5b014b6cdf847ec5721c6cc11c61b69fa224efa5d0ad8c5caa5"
+}

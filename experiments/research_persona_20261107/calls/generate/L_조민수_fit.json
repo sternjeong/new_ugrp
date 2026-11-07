@@ -1,0 +1,172 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "복잡하게 쌓인 물체 속 파지 대상 인식: 부분 관측 하에서 대칭성 활용 제안",
+    "question": "물체의 일부만 카메라에 보일 때, 물체의 대칭성을 가정해 가려진 부분을 추정하면 파지 후보 위치 선정의 정확도가 얼마나 달라지는가?",
+    "interest_link": "카메라로 물체를 알아보고 직접 집는 로봇에 대한 관심을, 부분 관측에서 대칭성을 찾는 비전 문제와 파지 문제로 연결합니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH203",
+      "concept": "Vector spaces and subspaces: Null space, column space, the four fundamental subspaces",
+      "how_used": "3D 점군을 행렬로 표현하고 주성분 분석 등으로 대칭축 후보를 구하는 기초 계산에 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED343",
+      "concept": "matrix decomposition, vector calculus",
+      "how_used": "대칭 변환(반사·회전)을 추정하는 최적화 문제를 이해하고 구현하는 데 연결할 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "작은 합성 3D 물체(컵, 상자)를 만들고 일부를 가려 실험하는 코드를 작성하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "카메라 모델과 3D 데이터(점군, 깊이 영상) 경험",
+     "딥러닝 프레임워크와 컴퓨터 비전 기초",
+     "로봇 파지 평가 방법"
+    ],
+    "first_step": "공개 3D 모델 데이터셋에서 컵, 병, 상자 같은 대칭 물체 20개를 골라 점군으로 바꾼 뒤, 표면의 30%, 50%, 70%를 가려 보세요. 그다음 PCA로 대칭축을 구하고 가려진 비율에 따라 정답 축과의 각도 오차가 어떻게 변하는지 그래프로 그리세요.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "물체가 가려진 상황에서 다음 시점 선택하기: 능동 인식 기초 실험 제안",
+    "question": "물체가 서로 가린 장면에서 카메라를 어느 방향으로 움직여야 집을 물체의 인식 확신도가 가장 많이 오르는가?",
+    "interest_link": "로봇이 집기 전에 대상을 더 잘 보기 위해 시점을 바꾸는 과정을 시뮬레이션으로 작게 시도해 볼 수 있습니다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Active Perception for Object Manipulation"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED331",
+      "concept": "learn how to design correct and efficient algorithms",
+      "how_used": "후보 시점을 비교하고 가장 좋은 시점을 고르는 탐색 알고리즘을 설계하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED233",
+      "concept": "analysis of their efficiency",
+      "how_used": "시점별 점수를 저장하고 정렬하는 자료구조를 효율적으로 구성하는 데 씁니다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "회전운동과 각운동량",
+      "how_used": "카메라가 물체 주위를 도는 회전 운동의 기하를 이해하는 출발점입니다. 다만 강체 회전 일부에 한정됩니다."
+     }
+    ],
+    "gaps": [
+     "카메라 투영과 3D 기하",
+     "물체 인식 모델 사용 경험",
+     "시뮬레이터 사용법",
+     "로봇 운동학"
+    ],
+    "first_step": "시뮬레이터에서 책상 위에 컵 3개를 일부 겹치게 놓고, 목표 컵 하나에 대해 카메라 시점을 8개 방위각(45도 간격)에서 촬영하세요. 각 시점에서 목표 컵이 보이는 픽셀 비율을 계산해, 가장 많이 보이는 시점을 고르는 단순 기준을 만들어 보세요.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "카메라 구조와 2D·3D 시각 데이터 형성 원리를 다루므로, 두 주제 모두에서 부족한 비전 기초를 채워 줍니다."
+   },
+   {
+    "course_code": "CSED515",
+    "reason": "기계학습의 수학적·통계적 방법을 배우므로, 인식 모델의 학습과 평가를 이해하는 데 도움이 됩니다. 이미 들은 CSED343과 이어집니다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학과 동역학을 다루므로, 집기 동작 쪽 지식을 보완합니다."
+   }
+  ],
+  "keywords_en": [
+   "partial observation",
+   "3D symmetry detection",
+   "point cloud",
+   "grasp planning",
+   "active perception",
+   "next-best-view",
+   "robotic manipulation",
+   "occlusion"
+  ],
+  "caution": "두 주제 모두 제안일 뿐입니다. 연구실의 현재 프로젝트, 모집 여부, 데이터·장비 사용 가능 여부는 자료에 없어 확인되지 않았습니다. 교수님께 직접 문의하세요. 수강 이력은 해당 개념에 노출되었다는 뜻이지 숙련을 뜻하지 않습니다. 컴퓨터 비전과 로봇 과목은 아직 듣지 않았으므로 공개 데이터와 시뮬레이션으로 시작하길 권합니다."
+ },
+ "duration_wall_s": 17.55,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6400,
+   "outputTokens": 32,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.000656,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2105,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 6015,
+   "webSearchRequests": 0,
+   "costUSD": 0.045218900000000006,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 6015,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6015,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2105,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6015,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2105,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 6015,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6015
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0458749,
+ "error": null,
+ "input_sha256": "e5e92fd5707f55764cb51c3ddbbfead90a59a803857c7aa665a31978d285728a"
+}

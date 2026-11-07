@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "실제 논문(Floquet–Andreev, 리뷰)에 근거한 데이터 재분석으로 3개월에 가능하고 코딩 역량도 살리지만, 디지털화 위주라 직접 제작·측정 관심과는 거리가 있습니다. 양자역학 공백을 솔직히 밝힌 점은 좋습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "우리 연구실과 무관한 로봇 파지 주제이며 학생 관심(그래핀·초전도 소자)도 반영하지 않았고, 연구실 근거가 지어낸 것입니다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 3,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 4,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 일반적 탐색 안이라 구체적인 주제도 첫 단계도 없어 바로 시작시킬 수 없습니다. 다음 과목 추천만 적절합니다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 BLG 조셉슨 접합 논문(short→long 전환)과 정확히 맞고, L/ξ 계산이라는 구체적 첫 단계가 있어 바로 시작할 수 있습니다. 입문 대안도 있고 과목 연결의 한계도 정직하게 적었습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 4,
+    "reason": "Floquet–Andreev와 Bi-2212 논문은 실제 우리 연구이고 첫 단계도 구체적이지만, Floquet 모델은 양자역학 경험 없는 학생에게 무겁습니다. Bi-2212 장난감 모델은 가정임을 밝혀 정직하나 가치가 제한적입니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "Dirac 전자광학 계산과 제작·측정 항목 조사 두 주제가 학생의 소자 제작·측정 관심을 가장 직접 반영하고 입문자에게 현실적입니다. 다만 p-n 저항 예측은 다소 야심차고 화학 연결은 약합니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.33,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17614,
+   "outputTokens": 334,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0019284000000000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 305,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1133,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17232,
+   "webSearchRequests": 0,
+   "costUSD": 0.0803503,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17232,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17232,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1133,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17232,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1133,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17232,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17232
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0822787,
+ "error": null,
+ "input_sha256": "cadc13f2cb9dd36796597efac43c7b9645ca3591a962a68cde9f165c5722a8e3"
+}

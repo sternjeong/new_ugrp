@@ -1,0 +1,171 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "초소수성 표면 패턴으로 미세유체 채널 내 액적 위치 제어하기 (제안)",
+    "question": "채널 벽면의 일부만 소수성/친수성으로 바꾸는 선택적 표면 처리 패턴(폭, 간격)이 소량 액체의 이동·정지 위치에 어떤 영향을 주는가?",
+    "interest_link": "작은 칩 위에서 액체를 다루는 장치를 만들고 싶다는 관심을, 이 연구실의 표면 처리와 미세유체 소자 연구에 연결합니다. 진단용 칩에서 시료를 원하는 위치에 두는 문제의 단순화된 형태입니다.",
+    "lab_basis": {
+     "source_id": "S2",
+     "quote": "Selective surface modification in various applications"
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS101",
+      "concept": "운동법칙, 일과 에너지, 에너지/운동량 보존법칙",
+      "how_used": "액적이 표면 에너지 차이로 움직이거나 멈추는 현상을 힘과 에너지 관점의 단순 모델로 정리하는 데 씁니다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "분자간의 힘, 화학열역학과 화학평형",
+      "how_used": "표면의 젖음성이 분자간 힘에서 나온다는 점을 설명하고 소수성/친수성 차이를 해석하는 배경으로 씁니다."
+     },
+     {
+      "course_code": "MATH230",
+      "concept": "sample estimation, hypothesis testing, and linear regression",
+      "how_used": "패턴 폭에 따른 접촉각이나 이동 거리 측정값을 회귀와 가설검정으로 비교하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "접촉각, 표면장력, 모세관 현상 등 젖음 이론",
+     "유체역학 기초 (미세 스케일의 Reynolds number 등)",
+     "클린룸 공정과 표면 처리 실험 경험"
+    ],
+    "first_step": "문헌 3~5편에서 친수성 줄무늬 폭(예: 100 µm, 200 µm, 500 µm)에 따른 물방울 접촉각 데이터를 표로 모으고, 폭과 접촉각의 관계를 MATH230의 선형회귀로 적합해 보면서 연구실에 어떤 측정이 가능한지 문의할 질문 목록을 만듭니다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "미세유체 입자 클러스터 어레이의 포획 효율 시뮬레이션 (제안)",
+    "question": "유속과 포획 구조의 간격을 바꿀 때 미세입자가 어레이에 포획되는 비율이 어떻게 달라지는가를 간단한 수치 모델로 예측할 수 있는가?",
+    "interest_link": "칩 위에서 입자나 세포를 다루는 미세유체 장치와, 진단에서 시료 속 입자를 분리하고 모으는 응용을 연결합니다. 실험 장비 없이 코드로 먼저 시작할 수 있는 크기입니다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "Development of high-density microfluidic particle cluster array devices"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "Green's, Stokes' and divergence theorem, which are very important in electromagnetism, fluid dynamics, and mechanical engineering",
+      "how_used": "유속장과 입자 경로를 다변수 함수와 벡터장으로 표현하는 데 씁니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "2차원 격자 위에서 입자 궤적을 계산하는 간단한 시뮬레이션을 직접 구현하는 데 씁니다."
+     },
+     {
+      "course_code": "MATH230",
+      "concept": "Random variables and probability distributions",
+      "how_used": "입자의 초기 위치를 무작위로 두고 포획 비율을 통계적으로 추정하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "Navier-Stokes 방정식과 저Reynolds수 유동 이론",
+     "수치해석(유한요소/유한차분) 경험",
+     "입자에 작용하는 항력과 실제 소자 제작 조건에 대한 지식"
+    ],
+    "first_step": "유속 한 방향의 2차원 channel에서 원형 trap 간격(예: 20, 40, 60 µm)과 입자 수 1000개를 설정하고, 입자가 trap에 들어가는 비율을 Python으로 세어 간격별로 비교하는 가장 단순한 모델부터 만듭니다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "MECH421",
+    "reason": "MEMS 제작 공정과 마이크로센서·액추에이터의 작동 원리를 배우는 과목으로, 학생의 관심과 연구실 분야(S1, S4)에 직접 닿는 입문 과목입니다."
+   },
+   {
+    "course_code": "CHEB469F",
+    "reason": "센서를 포함한 생체 환경과의 계면을 다루는 과목으로, 진단용 칩과 표면 처리 주제의 배경 지식을 보충합니다."
+   },
+   {
+    "course_code": "MECH621",
+    "reason": "리소그래피, 증착, 식각과 공정 통합을 다루는 고급 과목입니다. MECH421을 마친 뒤 제작 공정을 깊이 이해하는 데 적합합니다."
+   }
+  ],
+  "keywords_en": [
+   "microfluidics",
+   "MEMS",
+   "selective surface modification",
+   "superhydrophobic surface",
+   "wettability",
+   "particle trapping",
+   "lab-on-a-chip",
+   "biomedical device"
+  ],
+  "caution": "두 주제는 제공된 연구실 소개와 학생 수강 과목만 근거로 한 제안입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 장비·데이터 사용 가능성은 확인되지 않았으니 교수님께 직접 문의해야 합니다. 유체역학과 표면 과학 과목은 수강 이력에 없어서 두 주제 모두 먼저 독학이나 지도가 필요합니다."
+ },
+ "duration_wall_s": 19.14,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8027,
+   "outputTokens": 31,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008181999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2214,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 7643,
+   "webSearchRequests": 0,
+   "costUSD": 0.052820900000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 7643,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7643,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2214,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7643,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2214,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 7643,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7643
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0536391,
+ "error": null,
+ "input_sha256": "02970a7df30f7c7e717ea09ed65cccaaf7009a577585e38a76e32f152b19feb2"
+}

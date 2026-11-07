@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 6,
+    "reason": "연구 분야 이름만 나열한 일반적 틀이고 구체적 주제와 첫 단계가 없으며 과목 연결도 비어 있다. 다음 과목도 근거 설명 없이 중복되어 있다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "P3 Floquet-Andreev 그림 디지털화와 p-n 굴절 시뮬레이션은 실제 논문과 연구 분야에 맞고, 양자역학 공백도 인정한다. 다만 위상차 데이터 재분석은 다소 막연하고 측정 관심은 약하게만 반영한다."
+   },
+   {
+    "label": "X3",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "이중층 그래핀 JJ 논문(2024)에 근거해 L/ξ를 계산하는 첫 단계가 구체적이고 3개월에 충분히 할 만하다. 약한 과목 연결을 솔직히 밝혔고 대학원 과목 확인도 명시했지만, 제작·측정 관심은 계산으로만 대신한다."
+   },
+   {
+    "label": "X4",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 5,
+    "reason": "로봇 파지와 3D 대칭 검출은 우리 양자소자 연구실과 무관하고 학생 관심과도 전혀 맞지 않아 다른 연구실 자료가 섞인 것으로 보인다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "Floquet-Andreev 논문과 Bi-2212 twisted JJ 논문, 쪼개고 쌓는 제작 철학에 정확히 근거한다. E(φ) 식과 측대 그림이라는 첫 단계가 구체적이고 학습용 가정임을 밝혔지만, 양자역학 공백 때문에 중급 주제는 다소 버겁다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 3,
+    "useful": 3,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 4,
+    "reason": "전자광학과 그래핀-초전도체 소자 제작·측정이라는 관심을 가장 직접 반영하고 연구실 소개와 맞다. 다만 p-n 접합 저항 예측은 입문생에게 과하고, 조사 위주인 주제 2는 구체성이 약하며 화학 연결은 억지스럽다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.56,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17614,
+   "outputTokens": 337,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0019299000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 316,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1176,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17235,
+   "webSearchRequests": 0,
+   "costUSD": 0.0807923,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17235,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17235,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1176,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17235,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1176,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17235,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17235
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0827222,
+ "error": null,
+ "input_sha256": "a963d8986e6386af783a4828d590b95e9aa7760b801bf11daadabd714cac8242"
+}

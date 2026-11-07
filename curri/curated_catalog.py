@@ -123,7 +123,7 @@ def content_words(text):
         word = raw.lower()
         if re.fullmatch(r'[가-힣]+', word):
             word = PARTICLE.sub('', word) if len(PARTICLE.sub('', word)) >= 2 else word
-        elif word.endswith('s') and not word.endswith('ss') and len(word) > 4:
+        elif word.endswith('s') and word[-2:] not in ('ss', 'is', 'us') and not word.endswith(('ies', 'ses')) and len(word) > 4:
             word = word[:-1]
         if word not in LINK_STOPWORDS:
             words.add(word)

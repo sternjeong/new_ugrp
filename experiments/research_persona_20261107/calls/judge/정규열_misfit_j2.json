@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "공개 데이터와 Python, ViennaRNA로 바로 시작할 수 있는 UTR 발현 예측 주제로 학생의 설계 도구 관심에 맞고, 과목 연결의 한계도 솔직하게 밝혔다. 주제 2의 3-HP 물질수지 모델은 연구실 논문에 기반하지만 다소 무겁다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 2,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반론이라 구체적인 주제도 과목 연결도 없고, 학생이 첫 단계를 시작할 수 없다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "UTR Designer와 SCANEER는 우리 연구실 핵심 주제이고 실험과 설계 도구를 모두 원한다는 관심에도 맞는다. 다만 Vibrio 균주에서 리코펜을 실험하는 것은 생물 과목이 없는 학생에게 무리이고, SCANEER 주제는 어렵다."
+   },
+   {
+    "label": "X4",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "UTR Designer 예측과 실험을 비교하는 주제로 연구실에 잘 맞는다. 하지만 첫 단계가 읽고 계획하는 수준에 그치고, 실험 접근 여부도 불확실하다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "UTR 설계와 DBTL 한 바퀴라는 구도는 좋고 SCANEER 주제에 상호정보량 계산이라는 구체적 첫 단계도 있다. 다만 UTR 주제의 첫 단계는 계획표 작성에 그치고, 두 주제 모두 학생에게 높은 수준을 요구한다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "Cu 전극 부식과 Au CO2 환원은 우리 연구실과 무관한 다른 연구실의 내용이고, 학생의 미생물 유전자 설계 관심과도 맞지 않는다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.35,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16909,
+   "outputTokens": 402,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018919000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 373,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1119,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16528,
+   "webSearchRequests": 0,
+   "costUSD": 0.0773943,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16528,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16528,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1119,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16528,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1119,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16528,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16528
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0792862,
+ "error": null,
+ "input_sha256": "0c0f7fdeb20a77f4a03251c881954429cbb65eb0877743f1b4a675a3eed34d87"
+}

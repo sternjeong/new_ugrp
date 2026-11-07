@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 역전류 논문(0.6 V RHE)을 정확히 인용했고 수전해 내구성이라는 관심과 맞다. 두 번째 주제의 Au CO2 환원 64 h 안정성도 우리 논문 근거이며, 과목 연결을 과장하지 않고 첫 단계가 구체적이다. 다만 일반화학I 연결은 약하다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "역전류 Ni 열화와 Ni 나노어레이 기포 이탈이라는 우리 수전해 두 논문에 모두 정확히 근거했다. Pourbaix 작성과 3개월 안의 실험 변수 설계, 문헌 수치 정리까지 첫 단계가 현실적이다. 다음 과목도 에너지전기화학과 열역학으로 적절하다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "역전류 열화 주제는 정확하고 좋다. 두 번째 Au CO2 환원 주제는 관심사에서 약간 멀다. 첫 단계는 좋지만 X2보다 수전해 쪽 폭이 좁다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 3,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 4,
+    "reason": "관심사에는 맞지만 근거가 연구 분야 키워드뿐이고 우리 논문을 쓰지 않아 일반적인 문헌 조사에 그친다. 공개 데이터로 배터리 수명을 예측하는 주제는 우리 연구실의 전극 연구와 거리가 있다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "그래핀 초전도 양자소자는 우리 연구실과 무관하고 학생의 수강 과목·관심과도 맞지 않는다. 다른 연구실 자료를 가져온 것으로 보여 근거가 없다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 3,
+    "course_fit": 2,
+    "interest_fit": 3,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 템플릿식 안이다. 구체적 연구 질문과 우리 논문 근거가 없고 첫 단계가 모호해 바로 시작시킬 수 없다."
+   }
+  ]
+ },
+ "duration_wall_s": 8.62,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16648,
+   "outputTokens": 340,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018348000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 313,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1147,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16264,
+   "webSearchRequests": 0,
+   "costUSD": 0.0766183,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16264,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16264,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1147,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16264,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1147,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16264,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16264
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0784531,
+ "error": null,
+ "input_sha256": "3134bdc41493f177c18e2520a5960a8f3679d10ad872b60c6386928134e74264"
+}

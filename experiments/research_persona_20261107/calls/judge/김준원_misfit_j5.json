@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "UTR 설계, Vibrio 리코펜, SCANEER는 우리 연구실과 무관한 합성생물학 주제입니다. 다른 연구실 자료를 끌어온 것으로 보이며 학생의 칩 위 액체 관심과도 맞지 않습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "입자 클러스터 어레이와 선택적 표면 처리라는 우리 연구실 주제를 학생 관심에 맞게 다뤘고, 계산·문헌으로 바로 시작할 수 있습니다. 다만 주제 1의 관성 집속 설명은 다소 단순화되어 있고, 다음 과목 중 고급 과목은 MECH421을 먼저 들어야 한다고 적절히 지적했습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "Stokes 항력 계산과 스마트폰 접촉각 측정은 학생이 바로 시작할 수 있고, 부족한 지식과 모델의 한계를 솔직하게 밝혔습니다. 연구실의 입자 조작과 표면 처리 방향에도 맞으며, 연구실 근거 인용도 정확합니다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "PDMS 친수 코팅과 모세관 모델은 우리 논문과 잘 맞고 가정값임을 밝혀 정직합니다. 다만 주제 2는 가상 데이터 생성이라 의미가 약하고 학생 관심과도 거리가 있으며, 근거 인용 중 일부는 불명확합니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "선택적 표면 처리와 입자 클러스터 어레이는 연구실과 맞습니다. 그러나 '초소수성 패턴'과 포획 시뮬레이션은 다소 막연하고, 첫 단계가 X3보다 덜 구체적입니다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 일반적인 템플릿이라 구체적인 연구 주제도 학생 관심 반영도 없습니다. CMOS 공정 실험도 우리 연구와 직접 관련이 약합니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.82,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17303,
+   "outputTokens": 28,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017442999999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1195,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16922,
+   "webSearchRequests": 0,
+   "costUSD": 0.0797303,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16922,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16922,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1195,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16922,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1195,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16922,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16922
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08147460000000001,
+ "error": null,
+ "input_sha256": "9fcc81d1b1905bdd03a1f74093f9517c326d27406b7abef9a8a281d327e2ba8d"
+}

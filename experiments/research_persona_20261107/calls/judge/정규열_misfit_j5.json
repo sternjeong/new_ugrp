@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "UTR Designer는 우리 연구실의 핵심 도구이고 Vibrio sp. dhg도 우리 균주라 lab_fit이 좋다. 다만 리코펜 경로 설명은 자료에 없는 추가 내용이고 3개월 안에 비모델 균주에서 실험까지 하기는 빠듯하다. 첫 단계에서 접근 가능 여부를 가정하지 않은 점은 좋다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "대장균 형광 리포터로 UTR Designer 예측과 측정을 한 번 비교하는 범위가 3개월에 현실적이고 우리 연구실의 기본 작업과도 맞는다. 일반화학 연결의 한계와 도구 정보가 자료에 없다는 점을 솔직히 밝혔다. 주제 2는 SCANEER 논문의 검증 효소를 정확히 인용했다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 2,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "연구 분야 키워드를 그대로 나열한 일반적 안내라서 구체적인 연구 질문도 실행 가능한 첫 단계도 없다. 학생의 설계 도구 관심과 수강 과목 연결도 거의 없다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "공개 데이터와 Python, ViennaRNA로 바로 시작할 수 있어 생물 과목이 없는 학생에게 가장 실행 가능하다. 주제 2도 우리 3-HP 논문(acs, iclR, cerulenin, 44.6%)에 근거했다. 실험은 빠졌고 FBA 장난감 모델은 학생에게 다소 벅차다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "Cu 전극 부식과 CO2 환원 Au 전극은 우리 연구실과 무관한 다른 연구실의 내용이고, 학생이 말한 미생물 유전자 설계 관심과도 맞지 않는다. 사실상 잘못된 연구실에 대한 안이다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "UTR 예측과 발현 비교는 우리 연구실에 잘 맞고 SCANEER도 정확히 짚었다. 다만 첫 단계가 도구 입출력 정리와 계획표 작성에 머물러 X2와 X4보다 덜 구체적이다. SCANEER 주제의 상호정보량 계산은 학생에게 무겁다."
+   }
+  ]
+ },
+ "duration_wall_s": 14.78,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16909,
+   "outputTokens": 245,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018134000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 216,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1282,
+   "cacheReadInputTokens": 3321,
+   "cacheCreationInputTokens": 17277,
+   "webSearchRequests": 0,
+   "costUSD": 0.0822641,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17277,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17277,
+  "cache_read_input_tokens": 3321,
+  "output_tokens": 1282,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17277,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1282,
+    "cache_read_input_tokens": 3321,
+    "cache_creation_input_tokens": 17277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17277
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08407750000000001,
+ "error": null,
+ "input_sha256": "34a87686a1b201451f171a3a2cbcb25d74b5661e1e29362d9fe23d547bce2532"
+}

@@ -1,0 +1,163 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "UTR 설계 기반 발현량 조절: Vibrio sp. dhg 리코펜 생산 경로의 발현 수준 탐색 (제안)",
+    "question": "5'UTR 설계 도구(UTR Designer)로 예측한 발현 세기 단계가, Vibrio sp. dhg 같은 비모델 균주에서 리코펜 같은 보고 가능한 산물의 생산량 변화와 얼마나 일치하는가?",
+    "interest_link": "미생물 유전자를 설계해 원하는 물질을 만들게 하는 데 관심이 있고, 실험과 설계 도구를 모두 원한다고 했습니다. 이 주제는 발현 설계 도구의 예측값과 균주에서 측정한 산물량을 비교하므로 두 가지를 함께 다룹니다.",
+    "lab_basis": {
+     "source_id": "S6",
+     "quote": "Fine-tunable and predictable expression level control system"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "설계 도구가 출력한 UTR 후보를 정리하고 예측값과 측정값을 비교하는 간단한 스크립트를 짜는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "화학열역학과 화학평형, 반응속도론",
+      "how_used": "UTR 설계에서 다루는 RNA 결합과 번역 개시의 에너지 개념을 이해하는 출발점이 됩니다. 다만 생체분자 수준의 열역학은 이 과목만으로 충분하지 않습니다."
+     }
+    ],
+    "gaps": [
+     "분자생물학 기초(전사·번역 개시, RBS와 5'UTR 구조)",
+     "클로닝과 형질전환 등 재조합 DNA 실험 경험",
+     "리코펜 정량 같은 대사산물 분석법",
+     "실험 반복과 통계 설계"
+    ],
+    "first_step": "P2의 리코펜 생산 경로 유전자 중 1개를 골라 UTR Designer 공개 자료를 읽고, 그 유전자의 5'UTR에 대해 예측 번역 세기 5단계 후보 서열 표를 만드세요. 그 표를 연구실 대학원생에게 보여 주고, 실험 검증이 가능한지와 어떤 균주·플라스미드를 쓸 수 있는지 물어보세요. 접근 가능 여부는 확인 전까지 가정하지 않습니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "SCANEER 예측 변이의 계산 재현과 변이 후보 분석 (제안)",
+    "question": "SCANEER가 제시하는 공진화 기반 아미노산 쌍 변이 후보는, 논문에서 검증된 효소(예: cis-aconitate decarboxylase)에서 활성 부위에서 먼 위치에 얼마나 분포하는가?",
+    "interest_link": "설계 도구에 관심이 있는 학생이 효소 활성을 바꾸는 계산 도구를 직접 써 보고, 나중에 실험 검증으로 이어갈 수 있는 입문용 주제입니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "Activity-enhancing mutations that improve substrate-binding affinity or turnover rate were found at sites distal from known active sites or ligand-binding pockets."
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "서열 정렬 파일을 읽고 변이 위치별 거리나 빈도를 계산하는 기초 코드를 작성하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "vectors, and proceed to multivariable functions",
+      "how_used": "단백질 구조 좌표 사이의 거리를 벡터로 계산하는 부분에서 간접적으로 도움이 될 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "단백질 구조와 효소 반응 기초(활성 부위, 기질 결합)",
+     "다중 서열 정렬과 공진화 분석의 개념",
+     "생물정보학 도구와 PDB 구조 파일 다루기",
+     "확률·통계 기반 모델 평가"
+    ],
+    "first_step": "P1의 SCANEER 웹서버에서 cis-aconitate decarboxylase 입력 형식을 확인하고, 논문 속 변이 위치 목록을 표로 정리하세요. 그다음 PDB 구조 파일에서 각 위치와 활성 부위 잔기 사이의 거리를 계산해 'distal' 주장이 어느 정도인지 확인합니다. 웹서버 사용 조건은 먼저 점검하세요.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "LIFE321",
+    "reason": "학생 성적표에는 생물 과목이 없습니다. 이 과목은 유전자 기능과 전사 등 두 주제의 공통 기초를 채워 줍니다."
+   },
+   {
+    "course_code": "CHEB308",
+    "reason": "효소와 생물 촉매를 공학적으로 다루는 입문 과목이라, 대사공학과 효소 활성 개념을 연결하기 좋습니다."
+   },
+   {
+    "course_code": "SYNB501",
+    "reason": "DBTL 사이클 기반으로 설계와 계산 파트(효소 구조·활성, 대사 모델링)를 다루므로, 설계 도구와 실험에 대한 관심에 맞습니다. 대학원 수준일 수 있어 수강 자격은 확인하세요."
+   }
+  ],
+  "keywords_en": [
+   "synthetic biology",
+   "metabolic engineering",
+   "5' UTR design",
+   "translation initiation rate",
+   "expression level control",
+   "Vibrio sp. dhg",
+   "enzyme activity engineering",
+   "sequence co-evolution"
+  ],
+  "caution": "이 추천은 제공된 자료만 근거로 한 제안입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 균주·장비·데이터 접근 권한은 확인되지 않았습니다. 연구실 소개에는 대학원생과 박사후연구원 모집만 나와 있으니 먼저 문의하세요. 학생은 생물 과목을 듣지 않았으므로 두 주제 모두 분자생물학 기초를 따로 보충해야 합니다. 수강 이력은 숙련을 뜻하지 않습니다. 자료의 개념 겹침은 자동 추출이라 틀릴 수 있습니다."
+ },
+ "duration_wall_s": 19.3,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8821,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008946000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2344,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8438,
+   "webSearchRequests": 0,
+   "costUSD": 0.0573009,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8438,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8438,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2344,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2344,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.058195500000000004,
+ "error": null,
+ "input_sha256": "5e4ed35ab5bb3df939ecbac24410d9be20a97ad7f30173bf7ad8739a13b95bc3"
+}

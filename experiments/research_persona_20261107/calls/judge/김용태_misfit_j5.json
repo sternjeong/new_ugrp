@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "Cu/HCF 열전기화학 셀 논문을 근거로 한 부식·pH 창 문헌 정리는 입문용으로 구체적이다. 다만 TEC에서 수전해·CO2로의 확장은 다소 억지스럽고, 열역학 과목은 보조적이라고 솔직히 밝혔다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "X1과 비슷하지만 다음 과목(에너지전기화학, 에너지소재, 배터리 소재)이 더 적절하고 한계도 솔직히 밝혔다. IrO2 MEA 언급은 근거가 불확실하고 Au 주제는 부차적이다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 연구실의 역전류 보호와 Ni 나노어레이 기포 논문을 정확히 짚었고 수전해 내구성이라는 관심에 맞는다. 0.6 V RHE 기준 같은 구체적 첫 단계가 있어 바로 시작할 수 있다. 가상 곡선으로 시작하는 점은 약하다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": false,
+    "rank": 4,
+    "reason": "일반적인 열화 데이터 분석이고 연구실 논문 근거가 없으며 키워드만 썼다. 학생이 할 수는 있지만 우리 연구와의 연결이 약하고 신호및시스템 연결도 과장되었다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 3,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "구체적 주제나 연구 질문 없이 자료를 살펴보라는 일반 안내에 그친다. 학생이 바로 시작할 만한 내용이 없다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "그래핀-초전도체 주제는 우리 연구실과 무관하고 학생 관심과도 맞지 않는다. 다른 연구실의 자료를 가져온 것으로 보인다."
+   }
+  ]
+ },
+ "duration_wall_s": 8.97,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17121,
+   "outputTokens": 319,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018716000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 288,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1082,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16737,
+   "webSearchRequests": 0,
+   "costUSD": 0.0778603,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16737,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16737,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1082,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16737,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1082,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16737,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16737
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0797319,
+ "error": null,
+ "input_sha256": "2f2e45c7bd124b3485fa8a12cb384f96f7590bc0752e0346879334a3300c5984"
+}

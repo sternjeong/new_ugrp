@@ -1,0 +1,172 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "UTR Designer 예측값과 E. coli 효소 발현량의 비교 검증 (제안)",
+    "question": "UTR Designer로 설계한 5'UTR 변이 몇 개가 E. coli에서 목표 효소의 발현 수준을 예측대로 서열 순서에 따라 조절하는가?",
+    "interest_link": "미생물 유전자를 설계해 원하는 물질을 만들게 하고 싶다는 관심, 그리고 실험과 설계 도구를 함께 해 보고 싶다는 관심에 맞는다. 설계 도구 예측을 실험으로 확인하는 작은 규모의 연구다.",
+    "lab_basis": {
+     "source_id": "S7",
+     "quote": "UTR Designer"
+    },
+    "course_basis": [
+     {
+      "course_code": "LIFE321",
+      "concept": "how genes function in the cell, transcription",
+      "how_used": "5'UTR이 유전자 발현에 미치는 영향을 해석하는 기초 배경으로 쓸 수 있다."
+     },
+     {
+      "course_code": "CHEB308",
+      "concept": "Enzymes: Molecular supercatalysts for use at home and in industry",
+      "how_used": "발현 수준과 효소 기능의 관계를 산업 관점에서 이해하는 데 활용할 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "설계 서열 목록과 측정값을 정리하고 예측값과 비교하는 간단한 스크립트에 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "클로닝, 형광 리포터 측정 등 실험 기법 실습 경험이 자료에 없다",
+     "RBS와 번역 개시의 열역학 모델 지식이 필요하다",
+     "통계적 비교 방법(실험계획개론 등)은 아직 수강하지 않았다"
+    ],
+    "first_step": "UTR Designer 논문과 사용법을 읽고, 형광 단백질 하나를 E. coli 리포터로 가정해 목표 발현 수준 3~4단계(낮음~높음)에 대한 5'UTR 후보 서열 목록을 도구로 뽑아 표로 정리한다. 이 표를 가지고 실험 가능 여부와 리포터 선택을 연구실 구성원과 상의한다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "SCANEER 예측 변이의 활성 변화 비교 분석 계획 (제안)",
+    "question": "SCANEER 웹서버가 제안한 co-evolution 기반 변이는 활성 부위에서 먼 위치에서도 cis-aconitate decarboxylase 같은 효소의 활성 변화와 일관되게 연결되는가?",
+    "interest_link": "효소를 바꿔 원하는 물질 생산을 개선하는 설계 도구에 대한 관심과 연결된다. 우선 계산으로 시작해 이후 실험으로 확장할 수 있다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "Activity-enhancing mutations that improve substrate-binding affinity or turnover rate were found at sites distal from known active sites or ligand-binding pockets."
+    },
+    "course_basis": [
+     {
+      "course_code": "LIFE319",
+      "concept": "생명 현상을 화학적 관점에서 분석하고 분자 수준에서 이해",
+      "how_used": "효소 활성과 기질 결합 변화를 분자 수준에서 해석하는 기초로 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "변이 목록과 점수를 다루는 간단한 분석 코드를 작성하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CHEM221",
+      "concept": "structure and reactivity relationship",
+      "how_used": "아미노산 변이가 기질과 상호작용하는 방식을 화학적으로 생각하는 데 참고할 수 있다."
+     }
+    ],
+    "gaps": [
+     "단백질 서열 정렬, co-evolution 통계(직접 결합 분석 등) 개념이 부족하다",
+     "단백질 3차 구조 분석 경험이 없다",
+     "논문의 데이터와 웹서버 접근 방식은 확인이 필요하다",
+     "효소 활성 측정 실험 경험이 자료에 없다"
+    ],
+    "first_step": "P1에 나온 cis-aconitate decarboxylase를 대상으로 SCANEER 웹서버에 서열을 넣을 수 있는지 확인하고, 제안된 변이 위치를 활성 부위로부터의 거리 기준으로 분류하는 표를 만든다. 서버 사용이 어려우면 논문 본문의 변이 목록으로 대신한다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "SYNB501",
+    "reason": "DBTL 사이클과 효소 구조·활성, AI·단백질, 대사 모델링을 다루는 설계 파트가 두 주제 모두의 설계 도구 관점과 맞는다. 다만 개설 수준과 수강 자격은 확인이 필요하다."
+   },
+   {
+    "course_code": "SYNB520",
+    "reason": "효소 구조 이해와 기질 특이성 설계 방법을 배워 SCANEER 주제의 구조 분석 공백을 메울 수 있다. 대학원 수준일 수 있어 수강 가능 여부를 확인해야 한다."
+   },
+   {
+    "course_code": "IMEN242",
+    "reason": "발현 수준이나 활성 측정에서 요인 효과와 반복 실험을 설계하고 분석하는 통계 기초를 다져 준다."
+   }
+  ],
+  "keywords_en": [
+   "synthetic biology",
+   "metabolic engineering",
+   "UTR Designer",
+   "translation initiation rate",
+   "expression level control",
+   "enzyme engineering",
+   "sequence co-evolution",
+   "Escherichia coli"
+  ],
+  "caution": "이 제안은 제공된 자료만 근거로 한 것입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 데이터·장비·웹서버 접근 권한은 확인되지 않았으므로 지도교수나 연구실에 직접 문의하세요. 자료의 모집 공고는 대학원생과 박사후연구원 대상입니다. 수강 이력이 해당 개념의 숙련을 뜻하지는 않으며, 후보 과목 중 대학원 과목은 수강 자격 확인이 필요합니다."
+ },
+ "duration_wall_s": 17.66,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9026,
+   "outputTokens": 33,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0009191,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2285,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8644,
+   "webSearchRequests": 0,
+   "costUSD": 0.05753490000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8644,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8644,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2285,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8644,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2285,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8644,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8644
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.058454000000000006,
+ "error": null,
+ "input_sha256": "95465136e5e340fdc5c614126f446a9df9bfd6575f12eb1e75853c7bda094636"
+}

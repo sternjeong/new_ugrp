@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 6,
+    "reason": "일반적인 템플릿이라 구체적 주제나 시작점이 없고 학생의 관심(칩 위 액체, 진단)도 반영하지 않았다. 다음 과목에 CMOS 공정 실험이 있는데 우리 연구실과는 거리가 있다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "PDMS 친수화와 모세관 유동 모델링은 우리 하이드로겔 코팅 연구와 맞고 코드로 바로 시작할 수 있다. 접촉각이 가정값이라고 밝힌 점은 정직하다. 다만 주제 2의 가상 데이터 생성은 의미가 약하다."
+   },
+   {
+    "label": "X3",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "합성생물학 내용이라 우리 연구실(MEMS)과 전혀 무관하고 학생의 관심과도 다르다. 연구실 근거가 다른 연구실 자료로 보이며, 생물 과목 이력이 없어 실행도 어렵다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "선택적 표면 처리와 입자 클러스터 어레이는 우리 핵심 주제를 그대로 짚었다. 코드 기반으로 시작할 수 있다. 다만 입자 포획 시뮬레이션은 단순화가 심하고, 접촉각 문헌 회귀는 다소 얕다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "입자 유동 모델링과 표면 처리 문헌 정리 모두 연구실 주제에 맞는다. 다만 포물선 속도 분포 가정에서 입자 위치를 계산한다는 설정이 모호하고, 문헌 정리 위주의 주제 2는 연구 성격이 약하다."
+   },
+   {
+    "label": "X6",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "Stokes 항력 계산과 스마트폰 접촉각 측정은 학생이 3개월 안에 바로 할 수 있고, 첫 단계가 구체적이다. 부족한 배경 지식과 단순화 한계도 솔직히 밝혔다. 접촉각 통계 비교는 표면 처리 연구의 기본기를 쌓기에 좋다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.16,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17303,
+   "outputTokens": 23,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017418,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1184,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16922,
+   "webSearchRequests": 0,
+   "costUSD": 0.0796203,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16922,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16922,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16922,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1184,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16922,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16922
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0813621,
+ "error": null,
+ "input_sha256": "23c4eecb1c47b37eaa675b9e2b869a24ad4f1f28f0010366bd70ec220bd8a8d1"
+}

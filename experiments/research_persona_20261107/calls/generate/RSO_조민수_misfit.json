@@ -1,0 +1,168 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "어지러운 환경에서 물체 일부만 보일 때 집기 후보 위치 추정 (제안)",
+    "question": "물체가 가려져 일부만 관측될 때, 물체의 대칭성을 이용해 파지 가능한 위치 후보를 더 잘 추정할 수 있는가?",
+    "interest_link": "카메라로 물체를 알아보고 로봇이 집는 과정에 관심이 있는데, 이 연구실의 대칭 검출과 어지러운 환경의 로봇 조작 연구가 만나는 지점입니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "vectors, and proceed to multivariable functions",
+      "how_used": "3차원 벡터와 다변수 함수로 물체의 대칭 축·평면을 수식으로 표현하는 기초로 씁니다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "회전운동과 각운동량, 평형 조건",
+      "how_used": "회전 개념과 평형 조건을 파지 안정성과 회전 대칭을 이해하는 출발점으로 삼습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "공개 데이터를 불러와 간단한 대칭 기반 파지 후보 스크립트를 짜는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "컴퓨터 비전 기초(카메라 모델, 3D 데이터 표현)",
+     "딥러닝과 기계학습 기초",
+     "군(group)과 등변성(equivariance) 개념",
+     "로봇 파지 역학과 운동학"
+    ],
+    "first_step": "컵, 병, 상자 같은 대칭 물체 3~5종을 골라, 정면 전체 점군과 한쪽만 가린 점군에서 대칭 축을 각각 손으로 표시해 봅니다. 그다음 가림 비율에 따라 축 위치가 얼마나 흔들리는지 표로 정리해 기준선을 만듭니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "물체를 잘 보려면 카메라를 어디로 옮겨야 하나: 능동 인지 파지 실험 설계 (제안)",
+    "question": "파지 전에 카메라 시점을 한두 번 바꾸면, 가려진 물체의 파지 후보 판단이 얼마나 나아지는가?",
+    "interest_link": "로봇이 카메라로 물체를 알아보고 집는 과정을 직접 다뤄 보고 싶다는 관심이, 이 연구실의 능동 인지와 물체 조작 연구와 이어집니다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Active Perception for Object Manipulation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "directional derivative",
+      "how_used": "시점 변화에 따른 관측 점수 변화를 방향별 변화율로 이해하는 데 씁니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "시점별 관측 결과를 기록하고 비교하는 간단한 시뮬레이션 코드를 작성하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "카메라 기하와 3D 비전",
+     "강화학습·순차적 의사결정",
+     "로봇 조작과 시뮬레이터 사용 경험",
+     "기계학습 기초"
+    ],
+    "first_step": "공개 시뮬레이터에서 물체 2~3개를 겹쳐 놓고, 카메라 시점 4곳(정면·좌·우·위)에서 각 물체가 보이는 픽셀 비율을 기록합니다. 가장 가려진 물체에 대해 시점별로 보이는 비율이 어떻게 달라지는지 비교합니다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "카메라 구조와 2D·3D 시각 데이터의 형성 원리, 이를 처리하는 AI 모델을 다루므로 두 주제 모두에 필요한 비전 기초를 채워 줍니다."
+   },
+   {
+    "course_code": "CSED343",
+    "reason": "선형대수, 해석기하, 벡터 미적분, 확률을 기계학습 관점에서 다지므로 수강한 미적분 지식을 딥러닝 이해로 연결해 줍니다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학·동역학과 제어를 다루므로 파지와 조작 쪽 기초를 채워 줍니다."
+   }
+  ],
+  "keywords_en": [
+   "symmetry detection",
+   "partial observation",
+   "grasp generation",
+   "active perception",
+   "robotic manipulation",
+   "cluttered environments",
+   "next-best-view",
+   "point cloud"
+  ],
+  "caution": "두 주제는 제공된 연구 분야 목록에서 끌어낸 제안일 뿐이며, 연구실의 현재 프로젝트나 모집 여부, 데이터·장비 사용 가능 여부는 확인되지 않았습니다. 학생의 수강 과목은 대부분 화학·생명 계열이어서 비전, 기계학습, 로봇공학 기초가 부족합니다. 수강 사실만으로 숙련했다고 볼 수 없으니 교수님께 먼저 문의하고, 공개 데이터와 시뮬레이터로 작게 시작하세요."
+ },
+ "duration_wall_s": 16.25,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8678,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008803000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1987,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8297,
+   "webSearchRequests": 0,
+   "costUSD": 0.0531669,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8297,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8297,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 1987,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8297,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1987,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8297,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8297
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.054047200000000004,
+ "error": null,
+ "input_sha256": "bd139722a7a7adf6014949828a5468b39e447ca9d3ecae76144f7789569835f2"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "UTR Designer는 우리 연구실의 핵심 도구이고, 설계-검증 구조가 학생 관심과 잘 맞습니다. 첫 단계가 구체적이고 약한 연결도 솔직히 밝혔지만, 근거 문구가 일반적이고 실험 접근은 문의가 필요합니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "UTR Designer와 SCANEER를 정확히 짚었고, 활성 부위에서 먼 위치의 변이라는 논문 내용도 사실에 맞습니다. 다만 UTR 주제는 목표 효소를 지정했을 뿐 구체성이 X1과 비슷하고, 후속 과목도 무난한 수준입니다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "수전해와 CO2 환원 전극은 우리 연구실과 무관하고, 학생 이력과 관심에도 맞지 않는 다른 학생의 자료로 보입니다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반 틀이라 구체적 주제도 학생 과목과의 연결도 없고, 바로 시작할 수 있는 단계도 없습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "두 주제 모두 공개 논문과 웹서버만으로 시작할 수 있어 가장 현실적입니다. SCANEER 근거가 정확하고 첫 단계가 구체적입니다. 다만 Vibrio에서 UTR Designer를 검증한다는 문장은 약간 과장입니다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "내용은 X5와 비슷하지만, Vibrio에서의 UTR 예측 대 실측 형광 비교는 3개월 학부생에게 실험 부담이 큽니다. 다만 SCANEER 쪽은 첫 단계가 구체적이고 계산 중심이라 시작하기 좋습니다."
+   }
+  ]
+ },
+ "duration_wall_s": 11.95,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17020,
+   "outputTokens": 380,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018920000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 347,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1116,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16639,
+   "webSearchRequests": 0,
+   "costUSD": 0.0778083,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16639,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16639,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1116,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16639,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1116,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16639,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16639
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0797003,
+ "error": null,
+ "input_sha256": "f386b001aab4487359f94cbd90f9d64f5bc9fc9ad7e122c028cbd99f1200c7b4"
+}

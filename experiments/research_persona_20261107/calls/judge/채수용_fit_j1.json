@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "미세유체·액체금속 주제로 우리 연구실(전력전자)과 무관하고, 학생이 듣지 않은 유체역학·열역학·고체역학을 수강 과목처럼 끌어왔습니다. 인용한 논문도 우리 연구실 것이 아닙니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "Kalman 필터 전류 추정과 PV 아크 검출은 실제 우리 논문에서 나온 주제이고, 학생 규모에 맞게 줄였습니다. 첫 단계도 구체적이며 추가 학습 필요성을 솔직히 밝혔습니다. 다만 회로를 직접 만든다는 관심은 약하게 반영됐습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 5,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "벅 컨버터 PI 제어 시뮬레이션은 회로이론, 제어, 마이크로프로세서 과목과 잘 맞고 3개월에 현실적입니다. 보조로 Kalman 필터 주제도 우리 연구실 논문에 근거합니다. 첫 단계가 구체적이라 바로 시작할 수 있습니다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 제목을 되풀이했을 뿐 구체적인 주제나 과목 연결이 없습니다. 첫 단계도 일반론이라 시작할 수 없습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "Kalman 필터 주제는 우리 연구실과 잘 맞지만, 센서 고장과 승압 컨버터까지 넣어 범위가 큽니다. 공진 필터 주제는 학생에게 도전적입니다. 제목은 승압인데 첫 단계는 벅 컨버터라 일관성이 떨어집니다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 4,
+    "reason": "벅 컨버터 제어와 소형 하드웨어 구현은 직접 만들어 보고 싶다는 관심에 맞고 연구실 방향과도 맞습니다. 다만 하드웨어 검증과 안전·PCB 부담이 3개월에는 큽니다. 부스트 컨버터 주제는 FPGA 파라미터 추정과 이어지지만 학생에게 도전적입니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.36,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17123,
+   "outputTokens": 282,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018533,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 256,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1218,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 17624,
+   "webSearchRequests": 0,
+   "costUSD": 0.08268,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17624,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17624,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1218,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17624,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1218,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 17624,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17624
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0845333,
+ "error": null,
+ "input_sha256": "758734f6db06572d64c1a2df3446b1edbcbbfa3df6a28b6466b284173eae47a6"
+}

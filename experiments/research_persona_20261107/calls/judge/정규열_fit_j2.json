@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 3,
+    "course_fit": 2,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 키워드만 나열한 일반적 탐색안이라 구체적인 주제도 첫 단계도 없고, 학생이 말한 설계 도구·실험 관심을 반영하지 못했습니다. 다음 과목도 불명확합니다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "수전해 Ni 전극과 CO2 환원 주제는 우리 연구실 연구가 아니며 인용문도 우리 논문이 아닙니다. 학생이 듣지 않은 과목을 근거로 삼았고 학생의 관심과도 무관합니다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": false,
+    "rank": 4,
+    "reason": "UTR Designer 설계-검증과 공진화 효소 설계 두 주제는 우리 연구와 맞습니다. 다만 SCANEER 첫 단계가 방법 없이 막연하고, 개발된 도구를 쓰는 대신 직접 분석을 하게 합니다. 한계는 솔직하게 밝혔습니다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "SCANEER 웹서버로 cis-aconitate decarboxylase 변이 후보를 뽑고 구조 거리를 분석하는 주제는 3개월에 현실적이고 우리 논문 초록과 정확히 맞습니다. 첫 단계도 구체적입니다. UTR Designer 비교는 Vibrio 논문에서 서열과 발현량 쌍을 모으기 어려울 수 있어 약간 걱정됩니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "UTR Designer를 Vibrio에서 검증하는 안은 실험과 설계 도구를 함께 담아 매력적이고, 웹서버 접근 가능 여부 같은 불확실성도 솔직히 밝혔습니다. 다만 학부생에게 중급 난이도이고 실험은 지도가 필요합니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "E. coli에서 UTR Designer 후보를 뽑고 SCANEER 변이를 거리별로 분류하는 입문적 접근은 현실적이고 정직합니다. 유기화학I 연결은 다소 약하고 서버 접근이 안 되면 논문 목록으로 대체하는 점은 실용적이나, 분석 깊이는 X4보다 얕습니다."
+   }
+  ]
+ },
+ "duration_wall_s": 17.68,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17020,
+   "outputTokens": 441,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0019225000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 408,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 2449,
+   "cacheReadInputTokens": 18405,
+   "cacheCreationInputTokens": 23093,
+   "webSearchRequests": 0,
+   "costUSD": 0.11871050000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 23093,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 23093,
+  "cache_read_input_tokens": 18405,
+  "output_tokens": 2449,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 23093,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1243,
+    "cache_read_input_tokens": 17522,
+    "cache_creation_input_tokens": 6454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.120633,
+ "error": null,
+ "input_sha256": "998d78cae02507be6dd37fbbe88dd2b49d1ec2ea0daeac89da1bf673d0c0f6d5"
+}

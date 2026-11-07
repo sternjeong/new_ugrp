@@ -1,0 +1,173 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "부분 관측 물체의 대칭성 추정으로 잡기 위치 후보 제안하기",
+    "question": "물체가 일부만 보일 때 대칭축 추정을 이용하면 평행 그리퍼가 잡을 위치 후보를 더 안정적으로 좁힐 수 있는가?",
+    "interest_link": "카메라로 물체를 알아보고 직접 집는 로봇에 관심이 있는 학생에게, 연구실의 대칭 검출 연구와 잡기 연구를 잇는 작은 비전 실험이다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH203",
+      "concept": "Vector spaces and subspaces: Null space, column space, the four fundamental subspaces",
+      "how_used": "3D 점군이나 좌표 변환에서 대칭축·대칭면을 선형대수로 표현하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED343",
+      "concept": "linear algebra, analytic geometry, matrix decomposition, vector calculus",
+      "how_used": "점군의 주성분 분석으로 대칭축 후보를 구하는 기준선(baseline)을 이해하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED233",
+      "concept": "Students study many of the important conceptual data types, their implementation, and analysis of their efficiency.",
+      "how_used": "점군과 후보 잡기 위치를 구조화해 저장하고 처리하는 코드에 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "컴퓨터 비전 기초(카메라 모델, 깊이 영상, 3D 점군)",
+     "딥러닝 프레임워크(PyTorch)와 CNN 학습 경험",
+     "로봇 잡기 평가 방식과 그리퍼 기구학",
+     "등변(equivariant) 학습 개념"
+    ],
+    "first_step": "공개 3D 물체 모델 중 컵, 병, 상자 같은 대칭 물체 10개를 골라 점군을 만든다. 점군의 일부(예: 30%, 50%, 70%)만 남긴 뒤, PCA 주축으로 추정한 대칭축 각도 오차가 남기는 비율에 따라 어떻게 변하는지 그래프로 그려 본다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "복잡한 장면에서 가려진 물체를 위한 다음 시점 선택 규칙 비교",
+    "question": "물체가 서로 가려진 장면에서, 간단한 규칙(예: 가려짐이 가장 적은 시점 선택)으로 고른 다음 시점이 무작위 시점보다 대상 물체의 가시 면적을 더 늘리는가?",
+    "interest_link": "로봇이 물체를 제대로 보고 집으려면 잘 안 보일 때 카메라를 어디로 옮길지 정해야 하며, 비전과 로봇을 함께 다루는 주제다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Active Perception for Object Manipulation"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED331",
+      "concept": "learn how to systematically formulate problems and, based on that, to learn how to design correct and efficient algorithms.",
+      "how_used": "시점 선택을 후보 시점 집합에서 점수를 최대화하는 문제로 정리하고 알고리즘을 설계하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "카메라 위치와 방향에 따른 가시 면적을 다변수 함수로 보는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "운동법칙, 일과 에너지, 에너지/운동량 보존법칙, 회전운동과 각운동량",
+      "how_used": "카메라 이동과 회전 같은 물리적 움직임을 이해하는 기초로 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "시뮬레이터(PyBullet 등) 사용법",
+     "카메라 투영과 가시성 계산",
+     "로봇 기구학과 이동 가능 범위",
+     "강화학습이나 정보 이득 같은 시점 선택 방법"
+    ],
+    "first_step": "시뮬레이터에서 3~5개 물체를 겹쳐 놓고 목표 물체 하나를 정한다. 카메라 시점 24개(반구 위 방위각·고도각)에서 목표 물체의 보이는 픽셀 수를 측정한다. 현재 시점에서 '가려짐이 가장 적은 시점'을 고른 경우와 무작위로 고른 경우를 비교한다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "카메라 구조, 2D·3D 시각 데이터 형성, 이를 처리하는 AI 모델을 다루므로 두 주제의 비전 기초 공백을 가장 직접 메운다."
+   },
+   {
+    "course_code": "CSED515",
+    "reason": "기계학습의 수학·통계 방법을 배우므로 이미 들은 CSED343 위에서 학습 기반 인식 모델을 이해하는 데 이어진다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학·동역학·제어를 다루므로 잡기와 시점 이동의 로봇 쪽 공백을 채운다."
+   }
+  ],
+  "keywords_en": [
+   "symmetry detection",
+   "partial observation",
+   "grasp planning",
+   "active perception",
+   "next-best-view",
+   "robotic manipulation",
+   "point cloud",
+   "occlusion"
+  ],
+  "caution": "위 내용은 제공된 자료만 근거로 한 제안입니다. 연구실의 현재 프로젝트, 모집 여부, 데이터·장비 사용 가능 여부는 확인되지 않았으니 지도교수와 먼저 상의하세요. 수강 이력만으로 해당 개념을 숙련했다고 볼 수는 없습니다. 주제 2는 난도가 높아 범위를 더 줄여야 할 수 있습니다."
+ },
+ "duration_wall_s": 16.51,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8088,
+   "outputTokens": 31,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008243,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2203,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 7709,
+   "webSearchRequests": 0,
+   "costUSD": 0.052974900000000005,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 7709,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7709,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2203,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7709,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2203,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 7709,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7709
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.053799200000000005,
+ "error": null,
+ "input_sha256": "f20aaa60bb021737dbc163824e2ace5df2fdaaefcbffdb8ddbf54adfa94ef371"
+}

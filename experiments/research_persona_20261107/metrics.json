@@ -1,0 +1,331 @@
+{
+ "auto": {
+  "L": {
+   "quote_ok": 0.917,
+   "course_ref_ok": 1.0,
+   "next_ok": 1.0,
+   "paper_grounded": 0.0,
+   "course_links": 5.5
+  },
+  "R": {
+   "quote_ok": 1.0,
+   "course_ref_ok": 1.0,
+   "next_ok": 1.0,
+   "paper_grounded": 0.708,
+   "course_links": 5.083
+  },
+  "RS": {
+   "quote_ok": 0.958,
+   "course_ref_ok": 1.0,
+   "next_ok": 1.0,
+   "paper_grounded": 0.542,
+   "course_links": 5.0
+  },
+  "RSO": {
+   "quote_ok": 1.0,
+   "course_ref_ok": 1.0,
+   "next_ok": 1.0,
+   "paper_grounded": 0.458,
+   "course_links": 5.417
+  }
+ },
+ "panel": {
+  "A": {
+   "doable": 2.217,
+   "lab_fit": 3.05,
+   "course_fit": 1.1,
+   "interest_fit": 2.083,
+   "grounded": 3.317,
+   "useful": 1.017,
+   "next_courses": 2.417,
+   "composite": 2.171,
+   "accept": 0.0,
+   "rank": 5.2,
+   "fit": {
+    "composite": 2.167,
+    "doable": 2.267,
+    "course_fit": 1.2,
+    "accept": 0.0
+   },
+   "misfit": {
+    "composite": 2.176,
+    "doable": 2.167,
+    "course_fit": 1.0,
+    "accept": 0.0
+   }
+  },
+  "L": {
+   "doable": 3.917,
+   "lab_fit": 4.117,
+   "course_fit": 3.483,
+   "interest_fit": 4.5,
+   "grounded": 3.9,
+   "useful": 4.133,
+   "next_courses": 4.167,
+   "composite": 4.031,
+   "accept": 0.867,
+   "rank": 2.85,
+   "fit": {
+    "composite": 3.976,
+    "doable": 3.833,
+    "course_fit": 3.8,
+    "accept": 0.8
+   },
+   "misfit": {
+    "composite": 4.086,
+    "doable": 4.0,
+    "course_fit": 3.167,
+    "accept": 0.933
+   }
+  },
+  "R": {
+   "doable": 3.983,
+   "lab_fit": 4.767,
+   "course_fit": 3.533,
+   "interest_fit": 4.383,
+   "grounded": 4.583,
+   "useful": 4.617,
+   "next_courses": 4.317,
+   "composite": 4.312,
+   "accept": 1.0,
+   "rank": 1.833,
+   "fit": {
+    "composite": 4.338,
+    "doable": 3.8,
+    "course_fit": 3.767,
+    "accept": 1.0
+   },
+   "misfit": {
+    "composite": 4.286,
+    "doable": 4.167,
+    "course_fit": 3.3,
+    "accept": 1.0
+   }
+  },
+  "RS": {
+   "doable": 3.667,
+   "lab_fit": 4.467,
+   "course_fit": 3.45,
+   "interest_fit": 4.2,
+   "grounded": 4.117,
+   "useful": 4.05,
+   "next_courses": 4.2,
+   "composite": 4.021,
+   "accept": 0.967,
+   "rank": 2.85,
+   "fit": {
+    "composite": 4.086,
+    "doable": 3.667,
+    "course_fit": 3.733,
+    "accept": 1.0
+   },
+   "misfit": {
+    "composite": 3.957,
+    "doable": 3.667,
+    "course_fit": 3.167,
+    "accept": 0.933
+   }
+  },
+  "RSO": {
+   "doable": 3.967,
+   "lab_fit": 4.3,
+   "course_fit": 3.533,
+   "interest_fit": 4.517,
+   "grounded": 4.05,
+   "useful": 4.317,
+   "next_courses": 4.2,
+   "composite": 4.126,
+   "accept": 0.983,
+   "rank": 2.5,
+   "fit": {
+    "composite": 4.271,
+    "doable": 4.267,
+    "course_fit": 3.967,
+    "accept": 1.0
+   },
+   "misfit": {
+    "composite": 3.981,
+    "doable": 3.667,
+    "course_fit": 3.1,
+    "accept": 0.967
+   }
+  },
+  "CTRL": {
+   "doable": 1.717,
+   "lab_fit": 1.0,
+   "course_fit": 1.533,
+   "interest_fit": 1.0,
+   "grounded": 1.033,
+   "useful": 2.25,
+   "next_courses": 1.2,
+   "composite": 1.39,
+   "accept": 0.0,
+   "rank": 5.75,
+   "fit": {
+    "composite": 1.271,
+    "doable": 1.633,
+    "course_fit": 1.2,
+    "accept": 0.0
+   },
+   "misfit": {
+    "composite": 1.51,
+    "doable": 1.8,
+    "course_fit": 1.867,
+    "accept": 0.0
+   }
+  }
+ },
+ "reliability": {
+  "doable": 0.883,
+  "lab_fit": 0.941,
+  "course_fit": 0.921,
+  "interest_fit": 0.938,
+  "grounded": 0.913,
+  "useful": 0.929,
+  "next_courses": 0.904,
+  "composite": 0.969
+ },
+ "sensitivity": {
+  "A": {
+   "course_fit": 0.2,
+   "doable": 0.1
+  },
+  "L": {
+   "course_fit": 0.633,
+   "doable": -0.167
+  },
+  "R": {
+   "course_fit": 0.467,
+   "doable": -0.367
+  },
+  "RS": {
+   "course_fit": 0.567,
+   "doable": 0.0
+  },
+  "RSO": {
+   "course_fit": 0.867,
+   "doable": 0.6
+  }
+ },
+ "time_split": {
+  "A": {
+   "mrr": 0.484,
+   "hit1": 0.333,
+   "hit10": 0.667,
+   "median_rank": 3,
+   "pool_size": 143
+  },
+  "L": {
+   "mrr": 0.564,
+   "hit1": 0.417,
+   "hit10": 0.917,
+   "median_rank": 2,
+   "pool_size": 143
+  },
+  "R": {
+   "mrr": 0.732,
+   "hit1": 0.583,
+   "hit10": 1.0,
+   "median_rank": 1,
+   "pool_size": 143
+  },
+  "RS": {
+   "mrr": 0.564,
+   "hit1": 0.333,
+   "hit10": 0.917,
+   "median_rank": 2,
+   "pool_size": 143
+  },
+  "RSO": {
+   "mrr": 0.71,
+   "hit1": 0.583,
+   "hit10": 1.0,
+   "median_rank": 1,
+   "pool_size": 143
+  }
+ },
+ "cost": {
+  "L": {
+   "calls_per_case": 1,
+   "mean_seconds": 20.0,
+   "mean_cost_usd_list": 0.0591
+  },
+  "R": {
+   "calls_per_case": 1,
+   "mean_seconds": 23.1,
+   "mean_cost_usd_list": 0.0725
+  },
+  "RS": {
+   "calls_per_case": 1,
+   "mean_seconds": 23.4,
+   "mean_cost_usd_list": 0.0806
+  },
+  "RSO": {
+   "calls_per_case": 1,
+   "mean_seconds": 21.9,
+   "mean_cost_usd_list": 0.0739
+  }
+ },
+ "failures": [],
+ "best_by_composite": "R",
+ "pairwise_vs_best": {
+  "A": [
+   2.14,
+   [
+    2.043,
+    2.243
+   ]
+  ],
+  "L": [
+   0.281,
+   [
+    0.026,
+    0.643
+   ]
+  ],
+  "RS": [
+   0.29,
+   [
+    0.126,
+    0.407
+   ]
+  ],
+  "RSO": [
+   0.186,
+   [
+    0.048,
+    0.319
+   ]
+  ]
+ },
+ "pairwise_vs_A": {
+  "L": [
+   1.86,
+   [
+    1.574,
+    2.06
+   ]
+  ],
+  "R": [
+   2.14,
+   [
+    2.043,
+    2.243
+   ]
+  ],
+  "RS": [
+   1.85,
+   [
+    1.688,
+    2.029
+   ]
+  ],
+  "RSO": [
+   1.955,
+   [
+    1.776,
+    2.119
+   ]
+  ]
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "대칭성 사전지식을 이용한 부분 관측 물체의 파지 후보 탐색 (소규모 탐색 연구)",
+    "question": "물체의 반사·회전 대칭 정보를 알면, 카메라에 일부만 보이는 물체에서도 파지 후보 위치를 더 일관되게 정할 수 있는가?",
+    "interest_link": "카메라로 물체를 알아보고 직접 집는 로봇에 관심이 있는데, 이 주제는 대칭 검출(비전)과 파지(로봇)를 하나의 작은 질문으로 묶는다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH203",
+      "concept": "Vector spaces and subspaces: Null space, column space, the four fundamental subspaces",
+      "how_used": "회전·반사를 행렬 변환으로 표현하고, 대칭 축과 파지 후보 좌표를 선형대수로 다루는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "회전운동과 각운동량, 평형 조건",
+      "how_used": "파지 후보가 물체 중심 및 회전축과 어떤 관계에 있는지 직관적으로 해석하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED233",
+      "concept": "Students study many of the important conceptual data types, their implementation, and analysis of their efficiency.",
+      "how_used": "포인트 집합이나 후보 파지 목록을 저장하고 정렬·검색하는 자료구조를 구현할 때 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "2D/3D 카메라 모델과 깊이 데이터 (포인트 클라우드)",
+     "CNN·딥러닝 학습 경험",
+     "군 등변성(equivariance) 개념",
+     "파지 품질 평가 지표와 시뮬레이터 사용법"
+    ],
+    "first_step": "공개 3D 물체 모델 몇 개(예: 컵, 병, 상자)를 골라 한쪽 면만 보이도록 포인트를 잘라내고, 전체 모델의 반사 대칭 평면으로 반대편을 복원했을 때 점 간 거리 오차가 얼마나 줄어드는지 파이썬(NumPy)으로 계산해 본다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "어수선한 장면에서 물체 인식 후 파지: 능동 시점 선택의 작은 비교 실험",
+    "question": "가려진 물체가 있는 장면에서 카메라 시점을 한 번 더 바꾸면 물체 인식 확신도와 파지 후보 수가 얼마나 달라지는가?",
+    "interest_link": "로봇이 카메라로 주변 물체를 알아보고 집는 과정에서, 어디를 보느냐가 인식과 파지에 어떤 영향을 주는지 직접 확인해 볼 수 있다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Active Perception for Object Manipulation"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED343",
+      "concept": "A wide range of basic mathematical concepts including but not limited to linear algebra, analytic geometry, matrix decomposition, vector calculus, probability…",
+      "how_used": "인식 확신도를 확률로 해석하고 시점 간 결과를 비교하는 수학적 틀로 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED331",
+      "concept": "The goal of this course is to understand how to systematically formulate problems and, based on that, to learn how to design correct and efficient algorithms.",
+      "how_used": "다음 시점을 고르는 문제를 \"후보 시점 중 점수가 가장 높은 것 선택\"으로 정식화하고 간단한 탐욕 알고리즘으로 구현할 때 쓸 수 있다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "카메라 위치 같은 다변수 변수를 다루는 기초로 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "카메라 모델과 좌표 변환",
+     "사전학습된 물체 검출·분할 모델 사용 경험",
+     "로봇 기구학과 로봇 시뮬레이션 환경",
+     "능동 지각 문헌 이해"
+    ],
+    "first_step": "공개 시뮬레이터나 공개 데이터셋에서 물체 3~5개가 겹쳐 있는 장면을 골라, 정면과 측면 두 시점에서 사전학습 검출 모델의 물체별 신뢰도(confidence)를 각각 기록해 표로 비교한다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "카메라 구조와 2D/3D 시각 데이터 형성 원리를 다루므로, 두 주제 모두에서 부족한 카메라·3D 비전 기초를 채워 준다."
+   },
+   {
+    "course_code": "CSED515",
+    "reason": "기계학습의 수학적·통계적 방법을 배우므로, 이미 들은 CSED343 위에서 인식 모델과 확신도를 이해하는 데 도움이 된다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학과 동역학을 다루므로 파지 쪽 기초가 된다. 다만 대학원 수준일 수 있어 선수 조건 확인이 필요하다."
+   }
+  ],
+  "keywords_en": [
+   "symmetry detection",
+   "grasp generation",
+   "active perception",
+   "partial observation",
+   "robotic manipulation",
+   "point cloud",
+   "cluttered scene",
+   "next-best-view"
+  ],
+  "caution": "이 제안은 제공된 연구 분야 목록과 수강 과목 소개만 근거로 한 것이며, 연구실의 현재 프로젝트, 학부생 모집 여부, 데이터·로봇 장비 이용 가능 여부는 확인되지 않았습니다. 지도교수께 직접 문의해야 합니다. 수강 사실이 해당 개념의 숙련을 뜻하지 않으며, 컴퓨터 비전과 딥러닝, 로봇 기초는 아직 보강이 필요합니다. 논문과의 개념 겹침은 자동 추출이라 틀릴 수 있습니다."
+ },
+ "duration_wall_s": 17.79,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8593,
+   "outputTokens": 32,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008753,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2271,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8211,
+   "webSearchRequests": 0,
+   "costUSD": 0.0556629,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8211,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8211,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2271,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8211,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2271,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8211,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8211
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.056538200000000004,
+ "error": null,
+ "input_sha256": "2fdb2ff31e151775d7f63385276741456d0f9a1b7365fce73b1887749daf8e33"
+}

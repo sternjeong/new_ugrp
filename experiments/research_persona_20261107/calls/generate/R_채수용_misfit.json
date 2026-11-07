@@ -1,0 +1,169 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "PV 직렬 아크 고장 검출용 공진 필터의 시뮬레이션 기반 설계 탐색",
+    "question": "DC-DC 컨버터가 연결된 PV 시스템에서, 공진 필터의 중심 주파수와 Q값을 바꾸면 정상 동작과 직렬 아크 고장 전류의 구분 정도(예: 특정 대역 신호 크기 비)가 어떻게 달라지는가?",
+    "interest_link": "태양광 시스템에서 전력 변환 회로를 직접 만들고 다루고 싶다는 관심을, 아크 고장 검출이라는 PV 안전 문제와 소규모 회로·시뮬레이션 실험으로 연결한다.",
+    "lab_basis": {
+     "source_id": "P2",
+     "quote": "the resonant filter is proposed to improve the dc series arc fault detection capability"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "필터 파라미터(주파수, Q)에 따른 검출 지표의 변화를 다변수 함수로 보고 민감도를 살펴보는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "전류 파형을 만들어 필터링하고 지표를 계산하는 간단한 스크립트를 작성하는 데 활용할 수 있다."
+     }
+    ],
+    "gaps": [
+     "전기회로(임피던스, 필터 해석)를 수강 이력에서 확인할 수 없어 별도 학습이 필요하다.",
+     "DC-DC 컨버터 동작 원리와 스위칭 리플",
+     "PV 패널 모델과 아크 전류의 특성",
+     "주파수 영역 신호 처리(FFT 등)"
+    ],
+    "first_step": "PV 소스 + 벅 컨버터의 스위칭 리플 전류에 소폭의 광대역 아크 성분을 더한 합성 전류 파형을 만들고, 공진 필터 중심 주파수를 스위칭 주파수의 여러 배율로 바꿔 가며 '아크 유무 시 필터 출력 크기 비'를 표로 정리한다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "칼만 필터로 인버터측 전류를 추정하는 MPC의 최소 시뮬레이션 재현",
+    "question": "단상 2레벨 인버터 같은 단순화된 모델에서, 전류 센서 잡음이 커질 때 칼만 필터 추정 전류를 쓴 유한 제어 집합 MPC가 센서 직접 측정값을 쓴 MPC보다 전류 추종 오차(RMS)를 얼마나 줄이는가?",
+    "interest_link": "전력을 변환하는 인버터를 제어해 보고 싶다는 관심을, 센서 수를 줄이는 추정 기반 제어라는 작은 규모의 시뮬레이션 과제로 구현한다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "The KFA estimates the inverter-side currents, reducing hardware costs and improving control performance."
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "vectors, and proceed to multivariable functions",
+      "how_used": "상태 벡터와 다변수 함수 표현을 상태공간 모델과 비용 함수로 옮겨 이해하는 기초로 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "이산 시간 시뮬레이션과 후보 스위칭 상태를 반복 평가하는 코드를 구현하는 데 쓴다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "진동",
+      "how_used": "RL 부하의 동적 응답과 진동 개념을 직관적으로 이해하는 데 보조로 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "수강 이력에 회로 이론과 제어 이론이 없어 확인되지 않는다.",
+     "상태공간 모델링과 칼만 필터 이론",
+     "인버터 스위칭과 PWM 기초",
+     "MPC 비용 함수 설계",
+     "선형대수(행렬 연산)"
+    ],
+    "first_step": "단상 인버터+RL 부하의 이산 모델을 Python으로 작성하고, 전류 측정에 가우시안 잡음(표준편차를 3단계로 변화)을 넣어 '측정값 MPC'와 '칼만 추정값 MPC'의 전류 RMS 오차를 비교한다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "DISU231",
+    "reason": "수강 이력에 전기회로 과목이 없다. 임피던스, 키르히호프 법칙, Laplace 변환은 두 주제의 공통 기초다."
+   },
+   {
+    "course_code": "EECE305",
+    "reason": "DC-DC converters와 Basic control of PWM DC-DC converters를 다루므로, 컨버터와 제어를 직접 해 보고 싶은 관심과 맞다."
+   },
+   {
+    "course_code": "EECE695P",
+    "reason": "photovoltaic and energy storage systems용 회로를 다루므로, 기초 이후 PV 응용 주제를 심화하기에 적합하다."
+   }
+  ],
+  "keywords_en": [
+   "power converter control",
+   "model predictive control",
+   "Kalman filter",
+   "DC series arc fault",
+   "resonant filter",
+   "photovoltaic system",
+   "grid-connected inverter",
+   "hardware-in-the-loop"
+  ],
+  "caution": "두 주제는 제공된 자료만 근거로 한 제안이다. 연구실의 현재 프로젝트, 모집 여부, 장비(Typhoon HIL, DSP 등)나 데이터 사용 가능 여부는 확인되지 않았으므로 먼저 문의해야 한다. 수강 이력에는 회로·제어·전력전자 과목이 없어 선행 학습이 많이 필요하다. 첫 단계는 시뮬레이션 수준의 소규모 실험이다. 주제 2는 난도가 높아 DISU231 수강이나 자습 후 시작하는 편이 안전하다."
+ },
+ "duration_wall_s": 17.35,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8341,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008460999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2202,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 7961,
+   "webSearchRequests": 0,
+   "costUSD": 0.0539729,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 7961,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7961,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2202,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7961,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2202,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 7961,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7961
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.054819,
+ "error": null,
+ "input_sha256": "c61a6ce2711186dcadd3dae9101f70c8b09086e8e673817c34ea83b4d859d125"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "내용이 일반적인 템플릿이라 구체적 연구 문제가 없고 첫 단계가 모호합니다. 과목 연결도 없고, 다음 과목이 학생 관심(수전해·오래가는 전극)과 맞지 않습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 연구실의 역전류·Ni 전극 논문에 정확히 근거하고, 수전해 내구성이라는 관심에 맞습니다. 주제 2도 우리 Ni 나노어레이 논문을 근거로 하고, 첫 단계가 구체적이며 한계도 솔직히 밝혔습니다. 다음 과목도 적절합니다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 5,
+    "reason": "그래핀 초전도 양자소자는 우리 연구실과 무관하고 학생이 수강하지 않은 과목도 들어 있어, 다른 연구실 자료가 섞인 것으로 보입니다. 학생 관심과도 맞지 않습니다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 3,
+    "accept": true,
+    "rank": 2,
+    "reason": "주제 1은 우리 역전류 논문에 정확히 근거하고, 주제 2의 Au CO2 환원 안정성도 실제 우리 논문입니다. 다만 주제 2는 수전해와 거리가 있고, Organic energy materials는 다음 과목으로 약합니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 3,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 4,
+    "reason": "관심은 잘 반영했지만 연구실 근거가 분야 이름 수준이고 우리 논문이 반영되지 않았습니다. 리튬이온 공개 데이터 분석은 우리 연구와 거리가 있습니다. 화학공학실험은 다음 과목으로 부적절합니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "역전류 Ni 열화 논문에 충실하고 첫 단계가 현실적입니다. 주제 2는 CO2 환원 쪽이라 관심과 약간 거리가 있고, 에너지소재 수강 과목 연결이 X2보다 덜 구체적입니다. 다음 과목은 적절합니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.42,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16648,
+   "outputTokens": 312,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018208,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 288,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1162,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16265,
+   "webSearchRequests": 0,
+   "costUSD": 0.0767723,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16265,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16265,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1162,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16265,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1162,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16265,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16265
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0785931,
+ "error": null,
+ "input_sha256": "299922a0c3f6084dfe0c231f01007cf14b8cc2ba16f084c43c9a04464e4e114d"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 2,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 연구실의 PDMS hydrogel-skin 코팅과 미세유체 칩에 직접 맞고, 액적 생성은 학생 관심과도 잘 맞는다. 다만 첫 단계에서 액적 직경을 유체역학만으로 추정하기는 무리이고, 다음 과목 추천도 없다."
+   },
+   {
+    "label": "X2",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "입자 클러스터 배열과 표면 개질은 모두 우리 연구실의 실제 연구 주제이고, 계산 중심으로 바로 시작할 수 있다. 첫 단계의 수치가 구체적이고 약한 연결도 솔직하게 밝혔으며, 다음 과목 추천도 적절하다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "입자 포획과 초소수성이라는 두 주제가 모두 우리 연구실 분야이고 학생 관심과도 맞다. 첫 단계도 구체적이지만, 2D 유선 분율 계산은 난도가 높고 X2보다 덜 정돈되어 있다."
+   },
+   {
+    "label": "X4",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 1,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "UTR Designer나 SCANEER 같은 합성생물학 내용은 우리 연구실과 무관하고, 학생이 듣지 않은 과목을 근거로 삼았다. 다른 연구실의 자료를 가져온 것으로 보인다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 2,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "일반적인 자료 읽기 안내일 뿐 구체적인 연구 주제와 학생의 관심 반영이 없다. CMOS 공정 실험도 우리 연구실에 근거가 없는 추천이다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "serpentine dip coating과 LM 전극은 우리 논문에 근거가 있고 문헌 기반 계산으로 시작할 수 있다. 하지만 학생이 말한 액체 취급·진단 칩 관심과는 거리가 있고, 박막 이론은 학생에게 부담이 크다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.26,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17451,
+   "outputTokens": 267,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018786000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 243,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1134,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17068,
+   "webSearchRequests": 0,
+   "costUSD": 0.0797043,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17068,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17068,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1134,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17068,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1134,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17068,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17068
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0815829,
+ "error": null,
+ "input_sha256": "83cbf0c1696f2db5ff4d13c136eeab66ce8e56daf37b0ff0861f612ff9a79b00"
+}

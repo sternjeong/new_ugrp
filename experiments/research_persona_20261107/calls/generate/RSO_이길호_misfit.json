@@ -1,0 +1,169 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "그래핀 조셉슨 접합의 Floquet–Andreev 스펙트럼: 위상차·마이크로파 변수 장난감 모델",
+    "question": "마이크로파 주파수와 세기, 초전도체 사이 위상차를 바꿀 때 Andreev 속박 상태 스펙트럼에 어떤 측대(sideband) 구조가 나타나는지, 단순 모델로 P3의 정성적 경향을 재현할 수 있는가?",
+    "interest_link": "그래핀과 초전도체를 결합한 양자 소자를 측정해 보고 싶다는 관심이, 연구실의 Graphene-Superconductor hybrid quantum devices 분야와 P3의 터널링 분광 측정에서 만난다. 이 주제는 실제 측정에 앞서 측정 결과가 어떻게 보일지 이해하는 이론·수치 준비 단계다. (제안이며 실험 참여를 전제하지 않는다.)",
+    "lab_basis": {
+     "source_id": "P3",
+     "quote": "The oscillations of the F-A state spectrum with phase difference agreed with our theoretical calculations."
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS101",
+      "concept": "진동, 파동",
+      "how_used": "위상차에 따른 스펙트럼의 주기적 변화와 마이크로파 구동을 주기 구동·진동 개념의 연장으로 읽는 출발점이 된다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "위상차 φ와 마이크로파 파워를 변수로 한 스펙트럼을 Python으로 그려 보는 데 쓴다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "에너지를 위상차와 구동 세기 두 변수의 함수로 보고 등고선·단면을 해석하는 데 쓴다."
+     }
+    ],
+    "gaps": [
+     "양자역학 수강 이력이 성적표에 없음: 파동함수, 고유값 문제, 섭동론",
+     "초전도 기초: BCS 이론, Andreev 반사, 조셉슨 효과",
+     "Floquet 이론(시간 주기 구동)과 터널링 분광의 의미",
+     "그래핀 띠구조(선형 분산)"
+    ],
+    "first_step": "P3를 읽고 Figure에서 쓰인 변수(위상차 φ, 마이크로파 주파수, 마이크로파 파워, 온도)를 표로 정리한다. 이어서 짧은 접합의 Andreev 속박 상태 에너지 E(φ)=Δ√(1−τ sin²(φ/2))를 Python으로 그리고(τ는 투과도로 가정), 마이크로파 주파수 hf에 해당하는 E±n·hf 측대를 겹쳐 그려 본다. 그 그림을 P3의 설명과 비교해 어디가 같고 다른지 한 쪽으로 기록한다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "비틀린 Bi-2212 조셉슨 접합: 비틀림각 의존성의 d-wave 모델 수치 실험",
+    "question": "비틀림각 θ에 따른 조셉슨 결합 세기를 'd-wave 결맞음 항 + 비결맞음 항'의 단순 모델로 그릴 때, 0°, 45°, 90° 부근의 경향이 P5의 보고와 어떻게 대응하는가?",
+    "interest_link": "소자를 직접 쌓고 만들어 측정하고 싶다는 관심이, 연구실의 '쪼개고', '쌓고' 식 나노소자 제작 및 P5의 microcleave-and-stack 기법과 이어진다. 이 주제는 제작 전에 측정할 양(비틀림각-결합 세기 관계)을 이해하는 입문용 제안이다. 연구실의 현재 프로젝트나 장비 사용 가능 여부는 별도 확인이 필요하다.",
+    "lab_basis": {
+     "source_id": "P5",
+     "quote": "The observed twist angle dependence of the Josephson coupling can be explained quantitatively by theoretical calculation with the d -wave superconducting order parameter of Bi-2212 and finite tunneling incoherence of the junction."
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "θ를 0°~90°로 훑으며 모델 곡선을 계산하고 변수 하나를 바꿔 가며 비교하는 스크립트를 짠다."
+     },
+     {
+      "course_code": "MATH101",
+      "concept": "scientific ideas can be precisely formulated with mathematical languages",
+      "how_used": "각도 의존 함수(삼각함수 형태)를 가정하고 그 성질을 확인하는 기초 수학으로 쓴다."
+     }
+    ],
+    "gaps": [
+     "d-wave 초전도 질서변수와 위상 부호 변화의 개념",
+     "조셉슨 결합과 임계전류의 의미",
+     "van der Waals 적층·비틀림(twistronics) 개념",
+     "양자역학 수강 이력 없음",
+     "CHEM101의 원자·결합 지식은 결정 구조 이해에 약하게만 연결됨"
+    ],
+    "first_step": "비틀림각 θ에 대해 결맞음 터널링 항을 |cos 2θ|에, 비결맞음 항을 θ와 무관한 상수 비율 p에 비례한다고 가정한 장난감 모델을 만든다. p를 0, 0.1, 0.3으로 바꿔 θ=0°, 45°, 90°에서의 결합 세기를 그린다. 그 결과를 P5 초록의 0°·90° 최대, 45° 근처 억제 서술과 비교해 가정이 맞는지 표시한다. 이 모델은 P5의 이론식이 아니라 학습용 가정임을 명시한다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE563",
+    "reason": "성적표에 양자역학 과목이 없는데 두 주제 모두 양자역학 기초가 필요하다. 이 과목은 양자역학 기본지식과 나노소자 응용을 함께 다룬다고 소개되어 있어 가장 직접적인 보완이 된다. 다만 대학원 수준일 수 있어 수강 자격을 확인해야 한다."
+   },
+   {
+    "course_code": "PHYS653",
+    "reason": "BCS 이론을 포함한 초전도 개론으로, 조셉슨 접합·Andreev 상태·d-wave 질서변수를 이해하는 데 필요한 배경을 준다."
+   },
+   {
+    "course_code": "PHYS701A",
+    "reason": "저온 전기수송 측정과 나노기술·측정기법을 실험가 관점에서 다루어, 직접 만들고 측정하고 싶다는 관심과 연구실의 극저온 양자수송측정에 가장 가깝다."
+   }
+  ],
+  "keywords_en": [
+   "graphene Josephson junction",
+   "Floquet-Andreev states",
+   "Andreev bound states",
+   "d-wave order parameter",
+   "twisted van der Waals junction",
+   "Josephson coupling",
+   "tunneling spectroscopy",
+   "cryogenic quantum transport"
+  ],
+  "caution": "학생은 양자역학이 재미있었다고 했지만 성적표에는 양자역학, 고체물리, 전자기학, 초전도 관련 과목이 없습니다. 두 주제는 이론·수치 준비 단계 중심이며, 코드와 모델 가정은 학습용 제안입니다. 연구실의 모집 여부, 현재 프로젝트, 장비·데이터 접근, 소자 제작 참여 가능성은 자료로 확인되지 않았으므로 교수님께 문의해야 합니다. 논문 선정과 개념 겹침은 자동 추출이라 부정확할 수 있습니다."
+ },
+ "duration_wall_s": 31.28,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10140,
+   "outputTokens": 26,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001027,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 4038,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 9759,
+   "webSearchRequests": 0,
+   "costUSD": 0.0795249,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1234,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9759,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9759,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 4038,
+  "output_tokens_details": {
+   "thinking_tokens": 1234
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9759,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4038,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 9759,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9759
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0805519,
+ "error": null,
+ "input_sha256": "8ecbd1c080f2da72ed7b3d5852315d815cd22b0a847068e2f8e86f2cffc45d16"
+}

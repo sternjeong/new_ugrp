@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반 템플릿이라 구체적 과제가 없고 과목 연결도 없습니다. 첫 단계가 모호해 학생이 바로 시작하기 어렵습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "우리 연구실과 무관한 로봇 파지·컴퓨터 비전 주제로, 학생 관심과 연구실 자료에 없는 내용을 지어낸 것입니다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "우리 논문 데이터를 재분석하고 p-n 굴절을 시뮬레이션하는 현실적인 계획이고 양자역학 공백도 인정했습니다. 다만 그림 디지털화는 다소 작위적이고, 주제 2의 연구실 근거가 'E=p2/2m'인 점은 어색합니다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 이중층 그래핀 접합 논문의 coherence length 게이트 조절을 직접 활용한 계산 과제입니다. 첫 단계가 구체적이고 입문 주제도 좋으며, 과목 연결의 한계를 솔직히 밝혔습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "우리 Floquet-Andreev 논문과 Bi-2212 논문에 잘 맞고 가정도 학습용이라고 명시했습니다. 다만 Floquet 이론은 이 학생에게 어렵고, 양자역학 수강 이력이 없는 점이 부담입니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "Dirac 전자광학 계산과 제작·측정 공정 조사로 학생의 제작·측정 관심을 가장 직접 반영하며, 3개월 안에 할 만합니다. 다만 일반화학 연결은 약하고 저항 신호 예측은 다소 야심찹니다."
+   }
+  ]
+ },
+ "duration_wall_s": 15.32,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17614,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017734000000000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 2149,
+   "cacheReadInputTokens": 19002,
+   "cacheCreationInputTokens": 23252,
+   "webSearchRequests": 0,
+   "costUSD": 0.1164062,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 23252,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 23252,
+  "cache_read_input_tokens": 19002,
+  "output_tokens": 2149,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 23252,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1092,
+    "cache_read_input_tokens": 18119,
+    "cache_creation_input_tokens": 6016,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6016
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1181796,
+ "error": null,
+ "input_sha256": "7122c0dbd69319841dd69d476c07a855f624abfb84f6c51f1480c1426d6b3351"
+}

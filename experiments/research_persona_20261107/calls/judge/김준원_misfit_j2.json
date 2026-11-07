@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "입자 포획 간이 모델(코딩)과 접촉각 측정 실험 두 갈래로 연구실의 입자 조작·표면 처리 분야에 맞고 학생 관심도 잘 반영한다. 첫 단계가 구체적이고 한계(Stokes 항력 별도 학습, 단순화 가정)를 솔직히 밝혔다."
+   },
+   {
+    "label": "X2",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "합성생물학·UTR·SCANEER는 우리 연구실(MEMS/미세유체)과 무관한 다른 연구실 내용으로, 지어낸 근거다. 학생의 칩·액체 관심과도 맞지 않는다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "입자 클러스터 배열과 표면 처리라는 연구실 주제에 맞고 첫 단계도 구체적이다. 다만 첫 단계에서 포물선 속도 분포로 입자 위치를 계산하는 부분은 다소 모호하고, 주제 2는 문헌 조사 위주라 약하다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 넣은 일반론 템플릿이라 구체적 주제도 학생 관심 반영도 없고 바로 시작할 수 없다. CMOS 공정 실험 추천도 근거가 약하다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "PDMS 친수화/하이드로겔 코팅 논문 내용을 정확히 인용했고 주제 1은 모세관 모델링으로 시작하기 좋다. 주제 2의 가상 데이터 생성은 약하고 의료 진단 관심과 거리가 있지만, 가정값 사용을 솔직히 밝혔다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "선택적 표면 처리와 입자 클러스터 어레이라는 연구실 주제에 맞고 첫 단계도 단순하다. 다만 연결이 일반적이고 문헌 데이터 회귀 위주라 X1·X5보다 구체성과 깊이가 떨어진다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.87,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17303,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017423,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1156,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16920,
+   "webSearchRequests": 0,
+   "costUSD": 0.07933230000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16920,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16920,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1156,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16920,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1156,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16920,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16920
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08107460000000001,
+ "error": null,
+ "input_sha256": "8302ba97b4e420a3fa7381f6d04894a7cefc5f1df5a4dca9a15c5242a47a8869"
+}

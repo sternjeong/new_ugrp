@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 연구실의 KF 기반 전류 추정(3L-ANPC)과 PV 아크 검출 논문을 정확히 반영하고 규모도 적절하다. 다만 아크 주제는 도전적이고 두 주제를 함께 제시해 초점이 약간 분산된다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 2,
+    "useful": 3,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "우리 연구실은 전력전자 연구실이고 학생은 이 과목들을 듣지 않았다. 미세유체·액체금속 주제는 전혀 다른 연구실 자료에 근거해 학생 관심과 맞지 않는다."
+   },
+   {
+    "label": "X3",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "KF 전류 추정은 12V→5V 벅 컨버터로, 아크 검출은 합성 파형으로 3개월 규모에 맞게 줄였다. 첫 단계가 구체적이고 한계(3L-ANPC, HIL은 과대)를 솔직히 밝혔으며 논문 인용도 정확하다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "벅 PI 제어는 입문으로 확실히 할 수 있고 KF 주제도 연구실과 맞는다. 다만 KF 주제의 첫 단계에서 하프브리지 RL 모델은 다소 어색하고, 벅 주제는 연구실 근거가 일반적이다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "주파수 영역 PI 설계는 수강 과목과 잘 맞고 직접 만들어 보려는 관심도 반영한다. 하지만 하드웨어 제작까지 넣으면 3개월에는 부담이고, 우리 연구실의 최신 논문보다는 일반 제어 연습에 가깝다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 제목만 반복한 일반적 안내이고 구체적 주제나 과목 연결이 없다. 학생이 바로 시작할 내용이 없어 받아서 시작시키기 어렵다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.62,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17123,
+   "outputTokens": 23,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017238,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1123,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16743,
+   "webSearchRequests": 0,
+   "costUSD": 0.07829430000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16743,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16743,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1123,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16743,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1123,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16743,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16743
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08001810000000001,
+ "error": null,
+ "input_sha256": "75be0c72309bb6719cef469393e7f63e42dbf32465a8e8a914244bde311c71c4"
+}

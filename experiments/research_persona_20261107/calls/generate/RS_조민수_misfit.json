@@ -1,0 +1,167 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "어지러운 책상 위 물체 집기: 가려진 물체의 파지 실패 사례 분석 (제안)",
+    "question": "물체가 서로 가려진 clutter 장면에서, 카메라 시점을 바꾸면 파지 후보의 품질 판단이 얼마나 달라지는가?",
+    "interest_link": "카메라로 물체를 알아보고 직접 집는 로봇을 보고 싶다는 관심을, 연구실의 Active Perception 및 clutter 환경 조작 분야와 연결한 주제입니다.",
+    "lab_basis": {
+     "source_id": "S4",
+     "quote": "Robotic Manipulation in Cluttered Environments"
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS101",
+      "concept": "운동법칙, 일과 에너지, 에너지/운동량 보존법칙, 회전운동과 각운동량, 평형 조건",
+      "how_used": "물체를 집을 때 접촉과 평형이 성립하는 조건을 단순한 모델로 생각하는 데 참고할 수 있습니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "카메라 시점과 물체 방향을 벡터로 표현하는 데 기초가 됩니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "공개 시뮬레이션이나 데이터셋에서 파지 결과를 기록하는 간단한 스크립트를 짜는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "컴퓨터 비전 기초(카메라 모델, 3D 데이터 표현)",
+     "기계학습/딥러닝 경험",
+     "로봇 기구학과 파지 이론",
+     "시뮬레이터 사용 경험"
+    ],
+    "first_step": "공개 파지 시뮬레이터에서 컵·상자·병 3종을 겹쳐 놓은 장면을 만들고, 카메라 시점 3개(정면·45도·위)별로 파지 성공/실패를 표로 기록해 가림 정도(visible ratio)와 성공률의 관계를 확인합니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "부분만 보이는 물체의 대칭성 추정 기초 실험 (제안)",
+    "question": "물체의 일부만 관측될 때, 대칭축 추정 오차는 가려지는 비율에 따라 어떻게 커지는가?",
+    "interest_link": "로봇이 물체의 보이지 않는 부분을 추정해 잘 집는 데 필요한 3D 형상 이해를 대칭성이라는 단서로 다뤄 보는 주제입니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "회전축과 반사 평면을 벡터로 기술하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "회전운동과 각운동량",
+      "how_used": "회전 대칭과 회전축 개념을 직관적으로 이해하는 데 참고할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "3D 점군/메시 처리",
+     "군(group)과 equivariance 개념(P2 관련)",
+     "딥러닝 기초",
+     "대칭 검출 평가 지표"
+    ],
+    "first_step": "공개 3D 물체 모델 중 컵·병·상자 각 5개를 골라 점의 0%, 30%, 60%를 가린 버전을 만들고, 단순 반사 대칭 평면 추정 방법이 가림 비율별로 평면 방향을 얼마나 틀리는지 각도 오차로 측정합니다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "2D·3D 시각 데이터의 형성과 이를 처리하는 AI 모델, 카메라 구조를 다뤄 컴퓨터 비전 기초가 부족한 점을 가장 직접 채웁니다."
+   },
+   {
+    "course_code": "CSED343",
+    "reason": "선형대수, 해석기하, 벡터 미적분 등 기계학습 이해에 필요한 수학을 다뤄 수강한 미적분을 기계학습으로 잇는 다리가 됩니다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학과 동역학, 제어를 다뤄 파지를 로봇 쪽에서 이해하는 데 도움이 됩니다."
+   }
+  ],
+  "keywords_en": [
+   "robotic grasping",
+   "cluttered scene manipulation",
+   "active perception",
+   "partial observation",
+   "symmetry detection",
+   "3D vision",
+   "equivariant learning"
+  ],
+  "caution": "수강 과목은 대부분 화학·생명 계열이라 컴퓨터 비전·로봇과의 직접 연결이 약합니다. 과목 소개만 근거로 하며, 숙련도는 알 수 없습니다. 위 주제는 제안일 뿐, 연구실의 현재 프로젝트, 모집 여부, 데이터·장비 접근은 확인되지 않았으므로 교수님께 먼저 문의해야 합니다."
+ },
+ "duration_wall_s": 24.34,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 7948,
+   "outputTokens": 27,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008083,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 3842,
+   "cacheReadInputTokens": 9662,
+   "cacheCreationInputTokens": 15726,
+   "webSearchRequests": 0,
+   "costUSD": 0.1022982,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15726,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 15726,
+  "cache_read_input_tokens": 9662,
+  "output_tokens": 3842,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15726,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1969,
+    "cache_read_input_tokens": 8613,
+    "cache_creation_input_tokens": 8162,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8162
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1031065,
+ "error": null,
+ "input_sha256": "f27de6d15d8ba92c2f14831f1eeef132e6755f60ce390669df3c715df6ce7a29"
+}

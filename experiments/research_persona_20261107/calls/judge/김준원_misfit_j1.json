@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 2,
+    "accept": true,
+    "rank": 2,
+    "reason": "입자 클러스터 배열 연구와 맞고 미적분II·물리·프로그래밍 활용이 현실적이며 첫 단계(파이썬 계산)도 구체적이다. 다만 다음 과목 항목이 없고, 주제 2의 다음 과목은 주제 1과 약하게 연결된다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 PDMS 하이드로겔 코팅·습윤성 연구와 직접 맞고, 가정값임을 밝힌 문헌 기반 모세관 계산이 3개월 내 시작하기 좋다. 주제 2는 의료 진단에서 벗어나지만 그 점을 솔직히 적었고, 다음 과목도 적절하다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "선택적 표면 처리와 입자 클러스터 어레이 모두 연구실과 맞고 주제 구성이 좋다. 다만 '초소수성' 제목은 약간 과장되었고, 통계·미적분 연결은 다소 느슨하다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 3,
+    "accept": true,
+    "rank": 4,
+    "reason": "Stokes 항력 계산과 스마트폰 접촉각 측정은 바로 시작할 수 있지만 너무 기초적이고 연구실 실제 연구와의 연결이 얕다. 다음 과목은 2개뿐이다."
+   },
+   {
+    "label": "X5",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 1,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "합성생물학·UTR·SCANEER는 우리 연구실과 무관한 다른 연구실 자료이며, 학생의 칩 위 액체·진단 관심과도 맞지 않는다. 근거가 사실이 아니다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 일반적 틀이라 구체적 주제도 과목 연결도 없고, 학생이 바로 시작할 내용이 없다. CMOS 공정 실험도 근거가 부족하다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.12,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17303,
+   "outputTokens": 414,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0019372999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 390,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1101,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16920,
+   "webSearchRequests": 0,
+   "costUSD": 0.0787823,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16920,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16920,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1101,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16920,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1101,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16920,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16920
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0807196,
+ "error": null,
+ "input_sha256": "a08c0611b7b8f9955f2288d523ed0bd694188e706c72e6180051847c7bd1507b"
+}

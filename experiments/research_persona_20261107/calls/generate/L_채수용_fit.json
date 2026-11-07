@@ -1,0 +1,171 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "강압형(buck) DC-DC 컨버터의 PI 전압제어 시뮬레이션과 소형 하드웨어 검증",
+    "question": "PWM buck 컨버터의 평균 모델에서 설계한 주파수 영역 PI 보상기를, 부하 변동과 인덕터 값 오차가 있을 때에도 안정적으로 동작시킬 수 있는가? 시뮬레이션과 소형 보드 구현에서 위상여유와 과도응답은 얼마나 달라지는가?",
+    "interest_link": "전력을 효율적으로 바꾸는 장치를 회로로 직접 만들고 제어해 보고 싶다는 관심을, 가장 작은 컨버터 하나의 제어 설계와 구현으로 구체화한 주제입니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "Advanced Control Technologies for Power Converters"
+    },
+    "course_basis": [
+     {
+      "course_code": "EECE231",
+      "concept": "Kirchhoff의 법칙, capacitance, inductance, Laplace Transform",
+      "how_used": "buck 컨버터의 인덕터·커패시터 회로 방정식을 세우고 s 영역 전달함수로 표현하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "EECE320",
+      "concept": "주파수 도메인에서의 제어이론에 대한 수학적 기초",
+      "how_used": "전달함수에 PI 보상기를 설계하고 위상여유와 대역폭을 분석하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "EECE372",
+      "concept": "Microprocessors … control most \"intelligent\" aspects of such systems",
+      "how_used": "마이크로컨트롤러로 PWM을 생성하고 전압을 샘플링해 이산 PI 제어기를 구현하는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "스위칭 소자와 PWM 컨버터의 동작 원리, 평균 모델링 (EECE305/425 수준)",
+     "전력 회로의 고전압·대전류 안전 및 PCB 설계 경험",
+     "이산화 및 ADC 지연이 제어에 미치는 영향"
+    ],
+    "first_step": "출력 5 V, 입력 12 V, 스위칭 주파수 100 kHz의 buck 컨버터를 가정하고, 인덕터 L과 커패시터 C 값을 정해 제어-출력 전달함수를 유도하세요. 그다음 부하 저항을 2배로 바꾸면서 PI 이득별 위상여유를 MATLAB 또는 Python으로 표로 정리하세요.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "태양광용 부스트 컨버터 제어의 파라미터 변화 민감도 분석 (제안)",
+    "question": "태양광 패널의 출력 전압이 변할 때 부스트 컨버터 제어기의 안정성은 어떻게 변하는가? 인덕턴스 값이 달라진 것을 간단한 파라미터 추정으로 보정하면 응답이 개선되는가?",
+    "interest_link": "태양광에서 전력을 효율적으로 변환하는 장치에 대한 관심을, 분산 에너지용 컨버터 제어와 파라미터 추정이라는 연구 방향에 접목한 주제입니다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Advanced Control using FPGA - Fault Tolerant control, Parameter Estimation"
+    },
+    "course_basis": [
+     {
+      "course_code": "EECE231",
+      "concept": "Thevenin의 정리, 최대전력전달",
+      "how_used": "태양광 패널을 Thevenin 등가 전원으로 단순화하고 부하 조건에 따른 전력 전달을 해석하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "EECE233",
+      "concept": "LTI systems, Laplace transforms and z-transforms",
+      "how_used": "선형화한 컨버터를 LTI 시스템으로 보고 연속·이산 모델 간 관계를 다루는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "파라미터를 바꿔 가며 시뮬레이션을 반복하는 스크립트를 짜는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "부스트 컨버터와 태양광 패널 I-V 특성의 모델링",
+     "파라미터 추정 기법 (예: 최소제곱법)",
+     "FPGA 및 HDL 구현 (수강 이력에 없어 이번 3개월에는 시뮬레이션까지만 권장)"
+    ],
+    "first_step": "단순화한 태양광 패널 모델(개방전압 Voc 약 20 V 가정)을 부스트 컨버터 입력에 연결하세요. 입력 전압을 12 V에서 18 V까지 바꾸고 인덕턴스 L을 ±30 % 변화시키면서 PI 제어기의 출력 전압 오버슈트를 기록하는 시뮬레이션 계획표를 만드세요.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE305",
+    "reason": "DC-DC 컨버터와 PWM 제어의 기초를 다루므로, 두 주제 모두에 필요한 평균 모델링과 컨버터 동작 원리의 부족분을 채웁니다."
+   },
+   {
+    "course_code": "EECE695P",
+    "reason": "태양광·에너지 저장 응용 회로를 다루므로 두 번째 주제와 직접 이어집니다. 특론 과목이므로 선수 요건과 수강 가능 여부는 확인이 필요합니다."
+   },
+   {
+    "course_code": "SEMI490A",
+    "reason": "전기차·신재생에너지용 전력반도체 소자와 고효율 변환 회로를 다루어 학생의 관심사와 맞습니다."
+   }
+  ],
+  "keywords_en": [
+   "power converter control",
+   "buck converter",
+   "boost converter",
+   "PWM",
+   "PI controller",
+   "phase margin",
+   "parameter estimation",
+   "photovoltaic"
+  ],
+  "caution": "이 제안은 제공된 연구 분야 문구와 수강 과목 소개만 근거로 한 것입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 장비·데이터 접근 가능성은 확인되지 않았으며, 교수님과 먼저 상의해야 합니다. 전력 회로를 실제로 제작할 때는 지도자의 안전 지침을 따르세요. 과목을 수강했다고 해서 해당 개념에 숙련됐다고 가정하지 않았습니다."
+ },
+ "duration_wall_s": 17.85,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6252,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0006377,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2375,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 5872,
+   "webSearchRequests": 0,
+   "costUSD": 0.0473469,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 5872,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5872,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2375,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5872,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2375,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 5872,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5872
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.047984599999999995,
+ "error": null,
+ "input_sha256": "5ef51462c27de07fda72d2d9d94589eb63656a95e760ff29d8b3f6ef96b5d90a"
+}

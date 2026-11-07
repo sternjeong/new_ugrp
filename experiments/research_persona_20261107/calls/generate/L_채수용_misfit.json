@@ -1,0 +1,168 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "DC-DC 컨버터 제어 방식 비교를 위한 스위칭 시뮬레이션 (제안)",
+    "question": "태양광 패널처럼 입력 전압이 변하는 조건에서, PWM 방식 DC-DC 벅/부스트 컨버터의 출력 전압 조절 성능은 제어기 설계(예: PI 게인)에 따라 어떻게 달라지는가?",
+    "interest_link": "학생은 태양광·전기차용 전력 변환 장치를 이해하고 회로를 만들어 제어해 보고 싶어 한다. 이 제안은 그 관심을 컨버터의 시뮬레이션과 제어 설계라는 작은 출발점으로 옮긴 것이다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "Advanced Control Technologies for Power Converters"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "입력 전압, 듀티비, 부하 등 여러 변수에 따른 출력 변화를 다변수 함수로 정리하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "스위칭 동작을 시간 단계별로 계산하는 간단한 시뮬레이션 스크립트를 작성하고 결과를 분석하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "진동, 파동",
+      "how_used": "LC 필터에서 일어나는 진동과 감쇠를 이해하는 출발점으로 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "전기회로 해석(키르히호프 법칙, 인덕터·커패시터 과도응답): 수강 기록에 없음",
+     "DC-DC 컨버터 평균화 모델링과 PWM 동작 원리",
+     "고전 제어(전달함수, 안정도)",
+     "MATLAB/Simulink 또는 PLECS 같은 스위칭 시뮬레이터 사용법"
+    ],
+    "first_step": "이상적인 벅 컨버터 하나를 골라 입력 전압 20~40V 범위에서 스위칭 주파수 50kHz, 목표 출력 12V로 시뮬레이션한다. 그다음 입력 전압이 30V에서 20V로 계단 변화할 때의 출력 전압 과도응답(오버슈트, 정착 시간)을 PI 게인 3종으로 비교해 표로 정리한다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "FPGA 기반 제어를 가정한 컨버터 인덕턴스 파라미터 추정 (제안)",
+    "question": "컨버터 인덕턴스 값이 소자 노화나 온도로 변한다고 가정할 때, 측정한 전류·전압 파형만으로 그 값을 얼마나 정확히 추정할 수 있는가?",
+    "interest_link": "학생이 하고 싶어 하는 직접 회로를 만들고 제어하는 일에 가까운 주제다. 시뮬레이션에서 시작해 이후 실제 하드웨어와 디지털 제어로 넓혀 갈 수 있다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Advanced Control using FPGA - Fault Tolerant control, Parameter Estimation"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "샘플링된 파형 데이터로 최소제곱법 같은 추정 알고리즘을 구현하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "MATH101",
+      "concept": "scientific ideas can be precisely formulated with mathematical languages",
+      "how_used": "인덕터 전압-전류 관계를 수식으로 세우고 미분 근사를 다루는 데 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "전기회로와 인덕터 모델: 수강 기록에 없음",
+     "디지털 신호 샘플링과 잡음 처리",
+     "선형대수·최소제곱 추정",
+     "FPGA/HDL 설계 경험: 이번 3개월에는 시뮬레이션 수준으로 한정하는 것이 현실적이다"
+    ],
+    "first_step": "벅 컨버터 시뮬레이션에서 인덕턴스를 100µH에서 70µH로 바꾸고, 인덕터 전류 리플 파형(샘플링 주기 1µs)을 저장한다. 파형에서 di/dt와 인덕터 전압으로 L을 계산하는 파이썬 스크립트를 작성해, 측정 잡음 수준별 추정 오차를 그래프로 그린다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "DISU231",
+    "reason": "전기회로 과목이 수강 기록에 없다. 키르히호프 법칙, 인덕턴스, 커패시턴스, 과도해석을 배우는 과목으로, 두 주제의 공통 선수 지식이다."
+   },
+   {
+    "course_code": "EECE305",
+    "reason": "소개에 \"DC-to-DC converters\"와 \"Basic control of PWM DC-DC converters\"가 있어 주제 1에 바로 연결된다. 회로 기초를 먼저 갖춘 뒤 듣는 것이 좋다."
+   },
+   {
+    "course_code": "SEMI490A",
+    "reason": "전기차와 신재생에너지용 전력 변환 회로 설계를 다뤄 학생의 관심과 맞는다. 다만 특강이므로 선수 요건과 난이도는 확인이 필요하다."
+   }
+  ],
+  "keywords_en": [
+   "power converter control",
+   "DC-DC buck converter",
+   "PWM",
+   "switching simulation",
+   "parameter estimation",
+   "FPGA control",
+   "photovoltaic systems",
+   "distributed energy"
+  ],
+  "caution": "수강 이력에 전기회로와 전력전자 과목이 없어 두 주제 모두 기초 보완이 먼저 필요하다. 이 연구실이 현재 이런 프로젝트를 진행하는지, 학부 연구생을 모집하는지, 장비나 데이터를 쓸 수 있는지는 자료로 알 수 없다. 위 주제는 제안일 뿐이므로 지도교수와 직접 상의해 범위를 조정해야 한다. 수강했다고 해서 해당 개념을 숙련했다고 볼 수는 없다."
+ },
+ "duration_wall_s": 19.14,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6288,
+   "outputTokens": 26,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0006418000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2307,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 5906,
+   "webSearchRequests": 0,
+   "costUSD": 0.0468029,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 5906,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5906,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2307,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5906,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2307,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 5906,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5906
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0474447,
+ "error": null,
+ "input_sha256": "43f7316da13047038e97edde64ff5bfcef7398d539d3dd8163e93571e7245112"
+}

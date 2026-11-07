@@ -1,0 +1,172 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "그래핀 Josephson 접합의 위상차 의존 초전류: 문헌 기반 분석 및 간단한 모델 비교",
+    "question": "그래핀 Josephson 접합에서 초전류(또는 Andreev 스펙트럼)가 위상차·게이트 전압·온도에 따라 어떻게 변하는지, 공개된 논문 그림의 데이터를 간단한 이론 모형(1차원 구속 입자 + 터널링)과 비교하면 어떤 정성적 경향이 재현되는가?",
+    "interest_link": "그래핀·초전도체 소자를 만들고 측정하고 싶다는 관심과, 연구실의 Graphene-Superconductor hybrid quantum devices 분야가 직접 만나는 지점입니다. 소자 제작 전에 측정 결과를 읽고 모형화하는 준비 단계로 제안합니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "Graphene-Superconductor hybrid quantum devices"
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS301",
+      "concept": "Schrodinger's equation in 1 dimension",
+      "how_used": "접합 영역을 1차원 퍼텐셜 구조로 단순화해 束縛 상태와 터널링 확률을 수치로 계산하는 데 활용할 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "논문 그래프에서 추출한 데이터를 Python 등으로 정리하고 모형과 비교하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "PHYS401",
+      "concept": "응집물질에서 일어나는 물리적 특성 대한 기본적인 이해",
+      "how_used": "그래핀의 밴드 구조와 초전도 근접효과를 읽는 배경으로 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "BCS 이론과 Andreev 반사",
+     "Josephson 효과(전류-위상 관계)",
+     "그래핀 Dirac 밴드 구조",
+     "Floquet 이론(P3 논문 이해용)"
+    ],
+    "first_step": "P3 논문(Steady Floquet–Andreev states in graphene Josephson junctions)에서 터널링 전도도가 phase difference에 따라 진동하는 그림 하나를 골라 값을 추출하고, 1차원 Schrödinger 방정식으로 계산한 간단한 모형의 진동 주기와 비교하는 표를 만들어 보세요.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "Dirac 전자 광학: 그래핀 p-n 접합에서의 굴절 경로를 수치적으로 시각화",
+    "question": "선형 분산(E∝p)을 갖는 전자가 p-n 접합 경계를 지날 때, 게이트 전압(캐리어 밀도) 차이에 따라 굴절각이 어떻게 달라지는지 광선 모형으로 계산하면 어떤 경향이 나타나는가?",
+    "interest_link": "양자역학이 재밌었다는 관심을 그래핀 소자 측정 연구와 연결합니다. 연구실이 탐구하겠다고 소개한 상대론적 전자광학 현상을, 장비 접근 없이 계산으로 먼저 다뤄보는 제안입니다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "본 연구실에서는 이러한 그래핀에서만 볼 수 있는 상대론적 전자광학현상에 대해 탐구할 것이다."
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS201",
+      "concept": "de Broglie wave and the Schrodinger equation",
+      "how_used": "전자를 파동으로 보고 굴절(스넬 법칙 유사)을 정성적으로 이해하는 출발점으로 쓸 수 있습니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties: continuity, directional derivative",
+      "how_used": "2차원 분산 관계 E(p)에서 군속도 방향을 기울기로 계산하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "광선 경로를 수치로 계산하고 시각화하는 코드를 작성하는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "Dirac 방정식과 의사스핀(pseudospin)",
+     "Klein 터널링",
+     "그래핀의 밴드 구조 계산",
+     "양자 수송(Landauer 형식)"
+    ],
+    "first_step": "S5에 언급된 E와 p의 선형 관계를 이용해 n-p 접합 양쪽 페르미 에너지를 두 값으로 두고, 입사각 0°~80°에서 굴절각을 계산해 그래프로 그린 뒤 일반 반도체(E=p²/2m)의 경우와 나란히 비교하세요.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "PHYS701A",
+    "reason": "저온 전기 수송과 측정 기법을 실험가 관점에서 다루는 과목으로, 소자를 만들어 측정해 보고 싶다는 관심과 연구실의 극저온 양자수송측정에 가장 직접 이어집니다."
+   },
+   {
+    "course_code": "PHYS653",
+    "reason": "BCS 이론을 포함한 초전도 개론으로, 두 주제에서 부족한 Andreev 반사와 Josephson 효과의 배경을 채워 줍니다."
+   },
+   {
+    "course_code": "PHYS655",
+    "reason": "그래핀의 위상적 성질과 밴드 구조 계산을 다루므로, 그래핀의 Dirac 분산과 위상초전도 이해에 도움이 됩니다."
+   }
+  ],
+  "keywords_en": [
+   "graphene Josephson junction",
+   "Andreev reflection",
+   "Dirac fermion optics",
+   "superconducting proximity effect",
+   "quantum transport",
+   "Floquet-Andreev states",
+   "p-n junction refraction"
+  ],
+  "caution": "이 제안은 제공된 자료만 근거로 한 것이며, 연구실의 현재 프로젝트·모집 여부·장비/데이터 접근 가능 여부는 확인되지 않았습니다. 두 주제는 문헌 분석과 계산 위주의 사전 준비 형태이므로, 실제 소자 제작·측정은 교수님과 상의해야 합니다. 과목을 들었다고 해서 해당 개념을 숙련했다는 뜻은 아니며, 겹치는 개념 목록은 자동 추출이라 부정확할 수 있습니다. 첫 번째 주제의 course_basis에서 PHYS401은 소개문이 짧아 연결이 약합니다."
+ },
+ "duration_wall_s": 18.59,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9415,
+   "outputTokens": 29,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.000956,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2416,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 9027,
+   "webSearchRequests": 0,
+   "costUSD": 0.060376900000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9027,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9027,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2416,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9027,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2416,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 9027,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9027
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0613329,
+ "error": null,
+ "input_sha256": "30f869ce82e82f2abdc7cd322b8f1d3fb2027c0d1d9adf4f3663e4ed781b7390"
+}

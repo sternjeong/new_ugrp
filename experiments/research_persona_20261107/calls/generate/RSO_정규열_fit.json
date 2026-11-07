@@ -1,0 +1,173 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "UTR Designer 예측값과 실제 단백질 발현량 비교: Vibrio sp. dhg 유전자 도구 상자 사례 분석 (제안)",
+    "question": "UTR Designer로 설계한 5'-UTR 서열의 예측 번역 강도는 Vibrio sp. dhg 같은 비모델 균주에서도 실제 보고 발현량과 얼마나 일치하는가?",
+    "interest_link": "미생물 유전자를 설계해 원하는 물질을 만들게 하는 일과 '설계 도구'에 대한 관심에 직접 맞닿습니다. 발현 조절 설계 도구를 간단한 실험이나 계산으로 점검해 볼 수 있습니다.",
+    "lab_basis": {
+     "source_id": "S7",
+     "quote": "UTR Designer"
+    },
+    "course_basis": [
+     {
+      "course_code": "LIFE321",
+      "concept": "how genes function in the cell, transcription",
+      "how_used": "유전자 발현 단계와 5'-UTR이 번역에 미치는 영향을 해석하는 배경으로 사용합니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "설계 서열 목록과 발현량을 정리해 상관관계를 계산하는 간단한 스크립트 작성에 씁니다."
+     },
+     {
+      "course_code": "CHEB308",
+      "concept": "An Overview of Biological Basics; systems making use of biotechnology",
+      "how_used": "숙주 균주와 생산물 관점에서 발현 조절의 의미를 이해하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "RBS 및 mRNA 구조 열역학 계산 (자유에너지 모델)",
+     "형광 리포터 분석과 qPCR 등 실험 기법",
+     "통계적 상관 분석 (실험계획·회귀)",
+     "P2의 Vibrio sp. dhg 유전자 도구 상자 구성 요소를 아직 읽지 않았음"
+    ],
+    "first_step": "P2 논문(Vibrio sp. dhg)과 UTR Designer 관련 문헌에서 5'-UTR 서열과 보고된 발현량이 함께 나온 항목을 표로 모읍니다. 그 후 UTR Designer 웹 도구에 같은 서열을 넣어 예측 번역 개시율을 얻고, 예측값과 보고된 발현량(형광 등)의 순위 상관을 계산해 비교합니다. 이 과정에서 이 연구실 데이터에 접근할 수 있다고 가정하지 않습니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "SCANEER 웹서버로 효소 변이 후보 뽑고 분석하기: cis-aconitate decarboxylase 사례 (제안)",
+    "question": "SCANEER가 제시하는 활성 향상 후보 변이 중 활성 부위에서 먼 위치의 변이는 서열 보존성 및 공진화 쌍 정보로 어떻게 설명될 수 있는가?",
+    "interest_link": "설계 도구에 관심이 있는 학생이 효소 개량 도구를 직접 써 보고, 원하는 물질 생산에 쓰이는 효소를 대상으로 변이 후보를 정리해 볼 수 있습니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "SCANEER was further experimentally validated to control the activities of three different enzymes of great interest in chemical production: cis-aconitate decarboxylase, α-ketoglutaric semialdehyde dehydrogenase, and inositol oxygenase."
+    },
+    "course_basis": [
+     {
+      "course_code": "LIFE319",
+      "concept": "생명 현상을 화학적 관점에서 분석하고 분자 수준에서 이해",
+      "how_used": "효소 활성과 기질 결합을 분자 수준에서 해석하는 데 씁니다."
+     },
+     {
+      "course_code": "CHEB308",
+      "concept": "Enzymes: Molecular supercatalysts for use at home and in industry",
+      "how_used": "산업적으로 쓰이는 효소와 화학 생산의 연결을 이해하는 데 씁니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "서열 정렬 파일과 변이 목록을 다루는 간단한 스크립트에 씁니다."
+     }
+    ],
+    "gaps": [
+     "다중 서열 정렬(MSA)과 공진화 분석(상호정보량, 직접결합 분석) 개념",
+     "단백질 3차 구조 시각화 도구 사용",
+     "효소 동역학 (kcat, Km) 해석",
+     "생물정보 프로그래밍 경험"
+    ],
+    "first_step": "SCANEER 웹서버에서 cis-aconitate decarboxylase 서열을 입력해 상위 예측 변이 목록을 얻습니다. 그 다음 변이 위치를 단백질 구조 상에서 활성 부위와의 거리로 표시하고, 거리와 예측 점수의 관계를 정리한 한 장짜리 보고서를 만듭니다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "SYNB501",
+    "reason": "DBTL 사이클 기반으로 합성생물학 프로젝트를 기획하는 과목이며, 효소 구조·AI·대사 모델링 설계 파트가 학생의 설계 도구 관심과 맞습니다."
+   },
+   {
+    "course_code": "SYNB520",
+    "reason": "효소 기질 특이성 설계와 대사 모델링 등 계산 설계 방법을 다뤄 SCANEER류 도구 이해에 직접 도움이 됩니다."
+   },
+   {
+    "course_code": "IMEN242",
+    "reason": "실험 계획과 회귀 분석을 배워 발현 예측값과 실측값 비교, 변이 효과 분석에 필요한 통계 기초를 보완합니다."
+   }
+  ],
+  "keywords_en": [
+   "synthetic biology",
+   "metabolic engineering",
+   "UTR Designer",
+   "translation initiation rate",
+   "enzyme activity engineering",
+   "sequence co-evolution",
+   "SCANEER",
+   "Vibrio sp. dhg"
+  ],
+  "caution": "두 주제는 제공된 자료만으로 만든 제안이며, 연구실의 현재 프로젝트, 모집 여부, 데이터·장비 접근 권한은 확인되지 않았습니다. 겹치는 개념은 자동 추출이라 부정확할 수 있고, 수강했다는 사실이 숙련을 뜻하지 않습니다. 첫 단계는 공개 논문과 웹서버만으로 할 수 있게 잡았으니, 실제 실험은 연구실과 상의가 필요합니다. 합성생물학 계산 과목 일부는 대학원 과목일 수 있어 수강 자격을 확인하세요."
+ },
+ "duration_wall_s": 18.44,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9281,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0009406,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2420,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8905,
+   "webSearchRequests": 0,
+   "costUSD": 0.0599289,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8905,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8905,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2420,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8905,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2420,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8905,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8905
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0608695,
+ "error": null,
+ "input_sha256": "3ddf45b69c7d69fb96aabc0d3071f098f3ab0198fbd3d1e3c0bf6baedb8a22b6"
+}

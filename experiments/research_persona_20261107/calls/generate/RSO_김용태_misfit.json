@@ -1,0 +1,166 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "Cu 전극의 pH 조건에 따른 부식 억제와 내구성 문헌 분석 및 간단한 데이터 정리",
+    "question": "P5처럼 전해질 pH를 조절해 값싼 금속 전극의 부식을 억제하는 전략이, 수전해나 배터리 환경에서 전극 수명 지표(성능 유지율, 부식 전류 등)를 어떻게 바꾸는지 문헌 데이터로 비교할 수 있는가?",
+    "interest_link": "학생은 오래가는 전극과 수전해·배터리 소재에 관심이 있고, 연구실은 Anti-corrosion, Water Electrolysis, Battery를 연구 분야로 둔다. 부식 억제로 전극 수명을 늘리는 아이디어를 문헌 기반으로 정리하는 제안이다.",
+    "lab_basis": {
+     "source_id": "P5",
+     "quote": "by precisely tuning the pH of the electrolyte-containing HCF to the immunity window, Cu was applicable to a TEC electrode, showing a performance closely equal to Pt and superior to carbon materials with negligible corrosion"
+    },
+    "course_basis": [
+     {
+      "course_code": "CHEM101",
+      "concept": "화학열역학과 화학평형, 반응속도론",
+      "how_used": "pH에 따른 평형과 부식 반응 속도를 해석하는 출발점으로 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "논문에서 뽑은 수치를 표로 정리하고 간단히 시각화하는 데 활용할 수 있다."
+     }
+    ],
+    "gaps": [
+     "전기화학 기초(전극 전위, 전자전달 반응속도, Pourbaix 도표)는 수강 이력에 없다.",
+     "부식 측정법(분극곡선, 임피던스)을 아직 배우지 않았다.",
+     "실험 수행은 연구실 지도와 장비 접근이 있어야 하며, 처음에는 문헌 분석 중심이다."
+    ],
+    "first_step": "P5와 연구실 분야 Anti-corrosion 관련 논문 5편을 골라, 전해질 pH, 전극 재료(Cu, Pt, carbon), 부식 정도, 성능 유지 시간을 열로 하는 비교표를 만든다. 그 뒤 Cu의 Pourbaix 도표를 읽고 'immunity window'가 어느 pH·전위 영역인지 직접 표시해 본다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "PEI−Au/C 전극의 장시간 안정성 지표 재분석: 표면적과 전류 감쇠율",
+    "question": "P6의 PEI 리간드로 만든 Au 나노입자 전극에서 입자 크기, 표면적, 시간당 전류 감쇠율(0.25 %/h) 사이에 어떤 관계가 있는지 보고된 수치로 정량 비교할 수 있는가?",
+    "interest_link": "학생의 '오래가는 전극' 관심을 촉매 전극의 내구성 정량화로 구체화한다. 연구실의 CO2 Reduction과 Water Electrolysis 분야, 그리고 IrO2 물 산화 촉매를 쓴 MEA 구성과 맞닿는다.",
+    "lab_basis": {
+     "source_id": "P6",
+     "quote": "the PEI−Au/C electrode exhibits stable performance over 64 h, with an hourly current degradation rate of 0.25 %"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "전류밀도를 전위와 시간의 함수로 보고 감쇠 경향을 해석하는 데 도움이 될 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "전류–시간 곡선을 디지털화해 감쇠율을 계산하는 간단한 스크립트를 짤 수 있다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "반응속도론",
+      "how_used": "촉매 활성과 반응 속도 개념을 이해하는 기초로 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "전극 반응 속도론(Tafel, 과전압)과 촉매 표면적 측정(ECSA)은 수강 이력에 없다.",
+     "나노입자 합성과 TEM 분석 개념이 부족하다.",
+     "원 데이터에 접근할 수 있다고 가정할 수 없으므로 논문 그림에서 읽은 값으로 시작해야 한다."
+    ],
+    "first_step": "P6에서 PEI−Au/C와 bare Au NPs/C의 jCO(28.6 대 21.7 mA cm−2, −1.13 VRHE)와 64 h 감쇠율 0.25 %를 정리한다. 이 값이 '표면적 효과'만으로 설명되는지 나노입자 크기(3 nm 대 불규칙한 큰 입자)를 변수로 넣어 간단한 계산 노트를 작성한다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "BATT524",
+    "reason": "열역학과 전위, 전자전달 속도론, 물질전달을 다뤄 두 주제에 공통으로 부족한 전기화학 기초를 채워 준다. 같은 내용의 AMSE513도 있다."
+   },
+   {
+    "course_code": "AMSE414",
+    "reason": "학부 3~4학년 수준의 에너지 소재 입문으로 전기화학 기초와 에너지 변환·저장 소재를 함께 다뤄 배터리와 수전해를 폭넓게 볼 수 있다."
+   },
+   {
+    "course_code": "BATT533",
+    "reason": "이차전지용 소재 설계 논리와 사례 연구를 다뤄 전극 내구성을 소재 관점에서 생각하는 데 도움이 된다."
+   }
+  ],
+  "keywords_en": [
+   "electrode durability",
+   "corrosion inhibition",
+   "electrolyte pH",
+   "CO2 electroreduction",
+   "Au nanoparticles",
+   "current degradation rate",
+   "water electrolysis",
+   "membrane-electrode assembly"
+  ],
+  "caution": "이 제안은 제공된 자료만으로 만든 것입니다. 연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근 가능성은 확인되지 않았습니다. 두 주제 모두 문헌 기반으로 시작하며, 실제 실험은 지도교수와 상의해 정해야 합니다. 수강 과목은 기초 수준이라 전기화학 전문 개념은 추가 학습이 필요합니다. 논문과 수강 과목의 겹침 분석은 단어 수준 자동 추출이라 틀릴 수 있습니다."
+ },
+ "duration_wall_s": 18.21,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10006,
+   "outputTokens": 29,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0010151,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2426,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 9627,
+   "webSearchRequests": 0,
+   "costUSD": 0.06287690000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9627,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9627,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2426,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9627,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2426,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 9627,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9627
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.06389200000000002,
+ "error": null,
+ "input_sha256": "7597952fabbdcac3d2daa657521a805743b35163759f372fdcaa9aee123945f2"
+}

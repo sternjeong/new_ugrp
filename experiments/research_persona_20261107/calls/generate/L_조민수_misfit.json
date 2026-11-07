@@ -1,0 +1,163 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "가려진 물체 더미에서 시점 하나를 더 보면 얼마나 나아질까: 능동 인식 시뮬레이션 비교 (제안)",
+    "question": "시뮬레이션 속 상자·컵·병이 서로 가려진 장면에서, 카메라 시점을 한 번 더 바꾸면 고정된 한 시점일 때보다 물체가 보이는 픽셀 비율과 파지 후보 검출이 얼마나 달라지는가?",
+    "interest_link": "카메라로 주변 물체를 알아보고 직접 집는 로봇이 신기하다는 관심을, 연구실의 능동 인식과 복잡한 환경에서의 로봇 조작 분야에 맞춘 제안입니다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Active Perception for Object Manipulation"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "공개 시뮬레이터에서 시점별 실험을 반복 실행하고 결과를 표로 정리하는 파이썬 스크립트를 짜는 데 쓸 수 있습니다. 프로그래밍 숙련도는 이 자료만으로는 알 수 없습니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "카메라 위치와 방향을 벡터로 나타내고 시점 변화에 따른 값의 변화를 다루는 기초로 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "컴퓨터 비전 기초(카메라 모델, 3D 데이터 표현)",
+     "선형대수와 3D 좌표 변환(수강 목록에 없음)",
+     "기계학습·딥러닝 경험",
+     "로봇 운동학과 시뮬레이터(PyBullet 등) 사용법"
+    ],
+    "first_step": "PyBullet에서 컵·상자·병 3종을 겹쳐 놓은 장면 10개를 만들고, 정면 1시점과 정면+측면 2시점에서 각 물체가 보이는 픽셀 비율을 계산해 비교하는 표를 만듭니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "반쪽만 보이는 물체의 대칭면 추정이 파지 위치 선택에 도움이 될까 (제안)",
+    "question": "머그컵·병처럼 대칭인 물체를 한쪽에서만 본 점군으로 대칭면을 추정해 가려진 쪽을 채우면, 원래 전체 점군과의 거리가 얼마나 줄어드는가?",
+    "interest_link": "로봇이 물체를 알아보고 집으려면 보이지 않는 부분도 추정해야 한다는 점을, 연구실의 부분 관측 3D 대칭 검출 분야와 연결한 주제입니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "점과 평면을 벡터로 나타내고 평면에 대한 반사를 계산하는 데 기초가 될 수 있습니다. 다만 선형대수는 따로 보충이 필요합니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "점군을 배열로 읽어 반사와 거리 계산을 구현하는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "선형대수와 3D 변환(회전·반사 행렬)",
+     "점군 처리 경험",
+     "기계학습 기초",
+     "파지 품질 지표에 대한 지식"
+    ],
+    "first_step": "공개 3D 물체 모델 중 컵과 병 5개를 골라 점군으로 만든 뒤, 한쪽 절반만 남기고 대칭면으로 반사해 복원한 점군과 원래 점군의 평균 거리를 파이썬으로 계산합니다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "2D·3D 시각 데이터의 형성 원리와 Camera anatomy를 다루므로, 두 주제에 모두 부족한 컴퓨터 비전 기초를 채워 줍니다."
+   },
+   {
+    "course_code": "CSED343",
+    "reason": "선형대수, 행렬 분해, 벡터 미적분을 다루므로 3D 변환과 이후 기계학습 과목을 위한 수학 빈틈을 메워 줍니다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학과 제어를 다루므로 파지 쪽 로봇 기초가 됩니다. 대학원 수준일 수 있어 수강 가능 여부를 확인해야 합니다."
+   }
+  ],
+  "keywords_en": [
+   "active perception",
+   "robotic grasping",
+   "cluttered scene manipulation",
+   "3D symmetry detection",
+   "partial observation",
+   "point cloud",
+   "next-best-view",
+   "computer vision"
+  ],
+  "caution": "수강 이력이 화학·생명 계열 중심이라 비전·로봇 연구에 필요한 선형대수, 기계학습, 로보틱스 기초가 부족합니다. 두 주제는 제안일 뿐이며, 연구실의 현재 프로젝트, 모집 여부, 데이터·장비 사용 가능 여부는 자료에 없으므로 교수님께 직접 확인해야 합니다. 첫 단계는 공개 시뮬레이터와 공개 데이터만으로 시작하도록 잡았습니다."
+ },
+ "duration_wall_s": 30.34,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6499,
+   "outputTokens": 423,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008614,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 392,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 4345,
+   "cacheReadInputTokens": 8217,
+   "cacheCreationInputTokens": 14118,
+   "webSearchRequests": 0,
+   "costUSD": 0.1007517,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 266,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 14118,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 14118,
+  "cache_read_input_tokens": 8217,
+  "output_tokens": 4345,
+  "output_tokens_details": {
+   "thinking_tokens": 266
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 14118,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2329,
+    "cache_read_input_tokens": 7168,
+    "cache_creation_input_tokens": 7999,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7999
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1016131,
+ "error": null,
+ "input_sha256": "1ca6b4e13fff4bb75494d44b04f46f7f83ee0aee50a988154ab4e67a45e9059c"
+}

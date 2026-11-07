@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "PV 인버터 아크 검출과 Kalman 필터 주제는 우리 연구실과 무관하고 학생의 비전·로봇 관심과도 맞지 않습니다. 근거 인용문도 다른 연구실 것으로 보이며 사실과 맞지 않습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "능동 인식과 부분 관측 대칭을 우리 연구 분야에 정확히 맞췄고 PyBullet 첫 단계도 구체적입니다. 과목 연결은 약하다고 솔직히 밝혔습니다. 다만 주제 2의 대칭면 복원은 학생에게 약간 버겁습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 4,
+    "reason": "연구 분야 맞춤은 좋습니다. 다만 회전운동·방향도함수와 파지 안정성의 연결은 다소 과장입니다. 주제 1의 손으로 축을 표시하는 첫 단계는 효용이 낮고 실험 설계가 모호합니다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "범위를 시뮬레이션 지표와 2D 반사 대칭으로 현실적으로 한정했고 첫 단계 수치(100장면, 8시점, 0·10·30·50%)가 구체적입니다. 하드웨어와 3D는 제외한다고 솔직히 밝혔습니다. 법선 벡터 각도와 가시성 연결도 타당합니다. 다만 'P2의 DENDI'는 abstract에 없어 약간 감점입니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "clutter 파지와 대칭 오차 측정이 실행 가능하고 학생 관심과 맞습니다. 다만 공개 파지 시뮬레이터가 무엇인지 모호하고, 근거 연구 분야와 서술이 약간 섞여 있습니다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반적 안내라 구체적 연구 질문도 과목 연결도 없습니다. 심층학습 자연어처리는 이 학생의 관심에 맞지 않습니다."
+   }
+  ]
+ },
+ "duration_wall_s": 12.36,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 15508,
+   "outputTokens": 27,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0015643,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1184,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 15126,
+   "webSearchRequests": 0,
+   "costUSD": 0.07243630000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15126,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 15126,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15126,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1184,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 15126,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15126
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.07400060000000001,
+ "error": null,
+ "input_sha256": "84492134a894c1f34d230cf3c1427235ebe98923806aa2d6a3248c00558357c7"
+}

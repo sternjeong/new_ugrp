@@ -1,0 +1,171 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "PDMS 미세유체 채널 내 친수성 코팅 폭과 유동 거동의 간단한 모델링 비교",
+    "question": "미세채널 벽면의 친수/소수 상태(접촉각)와 채널 치수가 유체의 모세관 이동 거리·속도에 어떤 차이를 만드는지, 해석 모델과 간단한 수치 계산으로 예측할 수 있는가?",
+    "interest_link": "학생이 말한 '작은 칩 위에서 액체를 다루는 장치'와 '의료 진단'을 PDMS 채널의 표면 개질과 면역검사 플랫폼이라는 연구실 주제에 연결한다.",
+    "lab_basis": {
+     "source_id": "P2",
+     "quote": "The wettability transition of PDMS was demonstrated through the switched emulsification in a flow-focusing device (water-in-oil [pristine PDMS] to oil-in-water [hydrophilic PDMS])."
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "Green's, Stokes' and divergence theorem, which are very important in electromagnetism, fluid dynamics, and mechanical engineering",
+      "how_used": "다변수 미적분을 채널 내 유동과 보존 법칙을 식으로 세우는 출발점으로 삼을 수 있다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "에너지/운동량 보존법칙",
+      "how_used": "채널 안 액체의 힘 균형과 에너지 관점을 간단한 모델로 정리하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "분자간의 힘",
+      "how_used": "표면 친수성·소수성과 젖음 현상을 정성적으로 해석하는 데 참고할 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "모세관 이동 계산을 코드로 작성해 접촉각과 채널 폭을 바꿔 가며 비교하는 데 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "유체역학과 표면장력·접촉각 이론은 수강 기록에 없어 따로 학습해야 한다.",
+     "PDMS와 하이드로겔 코팅의 실제 공정 지식은 없다.",
+     "실험 수행 가능 여부와 장비 접근은 확인되지 않았으므로 우선 문헌 기반 계산 연구로 제안한다."
+    ],
+    "first_step": "P2에 나온 코팅 두께 ~1 μm, 해상도 ~3 μm 값을 참고해, 폭 50·100·200 μm 직사각형 PDMS 채널에서 접촉각 110°(미처리)와 30°(친수화, 가정값)일 때 물의 모세관 침투 거리를 시간에 따라 계산하는 Python 스크립트를 작성한다. 결과를 표로 비교한다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "액체금속 스펀지 전극 촉각센서의 변형-저항 데이터 분석 및 보정",
+    "question": "LM-infused sponge 전극의 변형·굽힘 조건별 저항 변화를 통계적으로 분석하면, 센서 출력의 선형성과 잡음 수준을 정량화하고 보정 모델을 만들 수 있는가?",
+    "interest_link": "칩 위의 액체(액체금속) 기반 소자와 센서 제작이라는 관심을 연구실의 마이크로 센서 연구와 연결한다. 의료 진단 쪽보다는 센서와 액체 소재 쪽에 가까운 제안이다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "The LM‐infused sponge electrode exhibits a minimal change in terms of resistivity under strain, bending, and twisting (∆R < 0.01 Ω cm −1 )."
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH230",
+      "concept": "sample estimation, hypothesis testing, and linear regression",
+      "how_used": "변형 조건별 저항 측정값에 회귀를 적용하고 반복 측정의 불확실성을 추정하는 데 쓸 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "측정 데이터를 읽고 정리해 그래프를 그리는 분석 코드를 작성하는 데 쓸 수 있다."
+     }
+    ],
+    "gaps": [
+     "전기회로와 센서 신호처리 과목 기록이 없어 정전용량·저항 측정 원리를 따로 익혀야 한다.",
+     "MEMS 공정과 재료(PDMS 스펀지, 액체금속) 지식이 없다.",
+     "원 데이터를 쓸 수 있는지 확인되지 않았으므로, 연구실과 협의하거나 소규모 자체 측정을 제안하는 형태가 된다."
+    ],
+    "first_step": "P1이 보고한 변형·굽힘·비틂 세 조건에서 저항 변화 ∆R(Ω cm⁻¹)을 변수로 삼아, 가상의 반복 측정 20회 데이터를 생성한다. 선형회귀와 신뢰구간을 계산하는 분석 스크립트를 먼저 만든 뒤, 연구실 측정 방식에 맞춰 수정할 질문 목록을 정리한다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "MECH421",
+    "reason": "MEMS 제작 공정과 마이크로센서·액추에이터의 작동 원리를 다루는 입문 과목이다. 두 주제의 기초가 되고, 연구실 분야와 가장 직접 이어진다."
+   },
+   {
+    "course_code": "CHEB469F",
+    "reason": "소자와 생체 환경의 계면, 바이오센서를 다루는 특강이다. 의료 진단 관심과 칩 표면 개질을 연결하는 데 도움이 된다."
+   },
+   {
+    "course_code": "MECH621",
+    "reason": "리소그래피·증착·식각 같은 미세가공 공정을 심화해서 다룬다. 다만 고급 과목이라 MECH421을 먼저 듣는 편이 낫다."
+   }
+  ],
+  "keywords_en": [
+   "microfluidics",
+   "PDMS",
+   "surface wettability",
+   "capillary flow",
+   "hydrogel coating",
+   "point-of-care diagnostics",
+   "liquid metal electrode",
+   "tactile sensor"
+  ],
+  "caution": "이 추천은 제공된 연구실 소개와 논문 초록만 근거로 한 제안입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 데이터와 장비 접근 가능 여부는 확인되지 않았으므로 지도교수와 직접 상의해야 합니다. 수강 기록만으로 유체역학, 회로, 공정 숙련도를 판단할 수 없고, 해당 부분은 gaps에 적어 두었습니다. 첫 번째 주제의 접촉각 값은 가정값이며 논문 측정값이 아닙니다."
+ },
+ "duration_wall_s": 20.19,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10841,
+   "outputTokens": 33,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0011006,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2515,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 10459,
+   "webSearchRequests": 0,
+   "costUSD": 0.0670949,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 10459,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10459,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2515,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10459,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2515,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 10459,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10459
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.06819549999999999,
+ "error": null,
+ "input_sha256": "2a9ce810b70af721b320fa2a6af21263efbae2c34208cfa7b9027c37624e7be5"
+}

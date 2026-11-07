@@ -1,0 +1,172 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "Buck 컨버터 PWM 전압 제어 시뮬레이션과 PI 제어기 설계 (제안)",
+    "question": "DC-DC 강압(buck) 컨버터에서 PI 제어기의 이득과 부하 변화가 출력 전압의 과도응답(오버슈트, 정착시간)에 어떤 영향을 주는가?",
+    "interest_link": "태양광·전기차에서 전력을 효율적으로 변환하는 DC-DC 장치를 회로로 구성하고 제어해 보고 싶다는 관심과 직접 연결됩니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "Advanced Control Technologies for Power Converters"
+    },
+    "course_basis": [
+     {
+      "course_code": "EECE231",
+      "concept": "Kirchhoff의 법칙, capacitance, inductance, Laplace Transform",
+      "how_used": "인덕터·커패시터를 포함한 buck 컨버터의 평균 모델과 전달함수를 유도하는 데 사용할 수 있습니다."
+     },
+     {
+      "course_code": "EECE320",
+      "concept": "주파수 도메인에서의 제어이론에 대한 수학적 기초",
+      "how_used": "유도한 전달함수에 대해 보드선도 기반으로 PI 제어기를 설계하는 데 활용할 수 있습니다."
+     },
+     {
+      "course_code": "EECE372",
+      "concept": "microprocessors control most \"intelligent\" aspects of such systems",
+      "how_used": "마이크로컨트롤러로 PWM 신호를 생성하고 ADC로 전압을 샘플링하는 구현 단계에서 활용할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "스위칭 컨버터의 상태공간 평균화 모델링",
+     "PWM DC-DC 컨버터의 동작 모드(CCM/DCM)와 인덕터 설계",
+     "이산시간 제어기 구현과 샘플링 지연 영향"
+    ],
+    "first_step": "출력 5V, 입력 12V, 스위칭 주파수 100kHz의 buck 컨버터를 정하고, 부하 저항을 10Ω에서 5Ω으로 계단 변화시킬 때 PI 이득별 출력 전압 과도응답을 시뮬레이션해 비교하는 표를 만들어 보세요.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "Kalman 필터로 센서 수를 줄인 컨버터 전류 추정 (제안)",
+    "question": "단순한 DC-DC 컨버터에서 Kalman 필터로 인덕터 전류를 추정하면 전류 센서 없이도 제어 성능이 얼마나 유지되는가?",
+    "interest_link": "회로를 직접 만들고 제어해 보고 싶다는 관심을, 센서 비용을 줄이면서 전력 변환 제어를 하는 문제로 좁힌 주제입니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "The KFA estimates the inverter-side currents, reducing hardware costs and improving control performance."
+    },
+    "course_basis": [
+     {
+      "course_code": "EECE233",
+      "concept": "signals and systems, sampling theory, LTI systems",
+      "how_used": "컨버터를 이산화하고 측정 잡음을 신호로 다루는 기초로 사용할 수 있습니다."
+     },
+     {
+      "course_code": "EECE320",
+      "concept": "주파수 도메인에서의 제어이론에 대한 수학적 기초",
+      "how_used": "추정기를 포함한 폐루프의 안정성과 대역폭을 분석하는 데 활용할 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "추정기와 컨버터 모델을 시뮬레이션 코드로 구현하는 데 사용할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "Kalman 필터 이론(확률과정, 공분산)",
+     "상태공간 모델과 관측기 설계",
+     "스위칭 컨버터 모델링",
+     "FCS-MPC 개념(필수는 아니며 후속 단계)"
+    ],
+    "first_step": "EECE231 수준의 RL 부하가 연결된 단상 하프브리지 모델에서 인덕터 전류에 잡음을 더한 측정값과 Kalman 필터 추정값의 RMS 오차를 잡음 분산별로 비교해 보세요.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE305",
+    "reason": "DC-to-DC converters와 Basic control of PWM DC-DC converters를 다루므로 두 주제의 모델링 공백을 직접 채웁니다. EECE425도 같은 소개문이므로 개설 학기에 맞춰 하나를 고르세요."
+   },
+   {
+    "course_code": "EECE695P",
+    "reason": "태양광·에너지저장용 변환회로와 PWM 컨버터 동작 원리를 다루어 학생의 관심과 맞습니다. 특론이라 선수 조건 확인이 필요합니다."
+   },
+   {
+    "course_code": "SEMI490A",
+    "reason": "전기차·신재생에너지용 전력반도체 소자와 고효율 변환 회로 설계를 다루어 효율 측면 관심을 보완합니다."
+   }
+  ],
+  "keywords_en": [
+   "buck converter",
+   "PWM",
+   "PI control",
+   "transient response",
+   "Kalman filter",
+   "state estimation",
+   "sensorless current estimation",
+   "power converter control"
+  ],
+  "caution": "연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근 권한은 자료로 확인되지 않았으므로 두 주제는 모두 학생의 제안입니다. 먼저 시뮬레이션으로 시작하고, 하드웨어 사용은 교수님께 문의해 확인하세요. 수강 이력만으로 숙련도를 단정할 수 없고, 겹치는 개념은 자동 추출이라 부정확할 수 있습니다."
+ },
+ "duration_wall_s": 17.31,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8429,
+   "outputTokens": 32,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008589000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2110,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8047,
+   "webSearchRequests": 0,
+   "costUSD": 0.053396900000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8047,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8047,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2110,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8047,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2110,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8047,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8047
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.05425580000000001,
+ "error": null,
+ "input_sha256": "775eefae70bbaf58b575dadaba0a5cac22646e5544cd543fa8769ef45a6714d1"
+}

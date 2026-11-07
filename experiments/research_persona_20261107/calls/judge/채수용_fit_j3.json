@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 5,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "Buck PI 제어는 학생의 회로이론·자동제어·마이크로프로세서와 정확히 맞고 첫 단계가 구체적이다. Kalman 주제는 연구실 논문과 연결되며 도전 과제로 적절하고, 모든 것이 제안임을 솔직히 밝혔다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 6,
+    "reason": "연구 분야 문구를 그대로 반복한 일반론이며 구체적 주제, 과목 연결, 시작 과제가 없다. 학생이 바로 할 일이 불명확하다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 5,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "주파수 영역 PI 설계, 위상여유, 소형 하드웨어 검증까지 이어져 학생의 '만들고 제어' 관심에 가장 잘 맞는다. 부스트·파라미터 추정은 연구실 FPGA 분야와 닿고 시뮬레이션까지로 범위를 제한한 점이 현실적이다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 5,
+    "reason": "미세유체 코팅과 액체금속 전극은 우리 연구실 및 학생 관심·수강 이력과 무관하다. 다른 연구실 자료에 근거한 것으로 보이며 부적합하다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "Kalman 추정 주제와 PV 아크 합성 신호 주제 모두 우리 논문에 정확히 근거하고, 3L-ANPC 규모를 줄인 판단이 적절하다. 다만 아크 주제는 학생의 회로 제작·제어 관심과는 거리가 있고 Kalman 이론은 추가 학습이 필요하다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 4,
+    "reason": "Kalman 추정과 공진 필터 주제 모두 연구실 논문과 잘 맞는다. 다만 제목은 승압인데 첫 단계는 벅 컨버터라 불일치가 있고, 센서 고장과 공진 필터 주제는 학생에게 다소 어렵다."
+   }
+  ]
+ },
+ "duration_wall_s": 13.12,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17123,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017243,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1138,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16740,
+   "webSearchRequests": 0,
+   "costUSD": 0.07843230000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16740,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16740,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1138,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16740,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1138,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16740,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16740
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08015660000000001,
+ "error": null,
+ "input_sha256": "53df6a4795601e51932be8bed3788314668f936bb1021dc056329dc1be7f037c"
+}

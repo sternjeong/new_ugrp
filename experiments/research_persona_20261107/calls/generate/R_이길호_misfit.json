@@ -1,0 +1,169 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "이중층 그래핀 조셉슨 접합: 게이트 전압에 따른 short→long 접합 전환 문헌 기반 계산",
+    "question": "이중층 그래핀의 2차 분산에서 게이트 전압으로 페르미 속도와 초전도 coherence length를 바꾸면, 주어진 접합 길이에서 short 접합과 long 접합 사이의 전환이 어느 전하 밀도 부근에서 일어나는가? (제안: 공개 논문의 식과 수치를 이용한 간단한 계산으로 시작)",
+    "interest_link": "그래핀·초전도체 소자를 직접 만들고 측정해보고 싶다는 관심과 양자역학 수업의 흥미를, 그래핀-초전도체 하이브리드 소자의 핵심 물리량인 coherence length 계산으로 연결합니다. 소자 제작과 측정의 전 단계로 필요한 계산 준비입니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "we control the Fermi velocity and thus the coherence length via the application of electrostatic gating"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "게이트 전압(전하 밀도)에 따른 페르미 속도와 coherence length를 Python으로 계산하고 그래프로 그리는 데 사용합니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "전하 밀도, 접합 길이, 위상차 등 여러 변수에 의존하는 양을 함수로 다루고 변화를 살펴보는 데 사용합니다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "진동, 파동",
+      "how_used": "Andreev 준위 같은 파동적 상태의 간섭을 직관적으로 이해하는 출발점입니다. 직접적인 연결은 약합니다."
+     }
+    ],
+    "gaps": [
+     "성적표에 양자역학 과목이 없어 수강 여부와 수준을 확인해야 함",
+     "BCS 이론, Andreev 반사, 조셉슨 효과",
+     "고체물리의 밴드구조(이중층 그래핀 분산)",
+     "극저온 터널링 분광 측정의 원리",
+     "그래핀 소자 제작·측정 경험"
+    ],
+    "first_step": "P1에서 coherence length와 페르미 속도의 관계식을 찾아 정리한 뒤, 이중층 그래핀 전하 밀도를 0.1~5×10^12 cm^-2로 바꾸며 ξ와 접합 길이 L의 비(L/ξ)가 1을 넘나드는 지점을 Python 그래프로 그려보세요.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "단층·이중층 그래핀의 분산 관계와 페르미 속도의 게이트 의존성 비교 계산",
+    "question": "단층 그래핀(선형 분산)과 이중층 그래핀(2차 분산)에서 전하 밀도를 바꿀 때 페르미 에너지와 페르미 속도는 각각 어떻게 달라지는가? 이 차이가 게이트로 조절하는 소자 설계에 어떤 의미를 갖는가? (제안: 이론 계산과 문헌 정리 수준의 입문 프로젝트)",
+    "interest_link": "그래핀 소자를 직접 다루고 싶은 학생이 소자 측정 전에 알아야 할 핵심 개념(Dirac 분산과 게이트 조절)을 직접 계산하며 익히는 주제입니다. 양자역학에 대한 흥미를 고체 속 전자의 분산 관계로 연결합니다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "밴드구조의 에너지(E)와 모멘텀(p)이 특이하게도 선형적인 관계를 가지며"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "두 분산식에서 전하 밀도에 따른 페르미 에너지와 속도를 수치로 계산하고 시각화하는 데 사용합니다."
+     },
+     {
+      "course_code": "MATH101",
+      "concept": "scientific ideas can be precisely formulated with mathematical languages",
+      "how_used": "분산식을 미분해 속도를 구하는 등 물리 개념을 수식으로 다루는 기초로 사용합니다. 직접적인 연결은 제한적입니다."
+     }
+    ],
+    "gaps": [
+     "양자역학 수강 기록이 없어 별도 학습이 필요함",
+     "고체물리와 tight-binding 모형",
+     "상태밀도와 전하 밀도-게이트 전압 관계",
+     "실제 소자 제작·측정 경험"
+    ],
+    "first_step": "단층 그래핀 E=ħv_F|k|와 이중층 그래핀 E=ħ²k²/2m* 두 식에 대해 전하 밀도 n을 0.1~5×10^12 cm^-2로 바꿀 때 페르미 에너지와 페르미 속도가 어떻게 변하는지 한 장의 그래프로 비교해보세요.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE563",
+    "reason": "나노소자에 필요한 양자역학 기본지식을 제공한다고 소개되어 있어, 양자역학 수강 기록이 없는 학생이 두 주제의 이론 기초를 쌓기에 적합합니다."
+   },
+   {
+    "course_code": "PHYS701A",
+    "reason": "저온 전기수송을 실험 관점에서 다루고 측정 기술도 논의한다고 소개되어 있어, 소자를 측정해보고 싶다는 관심과 맞습니다. 다만 대학원 특론이므로 수강 가능 여부와 선수 지식은 확인이 필요합니다."
+   },
+   {
+    "course_code": "PHYS653",
+    "reason": "BCS 이론 등 초전도 기초를 다루므로 조셉슨 접합과 coherence length 이해의 빈 부분을 채울 수 있습니다. 대학원 과목이라 수강 조건 확인이 필요합니다."
+   }
+  ],
+  "keywords_en": [
+   "bilayer graphene",
+   "Josephson junction",
+   "Andreev bound states",
+   "coherence length",
+   "Fermi velocity",
+   "electrostatic gating",
+   "Dirac dispersion",
+   "quantum transport"
+  ],
+  "caution": "이 제안은 제공된 자료만 근거로 한 것입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 장비·데이터 접근 권한은 확인되지 않았으며 직접 문의해야 합니다. 성적표에 양자역학 과목이 없어 수강 여부와 이해 수준을 먼저 점검해야 합니다. 첫 단계는 계산·문헌 수준이며 소자 제작과 측정은 지도 하에서만 가능합니다."
+ },
+ "duration_wall_s": 41.06,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9903,
+   "outputTokens": 26,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0010033000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 5648,
+   "cacheReadInputTokens": 11620,
+   "cacheCreationInputTokens": 17908,
+   "webSearchRequests": 0,
+   "costUSD": 0.129282,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 472,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17908,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 17908,
+  "cache_read_input_tokens": 11620,
+  "output_tokens": 5648,
+  "output_tokens_details": {
+   "thinking_tokens": 472
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17908,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2942,
+    "cache_read_input_tokens": 10571,
+    "cache_creation_input_tokens": 8386,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8386
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1302853,
+ "error": null,
+ "input_sha256": "9875014123db54e1c5062b5283d4c4953c852f68af19b4a6933dcf43b51598e2"
+}

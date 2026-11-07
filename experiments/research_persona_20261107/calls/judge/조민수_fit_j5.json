@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "대칭 검출과 잡기를 잇는 PCA 기준선 실험이 구체적이고 바로 시작 가능하며, 연구실 분야와 정확히 맞는다. 과목 연결도 대체로 정직하고 다음 과목도 공백을 잘 짚었다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "X1과 거의 같은 구성이며 첫 단계가 구체적이다. 두 번째 주제의 가시 픽셀 비율 측정도 현실적이나, 최적화 문제 이해라는 과목 연결은 다소 과장이다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "반사 대칭으로 반대편을 복원하는 첫 단계는 좋은 아이디어이며 두 주제 모두 중급으로 현실적이다. 다만 전체 모델의 대칭면을 이미 안다고 가정해 검출 문제가 빠져 있다."
+   },
+   {
+    "label": "X2",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "대칭에 따른 파지 중복 제거는 흥미로우나 첫 단계가 손으로 표기하는 작업이라 비전 요소가 약하다. 연구실 근거로 인용한 문장은 이미지 대칭 논문에서 가져왔다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반 템플릿이라 구체적 과제와 과목 연결이 없다. 심층학습 자연어처리 추천은 부적절하고 중복되어 있다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "전력전자 주제로 우리 연구실, 학생의 관심, 수강 과목과 전혀 무관하다. 다른 연구실 자료와 수강 이력을 가져온 것으로 보인다."
+   }
+  ]
+ },
+ "duration_wall_s": 8.87,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16269,
+   "outputTokens": 343,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017984,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 319,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1045,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 15887,
+   "webSearchRequests": 0,
+   "costUSD": 0.0740903,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15887,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 15887,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1045,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15887,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1045,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 15887,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15887
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0758887,
+ "error": null,
+ "input_sha256": "516a1d527f1e7ba9cdfba16c5d36a02d585e5e68dd311fe117f54cc639a0239a"
+}

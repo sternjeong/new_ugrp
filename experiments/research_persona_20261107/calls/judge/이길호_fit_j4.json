@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 3,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 논문(이중층 그래핀 ABS)에 정확히 맞고 PHYS301·CSED101 연결이 현실적이다. 다만 Andreev 배경이 없고 주제 2는 도전적이며, 다음 과목은 일부 부적절하다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 3,
+    "grounded": 3,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "주제 1의 Dirac 대 포물선 투과 계산은 학생이 바로 할 수 있고 우리 전자광학 방향에도 맞는다. 주제 2의 비틀린 d-wave는 우리 논문(Bi-2212)이 맞지만 출처 불확실로 서술해 근거가 약하고 학생에겐 어렵다."
+   },
+   {
+    "label": "X3",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 1,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "로봇 파지·비전 주제로, 우리 연구실과 학생 관심·이수 과목 모두와 무관하다. 다른 연구실 자료를 잘못 가져온 것이다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "그래핀 JJ와 전자광학을 다루어 방향은 맞다. 그러나 P3의 Floquet 데이터를 1D 슈뢰딩거 모델과 비교하는 첫 단계는 무리가 있고, 연구실 근거가 분야명 수준이다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "주제 1은 PHYS301/201·CSED101로 바로 시작할 수 있고 우리 Dirac 전자광학과 맞는다. 첫 단계가 구체적이며, 주제 2는 도전적이지만 한계를 솔직히 밝혔다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야명을 그대로 옮긴 일반론이고 구체적인 주제·과목 연결·실행 계획이 없다. 다음 과목도 중복되고 근거가 부족하다."
+   }
+  ]
+ },
+ "duration_wall_s": 8.93,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 18295,
+   "outputTokens": 28,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018434999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1074,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17912,
+   "webSearchRequests": 0,
+   "costUSD": 0.0824803,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17912,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17912,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1074,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17912,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1074,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17912,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17912
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0843238,
+ "error": null,
+ "input_sha256": "fd255db578853e42120d994dec395ceb39688eaf712bc2b8ce26b1dc76a36b11"
+}

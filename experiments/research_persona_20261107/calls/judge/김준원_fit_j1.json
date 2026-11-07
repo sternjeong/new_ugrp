@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 3,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "서펜타인 코팅(P6)과 액체금속 전극(P1) 모두 우리 연구실 논문에 정확히 근거하고, 유체역학·미분방정식·고체역학 연결이 솔직하며 첫 단계도 계산으로 바로 시작할 수 있다. 다만 학생이 말한 칩 위 액체 다루기·진단과의 연결은 다소 간접적이다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "PDMS 친수성 코팅에 따른 액적 생성은 우리 연구실의 표면 개질 연구와 학생의 칩 위 액체 관심에 가장 직접 맞는다. 과목 연결이 적절하고 부족한 점(계면현상, 전기 기초)도 솔직히 밝혔다. 다만 액적 직경을 MECH370만으로 추정하는 것은 다소 무리다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "입자 포획과 초소수성 모두 우리 연구실 분야에 맞고 첫 단계도 구체적이다. 다만 연구실 근거가 소개 문구 수준이고, 일반화학·열역학 연결이 약간 과장되어 있다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "입자 클러스터와 선택적 표면 처리 모두 우리 연구실과 맞고, 열역학 연결이 간접적이라는 점을 솔직히 밝혔다. 다만 연구실 근거가 문구 수준이고 일부 내용이 X3와 겹쳐 구체성이 X2보다 떨어진다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 일반 템플릿이라 학생의 관심이나 과목과 구체적 연결이 없다. 첫 단계도 모호하고, CMOS 공정 실험은 근거가 약하다."
+   },
+   {
+    "label": "X6",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 1,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "합성생물학 연구실 내용으로 우리 연구실과 무관하며 UTR Designer·SCANEER는 우리 연구가 아니다. 학생이 듣지 않은 과목을 근거로 들어 사실과 다르다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.87,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17451,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017571000000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1185,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17070,
+   "webSearchRequests": 0,
+   "costUSD": 0.0802223,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17070,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17070,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1185,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17070,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1185,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17070,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17070
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0819794,
+ "error": null,
+ "input_sha256": "abb92ad6bd5e2475d690adb240332cf4ab0276c3299a93a00dc9345c20d2e3bd"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 6,
+    "reason": "연구 분야 이름만 반복하는 템플릿형 안으로, 구체적 주제도 학생 관심 반영도 없고 첫 단계가 모호합니다. 시작시킬 수 없습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 5,
+    "reason": "합성생물학(UTR Designer, SCANEER)은 우리 연구실과 무관한 다른 연구실 내용이고, 학생이 듣지 않은 과목(분자생물학 등)을 근거로 삼았습니다. 사실상 지어낸 안입니다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "유체역학·ODE·프로그래밍을 실제로 쓰는 미세유체 입자 클러스터 계산으로 시작하고, 표면 처리 주제도 함께 있어 관심과 연구실에 잘 맞습니다. 열역학 연결은 간접적이라고 솔직히 적었습니다. 첫 단계도 구체적입니다."
+   },
+   {
+    "label": "X4",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "hydrogel 코팅 PDMS 채널과 액체금속 스펀지 전극은 우리 논문에 정확히 근거합니다. 다만 주제 1은 실험이 필요하고 학생에게 계면 현상 지식이 없으며, 주제 2는 진단과 거리가 있습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "입자 포획 유동과 초소수성 표면 모두 우리 연구실에 맞고 과목 연결도 적절합니다. 다만 2D 유선 분율 모델은 학생에게 다소 모호하고, X3보다 첫 단계가 덜 구체적입니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "서펜타인 dip coating 논문과 액체금속 전극 논문에 정확히 근거합니다. 첫 단계(ODE 모델링, R(ε) 유도)는 현재 수강 과목으로 바로 시작할 수 있습니다. 의료 진단과의 연결이 약하다고 솔직히 밝힌 점도 인정합니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.4,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17451,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017571000000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1150,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17068,
+   "webSearchRequests": 0,
+   "costUSD": 0.0798643,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17068,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17068,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1150,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17068,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1150,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17068,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17068
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0816214,
+ "error": null,
+ "input_sha256": "da2bd0e72dfc8a60fd3f9e78000084577f0b8315920c17cb885f166a9441b611"
+}

@@ -1,0 +1,161 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "PDMS 미세유체 채널의 친수성 코팅 유무에 따른 액적 생성 거동 비교 (제안)",
+    "question": "PDMS 채널 내벽의 hydrogel 코팅 유무(소수성 vs 친수성)가 flow-focusing 채널에서 액적 크기와 생성 안정성(물-기름 유량비 변화)에 어떤 차이를 만드는가?",
+    "interest_link": "작은 칩 위에서 액체를 다루고 싶다는 관심을, 연구실의 PDMS 미세채널 표면 개질 연구와 진단용 칩 응용에 연결합니다.",
+    "lab_basis": {
+     "source_id": "P2",
+     "quote": "The wettability transition of PDMS was demonstrated through the switched emulsification in a flow-focusing device (water-in-oil [pristine PDMS] to oil-in-water [hydrophilic PDMS])."
+    },
+    "course_basis": [
+     {
+      "course_code": "MECH370",
+      "concept": "pressure, hydrostatics, and buoy- ancy; open systems and control volume analysis; mass conservation and momentum…",
+      "how_used": "채널 내 유량과 압력 강하를 질량보존·운동량 관점에서 추정하고 유량비 조건을 정하는 데 활용할 수 있습니다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "분자간의 힘",
+      "how_used": "소수성/친수성 표면과 액체 사이 상호작용을 정성적으로 해석하는 출발점이 됩니다."
+     }
+    ],
+    "gaps": [
+     "표면장력·접촉각·모세관수 등 미세유체 스케일의 계면 현상",
+     "PDMS 소프트리소그래피 및 이미지 기반 액적 크기 측정 경험",
+     "MEMS 공정 실습 (수강 이력에 없음)"
+    ],
+    "first_step": "기존 논문 P2의 flow-focusing 형상을 참고해 단순한 PDMS 채널 도면을 그리고, 물 유량 대 기름 유량 비율을 3~4단계로 바꿀 때 예상 액적 직경을 MECH370 개념으로 추정해 표로 정리합니다. 이후 연구실에 실험 가능 여부를 문의합니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "액체금속 스펀지 전극의 변형 시 저항 변화를 단순 모델로 예측해 보기 (제안)",
+    "question": "LM을 채운 PDMS 스펀지의 기공률(salt 양)이나 압축 변형률이 달라질 때 전극 저항 변화가 기하학적 단순 모델로 얼마나 설명되는가?",
+    "interest_link": "칩 위 액체 다루기 관심을 액체금속이라는 '액체'를 소자에 넣는 방향으로 넓혀, 센서 설계에 접근합니다. 의료 진단 직접 응용은 아니고 센서 쪽 확장입니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "The LM‐infused sponge electrode exhibits a minimal change in terms of resistivity under strain, bending, and twisting (∆R < 0.01 Ω cm −1 )."
+    },
+    "course_basis": [
+     {
+      "course_code": "MECH240",
+      "concept": "stress and strain analysis, constitutive relations, and energy principles",
+      "how_used": "스펀지 구조의 변형률과 기하 변화를 정리해 저항 변화 모델의 입력으로 삼을 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "변형률 대비 저항을 계산하고 그래프로 그리는 간단한 시뮬레이션 스크립트 작성에 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "전기저항·정전용량 등 회로/전자기 기초 (수강 이력에 없음)",
+     "액체금속과 다공성 매질의 재료 특성",
+     "실험 데이터 접근 여부는 확인되지 않음"
+    ],
+    "first_step": "P1의 ∆R < 0.01 Ω cm⁻¹ 결과를 기준으로, 원통형 LM 채움 기공이 길이 방향으로 늘어날 때 부피 보존 하에 저항이 어떻게 변하는지 R=ρL/A 식으로 계산해 변형률 0~50% 곡선을 만들고 P1 보고값과 비교합니다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "MECH421",
+    "reason": "MEMS 제작 공정과 마이크로센서·액추에이터를 다루는 개론으로, 연구실 핵심 분야(MEMS/NEMS, 미세유체 소자)와 직접 이어집니다."
+   },
+   {
+    "course_code": "CHEB469F",
+    "reason": "생체 환경과 접하는 센서·바이오센서 관점을 배워 의료 진단 칩에 대한 관심을 보완합니다."
+   },
+   {
+    "course_code": "MECH621",
+    "reason": "리소그래피·증착·식각 등 미세가공 공정과 재료 문제를 다루는 심화 과목입니다. 선수 요건과 수강 가능 여부는 확인이 필요합니다."
+   }
+  ],
+  "keywords_en": [
+   "microfluidics",
+   "PDMS surface modification",
+   "hydrogel coating",
+   "wettability",
+   "flow-focusing droplet generation",
+   "liquid metal electrode",
+   "stretchable sensor",
+   "point-of-care diagnostics"
+  ],
+  "caution": "모든 주제는 제안이며, 연구실의 현재 프로젝트·모집·장비·데이터 접근 여부는 자료로 확인되지 않았습니다. 교수님이나 연구실에 직접 문의가 필요합니다. 수강 이력은 숙련을 뜻하지 않으며, 미세유체 계면현상과 전기 기초는 추가 학습이 필요합니다."
+ },
+ "duration_wall_s": 17.25,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10887,
+   "outputTokens": 30,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0011037000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2107,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 10503,
+   "webSearchRequests": 0,
+   "costUSD": 0.0631909,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 10503,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10503,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2107,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10503,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2107,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 10503,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10503
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0642946,
+ "error": null,
+ "input_sha256": "07ea077c50e6dc5c73dbccd9e35edc63c39ba6d45d244949db4ecf97e9c5d837"
+}

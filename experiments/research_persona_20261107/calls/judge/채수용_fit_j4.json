@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "칼만 필터 전류 추정과 PV 아크 검출 모두 우리 연구실 논문에 근거하며 합성 데이터·시뮬레이션으로 3개월에 맞게 줄였습니다. 첫 단계가 구체적이고 한계도 정직하게 밝혔습니다. 다만 아크 주제는 학생의 '회로 제작·제어' 관심과는 거리가 있습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "Buck PI 제어 시뮬레이션은 입문으로 적절하고 학생의 관심과 수강 과목(회로, 제어, 마이크로프로세서)에 딱 맞습니다. 칼만 필터 주제는 도전 과제로 두어 단계가 자연스럽습니다. 첫 단계도 바로 시작할 수 있습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "직접 만들고 제어해 보고 싶다는 관심에 가장 잘 맞고 위상여유 분석도 좋습니다. 그러나 소형 하드웨어 검증은 3개월에 무겁고 안전·PCB 경험이 없습니다. 부스트·파라미터 추정 주제는 우리 연구실 방향과 맞지만 도전적입니다."
+   },
+   {
+    "label": "X4",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 4,
+    "reason": "칼만 필터와 공진 필터 모두 우리 논문과 잘 맞고 근거도 정확합니다. 하지만 두 주제 모두 학생에게 새로운 이론이 많이 필요하고, 제목은 승압인데 첫 단계는 벅 컨버터라 일관성이 떨어집니다. 공진 필터 주제는 학부 1차 과제로는 어렵습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 제목만 반복했고 구체적 주제도 과목 연결도 없습니다. 첫 단계도 막연해서 학생이 시작하기 어렵습니다. 다음 과목 추천도 이유 설명이 없습니다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "미세유체·액체금속 논문은 우리 연구실 것이 아니며, 학생이 듣지 않은 유체역학·고체역학·MATH200 과목을 근거로 삼았습니다. 전력변환 관심과도 전혀 무관하여 다른 연구실 자료를 잘못 끌어온 안입니다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.46,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17123,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017243,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1272,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16740,
+   "webSearchRequests": 0,
+   "costUSD": 0.0797723,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16740,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16740,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1272,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16740,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1272,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16740,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16740
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0814966,
+ "error": null,
+ "input_sha256": "dec372ce7b9e81e2e03cfaccc196b9dc2fbb79476b6a5f2f75c067372e6301d8"
+}

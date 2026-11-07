@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "연구실 핵심인 부분관측 대칭과 능동 인지를 모두 다루고 과목 연결도 대체로 정직하나, 첫 단계(손으로 대칭축 표시)가 모호하고 주제 1은 학부생에게 다소 어렵다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "PyBullet 시점 비교와 점군 반사 복원 모두 3개월 안에 구현 가능한 구체적 첫 단계이고, 선형대수 부족을 솔직히 밝히며 관심(보기+집기)을 잘 반영한다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "clutter 파지 시점 분석과 대칭축 오차 실험이 구체적이고 실행 가능하다. 다만 연구실 근거 표기가 일부 어긋나고 파지 시뮬레이터 설정 부담이 있다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "상자 더미 가시비율 실험은 현실적이나 DENDI 데이터셋을 P2에서 소개했다고 언급한 것은 확인 불가한 내용이고, 2D 대칭은 우리 연구의 3D 초점과 다소 거리가 있다."
+   },
+   {
+    "label": "X5",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "PV 인버터와 Kalman 필터는 우리 연구실과 학생 관심(비전+로봇)에 전혀 맞지 않고 연구실 근거도 타 연구실 내용으로 보인다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반적 안내라 구체적 과제가 없고 학생이 바로 시작하기 어렵다. 심층학습 자연어처리는 부적절하며 시각 지능과 수학 추천만 적절하다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.2,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 15508,
+   "outputTokens": 23,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0015623,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1051,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 15125,
+   "webSearchRequests": 0,
+   "costUSD": 0.0711023,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15125,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 15125,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1051,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15125,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1051,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 15125,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15125
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0726646,
+ "error": null,
+ "input_sha256": "93234a3c646b5258dcc38053df5cb22526040212207d529dbf95c810eacba7a6"
+}

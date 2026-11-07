@@ -1,0 +1,168 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "가려진 물체 앞에서 카메라 시점을 바꾸면 잡을 곳이 더 잘 보일까? (시뮬레이션 기반 능동 인식 비교)",
+    "question": "여러 물체가 겹쳐 있는 장면에서, 고정된 한 시점만 쓸 때와 시점을 몇 개 더 고를 때 가장 위에 놓인 물체의 가시 면적과 집기 후보 수가 얼마나 달라지는가?",
+    "interest_link": "카메라로 물체를 알아보고 직접 집는다는 학생의 관심을 '어디서 보면 더 잘 집을 수 있나'라는 질문으로 좁힌 제안입니다. 비전과 로봇을 함께 다루는 가장 작은 단위입니다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Active Perception for Object Manipulation"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "시점 후보를 만들고 가시 면적을 계산해 비교하는 간단한 시뮬레이션 스크립트를 짜는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "카메라 방향과 물체 표면 법선 벡터의 각도로 가시성을 근사하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "평형 조건",
+      "how_used": "집기 후보가 힘과 토크 면에서 안정한지를 아주 단순한 모델로 점검할 때 출발점이 됩니다."
+     }
+    ],
+    "gaps": [
+     "컴퓨터 비전 기초(카메라 모델, 깊이 영상, 포인트 클라우드)",
+     "기계학습과 선형대수(수강 이력에 없음)",
+     "로봇 시뮬레이터 사용법과 로봇 기구학",
+     "실제 집기 성공률 평가는 하드웨어가 필요하므로 이 주제에서는 시뮬레이션 지표로만 한정"
+    ],
+    "first_step": "공개 시뮬레이터에서 상자 5~8개가 쌓인 장면을 무작위로 100개 만들고, 정면 1시점과 반구 위 8시점에서 맨 위 상자의 가시 픽셀 비율을 각각 계산해 표로 비교합니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "물체가 부분적으로 가려지면 대칭축 검출은 얼마나 나빠질까?",
+    "question": "이미지에서 물체를 인위적으로 0·10·30·50% 가렸을 때 반사 대칭축 검출 정확도는 가림 비율에 따라 어떻게 감소하는가?",
+    "interest_link": "로봇이 물체의 보이지 않는 뒷면을 짐작해 집으려면 대칭 같은 기하 단서가 도움이 될 수 있다는 가설에서 출발한 제안입니다. 인식과 집기를 잇는 다리 역할을 합니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "3D Symmetry Detection under Partial Observation"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "We start from vectors, and proceed to multivariable functions and their properties",
+      "how_used": "반사축을 직선과 법선 벡터로 표현하고 검출된 축과 정답 축의 각도 오차를 재는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Understand the fundamental principles of computation using computers.",
+      "how_used": "가림 마스크 생성과 평가 지표를 계산하는 코드를 작성하는 데 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "합성곱 신경망과 딥러닝 기초(수강 이력에 없음)",
+     "군(group)과 등변성(equivariance) 개념",
+     "대칭 검출 모델의 학습·추론 환경과 코드 공개 여부는 확인 필요",
+     "3D 대칭은 범위가 커서 이 주제에서는 2D 이미지 반사 대칭에 한정"
+    ],
+    "first_step": "P2에서 소개한 DENDI 같은 대칭 데이터셋(공개 여부 확인 필요)의 이미지 50장을 골라, 대칭축 위치를 중심으로 0·10·30·50% 면적을 가린 버전을 만들고 사람이 축을 먼저 손으로 표시해 기준을 만듭니다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "EECE490U",
+    "reason": "2D·3D 시각 데이터가 만들어지는 원리와 이를 처리하는 AI 모델을 다루므로, 두 주제 모두에 필요한 카메라·비전 기초의 빈자리를 직접 채워 줍니다."
+   },
+   {
+    "course_code": "CSED343",
+    "reason": "선형대수, 벡터 미적분, 확률 등 기계학습에 필요한 수학을 다루므로 MATH102에서 배운 벡터 미적분을 비전 모델 이해로 잇는 다리가 됩니다."
+   },
+   {
+    "course_code": "EECE565",
+    "reason": "로봇 매니퓰레이터의 기구학과 동역학을 다루므로 집기 쪽 기초를 보완합니다. 다만 제어 중심이고 대학원 수준일 수 있으니 수강 가능 여부를 확인하세요."
+   }
+  ],
+  "keywords_en": [
+   "active perception",
+   "robotic grasping",
+   "cluttered scene manipulation",
+   "viewpoint selection",
+   "occlusion",
+   "symmetry detection",
+   "equivariant learning",
+   "partial observation"
+  ],
+  "caution": "이 제안은 제공된 연구 분야 목록과 논문 초록만 근거로 한 것이며, 연구실의 현재 프로젝트, 모집 여부, 데이터·장비 사용 가능 여부는 확인되지 않았습니다. 지도교수와 먼저 상의하세요. 학생의 수강 이력에는 기계학습·컴퓨터 비전·로봇 과목이 없어 두 주제 모두 선행 학습이 필요하고, 수강 사실이 숙련을 뜻하지는 않습니다. 그래서 3개월 안에는 시뮬레이션과 공개 데이터 기반의 작은 비교 실험으로 범위를 잡았습니다."
+ },
+ "duration_wall_s": 24.23,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8187,
+   "outputTokens": 34,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008357,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3146,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 7800,
+   "webSearchRequests": 0,
+   "costUSD": 0.06276889999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 832,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 7800,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7800,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 3146,
+  "output_tokens_details": {
+   "thinking_tokens": 832
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7800,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3146,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 7800,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7800
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.06360459999999998,
+ "error": null,
+ "input_sha256": "c450dce3f863bdf727fe50d743e4d8303b2a8a6c69755efa9b614075e91a7063"
+}

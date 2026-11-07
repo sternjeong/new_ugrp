@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "태양광 PV 아크 검출과 Kalman 인버터 제어는 우리 컴퓨터비전 연구실과 무관하고, 학생의 비전·로봇 관심과도 맞지 않습니다. 다른 연구실 문구를 인용한 것으로 보입니다."
+   },
+   {
+    "label": "X2",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 1,
+    "interest_fit": 3,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름은 맞지만 구체적 주제나 과제가 없고 '원문을 보라'는 일반론에 그칩니다. 바로 시작할 수 있는 작업이 없고, 심층학습 자연어처리는 부적절합니다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "대칭과 파지, 능동 인지를 모두 우리 연구실 분야에 맞게 연결했고 약한 과목 연결도 인정했습니다. 첫 단계의 손 표시 기준선은 구체적이나 다소 수작업 위주이고, 파지 안정성과 회전 대칭을 연결한 부분은 약간 과장입니다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "clutter 파지 분석과 대칭 가림 실험이 우리 연구실 분야에 잘 맞고, 가림 비율별 각도 오차 측정이라는 첫 단계도 학부생이 바로 할 수 있습니다. 다만 파지 성공 기록용 시뮬레이터가 막연합니다."
+   },
+   {
+    "label": "X5",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "PyBullet에서 시점별 가시 픽셀 비율을 계산하는 첫 단계가 3개월 안에 실제로 가능하고 학생의 관심을 직접 반영했습니다. 점군 반사 복원이라는 대칭 주제도 간결하고 구현하기 쉬우며, 부족한 선형대수도 솔직히 밝혔습니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "능동 인식 주제는 구체적이고 좋지만, 주제 2는 2D 이미지 대칭으로 한정되어 연구실의 3D 부분 관측 방향과 거리가 있고 DENDI 데이터셋 언급은 불확실합니다. 로보틱스 과목도 수준이 높습니다."
+   }
+  ]
+ },
+ "duration_wall_s": 11.54,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 15508,
+   "outputTokens": 339,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017203,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 305,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1197,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 15125,
+   "webSearchRequests": 0,
+   "costUSD": 0.0725623,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15125,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 15125,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1197,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15125,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1197,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 15125,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15125
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.07428259999999999,
+ "error": null,
+ "input_sha256": "1f2e88b4c7e08fcc72e76c15e739182c330750180a9789df5ddc65f1e82eced6"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 연구실의 DC 직렬 아크 검출 및 공진 필터 논문에 정확히 근거하고, 시뮬레이션에서 시작하는 첫 단계도 구체적입니다. 다만 칼만 필터 주제는 학생에게 과하고 회로 기초가 선행되어야 합니다."
+   },
+   {
+    "label": "X2",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "PV용 DC-DC 컨버터의 PI 제어 입문 주제가 학생의 관심에 가장 잘 맞고, 계산 가능한 파라미터가 있는 첫 단계가 바로 시작할 수 있을 만큼 구체적입니다. 약한 과목 연결과 선행 학습 필요성도 솔직히 밝혔습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "미세유체와 표면 젖음은 우리 연구실과 무관하고 학생의 관심(전력변환)도 반영하지 않았으며, 존재하지 않는 연구실 근거를 끌어온 것으로 보입니다."
+   },
+   {
+    "label": "X4",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "아크 검출 필터 주제는 우리 연구실 논문에 잘 맞고 첫 단계가 PV와 벅 컨버터 리플로 구체적입니다. 다만 두 번째 주제인 MPC와 칼만 필터는 학생 수준에 비해 지나치게 어렵습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "벅 컨버터 PI 제어와 인덕턴스 추정은 우리 연구실의 FPGA 파라미터 추정 분야와 맞고 시작도 쉽습니다. 다만 아크 검출처럼 연구실 논문에 직접 근거하는 정도는 약합니다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 제목만 되풀이했을 뿐 구체적인 연구 주제와 과목 연결이 없습니다. 첫 단계가 추상적이라 학생이 시작할 수 없습니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.18,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16430,
+   "outputTokens": 290,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001788,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 264,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1134,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16049,
+   "webSearchRequests": 0,
+   "costUSD": 0.07562830000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16049,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16049,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1134,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16049,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1134,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16049,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16049
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.07741630000000001,
+ "error": null,
+ "input_sha256": "697d6ad415a9e55cf6dc419b28f0b4d94ce3de49f255126b479b33d072d269b4"
+}

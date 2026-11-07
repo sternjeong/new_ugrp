@@ -1,0 +1,172 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "UTR Designer 예측값과 E. coli 보고 유전자 발현량의 비교 검증 (제안)",
+    "question": "5'UTR 서열 설계 도구가 예측한 번역 효율과, 형광 단백질 보고 유전자로 측정한 실제 발현량은 서로 얼마나 일치하는가?",
+    "interest_link": "학생이 관심 있다고 한 '설계 도구'와 '실험'을 함께 다룹니다. 유전자 발현을 설계로 조절하고 측정으로 확인하는 작은 설계-검증 과정입니다.",
+    "lab_basis": {
+     "source_id": "S6",
+     "quote": "Fine-tunable and predictable expression level control system"
+    },
+    "course_basis": [
+     {
+      "course_code": "LIFE321",
+      "concept": "how genes function in the cell, transcription",
+      "how_used": "전사와 유전자 기능에 대한 수강 내용을 바탕으로, 5'UTR 변화가 발현에 미치는 영향을 해석하는 출발점으로 삼을 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "설계 도구가 출력한 예측값과 측정값을 정리하고 비교하는 간단한 스크립트 작성에 활용할 수 있습니다."
+     },
+     {
+      "course_code": "CHEB308",
+      "concept": "Application of chemical engineering principles to systems containing biological catalysts",
+      "how_used": "생물 시스템을 공학적 관점에서 보는 틀로 쓸 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "번역 개시와 RBS·5'UTR 구조에 대한 심화 지식",
+     "클로닝과 형광 측정 같은 실험 기법 (수강 소개에 실습 언급 없음)",
+     "통계적 비교 방법 (IMEN242 같은 과목으로 보완 가능)"
+    ],
+    "first_step": "S7에 나온 UTR Designer 같은 도구의 공개 논문을 읽고, 동일한 형광 단백질 유전자 앞에 놓을 5'UTR 후보 5~6개를 설계해 예측 발현량 순위표를 스프레드시트로 만듭니다. 이후 실제 측정이 가능한지 연구실에 문의합니다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "효소 서열 공진화 분석으로 돌연변이 후보 선정하기 (제안)",
+    "question": "공진화 정보로 고른 아미노산 위치 후보는 무작위로 고른 위치보다 효소 활성 개량에 더 유리한가?",
+    "interest_link": "원하는 물질을 만드는 미생물의 핵심 효소를 계산으로 설계하는 방향이라 설계 도구 관심과 맞닿습니다. 처음에는 공개 서열 데이터로 계산만 해도 시작할 수 있습니다.",
+    "lab_basis": {
+     "source_id": "S10",
+     "quote": "sequence co-evolutionary analysis to control the efficiency of enzyme reactions (SCANEER)"
+    },
+    "course_basis": [
+     {
+      "course_code": "LIFE319",
+      "concept": "생명 현상을 화학적 관점에서 분석하고 분자 수준에서 이해",
+      "how_used": "효소 구조와 반응을 분자 수준에서 해석할 때 기본 배경이 됩니다."
+     },
+     {
+      "course_code": "CHEB308",
+      "concept": "Enzymes_ Molecular supercatalysts for use at home and in industry",
+      "how_used": "산업적 효소 개량의 목적과 맥락을 이해하는 데 쓸 수 있습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills",
+      "how_used": "서열 정렬 결과를 처리하는 기초 코딩에 활용할 수 있습니다."
+     }
+    ],
+    "gaps": [
+     "다중 서열 정렬과 공진화 통계 (커플링 분석)",
+     "단백질 3차 구조 해석",
+     "효소 동역학 실험 설계",
+     "수강 과목만으로 이 분석을 수행할 수 있다고 볼 수는 없으므로 지도가 필요함"
+    ],
+    "first_step": "문헌에서 잘 알려진 효소 하나(예: 대사 경로의 효소 1종)를 골라 공개 데이터베이스에서 상동 서열을 모아 정렬하고, 보존도가 높은 위치와 공변하는 위치를 표로 비교합니다. 분석 방법은 SCANEER 관련 논문을 읽고 확인합니다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "SYNB501",
+    "reason": "DBTL 사이클과 Design+computation(효소 구조, 대사 모델링)을 다뤄 두 주제의 설계-검증 틀과 직접 이어집니다."
+   },
+   {
+    "course_code": "SYNB520",
+    "reason": "효소 기질 특이성 설계와 컴퓨테이션 방법을 배우므로 주제 2의 부족한 구조·계산 개념을 보완합니다."
+   },
+   {
+    "course_code": "IMEN242",
+    "reason": "실험계획과 회귀·ANOVA를 배워 예측값과 측정값 비교 및 실험 설계에 필요한 통계 기초를 채웁니다."
+   }
+  ],
+  "keywords_en": [
+   "synthetic biology",
+   "metabolic engineering",
+   "5' UTR design",
+   "translation efficiency",
+   "expression level control",
+   "enzyme engineering",
+   "sequence co-evolution",
+   "DBTL cycle"
+  ],
+  "caution": "이 제안은 공개된 연구 분야 소개만 근거로 합니다. 연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근은 확인되지 않았습니다. S11에는 대학원생·박사후연구원 모집만 적혀 있어 학부생 참여 가능 여부는 직접 문의해야 합니다. 후보 과목 중 일부(SYNB, 대학원 과목)는 수강 자격 확인이 필요합니다. 수강 이력이 해당 기법의 숙련을 뜻하지는 않습니다."
+ },
+ "duration_wall_s": 16.52,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6725,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0006850000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2174,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 6338,
+   "webSearchRequests": 0,
+   "costUSD": 0.047200900000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 6338,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6338,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2174,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6338,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2174,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 6338,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6338
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0478859,
+ "error": null,
+ "input_sha256": "bfa3499b382439b8b8298da913d32ea2aa49230c62478c61d08eed287237e028"
+}

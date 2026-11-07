@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 3,
+    "course_fit": 2,
+    "interest_fit": 3,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "템플릿식 '자료 살펴보기'로 구체적 연구 문제나 실질적 첫 단계가 없고 과목 연결도 형식적이다. 다음 과목도 학생 수준과 주제에 맞는 근거가 약하다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "우리 연구실 역전류 보호 논문(0.6 V RHE)에 정확히 기반하고 열역학·에너지소재 연결이 현실적이다. 두 번째 Au 주제는 입문 과제로 적당하나 과목 연결을 일부 후하게 잡았다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "우리 연구실(전극물성, 전기화학)과 무관한 그래핀 Josephson 접합 내용이고 학생이 듣지 않은 과목을 근거로 해 다른 연구실 자료가 섞인 오류 안이다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 3,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 4,
+    "reason": "방향은 맞지만 연구실 근거가 분야 이름뿐이라 일반적이고 배터리 공개 데이터 분석은 우리 연구와 거리가 있다. 첫 단계는 명확하나 차별성이 떨어진다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "Ni 전극 역전류 열화 논문에 정확히 근거하고 열역학 연결이 솔직하다. 두 번째 Au 주제는 표면적과 안정성을 분리해 묻는 질문이 좋지만 X6의 첫 단계보다 구체성이 약하다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "두 주제 모두 우리 수전해 논문(역전류 보호, 초소수성 Ni 기포 이탈)에 직접 기반하고 관심인 수전해와 오래가는 전극에 정확히 맞는다. 3개월 내 실험 설계안 작성까지 이어지는 첫 단계가 구체적이라 가장 좋다."
+   }
+  ]
+ },
+ "duration_wall_s": 15.61,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16648,
+   "outputTokens": 318,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018238000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 291,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 2264,
+   "cacheReadInputTokens": 18035,
+   "cacheCreationInputTokens": 22470,
+   "webSearchRequests": 0,
+   "costUSD": 0.1143315,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 48,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 22470,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 22470,
+  "cache_read_input_tokens": 18035,
+  "output_tokens": 2264,
+  "output_tokens_details": {
+   "thinking_tokens": 48
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 22470,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1157,
+    "cache_read_input_tokens": 17152,
+    "cache_creation_input_tokens": 6201,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6201
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.11615529999999999,
+ "error": null,
+ "input_sha256": "63ccea62024cf1304118198ec02bb095f6e81b888e0dde1c71f1bf30d14bb783"
+}

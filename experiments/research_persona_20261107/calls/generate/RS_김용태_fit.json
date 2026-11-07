@@ -1,0 +1,162 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "알칼라인 수전해 Ni 전극의 전위 이력에 따른 열화 문헌 기반 정리와 간이 실험 설계",
+    "question": "알칼라인 수전해에서 start-up/shut-down 시 Ni 전극이 어떤 전위 범위(예: 0.6 V RHE 기준 위·아래)에서 비가역적으로 산화되는가? 이를 확인할 간이 전위 인가 조건을 어떻게 설계할 수 있는가?",
+    "interest_link": "관심사인 수전해와 '오래가는 전극'을 전극 열화(내구성)라는 하나의 문제로 직접 연결합니다.",
+    "lab_basis": {
+     "source_id": "P3",
+     "quote": "the potential of the Ni electrode should be maintained below 0.6 V RHE under the transient condition to keep a reversible nickel phase and an activity for the hydrogen evolution reaction"
+    },
+    "course_basis": [
+     {
+      "course_code": "AMSE205",
+      "concept": "Gibbs free energy 기반 phase equilibrium 기준",
+      "how_used": "Ni, Ni(OH)2, NiO 상이 전위·조건에 따라 어느 쪽이 안정한지 열역학적으로 해석하는 출발점으로 사용합니다."
+     },
+     {
+      "course_code": "AMSE414",
+      "concept": "basic concept of electrochemistry와 energy conversion and storage devices",
+      "how_used": "수전해 셀에서 전극 반응과 전위의 의미를 이해하는 배경으로 사용합니다."
+     }
+    ],
+    "gaps": [
+     "전위-pH(Pourbaix) 도표 읽기",
+     "기준전극과 RHE 환산",
+     "순환전압전류법(CV) 등 전기화학 측정법",
+     "역전류·sacrificial anode 개념"
+    ],
+    "first_step": "P3를 읽고 Ni 음극의 상 변화(Ni → β-Ni(OH)2 / NiO)와 0.6 V RHE 기준을 표로 정리합니다. 그다음 Ni–H2O Pourbaix 도표에서 알칼라인 조건의 0.6 V RHE 전후 안정 상이 어떻게 달라지는지 확인해 교수님·대학원생에게 간이 CV 조건을 질문할 목록을 만듭니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "CO2 환원 Au 나노입자 전극의 64 h 안정성 데이터 재분석 제안",
+    "question": "PEI 리간드로 합성한 Au 나노입자 전극의 전류 감소율(시간당 0.25 %)과 jCO는 입자 크기·표면적과 어떤 관계가 있는가? 공개된 수치만으로 내구성 지표를 비교할 수 있는가?",
+    "interest_link": "전극 수명이라는 관심사를 연구실의 CO2 reduction 분야로 넓혀, 촉매 구조와 장기 안정성의 관계를 문헌 수준에서 따져봅니다.",
+    "lab_basis": {
+     "source_id": "P6",
+     "quote": "the PEI−Au/C electrode exhibits stable performance over 64 h, with an hourly current degradation rate of 0.25 %"
+    },
+    "course_basis": [
+     {
+      "course_code": "CHEM101",
+      "concept": "반응속도론과 화학평형",
+      "how_used": "전류 감소를 속도 개념으로 보고 열화율을 해석하는 데 사용합니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and problem-solving",
+      "how_used": "논문에서 옮긴 jCO, 전류 감소율 등의 수치를 표로 정리하고 간단히 그래프로 비교하는 데 사용합니다."
+     }
+    ],
+    "gaps": [
+     "나노입자 합성과 TEM 크기 분석",
+     "CO2 환원의 전기화학 측정법(전류밀도, Faradaic efficiency)",
+     "막-전극 접합체(MEA) 구조"
+    ],
+    "first_step": "P6에서 PEI−Au/C와 bare Au NPs/C의 jCO(28.6 vs 21.7 mA cm−2, −1.13 VRHE), 입자 크기(3 nm), 64 h 열화율을 한 표로 정리합니다. 이 수치를 비교했을 때 '표면적 증가'와 '안정성'이 같은 것인지 분리하는 질문 3개를 적어 봅니다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "BATT524",
+    "reason": "전극 과정, 전위와 열역학, electron-transfer kinetics, mass transfer를 다루므로 전극 열화와 수전해·CO2 환원 해석에 가장 직접 필요합니다. 학부 수강 가능 여부는 확인이 필요합니다."
+   },
+   {
+    "course_code": "AMSE721T",
+    "reason": "수소 생산–저장–활용의 개요와 금속-수소 상호작용을 다루어 수전해 전극 주제의 배경을 넓혀 줍니다."
+   },
+   {
+    "course_code": "BATT623",
+    "reason": "열역학과 상변태를 바탕으로 전극의 redox 기구와 상 안정성을 분석하므로 Ni 산화 상 해석과 이어집니다."
+   }
+  ],
+  "keywords_en": [
+   "alkaline water electrolysis",
+   "electrode degradation",
+   "reverse current",
+   "nickel hydroxide",
+   "cathodic protection",
+   "CO2 reduction",
+   "Au nanoparticles",
+   "durability"
+  ],
+  "caution": "두 주제는 제공된 논문 초록과 연구 분야 목록만 근거로 한 제안입니다. 연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근 가능성은 확인되지 않았으므로 먼저 문의하세요. 수강 사실이 숙련을 뜻하지 않으며, 자동 추출된 개념 겹침은 틀릴 수 있습니다. 첫 단계는 문헌 정리 중심이고, 실험은 지도를 받은 뒤에 정하세요."
+ },
+ "duration_wall_s": 17.35,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8991,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0009116000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2135,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 8606,
+   "webSearchRequests": 0,
+   "costUSD": 0.055882900000000006,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 8606,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8606,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2135,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8606,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2135,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 8606,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8606
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.056794500000000005,
+ "error": null,
+ "input_sha256": "6ae975fdd67b9466a450b709b4b42a9510740f4c7c433ec57b54d8376fcf1698"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 6,
+    "reason": "구체적인 연구 주제가 없는 일반적인 템플릿이다. 첫 단계도 모호하고 학생의 관심(칩 위 액체 다루기)을 반영하지 않았다."
+   },
+   {
+    "label": "X2",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 5,
+    "reason": "합성생물학 연구실용 안이다. UTR Designer와 SCANEER는 우리 연구실과 무관하고 학생의 관심과도 맞지 않는다. 연구실 소개와 근거가 사실과 다르다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "입자 포획 유동 모델링은 우리 연구실의 입자 클러스터 어레이 연구와 맞고 학생의 유체·ODE 배경으로 시작할 수 있다. 초소수성 접촉각 모델링도 실행 가능하다. 다만 2D 유선 분율 계산은 Stokes 유동 지식이 더 필요하다."
+   },
+   {
+    "label": "X4",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "유속·압력 강하·Stokes 항력을 계산하는 첫 단계가 구체적이라 바로 시작할 수 있다. 연구실의 미세유체 입자 조작과 표면 개질 연구에 닿아 있다. 열역학 연결이 간접적이라는 점을 솔직히 밝혔고, 한계도 정직하게 적었다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "hydrogel 코팅 PDMS 채널과 액체금속 스펀지는 모두 우리 논문에 근거한 주제다. 액적 직경 추정은 유체역학만으로는 다소 무리가 있다. 액체금속 주제는 진단 관심에서 멀다고 솔직히 밝혔다."
+   },
+   {
+    "label": "X6",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "서펜타인 dip coating과 액체금속 전극은 우리 논문과 정확히 맞는다. 다만 박막 유동을 MATH200 수준으로 모델링하는 일은 학생에게 부담이 크다. 미적분II 연결은 다소 억지스럽다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.58,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17451,
+   "outputTokens": 302,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018961000000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 276,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1139,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17070,
+   "webSearchRequests": 0,
+   "costUSD": 0.0797623,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17070,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17070,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1139,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17070,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1139,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17070,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17070
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08165839999999999,
+ "error": null,
+ "input_sha256": "7006b4ae57c8ae09c0db2150f81822e3dece3af822a8c32252b0f61e8c932783"
+}

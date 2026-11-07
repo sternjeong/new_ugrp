@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "로봇 파지·비전 주제로 우리 연구실과 무관하고, 학생이 듣지 않은 과목(응용선형대수 등)을 근거로 삼았으며 관심(그래핀·초전도 소자)도 반영하지 못했다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "Floquet-Andreev 논문 그림과 1D 모형 비교, Dirac 굴절 계산 모두 우리 연구와 맞고 학생이 들은 과목으로 시작할 수 있다. 다만 1D 슈뢰딩거로 위상차 의존 초전류를 비교하는 것은 다소 거칠다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 3,
+    "reason": "p-n 접합 투과 계산은 구체적이고 바로 시작할 수 있으며 Dirac 광학과 잘 맞는다. 주제 2의 BTK 피팅은 어렵지만 계산·문헌 기반이라 감당할 만하다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 일반적 안내이고 구체적 주제와 과목 연결이 없으며 첫 단계도 막연하다. 다음 과목은 중복되어 있다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 BLG 조셉슨 접합과 Floquet-Andreev 논문을 정확히 인용했고 약한 과목 연결(PHYS206, PHYS401)을 솔직히 밝혔다. 첫 단계도 구체적이며 선행 지식 부족을 인정한 점이 공정하다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "주제 1은 입문용으로 적절하고 첫 단계가 명확하다. 주제 2의 twisted d-wave는 우리 연구실의 Bi-2212 논문이 있어 완전히 벗어나진 않지만, 안 자체가 이 연구실 논문인지 불확실하다고 인정해 현재 연구와 거리가 있다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.09,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 18295,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018415,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1126,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17913,
+   "webSearchRequests": 0,
+   "costUSD": 0.08300429999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17913,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17913,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1126,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17913,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1126,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17913,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17913
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08484579999999999,
+ "error": null,
+ "input_sha256": "3aed50c202e6db1fe0106501f0c017175c489dce36ffba71b607f6a3e6641d05"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 3,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "수전해 전극 열화율 분석은 학생의 프로그래밍·신호 과목과 잘 맞고 바로 시작할 수 있다. 다만 연구실 근거가 키워드 수준이고 논문 그래프 추출에 그치기 쉬우며, 주제 2(배터리 곡선 피팅)는 우리 연구와 거리가 있다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "우리 논문(Cu TEC, Au CO2RR)을 정확히 인용하고 첫 단계도 구체적이다. 그러나 Cu TEC의 pH 창을 수전해로 확장한다는 질문은 다소 무리이고, 학생 관심인 배터리·수전해와는 약간 비켜 있다."
+   },
+   {
+    "label": "X3",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 2,
+    "useful": 1,
+    "next_courses": 3,
+    "accept": false,
+    "rank": 6,
+    "reason": "키워드만 나열한 일반 템플릿이어서 구체적인 연구 질문도 수강 과목 연결도 없다. 학생이 바로 시작할 수 있는 내용이 없다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 5,
+    "reason": "X2와 비슷하게 우리 논문을 근거로 하지만, Cu TEC 결과를 수전해·배터리 수명으로 일반화한 부분과 IrO2 MEA 언급이 근거 없이 끼어 있다. 주제 2는 학생 관심과 거리가 있고 X2보다 약간 못하다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "우리 알칼리 수전해 셧다운 역전류 논문(희생양극·0.6 V RHE)과 Ni 나노어레이 기포 논문을 정확히 짚었다. 수전해 전극 내구성이라는 관심에 직접 맞고, 첫 단계가 구체적이며 과목 연결의 한계도 솔직히 밝혔다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 3,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 2,
+    "reason": "그래핀-초전도체 양자소자는 우리 연구실과 무관하고 학생 관심과도 맞지 않아 다른 연구실 자료로 보인다. 내용 자체는 구체적이지만 우리 연구실에서는 받을 수 없다."
+   }
+  ]
+ },
+ "duration_wall_s": 10.35,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 17121,
+   "outputTokens": 326,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018751000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 299,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1172,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16740,
+   "webSearchRequests": 0,
+   "costUSD": 0.0787723,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16740,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16740,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1172,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16740,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1172,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16740,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16740
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08064740000000001,
+ "error": null,
+ "input_sha256": "eacb522284e63f07301daa82ccd3b4a9538697e7026eeb8808d518b22130a3bf"
+}

@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "UTR Designer로 설계하고 실험으로 검증하는 구도는 우리 연구실 핵심과 맞습니다. 다만 Vibrio sp. dhg 리코펜 경로는 학부생 3개월에는 무겁고, SCANEER 주제는 도전적입니다. 접근 가능 여부를 확인 전까지 가정하지 않는다는 점은 좋습니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "E. coli와 GFP 리포터로 범위를 좁힌 UTR 예측 대 발현 비교입니다. 학부생이 3개월 안에 DBTL을 한 바퀴 돌 수 있는 현실적인 계획입니다. 연구실 서술이 정확하고 과목 연결의 한계도 솔직하게 밝혔습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "X2와 거의 같은 UTR 주제로 타당하고 근거도 정확합니다. 다만 첫 단계가 덜 구체적입니다. SCANEER 주제에서 일반화학의 신약개발 연결은 다소 억지입니다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "일반적인 문구뿐이고 구체적인 연구 질문이 없습니다. 과목 연결도 없고, 학생이 바로 시작할 수 있는 작업도 없습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 2,
+    "useful": 3,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 6,
+    "reason": "전극 부식과 CO2 환원은 우리 연구실이 하는 연구가 아닙니다. 학생의 미생물 유전자 설계 관심과도 맞지 않아 다른 연구실 자료가 섞인 것으로 보입니다."
+   },
+   {
+    "label": "X6",
+    "doable": 5,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "문헌 데이터로 5'UTR 특징 모델을 만드는 첫 단계는 매우 구체적이고, 프로그래밍 수강 이력과 잘 맞습니다. 3-HP 물질수지 주제는 우리 논문에 근거하지만, 생물 과목이 없는 학생에게는 습식 실험이 없는 점이 아쉽습니다. 그래서 X2보다 한 단계 아래로 봅니다."
+   }
+  ]
+ },
+ "duration_wall_s": 11.17,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16909,
+   "outputTokens": 330,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018559000000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 300,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1188,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 16528,
+   "webSearchRequests": 0,
+   "costUSD": 0.07808430000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 16528,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 16528,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1188,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 16528,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1188,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 16528,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 16528
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0799402,
+ "error": null,
+ "input_sha256": "f70a6c4eae12f3d494fcef05fc0d78a0e5968efab0b65d921e5feb98ec629c52"
+}

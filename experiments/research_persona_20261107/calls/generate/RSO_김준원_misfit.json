@@ -1,0 +1,166 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "미세유체 칩 내 입자 흐름의 간단한 모델링과 유동 조건 탐색 (제안)",
+    "question": "마이크로채널 안에서 유량과 채널 폭을 바꾸면 입자가 모이는 위치(입자 클러스터 배열 형성)가 어떻게 달라질지, 단순한 유체역학 모델과 수치 계산으로 예측할 수 있을까?",
+    "interest_link": "학생이 말한 '작은 칩 위에서 액체를 다루는 장치'와 의료 진단 응용을, 연구실의 미세유체 기반 입자/세포 조작 연구와 연결한 계산 중심 주제입니다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "미세유체 기반의 미세입자/세포의 조작 기술"
+    },
+    "course_basis": [
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable calculus, divergence theorem (fluid dynamics)",
+      "how_used": "채널 단면의 속도장과 유량 보존을 수식으로 세우는 데 사용할 수 있습니다."
+     },
+     {
+      "course_code": "PHYS101",
+      "concept": "운동법칙, 에너지/운동량 보존법칙",
+      "how_used": "입자에 작용하는 힘의 균형을 단순화해 입자 운동을 기술하는 데 사용합니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and enhance problem-solving skills",
+      "how_used": "유량·채널 폭을 바꿔 가며 입자 궤적을 시뮬레이션하는 간단한 코드를 짜는 데 사용합니다."
+     }
+    ],
+    "gaps": [
+     "유체역학(점성, 레이놀즈 수, 층류 유동)",
+     "미세유체 소자 제작 공정(soft lithography 등)",
+     "입자에 작용하는 관성 양력·항력 등 입자-유체 상호작용"
+    ],
+    "first_step": "직경 10 μm 입자가 폭 100 μm 직사각형 채널을 지날 때, 유량 5종(예: 10~200 μL/min)에 대해 포물선 속도 분포 가정하에 입자 위치를 계산하는 파이썬 스크립트를 짜고, 레이놀즈 수와 입자 위치의 관계를 그래프로 그려 연구실 논문 P4와 비교할 질문 목록을 만든다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "표면 처리와 미세유체 장치: 친수/소수 표면이 액적·액체 거동에 미치는 영향 정리 (제안)",
+    "question": "PDMS 같은 소재 표면의 선택적 개질(친수·소수)이 마이크로채널 속 액체의 젖음과 흐름에 어떤 차이를 만드는지, 문헌 조사와 간단한 접촉각 측정 설계로 정리할 수 있을까?",
+    "interest_link": "칩 위에서 액체를 제어하려면 표면 성질이 중요하며, 이는 연구실의 표면 처리 연구와 의료용 미세유체 장치 연구가 만나는 지점입니다.",
+    "lab_basis": {
+     "source_id": "S2",
+     "quote": "Selective surface modification in various applications"
+    },
+    "course_basis": [
+     {
+      "course_code": "CHEM101",
+      "concept": "분자간의 힘, 화학열역학과 화학평형",
+      "how_used": "표면 에너지와 젖음 현상을 분자간 힘 관점에서 설명하는 데 사용합니다."
+     },
+     {
+      "course_code": "MATH230",
+      "concept": "hypothesis testing, and linear regression",
+      "how_used": "접촉각 측정값을 처리 조건별로 비교하는 간단한 통계 분석에 사용합니다."
+     }
+    ],
+    "gaps": [
+     "접촉각·표면 장력·Young 방정식 같은 젖음 이론",
+     "PDMS와 하이드로겔 등 고분자 표면 화학",
+     "실험실 안전 교육과 측정 장비 사용 경험"
+    ],
+    "first_step": "PDMS 표면의 산소 플라즈마 처리 전후 물방울 접촉각 변화에 관한 논문 5편을 골라, 처리 조건(시간, 출력)과 접촉각을 표로 정리하고 P5의 하이드로겔 코팅 논문과 비교한다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "MECH421",
+    "reason": "MEMS 공정과 마이크로센서·액추에이터의 작동 원리를 다루는 입문 과목으로, 연구실의 핵심 분야와 직접 맞닿아 있습니다."
+   },
+   {
+    "course_code": "CHEB469F",
+    "reason": "소개에 biosensors와 생체 환경과 맞닿는 전자 시스템이 나와 의료 진단용 칩이라는 학생의 관심과 이어집니다."
+   },
+   {
+    "course_code": "MECH621",
+    "reason": "리소그래피·증착·식각 같은 미세가공 공정을 다루므로 칩 제작 이해를 넓힐 수 있으나, 고급 과목이라 MECH421 이후가 적절합니다."
+   }
+  ],
+  "keywords_en": [
+   "microfluidics",
+   "lab-on-a-chip",
+   "MEMS",
+   "particle manipulation",
+   "surface modification",
+   "wettability",
+   "PDMS",
+   "biomedical devices"
+  ],
+  "caution": "이 제안은 제공된 자료만 근거로 한 것이며 연구실의 현재 프로젝트, 모집 여부, 장비·데이터 접근 가능성은 확인되지 않았습니다. 교수님께 먼저 문의해야 합니다. 수강 이력은 숙련도를 뜻하지 않으며, 유체역학과 미세가공 지식은 별도로 보완해야 합니다. 논문 겹침 개념은 자동 추출이라 부정확할 수 있습니다."
+ },
+ "duration_wall_s": 29.66,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 11339,
+   "outputTokens": 411,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0013394,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 382,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 4573,
+   "cacheReadInputTokens": 13055,
+   "cacheCreationInputTokens": 19935,
+   "webSearchRequests": 0,
+   "costUSD": 0.1267835,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 424,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 19935,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 19935,
+  "cache_read_input_tokens": 13055,
+  "output_tokens": 4573,
+  "output_tokens_details": {
+   "thinking_tokens": 424
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 19935,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2501,
+    "cache_read_input_tokens": 12006,
+    "cache_creation_input_tokens": 8978,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8978
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.1281229,
+ "error": null,
+ "input_sha256": "7e2eb213d54dee2572a3e1585889f0d0417421377b2169aa7dab2315f7e433fd"
+}

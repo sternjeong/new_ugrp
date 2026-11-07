@@ -1,0 +1,174 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "이중층 그래핀 조셉슨 접합에서 게이트 전압에 따른 Andreev 준위 스펙트럼 모델링 (제안)",
+    "question": "이중층 그래핀의 2차 밴드 분산 때문에 게이트 전압으로 Fermi 속도와 coherence length가 바뀔 때, short에서 long junction으로 넘어가며 Andreev bound state 개수가 어떻게 변하는지 간단한 모델로 재현할 수 있는가?",
+    "interest_link": "그래핀-초전도체 소자를 직접 다루고 싶다는 관심과, 양자역학 수업에서 배운 슈뢰딩거 방정식 및 구속 상태 개념을 이어주는 계산 중심 입문 주제입니다.",
+    "lab_basis": {
+     "source_id": "P1",
+     "quote": "We demonstrate that the mode number of Andreev bound states in bilayer graphene Josephson junctions can be modulated by controlling the superconducting coherence length in situ."
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS301",
+      "concept": "Schrodinger's equation in 1 dimension solutions",
+      "how_used": "1차원 퍼텐셜 우물에서 구속 상태 에너지가 길이에 따라 어떻게 달라지는지 계산해, 접합 길이 대비 coherence length 변화에 따른 준위 수 변화를 이해하는 출발점으로 삼습니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and problem-solving skills",
+      "how_used": "Python으로 준위 에너지를 수치 계산하고 게이트 전압(Fermi 속도)에 따른 변화를 그래프로 그리는 데 씁니다."
+     },
+     {
+      "course_code": "PHYS401",
+      "concept": "응집물질에서 일어나는 물리적 특성에 대한 기본적 이해",
+      "how_used": "이중층 그래핀 밴드 분산을 해석하는 기초 배경으로 사용합니다."
+     }
+    ],
+    "gaps": [
+     "BCS 이론과 Andreev 반사 개념 (PHYS653/QIST658 내용에 해당, 수강 기록 없음)",
+     "Josephson 효과와 phase-dependent current",
+     "터널링 분광법의 해석",
+     "밴드 이론 수준의 이중층 그래핀 분산 (PHYS401 소개만으로 충분한지 불확실)"
+    ],
+    "first_step": "P1을 읽고 short junction과 long junction 극한에서 Andreev 에너지 준위 공식을 정리한 뒤, 접합 길이 L을 고정하고 coherence length ξ=ħv_F/Δ를 바꿨을 때 L/ξ에 따른 준위 개수 변화를 Python으로 그려 보세요. 이를 P1의 charge neutral point 근처 경향과 비교해 볼 수 있습니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "마이크로파 구동 그래핀 조셉슨 접합의 Floquet–Andreev 스펙트럼 측정 데이터 분석 (제안)",
+    "question": "마이크로파 주파수와 파워를 바꿀 때 Floquet–Andreev 상태의 side-band 위치와 세기는 어떻게 변하며, 이를 위상차 의존성과 함께 정량적으로 정리할 수 있는가?",
+    "interest_link": "소자를 만들고 측정해 보고 싶다는 관심에 맞춰, 먼저 공개 논문의 측정 곡선을 읽고 분석하는 방식으로 극저온 수송 측정의 변수와 해석 틀을 익히는 주제입니다. 실제 장비나 데이터 접근은 연구실과 협의가 필요합니다.",
+    "lab_basis": {
+     "source_id": "P3",
+     "quote": "Here, we report the generation of steady Floquet Andreev (F-A) states in graphene Josephson junctions by continuous microwave application and direct measurement of their spectra by superconducting tunnelling spectroscopy."
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS201",
+      "concept": "de Broglie wave and the Schrodinger equation",
+      "how_used": "주기적으로 구동되는 양자계의 에너지 준위가 구동 주파수만큼 반복되어 나타나는 sideband 개념을 파동 관점에서 이해하는 기초로 씁니다."
+     },
+     {
+      "course_code": "PHYS206",
+      "concept": "static, time-independent electric fields and magnetic fields",
+      "how_used": "정적 장을 다루는 과목이라 시간 의존 마이크로파 구동과는 직접 연결되지 않으며, 게이트 전압에 의한 정전기적 조절을 이해하는 보조 배경으로만 사용합니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "computational thinking and problem-solving skills",
+      "how_used": "논문 그림에서 읽은 값 또는 시뮬레이션한 곡선의 피크 위치를 주파수의 함수로 피팅하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "Floquet 이론과 시간 의존 섭동 이론 (수강 기록 없음)",
+     "Josephson 접합과 Andreev 반사 기초",
+     "마이크로파 구동 및 극저온 측정 기법",
+     "터널링 전도도 sum rule 해석",
+     "PHYS206은 정적 장만 다뤄 시간 의존 전자기장과의 연결이 약함"
+    ],
+    "first_step": "P3에서 마이크로파 주파수 f를 바꾼 측정 그림을 골라, sideband 간격이 hf에 해당하는지 확인하는 표를 만드세요. f, 위상차, 파워를 열로 하고 관측된 피크 에너지 위치를 정리해 보세요. 그 결과를 PHYS701A 같은 후속 수강과 지도 교수 상담에서 질문 목록으로 사용하세요.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "PHYS701A",
+    "reason": "저온 전기 수송을 실험가 관점에서 다루고 측정 기법도 포함한다고 소개되어, 10 mK 극저온 양자수송측정이라는 연구실 소개 내용과 직접 연결됩니다."
+   },
+   {
+    "course_code": "PHYS653",
+    "reason": "BCS 이론을 다루므로 그래핀-초전도체 접합의 Andreev 준위와 Josephson 효과를 이해하는 데 부족한 개념을 채워 줍니다. 대학원 과목이므로 수강 가능 여부는 확인이 필요합니다."
+   },
+   {
+    "course_code": "PHYS655",
+    "reason": "그래핀과 위상물질의 이론적 기술을 다루므로, 그래핀 Dirac 분산과 위상 초전도 분야로 시야를 넓히는 데 도움이 됩니다."
+   }
+  ],
+  "keywords_en": [
+   "Andreev bound states",
+   "bilayer graphene",
+   "Josephson junction",
+   "coherence length",
+   "Floquet states",
+   "tunneling spectroscopy",
+   "electrostatic gating",
+   "quantum transport"
+  ],
+  "caution": "위 내용은 제공된 자료만 바탕으로 한 제안입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 장비와 데이터 접근 가능성은 확인되지 않았으므로 지도 교수와 직접 상의해야 합니다. 수강 기록이 있다고 해서 해당 개념을 숙련했다고 볼 수는 없고, 두 주제 모두 초전도와 Andreev 반사 배경이 부족하여 선행 학습이 필요합니다. 또한 두 주제는 공개 논문 기반의 계산 및 분석으로 시작하는 안이며, 소자 제작과 측정은 이후 단계에서 연구실과 협의해 정할 수 있습니다."
+ },
+ "duration_wall_s": 20.5,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 9914,
+   "outputTokens": 24,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0010034,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2770,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 9535,
+   "webSearchRequests": 0,
+   "costUSD": 0.0659489,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9535,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9535,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2770,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9535,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2770,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 9535,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9535
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0669523,
+ "error": null,
+ "input_sha256": "a70bcd4cfc99d9488c9d34b4b5a67484190cbc1a125f21d735cd018d69d86461"
+}

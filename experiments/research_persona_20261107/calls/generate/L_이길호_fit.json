@@ -1,0 +1,172 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "그래핀 p-n 접합에서 Dirac 전자의 굴절(Klein 터널링·Veselago 렌즈) 문헌 기반 모델링",
+    "question": "그래핀 p-n 접합에서 게이트 전압으로 바꾼 전하 밀도 비(n1/n2)와 입사각에 따라 Dirac 전자의 굴절각과 투과 확률은 어떻게 달라지며, 이를 간단한 수치 계산으로 재현할 수 있는가?",
+    "interest_link": "그래핀 소자를 측정해보고 싶다는 관심과, 양자역학 수업에서 배운 파동·슈뢰딩거 방정식을 선형 분산을 가진 Dirac 전자의 광학적 거동으로 확장해 보는 연결입니다. 실험 전 단계로 계산부터 시작하는 제안입니다.",
+    "lab_basis": {
+     "source_id": "S2",
+     "quote": "Dirac Fermionic Optics"
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS301",
+      "concept": "Solutions of Schrodinger's equation in 1 dimension",
+      "how_used": "1차원 퍼텐셜 계단에서의 투과·반사 계산을 Dirac 형태 방정식으로 바꾸어 비교하는 출발점으로 씁니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "각도별 투과 확률을 Python으로 계산하고 그래프로 그리는 데 씁니다."
+     },
+     {
+      "course_code": "PHYS201",
+      "concept": "de Broglie wave and the Schrodinger equation",
+      "how_used": "전자를 파동으로 보고 굴절 개념을 유추하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "Dirac 방정식과 그래핀 밴드구조(타이트바인딩)",
+     "의사스핀(pseudospin)과 Klein 터널링",
+     "수치계산 라이브러리 사용 경험"
+    ],
+    "first_step": "단일 그래핀 p-n 접합에서 n1/n2 = −1과 −2 두 경우에 대해 입사각 0°~90° 범위의 투과 확률 T(θ)를 계산하는 Python 스크립트를 짜고, 일반 E=p²/2m 전자의 계단 퍼텐셜 결과와 같은 그래프에 겹쳐 비교합니다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "그래핀–초전도체 접합의 접촉 저항과 Andreev 반사 신호 해석: 문헌 데이터 기반 분석",
+    "question": "그래핀–초전도체 접합의 미분 컨덕턴스 dI/dV에서 초전도 갭 Δ 안쪽 컨덕턴스 증가를 단순 BTK형 모델로 맞추면, 접합 투과도 Z는 게이트 전압에 따라 어떻게 변하는가?",
+    "interest_link": "초전도체와 그래핀을 결합한 소자를 측정하고 싶다는 관심을, 실제 제작 전에 측정 곡선을 읽고 해석하는 연습으로 연결합니다.",
+    "lab_basis": {
+     "source_id": "S1",
+     "quote": "Graphene-Superconductor hybrid quantum devices"
+    },
+    "course_basis": [
+     {
+      "course_code": "PHYS401",
+      "concept": "응집물질에서 일어나는 물리적 특성 대한 기본적인 이해 및 현상에 대한 기초적인 물리적인 개념 소개.",
+      "how_used": "고체의 전자 상태와 전도 개념을 접합 해석의 배경으로 씁니다."
+     },
+     {
+      "course_code": "PHYS206",
+      "concept": "static, time-independent electric fields",
+      "how_used": "게이트 전압이 그래핀 전하 밀도를 조절하는 정전기적 상황을 이해하는 데 씁니다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "공개 논문에서 읽어 낸 곡선에 모델을 피팅하는 코드를 작성하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "BCS 이론과 초전도 갭",
+     "Andreev 반사와 BTK 모델",
+     "저온 수송 측정의 잡음·접촉 문제",
+     "실제 데이터 접근 여부는 확인되지 않음(공개 논문 데이터를 사용하는 제안)"
+    ],
+    "first_step": "공개된 그래핀–초전도체(예: Al 또는 NbN 접점) 접합 논문 한 편을 골라 dI/dV vs V 그림 하나를 선택하고, 갭 내부 컨덕턴스와 갭 바깥 컨덕턴스의 비를 표로 정리한 뒤 BTK 식에서 Z=0, 0.5일 때 값과 비교합니다.",
+    "difficulty": "도전"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "PHYS701A",
+    "reason": "\"This course will take an experimentalists' point of view focusing on low temperature electrical transports.\"라고 소개되어 있고 연구실의 극저온 양자수송측정과 직접 맞닿습니다."
+   },
+   {
+    "course_code": "PHYS653",
+    "reason": "BCS 이론 등 초전도 기초를 다루므로 주제 2의 부족한 개념을 채울 수 있습니다."
+   },
+   {
+    "course_code": "PHYS655",
+    "reason": "graphene의 위상적 성질과 밴드구조 계산을 다루어 주제 1의 Dirac 전자 이해에 도움이 됩니다."
+   }
+  ],
+  "keywords_en": [
+   "graphene",
+   "Dirac fermions",
+   "Klein tunneling",
+   "graphene p-n junction",
+   "Andreev reflection",
+   "superconducting proximity effect",
+   "quantum transport",
+   "BTK model"
+  ],
+  "caution": "위 내용은 제공된 자료만 근거로 한 제안입니다. 연구실의 현재 프로젝트, 학부생 모집 여부, 장비·데이터 접근 가능 여부는 자료에 없으므로 교수님께 직접 확인하세요. 두 주제는 계산·문헌 기반으로 시작하도록 잡았으며, 수강 사실이 해당 개념의 숙련을 뜻하지는 않습니다. 대학원 과목(PHYS701A, PHYS653, PHYS655)은 수강 자격과 선수 지식을 먼저 확인해야 합니다."
+ },
+ "duration_wall_s": 18.64,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 7554,
+   "outputTokens": 32,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0007714,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2304,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 7172,
+   "webSearchRequests": 0,
+   "costUSD": 0.051836900000000005,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 7172,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7172,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2304,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7172,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2304,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 7172,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7172
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.052608300000000004,
+ "error": null,
+ "input_sha256": "54d64a08620b8b33a3fc9d693fc0f54f09bfd908c47aef3f7febb49deef83239"
+}

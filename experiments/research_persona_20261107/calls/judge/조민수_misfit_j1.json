@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 5,
+    "lab_fit": 5,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 5,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "능동 인식을 가시 면적 비교라는 작은 시뮬레이션 실험으로 좁혔고 첫 단계(100개 장면, 1 vs 8시점)가 구체적이며 3개월에 가능하다. 과목 연결의 한계와 선행 학습 필요도 솔직히 밝혔다."
+   },
+   {
+    "label": "X2",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 2,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "PV 인버터 아크 검출과 Kalman 필터 제어는 우리 컴퓨터비전 연구실과 무관하고 학생의 비전·로봇 관심도 반영하지 못한다. 다른 연구실의 내용을 가져온 듯해 근거가 없다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 3,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "대칭 기반 파지 후보와 능동 인지 두 주제 모두 연구실 분야에 맞다. 다만 주제 1은 점군을 손으로 표시하는 첫 단계가 모호하고 범위가 넓으며, 과목 연결(directional derivative 등)이 다소 과장됐다."
+   },
+   {
+    "label": "X4",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "PyBullet 장면 10개 비교와 반쪽 점군을 반사해 복원하는 두 첫 단계가 모두 구체적이고 바로 시작할 수 있다. 선형대수 부족도 인정했고 연구실 분야와 관심에 잘 맞는다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "clutter 파지 실패 분석과 대칭 오차 측정은 연구실에 맞고 첫 단계도 실행 가능하다. 다만 파지 성공 여부를 기록하는 '공개 파지 시뮬레이터'가 무엇인지 불명확하고 물리 연결도 다소 느슨하다."
+   },
+   {
+    "label": "X6",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 3,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "분야 이름만 바꿔 넣은 일반적 템플릿이라 구체적인 연구 질문이 없고 과목 연결도 없다. 심층학습 자연어처리는 이 학생의 관심과 맞지 않는다."
+   }
+  ]
+ },
+ "duration_wall_s": 13.93,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 15508,
+   "outputTokens": 309,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0017052999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 285,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1141,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 19193,
+   "webSearchRequests": 0,
+   "costUSD": 0.08818600000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 19193,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 19193,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1141,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 19193,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1141,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 19193,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 19193
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08989130000000001,
+ "error": null,
+ "input_sha256": "df538a2ec47060c1ad780bf96611e5dd4df018ad8bbce7733db7bb380b402f2f"
+}

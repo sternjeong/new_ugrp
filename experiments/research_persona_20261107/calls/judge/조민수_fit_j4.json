@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "전력전자 주제로, 우리 연구실과 학생이 듣지 않은 과목(회로이론 등)을 근거로 했고 학생 관심(비전+로봇)과도 무관합니다. 다른 연구실 자료를 가져온 것으로 보입니다."
+   },
+   {
+    "label": "X2",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 2,
+    "reason": "대칭성과 파지, 능동 시점을 학생 관심에 맞게 구체화했고 PCA 대칭축 오차 실험이 바로 시작할 만합니다. 주제 2의 데이터구조·물리 연결은 약하지만 약점은 밝혔습니다."
+   },
+   {
+    "label": "X3",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 5,
+    "next_courses": 5,
+    "accept": true,
+    "rank": 1,
+    "reason": "주제 1은 물체 10개로 범위가 적절하고, 주제 2는 무작위 시점과 비교하는 대조군이 있어 실험 설계가 가장 깔끔합니다. 과목 연결도 과장이 적고 다음 과목이 적절하며 도전 난이도도 솔직하게 표시했습니다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 나열한 일반적 안내로 구체적 연구 질문이 없습니다. 심층학습 자연어처리는 중복 추천이며 비전·로봇 관심과 맞지 않습니다."
+   },
+   {
+    "label": "X5",
+    "doable": 3,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 3,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "대칭 기반 파지 중복 제거는 참신하지만 첫 단계가 손으로 표기하는 작업이라 비전 실험과 거리가 있습니다. 근거로 쓴 equivariant 문장은 2022 대칭 논문에서 따왔고, 연결이 약간 늘려졌습니다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 3,
+    "interest_fit": 5,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "반쪽 점군을 대칭면으로 복원하는 첫 단계가 구체적이고 NumPy로 충분히 할 만합니다. 다만 두 주제 모두 학생이 사전학습 검출 모델 같은 비전 기초를 아직 모르는 점이 부담이고 미적분학II 연결은 약합니다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.54,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16269,
+   "outputTokens": 379,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0018164,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 356,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1142,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 15886,
+   "webSearchRequests": 0,
+   "costUSD": 0.0750563,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15886,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 15886,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1142,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15886,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1142,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 15886,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15886
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.0768727,
+ "error": null,
+ "input_sha256": "da573bcf89140e263c906a6b97551c25fa46ad0076d5b911cbfdc56bfa0d5822"
+}

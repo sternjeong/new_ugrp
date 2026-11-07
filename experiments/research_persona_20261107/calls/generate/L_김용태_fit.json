@@ -1,0 +1,171 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "수전해 전극의 열화 원인 문헌 조사와 가속 열화 실험 설계 제안",
+    "question": "수전해(Water Electrolysis) 전극이 장시간 작동 중 성능이 떨어지는 주요 원인(촉매 용출, 부식, 기포 등)은 무엇이며, 어떤 변수를 조절하면 전극 수명을 비교할 수 있을까?",
+    "interest_link": "학생이 궁금해하는 수전해와 '오래가는 전극'을 직접 연결하는 주제입니다. 연구실의 수전해·부식 방지 분야와 맞닿아 있습니다.",
+    "lab_basis": {
+     "source_id": "S3",
+     "quote": "Water Electrolysis"
+    },
+    "course_basis": [
+     {
+      "course_code": "AMSE414",
+      "concept": "a basic concept of electrochemistry is briefly reviewed to establish the knowledge base to understand various modern energy conversion and storage…",
+      "how_used": "전극 반응과 에너지 변환 장치의 기본 개념으로 열화 원인을 분류하는 틀을 세웁니다."
+     },
+     {
+      "course_code": "AMSE205",
+      "concept": "the basic criterion for phase equilibrium is established with the Gibbs free energy",
+      "how_used": "전극 재료가 작동 전위와 수용액 환경에서 안정한지 열역학적으로 가늠하는 데 참고합니다."
+     },
+     {
+      "course_code": "CHEM101",
+      "concept": "화학열역학과 화학평형, 반응속도론",
+      "how_used": "열화 반응의 자발성과 속도를 정성적으로 구분하는 데 씁니다."
+     }
+    ],
+    "gaps": [
+     "전기화학 측정법(순환전압전류법, 임피던스, 타펠 분석)",
+     "Pourbaix 도형과 전극 부식 개념",
+     "실험 안전 및 장비 사용 교육(연구실 접근 여부는 별도 확인 필요)"
+    ],
+    "first_step": "수전해 전극 수명 문헌 5~10편을 골라 '전류밀도, 전해질 pH, 촉매 종류, 열화 속도(예: 일정 전류에서 시간에 따른 전압 상승)'를 표로 정리하고, 어느 변수가 수명과 가장 관련 있어 보이는지 가설을 한 문단으로 적어 교수·대학원생과 논의합니다.",
+    "difficulty": "입문"
+   },
+   {
+    "title": "리튬이온 배터리 전극 열화 경향을 공개 데이터로 분석하는 파이썬 연습 프로젝트",
+    "question": "공개된 배터리 사이클 데이터에서 용량 유지율은 충방전 속도와 사이클 수에 따라 어떻게 변하며, 간단한 모델로 수명을 예측할 수 있을까?",
+    "interest_link": "'오래가는 전극'을 배터리 사이클 수명이라는 정량 지표로 다뤄 보는 주제입니다. 실험 장비 없이도 시작할 수 있습니다.",
+    "lab_basis": {
+     "source_id": "S2",
+     "quote": "Battery"
+    },
+    "course_basis": [
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "데이터 불러오기, 정리, 그래프 작성 스크립트를 짜는 데 활용합니다."
+     },
+     {
+      "course_code": "AMSE414",
+      "concept": "various modern energy conversion and storage…",
+      "how_used": "용량 감소를 전극 재료 관점에서 해석하는 배경으로 씁니다."
+     },
+     {
+      "course_code": "MATH102",
+      "concept": "multivariable functions and their properties",
+      "how_used": "여러 변수에 따른 용량 감소를 곡선으로 맞출 때 기초로 삼습니다."
+     }
+    ],
+    "gaps": [
+     "통계·회귀 분석과 데이터 처리 라이브러리 사용 경험",
+     "배터리 열화 메커니즘(SEI 성장, 입자 균열 등) 심화 지식",
+     "어떤 공개 데이터셋을 쓸지 선택하고 라이선스를 확인하는 일"
+    ],
+    "first_step": "공개 리튬이온 셀 사이클 데이터셋 하나를 골라 '사이클 수 대비 방전 용량 유지율' 곡선을 셀별로 그리고, 80% 용량에 도달한 사이클 수를 계산해 충방전 속도(C-rate)와 비교하는 표를 만듭니다.",
+    "difficulty": "중급"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "AMSE513",
+    "reason": "전극 과정, 열역학과 전위, 전자 이동 반응속도론, 물질 이동을 다뤄 두 주제의 공통 기초가 됩니다. 단, BATT524와 소개문이 같아 학부 수강 가능 여부와 중복 여부를 확인해야 합니다."
+   },
+   {
+    "course_code": "BATT519",
+    "reason": "리튬이온 배터리 재료 개발의 큰 그림을 보여 줘 열화 문제를 이해하는 입문 과목입니다."
+   },
+   {
+    "course_code": "CHEB216",
+    "reason": "실험 기초를 익히는 과목으로, 이후 전기화학 측정을 시작할 때 도움이 됩니다."
+   }
+  ],
+  "keywords_en": [
+   "electrode durability",
+   "water electrolysis",
+   "electrode degradation",
+   "lithium-ion battery",
+   "capacity retention",
+   "cycle life",
+   "corrosion",
+   "electrochemical stability"
+  ],
+  "caution": "이 제안은 제공된 연구 분야 목록과 연구실 소개 일부에만 근거하며, 연구실의 현재 프로젝트, 학부생 모집, 장비·데이터 접근 여부는 확인되지 않았습니다. 수강 사실이 해당 개념의 숙련을 뜻하지는 않습니다. 실제 진행 전에 지도교수와 범위를 협의하세요."
+ },
+ "duration_wall_s": 28.71,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6540,
+   "outputTokens": 25,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0006665000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 4439,
+   "cacheReadInputTokens": 8256,
+   "cacheCreationInputTokens": 15076,
+   "webSearchRequests": 0,
+   "costUSD": 0.1055276,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 217,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 15076,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 15076,
+  "cache_read_input_tokens": 8256,
+  "output_tokens": 4439,
+  "output_tokens_details": {
+   "thinking_tokens": 217
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15076,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2355,
+    "cache_read_input_tokens": 7207,
+    "cache_creation_input_tokens": 8918,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8918
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.10619410000000001,
+ "error": null,
+ "input_sha256": "5bf11f85cfcf2d8aa7605389aa6d592e76040ccb0887782d3e2d6b27ea580f0e"
+}

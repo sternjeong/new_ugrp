@@ -1,0 +1,158 @@
+{
+ "ok": true,
+ "value": {
+  "evaluations": [
+   {
+    "label": "X1",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 3,
+    "grounded": 3,
+    "useful": 5,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 2,
+    "reason": "주제 1(p-n 접합 투과 계산)은 Dirac 전자광학과 맞고 첫 단계가 명확해 바로 시작할 수 있다. 다만 주제 2의 twisted Bi-2212 접합은 근거 논문(P5)이 우리 연구실 논문인지 확인되지 않아 grounded가 떨어진다. 과목 연결을 솔직히 밝힌 점은 인정한다."
+   },
+   {
+    "label": "X2",
+    "doable": 1,
+    "lab_fit": 1,
+    "course_fit": 1,
+    "interest_fit": 1,
+    "grounded": 1,
+    "useful": 2,
+    "next_courses": 1,
+    "accept": false,
+    "rank": 6,
+    "reason": "로봇 파지와 비전 제안이라 우리 연구실, 학생의 관심, 수강 과목과 모두 무관하다. 다른 연구실 자료를 가져온 것으로 보인다."
+   },
+   {
+    "label": "X3",
+    "doable": 3,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 5,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 3,
+    "reason": "우리 논문(이중층 그래핀 ABS, Floquet-Andreev)을 정확히 인용했고 전자기학I의 연결이 약하다고 솔직히 밝혔다. 다만 Andreev와 Floquet 배경이 없는 학생에게는 두 주제 모두 부담이 크다. 주제 1은 계산 중심이라 해볼 만하다."
+   },
+   {
+    "label": "X4",
+    "doable": 2,
+    "lab_fit": 3,
+    "course_fit": 1,
+    "interest_fit": 2,
+    "grounded": 4,
+    "useful": 1,
+    "next_courses": 2,
+    "accept": false,
+    "rank": 5,
+    "reason": "연구 분야 이름만 반복한 일반적인 안내다. 구체적 주제도 과목 연결도 없고 첫 단계가 모호해 학생이 시작할 수 없다. 다음 과목도 중복된다."
+   },
+   {
+    "label": "X5",
+    "doable": 4,
+    "lab_fit": 5,
+    "course_fit": 3,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 1,
+    "reason": "실제 연구 분야와 Floquet-Andreev 논문, 전자광학 소개문을 근거로 두 주제 모두 우리 연구에 가깝다. 주제 2는 학생의 수준에 맞는 계산이다. 주제 1의 1D 모형을 그래핀 접합 데이터와 비교하는 것은 다소 거칠지만 정성적 비교로는 충분하다."
+   },
+   {
+    "label": "X6",
+    "doable": 4,
+    "lab_fit": 4,
+    "course_fit": 4,
+    "interest_fit": 4,
+    "grounded": 4,
+    "useful": 4,
+    "next_courses": 4,
+    "accept": true,
+    "rank": 4,
+    "reason": "주제 1은 Dirac 전자광학과 맞고 학생이 시작하기 좋다. 주제 2의 BTK 모형 분석은 배경 지식이 부족해 무겁고, 그래핀-초전도체 접합 분석을 BTK로 단순화한 점이 다소 거칠다. 전반적으로 무난하지만 X1이나 X5보다 구체성이 약하다."
+   }
+  ]
+ },
+ "duration_wall_s": 9.88,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 18295,
+   "outputTokens": 349,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.002004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 325,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1235,
+   "cacheReadInputTokens": 883,
+   "cacheCreationInputTokens": 17918,
+   "webSearchRequests": 0,
+   "costUSD": 0.0841143,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 17918,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 17918,
+  "cache_read_input_tokens": 883,
+  "output_tokens": 1235,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 17918,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1235,
+    "cache_read_input_tokens": 883,
+    "cache_creation_input_tokens": 17918,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 17918
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.08611830000000001,
+ "error": null,
+ "input_sha256": "94622a61ea757f7a8d9313c7c46c7eac7ba07439b3d08ef7ef3e8409a2658185"
+}

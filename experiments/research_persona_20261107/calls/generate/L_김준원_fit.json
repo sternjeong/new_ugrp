@@ -1,0 +1,171 @@
+{
+ "ok": true,
+ "value": {
+  "topics": [
+   {
+    "title": "미세유체 채널 내 입자 클러스터 포획 구조의 유동 해석 (제안)",
+    "question": "미세유체 채널 안에서 포획 구조(트랩)의 형상과 유량 조건이 입자 한 개 또는 소수 입자가 갇히는 정도에 어떻게 영향을 주는가?",
+    "interest_link": "칩 위에서 액체를 다루는 장치를 만들고 싶다는 관심을, 의료 진단에 쓰이는 미세입자·세포 조작이라는 실제 응용으로 구체화한다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "미세유체 기반의 미세입자/세포의 조작 기술"
+    },
+    "course_basis": [
+     {
+      "course_code": "MECH370",
+      "concept": "pressure, hydrostatics, and buoy- ancy; open systems and control volume analysis; mass conservation and momentum…",
+      "how_used": "채널 내 압력 강하와 유량 보존을 이용해 포획 구조 주변 유동을 단순 모델로 추정해 볼 수 있다."
+     },
+     {
+      "course_code": "MATH200",
+      "concept": "1st and 2nd order ODEs, systems of ODEs",
+      "how_used": "입자의 운동을 항력과 관성을 포함한 ODE로 세워 수치적으로 풀어볼 수 있다."
+     },
+     {
+      "course_code": "CSED101",
+      "concept": "Learn computational thinking and enhance problem-solving skills.",
+      "how_used": "입자 궤적 시뮬레이션이나 결과 정리를 간단한 코드로 작성할 수 있다."
+     }
+    ],
+    "gaps": [
+     "저레이놀즈수 유동과 Stokes 유동 개념",
+     "미세가공 공정(리소그래피 등)과 채널 제작",
+     "입자에 작용하는 힘(관성 양력, 확산 등)에 대한 지식"
+    ],
+    "first_step": "포획 구멍의 지름(예: 입자 지름의 1.5배, 2배, 3배)과 유량 3가지를 변수로 정하고, 각 조합에서 구멍 입구로 향하는 유선 분율을 Python으로 계산하는 2D 단순 모델을 만든다. 이어서 공개 논문 2편에서 비슷한 포획 구조의 치수를 찾아 비교한다.",
+    "difficulty": "중급"
+   },
+   {
+    "title": "초소수성 표면 위 액적 거동의 접촉각 측정과 단순 모델링 (제안)",
+    "question": "표면 처리 조건(거칠기 패턴 간격)에 따라 액적의 접촉각과 미끄러짐이 어떻게 달라지며, 이를 마이크로 칩의 액체 제어에 어떻게 활용할 수 있는가?",
+    "interest_link": "칩 위에서 액체를 움직이고 제어하려면 표면 성질이 핵심이므로, 액체 취급 장치의 기초가 되는 표면 문제를 다룬다.",
+    "lab_basis": {
+     "source_id": "S5",
+     "quote": "Development of superhydrophobic surfaces"
+    },
+    "course_basis": [
+     {
+      "course_code": "CHEM101",
+      "concept": "분자간의 힘, 화학열역학과 화학평형",
+      "how_used": "표면 에너지와 젖음성을 분자간 힘의 관점에서 해석하는 출발점으로 쓴다."
+     },
+     {
+      "course_code": "MECH250",
+      "concept": "Thermomechanical properties of various substances are studied based on a macroscopic view",
+      "how_used": "표면 에너지를 에너지 관점에서 정리할 때 열역학적 사고를 활용한다."
+     },
+     {
+      "course_code": "MECH370",
+      "concept": "pressure, hydrostatics, and buoy- ancy",
+      "how_used": "액적 내부 압력과 Laplace 압력의 정성적 이해에 활용할 수 있다."
+     }
+    ],
+    "gaps": [
+     "표면장력, Young 방정식, Cassie–Baxter/Wenzel 모델",
+     "접촉각 측정 방법과 표면 처리 실험 경험",
+     "미세 패턴 제작 공정"
+    ],
+    "first_step": "Young, Wenzel, Cassie–Baxter 식을 정리하고, 기둥 패턴의 면적 분율(예: 0.1~0.5)에 따라 예측되는 겉보기 접촉각 곡선을 그려 본다. 그 뒤 연구실 지도교수께 가능한 실험이나 장비 사용 여부를 문의한다.",
+    "difficulty": "입문"
+   }
+  ],
+  "next_courses": [
+   {
+    "course_code": "MECH421",
+    "reason": "MEMS 제작 공정과 마이크로센서·액추에이터의 작동 원리를 다루므로, 두 주제 모두에 필요한 미세가공 기초를 채워 준다."
+   },
+   {
+    "course_code": "MECH621",
+    "reason": "리소그래피·증착·식각과 재료 문제를 심화해서 다루므로, 채널과 표면 패턴이 어떻게 만들어지는지 이해하는 데 도움이 된다. 다만 대학원 과목이면 수강 가능 여부를 확인해야 한다."
+   },
+   {
+    "course_code": "CHEB469F",
+    "reason": "생체 환경과 접하는 바이오센서를 다루므로 의료 진단 응용 쪽 관심과 맞닿는다."
+   }
+  ],
+  "keywords_en": [
+   "microfluidics",
+   "lab-on-a-chip",
+   "MEMS",
+   "particle trapping",
+   "superhydrophobic surface",
+   "contact angle",
+   "low Reynolds number flow",
+   "surface modification"
+  ],
+  "caution": "이 제안들은 제공된 연구실 소개와 수강 과목 소개만 근거로 한 것입니다. 연구실의 현재 프로젝트, 학부 연구생 모집 여부, 장비·데이터 접근 가능성은 확인되지 않았으므로 지도교수께 직접 문의해야 합니다. 수강 사실이 해당 개념의 숙련을 뜻하지는 않으며, 부족한 부분은 gaps에 적었습니다."
+ },
+ "duration_wall_s": 17.71,
+ "exit_code": 0,
+ "model_usage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8073,
+   "outputTokens": 27,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0008208,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2127,
+   "cacheReadInputTokens": 1049,
+   "cacheCreationInputTokens": 7692,
+   "webSearchRequests": 0,
+   "costUSD": 0.0521469,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 7692,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7692,
+  "cache_read_input_tokens": 1049,
+  "output_tokens": 2127,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7692,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2127,
+    "cache_read_input_tokens": 1049,
+    "cache_creation_input_tokens": 7692,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7692
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd_list": 0.052967700000000006,
+ "error": null,
+ "input_sha256": "78b2f800060e25c5682613023e4c0da24685f14d5f700590aa6ce037d563c4fc"
+}
