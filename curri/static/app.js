@@ -122,7 +122,56 @@ async function runSearch(payload) {
     }
   }
   state.results = r.labs;
-  state.searchInfo = {intent: r.intent || 'search', message: r.message || '', interpretation: r.interpretation || {likes: [], dislikes: []}, mode: r.mode || '', uncertain: !!r.uncertain, courses: r.courses || []};
+  state.searchInfo = {intent: r.intent || 'search', message: r.message || '', interpretation: r.interpretation || {likes: [], dislikes: []}, mode: r.mode || '', uncertain: !!r.uncertain, courses: r.courses || [], mirror: r.mirror || null};
+  mirrorInit(r.mirror);
+}
+
+// Long text only: what the student said, grouped by dimension, with the sentence it came from.
+// The student can edit the list and confirm it; confirming is stored but does not change ranking.
+const MIRROR_DIMS = [['topic','관심 주제'],['style','하고 싶은 방식'],['output','만들고 싶은 결과'],['constraint','환경·조건']];
+function mirrorInit(m) {
+  const saved = (state.session.profile.confirmed_slots || []);
+  const source = saved.length ? saved : ((m && m.slots) || []);
+  state.mirror = {draft: Object.fromEntries(MIRROR_DIMS.map(([key]) => [key, ((source.find(s => s.key === key) || {}).values || []).slice()])),
+    quotes: Object.fromEntries(((m && m.slots) || []).map(s => [s.key, s.quote || ''])), confirmed: saved.length > 0};
+}
+function mirrorHTML() {
+  const m = (state.searchInfo || {}).mirror, d = state.mirror;
+  if (!m || !m.slots || !m.slots.length || !d) return '';
+  const rows = MIRROR_DIMS.map(([key, label]) => {
+    const values = d.draft[key], quote = d.quotes[key];
+    const chips = values.map((v, i) => `<span class="pill neutral">${h(v)}${d.confirmed ? '' : `<button type="button" class="mirror-x" data-action="mirror-remove" data-key="${key}" data-index="${i}" aria-label="${h(v)} 지우기">×</button>`}</span>`).join('');
+    const add = d.confirmed ? '' : `<span class="mirror-add"><input class="mirror-input" id="mirror-add-${key}" data-key="${key}" maxlength="40" aria-label="${h(label)} 추가" placeholder="직접 적기"><button type="button" class="secondary" data-action="mirror-add" data-key="${key}">추가</button></span>`;
+    if (d.confirmed && !values.length) return '';
+    return `<li><span class="mirror-label">${h(label)}</span><span class="mirror-values">${chips || '<span class="micro">아직 적지 않으셨어요</span>'}</span>${quote && !d.confirmed ? `<q class="mirror-quote">${h(quote)}</q>` : ''}${add}</li>`;
+  }).join('');
+  const foot = d.confirmed
+    ? `<p class="micro">확정했어요. 이 검색 내용에만 저장되고, 검색 순위에는 쓰이지 않아요.</p><button type="button" class="text-button" data-action="mirror-edit">고치기</button>`
+    : `<div class="mirror-actions"><button type="button" class="secondary" data-action="mirror-confirm">이대로 확정</button></div><p class="micro">적어 주신 문장에서 표현을 그대로 가져온 정리예요. 어떤 사람인지 판단한 것이 아니고, 틀린 건 지우거나 직접 고칠 수 있어요. 확정해도 검색 순위에는 쓰이지 않아요.</p>`;
+  return `<details class="mirror" id="mirror-box" open><summary>적어 주신 내용을 이렇게 정리해 봤어요</summary><ul>${rows}</ul>${foot}</details>`;
+}
+function renderMirror() { const box = $('#mirror-box'); if (box) box.outerHTML = mirrorHTML(); }
+async function mirrorAction(name, button) {
+  const d = state.mirror;
+  if (name === 'mirror-remove') d.draft[button.dataset.key].splice(Number(button.dataset.index), 1);
+  else if (name === 'mirror-add') {
+    const input = $(`#mirror-add-${button.dataset.key}`), value = input.value.replace(/\s+/g, ' ').trim();
+    if (!value) return;
+    if (value.length > 40) { toast('각 항목은 40자 이하로 적어 주세요.'); return; }
+    const list = d.draft[button.dataset.key];
+    if (list.length >= 8) { toast('항목은 8개까지 적을 수 있어요.'); return; }
+    if (!list.includes(value)) list.push(value);
+  } else if (name === 'mirror-edit') d.confirmed = false;
+  else if (name === 'mirror-confirm') {
+    const slots = MIRROR_DIMS.filter(([key]) => d.draft[key].length).map(([key]) => ({key, values: d.draft[key]}));
+    try {
+      const r = await api('mirror/confirm', {slots});
+      state.session.profile.confirmed_slots = r.confirmed_slots;
+      d.confirmed = r.confirmed_slots.length > 0;
+      toast(d.confirmed ? '정리한 내용을 확정했어요.' : '정리한 내용을 비웠어요.');
+    } catch (error) { toast(error.message); return; }
+  }
+  renderMirror();
 }
 
 function searchInfoHTML() {
@@ -130,6 +179,7 @@ function searchInfoHTML() {
   const likes = (i.interpretation && i.interpretation.likes) || [], dislikes = (i.interpretation && i.interpretation.dislikes) || [];
   const parts = [];
   if (i.intent === 'search' && (likes.length || dislikes.length)) parts.push(`<div class="interest-line"><span class="micro">이렇게 이해했어요</span>${likes.map(x => `<span class="pill">${h(x)}</span>`).join('')}${dislikes.map(x => `<span class="pill method">제외 · ${h(x)}</span>`).join('')}</div>`);
+  if (i.intent === 'search') parts.push(mirrorHTML());
   if (i.uncertain) parts.push('<div class="notice">관심을 정확히 이해했는지 확실하지 않아요. 위에 이해한 내용이 맞는지 확인하고, 아니라면 다른 표현으로 다시 적어 보세요.</div>');
   if (i.mode === 'embedding') parts.push('<p class="micro">표현이 달라도 의미가 비슷한 내용까지 함께 찾았어요.</p>');
   if ((i.courses || []).length) parts.push(`<p class="micro">관련 수업: ${i.courses.slice(0,3).map(c => `‘${h(c.name)}’`).join(' · ')}${i.courses.length > 3 ? ` 외 ${i.courses.length-3}개` : ''}. 이 수업을 맡은 교수의 연구실과 수업 내용이 가까운 연구실도 함께 찾았어요. 공식 선수과목 관계는 아니에요.</p>`);
@@ -285,6 +335,7 @@ document.addEventListener('click',event=>{
   const button=event.target.closest('[data-action]');if(!button || busy)return;
   const name=button.dataset.action;
   if(platformClick(name,button))return;
+  if(name.startsWith('mirror-')){mirrorAction(name,button);return;}
   if(name==='example'){$('#interests').value=button.dataset.value;$('#interests').focus();return;}
   if(name==='toggle-auth'){state.register=!state.register;updateAuth();return;}
   if(name==='close-auth'){$('#auth-dialog').close();state.pendingLab=null;return;}
@@ -532,3 +583,7 @@ async function boot() {
   else renderHome();
 }
 boot().catch(error=>{main.innerHTML=`<div class="empty"><h3>연결을 확인해 주세요.</h3><p>${h(error.message)}</p><button class="secondary" data-action="retry">다시 시도</button></div>`;});
+document.addEventListener('keydown', event => {
+  const input = event.target.closest && event.target.closest('.mirror-input');
+  if (input && event.key === 'Enter' && !event.isComposing) { event.preventDefault(); mirrorAction('mirror-add', {dataset: {key: input.dataset.key}}); }
+});

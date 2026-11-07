@@ -8,6 +8,7 @@ from .query_engine import QueryEngine, broad_only, interpret, is_nonsense, norma
 PROCEDURE = re.compile(r'(수강\s*신청|대학원\s*(?:지원|입학|진학)|교수(?:님)?께?\s*(?:메일|이메일)|(?:지원|신청|컨택|면접|장학금|추천서).*(?:방법|어떻게|절차))')
 PROCEDURE_QUESTION = re.compile(r'(어떻게|방법|절차|알려|해야|하나요|할까요|쓰나요)')
 NEGATIVE_CUE = re.compile(r'(싫|별로|관심\s*없|좋아하지\s*않|흥미\s*없|재미없|빼고|제외|말고|보다)')
+CLAUSE_BREAK = re.compile(r'(?<=[.!?])\s+|\n+|(?<=싶고),\s*|(?<=좋고),\s*')
 KEYBOARD_NOISE = re.compile(r'^(?:asdf|qwer|zxcv|ㅋㅋ+|ㅎㅎ+|ㅠㅠ+|ㅜㅜ+)$', re.I)
 
 
@@ -15,8 +16,15 @@ def classify_curated_query(text):
     """Decide whether a query may reach retrieval, independent of catalog matches."""
     norm = normalize(text)
     normalized_negative = re.sub(r'좋아하지\s*않(?:지만|아요|습니다|아)', '싫고', norm)
-    parsed = interpret(normalized_negative)
-    likes, dislikes = parsed['likes'], parsed['dislikes']
+    # Read each sentence (and each '…싶고,' clause) on its own: interpreted together, a long text collapses into one
+    # phrase such as '로봇 비전 파이썬으로 빠르게 데모를 … 인턴이면 좋겠어' that matches nothing well.
+    pieces = [x for x in CLAUSE_BREAK.split(normalized_negative) if x.strip()] or [normalized_negative]
+    likes, dislikes = [], []
+    for piece in pieces:
+        parsed = interpret(piece.strip())
+        likes += parsed['likes']
+        dislikes += parsed['dislikes']
+    likes, dislikes = list(dict.fromkeys(likes)), list(dict.fromkeys(dislikes))
     # '컴퓨터구조 수업' → '컴퓨터구조': the word 수업 alone pulls labs about learning and attention.
     likes = list(dict.fromkeys(re.sub(r'\s+', ' ', COURSE_WORD.sub(' ', p)).strip() or p for p in likes))
     refined = []

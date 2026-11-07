@@ -1,5 +1,7 @@
 # 3분커리 서비스 골격 및 코드 분석
 
+> 2026-11-07 정리 거울 1·2단계: `curri/intent_mirror.py`의 `build_mirror`가 검색 의도이고 텍스트가 40자 이상이며 서로 다른 차원이 둘 이상 잡힐 때만 `{slots, avoid, missing}`을 만든다. 차원은 관심 주제(질의 해석기 `likes` 중 30자 이하)·하고 싶은 방식·만들고 싶은 결과·환경·조건이며 뒤의 셋은 키워드 규칙이다. 값과 구절은 학생 원문의 부분 문자열이다. `POST /api/search`가 `mirror`를 함께 주고 화면은 ‘이렇게 이해했어요’ 아래에 접이식으로 보여 준다. 학생은 칩을 지우거나 직접 추가해 고치고 ‘이대로 확정’을 누르면 `POST /api/mirror/confirm`이 `clean_slots`로 검증해 탐색 프로필의 `confirmed_slots`에 저장한다(`Store.confirm_slots`). 같은 검색 문장으로 다시 검색하면 유지하고 문장이 바뀌면 `Store.set_profile`이 지운다. 확정한 값은 검색·가이드·카드 어디에도 쓰이지 않으며 정확도와 학생 반응은 측정하지 않았다. 명세는 [INTENT_MIRROR_SPEC.md](../product/INTENT_MIRROR_SPEC.md).
+
 > 2026-11-05 가이드 전환: 기본 A는 기존 가이드다. B는 연구실 최근 논문을 최대 3편 선택하고 선택 논문의 직접 참고문헌(OpenAlex에서 최대 50건 조회 후 인용 수 순)과 제목 단어가 겹치는 동일 교수 논문을 보여 준다. 조회 실패와 근거 부족은 안내하며 기초 논문이나 실제 프로젝트라고 단정하지 않는다. 선택 논문은 가이드에 저장하고 과목 선택은 기존대로 유지한다. 서버 `.local/guide_variant` 파일의 A/B로 다음 탐색부터 전역 전환한다. 다른 버전의 이전 가이드는 삭제하지 않고 탐색 화면에서 숨긴다. 날짜·버전별 탐색과 가이드 생성 요청 수를 익명 집계한다. 요청 중복을 포함하며 이는 기간별 전환이므로 무작위 배정이나 인과 효과 측정은 아니다.
 
 > 2026-11-05 검색·워커 보완: 과목 역방향 연결은 과목별 저장된 최고 유사도의 95% 이상만 유사 후보로 삼고 개설 학과 일치에 0.08을 더한다. 담당 교수 연결은 유사 후보보다 먼저 정렬한다. 이는 경험적 필터이며 관련성 검증을 대신하지 않는다. `선대·일물·컴구·운체·자료구조`는 실제 과목명 별칭으로 처리한다. 운영 전용 해석기는 수업을 듣고 빠진 대상과 목적어·수단을 쓰는 제어 문장을 분리한다. 의미 검색 점수가 없는 과목 후보도 오류 없이 카드로 표시한다. Kaggle 실행 전 status로 OAuth 갱신을 시도하며 실패 시 기존 10분 대기 정책은 유지한다. 앱 프로필은 재생성하지 않았다.
@@ -237,6 +239,7 @@ Python 표준 라이브러리의 `ThreadingHTTPServer`와 SQLite를 사용한다
 | `POST /api/search` | `{interests, goal}` 저장, 연구실 목록. 질의 엔진이 켜져 있으면 응답에 `intent`·`message`·`interpretation`·`mode`(embedding/dictionary)·`uncertain`이 함께 온다 |
 | `GET /api/engine` | 임베딩 워커 연결 여부 `{embedding: bool}` |
 | `GET /api/worker/poll`, `POST /api/worker/answer` | 임베딩 워커 전용(Bearer 토큰). 워커가 작업을 가져가고 유사도를 돌려줌 |
+| `POST /api/mirror/confirm` | `{slots:[{key,values[]}]}` 학생이 확정한 정리 저장(빈 목록이면 삭제). 현재 검색 문장이 있어야 하고 검증 실패는 400 |
 | `POST /api/explore` | `{lab_id}` 권한 확인, 상세·연관 과목·기존 탐색 |
 | `POST /api/guide` | `{lab_id, selected_ids}` 가이드 작성·저장 |
 | `POST /api/save` | `{lab_id, selected_ids, note, saved}` 초안·후보 저장 |

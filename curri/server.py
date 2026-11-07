@@ -12,6 +12,7 @@ from urllib.parse import urlsplit, parse_qs
 from . import errors
 from .community import Community, NotFound
 from .llm_jobs import cache_key
+from .intent_mirror import build_mirror, clean_slots
 from .meeting_links import MeetingLinkError
 from .platform import Platform
 from .privacy import consent_notice, policy
@@ -335,6 +336,9 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                     if found.get('intent') == 'search' and not found.get('labs'):
                         self.event('zero_results')
                         P.events.zero_query(interests.strip())
+                    if found.get('intent') == 'search':
+                        read = found.get('interpretation') or {}
+                        found['mirror'] = build_mirror(interests, read.get('likes', ()), read.get('dislikes', ()))
                     return self.respond(200, found)
                 if path == '/api/prewarm':
                     # The student started typing: wake the embedding worker so the first search is less likely to wait.
@@ -360,6 +364,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 if path == '/api/logout':
                     self.token = store.logout(self.token)
                     return self.respond(200, self.snapshot())
+                if path == '/api/mirror/confirm':
+                    return self.respond(200, {'confirmed_slots': store.confirm_slots(self.token, clean_slots(body.get('slots')))})
                 if path == '/api/account':
                     community.update_account(self.token, body)
                     return self.respond(200, self.snapshot())

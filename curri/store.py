@@ -122,13 +122,42 @@ class Store:
             session = self._session(db, token)
             self._authorize(db, session, lab_id)
 
-    def set_profile(self, token, profile):
+    @staticmethod
+    def _write_profile(db, session, profile):
         encoded = json.dumps(profile, ensure_ascii=False)
+        db.execute('UPDATE sessions SET profile=? WHERE token=?', (encoded, session['token']))
+        if session['user_id']:
+            db.execute('UPDATE users SET profile=? WHERE id=?', (encoded, session['user_id']))
+
+    @staticmethod
+    def _current_profile(db, session):
+        if session['user_id']:
+            user = db.execute('SELECT profile FROM users WHERE id=?', (session['user_id'],)).fetchone()
+            return json.loads(user['profile']) if user else {}
+        return json.loads(session['profile'])
+
+    def set_profile(self, token, profile):
+        """New search text replaces the profile; slots the student confirmed survive only for identical text."""
         with self.db() as db:
             session = self._session(db, token)
-            db.execute('UPDATE sessions SET profile=? WHERE token=?', (encoded, session['token']))
-            if session['user_id']:
-                db.execute('UPDATE users SET profile=? WHERE id=?', (encoded, session['user_id']))
+            old = self._current_profile(db, session)
+            if old.get('confirmed_slots') and old.get('interests') == profile.get('interests') and 'confirmed_slots' not in profile:
+                profile = {**profile, 'confirmed_slots': old['confirmed_slots']}
+            self._write_profile(db, session, profile)
+
+    def confirm_slots(self, token, slots):
+        """Save (or clear, when empty) the student-confirmed intent slots for the current search text."""
+        with self.db() as db:
+            session = self._session(db, token)
+            profile = self._current_profile(db, session)
+            if not profile.get('interests'):
+                raise ValueError('먼저 관심을 적어 검색해 주세요.')
+            if slots:
+                profile['confirmed_slots'] = slots
+            else:
+                profile.pop('confirmed_slots', None)
+            self._write_profile(db, session, profile)
+        return slots
 
     @staticmethod
     def _decode(row):

@@ -66,6 +66,25 @@ class HttpTests(unittest.TestCase):
         saved = self.request('/api/session')[1]['explorations']
         self.assertEqual(next(r for r in saved if r['lab_id'] == 'bio')['note'], '<keep my note>')
 
+    def test_confirmed_slots_follow_the_search_text(self):
+        self.request('/api/session')
+        self.assertEqual(self.request('/api/mirror/confirm', {'slots': [{'key': 'style', 'values': ['Python']}]})[0], 400)  # nothing searched yet
+        self.request('/api/search', {'interests': 'AI 생명과학', 'goal': 'research'})
+        status, saved = self.request('/api/mirror/confirm', {'slots': [{'key': 'style', 'values': [' Python ']}, {'key': 'output', 'values': ['데모']}]})
+        self.assertEqual(status, 200)
+        self.assertEqual([s['values'] for s in saved['confirmed_slots']], [['Python'], ['데모']])
+        self.assertEqual(self.request('/api/session')[1]['profile']['confirmed_slots'], saved['confirmed_slots'])
+        self.request('/api/search', {'interests': 'AI 생명과학', 'goal': 'graduate'})  # same text: kept
+        self.assertEqual(self.request('/api/session')[1]['profile']['confirmed_slots'], saved['confirmed_slots'])
+        self.assertEqual(self.request('/api/mirror/confirm', {'slots': [{'key': 'who_you_are', 'values': ['x']}]})[0], 400)
+        self.assertEqual(self.request('/api/session')[1]['profile']['confirmed_slots'], saved['confirmed_slots'])
+        self.request('/api/search', {'interests': '다른 관심 문장', 'goal': 'research'})  # new text: cleared
+        self.assertNotIn('confirmed_slots', self.request('/api/session')[1]['profile'])
+        self.request('/api/mirror/confirm', {'slots': [{'key': 'topic', 'values': ['AI']}]})
+        self.assertEqual(self.request('/api/mirror/confirm', {'slots': []})[1], {'confirmed_slots': []})
+        self.assertNotIn('confirmed_slots', self.request('/api/session')[1]['profile'])
+        self.assertEqual(self.request('/api/mirror/confirm', {'slots': []}, origin='https://evil.example')[0], 403)
+
     def test_invalid_requests_do_not_consume_guest_slot_or_leak_files(self):
         self.request('/api/session')
         self.assertEqual(self.request('/api/explore', {'lab_id': 'bad'})[0], 404)
