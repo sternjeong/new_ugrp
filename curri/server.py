@@ -9,6 +9,7 @@ import re
 import threading
 import time
 from urllib.parse import urlsplit, parse_qs
+from . import errors
 from .community import Community, NotFound
 from .llm_jobs import cache_key
 from .meeting_links import MeetingLinkError
@@ -193,6 +194,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 return self.respond(400, {'error': str(exc) if not isinstance(exc, json.JSONDecodeError) else 'JSON 입력이 올바르지 않습니다.'})
             # No credentials, body contents or local paths in the public error.
             print(f'curri request error: {type(exc).__name__}', flush=True)
+            errors.record(f'{self.command} {urlsplit(self.path).path}', exc)
             return self.respond(500, {'error': '요청을 처리하지 못했습니다. 입력을 유지한 채 다시 시도해 주세요.'})
 
         # ---- reads that need more than one call ----

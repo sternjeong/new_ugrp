@@ -3,10 +3,12 @@
 # 이 개발 VM에서 두 서버 모두 ssh로 접속할 수 있어야 한다.
 #  - 서비스 서버에 관리자 토큰(.local/admin_token)을 만들고, 관리자 VM 전용 SSH 키를 '포트 전달 하나만 가능'으로 등록한다.
 #  - 관리자 VM에 콘솔(127.0.0.1:8300), 터널(127.0.0.1:18200 → 서비스 127.0.0.1:8200), 매일 백업 타이머를 설치한다.
-#  - 콘솔은 공개 포트를 열지 않는다. 접속: ssh -L 8300:127.0.0.1:8300 <관리자 VM> 후 http://127.0.0.1:8300
+#  - 콘솔은 127.0.0.1:8300에서 돌고, Caddy가 https://<도메인>(기본 3mincurri-admin.duckdns.org)으로 연다(인증서 자동).
+#    Oracle 콘솔에서 관리자 VM 서브넷의 Security List에 TCP 80·443 인바운드를 열어야 인증서가 발급된다.
 set -euo pipefail
 ADMIN="${1:?관리자 VM ssh 별칭을 주세요}"
 MAIN="${2:-oracle-micro}"
+DOMAIN="${3:-3mincurri-admin.duckdns.org}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 MAIN_ADDR=$(ssh -G "$MAIN" | awk '/^hostname /{print $2}')
 MAIN_USER=$(ssh -G "$MAIN" | awk '/^user /{print $2}')
@@ -84,5 +86,12 @@ ssh "$ADMIN" 'sudo install -m 644 /tmp/curri-admin-tunnel.service /tmp/curri-adm
   && sudo systemctl daemon-reload && sudo systemctl enable --now curri-admin-tunnel curri-admin curri-admin-backup.timer >/dev/null 2>&1 \
   && sleep 3 && systemctl is-active curri-admin-tunnel curri-admin'
 ssh "$ADMIN" 'python3 ~/curri-admin/admin_server.py backup 30'
-echo "설치 완료. 관리자 계정 만들기: ssh -t $ADMIN python3 ~/curri-admin/admin_server.py adduser <이름>"
-echo "접속: ssh -L 8300:127.0.0.1:8300 $ADMIN  →  http://127.0.0.1:8300"
+
+# 5) HTTPS: Caddy + OS 방화벽(80·443)
+ssh "$ADMIN" "command -v caddy >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq caddy >/dev/null)
+printf '%s {\n\tencode gzip\n\treverse_proxy 127.0.0.1:8300\n}\n' '$DOMAIN' | sudo tee /etc/caddy/Caddyfile >/dev/null
+for port in 80 443; do sudo iptables -C INPUT -p tcp --dport \$port -j ACCEPT 2>/dev/null || sudo iptables -I INPUT 5 -p tcp --dport \$port -m state --state NEW -j ACCEPT; done
+(command -v netfilter-persistent >/dev/null && sudo netfilter-persistent save >/dev/null 2>&1) || true
+sudo systemctl enable caddy >/dev/null 2>&1; sudo systemctl reload caddy || sudo systemctl restart caddy; systemctl is-active caddy"
+echo "설치 완료: https://$DOMAIN"
+echo "관리자 계정 만들기: ssh -t $ADMIN python3 ~/curri-admin/admin_server.py adduser <이름>"

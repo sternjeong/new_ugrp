@@ -8,6 +8,8 @@ person's settings are respected.
 from datetime import datetime
 import json
 import threading
+
+from . import errors
 import time
 
 from .community import KST, WEEKDAYS
@@ -132,5 +134,6 @@ class Notifier:
                     self.run_once()
                 except Exception as exc:
                     print(f'notifier error: {type(exc).__name__}', flush=True)
+                    errors.record('notifier', exc)
                 time.sleep(60)
         threading.Thread(target=loop, daemon=True, name='notifier').start()

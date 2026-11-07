@@ -2,6 +2,8 @@
 then one digest mail per watcher. OpenAlex needs no key; an optional contact address can be configured."""
 import json
 import threading
+
+from . import errors
 import time
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -73,6 +75,7 @@ class LabWatch:
                 works = self.fetch(authors, since)
             except (OSError, ValueError) as exc:
                 print(f'watch fetch failed: {type(exc).__name__}', flush=True)
+                errors.record('watch fetch', exc)
                 continue
             known = self.papers.known_ids(lab_id)
             with self.store.db() as db:
@@ -120,5 +123,6 @@ class LabWatch:
                         self.run()
                 except Exception as exc:
                     print(f'watch loop error: {type(exc).__name__}', flush=True)
+                    errors.record('lab-watch', exc)
                 time.sleep(3600)
         threading.Thread(target=loop, daemon=True, name='lab-watch').start()

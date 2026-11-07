@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import secrets
 
+from . import errors
 from .accounts import Accounts
 from .admin_api import AdminAPI
 from .events import Events
@@ -38,6 +39,7 @@ def _read(path):
 class Platform:
     def __init__(self, store, catalog, data_dir=None, local_dir=None, broker=None, base_url='https://3mincurri.duckdns.org'):
         local = Path(local_dir) if local_dir else None
+        errors.configure(store)
         cfg = lambda name: (local / name) if local else None
         self.secret = _secret(cfg('secret'))
         self.privacy_slots = load_slots(cfg('privacy.json'))

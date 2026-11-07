@@ -205,7 +205,16 @@ class AdminAPI:
             dest.close()
             return Path(tmp.name).read_bytes()
 
-    READS = {'overview': overview, 'users': users, 'graduates': graduates, 'reports': reports, 'outbox': outbox, 'audit': audit_log}
+    def errors_view(self, query):
+        from . import errors
+        with self.store.db() as db:
+            failed_mail = [dict(r) for r in db.execute("SELECT id,kind,error,attempts,created FROM outbox WHERE status='failed' ORDER BY id DESC LIMIT 30")]
+            failed_jobs = [dict(r) for r in db.execute("SELECT id,kind,error,attempts,created FROM llm_jobs WHERE status='failed' ORDER BY id DESC LIMIT 30")]
+        return {'errors': errors.recent(), 'failed_mail': failed_mail, 'failed_jobs': failed_jobs,
+                'system': errors.system(self.store.path), 'llm_online': self.llm.online(),
+                'embedding_online': bool(self.broker and self.broker.available()), 'mail_enabled': self.mailer.enabled}
+
+    READS = {'errors': errors_view, 'overview': overview, 'users': users, 'graduates': graduates, 'reports': reports, 'outbox': outbox, 'audit': audit_log}
     WRITES = {'graduates/decide': decide_graduate, 'reports/resolve': resolve_report, 'users/suspend': suspend_user,
               'mail/retry': retry_mail, 'experiments': set_experiments, 'summaries/prefill': prefill_summaries,
               'watch/run': run_watch, 'phrases/warm': warm_phrases}

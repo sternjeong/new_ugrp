@@ -11,6 +11,8 @@ from pathlib import Path
 import smtplib
 import ssl
 import threading
+
+from . import errors
 import time
 
 MAX_ATTEMPTS = 5
@@ -84,6 +86,7 @@ class Mailer:
             except Exception as exc:
                 status, error = ('queued' if row['attempts'] + 1 < MAX_ATTEMPTS else 'failed'), type(exc).__name__
                 print(f'mail send failed: {error}', flush=True)
+                errors.record('mail send', exc)
             with self.store.db() as db:
                 db.execute('UPDATE outbox SET status=?, attempts=attempts+1, error=?, sent=? WHERE id=?',
                            (status, error, time.time() if status == 'sent' else None, row['id']))
@@ -98,4 +101,5 @@ class Mailer:
                     self.flush()
                 except Exception as exc:
                     print(f'mail loop error: {type(exc).__name__}', flush=True)
+                    errors.record('mailer', exc)
         threading.Thread(target=loop, daemon=True, name='mailer').start()
