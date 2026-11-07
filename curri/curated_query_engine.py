@@ -1,7 +1,7 @@
 """Positive/negative query interpretation over the new curated catalog."""
 import re
 
-from .curated_catalog import COURSE_CUE, COURSE_WORD
+from .curated_catalog import COURSE_CUE, COURSE_WORD, search_terms
 from .query_engine import QueryEngine, broad_only, interpret, is_nonsense, normalize, rrf, TOP_N
 
 
@@ -94,6 +94,14 @@ class CuratedQueryEngine(QueryEngine):
         result['labs'] = self.with_courses(fused, by_id, linked, led)
         result['mode'] = 'embedding'
         return result
+
+    def semantic_card(self, lab_id, score, why):
+        card = super().semantic_card(lab_id, score, why)
+        phrase, index = why
+        topics = self.catalog.profiles[lab_id]['topics']
+        if 0 <= index < len(topics):  # pick the sentence of the matched passage that mentions the phrase
+            card['evidence'] = [self.catalog._evidence(topics[index], [v for vs in search_terms(phrase).values() for v in vs])]
+        return card
 
     @staticmethod
     def fuse(linked, led, *rankings):

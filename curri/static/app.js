@@ -63,7 +63,30 @@ function overviewHTML(lab, limit, alwaysNote, matched=new Set()) {
   return `<div class="overview"><p class="overview-title">${h(o.title)}</p><ul>${o.items.slice(0,limit).map(i=>matched.has(overviewKey(i))?`<li class="matched">${h(i)} <span class="micro">관심과 일치</span></li>`:`<li>${h(i)}</li>`).join('')}</ul>${rest>0?`<p class="micro">외 ${rest}개</p>`:''}${note?`<p class="micro">${h(o.note)}</p>`:''}</div>`;
 }
 function tags(topics) { return `<div class="tag-list">${topics.map(t => `<span class="pill ${t.role === 'method' ? 'method' : ''}">${h(t.label)}</span>`).join('')}</div>`; }
-function evidence(items, count=items.length) { return items.slice(0,count).map(e => `<div class="evidence"><p>${h(e.text)}</p>${e.urls.map((url,i) => `<a href="${h(url)}" target="_blank" rel="noopener noreferrer">원문 ${e.urls.length > 1 ? i+1 : ''} ↗</a>`).join('')}</div>`).join(''); }
+// Highlight query terms inside already-escaped text. Marks are exact substrings of the original text.
+function marked(text, marks) { let out = h(text); (marks||[]).forEach(m => { const em = h(m); if (em) out = out.split(em).join(`<mark>${em}</mark>`); }); return out; }
+function sourceLinks(e) { const label = e.section==='representative_paper' ? '논문 보기' : '홈페이지'; return (e.urls||[]).map((url,i) => `<a href="${h(url)}" target="_blank" rel="noopener noreferrer">${label}${e.urls.length > 1 ? ' '+(i+1) : ''} ↗</a>`).join(''); }
+// Research areas from one source become a single line of tags; other passages keep their own block.
+function groupEvidence(items) {
+  const out = [];
+  items.forEach(e => {
+    if (e.kind && e.section==='research_area') {
+      const prev = out.find(x => x.section==='research_area' && x.urls.join() === e.urls.join());
+      if (prev) { prev.tags.push(e.title); return; }
+      out.push({...e, tags:[e.title]}); return;
+    }
+    out.push(e);
+  });
+  return out;
+}
+function evidence(items, count=items.length) {
+  return groupEvidence(items).slice(0,count).map(e => {
+    if (!e.kind) return `<div class="evidence"><p>${h(e.text)}</p>${(e.urls||[]).map((url,i) => `<a href="${h(url)}" target="_blank" rel="noopener noreferrer">원문 ${e.urls.length > 1 ? i+1 : ''} ↗</a>`).join('')}</div>`;
+    const kind = `<span class="ev-kind">${h(e.kind)}${e.year?` · ${h(e.year)}`:''}</span>`;
+    if (e.tags) return `<div class="evidence">${kind}<p class="ev-tags">${e.tags.map(h).join(' · ')}</p>${sourceLinks(e)}</div>`;
+    return `<div class="evidence">${kind}${e.title && e.section!=='research_intro' ? `<p class="ev-title">${h(e.title)}</p>` : ''}${e.snippet ? `<p class="ev-snippet">${marked(e.snippet, e.marks)}</p>` : ''}${sourceLinks(e)}${e.full ? `<details class="ev-full"><summary>${e.section==='representative_paper'?'초록 전체':'전체 보기'}</summary><p>${h(e.full)}</p></details>` : ''}</div>`;
+  }).join('');
+}
 function steps(active) { return `<div class="steps"><${active===1?'b':'span'}>01 연구실</${active===1?'b':'span'}><span>—</span><${active===2?'b':'span'}>02 수강 경험</${active===2?'b':'span'}><span>—</span><${active===3?'b':'span'}>03 나의 가이드</${active===3?'b':'span'}></div>`; }
 function pageTop(active, label='연구실 목록으로', back='results') { return `<div class="page-top"><button class="back" data-action="${back}">← ${label}</button>${steps(active)}</div>`; }
 
@@ -118,8 +141,13 @@ function renderResults() {
   main.innerHTML = `${pageTop(1,'관심 수정하기','home')}<section class="page-heading"><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h1>관심에서 이어지는, 새로운 가능성.</h1><p>하나씩 살펴보세요. 잘 맞는 이유와 앞으로 준비할 것을 함께 알아갈 수 있어요.</p><div class="interest-line"><span class="pill neutral">${h(state.session.profile.interests)}</span><span class="micro">주제는 연구의 대상 또는 방법으로 연결될 수 있어요.</span></div>${searchInfoHTML()}</section><div class="results-toolbar"><p>연결 근거를 찾은 연구실 <strong>${state.results.length}</strong>곳</p><input id="lab-filter" type="search" aria-label="결과 안에서 연구실 찾기" placeholder="교수명·연구 분야로 좁혀보기"></div>${state.results.length ? `<div class="labs-grid">${state.results.map(labCard).join('')}</div><p id="filter-empty" class="notice" hidden>검색 조건에 맞는 연구실이 없어요.</p>` : (state.searchInfo&&state.searchInfo.message?`<div class="empty"><h3>조금만 더 알려 주세요.</h3><p>${h(state.searchInfo.message)}</p><button class="secondary" data-action="home">관심 다시 적기</button></div>`:'<div class="empty"><h3>지금 자료에서는 연결 근거를 찾지 못했어요.</h3><p>관심이 잘못된 것은 아니에요. 현재 정제 자료에서 추천 가능한 연구실 307곳을 검색하고 있어요. 관심을 다른 표현으로 적어보셔도 좋아요.</p><button class="secondary" data-action="home">관심 다시 적기</button></div>')}<div class="notice">이 목록은 수집된 연구 내용과 관심을 연결한 탐색 후보입니다. 현재 모집이나 참여 가능성을 보장하지 않아요. 자료 범위는 정제본에서 추천 가능으로 표시된 연구실 307곳입니다. 모든 교수진을 포함한다는 뜻은 아닙니다.</div>`;
 }
 
+function courseLinkHTML(course) {
+  const l = course.link;
+  if (!l) return `<div class="evidence"><span class="ev-kind">과목 소개</span>${(course.intro&&course.intro.length?course.intro:[course.evidence]).map(x=>`<p class="ev-snippet">${h(x)}</p>`).join('')}<p class="micro">과목 설명과 연구실 자료가 전체적으로 비슷하다는 자동 계산 결과예요. 실제로 이어지는지는 강의계획서에서 확인해 주세요.</p></div>`;
+  return `<div class="evidence"><span class="ev-kind">이 과목에서</span><p class="ev-snippet">${marked(l.course_line, l.course_marks)}</p></div><div class="evidence"><span class="ev-kind">연구실 자료 · ${h(l.lab_kind)}</span><p class="ev-title">${h(l.lab_title)}</p>${l.lab_snippet?`<p class="ev-snippet">${marked(l.lab_snippet, l.lab_marks)}</p>`:''}</div><p class="micro">겹치는 표현으로 찾은 연결이에요. 공식 선수과목은 아니에요.</p>`;
+}
 function courseItem(course) {
-  return `<article class="course-item" data-course-search="${h((course.name+' '+course.code).toLowerCase())}"><label><input type="checkbox" data-course-id="${h(course.id)}" ${state.selected.has(course.id)?'checked':''}><div><span class="course-name">${h(course.name)}</span><span class="course-code">${h(course.code)}</span><p class="course-reason">${h(course.reason)}</p></div></label><details><summary>연결 근거 보기${course.quality_flags.includes('compound_course_code_not_split')?' · 복합 코드 확인 필요':''}</summary><div class="evidence"><p>${h(course.evidence)}</p></div></details></article>`;
+  return `<article class="course-item" data-course-search="${h((course.name+' '+course.code).toLowerCase())}"><label><input type="checkbox" data-course-id="${h(course.id)}" ${state.selected.has(course.id)?'checked':''}><div><span class="course-name">${h(course.name)}</span><span class="course-code">${h(course.code)}</span><p class="course-reason">${h(course.reason)}</p></div></label><details><summary>${course.link?'어떤 내용이 이어지나요?':'과목 소개 보기'}${course.quality_flags.includes('compound_course_code_not_split')?' · 복합 코드 확인 필요':''}</summary>${courseLinkHTML(course)}</details></article>`;
 }
 function researchSelectionHTML(papers) {
   if (!papers) return '';

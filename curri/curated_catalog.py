@@ -86,6 +86,72 @@ def area_label(text):
     return str(text or '').strip().strip('.,;:').strip()
 
 
+EVIDENCE_KIND = {'representative_paper': '대표 논문', 'research_area': '연구 분야', 'research_intro': '연구실 소개',
+                 'course': '과목 설명'}
+SENTENCE_BREAK = re.compile(r'(?<=[.!?])\s+(?=[A-Z가-힣0-9(“"\'])|\n+')
+SNIPPET_LIMIT = 240
+
+
+def sentences(text):
+    parts = [re.sub(r'\s+', ' ', part).strip(' -•·\t') for part in SENTENCE_BREAK.split(text or '')]
+    return [part for part in parts if len(part) >= 15] or [re.sub(r'\s+', ' ', text or '').strip()]
+
+
+def clip(text, limit=SNIPPET_LIMIT):
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    return (cut[:cut.rfind(' ')] if ' ' in cut[limit // 2:] else cut).rstrip(',;: ') + '…'
+
+
+LINE_PREFIX = re.compile(r'^(?:\d+\s*주차\s*[:.]?|week\s*\d+\s*[:.]?|\d{1,2}\.\d{1,2}\s*\([^)]*\)|\d+\s*[.)]|[-•·*])\s*', re.I)
+LINK_STOPWORDS = {'course', 'courses', 'student', 'students', 'understand', 'understanding', 'learn', 'learning', 'basic',
+                  'basics', 'concept', 'concepts', 'fundamental', 'fundamentals', 'introduction', 'intro', 'overview',
+                  'chapter', 'lecture', 'lectures', 'class', 'skills', 'ability', 'knowledge', 'principles', 'topics',
+                  'various', 'including', 'their', 'these', 'other', 'using', 'based', 'such', 'will', 'with', 'from',
+                  'that', 'this', 'which', 'have', 'into', 'about', 'also', 'more', 'what', 'midterm', 'final', 'exam',
+                  'review', 'project', 'research', 'study', 'studies', 'method', 'methods', 'theory', 'application',
+                  'applications', 'approach', 'problem', 'problems', 'design', 'analysis', 'system', 'systems', 'model',
+                  'models', 'data', 'part', 'parts', 'additional', 'techniques', 'technique', 'advanced', 'general',
+                  '과목', '수업', '강의', '학생', '이해', '기초', '개념', '소개', '연구', '방법', '이론', '응용', '분석', '설계'}
+
+
+def content_words(text):
+    """Informative words for matching course text against lab material (lowercase, plural 's' dropped)."""
+    words = set()
+    for raw in re.findall(r'[A-Za-z][A-Za-z-]{3,}|[가-힣]{2,}', text or ''):
+        word = raw.lower()
+        if re.fullmatch(r'[가-힣]+', word):
+            word = PARTICLE.sub('', word) if len(PARTICLE.sub('', word)) >= 2 else word
+        elif word.endswith('s') and not word.endswith('ss') and len(word) > 4:
+            word = word[:-1]
+        if word not in LINK_STOPWORDS:
+            words.add(word)
+    return words
+
+
+def course_lines(course):
+    lines = []
+    for field in ('description', 'lecture_plan'):
+        for line in re.split(r'\n+|(?<=[.!?])\s+(?=[A-Z가-힣])', course.get(field) or ''):
+            line = LINE_PREFIX.sub('', re.sub(r'\s+', ' ', line).strip()).strip()
+            if len(line) >= 8 and not line.endswith(':') and content_words(line):
+                lines.append(line)
+    return list(dict.fromkeys(lines))
+
+
+def snippet(text, variants=()):
+    """The sentence that mentions the most query terms (else the first one), cut at a word boundary,
+    and the exact spans of query terms inside it for highlighting."""
+    parts = sentences(text)
+    # A match runs to the end of the word, so 'robot' marks 'robotic' whole.
+    patterns = [re.compile(r'\s?'.join(map(re.escape, v)) + r'\w*', re.I) for v in dict.fromkeys(variants) if len(v) >= 2]
+    best = max(parts, key=lambda s: (sum(bool(p.search(s)) for p in patterns), -parts.index(s))) if patterns else parts[0]
+    best = clip(best)
+    marks = list(dict.fromkeys(m.group(0) for p in patterns for m in p.finditer(best)))
+    return best, marks
+
+
 def load_lab_areas(path):
     """Research-area names written in each lab's own material (labs.jsonl), in source order.
 
@@ -137,6 +203,12 @@ class CuratedCatalog:
                                      for name in profile['professors']]
         self.lab_areas = load_lab_areas(root / 'labs.jsonl')
         self.courses = [c for c in load_jsonl(root / 'courses.jsonl') if c.get('recommendable')]
+        self.paper_years = {}
+        if (root / 'papers.jsonl').exists():
+            for row in load_jsonl(root / 'papers.jsonl'):
+                for paper in row.get('papers') or []:
+                    if paper.get('doi') and paper.get('year'):
+                        self.paper_years['https://doi.org/' + paper['doi'].lower()] = paper['year']
         self.course_map = {c['code']: c for c in self.courses}
         self.labs = self.profiles
         self.aliases = {lid: lid for lid in self.profiles}
@@ -219,10 +291,23 @@ class CuratedCatalog:
                 'status': p['status'], 'evidence_grade': 'curated',
                 'quality_flags': [], 'review_notes': []}
 
-    @classmethod
-    def _evidence(cls, t):
-        return {'topic': t['concept'], 'label': cls.topic_label(t), 'text': t['quote'],
-                'urls': safe_urls(t['source_urls']), 'section': t['section'], 'role': t['role']}
+    def _evidence(self, t, variants=()):
+        """Source passage for display: kind, title, one or two sentences (preferring ones with the query terms),
+        and the full text for an optional 'show all'."""
+        label, quote, section = self.topic_label(t), t['quote'], t['section']
+        title, body = label, quote
+        if section == 'representative_paper':
+            head = t['label_ko']
+            end = quote.find('. ', len(head) - 1 if len(head) < 100 else 60) if quote.startswith(head[:60]) else -1
+            title, body = (quote[:end], quote[end + 2:]) if end > 0 else (head, quote)
+        elif section == 'research_area' or quote.strip() == label.strip():
+            body = ''
+        text, marks = snippet(body, variants) if body else ('', [])
+        urls = safe_urls(t['source_urls'])
+        year = next((self.paper_years[u.lower()] for u in urls if u.lower() in self.paper_years), None)
+        return {'topic': t['concept'], 'label': label, 'text': quote, 'urls': urls, 'section': section, 'role': t['role'],
+                'kind': EVIDENCE_KIND.get(section, '연구 자료'), 'title': title, 'snippet': text, 'marks': marks,
+                'full': body if body and body != text else '', 'year': year}
 
     def _search_text(self, topic):
         key = id(topic)
@@ -255,7 +340,7 @@ class CuratedCatalog:
             topics = list({id(t): t for ts in by_term.values() for t in ts}.values())
             card = self.card(lid)
             card.update(matched_topics=[t['concept'] for t in topics[:3]],
-                        evidence=[self._evidence(t) for t in topics[:3]],
+                        evidence=[self._evidence(t, [v for vs in terms.values() for v in vs]) for t in topics[:3]],
                         score=round(sum(weight[term] * (1 + math.log(len(ts))) for term, ts in by_term.items()), 3),
                         connection='direct', reason='연구실 자료에서 입력한 표현과 일치하는 내용을 찾았습니다.')
             found.append(card)
@@ -310,8 +395,11 @@ class CuratedCatalog:
         card['reason'] = (f'{name} 수업을 맡은 교수의 연구실이에요.' if kind == 'teaches' else
                           f'{name} 수업 설명과 연구실 자료의 의미가 가까워요. 자동 계산이라 실제 관련성은 원문에서 확인하세요.')
         about = re.sub(r'\s+', ' ', course.get('description') or '').strip()
-        course_evidence = [{'topic': 'course', 'label': course['title'], 'text': f"{course['title']} 과목 설명: {about[:300]}",
-                            'urls': [], 'section': 'course', 'role': 'course'}] if about else []
+        lines = course_lines(course)
+        course_evidence = [{'topic': 'course', 'label': course['title'], 'text': about, 'urls': [], 'section': 'course',
+                            'role': 'course', 'kind': EVIDENCE_KIND['course'], 'title': f"{course['title']} ({course['code']})",
+                            'snippet': clip(' · '.join(lines[:2]) if lines else about), 'marks': [], 'full': '',
+                            'year': None}] if about or lines else []
         card['evidence'] = course_evidence + list(card.get('evidence') or [])[:2]
         card['connection'] = 'course'
         return card
@@ -328,9 +416,12 @@ class CuratedCatalog:
             if not c:
                 continue
             evidence = (c.get('description') or c.get('lecture_plan') or '').strip()
+            link = self.course_link(lid, c)
+            reason = (f"연구실 자료의 ‘{clip(link['lab_title'], 60)}’에 나오는 {', '.join(link['shared'][:3])} 내용을 이 과목에서도 다뤄요."
+                      if link else '과목 설명과 연구실 자료의 전반적인 내용이 비슷해 고른 과목이에요. 겹치는 표현은 따로 찾지 못했어요.')
             courses.append({'id': code, 'code': code, 'name': c['title'],
-                            'description': evidence[:500], 'topics': [],
-                            'reason': '연구 주제와 과목 설명의 의미 유사도를 바탕으로 찾은 학습 후보입니다.',
+                            'description': evidence[:500], 'topics': [], 'reason': reason, 'link': link,
+                            'intro': [clip(line, 160) for line in course_lines(c)[:2]],
                             'evidence': evidence[:500], 'strength': 'semantic',
                             'quality_flags': c.get('exclusion') or [], 'similarity': similarity})
         result = {**self.card(lid), 'evidence': [self._evidence(t) for t in p['topics']],
@@ -338,6 +429,36 @@ class CuratedCatalog:
                   'notice': '과목은 BGE-M3 의미 유사도에 따른 탐색 후보입니다. 공식 선수과목이나 연구실 참여 조건이 아닙니다.'}
         self._details[lid] = result
         return result
+
+    def _lab_word_df(self):
+        if not hasattr(self, '_word_df'):
+            df = {}
+            for p in self.profiles.values():
+                for word in set().union(*[content_words(t['label_ko'] + ' ' + t['quote']) for t in p['topics']] or [set()]):
+                    df[word] = df.get(word, 0) + 1
+            self._word_df = df
+        return self._word_df
+
+    def course_link(self, lab_id, course):
+        """The course line and lab passage that share the most informative words, or None. Words used by more than
+        COMMON_FRACTION of labs are ignored, so 'learning' or 'materials' alone never make a link."""
+        df, total = self._lab_word_df(), len(self.profiles)
+        topics = [(t, content_words(t['label_ko'] + ' ' + t['quote'])) for t in self.profiles[lab_id]['topics']]
+        best = None
+        for line in course_lines(course):
+            for t, words in topics:
+                shared = [w for w in content_words(line) & words if df.get(w, 0) <= total * COMMON_FRACTION]
+                if shared:
+                    score = sum(math.log((total + 1) / (df.get(w, 0) + 1)) for w in shared)
+                    if not best or score > best[0]:
+                        best = (score, line, t, sorted(shared, key=lambda w: df.get(w, 0)))
+        if not best:
+            return None
+        _, line, t, shared = best
+        evidence = self._evidence(t, shared)
+        return {'course_line': clip(line, 200), 'shared': shared[:4], 'lab_kind': evidence['kind'],
+                'lab_title': evidence['title'], 'lab_snippet': evidence['snippet'], 'lab_marks': evidence['marks'],
+                'course_marks': list(dict.fromkeys(m.group(0) for w in shared for m in re.finditer(re.escape(w) + r'\w*', line, re.I)))}
 
     def guide(self, lab_id, selected_ids):
         detail = self.detail(lab_id)

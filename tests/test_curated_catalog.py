@@ -143,7 +143,8 @@ class CuratedCatalogTests(unittest.TestCase):
         top = result['labs'][0]
         self.assertEqual(top['connection'], 'course')
         self.assertIn('MATH400', top['reason'])
-        self.assertTrue(top['evidence'][0]['text'].startswith('선형대수학 과목 설명'))
+        self.assertEqual(top['evidence'][0]['kind'], '과목 설명')
+        self.assertTrue(top['evidence'][0]['title'].startswith('선형대수학 (MATH400)'))
         teachers = {p['lab_id'] for p in self.catalog.course_map['CSED311']['professors']}
         result = engine.search('컴퓨터구조 수업이 정말 재밌었어요')
         self.assertTrue(teachers & {c['id'] for c in result['labs'][:5]})
@@ -187,6 +188,24 @@ class CuratedCatalogTests(unittest.TestCase):
                 result = CuratedQueryEngine(self.catalog, broker).search(query)
                 self.assertEqual(result['mode'], 'embedding')
                 self.assertTrue(all(p in broker.phrases for p in expected))
+
+    def test_evidence_shows_one_sentence_with_query_terms(self):
+        card = next(c for c in self.catalog.search('자율주행') if c['professors'][0] == '곽수하')
+        paper = next(e for e in card['evidence'] if e['section'] == 'representative_paper')
+        self.assertLessEqual(len(paper['snippet']), 241)
+        self.assertNotIn(paper['title'], paper['snippet'])
+        self.assertTrue(paper['marks'] and all(m in paper['snippet'] for m in paper['marks']))
+        area = next(e for e in self.catalog.detail(card['id'])['evidence'] if e['section'] == 'research_area')
+        self.assertEqual((area['kind'], area['snippet']), ('연구 분야', ''))
+
+    def test_course_reason_names_the_shared_content(self):
+        lid = next(l for l, p in self.catalog.profiles.items() if p['professors'][0] == '곽수하')
+        courses = self.catalog.detail(lid)['courses']
+        linked = [c for c in courses if c['link']]
+        self.assertTrue(linked)
+        for c in linked:
+            self.assertTrue(all(w in c['reason'] for w in c['link']['shared'][:3]))
+        self.assertTrue(all(c['reason'] for c in courses))
 
     def test_informative_lab_name_rules(self):
         self.assertEqual(informative_lab_name('홍길동 교수 연구실', ['홍길동']), '')
