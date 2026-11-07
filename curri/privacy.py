@@ -19,11 +19,13 @@ SLOTS = {
     'officer_phone': None,         # 연락처(선택)
     'effective_date': None,        # 시행일(YYYY-MM-DD)
     'hosting': 'Oracle Cloud Infrastructure (서버·데이터베이스 보관)',
+    'hosting_region': '일본 도쿄 (Oracle ap-tokyo-1, 2026-11-07 인스턴스 메타데이터로 확인)',  # 국외 리전이므로 국외 이전(보관)
     'site_url': 'https://3mincurri.duckdns.org',
 }
 MISSING = '【입력 필요: {}】'
 SLOT_LABELS = {'operator': '운영 주체', 'officer_name': '개인정보 보호책임자 성명', 'officer_position': '책임자 직책',
-               'officer_email': '책임자 이메일', 'officer_phone': '책임자 연락처', 'effective_date': '시행일'}
+               'officer_email': '책임자 이메일', 'officer_phone': '책임자 연락처', 'effective_date': '시행일',
+               'hosting_region': '서버 소재 국가·리전'}
 
 # 동의 항목: 필수와 선택을 나눠 받는다(제22조). 선택을 거부해도 서비스 이용은 막지 않는다(제16조 제3항, 제22조 제5항).
 CONSENTS = {
@@ -54,7 +56,8 @@ def consent_notice():
         'required_summary': [
             {'purpose': '회원 식별, 로그인, 선배 연락·만남 약속, 후기와 질문 작성자 관리, 부정 이용 방지',
              'items': '이메일, 비밀번호(암호화 저장), 이름, 별명, 학교, 관심 분야',
-             'retention': '탈퇴 시까지. 탈퇴 즉시 파기하되, 상대가 있는 쪽지는 보낸 사람을 ‘탈퇴한 사용자’로 바꿔 상대에게만 남긴다.'},
+             'retention': '탈퇴 시까지. 탈퇴 즉시 파기하되, 상대가 있는 쪽지는 보낸 사람을 ‘탈퇴한 사용자’로 바꿔 상대에게만 남긴다.',
+             'storage': '서버가 일본(Oracle 도쿄 리전)에 있어 모든 정보가 국외에 보관됩니다.'},
         ],
         'optional_summary': [
             {'purpose': '학과·학년·목표·자기소개 등 선배에게 전달할 추가 프로필', 'items': '입력한 항목만',
@@ -89,9 +92,11 @@ def policy(values):
             '학생이 선배에게 쪽지·커피챗을 보내면, 그 선배에게 이름·이메일과 학생이 입력한 프로필이 전달됩니다. 보내기 전에 화면에서 다시 동의를 받습니다.',
             '그 밖에는 법령에 근거가 있는 경우를 제외하고 제3자에게 제공하지 않습니다.']),
         ('5. 처리 위탁과 국외 이전', [
-            f'서버·데이터베이스 보관: {values["hosting"]}',
+            f'서버·데이터베이스 보관: {values["hosting"]} — 소재지 {v("hosting_region")}',
             '알림 메일 발송: 운영자가 설정한 메일 발송 사업자(설정 전에는 발송하지 않음)',
-            '국외 이전(제28조의8, 선택 동의자에 한함): 의미 검색 계산 — Google LLC(Kaggle, 미국), '
+            '국외 이전(보관, 제28조의8 제1항 제3호): 회원·탐색·쪽지 등 서비스의 모든 개인정보 — 이전받는 자 Oracle Corporation(Oracle Cloud Infrastructure), '
+            f'이전 국가 {values["hosting_region"]}, 이전 시기·방법: 가입·이용할 때 암호화 통신으로 저장, 보유: 위 3항의 기간. 거부하면 서비스를 이용할 수 없습니다.',
+            '국외 이전(처리, 제28조의8, 선택 동의자에 한함): 의미 검색 계산 — Google LLC(Kaggle, 미국), '
             'AI 연구 가이드·논문 쉬운 요약 생성 — Anthropic PBC(미국). 이전 항목: 검색 문장, 선택한 수강 과목, 학과·학년. '
             '이전 시기·방법: 요청할 때마다 암호화 통신으로 전송. 거부 방법: 동의 철회(프로필 설정). 거부 시 사전 검색과 기본 가이드만 제공.']),
         ('6. 파기 절차와 방법', [

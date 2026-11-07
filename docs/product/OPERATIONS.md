@@ -1,0 +1,77 @@
+# 운영 설정과 절차 (2026-11-07)
+
+서비스 서버의 `~/app/.local/`(개발 환경에서는 저장소 `.local/`)에 설정 파일을 둔다. 모두 선택 사항이고, 저장소에는 올라가지 않는다.
+
+## 설정 파일
+
+| 파일 | 내용 | 없을 때 |
+|---|---|---|
+| `privacy.json` | 처리방침 슬롯: 운영 주체, 보호책임자, 시행일 ([PRIVACY_REVIEW.md](PRIVACY_REVIEW.md)) | `【입력 필요】`로 표시 |
+| `mail.json` | `{"host", "port", "username", "password", "from", "from_name", "security": "ssl"\|"starttls"}` | 메일을 보내지 않고 발송함에 ‘보류’로 쌓음 |
+| `site.json` | `{"base_url", "graduate_domains": ["postech.ac.kr"], "openalex_mailto", "backup_dir"}` | 기본 주소 `https://3mincurri.duckdns.org`, 학교 메일 `postech.ac.kr` |
+| `llm_worker_token` | AI 워커 인증 토큰 | AI 가이드·쉬운 요약 꺼짐(기본 가이드만) |
+| `admin_token` | 관리자 VM 인증 토큰 | 관리자 API 404 |
+| `experiments.json` | 세션 무작위 실험 비율, 예: `{"guide": {"R": 0.5, "A": 0.5}}` | AI 가이드(R) 100% |
+| `secret` | 이벤트 가명 처리용 비밀값 | 처음 실행할 때 자동 생성 |
+
+## AI 워커 (tmux)
+
+- 개발 VM에서 `tools/llm_worker/start_tmux.sh` 를 실행한다.
+  - 서비스 서버에 `llm_worker_token`을 만들고, `.local/llm_worker.json`을 쓰고, tmux 세션 `curri-llm`을 띄운다.
+  - 상태 보기: `tmux attach -t curri-llm`
+- 워커는 서비스에서 작업을 가져와 `claude -p --model sonnet`(구독 로그인, 도구 없음)으로 처리한다.
+- 결과는 서비스가 원문과 대조해 검증한 뒤 보여 준다.
+  - 인용은 원문에 그대로 있어야 한다.
+  - 과목 코드는 실제로 선택한 과목이어야 한다.
+- 워커가 꺼져 있으면 AI 가이드 자리에 "작업자가 쉬고 있어요"가 뜨고 기본 가이드를 보여 준다. 요약은 표시되지 않는다.
+- 같은 연구실·관심·과목 조합은 캐시를 쓴다.
+- 처리 시간은 가이드 약 15~30초, 요약 약 10~15초다(로컬 실측).
+
+## 관리자 VM
+
+1. Oracle에서 micro VM을 만들고, 이 개발 VM의 `~/.ssh/config`에 별칭(예: `curri-admin`)을 등록한다.
+2. `tools/deploy_admin.sh curri-admin` 를 실행한다. 스크립트가 하는 일:
+   - 서비스 서버에 `admin_token`을 만든다(처음이면 서비스를 재시작).
+   - 관리자 VM 전용 키를 서비스 서버에 **127.0.0.1:8200 포트 전달만 가능**하게 등록한다.
+   - 관리자 VM에 콘솔, 터널, 매일 백업 타이머를 설치한다.
+3. 관리자 계정을 만든다: `ssh -t curri-admin python3 ~/curri-admin/admin_server.py adduser <이름>`
+4. 노트북에서 `ssh -L 8300:127.0.0.1:8300 curri-admin` 로 접속한 뒤 `http://127.0.0.1:8300` 을 연다. 콘솔은 공개 포트를 열지 않는다.
+
+콘솔 탭은 다음과 같다. 모든 조회·처리는 서비스 서버의 `admin_audit`에 기록된다.
+- 개요: 지표, 퍼널, 0건 검색어
+- 선배 인증 승인·반려
+- 신고 처리: 숨김, 이용 제한, 기각
+- 사용자 조회·정지
+- 메일 발송함
+- AI 작업: 전체 요약 미리 만들기, 지켜보기 즉시 실행
+- 실험 비율
+- 감사 로그
+
+## 백업
+
+- **서비스 서버:**
+  - `curri-backup.timer`가 매일 04:00(KST)에 `~/app/.local/backups/`로 백업하고 14일치를 보관한다.
+  - 배포 직전에도 한 번 백업한다.
+- **관리자 VM:** `curri-admin-backup.timer`가 매일 05:00(KST)에 터널로 사본을 받아 `~/curri-admin/backups/`에 30일치를 보관한다.
+- **복구:** 서비스를 멈추고 백업 파일을 `~/app/.local/curri.sqlite`로 복사한 뒤 다시 시작한다.
+
+## 알림 메일
+
+- 1분마다 다음을 확인한다:
+  - 읽지 않은 새 쪽지: 2분 지연 뒤 묶어서 보냄. 만남 요청·확정·취소도 쪽지로 남으므로 여기에 포함된다.
+  - 확정된 만남 24시간 전
+  - 학생 쪽지에 48시간 동안 답이 없을 때: 선배에게 한 번
+  - 익명 질문의 새 답변
+- 인증된 실제 계정에만 보내고, 각자의 알림 설정을 따른다.
+- 같은 알림은 한 번만 보낸다.
+- 처음 켤 때는 그 시점까지의 쪽지를 이미 처리된 것으로 기록해, 과거 쪽지에 메일을 몰아 보내지 않는다.
+- 지켜보기는 매주 OpenAlex에서 교수 저자 ID로 최근 120일 논문을 조회한다. 정제본에 없는 논문이면 메일로 알린다.
+
+## 필요한 자원
+
+| 자원 | 용도 | 비고 |
+|---|---|---|
+| SMTP 계정 | 인증 코드, 비밀번호 재설정, 알림 | Gmail 앱 비밀번호(하루 약 500통), Brevo 무료(하루 300통), Amazon SES 등. 발신 도메인 SPF·DKIM 설정 권장 |
+| 관리자 VM | 관리 콘솔, 서버 밖 백업 | Oracle micro. 공개 포트 불필요 |
+| Claude CLI 로그인 | AI 워커 | 개발 VM에 이미 있음. 사용량 한도가 있어 사용자가 늘면 API 전환 검토 |
+| OpenAlex | 지켜보기 | 키 불필요. `site.json`의 `openalex_mailto`로 연락 주소를 주면 polite pool을 씀 |

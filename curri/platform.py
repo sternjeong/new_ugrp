@@ -54,7 +54,7 @@ class Platform:
         self.qna = LabQnA(store, catalog)
         self.notifier = Notifier(store, self.mailer)
         self.admin = AdminAPI(store, catalog, self.accounts, self.events, self.mailer, self.llm, self.guide, self.watch,
-                              broker, _read(cfg('admin_token')), site.get('backup_dir'))
+                              broker, _read(cfg('admin_token')), site.get('backup_dir') or (local / 'backups' if local else None))
 
     def start(self):
         """Background threads: mail sender, notifier and the weekly lab watch."""

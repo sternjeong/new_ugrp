@@ -9,7 +9,7 @@ let draftTimer;
 let draftUnsaved = false;
 
 async function api(path, data) {
-  const response = await fetch(`api/${path}`, {method: data === undefined ? 'GET' : 'POST', headers: data === undefined ? {} : {'Content-Type': 'application/json'}, credentials: 'same-origin', body: data === undefined ? undefined : JSON.stringify(data)});
+  const response = await fetch(`/api/${path}`, {method: data === undefined ? 'GET' : 'POST', headers: data === undefined ? {} : {'Content-Type': 'application/json'}, credentials: 'same-origin', body: data === undefined ? undefined : JSON.stringify(data)});
   const result = await response.json();
   if (!response.ok) { const error = new Error(result.error || '잠시 후 다시 시도해 주세요.'); error.code = result.code; throw error; }
   return result;
@@ -41,7 +41,7 @@ let restoring = false;
 function setView(view) {
   state.view = view; sessionStorage.setItem('curri-view', view);
   const entry = {view, lab: view === 'detail' ? state.lab?.id || null : null}, current = history.state;
-  if (!restoring && !(current && current.view === entry.view && current.lab === entry.lab)) history[current ? 'pushState' : 'replaceState'](entry, '');
+  if (!restoring && !(current && current.view === entry.view && current.lab === entry.lab)) history[current ? 'pushState' : 'replaceState'](entry, '', pathFor(view));
   main.focus({preventScroll:true}); window.scrollTo({top:0, behavior:'instant'}); }
 function nameOf(lab) {
   // A lab without a known professor name carries its lab name instead; don't append "연구실" twice.
@@ -93,11 +93,11 @@ function pageTop(active, label='연구실 목록으로', back='results') { retur
 function renderHome() {
   setView('home');
   const profile = state.session?.profile || {};
-  main.innerHTML = `<section class="hero"><div><div class="eyebrow">A LITTLE CURIOSITY, A NEW POSSIBILITY</div><h1>내 관심이<br><em>연구가 되는 곳.</em></h1><p class="hero-copy">좋아하는 것에서 시작해 보세요.<br>나와 연결되는 연구실을 발견하고,<br>어떤 연구를 해볼 수 있을지 하나씩 알아가요.</p><div class="hero-proof"><div class="tiny-avatars" aria-hidden="true"><span>✳</span><span>↗</span><span>✦</span></div><span>첫 연구실 탐색은 로그인 없이, 끝까지.</span></div></div><form id="interest-form" class="input-card"><h2>요즘, 무엇이 궁금한가요?</h2><p class="sub">관심 분야도, 재미있었던 수업도 좋아요.</p><label for="interests">관심 분야 또는 고민<textarea id="interests" name="interests" required minlength="2" maxlength="500" placeholder="예: 로봇이 스스로 주변을 인식하고 움직이는 게 신기해요. 센서 데이터로 판단하는 연구를 해보고 싶어요.">${h(profile.interests || '')}</textarea></label><div class="chips"><button type="button" class="chip" data-action="example" data-value="로봇과 자율주행">+ 로봇·자율주행</button><button type="button" class="chip" data-action="example" data-value="반도체 소자와 공정">+ 반도체·소자</button><button type="button" class="chip" data-action="example" data-value="추천 시스템과 강화학습">+ 추천·강화학습</button><button type="button" class="chip" data-action="example" data-value="AI를 안전하고 믿을 수 있게 만드는 연구">+ AI 안전성</button></div><label>어떤 탐색을 하고 있나요?</label><div class="goal-row">${[['explore','아직 알아보는 중'],['research','연구참여'],['graduate','연구실 진학']].map(([value,label]) => `<label><input type="radio" name="goal" value="${value}" ${(profile.goal || 'explore')===value?'checked':''}><span>${label}</span></label>`).join('')}</div><button class="primary full" type="submit">나와 연결되는 연구실 찾기 <span>↗</span></button><p class="card-bottom">지금 모든 경험을 정리할 필요는 없어요.</p><p class="micro scope">현재 자료 범위: 정제본에서 추천 가능한 연구실 307곳과 과목 1,151개. 모든 연구실과 과목을 포함한다는 뜻은 아니에요.</p></form></section><section class="how"><div class="section-label">YOUR NEXT STEPS</div><div class="how-grid"><div class="how-item"><span class="step-icon">↗</span><div><h3>관심에서 연구실로</h3><p>익숙한 관심과 예상 못 한 연결을<br>추천 이유와 함께 만나보세요.</p></div></div><div class="how-item"><span class="step-icon">≋</span><div><h3>배운 것에서 가능성으로</h3><p>연관 과목 중 들은 과목을 표시하고<br>현재의 준비를 살펴보세요.</p></div></div><div class="how-item"><span class="step-icon">✳</span><div><h3>가능성에서 나의 선택으로</h3><p>시도할 연구와 더 배울 것을 확인하고<br>나만의 후보를 남겨보세요.</p></div></div></div></section><div class="bottom-note"><span>준비가 부족해도 괜찮아요. 새로운 관심으로 확장할 가능성도 함께 찾아요.</span><span>POSTECH 학생을 위한 첫 프로토타입 ↗</span></div>`;
+  main.innerHTML = `<section class="hero"><div><div class="eyebrow">A LITTLE CURIOSITY, A NEW POSSIBILITY</div><h1>내 관심이<br><em>연구가 되는 곳.</em></h1><p class="hero-copy">좋아하는 것에서 시작해 보세요.<br>나와 연결되는 연구실을 발견하고,<br>어떤 연구를 해볼 수 있을지 하나씩 알아가요.</p><div class="hero-proof"><div class="tiny-avatars" aria-hidden="true"><span>✳</span><span>↗</span><span>✦</span></div><span>첫 연구실 탐색은 로그인 없이, 끝까지.</span></div></div><form id="interest-form" class="input-card"><h2>요즘, 무엇이 궁금한가요?</h2><p class="sub">관심 분야도, 재미있었던 수업도 좋아요.</p><label for="interests">관심 분야 또는 고민<textarea id="interests" name="interests" required minlength="2" maxlength="500" placeholder="예: 로봇이 스스로 주변을 인식하고 움직이는 게 신기해요. 센서 데이터로 판단하는 연구를 해보고 싶어요.">${h(profile.interests || '')}</textarea></label>${searchNoticeHTML()}<div class="chips"><button type="button" class="chip" data-action="example" data-value="로봇과 자율주행">+ 로봇·자율주행</button><button type="button" class="chip" data-action="example" data-value="반도체 소자와 공정">+ 반도체·소자</button><button type="button" class="chip" data-action="example" data-value="추천 시스템과 강화학습">+ 추천·강화학습</button><button type="button" class="chip" data-action="example" data-value="AI를 안전하고 믿을 수 있게 만드는 연구">+ AI 안전성</button></div><label>어떤 탐색을 하고 있나요?</label><div class="goal-row">${[['explore','아직 알아보는 중'],['research','연구참여'],['graduate','연구실 진학']].map(([value,label]) => `<label><input type="radio" name="goal" value="${value}" ${(profile.goal || 'explore')===value?'checked':''}><span>${label}</span></label>`).join('')}</div><button class="primary full" type="submit">나와 연결되는 연구실 찾기 <span>↗</span></button><p class="card-bottom">지금 모든 경험을 정리할 필요는 없어요.</p><p class="micro scope">현재 자료 범위: 정제본에서 추천 가능한 연구실 307곳과 과목 1,151개. 모든 연구실과 과목을 포함한다는 뜻은 아니에요.</p></form></section><section class="how"><div class="section-label">YOUR NEXT STEPS</div><div class="how-grid"><div class="how-item"><span class="step-icon">↗</span><div><h3>관심에서 연구실로</h3><p>익숙한 관심과 예상 못 한 연결을<br>추천 이유와 함께 만나보세요.</p></div></div><div class="how-item"><span class="step-icon">≋</span><div><h3>배운 것에서 가능성으로</h3><p>연관 과목 중 들은 과목을 표시하고<br>현재의 준비를 살펴보세요.</p></div></div><div class="how-item"><span class="step-icon">✳</span><div><h3>가능성에서 나의 선택으로</h3><p>시도할 연구와 더 배울 것을 확인하고<br>나만의 후보를 남겨보세요.</p></div></div></div></section><div class="bottom-note"><span>준비가 부족해도 괜찮아요. 새로운 관심으로 확장할 가능성도 함께 찾아요.</span><span>POSTECH 학생을 위한 첫 프로토타입 ↗</span></div>`;
 }
 
 function labCard(lab,index) {
-  return `<article class="lab-card" data-search-text="${h((nameOf(lab)+' '+lab.department+' '+lab.topics.map(t=>t.label).join(' ')).toLowerCase())}"><div class="lab-meta"><span>${h(lab.department)}</span><span class="lab-number">${String(index+1).padStart(2,'0')}</span></div><h3>${h(nameOf(lab))}</h3>${subtitleOf(lab)?`<p class="micro">${h(subtitleOf(lab))}</p>`:''}${professorLine(lab)?`<p class="professor">${h(professorLine(lab))}</p>`:''}${cardOverview(lab)}<p class="reason">${h(lab.reason)}</p><details><summary>어떤 내용을 보고 연결했나요?</summary>${evidence(lab.evidence,2)}</details><div class="card-action"><a href="${h(lab.url)}" target="_blank" rel="noopener noreferrer">연구실 홈페이지 ↗</a><button class="explore-button" data-action="explore" data-id="${h(lab.id)}">이 연구실 알아보기 →</button></div></article>`;
+  return `<article class="lab-card" data-search-text="${h((nameOf(lab)+' '+lab.department+' '+lab.topics.map(t=>t.label).join(' ')).toLowerCase())}"><div class="lab-meta"><span>${h(lab.department)}</span><span class="lab-number">${String(index+1).padStart(2,'0')}</span></div><h3>${h(nameOf(lab))}</h3>${subtitleOf(lab)?`<p class="micro">${h(subtitleOf(lab))}</p>`:''}${professorLine(lab)?`<p class="professor">${h(professorLine(lab))}</p>`:''}${cardOverview(lab)}<p class="reason">${h(lab.reason)}</p><details><summary>어떤 내용을 보고 연결했나요?</summary>${evidence(lab.evidence,2)}</details><div class="card-action"><a href="${h(lab.url)}" target="_blank" rel="noopener noreferrer">연구실 홈페이지 ↗</a><button class="explore-button" data-action="explore" data-id="${h(lab.id)}" data-rank="${index}">이 연구실 알아보기 →</button></div></article>`;
 }
 // Card: overview list (matched areas marked in place) plus pills only for matches not already listed.
 function cardOverview(lab) {
@@ -164,13 +164,14 @@ function researchResultHTML(research) {
 function renderDetail() {
   setView('detail'); const lab=state.lab;
   const concerns = lab.quality_flags.filter(f => !['collection_date_unknown','recruitment_status_unverified'].includes(f));
-  main.innerHTML = `${pageTop(state.guide?3:2)}<div class="detail-layout"><aside class="lab-sidebar"><div class="section-label">YOUR EXPLORATION</div><h2>${h(nameOf(lab))}</h2>${subtitleOf(lab)?`<p class="micro">${h(subtitleOf(lab))}</p>`:''}<p class="professor">${h(lab.department)}</p>${overviewHTML(lab,6,true)}${lab.overview?(lab.overview.classification.length?`<p class="micro">대표 논문의 OpenAlex 주제 분류</p>${tags(lab.overview.classification.map(label=>({label})))}`:''):tags(lab.topics.filter(t=>t.weight!=='secondary'))}<a class="small-link" href="${h(lab.url)}" target="_blank" rel="noopener noreferrer">홈페이지에서 더 알아보기 ↗</a><details><summary>연구 내용과 출처</summary>${evidence(lab.evidence)}</details><details><summary>추천을 읽기 전에</summary><p class="micro">현재 모집 여부와 연구실 분위기는 확인되지 않았어요. ${concerns.length ? '일부 자료는 내용이 부족하거나 추가 확인이 필요합니다.' : ''} 교수별 자료가 공동 홈페이지를 공유할 수 있어요.</p></details><p class="micro">${state.session.user?'로그인한 계정에 탐색을 이어갑니다.':'첫 연구실은 로그인 없이 끝까지 볼 수 있어요.'}</p></aside><section class="detail-main"><div class="eyebrow">CONNECT WHAT YOU HAVE LEARNED</div><h2>배운 것에서, 시작해 볼까요?</h2><p class="sub">이 연구실의 연구와 연결되는 과목이에요. 들은 과목을 표시해 주세요.<br>아직 듣지 않았어도 괜찮아요. 앞으로의 준비를 함께 살펴볼게요.</p>${researchSelectionHTML(lab.research_papers)}<div class="selection-head"><input id="course-filter" type="search" aria-label="연관 과목 찾기" placeholder="과목명·코드로 찾기"><span class="selection-count"><b id="selected-count">${state.selected.size}</b>개 수강 표시</span></div><p class="micro">연관 과목 ${lab.courses.length}개 · 공식 필수과목 목록이 아닙니다.</p><div class="course-list">${lab.courses.length ? lab.courses.map(courseItem).join('') : '<div class="empty"><p>보유한 자료에서 연관 과목을 찾지 못했어요. 수강 선택 없이 연구 내용부터 살펴볼 수 있습니다.</p></div>'}</div><p id="course-filter-empty" class="micro" hidden>조건에 맞는 과목이 없어요.</p><div class="selection-actions"><p>수강 경험은 출발점이에요.<br>실제 숙련도나 지원 자격을 판단하지 않아요.</p><button class="primary" data-action="guide">${state.guide?'선택한 과목으로 다시 보기':'나의 연구 가이드 보기'} <span>→</span></button></div><p id="dirty-notice" class="dirty-notice" hidden>수강 선택이 바뀌었어요. 가이드를 다시 확인해 주세요.</p><div id="guide-content">${state.guide?guideHTML(state.guide):''}</div><section class="save-panel"><h3>내가 발견한 가능성을 남겨보세요.</h3><p>마음에 드는 이유, 더 알아보고 싶은 점을 짧게 적어보세요.</p><label for="note">탐색 메모<textarea id="note" maxlength="2000" placeholder="이 연구실이 궁금한 이유는…">${h(state.note)}</textarea></label><div class="save-actions"><button class="secondary" data-action="save">${state.saved?'메모 저장하기':'후보와 메모 저장'}</button><button class="text-button" data-action="results">다른 연구실도 알아보기 →</button></div></section>${communityHTML()}</section></div>`;
+  main.innerHTML = `${pageTop(state.guide?3:2)}<div class="detail-layout"><aside class="lab-sidebar"><div class="section-label">YOUR EXPLORATION</div><h2>${h(nameOf(lab))}</h2>${subtitleOf(lab)?`<p class="micro">${h(subtitleOf(lab))}</p>`:''}<p class="professor">${h(lab.department)}</p>${overviewHTML(lab,6,true)}${lab.overview?(lab.overview.classification.length?`<p class="micro">대표 논문의 OpenAlex 주제 분류</p>${tags(lab.overview.classification.map(label=>({label})))}`:''):tags(lab.topics.filter(t=>t.weight!=='secondary'))}<a class="small-link" href="${h(lab.url)}" target="_blank" rel="noopener noreferrer">홈페이지에서 더 알아보기 ↗</a>${platformSidebarHTML(lab)}<details><summary>연구 내용과 출처</summary>${evidence(lab.evidence)}</details><details><summary>추천을 읽기 전에</summary><p class="micro">현재 모집 여부와 연구실 분위기는 확인되지 않았어요. ${concerns.length ? '일부 자료는 내용이 부족하거나 추가 확인이 필요합니다.' : ''} 교수별 자료가 공동 홈페이지를 공유할 수 있어요.</p></details><p class="micro">${state.session.user?'로그인한 계정에 탐색을 이어갑니다.':'첫 연구실은 로그인 없이 끝까지 볼 수 있어요.'}</p></aside><section class="detail-main"><div class="eyebrow">CONNECT WHAT YOU HAVE LEARNED</div><h2>배운 것에서, 시작해 볼까요?</h2><p class="sub">이 연구실의 연구와 연결되는 과목이에요. 들은 과목을 표시해 주세요.<br>아직 듣지 않았어도 괜찮아요. 앞으로의 준비를 함께 살펴볼게요.</p>${researchSelectionHTML(lab.research_papers)}<div class="selection-head"><input id="course-filter" type="search" aria-label="연관 과목 찾기" placeholder="과목명·코드로 찾기"><span class="selection-count"><b id="selected-count">${state.selected.size}</b>개 수강 표시</span></div><p class="micro">연관 과목 ${lab.courses.length}개 · 공식 필수과목 목록이 아닙니다.</p><div class="course-list">${lab.courses.length ? lab.courses.map(courseItem).join('') : '<div class="empty"><p>보유한 자료에서 연관 과목을 찾지 못했어요. 수강 선택 없이 연구 내용부터 살펴볼 수 있습니다.</p></div>'}</div><p id="course-filter-empty" class="micro" hidden>조건에 맞는 과목이 없어요.</p><div class="selection-actions"><p>수강 경험은 출발점이에요.<br>실제 숙련도나 지원 자격을 판단하지 않아요.</p><button class="primary" data-action="guide">${state.guide?'선택한 과목으로 다시 보기':'나의 연구 가이드 보기'} <span>→</span></button></div><p id="dirty-notice" class="dirty-notice" hidden>수강 선택이 바뀌었어요. 가이드를 다시 확인해 주세요.</p><div id="guide-content">${state.guide?guideHTML(state.guide):''}</div><section class="save-panel"><h3>내가 발견한 가능성을 남겨보세요.</h3><p>마음에 드는 이유, 더 알아보고 싶은 점을 짧게 적어보세요.</p><label for="note">탐색 메모<textarea id="note" maxlength="2000" placeholder="이 연구실이 궁금한 이유는…">${h(state.note)}</textarea></label><div class="save-actions"><button class="secondary" data-action="save">${state.saved?'메모 저장하기':'후보와 메모 저장'}</button><button class="text-button" data-action="results">다른 연구실도 알아보기 →</button></div></section>${communityHTML()}<section id="qna" class="community"></section></section></div>`;
+  platformAfterDetail();
 }
 function topicHTML(topic) {
   return `<article class="topic-card"><span class="pill neutral">${h(topic.difficulty)}</span><h4>${h(topic.title)}</h4><p>${h(topic.basis)}</p><ol>${topic.steps.map(s=>`<li>${h(s)}</li>`).join('')}</ol>${topic.courses.length?`<div class="course-mini"><p>연결되는 학습 과목</p>${topic.courses.map(c=>`<span class="pill neutral">${h(c.name)}</span>`).join(' ')}</div>`:''}${topic.self_study?`<p>${h(topic.self_study)}</p>`:''}<details><summary>이 방향과 연결한 원문</summary>${evidence(topic.evidence)}</details></article>`;
 }
 function guideHTML(guide) {
-  return `<section class="guide"><div class="eyebrow">YOUR NEXT POSSIBILITIES</div><h2>지금의 나에서, 다음 연구로.</h2><div class="notice">${h(guide.notice)}</div>${researchResultHTML(guide.research)}<p class="micro">수강 표시: ${guide.selected_courses.length ? guide.selected_courses.map(c=>h(c.name)).join(' · ') : '없음 — 역량이 없다는 뜻은 아닙니다.'}</p>${guide.insufficient_evidence?'<div class="empty"><h3>구체적인 주제를 제안할 근거가 부족해요.</h3><p>연구실 원문과 관심 분야의 연결을 먼저 확인해 주세요. 자료에 없는 연구를 만들지는 않았습니다.</p></div>':`<div class="guide-columns"><section class="guide-column"><h3><span>01</span> 지금 시작할 탐색</h3>${guide.start_now.map(topicHTML).join('')}</section><section class="guide-column"><h3><span>02</span> 더 준비하고 도전할 연구</h3>${guide.prepare_next.map(topicHTML).join('')}</section></div>`}</section>`;
+  return `<section class="guide"><div class="eyebrow">YOUR NEXT POSSIBILITIES</div><h2>지금의 나에서, 다음 연구로.</h2><div class="notice">${h(guide.notice)}</div>${researchResultHTML(guide.research)}${aiGuideHTML(guide)}<p class="micro">수강 표시: ${guide.selected_courses.length ? guide.selected_courses.map(c=>h(c.name)).join(' · ') : '없음 — 역량이 없다는 뜻은 아닙니다.'}</p>${guide.insufficient_evidence?'<div class="empty"><h3>구체적인 주제를 제안할 근거가 부족해요.</h3><p>연구실 원문과 관심 분야의 연결을 먼저 확인해 주세요. 자료에 없는 연구를 만들지는 않았습니다.</p></div>':`${guide.ai?.status==='done'?'<details class="basic-guide"><summary>기본 가이드 보기</summary>':''}<div class="guide-columns"><section class="guide-column"><h3><span>01</span> 지금 시작할 탐색</h3>${guide.start_now.map(topicHTML).join('')}</section><section class="guide-column"><h3><span>02</span> 더 준비하고 도전할 연구</h3>${guide.prepare_next.map(topicHTML).join('')}</section></div>${guide.ai?.status==='done'?'</details>':''}`}</section>`;
 }
 
 function scheduleDraft() {
@@ -195,10 +196,10 @@ async function persist(saved=state.saved) {
   state.saved = saved;
   await refreshSession();
 }
-async function openLab(id, saveCurrent=true) {
+async function openLab(id, saveCurrent=true, meta=null) {
   if (saveCurrent) await persist();
   try {
-    const result=await api('explore',{lab_id:id});
+    const result=await api('explore',{lab_id:id,...(meta||{})});
     state.lab=result.lab; const existing=result.exploration;
     const offered=new Set(result.lab.courses.map(c=>c.id));
     state.selected=new Set((existing?.selected_ids || []).filter(id=>offered.has(id))); state.guide=existing?.guide || null; state.paperSelected=new Set((state.guide?.research?.selected || []).map(p=>p.id)); state.note=existing?.note || ''; state.saved=existing?.saved || false; state.dirty=false;
@@ -218,12 +219,13 @@ async function showResults() {
 async function renderSaved() {
   await persist(); await refreshSession();setView('saved');
   const records=state.session.explorations.filter(r=>r.saved && r.lab);
-  main.innerHTML=`${pageTop(1,'관심에서 다시 탐색','home')}<section class="page-heading"><div class="eyebrow">MY EXPLORATIONS</div><h1>내가 남긴 가능성들.</h1><p>하나씩 살펴보고, 나에게 맞는 후보 2~3곳을 남겨보세요.</p></section>${!state.session.user?'<div class="notice">이 브라우저의 비회원 세션에 저장되어 있어요. 로그인하면 계정으로 이어집니다. 쿠키를 지우면 비회원 기록에 다시 접근할 수 없어요.</div>':''}${records.length?`<div class="saved-grid">${records.map(r=>`<article class="saved-card"><span class="pill neutral">${h(r.lab.department)}</span><h3>${h(nameOf(r.lab))}</h3><p class="micro">${r.selected_ids.length}개 수강 표시 · ${r.guide?'가이드 확인함':'탐색 중'}</p><div class="note">${h(r.note || '아직 메모가 없어요. 궁금한 점을 남겨보세요.')}</div>${r.previous_versions?.length?`<details><summary>이전 탐색 메모 ${r.previous_versions.length}개</summary>${r.previous_versions.map(v=>`<p class="micro">${h(v.note||'메모 없음')}</p>`).join('')}</details>`:''}<div class="actions"><button class="explore-button" data-action="explore" data-id="${h(r.lab_id)}">탐색 이어보기 →</button><button class="text-button" data-action="unsave" data-id="${h(r.lab_id)}">후보에서 빼기</button></div></article>`).join('')}</div>`:'<div class="empty"><h3>아직 저장한 후보가 없어요.</h3><p>연구실을 살펴보고 마음에 남는 가능성을 저장해 보세요.</p><button class="secondary" data-action="results">연구실 살펴보기</button></div>'}`;
+  main.innerHTML=`${pageTop(1,'관심에서 다시 탐색','home')}<section class="page-heading"><div class="eyebrow">MY EXPLORATIONS</div><h1>내가 남긴 가능성들.</h1><p>하나씩 살펴보고, 나에게 맞는 후보 2~3곳을 남겨보세요.</p></section>${!state.session.user?'<div class="notice">이 브라우저의 비회원 세션에 저장되어 있어요. 로그인하면 계정으로 이어집니다. 쿠키를 지우면 비회원 기록에 다시 접근할 수 없어요.</div>':''}${records.length?`<div class="saved-grid">${records.map(r=>`<article class="saved-card"><span class="pill neutral">${h(r.lab.department)}</span><h3>${h(nameOf(r.lab))}</h3><p class="micro">${r.selected_ids.length}개 수강 표시 · ${r.guide?'가이드 확인함':'탐색 중'}</p><div class="note">${h(r.note || '아직 메모가 없어요. 궁금한 점을 남겨보세요.')}</div>${savedGuideHTML(r)}${r.previous_versions?.length?`<details><summary>이전 탐색 메모 ${r.previous_versions.length}개</summary>${r.previous_versions.map(v=>`<p class="micro">${h(v.note||'메모 없음')}</p>`).join('')}</details>`:''}<div class="actions"><button class="explore-button" data-action="explore" data-id="${h(r.lab_id)}">탐색 이어보기 →</button><button class="text-button" data-action="unsave" data-id="${h(r.lab_id)}">후보에서 빼기</button></div></article>`).join('')}</div>`:'<div class="empty"><h3>아직 저장한 후보가 없어요.</h3><p>연구실을 살펴보고 마음에 남는 가능성을 저장해 보세요.</p><button class="secondary" data-action="results">연구실 살펴보기</button></div>'}`;
 }
 function showAuth(register=false) { state.register=register; updateAuth();$('#auth-error').textContent='';$('#auth-dialog').showModal(); }
 function updateAuth() {
   const fields=$('#register-fields');
-  fields.innerHTML=state.register?accountFields({school:'POSTECH'},'',false):'';fields.hidden=!state.register;
+  fields.innerHTML=state.register?accountFields({school:'POSTECH'},'',false)+consentHTML():'';fields.hidden=!state.register;
+  if($('#forgot-link'))$('#forgot-link').hidden=state.register;
   $('#auth-dialog').classList.toggle('wide',state.register);
   $('#auth-submit').textContent=state.register?'계정 만들고 이어가기 →':'로그인하고 이어가기 →';
   $('#auth-toggle').textContent=state.register?'이미 계정이 있나요? 로그인':'처음 오셨나요? 계정 만들기';
@@ -232,11 +234,11 @@ function updateAuth() {
 $('#auth-dialog').addEventListener('cancel',()=>{state.pendingLab=null;});
 $('#auth-form').addEventListener('submit',event=>{
   // Read everything before action() disables the inputs (disabled fields are left out of FormData).
-  event.preventDefault();const form=new FormData(event.target), account=state.register?readAccount(event.target):null;action(async()=>{
+  event.preventDefault();const form=new FormData(event.target), account=state.register?readAccount(event.target):null, consents=state.register?readConsents(event.target):null;action(async()=>{
     $('#auth-error').textContent='';
     try {
       const credentials={email:form.get('email'),password:form.get('password')};
-      if(account) credentials.account=account;
+      if(account) {credentials.account=account;credentials.consents=consents;}
       state.session=await api(state.register?'register':'login',credentials);header();
       $('#auth-dialog').close();event.target.reset();
       const next=state.pendingLab;state.pendingLab=null;
@@ -282,6 +284,7 @@ document.addEventListener('change',event=>{
 document.addEventListener('click',event=>{
   const button=event.target.closest('[data-action]');if(!button || busy)return;
   const name=button.dataset.action;
+  if(platformClick(name,button))return;
   if(name==='example'){$('#interests').value=button.dataset.value;$('#interests').focus();return;}
   if(name==='toggle-auth'){state.register=!state.register;updateAuth();return;}
   if(name==='close-auth'){$('#auth-dialog').close();state.pendingLab=null;return;}
@@ -293,7 +296,7 @@ document.addEventListener('click',event=>{
   action(async()=>{
     if(name==='home'){await persist();renderHome();}
     else if(name==='results')await showResults();
-    else if(name==='explore')await openLab(button.dataset.id);
+    else if(name==='explore')await openLab(button.dataset.id,true,button.dataset.rank!==undefined?{rank:Number(button.dataset.rank),from:state.view}:null);
     else if(name==='saved')await renderSaved();
     else if(name==='account'){
       if($('#sheet-dialog').open)$('#sheet-dialog').close();
@@ -355,7 +358,7 @@ async function renderProfile() {
   await refreshSession(); const user=state.session.user;
   if (!user) { renderHome(); showAuth(); return; }
   setView('profile'); const a=user.account||{};
-  main.innerHTML=`<section class="page-heading"><div class="eyebrow">MY PROFILE</div><h1>내 프로필</h1><p>후기에는 별명과 학과·학년만 보여요. 선배에게 쪽지를 보내면 이름·이메일과 아래 프로필이 그 선배에게 함께 전달돼요.</p></section>${user.profile_complete?'':'<div class="notice strong">필수 항목(이름·별명·학교·관심 분야)을 채우면 연구참여 후기 작성과 선배 연락을 할 수 있어요.</div>'}${user.role==='graduate'?`<div class="notice">연구실 선배 계정이에요 · ${h(a.program)} · ${h(a.research)}<br>연구실 상세의 선배 소개에는 이름·과정·연구 분야·한 줄 소개와, 로그인한 사용자에게만 이메일이 보여요.</div>`:''}<form id="profile-form" class="profile-form"><label>이메일 <small>로그인에 쓰는 주소는 바꿀 수 없어요</small><input value="${h(user.email)}" disabled></label>${accountFields(a,user.nickname||'',true)}<div class="profile-actions"><button type="submit" class="primary">프로필 저장 <span>→</span></button><button type="button" class="text-button" data-action="logout">로그아웃</button></div></form>`;
+  main.innerHTML=`<section class="page-heading"><div class="eyebrow">MY PROFILE</div><h1>내 프로필</h1><p>후기에는 별명과 학과·학년만 보여요. 선배에게 쪽지를 보내면 이름·이메일과 아래 프로필이 그 선배에게 함께 전달돼요.</p></section>${user.profile_complete?'':'<div class="notice strong">필수 항목(이름·별명·학교·관심 분야)을 채우면 연구참여 후기 작성과 선배 연락을 할 수 있어요.</div>'}${user.role==='graduate'?`<div class="notice">연구실 선배 계정이에요 · ${h(a.program)} · ${h(a.research)}<br>연구실 상세의 선배 소개에는 이름·과정·연구 분야·한 줄 소개와, 로그인한 사용자에게만 이메일이 보여요.</div>`:''}<form id="profile-form" class="profile-form"><label>이메일 <small>로그인에 쓰는 주소는 바꿀 수 없어요</small><input value="${h(user.email)}" disabled></label>${accountFields(a,user.nickname||'',true)}<div class="profile-actions"><button type="submit" class="primary">프로필 저장 <span>→</span></button><button type="button" class="text-button" data-action="logout">로그아웃</button></div></form>${platformProfileHTML(user)}`;
 }
 
 function reviewCard(r, withLab=false) {
@@ -363,11 +366,11 @@ function reviewCard(r, withLab=false) {
   const values=Object.values(r.ratings), avg=values.reduce((a,b)=>a+b,0)/values.length;
   const who=[r.author.department,r.author.grade].filter(Boolean).join(' ');
   const attrs=withLab?`data-review-lab="${h(r.lab_id)}" data-dept="${h(r.lab.department)}" data-search-text="${h((nameOf(r.lab)+' '+r.lab.department+' '+r.activity+' '+r.good+' '+r.recommend_for).toLowerCase())}"`:'';
-  return `<article class="review-card" ${attrs}><div class="review-head"><div><b>${h(r.author.nickname)}</b>${who?`<span class="micro"> · ${h(who)}</span>`:''}</div><span class="review-score">${stars(avg)} ${avg.toFixed(1)}</span></div>${withLab?`<p class="review-lab">${h(nameOf(r.lab))} <span>${h(r.lab.department)}</span></p>`:''}<div class="tag-list"><span class="pill neutral">${h(r.term)}</span><span class="pill neutral">${h(r.duration)}</span><span class="pill">연구참여 완료 · 자기 신고</span></div><dl class="review-ratings">${Object.entries(labels).map(([k,l])=>`<div><dt>${h(l)}</dt><dd>${stars(r.ratings[k])}</dd></div>`).join('')}</dl><div class="review-body"><h5>했던 일</h5><p>${h(r.activity)}</p><h5>좋았던 점</h5><p>${h(r.good)}</p>${r.improve?`<h5>아쉬운 점</h5><p>${h(r.improve)}</p>`:''}${r.recommend_for?`<h5>이런 학생에게 추천해요</h5><p>${h(r.recommend_for)}</p>`:''}</div><div class="review-foot"><span class="micro">${monthOf(r.created)} 작성</span>${r.mine&&!withLab?'<span><button class="text-button" data-action="write-review">수정</button> · <button class="text-button" data-action="delete-review">삭제</button></span>':''}${withLab?`<button class="explore-button" data-action="explore" data-id="${h(r.lab_id)}">이 연구실 알아보기 →</button>`:''}</div></article>`;
+  return `<article class="review-card" ${attrs}><div class="review-head"><div><b>${h(r.author.nickname)}</b>${who?`<span class="micro"> · ${h(who)}</span>`:''}</div><span class="review-score">${stars(avg)} ${avg.toFixed(1)}</span></div>${withLab?`<p class="review-lab">${h(nameOf(r.lab))} <span>${h(r.lab.department)}</span></p>`:''}<div class="tag-list"><span class="pill neutral">${h(r.term)}</span><span class="pill neutral">${h(r.duration)}</span><span class="pill">연구참여 완료 · 자기 신고</span></div><dl class="review-ratings">${Object.entries(labels).map(([k,l])=>`<div><dt>${h(l)}</dt><dd>${stars(r.ratings[k])}</dd></div>`).join('')}</dl><div class="review-body"><h5>했던 일</h5><p>${h(r.activity)}</p><h5>좋았던 점</h5><p>${h(r.good)}</p>${r.improve?`<h5>아쉬운 점</h5><p>${h(r.improve)}</p>`:''}${r.recommend_for?`<h5>이런 학생에게 추천해요</h5><p>${h(r.recommend_for)}</p>`:''}</div><div class="review-foot"><span class="micro">${monthOf(r.created)} 작성</span>${r.mine&&!withLab?'<span><button class="text-button" data-action="write-review">수정</button> · <button class="text-button" data-action="delete-review">삭제</button></span>':''}${withLab?`<button class="explore-button" data-action="explore" data-id="${h(r.lab_id)}">이 연구실 알아보기 →</button>`:''}${reviewReportHTML(r)}</div></article>`;
 }
 function seniorCard(g) {
-  const action=state.session?.user?.role==='graduate'?'':`<button class="explore-button" data-action="${g.thread_id?'open-thread':'contact'}" data-id="${g.thread_id||g.id}">${g.thread_id?'대화 이어가기 →':'쪽지 보내기 →'}</button>`;
-  return `<article class="senior-card"><div class="avatar" aria-hidden="true">${h(g.name.slice(0,1))}</div><div class="senior-info"><h4>${h(g.name)} <span>${h(g.program)}</span></h4><p class="research">${h(g.research)}</p>${g.interests.length?`<div class="tag-list">${g.interests.map(t=>`<span class="pill neutral">${h(t)}</span>`).join('')}</div>`:''}${g.headline?`<p class="headline">“${h(g.headline)}”</p>`:''}<p class="micro email">${g.email?`✉ ${h(g.email)}`:'✉ 이메일은 로그인 후 확인'}</p>${action}</div></article>`;
+  const action=seniorActionHTML(g);
+  return `<article class="senior-card"><div class="avatar" aria-hidden="true">${h(g.name.slice(0,1))}</div><div class="senior-info"><h4>${h(g.name)} <span>${h(g.program)}</span></h4><p class="research">${h(g.research)}</p>${g.interests.length?`<div class="tag-list">${g.interests.map(t=>`<span class="pill neutral">${h(t)}</span>`).join('')}</div>`:''}${g.headline?`<p class="headline">“${h(g.headline)}”</p>`:''}${seniorExtraHTML(g)}<p class="micro email">${g.email?`✉ ${h(g.email)}`:(state.session?.user?'✉ 이메일 비공개 · 커피챗으로 연락해요':'✉ 이메일은 로그인 후 확인')}</p>${action}</div></article>`;
 }
 function communityHTML() {
   const c=state.community;
@@ -447,7 +450,7 @@ function openMeetingForm() {
 function threadHTML(t) {
   const o=t.other, graduate=t.role==='graduate';
   const profile=graduate?`<details class="sender-profile" open><summary>보낸 학생의 프로필</summary><dl>${[['이름',o.name],['별명',o.nickname],['이메일',o.email],['학교',o.school],['학과',[o.department,o.second_major&&`복수전공 ${o.second_major}`].filter(Boolean).join(' · ')],['학년',o.grade],['목표',o.goal],['희망 시기',o.timing],['한 줄 소개',o.headline],['관심 분야',[...o.interests,o.interest_text].filter(Boolean).join(', ')],['자기소개',o.intro]].filter(([,v])=>v).map(([k,v])=>`<div><dt>${k}</dt><dd>${h(v)}</dd></div>`).join('')}</dl></details>`:`<p class="thread-contact"><b>${h(o.name)} 선배</b> · ${h(o.program)} · ${h(o.research)}<br><span class="micro">✉ ${h(o.email)}</span></p>`;
-  return `<header class="thread-head"><button class="back mobile-only" data-action="inbox-list">← 대화 목록</button><h2>${h(t.subject)}</h2>${t.lab?`<p class="micro">${h(nameOf(t.lab))} · ${h(t.lab.department)}</p>`:''}${profile}</header>${meetingHTML(t)}<div class="messages">${t.messages.map(m=>`<div class="message ${m.mine?'mine':''}"><p>${h(m.body)}</p><span class="micro">${m.mine?'나':h(graduate?o.nickname:o.name)} · ${timeOf(m.created)}</span></div>`).join('')}</div><form id="reply-form" data-id="${t.id}" class="reply-form"><textarea name="body" required maxlength="2000" aria-label="답장" placeholder="${graduate?'후배에게 답장하기':'선배에게 답장하기'}"></textarea><button class="primary" type="submit">보내기 <span>→</span></button></form>`;
+  return `<header class="thread-head"><button class="back mobile-only" data-action="inbox-list">← 대화 목록</button><h2>${h(t.subject)}</h2>${t.lab?`<p class="micro">${h(nameOf(t.lab))} · ${h(t.lab.department)}</p>`:''}${profile}${threadToolsHTML(t)}</header>${meetingHTML(t)}<div class="messages">${t.messages.map(m=>`<div class="message ${m.mine?'mine':''}"><p>${h(m.body)}</p><span class="micro">${m.mine?'나':h(graduate?o.nickname:o.name)} · ${timeOf(m.created)}</span></div>`).join('')}</div><form id="reply-form" data-id="${t.id}" class="reply-form"><textarea name="body" required maxlength="2000" aria-label="답장" placeholder="${graduate?'후배에게 답장하기':'선배에게 답장하기'}"></textarea><button class="primary" type="submit">보내기 <span>→</span></button></form>`;
 }
 async function renderInbox() {
   await persist();
@@ -465,6 +468,7 @@ async function renderInbox() {
 }
 
 function communitySubmit(event) {
+  if (platformSubmit(event)) return true;
   const form=event.target, id=form.id;
   if (!['profile-form','review-form','contact-form','reply-form','meeting-form','meeting-confirm-form'].includes(id)) return false;
   event.preventDefault(); const data=new FormData(form), account=id==='profile-form'?readAccount(form):null;
@@ -502,6 +506,7 @@ function communitySubmit(event) {
 }
 
 async function restoreView(entry) {
+  if (await restorePlatformView(entry.view)) return;
   if (entry.view==='detail' && entry.lab) await openLab(entry.lab);
   else if (entry.view==='results' && state.results.length) { await persist(); renderResults(); }
   else if (entry.view==='results' && state.session.profile.interests) await showResults();
@@ -518,6 +523,7 @@ window.addEventListener('popstate', event => {
 async function boot() {
   await refreshSession();
   state.concepts=(await api('concepts')).concepts;
+  if (await routeFromLocation()) return;
   const view=sessionStorage.getItem('curri-view'), lab=sessionStorage.getItem('curri-lab');
   if(view==='detail' && lab)await openLab(lab,false);
   else if(view==='board' || (['inbox','profile'].includes(view) && state.session.user))await showView(view);

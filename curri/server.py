@@ -245,6 +245,9 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 if not self.admin_authorized():
                     return
                 try:
+                    if path == '/api/admin/backup':
+                        P.admin.audit(self.headers.get('X-Admin-User'), 'GET backup', {})
+                        return self.respond(200, P.admin.backup_bytes(), 'application/octet-stream')
                     return self.respond(200, P.admin.handle('GET', path[len('/api/admin/'):], query, self.headers.get('X-Admin-User')))
                 except Exception as exc:
                     return self.fail(exc)
@@ -259,6 +262,9 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                      '/api/inbox': lambda: community.inbox(self.token),
                      '/api/thread': lambda: community.thread(self.token, int(query['id']) if query.get('id', '').isdigit() else None),
                      '/api/privacy': lambda: {'policy': policy(P.privacy_slots), 'consent': consent_notice()},
+                     '/api/labs': lambda: {'labs': sorted(({'id': lid, 'professors': p['professors'], 'name': p.get('lab_name', ''),
+                                                            'department': p.get('department', '')} for lid, p in catalog.profiles.items()),
+                                                           key=lambda x: (x['department'], x['professors'][0] or ''))},
                      '/api/qna': lambda: P.qna.list(self.token, query.get('lab_id')),
                      '/api/watch': lambda: P.watch.state(self.token, catalog.resolve(query.get('lab_id') or '')),
                      '/api/summary': lambda: self.summary(query.get('lab_id')),

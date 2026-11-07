@@ -193,6 +193,18 @@ class AdminAPI:
         threading.Thread(target=work, daemon=True).start()
         return {'started': len(phrases)}
 
+    def backup_bytes(self):
+        """A consistent copy of the live database for the admin VM's off-site backup."""
+        import sqlite3
+        import tempfile
+        with tempfile.NamedTemporaryFile(suffix='.sqlite') as tmp:
+            source, dest = sqlite3.connect(self.store.path), sqlite3.connect(tmp.name)
+            with dest:
+                source.backup(dest)
+            source.close()
+            dest.close()
+            return Path(tmp.name).read_bytes()
+
     READS = {'overview': overview, 'users': users, 'graduates': graduates, 'reports': reports, 'outbox': outbox, 'audit': audit_log}
     WRITES = {'graduates/decide': decide_graduate, 'reports/resolve': resolve_report, 'users/suspend': suspend_user,
               'mail/retry': retry_mail, 'experiments': set_experiments, 'summaries/prefill': prefill_summaries,

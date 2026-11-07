@@ -14,7 +14,7 @@ EVENTS = {'search', 'zero_results', 'result_open', 'explore', 'guide_request', '
           'guide_feedback', 'save', 'contact', 'coffeechat', 'meeting_request', 'meeting_confirm', 'qna_ask',
           'qna_answer', 'watch', 'summary_view', 'register', 'graduate_apply'}
 CLIENT_EVENTS = {'result_open', 'summary_view'}
-FUNNEL = ['search', 'result_open', 'explore', 'guide_request', 'guide_ready', 'save', 'contact']
+FUNNEL = ['search', 'explore', 'guide_request', 'guide_ready', 'save', 'contact', 'coffeechat']
 DEFAULT_EXPERIMENTS = {'guide': {'R': 1.0, 'A': 0.0}}
 REPORT_KINDS = {'review', 'message', 'question', 'answer', 'user'}
 YEAR = 365 * 86400

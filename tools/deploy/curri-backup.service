@@ -1,0 +1,7 @@
+[Unit]
+Description=3분커리 DB 백업
+
+[Service]
+Type=oneshot
+User=ubuntu
+ExecStart=/usr/bin/python3 /home/ubuntu/app/tools/backup_db.py /home/ubuntu/app/.local/curri.sqlite /home/ubuntu/app/.local/backups 14

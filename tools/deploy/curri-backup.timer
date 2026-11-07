@@ -1,0 +1,9 @@
+[Unit]
+Description=3분커리 DB 매일 백업 (04:00 KST)
+
+[Timer]
+OnCalendar=*-*-* 19:00:00 UTC
+Persistent=true
+
+[Install]
+WantedBy=timers.target
