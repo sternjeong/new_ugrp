@@ -1,0 +1,26 @@
+{
+  "Z21": {
+    "case": 5,
+    "altered": false
+  },
+  "Z22": {
+    "case": 1,
+    "altered": false
+  },
+  "Z23": {
+    "case": 3,
+    "altered": false
+  },
+  "Z24": {
+    "case": 2,
+    "altered": true
+  },
+  "Z25": {
+    "case": 4,
+    "altered": true
+  },
+  "Z26": {
+    "case": 6,
+    "altered": true
+  }
+}

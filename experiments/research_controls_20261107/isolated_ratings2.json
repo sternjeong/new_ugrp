@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Z21",
+    "flagged": false,
+    "reason": []
+  },
+  {
+    "id": "Z22",
+    "flagged": false,
+    "reason": []
+  },
+  {
+    "id": "Z23",
+    "flagged": false,
+    "reason": []
+  },
+  {
+    "id": "Z24",
+    "flagged": false,
+    "reason": []
+  },
+  {
+    "id": "Z25",
+    "flagged": true,
+    "reason": ["초록은 여러 합성 경로와 조절 전략을 개관한다고만 했으며 특정 성장 기구를 상세히 설명한다고 볼 근거가 없습니다."]
+  },
+  {
+    "id": "Z26",
+    "flagged": true,
+    "reason": ["초록은 특정 환경에서 fine-tuned GPT-2 medium이 GPT-3.5와 comparable하다고 했을 뿐, GPT-2가 항상 더 뛰어났다고 보고하지 않습니다."]
+  }
+]

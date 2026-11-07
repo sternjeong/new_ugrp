@@ -1,0 +1,50 @@
+{
+  "M01": {
+    "altered": false,
+    "case": 2
+  },
+  "M02": {
+    "altered": true,
+    "case": 1
+  },
+  "M03": {
+    "altered": true,
+    "case": 6
+  },
+  "M04": {
+    "altered": true,
+    "case": 5
+  },
+  "M05": {
+    "altered": false,
+    "case": 6
+  },
+  "M06": {
+    "altered": false,
+    "case": 1
+  },
+  "M07": {
+    "altered": false,
+    "case": 5
+  },
+  "M08": {
+    "altered": false,
+    "case": 4
+  },
+  "M09": {
+    "altered": false,
+    "case": 3
+  },
+  "M10": {
+    "altered": true,
+    "case": 2
+  },
+  "M11": {
+    "altered": true,
+    "case": 4
+  },
+  "M12": {
+    "altered": true,
+    "case": 3
+  }
+}

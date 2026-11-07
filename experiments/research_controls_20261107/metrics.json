@@ -1,0 +1,52 @@
+{
+  "judge1": {
+    "injected_total": 6,
+    "injected_flagged": 6,
+    "original_total": 6,
+    "original_flagged": 0
+  },
+  "judge2": {
+    "injected_total": 6,
+    "injected_flagged": 6,
+    "original_total": 6,
+    "original_flagged": 0
+  },
+  "answer_lengths": {
+    "False": {
+      "min": 158,
+      "max": 250,
+      "mean": 185.5
+    },
+    "True": {
+      "min": 100,
+      "max": 137,
+      "mean": 121.5
+    }
+  },
+  "minimal_judge1": {
+    "injected_flagged": 6,
+    "injected_total": 6,
+    "original_flagged": 0,
+    "original_total": 6
+  },
+  "minimal_judge2": {
+    "injected_flagged": 6,
+    "injected_total": 6,
+    "original_flagged": 0,
+    "original_total": 6
+  },
+  "isolated_judge1": {
+    "injected_flagged": 3,
+    "injected_total": 3,
+    "original_flagged": 0,
+    "original_total": 3,
+    "empty_reasons": 0
+  },
+  "isolated_judge2": {
+    "injected_flagged": 2,
+    "injected_total": 3,
+    "original_flagged": 0,
+    "original_total": 3,
+    "empty_reasons": 4
+  }
+}
