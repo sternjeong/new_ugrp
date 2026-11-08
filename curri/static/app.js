@@ -97,7 +97,7 @@ function renderHome() {
 }
 
 function labCard(lab,index) {
-  return `<article class="lab-card" data-search-text="${h((nameOf(lab)+' '+lab.department+' '+lab.topics.map(t=>t.label).join(' ')).toLowerCase())}"><div class="lab-meta"><span>${h(lab.department)}</span><span class="lab-number">${String(index+1).padStart(2,'0')}</span></div><h3>${h(nameOf(lab))}</h3>${subtitleOf(lab)?`<p class="micro">${h(subtitleOf(lab))}</p>`:''}${professorLine(lab)?`<p class="professor">${h(professorLine(lab))}</p>`:''}${cardOverview(lab)}<p class="reason">${h(lab.reason)}</p><details><summary>어떤 내용을 보고 연결했나요?</summary>${evidence(lab.evidence,2)}</details><div class="card-action"><a href="${h(lab.url)}" target="_blank" rel="noopener noreferrer">연구실 홈페이지 ↗</a><button class="explore-button" data-action="explore" data-id="${h(lab.id)}" data-rank="${index}">이 연구실 알아보기 →</button></div></article>`;
+  return `<article class="lab-card" data-search-text="${h((nameOf(lab)+' '+lab.department+' '+lab.topics.map(t=>t.label).join(' ')).toLowerCase())}"><div class="lab-meta"><span>${h(lab.department)}</span><span class="lab-number">${String(index+1).padStart(2,'0')}</span></div><h3>${h(nameOf(lab))}</h3>${subtitleOf(lab)?`<p class="micro">${h(subtitleOf(lab))}</p>`:''}${professorLine(lab)?`<p class="professor">${h(professorLine(lab))}</p>`:''}${cardOverview(lab)}<p class="reason">${h(lab.reason)}</p><details><summary>어떤 내용을 보고 연결했나요?</summary>${evidence(lab.evidence,2)}</details><div class="card-action"><a href="${h(lab.url)}" target="_blank" rel="noopener noreferrer">연구실 홈페이지 ↗</a><button class="explore-button" data-action="explore" data-id="${h(lab.id)}" data-rank="${index}">이 연구실 알아보기 →</button></div>${resultFeedbackHTML(lab,index)}</article>`;
 }
 // Card: overview list (matched areas marked in place) plus pills only for matches not already listed.
 function cardOverview(lab) {
@@ -188,7 +188,7 @@ function searchInfoHTML() {
 
 function renderResults() {
   setView('results');
-  main.innerHTML = `${pageTop(1,'관심 수정하기','home')}<section class="page-heading"><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h1>관심에서 이어지는, 새로운 가능성.</h1><p>하나씩 살펴보세요. 잘 맞는 이유와 앞으로 준비할 것을 함께 알아갈 수 있어요.</p><div class="interest-line"><span class="pill neutral">${h(state.session.profile.interests)}</span><span class="micro">주제는 연구의 대상 또는 방법으로 연결될 수 있어요.</span></div>${searchInfoHTML()}</section><div class="results-toolbar"><p>연결 근거를 찾은 연구실 <strong>${state.results.length}</strong>곳</p><input id="lab-filter" type="search" aria-label="결과 안에서 연구실 찾기" placeholder="교수명·연구 분야로 좁혀보기"></div>${state.results.length ? `<div class="labs-grid">${state.results.map(labCard).join('')}</div><p id="filter-empty" class="notice" hidden>검색 조건에 맞는 연구실이 없어요.</p>` : (state.searchInfo&&state.searchInfo.message?`<div class="empty"><h3>조금만 더 알려 주세요.</h3><p>${h(state.searchInfo.message)}</p><button class="secondary" data-action="home">관심 다시 적기</button></div>`:'<div class="empty"><h3>지금 자료에서는 연결 근거를 찾지 못했어요.</h3><p>관심이 잘못된 것은 아니에요. 현재 정제 자료에서 추천 가능한 연구실 307곳을 검색하고 있어요. 관심을 다른 표현으로 적어보셔도 좋아요.</p><button class="secondary" data-action="home">관심 다시 적기</button></div>')}<div class="notice">이 목록은 수집된 연구 내용과 관심을 연결한 탐색 후보입니다. 현재 모집이나 참여 가능성을 보장하지 않아요. 자료 범위는 정제본에서 추천 가능으로 표시된 연구실 307곳입니다. 모든 교수진을 포함한다는 뜻은 아닙니다.</div>`;
+  main.innerHTML = `${pageTop(1,'관심 수정하기','home')}<section class="page-heading"><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h1>관심에서 이어지는, 새로운 가능성.</h1><p>하나씩 살펴보세요. 잘 맞는 이유와 앞으로 준비할 것을 함께 알아갈 수 있어요.</p><div class="interest-line"><span class="pill neutral">${h(state.session.profile.interests)}</span><span class="micro">주제는 연구의 대상 또는 방법으로 연결될 수 있어요.</span></div>${searchInfoHTML()}</section><div class="results-toolbar"><p>연결 근거를 찾은 연구실 <strong>${state.results.length}</strong>곳</p><input id="lab-filter" type="search" aria-label="결과 안에서 연구실 찾기" placeholder="교수명·연구 분야로 좁혀보기"></div>${state.results.length ? `<div class="labs-grid">${state.results.map(labCard).join('')}</div><p id="filter-empty" class="notice" hidden>검색 조건에 맞는 연구실이 없어요.</p>` : (state.searchInfo&&state.searchInfo.message?`<div class="empty"><h3>조금만 더 알려 주세요.</h3><p>${h(state.searchInfo.message)}</p><button class="secondary" data-action="home">관심 다시 적기</button></div>`:'<div class="empty"><h3>지금 자료에서는 연결 근거를 찾지 못했어요.</h3><p>관심이 잘못된 것은 아니에요. 현재 정제 자료에서 추천 가능한 연구실 307곳을 검색하고 있어요. 관심을 다른 표현으로 적어보셔도 좋아요.</p><button class="secondary" data-action="home">관심 다시 적기</button></div>')}${searchFeedbackHTML()}<div class="notice">이 목록은 수집된 연구 내용과 관심을 연결한 탐색 후보입니다. 현재 모집이나 참여 가능성을 보장하지 않아요. 자료 범위는 정제본에서 추천 가능으로 표시된 연구실 307곳입니다. 모든 교수진을 포함한다는 뜻은 아닙니다.</div>`;
 }
 
 function courseLinkHTML(course) {
@@ -370,7 +370,7 @@ document.addEventListener('click',event=>{
     else if(name==='guide'){
       await persist();state.guide=(await api('guide',{lab_id:state.lab.id,selected_ids:[...state.selected],paper_ids:[...state.paperSelected]})).guide;state.dirty=false;await refreshSession();renderDetail();$('#guide-content').scrollIntoView({behavior:'smooth',block:'start'});
     }
-    else if(name==='save'){await persist(true);button.textContent='메모 저장하기';toast('후보와 메모를 저장했어요. 나의 탐색에서 다시 볼 수 있어요.');}
+    else if(name==='save'){await persist(true);button.textContent='메모 저장하기';toast('후보와 메모를 저장했어요. 나의 탐색에서 다시 볼 수 있어요.');askService('save');}
     else if(name==='unsave'){
       const record=state.session.explorations.find(r=>r.lab_id===button.dataset.id);
       await api('save',{lab_id:record.lab_id,selected_ids:record.selected_ids,note:record.note,saved:false});await renderSaved();
@@ -501,12 +501,13 @@ function openMeetingForm() {
 function threadHTML(t) {
   const o=t.other, graduate=t.role==='graduate';
   const profile=graduate?`<details class="sender-profile" open><summary>보낸 학생의 프로필</summary><dl>${[['이름',o.name],['별명',o.nickname],['이메일',o.email],['학교',o.school],['학과',[o.department,o.second_major&&`복수전공 ${o.second_major}`].filter(Boolean).join(' · ')],['학년',o.grade],['목표',o.goal],['희망 시기',o.timing],['한 줄 소개',o.headline],['관심 분야',[...o.interests,o.interest_text].filter(Boolean).join(', ')],['자기소개',o.intro]].filter(([,v])=>v).map(([k,v])=>`<div><dt>${k}</dt><dd>${h(v)}</dd></div>`).join('')}</dl></details>`:`<p class="thread-contact"><b>${h(o.name)} 선배</b> · ${h(o.program)} · ${h(o.research)}<br><span class="micro">✉ ${h(o.email)}</span></p>`;
-  return `<header class="thread-head"><button class="back mobile-only" data-action="inbox-list">← 대화 목록</button><h2>${h(t.subject)}</h2>${t.lab?`<p class="micro">${h(nameOf(t.lab))} · ${h(t.lab.department)}</p>`:''}${profile}${threadToolsHTML(t)}</header>${meetingHTML(t)}<div class="messages">${t.messages.map(m=>`<div class="message ${m.mine?'mine':''}"><p>${h(m.body)}</p><span class="micro">${m.mine?'나':h(graduate?o.nickname:o.name)} · ${timeOf(m.created)}</span></div>`).join('')}</div><form id="reply-form" data-id="${t.id}" class="reply-form"><textarea name="body" required maxlength="2000" aria-label="답장" placeholder="${graduate?'후배에게 답장하기':'선배에게 답장하기'}"></textarea><button class="primary" type="submit">보내기 <span>→</span></button></form>`;
+  return `<header class="thread-head"><button class="back mobile-only" data-action="inbox-list">← 대화 목록</button><h2>${h(t.subject)}</h2>${t.lab?`<p class="micro">${h(nameOf(t.lab))} · ${h(t.lab.department)}</p>`:''}${profile}${threadToolsHTML(t)}</header>${meetingFeedbackHTML(t)}${meetingHTML(t)}<div class="messages">${t.messages.map(m=>`<div class="message ${m.mine?'mine':''}"><p>${h(m.body)}</p><span class="micro">${m.mine?'나':h(graduate?o.nickname:o.name)} · ${timeOf(m.created)}</span></div>`).join('')}</div><form id="reply-form" data-id="${t.id}" class="reply-form"><textarea name="body" required maxlength="2000" aria-label="답장" placeholder="${graduate?'후배에게 답장하기':'선배에게 답장하기'}"></textarea><button class="primary" type="submit">보내기 <span>→</span></button></form>`;
 }
 async function renderInbox() {
   await persist();
   if (!state.session?.user) { renderHome(); showAuth(); return; }
   const box=await api('inbox');
+  state.pendingMeetings=(await api('feedback/pending').catch(()=>({meetings:[]}))).meetings;
   if (!box.threads.some(t=>t.id===state.thread)) state.thread=null;
   if (!state.thread && box.threads.length && window.innerWidth>850) state.thread=box.threads[0].id;
   const thread=state.thread?await api(`thread?id=${state.thread}`):null;

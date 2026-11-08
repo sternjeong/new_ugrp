@@ -11,6 +11,7 @@ from pathlib import Path
 
 from curri.community import Community
 from curri.curated_catalog import CuratedCatalog
+from curri.curated_query_engine import CuratedQueryEngine
 from curri.platform import Platform
 from curri.server import make_server
 from curri.store import Store
@@ -22,7 +23,7 @@ CATALOG = CuratedCatalog(DATA) if (DATA / 'app_profiles.jsonl').exists() else No
 
 
 @unittest.skipUnless(CATALOG, 'curated data is needed')
-class PlatformTests(unittest.TestCase):
+class PlatformBase(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
@@ -35,7 +36,8 @@ class PlatformTests(unittest.TestCase):
         self.catalog = CATALOG
         self.community = Community(self.store, self.catalog, seed=False)
         self.platform = Platform(self.store, self.catalog, DATA, local)
-        self.server = make_server('127.0.0.1', 0, self.catalog, self.store, community=self.community, platform=self.platform)
+        self.server = make_server('127.0.0.1', 0, self.catalog, self.store, community=self.community, platform=self.platform,
+                                  engine=CuratedQueryEngine(self.catalog))
         threading.Thread(target=self.server.serve_forever, daemon=True).start()
         self.addCleanup(self.server.server_close)
         self.addCleanup(self.server.shutdown)
@@ -79,6 +81,9 @@ class PlatformTests(unittest.TestCase):
             response = exc
         return response.status, json.loads(response.read())
 
+
+@unittest.skipUnless(CATALOG, 'curated data is needed')
+class PlatformTests(PlatformBase):
     def test_registration_needs_required_consents_and_records_them(self):
         call = self.client()
         call('/api/session')
@@ -274,3 +279,78 @@ class PlatformTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+@unittest.skipUnless(CATALOG, 'curated data is needed')
+class FeedbackLoopTests(PlatformBase):
+    def search(self, call, text='로봇 비전 연구'):
+        return call('/api/search', {'interests': text, 'goal': 'explore'})[1]
+
+    def test_result_votes_and_saves_rerank_the_same_query_for_feedback_arm(self):
+        from curri.feedback import query_key
+        target = None
+        for i in range(4):
+            call = self.client()
+            call('/api/session')
+            found = self.search(call)
+            labs = [c['id'] for c in found['labs']]
+            target = target or labs[-1]                   # the engine's last result
+            self.assertEqual(call('/api/feedback', {'kind': 'result', 'lab_id': target, 'rank': len(labs) - 1, 'helpful': True})[0], 200)
+            call('/api/explore', {'lab_id': target, 'rank': len(labs) - 1, 'from': 'results'})
+            call('/api/save', {'lab_id': target, 'selected_ids': [], 'note': '', 'saved': True})
+        key = query_key(found['interpretation']['likes'])
+        scores, evidence = self.platform.feedback.lab_scores(key)
+        self.assertGreater(evidence, 4)
+        reranked, applied = self.platform.feedback.rerank(key, found['labs'])
+        self.assertTrue(applied)
+        self.assertLess([c['id'] for c in reranked].index(target), len(labs) - 1)
+        self.assertTrue(reranked[[c['id'] for c in reranked].index(target)].get('social'))
+        # the evaluation set now holds this query
+        self.assertIn(key, self.platform.feedback.judgments())
+        self.assertEqual(self.platform.feedback.evaluate(lambda text: labs)['queries'], 1)
+
+    def test_down_votes_need_a_reason_and_feed_expansion_candidates(self):
+        call = self.client()
+        call('/api/session')
+        found = self.search(call, '드론제어 연구')
+        self.assertEqual(call('/api/feedback', {'kind': 'result', 'lab_id': self.lab, 'helpful': False, 'reasons': ['bogus']})[0], 400)
+        self.assertEqual(call('/api/feedback', {'kind': 'result', 'lab_id': self.lab, 'helpful': False, 'reasons': ['off_topic']})[0], 200)
+        self.assertEqual(call('/api/feedback', {'kind': 'search', 'rating': 1, 'comment': '드론 제어 연구실이 없어요'})[0], 200)
+        status, view = self.admin('GET', 'feedback')
+        self.assertEqual(status, 200)
+        self.assertEqual(view['by_kind']['result']['down'], 1)
+        self.assertIn('드론제어', [c['word'] for c in view['candidates']])
+        self.assertEqual(view['comments'][0]['comment'], '드론 제어 연구실이 없어요')
+        self.assertEqual(self.admin('POST', 'expansions/add', {'term': '드론제어', 'variants': 'drone control, uav control'})[0], 200)
+        from curri.curated_catalog import EXPANSIONS
+        self.assertIn('drone control', EXPANSIONS['드론제어'])
+        self.assertEqual(self.admin('POST', 'feedback/status', {'id': view['comments'][0]['id'], 'status': 'done'})[0], 200)
+
+    def test_service_and_meeting_feedback_rules(self):
+        call = self.client()
+        call('/api/session')
+        self.assertEqual(call('/api/feedback', {'kind': 'service', 'rating': 4, 'comment': '좋아요'})[0], 200)
+        self.assertEqual(call('/api/feedback', {'kind': 'service'})[0], 400)          # rating required
+        self.register(call)
+        self.assertEqual(call('/api/feedback', {'kind': 'meeting', 'ref_id': 999, 'rating': 5})[0], 400)  # not my ended meeting
+        self.assertEqual(call('/api/feedback/pending')[1], {'meetings': []})
+
+    def test_guide_retry_sends_previous_topics_and_reasons(self):
+        call = self.client()
+        call('/api/session')
+        self.search(call, '로봇이 물체를 집는 비전')
+        call('/api/explore', {'lab_id': self.lab})
+        self.platform.llm.last_poll = time.time()
+        call('/api/guide', {'lab_id': self.lab, 'selected_ids': []})
+        job = self.platform.llm.poll(0)
+        quote = self.platform.guide.sources(self.lab)[0]['text']
+        topic = {'title': '첫 주제', 'question': '?', 'interest_link': '', 'lab_basis': {'source_id': 'S1', 'quote': quote}, 'course_basis': [], 'gaps': [], 'first_step': 'x', 'difficulty': '입문'}
+        self.platform.llm.answer({'job_id': job['id'], 'ok': True, 'result': {'topics': [topic, topic], 'next_courses': [], 'caution': ''}})
+        call(f'/api/guide/status?lab_id={self.lab}')
+        self.assertEqual(call('/api/guide/feedback', {'lab_id': self.lab, 'helpful': False, 'topic': 0, 'reasons': ['too_hard']})[0], 200)
+        status, body = call('/api/guide/retry', {'lab_id': self.lab, 'reasons': ['too_hard'], 'comment': '더 쉬운 것'})
+        self.assertEqual((status, body['guide']['ai']['status']), (200, 'queued'))
+        retry = self.platform.llm.poll(0)
+        self.assertIn('첫 주제', retry['prompt'])
+        self.assertIn('너무 어려워요', retry['prompt'])
+        self.assertIn('더 쉬운 것', retry['prompt'])

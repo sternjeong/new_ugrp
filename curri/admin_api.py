@@ -57,7 +57,8 @@ class AdminAPI:
                    'threads': db.execute('SELECT COUNT(*) FROM threads WHERE dummy=0').fetchone()[0],
                    'meetings': db.execute("SELECT COUNT(*) FROM meetings WHERE status='confirmed'").fetchone()[0],
                    'questions': db.execute('SELECT COUNT(*) FROM qna_questions').fetchone()[0],
-                   'watches': db.execute('SELECT COUNT(*) FROM watches').fetchone()[0]}
+                   'watches': db.execute('SELECT COUNT(*) FROM watches').fetchone()[0],
+                   'feedback_new': db.execute("SELECT COUNT(*) FROM feedback WHERE status='new' AND comment!=''").fetchone()[0]}
             last = db.execute("SELECT value FROM meta WHERE key='watch_last_run'").fetchone()
         backups = sorted(self.backup_dir.glob('curri-*.sqlite')) if self.backup_dir and self.backup_dir.is_dir() else []
         out.update({'mail_enabled': self.mailer.enabled, 'llm': self.llm.stats(), 'embedding_online': bool(self.broker and self.broker.available()),
@@ -214,10 +215,40 @@ class AdminAPI:
                 'system': errors.system(self.store.path), 'llm_online': self.llm.online(),
                 'embedding_online': bool(self.broker and self.broker.available()), 'mail_enabled': self.mailer.enabled}
 
-    READS = {'errors': errors_view, 'overview': overview, 'users': users, 'graduates': graduates, 'reports': reports, 'outbox': outbox, 'audit': audit_log}
+    def feedback_view(self, query):
+        fb = self.feedback
+        zero = self.events.metrics(int(query.get('days', 30)))['zero_queries']
+        return {**fb.summary(int(query.get('days', 30))), 'candidates': fb.expansion_candidates(zero),
+                'expansions': fb.saved_expansions(), 'evaluation_size': len(fb.judgments())}
+
+    def feedback_eval(self, query):
+        engine = getattr(self, 'engine', None)
+        if engine is None:
+            raise ValueError('검색 엔진이 꺼져 있어 평가할 수 없어요.')
+        def search(text):
+            found = engine.search(text, allow_remote=False) if 'allow_remote' in engine.search.__code__.co_varnames else engine.search(text)
+            return [c['id'] for c in found.get('labs', [])]
+        return self.feedback.evaluate(search)
+
+    def feedback_export(self, query):
+        return {'judgments': self.feedback.judgments(), 'exported': time.time()}
+
+    def feedback_status(self, body):
+        if type(body.get('id')) is not int:
+            raise ValueError('id가 필요합니다.')
+        return self.feedback.set_status(body['id'], body.get('status'))
+
+    def add_expansion(self, body):
+        variants = body.get('variants')
+        if isinstance(variants, str):
+            variants = [v for v in variants.split(',')]
+        return self.feedback.add_expansion(body.get('term'), variants or [])
+
+    READS = {'errors': errors_view, 'feedback': feedback_view, 'feedback/eval': feedback_eval, 'feedback/export': feedback_export, 'overview': overview, 'users': users, 'graduates': graduates, 'reports': reports, 'outbox': outbox, 'audit': audit_log}
     WRITES = {'graduates/decide': decide_graduate, 'reports/resolve': resolve_report, 'users/suspend': suspend_user,
               'mail/retry': retry_mail, 'experiments': set_experiments, 'summaries/prefill': prefill_summaries,
-              'watch/run': run_watch, 'phrases/warm': warm_phrases}
+              'watch/run': run_watch, 'phrases/warm': warm_phrases, 'feedback/status': feedback_status,
+              'expansions/add': add_expansion}
 
     def handle(self, method, name, data, admin):
         table = self.READS if method == 'GET' else self.WRITES

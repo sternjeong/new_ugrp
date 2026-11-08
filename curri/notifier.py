@@ -123,9 +123,27 @@ class Notifier:
                                  'qna', r['id'])
         return len(rows)
 
+    def meeting_feedback(self, now):
+        """One mail to both people about an hour after a confirmed meeting ended, asking how it went."""
+        with self.store.db() as db:
+            rows = db.execute('''SELECT m.*, t.student_id, t.graduate_id, t.subject FROM meetings m JOIN threads t ON t.id=m.thread_id
+                                 WHERE m.status='confirmed' AND m.start + m.minutes*60 BETWEEN ? AND ?''', (now - 2 * 86400, now - 3600)).fetchall()
+            todo = [r for r in rows if self._once(db, 'meeting_feedback', r['id'])]
+            users = {u['id']: u for u in db.execute('SELECT * FROM users WHERE id IN (%s)' % ','.join('?' * (2 * len(todo))),
+                                                     [x for r in todo for x in (r['student_id'], r['graduate_id'])])} if todo else {}
+        for r in todo:
+            for uid in (r['student_id'], r['graduate_id']):
+                user = users.get(uid)
+                if user and self._wants(user, 'meetings'):
+                    self.mailer.send(user['email'], '[3분커리] 만남은 어떠셨나요?',
+                                     f"‘{r['subject']}’ 만남이 끝났어요. 10초면 되는 평가를 남겨 주시면 다음 학생과 선배에게 큰 도움이 돼요.\n\n평가하기: {self.mailer.link('/inbox')}",
+                                     'meetings', uid)
+        return len(todo)
+
     def run_once(self, now=None):
         now = now or time.time()
-        return {'messages': self.messages(now), 'reminders': self.reminders(now), 'nudges': self.nudges(now), 'answers': self.answers(now)}
+        return {'messages': self.messages(now), 'reminders': self.reminders(now), 'nudges': self.nudges(now), 'answers': self.answers(now),
+                'meeting_feedback': self.meeting_feedback(now)}
 
     def start(self):
         def loop():

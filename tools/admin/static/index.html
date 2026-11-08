@@ -1,6 +1,22 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
 <title>3분커리 관리자</title><link rel="stylesheet" href="/admin.css"><script defer src="/admin.js"></script></head>
-<body><header><div class="brand"><span class="mark">3</span>3분커리 <small>관리자</small></div><nav id="tabs"></nav><div id="who"></div></header>
-<main id="main"><p class="muted">불러오는 중…</p></main>
-<footer>모든 조회·처리는 서비스 서버의 감사 로그에 남아요. 개인정보는 업무에 필요한 범위에서만 열람하세요.</footer></body></html>
+<body>
+<div id="app" class="app">
+  <aside id="side" class="side" hidden>
+    <div class="brand"><span class="mark">3</span><div>3분커리<small>운영 콘솔</small></div></div>
+    <nav id="tabs" aria-label="관리 메뉴"></nav>
+    <div class="side-foot"><span id="who"></span><button class="ghost" data-logout>로그아웃</button></div>
+  </aside>
+  <div class="body">
+    <header id="top" class="top" hidden>
+      <button class="ghost menu" data-menu aria-label="메뉴">☰</button>
+      <div><h1 id="title"></h1><p id="subtitle" class="muted"></p></div>
+      <div class="top-actions"><span id="updated" class="muted"></span><label class="auto"><input type="checkbox" id="auto"> 30초마다 새로고침</label><button class="btn" data-refresh>새로고침</button></div>
+    </header>
+    <main id="main"><p class="muted pad">불러오는 중…</p></main>
+  </div>
+</div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<dialog id="modal"><form method="dialog" id="modal-form"><h3 id="modal-title"></h3><p id="modal-text" class="muted"></p><div id="modal-extra"></div><div class="modal-actions"><button class="btn ghost" value="cancel" formnovalidate>취소</button><button class="btn primary" value="ok" id="modal-ok">확인</button></div></form></dialog>
+</body></html>

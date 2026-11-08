@@ -128,7 +128,7 @@ function qnaHTML(q) {
 // ---- AI research guide ----
 function aiGuideHTML(guide) {
   const ai = guide.ai; if (!ai) return '';
-  if (ai.status === 'done') return `<section class="ai-guide"><div class="ai-head"><h3>AI가 고른 학부생 연구 주제</h3><span class="pill neutral">AI 제안 · 근거 인용은 원문과 대조했어요</span></div><div class="ai-topics">${ai.topics.map((t, i) => `<article class="topic-card ai"><span class="pill neutral">${h(t.difficulty)}</span><h4>${h(t.title)}</h4><p class="question">${h(t.question)}</p><p>${h(t.interest_link)}</p>${t.courses.length ? `<div class="course-mini"><p>내가 들은 과목과의 연결</p>${t.courses.map(c => `<p><b>${h(c.name)}</b> — ${h(c.concept)}: ${h(c.how_used)}</p>`).join('')}</div>` : ''}${t.gaps.length ? `<p class="micro">더 배우면 좋은 것: ${t.gaps.map(h).join(', ')}</p>` : ''}<p class="first-step"><b>첫 단계</b> ${h(t.first_step)}</p><details><summary>이 주제의 근거</summary>${evidence(t.evidence)}</details><div class="feedback"><span class="micro">이 제안이 도움이 됐나요?</span><button class="text-button inline" data-action="guide-feedback" data-topic="${i}" data-helpful="1">👍 도움 됐어요</button><button class="text-button inline" data-action="guide-feedback" data-topic="${i}" data-helpful="0">👎 아쉬워요</button></div></article>`).join('')}</div>${ai.next_courses.length ? `<div class="ai-next"><h4>다음에 들어 볼 과목</h4>${ai.next_courses.map(c => `<p><b>${h(c.name)}</b> <span class="micro">${h(c.code)}</span> — ${h(c.reason)}</p>`).join('')}</div>` : ''}${ai.caution ? `<p class="micro">${h(ai.caution)}</p>` : ''}</section>`;
+  if (ai.status === 'done') return `<section class="ai-guide"><div class="ai-head"><h3>AI가 고른 학부생 연구 주제</h3><span class="pill neutral">AI 제안 · 근거 인용은 원문과 대조했어요</span></div><div class="ai-topics">${ai.topics.map((t, i) => `<article class="topic-card ai"><span class="pill neutral">${h(t.difficulty)}</span><h4>${h(t.title)}</h4><p class="question">${h(t.question)}</p><p>${h(t.interest_link)}</p>${t.courses.length ? `<div class="course-mini"><p>내가 들은 과목과의 연결</p>${t.courses.map(c => `<p><b>${h(c.name)}</b> — ${h(c.concept)}: ${h(c.how_used)}</p>`).join('')}</div>` : ''}${t.gaps.length ? `<p class="micro">더 배우면 좋은 것: ${t.gaps.map(h).join(', ')}</p>` : ''}<p class="first-step"><b>첫 단계</b> ${h(t.first_step)}</p><details><summary>이 주제의 근거</summary>${evidence(t.evidence)}</details><div class="feedback" data-topic="${i}"><span class="micro">이 제안이 도움이 됐나요?</span><button class="fb-btn" data-action="guide-feedback" data-topic="${i}" data-helpful="1">👍 도움 됐어요</button><button class="fb-btn" data-action="guide-down" data-topic="${i}">👎 아쉬워요</button></div></article>`).join('')}</div>${ai.next_courses.length ? `<div class="ai-next"><h4>다음에 들어 볼 과목</h4>${ai.next_courses.map(c => `<p><b>${h(c.name)}</b> <span class="micro">${h(c.code)}</span> — ${h(c.reason)}</p>`).join('')}</div>` : ''}${ai.caution ? `<p class="micro">${h(ai.caution)}</p>` : ''}${guide.ai_previous?.length ? `<p class="micro">이전 제안(${guide.ai_previous.map(t => h(t.title)).join(' · ')})과 다른 방향으로 다시 받은 결과예요.</p>` : ''}</section>`;
   if (['queued', 'running'].includes(ai.status)) return '<section class="ai-guide pending"><p><span class="spinner" aria-hidden="true"></span> AI가 이 연구실의 최근 논문과 내 관심·수강 과목을 보고 주제를 고르고 있어요. 보통 30초쯤 걸려요.</p></section>';
   if (ai.status === 'no_consent') return `<section class="ai-guide muted"><p>AI 연구 가이드는 해외 처리 동의가 있어야 만들 수 있어요. <button class="text-button inline" data-action="toggle-overseas">동의하고 AI 가이드 받기</button></p></section>`;
   if (ai.status === 'offline') return '<section class="ai-guide muted"><p>AI 가이드 작업자가 잠시 쉬고 있어요. 아래 기본 가이드를 먼저 보고, 잠시 뒤 다시 눌러 주세요.</p></section>';
@@ -142,6 +142,7 @@ async function pollGuide(labId, started) {
   if (!r || state.lab?.id !== labId) return;
   if (r.guide && r.guide.ai?.status !== state.guide?.ai?.status) {
     state.guide = r.guide;
+    if (r.guide.ai?.status === 'done') askService('guide');
     if (el('guide-content')) el('guide-content').innerHTML = guideHTML(state.guide);
   }
   if (['queued', 'running'].includes(state.guide?.ai?.status)) pollGuide(labId, started);
@@ -185,6 +186,7 @@ function reviewReportHTML(r) {
 
 // ---- click and submit delegation (called from app.js) ----
 function platformClick(name, button) {
+  if (feedbackClick(name, button)) return true;
   const id = Number(button.dataset.id);
   if (name === 'forgot') { openForgot(); return true; }
   if (name === 'coffeechat') { openCoffeeChat(id); return true; }
@@ -245,7 +247,7 @@ function platformSubmit(event) {
       else if (id === 'report-form') { await api('report', {kind: form.dataset.kind, ref_id: Number(form.dataset.id), reason: data.get('reason')}); el('sheet-dialog').close(); toast('신고를 접수했어요. 운영자가 확인할게요.'); }
       else if (id === 'coffee-form') {
         const meeting = checked('with_meeting') ? {mode: data.get('mode'), minutes: Number(data.get('minutes')), slots: data.getAll('slot').filter(Boolean), place: data.get('place') || '', note: ''} : null;
-        const r = await api('coffeechat', {graduate_id: Number(form.dataset.id), subject: data.get('subject'), body: data.get('body'), share_consent: checked('share_consent'), meeting});
+        const r = await api('coffeechat', {graduate_id: Number(form.dataset.id), subject: data.get('subject'), body: data.get('body'), lab_id: state.lab.id, share_consent: checked('share_consent'), meeting});
         state.community = await api(`community?lab_id=${encodeURIComponent(state.lab.id)}`); el('sheet-dialog').close(); refreshCommunity();
         toast(r.meeting_error ? `쪽지는 보냈지만 만남 제안은 실패했어요: ${r.meeting_error} 쪽지함에서 다시 제안해 주세요.` : '커피챗을 요청했어요. 답장은 쪽지함과 메일로 알려 드려요.');
       }
@@ -257,3 +259,113 @@ function platformSubmit(event) {
   });
   return true;
 }
+
+// ---- feedback loop: results, search, AI guide, meetings, service ----
+const RESULT_REASONS = {great: '딱 찾던 곳이에요', new: '몰랐는데 흥미로워요', off_topic: '관심 분야와 달라요', too_hard: '지금 하기엔 어려워요', known: '이미 알던 곳이에요', no_info: '정보가 부족해요'};
+const GUIDE_REASONS = {off_topic: '관심과 안 맞아요', too_hard: '너무 어려워요', too_easy: '너무 쉬워요', vague: '첫 단계가 막연해요', wrong_fact: '연구실 내용이 틀려요', courses: '과목 연결이 억지예요'};
+const voted = {};
+function resultFeedbackHTML(lab, index) {
+  const v = voted['r:' + lab.id];
+  const social = lab.social ? `<p class="micro social">★ ${h(lab.social)}</p>` : '';
+  if (v) return `${social}<div class="result-fb done"><span class="micro">${v === 'up' ? '고마워요! 비슷한 관심의 학생들에게 더 잘 보여 줄게요.' : '알려 줘서 고마워요. 다음 검색에 반영할게요.'}</span></div>`;
+  return `${social}<div class="result-fb" data-lab="${h(lab.id)}" data-rank="${index}"><span class="micro">내 관심과 맞나요?</span><button class="fb-btn" data-action="result-up" data-id="${h(lab.id)}" data-rank="${index}">👍 맞아요</button><button class="fb-btn" data-action="result-down" data-id="${h(lab.id)}" data-rank="${index}">👎 아니에요</button></div>`;
+}
+function reasonChips(map, action, extra = '') {
+  return `<div class="fb-reasons">${Object.entries(map).map(([k, l]) => `<button class="chip" data-action="${action}" data-reason="${k}" ${extra}>${h(l)}</button>`).join('')}</div>`;
+}
+function searchFeedbackHTML() {
+  if (!state.results.length || state.searchInfo?.intent !== 'search') return '';
+  if (voted['s:' + (state.session?.profile?.interests || '')]) return '<div class="search-fb done"><p class="micro">의견 고마워요. 검색을 더 낫게 만드는 데 쓸게요.</p></div>';
+  return `<div class="search-fb"><p><b>원하던 연구실을 찾았나요?</b></p><div class="fb-scale">${[[5, '찾았어요 😀'], [3, '조금 😐'], [1, '아니요 😞']].map(([n, l]) => `<button class="chip" data-action="search-fb" data-rating="${n}">${l}</button>`).join('')}</div></div>`;
+}
+function meetingFeedbackHTML(t) {
+  const m = (state.pendingMeetings || []).find(x => x.thread_id === t.id);
+  if (!m) return '';
+  return `<form class="meeting-fb" data-id="${m.id}"><p><b>만남은 어땠나요?</b> <span class="micro">${whenOf(m.start)} · 상대에게는 보이지 않아요</span></p><div class="fb-scale">${[1, 2, 3, 4, 5].map(n => `<label class="star"><input type="radio" name="rating" value="${n}" required><span>${'★'.repeat(n)}</span></label>`).join('')}</div><input name="comment" maxlength="500" placeholder="좋았던 점이나 아쉬운 점(선택)"><button class="secondary" type="submit">평가 보내기</button></form>`;
+}
+function askService(trigger) {
+  const last = Number(localStorage.getItem('curri-service-asked') || 0);
+  if (Date.now() - last < 14 * 86400000 || document.getElementById('service-pop')) return;
+  localStorage.setItem('curri-service-asked', String(Date.now()));
+  const pop = document.createElement('div');
+  pop.id = 'service-pop'; pop.className = 'service-pop'; pop.setAttribute('role', 'dialog'); pop.setAttribute('aria-label', '서비스 평가');
+  pop.innerHTML = `<button class="close-button" data-action="close-pop" aria-label="닫기">×</button><p><b>3분커리가 도움이 됐나요?</b></p><form id="service-form" data-trigger="${h(trigger)}"><div class="fb-scale">${[[1, '😞'], [2, '🙁'], [3, '😐'], [4, '🙂'], [5, '😀']].map(([n, e]) => `<label class="emoji"><input type="radio" name="rating" value="${n}" required><span>${e}</span></label>`).join('')}</div><textarea name="comment" maxlength="1000" placeholder="더 좋아지려면 무엇이 필요할까요? (선택)"></textarea><button class="primary full" type="submit">보내기 <span>→</span></button></form>`;
+  document.body.appendChild(pop);
+}
+function openFeedback() {
+  openSheet(`<div class="eyebrow">FEEDBACK</div><h2 id="sheet-title">의견 보내기</h2><p class="sheet-sub">불편한 점, 틀린 정보, 있었으면 하는 기능 무엇이든 좋아요. 이름은 함께 보내지 않아요.</p><form id="service-form" data-trigger="footer"><div class="fb-scale">${[[1, '😞'], [2, '🙁'], [3, '😐'], [4, '🙂'], [5, '😀']].map(([n, e]) => `<label class="emoji"><input type="radio" name="rating" value="${n}" required><span>${e}</span></label>`).join('')}</div><textarea name="comment" maxlength="1000" placeholder="자유롭게 적어 주세요"></textarea><p id="sheet-error" class="error" role="alert"></p><button class="primary full" type="submit">보내기 <span>→</span></button></form>`);
+}
+async function sendFeedback(body) { return api('feedback', body); }
+function feedbackClick(name, button) {
+  const id = button.dataset.id, rank = Number(button.dataset.rank);
+  if (name === 'close-pop') { button.closest('.service-pop')?.remove(); return true; }
+  if (name === 'open-feedback') { openFeedback(); return true; }
+  if (name === 'result-up') {
+    sendFeedback({kind: 'result', lab_id: id, rank, helpful: true, reasons: []}).then(() => { voted['r:' + id] = 'up'; button.closest('.result-fb').outerHTML = resultFeedbackHTML({id}, rank); }).catch(e => toast(e.message));
+    return true;
+  }
+  if (name === 'result-down') {
+    const box = button.closest('.result-fb');
+    box.innerHTML = `<span class="micro">어떤 점이 아쉬웠나요?</span>${reasonChips(Object.fromEntries(Object.entries(RESULT_REASONS).slice(2)), 'result-reason', `data-id="${h(id)}" data-rank="${rank}"`)}`;
+    return true;
+  }
+  if (name === 'result-reason') {
+    sendFeedback({kind: 'result', lab_id: id, rank, helpful: false, reasons: [button.dataset.reason]}).then(() => { voted['r:' + id] = 'down'; button.closest('.result-fb').outerHTML = resultFeedbackHTML({id}, rank); }).catch(e => toast(e.message));
+    return true;
+  }
+  if (name === 'search-fb') {
+    const rating = Number(button.dataset.rating), box = button.closest('.search-fb');
+    sendFeedback({kind: 'search', rating}).then(() => {
+      voted['s:' + (state.session?.profile?.interests || '')] = true;
+      box.innerHTML = rating <= 3 ? `<p class="micro">무엇을 찾고 싶었는지 한 줄만 알려 주세요. 검색 사전과 순위를 고치는 데 써요.</p><form id="search-comment" class="inline-form"><input name="comment" maxlength="300" placeholder="예: 드론 제어 연구실이 안 나와요"><button class="secondary" type="submit">보내기</button></form>` : '<p class="micro">고마워요! 😀</p>';
+    }).catch(e => toast(e.message));
+    return true;
+  }
+  if (name === 'guide-down') {
+    const box = button.closest('.feedback'), topic = button.dataset.topic;
+    box.innerHTML = `<span class="micro">어떤 점이 아쉬웠나요? (여러 개 골라도 돼요)</span>${reasonChips(GUIDE_REASONS, 'guide-reason')}<div class="inline-form"><input class="fb-comment" maxlength="300" placeholder="더 하고 싶은 방향(선택)"><button class="secondary" data-action="guide-down-send" data-topic="${h(topic)}">보내기</button></div>`;
+    return true;
+  }
+  if (name === 'guide-reason') { button.classList.toggle('on'); return true; }
+  if (name === 'guide-down-send' || name === 'guide-retry') {
+    const box = button.closest('.feedback, .ai-retry');
+    const reasons = [...(box?.querySelectorAll('.chip.on') || [])].map(b => b.dataset.reason);
+    const comment = box?.querySelector('.fb-comment')?.value || '';
+    if (name === 'guide-down-send') {
+      action(async () => {
+        await api('guide/feedback', {lab_id: state.lab.id, helpful: false, topic: Number(button.dataset.topic), reasons, comment});
+        state.retryFeedback = {reasons, comment};
+        box.innerHTML = `<div class="ai-retry"><span class="micro">고마워요. 이 의견을 반영해 다른 방향을 받아 볼까요?</span><button class="secondary" data-action="guide-retry">다른 주제 다시 받기 →</button></div>`;
+      });
+    } else {
+      action(async () => {
+        const fb = state.retryFeedback || {reasons, comment};
+        state.guide = (await api('guide/retry', {lab_id: state.lab.id, ...fb})).guide;
+        if (el('guide-content')) el('guide-content').innerHTML = guideHTML(state.guide);
+        pollGuide(state.lab.id, Date.now());
+        toast('피드백을 반영해 새 주제를 만들고 있어요.');
+      });
+    }
+    return true;
+  }
+  return false;
+}
+document.addEventListener('submit', event => {
+  const form = event.target;
+  if (!(form.id === 'service-form' || form.id === 'search-comment' || form.classList.contains('meeting-fb'))) return;
+  event.preventDefault(); event.stopImmediatePropagation();
+  const data = new FormData(form);
+  action(async () => {
+    try {
+      if (form.id === 'service-form') {
+        await sendFeedback({kind: 'service', rating: Number(data.get('rating')), comment: `${data.get('comment') || ''}`.trim(), reasons: []});
+        el('service-pop')?.remove(); if (el('sheet-dialog').open) el('sheet-dialog').close(); toast('의견 고마워요. 꼼꼼히 읽어 볼게요.');
+      } else if (form.id === 'search-comment') {
+        await sendFeedback({kind: 'search', rating: 2, comment: `${data.get('comment') || ''}`.trim()}); form.outerHTML = '<p class="micro">고마워요. 검색 개선에 쓸게요.</p>';
+      } else {
+        await sendFeedback({kind: 'meeting', ref_id: Number(form.dataset.id), rating: Number(data.get('rating')), comment: `${data.get('comment') || ''}`.trim()});
+        state.pendingMeetings = (state.pendingMeetings || []).filter(m => m.id !== Number(form.dataset.id)); form.outerHTML = '<p class="micro meeting-fb done">평가 고마워요. 더 좋은 만남을 만드는 데 쓸게요.</p>';
+      }
+    } catch (error) { toast(error.message); }
+  });
+}, true);

@@ -12,6 +12,7 @@ from urllib.parse import urlsplit, parse_qs
 from . import errors
 from .community import Community, NotFound
 from .llm_jobs import cache_key
+from .feedback import query_key
 from .intent_mirror import build_mirror, clean_slots
 from .meeting_links import MeetingLinkError
 from .platform import Platform
@@ -34,6 +35,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
     P = platform or Platform(store, catalog, broker=broker)
     lock = threading.Lock()
     remote_aware = engine is not None and 'allow_remote' in inspect.signature(engine.search).parameters
+    P.admin.engine = engine
 
     def limited(bucket, key, count, seconds):
         with lock:
@@ -225,6 +227,40 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                         self.event('guide_ready' if fresh['status'] == 'done' else 'guide_failed', {'arm': guide.get('arm', 'R')})
             return {'guide': guide}
 
+        def guide_retry(self, body):
+            """New AI proposal that avoids the previous topics for the reasons the student gave."""
+            lab_id = catalog.resolve(body.get('lab_id') if isinstance(body.get('lab_id'), str) else '')
+            reasons = body.get('reasons') or []
+            comment = body.get('comment', '')
+            if not isinstance(reasons, list) or not isinstance(comment, str) or len(comment) > 300:
+                raise ValueError('다시 받을 이유를 확인해 주세요.')
+            if limited(searches, 'retry:' + self.client_ip(), 6, 3600):
+                raise ValueError('다시 받기는 한 시간에 6번까지 할 수 있어요.')
+            existing = next((r for r in store.snapshot(self.token)['explorations'] if r['lab_id'] == lab_id), None)
+            guide = existing and existing.get('guide')
+            ai = (guide or {}).get('ai') or {}
+            if ai.get('status') != 'done':
+                raise ValueError('먼저 AI 가이드를 받아 주세요.')
+            if not P.llm.online():
+                raise ValueError('AI 가이드 작업자가 잠시 쉬고 있어요. 잠시 뒤 다시 시도해 주세요.')
+            from .feedback import GUIDE_REASONS
+            why = [GUIDE_REASONS[r] for r in reasons if r in GUIDE_REASONS]
+            snap = store.snapshot(self.token)
+            account = (snap['user'] or {}).get('account', {})
+            student = {k: account.get(k) for k in ('department', 'grade', 'goal')}
+            interests = snap['profile'].get('interests', '')
+            payload = P.guide.payload(lab_id, interests, existing['selected_ids'], student)
+            avoid = {'previous_topics': [t['title'] for t in ai.get('topics', [])], 'student_feedback': why, 'student_comment': comment.strip()}
+            payload['prompt'] += ('\n\n이 학생은 아래 이전 제안이 맞지 않는다고 했습니다. 같은 주제를 반복하지 말고, 피드백을 반영해 다른 방향 2개를 제안하세요.\n'
+                                  + json.dumps(avoid, ensure_ascii=False))
+            key = cache_key('guide-retry', PROMPT_VERSION, lab_id, interests, sorted(existing['selected_ids']), student, avoid)
+            job = P.llm.submit('guide', key, payload)
+            guide['ai'] = ai_view(job)
+            guide['ai_previous'] = ai.get('topics', [])
+            store.save_exploration(self.token, lab_id, existing['selected_ids'], guide, existing.get('note', ''), existing.get('saved', False))
+            self.event('guide_retry', {'n': len(why)})
+            return {'guide': guide}
+
         def do_GET(self):
             url = urlsplit(self.path)
             path, query = url.path, {k: v[0] for k, v in parse_qs(url.query).items()}
@@ -271,7 +307,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                      '/api/qna': lambda: P.qna.list(self.token, query.get('lab_id')),
                      '/api/watch': lambda: P.watch.state(self.token, catalog.resolve(query.get('lab_id') or '')),
                      '/api/summary': lambda: self.summary(query.get('lab_id')),
-                     '/api/guide/status': lambda: self.guide_status(query.get('lab_id'))}
+                     '/api/guide/status': lambda: self.guide_status(query.get('lab_id')),
+                     '/api/feedback/pending': lambda: {'meetings': P.feedback.pending_meetings(store.current_user(self.token)['id'])}}
             if path in reads:
                 self.session_token()
                 try:
@@ -332,7 +369,14 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                     found = (engine.search(interests.strip(), allow_remote=P.accounts.overseas_allowed(self.token)) if remote_aware
                              else engine.search(interests.strip()))
                     found.pop('reasons', None)
-                    self.event('search', {'mode': found.get('mode', ''), 'n': len(found.get('labs', []))})
+                    read = found.get('interpretation') or {}
+                    key = query_key(read.get('likes'), interests) if found.get('intent') == 'search' else None
+                    rank_arm = P.events.arm(self.token, 'rank')
+                    if key:
+                        store.set_profile(self.token, {**store.snapshot(self.token)['profile'], 'query_key': key})
+                        if rank_arm == 'feedback':
+                            found['labs'], found['feedback_applied'] = P.feedback.rerank(key, found.get('labs', []))
+                    self.event('search', {'mode': found.get('mode', ''), 'n': len(found.get('labs', [])), 'arm': rank_arm or ''})
                     if found.get('intent') == 'search' and not found.get('labs'):
                         self.event('zero_results')
                         P.events.zero_query(interests.strip())
@@ -393,10 +437,21 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                     if path == '/api/guide/feedback':
                         if not isinstance(body.get('helpful'), bool) or not isinstance(body.get('lab_id'), str):
                             raise ValueError('피드백을 확인해 주세요.')
-                        self.event('guide_feedback', {'helpful': body['helpful'], 'topic': int(body.get('topic', 0)) if str(body.get('topic', 0)).isdigit() else 0,
-                                                      'lab': catalog.resolve(body['lab_id'])[:40]})
+                        topic = int(body.get('topic', 0)) if str(body.get('topic', 0)).isdigit() else 0
+                        self.event('guide_feedback', {'helpful': body['helpful'], 'topic': topic, 'lab': catalog.resolve(body['lab_id'])[:40]})
+                        session = store.get_session(self.token)
+                        P.feedback.submit(self.token, session and session['user_id'], {'kind': 'guide', 'lab_id': body['lab_id'], 'helpful': body['helpful'],
+                                                                                      'rank': topic, 'reasons': body.get('reasons', []), 'comment': body.get('comment', '')},
+                                          P.events.arm(self.token, 'guide'))
                         return self.respond(200, {'ok': True})
                     return self.respond(200, P.events.report(store.current_user(self.token)['id'], body))
+                if path == '/api/feedback':
+                    session = store.get_session(self.token)
+                    result = P.feedback.submit(self.token, session and session['user_id'], body, P.events.arm(self.token, 'rank'))
+                    self.event('feedback', {'kind': str(body.get('kind'))[:10]})
+                    return self.respond(200, result)
+                if path == '/api/guide/retry':
+                    return self.respond(200, self.guide_retry(body))
                 platform_writes = {
                     '/api/email/send': P.accounts.send_verification, '/api/email/verify': P.accounts.verify_email,
                     '/api/account/notify': P.accounts.set_notify, '/api/graduate/apply': P.accounts.apply_graduate,
@@ -423,6 +478,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                         except ValueError as exc:
                             return self.respond(200, {**started, 'meeting_error': str(exc)})
                     self.event('coffeechat', {'meeting': isinstance(meeting, dict)})
+                    if isinstance(body.get('lab_id'), str):
+                        P.feedback.signal(self.token, 'contact', catalog.resolve(body['lab_id']))
                     return self.respond(200, started)
                 writes = {'/api/review': community.save_review, '/api/review/delete': community.delete_review,
                           '/api/contact': community.contact, '/api/reply': community.reply, '/api/meeting/request': community.request_meeting,
@@ -464,6 +521,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                         store.count_guide_event(variant, 'explore')
                     rank = body.get('rank')
                     self.event('explore', {'rank': rank if type(rank) is int else -1, 'from': str(body.get('from', ''))[:20]})
+                    if body.get('from') == 'results':
+                        P.feedback.signal(self.token, 'open', canonical, rank)
                     return self.respond(200, {'lab': detail, 'exploration': existing, 'guide_variant': variant})
                 selected = body.get('selected_ids', [])
                 # Validate course IDs before allocating an anonymous exploration.
@@ -507,6 +566,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 store.save_exploration(self.token, canonical, selected, guide, note, saved)
                 if saved and not existing.get('saved'):
                     self.event('save')
+                    P.feedback.signal(self.token, 'save', canonical)
                 return self.respond(200, {'ok': True})
             except Exception as exc:
                 self.fail(exc)

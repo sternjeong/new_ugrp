@@ -11,6 +11,7 @@ from . import errors
 from .accounts import Accounts
 from .admin_api import AdminAPI
 from .events import Events
+from .feedback import Feedback
 from .llm_jobs import LLMJobs
 from .mailer import Mailer
 from .notifier import Notifier
@@ -47,6 +48,7 @@ class Platform:
         self.mailer = Mailer(store, cfg('mail.json'), site.get('base_url', base_url))
         self.accounts = Accounts(store, self.mailer, catalog, site.get('graduate_domains', ['postech.ac.kr']))
         self.events = Events(store, self.secret, cfg('experiments.json'))
+        self.feedback = Feedback(store, catalog, self.secret, cfg('expansions.json'))
         self.llm = LLMJobs(store, _read(cfg('llm_worker_token')))
         papers = LabPapers(Path(data_dir) / 'papers.jsonl') if data_dir else LabPapers(Path('/nonexistent'))
         self.guide = ResearchGuide(catalog, papers)
@@ -57,6 +59,7 @@ class Platform:
         self.notifier = Notifier(store, self.mailer)
         self.admin = AdminAPI(store, catalog, self.accounts, self.events, self.mailer, self.llm, self.guide, self.watch,
                               broker, _read(cfg('admin_token')), site.get('backup_dir') or (local / 'backups' if local else None))
+        self.admin.feedback = self.feedback
 
     def start(self):
         """Background threads: mail sender, notifier and the weekly lab watch."""
