@@ -22,3 +22,5 @@ Two Luna judges scored each versioned packet separately before its method key/ra
 **GPU-specific BGE encoding is Kaggle GPU only.** The local `run_bge_rich.py` rejects CPU execution; the incomplete earlier CPU attempt produced no ranking used in any analysis. Sparse TF-IDF and JSON/statistical analyses run on CPU because they are not GPU-specialized operations.
 
 The rich-frame n is for a single binary proportion with finite-population correction in the held-out component frame. It is not a power guarantee for paired ranking effects. Source windows, source hashes, label files, and scripts are recorded in each result manifest; post hoc extensions are labeled as such.
+
+> 2026-11-08 정리: 다른 파일이 참조하지 않고 이후 버전으로 대체된 중간 결과(`results/dev_relations_v2·v3·v7·v8·v14`, 폐기된 `feedback_rich_v2`, `dev_duplicate_audit_v3·v7·v8`)를 작업 폴더에서 뺐다. 최종 `dev_relations_v15`와 보고서가 인용하는 결과는 그대로다. 지운 결과는 `git show 9444cff:experiments/final_graph/results/<경로>`로 꺼낼 수 있다.
