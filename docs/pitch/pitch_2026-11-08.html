@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>3분커리 · 지금까지 만든 것 (2026-11-08)</title>
+<style>
+@page{size:A4 landscape;margin:0}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans CJK KR","NanumGothic",sans-serif;color:#24271f;background:#faf8f3;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:297mm;height:210mm;padding:14mm 16mm 12mm;position:relative;page-break-after:always;overflow:hidden;background:#faf8f3}
+.page:last-child{page-break-after:auto}
+.eyebrow{font-size:9.5pt;letter-spacing:2px;color:#d95530;font-weight:700;margin-bottom:4mm}
+h1{font-size:25pt;margin:0 0 3mm;letter-spacing:-1px;line-height:1.25}h2{font-size:13pt;margin:0 0 2.5mm}
+p,li{font-size:10.3pt;line-height:1.6}ul{margin:0;padding-left:5mm}li{margin:.6mm 0}
+.lead{font-size:11.5pt;color:#55574d;margin:0 0 6mm;max-width:235mm}
+.grid{display:grid;gap:5mm}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fffefa;border:1px solid #e3e2d9;border-radius:4mm;padding:5mm}
+.card.accent{border-color:#e7b9a8;background:#fbeee6}.card.green{border-color:#c8d6c6;background:#eef3ec}
+.num{font-size:24pt;font-weight:800;letter-spacing:-1px;color:#d95530;display:block}.num.g{color:#49624e}
+.cap{font-size:9pt;color:#76776d}
+table{border-collapse:collapse;width:100%;font-size:9.6pt;background:#fffefa}th,td{border-bottom:1px solid #e3e2d9;padding:2mm 2.5mm;text-align:left;vertical-align:top}th{background:#f1efe8;font-weight:700}
+td.r{text-align:right}tr.hl td{background:#fbeee6;font-weight:700}
+.notes{position:absolute;left:16mm;right:16mm;bottom:9mm;border-top:1px dashed #cfc9b8;padding-top:2.5mm;font-size:9pt;color:#76776d;line-height:1.5}
+.notes b{color:#9b653a}
+.foot{position:absolute;right:16mm;top:8mm;font-size:8.5pt;color:#b0ad9f}
+.pill{display:inline-block;font-size:8.5pt;padding:.6mm 2.2mm;border-radius:3mm;background:#ecefe8;color:#49624e;margin:0 1mm 1mm 0}
+.pill.o{background:#f4e8dc;color:#9b653a}
+.flow{display:flex;align-items:stretch;gap:2mm;margin:2mm 0 5mm}.step{flex:1;background:#fffefa;border:1px solid #e3e2d9;border-radius:3mm;padding:3mm;font-size:9.3pt;line-height:1.45}.step b{display:block;font-size:10pt;margin-bottom:1mm;color:#24271f}.arrow{align-self:center;color:#d95530;font-weight:800}
+.cover{background:#24271f;color:#faf8f3}.cover h1{font-size:40pt;color:#faf8f3;margin-top:28mm}.cover .lead{color:#d6d3c6;font-size:14pt}.cover .eyebrow{color:#f08a63}
+.mark{display:inline-grid;place-items:center;width:16mm;height:16mm;border-radius:4mm 4mm 7mm 4mm;background:#d95530;color:#faf8f3;font-size:24pt;font-style:italic;font-weight:800}
+code{font-size:9pt;background:#f1efe8;padding:.3mm 1.5mm;border-radius:1.5mm}
+svg text{font-family:"Noto Sans CJK KR","NanumGothic",sans-serif}
+</style></head><body>
+
+<!-- 1 cover -->
+<section class="page cover">
+  <span class="mark">3</span>
+  <div class="eyebrow" style="margin-top:8mm">TEAM BRIEFING · 2026-11-08</div>
+  <h1>3분커리,<br>지금까지 만든 것</h1>
+  <p class="lead">관심 한 줄에서 연구실 발견 → AI 연구 주제 제안 → 선배와 커피챗·Zoom 만남 → 피드백으로 엔진이 좋아지는 순환까지.<br>운영 중: <b>3mincurri.duckdns.org</b> · 관리 콘솔: <b>3mincurri-admin.duckdns.org</b></p>
+  <div class="grid g4" style="margin-top:16mm">
+    <div><span class="num" style="color:#f08a63">307</span><span class="cap" style="color:#bdb9aa">추천 가능 연구실</span></div>
+    <div><span class="num" style="color:#f08a63">1,151</span><span class="cap" style="color:#bdb9aa">연결된 과목</span></div>
+    <div><span class="num" style="color:#f08a63">4.31 / 5</span><span class="cap" style="color:#bdb9aa">AI 주제 추천 교수 패널 평가 (기존 2.17)</span></div>
+    <div><span class="num" style="color:#f08a63">107</span><span class="cap" style="color:#bdb9aa">자동 테스트 통과</span></div>
+  </div>
+</section>
+
+<!-- 2 architecture -->
+<section class="page"><div class="foot">01 · 전체 구조</div>
+  <div class="eyebrow">ARCHITECTURE</div><h1>서버 2대 + 외부 작업자 2개로 돌아갑니다</h1>
+  <p class="lead">모두 Oracle 무료 인스턴스(도쿄)와 무료·구독 자원으로 운영합니다. 서버는 Python 표준 라이브러리 + SQLite, 화면은 순수 JS입니다.</p>
+  <svg viewBox="0 0 1000 360" width="100%" height="88mm">
+    <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#d95530"/></marker></defs>
+    <g font-size="15">
+      <rect x="10" y="140" width="150" height="80" rx="12" fill="#fffefa" stroke="#cfc9b8"/><text x="85" y="175" text-anchor="middle" font-weight="700">학생·선배</text><text x="85" y="198" text-anchor="middle" font-size="12" fill="#76776d">브라우저</text>
+      <rect x="250" y="80" width="300" height="200" rx="14" fill="#fbeee6" stroke="#e7b9a8"/><text x="400" y="110" text-anchor="middle" font-weight="700">서비스 서버 (oracle-micro)</text>
+      <text x="270" y="140" font-size="12.5" fill="#55574d">Caddy HTTPS → curri (Python)</text><text x="270" y="162" font-size="12.5" fill="#55574d">검색 엔진 · 커뮤니티 · 계정·동의</text><text x="270" y="184" font-size="12.5" fill="#55574d">AI 작업 대기열 · 메일·알림 · 피드백</text><text x="270" y="206" font-size="12.5" fill="#55574d">SQLite · 매일 백업 · 오류 기록</text><text x="270" y="228" font-size="12.5" fill="#55574d">관리자 API (터널로만 열림)</text>
+      <rect x="650" y="10" width="330" height="62" rx="12" fill="#fffefa" stroke="#cfc9b8"/><text x="815" y="36" text-anchor="middle" font-weight="700">의미 검색 워커 (Kaggle GPU)</text><text x="815" y="58" text-anchor="middle" font-size="12" fill="#76776d">BGE-M3 임베딩 · 서버로 먼저 접속(long-poll)</text>
+      <rect x="650" y="92" width="330" height="62" rx="12" fill="#fffefa" stroke="#cfc9b8"/><text x="815" y="118" text-anchor="middle" font-weight="700">AI 워커 (개발 VM tmux)</text><text x="815" y="140" text-anchor="middle" font-size="12" fill="#76776d">claude -p · Sonnet · 가이드·쉬운 요약</text>
+      <rect x="650" y="174" width="155" height="62" rx="12" fill="#fffefa" stroke="#cfc9b8"/><text x="727" y="200" text-anchor="middle" font-weight="700">Zoom API</text><text x="727" y="222" text-anchor="middle" font-size="12" fill="#76776d">만남 링크 자동 생성</text>
+      <rect x="825" y="174" width="155" height="62" rx="12" fill="#fffefa" stroke="#cfc9b8"/><text x="902" y="200" text-anchor="middle" font-weight="700">Gmail SMTP</text><text x="902" y="222" text-anchor="middle" font-size="12" fill="#76776d">인증·알림 메일</text>
+      <rect x="650" y="270" width="330" height="80" rx="12" fill="#eef3ec" stroke="#c8d6c6"/><text x="815" y="298" text-anchor="middle" font-weight="700">관리자 VM (curri-admin)</text><text x="815" y="320" text-anchor="middle" font-size="12" fill="#55574d">운영 콘솔 HTTPS · 로그인 · 매일 서버 밖 백업</text><text x="815" y="338" text-anchor="middle" font-size="12" fill="#55574d">SSH 터널(포트 전달만 허용된 키)</text>
+      <rect x="250" y="300" width="300" height="50" rx="12" fill="#fffefa" stroke="#cfc9b8"/><text x="400" y="330" text-anchor="middle" font-size="13">OpenAlex (지켜보기 · 새 논문 확인)</text>
+      <path d="M160 180 H245" stroke="#d95530" stroke-width="2.5" marker-end="url(#a)"/>
+      <path d="M645 41 C600 41 590 120 555 130" stroke="#d95530" stroke-width="2" fill="none" marker-end="url(#a)"/>
+      <path d="M645 123 C600 123 590 150 555 155" stroke="#d95530" stroke-width="2" fill="none" marker-end="url(#a)"/>
+      <path d="M555 200 H645" stroke="#d95530" stroke-width="2" marker-end="url(#a)"/>
+      <path d="M555 215 C700 250 820 250 900 240" stroke="#d95530" stroke-width="2" fill="none" marker-end="url(#a)"/>
+      <path d="M645 300 C600 300 590 260 555 250" stroke="#49624e" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#a)"/>
+      <path d="M400 285 V300" stroke="#d95530" stroke-width="2" marker-end="url(#a)"/>
+    </g>
+  </svg>
+  <div class="notes"><b>발표 포인트</b> · 외부 작업자(Kaggle, AI 워커)는 모두 “서버로 먼저 접속해 일을 가져가는” 방식이라 포트를 열 필요가 없습니다. 둘 중 하나가 꺼져도 서비스는 사전 검색·기본 가이드로 계속 동작합니다.</div>
+</section>
+
+<!-- 3 journey -->
+<section class="page"><div class="foot">02 · 사용자 흐름</div>
+  <div class="eyebrow">USER JOURNEY</div><h1>관심 한 줄에서 선배와의 만남까지</h1>
+  <p class="lead">각 단계마다 “다음 행동”이 있고, 마지막에 피드백이 다시 검색으로 돌아갑니다.</p>
+  <div class="flow">
+    <div class="step"><b>① 관심 입력</b>“로봇 비전을 하고 싶고, 방학에 2개월 인턴이면 좋겠어요” · 정리 거울로 주제/방식/조건 확인</div><span class="arrow">→</span>
+    <div class="step"><b>② 연구실 결과</b>근거 문장 강조 · 과목 이름도 인식 · 👍/👎</div><span class="arrow">→</span>
+    <div class="step"><b>③ 연구실 상세</b>쉬운 논문 요약 · 과목별 “무엇이 이어지나” · 지켜보기</div><span class="arrow">→</span>
+    <div class="step"><b>④ AI 연구 가이드</b>수강 과목 표시 → 학부생 주제 2개 + 첫 단계 + 다음 과목</div><span class="arrow">→</span>
+    <div class="step"><b>⑤ 선배 연결</b>익명 Q&amp;A · 커피챗 요청과 만남 시간 함께</div><span class="arrow">→</span>
+    <div class="step"><b>⑥ Zoom 만남</b>확정 시 링크 자동 · 하루 전 메일 · 끝나면 평가</div>
+  </div>
+  <div class="grid g3">
+    <div class="card"><h2>비회원도 끝까지</h2><p>첫 연구실 하나는 로그인 없이 가이드까지 봅니다. 가입하면 그 탐색이 계정으로 그대로 이어집니다.</p></div>
+    <div class="card"><h2>화면마다 주소</h2><p><code>/lab/&lt;id&gt;</code>, <code>/inbox</code>, <code>/profile</code> 등. 링크 공유·뒤로 가기·메일 링크가 모두 해당 화면으로 열립니다.</p></div>
+    <div class="card accent"><h2>피드백이 다시 엔진으로</h2><p>결과 👍·저장·커피챗 → 같은 관심 검색의 순위를 조정하고, 평가셋과 사전 확장 후보가 됩니다(9쪽).</p></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 설문에서 나온 “연구실 정보가 흩어져 있다 / 선배에게 묻기 어렵다 / 내가 할 수 있는 연구인지 모르겠다”를 ②~⑥이 각각 받습니다.</div>
+</section>
+
+<!-- 4 account/session -->
+<section class="page"><div class="foot">03 · 로그인·세션·계정</div>
+  <div class="eyebrow">ACCOUNTS &amp; SESSIONS</div><h1>로그인·세션·계정 관리</h1>
+  <div class="grid g2">
+    <div class="card"><h2>세션과 로그인</h2><ul>
+      <li>첫 방문에 30일짜리 세션 쿠키(HttpOnly, Secure, SameSite=Lax). DB에는 토큰의 <b>해시만</b> 저장</li>
+      <li>비회원은 연구실 1곳까지 탐색 → 두 번째부터 로그인 요청, 가입 시 기존 탐색을 계정으로 합침</li>
+      <li>비밀번호는 scrypt(사용자별 salt) 단방향 저장 · 로그인 시도 IP당 5분 15회 제한</li>
+      <li>같은 사이트 요청만 허용(Origin 검사), 엄격한 CSP로 외부 스크립트 차단</li></ul></div>
+    <div class="card"><h2>계정 기능 (SMTP 연결 후)</h2><ul>
+      <li>6자리 <b>이메일 인증 코드</b>(15분) · <b>비밀번호 재설정</b> 링크(1시간, 1회용, 모든 기기 로그아웃)</li>
+      <li><b>알림 설정</b>: 새 쪽지 · 만남 · 지켜보기 · Q&amp;A 답변</li>
+      <li><b>탈퇴</b>: 즉시 삭제, 상대가 받은 쪽지는 ‘탈퇴한 사용자’로 익명화</li>
+      <li><b>차단·신고</b>: 쪽지·후기·질문·답변 단위, 운영자 처리</li></ul></div>
+    <div class="card"><h2>선배(대학원생) 인증</h2><ul>
+      <li><code>@postech.ac.kr</code> 가입 + 이메일 인증 → 연구실·과정·연구 분야·월 문의 상한·가능 시간 신청</li>
+      <li>운영자가 콘솔에서 승인/반려(결과 메일) → ‘인증 선배’ 배지</li>
+      <li>선배 이메일은 본인이 공개를 고른 경우에만 노출</li></ul></div>
+    <div class="card accent"><h2>개인정보 동의</h2><ul>
+      <li>필수: 이용 안내 · 수집·이용과 <b>국외 보관</b>(서버가 도쿄) · 만 14세 이상</li>
+      <li>선택: 의미 검색·AI 가이드용 <b>국외 처리</b>(Kaggle·Anthropic). 거부해도 가입 가능 → 사전 검색·기본 가이드</li>
+      <li>커피챗 전 “내 정보가 이 선배에게 전달” 별도 동의 · 처리방침 <code>/privacy</code></li></ul></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 동의 버전과 시각을 기록합니다. 처리방침의 운영자 정보(보호책임자 등)는 아직 빈칸이라 팀에서 정해야 합니다.</div>
+</section>
+
+<!-- 5 community / zoom -->
+<section class="page"><div class="foot">04 · 커뮤니티와 Zoom</div>
+  <div class="eyebrow">COMMUNITY · ZOOM</div><h1>선배 연결: 쪽지 → 커피챗 → Zoom 만남</h1>
+  <div class="grid g2">
+    <div class="card"><h2>만남 예약 흐름</h2>
+      <div class="flow" style="margin:1mm 0 3mm"><div class="step"><b>요청</b>대면/온라인, 20·30분, 후보 시간 1~3개</div><span class="arrow">→</span><div class="step"><b>확정</b>상대가 한 시간 선택</div><span class="arrow">→</span><div class="step"><b>링크</b>Zoom 회의 자동 생성</div></div>
+      <ul><li>Zoom <b>Server-to-Server OAuth</b>로 서비스 계정에 회의 생성(호스트 없이 입장 가능, 대기실 없음)</li>
+      <li>무료 Zoom은 40분 제한 → 만남 길이를 20·30분으로 제한</li>
+      <li>요청·확정·취소가 대화창에 메시지로 남고 읽지 않음 수에 반영</li>
+      <li>Zoom 호출은 DB 잠금 밖에서, 확정은 조건부 갱신으로 중복 확정 방지</li></ul></div>
+    <div class="card"><h2>커피챗과 알림</h2><ul>
+      <li>연구실 화면에서 <b>첫 쪽지 + 만남 후보 시간</b>을 한 번에 요청</li>
+      <li>선배별 <b>월 문의 상한</b> 초과 시 요청 버튼 숨김</li>
+      <li>알림 메일: 새 쪽지(2분 묶음) · 만남 하루 전 · 48시간 무응답 시 선배에게 1회 · 질문 답변 · 만남 후 평가 요청</li></ul>
+      <h2 style="margin-top:4mm">익명 Q&amp;A · 지켜보기</h2><ul>
+      <li>질문자는 ‘익명 학생’, <b>그 연구실 인증 선배만</b> 답변 · 신고 시 운영자 숨김</li>
+      <li>지켜보기: 매주 OpenAlex에서 교수의 새 논문 확인 → 메일</li></ul></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 지금 선배 계정은 시연용 더미가 대부분입니다. 실제 대학원생 가입(인증)을 받는 것이 다음 단계의 핵심입니다.</div>
+</section>
+
+<!-- 6 engine -->
+<section class="page"><div class="foot">05 · 검색 엔진</div>
+  <div class="eyebrow">SEARCH ENGINE</div><h1>검색 엔진 고도화</h1>
+  <div class="flow"><div class="step"><b>질의 해석</b>문장·절별로 좋아함/싫어함 분리, 과목 이름 인식, 어미·잡음 제거</div><span class="arrow">→</span><div class="step"><b>사전 검색</b>IDF 가중 · 조사 제거 · 띄어쓰기 무시 · 한국어→영어 연구 용어 확장(+운영자 추가)</div><span class="arrow">→</span><div class="step"><b>의미 검색</b>BGE-M3 구절×연구실 유사도(Kaggle) · 결과 DB 캐시</div><span class="arrow">→</span><div class="step"><b>과목 연결</b>담당 교수 연구실 + 과목-연구실 유사도</div><span class="arrow">→</span><div class="step"><b>순위 융합</b>RRF · 싫어함 충돌 제거 · 피드백 재정렬(A/B)</div></div>
+  <table><tr><th>질의</th><th>이전</th><th>지금</th></tr>
+    <tr><td>자율주행</td><td>사전 검색 0건, 의미 1위 화학공학</td><td>강석형 · 곽수하(컴퓨터비전) · 송민석(자율주행차)</td></tr>
+    <tr><td>배터리가 궁금한데 시뮬레이션은 싫어요</td><td>0건 (부정 표현이 앞 절까지 삼킴)</td><td>배터리공학과 3곳이 1~3위</td></tr>
+    <tr><td>선형대수 재밌었어요</td><td>“선형대수 재밌었어”로 해석, 엉뚱한 결과</td><td>선형대수학 담당 교수 연구실 1위 · 이유 “수업을 맡은 교수의 연구실”</td></tr>
+    <tr><td>로봇 비전… 파이썬으로 데모… 방학 2개월 인턴</td><td>문장 전체가 한 구절로 뭉침</td><td>주제 “로봇 비전”으로 검색 + 정리 거울에 방식·조건 분리</td></tr>
+  </table>
+  <div class="grid g3" style="margin-top:4mm">
+    <div class="card"><h2>근거를 보여 주는 결과</h2><p>‘대표 논문 · 2025’처럼 출처와 연도, 검색어가 든 한 문장을 강조. 과목은 “연구실 자료의 ‘…’에 나오는 A, B를 이 과목에서도 다뤄요”.</p></div>
+    <div class="card"><h2>첫 검색 대기 줄이기</h2><p>입력창을 누르면 워커를 미리 깨우고, 한 번 계산한 구절 유사도는 DB에 저장해 워커가 꺼져도 즉시 의미 검색.</p></div>
+    <div class="card"><h2>연구실 데이터 정리</h2><p>예전 ID 58곳을 새 ID로 연결해 사라졌던 선배 28명 복구, 영어 이름만 있던 교수 표시 보정.</p></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 개선은 실제 사용 점검(10개 시나리오, 운영 질의 20여 개)에서 찾은 문제부터 고쳤습니다. 다음은 피드백으로 쌓이는 평가셋으로 숫자 기반 개선입니다.</div>
+</section>
+
+<!-- 7 research guide -->
+<section class="page"><div class="foot">06 · 연구 주제 추천</div>
+  <div class="eyebrow">RESEARCH TOPIC RECOMMENDATION</div><h1>AI 연구 가이드 (방법 R)</h1>
+  <p class="lead">“이 학생이 이 연구실에서 3개월 안에 시작할 수 있는 연구”를, 연구실의 실제 논문에 근거해 제안합니다.</p>
+  <div class="flow">
+    <div class="step"><b>입력</b>관심 문장 · 학과·학년 · 표시한 수강 과목(소개 포함) · 연구 분야·소개 · <b>최근 논문 5편 초록</b> · 안 들은 연관 과목</div><span class="arrow">→</span>
+    <div class="step"><b>생성</b>작업 대기열 → 개발 VM tmux 워커가 <code>claude -p --model sonnet</code> (15~30초) · 같은 조건은 캐시</div><span class="arrow">→</span>
+    <div class="step"><b>코드 검증</b>인용이 원문에 그대로 있나 · 과목이 실제 표시한 것인가 · 다음 과목이 목록에 있나 → 통과한 주제만</div><span class="arrow">→</span>
+    <div class="step"><b>출력</b>주제 2개: 연구 질문 · 관심 연결 · 근거 · 과목 연결 · 더 배울 것 · 첫 단계 · 난이도 + 다음 과목 3개</div>
+  </div>
+  <div class="grid g3">
+    <div class="card"><h2>지어낸 내용 차단</h2><p>원문에서 확인되지 않는 근거의 주제는 버리고, 학생이 듣지 않은 과목을 “들은 과목”으로 잇지 못하게 막습니다.</p></div>
+    <div class="card"><h2>안 될 때의 대체</h2><p>국외 처리 미동의 · 워커 꺼짐 · 검증 실패 시 기본 가이드를 보여 주고 이유를 안내합니다.</p></div>
+    <div class="card accent"><h2>피드백 → 다시 받기</h2><p>👎와 이유(어려워요, 막연해요 등)를 남기면 이전 주제와 이유를 프롬프트에 넣어 다른 방향으로 다시 받습니다.</p></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 비용은 API로 바꾸면 1회 약 $0.05입니다. 지금은 구독 CLI를 쓰므로 개발 VM이 켜져 있어야 하고 사용량 한도가 있습니다.</div>
+</section>
+
+<!-- 8 evidence -->
+<section class="page"><div class="foot">07 · 방법 선택 근거</div>
+  <div class="eyebrow">EVIDENCE</div><h1>왜 방법 R인가: 교수 페르소나 평가</h1>
+  <p class="lead">6개 학과 연구실 × 수강 조건 2개 = 12사례. 그 연구실 교수 역할의 Sonnet 판정자 5명이 순서를 섞은 6개 안(5개 방식 + 다른 연구실 대조군)을 평가.</p>
+  <table>
+    <tr><th>방식</th><th class="r">종합 (1~5)</th><th class="r">교수 수용률</th><th class="r">연구실 적합</th><th class="r">사실 근거</th><th class="r">첫 단계</th><th class="r">시간 분할 MRR*</th></tr>
+    <tr><td>A 기존 고정 가이드</td><td class="r">2.17</td><td class="r">0%</td><td class="r">3.05</td><td class="r">3.32</td><td class="r">1.02</td><td class="r">0.48</td></tr>
+    <tr><td>L Sonnet 단독 (논문 없음)</td><td class="r">4.03</td><td class="r">87%</td><td class="r">4.12</td><td class="r">3.90</td><td class="r">4.13</td><td class="r">0.56</td></tr>
+    <tr class="hl"><td>R 최근 논문 + Sonnet (채택)</td><td class="r">4.31</td><td class="r">100%</td><td class="r">4.77</td><td class="r">4.58</td><td class="r">4.62</td><td class="r">0.73</td></tr>
+    <tr><td>RS 점수로 고른 논문 + Sonnet</td><td class="r">4.02</td><td class="r">97%</td><td class="r">4.47</td><td class="r">4.12</td><td class="r">4.05</td><td class="r">0.56</td></tr>
+    <tr><td>RSO RS + OpenAlex 인용 흐름</td><td class="r">4.13</td><td class="r">98%</td><td class="r">4.30</td><td class="r">4.05</td><td class="r">4.32</td><td class="r">0.71</td></tr>
+    <tr><td>대조군 (다른 연구실 답)</td><td class="r">1.39</td><td class="r">0%</td><td class="r">1.00</td><td class="r">1.03</td><td class="r">2.25</td><td class="r">–</td></tr>
+  </table>
+  <div class="grid g3" style="margin-top:4mm">
+    <div class="card"><h2>판정 신뢰도</h2><p>판정자 간 Krippendorff α 0.88~0.97. 대조군을 꼴찌(연구실 적합 1.00)로 걸러냄.</p></div>
+    <div class="card"><h2>* 시간 분할 검사</h2><p>생성기에는 2024년 이전 논문만 주고, 결과가 그 연구실의 2025년 이후 실제 논문과 가까운지 143개 연구실 중 순위로 측정.</p></div>
+    <div class="card green"><h2>한계</h2><p>생성·판정 모두 Sonnet(자기 선호 가능) · 사람 판정 없음 · 6개 연구실. 실제 학생 피드백으로 계속 검증합니다.</p></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 규칙으로 논문을 고르는 RS는 오히려 나빴습니다(한국어 관심과 영어 초록의 단어가 안 겹침). 최근 논문을 그대로 주는 단순한 방식이 가장 좋았습니다.</div>
+</section>
+
+<!-- 9 feedback loop -->
+<section class="page"><div class="foot">08 · 피드백 루프</div>
+  <div class="eyebrow">FEEDBACK LOOP</div><h1>사용할수록 좋아지는 구조</h1>
+  <div class="grid g2">
+    <div class="card"><h2>모으는 것</h2><table>
+      <tr><td>검색 결과</td><td>“내 관심과 맞나요?” 👍/👎 + 이유</td></tr>
+      <tr><td>검색 전체</td><td>원하던 연구실을 찾았나요? + 한 줄</td></tr>
+      <tr><td>AI 가이드</td><td>주제별 👍/👎 + 이유 → 다시 받기</td></tr>
+      <tr><td>만남</td><td>끝난 뒤 별점(상대 비공개) + 메일 요청</td></tr>
+      <tr><td>서비스</td><td>저장·가이드 후 1회 평점, 푸터 의견</td></tr>
+      <tr><td>행동</td><td>결과 열람(순위) · 저장 · 커피챗</td></tr></table>
+      <p class="cap" style="margin-top:2mm">모두 가명 세션 기준. 신호 180일, 의견 1년 보관.</p></div>
+    <div class="card accent"><h2>엔진으로 돌아가는 4가지 경로</h2><ul>
+      <li><b>① 순위 조정</b> — 같은 관심(해석 키)에서 👍·저장·연락이 쌓인 연구실은 위로, 👎 반복은 아래로. 근거 4점 이상일 때만, 세션 절반(A/B)에만 적용</li>
+      <li><b>② 평가셋</b> — 👍·저장·연락이 있는 검색이 정답 세트 → 콘솔에서 nDCG@10·MRR·Recall@10 측정, 낮은 질의 목록</li>
+      <li><b>③ 사전 확장</b> — 0건·불만족 검색어의 새 단어를 후보로 → 운영자가 영어 용어 추가 시 즉시 반영</li>
+      <li><b>④ AI 가이드</b> — 👎 이유와 이전 주제를 넣어 재생성, 이유 통계로 프롬프트 개선</li></ul></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 지금은 피드백이 거의 없어 숫자는 의미가 작습니다. 팀원들이 직접 써 보고 👍/👎를 남겨 주는 것이 엔진 개선의 첫 데이터가 됩니다.</div>
+</section>
+
+<!-- 10 admin -->
+<section class="page"><div class="foot">09 · 운영 콘솔</div>
+  <div class="eyebrow">ADMIN CONSOLE</div><h1>운영 콘솔 · 3mincurri-admin.duckdns.org</h1>
+  <div class="grid g4">
+    <div class="card"><h2>운영</h2><ul><li>개요: 오늘 처리할 일, 일별 추이, 이용 흐름, 0건 검색어</li><li>상태·오류: 메모리·디스크·부하, 워커 연결, 오류 기록(30일), 실패 메일·AI 작업, 백업</li></ul></div>
+    <div class="card"><h2>사람</h2><ul><li>회원 검색·이용 정지</li><li>선배 인증 승인·반려</li><li>신고: 숨김 / 숨김+이용 제한 / 기각</li></ul></div>
+    <div class="card"><h2>품질</h2><ul><li>피드백: 비율·이유·의견함·👎 많은 연구실·사전 확장</li><li>엔진 개선: A/B, 평가 실행, 평가셋 내보내기</li><li>AI 작업 대기열, 실험 비율</li></ul></div>
+    <div class="card"><h2>시스템</h2><ul><li>메일 발송함·재발송</li><li>관리자 계정 추가·삭제·비밀번호</li><li>감사 로그(누가 언제 무엇을, 2년)</li></ul></div>
+  </div>
+  <div class="grid g3" style="margin-top:5mm">
+    <div class="card green"><h2>보안 구조</h2><p>관리자 API는 공개 주소로는 404. 관리자 VM의 SSH 터널(포트 전달만 가능한 키) + 토큰으로만 열림. 콘솔은 로그인(5회 실패 시 15분 잠금).</p></div>
+    <div class="card green"><h2>백업</h2><p>서비스 서버 매일 04:00 + 배포 직전, 14일 보관. 관리자 VM이 매일 05:00 사본을 받아 30일 보관.</p></div>
+    <div class="card green"><h2>오류 추적</h2><p>요청 실패와 메일·알림·지켜보기 작업 오류를 종류·코드 위치만 기록(요청 내용·개인정보 제외).</p></div>
+  </div>
+  <div class="notes"><b>발표 포인트</b> · 운영자는 사람마다 계정을 따로 만듭니다. 콘솔의 ‘관리자 계정’ 메뉴에서 바로 추가할 수 있습니다.</div>
+</section>
+
+<!-- 11 status / next -->
+<section class="page"><div class="foot">10 · 현재와 다음</div>
+  <div class="eyebrow">STATUS &amp; NEXT</div><h1>현재 상태와 다음 단계</h1>
+  <div class="grid g2">
+    <div class="card"><h2>운영 중인 것</h2>
+      <span class="pill">검색 엔진(사전+의미+과목)</span><span class="pill">AI 연구 가이드</span><span class="pill">논문 쉬운 요약</span><span class="pill">정리 거울</span><span class="pill">계정·동의·탈퇴</span><span class="pill">이메일 인증·재설정</span><span class="pill">선배 인증</span><span class="pill">쪽지·커피챗</span><span class="pill">Zoom 만남</span><span class="pill">알림 메일</span><span class="pill">익명 Q&amp;A</span><span class="pill">지켜보기</span><span class="pill">피드백 루프</span><span class="pill">운영 콘솔</span><span class="pill">매일 백업</span>
+      <h2 style="margin-top:4mm">알려진 한계</h2><ul>
+      <li>선배 대부분이 시연용 더미 → 실제 대학원생 가입이 필요</li>
+      <li>AI 워커가 개발 VM·구독 한도에 의존, 의미 검색은 Kaggle 첫 기동 1~2분</li>
+      <li>서버가 도쿄 리전 → 국외 보관 동의 필요</li>
+      <li>사람 평가 없이 AI 판정과 소수 사례로 검증</li></ul></div>
+    <div class="card accent"><h2>다음 단계 제안</h2><ul>
+      <li><b>공급</b>: 선배 초대 링크, 선배 대시보드, 공개 가능 시간에 바로 예약</li>
+      <li><b>엔진</b>: 피드백 평가셋 → LLM 질의 해석 + 영어 확장 → 상위 30곳 재순위화 → RRF 가중치 학습</li>
+      <li><b>인프라</b>: Oracle 무료 A1에 상시 의미 검색 워커, 사용자 증가 시 AI를 API로 전환, 국내 리전 검토</li>
+      <li><b>추천</b>: 정리 거울에서 확정한 조건(기간·방식)을 AI 가이드와 커피챗 질문에 반영</li></ul></div>
+  </div>
+  <div class="card" style="margin-top:5mm"><h2>팀에 부탁드릴 것</h2><p>① 직접 검색·가이드를 써 보고 👍/👎·의견 남기기 &nbsp; ② 아는 대학원생에게 선배 인증 가입 부탁하기 &nbsp; ③ 처리방침의 운영 주체·개인정보 보호책임자·시행일 정하기 &nbsp; ④ 운영자 계정이 필요하면 요청하기</p></div>
+  <div class="notes"><b>발표 포인트</b> · 기능은 대부분 갖춰졌고, 이제 병목은 “실제 사용자(특히 선배)와 피드백”입니다.</div>
+</section>
+</body></html>
