@@ -1,0 +1,142 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 2
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   },
+   {
+    "label": "L20",
+    "grade": 1
+   },
+   {
+    "label": "L21",
+    "grade": 0
+   },
+   {
+    "label": "L22",
+    "grade": 0
+   },
+   {
+    "label": "L23",
+    "grade": 0
+   },
+   {
+    "label": "L24",
+    "grade": 0
+   },
+   {
+    "label": "L25",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "dfd0272d5b2f41688fbd0812344ec4b5",
+  "L2": "558d09ffc6d39954834975a364d10013",
+  "L3": "name:조길원",
+  "L4": "7c29325e40e0eb662e7629967b633a0a",
+  "L5": "499feb96e02a16c6360a1bb6c89b326e",
+  "L6": "6b79f8637dad5c7a27a9e0b5d2798e56",
+  "L7": "7b54cef564a233d179c3af95248a4f40",
+  "L8": "04a4270953e536b3d89b39189ea28f5a",
+  "L9": "15e543040350f144149566679fe2bfc7",
+  "L10": "4ca8ad7508926891e100437c7817f303",
+  "L11": "4297d08f4b7dfe2755c6d814ac8ef632",
+  "L12": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+  "L13": "1727629e51972773487fbf21044d3a6f",
+  "L14": "2d380f935fc3deb1650937ac60cf70a7",
+  "L15": "913f3673099de6be55cf19a16b59522e",
+  "L16": "9696f4ab695c3ea4d975561822b6c1ad",
+  "L17": "335967217d9237b4b019e7a4b1a6f4f3",
+  "L18": "f084dcb5042b262e11b36063619dbeaf",
+  "L19": "cca7b82b6abb2e60476e1c524a39770e",
+  "L20": "437fc8d96e56428d5871fdeedc08b4dd",
+  "L21": "6dda7a495187db5785ed7f2f11e30511",
+  "L22": "a79d15cffa0894704db905e541a8363f",
+  "L23": "8a89fd3c5bc81918486a8ef633c47d51",
+  "L24": "06a7992e0dd6d5dd019a67c9eb5a82cf",
+  "L25": "2153cf488ec5eafa147e9fdb76e31765"
+ },
+ "seconds": 8.2,
+ "cost_usd_list": 0.0557728,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "ee7bb0042c323f1ce396b2ae9f6506837f098db523ce9434d60ba09a418ce9c1"
+}

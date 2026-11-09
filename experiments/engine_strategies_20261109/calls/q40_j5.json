@@ -1,0 +1,132 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 2
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 2
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   },
+   {
+    "label": "L20",
+    "grade": 1
+   },
+   {
+    "label": "L21",
+    "grade": 0
+   },
+   {
+    "label": "L22",
+    "grade": 1
+   },
+   {
+    "label": "L23",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "988399351b6bf6a86c4760b438cc6a99",
+  "L2": "4297d08f4b7dfe2755c6d814ac8ef632",
+  "L3": "24c36e302e555d35cdf85521165d1ab9",
+  "L4": "1e0986de5992f7715872118d72e5356f",
+  "L5": "e3554116e5076775c6dbc677a3a3eb8b",
+  "L6": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+  "L7": "fdf7c49c167de224cc78528fcfdcfbe8",
+  "L8": "f084dcb5042b262e11b36063619dbeaf",
+  "L9": "e361c364c0a48eb856377542256ad718",
+  "L10": "0195e9ad12189938d2dc6f445aa53c1a",
+  "L11": "7e21ea71de8805264e1b2355ef104dee",
+  "L12": "eb842e7485c31dfa96029d1f659bf3b0",
+  "L13": "89315275387a6abd10753adf25862997",
+  "L14": "2d8a05711c73101da3adb5114339a869",
+  "L15": "5222f40ea8b1b572af7d81cdcfdd2870",
+  "L16": "1c52ea91286390cb814c490f93ab0492",
+  "L17": "b5530a33695bde14489bda40c348531b",
+  "L18": "04bf899ffd2d4bdafe3240d08c97899f",
+  "L19": "0b1ebda3958e1fffb9236234b35021af",
+  "L20": "2cb62041f2042fee06f9fec52ac935ad",
+  "L21": "e647186e20b50a963bbca9c030e31a1f",
+  "L22": "82f66a732f5b0cd33bb18370b079d6ba",
+  "L23": "3b3c5fe1e3c1a3aba26ffd66eb364790"
+ },
+ "seconds": 9.2,
+ "cost_usd_list": 0.058244000000000004,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "d1f414f02dd6719af45d7d85d2af837ccd8de75b1daafd54608496c2d8364f71"
+}

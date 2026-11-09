@@ -1,0 +1,127 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 2
+   },
+   {
+    "label": "L3",
+    "grade": 3
+   },
+   {
+    "label": "L4",
+    "grade": 1
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 1
+   },
+   {
+    "label": "L12",
+    "grade": 3
+   },
+   {
+    "label": "L13",
+    "grade": 2
+   },
+   {
+    "label": "L14",
+    "grade": 2
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   },
+   {
+    "label": "L19",
+    "grade": 1
+   },
+   {
+    "label": "L20",
+    "grade": 1
+   },
+   {
+    "label": "L21",
+    "grade": 2
+   },
+   {
+    "label": "L22",
+    "grade": 3
+   }
+  ]
+ },
+ "key": {
+  "L1": "name:조길원",
+  "L2": "4ad952ffe572a3156f56802fc7647dbb",
+  "L3": "aebe9a6ddab8c971ffecbd53eb58270e",
+  "L4": "7bdd625d5a73bc4567d09c77c088a478",
+  "L5": "dfd0272d5b2f41688fbd0812344ec4b5",
+  "L6": "452ff8a514babe9a5da54bbcb5d24c32",
+  "L7": "e9a460d2006f46bff940e54e8733b5b5",
+  "L8": "89a355028e05f37b704bf98340f6f769",
+  "L9": "1d4ec3b5e4294f3d43637a3689ede475",
+  "L10": "3b3c5fe1e3c1a3aba26ffd66eb364790",
+  "L11": "ccd3a21a7a4efd2d952fb45c2796c869",
+  "L12": "e3554116e5076775c6dbc677a3a3eb8b",
+  "L13": "0a2eb55c6a036c893a340b7402e7da05",
+  "L14": "82f66a732f5b0cd33bb18370b079d6ba",
+  "L15": "c55f3ac184b92d8a222a1dd536c7718e",
+  "L16": "3cf13955f9df42105905a333b6204179",
+  "L17": "0ee287568e5625227fa66d9143fd1a89",
+  "L18": "2ee4c28811b498945b87f5d3a4aaadf0",
+  "L19": "ad505cb08e854896e57bd47b92850efd",
+  "L20": "2cd5dbaa3e7b7003ea45552abfd54cc6",
+  "L21": "16adb6517049f41e1f01339f37891865",
+  "L22": "437fc8d96e56428d5871fdeedc08b4dd"
+ },
+ "seconds": 10.8,
+ "cost_usd_list": 0.0566206,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "2dc8acd4e6fb8dd1d6325b203fb28ad9f626f11e28ce3345a7adb9b46e8c3d93"
+}

@@ -1,0 +1,112 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 2
+   },
+   {
+    "label": "L3",
+    "grade": 2
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 3
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 3
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 2
+   },
+   {
+    "label": "L16",
+    "grade": 3
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "1727629e51972773487fbf21044d3a6f",
+  "L2": "558d09ffc6d39954834975a364d10013",
+  "L3": "df4bd10ef0d157c94cc1d0af5af628d5",
+  "L4": "38edcacabe08c12e260e1654b7b4e55e",
+  "L5": "6adff5a3efe38e59669333a47d29f2b6",
+  "L6": "7c29325e40e0eb662e7629967b633a0a",
+  "L7": "6dda7a495187db5785ed7f2f11e30511",
+  "L8": "2153cf488ec5eafa147e9fdb76e31765",
+  "L9": "2cb62041f2042fee06f9fec52ac935ad",
+  "L10": "e3a8aed8c0f0fb63d1ec3aecddc8ebe1",
+  "L11": "e064ea8da3398b079defc8179040f838",
+  "L12": "904a2fb1494123a4b9be99844f3d823c",
+  "L13": "9c2741540c4286d26221b8f2701304f2",
+  "L14": "247c2d847af8f32337fb7de6ad268360",
+  "L15": "e5c123f6913071fecdf558f7ee9cc4ca",
+  "L16": "a79d15cffa0894704db905e541a8363f",
+  "L17": "1575f61cdbb426e1995d045f1996a3b6",
+  "L18": "543ee1b67121080f7ed4304b31bde36a",
+  "L19": "00f52d3209da2832a33781de047e38ed"
+ },
+ "seconds": 4.7,
+ "cost_usd_list": 0.0397308,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "a3c766ed73317137f3efbf94ce52d963b46663ca5b5f5d5e714f13874621d919"
+}

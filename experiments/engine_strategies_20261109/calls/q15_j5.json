@@ -1,0 +1,107 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 2
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 0
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 1
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "b9952d0611c5c0a4a350a434b644cf48",
+  "L2": "ef2b65fbe4750e574fff67eceab7d2f3",
+  "L3": "b247094125c58d6a164c12f74277b33f",
+  "L4": "8de45719ab2b8fce6893b83f3aa3300b",
+  "L5": "ba11daf52cb269136ee35ff559d1a99d",
+  "L6": "34883ef052dfdf9f510f3edb263aeb4b",
+  "L7": "480bb8dec2750b8a828fa90daabe7bb4",
+  "L8": "57060a1ca8292869afb633bb00ce7204",
+  "L9": "52ae979e5a521ff22239a968c4281903",
+  "L10": "913f3673099de6be55cf19a16b59522e",
+  "L11": "e9a460d2006f46bff940e54e8733b5b5",
+  "L12": "name:Seung Park",
+  "L13": "bac613d80b091997629849fcf905e65c",
+  "L14": "15e543040350f144149566679fe2bfc7",
+  "L15": "f92e9c5e032784c769136a0644be552c",
+  "L16": "f5debb6e781d2d6656b184ddfbbe5e41",
+  "L17": "800292c887b4b94b4e93979d95f14239",
+  "L18": "2f3366b15c7c160f55ef87fca51bf8c8"
+ },
+ "seconds": 6.9,
+ "cost_usd_list": 0.0441006,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "ab47d2563aebd329b06f5fbc2d4882cb86fc694e92354c3be3373cc41e38795a"
+}

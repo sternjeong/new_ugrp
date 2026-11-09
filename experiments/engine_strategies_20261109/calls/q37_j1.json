@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 3
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 1
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 3
+   }
+  ]
+ },
+ "key": {
+  "L1": "2c77df65db93c01c187c2dcc522e2d02",
+  "L2": "21e55c2d3e603c3d15b6c5538dbc0ed0",
+  "L3": "c7cdff754981e682e5f71a4e7426e599",
+  "L4": "name:Sw Chung",
+  "L5": "2bc8e818f9dc40322c04e121f5affad5",
+  "L6": "e8e9c9ec81986f8f38a8b1f430a52b9f",
+  "L7": "1d4ec3b5e4294f3d43637a3689ede475",
+  "L8": "1ae444a2f44d62ba86384b57194c85ef",
+  "L9": "bd50e21be3088f6bb6b690cf272c8d5a",
+  "L10": "8296556464bdebca77b25830678fd37b",
+  "L11": "7e21ea71de8805264e1b2355ef104dee",
+  "L12": "452ff8a514babe9a5da54bbcb5d24c32",
+  "L13": "b19c909a5a99b205393fba060354fabd"
+ },
+ "seconds": 5.1,
+ "cost_usd_list": 0.0302748,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "04ada5d6de984ac1c4de6e2e08c39d7766815559d63a5c672ce45c29ae8597e4"
+}

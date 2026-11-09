@@ -1,0 +1,107 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 2
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 2
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 1
+   },
+   {
+    "label": "L14",
+    "grade": 3
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   }
+  ]
+ },
+ "key": {
+  "L1": "61be35a942c7654bbed63bcdb44f3e70",
+  "L2": "913f3673099de6be55cf19a16b59522e",
+  "L3": "e38229000b5001fe589061680c785785",
+  "L4": "aebe9a6ddab8c971ffecbd53eb58270e",
+  "L5": "00a146f5c5267ed6caeb590edaa47fac",
+  "L6": "70a61fac052c6b5ddcd0a4fa6afe342f",
+  "L7": "lab:www.cslab.postech.ac.kr",
+  "L8": "f2967b2a18bfe887c3948c9cdaa19e9f",
+  "L9": "946c050fc9fa8acaa8ce95b6dcc2144a",
+  "L10": "d1f96c8ff42d822dcf0489d32e075877",
+  "L11": "953898cd997f22be7dced291ed7c848e",
+  "L12": "71348edd001017b9579a1eb54375ad06",
+  "L13": "ac5babc34e4e3e5206b8cd23b74f3948",
+  "L14": "name:Sw Chung",
+  "L15": "6cacc6370a18f07c0792abb36b37679f",
+  "L16": "499feb96e02a16c6360a1bb6c89b326e",
+  "L17": "aa1cf9eed82e59584bfc0d4dd65c5364",
+  "L18": "f48dfb2c8fdd898e352b5feec266a40d"
+ },
+ "seconds": 5.7,
+ "cost_usd_list": 0.0388768,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "3095113eea4108cc046f27da4e472d159789dac59289618616558c36960653a6"
+}

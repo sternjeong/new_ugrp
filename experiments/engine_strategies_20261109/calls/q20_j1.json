@@ -1,0 +1,117 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 3
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 3
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 3
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 2
+   },
+   {
+    "label": "L11",
+    "grade": 3
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 1
+   },
+   {
+    "label": "L14",
+    "grade": 2
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 2
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 1
+   },
+   {
+    "label": "L20",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "bbb84aca00701a4b4d29c69ae6ff2a8a",
+  "L2": "29e9926344ed3f65c2eb83ba824f0540",
+  "L3": "8b7abdfbebe2b7d0941be32a15739e90",
+  "L4": "208923b6d6740630e6871ed2f50441a9",
+  "L5": "801d8483ec7fd757cf6199bf99e1c5aa",
+  "L6": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L7": "4991f96b4d883ab628a93c7a43e9a8e4",
+  "L8": "f92e9c5e032784c769136a0644be552c",
+  "L9": "2cb62041f2042fee06f9fec52ac935ad",
+  "L10": "fb2fac5a80ef2282b3e28bfef45b66ac",
+  "L11": "c083729fa52ba4adc51b03ca7251a645",
+  "L12": "f861170d3a401a9ed8b9b591854b2888",
+  "L13": "852b3d30f3ef3488e21f540f2bbeccea",
+  "L14": "7b54cef564a233d179c3af95248a4f40",
+  "L15": "06a7992e0dd6d5dd019a67c9eb5a82cf",
+  "L16": "2ac0c0282dded9689b48c236808ba193",
+  "L17": "00a2f37dcd22c6860346daa192299452",
+  "L18": "name:조길원",
+  "L19": "dfd0272d5b2f41688fbd0812344ec4b5",
+  "L20": "6b6d785944d0b63e339c6ee33809e6bb"
+ },
+ "seconds": 4.7,
+ "cost_usd_list": 0.0420288,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "d08324b72087b69f73f194ccdd690c92a0b9fa5712028e9a3c1a8c6d82080201"
+}

@@ -1,0 +1,117 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 3
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 3
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 3
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 0
+   },
+   {
+    "label": "L13",
+    "grade": 1
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   },
+   {
+    "label": "L20",
+    "grade": 3
+   }
+  ]
+ },
+ "key": {
+  "L1": "2c77df65db93c01c187c2dcc522e2d02",
+  "L2": "8a89fd3c5bc81918486a8ef633c47d51",
+  "L3": "17010ed4b4f3cc2bbec3c6d2c5252945",
+  "L4": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L5": "937965033892745d797d9ea70473f6a7",
+  "L6": "38edcacabe08c12e260e1654b7b4e55e",
+  "L7": "032749fe44cb8a804902ff1aa9236d09",
+  "L8": "1d4ec3b5e4294f3d43637a3689ede475",
+  "L9": "904a2fb1494123a4b9be99844f3d823c",
+  "L10": "6dda7a495187db5785ed7f2f11e30511",
+  "L11": "4ad952ffe572a3156f56802fc7647dbb",
+  "L12": "9c2741540c4286d26221b8f2701304f2",
+  "L13": "967c529b18fde0ca165565b028340c30",
+  "L14": "2153cf488ec5eafa147e9fdb76e31765",
+  "L15": "41cb478666b8dda0b4b2a751fa53ccb0",
+  "L16": "6e6098f39a29a429994ee9927724254d",
+  "L17": "700a6fac11e8c86b953724e4774a8728",
+  "L18": "0338f11c96903a40633ed02cc9426f4f",
+  "L19": "c4770c1e9d12ac61199d6e738b54115d",
+  "L20": "209a80e9e8e4205c5add535212b0a0ba"
+ },
+ "seconds": 5.7,
+ "cost_usd_list": 0.042108799999999995,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "760de8cfcf554b374de873aaf72a26ebaa52d37982f75c21daaff8eec1bf3ba3"
+}

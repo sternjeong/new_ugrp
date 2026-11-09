@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 3
+   },
+   {
+    "label": "L2",
+    "grade": 3
+   },
+   {
+    "label": "L3",
+    "grade": 3
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 2
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 2
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 3
+   },
+   {
+    "label": "L12",
+    "grade": 3
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "bbb232e44fc51ffa9667b632efee3648",
+  "L2": "269027c5b93829258d2eef4d0a38f196",
+  "L3": "a0b09bd0d8be40c9663143589c83803e",
+  "L4": "1ac8c28030e98810deea0ad1921fd7d3",
+  "L5": "4d32b3de303245ffc0951efccf1da2d5",
+  "L6": "21bfa9ebed9025d7da92fdae6d81c5a0",
+  "L7": "913f3673099de6be55cf19a16b59522e",
+  "L8": "3cf13955f9df42105905a333b6204179",
+  "L9": "fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+  "L10": "48ab3d77da069de620678d533d334880",
+  "L11": "b812e6346b5770c7ed8ebee2e604c589",
+  "L12": "d06da72ee798f4ba4518f6fec27c1924",
+  "L13": "lab:www.cslab.postech.ac.kr"
+ },
+ "seconds": 3.6,
+ "cost_usd_list": 0.0293388,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "63186f82ab96bfe3f4e4805d21eba6b929e7bb6e959dcbcb96525788c133131b"
+}

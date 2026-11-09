@@ -1,0 +1,52 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": false,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "17010ed4b4f3cc2bbec3c6d2c5252945",
+  "L2": "904a2fb1494123a4b9be99844f3d823c",
+  "L3": "54847f8af8af755d701d642eb2889ce1",
+  "L4": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L5": "032749fe44cb8a804902ff1aa9236d09",
+  "L6": "6dda7a495187db5785ed7f2f11e30511",
+  "L7": "437fc8d96e56428d5871fdeedc08b4dd"
+ },
+ "seconds": 7.8,
+ "cost_usd_list": 0.0207848,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "354a60a6b7ab7cd8d746b9890c2dae01033e1ef50f93f572204a57999323ec2d"
+}

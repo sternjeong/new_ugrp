@@ -1,0 +1,122 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 2
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 1
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 3
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 2
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 1
+   },
+   {
+    "label": "L15",
+    "grade": 2
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   },
+   {
+    "label": "L20",
+    "grade": 1
+   },
+   {
+    "label": "L21",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+  "L2": "2c77df65db93c01c187c2dcc522e2d02",
+  "L3": "f084dcb5042b262e11b36063619dbeaf",
+  "L4": "967c529b18fde0ca165565b028340c30",
+  "L5": "18aa873d92c1aee6f3266b3f15cd49d5",
+  "L6": "800292c887b4b94b4e93979d95f14239",
+  "L7": "e31d4bcbaa05eebde016e26cd1b7ea17",
+  "L8": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+  "L9": "7c0d812e4d700c7e56af778d3a824e29",
+  "L10": "b308f0521f94a234c1ff582231c722ab",
+  "L11": "c70973972fcfb5ab095e561d6fd81fe0",
+  "L12": "1c6b261317c80e62c715d3aa2377e1ce",
+  "L13": "cc1d600a3f6a859f24fb5b91d04320d3",
+  "L14": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L15": "a32ceefae328d34c087687edfcb376c0",
+  "L16": "ca582d6a0b812ba87c27f95338ba11dd",
+  "L17": "52ae979e5a521ff22239a968c4281903",
+  "L18": "209a80e9e8e4205c5add535212b0a0ba",
+  "L19": "81c7c0d97f02350ecb115624fc80c5d2",
+  "L20": "8a89fd3c5bc81918486a8ef633c47d51",
+  "L21": "700a6fac11e8c86b953724e4774a8728"
+ },
+ "seconds": 7.1,
+ "cost_usd_list": 0.0450508,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "6bde9facd19c4a3e297d645bb4e32ff1d36e3f26befc8a991644cecfd9a5e3f9"
+}

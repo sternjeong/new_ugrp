@@ -1,0 +1,498 @@
+{
+ "q01": {
+  "intent": "search",
+  "likes": [
+   "딥러닝",
+   "영상 인식"
+  ],
+  "dislikes": [],
+  "search_text": "딥러닝 영상 인식 deep learning image recognition computer vision convolutional neural network object detection image classification",
+  "ms": 2879
+ },
+ "q02": {
+  "intent": "search",
+  "likes": [
+   "반도체 소자",
+   "반도체 공정"
+  ],
+  "dislikes": [],
+  "search_text": "반도체 소자 공정 semiconductor device fabrication process, 박막 증착, 식각, 리소그래피, thin film deposition, etching, lithography, CMOS, transistor",
+  "ms": 3490
+ },
+ "q03": {
+  "intent": "search",
+  "likes": [
+   "로봇 제어 시스템"
+  ],
+  "dislikes": [],
+  "search_text": "로봇 제어 시스템 robot control systems, 로봇 제어, robotic manipulation control, motion planning, feedback control, 제어 이론 control theory",
+  "ms": 4655
+ },
+ "q04": {
+  "intent": "search",
+  "likes": [
+   "리튬 배터리 소재"
+  ],
+  "dislikes": [],
+  "search_text": "리튬 배터리 소재 리튬이온 전지 전극 소재 전해질 lithium-ion battery materials cathode anode electrolyte energy storage",
+  "ms": 3636
+ },
+ "q05": {
+  "intent": "search",
+  "likes": [
+   "단백질 구조 분석"
+  ],
+  "dislikes": [],
+  "search_text": "단백질 구조 분석 protein structure analysis, 구조생물학 structural biology, X-ray crystallography, cryo-EM, NMR, 단백질 구조 예측 protein structure prediction",
+  "ms": 3949
+ },
+ "q06": {
+  "intent": "search",
+  "likes": [
+   "양자 컴퓨팅 알고리즘"
+  ],
+  "dislikes": [],
+  "search_text": "양자 컴퓨팅 알고리즘 quantum computing algorithms, 양자 회로, quantum circuit, 양자 오류 정정, quantum error correction, 양자 복잡도, quantum complexity",
+  "ms": 3368
+ },
+ "q07": {
+  "intent": "search",
+  "likes": [
+   "인공지능 기반 의료 영상 분석"
+  ],
+  "dislikes": [],
+  "search_text": "인공지능 의료 영상 분석 medical image analysis deep learning 의료영상 진단 segmentation classification CT MRI X-ray",
+  "ms": 3135
+ },
+ "q08": {
+  "intent": "search",
+  "likes": [
+   "저전력 집적회로 설계"
+  ],
+  "dislikes": [],
+  "search_text": "저전력 집적회로 설계 low-power integrated circuit design, 저전력 VLSI, low-power analog/digital circuits, energy-efficient SoC",
+  "ms": 3712
+ },
+ "q09": {
+  "intent": "search",
+  "likes": [
+   "드론 제어",
+   "자율주행 로봇 운동 제어"
+  ],
+  "dislikes": [],
+  "search_text": "드론 및 자율주행 로봇 움직임 제어, 모션 제어, 경로 계획, drone control, autonomous mobile robot motion control, trajectory planning, UAV, navigation, control systems",
+  "ms": 3009
+ },
+ "q10": {
+  "intent": "search",
+  "likes": [
+   "촉매 기반 이산화탄소 전환",
+   "CO2 환원 반응"
+  ],
+  "dislikes": [],
+  "search_text": "촉매 이산화탄소 전환 CO2 환원 catalytic CO2 conversion, CO2 reduction reaction, electrocatalysis, heterogeneous catalysis, carbon utilization",
+  "ms": 3683
+ },
+ "q11": {
+  "intent": "search",
+  "likes": [
+   "유전자 가위",
+   "유전자 치료",
+   "질병 치료 기술"
+  ],
+  "dislikes": [],
+  "search_text": "유전자 가위 질병 치료 유전자 편집 유전자 치료 CRISPR-Cas9 genome editing gene therapy base editing prime editing",
+  "ms": 3566
+ },
+ "q12": {
+  "intent": "search",
+  "likes": [
+   "응집물질물리",
+   "위상 절연체",
+   "실험 연구"
+  ],
+  "dislikes": [],
+  "search_text": "응집물질물리 위상 절연체 실험 연구실 condensed matter physics topological insulator experimental ARPES transport thin film",
+  "ms": 3357
+ },
+ "q13": {
+  "intent": "search",
+  "likes": [
+   "암호학",
+   "정수론",
+   "순수수학"
+  ],
+  "dislikes": [],
+  "search_text": "암호학 정수론 순수수학 cryptography number theory pure mathematics algebraic number theory elliptic curve lattice-based cryptography",
+  "ms": 2803
+ },
+ "q14": {
+  "intent": "search",
+  "likes": [
+   "경량 고강도 합금 개발",
+   "신소재 연구"
+  ],
+  "dislikes": [],
+  "search_text": "경량 고강도 합금 개발 신소재 lightweight high-strength alloy design, advanced structural materials, 금속재료 물성, mechanical properties, aluminum magnesium titanium alloys",
+  "ms": 3234
+ },
+ "q15": {
+  "intent": "search",
+  "likes": [
+   "공장 생산 일정 최적화",
+   "산업공학"
+  ],
+  "dislikes": [],
+  "search_text": "공장 생산 일정 최적화 생산계획 스케줄링 산업공학 production scheduling optimization manufacturing industrial engineering job shop scheduling",
+  "ms": 3223
+ },
+ "q16": {
+  "intent": "search",
+  "likes": [
+   "태양전지 효율 향상",
+   "재생에너지"
+  ],
+  "dislikes": [],
+  "search_text": "태양전지 효율 향상 재생에너지 solar cell efficiency improvement photovoltaics renewable energy perovskite silicon tandem",
+  "ms": 3013
+ },
+ "q17": {
+  "intent": "search",
+  "likes": [
+   "코딩",
+   "데이터 분석"
+  ],
+  "dislikes": [
+   "손으로 하는 실험",
+   "웻랩 실험"
+  ],
+  "search_text": "코딩 데이터 분석 계산 연구 전산 모델링 computational research data analysis programming machine learning bioinformatics simulation",
+  "ms": 3496
+ },
+ "q18": {
+  "intent": "search",
+  "likes": [
+   "로봇 제작",
+   "로봇 시스템 설계"
+  ],
+  "dislikes": [
+   "이론 수식 유도 중심 연구"
+  ],
+  "search_text": "로봇 제작 및 시스템 설계 robot design, robot prototyping, robotics hardware implementation, mechatronics, embedded control",
+  "ms": 3263
+ },
+ "q19": {
+  "intent": "search",
+  "likes": [
+   "세포 배양 실험"
+  ],
+  "dislikes": [
+   "코딩 중심 연구",
+   "전산 분석 위주 연구"
+  ],
+  "search_text": "세포 배양 실험 cell culture, 세포생물학 cell biology, 습식 실험 wet lab, in vitro assay",
+  "ms": 3609
+ },
+ "q20": {
+  "intent": "search",
+  "likes": [
+   "물리 이론",
+   "이론물리학"
+  ],
+  "dislikes": [
+   "장비를 다루는 실험 중심 연구"
+  ],
+  "search_text": "이론물리학 물리 이론 theoretical physics 계산물리 computational physics 수리물리 mathematical physics 응집물질 이론 condensed matter theory 양자장론 quantum field theory 통계물리 statistical physics",
+  "ms": 4459
+ },
+ "q21": {
+  "intent": "search",
+  "likes": [
+   "환경 문제 해결"
+  ],
+  "dislikes": [
+   "화학약품을 많이 쓰는 연구"
+  ],
+  "search_text": "환경 문제 해결 환경공학 지속가능성 environmental engineering sustainability pollution control renewable energy 친환경 기술 green technology",
+  "ms": 3173
+ },
+ "q22": {
+  "intent": "search",
+  "likes": [
+   "회로 설계"
+  ],
+  "dislikes": [
+   "밤샘 시뮬레이션 위주의 연구"
+  ],
+  "search_text": "회로 설계 circuit design, 아날로그·디지털 집적회로 analog digital integrated circuit, VLSI, 하드웨어 설계 hardware design, 칩 제작 및 측정 chip fabrication measurement",
+  "ms": 4128
+ },
+ "q23": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "수학",
+   "수학 중심 연구"
+  ],
+  "search_text": "",
+  "ms": 3622
+ },
+ "q24": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "코딩",
+   "프로그래밍"
+  ],
+  "search_text": "",
+  "ms": 2814
+ },
+ "q25": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "냄새 나는 화학 실험",
+   "wet lab 화학 실험"
+  ],
+  "search_text": "",
+  "ms": 2696
+ },
+ "q26": {
+  "intent": "search",
+  "likes": [
+   "기계학습"
+  ],
+  "dislikes": [],
+  "search_text": "기계학습 머신러닝 machine learning 딥러닝 deep learning 인공지능 artificial intelligence",
+  "ms": 3264
+ },
+ "q27": {
+  "intent": "search",
+  "likes": [
+   "유기화학"
+  ],
+  "dislikes": [],
+  "search_text": "유기화학 유기합성 organic chemistry organic synthesis reaction mechanism",
+  "ms": 3273
+ },
+ "q28": {
+  "intent": "search",
+  "likes": [
+   "전자기학"
+  ],
+  "dislikes": [],
+  "search_text": "전자기학 electromagnetics, 전자기파 electromagnetic waves, 맥스웰 방정식 Maxwell's equations, 광학 photonics, 마이크로파 microwave",
+  "ms": 3478
+ },
+ "q29": {
+  "intent": "search",
+  "likes": [
+   "유전자 연구",
+   "유전학"
+  ],
+  "dislikes": [],
+  "search_text": "유전자 유전학 유전체 gene genetics genomics gene expression 분자생물학 molecular biology",
+  "ms": 3033
+ },
+ "q30": {
+  "intent": "search",
+  "likes": [
+   "열역학",
+   "유체역학"
+  ],
+  "dislikes": [],
+  "search_text": "열역학 유체역학 thermodynamics fluid mechanics 열유체 thermal-fluid engineering 열전달 heat transfer 전산유체역학 CFD",
+  "ms": 3596
+ },
+ "q31": {
+  "intent": "search",
+  "likes": [
+   "산업 현장 인공지능 응용",
+   "모델 개발 및 데이터 기반 검증"
+  ],
+  "dislikes": [
+   "이론 중심 연구"
+  ],
+  "search_text": "산업 인공지능 응용 industrial AI applications, 머신러닝 모델 개발 machine learning model development, 데이터 기반 검증 data-driven validation, 스마트 제조 smart manufacturing, 예지 보전 predictive maintenance",
+  "ms": 4625
+ },
+ "q32": {
+  "intent": "search",
+  "likes": [
+   "탄소 배출 저감 에너지 기술",
+   "수소 에너지",
+   "연료전지"
+  ],
+  "dislikes": [],
+  "search_text": "탄소 배출 저감 에너지 기술 수소 에너지 연료전지 carbon emission reduction clean energy hydrogen energy fuel cell water electrolysis 수전해 인턴 undergraduate research intern",
+  "ms": 3664
+ },
+ "q33": {
+  "intent": "search",
+  "likes": [
+   "웨어러블 센서",
+   "부착형 바이오센서",
+   "전자공학-생명공학 융합",
+   "직접 제작하는 하드웨어 개발"
+  ],
+  "dislikes": [],
+  "search_text": "웨어러블 기기 및 부착형 센서 wearable device, skin-attachable sensor, 생체신호 측정 biosignal monitoring, 바이오센서 biosensor, 생체전자공학 bioelectronics, 바이오메디컬 공학 biomedical engineering, 센서 및 회로 설계 제작 sensor and circuit design fabrication",
+  "ms": 4339
+ },
+ "q34": {
+  "intent": "search",
+  "likes": [
+   "응용수학",
+   "수치해석",
+   "최적화",
+   "실제 문제 해결을 위한 수학 모델링"
+  ],
+  "dislikes": [],
+  "search_text": "응용수학 수치해석 최적화 실제 문제 해결 applied mathematics numerical analysis optimization mathematical modeling scientific computing",
+  "ms": 3389
+ },
+ "q35": {
+  "intent": "search",
+  "likes": [
+   "컴퓨터 비전",
+   "딥러닝"
+  ],
+  "dislikes": [],
+  "search_text": "컴퓨터 비전 딥러닝 영상 인식 computer vision deep learning image recognition object detection",
+  "ms": 3163
+ },
+ "q36": {
+  "intent": "search",
+  "likes": [
+   "페로브스카이트 태양전지"
+  ],
+  "dislikes": [],
+  "search_text": "페로브스카이트 태양전지 perovskite solar cells, 광전변환 효율 photovoltaic efficiency, 박막 소재 thin film materials, 안정성 stability",
+  "ms": 3263
+ },
+ "q37": {
+  "intent": "search",
+  "likes": [
+   "합성생물학"
+  ],
+  "dislikes": [],
+  "search_text": "합성생물학 synthetic biology, 유전자 회로 genetic circuit, 대사공학 metabolic engineering, 균주 개발 strain engineering, wet lab 실험 중심 연구",
+  "ms": 3602
+ },
+ "q38": {
+  "intent": "search",
+  "likes": [
+   "카페인의 수면 영향",
+   "수면 신경과학",
+   "아데노신 수용체"
+  ],
+  "dislikes": [],
+  "search_text": "카페인 각성 효과 수면 방해 아데노신 수용체 길항 수면 신경과학 caffeine adenosine receptor antagonism sleep wakefulness neuropharmacology",
+  "ms": 4001
+ },
+ "q39": {
+  "intent": "search",
+  "likes": [
+   "비행기 양력",
+   "공기역학",
+   "항공우주공학"
+  ],
+  "dislikes": [],
+  "search_text": "비행기 양력 공기역학 항공기 비행 원리 aerodynamics lift airfoil fluid dynamics aerospace engineering",
+  "ms": 3216
+ },
+ "q40": {
+  "intent": "search",
+  "likes": [
+   "마이크로파 가열",
+   "전자기파와 물질의 상호작용",
+   "유전 가열"
+  ],
+  "dislikes": [],
+  "search_text": "전자레인지 마이크로파 가열 유전 가열 극성 분자 물 분자 회전 microwave heating dielectric heating electromagnetic wave-matter interaction",
+  "ms": 3364
+ },
+ "q41": {
+  "intent": "search",
+  "likes": [
+   "리튬이온 배터리 열화",
+   "배터리 수명 저하 메커니즘"
+  ],
+  "dislikes": [],
+  "search_text": "리튬이온 배터리 열화 수명 저하 메커니즘 용량 감소 lithium-ion battery degradation capacity fade aging electrode electrolyte SEI",
+  "ms": 3133
+ },
+ "q42": {
+  "intent": "search",
+  "likes": [
+   "대기 광학",
+   "빛의 굴절과 산란",
+   "무지개 광학"
+  ],
+  "dislikes": [],
+  "search_text": "무지개 대기 광학 빛의 굴절 산란 분산 atmospheric optics rainbow refraction scattering dispersion Mie scattering",
+  "ms": 5199
+ },
+ "q43": {
+  "intent": "off_topic",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 3863
+ },
+ "q44": {
+  "intent": "too_vague",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 2806
+ },
+ "q45": {
+  "intent": "off_topic",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 2627
+ },
+ "q46": {
+  "intent": "procedure",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 3715
+ },
+ "q47": {
+  "intent": "procedure",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 2830
+ },
+ "q48": {
+  "intent": "too_vague",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 3058
+ },
+ "q49": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "로봇"
+  ],
+  "search_text": "",
+  "ms": 2523
+ },
+ "q50": {
+  "intent": "search",
+  "likes": [
+   "수면이 인체에 미치는 영향",
+   "수면 생리학",
+   "일주기 리듬"
+  ],
+  "dislikes": [],
+  "search_text": "수면이 인체에 미치는 영향 수면 생리학 일주기 리듬 신경과학 sleep physiology effects of sleep on human health circadian rhythm sleep deprivation neuroscience",
+  "ms": 6080
+ }
+}

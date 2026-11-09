@@ -1,0 +1,92 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 2
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 3
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 2
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 2
+   },
+   {
+    "label": "L11",
+    "grade": 1
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 3
+   },
+   {
+    "label": "L14",
+    "grade": 3
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "d1f96c8ff42d822dcf0489d32e075877",
+  "L2": "ccd3a21a7a4efd2d952fb45c2796c869",
+  "L3": "1c6b261317c80e62c715d3aa2377e1ce",
+  "L4": "41cb478666b8dda0b4b2a751fa53ccb0",
+  "L5": "04bf899ffd2d4bdafe3240d08c97899f",
+  "L6": "3b3c5fe1e3c1a3aba26ffd66eb364790",
+  "L7": "e5c3fc5f5173e1479fd4e72edd9c0599",
+  "L8": "f2967b2a18bfe887c3948c9cdaa19e9f",
+  "L9": "700a6fac11e8c86b953724e4774a8728",
+  "L10": "105e60613ee52555f42b1490acc10420",
+  "L11": "62a096b8508acdab34ad790fe6e3ec86",
+  "L12": "946c050fc9fa8acaa8ce95b6dcc2144a",
+  "L13": "4c994e2f02440d465318257356a4741c",
+  "L14": "name:조길원",
+  "L15": "2c77df65db93c01c187c2dcc522e2d02"
+ },
+ "seconds": 7.3,
+ "cost_usd_list": 0.0383306,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "9bff9cd474cb20163379e4fb7d4d461320d56433c7a7abf7df218b7ea8a79709"
+}
