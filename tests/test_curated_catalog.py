@@ -3,7 +3,7 @@ import json
 import tempfile
 from pathlib import Path
 
-from curri.curated_catalog import CuratedCatalog, course_base, informative_lab_name
+from curri.curated_catalog import CuratedCatalog, course_base, informative_lab_name, search_terms
 from curri.curated_query_engine import CuratedQueryEngine
 
 
@@ -206,6 +206,44 @@ class CuratedCatalogTests(unittest.TestCase):
         for c in linked:
             self.assertTrue(all(w in c['reason'] for w in c['link']['shared'][:3]))
         self.assertTrue(all(c['reason'] for c in courses))
+
+    def test_question_words_do_not_count_as_topics(self):
+        terms = search_terms('잠이 인체에 영향을 미치는 것을 연구하고 싶다')
+        self.assertEqual(set(terms), {'잠', '인체'})
+        self.assertEqual(terms['잠'], ['sleep', '수면'])
+
+    def test_short_korean_word_is_not_formed_across_two_words(self):
+        topic = {'label_ko': '식물인 체관 수송', 'quote': '체관을 연구한다'}
+        self.assertFalse(self.catalog._within_a_word('인체', topic))
+        self.assertTrue(self.catalog._within_a_word('회로', {'label_ko': '집적회로', 'quote': ''}))
+
+    def test_namesake_paper_is_kept_in_place_but_never_shown_or_searched(self):
+        lab, topic = next((lid, t) for lid, p in self.catalog.profiles.items() for t in p['topics'] if t.get('suspect'))
+        self.assertIn(topic, self.catalog.profiles[lab]['topics'])  # stored embeddings refer to topics by position
+        self.assertNotIn(topic['label_ko'], [e['label'] for e in self.catalog.detail(lab)['evidence']])
+        words = ' '.join(topic['label_ko'].split()[:6])
+        self.assertNotIn(lab, [c['id'] for c in self.catalog.search(words) if topic['concept'] in c['matched_topics']])
+
+    def test_labs_ranked_only_by_a_namesake_paper_or_ordinary_words_are_dropped(self):
+        lab, index = next((lid, i) for lid, p in self.catalog.profiles.items() for i, t in enumerate(p['topics']) if t.get('suspect'))
+        others = [l for l in self.catalog.profiles if l != lab]
+        sims = {lid: 1.0 - n / 400 for n, lid in enumerate([lab] + others)}
+        phrase = '인체에 미치는 작용'
+        best = {lid: 0 for lid in sims} | {lab: index}
+
+        class Broker:
+            def request(self, phrases, timeout, remote=True):
+                return {p: {'sims': sims, 'best': best} for p in phrases}
+        ordinary = others[-1]
+        engine = CuratedQueryEngine(self.catalog, Broker())
+        original = self.catalog.search
+        self.catalog.search = lambda text: [{**self.catalog.card(ordinary), 'score': 9.0, 'strong': False, 'evidence': [], 'matched_topics': []}]
+        try:
+            found = [c['id'] for c in engine.search(phrase)['labs']]
+        finally:
+            self.catalog.search = original
+        self.assertNotIn(lab, found)
+        self.assertNotIn(ordinary, found)
 
     def test_informative_lab_name_rules(self):
         self.assertEqual(informative_lab_name('홍길동 교수 연구실', ['홍길동']), '')

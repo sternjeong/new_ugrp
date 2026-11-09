@@ -10,6 +10,8 @@ PROCEDURE_QUESTION = re.compile(r'(어떻게|방법|절차|알려|해야|하나�
 NEGATIVE_CUE = re.compile(r'(싫|별로|관심\s*없|좋아하지\s*않|흥미\s*없|재미없|빼고|제외|말고|보다)')
 CLAUSE_BREAK = re.compile(r'(?<=[.!?])\s+|\n+|(?<=싶고),\s*|(?<=좋고),\s*')
 KEYBOARD_NOISE = re.compile(r'^(?:asdf|qwer|zxcv|ㅋㅋ+|ㅎㅎ+|ㅠㅠ+|ㅜㅜ+)$', re.I)
+SEMANTIC_BACKING = 0.2   # a dictionary hit on ordinary words must also be in this top share of the embedding ranking
+MIN_BACKING = 30
 
 
 def classify_curated_query(text):
@@ -98,6 +100,9 @@ class CuratedQueryEngine(QueryEngine):
             result.update(labs=self.with_courses(self.fuse(linked, led, [c['id'] for c in cards]), by_id, linked, led), mode='dictionary')
             return result
         ranking, scores, why = self.embedding_ranking(plan_, sims)
+        ranking = [lid for lid in ranking if not self.best_is_suspect(lid, why.get(lid))]
+        backed = set(ranking[:max(MIN_BACKING, int(len(ranking) * SEMANTIC_BACKING))])
+        cards = [c for c in cards if c['strong'] or c['id'] in backed]
         fused = self.fuse(linked, led, [c['id'] for c in cards], ranking)
         fused = [lid for lid in fused if not self.conflicts_with_dislikes(lid, dislikes)]
         by_id.update({lid: self.semantic_card(lid, scores[lid], why[lid]) for lid in fused[:TOP_N]
@@ -105,6 +110,11 @@ class CuratedQueryEngine(QueryEngine):
         result['labs'] = self.with_courses(fused, by_id, linked, led)
         result['mode'] = 'embedding'
         return result
+
+    def best_is_suspect(self, lab_id, why):
+        """The lab ranks here only because of a paper that likely belongs to a namesake of its professor."""
+        topics = self.catalog.profiles[lab_id]['topics']
+        return bool(why) and 0 <= why[1] < len(topics) and topics[why[1]].get('suspect', False)
 
     def semantic_card(self, lab_id, score, why):
         card = super().semantic_card(lab_id, score, why)
@@ -116,10 +126,10 @@ class CuratedQueryEngine(QueryEngine):
 
     @staticmethod
     def fuse(linked, led, *rankings):
-        """When the student asks about a class, its labs count twice in the fusion."""
+        """When the student asks about a class, its labs count twice in the fusion. Otherwise they come last, so a tie goes to the topic match."""
         rankings = [r for r in rankings if r]
         if linked:
-            rankings = [list(linked)] * (2 if led else 1) + rankings
+            rankings = [list(linked)] * 2 + rankings if led else rankings + [list(linked)]
         return rrf(*rankings) if len(rankings) > 1 else (rankings[0] if rankings else [])
 
     def with_courses(self, ids, by_id, linked, led):

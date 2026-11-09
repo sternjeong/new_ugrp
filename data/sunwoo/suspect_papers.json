@@ -1,0 +1,285 @@
+{
+ "_about": "Flag papers that likely belong to a namesake of the lab's professor (OpenAlex author merges).",
+ "labs": {
+  "1ae444a2f44d62ba86384b57194c85ef": [
+   {
+    "title": "Differential microRNA profiles in elderly males with seborrheic dermatitis",
+    "openalex_id": "W4311589101",
+    "subfield": "Epidemiology",
+    "similarity": 0.588
+   }
+  ],
+  "289b543fda82198b792e787643e74740": [
+   {
+    "title": "Panmagic Permutations and N-ary Groups",
+    "openalex_id": "W4410378321",
+    "subfield": "Discrete Mathematics and Combinatorics",
+    "similarity": 0.586
+   }
+  ],
+  "4267bf754906d518d3be7196378a06c3": [
+   {
+    "title": "Real-time visualization of mRNA synthesis during memory formation in live mice",
+    "openalex_id": "W4283738324",
+    "subfield": "Cognitive Neuroscience",
+    "similarity": 0.536
+   }
+  ],
+  "480bb8dec2750b8a828fa90daabe7bb4": [
+   {
+    "title": "Keypoint-Based Geometric Anomaly Analysis Method for Antennas Using an EO Sensor Mounted on an Unmanned Vehicle",
+    "openalex_id": "W4417098147",
+    "subfield": "Civil and Structural Engineering",
+    "similarity": 0.571
+   },
+   {
+    "title": "Understanding the information diffusion of tweets of a non-profit organization that targets female audiences: an examination of Women Who Code's tweets",
+    "openalex_id": "W3088718580",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.497
+   }
+  ],
+  "4d32b3de303245ffc0951efccf1da2d5": [
+   {
+    "title": "Surgical Outcomes and Predictive Factors of Medial Toe Excision for Polysyndactyly of the Fifth Toe",
+    "openalex_id": "W3100059619",
+    "subfield": "Developmental Biology",
+    "similarity": 0.515
+   }
+  ],
+  "50705cf571ba48309476bb553c2356b8": [
+   {
+    "title": "Differential contributions of cardiovascular health-related lifestyle factors to epigenetic ageing: implications for healthy longevity",
+    "openalex_id": "W4414935396",
+    "subfield": "Molecular Biology",
+    "similarity": 0.473
+   },
+   {
+    "title": "The effect of 20‐week continuous 60 Hz magnetic field exposure on testicular function in sprague‐dawley rats",
+    "openalex_id": "W2895621280",
+    "subfield": "Biophysics",
+    "similarity": 0.402
+   },
+   {
+    "title": "Design of RF Coil for Low Magnetic-Field Osteoblast Reformation System",
+    "openalex_id": "W2990786484",
+    "subfield": "Radiology, Nuclear Medicine and Imaging",
+    "similarity": 0.494
+   }
+  ],
+  "537bec3b2e35d774cf892c88ca3255cb": [
+   {
+    "title": "Dual Versus Mono Antiplatelet Therapy in Large Atherosclerotic Stroke",
+    "openalex_id": "W2940510093",
+    "subfield": "Cardiology and Cardiovascular Medicine",
+    "similarity": 0.58
+   }
+  ],
+  "5be8ee6e811d1f31cb53ea777bb36148": [
+   {
+    "title": "Magic and Law: An Inquiry into IP Protection of Magic",
+    "openalex_id": "W3188622722",
+    "subfield": "Law",
+    "similarity": 0.534
+   }
+  ],
+  "7e4f2bebec89f3ea03a3fb6e0f8bbd36": [
+   {
+    "title": "Concurrent Modeling of Embodied Carbon and Construction Costs for Mass Timber Construction",
+    "openalex_id": "W4392920124",
+    "subfield": "Environmental Engineering",
+    "similarity": 0.594
+   }
+  ],
+  "801d8483ec7fd757cf6199bf99e1c5aa": [
+   {
+    "title": "A Comparative Study of Export Competitiveness of Korea, China, and Japan in the U.S. Secondary Battery Market Using Analysis of Constant Market Share(CMS) and Export Similarity Index(ESI)",
+    "openalex_id": "W7214978731",
+    "subfield": "Strategy and Management",
+    "similarity": 0.569
+   },
+   {
+    "title": "Utilizing ECG Waveform Features as New Biometric Authentication Method",
+    "openalex_id": "W2776557758",
+    "subfield": "Signal Processing",
+    "similarity": 0.582
+   }
+  ],
+  "8defaf16156f18a548b41c58b006cc88": [
+   {
+    "title": "How Marketing Factors Influence Online Browsing and Sales: Evidence From China's E-Commerce Market",
+    "openalex_id": "W2789541667",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.596
+   }
+  ],
+  "8e3d7359b1fc03935e7015c5d01075b3": [
+   {
+    "title": "Anomaly Detection of Air Dryer for Radar based on Machine Learning Algorithms",
+    "openalex_id": "W4362586685",
+    "subfield": "Artificial Intelligence",
+    "similarity": 0.565
+   },
+   {
+    "title": "Protestantisms and the Design of South Korea",
+    "openalex_id": "W3119825583",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.504
+   }
+  ],
+  "9df1028a57aaf356f41af2fa99a0a606": [
+   {
+    "title": "A Study on a 3D Convolution-Based Video Recognition System for Driving Aggressiveness Recognition",
+    "openalex_id": "W4405971625",
+    "subfield": "Automotive Engineering",
+    "similarity": 0.517
+   }
+  ],
+  "a32ceefae328d34c087687edfcb376c0": [
+   {
+    "title": "Study on The Farm Management Performance of Farms Introducing New Varieties and Variety Dissemination Strategies",
+    "openalex_id": "W4390599355",
+    "subfield": "General Agricultural and Biological Sciences",
+    "similarity": 0.53
+   },
+   {
+    "title": "The Effect of Mentoring by Physical Education Professors on Cadet’s Self-Management, Exercise Commitment and Intention of Exercise Practice",
+    "openalex_id": "W3149263084",
+    "subfield": "Social Psychology",
+    "similarity": 0.528
+   },
+   {
+    "title": "Effects of Elite Athletes’ Coach-Player Relationships and Basic Psychological Needs on Sports Commitment",
+    "openalex_id": "W3214196781",
+    "subfield": "Social Psychology",
+    "similarity": 0.571
+   },
+   {
+    "title": "Statistical Analysis of Worldwide Volcanic Disasters After 1960",
+    "openalex_id": "W2810009487",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.511
+   },
+   {
+    "title": "Relationships among Class Satisfaction, Leisure Attitude and Exercise Adherence for the College-Level Water Sports Physical Activity Class Participants",
+    "openalex_id": "W3131268627",
+    "subfield": "Life-span and Life-course Studies",
+    "similarity": 0.592
+   }
+  ],
+  "aa1cf9eed82e59584bfc0d4dd65c5364": [
+   {
+    "title": "Analyzing the 2022 Revised Integrated Subjects Curriculum Textbooks: Focusing on Dewey’s “an Experience”",
+    "openalex_id": "W4399594123",
+    "subfield": "Education",
+    "similarity": 0.558
+   },
+   {
+    "title": "A new direction of integrated subject curriculum through external changes in the curriculum",
+    "openalex_id": "W4285485259",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.572
+   },
+   {
+    "title": "An Explanation for Queries about the Phenomenon of School Subjects in Elementary School",
+    "openalex_id": "W4285581566",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.56
+   },
+   {
+    "title": "Analysis of Relationships among Variables Affecting Career Preparation Behavior of Female Engineering Students",
+    "openalex_id": "W3016182488",
+    "subfield": "Safety Research",
+    "similarity": 0.569
+   }
+  ],
+  "c34e2b4ba9291346e5527d8fc2379ffb": [
+   {
+    "title": "Sensor Fusion-Based Point Cloud Registration Considering Safety Net during Scaffold Installation",
+    "openalex_id": "W4392456304",
+    "subfield": "Geology",
+    "similarity": 0.582
+   }
+  ],
+  "cfb371b02971dcfe4c15bc09a01f6057": [
+   {
+    "title": "Determining the Relationship Between Composition, Structure, and Device Properties of Ge x Se 1‐x ‐Based Selector‐Only Memory",
+    "openalex_id": "W7196937867",
+    "subfield": "Materials Chemistry",
+    "similarity": 0.569
+   }
+  ],
+  "d794eff109e15491cfd73de56d033e3b": [
+   {
+    "title": "Artificial intelligence-based springback compensation of EV motor component",
+    "openalex_id": "W4380985978",
+    "subfield": "Mechanical Engineering",
+    "similarity": 0.593
+   }
+  ],
+  "f99a04f1c7ba3fe4f420c343e9c9a1ca": [
+   {
+    "title": "Effects of Climacteric Women’s Forest Healing Participation Motivation and Interpersonal Relationships on Psychological Stability",
+    "openalex_id": "W4311097161",
+    "subfield": "Health, Toxicology and Mutagenesis",
+    "similarity": 0.424
+   },
+   {
+    "title": "The Effects of Personality Factors on Emotional Labor and Job Burnout of Casino Employees",
+    "openalex_id": "W3083871948",
+    "subfield": "Sociology and Political Science",
+    "similarity": 0.466
+   },
+   {
+    "title": "Educational Philosophy of Mongolian Buddhist Temple : Focused on 'Datsan' Educational Philosophy in Buddhist Temple",
+    "openalex_id": "W2887965366",
+    "subfield": "Religious studies",
+    "similarity": 0.378
+   }
+  ],
+  "fb2fac5a80ef2282b3e28bfef45b66ac": [
+   {
+    "title": "A Study on the Load Profile between Tower-type Apartment and Flat-type Apartment, Including Unit Comparison in Both Types based on Simulation",
+    "openalex_id": "W4400892218",
+    "subfield": "Building and Construction",
+    "similarity": 0.554
+   },
+   {
+    "title": "The Effect of Use Motivation of Online Sports Content on Sports Participation in the Untact Era Based on Technology Acceptance Model(TAM)",
+    "openalex_id": "W4362731702",
+    "subfield": "Information Systems and Management",
+    "similarity": 0.47
+   },
+   {
+    "title": "Containment Liner Plate Void Defect Detection Technique Using Phased Array Ultrasonic Testing and Acoustic Resonance Method",
+    "openalex_id": "W4212975093",
+    "subfield": "Mechanics of Materials",
+    "similarity": 0.491
+   },
+   {
+    "title": "Clinical characteristics and treatment outcomes of patients with pneumonia caused by Raoultella planticola",
+    "openalex_id": "W3013715309",
+    "subfield": "Endocrinology",
+    "similarity": 0.483
+   },
+   {
+    "title": "The Structural Relationships among Spectating Flow, Spectating Satisfaction, Re-spectating Intention and Professional Football Fan’s Perception on VAR(Video Assistant Referee)",
+    "openalex_id": "W3084160079",
+    "subfield": "Gender Studies",
+    "similarity": 0.487
+   },
+   {
+    "title": "A Study on the Nondestructive Evaluation Method for Detecting Void in Containment Liner Plate",
+    "openalex_id": "W3118740904",
+    "subfield": "Mechanics of Materials",
+    "similarity": 0.48
+   },
+   {
+    "title": "The Structural Relationship among Satisfaction, Behavioral Intention and E-service Quality of Sports Streaming Broadcasting Platform",
+    "openalex_id": "W3010597507",
+    "subfield": "Organizational Behavior and Human Resource Management",
+    "similarity": 0.598
+   }
+  ]
+ }
+}

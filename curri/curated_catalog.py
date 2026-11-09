@@ -20,7 +20,10 @@ LAB_NAME_FILLER = re.compile(r'교수님|교수|연구실|연구팀|실험실|la
 
 # Search helpers. Much of the lab material is English, so common Korean research terms also look for
 # their English names. Prefixes ("organic chem") match inside longer words, like the Korean substrings.
-SEARCH_STOPWORDS = {'연구', '관심', '분야', '공부', '하고', '싶어요', '싶다', '싶은', '좋아요', '궁금', '재밌', '수업', 'study', 'research', 'want', 'the', 'and'}
+SEARCH_STOPWORDS = {'연구', '관심', '분야', '공부', '하고', '싶어요', '싶다', '싶은', '좋아요', '궁금', '재밌', '수업', 'study', 'research', 'want', 'the', 'and',
+                    # Words that frame a question rather than name a topic. Most lab material is English, so these look rare and would count heavily.
+                    '영향', '미치', '미치는', '효과', '관계', '방법', '방안', '문제', '사용', '활용', '이용', '결과', '변화', '과정', '역할', '특성', '원인', '현상',
+                    '기술', '개발', '분석', '설계', '시스템', '응용', '기반', '관련', '대한', '위한', '통한', '좋아', '것을', '어떤', '어떻게', '알고', '주는', '연구하고', '연구하는', '연구할', '연구해'}
 PARTICLE = re.compile(r'(?:으로|에서|이랑|에게|처럼|까지|부터|을|를|은|는|이|가|와|과|의|에|로|도|만|랑)$')
 EXPANSIONS = {
     '자율주행': ['autonomous driving', 'self-driving', 'autonomous vehicle'], '자연어처리': ['natural language', '자연어'],
@@ -36,6 +39,7 @@ EXPANSIONS = {
     '디스플레이': ['display'], '최적화': ['optimiz'], '통계': ['statistic'], '가상현실': ['virtual reality', 'metaverse'],
     '메타버스': ['metaverse', 'virtual reality', '가상현실'], '탄소포집': ['carbon capture', 'co2 capture'], '기후': ['climate'],
     '암': ['cancer', 'tumor', '항암', '종양', '암세포'], '면역': ['immun'], '의료영상': ['medical imag'], '나노': ['nano'],
+    '잠': ['sleep', '수면'], '수면': ['sleep'], '뇌': ['brain', 'neuro', '뇌과학', '신경'],
 }
 COMMON_FRACTION = 0.25  # a word found in more labs than this says little on its own
 COURSE_CUE = re.compile(r'수업|과목|강의|수강')
@@ -65,6 +69,8 @@ def search_terms(text):
         word = raw.lower()
         if re.fullmatch(r'[가-힣]+', word) and len(word) > 2:
             word = PARTICLE.sub('', word) if len(PARTICLE.sub('', word)) >= 2 else word
+        elif PARTICLE.sub('', word) in EXPANSIONS:  # 잠이 → 잠, 암을 → 암: short words keep theirs unless the stem is a known term
+            word = PARTICLE.sub('', word)
         if word in SEARCH_STOPWORDS or (re.fullmatch(r'[가-힣]+', word) and len(word) < 2 and word not in EXPANSIONS) or (word.isascii() and len(word) < 3):
             continue
         words.append(word)
@@ -218,6 +224,7 @@ class CuratedCatalog:
             for old, new in json.loads(legacy.read_text(encoding='utf-8'))['aliases'].items():
                 if new in self.profiles:
                     self.aliases.setdefault(old, new)
+        self.mark_suspect(root / 'suspect_papers.json')
         self._details = {}
         self._search_cache = {}
         path = root / 'lab_course_bge_m3.json'
@@ -228,6 +235,20 @@ class CuratedCatalog:
             if sources and all(hashlib.sha256((root / name).read_bytes()).hexdigest() == digest
                                for name, digest in sources.items()):
                 self.course_similarity = mapping.get('labs', {})
+
+    def mark_suspect(self, path):
+        """Flag papers that likely belong to a namesake of the professor (tools/build_suspect_papers.py). The topics stay
+        in place because the stored embeddings refer to them by position; search, cards and evidence skip them."""
+        self.suspect_titles = {}
+        if path.exists():
+            self.suspect_titles = {lid: {p['title'] for p in papers} for lid, papers in json.loads(path.read_text(encoding='utf-8'))['labs'].items()}
+        for lid, titles in self.suspect_titles.items():
+            for t in self.profiles.get(lid, {}).get('topics', []):
+                t['suspect'] = t['section'] == 'representative_paper' and any(t['quote'].startswith(x[:60]) or t['label_ko'].startswith(x[:60]) for x in titles)
+
+    @staticmethod
+    def shown_topics(profile):
+        return [t for t in profile['topics'] if not t.get('suspect')]
 
     def resolve(self, lab_id):
         return self.aliases[lab_id]
@@ -257,7 +278,7 @@ class CuratedCatalog:
             return {'source': 'openalex_topic', 'title': '대표 논문의 주제 분류', 'items': classified,
                     'note': 'OpenAlex가 논문에 붙인 분류예요. 연구실이 직접 밝힌 분야는 아닙니다.',
                     'classification': []}
-        titles = [t['label_ko'].strip() for t in profile['topics']
+        titles = [t['label_ko'].strip() for t in self.shown_topics(profile)
                   if t['section'] == 'representative_paper' and t['label_ko'].strip()]
         if titles:
             return {'source': 'paper_title', 'title': '대표 논문', 'items': titles,
@@ -282,7 +303,7 @@ class CuratedCatalog:
     def card(self, lab_id):
         p = self.profiles[self.resolve(lab_id)]
         topics = [{'id': t['concept'], 'label': self.topic_label(t), 'role': t['role'],
-                   'weight': t['weight'], 'scope': t['scope'], 'section': t['section']} for t in p['topics']]
+                   'weight': t['weight'], 'scope': t['scope'], 'section': t['section']} for t in self.shown_topics(p)]
         overview = self.overview(p)
         return {'id': p['lab_id'], 'professors': p['professors'], 'lab_name': p['lab_name'],
                 'lab_subtitle': informative_lab_name(p['lab_name'], p['professors']), 'department': p['department'],
@@ -315,6 +336,13 @@ class CuratedCatalog:
             self._search_cache[key] = re.sub(r'\s+', '', (topic['label_ko'] + ' ' + topic['quote']).lower())
         return self._search_cache[key]
 
+    def _within_a_word(self, term, topic):
+        """Spaces are ignored when matching, so a short plain Korean word could be formed across two words
+        ('식물인 체관' for 인체). Those words must appear unbroken in the original text."""
+        if term in EXPANSIONS or len(term) > 3 or not re.fullmatch(r'[가-힣]+', term):
+            return True
+        return term in topic['label_ko'] or term in topic['quote']
+
     def search(self, interests):
         """Labs whose own material contains the query words. Known research terms (with English variants)
         outweigh other words, rare words outweigh common ones, and repeated mentions in a lab count a little."""
@@ -323,10 +351,10 @@ class CuratedCatalog:
             return []
         hits = {}
         for lid, p in self.profiles.items():
-            for t in p['topics']:
+            for t in self.shown_topics(p):
                 text = self._search_text(t)
                 for term, variants in terms.items():
-                    if any(v in text for v in variants):
+                    if any(v in text for v in variants) and self._within_a_word(term, t):
                         hits.setdefault(lid, {}).setdefault(term, []).append(t)
         total = len(self.profiles)
         df = {term: sum(term in found for found in hits.values()) for term in terms}
@@ -342,7 +370,7 @@ class CuratedCatalog:
             card.update(matched_topics=[t['concept'] for t in topics[:3]],
                         evidence=[self._evidence(t, [v for vs in terms.values() for v in vs]) for t in topics[:3]],
                         score=round(sum(weight[term] * (1 + math.log(len(ts))) for term, ts in by_term.items()), 3),
-                        connection='direct', reason='연구실 자료에서 입력한 표현과 일치하는 내용을 찾았습니다.')
+                        strong=any(term in EXPANSIONS for term in by_term), connection='direct', reason='연구실 자료에서 입력한 표현과 일치하는 내용을 찾았습니다.')
             found.append(card)
         return sorted(found, key=lambda c: (-c['score'], c['professors'][0]))[:20]
 
@@ -424,7 +452,7 @@ class CuratedCatalog:
                             'intro': [clip(line, 160) for line in course_lines(c)[:2]],
                             'evidence': evidence[:500], 'strength': 'semantic',
                             'quality_flags': c.get('exclusion') or [], 'similarity': similarity})
-        result = {**self.card(lid), 'evidence': [self._evidence(t) for t in p['topics']],
+        result = {**self.card(lid), 'evidence': [self._evidence(t) for t in self.shown_topics(p)],
                   'courses': courses,
                   'notice': '과목은 BGE-M3 의미 유사도에 따른 탐색 후보입니다. 공식 선수과목이나 연구실 참여 조건이 아닙니다.'}
         self._details[lid] = result
@@ -434,7 +462,7 @@ class CuratedCatalog:
         if not hasattr(self, '_word_df'):
             df = {}
             for p in self.profiles.values():
-                for word in set().union(*[content_words(t['label_ko'] + ' ' + t['quote']) for t in p['topics']] or [set()]):
+                for word in set().union(*[content_words(t['label_ko'] + ' ' + t['quote']) for t in self.shown_topics(p)] or [set()]):
                     df[word] = df.get(word, 0) + 1
             self._word_df = df
         return self._word_df
@@ -443,7 +471,7 @@ class CuratedCatalog:
         """The course line and lab passage that share the most informative words, or None. Words used by more than
         COMMON_FRACTION of labs are ignored, so 'learning' or 'materials' alone never make a link."""
         df, total = self._lab_word_df(), len(self.profiles)
-        topics = [(t, content_words(t['label_ko'] + ' ' + t['quote'])) for t in self.profiles[lab_id]['topics']]
+        topics = [(t, content_words(t['label_ko'] + ' ' + t['quote'])) for t in self.shown_topics(self.profiles[lab_id])]
         best = None
         for line in course_lines(course):
             for t, words in topics:
@@ -470,7 +498,7 @@ class CuratedCatalog:
         selected = [related[code] for code in dict.fromkeys(selected_ids)]
         missing = [c for c in detail['courses'] if c['id'] not in selected_ids]
         now, later = [], []
-        for t in self.profiles[detail['id']]['topics'][:3]:
+        for t in self.shown_topics(self.profiles[detail['id']])[:3]:
             ev = self._evidence(t)
             label = self.topic_label(t)
             now.append({'title': f'{label} 자료 살펴보기', 'difficulty': '입문 탐색',

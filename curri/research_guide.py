@@ -64,9 +64,11 @@ class LabPapers:
 
     def __init__(self, path):
         self.rows = {r['id']: r for r in load_jsonl(path)} if path.exists() else {}
+        suspect = path.with_name('suspect_papers.json')
+        self.suspect = {lid: {p['title'] for p in papers} for lid, papers in json.loads(suspect.read_text(encoding='utf-8'))['labs'].items()} if suspect.exists() else {}
 
     def recent(self, lab_id, limit=5):
-        papers = [p for p in self.rows.get(lab_id, {}).get('papers', []) if p.get('abstract') and len(p['abstract']) > 200 and p.get('title')]
+        papers = [p for p in self.rows.get(lab_id, {}).get('papers', []) if p.get('abstract') and len(p['abstract']) > 200 and p.get('title') and p['title'] not in self.suspect.get(lab_id, ())]
         papers.sort(key=lambda p: p.get('date') or str(p.get('year') or ''), reverse=True)
         return papers[:limit]
 
