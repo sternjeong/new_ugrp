@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 1
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 1
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 2
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "ac5babc34e4e3e5206b8cd23b74f3948",
+  "L2": "e647186e20b50a963bbca9c030e31a1f",
+  "L3": "cd66c5491d166dd5690e0e9191a58145",
+  "L4": "6dda7a495187db5785ed7f2f11e30511",
+  "L5": "e3a8aed8c0f0fb63d1ec3aecddc8ebe1",
+  "L6": "17010ed4b4f3cc2bbec3c6d2c5252945",
+  "L7": "937965033892745d797d9ea70473f6a7",
+  "L8": "2153cf488ec5eafa147e9fdb76e31765",
+  "L9": "209a80e9e8e4205c5add535212b0a0ba",
+  "L10": "f2967b2a18bfe887c3948c9cdaa19e9f",
+  "L11": "a868304f06c2b9b99fd2c99232e036da",
+  "L12": "032749fe44cb8a804902ff1aa9236d09",
+  "L13": "8a89fd3c5bc81918486a8ef633c47d51",
+  "L14": "d1f96c8ff42d822dcf0489d32e075877",
+  "L15": "df4bd10ef0d157c94cc1d0af5af628d5",
+  "L16": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L17": "2c77df65db93c01c187c2dcc522e2d02",
+  "L18": "name:조길원",
+  "L19": "89315275387a6abd10753adf25862997"
+ },
+ "seconds": 5.7,
+ "cost_usd_list": 0.038774,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "507f659c5c25d188d7e76f83f94c1a18b746457b28552b918a8cf960834d697f"
+}

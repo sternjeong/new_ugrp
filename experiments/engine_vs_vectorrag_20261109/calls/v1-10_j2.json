@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 3
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 0
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "81e7d48be2e4126739d27db2f002e383",
+  "L2": "29e9926344ed3f65c2eb83ba824f0540",
+  "L3": "8b7abdfbebe2b7d0941be32a15739e90",
+  "L4": "b8974c5afcf836280e0cc027f4883b7d",
+  "L5": "c1e42f4dae5e42465ef090fda69e81f3",
+  "L6": "69a14bca4d6c9bfd397ddd014cafb63c",
+  "L7": "d12e80aff84ef9dc0c0938fdbb05d8f7",
+  "L8": "6838c45a05cd625d0fb7e987fbcf7805",
+  "L9": "1ae444a2f44d62ba86384b57194c85ef",
+  "L10": "c70973972fcfb5ab095e561d6fd81fe0",
+  "L11": "b9952d0611c5c0a4a350a434b644cf48",
+  "L12": "a5c96b621480618492d6ab4d2e19a965",
+  "L13": "6adff5a3efe38e59669333a47d29f2b6",
+  "L14": "66a27767c0f502b1ea8462004ebb21f7",
+  "L15": "57060a1ca8292869afb633bb00ce7204",
+  "L16": "59095330cef9138909ad7c37a95e7e55",
+  "L17": "bac613d80b091997629849fcf905e65c",
+  "L18": "92f8e8cdf44ea24fa8ef01f7fdb7cc7f",
+  "L19": "bd50e21be3088f6bb6b690cf272c8d5a"
+ },
+ "seconds": 7.3,
+ "cost_usd_list": 0.044494,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "fa2a0be96e220d8e67d28949997bc809ca31ff850b465d2586b16c8f9c8a753e"
+}

@@ -1,0 +1,82 @@
+[
+ {
+  "type": "keyword",
+  "text": "딥러닝 영상 처리"
+ },
+ {
+  "type": "keyword",
+  "text": "배터리 전해질 소재"
+ },
+ {
+  "type": "keyword",
+  "text": "반도체 공정 학부연구생"
+ },
+ {
+  "type": "keyword",
+  "text": "단백질 구조 분석"
+ },
+ {
+  "type": "keyword",
+  "text": "로봇 제어 기계"
+ },
+ {
+  "type": "sentence",
+  "text": "수학과인데 데이터 분석이나 최적화 쪽 연구실 들어가고 싶어요."
+ },
+ {
+  "type": "sentence",
+  "text": "원자력 안전이나 방사선 쪽 연구하는 곳 있나요?"
+ },
+ {
+  "type": "sentence",
+  "text": "물리학과 2학년인데 양자 컴퓨팅 같은 거 해볼 수 있는 연구실 찾고 있어요."
+ },
+ {
+  "type": "sentence",
+  "text": "미세먼지나 수처리 같은 환경 문제 다루는 연구실이 궁금해요."
+ },
+ {
+  "type": "sentence",
+  "text": "공급망이나 생산 일정 최적화 같은 거 하는 산업경영 연구실 추천해주세요."
+ },
+ {
+  "type": "dislike",
+  "text": "코딩은 좋아하는데 하루 종일 실험실에서 시약 만지는 건 별로예요. 계산이나 시뮬레이션 위주 연구실 있을까요?"
+ },
+ {
+  "type": "dislike",
+  "text": "회로 설계는 재밌는데 납땜이나 장비 다루는 건 싫어요. 이론이나 시뮬레이션 쪽 전자전기 연구실 찾아요."
+ },
+ {
+  "type": "dislike",
+  "text": "세포 키우고 하는 건 좋은데 동물실험은 피하고 싶어요. 생명과학이나 의공학 쪽 어디가 맞을까요?"
+ },
+ {
+  "type": "course",
+  "text": "신소재 열역학 수업이 재밌었는데 이런 걸 연구에 쓰는 연구실 있나요?"
+ },
+ {
+  "type": "course",
+  "text": "알고리즘이랑 운영체제 수업 재밌게 들었어요. 시스템 쪽 연구실 추천해주세요."
+ },
+ {
+  "type": "course",
+  "text": "유기화학 수업 듣고 합성에 관심 생겼는데 화학과나 화공 쪽에서 비슷한 연구 하는 데 있어요?"
+ },
+ {
+  "type": "long",
+  "text": "인공지능에 관심이 많은데 아직 뭘 전공으로 할지 확실하지 않아요. 논문 읽고 세미나 하는 분위기보다는 직접 모델 돌려보고 프로젝트 하는 곳이 좋아요. 다음 학기부터 6개월 정도 학부연구생 하고 싶어요."
+ },
+ {
+  "type": "long",
+  "text": "기계공학과 3학년이고 드론이나 자율주행처럼 움직이는 걸 만드는 데 관심 있어요. 주 2~3회 정도 나가서 하드웨어 만들고 테스트하는 연구실이면 좋겠어요. 방학 동안 집중해서 참여하고 대학원 진학도 고민 중이에요."
+ },
+ {
+  "type": "english",
+  "text": "Looking for a lab doing computer vision or generative AI where undergrads can join as research interns."
+ },
+ {
+  "type": "english",
+  "text": "I'm a chemistry major interested in solar cells or catalysts. Any labs open to undergraduate researchers?"
+ }
+]

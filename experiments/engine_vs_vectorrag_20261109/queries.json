@@ -1,0 +1,823 @@
+[
+ {
+  "id": "v1-01",
+  "group": "T",
+  "text": "강화학습을 연구하는 교수님 찾아요",
+  "panel": true,
+  "relevant": [
+   "e064ea8da3398b079defc8179040f838",
+   "00f52d3209da2832a33781de047e38ed",
+   "15e543040350f144149566679fe2bfc7",
+   "9c2741540c4286d26221b8f2701304f2"
+  ],
+  "intent": "search",
+  "phrases": [
+   "강화학습을 연구하는 교수님 찾아",
+   "강화학습을 연구하는 교수님 찾아요"
+  ]
+ },
+ {
+  "id": "v1-02",
+  "group": "T",
+  "text": "computer vision and visual recognition research",
+  "panel": true,
+  "relevant": [
+   "6dda7a495187db5785ed7f2f11e30511",
+   "2153cf488ec5eafa147e9fdb76e31765",
+   "904a2fb1494123a4b9be99844f3d823c"
+  ],
+  "intent": "search",
+  "phrases": [
+   "computer vision and visual recognition research"
+  ]
+ },
+ {
+  "id": "v1-03",
+  "group": "T",
+  "text": "대형 언어모델을 빠르고 효율적으로 돌리는 시스템 연구",
+  "panel": true,
+  "relevant": [
+   "cd440bdd4e15a1ce3482a489f21f04ba",
+   "5b4904a849d4cce159abc577f0b063a4"
+  ],
+  "intent": "search",
+  "phrases": [
+   "대형 언어모델을 빠르고 효율적으로 돌리는 시스템 연구"
+  ]
+ },
+ {
+  "id": "v1-04",
+  "group": "T",
+  "text": "quantum computing hardware and quantum networks",
+  "panel": true,
+  "relevant": [
+   "7a7c467993216b7295462d37b1953ba9",
+   "04a4270953e536b3d89b39189ea28f5a"
+  ],
+  "intent": "search",
+  "phrases": [
+   "quantum computing hardware and quantum networks"
+  ]
+ },
+ {
+  "id": "v1-05",
+  "group": "T",
+  "text": "메타렌즈나 메타표면 같은 나노광학 소자",
+  "panel": true,
+  "relevant": [
+   "bac613d80b091997629849fcf905e65c"
+  ],
+  "intent": "search",
+  "phrases": [
+   "메타렌즈",
+   "메타표면 같은 나노광학 소자",
+   "메타렌즈나 메타표면 같은 나노광학 소자"
+  ]
+ },
+ {
+  "id": "v1-06",
+  "group": "T",
+  "text": "organoid engineering and tissue biofabrication",
+  "panel": true,
+  "relevant": [
+   "2bc8e818f9dc40322c04e121f5affad5",
+   "fd02e4de7fb8f6a4cf14050de68bca2a"
+  ],
+  "intent": "search",
+  "phrases": [
+   "organoid engineering and tissue biofabrication"
+  ]
+ },
+ {
+  "id": "v1-07",
+  "group": "T",
+  "text": "single-cell sequencing data analysis",
+  "panel": true,
+  "relevant": [
+   "86b6cc6dac0b7793853eff49fe69c0ee",
+   "c1e42f4dae5e42465ef090fda69e81f3"
+  ],
+  "intent": "search",
+  "phrases": [
+   "single-cell sequencing data analysis"
+  ]
+ },
+ {
+  "id": "v1-08",
+  "group": "T",
+  "text": "리튬이온 배터리 전극 소재 개발",
+  "panel": true,
+  "relevant": [
+   "269027c5b93829258d2eef4d0a38f196",
+   "bbb232e44fc51ffa9667b632efee3648",
+   "a0b09bd0d8be40c9663143589c83803e",
+   "3cf13955f9df42105905a333b6204179",
+   "b812e6346b5770c7ed8ebee2e604c589",
+   "fde3d0b0ec143ddc8a0d9f6fba9c40c8",
+   "ad505cb08e854896e57bd47b92850efd",
+   "1ac8c28030e98810deea0ad1921fd7d3"
+  ],
+  "intent": "search",
+  "phrases": [
+   "리튬이온 배터리 전극 소재 개발"
+  ]
+ },
+ {
+  "id": "v1-09",
+  "group": "T",
+  "text": "perovskite solar cells and optoelectronic devices",
+  "panel": true,
+  "relevant": [
+   "8fef185c8c9752d23ba2ac8b83b51ca4",
+   "4c9c8ae6c2753608d1d0c9b19778d051"
+  ],
+  "intent": "search",
+  "phrases": [
+   "perovskite solar cells and optoelectronic devices"
+  ]
+ },
+ {
+  "id": "v1-10",
+  "group": "T",
+  "text": "핵융합 플라즈마 진단 연구",
+  "panel": true,
+  "relevant": [
+   "c70973972fcfb5ab095e561d6fd81fe0"
+  ],
+  "intent": "search",
+  "phrases": [
+   "핵융합 플라즈마 진단 연구"
+  ]
+ },
+ {
+  "id": "v1-11",
+  "group": "T",
+  "text": "climate change and extreme weather events",
+  "panel": true,
+  "relevant": [
+   "eeeef3347c5bcbce52bfcf9c92531736",
+   "437fc8d96e56428d5871fdeedc08b4dd"
+  ],
+  "intent": "search",
+  "phrases": [
+   "climate change and extreme weather events"
+  ]
+ },
+ {
+  "id": "v1-12",
+  "group": "T",
+  "text": "미세먼지 같은 대기오염 연구",
+  "panel": true,
+  "relevant": [
+   "e3554116e5076775c6dbc677a3a3eb8b"
+  ],
+  "intent": "search",
+  "phrases": [
+   "미세먼지 같은 대기오염 연구"
+  ]
+ },
+ {
+  "id": "v1-13",
+  "group": "T",
+  "text": "tumor immunology and T cell regulation",
+  "panel": false,
+  "relevant": [
+   "884a9749b730dbd52a38156208defe69",
+   "9791d5d87862c58a75052a9509f1c56d",
+   "a45028e4d02086882e8f135701fbedaa",
+   "fdf7c49c167de224cc78528fcfdcfbe8"
+  ],
+  "intent": "search",
+  "phrases": [
+   "tumor immunology and T cell regulation"
+  ]
+ },
+ {
+  "id": "v1-14",
+  "group": "T",
+  "text": "뇌 신경회로와 동물 행동의 관계",
+  "panel": false,
+  "relevant": [
+   "537bec3b2e35d774cf892c88ca3255cb",
+   "3f0f056e4fad5c7ff805253491ee03ff",
+   "66a27767c0f502b1ea8462004ebb21f7",
+   "186269114ee370a858eb614d6c483b08",
+   "33b3a5898d5ed71e56d62df9fd6e956a"
+  ],
+  "intent": "search",
+  "phrases": [
+   "뇌 신경회로",
+   "동물 행동의 관계",
+   "뇌 신경회로와 동물 행동의 관계"
+  ]
+ },
+ {
+  "id": "v1-15",
+  "group": "T",
+  "text": "legged and flying robots inspired by animals",
+  "panel": false,
+  "relevant": [
+   "209a80e9e8e4205c5add535212b0a0ba",
+   "700a6fac11e8c86b953724e4774a8728"
+  ],
+  "intent": "search",
+  "phrases": [
+   "legged and flying robots inspired by animals"
+  ]
+ },
+ {
+  "id": "v1-16",
+  "group": "T",
+  "text": "재활이나 수술을 돕는 의료 로봇과 햅틱",
+  "panel": false,
+  "relevant": [
+   "937965033892745d797d9ea70473f6a7"
+  ],
+  "intent": "search",
+  "phrases": [
+   "재활",
+   "수술을 돕는 의료 로봇",
+   "햅틱",
+   "재활이나 수술을 돕는 의료 로봇과 햅틱"
+  ]
+ },
+ {
+  "id": "v1-17",
+  "group": "T",
+  "text": "insurance and actuarial risk modeling",
+  "panel": false,
+  "relevant": [
+   "f037b4e02b5c35c9f16c8d2732c074b4"
+  ],
+  "intent": "search",
+  "phrases": [
+   "insurance and actuarial risk modeling"
+  ]
+ },
+ {
+  "id": "v1-18",
+  "group": "T",
+  "text": "금융 빅데이터로 투자 전략 연구",
+  "panel": false,
+  "relevant": [
+   "3d82b4a08725ae170fa61511a99b613d",
+   "7c0d812e4d700c7e56af778d3a824e29"
+  ],
+  "intent": "search",
+  "phrases": [
+   "금융 빅데이터로 투자 전략 연구"
+  ]
+ },
+ {
+  "id": "v1-19",
+  "group": "T",
+  "text": "next-generation memory semiconductor devices",
+  "panel": false,
+  "relevant": [
+   "name:Sw Chung",
+   "1c52ea91286390cb814c490f93ab0492",
+   "aa1cf9eed82e59584bfc0d4dd65c5364"
+  ],
+  "intent": "search",
+  "phrases": [
+   "next-generation memory semiconductor devices"
+  ]
+ },
+ {
+  "id": "v1-20",
+  "group": "T",
+  "text": "수전해 촉매로 수소 생산",
+  "panel": false,
+  "relevant": [
+   "17a219bdf39951c186a22b1b72692bb0",
+   "1ac8c28030e98810deea0ad1921fd7d3",
+   "169b1b99d66151835a920cf0830a154e"
+  ],
+  "intent": "search",
+  "phrases": [
+   "수전해 촉매로 수소 생산"
+  ]
+ },
+ {
+  "id": "v1-21",
+  "group": "T",
+  "text": "low-dimensional topology and knot theory",
+  "panel": false,
+  "relevant": [
+   "32f83f4c1e699365d95f9d3ca955a3ee"
+  ],
+  "intent": "search",
+  "phrases": [
+   "low-dimensional topology and knot theory"
+  ]
+ },
+ {
+  "id": "v1-22",
+  "group": "T",
+  "text": "물류 배송 경로 최적화",
+  "panel": false,
+  "relevant": [
+   "e9a460d2006f46bff940e54e8733b5b5"
+  ],
+  "intent": "search",
+  "phrases": [
+   "물류 배송 경로 최적화"
+  ]
+ },
+ {
+  "id": "v1-23",
+  "group": "T",
+  "text": "optimization theory for training deep neural networks",
+  "panel": false,
+  "relevant": [
+   "12eecc7d8bcdc47fda0b04b169c3a660",
+   "cd440bdd4e15a1ce3482a489f21f04ba"
+  ],
+  "intent": "search",
+  "phrases": [
+   "optimization theory for training deep neural networks"
+  ]
+ },
+ {
+  "id": "v1-24",
+  "group": "T",
+  "text": "프로그래밍 언어와 컴파일러 연구",
+  "panel": false,
+  "relevant": [
+   "cc0b8c1255af89743b434a9a8edef471",
+   "0a6ff7bc33b7ed4911d691f6ab0c5136"
+  ],
+  "intent": "search",
+  "phrases": [
+   "프로그래밍 언어",
+   "컴파일러 연구",
+   "프로그래밍 언어와 컴파일러 연구"
+  ]
+ },
+ {
+  "id": "v1-25",
+  "group": "T",
+  "text": "software security and fuzzing",
+  "panel": false,
+  "relevant": [
+   "967c529b18fde0ca165565b028340c30"
+  ],
+  "intent": "search",
+  "phrases": [
+   "software security and fuzzing"
+  ]
+ },
+ {
+  "id": "v1-26",
+  "group": "T",
+  "text": "웨어러블 센서와 신축성 전자소자",
+  "panel": false,
+  "relevant": [
+   "f2967b2a18bfe887c3948c9cdaa19e9f",
+   "d1f96c8ff42d822dcf0489d32e075877",
+   "e647186e20b50a963bbca9c030e31a1f"
+  ],
+  "intent": "search",
+  "phrases": [
+   "웨어러블 센서",
+   "신축성 전자소자",
+   "웨어러블 센서와 신축성 전자소자"
+  ]
+ },
+ {
+  "id": "v1-27",
+  "group": "T",
+  "text": "deep learning for medical image analysis",
+  "panel": false,
+  "relevant": [
+   "1575f61cdbb426e1995d045f1996a3b6",
+   "46466de2356e17efde24000d5ea0db20",
+   "2eea86d1ead30fedc7b6912921bdf1b0",
+   "335967217d9237b4b019e7a4b1a6f4f3"
+  ],
+  "intent": "search",
+  "phrases": [
+   "deep learning for medical image analysis"
+  ]
+ },
+ {
+  "id": "v1-28",
+  "group": "T",
+  "text": "단백질 구조 분석과 설계",
+  "panel": false,
+  "relevant": [
+   "8296556464bdebca77b25830678fd37b",
+   "3b3c5fe1e3c1a3aba26ffd66eb364790"
+  ],
+  "intent": "search",
+  "phrases": [
+   "단백질 구조 분석",
+   "설계",
+   "단백질 구조 분석과 설계"
+  ]
+ },
+ {
+  "id": "v1-29",
+  "group": "T",
+  "text": "nuclear reactor thermal hydraulics and safety",
+  "panel": false,
+  "relevant": [
+   "7c29325e40e0eb662e7629967b633a0a"
+  ],
+  "intent": "search",
+  "phrases": [
+   "nuclear reactor thermal hydraulics and safety"
+  ]
+ },
+ {
+  "id": "v1-30",
+  "group": "T",
+  "text": "헬스케어를 위한 인간-컴퓨터 상호작용",
+  "panel": false,
+  "relevant": [
+   "a868304f06c2b9b99fd2c99232e036da"
+  ],
+  "intent": "search",
+  "phrases": [
+   "헬스케어를 위한 인간-컴퓨터 상호작용"
+  ]
+ },
+ {
+  "id": "m1",
+  "group": "M",
+  "text": "로봇은 싫고 생체 신호 분석이 좋아요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "생체 신호 분석",
+   "로봇",
+   "로봇은 싫고 생체 신호 분석이 좋아요"
+  ]
+ },
+ {
+  "id": "m2",
+  "group": "M",
+  "text": "반도체 소자보다 의료 로봇이 좋아요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "의료 로봇",
+   "반도체 소자",
+   "반도체 소자보다 의료 로봇이 좋아요"
+  ]
+ },
+ {
+  "id": "m3",
+  "group": "M",
+  "text": "배터리 소재의 수명과 열화를 연구하고 싶어요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "배터리 소재의 수명",
+   "열화",
+   "배터리 소재의 수명과 열화를 연구하고 싶어요"
+  ]
+ },
+ {
+  "id": "m4",
+  "group": "M",
+  "text": "양자컴퓨터 연구를 하고 싶어요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "양자컴퓨터 연구",
+   "양자컴퓨터 연구를 하고 싶어요"
+  ]
+ },
+ {
+  "id": "m5",
+  "group": "M",
+  "text": "의료 영상에서 종양을 찾고 싶어요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "의료 영상에서 종양",
+   "의료 영상에서 종양을 찾고 싶어요"
+  ]
+ },
+ {
+  "id": "m6",
+  "group": "M",
+  "text": "컴퓨터 구조가 재밌어요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "컴퓨터 구조",
+   "컴퓨터 구조가 재밌어요"
+  ]
+ },
+ {
+  "id": "m7",
+  "group": "M",
+  "text": "화학은 별로고 신약 개발이 궁금해요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "신약 개발",
+   "화학",
+   "화학은 별로고 신약 개발이 궁금해요"
+  ]
+ },
+ {
+  "id": "m8",
+  "group": "M",
+  "text": "기후 변화와 탄소 포집 연구",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "기후 변화",
+   "탄소 포집 연구",
+   "기후 변화와 탄소 포집 연구"
+  ]
+ },
+ {
+  "id": "m9",
+  "group": "M",
+  "text": "고분자 합성 연구를 하고 싶어요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "고분자 합성 연구",
+   "고분자 합성 연구를 하고 싶어요"
+  ]
+ },
+ {
+  "id": "m10",
+  "group": "M",
+  "text": "전자회로는 싫고 뇌과학이 좋아요",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "뇌과학",
+   "전자회로",
+   "전자회로는 싫고 뇌과학이 좋아요"
+  ]
+ },
+ {
+  "id": "b1",
+  "group": "B",
+  "type": "keyword",
+  "text": "딥러닝 영상 처리",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "딥러닝 영상 처리"
+  ]
+ },
+ {
+  "id": "b2",
+  "group": "B",
+  "type": "keyword",
+  "text": "배터리 전해질 소재",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "배터리 전해질 소재"
+  ]
+ },
+ {
+  "id": "b3",
+  "group": "B",
+  "type": "keyword",
+  "text": "반도체 공정 학부연구생",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "반도체 공정 학부연구생"
+  ]
+ },
+ {
+  "id": "b4",
+  "group": "B",
+  "type": "keyword",
+  "text": "단백질 구조 분석",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "단백질 구조 분석"
+  ]
+ },
+ {
+  "id": "b5",
+  "group": "B",
+  "type": "keyword",
+  "text": "로봇 제어 기계",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "로봇 제어 기계"
+  ]
+ },
+ {
+  "id": "b6",
+  "group": "B",
+  "type": "sentence",
+  "text": "수학과인데 데이터 분석이나 최적화 쪽 연구실 들어가고 싶어요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "수학과인데 데이터 분석",
+   "최적화 연구실",
+   "수학과인데 데이터 분석이나 최적화 쪽 연구실 들어가고 싶어요."
+  ]
+ },
+ {
+  "id": "b7",
+  "group": "B",
+  "type": "sentence",
+  "text": "원자력 안전이나 방사선 쪽 연구하는 곳 있나요?",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "원자력 안전",
+   "방사선 연구하는 곳 있",
+   "원자력 안전이나 방사선 쪽 연구하는 곳 있나요?"
+  ]
+ },
+ {
+  "id": "b8",
+  "group": "B",
+  "type": "sentence",
+  "text": "물리학과 2학년인데 양자 컴퓨팅 같은 거 해볼 수 있는 연구실 찾고 있어요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "물리학",
+   "2학년인데 양자 컴퓨팅 같은 거 해볼 수 있는 연구실 찾고 있어",
+   "물리학과 2학년인데 양자 컴퓨팅 같은 거 해볼 수 있는 연구실 찾고 있어요."
+  ]
+ },
+ {
+  "id": "b9",
+  "group": "B",
+  "type": "sentence",
+  "text": "미세먼지나 수처리 같은 환경 문제 다루는 연구실이 궁금해요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "미세먼지",
+   "수처리 같은 환경 문제 다루는 연구실",
+   "미세먼지나 수처리 같은 환경 문제 다루는 연구실이 궁금해요."
+  ]
+ },
+ {
+  "id": "b10",
+  "group": "B",
+  "type": "sentence",
+  "text": "공급망이나 생산 일정 최적화 같은 거 하는 산업경영 연구실 추천해주세요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "공급망",
+   "생산 일정 최적화 같은 거 하는 산업경영 연구실 추천해주세",
+   "공급망이나 생산 일정 최적화 같은 거 하는 산업경영 연구실 추천해주세요."
+  ]
+ },
+ {
+  "id": "b11",
+  "group": "B",
+  "type": "dislike",
+  "text": "코딩은 좋아하는데 하루 종일 실험실에서 시약 만지는 건 별로예요. 계산이나 시뮬레이션 위주 연구실 있을까요?",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "코딩",
+   "계산",
+   "시뮬레이션 위주 연구실 있을까",
+   "하루 종일 실험실에서 시약 만지는 건",
+   "코딩은 좋아하는데 하루 종일 실험실에서 시약 만지는 건 별로예요. 계산이나 시뮬레이션 위주 연구실 있을까요?"
+  ]
+ },
+ {
+  "id": "b12",
+  "group": "B",
+  "type": "dislike",
+  "text": "회로 설계는 재밌는데 납땜이나 장비 다루는 건 싫어요. 이론이나 시뮬레이션 쪽 전자전기 연구실 찾아요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "회로 설계",
+   "이론",
+   "시뮬레이션 전자전기 연구실 찾아",
+   "납땜",
+   "장비 다루는 건",
+   "회로 설계는 재밌는데 납땜이나 장비 다루는 건 싫어요. 이론이나 시뮬레이션 쪽 전자전기 연구실 찾아요."
+  ]
+ },
+ {
+  "id": "b13",
+  "group": "B",
+  "type": "dislike",
+  "text": "세포 키우고 하는 건 좋은데 동물실험은 피하고 싶어요. 생명과학이나 의공학 쪽 어디가 맞을까요?",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "세포 키우고 하는 건 동물실험",
+   "생명과학",
+   "의공학 어디가 맞을까",
+   "세포 키우고 하는 건 좋은데 동물실험은 피하고 싶어요. 생명과학이나 의공학 쪽 어디가 맞을까요?"
+  ]
+ },
+ {
+  "id": "b14",
+  "group": "B",
+  "type": "course",
+  "text": "신소재 열역학 수업이 재밌었는데 이런 걸 연구에 쓰는 연구실 있나요?",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "신소재 열역학 이런 걸 연구에 쓰는 연구실 있",
+   "신소재 열역학 수업이 재밌었는데 이런 걸 연구에 쓰는 연구실 있나요?"
+  ]
+ },
+ {
+  "id": "b15",
+  "group": "B",
+  "type": "course",
+  "text": "알고리즘이랑 운영체제 수업 재밌게 들었어요. 시스템 쪽 연구실 추천해주세요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "알고리즘",
+   "운영체제 들었어",
+   "시스템 연구실 추천해주세",
+   "알고리즘이랑 운영체제 수업 재밌게 들었어요. 시스템 쪽 연구실 추천해주세요."
+  ]
+ },
+ {
+  "id": "b16",
+  "group": "B",
+  "type": "course",
+  "text": "유기화학 수업 듣고 합성에 관심 생겼는데 화학과나 화공 쪽에서 비슷한 연구 하는 데 있어요?",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "유기화학",
+   "합성에 관심 생겼는데 화학",
+   "화공 쪽에서 비슷한 연구 하는 데 있어",
+   "유기화학 수업 듣고 합성에 관심 생겼는데 화학과나 화공 쪽에서 비슷한 연구 하는 데 있어요?"
+  ]
+ },
+ {
+  "id": "b17",
+  "group": "B",
+  "type": "long",
+  "text": "인공지능에 관심이 많은데 아직 뭘 전공으로 할지 확실하지 않아요. 논문 읽고 세미나 하는 분위기보다는 직접 모델 돌려보고 프로젝트 하는 곳이 좋아요. 다음 학기부터 6개월 정도 학부연구생 하고 싶어요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "인공지능 아직 뭘 전공으로 할지 확실하지 않아",
+   "모델 돌려보고 프로젝트 하는 곳",
+   "다음 학기부터 6개월 정도 학부연구생",
+   "논문 읽고 세미",
+   "하는 분위기",
+   "인공지능에 관심이 많은데 아직 뭘 전공으로 할지 확실하지 않아요. 논문 읽고 세미나 하는 분위기보다는 직접 모델 돌려보고 프로젝트 하는 곳이 좋아요. 다음 학기부터 6개월 정도 학부연구생 하고 싶어요."
+  ]
+ },
+ {
+  "id": "b18",
+  "group": "B",
+  "type": "long",
+  "text": "기계공학과 3학년이고 드론이나 자율주행처럼 움직이는 걸 만드는 데 관심 있어요. 주 2~3회 정도 나가서 하드웨어 만들고 테스트하는 연구실이면 좋겠어요. 방학 동안 집중해서 참여하고 대학원 진학도 고민 중이에요.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "기계공학",
+   "3학년이고 드론",
+   "자율주행처럼 움직이는 걸 만드는 데",
+   "주 2~3회 정도 나가서 하드웨어 만들고 테스트하는 연구실이면 좋겠어",
+   "방학 동안 집중해서 참여하고 대학원 진학도 고민 중이",
+   "기계공학과 3학년이고 드론이나 자율주행처럼 움직이는 걸 만드는 데 관심 있어요. 주 2~3회 정도 나가서 하드웨어 만들고 테스트하는 연구실이면 좋겠어요. 방학 동안 집중해서 참여하고 대학원 진학도 고민 중이에요."
+  ]
+ },
+ {
+  "id": "b19",
+  "group": "B",
+  "type": "english",
+  "text": "Looking for a lab doing computer vision or generative AI where undergrads can join as research interns.",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "Looking for a lab doing computer vision or generative AI where undergrads can join as research interns",
+   "Looking for a lab doing computer vision or generative AI where undergrads can join as research interns."
+  ]
+ },
+ {
+  "id": "b20",
+  "group": "B",
+  "type": "english",
+  "text": "I'm a chemistry major interested in solar cells or catalysts. Any labs open to undergraduate researchers?",
+  "panel": true,
+  "intent": "search",
+  "phrases": [
+   "I'm a chemistry major interested in solar cells or catalysts",
+   "Any labs open to undergraduate researchers",
+   "I'm a chemistry major interested in solar cells or catalysts. Any labs open to undergraduate researchers?"
+  ]
+ }
+]

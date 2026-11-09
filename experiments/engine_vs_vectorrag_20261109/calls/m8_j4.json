@@ -1,0 +1,96 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 2
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 1
+   },
+   {
+    "label": "L12",
+    "grade": 2
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 1
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "f037b4e02b5c35c9f16c8d2732c074b4",
+  "L2": "5f198105100143316777af8a3c5e6d4b",
+  "L3": "a8cb0eda141ab875fe52fa52eab88340",
+  "L4": "437fc8d96e56428d5871fdeedc08b4dd",
+  "L5": "eeeef3347c5bcbce52bfcf9c92531736",
+  "L6": "82f66a732f5b0cd33bb18370b079d6ba",
+  "L7": "66a27767c0f502b1ea8462004ebb21f7",
+  "L8": "3b3c5fe1e3c1a3aba26ffd66eb364790",
+  "L9": "cc1d600a3f6a859f24fb5b91d04320d3",
+  "L10": "a32ceefae328d34c087687edfcb376c0",
+  "L11": "81e7d48be2e4126739d27db2f002e383",
+  "L12": "ad505cb08e854896e57bd47b92850efd",
+  "L13": "61be35a942c7654bbed63bcdb44f3e70",
+  "L14": "e3554116e5076775c6dbc677a3a3eb8b",
+  "L15": "3043b24cf494bc0ab566b38125401ccc",
+  "L16": "81c1c810531f1c7da7a18f9809b6c448"
+ },
+ "seconds": 6.2,
+ "cost_usd_list": 0.035032,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "bbb712853289a580fdbb4b87b30836b6fdc673778890f04dcd8b767009243748"
+}

@@ -1,0 +1,116 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 3
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 3
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 2
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 2
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 2
+   },
+   {
+    "label": "L14",
+    "grade": 2
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   },
+   {
+    "label": "L17",
+    "grade": 3
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 2
+   },
+   {
+    "label": "L20",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "name:Sw Chung",
+  "L2": "2d380f935fc3deb1650937ac60cf70a7",
+  "L3": "d794eff109e15491cfd73de56d033e3b",
+  "L4": "00a146f5c5267ed6caeb590edaa47fac",
+  "L5": "b5530a33695bde14489bda40c348531b",
+  "L6": "aebe9a6ddab8c971ffecbd53eb58270e",
+  "L7": "913f3673099de6be55cf19a16b59522e",
+  "L8": "54847f8af8af755d701d642eb2889ce1",
+  "L9": "71348edd001017b9579a1eb54375ad06",
+  "L10": "953898cd997f22be7dced291ed7c848e",
+  "L11": "9c2741540c4286d26221b8f2701304f2",
+  "L12": "946c050fc9fa8acaa8ce95b6dcc2144a",
+  "L13": "ac5babc34e4e3e5206b8cd23b74f3948",
+  "L14": "lab:www.cslab.postech.ac.kr",
+  "L15": "e38229000b5001fe589061680c785785",
+  "L16": "78459b9623eba5320f5e35f2002375a9",
+  "L17": "f4492b80c937a00d16f88950a62351c0",
+  "L18": "cc1629b654bce21536b3c021d12dfddf",
+  "L19": "29e9926344ed3f65c2eb83ba824f0540",
+  "L20": "c1e42f4dae5e42465ef090fda69e81f3"
+ },
+ "seconds": 5.9,
+ "cost_usd_list": 0.042488,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "0412c121ca95952ab3160f658e71bc20c1e1c51cb4220f0ab58e3bda3d45bec7"
+}

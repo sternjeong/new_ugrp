@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 3
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 3
+   },
+   {
+    "label": "L11",
+    "grade": 1
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 2
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   },
+   {
+    "label": "L17",
+    "grade": 2
+   },
+   {
+    "label": "L18",
+    "grade": 3
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "1575f61cdbb426e1995d045f1996a3b6",
+  "L2": "d24584a20a99a64f57a9eec4be893b96",
+  "L3": "537bec3b2e35d774cf892c88ca3255cb",
+  "L4": "61be35a942c7654bbed63bcdb44f3e70",
+  "L5": "29e9926344ed3f65c2eb83ba824f0540",
+  "L6": "4c994e2f02440d465318257356a4741c",
+  "L7": "186269114ee370a858eb614d6c483b08",
+  "L8": "d794eff109e15491cfd73de56d033e3b",
+  "L9": "3f0f056e4fad5c7ff805253491ee03ff",
+  "L10": "cd66c5491d166dd5690e0e9191a58145",
+  "L11": "89315275387a6abd10753adf25862997",
+  "L12": "2eea86d1ead30fedc7b6912921bdf1b0",
+  "L13": "ca582d6a0b812ba87c27f95338ba11dd",
+  "L14": "a8cb0eda141ab875fe52fa52eab88340",
+  "L15": "17561ed40e2d6fdd9c22eff252a224d3",
+  "L16": "1bef128cdf09045b9dc8ab50733a08e2",
+  "L17": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L18": "66a27767c0f502b1ea8462004ebb21f7",
+  "L19": "5ae5e95e6245f2e51b32f1805bc466cf"
+ },
+ "seconds": 6.3,
+ "cost_usd_list": 0.041782,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "40fd9f712518d7a332d43f15bd1c7943c680511ddc496ac767022d463e40f50d"
+}

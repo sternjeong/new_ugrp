@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 1
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 2
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 3
+   },
+   {
+    "label": "L13",
+    "grade": 1
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 3
+   },
+   {
+    "label": "L16",
+    "grade": 2
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "16adb6517049f41e1f01339f37891865",
+  "L2": "a8cb0eda141ab875fe52fa52eab88340",
+  "L3": "f372936f59308e64db6b1705c2085ba3",
+  "L4": "2ee4c28811b498945b87f5d3a4aaadf0",
+  "L5": "70a61fac052c6b5ddcd0a4fa6afe342f",
+  "L6": "335967217d9237b4b019e7a4b1a6f4f3",
+  "L7": "186269114ee370a858eb614d6c483b08",
+  "L8": "5f198105100143316777af8a3c5e6d4b",
+  "L9": "1143745d2465a8bef9876a8bbeb0b1be",
+  "L10": "89a355028e05f37b704bf98340f6f769",
+  "L11": "62a096b8508acdab34ad790fe6e3ec86",
+  "L12": "e3554116e5076775c6dbc677a3a3eb8b",
+  "L13": "aebe9a6ddab8c971ffecbd53eb58270e",
+  "L14": "7bdd625d5a73bc4567d09c77c088a478",
+  "L15": "70abd7783b52e6b717497551092700f7",
+  "L16": "0a2eb55c6a036c893a340b7402e7da05",
+  "L17": "437fc8d96e56428d5871fdeedc08b4dd",
+  "L18": "54847f8af8af755d701d642eb2889ce1",
+  "L19": "a868304f06c2b9b99fd2c99232e036da"
+ },
+ "seconds": 6.9,
+ "cost_usd_list": 0.041646,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "63b5292ba29b16dfd726e11b7ca37fe89e59a140531ffb5c35d2aaa852e6b716"
+}

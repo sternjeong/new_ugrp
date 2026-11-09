@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 2
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 3
+   }
+  ]
+ },
+ "key": {
+  "L1": "c1e42f4dae5e42465ef090fda69e81f3",
+  "L2": "554a685e4f5958e2476403f7d3e3633b",
+  "L3": "cfb371b02971dcfe4c15bc09a01f6057",
+  "L4": "3d82b4a08725ae170fa61511a99b613d",
+  "L5": "b3c9f2a39c5fb0200ee018c401cc39fb",
+  "L6": "name:Seung Park",
+  "L7": "4d32b3de303245ffc0951efccf1da2d5",
+  "L8": "fab2f0738d4022749d0bdc3d62f2c52a",
+  "L9": "4ad952ffe572a3156f56802fc7647dbb",
+  "L10": "f5d5875b5c523c59f197eb4a1b955321",
+  "L11": "484ada407cce53c151266995cec8e43b",
+  "L12": "59855345351d569dbbbbc668df19a512",
+  "L13": "543ee1b67121080f7ed4304b31bde36a",
+  "L14": "091f90e0fff752261f9f7570c053632a",
+  "L15": "33b3a5898d5ed71e56d62df9fd6e956a",
+  "L16": "c1111180290fc3a3f6ef78b9cfbe9b35",
+  "L17": "86fc88408c8d1893e56ce738dfd115a7",
+  "L18": "e064ea8da3398b079defc8179040f838",
+  "L19": "86b6cc6dac0b7793853eff49fe69c0ee"
+ },
+ "seconds": 6.1,
+ "cost_usd_list": 0.041758,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "3ac2ad2c919f7393cc03344cfd157cb58c6c0427181d203e1f1daa15c88ddf91"
+}

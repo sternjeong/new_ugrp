@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 2
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 3
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 0
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "c1e42f4dae5e42465ef090fda69e81f3",
+  "L2": "1575f61cdbb426e1995d045f1996a3b6",
+  "L3": "296439a8f29e7e50e675c0fee25ab655",
+  "L4": "a5c96b621480618492d6ab4d2e19a965",
+  "L5": "c1111180290fc3a3f6ef78b9cfbe9b35",
+  "L6": "e31d4bcbaa05eebde016e26cd1b7ea17",
+  "L7": "484ada407cce53c151266995cec8e43b",
+  "L8": "e3a8aed8c0f0fb63d1ec3aecddc8ebe1",
+  "L9": "1ae444a2f44d62ba86384b57194c85ef",
+  "L10": "335967217d9237b4b019e7a4b1a6f4f3",
+  "L11": "6b6d785944d0b63e339c6ee33809e6bb",
+  "L12": "fab2f0738d4022749d0bdc3d62f2c52a",
+  "L13": "2cb62041f2042fee06f9fec52ac935ad",
+  "L14": "092088c19c65bcacefd6d9713f954a06",
+  "L15": "d12e80aff84ef9dc0c0938fdbb05d8f7",
+  "L16": "6838c45a05cd625d0fb7e987fbcf7805",
+  "L17": "lab:sites.google.com/site/postechpolymer/home",
+  "L18": "fd02e4de7fb8f6a4cf14050de68bca2a",
+  "L19": "54847f8af8af755d701d642eb2889ce1"
+ },
+ "seconds": 7.8,
+ "cost_usd_list": 0.040634,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "37e9084ce76be457746abd68493632442e13afc0cefe7f379108ec9390ea290a"
+}

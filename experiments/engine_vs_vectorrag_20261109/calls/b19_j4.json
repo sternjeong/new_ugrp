@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 3
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 2
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 3
+   },
+   {
+    "label": "L10",
+    "grade": 2
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 3
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 3
+   },
+   {
+    "label": "L18",
+    "grade": 1
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "f4c5dbf22bfa21aa4931aa7aa0faa830",
+  "L2": "6dda7a495187db5785ed7f2f11e30511",
+  "L3": "00f52d3209da2832a33781de047e38ed",
+  "L4": "e064ea8da3398b079defc8179040f838",
+  "L5": "cd440bdd4e15a1ce3482a489f21f04ba",
+  "L6": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+  "L7": "1575f61cdbb426e1995d045f1996a3b6",
+  "L8": "9c2741540c4286d26221b8f2701304f2",
+  "L9": "e5c123f6913071fecdf558f7ee9cc4ca",
+  "L10": "c4770c1e9d12ac61199d6e738b54115d",
+  "L11": "884a9749b730dbd52a38156208defe69",
+  "L12": "b247094125c58d6a164c12f74277b33f",
+  "L13": "62a096b8508acdab34ad790fe6e3ec86",
+  "L14": "38edcacabe08c12e260e1654b7b4e55e",
+  "L15": "df4bd10ef0d157c94cc1d0af5af628d5",
+  "L16": "lab:sites.google.com/site/postechpolymer/home",
+  "L17": "a79d15cffa0894704db905e541a8363f",
+  "L18": "e3a8aed8c0f0fb63d1ec3aecddc8ebe1",
+  "L19": "0e0e57ecc9ee50a999b2c99ed31dcf93"
+ },
+ "seconds": 5.7,
+ "cost_usd_list": 0.038634,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "cbcf1eafb9f25910f3d5586cebb5c8403675c06ad08acb1d392462f841969db5"
+}

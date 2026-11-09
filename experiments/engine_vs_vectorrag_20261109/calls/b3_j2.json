@@ -1,0 +1,116 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 3
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 3
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 2
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 3
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 2
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 2
+   },
+   {
+    "label": "L15",
+    "grade": 2
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 1
+   },
+   {
+    "label": "L19",
+    "grade": 3
+   },
+   {
+    "label": "L20",
+    "grade": 2
+   }
+  ]
+ },
+ "key": {
+  "L1": "2d380f935fc3deb1650937ac60cf70a7",
+  "L2": "f4492b80c937a00d16f88950a62351c0",
+  "L3": "9c2741540c4286d26221b8f2701304f2",
+  "L4": "29e9926344ed3f65c2eb83ba824f0540",
+  "L5": "aebe9a6ddab8c971ffecbd53eb58270e",
+  "L6": "name:Sw Chung",
+  "L7": "78459b9623eba5320f5e35f2002375a9",
+  "L8": "ac5babc34e4e3e5206b8cd23b74f3948",
+  "L9": "cc1629b654bce21536b3c021d12dfddf",
+  "L10": "lab:www.cslab.postech.ac.kr",
+  "L11": "c1e42f4dae5e42465ef090fda69e81f3",
+  "L12": "71348edd001017b9579a1eb54375ad06",
+  "L13": "d794eff109e15491cfd73de56d033e3b",
+  "L14": "953898cd997f22be7dced291ed7c848e",
+  "L15": "913f3673099de6be55cf19a16b59522e",
+  "L16": "946c050fc9fa8acaa8ce95b6dcc2144a",
+  "L17": "54847f8af8af755d701d642eb2889ce1",
+  "L18": "e38229000b5001fe589061680c785785",
+  "L19": "00a146f5c5267ed6caeb590edaa47fac",
+  "L20": "b5530a33695bde14489bda40c348531b"
+ },
+ "seconds": 7.0,
+ "cost_usd_list": 0.042488,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "61e54839876f9f9626b119643f76cc68671db21099a4109d6629727869750b8b"
+}

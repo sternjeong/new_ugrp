@@ -1,0 +1,121 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 2
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 3
+   },
+   {
+    "label": "L18",
+    "grade": 1
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   },
+   {
+    "label": "L20",
+    "grade": 0
+   },
+   {
+    "label": "L21",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "7e21ea71de8805264e1b2355ef104dee",
+  "L2": "032749fe44cb8a804902ff1aa9236d09",
+  "L3": "335967217d9237b4b019e7a4b1a6f4f3",
+  "L4": "6adff5a3efe38e59669333a47d29f2b6",
+  "L5": "904a2fb1494123a4b9be99844f3d823c",
+  "L6": "937965033892745d797d9ea70473f6a7",
+  "L7": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+  "L8": "name:Seung Park",
+  "L9": "554a685e4f5958e2476403f7d3e3633b",
+  "L10": "d24584a20a99a64f57a9eec4be893b96",
+  "L11": "2c77df65db93c01c187c2dcc522e2d02",
+  "L12": "c1e42f4dae5e42465ef090fda69e81f3",
+  "L13": "d12e80aff84ef9dc0c0938fdbb05d8f7",
+  "L14": "9df1028a57aaf356f41af2fa99a0a606",
+  "L15": "04bf899ffd2d4bdafe3240d08c97899f",
+  "L16": "e8e9c9ec81986f8f38a8b1f430a52b9f",
+  "L17": "537bec3b2e35d774cf892c88ca3255cb",
+  "L18": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L19": "1d4ec3b5e4294f3d43637a3689ede475",
+  "L20": "255034de0b267f94daea8fa61dbe1bef",
+  "L21": "62a096b8508acdab34ad790fe6e3ec86"
+ },
+ "seconds": 5.6,
+ "cost_usd_list": 0.046618,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "e6c18664504f9e29740a66c999a9f35f354b99fe1781425bc9fe47e9b4364bf7"
+}

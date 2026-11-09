@@ -1,0 +1,96 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 3
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 2
+   },
+   {
+    "label": "L10",
+    "grade": 2
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 3
+   },
+   {
+    "label": "L14",
+    "grade": 2
+   },
+   {
+    "label": "L15",
+    "grade": 2
+   },
+   {
+    "label": "L16",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "61be35a942c7654bbed63bcdb44f3e70",
+  "L2": "3043b24cf494bc0ab566b38125401ccc",
+  "L3": "247c2d847af8f32337fb7de6ad268360",
+  "L4": "04bf899ffd2d4bdafe3240d08c97899f",
+  "L5": "8fef185c8c9752d23ba2ac8b83b51ca4",
+  "L6": "0b9f3600cef7f0f180cb1838b22bad04",
+  "L7": "lab:sites.google.com/site/postechpolymer/home",
+  "L8": "1ac8c28030e98810deea0ad1921fd7d3",
+  "L9": "b5530a33695bde14489bda40c348531b",
+  "L10": "e361c364c0a48eb856377542256ad718",
+  "L11": "name:조길원",
+  "L12": "aebe9a6ddab8c971ffecbd53eb58270e",
+  "L13": "ac5babc34e4e3e5206b8cd23b74f3948",
+  "L14": "4c9c8ae6c2753608d1d0c9b19778d051",
+  "L15": "e38229000b5001fe589061680c785785",
+  "L16": "a02cc371fd9ee9e0d19b7208562a7a5d"
+ },
+ "seconds": 6.4,
+ "cost_usd_list": 0.034072,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "64b1424cb9d72f28e11b605488df668e491c2c6e4dae6a977e0b800a9dff5062"
+}

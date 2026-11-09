@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 3
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 3
+   },
+   {
+    "label": "L13",
+    "grade": 1
+   },
+   {
+    "label": "L14",
+    "grade": 2
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 3
+   }
+  ]
+ },
+ "key": {
+  "L1": "21e55c2d3e603c3d15b6c5538dbc0ed0",
+  "L2": "208923b6d6740630e6871ed2f50441a9",
+  "L3": "4175cb53b8b76804974ca84a08632e6f",
+  "L4": "6e6098f39a29a429994ee9927724254d",
+  "L5": "7e21ea71de8805264e1b2355ef104dee",
+  "L6": "6cacc6370a18f07c0792abb36b37679f",
+  "L7": "092088c19c65bcacefd6d9713f954a06",
+  "L8": "17a219bdf39951c186a22b1b72692bb0",
+  "L9": "name:조길원",
+  "L10": "2cd5dbaa3e7b7003ea45552abfd54cc6",
+  "L11": "1d4ec3b5e4294f3d43637a3689ede475",
+  "L12": "bd6528b8c777c23bf9cc24efa89579b1",
+  "L13": "bd50e21be3088f6bb6b690cf272c8d5a",
+  "L14": "4523ab01bf3bacfe42c50778873495b7",
+  "L15": "ac5babc34e4e3e5206b8cd23b74f3948",
+  "L16": "b19c909a5a99b205393fba060354fabd",
+  "L17": "0a808026bdf92ba0c4cc4c5bd2456eb6",
+  "L18": "e8e9c9ec81986f8f38a8b1f430a52b9f",
+  "L19": "c7a6b2d266a4031eea305d16f9cb4c38"
+ },
+ "seconds": 6.7,
+ "cost_usd_list": 0.039562,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "920c90a2b5bf4d8597cddf689dbbf485c3e47b62b95488896d1b10fc77067b8d"
+}

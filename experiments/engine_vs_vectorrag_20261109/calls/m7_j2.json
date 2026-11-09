@@ -1,0 +1,121 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 3
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 2
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 3
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 2
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 2
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 2
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 2
+   },
+   {
+    "label": "L20",
+    "grade": 0
+   },
+   {
+    "label": "L21",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "8de45719ab2b8fce6893b83f3aa3300b",
+  "L2": "d12e80aff84ef9dc0c0938fdbb05d8f7",
+  "L3": "a5c96b621480618492d6ab4d2e19a965",
+  "L4": "e647186e20b50a963bbca9c030e31a1f",
+  "L5": "1d4ec3b5e4294f3d43637a3689ede475",
+  "L6": "c55f3ac184b92d8a222a1dd536c7718e",
+  "L7": "c1111180290fc3a3f6ef78b9cfbe9b35",
+  "L8": "fd02e4de7fb8f6a4cf14050de68bca2a",
+  "L9": "lab:www.cslab.postech.ac.kr",
+  "L10": "a32ceefae328d34c087687edfcb376c0",
+  "L11": "e7305fdca54f5dcbc37b520ce8d41adf",
+  "L12": "5222f40ea8b1b572af7d81cdcfdd2870",
+  "L13": "62a096b8508acdab34ad790fe6e3ec86",
+  "L14": "cc1629b654bce21536b3c021d12dfddf",
+  "L15": "a4c93740ea4fea145a9ee1eafc8d3e85",
+  "L16": "4523ab01bf3bacfe42c50778873495b7",
+  "L17": "b8974c5afcf836280e0cc027f4883b7d",
+  "L18": "cc0b8c1255af89743b434a9a8edef471",
+  "L19": "bd50e21be3088f6bb6b690cf272c8d5a",
+  "L20": "e064ea8da3398b079defc8179040f838",
+  "L21": "17a219bdf39951c186a22b1b72692bb0"
+ },
+ "seconds": 6.5,
+ "cost_usd_list": 0.045565999999999995,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "0e10c1e00fec2baefa28314e04a14c2b9b88e3c41a4c14eecb8e615ee297d7d1"
+}

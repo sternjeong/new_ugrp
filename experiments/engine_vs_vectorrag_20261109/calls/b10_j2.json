@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 1
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 3
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 1
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 0
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 2
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 3
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "15e543040350f144149566679fe2bfc7",
+  "L2": "86fc88408c8d1893e56ce738dfd115a7",
+  "L3": "801d8483ec7fd757cf6199bf99e1c5aa",
+  "L4": "c55f3ac184b92d8a222a1dd536c7718e",
+  "L5": "b3c9f2a39c5fb0200ee018c401cc39fb",
+  "L6": "480bb8dec2750b8a828fa90daabe7bb4",
+  "L7": "b247094125c58d6a164c12f74277b33f",
+  "L8": "7bdd625d5a73bc4567d09c77c088a478",
+  "L9": "cc1629b654bce21536b3c021d12dfddf",
+  "L10": "b9952d0611c5c0a4a350a434b644cf48",
+  "L11": "3c97d90740df38121b37c4fb53a24966",
+  "L12": "b19c909a5a99b205393fba060354fabd",
+  "L13": "70a61fac052c6b5ddcd0a4fa6afe342f",
+  "L14": "a79d15cffa0894704db905e541a8363f",
+  "L15": "34883ef052dfdf9f510f3edb263aeb4b",
+  "L16": "78459b9623eba5320f5e35f2002375a9",
+  "L17": "a32ceefae328d34c087687edfcb376c0",
+  "L18": "e9a460d2006f46bff940e54e8733b5b5",
+  "L19": "3d82b4a08725ae170fa61511a99b613d"
+ },
+ "seconds": 5.2,
+ "cost_usd_list": 0.039838000000000005,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "6cc1e9144da3e11cadd89b88df2dbc56dae0697b3d3bf9545aa2ee4997ab07f1"
+}

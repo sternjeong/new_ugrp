@@ -1,0 +1,116 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 2
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 2
+   },
+   {
+    "label": "L8",
+    "grade": 1
+   },
+   {
+    "label": "L9",
+    "grade": 0
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 1
+   },
+   {
+    "label": "L12",
+    "grade": 3
+   },
+   {
+    "label": "L13",
+    "grade": 2
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 0
+   },
+   {
+    "label": "L16",
+    "grade": 0
+   },
+   {
+    "label": "L17",
+    "grade": 1
+   },
+   {
+    "label": "L18",
+    "grade": 0
+   },
+   {
+    "label": "L19",
+    "grade": 1
+   },
+   {
+    "label": "L20",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "04bf899ffd2d4bdafe3240d08c97899f",
+  "L2": "972ca939d654fbf945a78039e38af29b",
+  "L3": "82f66a732f5b0cd33bb18370b079d6ba",
+  "L4": "29e9926344ed3f65c2eb83ba824f0540",
+  "L5": "3043b24cf494bc0ab566b38125401ccc",
+  "L6": "913f3673099de6be55cf19a16b59522e",
+  "L7": "f92e9c5e032784c769136a0644be552c",
+  "L8": "269027c5b93829258d2eef4d0a38f196",
+  "L9": "8fef185c8c9752d23ba2ac8b83b51ca4",
+  "L10": "0a2eb55c6a036c893a340b7402e7da05",
+  "L11": "8de45719ab2b8fce6893b83f3aa3300b",
+  "L12": "57060a1ca8292869afb633bb00ce7204",
+  "L13": "169b1b99d66151835a920cf0830a154e",
+  "L14": "4297d08f4b7dfe2755c6d814ac8ef632",
+  "L15": "b5530a33695bde14489bda40c348531b",
+  "L16": "ccd3a21a7a4efd2d952fb45c2796c869",
+  "L17": "7c29325e40e0eb662e7629967b633a0a",
+  "L18": "c7a6b2d266a4031eea305d16f9cb4c38",
+  "L19": "208923b6d6740630e6871ed2f50441a9",
+  "L20": "a02cc371fd9ee9e0d19b7208562a7a5d"
+ },
+ "seconds": 9.4,
+ "cost_usd_list": 0.045196,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "409ec2b7bfcb92bccb080f299ed490ae3981d2f553f6fb7292a160f55ad356be"
+}

@@ -1,0 +1,111 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 3
+   },
+   {
+    "label": "L2",
+    "grade": 0
+   },
+   {
+    "label": "L3",
+    "grade": 0
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 2
+   },
+   {
+    "label": "L6",
+    "grade": 3
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 0
+   },
+   {
+    "label": "L9",
+    "grade": 1
+   },
+   {
+    "label": "L10",
+    "grade": 3
+   },
+   {
+    "label": "L11",
+    "grade": 2
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 3
+   },
+   {
+    "label": "L17",
+    "grade": 0
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   },
+   {
+    "label": "L19",
+    "grade": 2
+   }
+  ]
+ },
+ "key": {
+  "L1": "e5c123f6913071fecdf558f7ee9cc4ca",
+  "L2": "0e0e57ecc9ee50a999b2c99ed31dcf93",
+  "L3": "lab:sites.google.com/site/postechpolymer/home",
+  "L4": "cd440bdd4e15a1ce3482a489f21f04ba",
+  "L5": "c4770c1e9d12ac61199d6e738b54115d",
+  "L6": "df4bd10ef0d157c94cc1d0af5af628d5",
+  "L7": "00f52d3209da2832a33781de047e38ed",
+  "L8": "884a9749b730dbd52a38156208defe69",
+  "L9": "b247094125c58d6a164c12f74277b33f",
+  "L10": "6dda7a495187db5785ed7f2f11e30511",
+  "L11": "1575f61cdbb426e1995d045f1996a3b6",
+  "L12": "f4c5dbf22bfa21aa4931aa7aa0faa830",
+  "L13": "62a096b8508acdab34ad790fe6e3ec86",
+  "L14": "38edcacabe08c12e260e1654b7b4e55e",
+  "L15": "9c2741540c4286d26221b8f2701304f2",
+  "L16": "a79d15cffa0894704db905e541a8363f",
+  "L17": "0a6ff7bc33b7ed4911d691f6ab0c5136",
+  "L18": "e3a8aed8c0f0fb63d1ec3aecddc8ebe1",
+  "L19": "e064ea8da3398b079defc8179040f838"
+ },
+ "seconds": 5.7,
+ "cost_usd_list": 0.038634,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "f1159fbdc66cc74a5d9bcb5a578c9e819ac248ddb911dd83b2299b8300a70979"
+}

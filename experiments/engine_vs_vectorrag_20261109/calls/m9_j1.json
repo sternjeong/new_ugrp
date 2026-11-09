@@ -1,0 +1,116 @@
+{
+ "ok": true,
+ "value": {
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 0
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 0
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 0
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   },
+   {
+    "label": "L8",
+    "grade": 2
+   },
+   {
+    "label": "L9",
+    "grade": 2
+   },
+   {
+    "label": "L10",
+    "grade": 0
+   },
+   {
+    "label": "L11",
+    "grade": 0
+   },
+   {
+    "label": "L12",
+    "grade": 1
+   },
+   {
+    "label": "L13",
+    "grade": 0
+   },
+   {
+    "label": "L14",
+    "grade": 0
+   },
+   {
+    "label": "L15",
+    "grade": 1
+   },
+   {
+    "label": "L16",
+    "grade": 3
+   },
+   {
+    "label": "L17",
+    "grade": 2
+   },
+   {
+    "label": "L18",
+    "grade": 2
+   },
+   {
+    "label": "L19",
+    "grade": 0
+   },
+   {
+    "label": "L20",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "29b6c1acd5aeb8b3635fafb6cf998a09",
+  "L2": "7e21ea71de8805264e1b2355ef104dee",
+  "L3": "a02cc371fd9ee9e0d19b7208562a7a5d",
+  "L4": "2ac0c0282dded9689b48c236808ba193",
+  "L5": "2d380f935fc3deb1650937ac60cf70a7",
+  "L6": "6b79f8637dad5c7a27a9e0b5d2798e56",
+  "L7": "a5c96b621480618492d6ab4d2e19a965",
+  "L8": "name:조길원",
+  "L9": "255034de0b267f94daea8fa61dbe1bef",
+  "L10": "c36bdd99f8ce66c4a4ab7258d257c8a8",
+  "L11": "81e7d48be2e4126739d27db2f002e383",
+  "L12": "4523ab01bf3bacfe42c50778873495b7",
+  "L13": "71348edd001017b9579a1eb54375ad06",
+  "L14": "29e9926344ed3f65c2eb83ba824f0540",
+  "L15": "cc1629b654bce21536b3c021d12dfddf",
+  "L16": "21bfa9ebed9025d7da92fdae6d81c5a0",
+  "L17": "a4c93740ea4fea145a9ee1eafc8d3e85",
+  "L18": "e38229000b5001fe589061680c785785",
+  "L19": "3d82b4a08725ae170fa61511a99b613d",
+  "L20": "484ada407cce53c151266995cec8e43b"
+ },
+ "seconds": 6.0,
+ "cost_usd_list": 0.047036,
+ "model_usage": [
+  "claude-sonnet-5-5"
+ ],
+ "error": null,
+ "input_sha256": "3ffcd11c8cf0c47a328d03fb20d72fc01608c8b2436cb8eb50fd7d0a2e5bb62c"
+}
