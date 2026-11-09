@@ -1,0 +1,163 @@
+{
+ "table": {
+  "AQ": {
+   "fit": 0.694,
+   "ndcg5_recommend": 0.642,
+   "correct_refusal": 9,
+   "wrong_refusal_of_recommend": 2
+  },
+  "A5": {
+   "fit": 0.885,
+   "ndcg5_recommend": 0.857,
+   "correct_refusal": 10,
+   "wrong_refusal_of_recommend": 0
+  },
+  "A4": {
+   "fit": 0.689,
+   "ndcg5_recommend": 0.686,
+   "correct_refusal": 7,
+   "wrong_refusal_of_recommend": 0
+  },
+  "A0": {
+   "fit": 0.629,
+   "ndcg5_recommend": 0.611,
+   "correct_refusal": 7,
+   "wrong_refusal_of_recommend": 0
+  }
+ },
+ "AQ_minus_A5": {
+  "diff": -0.192,
+  "ci95": [
+   -0.278,
+   -0.112
+  ]
+ },
+ "AQ_minus_A0": {
+  "diff": 0.065,
+  "ci95": [
+   -0.007,
+   0.144
+  ]
+ },
+ "AQ_minus_A4": {
+  "diff": 0.005,
+  "ci95": [
+   -0.081,
+   0.095
+  ]
+ },
+ "recommend_only": {
+  "AQ_minus_A5": {
+   "diff": -0.214,
+   "ci95": [
+    -0.31,
+    -0.128
+   ]
+  },
+  "AQ_minus_A0": {
+   "diff": 0.031,
+   "ci95": [
+    -0.034,
+    0.101
+   ]
+  },
+  "AQ_minus_A4": {
+   "diff": -0.044,
+   "ci95": [
+    -0.13,
+    0.043
+   ]
+  }
+ },
+ "by_type": {
+  "keyword": {
+   "AQ": 0.779,
+   "A5": 0.817,
+   "A4": 0.789,
+   "A0": 0.735
+  },
+  "sentence": {
+   "AQ": 0.613,
+   "A5": 0.891,
+   "A4": 0.7,
+   "A0": 0.582
+  },
+  "like_dislike": {
+   "AQ": 0.563,
+   "A5": 0.895,
+   "A4": 0.643,
+   "A0": 0.573
+  },
+  "dislike_only": {
+   "AQ": 0.75,
+   "A5": 1.0,
+   "A4": 0.75,
+   "A0": 0.75
+  },
+  "course": {
+   "AQ": 0.86,
+   "A5": 0.897,
+   "A4": 0.617,
+   "A0": 0.599
+  },
+  "long": {
+   "AQ": 0.69,
+   "A5": 0.901,
+   "A4": 0.785,
+   "A0": 0.785
+  },
+  "english": {
+   "AQ": 0.851,
+   "A5": 0.786,
+   "A4": 0.802,
+   "A0": 0.758
+  },
+  "everyday": {
+   "AQ": 0.317,
+   "A5": 0.774,
+   "A4": 0.54,
+   "A0": 0.394
+  },
+  "off_topic": {
+   "AQ": 1.0,
+   "A5": 1.0,
+   "A4": 0.333,
+   "A0": 0.333
+  },
+  "procedure": {
+   "AQ": 1.0,
+   "A5": 1.0,
+   "A4": 1.0,
+   "A0": 1.0
+  },
+  "too_broad": {
+   "AQ": 1.0,
+   "A5": 1.0,
+   "A4": 1.0,
+   "A0": 1.0
+  }
+ },
+ "anchors": {
+  "n": 144,
+  "mean_new_minus_old": 0.054,
+  "correlation": 0.976
+ },
+ "qwen": {
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "load_s": 105.8,
+  "peak_gpu_mb": 15347,
+  "median_s": 2.8,
+  "p90_s": 3.65,
+  "parse_failures": [],
+  "intents": {
+   "off_topic": 6,
+   "only_dislike": 3,
+   "search": 39,
+   "procedure": 2
+  }
+ },
+ "added_labs": 41,
+ "queries_with_new_labs": 24,
+ "failures": [],
+ "cost_usd_list": 2.69
+}

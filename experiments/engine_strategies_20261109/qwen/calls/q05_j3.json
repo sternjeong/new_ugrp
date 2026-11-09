@@ -1,0 +1,60 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 2
+   },
+   {
+    "label": "L2",
+    "grade": 1
+   },
+   {
+    "label": "L3",
+    "grade": 1
+   },
+   {
+    "label": "L4",
+    "grade": 3
+   },
+   {
+    "label": "L5",
+    "grade": 1
+   },
+   {
+    "label": "L6",
+    "grade": 2
+   },
+   {
+    "label": "L7",
+    "grade": 0
+   }
+  ]
+ },
+ "key": {
+  "L1": "b8974c5afcf836280e0cc027f4883b7d",
+  "L2": "0a808026bdf92ba0c4cc4c5bd2456eb6",
+  "L3": "name:Seung Park",
+  "L4": "50705cf571ba48309476bb553c2356b8",
+  "L5": "452ff8a514babe9a5da54bbcb5d24c32",
+  "L6": "8296556464bdebca77b25830678fd37b",
+  "L7": "c55f3ac184b92d8a222a1dd536c7718e"
+ },
+ "new": [
+  "452ff8a514babe9a5da54bbcb5d24c32"
+ ],
+ "anchors": [
+  "50705cf571ba48309476bb553c2356b8",
+  "b8974c5afcf836280e0cc027f4883b7d",
+  "8296556464bdebca77b25830678fd37b",
+  "0a808026bdf92ba0c4cc4c5bd2456eb6",
+  "name:Seung Park",
+  "c55f3ac184b92d8a222a1dd536c7718e"
+ ],
+ "seconds": 7.5,
+ "cost_usd_list": 0.018286800000000002,
+ "error": null,
+ "input_sha256": "42cc8af1291c7b05048bbd8d2ae01ec30077255c3d09dda21a8c236629ff7cf1"
+}

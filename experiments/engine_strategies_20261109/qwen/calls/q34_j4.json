@@ -1,0 +1,60 @@
+{
+ "ok": true,
+ "value": {
+  "should_recommend": true,
+  "grades": [
+   {
+    "label": "L1",
+    "grade": 1
+   },
+   {
+    "label": "L2",
+    "grade": 3
+   },
+   {
+    "label": "L3",
+    "grade": 3
+   },
+   {
+    "label": "L4",
+    "grade": 2
+   },
+   {
+    "label": "L5",
+    "grade": 0
+   },
+   {
+    "label": "L6",
+    "grade": 1
+   },
+   {
+    "label": "L7",
+    "grade": 1
+   }
+  ]
+ },
+ "key": {
+  "L1": "46466de2356e17efde24000d5ea0db20",
+  "L2": "d8d260d0955f816557ae98e50b287133",
+  "L3": "154efd9c9f56018b6bd86a363d8d900f",
+  "L4": "480bb8dec2750b8a828fa90daabe7bb4",
+  "L5": "f861170d3a401a9ed8b9b591854b2888",
+  "L6": "240442b3eecec4c78bf1a0cb70dedd8e",
+  "L7": "c55f3ac184b92d8a222a1dd536c7718e"
+ },
+ "new": [
+  "240442b3eecec4c78bf1a0cb70dedd8e"
+ ],
+ "anchors": [
+  "d8d260d0955f816557ae98e50b287133",
+  "154efd9c9f56018b6bd86a363d8d900f",
+  "480bb8dec2750b8a828fa90daabe7bb4",
+  "c55f3ac184b92d8a222a1dd536c7718e",
+  "46466de2356e17efde24000d5ea0db20",
+  "f861170d3a401a9ed8b9b591854b2888"
+ ],
+ "seconds": 9.9,
+ "cost_usd_list": 0.0172948,
+ "error": null,
+ "input_sha256": "f94e256643309669592d4891979d26c8050393cd02f3e486d0941e75382d9b72"
+}
