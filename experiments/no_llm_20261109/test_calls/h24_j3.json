@@ -1,0 +1,1 @@
+{"ok": true, "value": {"should_recommend": false, "grades": [{"label": "L1", "grade": 1}, {"label": "L2", "grade": 0}]}, "key": {"L1": "1143745d2465a8bef9876a8bbeb0b1be", "L2": "92d7e9607dd4b52271832307356acdf9"}, "cost": 0.0128246}

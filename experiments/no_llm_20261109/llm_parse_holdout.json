@@ -1,0 +1,515 @@
+{
+ "h01": {
+  "intent": "search",
+  "likes": [
+   "그래프 신경망",
+   "분자 특성 예측"
+  ],
+  "dislikes": [],
+  "search_text": "그래프 신경망 분자 특성 예측 graph neural network molecular property prediction, 분자 표현 학습 molecular representation learning, 약물 발견 cheminformatics",
+  "ms": 2943
+ },
+ "h02": {
+  "intent": "search",
+  "likes": [
+   "MEMS 압력센서",
+   "센서 제작 공정"
+  ],
+  "dislikes": [],
+  "search_text": "MEMS 압력센서 제작 미세전자기계시스템 반도체 미세가공 공정 MEMS pressure sensor fabrication microfabrication piezoresistive capacitive",
+  "ms": 3017
+ },
+ "h03": {
+  "intent": "search",
+  "likes": [
+   "고분자 합성",
+   "생분해성 고분자"
+  ],
+  "dislikes": [],
+  "search_text": "고분자 합성 생분해성 고분자 polymer synthesis biodegradable polymers, polymerization, 친환경 고분자 소재, sustainable polymer materials",
+  "ms": 2760
+ },
+ "h04": {
+  "intent": "search",
+  "likes": [
+   "미세먼지",
+   "대기오염 모델링"
+  ],
+  "dislikes": [],
+  "search_text": "미세먼지 대기오염 모델링 particulate matter PM2.5 air pollution modeling atmospheric chemical transport model, 대기질 예측 air quality forecasting",
+  "ms": 2786
+ },
+ "h05": {
+  "intent": "search",
+  "likes": [
+   "CRISPR",
+   "후성유전학",
+   "암"
+  ],
+  "dislikes": [],
+  "search_text": "CRISPR 유전자 편집 후성유전학 암 epigenetics cancer epigenome editing dCas9 DNA methylation histone modification tumor",
+  "ms": 2973
+ },
+ "h06": {
+  "intent": "search",
+  "likes": [
+   "강화학습",
+   "물류 스케줄링"
+  ],
+  "dislikes": [],
+  "search_text": "강화학습 물류 스케줄링 reinforcement learning logistics scheduling, 작업 일정 최적화, job shop scheduling, supply chain optimization, vehicle routing, 조합 최적화 combinatorial optimization",
+  "ms": 3363
+ },
+ "h07": {
+  "intent": "search",
+  "likes": [
+   "뇌-컴퓨터 인터페이스",
+   "뇌파 기반 기계 제어"
+  ],
+  "dislikes": [],
+  "search_text": "뇌-컴퓨터 인터페이스 뇌파 기계 제어 Brain-Computer Interface BCI EEG 신경신호 처리 neural decoding",
+  "ms": 2824
+ },
+ "h08": {
+  "intent": "search",
+  "likes": [
+   "블록체인 보안",
+   "해킹 방어"
+  ],
+  "dislikes": [],
+  "search_text": "블록체인 보안, 해킹 방어, 사이버 보안 blockchain security, smart contract vulnerability, cybersecurity, intrusion detection, attack defense",
+  "ms": 2460
+ },
+ "h09": {
+  "intent": "search",
+  "likes": [
+   "우주 추진 기관",
+   "로켓 엔진"
+  ],
+  "dislikes": [],
+  "search_text": "우주 추진 기관 로켓 엔진 space propulsion rocket engine 액체로켓 연소 전기추진 combustion aerospace propulsion",
+  "ms": 2112
+ },
+ "h10": {
+  "intent": "search",
+  "likes": [
+   "폐수 정화",
+   "막 분리 기술"
+  ],
+  "dislikes": [],
+  "search_text": "폐수 처리 막 분리 기술 membrane separation wastewater treatment 멤브레인 정수 membrane filtration water purification 역삼투 RO 한외여과 UF 나노여과 NF membrane bioreactor MBR",
+  "ms": 2817
+ },
+ "h11": {
+  "intent": "search",
+  "likes": [
+   "나노입자 약물 전달",
+   "표적 항암 치료"
+  ],
+  "dislikes": [],
+  "search_text": "나노입자 약물 전달 암 표적 치료 nanoparticle drug delivery targeted cancer therapy tumor-targeting nanomedicine",
+  "ms": 2713
+ },
+ "h12": {
+  "intent": "search",
+  "likes": [
+   "경제학과 데이터 결합 연구",
+   "행동 분석",
+   "행동경제학",
+   "데이터 기반 의사결정 분석"
+  ],
+  "dislikes": [],
+  "search_text": "경제학 데이터 인간 행동 분석 행동경제학 계량경제학 computational social science behavioral economics econometrics data-driven human behavior analysis causal inference",
+  "ms": 2624
+ },
+ "h13": {
+  "intent": "search",
+  "likes": [
+   "블랙홀",
+   "우주론",
+   "천체물리 이론"
+  ],
+  "dislikes": [],
+  "search_text": "블랙홀 우주론 천체물리 이론 black hole cosmology theoretical astrophysics general relativity gravitation",
+  "ms": 2929
+ },
+ "h14": {
+  "intent": "search",
+  "likes": [
+   "6G 통신 시스템",
+   "6G 안테나 설계"
+  ],
+  "dislikes": [],
+  "search_text": "6G 통신 시스템 6G 안테나 설계 beyond 5G, 6G wireless communication, antenna design, mmWave/THz antenna, massive MIMO, reconfigurable intelligent surface (RIS), phased array",
+  "ms": 2740
+ },
+ "h15": {
+  "intent": "search",
+  "likes": [
+   "위상수학",
+   "기하학"
+  ],
+  "dislikes": [],
+  "search_text": "위상수학 기하학 topology geometry 대수적 위상수학 미분기하학 algebraic topology differential geometry manifold",
+  "ms": 2431
+ },
+ "h16": {
+  "intent": "search",
+  "likes": [
+   "수소환원제철",
+   "철강 공정 탈탄소화"
+  ],
+  "dislikes": [],
+  "search_text": "수소환원제철 철강 공정 탄소 배출 저감 hydrogen-based direct reduction ironmaking, hydrogen steelmaking, decarbonization of steel industry, CO2 emission reduction, 직접환원철 DRI, 전기로",
+  "ms": 2684
+ },
+ "h17": {
+  "intent": "search",
+  "likes": [
+   "자연어 처리"
+  ],
+  "dislikes": [
+   "하드웨어 실험"
+  ],
+  "search_text": "자연어 처리 Natural Language Processing NLP 언어 모델 language model 텍스트 분석 computational linguistics",
+  "ms": 2559
+ },
+ "h18": {
+  "intent": "search",
+  "likes": [
+   "유체 시뮬레이션"
+  ],
+  "dislikes": [
+   "직접 용접",
+   "직접 가공"
+  ],
+  "search_text": "유체 시뮬레이션 전산유체역학 CFD computational fluid dynamics numerical simulation",
+  "ms": 2956
+ },
+ "h19": {
+  "intent": "search",
+  "likes": [
+   "효소 연구"
+  ],
+  "dislikes": [
+   "동물 실험"
+  ],
+  "search_text": "효소 연구 enzyme, 효소학 enzymology, 효소 반응 메커니즘 enzyme catalysis mechanism, 효소 공학 enzyme engineering, 단백질 구조 protein biochemistry, in vitro 생화학",
+  "ms": 3637
+ },
+ "h20": {
+  "intent": "search",
+  "likes": [
+   "통계학",
+   "확률론"
+  ],
+  "dislikes": [
+   "코딩 위주의 프로젝트"
+  ],
+  "search_text": "통계학 확률론 이론 통계 수리통계 확률과정 statistics probability theory mathematical statistics stochastic processes",
+  "ms": 2086
+ },
+ "h21": {
+  "intent": "search",
+  "likes": [
+   "신소재 박막 증착"
+  ],
+  "dislikes": [
+   "클린룸 장시간 작업"
+  ],
+  "search_text": "신소재 박막 증착 thin film deposition novel materials, 박막 소재 합성 및 특성 분석, materials science",
+  "ms": 3015
+ },
+ "h22": {
+  "intent": "search",
+  "likes": [
+   "사회 문제 연구"
+  ],
+  "dislikes": [
+   "설문조사만 하는 연구"
+  ],
+  "search_text": "사회 문제 연구 computational social science, social problems, 사회 데이터 분석, 사회 변화, 정책 연구, 빅데이터 기반 사회 분석, 현장 연구 field study, 질적 연구, 실험 연구",
+  "ms": 2832
+ },
+ "h23": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "동물 실험",
+   "해부"
+  ],
+  "search_text": "",
+  "ms": 2769
+ },
+ "h24": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "문헌 읽기 중심의 연구",
+   "하루 종일 앉아서 하는 논문 읽기"
+  ],
+  "search_text": "",
+  "ms": 2685
+ },
+ "h25": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "고압가스 취급 실험",
+   "위험한 장비를 다루는 연구"
+  ],
+  "search_text": "",
+  "ms": 2019
+ },
+ "h26": {
+  "intent": "only_dislike",
+  "likes": [],
+  "dislikes": [
+   "복잡한 증명 중심의 연구",
+   "이론 증명 위주 연구"
+  ],
+  "search_text": "",
+  "ms": 2424
+ },
+ "h27": {
+  "intent": "search",
+  "likes": [
+   "영상처리",
+   "신호 및 시스템"
+  ],
+  "dislikes": [],
+  "search_text": "영상처리 image processing, 디지털 신호처리 digital signal processing, 컴퓨터 비전 computer vision, 영상 복원 image restoration, 필터링 filtering",
+  "ms": 2812
+ },
+ "h28": {
+  "intent": "search",
+  "likes": [
+   "화공열역학",
+   "반응공학"
+  ],
+  "dislikes": [],
+  "search_text": "화공열역학 반응공학 chemical engineering thermodynamics, chemical reaction engineering, reactor design, kinetics, catalysis, 반응기 설계, 촉매 반응",
+  "ms": 2518
+ },
+ "h29": {
+  "intent": "search",
+  "likes": [
+   "확률",
+   "통계"
+  ],
+  "dislikes": [],
+  "search_text": "확률 통계 확률론 통计학 probability statistics statistical inference stochastic processes 통계적 추론 확률과정",
+  "ms": 2907
+ },
+ "h30": {
+  "intent": "search",
+  "likes": [
+   "반도체 물성",
+   "고체물리"
+  ],
+  "dislikes": [],
+  "search_text": "반도체 물성 고체물리 semiconductor physical properties solid-state physics condensed matter physics electronic band structure carrier transport",
+  "ms": 2322
+ },
+ "h31": {
+  "intent": "search",
+  "likes": [
+   "시스템 연구",
+   "운영체제",
+   "컴퓨터구조"
+  ],
+  "dislikes": [],
+  "search_text": "컴퓨터 시스템 연구 운영체제 컴퓨터구조 computer systems operating systems computer architecture",
+  "ms": 2469
+ },
+ "h32": {
+  "intent": "search",
+  "likes": [
+   "환경공학",
+   "해양 플라스틱",
+   "현장 샘플링",
+   "분석 장비 활용"
+  ],
+  "dislikes": [],
+  "search_text": "해양 플라스틱 오염, 미세플라스틱 환경공학 현장 샘플링 및 분석 marine plastic pollution, microplastics, environmental engineering, field sampling, analytical instrumentation (FTIR, GC-MS)",
+  "ms": 2806
+ },
+ "h33": {
+  "intent": "search",
+  "likes": [
+   "광학",
+   "레이저",
+   "광학 실험 셋업",
+   "논문 작성 경험"
+  ],
+  "dislikes": [
+   "이론 중심 연구"
+  ],
+  "search_text": "광학 레이저 실험 광학 테이블 셋업 optics laser experimental optical setup photonics 전자공학 대학원 논문 연구",
+  "ms": 2817
+ },
+ "h34": {
+  "intent": "search",
+  "likes": [
+   "뇌과학",
+   "신경세포 신호 기록",
+   "계산신경과학",
+   "신경 데이터 분석"
+  ],
+  "dislikes": [],
+  "search_text": "뇌과학 신경과학 neuroscience, 신경세포 신호 기록 neuronal recording electrophysiology, 신경 데이터 컴퓨터 분석 computational neuroscience neural data analysis, 파이썬 Python",
+  "ms": 2430
+ },
+ "h35": {
+  "intent": "search",
+  "likes": [
+   "3D 프린팅",
+   "적층제조",
+   "금속 적층제조",
+   "복합재료 출력",
+   "구조해석"
+  ],
+  "dislikes": [],
+  "search_text": "3D 프린팅 적층제조 금속 3D 프린팅 복합재료 출력 구조해석 additive manufacturing metal 3D printing composite materials structural analysis finite element analysis",
+  "ms": 2678
+ },
+ "h36": {
+  "intent": "search",
+  "likes": [
+   "양자 물질",
+   "2차원 물질"
+  ],
+  "dislikes": [],
+  "search_text": "양자 물질 quantum materials, 2차원 물질 2D materials, 그래핀 graphene, 전이금속 칼코겐화합물 transition metal dichalcogenides, 응집물질물리 condensed matter physics",
+  "ms": 2877
+ },
+ "h37": {
+  "intent": "search",
+  "likes": [
+   "자연어처리",
+   "대규모 언어 모델"
+  ],
+  "dislikes": [],
+  "search_text": "자연어처리 NLP 대규모 언어 모델 LLM large language model",
+  "ms": 2865
+ },
+ "h38": {
+  "intent": "search",
+  "likes": [
+   "유체역학",
+   "난류 시뮬레이션"
+  ],
+  "dislikes": [],
+  "search_text": "유체역학 난류 시뮬레이션 fluid dynamics turbulence simulation CFD DNS LES computational fluid dynamics",
+  "ms": 2330
+ },
+ "h39": {
+  "intent": "search",
+  "likes": [
+   "정전기",
+   "마찰대전",
+   "표면 전하",
+   "습도에 따른 전하 거동"
+  ],
+  "dislikes": [],
+  "search_text": "정전기 마찰대전 접촉대전 표면 전하 습도 영향 static electricity triboelectric charging contact electrification surface charge humidity",
+  "ms": 2601
+ },
+ "h40": {
+  "intent": "search",
+  "likes": [
+   "물의 상변화",
+   "얼음 결정화와 부피 팽창",
+   "동결 시 재료의 기계적 파괴"
+  ],
+  "dislikes": [],
+  "search_text": "물 동결 부피 팽창 얼음 결정화 상변화 freezing water expansion ice crystallization phase transition 동결 응력 파괴 freeze-induced stress fracture 용기 재료 역학",
+  "ms": 3016
+ },
+ "h41": {
+  "intent": "search",
+  "likes": [
+   "추천 시스템",
+   "사용자 선호 예측",
+   "협업 필터링"
+  ],
+  "dislikes": [],
+  "search_text": "추천 시스템 recommender system, 협업 필터링 collaborative filtering, 개인화 추천 personalized recommendation, 사용자 선호 예측 user preference modeling, 딥러닝 기반 추천 deep learning recommendation",
+  "ms": 2537
+ },
+ "h42": {
+  "intent": "search",
+  "likes": [
+   "얼굴 인식",
+   "컴퓨터 비전",
+   "딥러닝 기반 영상 인식"
+  ],
+  "dislikes": [],
+  "search_text": "얼굴 인식 face recognition, 얼굴 검출 face detection, 컴퓨터 비전 computer vision, 딥러닝 deep learning, 생체 인식 biometrics, 모바일 온디바이스 AI on-device",
+  "ms": 2992
+ },
+ "h43": {
+  "intent": "search",
+  "likes": [
+   "근비대",
+   "운동과 근육 성장",
+   "골격근 생리학"
+  ],
+  "dislikes": [],
+  "search_text": "운동에 의한 근육 성장 근비대 muscle hypertrophy, 골격근 단백질 합성 skeletal muscle protein synthesis, 저항운동 resistance exercise, 위성세포 satellite cell, mTOR 신호전달, 운동생리학 exercise physiology",
+  "ms": 2751
+ },
+ "h44": {
+  "intent": "search",
+  "likes": [
+   "건물 붕괴 원인",
+   "내진 설계",
+   "지진 공학"
+  ],
+  "dislikes": [],
+  "search_text": "지진 시 건물 붕괴 메커니즘 내진 설계 구조물 지진 거동 earthquake engineering seismic design structural collapse seismic performance of buildings structural dynamics",
+  "ms": 2636
+ },
+ "h45": {
+  "intent": "off_topic",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 3054
+ },
+ "h46": {
+  "intent": "off_topic",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 2159
+ },
+ "h47": {
+  "intent": "off_topic",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 2079
+ },
+ "h48": {
+  "intent": "procedure",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 1850
+ },
+ "h49": {
+  "intent": "procedure",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 2220
+ },
+ "h50": {
+  "intent": "too_vague",
+  "likes": [],
+  "dislikes": [],
+  "search_text": "",
+  "ms": 1734
+ }
+}
