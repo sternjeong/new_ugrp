@@ -7,6 +7,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 from .curated_catalog import load_jsonl
+from .text_cleanup import tidy
 
 
 def paper_id(value):
@@ -34,8 +35,8 @@ class ResearchPapers:
     def public(p):
         pid = paper_id(p.get('openalex_id') or p.get('id'))
         doi = str(p.get('doi') or '').removeprefix('https://doi.org/')
-        return {'id': pid, 'title': p.get('title') or '', 'year': p.get('year') or p.get('publication_year'),
-                'abstract': (p.get('abstract') or '')[:1000],
+        return {'id': pid, 'title': tidy(p.get('title') or ''), 'year': p.get('year') or p.get('publication_year'),
+                'abstract': tidy(p.get('abstract') or ''),
                 'url': f'https://doi.org/{doi}' if re.fullmatch(r'10\.\d{4,9}/\S+', doi) else f'https://openalex.org/{pid}',
                 'cited_by_count': p.get('cited_by_count') or 0}
 

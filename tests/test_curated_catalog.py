@@ -4,7 +4,8 @@ import tempfile
 from pathlib import Path
 
 from curri.curated_catalog import CuratedCatalog, course_base, informative_lab_name, search_terms
-from curri.curated_query_engine import CuratedQueryEngine
+from curri.curated_query_engine import GATE_MARGIN, CuratedQueryEngine, classify_curated_query
+from curri.embed_broker import query_key
 
 
 DATA = Path(__file__).resolve().parents[1] / 'data' / 'sunwoo'
@@ -244,6 +245,75 @@ class CuratedCatalogTests(unittest.TestCase):
             self.catalog.search = original
         self.assertNotIn(lab, found)
         self.assertNotIn(ordinary, found)
+
+    def analysing_broker(self, analysis, target=None):
+        labs = list(self.catalog.profiles)
+        sims = {lid: 0.5 - n / 1000 for n, lid in enumerate(labs)}
+
+        class Broker:
+            seen = None
+
+            def understand(self, phrases, query, timeout, remote=True):
+                Broker.seen = query
+                return {**{p: {'sims': sims, 'best': {lid: -1 for lid in sims}} for p in phrases}, query_key(query): analysis}
+        return Broker()
+
+    def test_worker_can_refuse_a_query_the_rules_let_through(self):
+        for label, intent in (('off_topic', 'nonsense'), ('procedure', 'career'), ('too_vague', 'too_broad'), ('only_dislike', 'need_likes')):
+            found = CuratedQueryEngine(self.catalog, self.analysing_broker({'intent': label, 'margin': 0.2})).search('저녁에 치킨 시킬까')
+            self.assertEqual((found['intent'], found['labs']), (intent, []))
+
+    def test_chunk_and_reranker_lists_join_the_fusion(self):
+        labs = list(self.catalog.profiles)
+        target = labs[-1]
+        favoured = {target: 1.0, **{lid: 0.0 for lid in labs[:-1]}}
+        broker = self.analysing_broker({'intent': 'search', 'margin': -0.2, 'english': '', 'chunk': favoured, 'rerank': favoured, 'penalties': []})
+        self.assertIn(target, [c['id'] for c in CuratedQueryEngine(self.catalog, broker).search('아주 낯선 표현을 연구하고 싶어요')['labs']])
+        self.assertEqual(broker.seen['gate'], GATE_MARGIN)
+
+    def test_a_stated_dislike_skips_the_refusal_check_and_stays_out_of_the_search_text(self):
+        labs = list(self.catalog.profiles)
+        broker = self.analysing_broker({'english': '', 'chunk': {lid: 0.0 for lid in labs}, 'rerank': {}, 'penalties': [{lid: 0.0 for lid in labs}]})
+        CuratedQueryEngine(self.catalog, broker).search('로봇은 싫고 반도체가 좋아요')
+        self.assertIsNone(broker.seen['gate'])
+        self.assertEqual((broker.seen['text'], broker.seen['dislikes']), ('반도체', ['로봇']))
+
+    def test_an_interest_with_an_unparsed_avoidance_skips_the_refusal_check(self):
+        labs = list(self.catalog.profiles)
+        broker = self.analysing_broker({'english': '', 'chunk': {lid: 0.0 for lid in labs}, 'rerank': {}, 'penalties': []})
+        CuratedQueryEngine(self.catalog, broker).search('효소 연구는 하고 싶은데 동물 실험은 절대 못 하겠어요')
+        self.assertIsNone(broker.seen['gate'])
+
+    def test_translation_reaches_the_dictionary_search(self):
+        labs = list(self.catalog.profiles)
+        broker = self.analysing_broker({'intent': 'search', 'margin': -0.2, 'english': 'graphene', 'chunk': {lid: 0.0 for lid in labs}, 'rerank': {}, 'penalties': []})
+        engine = CuratedQueryEngine(self.catalog, broker)
+        seen, original = [], self.catalog.search
+        self.catalog.search = lambda text: seen.append(text) or []
+        try:
+            engine.search('아주 낯선 표현을 연구하고 싶어요')
+        finally:
+            self.catalog.search = original
+        self.assertIn('아주 낯선 표현을 연구하고 싶어요 graphene', seen)
+
+    def test_a_worker_without_analysis_keeps_the_phrase_search(self):
+        found = CuratedQueryEngine(self.catalog, self.analysing_broker(None)).search('강화학습에 관심 있어요')
+        self.assertEqual((found['intent'], found['mode']), ('search', 'embedding'))
+
+    def test_long_phrases_are_not_quoted_back_in_the_reason(self):
+        lab = next(iter(self.catalog.profiles))
+        engine = CuratedQueryEngine(self.catalog, None)
+        self.assertIn('‘반도체’와', engine.semantic_card(lab, 1.0, ('반도체', -1))['reason'])
+        self.assertIn('‘로봇’과', engine.semantic_card(lab, 1.0, ('로봇', -1))['reason'])
+        long_phrase = '세포 배양 실험 코딩은 최대한 안 했으면'
+        reason = engine.semantic_card(lab, 1.0, (long_phrase, -1))['reason']
+        self.assertTrue(reason.startswith('입력한 관심과 의미가'), reason)
+
+    def test_request_wording_is_removed_from_likes(self):
+        self.assertEqual(classify_curated_query('방사선 연구하는 곳 있어?')['likes'], ['방사선'])
+
+    def test_avoidance_alone_asks_for_an_interest(self):
+        self.assertEqual(classify_curated_query('납땜은 피하고 싶어요')['intent'], 'need_likes')
 
     def test_informative_lab_name_rules(self):
         self.assertEqual(informative_lab_name('홍길동 교수 연구실', ['홍길동']), '')

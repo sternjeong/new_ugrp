@@ -5,6 +5,7 @@ Kaggle 노트북은 외부에서 들어오는 연결을 받을 수 없으므로,
   워커 → POST /api/worker/answer  : 구절별 연구실 유사도를 돌려줌
 서버는 요청 처리 중 `request()`로 작업을 올리고 결과를 기다린다. 워커가 없거나 늦으면 None을 돌려주고 호출자는 사전 검색으로 후퇴한다.
 """
+import hashlib
 import hmac
 import itertools
 import json
@@ -13,7 +14,12 @@ import time
 from collections import OrderedDict, deque
 
 MAX_PHRASES = 12
-MAX_PHRASE_CHARS = 300
+MAX_PHRASE_CHARS = 600
+
+
+def query_key(query):
+    """Cache key of the worker's analysis of a whole query, kept beside the phrases."""
+    return 'query:' + hashlib.sha256(json.dumps(query, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
 class EmbedBroker:
@@ -54,25 +60,36 @@ class EmbedBroker:
     # ---- 서버 요청 처리 쪽 ----
     def request(self, phrases, timeout=6.0, remote=True):
         """phrases의 {구절: {'sims':…, 'best':…}}를 돌려준다. 워커가 없거나 시간 초과면 None. remote=False면 캐시만 쓴다."""
+        return self._ask(phrases, None, timeout, remote)
+
+    def understand(self, phrases, query, timeout=6.0, remote=True):
+        """request()와 같고, 워커가 질의 전체를 분석했으면 그 결과가 query_key(query) 항목으로 함께 온다."""
+        return self._ask(phrases, query, timeout, remote)
+
+    def _ask(self, phrases, query, timeout, remote):
         phrases = list(dict.fromkeys(p for p in phrases if p and p.strip()))
         if not phrases or len(phrases) > MAX_PHRASES:
             return None
         with self.cond:
             found = {p: self.cache[p] for p in phrases if p in self.cache}
+            key = query_key(query) if query else None
+            if key in self.cache:
+                found[key] = self.cache[key]
             for p in found:
                 self.cache.move_to_end(p)
         missing = [p[:MAX_PHRASE_CHARS] for p in phrases if p not in found]
-        if not missing:
+        if not missing and (not key or key in found):
             return found
         if not remote or not self.available():
-            return None
+            return found if not missing else None
         job_id = next(self.ids)
-        slot = {'event': threading.Event(), 'result': None}
+        slot = {'event': threading.Event(), 'result': None, 'key': key}
         with self.cond:
             if len(self.pending) >= 50:
                 return None
             self.waiting[job_id] = slot
-            self.pending.append({'id': job_id, 'phrases': missing})
+            # A query job carries every phrase: a worker that cannot analyse queries then still answers something usable.
+            self.pending.append({'id': job_id, 'phrases': [p[:MAX_PHRASE_CHARS] for p in phrases], 'query': query} if key else {'id': job_id, 'phrases': missing})
             self.cond.notify_all()
         ok = slot['event'].wait(timeout)
         with self.cond:
@@ -98,8 +115,8 @@ class EmbedBroker:
                 self.last_poll = time.time()
             return self.pending.popleft()
 
-    def answer(self, job_id, lab_ids, sims, best):
-        """sims: {구절: [연구실 순서대로 유사도]}, best: {구절: [연구실 순서대로 가장 가까운 주제 번호(없으면 -1)]}"""
+    def answer(self, job_id, lab_ids, sims, best, query=None):
+        """sims: {구절: [연구실 순서대로 유사도]}, best: {구절: [연구실 순서대로 가장 가까운 주제 번호(없으면 -1)]}, query: 질의 전체 분석(있으면)"""
         if not isinstance(lab_ids, list) or not isinstance(sims, dict) or not isinstance(best, dict):
             raise ValueError('answer 형식 오류')
         result = {}
@@ -111,6 +128,8 @@ class EmbedBroker:
                               'best': {lid: int(b) for lid, b in zip(lab_ids, brow)}}
         with self.cond:
             slot = self.waiting.get(job_id)
+            if slot is not None and slot['key'] and isinstance(query, dict):
+                result[slot['key']] = query
             for phrase, value in result.items():
                 self.cache[phrase] = value
                 self.cache.move_to_end(phrase)

@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 
 from .catalog import safe_urls
+from .text_cleanup import tidy
 
 
 def load_jsonl(path):
@@ -95,18 +96,43 @@ def area_label(text):
 EVIDENCE_KIND = {'representative_paper': '대표 논문', 'research_area': '연구 분야', 'research_intro': '연구실 소개',
                  'course': '과목 설명'}
 SENTENCE_BREAK = re.compile(r'(?<=[.!?])\s+(?=[A-Z가-힣0-9(“"\'])|\n+')
-SNIPPET_LIMIT = 240
+SNIPPET_LIMIT = 600
+READABLE_SENTENCE = 40
+COURSE_PREFIX = re.compile(r'^(?:특강|특론)\s*[:：]\s*')
+ABBREVIATION_END = re.compile(r'(?:\b(?:Prof|Dr|Mr|Ms|Mrs|Ph|Dept|Univ|vs|etc|al|No|Fig|Inc|Lab)|\be\.g|\bi\.e|Ph\.D)\.$')
+OPEN_ENDED = re.compile(r'\b(?:to|for|of|at|in|on|by|with|and|or|the|a|an|are|is|from|that|which|can|as)$', re.I)
+NOT_RESEARCH = re.compile(r'(?:@\w|\bat postech dot\b|https?:|\bTel\b|\bE-?mail\b|Click\b|Image by|Welcome (?:to|Message)|feel free|contact (?:me|us)|Positions? available|looking for|seeking prospective|recruit|postdoc|모집|이메일|\bOffice|Resume|Portfolio|listed on this page|regular updates|preprint posted|교수\]|\bHome\b|\bKeywords?\s*-)', re.I)
+CAREER_LINE = re.compile(r'^\W*(?:(?:19|20)\d\d\b|In (?:19|20)\d\d\b|\d\d\.\d\d\b|B\.?S\.?\b|M\.?S\.?\b|Ph\.?\s?D|D in the University|I am (?:an?|currently)\b|[A-Z][\w-]+ [A-Z][\w-]+ is an? \w* ?Professor)', re.I)
+AFFILIATION = re.compile(r'\b(?:University|Institute|Department|Dept|POSTECH|Professor|Director|Fellow|Academy|Association|School of)\b|대학교|대학원|학과', re.I)
 
 
 def sentences(text):
-    parts = [re.sub(r'\s+', ' ', part).strip(' -•·\t') for part in SENTENCE_BREAK.split(text or '')]
+    parts = []
+    for part in SENTENCE_BREAK.split(text or ''):
+        part = re.sub(r'\s+', ' ', part).strip(' -•·\t')
+        # A period after 'Prof.' or a hard line break inside a sentence does not end the sentence.
+        if parts and part and (ABBREVIATION_END.search(parts[-1]) or (OPEN_ENDED.search(parts[-1]) and not re.search(r'[.!?:]$', parts[-1]))
+                               or (part[0].islower() and not re.search(r'[.!?:]$', parts[-1]))):
+            parts[-1] += ' ' + part
+        elif part:
+            parts.append(part)
     return [part for part in parts if len(part) >= 15] or [re.sub(r'\s+', ' ', text or '').strip()]
+
+
+def not_about_research(sentence):
+    """Contact details, recruiting notices, career lines, affiliations and page furniture scraped with a homepage."""
+    if NOT_RESEARCH.search(sentence) or CAREER_LINE.search(sentence):
+        return True
+    return len(sentence) < 90 and bool(AFFILIATION.search(sentence)) and not re.search(r'\b(?:study|studies|research|develop|focus|investigat|explor)', sentence, re.I)
 
 
 def clip(text, limit=SNIPPET_LIMIT):
     if len(text) <= limit:
         return text
     cut = text[:limit]
+    end = max(cut.rfind(mark) for mark in ('. ', '? ', '! '))
+    if end >= limit // 2:  # whole sentences read better than a longer cut
+        return cut[:end + 1]
     return (cut[:cut.rfind(' ')] if ' ' in cut[limit // 2:] else cut).rstrip(',;: ') + '…'
 
 
@@ -116,6 +142,7 @@ LINK_STOPWORDS = {'course', 'courses', 'student', 'students', 'understand', 'und
                   'chapter', 'lecture', 'lectures', 'class', 'skills', 'ability', 'knowledge', 'principles', 'topics',
                   'various', 'including', 'their', 'these', 'other', 'using', 'based', 'such', 'will', 'with', 'from',
                   'that', 'this', 'which', 'have', 'into', 'about', 'also', 'more', 'what', 'midterm', 'final', 'exam',
+                  'current', 'goal', 'practical', 'null', 'schedule', 'topic', 'support', 'area', 'perform', 'cover', 'principle', 'task', 'information', 'create', 'demonstrate', 'science', 'focus', 'provide', 'develop',
                   'review', 'project', 'research', 'study', 'studies', 'method', 'methods', 'theory', 'application',
                   'applications', 'approach', 'problem', 'problems', 'design', 'analysis', 'system', 'systems', 'model',
                   'models', 'data', 'part', 'parts', 'additional', 'techniques', 'technique', 'advanced', 'general',
@@ -152,7 +179,11 @@ def snippet(text, variants=()):
     parts = sentences(text)
     # A match runs to the end of the word, so 'robot' marks 'robotic' whole.
     patterns = [re.compile(r'\s?'.join(map(re.escape, v)) + r'\w*', re.I) for v in dict.fromkeys(variants) if len(v) >= 2]
-    best = max(parts, key=lambda s: (sum(bool(p.search(s)) for p in patterns), -parts.index(s))) if patterns else parts[0]
+    # A scraped page often opens with a heading ('Research Interests'); prefer a line long enough to say something.
+    rank = lambda s: (sum(bool(p.search(s)) for p in patterns), not not_about_research(s), len(s) >= READABLE_SENTENCE, -parts.index(s))
+    best = max(parts, key=rank)
+    if rank(best)[:2] == (0, False):  # nothing here is worth quoting; the full text stays one click away
+        return '', []
     best = clip(best)
     marks = list(dict.fromkeys(m.group(0) for p in patterns for m in p.finditer(best)))
     return best, marks
@@ -174,7 +205,7 @@ def load_lab_areas(path):
             continue
         shown, keys = [], set()
         for area in row.get('research_areas') or []:
-            raw = str(area.get('name_ko') or area.get('name_en') or area.get('name') or '').strip()
+            raw = tidy(str(area.get('name_ko') or area.get('name_en') or area.get('name') or '').strip())
             keys.add(area_label(raw[:100]))
             label = area_label(raw)
             if area.get('kind') != 'heading' and label and label.lower() not in GENERIC_AREA_LABELS \
@@ -225,6 +256,13 @@ class CuratedCatalog:
                 if new in self.profiles:
                     self.aliases.setdefault(old, new)
         self.mark_suspect(root / 'suspect_papers.json')
+        for profile in self.profiles.values():
+            for topic in profile['topics']:
+                topic['label_ko'], topic['quote'] = tidy(topic['label_ko']), tidy(topic['quote'])
+        for course in self.courses:
+            for field in ('title', 'description', 'lecture_plan'):
+                if isinstance(course.get(field), str):
+                    course[field] = tidy(course[field])
         self._details = {}
         self._search_cache = {}
         path = root / 'lab_course_bge_m3.json'
@@ -438,20 +476,25 @@ class CuratedCatalog:
             return self._details[lid]
         p = self.profiles[lid]
         ranked = sorted(self.course_similarity.get(lid, {}).items(), key=lambda kv: -kv[1])[:20]
-        courses = []
+        courses, by_title = [], {}
         for code, similarity in ranked:
             c = self.course_map.get(code)
             if not c:
                 continue
+            same = COURSE_PREFIX.sub('', c['title'])
+            if same in by_title:  # one class listed under two departments, sometimes with a '특강:' prefix
+                by_title[same]['other_codes'].append(code)
+                continue
             evidence = (c.get('description') or c.get('lecture_plan') or '').strip()
             link = self.course_link(lid, c)
-            reason = (f"연구실 자료의 ‘{clip(link['lab_title'], 60)}’에 나오는 {', '.join(link['shared'][:3])} 내용을 이 과목에서도 다뤄요."
+            reason = (f"연구실의 {link['lab_kind']}에 나오는 {', '.join(link['shared'][:3])} 내용을 이 과목에서도 다뤄요."
                       if link else '과목 설명과 연구실 자료의 전반적인 내용이 비슷해 고른 과목이에요. 겹치는 표현은 따로 찾지 못했어요.')
-            courses.append({'id': code, 'code': code, 'name': c['title'],
-                            'description': evidence[:500], 'topics': [], 'reason': reason, 'link': link,
-                            'intro': [clip(line, 160) for line in course_lines(c)[:2]],
-                            'evidence': evidence[:500], 'strength': 'semantic',
+            courses.append({'id': code, 'code': code, 'other_codes': [], 'name': c['title'],
+                            'description': clip(evidence, 1500), 'topics': [], 'reason': reason, 'link': link,
+                            'intro': [clip(line) for line in course_lines(c)[:2]],
+                            'evidence': clip(evidence, 1500), 'strength': 'semantic',
                             'quality_flags': c.get('exclusion') or [], 'similarity': similarity})
+            by_title[same] = courses[-1]
         result = {**self.card(lid), 'evidence': [self._evidence(t) for t in self.shown_topics(p)],
                   'courses': courses,
                   'notice': '과목은 BGE-M3 의미 유사도에 따른 탐색 후보입니다. 공식 선수과목이나 연구실 참여 조건이 아닙니다.'}
@@ -484,7 +527,9 @@ class CuratedCatalog:
             return None
         _, line, t, shared = best
         evidence = self._evidence(t, shared)
-        return {'course_line': clip(line, 200), 'shared': shared[:4], 'lab_kind': evidence['kind'],
+        lowered = line.lower()  # 'machine' or 'deep' alone says little when the course says 'machine learning'
+        shared = list(dict.fromkeys(f'{w} learning' if w in ('machine', 'deep') and f'{w} learning' in lowered else w for w in shared))
+        return {'course_line': clip(line), 'course_full': line if clip(line) != line else '', 'lab_full': evidence['full'], 'shared': shared[:4], 'lab_kind': evidence['kind'],
                 'lab_title': evidence['title'], 'lab_snippet': evidence['snippet'], 'lab_marks': evidence['marks'],
                 'course_marks': list(dict.fromkeys(m.group(0) for w in shared for m in re.finditer(re.escape(w) + r'\w*', line, re.I)))}
 

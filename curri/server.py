@@ -342,7 +342,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 if path == '/api/worker/answer':
                     if not self.worker_authorized():
                         return
-                    accepted = broker.answer(body.get('job_id'), body.get('lab_ids'), body.get('sims'), body.get('best'))
+                    accepted = broker.answer(body.get('job_id'), body.get('lab_ids'), body.get('sims'), body.get('best'), body.get('query'))
                     return self.respond(200, {'accepted': accepted})
                 if path == '/api/llm/answer':
                     if not self.llm_authorized():

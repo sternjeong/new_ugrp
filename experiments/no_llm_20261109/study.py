@@ -175,7 +175,14 @@ def rank(text, cfg):
     if cfg.get('B'):
         lists.append(ranked(as_labs(lexical['colbert'][query]), penalties))
     if cfg.get('R'):
-        lists.append(ranked(as_labs(reranks['scores'][query]), penalties))
+        rerank_scores = as_labs(reranks['scores'][query])
+        if cfg['R'] > 1:  # the reranker only sees this many labs, the closest by the feedback-expanded chunk score
+            chunk_scores = cached(memo_dense, (query, cfg.get('C', 0), cfg.get('P', 0)), lambda: aggregate(V @ v, index))
+            head = set(sorted(chunk_scores, key=lambda l: -chunk_scores[l])[:cfg['R']])
+            rerank_scores = {l: x for l, x in rerank_scores.items() if l in head}
+            lists.append(ranked(rerank_scores, [{l: p[l] for l in rerank_scores} for p in penalties]))
+        else:
+            lists.append(ranked(rerank_scores, penalties))
     if cfg.get('Q'):
         lists.append(ranked(aggregate(d2q_vectors @ v, {o: np.array(d2q_index[o], dtype=int) for o in known}), penalties))
         lists.append(ranked(as_labs(lexical['sparse_d2q'][query]), penalties))
@@ -453,4 +460,35 @@ def analyze():
     print(json.dumps({k: v for k, v in metrics.items() if k != 'per_query'}, ensure_ascii=False, indent=1))
 
 
-{'select': select, 'test': test, 'analyze': analyze}[command]()
+def topk():
+    """How much of the reranker's effect remains when it scores only the top K labs. K is picked on dev, unjudged pairs are graded by the panel."""
+    frozen = json.loads((HERE / 'frozen.json').read_text())['N1']
+    queries, gain, should, controls = grades.load()
+    load_extra(gain)
+    sizes = [20, 30, 50, 100, 1]
+    results = {k: {q['id']: rank(q['text'], {**frozen, 'R': k}) for q in queries} for k in sizes}
+    wanted = defaultdict(set)
+    for r in results.values():
+        for k, labs in r.items():
+            wanted[k] |= set((labs or [])[:5])
+    print('dev unjudged', sum(l not in gain[k] for k in wanted for l in wanted[k] if should[k]), flush=True)
+    if len(sys.argv) > 5 and sys.argv[5] == 'judge':
+        judge_new(queries, gain, should, controls, wanted, 'topk')
+    out = {'dev': {k: round(mean(list(dev_scores(r, gain, should, controls, queries).values())), 4) for k, r in results.items()}}
+    print(json.dumps(out))
+    (HERE / 'topk_dev.json').write_text(json.dumps(out, indent=1))
+
+
+def softgate():
+    """Effect on the held-out set of skipping the refusal check when a stated interest comes with an avoidance the rules missed."""
+    from curri.curated_query_engine import AVOID_CUE, INTEREST_CLAUSE
+    frozen = {**json.loads((HERE / 'frozen.json').read_text())['N1'], 'R': 50}
+    queries = json.loads((HERE / 'holdout.json').read_text())
+    hits = [q for q in queries if AVOID_CUE.search(q['text']) and INTEREST_CLAUSE.search(q['text'])]
+    print('affected', [(q['id'], q['text']) for q in hits])
+    out = {q['id']: {'with_gate': rank(q['text'], frozen), 'without': rank(q['text'], {**frozen, 'gate': None})} for q in hits}
+    (HERE / 'softgate.json').write_text(json.dumps(out, ensure_ascii=False, indent=1))
+    print({k: (v['with_gate'] is None, len(v['without'] or [])) for k, v in out.items()})
+
+
+{'select': select, 'test': test, 'analyze': analyze, 'topk': topk, 'softgate': softgate}[command]()

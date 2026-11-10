@@ -148,6 +148,12 @@ def zscores(values):
     return [(v - mean) / sd for v in values]
 
 
+def with_particle(word):
+    """'과' after a Korean final consonant, otherwise '와'."""
+    last = (word or ' ').rstrip()[-1:]
+    return '과' if '가' <= last <= '힣' and (ord(last) - 0xAC00) % 28 else '와'
+
+
 class QueryEngine:
     def __init__(self, catalog, broker=None, timeout=6.0, launcher=None):
         self.catalog = catalog
@@ -192,7 +198,7 @@ class QueryEngine:
         topics = self.catalog.profiles[lab_id]['topics']
         evidence = [self.catalog._evidence(topics[topic_index])] if 0 <= topic_index < len(topics) else []
         card.update(matched_topics=[], evidence=evidence, score=round(score, 3), connection='semantic',
-                    reason=f"‘{phrase}’와 의미가 가까운 내용을 연구실 자료에서 찾았습니다. 실제 활용 관계는 원문에서 확인하세요.")
+                    reason=f"‘{phrase}’{with_particle(phrase)} 의미가 가까운 내용을 연구실 자료에서 찾았습니다. 실제 활용 관계는 원문에서 확인하세요.")
         if card['status'] == 'thin':
             card['reason'] += ' 수집 자료가 제목 수준이라 연구 내용은 홈페이지에서 확인이 필요합니다.'
         return card

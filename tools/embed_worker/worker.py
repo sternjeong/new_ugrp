@@ -6,16 +6,28 @@ Kaggle은 외부에서 들어오는 연결을 받을 수 없으므로 워커가 
 
 연구실 문서(요약 + 주제별 "라벨: 원문 인용")는 experiments의 방식과 같고, 연구실 점수는 문서별 코사인 유사도의 최대값이다.
 설정은 worker_config.json: {"base_url", "token", "idle_exit_min", "max_run_min"}. 토큰은 서버의 .local/worker_token과 같아야 한다.
+
+GPU가 있고 search_chunks.jsonl·search_vectors.npy·intent_exemplars.json이 있으면 질의 전체 분석도 맡는다(QueryAnalyzer). 근거는 experiments/no_llm_20261109/REPORT.md.
 """
 import hashlib
 import json
 import os
+import re
 import sys
 import time
+from collections import defaultdict
 import urllib.error
 import urllib.request
 
 import numpy as np
+
+
+CHUNK_WEIGHTS = np.array([1.0, 0.3, 0.15])
+FEEDBACK_WEIGHT = 0.6
+FEEDBACK_CHUNKS = 10
+RERANK_LABS = 50
+RERANK_CHARS = 1600
+SEARCH_FILES = ('search_chunks.jsonl', 'search_vectors.npy', 'intent_exemplars.json')
 
 
 def load_jsonl(path):
@@ -53,9 +65,64 @@ def score(E, D, starts, topic_of):
     return sims, best
 
 
+class QueryAnalyzer:
+    """질의 전체를 분석한다: 예문 임베딩으로 거절 판단, 번역, 유사 피드백을 더한 조각 검색, 리랭커.
+
+    encode(texts) → 정규화된 벡터 행렬, translate(text) → 영어 문장, rerank(query, documents) → 문서별 점수.
+    """
+    def __init__(self, encode, translate, rerank, chunks, vectors, exemplars):
+        self.encode, self.translate, self.rerank = encode, translate, rerank
+        self.texts, self.V = [c['text'] for c in chunks], vectors
+        where = defaultdict(list)
+        for i, c in enumerate(chunks):
+            where[c['owner']].append(i)
+        self.where = {owner: np.array(ids) for owner, ids in where.items()}
+        self.examples = [(label, text) for label, texts in exemplars.items() for text in texts]
+        self.E = np.asarray(encode([text for _, text in self.examples]), dtype=np.float32)
+
+    def intent(self, vector):
+        """가장 가까운 거절 유형과, 그 유형이 '검색'보다 얼마나 가까운지. 유형 점수는 가까운 예문 3개의 평균이다."""
+        by = defaultdict(list)
+        for (label, _), sim in zip(self.examples, self.E @ vector):
+            by[label].append(float(sim))
+        score = {label: float(np.mean(sorted(sims, reverse=True)[:3])) for label, sims in by.items()}
+        label = max((x for x in score if x != 'search'), key=score.get)
+        return label, score[label] - score['search']
+
+    def aggregate(self, sims):
+        """연구실 점수: 가장 가까운 조각 3개의 가중합."""
+        out = {}
+        for owner, ids in self.where.items():
+            top = np.sort(sims[ids])[::-1][:3]
+            out[owner] = float((CHUNK_WEIGHTS[:len(top)] * top).sum())
+        return out
+
+    def analyze(self, query):
+        out = {}
+        if query.get('gate') is not None:
+            out['intent'], margin = self.intent(np.asarray(self.encode([query['raw']]), dtype=np.float32)[0])
+            out['margin'] = round(margin, 5)
+            if margin > query['gate']:
+                return out
+        text, dislikes = query['text'], query['dislikes']
+        english = self.translate(text) if re.search('[가-힣]', text) else ''
+        extended = f'{text} {english}' if english else text
+        vectors = np.asarray(self.encode([extended] + dislikes), dtype=np.float32)
+        plain = self.V @ vectors[0]
+        expanded = vectors[0] + FEEDBACK_WEIGHT * self.V[np.argsort(plain)[::-1][:FEEDBACK_CHUNKS]].mean(0)
+        chunk = self.aggregate(self.V @ (expanded / np.linalg.norm(expanded)))
+        head = sorted(chunk, key=lambda owner: -chunk[owner])[:RERANK_LABS]
+        documents = ['\n'.join(self.texts[int(k)] for k in self.where[o][np.argsort(plain[self.where[o]])[::-1][:3]])[:RERANK_CHARS] for o in head]
+        rerank = self.rerank(extended, documents)
+        out.update(english=english, chunk={o: round(v, 5) for o, v in chunk.items()},
+                   rerank={o: round(float(v), 4) for o, v in zip(head, rerank)},
+                   penalties=[{o: round(v, 5) for o, v in self.aggregate(self.V @ d).items()} for d in vectors[1:]])
+        return out
+
+
 class Worker:
-    def __init__(self, base_url, token, encode, profiles, idle_exit_min=20, max_run_min=240, log=print, cache_path=None, model_id=''):
-        self.base, self.token, self.encode, self.log = base_url.rstrip('/'), token, encode, log
+    def __init__(self, base_url, token, encode, profiles, idle_exit_min=20, max_run_min=240, log=print, cache_path=None, model_id='', analyzer=None):
+        self.base, self.token, self.encode, self.log, self.analyzer = base_url.rstrip('/'), token, encode, log, analyzer
         # 0 이하는 제한 없음(전용 서버에서 상시 실행)
         self.idle_exit = idle_exit_min * 60 if idle_exit_min > 0 else float('inf')
         self.max_run = max_run_min * 60 if max_run_min > 0 else float('inf')
@@ -123,7 +190,13 @@ class Worker:
             t0 = time.time()
             try:
                 sims, best = self.answer_for(job['phrases'])
-                accepted = self.http('POST', '/api/worker/answer', {'job_id': job['id'], 'lab_ids': self.lab_ids, 'sims': sims, 'best': best}).get('accepted')
+                body = {'job_id': job['id'], 'lab_ids': self.lab_ids, 'sims': sims, 'best': best}
+                if job.get('query') and self.analyzer:
+                    try:
+                        body['query'] = self.analyzer.analyze(job['query'])
+                    except Exception as exc:       # 구절 유사도만으로도 검색할 수 있다
+                        self.log(f'작업 {job["id"]} 질의 분석 실패: {type(exc).__name__}: {exc}')
+                accepted = self.http('POST', '/api/worker/answer', body).get('accepted')
             except Exception as exc:
                 self.log(f'작업 {job.get("id")} 처리 실패: {type(exc).__name__}: {exc}')
                 continue
@@ -134,20 +207,50 @@ class Worker:
         return jobs
 
 
-def main(config_path='worker_config.json', profiles_path='app_profiles.jsonl'):
+def load_encoder():
     import torch
     from sentence_transformers import SentenceTransformer
-    cfg = json.load(open(config_path, encoding='utf-8'))
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     if device == 'cpu':
         torch.set_num_threads(os.cpu_count() or 2)
     model = SentenceTransformer('BAAI/bge-m3', device=device)
     if device == 'cuda':
         model.half()
-    encode = lambda texts: model.encode(list(texts), batch_size=32, normalize_embeddings=True, show_progress_bar=False)
+    return (lambda texts: model.encode(list(texts), batch_size=32, normalize_embeddings=True, show_progress_bar=False)), device
+
+
+def load_analyzer(encode, device):
+    """번역기와 리랭커는 GPU에서만 쓸 만한 속도가 나온다. 자료가 없거나 CPU면 None(구절 유사도만 계산)."""
+    if device != 'cuda' or not all(os.path.exists(name) for name in SEARCH_FILES):
+        return None
+    import torch
+    from sentence_transformers import CrossEncoder
+    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+    name = 'facebook/nllb-200-distilled-600M'
+    tokenizer = AutoTokenizer.from_pretrained(name, src_lang='kor_Hang')
+    translator = AutoModelForSeq2SeqLM.from_pretrained(name, torch_dtype=torch.float16).cuda().eval()
+    english = tokenizer.convert_tokens_to_ids('eng_Latn')
+
+    def translate(text):
+        encoded = tokenizer(text, return_tensors='pt', truncation=True, max_length=200).to('cuda')
+        with torch.no_grad():
+            generated = translator.generate(**encoded, forced_bos_token_id=english, max_new_tokens=120)
+        return tokenizer.decode(generated[0], skip_special_tokens=True)
+    cross = CrossEncoder('BAAI/bge-reranker-v2-m3', max_length=512, device='cuda')
+    cross.model.half()
+    rerank = lambda query, documents: cross.predict([(query, d) for d in documents], batch_size=48, show_progress_bar=False)
+    return QueryAnalyzer(encode, translate, rerank, load_jsonl(SEARCH_FILES[0]), np.load(SEARCH_FILES[1]).astype(np.float32),
+                         json.load(open(SEARCH_FILES[2], encoding='utf-8')))
+
+
+def main(config_path='worker_config.json', profiles_path='app_profiles.jsonl'):
+    cfg = json.load(open(config_path, encoding='utf-8'))
+    encode, device = load_encoder()
     print('장치:', device)
+    analyzer = load_analyzer(encode, device)
+    print('질의 분석:', '켜짐' if analyzer else '꺼짐')
     worker = Worker(cfg['base_url'], cfg['token'], encode, load_jsonl(profiles_path), cfg.get('idle_exit_min', 20), cfg.get('max_run_min', 240),
-                    cache_path=cfg.get('doc_cache') or None, model_id=f'bge-m3-{device}')
+                    cache_path=cfg.get('doc_cache') or None, model_id=f'bge-m3-{device}', analyzer=analyzer)
     # 시작 전에 서버 연결을 확인한다(토큰은 출력하지 않는다)
     print('서버 상태:', urllib.request.urlopen(cfg['base_url'].rstrip('/') + '/api/engine', timeout=20).read().decode())
     worker.run()

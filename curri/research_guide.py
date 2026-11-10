@@ -8,6 +8,7 @@ codes must be ones the student marked, next courses must come from the offered l
 import json
 import re
 
+from .text_cleanup import tidy
 from .curated_catalog import clip, course_lines, load_jsonl
 
 PROMPT_VERSION = 'R2-2026-11-07'
@@ -97,8 +98,8 @@ class ResearchGuide:
         if intro:
             out.append({'id': f'S{len(out) + 1}', 'kind': '연구실 소개', 'text': clip(intro, 900), 'url': profile['lab_url']})
         for i, p in enumerate(self.papers.recent(lab_id)):
-            out.append({'id': f'P{i + 1}', 'kind': '대표 논문', 'title': p['title'], 'year': p.get('year'),
-                        'text': p['abstract'], 'url': paper_url(p)})
+            out.append({'id': f'P{i + 1}', 'kind': '대표 논문', 'title': tidy(p['title']), 'year': p.get('year'),
+                        'text': tidy(p['abstract']), 'url': paper_url(p)})
         return out
 
     def payload(self, lab_id, interests, selected_ids, student=None):
@@ -167,7 +168,7 @@ class ResearchGuide:
         papers = {f'P{i + 1}': p for i, p in enumerate(self.papers.recent(payload['check']['lab_id'], 3))}
         if not isinstance(raw, dict) or not isinstance(raw.get('papers'), list):
             raise ValueError('형식이 맞지 않음')
-        items = [{'title': papers[x['paper_id']]['title'], 'year': papers[x['paper_id']].get('year'), 'url': paper_url(papers[x['paper_id']]),
+        items = [{'title': tidy(papers[x['paper_id']]['title']), 'year': papers[x['paper_id']].get('year'), 'url': paper_url(papers[x['paper_id']]),
                   'plain': str(x.get('plain', ''))[:600],
                   'terms': [{'term': str(t.get('term', ''))[:60], 'meaning': str(t.get('meaning', ''))[:200]} for t in (x.get('terms') or [])][:3]}
                  for x in raw['papers'] if x.get('paper_id') in papers]

@@ -34,6 +34,35 @@ def hashed(texts, dim=256):
     return out / (np.linalg.norm(out, axis=1, keepdims=True) + 1e-9)
 
 
+@unittest.skipUnless(np is not None, 'numpy가 필요합니다')
+class QueryAnalyzerTests(unittest.TestCase):
+    def setUp(self):
+        spec = importlib.util.spec_from_file_location('embed_worker3', ROOT / 'tools' / 'embed_worker' / 'worker.py')
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        chunks = [{'owner': 'a', 'text': '강화학습 로봇 제어'}, {'owner': 'a', 'text': '로봇 팔'}, {'owner': 'b', 'text': '반도체 소자 공정'}, {'owner': 'c', 'text': '단백질 구조 분석'}]
+        self.reranked = []
+        self.analyzer = module.QueryAnalyzer(hashed, lambda text: 'robot', lambda q, docs: self.reranked.append((q, docs)) or [float(i) for i in range(len(docs))],
+                                             chunks, hashed([c['text'] for c in chunks]),
+                                             {'search': ['강화학습 로봇 제어를 연구', '반도체 소자 공정 연구', '단백질 구조'], 'off_topic': ['저녁에 치킨 시킬까', '치킨 먹을까', '치킨 맛집']})
+
+    def test_refuses_early_above_the_margin(self):
+        result = self.analyzer.analyze({'raw': '저녁에 치킨 시킬까', 'text': '저녁에 치킨 시킬까', 'dislikes': [], 'gate': 0.05})
+        self.assertEqual(result['intent'], 'off_topic')
+        self.assertGreater(result['margin'], 0.05)
+        self.assertNotIn('chunk', result)
+        self.assertEqual(self.reranked, [])
+
+    def test_scores_labs_with_translation_and_dislikes(self):
+        result = self.analyzer.analyze({'raw': '로봇 제어', 'text': '로봇 제어', 'dislikes': ['반도체'], 'gate': None})
+        self.assertEqual(result['english'], 'robot')
+        self.assertEqual(max(result['chunk'], key=result['chunk'].get), 'a')
+        self.assertEqual(set(result['rerank']), {'a', 'b', 'c'})
+        self.assertEqual(max(result['penalties'][0], key=result['penalties'][0].get), 'b')
+        self.assertEqual(self.reranked[0][0], '로봇 제어 robot')
+        self.assertIn('강화학습 로봇 제어', self.reranked[0][1][0])
+
+
 @unittest.skipUnless(np is not None and (DATA / 'courses.jsonl').exists(), 'numpy와 MVP 데이터가 필요합니다')
 class EmbedWorkerTests(unittest.TestCase):
     def test_worker_serves_the_search_api_end_to_end(self):

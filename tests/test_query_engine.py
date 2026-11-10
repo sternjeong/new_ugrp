@@ -7,7 +7,7 @@ import unittest
 import urllib.error
 import urllib.request
 from pathlib import Path
-from curri.embed_broker import EmbedBroker
+from curri.embed_broker import EmbedBroker, query_key
 from curri.profile_catalog import ProfileCatalog
 from curri.query_engine import QueryEngine, interpret, plan
 from curri.server import make_server
@@ -45,6 +45,27 @@ class QueryEngineTests(unittest.TestCase):
     def setUpClass(cls):
         cls.catalog = ProfileCatalog(DATA)
         cls.lab_ids = sorted(cls.catalog.profiles)
+
+    def test_broker_returns_a_query_analysis_and_caches_it(self):
+        broker = EmbedBroker(TOKEN)
+        broker.last_poll = time.time()
+        query = {'raw': '낯선 표현', 'text': '낯선 표현', 'dislikes': [], 'gate': 0.05}
+
+        def answer():
+            job = broker.poll(2)
+            self.assertEqual(job['query'], query)
+            broker.answer(job['id'], ['lab'], {'낯선 표현': [0.5]}, {'낯선 표현': [0]}, {'chunk': {'lab': 0.5}})
+        threading.Thread(target=answer, daemon=True).start()
+        found = broker.understand(['낯선 표현'], query, 3)
+        self.assertEqual(found[query_key(query)], {'chunk': {'lab': 0.5}})
+        broker.last_poll = 0
+        self.assertEqual(broker.understand(['낯선 표현'], query, 0.1)[query_key(query)], {'chunk': {'lab': 0.5}})
+
+    def test_broker_keeps_phrases_when_no_analysis_can_be_had(self):
+        broker = EmbedBroker(TOKEN)
+        broker.cache['구절'] = {'sims': {}, 'best': {}}
+        found = broker.understand(['구절'], {'raw': '구절', 'text': '구절', 'dislikes': [], 'gate': 0.05}, 0.1, remote=False)
+        self.assertEqual(list(found), ['구절'])
 
     def test_negation_and_phrase_are_interpreted(self):
         self.assertEqual(interpret('나는 로봇은 싫은데 컴퓨터 아키텍처는 좋아요'), {'likes': ['컴퓨터 아키텍처'], 'dislikes': ['로봇']})
