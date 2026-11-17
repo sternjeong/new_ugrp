@@ -25,6 +25,11 @@ STATIC = Path(__file__).parent / 'static'
 APP_PATHS = re.compile(r'^/(?:lab/[A-Za-z0-9:_. %-]{1,80}|results|saved|board|inbox|profile|privacy|reset|graduate|unsubscribe)?$')
 ASSETS = {'/app.js': ('app.js', 'text/javascript; charset=utf-8'), '/platform.js': ('platform.js', 'text/javascript; charset=utf-8'),
           '/styles.css': ('styles.css', 'text/css; charset=utf-8')}
+# Self-hosted Pretendard (OFL, see static/fonts/LICENSE.txt). The files never change, so browsers may keep them.
+ASSETS.update({f'/fonts/Pretendard-{w}.subset.woff2': (f'fonts/Pretendard-{w}.subset.woff2', 'font/woff2')
+               for w in ('Regular', 'SemiBold', 'Bold')})
+# Logo and tab icon, built by tools/build_logo.py (rules in docs/brand/README.md).
+ASSETS.update({'/brand/logo.svg': ('brand/logo.svg', 'image/svg+xml'), '/favicon.svg': ('brand/favicon.svg', 'image/svg+xml')})
 
 
 def make_server(host, port, catalog, store, secure_cookie=False, community=None, engine=None, broker=None,
@@ -148,16 +153,16 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
             except Exception as exc:  # metrics must never break a request
                 print(f'event error: {type(exc).__name__}', flush=True)
 
-        def respond(self, status, body, mime='application/json; charset=utf-8'):
+        def respond(self, status, body, mime='application/json; charset=utf-8', cache='no-store'):
             content = json.dumps(body, ensure_ascii=False).encode() if mime.startswith('application/json') else body
             self.send_response(status)
             self.send_header('Content-Type', mime)
             self.send_header('Content-Length', str(len(content)))
-            self.send_header('Cache-Control', 'no-store')
+            self.send_header('Cache-Control', cache)
             self.send_header('X-Content-Type-Options', 'nosniff')
             self.send_header('Referrer-Policy', 'same-origin')
             self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'")
-            if hasattr(self, 'token'):
+            if hasattr(self, 'token') and cache == 'no-store':
                 cookie = f'curri_session={self.token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=2592000'
                 if secure_cookie:
                     cookie += '; Secure'
@@ -322,7 +327,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 name, mime = ASSETS[path]
                 f = STATIC / name
                 if f.exists():
-                    return self.respond(200, f.read_bytes(), mime)
+                    return self.respond(200, f.read_bytes(), mime,
+                                        'public, max-age=31536000, immutable' if mime == 'font/woff2' else 'no-store')
             self.respond(404, {'error': '찾을 수 없는 페이지입니다.'})
 
         def do_POST(self):
