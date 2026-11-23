@@ -19,6 +19,7 @@
 | 파일 | 내용 |
 |---|---|
 | `curri/static/brand/logo.svg` | 사이트 머리글에 쓰는 가로형. 바탕과 여백이 없다 |
+| `curri/static/brand/logo-dark.svg` | 다크 모드 머리글용. 글자가 흰색이다 |
 | `curri/static/brand/favicon.svg` | 브라우저 탭 아이콘(심볼) |
 | `docs/brand/logo-stacked.svg`, `logo-stacked-1024.png`, `logo-stacked-512.png` | 세로형, 흰 바탕 |
 | `docs/brand/logo-stacked-dark.svg`, `logo-stacked-dark-1024.png`, `logo-stacked-dark-512.png` | 세로형, 검은 바탕 |

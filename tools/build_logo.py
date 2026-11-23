@@ -104,6 +104,7 @@ def main():
     docs.mkdir(parents=True, exist_ok=True)
     files = {
         static / 'logo.svg': horizontal(face, INK, margin=0),                  # page header: no ground, no margin
+        static / 'logo-dark.svg': horizontal(face, WHITE, margin=0),           # page header in the dark theme
         static / 'favicon.svg': mark(),
         docs / 'logo-horizontal.svg': horizontal(face, INK, WHITE),            # for documents: ground and clear space included
         docs / 'logo-horizontal-dark.svg': horizontal(face, WHITE, INK),

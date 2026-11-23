@@ -8,14 +8,15 @@
   <title>3분커리 · 관심 분야로 POSTECH 연구실 찾기</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
+  <script src="/theme.js"></script>
   <script defer src="/platform.js"></script>
   <script defer src="/app.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">본문으로 이동</a>
   <header class="header">
-    <button class="brand" data-action="home" aria-label="3분커리 처음으로"><img src="/brand/logo.svg" alt="" width="714" height="200"></button>
-    <nav aria-label="주 메뉴"><button data-action="board" class="nav-button">연구참여 후기</button><button data-action="saved" class="nav-button">나의 탐색 <span id="saved-count">0</span></button><button data-action="inbox" id="inbox-nav" class="nav-button" hidden>쪽지함 <span id="unread-count">0</span></button><button id="account" data-action="account" class="account">로그인</button></nav>
+    <button class="brand" data-action="home" aria-label="3분커리 처음으로"><img class="logo-light" src="/brand/logo.svg" alt="" width="714" height="200"><img class="logo-dark" src="/brand/logo-dark.svg" alt="" width="714" height="200"></button>
+    <nav aria-label="주 메뉴"><button data-action="board" class="nav-button">연구참여 후기</button><button data-action="saved" class="nav-button">나의 탐색 <span id="saved-count">0</span></button><button data-action="inbox" id="inbox-nav" class="nav-button" hidden>쪽지함 <span id="unread-count">0</span></button><span class="nav-end"><button id="account" data-action="account" class="account">로그인</button><button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false"><svg class="icon-moon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M13.6 9.7A6.1 6.1 0 1 1 6.3 2.4a4.8 4.8 0 0 0 7.3 7.3z"/></svg><svg class="icon-sun" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="3.3"/><path d="M13.10 8.00L15.20 8.00M11.61 11.61L13.09 13.09M8.00 13.10L8.00 15.20M4.39 11.61L2.91 13.09M2.90 8.00L0.80 8.00M4.39 4.39L2.91 2.91M8.00 2.90L8.00 0.80M11.61 4.39L13.09 2.91"/></svg><span class="theme-label">다크 모드</span></button></span></nav>
   </header>
   <main id="main" tabindex="-1"><div class="loading" role="status">불러오는 중이에요…</div></main>
   <footer><span class="footer-brand">3분커리</span><button class="text-button" data-action="open-feedback">의견 보내기</button><button class="text-button" data-action="privacy">개인정보 처리방침</button><span class="footer-note">POSTECH 학부생 연구프로그램(UGRP)을 진행하는 오뚜기부대 팀이 만든 시제품이며, 학교 공식 서비스는 아니에요.</span></footer>

@@ -23,13 +23,13 @@ from .store import LoginRequired, InvalidCredentials, ProfileRequired
 STATIC = Path(__file__).parent / 'static'
 # Screens the single-page app can open directly from a shared link or a mail.
 APP_PATHS = re.compile(r'^/(?:lab/[A-Za-z0-9:_. %-]{1,80}|results|saved|board|inbox|profile|privacy|reset|graduate|unsubscribe)?$')
-ASSETS = {'/app.js': ('app.js', 'text/javascript; charset=utf-8'), '/platform.js': ('platform.js', 'text/javascript; charset=utf-8'),
+ASSETS = {'/app.js': ('app.js', 'text/javascript; charset=utf-8'), '/theme.js': ('theme.js', 'text/javascript; charset=utf-8'), '/platform.js': ('platform.js', 'text/javascript; charset=utf-8'),
           '/styles.css': ('styles.css', 'text/css; charset=utf-8')}
 # Self-hosted Pretendard (OFL, see static/fonts/LICENSE.txt). The files never change, so browsers may keep them.
 ASSETS.update({f'/fonts/Pretendard-{w}.subset.woff2': (f'fonts/Pretendard-{w}.subset.woff2', 'font/woff2')
                for w in ('Regular', 'SemiBold', 'Bold')})
 # Logo and tab icon, built by tools/build_logo.py (rules in docs/brand/README.md).
-ASSETS.update({'/brand/logo.svg': ('brand/logo.svg', 'image/svg+xml'), '/favicon.svg': ('brand/favicon.svg', 'image/svg+xml')})
+ASSETS.update({'/brand/logo.svg': ('brand/logo.svg', 'image/svg+xml'), '/brand/logo-dark.svg': ('brand/logo-dark.svg', 'image/svg+xml'), '/favicon.svg': ('brand/favicon.svg', 'image/svg+xml')})
 
 
 def make_server(host, port, catalog, store, secure_cookie=False, community=None, engine=None, broker=None,
