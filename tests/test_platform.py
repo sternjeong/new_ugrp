@@ -196,6 +196,35 @@ class PlatformTests(PlatformBase):
         # Worker endpoints need the worker token.
         self.assertEqual(self.client()('/api/llm/poll')[0], 401)
 
+    def test_lab_brief_keeps_sourced_topics_and_picks_cited_papers_in_code(self):
+        call = self.client()
+        call('/api/session')
+        self.platform.llm.last_poll = time.time()
+        status, body = call(f'/api/summary?lab_id={self.lab}')
+        self.assertEqual((status, body['status']), (200, 'queued'))
+        self.assertTrue(all(p['cited_by_count'] >= 10 for p in body['cited']['papers']))
+        job = self.platform.llm.poll(0)
+        self.assertEqual(job['kind'], 'summary')
+        result = {'lab_oneliner': '로봇 파지를 연구해요.', 'papers': [],
+                  'focus': [{'title': '로봇 파지', 'plain': '물체를 집는 방법', 'source_ids': ['S1', 'S1']},
+                            {'title': '지어낸 주제', 'plain': '근거 없음', 'source_ids': ['S99']}]}
+        self.assertEqual(self.platform.llm.answer({'job_id': job['id'], 'ok': True, 'result': result})['status'], 'done')
+        brief = call(f'/api/summary?lab_id={self.lab}')[1]['summary']
+        kind = self.platform.guide.brief_sources(self.lab)[0]['kind']
+        self.assertEqual([(f['title'], f['basis']) for f in brief['focus']], [('로봇 파지', kind if kind == '연구실 소개' else f'{kind} 1개')])
+    def test_cited_papers_skip_namesakes_and_uncited_papers(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            paper = lambda title, cites, led=True, year=2020: {'title': title, 'cited_by_count': cites, 'lab_led': led, 'year': year, 'openalex_id': 'W1'}
+            row = {'id': 'lab', 'papers': [paper('New', 2, year=2026), paper('Old classic', 120, year=2015), paper('Shared', 300, led=False),
+                                           paper('Namesake', 900), paper('Solid', 40)]}
+            (root / 'papers.jsonl').write_text(json.dumps(row) + '\n')
+            (root / 'suspect_papers.json').write_text(json.dumps({'labs': {'lab': [{'title': 'Namesake'}]}}))
+            from curri.research_guide import LabPapers
+            cited = LabPapers(root / 'papers.jsonl').cited('lab')
+        self.assertEqual([p['title'] for p in cited['papers']], ['Old classic', 'Solid', 'Shared'])
+        self.assertIn('수집한 논문 4편(2015–2026년)', cited['note'])
+
     def test_member_without_overseas_consent_gets_no_ai_guide(self):
         call = self.client()
         call('/api/session')

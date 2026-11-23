@@ -100,12 +100,17 @@ async function loadSummary(labId, tries = 0) {
   const box = el('easy-summary'); if (!box) return;
   const r = await api(`summary?lab_id=${encodeURIComponent(labId)}`).catch(() => null);
   if (!r || state.lab?.id !== labId || !el('easy-summary')) return;
-  if (r.status === 'done') { el('easy-summary').innerHTML = summaryHTML(r.summary); api('event', {name: 'summary_view'}).catch(() => {}); }
-  else if (['queued', 'running'].includes(r.status) && tries < 25) { el('easy-summary').innerHTML = '<p class="micro">최근 논문을 쉬운 말로 정리하고 있어요…</p>'; setTimeout(() => loadSummary(labId, tries + 1), 8000); }
-  else el('easy-summary').innerHTML = '';
+  if (r.status === 'done') { el('easy-summary').innerHTML = summaryHTML(r.summary) + citedHTML(r.cited); api('event', {name: 'summary_view'}).catch(() => {}); }
+  else if (['queued', 'running'].includes(r.status) && tries < 25) { el('easy-summary').innerHTML = '<p class="micro">연구실 자료를 쉬운 말로 정리하고 있어요…</p>' + citedHTML(r.cited); setTimeout(() => loadSummary(labId, tries + 1), 8000); }
+  else el('easy-summary').innerHTML = citedHTML(r.cited);
 }
 function summaryHTML(s) {
-  return `<details class="easy-summary" open><summary>최근 논문 쉽게 읽기 <span class="pill neutral">AI 요약</span></summary><p class="oneliner">${h(s.lab_oneliner)}</p>${s.papers.map(p => `<div class="easy-paper"><p class="ev-title">${h(p.title)} <span class="micro">${h(p.year || '')}</span></p><p>${h(p.plain)}</p>${p.terms.length ? `<dl class="terms">${p.terms.map(t => `<div><dt>${h(t.term)}</dt><dd>${h(t.meaning)}</dd></div>`).join('')}</dl>` : ''}<a class="small-link" href="${h(p.url)}" target="_blank" rel="noopener noreferrer">원문 ↗</a></div>`).join('')}<p class="micro">초록을 바탕으로 AI가 풀어 쓴 설명이에요. 정확한 내용은 원문을 확인하세요.</p></details>`;
+  const focus = (s.focus || []).length ? `<div class="easy-focus"><p class="ev-title">중점 연구 주제</p>${s.focus.map(f => `<p><b>${h(f.title)}</b> ${h(f.plain)} <span class="micro">근거: ${h(f.basis)}</span></p>`).join('')}</div>` : '';
+  return `<details class="easy-summary" open><summary>이 연구실은 어떤 곳인가요 <span class="pill neutral">AI 요약</span></summary><p class="oneliner">${h(s.lab_oneliner)}</p>${focus}${s.papers.map(p => `<div class="easy-paper"><p class="ev-title">${h(p.title)} <span class="micro">${h(p.year || '')}</span></p><p>${h(p.plain)}</p>${p.terms.length ? `<dl class="terms">${p.terms.map(t => `<div><dt>${h(t.term)}</dt><dd>${h(t.meaning)}</dd></div>`).join('')}</dl>` : ''}<a class="small-link" href="${h(p.url)}" target="_blank" rel="noopener noreferrer">원문 ↗</a></div>`).join('')}<p class="micro">연구실 자료와 초록을 바탕으로 AI가 풀어 쓴 설명이에요. 정확한 내용은 원문을 확인하세요. 교수님의 지도 방식이나 연구실 분위기는 공개 자료에 없어 다루지 않았어요. 선배 후기를 참고해 주세요.</p></details>`;
+}
+function citedHTML(c) {
+  if (!c || (!c.papers.length && !c.note)) return '';
+  return `<div class="cited-papers"><p class="ev-title">인용이 많은 논문</p>${c.papers.map(p => `<p><a href="${h(p.url)}" target="_blank" rel="noopener noreferrer">${h(p.title)} ↗</a><br><span class="micro">${h([p.year, p.venue, `인용 ${p.cited_by_count}회`, p.lab_led ? '' : '공동 연구'].filter(Boolean).join(' · '))}</span></p>`).join('')}<p class="micro">${h(c.note)}</p></div>`;
 }
 async function loadWatch(labId) {
   const r = await api(`watch?lab_id=${encodeURIComponent(labId)}`).catch(() => null);

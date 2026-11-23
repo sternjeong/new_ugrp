@@ -208,9 +208,10 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
             if (job is None or job['status'] == 'failed') and P.llm.online():
                 payload = P.guide.summary_payload(lab_id)  # public abstracts only; no personal data leaves the server
                 job = P.llm.submit('summary', key, payload) if payload else None
+            cited = P.guide.papers.cited(lab_id)  # picked in code, shown even without the LLM
             if job and job['status'] == 'done':
-                return {'status': 'done', 'summary': job['result']}
-            return {'status': job['status'] if job else ('offline' if P.llm.enabled() else 'unavailable')}
+                return {'status': 'done', 'summary': job['result'], 'cited': cited}
+            return {'status': job['status'] if job else ('offline' if P.llm.enabled() else 'unavailable'), 'cited': cited}
 
         def guide_status(self, lab_id):
             lab_id = catalog.resolve(lab_id or '')
