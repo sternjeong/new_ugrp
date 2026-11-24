@@ -112,7 +112,9 @@ function onelinerHTML(text, lab) {
   const named = !(lab.professors.length === 1 && /연구실|\blab\b|laboratory|group/i.test(lab.professors[0]));
   const subject = named ? `${lab.professors.map(p => p.split(' (')[0]).join(' · ')} 교수님 연구실` : nameOf(lab);
   const first = lab.professors[0].split(' (')[0];
-  const own = text.match(/^(?:이|본|우리|저희|해당)\s*연구실(은|에서는|에서|의)\s*/) || text.match(new RegExp(`^${first.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*(?:교수님?\\s*)?(?:연구실)?(은|는|에서는)\\s+`));
+  const own = text.match(/^(?:이|본|우리|저희|해당)\s*연구실(은|에서는|에서|의)\s*/) || text.match(new RegExp(`^${first.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*(?:교수님?\\s*)?(?:연구실)?(은|는|에서는)\\s+`))
+    // The S2 brief may open with the lab's own name ("데이터 인텔리전스 연구실은"); the page already names the lab.
+    || text.match(/^[^\s,.]+(?:\s[^\s,.]+){0,3}\s*(?:연구실|랩|그룹)(은|에서는)\s+/);
   const last = subject.charCodeAt(subject.length - 1);
   const topic = last >= 0xAC00 && last <= 0xD7A3 ? ((last - 0xAC00) % 28 ? '은' : '는') : '은(는)';
   const particle = own && !['은', '는'].includes(own[1]) ? own[1] : topic;
