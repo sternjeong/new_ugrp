@@ -212,6 +212,26 @@ class PlatformTests(PlatformBase):
         brief = call(f'/api/summary?lab_id={self.lab}')[1]['summary']
         kind = self.platform.guide.brief_sources(self.lab)[0]['kind']
         self.assertEqual([(f['title'], f['basis']) for f in brief['focus']], [('로봇 파지', kind if kind == '연구실 소개' else f'{kind} 1개')])
+    def test_a_reviewed_paper_decision_rebuilds_only_that_labs_brief(self):
+        from curri.llm_jobs import cache_key
+        from curri.research_guide import LabPapers, ResearchGuide, SUMMARY_VERSION
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            rows = [{'id': 'as_collected', 'basis': 'lab_led', 'papers': [{'openalex_id': 'W1', 'title': 'A'}]},
+                    {'id': 'reviewed', 'basis': 'official_allowlist', 'papers': [{'openalex_id': 'W2', 'title': 'B', 'ownership_verification': {}}]},
+                    {'id': 'emptied', 'basis': 'unverified_after_exclusions', 'papers': []}]
+            (root / 'papers.jsonl').write_text(''.join(json.dumps(r) + '\n' for r in rows))
+            guide = ResearchGuide(None, LabPapers(root / 'papers.jsonl'))
+            # Labs as collected keep the key their cached brief was stored under.
+            self.assertEqual(guide.summary_key('as_collected'), cache_key('summary', SUMMARY_VERSION, 'as_collected'))
+            self.assertEqual(guide.summary_key('unknown'), cache_key('summary', SUMMARY_VERSION, 'unknown'))
+            before = guide.summary_key('reviewed')
+            self.assertNotEqual(before, cache_key('summary', SUMMARY_VERSION, 'reviewed'))
+            self.assertNotEqual(guide.summary_key('emptied'), cache_key('summary', SUMMARY_VERSION, 'emptied'))
+            rows[1]['papers'].append({'openalex_id': 'W3', 'title': 'C', 'ownership_verification': {}})
+            (root / 'papers.jsonl').write_text(''.join(json.dumps(r) + '\n' for r in rows))
+            self.assertNotEqual(ResearchGuide(None, LabPapers(root / 'papers.jsonl')).summary_key('reviewed'), before)
+
     def test_cited_papers_skip_namesakes_and_uncited_papers(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

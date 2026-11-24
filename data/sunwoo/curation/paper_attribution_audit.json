@@ -1,0 +1,1302 @@
+{
+ "_about": "Review queue of tools/paper_attribution.py audit. A tier is where to look first, not a verdict.",
+ "rules": "paper-attribution-v1",
+ "tiers": {
+  "1": "먼저 확인: 보여 주는 논문 중 본인 확인된 것이 없음",
+  "2": "확인 필요: 절반 이상이 미확인",
+  "3": "일부 미확인",
+  "0": "미확인 없음"
+ },
+ "labs": 307,
+ "papers": {
+  "reviewed": 9,
+  "confirmed": 2116,
+  "unverified": 636,
+  "papers": 2761
+ },
+ "by_tier": {
+  "1": 16,
+  "2": 39,
+  "3": 144,
+  "0": 108
+ },
+ "queue": [
+  {
+   "lab_id": "18aa873d92c1aee6f3266b3f15cd49d5",
+   "professor": "전광성",
+   "department": "인공지능대학원",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7127285601",
+    "W7214737496",
+    "W7222636288",
+    "W4414853949",
+    "W4415309503",
+    "W4400663429",
+    "W4415795375",
+    "W4388561664",
+    "W7133203992",
+    "W7133237432"
+   ]
+  },
+  {
+   "lab_id": "1bef128cdf09045b9dc8ab50733a08e2",
+   "professor": "김예성",
+   "department": "전자전기공학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7204525498",
+    "W4411411481",
+    "W4411486483",
+    "W4416169887",
+    "W4416963834",
+    "W4401417310",
+    "W4379116136",
+    "W4386763810",
+    "W4285146458",
+    "W3215653427"
+   ]
+  },
+  {
+   "lab_id": "1e0986de5992f7715872118d72e5356f",
+   "professor": "복서연",
+   "department": "생명과학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7211868119",
+    "W4401413411",
+    "W4401866857",
+    "W4403894110",
+    "W4386707527",
+    "W4386886470",
+    "W4220982850",
+    "W3185599091",
+    "W3021856761",
+    "W2908456822"
+   ]
+  },
+  {
+   "lab_id": "4523ab01bf3bacfe42c50778873495b7",
+   "professor": "김희찬",
+   "department": "화학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7128782666",
+    "W7131627943",
+    "W4410588362",
+    "W4411413622",
+    "W4414015110",
+    "W4324129100",
+    "W4390059989",
+    "W3170545581",
+    "W3199528648",
+    "W2963903064"
+   ]
+  },
+  {
+   "lab_id": "5b4904a849d4cce159abc577f0b063a4",
+   "professor": "전명재",
+   "department": "인공지능대학원 · 컴퓨터공학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7160311753",
+    "W7221569830",
+    "W7222194394",
+    "W7196956179",
+    "W4387227688",
+    "W4392454245",
+    "W4221152491",
+    "W4293023440",
+    "W3166155703",
+    "W3032208369"
+   ]
+  },
+  {
+   "lab_id": "800292c887b4b94b4e93979d95f14239",
+   "professor": "설재복",
+   "department": "친환경소재대학원 친환경소재학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7134809590",
+    "W7171381366",
+    "W7202291652",
+    "W4390024331",
+    "W4210299203",
+    "W4292509038",
+    "W4306147488",
+    "W4306878477",
+    "W3182131921",
+    "W2902437119"
+   ]
+  },
+  {
+   "lab_id": "852b3d30f3ef3488e21f540f2bbeccea",
+   "professor": "조철현",
+   "department": "수학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4415945348",
+    "W4416134113",
+    "W4416593259",
+    "W4394906191",
+    "W4399276712",
+    "W4400024544",
+    "W4404087997",
+    "W3176150044",
+    "W2898192986",
+    "W2963587986"
+   ]
+  },
+  {
+   "lab_id": "df4bd10ef0d157c94cc1d0af5af628d5",
+   "professor": "모상우",
+   "department": "산업경영공학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7127581891",
+    "W7131398830",
+    "W7204155848",
+    "W7117249988",
+    "W4402727755",
+    "W7133189710",
+    "W7133228170",
+    "W3110664450",
+    "W3136239642",
+    "W3003319185"
+   ]
+  },
+  {
+   "lab_id": "name:Seung Park",
+   "professor": null,
+   "department": "생명과학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7130642534",
+    "W4407137468",
+    "W4408695364",
+    "W4409363211",
+    "W4366828286",
+    "W4386423349",
+    "W4311344750",
+    "W3131644197",
+    "W3135862673",
+    "W3216485358"
+   ]
+  },
+  {
+   "lab_id": "name:조길원",
+   "professor": "조길원",
+   "department": "화학공학과",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7127948439",
+    "W7213634640",
+    "W4411992617",
+    "W4390975277",
+    "W4391137392",
+    "W2915638048",
+    "W2946473693",
+    "W2972559800",
+    "W2809241949",
+    "W2907017307"
+   ]
+  },
+  {
+   "lab_id": "00a2f37dcd22c6860346daa192299452",
+   "professor": "이승우",
+   "department": "물리학과",
+   "tier": 1,
+   "papers": 8,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 8,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4417091791",
+    "W7152438334",
+    "W7162627808",
+    "W4401216343",
+    "W4401252007",
+    "W3166479478",
+    "W3036831230",
+    "W4240977029"
+   ]
+  },
+  {
+   "lab_id": "437fc8d96e56428d5871fdeedc08b4dd",
+   "professor": "김승기",
+   "department": "환경공학부",
+   "tier": 1,
+   "papers": 8,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 8,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7204606668",
+    "W4410383028",
+    "W4411443372",
+    "W4385481032",
+    "W4385839869",
+    "W4387098187",
+    "W3209837959",
+    "W3111103741"
+   ]
+  },
+  {
+   "lab_id": "a79d15cffa0894704db905e541a8363f",
+   "professor": "손진희",
+   "department": "인공지능대학원",
+   "tier": 1,
+   "papers": 8,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 8,
+   "off_field": 0,
+   "hints": [
+    "profile_flagged",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7129574674",
+    "W7140298745",
+    "W7161011725",
+    "W7167218985",
+    "W7167251094",
+    "W7220726364",
+    "W7160114231",
+    "W7196960749"
+   ]
+  },
+  {
+   "lab_id": "37474cd82f4ae221f4dd773bd75d2771",
+   "professor": "BAKER CALVIN COLLINS",
+   "department": "인문사회학부",
+   "tier": 1,
+   "papers": 3,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 3,
+   "off_field": 0,
+   "hints": [
+    "no_list_match",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4392560155",
+    "W4396222231",
+    "W4402757012"
+   ]
+  },
+  {
+   "lab_id": "9c2741540c4286d26221b8f2701304f2",
+   "professor": "박상돈",
+   "department": "인공지능대학원",
+   "tier": 1,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 10,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7165842992",
+    "W4415109378",
+    "W4417081739",
+    "W4401252814",
+    "W4403385480",
+    "W4386375303",
+    "W4226217787",
+    "W3000480525",
+    "W2996766289",
+    "W2810891916"
+   ]
+  },
+  {
+   "lab_id": "a0077af62c6f63c9154fbfb3318181c1",
+   "professor": "김형훈",
+   "department": "인공지능대학원",
+   "tier": 1,
+   "papers": 7,
+   "reviewed": 0,
+   "confirmed": 0,
+   "unverified": 7,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7167644552",
+    "W7208738978",
+    "W4412889606",
+    "W4416034983",
+    "W4404792870",
+    "W4383181504",
+    "W4389523826"
+   ]
+  },
+  {
+   "lab_id": "50705cf571ba48309476bb553c2356b8",
+   "professor": "김영진",
+   "department": "생명과학과",
+   "tier": 2,
+   "papers": 5,
+   "reviewed": 0,
+   "confirmed": 1,
+   "unverified": 4,
+   "off_field": 4,
+   "hints": [
+    "no_list_match",
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4414935396",
+    "W3134291154",
+    "W2895621280",
+    "W2990786484"
+   ]
+  },
+  {
+   "lab_id": "a32ceefae328d34c087687edfcb376c0",
+   "professor": "이동현",
+   "department": "수학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 1,
+   "unverified": 9,
+   "off_field": 8,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7213250918",
+    "W4408761440",
+    "W4415192126",
+    "W4390599355",
+    "W3149263084",
+    "W3193328160",
+    "W3214196781",
+    "W2810009487",
+    "W3131268627"
+   ]
+  },
+  {
+   "lab_id": "fb2fac5a80ef2282b3e28bfef45b66ac",
+   "professor": "박재석",
+   "department": "수학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 1,
+   "unverified": 9,
+   "off_field": 8,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7223013540",
+    "W4400892218",
+    "W4362731702",
+    "W4212975093",
+    "W3140329298",
+    "W3013715309",
+    "W3084160079",
+    "W3118740904",
+    "W3010597507"
+   ]
+  },
+  {
+   "lab_id": "4267bf754906d518d3be7196378a06c3",
+   "professor": "육장수",
+   "department": "인문사회학부",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 8,
+   "off_field": 5,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4403199318",
+    "W4205727386",
+    "W4283738324",
+    "W3121847751",
+    "W3135815280",
+    "W3161771137",
+    "W3033748561",
+    "W2945757695"
+   ]
+  },
+  {
+   "lab_id": "289b543fda82198b792e787643e74740",
+   "professor": "이재호",
+   "department": "전자전기공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 3,
+   "unverified": 7,
+   "off_field": 3,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4407308265",
+    "W4410378321",
+    "W4412888961",
+    "W4416563171",
+    "W4416688225",
+    "W4394619317",
+    "W4281666080"
+   ]
+  },
+  {
+   "lab_id": "8e3d7359b1fc03935e7015c5d01075b3",
+   "professor": "김건우",
+   "department": "수학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 3,
+   "unverified": 7,
+   "off_field": 6,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4416052514",
+    "W4394915400",
+    "W4317930508",
+    "W4362586685",
+    "W3003396080",
+    "W3103195100",
+    "W3119825583"
+   ]
+  },
+  {
+   "lab_id": "480bb8dec2750b8a828fa90daabe7bb4",
+   "professor": "이강복",
+   "department": "산업경영공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 6,
+   "off_field": 6,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7214544038",
+    "W4412471146",
+    "W4417098147",
+    "W3088718580",
+    "W3115534714",
+    "W2793748528"
+   ]
+  },
+  {
+   "lab_id": "aa1cf9eed82e59584bfc0d4dd65c5364",
+   "professor": "김세영",
+   "department": "전자전기공학과 · 신소재공학과 · 반도체대학원",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 6,
+   "off_field": 6,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4399594123",
+    "W4226100200",
+    "W4285485259",
+    "W4285581566",
+    "W4285673240",
+    "W3016182488"
+   ]
+  },
+  {
+   "lab_id": "537bec3b2e35d774cf892c88ca3255cb",
+   "professor": "김도형",
+   "department": "의공학과 · 의과학전공",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 1,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7203987195",
+    "W4408509241",
+    "W2940510093",
+    "W2973878397",
+    "W2974156079"
+   ]
+  },
+  {
+   "lab_id": "92f8e8cdf44ea24fa8ef01f7fdb7cc7f",
+   "professor": "정모세",
+   "department": "첨단원자력공학부 · 물리학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 2,
+   "hints": [
+    "profile_flagged",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4407290558",
+    "W4396854584",
+    "W4400738713",
+    "W4405318914",
+    "W4408491550"
+   ]
+  },
+  {
+   "lab_id": "1ae444a2f44d62ba86384b57194c85ef",
+   "professor": "김성철",
+   "department": "생명과학과",
+   "tier": 2,
+   "papers": 5,
+   "reviewed": 0,
+   "confirmed": 1,
+   "unverified": 4,
+   "off_field": 2,
+   "hints": [
+    "suspect_papers",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4389397627",
+    "W4387500483",
+    "W4311589101",
+    "W3007607446"
+   ]
+  },
+  {
+   "lab_id": "12eecc7d8bcdc47fda0b04b169c3a660",
+   "professor": "이남훈",
+   "department": "인공지능대학원",
+   "tier": 2,
+   "papers": 5,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 3,
+   "off_field": 0,
+   "hints": [
+    "profile_flagged",
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4415188147",
+    "W4417122088",
+    "W4417247486"
+   ]
+  },
+  {
+   "lab_id": "3b006d6bada5c5abf7281fc08312bbae",
+   "professor": "한욱신",
+   "department": "인공지능대학원 · 컴퓨터공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 1,
+   "unverified": 9,
+   "off_field": 8,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7127584238",
+    "W7160604133",
+    "W7212563846",
+    "W4393183973",
+    "W4379135714",
+    "W4221144447",
+    "W4312974539",
+    "W3176791154",
+    "W2948359422"
+   ]
+  },
+  {
+   "lab_id": "17561ed40e2d6fdd9c22eff252a224d3",
+   "professor": "정우빈",
+   "department": "화학공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 8,
+   "off_field": 4,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7165627403",
+    "W4409133794",
+    "W4319826195",
+    "W4206992776",
+    "W4288050280",
+    "W3157379925",
+    "W3207171142",
+    "W3215781861"
+   ]
+  },
+  {
+   "lab_id": "1c52ea91286390cb814c490f93ab0492",
+   "professor": "황현상",
+   "department": "신소재공학과 · 반도체대학원",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 8,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7165782761",
+    "W7203953847",
+    "W7212177620",
+    "W4412964558",
+    "W4407692949",
+    "W2901020704",
+    "W2527078403",
+    "W2292919367"
+   ]
+  },
+  {
+   "lab_id": "362518836bc8de853ab46d626b49e969",
+   "professor": "이경석",
+   "department": "수학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 8,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W3166485707",
+    "W4404261120",
+    "W7123910038",
+    "W4377236098",
+    "W2969245828",
+    "W3024405829",
+    "W2963341514",
+    "W2997276596"
+   ]
+  },
+  {
+   "lab_id": "2d8a05711c73101da3adb5114339a869",
+   "professor": "유웅재",
+   "department": "생명과학과 · 의과학전공",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 3,
+   "unverified": 7,
+   "off_field": 3,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4205542225",
+    "W3154043474",
+    "W3188937682",
+    "W3207227005",
+    "W2936285891",
+    "W2995754534",
+    "W2786215518"
+   ]
+  },
+  {
+   "lab_id": "2f7f390939a40327ca4ee9f4b8fa02d7",
+   "professor": "조성문",
+   "department": "수학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 3,
+   "unverified": 7,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4393027291",
+    "W7167802802",
+    "W7167850699",
+    "W4394708616",
+    "W4402706443",
+    "W4404959599",
+    "W4404987102"
+   ]
+  },
+  {
+   "lab_id": "c083729fa52ba4adc51b03ca7251a645",
+   "professor": "박진수",
+   "department": "물리학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 3,
+   "unverified": 7,
+   "off_field": 4,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7204866125",
+    "W3206637141",
+    "W4308246658",
+    "W3199614644",
+    "W2948971429",
+    "W3007834367",
+    "W3014194682"
+   ]
+  },
+  {
+   "lab_id": "5fd10c8b473c70cb02ac7d60c72c2a39",
+   "professor": "채민우",
+   "department": "산업경영공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 6,
+   "off_field": 4,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7126219550",
+    "W7215829087",
+    "W7220460869",
+    "W4406093376",
+    "W4416369867",
+    "W4416529123"
+   ]
+  },
+  {
+   "lab_id": "6dda7a495187db5785ed7f2f11e30511",
+   "professor": "조민수",
+   "department": "컴퓨터공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 6,
+   "off_field": 4,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7125529723",
+    "W7133342200",
+    "W7134039088",
+    "W7155391267",
+    "W7220459297",
+    "W2963140444"
+   ]
+  },
+  {
+   "lab_id": "8574a1da5bda264766c8cf4ecfd83694",
+   "professor": "심재윤",
+   "department": "전자전기공학과 · 반도체대학원",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 6,
+   "off_field": 1,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4412965173",
+    "W4412965768",
+    "W4401568777",
+    "W4403675983",
+    "W4360606418",
+    "W2922327071"
+   ]
+  },
+  {
+   "lab_id": "f2967b2a18bfe887c3948c9cdaa19e9f",
+   "professor": "정윤영",
+   "department": "전자전기공학과 · 반도체대학원",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 6,
+   "off_field": 3,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7165364346",
+    "W4414430316",
+    "W4401880396",
+    "W4367044151",
+    "W4281571796",
+    "W4310172534"
+   ]
+  },
+  {
+   "lab_id": "154efd9c9f56018b6bd86a363d8d900f",
+   "professor": "최민석",
+   "department": "수학과",
+   "tier": 2,
+   "papers": 8,
+   "reviewed": 0,
+   "confirmed": 3,
+   "unverified": 5,
+   "off_field": 1,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4415192337",
+    "W4391353536",
+    "W4367185933",
+    "W4379233564",
+    "W4312572415"
+   ]
+  },
+  {
+   "lab_id": "3b3c5fe1e3c1a3aba26ffd66eb364790",
+   "professor": "김민성",
+   "department": "생명과학과 · 합성생물학전공",
+   "tier": 2,
+   "papers": 9,
+   "reviewed": 0,
+   "confirmed": 4,
+   "unverified": 5,
+   "off_field": 3,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4412616021",
+    "W4394620932",
+    "W4401900392",
+    "W4308119827",
+    "W2999275259"
+   ]
+  },
+  {
+   "lab_id": "4c9c8ae6c2753608d1d0c9b19778d051",
+   "professor": "조용준",
+   "department": "화학공학과",
+   "tier": 2,
+   "papers": 7,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 5,
+   "off_field": 4,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7133209658",
+    "W4417275212",
+    "W3046734823",
+    "W3034094256",
+    "W2991414789"
+   ]
+  },
+  {
+   "lab_id": "4e244bd053fe4ca49e1d5d52f21abfdc",
+   "professor": "오은진",
+   "department": "컴퓨터공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7163921183",
+    "W7172450012",
+    "W4403713489",
+    "W3117971186",
+    "W2904659240"
+   ]
+  },
+  {
+   "lab_id": "52ae979e5a521ff22239a968c4281903",
+   "professor": "한수희",
+   "department": "전자전기공학과 · 의공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 3,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7165888923",
+    "W4405180440",
+    "W4405180622",
+    "W4200122048",
+    "W2972653394"
+   ]
+  },
+  {
+   "lab_id": "70a61fac052c6b5ddcd0a4fa6afe342f",
+   "professor": "우정아",
+   "department": "인문사회학부",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4320169336",
+    "W3134183855",
+    "W3210844721",
+    "W3086864541",
+    "W2937124636"
+   ]
+  },
+  {
+   "lab_id": "70abd7783b52e6b717497551092700f7",
+   "professor": "황석환",
+   "department": "환경공학부",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 3,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7204797175",
+    "W4395106228",
+    "W4403399176",
+    "W4388112928",
+    "W4224918182"
+   ]
+  },
+  {
+   "lab_id": "78459b9623eba5320f5e35f2002375a9",
+   "professor": "강석형",
+   "department": "전자전기공학과 · 반도체대학원",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 1,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7161707085",
+    "W4401568324",
+    "W4386764902",
+    "W4389162997",
+    "W4254387376"
+   ]
+  },
+  {
+   "lab_id": "8296556464bdebca77b25830678fd37b",
+   "professor": "이상민",
+   "department": "화학공학과 · 합성생물학전공",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 5,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7130316838",
+    "W7134268226",
+    "W4409622781",
+    "W4414545528",
+    "W4415378318"
+   ]
+  },
+  {
+   "lab_id": "c4770c1e9d12ac61199d6e738b54115d",
+   "professor": "고성안",
+   "department": "컴퓨터공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 1,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4306317440",
+    "W3154126515",
+    "W3163261761",
+    "W3029291786",
+    "W2949957739"
+   ]
+  },
+  {
+   "lab_id": "dfd0272d5b2f41688fbd0812344ec4b5",
+   "professor": "이충형",
+   "department": "인문사회학부",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 2,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W3081726859",
+    "W2900553493",
+    "W2056686670",
+    "W2328225550",
+    "W2049012479"
+   ]
+  },
+  {
+   "lab_id": "e064ea8da3398b079defc8179040f838",
+   "professor": "옥정슬",
+   "department": "인공지능대학원 · 컴퓨터공학과",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 2,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7166861490",
+    "W7214736068",
+    "W7220473862",
+    "W7222527672",
+    "W4416035209"
+   ]
+  },
+  {
+   "lab_id": "f4492b80c937a00d16f88950a62351c0",
+   "professor": "송재용",
+   "department": "반도체공학과 · 반도체대학원",
+   "tier": 2,
+   "papers": 10,
+   "reviewed": 0,
+   "confirmed": 5,
+   "unverified": 5,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W3026171717",
+    "W2948255957",
+    "W2782335499",
+    "W2793231727",
+    "W2800796559"
+   ]
+  },
+  {
+   "lab_id": "032749fe44cb8a804902ff1aa9236d09",
+   "professor": "안혜민",
+   "department": "전자전기공학과",
+   "tier": 2,
+   "papers": 6,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 4,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4411546285",
+    "W4399252227",
+    "W4405785953",
+    "W4388623405"
+   ]
+  },
+  {
+   "lab_id": "3d82b4a08725ae170fa61511a99b613d",
+   "professor": "신민석",
+   "department": "산업경영공학과",
+   "tier": 2,
+   "papers": 5,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 3,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W4408389258",
+    "W4393052945",
+    "W3159295597"
+   ]
+  },
+  {
+   "lab_id": "5a6db25479631b2084f1250f7d373391",
+   "professor": "박지우",
+   "department": "물리학과",
+   "tier": 2,
+   "papers": 5,
+   "reviewed": 0,
+   "confirmed": 2,
+   "unverified": 3,
+   "off_field": 0,
+   "hints": [
+    "feed_follows_profile"
+   ],
+   "unverified_ids": [
+    "W7160252523",
+    "W7220895504",
+    "W4391984958"
+   ]
+  }
+ ]
+}

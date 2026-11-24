@@ -1,23 +1,17 @@
 {
   "source_url": "https://github.com/sunwoochoi2002/2026-UGRP.git",
   "source_branch": "sunwoo",
-  "source_commit": "0fa6c47aa4511b5a6db5edc424064109e9e957f9",
-  "import_mode": "complete data subtree snapshot; existing data files preserved",
+  "source_commit": "5159843302a8e698110cd3060cde0c29dfa8943e",
+  "base_branch": "final",
+  "base_commit": "e2cd1b42977de5108b9f79e4831d55b2e995810c",
+  "import_date": "2026-11-13",
+  "previous_source_commit": "0fa6c47aa4511b5a6db5edc424064109e9e957f9",
+  "import_mode": "Machine-readable sunwoo data subtree mapped to data/sunwoo; final code and independent data retained.",
   "files": [
-    {
-      "path": "README.md",
-      "bytes": 47425,
-      "sha256": "eb0ac5a7b5f1c254716fe5ae9fdd7831880b9006a8769e24474851d1ca03480e"
-    },
     {
       "path": "courses.jsonl",
       "bytes": 3404333,
       "sha256": "06f88ee3a885a42cffb1d493bdb83252a600e58c35992ded23b384c894f1e3b5"
-    },
-    {
-      "path": "curation/CASES.md",
-      "bytes": 60735,
-      "sha256": "dab65a2af0f4791cec36fda15983310b62d9f346e1bcff6587043073ac1248a0"
     },
     {
       "path": "curation/advisors.jsonl",
@@ -41,8 +35,8 @@
     },
     {
       "path": "curation/lab_overrides.json",
-      "bytes": 13939,
-      "sha256": "8c7ff132a5ae7772b5f549516fd1a920fafd39e93b7e3edbbc106c5e9b16f23b"
+      "bytes": 24748,
+      "sha256": "5a6934674abee36ced9f4259cc902fd680ef516d80204111697dd6587784d75e"
     },
     {
       "path": "curation/normalize_report.json",
@@ -58,6 +52,11 @@
       "path": "curation/openalex_profile_check.json",
       "bytes": 274953,
       "sha256": "72421d99d0c256aeba33a92851384e4dd55898f5f2c020f7d98252fc41f8d040"
+    },
+    {
+      "path": "curation/paper_identity.jsonl",
+      "bytes": 12325969,
+      "sha256": "a545860b3c746297477b95c0bf4b522834dd2c10ba7abe9d5c9797287064456b"
     },
     {
       "path": "curation/queue.json",
@@ -76,13 +75,8 @@
     },
     {
       "path": "labs.jsonl",
-      "bytes": 2725891,
-      "sha256": "3c90d51708b1cab6ce99d19224541ac4006038addd8efc02546111560fffe1f6"
-    },
-    {
-      "path": "legacy/mvp-4dept/README.md",
-      "bytes": 5675,
-      "sha256": "b4551db08063ffdb9a8ca4dcaea435e7bef4488bc7e2a9429761398d54050950"
+      "bytes": 2733634,
+      "sha256": "98bd84e8cdbbac8f3342f6b097f06fc173eec71fdc24cb156a52adc644c9c809"
     },
     {
       "path": "legacy/mvp-4dept/community_seed.json",
@@ -126,13 +120,79 @@
     },
     {
       "path": "papers.jsonl",
-      "bytes": 5293561,
-      "sha256": "2ab90d93b637e8117d4406bbddc4ed99b74d45ff02e22dd3facc5006059ec416"
+      "bytes": 5287523,
+      "sha256": "360829da65cb282e4996b12893a1692cd9c16deef23a5d16280013d0a93ad985"
     },
     {
       "path": "research_centers.jsonl",
       "bytes": 47984,
       "sha256": "d5d4c22339f0b96058b6c7c4de96cb3e69a4bffb6b6e1268ef58779751477a3a"
+    }
+  ],
+  "preserved_final_files": [
+    {
+      "path": "concepts.json",
+      "sha256": "afd98baddf1e9cc8728bdaea3da2ffd6be5a25591f6573642ea84718170be194",
+      "source_commit": "e2cd1b42977de5108b9f79e4831d55b2e995810c"
+    },
+    {
+      "path": "legacy_lab_aliases.json",
+      "sha256": "cf22972eb4a91ef905b7e96df80b79599ee01894abb5233d3fcfe18de09a729f",
+      "source_commit": "e2cd1b42977de5108b9f79e4831d55b2e995810c"
+    },
+    {
+      "path": "suspect_papers.json",
+      "sha256": "ae97a34e9d95881d5ac28ad9838e65594e287f4f7917d43e5916b39133823c7b",
+      "source_commit": "e2cd1b42977de5108b9f79e4831d55b2e995810c"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "app_profiles.jsonl",
+      "sha256": "05e99ef3ff4bf6c025ca6366e9fb35d72cd706ae86ad048a4dbf8edb25a8c398"
+    },
+    {
+      "path": "lab_course_bge_m3.json",
+      "sha256": "2526602db81654cabc1c0b26c52c655e8538b1adccdecdad60cc229505627875"
+    }
+  ],
+  "changed_lab_ids": [
+    "0a6ff7bc33b7ed4911d691f6ab0c5136",
+    "f99a04f1c7ba3fe4f420c343e9c9a1ca"
+  ],
+  "external_assets_require_rebuild": [
+    "doc_embeddings.npz",
+    "search_chunks.jsonl",
+    "search_vectors.npy"
+  ],
+  "runtime_cache_requires_invalidation": [
+    "phrase_sims"
+  ],
+  "note": "paper_identity.jsonl is historical evidence, not certification of this paper snapshot. Existing data documentation is historical; current policy is final with this import.",
+  "corrected_files": [
+    {
+      "path": "curation/lab_overrides.json",
+      "bytes": 32973,
+      "sha256": "ab5c90b4343f4e2b34df38fb0626dba8e8ddfb03a5f11abdc8eef889a7a59462"
+    },
+    {
+      "path": "labs.jsonl",
+      "bytes": 2738394,
+      "sha256": "7db5210825922058bc812bb45bda940c6e381c187675f3f0419a7f1b166c7803"
+    },
+    {
+      "path": "papers.jsonl",
+      "bytes": 5283336,
+      "sha256": "248d06a935da9b384bfe5601bacc9b6e9dc11994ff798373c75682d2b1aea811"
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-11-24",
+      "tool": "tools/paper_attribution.py apply",
+      "lab_ids": [
+        "0a6ff7bc33b7ed4911d691f6ab0c5136"
+      ]
     }
   ]
 }

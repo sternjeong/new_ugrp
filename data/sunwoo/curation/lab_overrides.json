@@ -123,12 +123,263 @@
   "decided": "2026-10-26"
  },
  "0a6ff7bc33b7ed4911d691f6ab0c5136": {
-  "openalex_author_ids": [
-   "A5100324409"
+  "openalex_author_ids": [],
+  "openalex_why": "D-21: A5100324409는 같은 이름 여러 사람(물리 LANL, 의학 순천향대, 정치학 서울대, 화학 IBS, 풍산, 동아대, 중앙대 등)이 합쳐진 프로필이라 논문 출처로도 새 논문 알림의 출처로도 쓰지 않는다. 2018년 이후 79편의 저자 소속이 36곳이다. 본인의 최근 논문(ETRI Journal 2025)은 어떤 저자 프로필에도 붙어 있지 않다(D-20). 2026-10-26의 학교 목록 대조(D-11, 목록 14편 일치)는 프로필 안에 본인의 옛 논문이 있다는 뜻일 뿐이었다(D-17).",
+  "openalex_source": "https://api.openalex.org/works?filter=author.id:A5100324409,from_publication_date:2018-01-01",
+  "decided": "2026-11-24",
+  "paper_exclusions": [
+   {
+    "openalex_id": "W2900820194",
+    "doi": "10.1103/physrevd.98.094505",
+    "title": "Updated evaluation of ϵ K in the standard model with lattice QCD inputs",
+    "severity": "P0",
+    "checked_at": "2026-11-05",
+    "reason": "D-18: 원문 저자의 LANL/LLNL 소속과 LANL·세종대 공식 학력/경력·공저자를 대조. POSTECH PL 교수와 다른 물리학 연구자 귀속 확인. 단순 분야/현재 소속 차이만의 판정 아님.",
+    "sources": [
+     "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.094505",
+     "https://cnls.lanl.gov/External/people/Sungwoo_Park.php",
+     "https://sejong.elsevierpure.com/en/persons/sungwoo-park/",
+     "https://www.pl-lab.org/members"
+    ]
+   },
+   {
+    "openalex_id": "W3082962106",
+    "doi": "10.22323/1.363.0050",
+    "title": "Leptonic decays of $B_{(s)}$ and $D_{(s)}$ using the OK action",
+    "severity": "P0",
+    "checked_at": "2026-11-05",
+    "reason": "D-18: 원문 저자의 LANL/LLNL 소속과 LANL·세종대 공식 학력/경력·공저자를 대조. POSTECH PL 교수와 다른 물리학 연구자 귀속 확인. 단순 분야/현재 소속 차이만의 판정 아님.",
+    "sources": [
+     "https://arxiv.org/pdf/2002.04755",
+     "https://cnls.lanl.gov/External/people/Sungwoo_Park.php",
+     "https://sejong.elsevierpure.com/en/persons/sungwoo-park/",
+     "https://www.pl-lab.org/members",
+     "https://arxiv.org/abs/2002.04755"
+    ],
+    "aliases": [
+     {
+      "openalex_id": "W3006052637",
+      "doi": "10.48550/arxiv.2002.04755"
+     }
+    ]
+   },
+   {
+    "openalex_id": "W4214932184",
+    "doi": "10.22323/1.363.0029",
+    "title": "2019 update of $\\varepsilon_K$ with lattice QCD inputs",
+    "severity": "P0",
+    "checked_at": "2026-11-05",
+    "reason": "D-18: 원문 저자의 LANL/LLNL 소속과 LANL·세종대 공식 학력/경력·공저자를 대조. POSTECH PL 교수와 다른 물리학 연구자 귀속 확인. 단순 분야/현재 소속 차이만의 판정 아님.",
+    "sources": [
+     "https://arxiv.org/pdf/1912.03024",
+     "https://cnls.lanl.gov/External/people/Sungwoo_Park.php",
+     "https://sejong.elsevierpure.com/en/persons/sungwoo-park/",
+     "https://www.pl-lab.org/members"
+    ]
+   },
+   {
+    "openalex_id": "W4390273101",
+    "doi": "10.22323/1.453.0245",
+    "title": "Current progress on the semileptonic form factors for $\\bar{B} \\to D^\\ast \\ell \\bar{\\nu}$ decay using the Oktay-Kronfeld action",
+    "severity": "P0",
+    "checked_at": "2026-11-05",
+    "reason": "D-18: 원문 저자의 LANL/LLNL 소속과 LANL·세종대 공식 학력/경력·공저자를 대조. POSTECH PL 교수와 다른 물리학 연구자 귀속 확인. 단순 분야/현재 소속 차이만의 판정 아님.",
+    "sources": [
+     "https://arxiv.org/pdf/2401.01561",
+     "https://cnls.lanl.gov/External/people/Sungwoo_Park.php",
+     "https://sejong.elsevierpure.com/en/persons/sungwoo-park/",
+     "https://www.pl-lab.org/members"
+    ]
+   },
+   {
+    "openalex_id": "W4406031031",
+    "doi": "10.48550/arxiv.2501.00215",
+    "title": "2024 Update on $\\varepsilon_K$ with lattice QCD inputs",
+    "severity": "P0",
+    "checked_at": "2026-11-05",
+    "reason": "D-18: 원문 저자의 LANL/LLNL 소속과 LANL·세종대 공식 학력/경력·공저자를 대조. POSTECH PL 교수와 다른 물리학 연구자 귀속 확인. 단순 분야/현재 소속 차이만의 판정 아님.",
+    "sources": [
+     "https://arxiv.org/pdf/2501.00215",
+     "https://cnls.lanl.gov/External/people/Sungwoo_Park.php",
+     "https://sejong.elsevierpure.com/en/persons/sungwoo-park/",
+     "https://www.pl-lab.org/members",
+     "https://arxiv.org/abs/2501.00215"
+    ],
+    "aliases": [
+     {
+      "openalex_id": "W4406901892",
+      "doi": "10.22323/1.466.0433"
+     }
+    ]
+   },
+   {
+    "openalex_id": "W4407123419",
+    "doi": "10.48550/arxiv.2502.00331",
+    "title": "Finite Temperature Transition in Hyper Stealth Dark Matter using Möbius Domain Wall Fermions",
+    "severity": "P0",
+    "checked_at": "2026-11-05",
+    "reason": "D-18: 원문 저자의 LANL/LLNL 소속과 LANL·세종대 공식 학력/경력·공저자를 대조. POSTECH PL 교수와 다른 물리학 연구자 귀속 확인. 단순 분야/현재 소속 차이만의 판정 아님.",
+    "sources": [
+     "https://arxiv.org/pdf/2502.00331",
+     "https://cnls.lanl.gov/External/people/Sungwoo_Park.php",
+     "https://sejong.elsevierpure.com/en/persons/sungwoo-park/",
+     "https://www.pl-lab.org/members"
+    ]
+   },
+   {
+    "openalex_id": "W4403296620",
+    "doi": "10.1080/08958378.2024.2410736",
+    "title": "Gene expression changes in mouse lung induced by subacute inhalation of PM 10 -rich particulate matter",
+    "severity": "P0",
+    "checked_at": "2026-11-24",
+    "reason": "D-19: 논문에 적힌 저자 소속이 순천향대학교 부천병원 호흡기알레르기내과(Crossref와 PubMed의 출판사 등록 소속). 교수는 2006년부터 POSTECH 컴퓨터공학과 전임이고(PL 연구실 구성원 페이지), 이 논문은 본인 ORCID 0009-0005-5215-7784·학교 논문 목록·연구실 논문 목록 어디에도 없다. 같은 이름 여러 사람이 합쳐진 프로필 A5100324409에 붙어 들어온 다른 사람의 논문.",
+    "sources": [
+     "https://api.crossref.org/works/10.1080/08958378.2024.2410736",
+     "https://pubmed.ncbi.nlm.nih.gov/39388309/",
+     "https://www.pl-lab.org/members",
+     "https://orcid.org/0009-0005-5215-7784"
+    ]
+   },
+   {
+    "openalex_id": "W4406315928",
+    "doi": "10.17937/topsr.34.4.202412.79",
+    "title": "From “Hobbesian” international theory to “Hobbes’s” international thought",
+    "severity": "P0",
+    "checked_at": "2026-11-24",
+    "reason": "D-19: 논문에 적힌 저자 소속이 서울대학교 정치외교학부(KCI 논문 기록, 단독 저자). 교수는 2006년부터 POSTECH 컴퓨터공학과 전임이고(PL 연구실 구성원 페이지), 이 논문은 본인 ORCID 0009-0005-5215-7784·학교 논문 목록·연구실 논문 목록 어디에도 없다. 같은 이름 여러 사람이 합쳐진 프로필 A5100324409에 붙어 들어온 다른 사람의 논문.",
+    "sources": [
+     "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003150539",
+     "https://www.pl-lab.org/members",
+     "https://orcid.org/0009-0005-5215-7784"
+    ]
+   },
+   {
+    "openalex_id": "W3033233089",
+    "doi": "10.1155/2020/6043721",
+    "title": "Prediction and Analysis of the Aerodynamic Characteristics of a Spinning Projectile Based on Computational Fluid Dynamics",
+    "severity": "P0",
+    "checked_at": "2026-11-24",
+    "reason": "D-19: 논문에 적힌 저자 소속이 풍산(Poongsan, Crossref의 출판사 등록 소속). 교수는 2006년부터 POSTECH 컴퓨터공학과 전임이고(PL 연구실 구성원 페이지), 이 논문은 본인 ORCID 0009-0005-5215-7784·학교 논문 목록·연구실 논문 목록 어디에도 없다. 같은 이름 여러 사람이 합쳐진 프로필 A5100324409에 붙어 들어온 다른 사람의 논문.",
+    "sources": [
+     "https://api.crossref.org/works/10.1155/2020/6043721",
+     "https://doi.org/10.1155/2020/6043721",
+     "https://www.pl-lab.org/members",
+     "https://orcid.org/0009-0005-5215-7784"
+    ]
+   },
+   {
+    "openalex_id": "W2910871549",
+    "doi": "10.9798/kosham.2018.18.7.377",
+    "title": "Proposal of Disaster Management Criteria of Seismic Accelerometers Installed on the Primary Structural Elements of Cable-Supported Bridges Based on Long-Term Data",
+    "severity": "P0",
+    "checked_at": "2026-11-24",
+    "reason": "D-19: 논문에 적힌 저자 소속이 동아대학교 산학협력단 연구지원실 연구교수(학회지 원문 페이지). 교수는 2006년부터 POSTECH 컴퓨터공학과 전임이고(PL 연구실 구성원 페이지), 이 논문은 본인 ORCID 0009-0005-5215-7784·학교 논문 목록·연구실 논문 목록 어디에도 없다. 같은 이름 여러 사람이 합쳐진 프로필 A5100324409에 붙어 들어온 다른 사람의 논문.",
+    "sources": [
+     "https://www.j-kosham.or.kr/journal/view.php?doi=10.9798/KOSHAM.2018.18.7.377",
+     "https://www.pl-lab.org/members",
+     "https://orcid.org/0009-0005-5215-7784"
+    ]
+   }
   ],
-  "openalex_why": "학교 연구자 검색 논문 목록 19편과 제목 대조(사례집 D-11): A5100324409(Sungwoo Park, 306편 중 목록 논문 14편) 더함",
-  "openalex_source": "data/curation/openalex_paper_match.json",
-  "decided": "2026-10-26"
+  "identity_verification": {
+   "checked_at": "2026-11-24T13:30:00+00:00",
+   "by": "Claude Code; public sources, no authenticated API",
+   "orcid": "0009-0005-5215-7784",
+   "orcid_basis": "Crossref의 ETRI Journal 논문(10.4218/etrij.2024-0488) 저자 Sungwoo Park에 등록된 ORCID이고, ORCID 기록의 소속이 POSTECH Department of Computer Science and Engineering",
+   "official_identity": "https://www.pl-lab.org/members",
+   "official_identity_note": "Faculty in CS (Winter 2006–), PhD in CS, Carnegie Mellon University",
+   "profile_orcid_caveat": "A5100324409에 붙은 ORCID 0000-0002-9454-5807은 경희대 박사·POSTECH 박사후연구원(2010)·IBS(2014)·SK specialty(2022) 경력의 화학 연구자 것이다. POSTECH 소속 표기만으로는 본인을 가릴 수 없다(D-19)",
+   "previous_author_ids": [
+    "A5100324409"
+   ],
+   "considered_not_added": [
+    {
+     "openalex_id": "W2397352025",
+     "doi": "10.29007/t6zs",
+     "title": "Towards a Cut-free Sequent Calculus for Boolean BI",
+     "why": "POSTECH 소속과 지도 학생 공저로 본인 논문이지만 2010년 워크숍(PSPL 2010) 5쪽 논문이고 OpenAlex 연도 2018은 DOI 등록일이라 넣지 않음"
+    }
+   ],
+   "removed_selection": [
+    {
+     "openalex_id": "W2900820194",
+     "doi": "10.1103/physrevd.98.094505"
+    },
+    {
+     "openalex_id": "W3082962106",
+     "doi": "10.22323/1.363.0050"
+    },
+    {
+     "openalex_id": "W4214932184",
+     "doi": "10.22323/1.363.0029"
+    },
+    {
+     "openalex_id": "W4390273101",
+     "doi": "10.22323/1.453.0245"
+    },
+    {
+     "openalex_id": "W4406031031",
+     "doi": "10.48550/arxiv.2501.00215"
+    },
+    {
+     "openalex_id": "W4407123419",
+     "doi": "10.48550/arxiv.2502.00331"
+    },
+    {
+     "openalex_id": "W4403296620",
+     "doi": "10.1080/08958378.2024.2410736"
+    },
+    {
+     "openalex_id": "W4406315928",
+     "doi": "10.17937/topsr.34.4.202412.79"
+    },
+    {
+     "openalex_id": "W3033233089",
+     "doi": "10.1155/2020/6043721"
+    },
+    {
+     "openalex_id": "W2910871549",
+     "doi": "10.9798/kosham.2018.18.7.377"
+    }
+   ]
+  },
+  "paper_allowlist": {
+   "orcid": "0009-0005-5215-7784",
+   "checked_at": "2026-11-24T13:30:00+00:00",
+   "scope": "논문 자체에 본인 ORCID와 POSTECH 컴퓨터공학과 소속이 등록된 1편과, 연구실 공식 논문 목록·학교 논문 목록에 모두 있는 1편만. 편수를 채우기 위한 자동 확장 없음. 관측 ORCID는 OpenAlex가 저자에 붙인 값이다.",
+   "works": [
+    {
+     "openalex_id": "W4411064901",
+     "doi": "10.4218/etrij.2024-0488",
+     "title": "MR3: An execution framework for hive and spark",
+     "author_id": null,
+     "author_name": "Sungwoo Park",
+     "observed_orcid": "0009-0005-5215-7784",
+     "basis": "publisher_orcid_and_affiliation",
+     "source": "https://api.crossref.org/works/10.4218/etrij.2024-0488",
+     "bibliographic_source": "https://doi.org/10.4218/etrij.2024-0488",
+     "openalex_source": "https://api.openalex.org/works/W4411064901",
+     "versions": [
+      "W4387195329"
+     ]
+    },
+    {
+     "openalex_id": "W2144482530",
+     "doi": "10.1145/2535838.2535871",
+     "title": "A proof system for separation logic with magic wand",
+     "author_id": "A5100324409",
+     "author_name": "Sungwoo Park",
+     "observed_orcid": "0000-0002-9454-5807",
+     "basis": "official_publication_list",
+     "source": "https://www.pl-lab.org/publications",
+     "bibliographic_source": "https://doi.org/10.1145/2535838.2535871",
+     "openalex_source": "https://api.openalex.org/works/W2144482530",
+     "versions": [
+      "W3110302737"
+     ]
+    }
+   ]
+  }
  },
  "0a808026bdf92ba0c4cc4c5bd2456eb6": {
   "openalex_author_ids": [
@@ -305,5 +556,144 @@
   "openalex_why": "학교 연구자 검색 논문 목록 16편과 제목 대조(사례집 D-11): A5085510614(Jinhee Song, 7편 중 목록 논문 3편) 뺌, A5068961376(Jae Yong Song, 160편 중 목록 논문 12편) 더함",
   "openalex_source": "data/curation/openalex_paper_match.json",
   "decided": "2026-10-26"
+ },
+ "f99a04f1c7ba3fe4f420c343e9c9a1ca": {
+  "openalex_author_ids": [
+   "A5027671254"
+  ],
+  "openalex_source": "https://sites.google.com/view/yjchoilab/selected-publications",
+  "openalex_why": "D-16: 물리학 연구자의 ORCID와 Caltech 학위논문·공식 논문 목록 대조. 기존 A5110504818의 선정 6편을 배제한다. 새 프로필도 혼합돼 있어 공식 목록의 검증된 7편만 허용하며 분리 ID와 ORCID 충돌은 논문별로 기록한다.",
+  "decided": "2026-11-05",
+  "identity_verification": {
+   "checked_at": "2026-11-05T03:27:30+00:00",
+   "by": "Codex; public sources, no authenticated API",
+   "orcid": "0000-0001-9783-5992",
+   "openalex_profile": "https://api.openalex.org/authors/A5027671254",
+   "profile_works_observed": 30,
+   "profile_works_inspected": 30,
+   "profile_caveat": "1990년대 기록장치 및 2004 반도체 논문 등 신원 혼합 의심 기록이 남아 있어 프로필 전체를 신뢰하지 않음",
+   "thesis": "https://thesis.caltech.edu/14372/",
+   "thesis_doi": "10.7907/ajgk-7246",
+   "thesis_pdf": "https://thesis.caltech.edu/14372/1/Youngjoon_Choi_PhD_Thesis_Final.pdf",
+   "thesis_check": "Caltech 원문 메타데이터의 Youngjoon Choi·2022 Physics 박사·Stevan Nadj-Perge 대조. 49MB PDF 전문 검토는 하지 않음",
+   "split_profile_caveat": "A5100769871은 108편 중 관광학 논문과 Nature 2023·2025가 혼재. 두 논문 저자는 공식 목록 및 Crossref에서 Youngjoon Choi로 확인되나 OpenAlex ORCID 0000-0001-6888-3952는 충돌하며 해소되지 않음. 이 프로필은 전역 author_ids에 추가하지 않음",
+   "removed_selection": [
+    {
+     "openalex_id": "W4323275631",
+     "doi": "10.31336/jtlr.2023.1.35.1.179"
+    },
+    {
+     "openalex_id": "W4297369895",
+     "doi": "10.48206/2022.6.3.161"
+    },
+    {
+     "openalex_id": "W4311097161",
+     "doi": "10.5762/kais.2022.23.11.120"
+    },
+    {
+     "openalex_id": "W3083871948",
+     "doi": "10.31336/jtlr.2020.8.32.8.249"
+    },
+    {
+     "openalex_id": "W2809804511",
+     "doi": "10.1088/1361-6463/aacfb9"
+    },
+    {
+     "openalex_id": "W2887965366",
+     "doi": "10.31930/jas.2018.06.61.2.177"
+    }
+   ],
+   "rechecked": [
+    {
+     "at": "2026-11-24",
+     "by": "Claude Code; public sources",
+     "result": "공식 selected-publications 목록의 논문 링크 7개가 2026-11-05와 같음. A5027671254의 2025~2026년 논문은 모두 그래핀·모아레 초전도 연구라 새 논문 알림 출처로 유지"
+    }
+   ]
+  },
+  "paper_allowlist": {
+   "orcid": "0000-0001-9783-5992",
+   "checked_at": "2026-11-05T03:27:30+00:00",
+   "scope": "공식 selected-publications 목록 7편만. 최대 수를 채우기 위한 자동 확장 없음. 관측 ORCID는 OpenAlex 프로필 메타데이터이며 논문 자체가 제공한 ORCID라고 주장하지 않음.",
+   "works": [
+    {
+     "openalex_id": "W2909496552",
+     "doi": "10.1038/s41567-019-0606-5",
+     "title": "Electronic correlations in twisted bilayer graphene near the magic angle",
+     "author_id": "A5027671254",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-9783-5992",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.1038/s41567-019-0606-5",
+     "openalex_source": "https://api.openalex.org/works/W2909496552"
+    },
+    {
+     "openalex_id": "W3124201952",
+     "doi": "10.1038/s41586-020-03159-7",
+     "title": "Correlation-driven topological phases in magic-angle twisted bilayer graphene",
+     "author_id": "A5027671254",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-9783-5992",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.1038/s41586-020-03159-7",
+     "openalex_source": "https://api.openalex.org/works/W3124201952"
+    },
+    {
+     "openalex_id": "W4282968659",
+     "doi": "10.1038/s41586-022-04715-z",
+     "title": "Evidence for unconventional superconductivity in twisted trilayer graphene",
+     "author_id": "A5027671254",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-9783-5992",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.1038/s41586-022-04715-z",
+     "openalex_source": "https://api.openalex.org/works/W4282968659"
+    },
+    {
+     "openalex_id": "W3127877060",
+     "doi": "10.1038/s41567-021-01359-0",
+     "title": "Interaction-driven band flattening and correlated phases in twisted bilayer graphene",
+     "author_id": "A5027671254",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-9783-5992",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.1038/s41567-021-01359-0",
+     "openalex_source": "https://api.openalex.org/works/W3127877060"
+    },
+    {
+     "openalex_id": "W4408244118",
+     "doi": "10.1038/s41586-025-08621-y",
+     "title": "Superconductivity and quantized anomalous Hall effect in rhombohedral graphene",
+     "author_id": "A5100769871",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-6888-3952",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.1038/s41586-025-08621-y",
+     "openalex_source": "https://api.openalex.org/works/W4408244118"
+    },
+    {
+     "openalex_id": "W4388694194",
+     "doi": "10.1038/s41586-023-06663-8",
+     "title": "Imaging inter-valley coherent order in magic-angle twisted trilayer graphene",
+     "author_id": "A5100769871",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-6888-3952",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.1038/s41586-023-06663-8",
+     "openalex_source": "https://api.openalex.org/works/W4388694194"
+    },
+    {
+     "openalex_id": "W4404570719",
+     "doi": "10.48550/arxiv.2411.11163",
+     "title": "Visualizing incommensurate inter-valley coherent states in rhombohedral trilayer graphene",
+     "author_id": "A5100558954",
+     "author_name": "Youngjoon Choi",
+     "observed_orcid": "0000-0001-9783-5992",
+     "source": "https://sites.google.com/view/yjchoilab/selected-publications",
+     "bibliographic_source": "https://doi.org/10.48550/arxiv.2411.11163",
+     "openalex_source": "https://api.openalex.org/works/W4404570719"
+    }
+   ]
+  }
  }
 }

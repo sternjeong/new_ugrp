@@ -16,7 +16,7 @@ python3 -m curri --host 0.0.0.0 --port 8000
 
 HTTPS 프록시 뒤에서는 `--secure-cookie`를 추가한다. 이 서버는 로컬 프로토타입 검증용이며 인터넷 운영 배포용 서버가 아니다.
 
-기본 실행은 `data/sunwoo/legacy/mvp-4dept/`의 과목·연구실·프로필을 읽는다. 이 데이터가 없으면 시작 단계에서 안내와 함께 중단한다. `--data-dir`로 다른 호환 데이터 폴더를 지정할 수 있다.
+기본 실행은 `data/sunwoo/`의 전체 정제 과목·연구실·앱 프로필을 읽는다. 이 데이터가 없으면 시작 단계에서 안내와 함께 중단한다. `--data-dir`로 다른 호환 데이터 폴더를 지정할 수 있다.
 
 기본 DB는 `.local/curri.sqlite`이며 자동 생성된다. 서비스 데이터 JSONL을 수정하지 않는다. 다른 데이터나 테스트 DB는 `--data-dir`, `--db`로 지정한다.
 
@@ -151,3 +151,13 @@ Playwright가 프로젝트 외부에 설치되어 있다면 `PLAYWRIGHT_MODULE`�
 우선순위와 완료 기준은 [제품 기준 9절의 다음 개발 계획](PRODUCT_PLAN.md#다음-개발-계획-2026-09-16-작성)을 따른다. 당장은 팀 공유 문서, 골드셋 판정, 자료가 부족한 연구실 재수집 순이다. 검색·가이드를 교체할 때는 `ProfileCatalog`의 인터페이스를 유지하고 `tools/eval_goldset.py`로 전후를 비교한다.
 
 프로필 검토 페이지: https://claude.ai/artifact/FuBiPCfHXfUgPARhivuY8b (조직 내부 공유, 판정은 페이지의 DB에 저장되며 `data/profile_reviews.json`에 스냅샷을 남긴다).
+
+## 2026-11-13 정제본 통합 검증
+
+`python3 -m unittest discover -s tests -p test_data_snapshot.py`로 반입 파일 해시, final 독립 데이터 보존, 변경된 논문의 앱 반영, 프로필 일치, 과목 유사도 재사용 범위를 검사한다. 전체 검증은 `python3 -m unittest discover -s tests`, JS 문법은 `node --check curri/static/app.js`다. NumPy가 없으면 워커 테스트 5개를 건너뛴다.
+
+논문과 교수의 연결을 고친 뒤에는 `python3 tools/paper_attribution.py check`를 실행한다(네트워크 불필요, 문제가 있으면 종료 코드 1). 같은 검사가 `tests/test_paper_attribution.py`에 들어 있다. 검토 대기열은 `python3 tools/paper_attribution.py audit`, 한 연구실의 논문별 근거는 `evidence <연구실 ID>`(OpenAlex·Crossref 조회), 판정 반영은 `apply <연구실 ID>`다. 절차는 [논문 귀속 검증](../analysis/PAPER_ATTRIBUTION_REVIEW.md).
+
+현재 데이터 출처와 외부 워커 갱신 절차는 [반입 기록](../../data/sunwoo/IMPORT.md)을 따른다. 새 DB로 검증하며 이전 `curri-full.sqlite`를 덮어쓰지 않는다.
+
+새 DB로 서버를 띄운 뒤 `CURRI_URL=http://127.0.0.1:8765 PLAYWRIGHT_MODULE=<playwright 경로> node tests/browser_data_snapshot.cjs`로 이번 데이터 기준의 데스크톱·모바일 핵심 흐름을 검증한다. 기존 `tests/browser.cjs`는 전체 기능 시나리오지만 현재 사전 검색 기대값과 중복 팝업 선택자 문제로 통과하지 않는다.

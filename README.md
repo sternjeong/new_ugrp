@@ -31,7 +31,7 @@ python3 -m unittest discover -s tests -v
 | `curri/` | 서비스 코드: HTTP 서버, 추천 엔진, 저장소, 커뮤니티, `static/` 화면 |
 | `tests/` | 단위·HTTP·커뮤니티 테스트와 브라우저 시나리오 |
 | `tools/` | 연구실·과목 프로필 생성, 커뮤니티 시드 생성, 골드셋 평가 스크립트 |
-| `data/sunwoo/` | `sunwoo` 브랜치에서 가져온 단일 데이터 스냅샷. 앱은 그 안의 `legacy/mvp-4dept/`를 읽음 ([설명](data/README.md)) |
+| `data/sunwoo/` | `sunwoo` 브랜치에서 가져온 단일 데이터 스냅샷. 앱은 정제본과 `app_profiles.jsonl`을 읽음 ([설명](data/README.md)) |
 | `docs/product/` | 제품 기준, 개발 안내, v1 기획, 구현 계획(`plans/`) |
 | `docs/analysis/` | 서비스 코드 분석, 데이터셋 분석, 추천 설명·과목 선정 논의 |
 | `experiments/` | 앱에 반영하지 않은 실험 (예: [bge-m3 연구실↔과목 매칭](experiments/bge_m3/README.md)) |
@@ -49,6 +49,8 @@ python3 -m unittest discover -s tests -v
 
 ## 데이터 범위
 
-- [데이터 설명](data/README.md): 반입 데이터의 위치와 현재 앱이 읽는 과거 MVP 부분집합을 구분합니다.
-- 현재 자료는 컴퓨터공학·전자전기·IT융합·반도체공학 4개 학과의 연구실 60곳과 15개 학과 계열 과목 419개로, 포스텍 전체를 포괄하지 않습니다. 첫 사용자 검증은 이 범위의 학생을 대상으로 합니다(2026-09-16 결정).
+- [데이터 설명](data/README.md): 반입 데이터의 위치와 원본·파생 자료의 출처를 설명합니다.
+- 현재 자료는 포스텍 전체 정제본이며 연구실 365개 중 307개, 과목 1,316개 중 1,151개를 추천 대상으로 사용합니다. 논문 연결은 2,761개입니다.
 - [기존 v1 기획](docs/product/PRODUCT_README_v1.md)은 초기 배경 참고용이며 현재 MVP 범위나 기술 선택의 기준이 아닙니다.
+
+2026-11-24 검토 데이터 반영: [서비스 분석](docs/analysis/SERVICE_CODEBASE_ANALYSIS.md) 맨 위 기록, [논문 귀속 검증](docs/analysis/PAPER_ATTRIBUTION_REVIEW.md), [2026-11-13 통합 계획](docs/plans/2026-11-13-final-sunwoo-data.md).

@@ -7,3 +7,5 @@
 분석 문서는 현재 제품 흐름, 화면·API·데이터·저장 책임, 구현된 기능과 후속 기능, 설문과 앱의 차이를 정리한다. 제품 정책이나 구조가 바뀌면 해당 문서도 갱신한다.
 
 연구실·교과목·논문 데이터 및 추천 작업에서는 `docs/analysis/RECOMMENDATION_DATASET_ANALYSIS.md`도 읽는다. 새 원자료와 앱 변환자료의 대응, 복합 과목 코드, 논문 출처·연구실 연결과 원문/추론 구분을 확인한다.
+
+논문과 교수의 연결을 고치거나 논문·연구실 프로필 데이터를 다시 만들 때는 `docs/analysis/PAPER_ATTRIBUTION_REVIEW.md`의 절차를 따른다. 저자 프로필에 붙어 있다는 것만으로 본인 논문으로 쓰지 않는다. 판정은 근거와 함께 `data/sunwoo/curation/lab_overrides.json`에 적고 `python3 tools/paper_attribution.py apply <연구실 ID>`로 반영하며, 작업 뒤 `python3 tools/paper_attribution.py check`가 통과해야 한다. 새로 만난 사례는 `data/sunwoo/curation/CASES.md`에 선례로 남긴다.

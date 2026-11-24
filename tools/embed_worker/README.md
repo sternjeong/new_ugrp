@@ -18,7 +18,7 @@ Kaggle 워커 → GET /api/worker/poll (long-poll) → 작업 수신 → bge-m3�
 
 GPU에서 `search_chunks.jsonl`, `search_vectors.npy`, `intent_exemplars.json`이 있으면 워커가 구절 유사도에 더해 질의 전체를 분석한다(`QueryAnalyzer`). 실행 중 프런티어 LLM은 부르지 않는다. 순서: BGE-M3 예문 임베딩으로 거절 판단(잡담·절차·막연함·싫어함만) → NLLB-200 한→영 번역 → 유사 피드백을 더한 조각 검색 → bge-reranker-v2-m3로 상위 50곳 채점. 서버는 번역문으로 사전 검색을 다시 하고 네 목록을 순위 융합한다. 파일이 없거나 CPU이면 구절 유사도만 계산하고 서버는 이전 방식으로 동작한다. 구성과 측정은 `experiments/no_llm_20261109/REPORT.md`.
 
-자료 만들기(팀원 `feat/proto`의 `data/rag/pack300-whole` 조각과 BGE-M3 벡터가 입력). 동명이인 논문과 나쁜 조각(D1)을 뺀다: 같은 연구실 안 중복 304, 다른 교수의 `Advisor:` 과제 글 150(ML 연구실 세 곳), 40자 미만·날짜·뉴스 위주 껍데기 87. 연구실 조각 9,824개 중 9,243개가 남는다(2026-11-23):
+자료 만들기(팀원 `feat/proto`의 `data/rag/pack300-whole` 조각과 BGE-M3 벡터가 입력). 동명이인 논문, 검토로 그 연구실에서 뺀 논문(`data/sunwoo/papers.jsonl`의 연구실 묶음에 없는 논문 조각, 2026-11-24), 나쁜 조각(D1)을 뺀다: 같은 연구실 안 중복 304, 다른 교수의 `Advisor:` 과제 글 150(ML 연구실 세 곳), 40자 미만·날짜·뉴스 위주 껍데기 87. 연구실 조각 9,824개 중 9,243개가 남는다(2026-11-23):
 ```
 python3 tools/embed_worker/build_search_assets.py <chunks.jsonl> <vectors.f32> <출력 폴더>
 ```

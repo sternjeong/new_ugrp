@@ -170,9 +170,7 @@ class AdminAPI:
         for lab_id in self.catalog.profiles:
             payload = self.guide.summary_payload(lab_id)
             if payload:
-                from .llm_jobs import cache_key
-                from .research_guide import SUMMARY_VERSION
-                job = self.llm.submit('summary', cache_key('summary', SUMMARY_VERSION, lab_id), payload)
+                job = self.llm.submit('summary', self.guide.summary_key(lab_id), payload)
                 queued += job['status'] == 'queued'
         return {'queued': queued}
 

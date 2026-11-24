@@ -17,7 +17,7 @@ from .intent_mirror import build_mirror, clean_slots
 from .meeting_links import MeetingLinkError
 from .platform import Platform
 from .privacy import consent_notice, policy
-from .research_guide import PROMPT_VERSION, SUMMARY_VERSION
+from .research_guide import PROMPT_VERSION
 from .store import LoginRequired, InvalidCredentials, ProfileRequired
 
 STATIC = Path(__file__).parent / 'static'
@@ -208,7 +208,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
         # ---- reads that need more than one call ----
         def summary(self, lab_id):
             lab_id = catalog.resolve(lab_id or '')
-            key = cache_key('summary', SUMMARY_VERSION, lab_id)
+            key = P.guide.summary_key(lab_id)
             job = P.llm.get(key=key)
             if (job is None or job['status'] == 'failed') and P.llm.online():
                 payload = P.guide.summary_payload(lab_id)  # public abstracts only; no personal data leaves the server

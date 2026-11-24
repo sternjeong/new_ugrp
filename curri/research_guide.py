@@ -8,6 +8,7 @@ codes must be ones the student marked, next courses must come from the offered l
 import json
 import re
 
+from .llm_jobs import cache_key
 from .text_cleanup import tidy
 from .curated_catalog import clip, course_lines, load_jsonl
 
@@ -98,6 +99,16 @@ class LabPapers:
     def author_ids(self, lab_id):
         return self.rows.get(lab_id, {}).get('author_ids') or []
 
+    def revision(self, lab_id):
+        """'' for a lab whose papers are as collected. After a reviewed paper decision (tools/paper_attribution.py apply)
+        the lab shows different papers, so its paper ids go into the cache key of the shared brief: only that lab's
+        brief is rebuilt, the others keep their cached one."""
+        row = self.rows.get(lab_id, {})
+        papers = row.get('papers') or []
+        if row.get('basis') in ('official_allowlist', 'unverified_after_exclusions') or any(p.get('ownership_verification') for p in papers):
+            return ','.join(sorted(str(p.get('openalex_id', '')).rsplit('/', 1)[-1] for p in papers)) or 'none'
+        return ''
+
     def known_ids(self, lab_id):
         return {str(p.get('openalex_id', '')).rsplit('/', 1)[-1] for p in self.rows.get(lab_id, {}).get('papers', [])}
 
@@ -179,6 +190,10 @@ class ResearchGuide:
         return [s for s in self.sources(lab_id) if s['kind'] != '대표 논문'] + [
             {'id': f'P{i + 1}', 'kind': '대표 논문', 'title': tidy(p['title']), 'year': p.get('year'), 'text': tidy(p['abstract']), 'url': paper_url(p)}
             for i, p in enumerate(self.papers.recent(lab_id, 3))]
+
+    def summary_key(self, lab_id):
+        revision = self.papers.revision(lab_id)
+        return cache_key('summary', SUMMARY_VERSION, lab_id, *([revision] if revision else []))
 
     def summary_payload(self, lab_id):
         sources = self.brief_sources(lab_id)
