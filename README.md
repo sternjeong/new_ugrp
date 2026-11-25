@@ -50,7 +50,7 @@ python3 -m unittest discover -s tests -v
 ## 데이터 범위
 
 - [데이터 설명](data/README.md): 반입 데이터의 위치와 원본·파생 자료의 출처를 설명합니다.
-- 현재 자료는 포스텍 전체 정제본이며 연구실 365개 중 307개, 과목 1,316개 중 1,151개를 추천 대상으로 사용합니다. 논문 연결은 2,761개입니다.
+- 현재 자료는 포스텍 전체 정제본이며 연구실 365개 중 307개, 과목 1,316개 중 1,151개를 추천 대상으로 사용합니다. 논문 연결은 2,757개입니다.
 - [기존 v1 기획](docs/product/PRODUCT_README_v1.md)은 초기 배경 참고용이며 현재 MVP 범위나 기술 선택의 기준이 아닙니다.
 
 2026-11-24 검토 데이터 반영: [서비스 분석](docs/analysis/SERVICE_CODEBASE_ANALYSIS.md) 맨 위 기록, [논문 귀속 검증](docs/analysis/PAPER_ATTRIBUTION_REVIEW.md), [2026-11-13 통합 계획](docs/plans/2026-11-13-final-sunwoo-data.md).

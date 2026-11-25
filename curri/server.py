@@ -215,7 +215,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 job = P.llm.submit('summary', key, payload) if payload else None
             cited = P.guide.papers.cited(lab_id)  # picked in code, shown even without the LLM
             if job and job['status'] == 'done':
-                return {'status': 'done', 'summary': job['result'], 'cited': cited}
+                return {'status': 'done', 'summary': P.guide.with_venues(lab_id, job['result']), 'cited': cited}
             return {'status': job['status'] if job else ('offline' if P.llm.enabled() else 'unavailable'), 'cited': cited}
 
         def guide_status(self, lab_id):

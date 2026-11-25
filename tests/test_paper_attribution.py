@@ -315,9 +315,10 @@ class RepositoryDataTests(unittest.TestCase):
     def test_every_recorded_decision_is_in_force(self):
         self.assertEqual(pa.check(pa.Data()), [])
 
-    def test_the_two_reviewed_labs_show_only_reviewed_papers(self):
+    def test_the_reviewed_labs_show_only_reviewed_papers(self):
         rows = {r['lab_id']: r for r in pa.audit(pa.Data())}
-        for lab_id, count in (('0a6ff7bc33b7ed4911d691f6ab0c5136', 2), ('f99a04f1c7ba3fe4f420c343e9c9a1ca', 7)):
+        for lab_id, count in (('0a6ff7bc33b7ed4911d691f6ab0c5136', 2), ('f99a04f1c7ba3fe4f420c343e9c9a1ca', 7),
+                              ('9c2741540c4286d26221b8f2701304f2', 7), ('00a2f37dcd22c6860346daa192299452', 7)):
             self.assertEqual((rows[lab_id]['reviewed'], rows[lab_id]['unverified'], rows[lab_id]['tier']), (count, 0, 0))
 
 

@@ -149,15 +149,17 @@
   "derived_files": [
     {
       "path": "app_profiles.jsonl",
-      "sha256": "05e99ef3ff4bf6c025ca6366e9fb35d72cd706ae86ad048a4dbf8edb25a8c398"
+      "sha256": "e99b47c403a844d27bbc5b4c19656826a6d21fa0ade8571a9f715460d6bb876c"
     },
     {
       "path": "lab_course_bge_m3.json",
-      "sha256": "2526602db81654cabc1c0b26c52c655e8538b1adccdecdad60cc229505627875"
+      "sha256": "4c467d277b8b9edba33fca587a07d0ebc19044af082e3ebe49a3334287818551"
     }
   ],
   "changed_lab_ids": [
+    "00a2f37dcd22c6860346daa192299452",
     "0a6ff7bc33b7ed4911d691f6ab0c5136",
+    "9c2741540c4286d26221b8f2701304f2",
     "f99a04f1c7ba3fe4f420c343e9c9a1ca"
   ],
   "external_assets_require_rebuild": [
@@ -172,18 +174,18 @@
   "corrected_files": [
     {
       "path": "curation/lab_overrides.json",
-      "bytes": 32973,
-      "sha256": "ab5c90b4343f4e2b34df38fb0626dba8e8ddfb03a5f11abdc8eef889a7a59462"
+      "bytes": 51025,
+      "sha256": "d7012a0bfa5ed3972789a4b77fdd311b1f4a9fdbcf597ed056589373d4090d3c"
     },
     {
       "path": "labs.jsonl",
-      "bytes": 2738394,
-      "sha256": "7db5210825922058bc812bb45bda940c6e381c187675f3f0419a7f1b166c7803"
+      "bytes": 2750156,
+      "sha256": "5236ca96f98a8d758cd814a71ee9acdc0d21adf82cccada16a5893f70a0ba1d5"
     },
     {
       "path": "papers.jsonl",
-      "bytes": 5283336,
-      "sha256": "248d06a935da9b384bfe5601bacc9b6e9dc11994ff798373c75682d2b1aea811"
+      "bytes": 5282919,
+      "sha256": "9c0fa97192aac19f6c7bb027e0ef65f8026821b0eb908d085078cd664ef1de1b"
     }
   ],
   "corrections": [
@@ -192,6 +194,14 @@
       "tool": "tools/paper_attribution.py apply",
       "lab_ids": [
         "0a6ff7bc33b7ed4911d691f6ab0c5136"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "tool": "tools/paper_attribution.py apply",
+      "lab_ids": [
+        "00a2f37dcd22c6860346daa192299452",
+        "9c2741540c4286d26221b8f2701304f2"
       ]
     }
   ]

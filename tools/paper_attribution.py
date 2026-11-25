@@ -617,7 +617,8 @@ def apply(data, lab_id, fetch=fetch_json, cache=CACHE, offline=False, today=None
     if 'openalex_author_ids' in override:
         new_ids = list(override['openalex_author_ids'])
         dropped = [i for i in oa.get('author_ids') or [] if i not in new_ids]
-        oa['raw_author_ids'] = list(dict.fromkeys([*(oa.get('raw_author_ids') or []), *dropped]))  # kept as history (D-16)
+        # raw_author_ids is every profile ever picked for this record; a dropped one stays there as history (D-16)
+        oa['raw_author_ids'] = list(dict.fromkeys([*(oa.get('raw_author_ids') or []), *dropped]))
         known = {p['id']: p for p in oa.get('profiles') or []}
         oa['profiles'] = [known.get(i) or {'id': i, 'works_count': None, 'postech_works': None, 'flag': None, 'reasons': [],
                                            'listed_hits': None, 'verdict': None} for i in new_ids]

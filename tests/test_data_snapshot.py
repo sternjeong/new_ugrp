@@ -8,7 +8,9 @@ from curri.curated_catalog import CuratedCatalog
 from curri.research_papers import ResearchPapers
 
 DATA = Path(__file__).resolve().parents[1] / 'data' / 'sunwoo'
-CHANGED = {'0a6ff7bc33b7ed4911d691f6ab0c5136', 'f99a04f1c7ba3fe4f420c343e9c9a1ca'}
+# 박성우, 최영준 (2026-11-05, 2026-11-24) and 박상돈, 이승우 (2026-11-25): papers changed by a reviewed decision
+CHANGED = {'0a6ff7bc33b7ed4911d691f6ab0c5136', 'f99a04f1c7ba3fe4f420c343e9c9a1ca',
+           '9c2741540c4286d26221b8f2701304f2', '00a2f37dcd22c6860346daa192299452'}
 
 
 def rows(name, key):
@@ -39,7 +41,7 @@ class DataSnapshotTests(unittest.TestCase):
 
     def test_corrected_papers_reach_the_service(self):
         papers = rows('papers.jsonl', 'id')
-        self.assertEqual(sum(len(r['papers']) for r in papers.values()), 2761)
+        self.assertEqual(sum(len(r['papers']) for r in papers.values()), 2757)
         actual = ResearchPapers(DATA / 'papers.jsonl')
         for lid in CHANGED:
             self.assertEqual({p['id'] for p in actual.recent(lid)}, {p['openalex_id'] for p in papers[lid]['papers']})
@@ -50,6 +52,11 @@ class DataSnapshotTests(unittest.TestCase):
         park = '0a6ff7bc33b7ed4911d691f6ab0c5136'
         self.assertEqual(set(actual.labs[park]), {'W4411064901', 'W2144482530'})
         self.assertEqual(papers[park]['author_ids'], [])
+        # 박상돈 (2026-11-25): the KAIST and National Security Research Institute namesakes' papers are gone.
+        sangdon = actual.labs['9c2741540c4286d26221b8f2701304f2']
+        self.assertEqual(len(sangdon), 7)
+        self.assertTrue({'W4401252814', 'W4226217787', 'W3000480525', 'W4386375303', 'W4403385480'}.isdisjoint(sangdon))
+        self.assertNotIn('W4240977029', actual.labs['00a2f37dcd22c6860346daa192299452'])  # 이승우: the law paper
 
     def test_profile_paper_evidence_comes_from_current_papers(self):
         papers = rows('papers.jsonl', 'id')
@@ -64,7 +71,7 @@ class DataSnapshotTests(unittest.TestCase):
         mapping = json.loads((DATA / 'lab_course_bge_m3.json').read_text())
         self.assertEqual(set(mapping['migration']['requires_recompute']), CHANGED)
         self.assertTrue(CHANGED.isdisjoint(mapping['labs']))
-        self.assertEqual(len(mapping['labs']), 305)
+        self.assertEqual(len(mapping['labs']), 303)
         for name, digest in mapping['sources'].items():
             self.assertEqual(hashlib.sha256((DATA / name).read_bytes()).hexdigest(), digest)
         retained = mapping['migration']['retained_profile_sha256']

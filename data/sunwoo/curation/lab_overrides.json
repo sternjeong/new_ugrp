@@ -69,12 +69,235 @@
   "acronym": "ML Lab",
   "source": "http://ml.postech.ac.kr/",
   "why": "사이트 제목이 'Machine Learning Lab @ Postech'이다",
-  "decided": "2026-10-25",
+  "decided": "2026-11-25",
   "openalex_author_ids": [
-   "A5014443062"
+   "A5140657858"
   ],
-  "openalex_why": "학교 연구자 검색 논문 목록 20편과 제목 대조(사례집 D-11): A5140657858(Sangdon Park, 3편 중 목록 논문 0편) 뺌",
-  "openalex_source": "data/curation/openalex_paper_match.json"
+  "openalex_why": "D-21·D-24: A5014443062는 POSTECH 박상돈 교수, KAIST 전기및전자공학부의 박상돈, 국가보안기술연구소의 박상돈이 합쳐진 프로필이다(2018년 이후 63편: KAIST 29, POSTECH 8, UPenn 6, 국가보안기술연구소 6). 두 동명이인이 지금도 논문을 내고 있어 새 논문 알림 출처로 쓰지 않는다. 2026년 POSTECH 논문 3편만 있는 A5140657858만 남긴다. 2026-10-26의 학교 목록 대조(D-11, 15편 일치)는 프로필 안에 본인 논문이 있다는 뜻이었다(D-17).",
+  "openalex_source": "https://api.openalex.org/works?filter=author.id:A5014443062,from_publication_date:2018-01-01",
+  "identity_verification": {
+   "checked_at": "2026-11-25T03:00:00+00:00",
+   "by": "Claude Code; public sources, no authenticated API",
+   "orcid": null,
+   "orcid_note": "본인 논문의 출판사 기록에서 ORCID를 찾지 못함. A5014443062에 붙은 0000-0001-5392-749X는 KAIST의 다른 박상돈 것(https://orcid.org/0000-0001-5392-749X)",
+   "official_identity": "https://sangdon.github.io/",
+   "official_identity_note": "Assistant professor of GSAI and CSE at POSTECH; Machine Learning Lab; member of Team Atlanta",
+   "previous_author_ids": [
+    "A5014443062"
+   ],
+   "considered_not_added": [
+    {
+     "openalex_id": "W2810891916",
+     "doi": "10.14257/jse.2018.04.01",
+     "title": "A Review on the Role Expansion of German Federal Office for Information Security(Bundesamt für Sicherheit in der Informationstechnik, BSI) in 2017",
+     "why": "독일 연방정보기술보안청에 관한 단독 저자 정책 논문(2018, 보안공학연구논문지). 국가보안기술연구소 박상돈의 논문으로 보이지만 DOI 주소가 열리지 않아 저자 소속 기록을 확인하지 못했다. 제외 판정 없이, 본인 근거가 없어 허용 목록에 넣지 않음(D-25)"
+    },
+    {
+     "openalex_id": "W7165842992",
+     "doi": "10.48550/arxiv.2606.25447",
+     "title": "The Interplay of Harness Design and Post-Training in LLM Agents",
+     "why": "POSTECH 컴퓨터공학과 소속과 ML 연구실 공동 교수(김동우) 공저라 본인 논문으로 보이지만, 학교 목록·홈페이지 목록에 아직 없고 DOI 기록이 불완전해 넣지 않음"
+    },
+    {
+     "openalex_id": "W2996766289",
+     "doi": "10.48550/arxiv.2001.00106",
+     "title": "PAC Confidence Sets for Deep Neural Networks via Calibrated Prediction",
+     "why": "UPenn 소속의 2019년 논문. POSTECH 부임 전이라 학교 목록에 없고 홈페이지 첫 화면 목록에도 없어 넣지 않음"
+    }
+   ],
+   "removed_selection": [
+    {
+     "openalex_id": "W4401252814",
+     "doi": "10.3390/s24155000"
+    },
+    {
+     "openalex_id": "W4226217787",
+     "doi": "10.1109/jiot.2022.3163820"
+    },
+    {
+     "openalex_id": "W3000480525",
+     "doi": "10.1109/jiot.2020.2966627"
+    },
+    {
+     "openalex_id": "W4386375303",
+     "doi": "10.3837/tiis.2023.08.009"
+    },
+    {
+     "openalex_id": "W4403385480",
+     "doi": "10.70515/sac.2024.08.35.2.7"
+    },
+    {
+     "openalex_id": "W2810891916",
+     "doi": "10.14257/jse.2018.04.01"
+    },
+    {
+     "openalex_id": "W7165842992",
+     "doi": "10.48550/arxiv.2606.25447"
+    },
+    {
+     "openalex_id": "W2996766289",
+     "doi": "10.48550/arxiv.2001.00106"
+    }
+   ]
+  },
+  "paper_exclusions": [
+   {
+    "openalex_id": "W4401252814",
+    "doi": "10.3390/s24155000",
+    "title": "Dynamic Bandwidth Slicing in Passive Optical Networks to Empower Federated Learning",
+    "severity": "P0",
+    "checked_at": "2026-11-25",
+    "reason": "D-24: 출판사가 이 논문의 저자에 등록한 ORCID 0000-0001-5392-749X는 KAIST 전기및전자공학부 박사(2013~2017)·KAIST 박사후연구원(2017~) 경력의 다른 박상돈 것이고, 논문에 적힌 소속도 KAIST 전기및전자공학부다. POSTECH 박상돈 교수의 같은 시기 논문은 Georgia Tech(2022)와 POSTECH(2024) 소속으로 나왔다. 학교 논문 목록과 교수 홈페이지 목록에 없다.",
+    "sources": [
+     "https://api.crossref.org/works/10.3390/s24155000",
+     "https://orcid.org/0000-0001-5392-749X",
+     "https://sangdon.github.io/"
+    ]
+   },
+   {
+    "openalex_id": "W4226217787",
+    "doi": "10.1109/jiot.2022.3163820",
+    "title": "Differential Pricing-Based Task Offloading for Delay-Sensitive IoT Applications in Mobile Edge Computing System",
+    "severity": "P0",
+    "checked_at": "2026-11-25",
+    "reason": "D-24: 출판사가 이 논문의 저자에 등록한 ORCID 0000-0001-5392-749X는 KAIST 전기및전자공학부 박사(2013~2017)·KAIST 박사후연구원(2017~) 경력의 다른 박상돈 것이고, 논문에 적힌 소속도 KAIST 전기및전자공학부다. POSTECH 박상돈 교수의 같은 시기 논문은 Georgia Tech(2022)와 POSTECH(2024) 소속으로 나왔다. 학교 논문 목록과 교수 홈페이지 목록에 없다.",
+    "sources": [
+     "https://api.crossref.org/works/10.1109/jiot.2022.3163820",
+     "https://orcid.org/0000-0001-5392-749X",
+     "https://sangdon.github.io/"
+    ]
+   },
+   {
+    "openalex_id": "W3000480525",
+    "doi": "10.1109/jiot.2020.2966627",
+    "title": "Three Dynamic Pricing Schemes for Resource Allocation of Edge Computing for IoT Environment",
+    "severity": "P0",
+    "checked_at": "2026-11-25",
+    "reason": "D-24: 출판사가 이 논문의 저자에 등록한 ORCID 0000-0001-5392-749X는 KAIST 전기및전자공학부 박사(2013~2017)·KAIST 박사후연구원(2017~) 경력의 다른 박상돈 것이고, 논문에 적힌 소속도 KAIST 전기및전자공학부다. POSTECH 박상돈 교수의 같은 시기 논문은 Georgia Tech(2022)와 POSTECH(2024) 소속으로 나왔다. 학교 논문 목록과 교수 홈페이지 목록에 없다.",
+    "sources": [
+     "https://api.crossref.org/works/10.1109/jiot.2020.2966627",
+     "https://api.openalex.org/works/W3000480525",
+     "https://orcid.org/0000-0001-5392-749X",
+     "https://sangdon.github.io/"
+    ]
+   },
+   {
+    "openalex_id": "W4386375303",
+    "doi": "10.3837/tiis.2023.08.009",
+    "title": "A Study on the Protection of Biometric Information against Facial Recognition Technology",
+    "severity": "P0",
+    "checked_at": "2026-11-25",
+    "reason": "D-19: 논문에 적힌 저자 소속이 국가보안기술연구소 국가보안정책연구실(National Security Policy Research Section, National Security Research Institute, 학술지 기록). POSTECH 박상돈 교수의 같은 시기 논문은 POSTECH 소속이고(학교 논문 목록의 2024년 논문들), 이 논문은 학교 논문 목록과 교수 홈페이지 목록에 없다. 같은 이름 세 사람이 합쳐진 프로필 A5014443062에 붙어 들어왔다.",
+    "sources": [
+     "https://doi.org/10.3837/tiis.2023.08.009",
+     "https://api.openalex.org/works/W4386375303",
+     "https://sangdon.github.io/"
+    ]
+   },
+   {
+    "openalex_id": "W4403385480",
+    "doi": "10.70515/sac.2024.08.35.2.7",
+    "title": "A study on challenges of institution for utilizing executive branch’s capabilities for cybersecurity of constitutional organs other than executive branch - Focusing on U.S. efforts and constitutional theories -",
+    "severity": "P0",
+    "checked_at": "2026-11-25",
+    "reason": "D-19: 논문에 적힌 저자 소속이 국가보안기술연구소(DBpia 논문 기록: 박상돈, 국가보안기술연구소). POSTECH 박상돈 교수의 같은 시기 논문은 POSTECH 소속이고(학교 논문 목록의 2024년 논문들), 이 논문은 학교 논문 목록과 교수 홈페이지 목록에 없다. 같은 이름 세 사람이 합쳐진 프로필 A5014443062에 붙어 들어왔다.",
+    "sources": [
+     "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11923221",
+     "https://sangdon.github.io/"
+    ]
+   }
+  ],
+  "paper_allowlist": {
+   "orcid": null,
+   "checked_at": "2026-11-25T03:00:00+00:00",
+   "scope": "교수 홈페이지 목록에 있는 3편과 학교 논문 목록에 있는 4편(논문에 적힌 소속은 POSTECH 또는 Georgia Tech). 편수를 채우기 위한 자동 확장 없음. 관측 ORCID는 OpenAlex가 합쳐진 프로필에 붙인 값이라 근거로 쓰지 않음.",
+   "works": [
+    {
+     "openalex_id": "W4415109378",
+     "doi": "10.48550/arxiv.2506.14067",
+     "title": "Online Conformal Abstention Under Adversarial Bandit Feedback",
+     "author_id": "A5014443062",
+     "author_name": "Park, Sangdon",
+     "observed_orcid": "0000-0001-5392-749X",
+     "basis": "official_publication_list",
+     "source": "https://sangdon.github.io/",
+     "bibliographic_source": "https://doi.org/10.48550/arxiv.2506.14067",
+     "openalex_source": "https://api.openalex.org/works/W4415109378"
+    },
+    {
+     "openalex_id": "W4417081739",
+     "doi": "10.48550/arxiv.2509.14589",
+     "title": "ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System",
+     "author_id": "A5014443062",
+     "author_name": "Park, Sangdon",
+     "observed_orcid": "0000-0001-5392-749X",
+     "basis": "official_publication_list",
+     "source": "https://sangdon.github.io/",
+     "bibliographic_source": "https://doi.org/10.48550/arxiv.2509.14589",
+     "openalex_source": "https://api.openalex.org/works/W4417081739"
+    },
+    {
+     "openalex_id": "W4415797741",
+     "doi": "10.52202/079017-1600",
+     "title": "Selective Generation for Controllable Language Models",
+     "author_id": "A5120230699",
+     "author_name": "Sangdon Park",
+     "observed_orcid": null,
+     "basis": "official_publication_list",
+     "source": "https://sangdon.github.io/",
+     "bibliographic_source": "https://doi.org/10.52202/079017-1600",
+     "openalex_source": "https://api.openalex.org/works/W4415797741"
+    },
+    {
+     "openalex_id": "W4402781648",
+     "doi": "10.1109/cvpr52733.2024.00573",
+     "title": "MedBN: Robust Test-Time Adaptation against Malicious Test Samples",
+     "author_id": "A5113155994",
+     "author_name": "Sangdon Park",
+     "observed_orcid": null,
+     "basis": "school_publication_list",
+     "source": "https://postech.ac.kr/kor/research-industry-academia/researcher-search.do",
+     "bibliographic_source": "https://doi.org/10.1109/cvpr52733.2024.00573",
+     "openalex_source": "https://api.openalex.org/works/W4402781648"
+    },
+    {
+     "openalex_id": "W4401043055",
+     "doi": "10.18653/v1/2024.naacl-long.210",
+     "title": "TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction",
+     "author_id": "A5014443062",
+     "author_name": "Sangdon Park",
+     "observed_orcid": "0000-0001-5392-749X",
+     "basis": "school_publication_list",
+     "source": "https://postech.ac.kr/kor/research-industry-academia/researcher-search.do",
+     "bibliographic_source": "https://doi.org/10.18653/v1/2024.naacl-long.210",
+     "openalex_source": "https://api.openalex.org/works/W4401043055"
+    },
+    {
+     "openalex_id": "W4387839216",
+     "doi": "10.48550/arxiv.2310.12964",
+     "title": "PAC Prediction Sets Under Label Shift",
+     "author_id": "A5014443062",
+     "author_name": "Park, Sangdon",
+     "observed_orcid": "0000-0001-5392-749X",
+     "basis": "school_publication_list",
+     "source": "https://postech.ac.kr/kor/research-industry-academia/researcher-search.do",
+     "bibliographic_source": "https://doi.org/10.48550/arxiv.2310.12964",
+     "openalex_source": "https://api.openalex.org/works/W4387839216"
+    },
+    {
+     "openalex_id": "W4309394860",
+     "doi": "10.48550/arxiv.2211.09330",
+     "title": "ACon$^2$: Adaptive Conformal Consensus for Provable Blockchain Oracles",
+     "author_id": "A5014443062",
+     "author_name": "Park, Sangdon",
+     "observed_orcid": "0000-0001-5392-749X",
+     "basis": "school_publication_list",
+     "source": "https://postech.ac.kr/kor/research-industry-academia/researcher-search.do",
+     "bibliographic_source": "https://doi.org/10.48550/arxiv.2211.09330",
+     "openalex_source": "https://api.openalex.org/works/W4309394860"
+    }
+   ]
+  }
  },
  "a884b1d54c2547e8e5d55978297cbf47": {
   "name_en": "Artificial Intelligence of Things Laboratory",
@@ -693,6 +916,134 @@
      "bibliographic_source": "https://doi.org/10.48550/arxiv.2411.11163",
      "openalex_source": "https://api.openalex.org/works/W4404570719"
     }
+   ]
+  }
+ },
+ "00a2f37dcd22c6860346daa192299452": {
+  "decided": "2026-11-25",
+  "identity_verification": {
+   "checked_at": "2026-11-25T03:00:00+00:00",
+   "by": "Claude Code; public sources, no authenticated API",
+   "orcid": "0000-0003-1006-0333",
+   "orcid_basis": "ORCID 기록의 소속이 POSTECH Department of Physics, Associate Professor(학위 University of Oxford DPhil)이고, Crossref의 논문 5편 저자 Seung-Woo Lee에 이 ORCID가 등록돼 있음",
+   "official_identity": "https://orcid.org/0000-0003-1006-0333",
+   "profile_note": "A5100403765는 2018년 이후 35편 중 32편이 물리(KIST 20, KIAS 8, POSTECH 3)라 본인 프로필로 보고 새 논문 알림 출처로 유지",
+   "considered_not_added": [
+    {
+     "openalex_id": "W4240977029",
+     "doi": "10.22397/wlri.2020.36.3.71",
+     "title": "Judicial relief against interlayer noise of children",
+     "why": "원광법학(2020)의 단독 저자 법학 논문 '아동의 층간소음에 대한 사법적 구제'. 논문에 ORCID가 없고 저자 소속 기록을 찾지 못해 제외 판정은 하지 않았다. 본인 근거(ORCID·소속)가 없어 허용 목록에 넣지 않음(D-25)"
+    }
+   ],
+   "removed_selection": [
+    {
+     "openalex_id": "W4240977029",
+     "doi": "10.22397/wlri.2020.36.3.71"
+    }
+   ]
+  },
+  "paper_allowlist": {
+   "orcid": "0000-0003-1006-0333",
+   "checked_at": "2026-11-25T03:00:00+00:00",
+   "scope": "출판사가 본인 ORCID를 등록한 5편과, 논문에 적힌 소속이 POSTECH 물리학과이고 같은 공저자와 낸 2026년 2편. 관측 ORCID는 OpenAlex가 저자에 붙인 값이다.",
+   "works": [
+    {
+     "openalex_id": "W4417091791",
+     "doi": "10.1038/s41534-026-01268-1",
+     "title": "Restoring Heisenberg scaling in time via autonomous quantum error correction",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_affiliation_and_coauthor",
+     "source": "https://api.crossref.org/works/10.1038/s41534-026-01268-1",
+     "bibliographic_source": "https://doi.org/10.1038/s41534-026-01268-1",
+     "openalex_source": "https://api.openalex.org/works/W4417091791"
+    },
+    {
+     "openalex_id": "W7152438334",
+     "doi": "10.1038/s41534-026-01231-0",
+     "title": "Virtual purification complements quantum error correction in quantum metrology",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_affiliation_and_coauthor",
+     "source": "https://api.crossref.org/works/10.1038/s41534-026-01231-0",
+     "bibliographic_source": "https://doi.org/10.1038/s41534-026-01231-0",
+     "openalex_source": "https://api.openalex.org/works/W7152438334"
+    },
+    {
+     "openalex_id": "W7162627808",
+     "doi": "10.1103/sbdv-ql64",
+     "title": "Entanglement recovery by reversing the effect of noise in a quantum repeater",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_orcid",
+     "source": "https://api.crossref.org/works/10.1103/sbdv-ql64",
+     "bibliographic_source": "https://doi.org/10.1103/sbdv-ql64",
+     "openalex_source": "https://api.openalex.org/works/W7162627808"
+    },
+    {
+     "openalex_id": "W4401216343",
+     "doi": "10.1103/physrevlett.133.050605",
+     "title": "Encoded-Fusion-Based Quantum Computation for High Thresholds with Linear Optics",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_orcid",
+     "source": "https://api.crossref.org/works/10.1103/physrevlett.133.050605",
+     "bibliographic_source": "https://doi.org/10.1103/physrevlett.133.050605",
+     "openalex_source": "https://api.openalex.org/works/W4401216343"
+    },
+    {
+     "openalex_id": "W4401252007",
+     "doi": "10.1103/prxquantum.5.030322",
+     "title": "Fault-Tolerant Quantum Computation by Hybrid Qubits with Bosonic Cat Code and Single Photons",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_orcid",
+     "source": "https://api.crossref.org/works/10.1103/prxquantum.5.030322",
+     "bibliographic_source": "https://doi.org/10.1103/prxquantum.5.030322",
+     "openalex_source": "https://api.openalex.org/works/W4401252007"
+    },
+    {
+     "openalex_id": "W3166479478",
+     "doi": "10.1038/s41534-021-00426-x",
+     "title": "Optimal teleportation via noisy quantum channels without additional qubit resources",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_orcid",
+     "source": "https://api.crossref.org/works/10.1038/s41534-021-00426-x",
+     "bibliographic_source": "https://doi.org/10.1038/s41534-021-00426-x",
+     "openalex_source": "https://api.openalex.org/works/W3166479478"
+    },
+    {
+     "openalex_id": "W3036831230",
+     "doi": "10.1364/josab.393200",
+     "title": "Optimal quantum phase estimation with generalized multi-component Schrödinger cat states",
+     "author_id": "A5100403765",
+     "author_name": "Seung-Woo Lee",
+     "observed_orcid": "0000-0003-1006-0333",
+     "basis": "publisher_orcid",
+     "source": "https://api.crossref.org/works/10.1364/josab.393200",
+     "bibliographic_source": "https://doi.org/10.1364/josab.393200",
+     "openalex_source": "https://api.openalex.org/works/W3036831230"
+    }
+   ]
+  }
+ },
+ "a0077af62c6f63c9154fbfb3318181c1": {
+  "identity_verification": {
+   "checked_at": "2026-11-25T03:00:00+00:00",
+   "by": "Claude Code; public sources, no authenticated API",
+   "result": "no_exclusion",
+   "note": "W4383181504(DH2023 패널 초록 'Beyond the Boundaries of Individual Universities', Zenodo)는 분야가 달라 의심했지만 Zenodo 기록의 저자 소속이 UNIST이고, 본인의 2023~2024년 자연어처리 논문(Conversation Chronicles 등)도 UNIST 소속으로 나와 있어 같은 사람으로 본다. 제외하지 않음(D-26)",
+   "sources": [
+    "https://zenodo.org/records/8108021",
+    "https://orcid.org/0009-0008-3382-7510"
    ]
   }
  }

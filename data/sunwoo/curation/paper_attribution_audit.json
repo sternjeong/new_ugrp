@@ -9,16 +9,16 @@
  },
  "labs": 307,
  "papers": {
-  "reviewed": 9,
+  "reviewed": 23,
   "confirmed": 2116,
-  "unverified": 636,
-  "papers": 2761
+  "unverified": 618,
+  "papers": 2757
  },
  "by_tier": {
-  "1": 16,
+  "1": 14,
   "2": 39,
   "3": 144,
-  "0": 108
+  "0": 110
  },
  "queue": [
   {
@@ -292,31 +292,6 @@
    ]
   },
   {
-   "lab_id": "00a2f37dcd22c6860346daa192299452",
-   "professor": "이승우",
-   "department": "물리학과",
-   "tier": 1,
-   "papers": 8,
-   "reviewed": 0,
-   "confirmed": 0,
-   "unverified": 8,
-   "off_field": 0,
-   "hints": [
-    "no_list_match",
-    "feed_follows_profile"
-   ],
-   "unverified_ids": [
-    "W4417091791",
-    "W7152438334",
-    "W7162627808",
-    "W4401216343",
-    "W4401252007",
-    "W3166479478",
-    "W3036831230",
-    "W4240977029"
-   ]
-  },
-  {
    "lab_id": "437fc8d96e56428d5871fdeedc08b4dd",
    "professor": "김승기",
    "department": "환경공학부",
@@ -384,32 +359,6 @@
     "W4392560155",
     "W4396222231",
     "W4402757012"
-   ]
-  },
-  {
-   "lab_id": "9c2741540c4286d26221b8f2701304f2",
-   "professor": "박상돈",
-   "department": "인공지능대학원",
-   "tier": 1,
-   "papers": 10,
-   "reviewed": 0,
-   "confirmed": 0,
-   "unverified": 10,
-   "off_field": 0,
-   "hints": [
-    "feed_follows_profile"
-   ],
-   "unverified_ids": [
-    "W7165842992",
-    "W4415109378",
-    "W4417081739",
-    "W4401252814",
-    "W4403385480",
-    "W4386375303",
-    "W4226217787",
-    "W3000480525",
-    "W2996766289",
-    "W2810891916"
    ]
   },
   {

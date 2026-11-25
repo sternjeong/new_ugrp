@@ -64,6 +64,19 @@ SUMMARY_SCHEMA = {'type': 'object', 'additionalProperties': False, 'required': [
                                                         'properties': {'term': {'type': 'string'}, 'meaning': {'type': 'string'}}}}}}}}}
 
 
+# Words the model sometimes breaks while transliterating: Korean running straight into lowercase Latin letters
+# ("뉴로리gin", "플라즈monics") or into a Chinese character or kana ("표준模型", "기계학習"). Measured 2026-11-24 on 36
+# briefs: 3 had one. Writing in parentheses, as in 문턱 전압(threshold voltage) or 한문학(漢文學), is ordinary and passes.
+MIXED_SCRIPT = re.compile(r'[가-힣][a-z]{2,}')
+FOREIGN_SCRIPT = re.compile(r'[가-힣][\u3040-\u30ff\u3400-\u9fff]|[\u3040-\u30ff\u3400-\u9fff][가-힣]')
+
+
+def script_glitch(text):
+    """The first broken word in generated text, or None."""
+    found = MIXED_SCRIPT.search(text) or FOREIGN_SCRIPT.search(text)
+    return found.group(0) if found else None
+
+
 def norm(text):
     return re.sub(r'\s+', ' ', text or '').strip().lower()
 
@@ -226,4 +239,17 @@ class ResearchGuide:
                           'basis': ' · '.join(k if k == '연구실 소개' else f"{k} {n}{'편' if k == '대표 논문' else '개'}" for k, n in kinds.items())})
         if not items and not focus:
             raise ValueError('근거와 맞는 내용이 없음')
-        return {'version': SUMMARY_VERSION, 'lab_oneliner': str(raw.get('lab_oneliner', ''))[:300], 'focus': focus, 'papers': items}
+        oneliner = str(raw.get('lab_oneliner', ''))[:300]
+        # Only what the model wrote is checked; paper titles come from the data. A rejected brief is generated once more.
+        written = [oneliner, *(f"{f['title']} {f['plain']}" for f in focus),
+                   *(f"{i['plain']} {' '.join(t['term'] + ' ' + t['meaning'] for t in i['terms'])}" for i in items)]
+        glitch = script_glitch(' '.join(written))
+        if glitch:
+            raise ValueError(f'글자가 깨진 단어: {glitch}')
+        return {'version': SUMMARY_VERSION, 'lab_oneliner': oneliner, 'focus': focus, 'papers': items}
+
+    def with_venues(self, lab_id, summary):
+        """Add where each paper of the brief was published. Looked up at read time, so briefs cached earlier get it too
+        and no brief has to be generated again."""
+        venues = {paper_url(p): tidy(p.get('venue') or '') for p in self.papers.rows.get(lab_id, {}).get('papers', [])}
+        return {**summary, 'papers': [{**p, 'venue': venues.get(p.get('url'), '')} for p in summary.get('papers', [])]}
