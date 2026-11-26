@@ -183,6 +183,15 @@ class RagEngineTests(unittest.TestCase):
         engine.search('세포 신호 전달 연구')
         self.assertEqual(asked, [False, True])
 
+    def test_a_refused_query_is_not_rewritten(self):
+        asked = []
+        engine, _ = self.engine({'x': self.flat(self.labs[3])})
+        engine.rewriter = lambda phrase, remote=True: asked.append(phrase) or {'english': 'english terms', 'facets': []}
+        self.assertEqual(engine.search('오늘 chicken 시킬까 고민')['intent'], 'nonsense')
+        self.assertEqual(asked, [])
+        engine.search('단백질 구조 연구')
+        self.assertEqual(asked, ['단백질 구조 연구'])
+
     def test_refusals_never_reach_the_worker(self):
         engine, broker = self.engine({})
         self.assertEqual(engine.search('ㅋㅋㅋ')['intent'], 'nonsense')

@@ -303,14 +303,18 @@ class RagQueryEngine(CuratedQueryEngine):
 
     def ranked(self, likes, dislikes, remote=True, gate=None, rewrite=True):
         """(lab ids best first, {lab id: card}) for the liked and disliked phrases; memoized per phrase set."""
+        # The phrases as written go first, with the worker's refusal check: an off-topic query costs no rewrite.
+        found = self.retriever.lab_scores(list(likes) + list(dislikes), remote=remote, gate=gate)
         groups = [self.group(p, remote and rewrite) for p in likes]
         key = (tuple(likes), tuple(dislikes), repr(groups), gate)
         if key in self._memo:
             self._memo.move_to_end(key)
             return self._memo[key]
+        more = [p for leads, facets in groups for p in leads + facets if p not in found]
+        if more:
+            found = {**found, **self.retriever.lab_scores(more, remote=remote)}
         # A lab must meet every condition of a phrase: the group value is the mean of the phrase's (or its
         # rewrite's, whichever matches the lab better) and the weakest condition's (AND).
-        found = self.retriever.lab_scores([p for leads, facets in groups for p in leads + facets] + list(dislikes), remote=remote, gate=gate)
         labs = [lid for lid in found[likes[0]] if lid in self.catalog.profiles]
         if not labs:
             return [], {}
