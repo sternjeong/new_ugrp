@@ -183,6 +183,16 @@ class RagEngineTests(unittest.TestCase):
         engine.search('세포 신호 전달 연구')
         self.assertEqual(asked, [False, True])
 
+    def test_the_reranker_query_can_carry_the_english_rewrite(self):
+        sent = []
+        engine, broker = self.engine({'x': self.flat(self.labs[3])}, rerank=lambda q: sent.append(q['query']) or [0.0] * len(q['documents']))
+        engine.rewriter = lambda phrase, remote=True: {'english': 'protein structure, folding', 'facets': []}
+        engine.search('단백질 구조 연구')
+        engine._memo.clear()
+        engine.rerank_english = True
+        engine.search('단백질 구조 연구')
+        self.assertEqual(sent, ['단백질 구조 연구', '단백질 구조 연구, protein structure, folding'])
+
     def test_a_refused_query_is_not_rewritten(self):
         asked = []
         engine, _ = self.engine({'x': self.flat(self.labs[3])})

@@ -245,6 +245,7 @@ class RagQueryEngine(CuratedQueryEngine):
         self.retriever, self.reranker, self.rewriter = retriever, reranker, rewriter
         self.rerank_top = int(rerank_top) if rerank_top else None
         self._memo = OrderedDict()
+        self.rerank_english = False  # also give the reranker the R7 English rewrite (the earlier engine did; measured 2026-11-26)
 
     def search(self, text, allow_remote=True, rewrite=True):
         """rewrite=False: no new R7 rewrite (a client over its hourly limit); rewrites already made are still used."""
@@ -332,7 +333,8 @@ class RagQueryEngine(CuratedQueryEngine):
         chunks = {lid: [e for leads, facets in groups for p in leads + facets for e in found[p].get(lid, (0.0, []))[1]] for lid in labs}
         # Professors sharing a lab homepage (meta.group) are one card at the best member's rank (D2).
         ranking, members = self.fold(penalized(mean_z, penalties), chunks)
-        judged = self.rerank(likes, ranking, members, chunks, labs, penalties, remote) if self.reranker else {}
+        english = [leads[1] for leads, _ in groups if len(leads) > 1] if self.rerank_english else []
+        judged = self.rerank(likes, ranking, members, chunks, labs, penalties, remote, english) if self.reranker else {}
         if judged:
             ranking = sorted(judged, key=lambda lid: -judged[lid]) + [lid for lid in ranking if lid not in judged]
         best = max(raw.values())
@@ -348,7 +350,7 @@ class RagQueryEngine(CuratedQueryEngine):
                 self._memo.popitem(last=False)
         return kept, cards
 
-    def rerank(self, likes, ranking, members, chunks, labs, penalties, remote):
+    def rerank(self, likes, ranking, members, chunks, labs, penalties, remote, english=()):
         """{lab id: cross-encoder probability minus the dislike penalty} for the first candidates (R5); {} when the
         worker does not answer (the first-pass order stays)."""
         from .rag import rerank
@@ -356,7 +358,7 @@ class RagQueryEngine(CuratedQueryEngine):
         top = ranking[:self.rerank_top or rerank.TOP]
         docs = [rerank.passage(self.catalog.profiles[lid], [e for m in members[lid] for e in chunks[m]]) for lid in top]
         try:
-            probs = self.reranker.score(', '.join(likes), docs, likes, remote=remote)
+            probs = self.reranker.score(', '.join([*likes, *english]), docs, likes, remote=remote)
         except Unavailable:
             return {}
         penalty = {lid: 0.0 for lid in top}
