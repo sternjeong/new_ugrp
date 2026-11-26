@@ -7,10 +7,17 @@
   <meta name="description" content="관심 분야를 적으면 POSTECH 연구실과 이어지는 과목을 찾아 주는 서비스예요.">
   <title>3분커리 · 관심 분야로 POSTECH 연구실 찾기</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="3분커리">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="stylesheet" href="/styles.css">
   <script src="/theme.js"></script>
   <script defer src="/platform.js"></script>
   <script defer src="/app.js"></script>
+  <script defer src="/install.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">본문으로 이동</a>
@@ -19,7 +26,7 @@
     <nav aria-label="주 메뉴"><button data-action="board" class="nav-button">연구참여 후기</button><button data-action="saved" class="nav-button">나의 탐색 <span id="saved-count">0</span></button><button data-action="inbox" id="inbox-nav" class="nav-button" hidden>쪽지함 <span id="unread-count">0</span></button><span class="nav-end"><button id="account" data-action="account" class="account">로그인</button><button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false"><svg class="icon-moon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M13.6 9.7A6.1 6.1 0 1 1 6.3 2.4a4.8 4.8 0 0 0 7.3 7.3z"/></svg><svg class="icon-sun" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="3.3"/><path d="M13.10 8.00L15.20 8.00M11.61 11.61L13.09 13.09M8.00 13.10L8.00 15.20M4.39 11.61L2.91 13.09M2.90 8.00L0.80 8.00M4.39 4.39L2.91 2.91M8.00 2.90L8.00 0.80M11.61 4.39L13.09 2.91"/></svg><span class="theme-label">다크 모드</span></button></span></nav>
   </header>
   <main id="main" tabindex="-1"><div class="loading" role="status">불러오는 중이에요…</div></main>
-  <footer><span class="footer-brand">3분커리</span><button class="text-button" data-action="open-feedback">의견 보내기</button><button class="text-button" data-action="privacy">개인정보 처리방침</button><span class="footer-note">POSTECH 학부생 연구프로그램(UGRP)을 진행하는 오뚜기부대 팀이 만든 시제품이며, 학교 공식 서비스는 아니에요.</span></footer>
+  <footer><span class="footer-brand">3분커리</span><button class="text-button" id="install-open" type="button">홈 화면에 추가</button><button class="text-button" data-action="open-feedback">의견 보내기</button><button class="text-button" data-action="privacy">개인정보 처리방침</button><span class="footer-note">POSTECH 학부생 연구프로그램(UGRP)을 진행하는 오뚜기부대 팀이 만든 시제품이며, 학교 공식 서비스는 아니에요.</span></footer>
   <div id="toast" role="status" aria-live="polite" hidden></div>
   <dialog id="auth-dialog" aria-labelledby="auth-title">
     <button class="close-button" data-action="close-auth" aria-label="닫기">×</button>
@@ -40,6 +47,16 @@
     <button class="close-button" data-action="close-sheet" aria-label="닫기">×</button>
     <div id="sheet-body"></div>
   </dialog>
+  <dialog id="install-dialog" class="install" aria-labelledby="install-title">
+    <button class="close-button" id="install-close" type="button" aria-label="닫기">×</button>
+    <h2 id="install-title">홈 화면에 추가하기</h2>
+    <p class="micro" id="install-lead">앱처럼 홈 화면 아이콘으로 바로 열 수 있어요.</p>
+    <ol class="install-steps" id="install-steps"></ol>
+    <div class="install-nav"><button type="button" class="secondary" id="install-prev">이전</button><span class="micro" id="install-count" aria-live="polite"></span><button type="button" class="primary" id="install-next">다음</button></div>
+    <p class="micro" id="install-switch"></p>
+  </dialog>
+  <div id="install-banner" class="install-banner" hidden><button type="button" class="install-banner-open" id="install-banner-open"><img src="/brand/icon-192.png" alt="" width="32" height="32"><span><b>앱처럼 쓰기</b><small>홈 화면에 추가하는 방법</small></span></button><button type="button" class="install-banner-x" id="install-banner-x" aria-label="다시 보지 않기">×</button></div>
+  <div id="install-pointer" class="install-pointer" hidden aria-hidden="true">↓</div>
   <noscript>이 서비스는 JavaScript를 켜야 사용할 수 있습니다.</noscript>
 </body>
 </html>

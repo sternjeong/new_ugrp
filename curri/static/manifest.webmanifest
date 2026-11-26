@@ -1,0 +1,15 @@
+{
+  "name": "3분커리",
+  "short_name": "3분커리",
+  "description": "관심 분야를 적으면 POSTECH 연구실과 이어지는 과목을 찾아 주는 서비스예요.",
+  "lang": "ko",
+  "start_url": "/?source=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {"src": "/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

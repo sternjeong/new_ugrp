@@ -37,6 +37,19 @@ class HttpTests(unittest.TestCase):
         payload = response.read()
         return response.status, json.loads(payload) if 'application/json' in response.headers.get('Content-Type', '') else payload
 
+    def test_home_screen_files(self):
+        status, manifest = self.request('/manifest.webmanifest')
+        self.assertEqual(status, 200)
+        manifest = json.loads(manifest)
+        self.assertEqual((manifest['display'], manifest['start_url']), ('standalone', '/?source=homescreen'))
+        for icon in manifest['icons'] + [{'src': '/apple-touch-icon.png'}]:
+            status, body = self.request(icon['src'])
+            self.assertEqual((status, body[:8]), (200, b'\x89PNG\r\n\x1a\n'))
+        status, page = self.request('/?source=homescreen')
+        self.assertIn(b'rel="manifest"', page)
+        self.assertIn(b'install-dialog', page)
+        self.assertEqual(self.request('/install.js')[0], 200)
+
     def test_complete_first_exploration_signup_second_and_refresh(self):
         self.assertEqual(self.request('/api/session')[0], 200)
         status, found = self.request('/api/search', {'interests': 'AI 생명과학', 'goal': 'research'})

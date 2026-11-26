@@ -555,6 +555,31 @@ fieldset.meeting-slots { padding: 0; }
 .mirror-actions { margin: var(--s2) 0 var(--s3); }
 
 /* ---- Narrower screens ---- */
+/* 홈 화면에 추가 안내 (install.js): not modal, so it sits at the top and leaves the browser bar and the pointer free */
+dialog.install { position: fixed; inset: max(12px, env(safe-area-inset-top, 0px)) 0 auto; margin: 0 auto; z-index: 50; }
+.install-steps { list-style: none; padding: 0; margin: var(--s4) 0; display: grid; gap: var(--s3); }
+.install-steps li { display: grid; grid-template-columns: 28px 1fr; gap: var(--s3); align-items: start; padding: var(--s3); border-radius: var(--r2); color: var(--text-3); }
+.install-steps li.current { background: var(--accent-soft); color: var(--text); }
+.install-steps li.done { color: var(--text-2); }
+.install-num { width: 28px; height: 28px; border-radius: var(--r-full); display: grid; place-items: center; font-weight: 700; font-size: var(--fs-sm); background: var(--surface-strong); color: var(--text-2); }
+.install-steps li.current .install-num { background: var(--accent); color: var(--on-accent); }
+.install-step-title { font-weight: 600; line-height: var(--lh-tight); margin: 3px 0 0; }
+.install-step-body { font-size: var(--fs-sm); color: var(--text-2); margin: var(--s2) 0 0; line-height: var(--lh-body); }
+.install-icon { width: 1.35em; height: 1.35em; vertical-align: -.3em; color: var(--accent); fill: currentColor; }
+.install-icon path[fill="none"], .install-icon rect[fill="none"] { fill: none; }
+.install-action { margin-top: var(--s3); margin-right: var(--s2); }
+.install-nav { display: flex; align-items: center; justify-content: space-between; gap: var(--s3); }
+dialog.install .text-button { margin: var(--s3) auto 0; }
+.install-banner { position: fixed; left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); bottom: calc(12px + env(safe-area-inset-bottom, 0px)); z-index: 40; display: flex; align-items: center; gap: var(--s2); padding: var(--s2) var(--s2) var(--s2) var(--s3); border: 1px solid var(--line); border-radius: var(--r2); background: var(--bg); box-shadow: var(--shadow-2); max-width: 440px; margin: 0 auto; }
+.install-banner-open { flex: 1; display: flex; align-items: center; gap: var(--s3); text-align: left; color: var(--text); min-height: 44px; }
+.install-banner-open img { border-radius: 8px; }
+.install-banner-open span { display: grid; }
+.install-banner-open small { color: var(--text-2); font-size: var(--fs-sm); }
+.install-banner-x { width: 44px; height: 44px; font-size: var(--fs-lg); color: var(--text-3); }
+.install-pointer { position: fixed; left: 50%; bottom: calc(6px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 60; font-size: 40px; line-height: 1; color: var(--accent); animation: install-bounce 1s ease-in-out infinite; pointer-events: none; }
+@keyframes install-bounce { 50% { transform: translate(-50%, 8px); } }
+@media (prefers-reduced-motion: reduce) { .install-pointer { animation: none; } }
+
 @media (max-width: 850px) {
   .hero { grid-template-columns: 1fr; gap: var(--s6); padding-top: var(--s6); }
   .detail-layout { grid-template-columns: 1fr; gap: var(--s6); }
