@@ -193,6 +193,19 @@ class RagEngineTests(unittest.TestCase):
         engine.search('단백질 구조 연구')
         self.assertEqual(sent, ['단백질 구조 연구', '단백질 구조 연구, protein structure, folding'])
 
+    def test_conditions_are_not_split_unless_asked(self):
+        asked = []
+        engine, broker = self.engine({'x': self.flat(self.labs[3])})
+        engine.rewriter = lambda phrase, remote=True: {'english': 'deep learning, medicine', 'facets': ['딥러닝 deep learning', '의학 medicine']}
+        engine.search('딥러닝 이용한 의학 연구')
+        phrases = lambda: [p for q, _ in broker.calls for p in q.get('phrases', [])]
+        self.assertIn('deep learning, medicine', phrases())
+        self.assertNotIn('딥러닝 deep learning', phrases())
+        engine._memo.clear()
+        engine.split_conditions = True
+        engine.search('딥러닝 이용한 의학 연구')
+        self.assertIn('딥러닝 deep learning', phrases())
+
     def test_a_refused_query_is_not_rewritten(self):
         asked = []
         engine, _ = self.engine({'x': self.flat(self.labs[3])})

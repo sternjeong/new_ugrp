@@ -245,6 +245,12 @@ class RagQueryEngine(CuratedQueryEngine):
         self.retriever, self.reranker, self.rewriter = retriever, reranker, rewriter
         self.rerank_top = int(rerank_top) if rerank_top else None
         self._memo = OrderedDict()
+        self.combiner = lambda values: (values[0] + min(values[1:])) / 2  # [phrase or rewrite z, condition z, ...] -> one z
+        # R7 also names a phrase's conditions ('딥러닝', '의학' for '딥러닝 이용한 의학 연구') and a lab must meet each. Off by
+        # default (2026-11-26, 128 graded queries): R7 split 97 of them, and requiring every condition lowered
+        # nDCG@10 in the first pass (weakest condition only -0.122; tiers 'all conditions then any' -0.052), while
+        # not splitting gave +0.040 [+0.015, +0.066] in the first pass and +0.013 [+0.001, +0.026] with the reranker.
+        self.split_conditions = False
         self.rerank_english = False  # also give the reranker the R7 English rewrite (the earlier engine did; measured 2026-11-26)
 
     def search(self, text, allow_remote=True, rewrite=True):
@@ -300,6 +306,8 @@ class RagQueryEngine(CuratedQueryEngine):
             return [phrase], []
         out = self.rewriter(phrase, remote=remote)
         leads = [phrase] + ([out['english']] if out.get('english') and out['english'] != phrase else [])
+        if not self.split_conditions:
+            return leads, []
         return leads, [f for f in out.get('facets', []) if f not in leads]
 
     def ranked(self, likes, dislikes, remote=True, gate=None, rewrite=True):
@@ -321,13 +329,14 @@ class RagQueryEngine(CuratedQueryEngine):
             return [], {}
         score = lambda p, lid: found[p].get(lid, (0.0, []))[0]
         both = lambda values: values[0] if len(values) == 1 else (values[0] + min(values[1:])) / 2
+        combine = lambda values: values[0] if len(values) == 1 else self.combiner(values)
         raw = {lid: sum(both([max(score(p, lid) for p in leads)] + [score(f, lid) for f in facets]) for leads, facets in groups) / len(groups)
                for lid in labs}
         columns = []
         for leads, facets in groups:
             lead = [zscores([score(p, lid) for lid in labs]) for p in leads]
             member = [[max(col[n] for col in lead) for n in range(len(labs))]] + [zscores([score(f, lid) for lid in labs]) for f in facets]
-            columns.append([both([col[n] for col in member]) for n in range(len(labs))])
+            columns.append([combine([col[n] for col in member]) for n in range(len(labs))])
         mean_z = {lid: sum(col[n] for col in columns) / len(columns) for n, lid in enumerate(labs)}
         penalties = [{lid: score(p, lid) for lid in labs} for p in dislikes]
         chunks = {lid: [e for leads, facets in groups for p in leads + facets for e in found[p].get(lid, (0.0, []))[1]] for lid in labs}
