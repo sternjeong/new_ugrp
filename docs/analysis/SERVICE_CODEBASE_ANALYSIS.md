@@ -347,3 +347,5 @@ SQLite 주요 테이블은 `users`, `sessions`, `explorations`, `reviews`, `thre
 이 결과는 `curri/profile_catalog.py`, 앱 데이터, 사용자 DB의 현재 동작을 바꾸지 않았다. 앱에 반영할 때에는 원본·화면 표시 메타데이터·검색 청크·검토된 규칙 주장을 분리하고, 기존 프로필/정규 ID와 신규 최종 JSONL의 대응을 검증해야 한다. BGE-M3 인코딩 및 벡터 계산은 사용자 지시에 따라 Kaggle GPU에서만 실행한다.
 
 2026-10-31에 별도 저장소 `sunwoo` 브랜치의 전체 `data/`를 [`data/sunwoo/`](../../data/sunwoo/IMPORT.md)에 반입했다. 이후 사용자가 중복 데이터 삭제를 지시해 기존 앱용 `data/*.jsonl`·`data/*.json`, `data/raw/`와 루트 최종 JSONL을 제거했다. 앱 기본 입력은 반입본의 `legacy/mvp-4dept/`로 옮겼다. 새 1,316과목·365연구실 정제본으로 앱을 전환한 것은 아니다. 기존 데이터는 작업 폴더 밖 백업에만 남아 있다.
+
+- 2026-11-26 리랭커 입력: 연구실 요약(R2)을 "질의에 가까운 조각 3개에 들었을 때만"이 아니라 항상 맨 앞에 넣도록 했다(`RagQueryEngine.always_summary`). 128개 채점 질의, 리랭커 30곳 기준 nDCG@10 0.750 → 0.763(+0.014, 95% [+0.001, +0.028]).

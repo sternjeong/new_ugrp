@@ -22,14 +22,14 @@ def clip(text, n):
     return text if len(text) <= n else text[:n].rsplit(' ', 1)[0] + '…'
 
 
-def passage(profile, chunks, n=CHUNKS, chars=CHUNK_CHARS):
+def passage(profile, chunks, n=CHUNKS, chars=CHUNK_CHARS, summary=None):
     """What the cross-encoder reads for one lab: name, professors, department, research areas, the lab summary
     (R2) when it matched, then its best intro and paper chunks for this query."""
     head = ' · '.join(x for x in (profile.get('lab_name'), ', '.join(profile.get('professors') or []), profile.get('department')) if x)
     areas = ', '.join(t.get('label_ko') or t.get('label') or '' for t in (profile.get('topics') or [])[:8])
     lines = [head] + ([f'연구 분야: {areas}'] if areas else [])
     seen = set()
-    summary = next((c for _, c in chunks if c['kind'] == 'summary'), None)
+    summary = summary or next((c for _, c in chunks if c['kind'] == 'summary'), None)  # the lab's own summary, matched or not
     if summary is not None:
         lines.append(clip(summary['text'], chars * 2))
     for _, c in sorted(chunks, key=lambda x: -x[0]):

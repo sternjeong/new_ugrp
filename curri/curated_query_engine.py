@@ -251,6 +251,7 @@ class RagQueryEngine(CuratedQueryEngine):
         # nDCG@10 in the first pass (weakest condition only -0.122; tiers 'all conditions then any' -0.052), while
         # not splitting gave +0.040 [+0.015, +0.066] in the first pass and +0.013 [+0.001, +0.026] with the reranker.
         self.split_conditions = False
+        self.always_summary = True  # the reranker reads every lab's summary, not only when it is among the lab's closest chunks
         self.rerank_english = False  # also give the reranker the R7 English rewrite (the earlier engine did; measured 2026-11-26)
 
     def search(self, text, allow_remote=True, rewrite=True):
@@ -365,7 +366,8 @@ class RagQueryEngine(CuratedQueryEngine):
         from .rag import rerank
         from .rag.remote import Unavailable
         top = ranking[:self.rerank_top or rerank.TOP]
-        docs = [rerank.passage(self.catalog.profiles[lid], [e for m in members[lid] for e in chunks[m]]) for lid in top]
+        summary = self.summaries() if self.always_summary else {}
+        docs = [rerank.passage(self.catalog.profiles[lid], [e for m in members[lid] for e in chunks[m]], summary=summary.get(lid)) for lid in top]
         try:
             probs = self.reranker.score(', '.join([*likes, *english]), docs, likes, remote=remote)
         except Unavailable:
@@ -376,6 +378,12 @@ class RagQueryEngine(CuratedQueryEngine):
             for lid in top:
                 penalty[lid] += rerank.DISLIKE * max(0.0, z.get(lid, 0.0))
         return {lid: p - penalty[lid] for lid, p in zip(top, probs)}
+
+    def summaries(self):
+        """{lab id: its summary chunk (R2)}, from the chunk file the retriever loaded."""
+        if getattr(self, '_summaries', None) is None:
+            self._summaries = {c['owner']: c for c in getattr(self.retriever, 'chunks', {}).values() if c.get('kind') == 'summary'}
+        return self._summaries
 
     @staticmethod
     def fold(ranking, chunks):
