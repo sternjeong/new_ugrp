@@ -14,6 +14,11 @@ import time
 from collections import OrderedDict, deque
 
 MAX_PHRASES = 12
+# The search engine's answers (every lab's chunk scores, curri/rag/remote.py) are tens of KB each: the memory cache is
+# also bounded by size (JSON bytes), and the table keeps the newest rows only.
+MAX_CACHE_BYTES = 48 * 1024 * 1024
+MAX_STORED = 20000
+PRUNE_EVERY = 200
 MAX_PHRASE_CHARS = 600
 
 
@@ -29,6 +34,7 @@ class EmbedBroker:
         self.alive_seconds = alive_seconds
         self.cache_size = cache_size
         self.cache = OrderedDict()      # 구절 -> {'sims': {lab_id: float}, 'best': {lab_id: topic index}}
+        self.sizes, self.bytes, self.stored = {}, 0, 0
         self.cond = threading.Condition()
         self.pending = deque()
         self.waiting = {}               # job id -> {'event': Event, 'result': dict | None}
@@ -39,7 +45,19 @@ class EmbedBroker:
             with store.db() as db:
                 db.execute('CREATE TABLE IF NOT EXISTS phrase_sims (phrase TEXT PRIMARY KEY, value TEXT NOT NULL, created REAL NOT NULL)')
                 for row in db.execute('SELECT phrase, value FROM phrase_sims ORDER BY created DESC LIMIT ?', (cache_size,)).fetchall()[::-1]:
-                    self.cache[row['phrase']] = json.loads(row['value'])
+                    self._keep(row['phrase'], json.loads(row['value']), len(row['value']))
+                self._trim()
+
+    def _keep(self, key, value, size):
+        self.bytes += size - self.sizes.get(key, 0)
+        self.sizes[key] = size
+        self.cache[key] = value
+        self.cache.move_to_end(key)
+
+    def _trim(self):
+        while self.cache and (len(self.cache) > self.cache_size or self.bytes > MAX_CACHE_BYTES):
+            key, _ = self.cache.popitem(last=False)
+            self.bytes -= self.sizes.pop(key, 0)
 
     def cached(self, phrases):
         with self.cond:
@@ -130,15 +148,17 @@ class EmbedBroker:
             slot = self.waiting.get(job_id)
             if slot is not None and slot['key'] and isinstance(query, dict):
                 result[slot['key']] = query
+            encoded = {p: json.dumps(v) for p, v in result.items()}
             for phrase, value in result.items():
-                self.cache[phrase] = value
-                self.cache.move_to_end(phrase)
-            while len(self.cache) > self.cache_size:
-                self.cache.popitem(last=False)
+                self._keep(phrase, value, len(encoded[phrase]))
+            self._trim()
         if self.store is not None and result:
+            self.stored += 1
             with self.store.db() as db:
                 db.executemany('INSERT OR REPLACE INTO phrase_sims(phrase,value,created) VALUES (?,?,?)',
-                               [(p, json.dumps(v), time.time()) for p, v in result.items()])
+                               [(p, encoded[p], time.time()) for p in result])
+                if self.stored % PRUNE_EVERY == 0:
+                    db.execute('DELETE FROM phrase_sims WHERE created < (SELECT created FROM phrase_sims ORDER BY created DESC LIMIT 1 OFFSET ?)', (MAX_STORED,))
         if slot is None:
             return False
         slot['result'] = result

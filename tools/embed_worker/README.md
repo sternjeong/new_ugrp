@@ -24,6 +24,18 @@ python3 tools/embed_worker/build_search_assets.py <chunks.jsonl> <vectors.f32> <
 ```
 만든 두 파일과 `intent_exemplars.json`, 새 `worker.py`를 워커의 비공개 Kaggle 데이터셋에 올려야 켜진다. 서버와 워커의 배포 순서는 상관없다. 예전 워커는 질의 분석 없이 구절만 답한다.
 
+## 검색 엔진 연산 (2026-11-26, engine/modules 이식)
+
+서버의 `RagQueryEngine`(팀원 vectorRAG 엔진: R2 연구실 요약·R5 리랭커·R7 질의 재작성)은 모델이 필요한 두 계산만 워커에 맡긴다. 둘 다 기존 질의 작업(`query`)으로 오가므로 서버 캐시(`phrase_sims`)에 남는다.
+- `{"op": "lab_scores", "phrases": [...], "raw", "gate"}`: 구절마다 모든 연구실 점수(가까운 조각 3개의 1·0.3·0.15 가중합, 요약 조각 포함)와 상위 80곳의 조각 id. `gate`가 있으면 먼저 예문 임베딩 거절 판단을 하고, 거절이면 `intent`만 돌려준다(이전 질의 분석과 같은 0.05).
+- `{"op": "rerank", "query", "documents": [...]}`: bge-reranker-v2-m3 확률(0~1). 서버가 연구실별 글(이름·분야·요약·가장 가까운 조각)을 만들어 보낸다.
+
+자료: `build_search_assets.py`에 넷째 인자로 `data/sunwoo/lab_summaries`를 주면 요약 307개가 조각에 붙고, 조각에 `id`·`kind`가 들어가며, 서버용 조각 표 `data/sunwoo/search_chunks.jsonl`도 함께 쓴다(벡터 없음, 서버 배포에 포함). 요약은 engine/modules의 `tools/build_lab_summaries.py`(Claude Haiku)로 만들었고, 연구실 논문·소개가 바뀌면 다시 만든다.
+```
+python3 tools/embed_worker/build_search_assets.py <chunks.jsonl> <vectors.f32> <출력 폴더> data/sunwoo/lab_summaries
+```
+**배포 순서: 워커 먼저.** 새 `worker.py`와 새 `search_chunks.jsonl`·`search_vectors.npy`를 Kaggle 데이터셋에 올린 뒤 서버를 배포한다. 예전 워커는 새 연산을 모르므로, 서버만 먼저 바뀌면 검색이 사전 검색으로 후퇴한다. 서버의 이전 엔진은 `--search-engine curated`로 고를 수 있다.
+
 ## 시작·종료
 
 ```

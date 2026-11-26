@@ -1,0 +1,18 @@
+{
+  "count": 307,
+  "dim": 1024,
+  "embedder": {
+    "model": "bge-m3",
+    "normalized": true,
+    "num_ctx": 8192,
+    "provider": "ollama"
+  },
+  "kinds": {
+    "summary": 307
+  },
+  "rules": "summary.v1",
+  "sources": {
+    "summaries.jsonl": "df62586a36e8531a45362a337b0b6ddf4a67b6a5"
+  },
+  "vectors_sha1": "18ef28198816026f1301bc3f0ffd464020c1a4c0"
+}

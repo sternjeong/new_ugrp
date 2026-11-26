@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # 개발 VM → Oracle 서버 배포. 사용: tools/deploy_oracle.sh [ssh 호스트 별칭, 기본 oracle-micro]
 # 코드(curri/)와 새 정제 앱 데이터만 올린다. 서버 DB(~/app/.local)는 보존한다.
+# search_chunks.jsonl: 검색 엔진(RagQueryEngine)이 카드 근거로 인용하는 조각 표. 없으면 이전 엔진(CuratedQueryEngine)으로 뜬다.
 set -euo pipefail
 HOST="${1:-oracle-micro}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -10,7 +11,7 @@ ssh "$HOST" "mkdir -p ~/app/.local ~/app/$DATA; if [ -d ~/app/curri ]; then rm -
 tar -C "$ROOT" --exclude='__pycache__' -cf - curri \
   "$DATA/app_profiles.jsonl" "$DATA/labs.jsonl" "$DATA/courses.jsonl" \
   "$DATA/papers.jsonl" "$DATA/suspect_papers.json" "$DATA/lab_course_bge_m3.json" \
-  "$DATA/concepts.json" "$DATA/legacy_lab_aliases.json" | ssh "$HOST" 'tar -C ~/app -xf -'
+  "$DATA/concepts.json" "$DATA/legacy_lab_aliases.json" "$DATA/search_chunks.jsonl" | ssh "$HOST" 'tar -C ~/app -xf -'
 ssh "$HOST" 'if [ -d ~/app/data/sunwoo/legacy ]; then rm -r -- ~/app/data/sunwoo/legacy; fi; if [ -e ~/app/.local/doc_embeddings.npz ]; then rm -- ~/app/.local/doc_embeddings.npz; fi'
 ssh "$HOST" "mkdir -p ~/app/tools ~/app/.local/backups"
 scp -q "$ROOT/tools/backup_db.py" "$HOST:app/tools/backup_db.py"

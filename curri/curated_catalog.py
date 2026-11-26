@@ -239,6 +239,15 @@ class CuratedCatalog:
             profile['professors'] = [name or english.get(lid) or profile.get('lab_name') or '연구실'
                                      for name in profile['professors']]
         self.lab_areas = load_lab_areas(root / 'labs.jsonl')
+        # Professors who share one lab homepage (vectorRAG D2): the search folds them into one card, which names them all.
+        self.colleagues = {}
+        if (root / 'labs.jsonl').exists():
+            groups = {}
+            for row in load_jsonl(root / 'labs.jsonl'):
+                if row.get('recommendable') and row['id'] in self.profiles:
+                    info = row.get('lab') or {}
+                    groups.setdefault(info.get('group') or info.get('url') or row['id'], []).append(row['id'])
+            self.colleagues = {lid: [m for m in ids if m != lid] for ids in groups.values() if len(ids) > 1 for lid in ids}
         self.courses = [c for c in load_jsonl(root / 'courses.jsonl') if c.get('recommendable')]
         self.paper_years = {}
         if (root / 'papers.jsonl').exists():
@@ -343,8 +352,9 @@ class CuratedCatalog:
         topics = [{'id': t['concept'], 'label': self.topic_label(t), 'role': t['role'],
                    'weight': t['weight'], 'scope': t['scope'], 'section': t['section']} for t in self.shown_topics(p)]
         overview = self.overview(p)
-        return {'id': p['lab_id'], 'professors': p['professors'], 'lab_name': p['lab_name'],
-                'lab_subtitle': informative_lab_name(p['lab_name'], p['professors']), 'department': p['department'],
+        professors = list(dict.fromkeys(p['professors'] + [n for m in self.colleagues.get(p['lab_id'], []) for n in self.profiles[m]['professors']]))
+        return {'id': p['lab_id'], 'professors': professors, 'lab_name': p['lab_name'],
+                'lab_subtitle': informative_lab_name(p['lab_name'], professors), 'department': p['department'],
                 'url': next(iter(safe_urls([p['lab_url']])), ''), 'topics': topics,
                 'overview': overview, 'summary': self.summary_text(overview),
                 'status': p['status'], 'evidence_grade': 'curated',

@@ -1,7 +1,16 @@
-"""Positive/negative query interpretation over the new curated catalog."""
-import re
+"""Positive/negative query interpretation over the new curated catalog.
 
-from .curated_catalog import COURSE_CUE, COURSE_WORD, search_terms
+classify_curated_query splits the text into liked and disliked phrases or refuses it. RagQueryEngine (the
+teammate's vectorRAG engine from engine/modules with R2 summaries, R5 reranker and R7 query rewrite, chosen by
+ablation on 2026-11-26) then ranks labs from the worker's chunk scores. CuratedQueryEngine is the earlier engine
+(dictionary + phrase embedding + the worker's whole-query analysis, fused by RRF); RagQueryEngine falls back to
+its dictionary search when the worker is off.
+"""
+import re
+from collections import OrderedDict
+
+from .catalog import safe_urls
+from .curated_catalog import COURSE_CUE, COURSE_WORD, EVIDENCE_KIND, clip, search_terms, snippet
 from .embed_broker import query_key
 from .query_engine import LAMBDA, QueryEngine, broad_only, interpret, is_nonsense, normalize, rrf, TOP_N, with_particle, zscores
 
@@ -37,16 +46,22 @@ def clean_like(phrase):
     return text if len(text) >= 2 else phrase.strip()
 
 
-def penalized(scores, penalties):
-    """Labs by z-scored score, minus the z-score of each disliked subject where it is above average."""
+def penalized_z(scores, penalties):
+    """{lab: z-scored score minus the z-score of each disliked subject where it is above average}."""
     labs = list(scores)
     if not labs:
-        return []
+        return {}
     total = dict(zip(labs, zscores([scores[lid] for lid in labs])))
     for penalty in penalties:
         z = dict(zip(labs, zscores([penalty.get(lid, 0.0) for lid in labs])))
         total = {lid: value - LAMBDA * max(0.0, z[lid]) for lid, value in total.items()}
-    return sorted(labs, key=lambda lid: -total[lid])
+    return total
+
+
+def penalized(scores, penalties):
+    """Labs by z-scored score, minus the z-score of each disliked subject where it is above average."""
+    total = penalized_z(scores, penalties)
+    return sorted(total, key=lambda lid: -total[lid])
 
 
 def classify_curated_query(text):
@@ -204,3 +219,208 @@ class CuratedQueryEngine(QueryEngine):
                 card = self.catalog.course_card(lid, course, kind, card)
             out.append(card)
         return out
+
+
+# Past MIN_CARDS, labs whose mean liked-phrase score is under this share of the best are dropped: embeddings
+# always return something, so a floor keeps unrelated labs off the list. From the RAG eval answers
+# (2026-11-02): min 0.76, p10 0.83, median 0.96 of the best score; 0.8 keeps 66 of 69.
+MIN_CARDS, RELATIVE_FLOOR = 5, 0.8
+EVIDENCE_SHOWN, SEARCH_MEMO, QUOTABLE_TEXT = 3, 64, 40
+CHUNK_SECTION = {'paper': 'representative_paper', 'intro': 'research_intro', 'profile': 'research_area'}
+CHUNK_LABEL = {'paper': '논문', 'intro': '연구소개', 'profile': '연구 분야'}  # a lab summary (R2) is never shown
+
+
+class RagQueryEngine(CuratedQueryEngine):
+    """vectorRAG ranking (engine/modules: retrieve.py, RagQueryEngine) over the worker's chunk scores.
+
+    Per liked phrase (and its R7 rewrite and conditions) every lab gets the weighted sum of its three closest
+    chunks, lab summary included (R2); phrase z-scores are averaged, disliked phrases take off their z-score
+    above average, professors sharing a homepage fold into one card, and the first rerank_top labs are judged
+    again by the cross-encoder (R5). Measured on 128 graded queries (Sonnet grades, 2026-11-26): nDCG@10 0.766
+    against 0.622 without the modules.
+    """
+
+    def __init__(self, catalog, broker, retriever, reranker=None, rewriter=None, rerank_top=None, timeout=6.0, launcher=None):
+        super().__init__(catalog, broker, timeout=timeout, launcher=launcher)
+        self.retriever, self.reranker, self.rewriter = retriever, reranker, rewriter
+        self.rerank_top = int(rerank_top) if rerank_top else None
+        self._memo = OrderedDict()
+
+    def search(self, text, allow_remote=True, rewrite=True):
+        """rewrite=False: no new R7 rewrite (a client over its hourly limit); rewrites already made are still used."""
+        parsed = classify_curated_query(text)
+        if parsed['intent'] != 'search' or self.broker is None:
+            return super().search(text, allow_remote)
+        if allow_remote and self.launcher and not self.broker.available():
+            return super().search(text, allow_remote)  # starts the worker and answers from the dictionary meanwhile
+        from .rag.remote import Unavailable
+        try:
+            return self.rag_search({**parsed, 'raw': text}, allow_remote, rewrite)
+        except Unavailable:
+            return super().search(text, allow_remote=False)
+
+    def rag_search(self, parsed, remote, rewrite=True):
+        norm, likes, dislikes = parsed['norm'], parsed['likes'], parsed['dislikes']
+        result = {'labs': [], 'intent': 'search', 'mode': 'embedding', 'message': parsed['message'],
+                  'interpretation': {'likes': likes, 'dislikes': dislikes}, 'uncertain': parsed['uncertain'], 'reasons': []}
+        cue = bool(COURSE_CUE.search(norm))
+        courses = self.catalog.courses_named(likes, cue)
+        linked = {lid: link for lid, link in self.catalog.course_labs(courses).items()
+                  if not self.conflicts_with_dislikes(lid, dislikes)}
+        # Course-led only when the student talks about a class, not when a topic merely shares a title
+        # ('컴퓨터 구조와 시스템 보안' must still find security labs).
+        led = bool(linked) and (cue or all(self.catalog.courses_named([p], cue) for p in likes))
+        if courses:
+            result['courses'] = [{'code': c['code'], 'name': c['title']} for c, _ in courses]
+        # The worker's refusal check (N1, GATE_MARGIN), skipped like in CuratedQueryEngine when a dislike was read
+        gate = None if dislikes or (AVOID_CUE.search(norm) and INTEREST_CLAUSE.search(norm)) or linked else (parsed['raw'], GATE_MARGIN)
+        from .rag.remote import Refused
+        try:
+            ranking, cards = self.ranked(likes or [norm], dislikes, remote, gate, rewrite)
+        except Refused as refusal:
+            intent, message = REFUSALS.get(refusal.args[0], REFUSALS['off_topic'])
+            result.update(intent=intent, message=message, mode='embedding')
+            return result
+        fused = [lid for lid in self.rag_fuse(linked, led, ranking) if not self.conflicts_with_dislikes(lid, dislikes)]
+        out = []
+        for lid in fused[:TOP_N]:
+            card = cards.get(lid)
+            if lid in linked and (led or card is None):
+                _, course, kind = linked[lid]
+                card = self.catalog.course_card(lid, course, kind, card)
+            if card is not None:
+                out.append(card)
+        result['labs'] = out
+        return result
+
+    def group(self, phrase, remote):
+        """([phrase, its English rewrite (R7)], [its conditions]) for one liked phrase."""
+        if self.rewriter is None:
+            return [phrase], []
+        out = self.rewriter(phrase, remote=remote)
+        leads = [phrase] + ([out['english']] if out.get('english') and out['english'] != phrase else [])
+        return leads, [f for f in out.get('facets', []) if f not in leads]
+
+    def ranked(self, likes, dislikes, remote=True, gate=None, rewrite=True):
+        """(lab ids best first, {lab id: card}) for the liked and disliked phrases; memoized per phrase set."""
+        groups = [self.group(p, remote and rewrite) for p in likes]
+        key = (tuple(likes), tuple(dislikes), repr(groups), gate)
+        if key in self._memo:
+            self._memo.move_to_end(key)
+            return self._memo[key]
+        # A lab must meet every condition of a phrase: the group value is the mean of the phrase's (or its
+        # rewrite's, whichever matches the lab better) and the weakest condition's (AND).
+        found = self.retriever.lab_scores([p for leads, facets in groups for p in leads + facets] + list(dislikes), remote=remote, gate=gate)
+        labs = [lid for lid in found[likes[0]] if lid in self.catalog.profiles]
+        if not labs:
+            return [], {}
+        score = lambda p, lid: found[p].get(lid, (0.0, []))[0]
+        both = lambda values: values[0] if len(values) == 1 else (values[0] + min(values[1:])) / 2
+        raw = {lid: sum(both([max(score(p, lid) for p in leads)] + [score(f, lid) for f in facets]) for leads, facets in groups) / len(groups)
+               for lid in labs}
+        columns = []
+        for leads, facets in groups:
+            lead = [zscores([score(p, lid) for lid in labs]) for p in leads]
+            member = [[max(col[n] for col in lead) for n in range(len(labs))]] + [zscores([score(f, lid) for lid in labs]) for f in facets]
+            columns.append([both([col[n] for col in member]) for n in range(len(labs))])
+        mean_z = {lid: sum(col[n] for col in columns) / len(columns) for n, lid in enumerate(labs)}
+        penalties = [{lid: score(p, lid) for lid in labs} for p in dislikes]
+        chunks = {lid: [e for leads, facets in groups for p in leads + facets for e in found[p].get(lid, (0.0, []))[1]] for lid in labs}
+        # Professors sharing a lab homepage (meta.group) are one card at the best member's rank (D2).
+        ranking, members = self.fold(penalized(mean_z, penalties), chunks)
+        judged = self.rerank(likes, ranking, members, chunks, labs, penalties, remote) if self.reranker else {}
+        if judged:
+            ranking = sorted(judged, key=lambda lid: -judged[lid]) + [lid for lid in ranking if lid not in judged]
+        best = max(raw.values())
+        kept = [lid for n, lid in enumerate(ranking) if n < MIN_CARDS or raw[lid] >= best * RELATIVE_FLOOR][:TOP_N]
+        variants = [v for vs in search_terms(' '.join(likes)).values() for v in vs]
+        cards = {lid: self.rag_card(lid, raw[lid], [e for m in members[lid] for e in chunks[m]], variants) for lid in kept}
+        for lid in kept:
+            if lid in judged:
+                cards[lid]['rerank'] = round(judged[lid], 4)
+        if judged or not self.reranker:  # a first pass the reranker missed is not kept: the next search tries again
+            self._memo[key] = (kept, cards)
+            if len(self._memo) > SEARCH_MEMO:
+                self._memo.popitem(last=False)
+        return kept, cards
+
+    def rerank(self, likes, ranking, members, chunks, labs, penalties, remote):
+        """{lab id: cross-encoder probability minus the dislike penalty} for the first candidates (R5); {} when the
+        worker does not answer (the first-pass order stays)."""
+        from .rag import rerank
+        from .rag.remote import Unavailable
+        top = ranking[:self.rerank_top or rerank.TOP]
+        docs = [rerank.passage(self.catalog.profiles[lid], [e for m in members[lid] for e in chunks[m]]) for lid in top]
+        try:
+            probs = self.reranker.score(', '.join(likes), docs, likes, remote=remote)
+        except Unavailable:
+            return {}
+        penalty = {lid: 0.0 for lid in top}
+        for table in penalties:
+            z = dict(zip(labs, zscores([table.get(lid, 0.0) for lid in labs])))
+            for lid in top:
+                penalty[lid] += rerank.DISLIKE * max(0.0, z.get(lid, 0.0))
+        return {lid: p - penalty[lid] for lid, p in zip(top, probs)}
+
+    @staticmethod
+    def fold(ranking, chunks):
+        """(ranking with one id per lab group, {kept id: [member ids, best first]})."""
+        order, members, seen = [], {}, {}
+        for lid in ranking:
+            group = next((c['meta'].get('group') for _, c in chunks.get(lid, []) if c.get('meta', {}).get('group')), None) or lid
+            if group in seen:
+                members[seen[group]].append(lid)
+                continue
+            seen[group] = lid
+            members[lid] = [lid]
+            order.append(lid)
+        return order, members
+
+    @staticmethod
+    def rag_fuse(linked, led, ranking):
+        """Course labs count twice when the student asks about a class, otherwise they come last."""
+        if not linked:
+            return ranking
+        lists = [list(linked)] * 2 + [ranking] if led else [ranking, list(linked)]
+        return rrf(*[r for r in lists if r])
+
+    def rag_card(self, lab_id, score, chunks, variants):
+        card = self.catalog.card(lab_id)
+        best = {}
+        for s, chunk in chunks:  # one chunk may match several liked phrases; keep its best score
+            if chunk['id'] not in best or s > best[chunk['id']][0]:
+                best[chunk['id']] = (s, chunk)
+        ordered = [c for _, c in sorted(best.values(), key=lambda x: -x[0]) if c['kind'] in CHUNK_LABEL]
+        # The profile chunk only repeats names and areas; a few intro chunks are page furniture ('Read more...').
+        shown = [c for c in ordered if c['kind'] != 'profile' and len(c['text'].strip()) >= QUOTABLE_TEXT] or ordered
+        evidence = [self.chunk_evidence(lab_id, c, variants) for c in shown[:EVIDENCE_SHOWN]]
+        headings = {(c['meta'].get('heading') or '').strip().lower() for c in ordered}
+        kinds = [CHUNK_LABEL[c['kind']] for c in ordered]
+        counts = ', '.join(f'{k} {kinds.count(k)}개' for k in dict.fromkeys(kinds))
+        card.update(matched_topics=[t['id'] for t in card['topics'] if t['label'].strip().lower() in headings],
+                    evidence=evidence, score=round(score, 3), connection='semantic',
+                    reason=f'입력한 관심과 의미가 가까운 {counts}를 연구실 자료에서 찾았어요.' if counts else '입력한 관심과 의미가 가까운 내용을 연구실 자료에서 찾았어요.')
+        if card['status'] == 'thin':
+            card['reason'] += ' 수집 자료가 제목 수준이라 연구 내용은 홈페이지에서 확인이 필요합니다.'
+        return card
+
+    def chunk_evidence(self, lab_id, chunk, variants=()):
+        """A matched chunk in the card evidence format (CuratedCatalog._evidence)."""
+        kind, meta, text = chunk['kind'], chunk['meta'], chunk['text']
+        profile = self.catalog.profiles[lab_id]
+        section, year = CHUNK_SECTION[kind], None
+        if kind == 'paper':
+            title, _, body = text.partition('\n')
+            urls, year = ([f"https://doi.org/{meta['doi']}"] if meta.get('doi') else []), meta.get('year')
+        elif kind == 'intro':
+            title, body = (meta.get('heading') or '').strip(), text
+            urls = next((t['source_urls'] for t in profile['topics'] if t['section'] == 'research_intro' and t.get('source_urls')), [profile['lab_url']])
+            if title:
+                section = 'intro'  # cards show the heading of an intro part; 'research_intro' would hide it
+        else:
+            title, body, urls = text.split('\n')[-1], '', [profile['lab_url']]
+        shown, marks = snippet(body, variants) if body.strip() else ('', [])
+        return {'topic': meta.get('heading') or kind, 'label': title or EVIDENCE_KIND[CHUNK_SECTION[kind]], 'text': text,
+                'urls': safe_urls(urls)[:1], 'section': section, 'role': 'domain', 'kind': EVIDENCE_KIND[CHUNK_SECTION[kind]],
+                'title': clip(title, 200), 'snippet': shown, 'marks': marks, 'full': body.strip() if body.strip() and body.strip() != shown else '',
+                'year': year, 'chunk_id': chunk['id']}

@@ -6,7 +6,13 @@ before the review, see docs/analysis/PAPER_ATTRIBUTION_REVIEW.md) and three kind
 bad chunks (D1 from the teammate's engine-modules review, re-measured 2026-11-22): a second copy of the same text within a lab, project
 write-ups whose `Advisor:` heading names another professor (shared project pages copied into three ML labs), and page
 shells (under 40 characters, or mostly dates and news lines).
-Run: python3 tools/embed_worker/build_search_assets.py <chunks.jsonl> <vectors.f32> <out_dir>
+With a fourth argument, the lab summaries (R2 from the teammate's engine modules: data/sunwoo/lab_summaries, one
+Korean summary per lab written by Claude Haiku with engine/modules' tools/build_lab_summaries.py from final's reviewed
+papers on 2026-11-26 and embedded with the same Ollama BGE-M3) join each lab's chunks, so a lab whose material is a
+list of titles still has a passage that says what it studies. Rerun that tool when a lab's papers or intro change.
+The server gets the same chunks without vectors in data/sunwoo/search_chunks.jsonl: the search engine
+(curri/curated_query_engine.py RagQueryEngine) quotes them as a card's evidence and builds the reranker's passage.
+Run: python3 tools/embed_worker/build_search_assets.py <chunks.jsonl> <vectors.f32> <out_dir> [data/sunwoo/lab_summaries]
 """
 import json
 import re
@@ -16,6 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 LAB_KINDS = {'profile', 'intro', 'paper'}
+SERVER_CHUNKS = ROOT / 'data/sunwoo/search_chunks.jsonl'  # the same chunks without vectors, for the server's cards
 ADVISOR = re.compile(r'Advisor\s*:\s*([A-Za-z .\-]+)')
 DATE_LINE = re.compile(r'[A-Z][a-z]{2}\.?|\d{4}|\d{4}[.\-/]\d{1,2}([.\-/]\d{1,2})?')
 NEWS_LINE = re.compile(r'accepted to|awarded|has been selected|won the|best paper award', re.I)
@@ -73,7 +80,13 @@ def current_papers(path):
     return current
 
 
-def main(chunks_path, vectors_path, out_dir):
+def summary_rows(chunks, labs):
+    """Indexes of the summary chunks to keep: one per lab the app still lists, the last when a lab has two."""
+    last = {c['owner']: i for i, c in enumerate(chunks) if c.get('kind') == 'summary' and c['owner'] in labs}
+    return sorted(last.values())
+
+
+def main(chunks_path, vectors_path, out_dir, summaries_dir=None):
     import numpy as np  # only the build needs it; the chunk rules above are tested without it
     chunks = [json.loads(line) for line in open(chunks_path, encoding='utf-8') if line.strip()]
     vectors = np.fromfile(vectors_path, dtype='<f4').reshape(len(chunks), -1)
@@ -89,10 +102,29 @@ def main(chunks_path, vectors_path, out_dir):
     keep = [i for i in lab if i not in bad and i not in removed and chunks[i]['meta'].get('openalex_id') not in suspect]
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
+    rows = [{'id': chunks[i]['id'], 'owner': chunks[i]['owner'], 'kind': chunks[i]['kind'], 'text': f"{chunks[i]['header']}\n{chunks[i]['text']}"} for i in keep]
+    table = [chunks[i] for i in keep]  # the server's copy: cards quote these chunks as evidence
+    kept = vectors[keep]
+    if summaries_dir:
+        folder = Path(summaries_dir)
+        manifest = json.loads((folder / 'manifest.json').read_text(encoding='utf-8'))
+        pack = json.loads((Path(chunks_path).parent / 'manifest.json').read_text(encoding='utf-8'))
+        if manifest.get('embedder') != pack.get('embedder'):
+            raise SystemExit(f"summaries embedded with {manifest.get('embedder')}, chunks with {pack.get('embedder')}")
+        summaries = [json.loads(line) for line in open(folder / 'chunks.jsonl', encoding='utf-8') if line.strip()]
+        summary_vectors = np.fromfile(folder / 'vectors.f32', dtype='<f4').reshape(len(summaries), -1)
+        take = summary_rows(summaries, set(english))
+        rows += [{'id': summaries[i]['id'], 'owner': summaries[i]['owner'], 'kind': 'summary', 'text': f"{summaries[i]['header']}\n{summaries[i]['text']}"} for i in take]
+        table += [summaries[i] for i in take]
+        kept = np.concatenate([kept, summary_vectors[take]])
+        print(f'lab summaries {len(take)} of {len(summaries)}')
     with open(out / 'search_chunks.jsonl', 'w', encoding='utf-8') as stream:
-        for i in keep:
-            stream.write(json.dumps({'owner': chunks[i]['owner'], 'text': f"{chunks[i]['header']}\n{chunks[i]['text']}"}, ensure_ascii=False) + '\n')
-    np.save(out / 'search_vectors.npy', vectors[keep])
+        for row in rows:
+            stream.write(json.dumps(row, ensure_ascii=False) + '\n')
+    np.save(out / 'search_vectors.npy', kept)
+    with open(SERVER_CHUNKS, 'w', encoding='utf-8') as stream:
+        for c in table:
+            stream.write(json.dumps({k: c[k] for k in ('id', 'owner', 'kind', 'text', 'meta')}, ensure_ascii=False) + '\n')
     print(f'chunks {len(keep)} of {len(lab)} lab chunks; dropped namesake papers {len(namesake)}, papers removed by review {len(removed)}, '
           + ', '.join(f'{k} {v}' for k, v in sorted(Counter(bad.values()).items())))
 

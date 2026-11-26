@@ -11,7 +11,7 @@ import time
 from urllib.parse import urlsplit, parse_qs
 from . import errors
 from .community import Community, NotFound
-from .llm_jobs import cache_key
+from .llm_jobs import QuotaExceeded, cache_key
 from .feedback import query_key
 from .intent_mirror import build_mirror, clean_slots
 from .meeting_links import MeetingLinkError
@@ -21,6 +21,8 @@ from .research_guide import PROMPT_VERSION
 from .store import LoginRequired, InvalidCredentials, ProfileRequired
 
 STATIC = Path(__file__).parent / 'static'
+# LLM calls per client (IP, or session when there is none) and hour; the whole service also has daily limits (llm_jobs.DAILY_LIMIT)
+GUIDES_PER_HOUR, REWRITES_PER_HOUR = 10, 60
 # Screens the single-page app can open directly from a shared link or a mail.
 APP_PATHS = re.compile(r'^/(?:lab/[A-Za-z0-9:_. %-]{1,80}|results|saved|board|inbox|profile|privacy|reset|graduate|unsubscribe)?$')
 ASSETS = {'/app.js': ('app.js', 'text/javascript; charset=utf-8'), '/theme.js': ('theme.js', 'text/javascript; charset=utf-8'), '/platform.js': ('platform.js', 'text/javascript; charset=utf-8'),
@@ -30,6 +32,10 @@ ASSETS.update({f'/fonts/Pretendard-{w}.subset.woff2': (f'fonts/Pretendard-{w}.su
                for w in ('Regular', 'SemiBold', 'Bold')})
 # Logo and tab icon, built by tools/build_logo.py (rules in docs/brand/README.md).
 ASSETS.update({'/brand/logo.svg': ('brand/logo.svg', 'image/svg+xml'), '/brand/logo-dark.svg': ('brand/logo-dark.svg', 'image/svg+xml'), '/favicon.svg': ('brand/favicon.svg', 'image/svg+xml')})
+# Home screen: the web app manifest and the PNG icons iOS and Android use (tools/build_app_icons.py).
+ASSETS.update({'/manifest.webmanifest': ('manifest.webmanifest', 'application/manifest+json'), '/install.js': ('install.js', 'text/javascript; charset=utf-8'),
+               '/apple-touch-icon.png': ('brand/icon-180.png', 'image/png'),
+               **{f'/brand/icon-{n}.png': (f'brand/icon-{n}.png', 'image/png') for n in (180, 192, 512)}})
 
 
 def make_server(host, port, catalog, store, secure_cookie=False, community=None, engine=None, broker=None,
@@ -40,6 +46,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
     P = platform or Platform(store, catalog, broker=broker)
     lock = threading.Lock()
     remote_aware = engine is not None and 'allow_remote' in inspect.signature(engine.search).parameters
+    rewrite_aware = engine is not None and 'rewrite' in inspect.signature(engine.search).parameters
+    guides, rewrites = defaultdict(deque), defaultdict(deque)  # new AI guides and searches that may ask for an R7 rewrite, per client
     P.admin.engine = engine
 
     def limited(bucket, key, count, seconds):
@@ -68,7 +76,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
             return {'status': 'done', **job['result']}
         return {'status': job['status'], 'job_id': job['id']}
 
-    def attach_ai_guide(token, lab_id, selected, guide):
+    def attach_ai_guide(token, lab_id, selected, guide, client=''):
         """Method R: queue (or reuse) a Sonnet guide for this lab, interest and course selection."""
         arm = P.events.arm(token, 'guide')
         guide['arm'] = arm
@@ -87,7 +95,14 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
             if not P.llm.online():
                 guide['ai'] = {'status': 'offline'}
                 return
-            job = P.llm.submit('guide', key, P.guide.payload(lab_id, interests, selected, student))
+            if limited(guides, client or token, GUIDES_PER_HOUR, 3600):
+                guide['ai'] = {'status': 'limited'}
+                return
+            try:
+                job = P.llm.submit('guide', key, P.guide.payload(lab_id, interests, selected, student))
+            except QuotaExceeded:
+                guide['ai'] = {'status': 'limited'}
+                return
         guide['ai'] = ai_view(job)
 
     class Handler(BaseHTTPRequestHandler):
@@ -212,7 +227,10 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
             job = P.llm.get(key=key)
             if (job is None or job['status'] == 'failed') and P.llm.online():
                 payload = P.guide.summary_payload(lab_id)  # public abstracts only; no personal data leaves the server
-                job = P.llm.submit('summary', key, payload) if payload else None
+                try:
+                    job = P.llm.submit('summary', key, payload) if payload else None
+                except QuotaExceeded:
+                    job = None
             cited = P.guide.papers.cited(lab_id)  # picked in code, shown even without the LLM
             if job and job['status'] == 'done':
                 return {'status': 'done', 'summary': P.guide.with_venues(lab_id, job['result']), 'cited': cited}
@@ -260,7 +278,10 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
             payload['prompt'] += ('\n\n이 학생은 아래 이전 제안이 맞지 않는다고 했습니다. 같은 주제를 반복하지 말고, 피드백을 반영해 다른 방향 2개를 제안하세요.\n'
                                   + json.dumps(avoid, ensure_ascii=False))
             key = cache_key('guide-retry', PROMPT_VERSION, lab_id, interests, sorted(existing['selected_ids']), student, avoid)
-            job = P.llm.submit('guide', key, payload)
+            try:
+                job = P.llm.submit('guide', key, payload)
+            except QuotaExceeded:
+                raise ValueError('오늘은 AI 가이드 요청이 많아 다시 받기를 잠시 멈췄어요. 내일 다시 시도해 주세요.')
             guide['ai'] = ai_view(job)
             guide['ai_previous'] = ai.get('topics', [])
             store.save_exploration(self.token, lab_id, existing['selected_ids'], guide, existing.get('note', ''), existing.get('saved', False))
@@ -341,7 +362,8 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                 return self.respond(415, {'error': 'JSON 요청만 지원합니다.'})
             try:
                 size = int(self.headers.get('Content-Length', '0'))
-                if not 0 < size <= (262144 if internal else 65536):
+                # A worker answer carries every lab's chunk scores for up to 12 phrases (about 16 KB each)
+                if not 0 < size <= (1048576 if path == '/api/worker/answer' else 262144 if internal else 65536):
                     return self.respond(413, {'error': '입력 크기를 확인해 주세요.'})
                 body = json.loads(self.rfile.read(size))
                 if not isinstance(body, dict):
@@ -373,8 +395,10 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                         return self.respond(200, {'labs': labs})
                     if limited(searches, self.client_ip(), 20, 60):
                         return self.respond(429, {'error': '검색 요청이 많습니다. 잠시 후 다시 시도해 주세요.'})
-                    found = (engine.search(interests.strip(), allow_remote=P.accounts.overseas_allowed(self.token)) if remote_aware
-                             else engine.search(interests.strip()))
+                    options = {'allow_remote': P.accounts.overseas_allowed(self.token)} if remote_aware else {}
+                    if rewrite_aware:  # an R7 rewrite costs an LLM call for each new phrase
+                        options['rewrite'] = not limited(rewrites, self.client_ip(), REWRITES_PER_HOUR, 3600)
+                    found = engine.search(interests.strip(), **options)
                     found.pop('reasons', None)
                     read = found.get('interpretation') or {}
                     key = query_key(read.get('likes'), interests) if found.get('intent') == 'search' else None
@@ -558,7 +582,7 @@ def make_server(host, port, catalog, store, secure_cookie=False, community=None,
                                 for p in guide['research']['selected']]
                             guide['insufficient_evidence'] = False
                     guide['variant'] = variant
-                    attach_ai_guide(self.token, canonical, selected, guide)
+                    attach_ai_guide(self.token, canonical, selected, guide, self.client_ip())
                     store.save_exploration(self.token, canonical, selected, guide, existing.get('note', ''), existing.get('saved', False))
                     if research_papers:
                         store.count_guide_event(variant, 'guide')

@@ -26,3 +26,10 @@ class RemovedPaperTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class SummaryRowTests(unittest.TestCase):
+    def test_one_summary_per_listed_lab(self):
+        chunks = [{'owner': 'a', 'kind': 'summary'}, {'owner': 'gone', 'kind': 'summary'}, {'owner': 'b', 'kind': 'intro'},
+                  {'owner': 'a', 'kind': 'summary'}, {'owner': 'b', 'kind': 'summary'}]
+        self.assertEqual(build_search_assets.summary_rows(chunks, {'a', 'b'}), [3, 4])

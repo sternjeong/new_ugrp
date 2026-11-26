@@ -40,6 +40,7 @@ class QueryAnalyzerTests(unittest.TestCase):
         spec = importlib.util.spec_from_file_location('embed_worker3', ROOT / 'tools' / 'embed_worker' / 'worker.py')
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
+        self.module = module
         chunks = [{'owner': 'a', 'text': '강화학습 로봇 제어'}, {'owner': 'a', 'text': '로봇 팔'}, {'owner': 'b', 'text': '반도체 소자 공정'}, {'owner': 'c', 'text': '단백질 구조 분석'}]
         self.reranked = []
         self.analyzer = module.QueryAnalyzer(hashed, lambda text: 'robot', lambda q, docs: self.reranked.append((q, docs)) or [float(i) for i in range(len(docs))],
@@ -61,6 +62,26 @@ class QueryAnalyzerTests(unittest.TestCase):
         self.assertEqual(max(result['penalties'][0], key=result['penalties'][0].get), 'b')
         self.assertEqual(self.reranked[0][0], '로봇 제어 robot')
         self.assertIn('강화학습 로봇 제어', self.reranked[0][1][0])
+
+    def test_search_engine_ops(self):
+        chunks = [{'id': 'a1', 'owner': 'a', 'text': '강화학습 로봇 제어'}, {'id': 'a2', 'owner': 'a', 'text': '로봇 팔'},
+                  {'id': 'b1', 'owner': 'b', 'text': '반도체 소자 공정'}]
+        analyzer = self.module.QueryAnalyzer(hashed, lambda text: '', lambda q, docs: [0.25] * len(docs), chunks, hashed([c['text'] for c in chunks]), {'search': ['로봇'], 'off_topic': ['치킨']})
+        labs = analyzer.analyze({'op': 'lab_scores', 'phrases': ['로봇 제어']})['labs']['로봇 제어']
+        self.assertGreater(labs['a'][0], labs['b'][0])
+        self.assertEqual([cid for cid, _ in labs['a'][1]], ['a1', 'a2'])
+        refused = self.analyzer.analyze({'op': 'lab_scores', 'phrases': ['치킨'], 'raw': '저녁에 치킨 시킬까', 'gate': 0.05})
+        self.assertEqual((refused['intent'], 'labs' in refused), ('off_topic', False))
+        self.assertIn('labs', self.analyzer.analyze({'op': 'lab_scores', 'phrases': ['로봇'], 'raw': '강화학습 로봇 제어를 연구', 'gate': 0.05}))
+        self.assertEqual(analyzer.analyze({'op': 'rerank', 'query': 'q', 'documents': ['x', 'y']}), {'scores': [0.25, 0.25]})
+
+    def test_reranker_reads_the_lab_summary_first(self):
+        chunks = [{'owner': 'a', 'text': '강화학습 로봇 제어'}, {'owner': 'a', 'text': '로봇 팔'}, {'owner': 'a', 'kind': 'summary', 'text': '요약: 로봇을 학습으로 움직인다'},
+                  {'owner': 'b', 'text': '반도체 소자 공정'}]
+        analyzer = self.module.QueryAnalyzer(hashed, lambda text: '', lambda q, docs: [0.0] * len(docs), chunks, hashed([c['text'] for c in chunks]), {'search': ['로봇'], 'off_topic': ['치킨']})
+        plain = analyzer.V @ hashed(['로봇 제어'])[0]
+        self.assertEqual(analyzer.document('a', plain).split('\n'), ['요약: 로봇을 학습으로 움직인다', '강화학습 로봇 제어', '로봇 팔'])
+        self.assertEqual(analyzer.document('b', plain), '반도체 소자 공정')
 
 
 @unittest.skipUnless(np is not None and (DATA / 'courses.jsonl').exists(), 'numpy와 MVP 데이터가 필요합니다')

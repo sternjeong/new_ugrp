@@ -2,7 +2,8 @@
 
 The server never calls a model itself. It stores each job with a cache key; identical requests reuse the done job.
 A worker long-polls `/api/llm/poll`, runs the prompt with the JSON schema it was given and posts `/api/llm/answer`.
-Jobs claimed but not answered within LEASE seconds go back to the queue.
+Jobs claimed but not answered within LEASE seconds go back to the queue. Search query rewrites (kind 'query',
+curri/rag/query_llm.py) go first because a search waits for them, then guides, then summaries.
 """
 import hashlib
 import hmac
@@ -13,6 +14,13 @@ import time
 LEASE = 600
 MAX_ATTEMPTS = 2
 ONLINE_WINDOW = 90
+# New jobs per kind over the last 24 hours, for the whole service: the worker runs on one Claude subscription,
+# so a script or a crowd must not use it up. A cached answer (same key) never counts.
+DAILY_LIMIT = {'query': 2000, 'guide': 400, 'summary': 400}
+
+
+class QuotaExceeded(RuntimeError):
+    """The daily limit for this kind of job is reached."""
 
 
 def cache_key(*parts):
@@ -55,13 +63,18 @@ class LLMJobs:
                 'result': json.loads(row['result']) if row['result'] else None, 'error': row['error']}
 
     def submit(self, kind, key, payload):
-        """Queue a job unless the same key is already queued, running or done. Failed jobs are retried once more."""
+        """Queue a job unless the same key is already queued, running or done. Failed jobs are retried once more.
+        Raises QuotaExceeded when a new job of this kind would pass DAILY_LIMIT."""
         now = time.time()
         with self.store.db() as db:
             db.execute('BEGIN IMMEDIATE')
             row = db.execute('SELECT * FROM llm_jobs WHERE cache_key=?', (key,)).fetchone()
             if row and (row['status'] != 'failed' or row['attempts'] >= MAX_ATTEMPTS):
                 return self._public(row)
+            limit = DAILY_LIMIT.get(kind)
+            if not row and limit is not None and db.execute('SELECT COUNT(*) FROM llm_jobs WHERE kind=? AND created>?',
+                                                            (kind, now - 86400)).fetchone()[0] >= limit:
+                raise QuotaExceeded(kind)
             if row:
                 db.execute("UPDATE llm_jobs SET status='queued', error=NULL, started=NULL WHERE id=?", (row['id'],))
                 job_id = row['id']
@@ -84,7 +97,7 @@ class LLMJobs:
         with self.store.db() as db:
             db.execute('BEGIN IMMEDIATE')
             db.execute("UPDATE llm_jobs SET status='queued' WHERE status='running' AND started<?", (now - LEASE,))
-            row = db.execute("SELECT * FROM llm_jobs WHERE status='queued' ORDER BY (kind='summary'), id LIMIT 1").fetchone()
+            row = db.execute("SELECT * FROM llm_jobs WHERE status='queued' ORDER BY (kind!='query'), (kind='summary'), id LIMIT 1").fetchone()
             if row is None:
                 return None
             db.execute("UPDATE llm_jobs SET status='running', started=?, attempts=attempts+1 WHERE id=?", (now, row['id']))

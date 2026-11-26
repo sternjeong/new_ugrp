@@ -26,7 +26,9 @@ CHUNK_WEIGHTS = np.array([1.0, 0.3, 0.15])
 FEEDBACK_WEIGHT = 0.6
 FEEDBACK_CHUNKS = 10
 RERANK_LABS = 50
+CHUNK_LABS = 80  # labs per phrase whose closest chunks the search engine op returns
 RERANK_CHARS = 1600
+RERANK_SUMMARY = True   # the reranker reads the lab summary (R2) first when the chunks include one
 SEARCH_FILES = ('search_chunks.jsonl', 'search_vectors.npy', 'intent_exemplars.json')
 
 
@@ -73,9 +75,12 @@ class QueryAnalyzer:
     def __init__(self, encode, translate, rerank, chunks, vectors, exemplars):
         self.encode, self.translate, self.rerank = encode, translate, rerank
         self.texts, self.V = [c['text'] for c in chunks], vectors
-        where = defaultdict(list)
+        self.ids = [c.get('id') for c in chunks]
+        where, self.summary = defaultdict(list), {}
         for i, c in enumerate(chunks):
             where[c['owner']].append(i)
+            if c.get('kind') == 'summary':
+                self.summary[c['owner']] = i
         self.where = {owner: np.array(ids) for owner, ids in where.items()}
         self.examples = [(label, text) for label, texts in exemplars.items() for text in texts]
         self.E = np.asarray(encode([text for _, text in self.examples]), dtype=np.float32)
@@ -97,7 +102,45 @@ class QueryAnalyzer:
             out[owner] = float((CHUNK_WEIGHTS[:len(top)] * top).sum())
         return out
 
+    def document(self, owner, plain):
+        """What the reranker reads for a lab: its summary (when there is one and RERANK_SUMMARY), then its closest chunks."""
+        ids = self.where[owner][np.argsort(plain[self.where[owner]])[::-1]]
+        first = self.summary.get(owner) if RERANK_SUMMARY else None
+        picked = ([first] if first is not None else []) + [int(k) for k in ids if k != first][:3]
+        return '\n'.join(self.texts[k] for k in picked)[:RERANK_CHARS]
+
+    def lab_scores(self, phrases):
+        """The search engine's first pass (curri/curated_query_engine.py RagQueryEngine): per phrase, every lab's
+        score as the weighted sum of its three closest chunks (lab summaries included) and those chunks' ids.
+        {phrase: {lab: [score, [[chunk id, chunk score], ...]]}}"""
+        vectors = np.asarray(self.encode(phrases), dtype=np.float32)
+        S = self.V @ vectors.T
+        out = {}
+        for j, phrase in enumerate(phrases):
+            scored = {}
+            for owner, ids in self.where.items():
+                col = S[ids, j]
+                top = np.argsort(col)[::-1][:len(CHUNK_WEIGHTS)]
+                scored[owner] = (float((CHUNK_WEIGHTS[:len(top)] * col[top]).sum()), ids, col, top)
+            # Chunk ids only for the best CHUNK_LABS labs (cards and the reranker never go further): keeps the answer small
+            near = set(sorted(scored, key=lambda o: -scored[o][0])[:CHUNK_LABS])
+            out[phrase] = {owner: [round(score, 5), [[self.ids[int(ids[k])], round(float(col[k]), 5)] for k in top] if owner in near else []]
+                           for owner, (score, ids, col, top) in scored.items()}
+        return out
+
     def analyze(self, query):
+        """One job of the search engine (op lab_scores / rerank), or the older whole-query analysis."""
+        if query.get('op') == 'lab_scores':
+            out = {}
+            if query.get('gate') is not None and query.get('raw'):  # the same refusal check as the whole-query analysis
+                out['intent'], margin = self.intent(np.asarray(self.encode([str(query['raw'])]), dtype=np.float32)[0])
+                out['margin'] = round(margin, 5)
+                if margin > query['gate']:
+                    return out
+            out['labs'] = self.lab_scores([str(p) for p in query['phrases']])
+            return out
+        if query.get('op') == 'rerank':
+            return {'scores': [round(float(x), 5) for x in self.rerank(str(query['query']), [str(d) for d in query['documents']])]}
         out = {}
         if query.get('gate') is not None:
             out['intent'], margin = self.intent(np.asarray(self.encode([query['raw']]), dtype=np.float32)[0])
@@ -112,7 +155,7 @@ class QueryAnalyzer:
         expanded = vectors[0] + FEEDBACK_WEIGHT * self.V[np.argsort(plain)[::-1][:FEEDBACK_CHUNKS]].mean(0)
         chunk = self.aggregate(self.V @ (expanded / np.linalg.norm(expanded)))
         head = sorted(chunk, key=lambda owner: -chunk[owner])[:RERANK_LABS]
-        documents = ['\n'.join(self.texts[int(k)] for k in self.where[o][np.argsort(plain[self.where[o]])[::-1][:3]])[:RERANK_CHARS] for o in head]
+        documents = [self.document(o, plain) for o in head]
         rerank = self.rerank(extended, documents)
         out.update(english=english, chunk={o: round(v, 5) for o, v in chunk.items()},
                    rerank={o: round(float(v), 4) for o, v in zip(head, rerank)},
@@ -189,7 +232,9 @@ class Worker:
                 continue
             t0 = time.time()
             try:
-                sims, best = self.answer_for(job['phrases'])
+                # A search engine op (lab_scores, rerank) needs no phrase similarities: skip them, they cost the GPU 0.5-2 s
+                op = isinstance(job.get('query'), dict) and job['query'].get('op')
+                sims, best = ({}, {}) if op and self.analyzer else self.answer_for(job['phrases'])
                 body = {'job_id': job['id'], 'lab_ids': self.lab_ids, 'sims': sims, 'best': best}
                 if job.get('query') and self.analyzer:
                     try:

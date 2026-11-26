@@ -4,6 +4,7 @@ import hmac
 import json
 import threading
 import time
+from .llm_jobs import QuotaExceeded
 from pathlib import Path
 
 AUDIT_RETENTION = 2 * 365 * 86400
@@ -170,7 +171,10 @@ class AdminAPI:
         for lab_id in self.catalog.profiles:
             payload = self.guide.summary_payload(lab_id)
             if payload:
-                job = self.llm.submit('summary', self.guide.summary_key(lab_id), payload)
+                try:
+                    job = self.llm.submit('summary', self.guide.summary_key(lab_id), payload)
+                except QuotaExceeded:
+                    break
                 queued += job['status'] == 'queued'
         return {'queued': queued}
 
