@@ -1,5 +1,13 @@
 # 3분커리 (3-min Curri)
 
+> **배포 순서 (검색 엔진 교체 `final-rag-search`)** 합병만으로는 팀 VM이 바뀌지 않는다. 임베딩 워커는 Kaggle에서 돌아서 아래 순서를 지켜야 한다. 순서가 바뀌면 서버가 새 연산을 요청해도 워커가 몰라서 검색이 옛 사전 검색으로 후퇴한다.
+> 1. `final-rag-search`를 `team/final`에 합병한다(충돌 없음 확인).
+> 2. 검색 자료를 만든다: `python3 tools/embed_worker/build_search_assets.py <chunks.jsonl> <vectors.f32> <출력 폴더> data/sunwoo/lab_summaries` (입력은 `feat/proto`의 `data/rag/pack300-whole`). 출력: `search_chunks.jsonl`, `search_vectors.npy`.
+> 3. 새 `tools/embed_worker/worker.py`, `search_chunks.jsonl`, `search_vectors.npy`, `intent_exemplars.json`을 워커의 Kaggle 데이터셋에 올리고 워커를 다시 시작한다.
+> 4. 워커가 연결된 것을 확인한 뒤 `tools/deploy_oracle.sh`로 Oracle 서버를 배포한다.
+>
+> 배포 뒤 `curl <주소>/api/engine`이 `{"embedding": true}`이고 검색 결과 카드에 리랭커 점수가 붙는지 확인한다. 문제가 있으면 서버를 `--search-engine curated`로 시작하면 이전 엔진으로 돌아간다. 자세한 내용은 [워커 README](tools/embed_worker/README.md)의 "검색 엔진 연산".
+
 연구참여·연구실 진학을 고민하는 포스텍 학생이 자신의 관심과 연결되는 연구실을 발견하고, 연구 주제와 준비 경로를 살펴보며 후보를 좁히도록 돕는 서비스입니다. ‘3분’은 빠르고 간편한 경험을 뜻하는 브랜드명입니다.
 
 ## 개발 기준
