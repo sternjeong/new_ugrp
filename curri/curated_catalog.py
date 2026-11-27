@@ -52,6 +52,9 @@ TEACHER_BONUS = 0.15  # teaching the course is direct evidence; similarity alone
 EXACT_BONUS = 0.1     # the course the student named outranks longer titles that merely contain it
 COURSE_ALIASES = {'선대': '선형대수', '일물': '일반물리', '컴구': '컴퓨터구조',
                   '운체': '운영체제', '자료구조': '데이터구조'}
+# Words in many titles: '시스템' inside 신호및시스템·전력시스템… says nothing about which class a student means.
+GENERIC_COURSE_WORDS = {'시스템', '기술', '설계', '개론', '이론', '응용', '기초', '실험', '공학', '과학', '컴퓨터', '정보', '데이터',
+                        '프로그래밍', '특론', '세미나', '입문'}
 SIMILAR_RATIO = 0.95  # relative to the best stored similarity for this course
 DEPARTMENT_BONUS = 0.08
 
@@ -436,7 +439,7 @@ class CuratedCatalog:
                 if len(key) < 2:
                     continue
                 exact += [c for base, c in self._course_bases if base in (key, key + '학')]
-                if cue or any(base in (key, key + '학') for base, _ in self._course_bases):
+                if (cue or any(base in (key, key + '학') for base, _ in self._course_bases)) and key not in GENERIC_COURSE_WORDS:
                     partial += [c for base, c in self._course_bases if len(key) >= 3 and key in base]
         named = {c['code']: (c, True) for c in exact}
         for c in sorted(partial, key=lambda c: c['code'][4:]):

@@ -157,6 +157,26 @@ class CuratedCatalogTests(unittest.TestCase):
         self.assertEqual(course_base('유기화학II'), '유기화학')
         self.assertEqual(course_base('일반물리(H): 역학과 파동'), '일반물리')
 
+    def test_classes_beside_other_interests_do_not_lead_and_generic_words_name_no_class(self):
+        from curri.curated_query_engine import classify_curated_query
+        query = ('데이터구조, os, 알고리즘, 정보시스템 기술 등 재밌었음 시스템 과목이 재밌긴한데 ai 까지 다루고 싶지는 않음 '
+                 '아직 잘 모르겠음 관심분야를. 수학은 별로 안 좋아해')
+        parsed = classify_curated_query(query)
+        self.assertEqual(parsed['likes'], ['데이터구조', '운영체제', '알고리즘', '정보시스템 기술', '시스템'])
+        self.assertEqual(parsed['dislikes'], ['ai', '수학'])
+        titles = [c['title'] for c, _ in self.catalog.courses_named(parsed['likes'], True)]
+        self.assertNotIn('신호및시스템', titles)
+        self.assertIn('운영체제', titles)
+        result = CuratedQueryEngine(self.catalog).search(query)
+        self.assertNotEqual({c['connection'] for c in result['labs']}, {'course'})
+        self.assertEqual(classify_curated_query('강화학습은 하고 싶지 않아요. 로봇이 좋아요')['dislikes'], ['강화학습'])
+
+    def test_a_latin_dislike_matches_whole_words_only(self):
+        engine = CuratedQueryEngine(self.catalog)
+        lid = next(l for l, p in self.catalog.profiles.items() if any('Sustainable' in t['label_ko'] for t in p['topics']))
+        self.assertFalse(engine.conflicts_with_dislikes(lid, ['ai']))
+        self.assertTrue(engine.conflicts_with_dislikes(lid, ['sustainable']))
+
     def test_course_search_regressions_and_aliases(self):
         engine = CuratedQueryEngine(self.catalog)
         def top(query):

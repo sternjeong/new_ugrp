@@ -215,6 +215,22 @@ class RagEngineTests(unittest.TestCase):
         engine.search('단백질 구조 연구')
         self.assertEqual(asked, ['단백질 구조 연구'])
 
+    def test_a_chunk_closer_to_a_dislike_is_neither_evidence_nor_a_match(self):
+        lab = self.labs[3]
+        topic = self.catalog.card(lab)['topics'][0]
+        likes = self.flat(lab, 0.5)  # this lab 0.95
+        engine, _ = self.engine({'단백질 구조': likes, '로봇': {lid: 0.1 for lid in self.labs}})
+        engine.retriever.chunks[f'c-{lab}']['meta'] = {'heading': topic['label']}
+        card = next(c for c in engine.search('단백질 구조는 좋은데 로봇은 싫어')['labs'] if c['id'] == lab)
+        self.assertEqual(card['evidence'][0]['chunk_id'], f'c-{lab}')
+        self.assertIn(topic['id'], card['matched_topics'])
+        engine, _ = self.engine({'단백질 구조': likes, '로봇': {lid: 0.99 if lid == lab else 0.1 for lid in self.labs}})
+        engine.retriever.chunks[f'c-{lab}']['meta'] = {'heading': topic['label']}
+        found = [c for c in engine.search('단백질 구조는 좋은데 로봇은 싫어')['labs'] if c['id'] == lab]
+        for card in found:  # the lab may drop out of the list altogether
+            self.assertFalse(any(e.get('chunk_id') == f'c-{lab}' for e in card['evidence']))
+            self.assertNotIn(topic['id'], card['matched_topics'])
+
     def test_course_cards_the_search_did_not_find_still_list_matched_areas(self):
         # The page reads matched_topics on every card; a course lab outside the scored labs used to lack it.
         engine, _ = self.engine({'x': self.flat(self.labs[3])})

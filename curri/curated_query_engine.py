@@ -18,7 +18,14 @@ from .query_engine import LAMBDA, QueryEngine, broad_only, interpret, is_nonsens
 PROCEDURE = re.compile(r'(수강\s*신청|대학원\s*(?:지원|입학|진학)|교수(?:님)?께?\s*(?:메일|이메일)|(?:지원|신청|컨택|면접|장학금|추천서).*(?:방법|어떻게|절차))')
 PROCEDURE_QUESTION = re.compile(r'(어떻게|방법|절차|알려|해야|하나요|할까요|쓰나요)')
 NEGATIVE_CUE = re.compile(r'(싫|별로|관심\s*없|좋아하지\s*않|흥미\s*없|재미없|빼고|제외|말고|보다)')
-CLAUSE_BREAK = re.compile(r'(?<=[.!?])\s+|\n+|(?<=싶고),\s*|(?<=좋고),\s*')
+# A clause also ends at a note-style '…었음'/'…않음' with no period ('알고리즘 재밌었음 시스템 과목이 …').
+CLAUSE_BREAK = re.compile(r'(?<=[.!?])\s+|\n+|(?<=싶고),\s*|(?<=좋고),\s*|(?<=[었았였겠했않없]음)[\s,]+')
+# Negations the rule parser does not know, rewritten to its '… 싫고' form:
+# 'ai 까지 다루고 싶지는 않음' → 'ai 싫고', '수학은 별로 안 좋아해' → '수학 싫고'.
+NOT_WANT = re.compile(r'(?:\s*(?:을|를|은|는|까지는?|도))?\s+(?:\S+고\s*)?싶지\s*(?:는|도|가)?\s*않(?:음|아요?|고|은데|는데|습니다|다|지만)?')
+DONT_LIKE = re.compile(r'(?:\s*(?:은|는|이|가|도))?\s*(?:별로\s*)?안\s*좋아(?:해요?|함|하고|하는데|합니다|해서)?')
+# Words that say nothing about a topic and would otherwise stay inside a liked phrase.
+FILLER = re.compile(r'(?:아직\s*)?(?:잘\s*)?모르겠\S*|관심\s*분야\S*|(?<=\s)등(?=\s|$)')
 KEYBOARD_NOISE = re.compile(r'^(?:asdf|qwer|zxcv|ㅋㅋ+|ㅎㅎ+|ㅠㅠ+|ㅜㅜ+)$', re.I)
 AVOID_ONLY = re.compile(r'피하고\s*싶')
 AVOID_CUE = re.compile(r'피하고\s*싶|못\s*하겠|안\s*했으면')  # a stated avoidance the rule parser may miss; the refusal check reads it as 'only a dislike'
@@ -68,6 +75,8 @@ def classify_curated_query(text):
     """Decide whether a query may reach retrieval, independent of catalog matches."""
     norm = normalize(text)
     normalized_negative = re.sub(r'좋아하지\s*않(?:지만|아요|습니다|아)', '싫고', norm)
+    normalized_negative = DONT_LIKE.sub(' 싫고', NOT_WANT.sub(' 싫고', normalized_negative))
+    normalized_negative = re.sub(r'\s+', ' ', FILLER.sub(' ', normalized_negative)).strip()
     # Read each sentence (and each '…싶고,' clause) on its own: interpreted together, a long text collapses into one
     # phrase such as '로봇 비전 파이썬으로 빠르게 데모를 … 인턴이면 좋겠어' that matches nothing well.
     pieces = [x for x in CLAUSE_BREAK.split(normalized_negative) if x.strip()] or [normalized_negative]
@@ -112,7 +121,10 @@ class CuratedQueryEngine(QueryEngine):
     def conflicts_with_dislikes(self, lab_id, dislikes):
         """Only reject explicit topic-label overlaps; do not infer hidden semantics."""
         labels = [topic['label_ko'].lower() for topic in self.catalog.profiles[lab_id]['topics']]
-        return any(phrase.lower() in label for phrase in dislikes for label in labels)
+        # A Latin word matches whole words only: 'ai' must not reject 'Sustainable' or 'Markov Chains'.
+        patterns = [re.compile(rf'(?<![a-z0-9]){re.escape(p.lower())}(?![a-z0-9])') if re.fullmatch(r'[a-z0-9 ]+', p.lower())
+                    else re.compile(re.escape(p.lower())) for p in dislikes]
+        return any(pattern.search(label) for pattern in patterns for label in labels)
 
     def dictionary_cards(self, plan_, text):
         cards = self.catalog.search(' '.join(plan_['likes']) or text)
@@ -135,9 +147,9 @@ class CuratedQueryEngine(QueryEngine):
         courses = self.catalog.courses_named(likes, cue)
         linked = {lid: link for lid, link in self.catalog.course_labs(courses).items()
                   if not self.conflicts_with_dislikes(lid, dislikes)}
-        # Course-led only when the student talks about a class, not when a topic merely shares a title
-        # ('컴퓨터 구조와 시스템 보안' must still find security labs).
-        led = bool(linked) and (cue or all(self.catalog.courses_named([p], cue) for p in likes))
+        # Course-led only when every liked phrase names a class: a topic that merely shares a title
+        # ('컴퓨터 구조와 시스템 보안') or a class mentioned beside other interests leaves the search in front.
+        led = bool(linked) and all(self.catalog.courses_named([p], cue) for p in likes)
         if courses:
             result['courses'] = [{'code': c['code'], 'name': c['title']} for c, _ in courses]
         phrases = list(dict.fromkeys((likes or [norm]) + dislikes + [norm]))
@@ -275,9 +287,9 @@ class RagQueryEngine(CuratedQueryEngine):
         courses = self.catalog.courses_named(likes, cue)
         linked = {lid: link for lid, link in self.catalog.course_labs(courses).items()
                   if not self.conflicts_with_dislikes(lid, dislikes)}
-        # Course-led only when the student talks about a class, not when a topic merely shares a title
-        # ('컴퓨터 구조와 시스템 보안' must still find security labs).
-        led = bool(linked) and (cue or all(self.catalog.courses_named([p], cue) for p in likes))
+        # Course-led only when every liked phrase names a class: a topic that merely shares a title
+        # ('컴퓨터 구조와 시스템 보안') or a class mentioned beside other interests leaves the search in front.
+        led = bool(linked) and all(self.catalog.courses_named([p], cue) for p in likes)
         if courses:
             result['courses'] = [{'code': c['code'], 'name': c['title']} for c, _ in courses]
         # The worker's refusal check (N1, GATE_MARGIN), skipped like in CuratedQueryEngine when a dislike was read
@@ -350,7 +362,9 @@ class RagQueryEngine(CuratedQueryEngine):
         best = max(raw.values())
         kept = [lid for n, lid in enumerate(ranking) if n < MIN_CARDS or raw[lid] >= best * RELATIVE_FLOOR][:TOP_N]
         variants = [v for vs in search_terms(' '.join(likes)).values() for v in vs]
-        cards = {lid: self.rag_card(lid, raw[lid], [e for m in members[lid] for e in chunks[m]], variants) for lid in kept}
+        # {chunk id: best score for any disliked phrase}, per lab: such a chunk is no evidence for the likes.
+        avoided = {lid: {c['id']: s for p in dislikes for m in members[lid] for s, c in found[p].get(m, (0.0, []))[1]} for lid in kept}
+        cards = {lid: self.rag_card(lid, raw[lid], [e for m in members[lid] for e in chunks[m]], variants, avoided[lid]) for lid in kept}
         for lid in kept:
             if lid in judged:
                 cards[lid]['rerank'] = round(judged[lid], 4)
@@ -407,17 +421,21 @@ class RagQueryEngine(CuratedQueryEngine):
         lists = [list(linked)] * 2 + [ranking] if led else [ranking, list(linked)]
         return rrf(*[r for r in lists if r])
 
-    def rag_card(self, lab_id, score, chunks, variants):
+    def rag_card(self, lab_id, score, chunks, variants, avoided=None):
+        """avoided: {chunk id: score for a disliked phrase}; a chunk at least that close to a dislike is dropped."""
         card = self.catalog.card(lab_id)
+        avoided = avoided or {}
         best = {}
         for s, chunk in chunks:  # one chunk may match several liked phrases; keep its best score
             if chunk['id'] not in best or s > best[chunk['id']][0]:
                 best[chunk['id']] = (s, chunk)
-        ordered = [c for _, c in sorted(best.values(), key=lambda x: -x[0]) if c['kind'] in CHUNK_LABEL]
+        ordered = [c for s, c in sorted(best.values(), key=lambda x: -x[0])
+                   if c['kind'] in CHUNK_LABEL and avoided.get(c['id'], float('-inf')) < s]
         # The profile chunk only repeats names and areas; a few intro chunks are page furniture ('Read more...').
-        shown = [c for c in ordered if c['kind'] != 'profile' and len(c['text'].strip()) >= QUOTABLE_TEXT] or ordered
-        evidence = [self.chunk_evidence(lab_id, c, variants) for c in shown[:EVIDENCE_SHOWN]]
-        headings = {(c['meta'].get('heading') or '').strip().lower() for c in ordered}
+        shown = ([c for c in ordered if c['kind'] != 'profile' and len(c['text'].strip()) >= QUOTABLE_TEXT] or ordered)[:EVIDENCE_SHOWN]
+        evidence = [self.chunk_evidence(lab_id, c, variants) for c in shown]
+        # '관심과 일치' marks only the areas the quoted chunks sit under, not any chunk among the closest few per phrase.
+        headings = {(c['meta'].get('heading') or '').strip().lower() for c in shown}
         kinds = [CHUNK_LABEL[c['kind']] for c in ordered]
         counts = ', '.join(f'{k} {kinds.count(k)}개' for k in dict.fromkeys(kinds))
         card.update(matched_topics=[t['id'] for t in card['topics'] if t['label'].strip().lower() in headings],
