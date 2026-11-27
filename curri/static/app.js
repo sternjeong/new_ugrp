@@ -123,7 +123,8 @@ function labCard(lab,index) {
 }
 // Card: overview list (matched areas marked in place) plus pills only for matches not already listed.
 function cardOverview(lab) {
-  const hits = lab.topics.filter(t=>lab.matched_topics.includes(t.id));
+  const matchedIds = lab.matched_topics || [];
+  const hits = lab.topics.filter(t=>matchedIds.includes(t.id));
   const listed = new Set((lab.overview?.items || []).slice(0,3).map(overviewKey));
   const matched = new Set(hits.map(t=>overviewKey(t.label)).filter(k=>listed.has(k)));
   return overviewHTML(lab,3,false,matched) + tags(hits.filter(t=>!matched.has(overviewKey(t.label))));

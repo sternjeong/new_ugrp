@@ -477,6 +477,7 @@ class CuratedCatalog:
                             'snippet': clip(' · '.join(lines[:2]) if lines else about), 'marks': [], 'full': '',
                             'year': None}] if about or lines else []
         card['evidence'] = course_evidence + list(card.get('evidence') or [])[:2]
+        card.setdefault('matched_topics', [])  # a course lab the search did not find has no matched areas
         card['connection'] = 'course'
         return card
 

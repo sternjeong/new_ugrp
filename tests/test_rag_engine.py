@@ -215,6 +215,14 @@ class RagEngineTests(unittest.TestCase):
         engine.search('단백질 구조 연구')
         self.assertEqual(asked, ['단백질 구조 연구'])
 
+    def test_course_cards_the_search_did_not_find_still_list_matched_areas(self):
+        # The page reads matched_topics on every card; a course lab outside the scored labs used to lack it.
+        engine, _ = self.engine({'x': self.flat(self.labs[3])})
+        labs = engine.search('데이터구조, 알고리즘 수업이 재밌었음')['labs']
+        course = [c for c in labs if c['connection'] == 'course' and c['id'] not in self.labs]
+        self.assertTrue(course)
+        self.assertTrue(all(isinstance(c.get('matched_topics'), list) for c in labs))
+
     def test_refusals_never_reach_the_worker(self):
         engine, broker = self.engine({})
         self.assertEqual(engine.search('ㅋㅋㅋ')['intent'], 'nonsense')
