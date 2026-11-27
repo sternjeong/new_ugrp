@@ -54,7 +54,7 @@ COURSE_ALIASES = {'선대': '선형대수', '일물': '일반물리', '컴구': 
                   '운체': '운영체제', '자료구조': '데이터구조'}
 # Words in many titles: '시스템' inside 신호및시스템·전력시스템… says nothing about which class a student means.
 GENERIC_COURSE_WORDS = {'시스템', '기술', '설계', '개론', '이론', '응용', '기초', '실험', '공학', '과학', '컴퓨터', '정보', '데이터',
-                        '프로그래밍', '특론', '세미나', '입문'}
+                        '프로그래밍', '특론', '세미나', '입문', '해석', '분석'}  # '구조 해석' is not 해석학
 SIMILAR_RATIO = 0.95  # relative to the best stored similarity for this course
 DEPARTMENT_BONUS = 0.08
 

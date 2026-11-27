@@ -1,0 +1,1725 @@
+{
+ "_doc": "Student queries with the parse a careful reader extracts (classify_curated_query). likes/dislikes: required topics, each a list of accepted spellings; a parsed phrase covers a topic if it contains one, ignoring case and spaces. forbid_like: tokens no liked phrase may contain. known_gap: the parser misses this case today; tests list it but do not fail. Sources: an adversarial set (2026-11-27) and a held-out set written without seeing the parser.",
+ "queries": [
+  {
+   "id": "stress-q01",
+   "cat": "motivating-real",
+   "text": "데이터구조, os, 알고리즘, 정보시스템 기술 등 재밌었음 시스템 과목이 재밌긴한데 ai 까지 다루고 싶지는 않음 아직 잘 모르겠음 관심분야를. 수학은 별로 안 좋아해",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "데이터구조"
+    ],
+    [
+     "운영체제"
+    ],
+    [
+     "알고리즘"
+    ]
+   ],
+   "dislikes": [
+    [
+     "ai",
+     "인공지능"
+    ],
+    [
+     "수학"
+    ]
+   ],
+   "forbid_like": [
+    "ai",
+    "안",
+    "모르겠",
+    "관심분야",
+    "수학"
+   ]
+  },
+  {
+   "id": "stress-q02",
+   "cat": "abbrev-mixed",
+   "text": "cv랑 rl 둘다 관심있는데 llm은 좀 질렸어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "컴퓨터비전",
+     "cv"
+    ],
+    [
+     "강화학습",
+     "rl",
+     "reinforcement"
+    ]
+   ],
+   "dislikes": [
+    [
+     "언어모델",
+     "llm"
+    ]
+   ],
+   "forbid_like": [
+    "언어모델",
+    "질렸"
+   ]
+  },
+  {
+   "id": "stress-q03",
+   "cat": "course+topic",
+   "text": "db 수업 재밌었고 분산시스템도 궁금함",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "데이터베이스",
+     "db"
+    ],
+    [
+     "분산시스템",
+     "분산"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "수업"
+   ]
+  },
+  {
+   "id": "stress-q04",
+   "cat": "bodaneun-broad",
+   "text": "하드웨어보다는 소프트웨어 쪽",
+   "intent": [
+    "search",
+    "too_broad"
+   ],
+   "likes": [
+    [
+     "소프트웨어"
+    ]
+   ],
+   "dislikes": [
+    [
+     "하드웨어"
+    ]
+   ],
+   "forbid_like": [
+    "하드웨어"
+   ]
+  },
+  {
+   "id": "stress-q05",
+   "cat": "malgo",
+   "text": "로봇 말고 반도체 공정이나 소자 쪽 연구 하고싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "반도체공정",
+     "공정"
+    ],
+    [
+     "소자"
+    ]
+   ],
+   "dislikes": [
+    [
+     "로봇"
+    ]
+   ],
+   "forbid_like": [
+    "로봇",
+    "하고싶"
+   ]
+  },
+  {
+   "id": "stress-q06",
+   "cat": "ppaego",
+   "text": "보안 빼고 네트워크랑 운영체제 관심 있어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "네트워크"
+    ],
+    [
+     "운영체제"
+    ]
+   ],
+   "dislikes": [
+    [
+     "보안"
+    ]
+   ],
+   "forbid_like": [
+    "보안"
+   ]
+  },
+  {
+   "id": "stress-q07",
+   "cat": "double-negative",
+   "text": "머신러닝이 싫지는 않은데 그래도 하드웨어 설계가 더 끌려요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "하드웨어설계",
+     "하드웨어"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "싫"
+   ]
+  },
+  {
+   "id": "stress-q08",
+   "cat": "double-negative",
+   "text": "수학 안 싫어함 오히려 좋아함 최적화 이론 같은거",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "최적화"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "안",
+    "싫"
+   ]
+  },
+  {
+   "id": "stress-q09",
+   "cat": "procedure+interest",
+   "text": "대학원 컨택 어떻게 해야하나요? 저는 자연어처리에 관심있어요",
+   "intent": [
+    "search",
+    "career"
+   ],
+   "likes": [
+    [
+     "자연어처리"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "컨택",
+    "어떻게"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "stress-q10",
+   "cat": "offtopic+interest",
+   "text": "오늘 점심 뭐먹지 ㅋㅋ 아 근데 요즘 자율주행 진짜 신기하더라",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "자율주행"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "점심",
+    "뭐먹"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "stress-q11",
+   "cat": "emoji",
+   "text": "양자컴퓨터 너무 멋있어요🤩🤩 양자정보 연구실 있나요?",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "양자컴퓨터",
+     "양자"
+    ],
+    [
+     "양자정보"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "🤩",
+    "멋있"
+   ]
+  },
+  {
+   "id": "stress-q12",
+   "cat": "very-short",
+   "text": "hci",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "인간-컴퓨터상호작용",
+     "hci"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "stress-q13",
+   "cat": "very-short",
+   "text": "os",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "운영체제"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "stress-q14",
+   "cat": "very-short-broad",
+   "text": "ai",
+   "intent": [
+    "too_broad"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "stress-q15",
+   "cat": "hedge-only",
+   "text": "아직 잘 모르겠음 관심분야를",
+   "intent": [
+    "too_broad",
+    "nonsense",
+    "need_clarification"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": [
+    "모르겠",
+    "관심분야"
+   ]
+  },
+  {
+   "id": "stress-q16",
+   "cat": "course-alias",
+   "text": "컴구 운체 재밌게 들었고 임베디드 해보고싶음",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "컴퓨터구조"
+    ],
+    [
+     "운영체제"
+    ],
+    [
+     "임베디드"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "들었",
+    "해보고"
+   ]
+  },
+  {
+   "id": "stress-q17",
+   "cat": "course+topic",
+   "text": "신호및시스템 수업 들었는데 통신 쪽이 좋을듯",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "신호및시스템",
+     "신호"
+    ],
+    [
+     "통신"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "들었",
+    "좋을듯"
+   ]
+  },
+  {
+   "id": "stress-q18",
+   "cat": "course-alias",
+   "text": "선대랑 확통 좋아했어요 데이터 분석 쪽",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "선형대수",
+     "선대"
+    ],
+    [
+     "확률",
+     "확통"
+    ],
+    [
+     "데이터분석"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "좋아했"
+   ]
+  },
+  {
+   "id": "stress-q19",
+   "cat": "long-runon",
+   "text": "저는 컴공 3학년인데요 원래는 웹개발 하려고 했는데 요즘 그래픽스랑 게임엔진 쪽이 재밌어 보여서 렌더링 연구하는 곳 있으면 좋겠고 근데 VR은 멀미나서 별로",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "그래픽스"
+    ],
+    [
+     "게임엔진",
+     "게임"
+    ],
+    [
+     "렌더링"
+    ]
+   ],
+   "dislikes": [
+    [
+     "가상현실",
+     "vr"
+    ]
+   ],
+   "forbid_like": [
+    "3학년",
+    "멀미",
+    "가상현실"
+   ]
+  },
+  {
+   "id": "stress-q20",
+   "cat": "like+dislike-verb",
+   "text": "의료영상에 딥러닝 적용하는거 관심있어요 근데 생물학 공부는 하기싫어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "의료영상"
+    ]
+   ],
+   "dislikes": [
+    [
+     "생물학"
+    ]
+   ],
+   "forbid_like": [
+    "생물학",
+    "싫"
+   ]
+  },
+  {
+   "id": "stress-q21",
+   "cat": "keywords-latin",
+   "text": "칩설계 fpga verilog 이런거",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "칩설계",
+     "fpga",
+     "verilog"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "이런거"
+   ]
+  },
+  {
+   "id": "stress-q22",
+   "cat": "like+dislike",
+   "text": "전력전자나 배터리 관리 시스템 공부해보고 싶어요 소프트웨어는 별로",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "전력전자"
+    ],
+    [
+     "배터리"
+    ]
+   ],
+   "dislikes": [
+    [
+     "소프트웨어"
+    ]
+   ],
+   "forbid_like": [
+    "소프트웨어"
+   ]
+  },
+  {
+   "id": "stress-q23",
+   "cat": "noise",
+   "text": "ㅋㅋㅋㅋ",
+   "intent": [
+    "nonsense"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "stress-q24",
+   "cat": "broad",
+   "text": "음.. 그냥 코딩이 좋아요",
+   "intent": [
+    "too_broad"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": [
+    "음.."
+   ]
+  },
+  {
+   "id": "stress-q25",
+   "cat": "malgo",
+   "text": "추천시스템 말고 검색엔진",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "검색엔진",
+     "검색"
+    ]
+   ],
+   "dislikes": [
+    [
+     "추천시스템",
+     "추천"
+    ]
+   ],
+   "forbid_like": [
+    "추천"
+   ]
+  },
+  {
+   "id": "stress-q26",
+   "cat": "course+bodaneun",
+   "text": "알고리즘 수업이 재밌었는데 이론보다는 실제로 뭔가 만드는 게 좋아요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "알고리즘"
+    ]
+   ],
+   "dislikes": [
+    [
+     "이론"
+    ]
+   ],
+   "forbid_like": [
+    "뭔가"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "stress-q27",
+   "cat": "not-want",
+   "text": "nlp는 하고 싶지 않고 음성인식이나 speech 쪽",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "음성인식",
+     "speech"
+    ]
+   ],
+   "dislikes": [
+    [
+     "자연어처리",
+     "nlp"
+    ]
+   ],
+   "forbid_like": [
+    "자연어처리",
+    "nlp"
+   ]
+  },
+  {
+   "id": "stress-q28",
+   "cat": "unknown-negation",
+   "text": "AI 반도체 하고 싶음 근데 회로 설계는 자신 없음",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "반도체"
+    ]
+   ],
+   "dislikes": [
+    [
+     "회로설계",
+     "회로"
+    ]
+   ],
+   "forbid_like": [
+    "자신",
+    "회로"
+   ]
+  },
+  {
+   "id": "stress-q29",
+   "cat": "multi-like",
+   "text": "블록체인 암호 그런 보안쪽이요 해킹도 재밌을거같고",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "블록체인"
+    ],
+    [
+     "암호"
+    ],
+    [
+     "보안"
+    ],
+    [
+     "해킹"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "그런",
+    "같고"
+   ]
+  },
+  {
+   "id": "stress-q30",
+   "cat": "repetition",
+   "text": "강화학습 강화학습 강화학습 로봇제어",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "강화학습"
+    ],
+    [
+     "로봇제어",
+     "로봇"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "stress-q31",
+   "cat": "like+dislike-near",
+   "text": "머신러닝은 좋은데 딥러닝은 별로고 통계적 학습이론 관심",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "머신러닝"
+    ],
+    [
+     "통계적학습",
+     "학습이론"
+    ]
+   ],
+   "dislikes": [
+    [
+     "딥러닝"
+    ]
+   ],
+   "forbid_like": [
+    "딥러닝"
+   ]
+  },
+  {
+   "id": "stress-q32",
+   "cat": "very-long",
+   "text": "안녕하세요 저는 전자과 2학년이고 아직 진로를 못 정했어요. 1학년 때 일반물리랑 프로그래밍 수업을 들었는데 프로그래밍이 더 재밌었어요. 요즘은 반도체가 핫하다고 해서 관심이 생겼는데 소자 물리는 너무 어려웠고 오히려 반도체 설계 자동화나 EDA 툴 같은 소프트웨어 쪽이 저한테 맞을 것 같아요. 그리고 머신러닝을 이용해서 회로 최적화하는 연구도 들어봤는데 그런 것도 해보고 싶어요. 대학원은 아직 생각 없어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "설계자동화",
+     "eda"
+    ],
+    [
+     "회로최적화",
+     "회로"
+    ]
+   ],
+   "dislikes": [
+    [
+     "소자물리",
+     "소자"
+    ]
+   ],
+   "forbid_like": [
+    "안녕",
+    "2학년",
+    "대학원",
+    "진로"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "stress-q33",
+   "cat": "note-ox",
+   "text": "컴퓨터 비전 x, 자연어 o",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "자연어"
+    ]
+   ],
+   "dislikes": [
+    [
+     "컴퓨터비전"
+    ]
+   ],
+   "forbid_like": [
+    "비전"
+   ]
+  },
+  {
+   "id": "stress-q34",
+   "cat": "generic-course-word",
+   "text": "시스템 과목 재밌었음",
+   "intent": [
+    "search",
+    "too_broad",
+    "need_clarification"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "stress-q35",
+   "cat": "english",
+   "text": "I'm interested in computer vision but not autonomous driving",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "computervision",
+     "컴퓨터비전"
+    ]
+   ],
+   "dislikes": [
+    [
+     "autonomous",
+     "자율주행"
+    ]
+   ],
+   "forbid_like": [
+    "autonomous",
+    "자율주행",
+    "not"
+   ]
+  },
+  {
+   "id": "stress-q36",
+   "cat": "course-dislike",
+   "text": "회로이론 수업은 진짜 별로였고 프로그래밍 과목이 재밌었어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "프로그래밍"
+    ]
+   ],
+   "dislikes": [
+    [
+     "회로이론",
+     "회로"
+    ]
+   ],
+   "forbid_like": [
+    "회로"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "stress-q37",
+   "cat": "hedge+interest",
+   "text": "딱히 정한건 없는데 굳이 고르자면 컴퓨터 그래픽스? 아니면 hci 정도",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "그래픽스"
+    ],
+    [
+     "인간-컴퓨터상호작용",
+     "hci"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "딱히",
+    "굳이",
+    "정한"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "stress-q38",
+   "cat": "dislike-only",
+   "text": "ai는 싫고 수학도 싫어요",
+   "intent": [
+    "need_likes"
+   ],
+   "likes": [],
+   "dislikes": [
+    [
+     "ai"
+    ],
+    [
+     "수학"
+    ]
+   ],
+   "forbid_like": []
+  },
+  {
+   "id": "holdout1-h01",
+   "cat": "like_dislike_conjunction",
+   "text": "로봇 제어 쪽에 관심 있어요 근데 하드웨어 만지는 건 별로예요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "로봇"
+    ]
+   ],
+   "dislikes": [
+    [
+     "하드웨어"
+    ]
+   ],
+   "forbid_like": [
+    "하드웨어",
+    "근데",
+    "별로"
+   ]
+  },
+  {
+   "id": "holdout1-h02",
+   "cat": "like_dislike_conjunction",
+   "text": "반도체 소자 공정이 재밌어 보이는데 그런데 회로 설계는 자신이 없어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "반도체"
+    ]
+   ],
+   "dislikes": [
+    [
+     "회로 설계",
+     "회로설계",
+     "회로"
+    ]
+   ],
+   "forbid_like": [
+    "회로",
+    "그런데",
+    "자신"
+   ]
+  },
+  {
+   "id": "holdout1-h03",
+   "cat": "like_dislike_conjunction",
+   "text": "단백질 구조 예측 해보고 싶습니다. 하지만 습식 실험은 피하고 싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "단백질"
+    ]
+   ],
+   "dislikes": [
+    [
+     "습식 실험",
+     "습식실험",
+     "wet lab",
+     "실험"
+    ]
+   ],
+   "forbid_like": [
+    "습식",
+    "하지만",
+    "피하"
+   ]
+  },
+  {
+   "id": "holdout1-h04",
+   "cat": "like_dislike_conjunction",
+   "text": "배터리 소재 연구에 관심이 있어요. 다만 계산 시뮬레이션만 하는 곳은 싫어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "배터리"
+    ]
+   ],
+   "dislikes": [
+    [
+     "시뮬레이션"
+    ]
+   ],
+   "forbid_like": [
+    "시뮬레이션",
+    "다만",
+    "싫어"
+   ]
+  },
+  {
+   "id": "holdout1-h05",
+   "cat": "dislike_verb_forms",
+   "text": "웹 개발은 이제 질렸다 데이터 분석 쪽 해보고 싶음",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "데이터 분석",
+     "데이터분석"
+    ]
+   ],
+   "dislikes": [
+    [
+     "웹 개발",
+     "웹개발",
+     "웹"
+    ]
+   ],
+   "forbid_like": [
+    "웹",
+    "질렸"
+   ]
+  },
+  {
+   "id": "holdout1-h06",
+   "cat": "dislike_verb_forms",
+   "text": "양자역학 너무 어려웠음 실험 물리 쪽이 나을 듯",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "실험 물리",
+     "실험물리"
+    ]
+   ],
+   "dislikes": [
+    [
+     "양자역학"
+    ]
+   ],
+   "forbid_like": [
+    "양자역학",
+    "어려"
+   ]
+  },
+  {
+   "id": "holdout1-h07",
+   "cat": "dislike_verb_forms",
+   "text": "유기화학은 진짜 안 맞음, 고분자 재료 쪽 알아보고 있어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "고분자"
+    ]
+   ],
+   "dislikes": [
+    [
+     "유기화학"
+    ]
+   ],
+   "forbid_like": [
+    "유기화학",
+    "안 맞",
+    "안맞"
+   ]
+  },
+  {
+   "id": "holdout1-h08",
+   "cat": "dislike_verb_forms",
+   "text": "통계는 지루했고 최적화는 관심 없음. 물류 시스템 연구하는 데 있나요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "물류"
+    ]
+   ],
+   "dislikes": [
+    [
+     "통계"
+    ],
+    [
+     "최적화"
+    ]
+   ],
+   "forbid_like": [
+    "통계",
+    "최적화",
+    "지루",
+    "관심 없"
+   ]
+  },
+  {
+   "id": "holdout1-h09",
+   "cat": "latin_abbrev_particles",
+   "text": "cv는 해봤는데 재밌었고 nlp랑 llm을 더 깊게 해보고 싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "컴퓨터비전",
+     "컴퓨터 비전",
+     "cv"
+    ],
+    [
+     "자연어처리",
+     "자연어 처리",
+     "nlp"
+    ],
+    [
+     "언어모델",
+     "언어 모델",
+     "llm"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "cv는",
+    "nlp랑",
+    "llm을"
+   ]
+  },
+  {
+   "id": "holdout1-h10",
+   "cat": "latin_abbrev_particles",
+   "text": "rl이 제일 재밌었고 os랑 db는 별로였어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "강화학습",
+     "rl"
+    ]
+   ],
+   "dislikes": [
+    [
+     "운영체제",
+     "os"
+    ],
+    [
+     "데이터베이스",
+     "db"
+    ]
+   ],
+   "forbid_like": [
+    "rl이",
+    "os",
+    "db",
+    "운영체제",
+    "데이터베이스",
+    "별로"
+   ]
+  },
+  {
+   "id": "holdout1-h11",
+   "cat": "latin_abbrev_particles",
+   "text": "hci도 관심 있고 vr이나 메타버스 인터페이스 쪽이면 좋겠어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "hci",
+     "인간컴퓨터상호작용",
+     "인간-컴퓨터"
+    ],
+    [
+     "가상현실",
+     "vr"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "hci도",
+    "vr이나"
+   ]
+  },
+  {
+   "id": "holdout1-h12",
+   "cat": "latin_abbrev_particles",
+   "text": "ml은 기본만 알고 iot에 관심 많아요. sw는 자신 없음",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "사물인터넷",
+     "iot"
+    ]
+   ],
+   "dislikes": [
+    [
+     "소프트웨어",
+     "sw"
+    ]
+   ],
+   "forbid_like": [
+    "ml은",
+    "iot에",
+    "sw",
+    "소프트웨어",
+    "자신"
+   ]
+  },
+  {
+   "id": "holdout1-h13",
+   "cat": "rather_than_except",
+   "text": "로봇 비전 좋아하는데 순수 이론보다는 실제로 움직이는 걸 만들고 싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "로봇"
+    ]
+   ],
+   "dislikes": [
+    [
+     "이론"
+    ]
+   ],
+   "forbid_like": [
+    "이론",
+    "보다는"
+   ]
+  },
+  {
+   "id": "holdout1-h14",
+   "cat": "rather_than_except",
+   "text": "신약 개발 쪽 관심 있고 동물실험 말고 컴퓨터로 하는 연구 찾고 있어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "신약"
+    ]
+   ],
+   "dislikes": [
+    [
+     "동물실험",
+     "동물 실험"
+    ]
+   ],
+   "forbid_like": [
+    "동물",
+    "말고"
+   ]
+  },
+  {
+   "id": "holdout1-h15",
+   "cat": "rather_than_except",
+   "text": "전력전자 재밌게 들었고 통신 빼고 아무거나 괜찮아요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "전력전자",
+     "전력 전자"
+    ]
+   ],
+   "dislikes": [
+    [
+     "통신"
+    ]
+   ],
+   "forbid_like": [
+    "통신",
+    "빼고",
+    "아무거나"
+   ]
+  },
+  {
+   "id": "holdout1-h16",
+   "cat": "rather_than_except",
+   "text": "핵융합 플라즈마 연구 하고 싶은데 시뮬레이션 말고 실험 위주로요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "플라즈마",
+     "핵융합"
+    ]
+   ],
+   "dislikes": [
+    [
+     "시뮬레이션"
+    ]
+   ],
+   "forbid_like": [
+    "시뮬레이션",
+    "말고"
+   ]
+  },
+  {
+   "id": "holdout1-h17",
+   "cat": "double_soft_negative",
+   "text": "생명정보학 안 싫어요 오히려 좋아하는 편",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "생명정보학",
+     "생물정보학",
+     "바이오인포매틱스"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "싫",
+    "오히려"
+   ]
+  },
+  {
+   "id": "holdout1-h18",
+   "cat": "double_soft_negative",
+   "text": "아날로그 회로 싫진 않은데 디지털 회로 설계가 더 끌려요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "디지털 회로",
+     "디지털회로"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "싫",
+    "끌려"
+   ]
+  },
+  {
+   "id": "holdout1-h19",
+   "cat": "double_soft_negative",
+   "text": "열역학 수업 나쁘지 않았어요 에너지 소재 쪽 알아보는 중",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "에너지 소재",
+     "에너지소재"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "나쁘",
+    "않았"
+   ]
+  },
+  {
+   "id": "holdout1-h20",
+   "cat": "class_mentions",
+   "text": "기계학습 수업 들었는데 너무 재밌어서 의료 영상 쪽 연구하고 싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "의료 영상",
+     "의료영상"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "수업",
+    "들었"
+   ]
+  },
+  {
+   "id": "holdout1-h21",
+   "cat": "class_mentions",
+   "text": "고체물리 수강했는데 반도체 물성 연구가 궁금해요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "반도체"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "수강",
+    "궁금"
+   ]
+  },
+  {
+   "id": "holdout1-h22",
+   "cat": "class_mentions",
+   "text": "자료구조랑 알고리즘 수업 들었고 컴파일러 연구실 있나요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "컴파일러"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "수업",
+    "들었고",
+    "있나요"
+   ]
+  },
+  {
+   "id": "holdout1-h23",
+   "cat": "class_mentions",
+   "text": "생화학 수업은 별로였고 신경과학 쪽 들어보고 싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "신경과학",
+     "뇌과학"
+    ]
+   ],
+   "dislikes": [
+    [
+     "생화학"
+    ]
+   ],
+   "forbid_like": [
+    "생화학",
+    "수업",
+    "별로"
+   ]
+  },
+  {
+   "id": "holdout1-h24",
+   "cat": "note_style_runon",
+   "text": "자율주행 관심있음 라이다 센서퓨전 같은거 해보고싶음 제어는 별로임",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "자율주행"
+    ],
+    [
+     "센서퓨전",
+     "센서 퓨전",
+     "라이다"
+    ]
+   ],
+   "dislikes": [
+    [
+     "제어"
+    ]
+   ],
+   "forbid_like": [
+    "제어",
+    "별로",
+    "관심있음",
+    "해보고싶음"
+   ]
+  },
+  {
+   "id": "holdout1-h25",
+   "cat": "note_style_runon",
+   "text": "촉매 연구 재밌을듯 수소 생산 쪽 전기화학 하는 데 찾는중",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "촉매"
+    ],
+    [
+     "전기화학"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "재밌을듯",
+    "찾는중"
+   ]
+  },
+  {
+   "id": "holdout1-h26",
+   "cat": "note_style_runon",
+   "text": "스마트팩토리 공급망 최적화 관심 있음 금융공학은 안 땡김",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "공급망"
+    ]
+   ],
+   "dislikes": [
+    [
+     "금융공학",
+     "금융 공학"
+    ]
+   ],
+   "forbid_like": [
+    "금융",
+    "땡김"
+   ]
+  },
+  {
+   "id": "holdout1-h27",
+   "cat": "note_style_runon",
+   "text": "그래핀 같은 2차원 소재 좋음 박막 성장 이런거 하고싶음 이론은 별로임",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "2차원 소재",
+     "2차원소재",
+     "그래핀"
+    ],
+    [
+     "박막"
+    ]
+   ],
+   "dislikes": [
+    [
+     "이론"
+    ]
+   ],
+   "forbid_like": [
+    "이론",
+    "별로"
+   ]
+  },
+  {
+   "id": "holdout1-h28",
+   "cat": "chitchat_emoji",
+   "text": "안녕하세요ㅎㅎ 저 컴공 2학년인데요 보안 쪽에 관심 있어요!",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "보안"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "안녕",
+    "ㅎ",
+    "2학년"
+   ]
+  },
+  {
+   "id": "holdout1-h29",
+   "cat": "chitchat_emoji",
+   "text": "ㅋㅋㅋ 이거 신기하다 🤖 로봇 손 만드는 연구 있어요?",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "로봇"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "ㅋ",
+    "신기",
+    "🤖"
+   ]
+  },
+  {
+   "id": "holdout1-h30",
+   "cat": "chitchat_emoji",
+   "text": "반갑습니다 😊 신소재 3학년이고 요즘 생체재료에 꽂혔어요 ㅎㅎ",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "생체재료",
+     "생체 재료",
+     "바이오소재"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "반갑",
+    "😊",
+    "3학년",
+    "ㅎ",
+    "꽂혔"
+   ]
+  },
+  {
+   "id": "holdout1-h31",
+   "cat": "hedging",
+   "text": "아직 잘 모르겠어요...",
+   "intent": [
+    "too_broad"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": [
+    "모르"
+   ]
+  },
+  {
+   "id": "holdout1-h32",
+   "cat": "hedging",
+   "text": "딱히 없는데 그냥 뭐든 괜찮아요",
+   "intent": [
+    "too_broad"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": [
+    "딱히",
+    "그냥",
+    "뭐든"
+   ]
+  },
+  {
+   "id": "holdout1-h33",
+   "cat": "hedging",
+   "text": "뭐든 좋은데 굳이 고르자면 뇌-컴퓨터 인터페이스?",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "뇌-컴퓨터",
+     "뇌컴퓨터",
+     "bci"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "뭐든",
+    "굳이",
+    "고르자면"
+   ]
+  },
+  {
+   "id": "holdout1-h34",
+   "cat": "procedure_offtopic",
+   "text": "교수님께 컨택 메일은 언제 보내는 게 좋아요?",
+   "intent": [
+    "career"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": [
+    "컨택",
+    "메일"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "holdout1-h35",
+   "cat": "procedure_offtopic",
+   "text": "학점이 낮은데 인공지능 연구실 가능할까요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "인공지능",
+     "ai"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "학점",
+    "가능"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "holdout1-h36",
+   "cat": "procedure_offtopic",
+   "text": "대학원 진학 생각 중이고 광학 레이저 쪽 연구실 컨택하고 싶어요",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "광학",
+     "레이저"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": [
+    "대학원",
+    "진학",
+    "컨택"
+   ]
+  },
+  {
+   "id": "holdout1-h37",
+   "cat": "procedure_offtopic",
+   "text": "오늘 학식 메뉴 뭐예요",
+   "intent": [
+    "nonsense"
+   ],
+   "likes": [],
+   "dislikes": [],
+   "forbid_like": [
+    "학식",
+    "메뉴"
+   ],
+   "known_gap": true
+  },
+  {
+   "id": "holdout1-h38",
+   "cat": "lists_english_xo",
+   "text": "딥러닝, 강화학습, 로보틱스",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "딥러닝"
+    ],
+    [
+     "강화학습",
+     "rl"
+    ],
+    [
+     "로보틱스",
+     "로봇"
+    ]
+   ],
+   "dislikes": [],
+   "forbid_like": []
+  },
+  {
+   "id": "holdout1-h39",
+   "cat": "lists_english_xo",
+   "text": "I like computer vision but not NLP",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "computer vision",
+     "컴퓨터비전",
+     "컴퓨터 비전",
+     "cv"
+    ]
+   ],
+   "dislikes": [
+    [
+     "nlp",
+     "자연어처리",
+     "자연어 처리",
+     "natural language"
+    ]
+   ],
+   "forbid_like": [
+    "nlp",
+    "자연어",
+    "but",
+    "not"
+   ]
+  },
+  {
+   "id": "holdout1-h40",
+   "cat": "lists_english_xo",
+   "text": "미생물 o / 동물실험 x / 유전체 분석 o",
+   "intent": [
+    "search"
+   ],
+   "likes": [
+    [
+     "미생물"
+    ],
+    [
+     "유전체"
+    ]
+   ],
+   "dislikes": [
+    [
+     "동물실험",
+     "동물 실험"
+    ]
+   ],
+   "forbid_like": [
+    "동물",
+    "/"
+   ]
+  }
+ ]
+}

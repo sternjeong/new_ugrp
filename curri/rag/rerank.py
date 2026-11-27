@@ -14,7 +14,20 @@ TOP = 50          # candidates rescored (after folding co-led labs). 2026-11-26,
                   # M1 Pro MPS: 3.8 / 6.5 / 14.9 s per search, so tools/local_mac uses 30.
 CHUNK_CHARS = 450  # per chunk in a lab's passage
 CHUNKS = 3        # best distinct chunks per lab
-DISLIKE = 0.15    # probability taken off per unit of the disliked phrase's z-score above average
+DISLIKE = 0.8     # a lab's probability is multiplied by 1 - DISLIKE x (the reranker's probability for the dislikes)
+# Words around a topic that only say how the student feels or asks ('NeRF 같은 거 너무 멋있어 보여', '모터 구동 어디서 해'):
+# the reranker read them as part of the query and gave the right labs probabilities under 0.005.
+FILLER_WORDS = re.compile(r'^(?:같은|이런|그런|어디서?|뭔가|실제로|직접|정말|진짜|너무|되게|완전|좀|거|것|곳|데|쪽|게|건|걸|'
+                          r'멋있\S*|신기\S*|재밌\S*|재미있\S*|좋\S*|싶\S*|있\S*|없\S*|하는|해\S*|하고\S*|보여\S*|보이\S*|만드는|연구하는|다루는)$')
+
+
+def query(phrases):
+    """The reranker's query: the phrases joined, without the words that carry no topic."""
+    kept = []
+    for phrase in phrases:
+        words = [w for w in phrase.split() if not FILLER_WORDS.match(w)]
+        kept.append(' '.join(words) or phrase)
+    return ', '.join(dict.fromkeys(kept))
 
 
 def clip(text, n):

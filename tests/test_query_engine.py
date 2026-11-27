@@ -146,8 +146,9 @@ class QueryEngineTests(unittest.TestCase):
         recorded = json.load(open(QU / 'V2_results.json', encoding='utf-8'))
         queries = {**{q['id']: q for q in json.load(open(QU / 'queries.json', encoding='utf-8'))},
                    **{q['id']: q for q in json.load(open(QU / 'queries_test.json', encoding='utf-8'))}}
-        # The interpreter now strips "(정말) 재밌었어요" endings, so these phrases have no recorded similarity.
-        reparsed = {'t55', 't58'}
+        # The interpreter now strips "(정말) 재밌었어요" endings, so these phrases have no recorded similarity;
+        # q22 'VR은 질렸고', t30 'VR이나': an abbreviation before a particle now normalizes (VR → 가상현실).
+        reparsed = {'t55', 't58', 'q22', 't30'}
         checked = 0
         for split in ('dev', 'test'):
             for qid, row in recorded[split]['P'].items():

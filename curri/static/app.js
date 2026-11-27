@@ -203,6 +203,7 @@ function searchInfoHTML() {
   const parts = [];
   if (i.intent === 'search' && (likes.length || dislikes.length)) parts.push(`<div class="interest-line"><span class="micro">이렇게 이해했어요</span>${likes.map(x => `<span class="pill">${h(x)}</span>`).join('')}${dislikes.map(x => `<span class="pill method">제외 · ${h(x)}</span>`).join('')}</div>`);
   if (i.intent === 'search') parts.push(mirrorHTML());
+  if (i.intent === 'search' && i.message && (state.results || []).length) parts.push(`<div class="notice">${h(i.message)}</div>`);
   if (i.uncertain) parts.push('<div class="notice">관심을 정확히 이해했는지 확실하지 않아요. 위에 이해한 내용이 맞는지 확인하고, 아니라면 다른 표현으로 다시 적어 보세요.</div>');
   if (i.mode === 'embedding') parts.push('<p class="micro">표현이 달라도 의미가 비슷한 내용까지 함께 찾았어요.</p>');
   if ((i.courses || []).length) parts.push(`<p class="micro">관련 수업: ${i.courses.slice(0,3).map(c => `‘${h(c.name)}’`).join(' · ')}${i.courses.length > 3 ? ` 외 ${i.courses.length-3}개` : ''}. 이 수업을 맡은 교수의 연구실과 수업 내용이 가까운 연구실도 함께 찾았어요. 공식 선수과목 관계는 아니에요.</p>`);

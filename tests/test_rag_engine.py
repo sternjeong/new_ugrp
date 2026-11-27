@@ -215,6 +215,43 @@ class RagEngineTests(unittest.TestCase):
         engine.search('단백질 구조 연구')
         self.assertEqual(asked, ['단백질 구조 연구'])
 
+    def test_labs_the_reranker_rejects_are_cut_after_three_and_the_page_is_told(self):
+        lead = self.catalog.profiles[self.labs[7]]['lab_name']
+        engine, _ = self.engine({'단백질 구조': self.flat(self.labs[3])},
+                                rerank=lambda q: [0.9 if d.startswith(lead) else 0.001 for d in q['documents']])
+        result = engine.search('단백질 구조 연구')
+        self.assertEqual(result['labs'][0]['id'], self.labs[7])
+        self.assertEqual(len(result['labs']), 3)  # MIN_SHOWN
+        self.assertTrue(result['message'])
+        self.assertEqual([c['matched_topics'] for c in result['labs'][1:]], [[], []])  # under BADGE_FLOOR
+
+    def test_the_reranker_reads_the_dislikes_as_their_own_query(self):
+        disliked = self.catalog.profiles[self.labs[4]]['lab_name']
+
+        def rerank(q):
+            if q['query'] == '로봇':
+                return [0.95 if d.startswith(disliked) else 0.0 for d in q['documents']]
+            return [0.8 if d.startswith(disliked) else 0.5 for d in q['documents']]
+        engine, _ = self.engine({'단백질 구조': self.flat(self.labs[4], 0.5), '로봇': {lid: 0.1 for lid in self.labs}}, rerank=rerank)
+        ids = [c['id'] for c in engine.search('단백질 구조는 좋은데 로봇은 싫어')['labs']]
+        self.assertNotEqual(ids[0], self.labs[4])
+
+    def test_a_broad_dislike_only_costs_labs_closer_to_it_than_to_the_likes(self):
+        from curri.curated_query_engine import penalized_z
+        scores, dislike = {'a': 0.9, 'b': 0.5, 'c': 0.4}, {'a': 0.8, 'b': 0.7, 'c': 0.1}
+        liked = {'a': 0.9, 'b': 0.5, 'c': 0.4}
+        self.assertLess(penalized_z(scores, [dislike])['a'], penalized_z(scores, [dislike], liked)['a'])
+        self.assertLess(penalized_z(scores, [dislike], liked)['b'], penalized_z(scores, [])['b'])
+
+    def test_course_labs_count_half_beside_other_interests(self):
+        linked = {'x': (0.9, None, 'teaches'), 'y': (0.8, None, 'similar')}
+        self.assertEqual(RagQueryEngine.rag_fuse(linked, False, ['a', 'b', 'c'])[:4], ['a', 'b', 'c', 'x'])
+        self.assertEqual(RagQueryEngine.rag_fuse(linked, True, ['a', 'b'])[0], 'x')
+
+    def test_the_reranker_query_drops_words_without_a_topic(self):
+        from curri.rag.rerank import query
+        self.assertEqual(query(['NeRF 같은 거 너무 멋있어 보여', '모터 구동 어디서 해']), 'NeRF, 모터 구동')
+
     def test_a_chunk_closer_to_a_dislike_is_neither_evidence_nor_a_match(self):
         lab = self.labs[3]
         topic = self.catalog.card(lab)['topics'][0]
